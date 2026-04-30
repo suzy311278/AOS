@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 5001",
-    "prebuild": "npx tsx scripts/validate-courses.ts && npx tsx scripts/generate-search-index.ts && npx tsx scripts/generate-sitemap.ts && npx tsx scripts/generate-ef-search-index.ts && npx tsx scripts/generate-ef-sitemap.ts && npx tsx scripts/generate-carbon-market-index.ts && npx tsx scripts/embed-jobs.ts",
+    "prebuild": "npx tsx scripts/validate-courses.ts && npx tsx scripts/generate-search-index.ts && npx tsx scripts/generate-sitemap.ts && npx tsx scripts/generate-ef-search-index.ts && npx tsx scripts/generate-ef-sitemap.ts && npx tsx scripts/generate-carbon-market-index.ts",
     "build": "npm run prebuild && next build",
     "start": "next start -p 5001",
     "migrate": "npx tsx scripts/migrate-content.ts",
