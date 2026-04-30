@@ -1,0 +1,26 @@
+- question: "A cement kiln emits CO₂ through two main sources: (1) the combustion of coal to generate heat, and (2) the chemical decomposition of limestone during calcination. How are these emissions classified under CBAM?"
+  options:
+  - "Combustion emissions are direct; calcination emissions are indirect because they occur as a chemical reaction rather than a fuel burning event"
+  - "Both are classified as direct embedded emissions because they both occur within the installation that produces the cement"
+  - "Combustion emissions are direct; calcination emissions are classified as process indirect emissions and excluded from CBAM scope"
+  - "Both are classified as indirect emissions because cement production is considered an electricity-intensive sector under CBAM"
+  answer: 1
+  explanation: "Both combustion (fuel burning) and process emissions (limestone calcination) are classified as direct embedded emissions under CBAM because they both occur within the producing installation. Direct emissions are all Scope 1 emissions — those from sources owned or controlled by the installation, regardless of whether they arise from combustion or from a chemical process reaction."
+
+- question: "For which CBAM-covered sectors does CBAM require both direct AND indirect embedded emissions to be reported in the definitive period?"
+  options:
+  - "Iron and steel, and hydrogen"
+  - "Cement and electricity"
+  - "Aluminium, cement, and fertilisers"
+  - "All six CBAM sectors must report both direct and indirect emissions"
+  answer: 2
+  explanation: "Indirect emissions (from electricity, heat, or cooling consumed in production) are included for aluminium, cement, and fertilisers from the start of the definitive period. These sectors have significant electricity consumption in their production processes, and the carbon intensity of that electricity varies significantly by country. Iron and steel and hydrogen initially cover only direct emissions. Electricity is a special case (it is itself a generated product measured in MWh)."
+
+- question: "Why are perfluorocarbons (PFCs — specifically CF₄ and C₂F₆) included in CBAM's scope for aluminium production?"
+  options:
+  - "Because PFCs are used as a refrigerant in the cooling systems of aluminium smelters"
+  - "Because PFCs are released during 'anode effects' in the electrolytic Hall-Héroult process used in primary aluminium smelting, and they have extremely high global warming potentials (CF₄: GWP 6,630; C₂F₆: GWP 11,100)"
+  - "Because the EU ETS covers PFCs from all industrial sectors, and CBAM mirrors the EU ETS scope"
+  - "Because PFCs are emitted during the transport of aluminium in liquid form and must be accounted for in embedded emissions"
+  answer: 1
+  explanation: "PFCs are released during 'anode effects' — brief electrical disturbances in the electrolytic cells used for primary aluminium production. CF₄ has a GWP of 6,630 and C₂F₆ has a GWP of 11,100 (IPCC AR5), meaning even small quantities represent enormous CO₂-equivalent emissions. Excluding PFCs would significantly understate the climate impact of aluminium production in facilities where anode effects are frequent."

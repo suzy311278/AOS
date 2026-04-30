@@ -1,0 +1,44 @@
+- question: "What is the primary purpose of a materiality assessment in the ESG research stage?"
+  options:
+    - "To determine which ESG factors should be excluded from investment analysis entirely"
+    - "To identify which ESG factors are likely to have a meaningful impact on a company's financial performance"
+    - "To calculate the exact financial impact of each ESG factor in monetary terms"
+    - "To rank companies based on their total ESG score relative to all sectors"
+  answer: 1
+  explanation: "A materiality assessment identifies ESG factors that are likely to affect a company's financial performance, measured by both likelihood and magnitude of impact. Not all ESG factors are material to all companies — water stress matters greatly to a beverage company but is largely irrelevant to a software firm."
+
+- question: "An analyst building an ESG scorecard for pharmaceutical companies identifies 'fair marketing practices' as a material issue. Company A has no policy and a history of regulatory violations. Company B has a comprehensive policy, training programmes, and a strong compliance track record. Which step of the scorecard process does this assessment represent?"
+  options:
+    - "Identifying sector-specific ESG items"
+    - "Determining a scoring system based on best practice"
+    - "Assessing the company and giving it a score"
+    - "Benchmarking against industry averages"
+  answer: 2
+  explanation: "This step — evaluating individual companies against the scoring criteria — is the 'assess the company and give it a score' stage. The prior step of determining the scoring system would have established what a score of 0, 3, or 5 means. Benchmarking against industry averages is a later, optional step."
+
+- question: "In a discounted cash flow (DCF) model, which of the following represents a direct way that ESG analysis can be incorporated?"
+  options:
+    - "Replacing the WACC entirely with an ESG-based discount rate"
+    - "Adjusting revenue growth forecasts based on ESG factors such as employee satisfaction or supply chain resilience"
+    - "Using ESG scores as a substitute for financial ratio analysis"
+    - "Applying a fixed 2% ESG premium to all terminal growth rates"
+  answer: 1
+  explanation: "ESG analysis can influence DCF models through adjustments to revenue growth forecasts (e.g. higher growth for companies with strong employee satisfaction), margin assumptions, cost of capital adjustments (e.g. +1% for poor environmental management), capital expenditure forecasts, and terminal value assumptions. No fixed ESG premium is standard — adjustments are a matter of analyst judgment."
+
+- question: "Why do bond investors typically give greater weight to the governance (G) pillar of ESG than to environmental opportunities?"
+  options:
+    - "Bond investors are not permitted to assess environmental factors"
+    - "Environmental factors never affect companies' financial performance"
+    - "Bond investors face an asymmetric return profile where upside is capped but downside (default) is not, making governance integrity and downside risk prevention paramount"
+    - "Governance data is more readily available than environmental data"
+  answer: 2
+  explanation: "Bond investors have limited upside participation — they receive fixed coupon payments regardless of how well a company performs. Their primary concern is protecting against default. Governance factors — fraud prevention, board oversight, management integrity — are most directly connected to the risk of decisions that impair debt serviceability. Environmental opportunities, by contrast, are largely captured by equity holders."
+
+- question: "Which of the following best distinguishes a 'holdings-based' fund ESG assessment from a 'process-based' fund ESG assessment?"
+  options:
+    - "Holdings-based assessment evaluates the manager's culture; process-based evaluates the portfolio's ESG score"
+    - "Holdings-based assessment weights portfolio companies' ESG scores; process-based evaluates whether ESG is genuinely embedded in the manager's investment culture and decision-making"
+    - "Holdings-based assessment is used only for equities; process-based is used only for fixed income"
+    - "There is no meaningful distinction — both methods produce identical results"
+  answer: 1
+  explanation: "A holdings-based assessment takes a weighted average of portfolio companies' ESG scores, which is mechanically simple but backward-looking and ignores intentional ESG strategy. A process-based assessment evaluates the manager's actual ESG culture, analytical framework, stewardship activity, and how ESG genuinely influences decision-making — capturing things the holdings-based approach misses."

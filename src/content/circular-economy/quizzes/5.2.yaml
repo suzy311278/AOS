@@ -1,0 +1,26 @@
+- question: "What ISO standards govern Life Cycle Assessment methodology?"
+  options:
+    - "ISO 9001 and ISO 14001"
+    - "ISO 14040 and ISO 14044"
+    - "ISO 50001 and ISO 26000"
+    - "ISO 31000 and ISO 14064"
+  answer: 1
+  explanation: "LCA is governed by ISO 14040 (which defines the principles and framework) and ISO 14044 (which specifies the requirements and guidelines for conducting an LCA). These standards define the four phases: goal and scope definition, life cycle inventory, life cycle impact assessment, and interpretation."
+
+- question: "What is the 'functional unit' in a Life Cycle Assessment?"
+  options:
+    - "The factory unit where the product is manufactured"
+    - "The standard unit of environmental impact (e.g. CO₂-equivalent)"
+    - "The basis for comparison between products or processes (e.g. one kilogram of laundry cleaned)"
+    - "The smallest unit of product that can be assessed independently"
+  answer: 2
+  explanation: "The functional unit is the quantified function of a product or process that serves as the basis for comparison in an LCA. For example, 'one kilogram of laundry cleaned' allows comparison between different detergents regardless of their dosing. The functional unit must be precisely defined in the goal and scope phase."
+
+- question: "How does Material Flow Analysis (MFA) complement Life Cycle Assessment (LCA)?"
+  options:
+    - "MFA provides detailed emissions data that LCA uses as inputs"
+    - "MFA assesses individual product impacts while LCA maps economy-wide flows"
+    - "MFA maps material flows through entire systems while LCA assesses environmental impact per product unit"
+    - "MFA and LCA are alternative methods measuring the same thing differently"
+  answer: 2
+  explanation: "LCA assesses the environmental impact intensity per unit of a specific product across its lifecycle, while MFA maps how materials flow through entire economies, sectors, or cities. Together they provide complementary views: LCA reveals impact per product unit, while MFA identifies where the largest material flows occur and where systemic circular interventions would have the greatest impact."

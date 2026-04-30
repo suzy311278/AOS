@@ -1,0 +1,123 @@
+{/* source: RTS 2022/1288 Art. 50-51; EC FAQ Q35-Q42 */}
+
+EU Taxonomy alignment disclosures represent one of the most technically demanding intersections in the sustainable finance regulatory framework. SFDR requires Article 8 and Article 9 products to disclose the proportion of their investments that align with the EU Taxonomy Regulation (Regulation (EU) 2020/852). This creates a data dependency chain that runs from company reporting through fund-level aggregation to investor disclosure.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/eu-sfdr/4_5.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Why Taxonomy Alignment Matters for SFDR
+
+The EU Taxonomy Regulation defines what qualifies as an "environmentally sustainable economic activity." For SFDR purposes, this matters because:
+
+1. **Article 9 products** using the EU Taxonomy as part of their sustainable investment objective must disclose what proportion of their investments align with the Taxonomy (i.e., meet the technical screening criteria for environmental sustainability)
+
+2. **Article 8 products** that invest in environmentally sustainable activities must include in their pre-contractual and periodic disclosures the proportion of Taxonomy-aligned investments
+
+3. **Both Article 8 and 9 products** must distinguish between investments that are "Taxonomy-aligned" (meeting the full Taxonomy requirements, including technical screening criteria, DNSH criteria, and minimum social safeguards) and those that are merely "sustainable investments" under Article 2(17) SFDR but not Taxonomy-aligned
+
+<HighlightBox>
+The EU Taxonomy and SFDR sustainable investment (Article 2(17)) are different standards. Every Taxonomy-aligned investment is a SFDR sustainable investment, but not every SFDR sustainable investment is Taxonomy-aligned. Taxonomy-aligned requires meeting quantitative technical screening criteria developed under the Taxonomy Regulation. SFDR sustainable investment uses a principles-based three-part test (contribution, DNSH, good governance) that financial market participants apply flexibly. Article 9 funds with high Taxonomy-alignment commitments face a significantly higher bar than those relying solely on the broader SFDR definition.
+</HighlightBox>
+
+## The Taxonomy Alignment Disclosure Formula
+
+The RTS (Articles 50-51 and Annex II/IV for pre-contractual, Annexes VI/VIII for periodic reports) requires Taxonomy alignment to be expressed as a **proportion of the portfolio's total investments** aligned with environmentally sustainable economic activities.
+
+<EquationBreakdown
+  title="Taxonomy Alignment Ratio"
+  result="TA% | Taxonomy Alignment | Proportion of total investments aligned with the EU Taxonomy, as a percentage | blue"
+  inputs="MV<sub>aligned</sub> | Taxonomy-Aligned Investments | Market value of investments meeting all four Taxonomy requirements: substantial contribution, DNSH, minimum social safeguards, and technical screening criteria | green ;; MV<sub>all</sub> | All Investments | Market value of all investments in the portfolio | amber"
+  operator="/"
+/>
+
+## What Counts as a Taxonomy-Aligned Investment
+
+For investments in **non-financial companies** (most equity and corporate bond investments), Taxonomy alignment is assessed based on what proportion of the company's revenue (turnover), capital expenditure (CapEx), or operating expenditure (OpEx) is derived from Taxonomy-aligned economic activities.
+
+The RTS (Recital 33 and Article 17) provides for two approaches to calculating the Taxonomy-aligned portion in the numerator:
+- **Turnover-based**: The proportion of the portfolio company's revenue from Taxonomy-aligned activities x the portfolio's investment value
+- **CapEx-based**: The proportion of the portfolio company's capital expenditure on Taxonomy-aligned activities x the portfolio's investment value
+- **OpEx-based**: The proportion of the portfolio company's operational expenditure on Taxonomy-aligned activities x the portfolio's investment value
+
+The RTS (Recital 36) notes that turnover-based KPIs should be the default, with CapEx and OpEx used where the features of the financial product (e.g., a fund specifically investing in green infrastructure projects) make those metrics more representative.
+
+## Sovereign Exposure Treatment
+
+A significant practical complexity arises from investments in **sovereign bonds**. The EU Taxonomy currently does not provide a framework for assessing the Taxonomy-alignment of sovereign issuers (central government bonds). The RTS (Recitals 34-35) acknowledges this gap and provides that:
+
+**Option 1 (including sovereigns in denominator)**: Sovereign exposures are excluded from the numerator (not Taxonomy-aligned), but included in the denominator (all investments). This results in a lower Taxonomy alignment percentage but may be clearer for investors wanting to assess alignment excluding sovereigns.
+
+**Option 2 (excluding sovereigns entirely)**: Sovereign exposures are excluded from both numerator and denominator. This produces a Taxonomy alignment percentage that reflects only the non-sovereign portion of the portfolio.
+
+Both approaches are permitted. The chosen approach must be disclosed and applied consistently.
+
+<ExampleBox>
+**Example, Taxonomy alignment calculation with sovereign bonds:**
+
+A fund has total investments of $100M:
+- $60M in non-financial companies ($15M Taxonomy-aligned, $45M not aligned)
+- $25M in financial companies ($5M Taxonomy-aligned, $20M not aligned)
+- $15M in sovereign bonds (no Taxonomy-aligned classification available)
+
+**Option 1 (sovereigns in denominator):**
+Taxonomy Alignment = ($15M + $5M) / $100M = 20%
+
+**Option 2 (sovereigns excluded):**
+Taxonomy Alignment = ($15M + $5M) / ($100M - $15M) = $20M / $85M = 23.5%
+
+Both figures are valid under the RTS, provided the methodology is clearly disclosed.
+</ExampleBox>
+
+## Key Performance Indicators: Turnover vs CapEx vs OpEx
+
+The choice between turnover, CapEx, and OpEx as the basis for Taxonomy alignment calculation matters significantly for portfolios with capital-intensive investees.
+
+For a utility company investing heavily in renewable energy infrastructure, the CapEx-based KPI may show 60% Taxonomy-aligned CapEx, while the turnover-based KPI shows only 30% aligned revenue (because existing fossil fuel plants still generate most revenue even as new green capacity is built). The CapEx-based figure better reflects the company's transition trajectory; the turnover-based figure better reflects current operations.
+
+The RTS (Recital 36) requires the FMP to select the KPI and explain why it is appropriate for the financial product. For the purpose of comparability, turnover is the default. Capital or operating expenditure should only be used where they are more representative for the specific financial product's investment strategy.
+
+## Graphical Representation Requirement
+
+The RTS requires Taxonomy alignment and sustainable investment proportions to be presented graphically in the pre-contractual document, typically as a stacked bar chart or pie chart showing:
+- Taxonomy-aligned sustainable investments (in green)
+- Other sustainable investments (in light green or another distinguishing colour)
+- Other investments (in grey or another neutral colour)
+
+This standardised visual representation is mandatory for the Annex II-V pre-contractual templates. The graphical format ensures investors can immediately see the sustainability profile of the product at a glance.
+
+## Data Availability Challenges
+
+Taxonomy alignment reporting faces severe data limitations:
+
+1. **Company reporting under CSRD/ESRS is not yet universal**: Not all investee companies report their Taxonomy-aligned revenue, CapEx, and OpEx. CSRD requirements are phasing in from 2024 to 2026 depending on company size.
+
+2. **Financial company KPIs are different**: Banks and insurers use different KPIs for Taxonomy alignment (Green Asset Ratio for banks, insurance KPIs for insurers). The RTS provides specific rules for these.
+
+3. **Estimation for non-reporting companies**: Where companies do not report Taxonomy-aligned KPIs, FMPs may use estimates or third-party data, but must disclose what proportion is estimated.
+
+4. **The "Article 8" safe harbour for non-reporting**: The EU Taxonomy Regulation's Article 8 (Taxonomy Disclosure Regulation, separate from SFDR Article 8) phases in reporting requirements. FMPs may rely on company disclosures under this phased timeline and use estimates where disclosures are not yet available.
+
+<HighlightBox>
+As of 2023-2024, Taxonomy alignment figures for most UCITS and AIF products were relatively low (often below 10-15%), not because the underlying companies are failing to invest in green activities, but because:
+(a) Taxonomy-aligned KPI reporting by companies was still in early phases
+(b) The six environmental objectives under the Taxonomy do not yet have complete technical screening criteria coverage
+(c) DNSH and minimum social safeguards assessments require granular data that is often unavailable
+
+As corporate Taxonomy reporting matures under CSRD, Taxonomy alignment percentages in SFDR disclosures are expected to increase. FMPs should ensure their methodologies are designed to incorporate improved corporate data as it becomes available.
+</HighlightBox>
+
+## Interaction Between Taxonomy Alignment and Sustainable Investment
+
+The RTS makes clear that Taxonomy alignment is a subset of sustainable investments:
+
+- If 20% of the fund is Taxonomy-aligned (meeting the full Taxonomy requirements), those investments also qualify as sustainable investments under Article 2(17) SFDR
+- If another 15% of the fund consists of investments that meet the SFDR sustainable investment test (contribution, DNSH, good governance) but do not meet Taxonomy-specific technical screening criteria, they count as sustainable investments but not Taxonomy-aligned
+
+In the pre-contractual and periodic report templates, this layering must be shown:
+
+- Taxonomy-aligned environmental sustainable investments: [X%]
+- Other environmental sustainable investments (SFDR Article 2(17), not Taxonomy-aligned): [Y%]
+- Social sustainable investments: [Z%]
+- Total sustainable investments: [X + Y + Z%]
+- Other investments: [100% - (X+Y+Z)%]
+
+<KeyTakeaways items="Every Taxonomy-aligned investment qualifies as an SFDR sustainable investment, but not every SFDR sustainable investment meets the stricter Taxonomy technical screening criteria ;; Taxonomy alignment can be calculated using turnover-based, CapEx-based, or OpEx-based KPIs - turnover is the default, with CapEx/OpEx used when more representative of the product strategy ;; Sovereign bonds cannot currently be assessed for Taxonomy alignment - firms must choose between including sovereigns in the denominator only or excluding them entirely, and apply this consistently ;; As of 2023-2024, Taxonomy alignment figures for most funds were relatively low (often below 10-15%) due to phased-in corporate reporting and incomplete technical screening criteria ;; Pre-contractual and periodic templates must layer disclosures: Taxonomy-aligned environmental, other environmental sustainable, social sustainable, and other investments ;; Data availability will improve as CSRD corporate reporting matures - design your methodology now to incorporate better corporate Taxonomy data as it becomes available" />

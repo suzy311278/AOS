@@ -1,0 +1,26 @@
+- question: "The Millennium Ecosystem Assessment (2005) categorised ecosystem services into four types. Which of the following is NOT one of those four categories?"
+  options:
+  - "Provisioning services"
+  - "Regulatory and compliance services"
+  - "Regulating services"
+  - "Cultural services"
+  answer: 1
+  explanation: "The four categories from the Millennium Ecosystem Assessment are: provisioning services (food, water, raw materials), regulating services (climate, flood, pollination), cultural services (recreation, spiritual), and supporting services (soil formation, nutrient cycling). 'Regulatory and compliance services' is not a category - 'regulating' refers to ecosystem regulation, not regulatory compliance."
+
+- question: "What is the 'natural capital' concept, as used in the TNFD framework and the Capitals Coalition?"
+  options:
+  - "The financial capital reserves that conservation organisations hold in bank accounts"
+  - "The underlying stock of natural assets (soil, water, biodiversity) that generates ongoing flows of ecosystem services"
+  - "The total GDP contribution of the forestry and agriculture sectors"
+  - "The monetary value assigned to carbon offsets in voluntary carbon markets"
+  answer: 1
+  explanation: "Natural capital is the underlying stock of natural assets, including soil, water, air, and living organisms, that generates flows of ecosystem services. The analogy to financial capital is intentional: just as a savings account generates interest, natural capital generates ecosystem services. Depleting the stock (deforestation, soil degradation) eliminates future flows, analogous to spending down a savings account."
+
+- question: "According to the TEEB framework, what was the estimated annual economic value of global pollination services to food production?"
+  options:
+  - "$23 to $57 billion"
+  - "$235 to $577 billion"
+  - "$2.35 to $5.77 trillion"
+  - "$23.5 to $57.7 trillion"
+  answer: 1
+  explanation: "TEEB and subsequent assessments estimated the annual economic value of pollination services to global food production at approximately $235 to $577 billion per year. This single regulating service (provided primarily by wild bees, managed honeybees, butterflies, and bats) underpins roughly 75% of global food crop types by variety, illustrating the enormous material financial dependency on a single category of ecosystem service."

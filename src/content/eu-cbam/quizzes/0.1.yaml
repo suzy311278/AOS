@@ -1,0 +1,26 @@
+- question: "Which of the following best defines carbon leakage as used in the CBAM Regulation?"
+  options:
+  - "The physical leakage of CO₂ from underground carbon storage sites"
+  - "The shift of carbon-intensive production to countries with less stringent climate policies, or the replacement of EU goods by more carbon-intensive imports"
+  - "The process by which CO₂ from combustion escapes into the atmosphere before it can be captured"
+  - "The transfer of EU ETS allowances to non-EU entities through derivative contracts"
+  answer: 1
+  explanation: "Carbon leakage occurs when EU climate ambition causes either production relocation to countries with weaker policies, or import substitution of EU goods by more carbon-intensive imports. Both channels mean that global emissions are not reduced even as EU territorial emissions fall."
+
+- question: "Before CBAM, what was the EU's primary tool for managing carbon leakage risk in ETS-covered sectors?"
+  options:
+  - "Import tariffs on steel and cement"
+  - "Mandatory carbon pricing in trading partner countries"
+  - "Free allocation of EU ETS allowances to sectors at risk of carbon leakage"
+  - "Voluntary carbon offset schemes for EU importers"
+  answer: 2
+  explanation: "Free allocation of EU ETS allowances under Article 10a of the ETS Directive was the primary leakage protection tool. It reduced the carbon cost disadvantage of EU producers relative to foreign competitors, but was always intended as a transitional measure to be replaced by CBAM."
+
+- question: "Why does CBAM also create an incentive for foreign producers to reduce their emissions intensity, even in countries without a domestic carbon price?"
+  options:
+  - "Because CBAM applies a fixed tariff regardless of actual emissions, incentivising producers to lobby for lower rates"
+  - "Because lower embedded emissions in their goods lead to lower CBAM certificate costs for their EU customers, making their products more competitive in the EU market"
+  - "Because CBAM revenues are redistributed as subsidies to foreign producers who reduce emissions"
+  - "Because EU customs authorities deny import clearance to goods above a certain emission intensity"
+  answer: 1
+  explanation: "CBAM charges are based on actual embedded emissions in the imported goods. A foreign producer who reduces their production emission intensity generates lower embedded emissions per tonne of product, which means a lower CBAM certificate cost for their EU importer — making their goods more price-competitive in the EU market relative to less efficient competitors."

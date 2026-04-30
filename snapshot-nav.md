@@ -1,0 +1,414 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Greentryst" [ref=e5] [cursor=pointer]:
+          - /url: /redesign
+        - generic [ref=e6]:
+          - link "Learn" [ref=e7] [cursor=pointer]:
+            - /url: /redesign/learn
+          - link "SustainIQ" [ref=e8] [cursor=pointer]:
+            - /url: /redesign/ask
+          - link "Career" [ref=e9] [cursor=pointer]:
+            - /url: /redesign/jobs
+          - link "Tools" [ref=e10] [cursor=pointer]:
+            - /url: /redesign/tools
+          - link "Pricing" [ref=e11] [cursor=pointer]:
+            - /url: /redesign/pricing
+        - generic [ref=e12]:
+          - link "Sign In" [ref=e13] [cursor=pointer]:
+            - /url: /redesign/sign-in
+          - link "Get Started" [ref=e14] [cursor=pointer]:
+            - /url: /redesign/sign-up
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e20]: The Sustainability OS
+        - heading "Learn any framework. Find any answer. Run any calculation. Land your next role." [level=1] [ref=e21]:
+          - generic [ref=e22]: Learn any framework.
+          - generic [ref=e23]: Find any answer.
+          - generic [ref=e24]: Run any calculation.
+          - generic [ref=e25]: Land your next role.
+        - paragraph [ref=e26]: More accurate than ChatGPT. Cheaper than Bloomberg. More comprehensive than Coursera. All in one place.
+        - generic [ref=e27]:
+          - button "Start Free" [ref=e28] [cursor=pointer]:
+            - text: Start Free
+            - img [ref=e29]
+          - button "See How It Works" [ref=e31] [cursor=pointer]
+        - paragraph [ref=e32]: No credit card required. 3 lessons free.
+      - generic [ref=e33]:
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]: Learn
+            - generic [ref=e38]: 100%
+          - generic [ref=e39]:
+            - paragraph [ref=e40]: Course completed
+            - paragraph [ref=e41]: "PCAF: Financed Emissions"
+            - paragraph [ref=e42]: "Module 2: Attribution Factors"
+          - paragraph [ref=e44]: GHG Protocol Corporate Value Chain Standard, Ch. 5
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: SustainIQ
+            - img [ref=e49]
+          - generic [ref=e52]:
+            - paragraph [ref=e53]: Question
+            - paragraph [ref=e54]: What is the GWP of methane under AR6?
+            - paragraph [ref=e55]: "27.9"
+          - paragraph [ref=e57]: IPCC AR6 WG1, Table 7.15, p.1017
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - generic [ref=e61]: Tools
+            - generic [ref=e62]: Soon
+          - generic [ref=e63]:
+            - paragraph [ref=e64]: GHG Calculator
+            - paragraph [ref=e65]: Scope 3 Cat 6 · 142,500 km flights
+            - paragraph [ref=e66]: 36.3 tCO2e
+          - paragraph [ref=e68]: DEFRA 2024, Table 4c — verified factor
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e72]: Career
+            - generic [ref=e73]: 87%
+          - generic [ref=e74]:
+            - paragraph [ref=e75]: Job match
+            - paragraph [ref=e76]: Senior ESG Analyst
+            - paragraph [ref=e77]: Deloitte · London
+          - paragraph [ref=e79]: Match boosted by your PCAF certification
+    - generic [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e83]: TCFD
+        - generic [ref=e86]: IFRS S1
+        - generic [ref=e89]: IFRS S2
+        - generic [ref=e92]: AASB S2
+        - generic [ref=e95]: GRI
+        - generic [ref=e98]: CDP
+        - generic [ref=e101]: Double Materiality
+        - generic [ref=e104]: GHG Protocol
+        - generic [ref=e107]: Scope 3
+        - generic [ref=e110]: Financed Emissions
+        - generic [ref=e113]: PCAF
+        - generic [ref=e116]: SBTi
+        - generic [ref=e119]: IPCC AR6
+        - generic [ref=e122]: Climate Risk
+        - generic [ref=e125]: CSRD
+        - generic [ref=e128]: EU Taxonomy
+        - generic [ref=e131]: SFDR
+        - generic [ref=e134]: CSDDD
+        - generic [ref=e137]: BRSR
+        - generic [ref=e140]: SB 253
+        - generic [ref=e143]: SB 261
+        - generic [ref=e146]: VCM
+        - generic [ref=e149]: Verra
+        - generic [ref=e152]: Gold Standard
+        - generic [ref=e155]: VM0042
+        - generic [ref=e158]: Article 6
+        - generic [ref=e161]: CORSIA
+        - generic [ref=e164]: TNFD
+        - generic [ref=e167]: NBS
+        - generic [ref=e170]: HRDD
+        - generic [ref=e173]: ESG
+        - generic [ref=e176]: EPR
+        - generic [ref=e179]: Circular Economy
+        - generic [ref=e182]: TCFD
+        - generic [ref=e185]: IFRS S1
+        - generic [ref=e188]: IFRS S2
+        - generic [ref=e191]: AASB S2
+        - generic [ref=e194]: GRI
+        - generic [ref=e197]: CDP
+        - generic [ref=e200]: Double Materiality
+        - generic [ref=e203]: GHG Protocol
+        - generic [ref=e206]: Scope 3
+        - generic [ref=e209]: Financed Emissions
+        - generic [ref=e212]: PCAF
+        - generic [ref=e215]: SBTi
+        - generic [ref=e218]: IPCC AR6
+        - generic [ref=e221]: Climate Risk
+        - generic [ref=e224]: CSRD
+        - generic [ref=e227]: EU Taxonomy
+        - generic [ref=e230]: SFDR
+        - generic [ref=e233]: CSDDD
+        - generic [ref=e236]: BRSR
+        - generic [ref=e239]: SB 253
+        - generic [ref=e242]: SB 261
+        - generic [ref=e245]: VCM
+        - generic [ref=e248]: Verra
+        - generic [ref=e251]: Gold Standard
+        - generic [ref=e254]: VM0042
+        - generic [ref=e257]: Article 6
+        - generic [ref=e260]: CORSIA
+        - generic [ref=e263]: TNFD
+        - generic [ref=e266]: NBS
+        - generic [ref=e269]: HRDD
+        - generic [ref=e272]: ESG
+        - generic [ref=e275]: EPR
+        - generic [ref=e278]: Circular Economy
+      - generic [ref=e280]: "Sustainability frameworks and methodologies covered: TCFD, IFRS S1, IFRS S2, AASB S2, GRI, CDP, Double Materiality, GHG Protocol, Scope 3, Financed Emissions, PCAF, SBTi, IPCC AR6, Climate Risk, CSRD, EU Taxonomy, SFDR, CSDDD, BRSR, SB 253, SB 261, VCM, Verra, Gold Standard, VM0042, Article 6, CORSIA, TNFD, NBS, HRDD, ESG, EPR, Circular Economy"
+    - generic [ref=e282]:
+      - generic [ref=e283]:
+        - generic [ref=e284]:
+          - generic [ref=e285]: 22+
+          - generic [ref=e286]: Courses
+        - generic [ref=e287]:
+          - generic [ref=e288]: 470+
+          - generic [ref=e289]: Lessons
+        - generic [ref=e290]:
+          - generic [ref=e291]: 530+
+          - generic [ref=e292]: Source Docs
+        - generic [ref=e293]:
+          - generic [ref=e294]: "6"
+          - generic [ref=e295]: Pro Tools
+        - generic [ref=e296]:
+          - generic [ref=e297]: 120+
+          - generic [ref=e298]: Regulations Tracked
+        - generic [ref=e299]:
+          - generic [ref=e300]: 416+
+          - generic [ref=e301]: Jobs Listed
+        - generic [ref=e302]:
+          - generic [ref=e303]: 14+
+          - generic [ref=e304]: Geographies
+        - generic [ref=e305]:
+          - generic [ref=e306]: 1K+
+          - generic [ref=e307]: Practitioners
+        - generic [ref=e308]:
+          - generic [ref=e309]: 100%
+          - generic [ref=e310]: Sourced
+      - generic [ref=e311]:
+        - generic [ref=e312]: The Provenance Promise
+        - heading "Sustainability work deserves better than fragmented PDFs, unverified AI, and software priced out of reach." [level=2] [ref=e313]
+        - paragraph [ref=e315]: Every answer on Greentryst traces back to its original source document, page number, and publication year. Every calculation carries its audit trail. Every regulation links to the legal text.
+      - generic [ref=e316]:
+        - generic [ref=e318] [cursor=pointer]:
+          - generic [ref=e319]:
+            - generic [ref=e320]: SustainIQ Answer
+            - img [ref=e321]
+          - generic [ref=e324]:
+            - paragraph [ref=e325]: What is the baseline period for VM0042?
+            - paragraph [ref=e326]: 10 years prior to the project start date
+          - paragraph [ref=e328]: VM0042 v2.2, Section 3.1.2, p.14
+        - generic [ref=e330] [cursor=pointer]:
+          - generic [ref=e331]:
+            - generic [ref=e332]: Lesson Citation
+            - img [ref=e333]
+          - generic [ref=e336]:
+            - paragraph [ref=e337]: "Scope 3 Category 6: Business Travel"
+            - paragraph [ref=e338]: Mandatory reporting including air, rail, and bus transport for business purposes under operational control.
+          - paragraph [ref=e340]: GHG Protocol Corporate Value Chain Standard, Ch. 7
+        - generic [ref=e342] [cursor=pointer]:
+          - generic [ref=e343]:
+            - generic [ref=e344]: Emission Factor
+            - img [ref=e345]
+          - generic [ref=e348]:
+            - paragraph [ref=e349]: Grid Emission Factor — India
+            - paragraph [ref=e350]: 0.716 tCO2/MWh
+          - paragraph [ref=e352]: CEA CO2 Baseline Database v19, 2024
+        - generic [ref=e354] [cursor=pointer]:
+          - generic [ref=e355]:
+            - generic [ref=e356]: Calculator Output
+            - img [ref=e357]
+          - generic [ref=e360]:
+            - paragraph [ref=e361]: Scope 3 Cat 6 · 142,500 km short-haul flights
+            - generic [ref=e362]:
+              - paragraph [ref=e363]: "36.3"
+              - generic [ref=e364]: tCO2e
+              - generic [ref=e365]: Audit-ready
+            - paragraph [ref=e366]: 142,500 × 0.255 kgCO2e/km = 36,337.5 kgCO2e
+          - paragraph [ref=e368]: DEFRA 2024, Table 4c, Row 12 · PCAF v3, §5.2
+        - generic [ref=e370] [cursor=pointer]:
+          - generic [ref=e371]:
+            - generic [ref=e372]: Regulation Tracker
+            - img [ref=e373]
+          - generic [ref=e376]:
+            - paragraph [ref=e377]: CSRD — Wave 2 filing deadline
+            - generic [ref=e378]:
+              - paragraph [ref=e379]: Jan 1, 2026
+              - generic [ref=e380]: — Large non-EU companies with EU subsidiaries
+          - paragraph [ref=e382]: EU Directive 2022/2464/EU · EUR-Lex 32022L2464
+      - generic [ref=e383]:
+        - generic [ref=e384]:
+          - generic [ref=e385]: Try it yourself
+          - heading "Ask SustainIQ any sustainability question." [level=3] [ref=e386]
+          - paragraph [ref=e387]: Every answer sourced to the correct regulation and framework, cross-referenced across multiple authoritative documents.
+        - generic [ref=e389]:
+          - img [ref=e390]
+          - textbox "Ask SustainIQ" [ref=e393]:
+            - /placeholder: "Try: What is the SBTi 1.5°C target criterion for near-term reductions?"
+          - button "Ask" [ref=e394] [cursor=pointer]:
+            - generic [ref=e395]: Ask
+            - img [ref=e396]
+        - generic [ref=e398]:
+          - button "What is the GWP of methane under AR6?" [ref=e399] [cursor=pointer]
+          - button "What is the baseline period for VM0042?" [ref=e400] [cursor=pointer]
+          - button "Which companies must file BRSR?" [ref=e401] [cursor=pointer]
+          - button "When does CSRD apply to non-EU companies?" [ref=e402] [cursor=pointer]
+          - button "How many Scope 3 categories are there in the GHG Protocol?" [ref=e403] [cursor=pointer]
+          - button "What is double materiality under CSRD?" [ref=e404] [cursor=pointer]
+          - button "How is attribution calculated under PCAF for business loans?" [ref=e405] [cursor=pointer]
+          - button "What is the SBTi 1.5°C target criterion for near-term reductions?" [ref=e406] [cursor=pointer]
+    - generic [ref=e408]:
+      - generic [ref=e409]:
+        - generic [ref=e410]: Built for How You Actually Work
+        - heading "Five ways to work. One platform." [level=2] [ref=e411]
+        - paragraph [ref=e412]: You arrive with a need. The platform meets you where you are.
+      - generic [ref=e413]:
+        - navigation [ref=e414]:
+          - button "Learn Master any topic from scratch" [active] [ref=e415] [cursor=pointer]:
+            - generic [ref=e416]:
+              - img [ref=e417]
+              - generic [ref=e419]: Learn
+            - paragraph [ref=e420]: Master any topic from scratch
+          - button "Ask Sourced answers, cross-referenced" [ref=e422] [cursor=pointer]:
+            - generic [ref=e423]:
+              - img [ref=e424]
+              - generic [ref=e427]: Ask
+            - paragraph [ref=e428]: Sourced answers, cross-referenced
+          - button "Tools Soon Audit-ready calculations" [ref=e429] [cursor=pointer]:
+            - generic [ref=e430]:
+              - img [ref=e431]
+              - generic [ref=e433]: Tools
+              - generic [ref=e434]: Soon
+            - paragraph [ref=e435]: Audit-ready calculations
+          - button "Regulations Soon Know what new rules mean for you" [ref=e436] [cursor=pointer]:
+            - generic [ref=e437]:
+              - img [ref=e438]
+              - generic [ref=e441]: Regulations
+              - generic [ref=e442]: Soon
+            - paragraph [ref=e443]: Know what new rules mean for you
+          - button "Careers Your learning opens doors" [ref=e444] [cursor=pointer]:
+            - generic [ref=e445]:
+              - img [ref=e446]
+              - generic [ref=e449]: Careers
+            - paragraph [ref=e450]: Your learning opens doors
+        - generic [ref=e1046]:
+          - generic [ref=e1047]:
+            - generic [ref=e1049]: Ask
+            - heading "Every answer cross-referenced, every citation verifiable." [level=3] [ref=e1050]
+            - paragraph [ref=e1051]: For when you need a specific answer fast, and it has to be defensible.
+            - generic [ref=e1052]:
+              - generic [ref=e1053]
+              - generic [ref=e1056]
+              - generic [ref=e1059]
+            - link "Try SustainIQ" [ref=e1063] [cursor=pointer]:
+              - /url: /ask
+              - text: Try SustainIQ
+              - img [ref=e1064]
+          - generic [ref=e1068]:
+            - generic [ref=e1069]:
+              - img [ref=e1070]
+              - generic [ref=e1073]: What is the baseline period for VM0042?
+            - paragraph [ref=e1074]: 10 years prior to project start
+            - paragraph [ref=e1075]: The baseline period represents the 10 years of historical management practices before project initiation.
+            - generic [ref=e1076]:
+              - generic [ref=e1077]: VM0042 v2.2, §3.1.2
+              - generic [ref=e1078]: Verra Handbook, p.47
+              - generic [ref=e1079]: +1 more
+    - generic [ref=e538]:
+      - generic [ref=e539]:
+        - generic [ref=e540]: Pricing
+        - heading "Professional tools at individual prices." [level=2] [ref=e541]
+        - paragraph [ref=e542]: Not enterprise software. Not a free course platform. The right tools at the right price for individual practitioners.
+      - generic [ref=e543]:
+        - generic [ref=e544]:
+          - generic [ref=e545]:
+            - heading "Learn" [level=3] [ref=e546]
+            - paragraph [ref=e547]: Get started with sourced sustainability learning.
+          - generic [ref=e548]:
+            - generic [ref=e549]: $8
+            - generic [ref=e550]: /month
+          - list [ref=e552]:
+            - listitem [ref=e553]:
+              - img [ref=e554]
+              - generic [ref=e556]: Unlimited courses + certificates
+            - listitem [ref=e557]:
+              - img [ref=e558]
+              - generic [ref=e560]: 10 SustainIQ queries/month
+            - listitem [ref=e561]:
+              - img [ref=e562]
+              - generic [ref=e564]: Job board (browse only)
+            - listitem [ref=e565]:
+              - img [ref=e566]
+              - generic [ref=e568]: Community discussions (rate-limited)
+          - link "Start Learning" [ref=e569] [cursor=pointer]:
+            - /url: /redesign/pricing#learn
+        - generic [ref=e570]:
+          - generic [ref=e571]: Most Popular
+          - generic [ref=e572]:
+            - heading "Career" [level=3] [ref=e573]
+            - paragraph [ref=e574]: For practitioners advancing their career.
+          - generic [ref=e575]:
+            - generic [ref=e576]: $14
+            - generic [ref=e577]: /month
+          - list [ref=e579]:
+            - listitem [ref=e580]:
+              - img [ref=e581]
+              - generic [ref=e583]: Everything in Learn
+            - listitem [ref=e584]:
+              - img [ref=e585]
+              - generic [ref=e587]: 6 SustainIQ queries/day
+            - listitem [ref=e588]:
+              - img [ref=e589]
+              - generic [ref=e591]: Full job matching + resume analysis
+            - listitem [ref=e592]:
+              - img [ref=e593]
+              - generic [ref=e595]: Skill gap analysis linked to courses
+            - listitem [ref=e596]:
+              - img [ref=e597]
+              - generic [ref=e599]: Unlimited community posting
+          - link "Start Career" [ref=e600] [cursor=pointer]:
+            - /url: /redesign/pricing#career
+        - generic [ref=e601]:
+          - generic [ref=e602]:
+            - heading "Pro" [level=3] [ref=e603]
+            - paragraph [ref=e604]: The full professional operating system.
+          - generic [ref=e605]:
+            - generic [ref=e606]: $25
+            - generic [ref=e607]: /month
+          - list [ref=e609]:
+            - listitem [ref=e610]:
+              - img [ref=e611]
+              - generic [ref=e613]: Everything in Career
+            - listitem [ref=e614]:
+              - img [ref=e615]
+              - generic [ref=e617]: 20 SustainIQ queries/day
+            - listitem [ref=e618]:
+              - img [ref=e619]
+              - generic [ref=e621]: All professional tools
+            - listitem [ref=e622]:
+              - img [ref=e623]
+              - generic [ref=e625]: Company ESG screener
+            - listitem [ref=e626]:
+              - img [ref=e627]
+              - generic [ref=e629]: Regulation tracker + RFP aggregator
+          - link "Go Pro" [ref=e630] [cursor=pointer]:
+            - /url: /redesign/pricing#pro
+      - paragraph [ref=e631]: Start with 3 free lessons. No credit card required. Annual billing saves 25%.
+    - contentinfo [ref=e632]:
+      - generic [ref=e633]:
+        - generic [ref=e634]:
+          - generic [ref=e635]:
+            - link "Greentryst" [ref=e636] [cursor=pointer]:
+              - /url: /redesign
+            - paragraph [ref=e637]: The professional operating system for sustainability practitioners.
+          - generic [ref=e638]:
+            - heading "Platform" [level=3] [ref=e639]
+            - list [ref=e640]:
+              - listitem [ref=e641]
+              - listitem [ref=e643]
+              - listitem [ref=e645]
+              - listitem [ref=e647]
+              - listitem [ref=e649]
+          - generic [ref=e651]:
+            - heading "Resources" [level=3] [ref=e652]
+            - list [ref=e653]:
+              - listitem [ref=e654]
+              - listitem [ref=e656]
+              - listitem [ref=e658]
+              - listitem [ref=e660]
+          - generic [ref=e662]:
+            - heading "Company" [level=3] [ref=e663]
+            - list [ref=e664]:
+              - listitem [ref=e665]
+              - listitem [ref=e667]
+              - listitem [ref=e669]
+              - listitem [ref=e671]
+        - generic [ref=e673]:
+          - paragraph [ref=e674]: 2026 Greentryst. Built for sustainability professionals.
+          - paragraph [ref=e675]: Every claim sourced. Every answer defensible.
+  - alert [ref=e676]

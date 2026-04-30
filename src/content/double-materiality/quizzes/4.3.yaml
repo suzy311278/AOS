@@ -1,0 +1,26 @@
+- question: "According to EFRAG IG1, how does a GRI materiality assessment relate to an ESRS double materiality assessment?"
+  options:
+    - "A GRI assessment covers both impact and financial materiality and can be used directly as the ESRS assessment"
+    - "A GRI assessment constitutes a good basis for the impact materiality dimension of ESRS, with financial materiality needing to be added"
+    - "A GRI assessment is incompatible with ESRS and must be replaced entirely"
+    - "A GRI assessment covers financial materiality only and must be supplemented with impact materiality"
+  answer: 1
+  explanation: "EFRAG IG1 paragraph 138 and key point 11 state that a GRI assessment is focused on impact materiality and constitutes a good basis for the assessment of impacts under ESRS. The financial materiality dimension is the element to be added when moving from the GRI Universal Standards reporting framework to that of the ESRS."
+
+- question: "According to EFRAG IG1, how does the financial materiality concept in ESRS relate to the materiality concept in IFRS S1 (the ISSB standard)?"
+  options:
+    - "They are fundamentally different and produce different disclosures"
+    - "IFRS S1 covers impact materiality while ESRS covers financial materiality"
+    - "The criteria for financial materiality in ESRS and IFRS S1 are aligned, so the same assessment process can support compliance with both standards"
+    - "ESRS financial materiality is broader than IFRS S1 and covers a wider range of stakeholders"
+  answer: 2
+  explanation: "EFRAG IG1 paragraphs 140 to 142 and key point 12 state that the criteria for financial materiality in ESRS and IFRS S1 are aligned. An undertaking applying ESRS is expected to comply with the identification of risks and opportunities under IFRS using the outcome of its ESRS financial materiality assessment."
+
+- question: "What is the key difference between the GRI Universal Standards materiality concept and ESRS double materiality?"
+  options:
+    - "GRI assesses materiality for investors only, while ESRS assesses it for all stakeholders"
+    - "GRI covers impact materiality only and does not include a financial materiality dimension, while ESRS covers both impact materiality and financial materiality"
+    - "ESRS covers impact materiality only and does not include a financial materiality dimension, while GRI covers both"
+    - "GRI and ESRS use identical materiality concepts with no meaningful difference"
+  answer: 1
+  explanation: "EFRAG IG1 paragraph 138 explains that a GRI assessment is focused on impact materiality but not on the financial materiality dimension, as the GRI is not based on double materiality the way the ESRS are. ESRS double materiality covers both impact materiality and financial materiality. A company moving from GRI to ESRS must add the financial materiality dimension."

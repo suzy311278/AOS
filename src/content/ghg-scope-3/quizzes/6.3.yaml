@@ -1,0 +1,35 @@
+- question: "Under the GHG Protocol Scope 3 Standard, which of the following is a MANDATORY disclosure requirement?"
+  options:
+    - "Year-on-year trend analysis comparing current and previous five years"
+    - "Total Scope 3 emissions disaggregated by all 15 categories"
+    - "Third-party assurance statement"
+    - "Intensity metrics expressed per unit of revenue"
+  answer: 1
+  explanation: "The standard requires total Scope 3 emissions to be disclosed disaggregated by category — a single 'total Scope 3' number does not satisfy the reporting requirements. Third-party assurance and intensity metrics are recommended but not mandatory under the standard itself."
+
+- question: "California Senate Bill 253 (US) will require Scope 1, 2, AND 3 reporting for companies with revenues above:"
+  options:
+    - "$100 million"
+    - "$500 million"
+    - "$1 billion"
+    - "$10 billion"
+  answer: 2
+  explanation: "California SB 253 requires companies with revenues above $1 billion that do business in California to report Scope 1, 2, and 3 emissions, beginning in 2026. This affects thousands of global companies, not just California-based ones."
+
+- question: "Which disclosure framework requires Scope 3 reporting disaggregated by all 15 categories under its ESRS E1 standard?"
+  options:
+    - "CDP questionnaire"
+    - "GRI 305-3"
+    - "EU CSRD/ESRS E1"
+    - "SASB Standards"
+  answer: 2
+  explanation: "The EU Corporate Sustainability Reporting Directive (CSRD) and its accompanying European Sustainability Reporting Standard E1 (ESRS E1) require disclosure of Scope 3 emissions across all 15 categories, a transition plan aligned with Paris Agreement goals, and assurance of the disclosed data."
+
+- question: "Biogenic CO₂ emissions — for example, from burning wood products or composting organic waste — should be reported:"
+  options:
+    - "Included in the standard tCO₂e Scope 3 total"
+    - "Excluded entirely from all sustainability reporting"
+    - "Separately from the standard tCO₂e total, not embedded within it"
+    - "Counted only in Scope 1, not Scope 3"
+  answer: 2
+  explanation: "The GHG Protocol requires biogenic CO₂ to be disclosed separately from the standard tCO₂e inventory total. This prevents biogenic emissions (from biological carbon cycles) from being conflated with fossil CO₂ emissions, which have different accounting implications for carbon neutrality claims."

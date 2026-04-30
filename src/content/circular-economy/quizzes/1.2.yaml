@@ -1,0 +1,26 @@
+- question: "The EU Waste Framework Directive (2008/98/EC) establishes a five-step waste hierarchy. What is the highest priority step?"
+  options:
+    - "Recycling"
+    - "Preparing for re-use"
+    - "Prevention"
+    - "Other recovery (energy)"
+  answer: 2
+  explanation: "Prevention - minimising waste generation and its hazardousness before waste is created - is the highest priority in the EU waste hierarchy. All lower steps (reuse, recycling, recovery, disposal) are only preferred when prevention is not feasible."
+
+- question: "What is the EU target for preparation for re-use and recycling of municipal waste by 2030 under the amended Waste Framework Directive?"
+  options:
+    - "50%"
+    - "55%"
+    - "60%"
+    - "65%"
+  answer: 2
+  explanation: "The 2018 amendment to the Waste Framework Directive sets escalating municipal waste recycling targets: 55% by 2025, 60% by 2030, and 65% by 2035. The 2020 target was 50%."
+
+- question: "In the expanded R-strategies framework, why do 'inner loops' (Refuse, Rethink, Reduce, Reuse, Repair) preserve more value than 'outer loops' (Recycle, Recover energy)?"
+  options:
+    - "Inner loop strategies are always cheaper to implement than recycling"
+    - "Inner loops preserve the embedded manufacturing energy and labour that outer loops destroy"
+    - "Recycling always generates toxic by-products that inner loops avoid"
+    - "Inner loops are mandated by EU law while outer loops are voluntary"
+  answer: 1
+  explanation: "Reusing or repairing a product preserves all the energy, materials, and skilled labour that went into manufacturing it. Recycling destroys this manufacturing value, recovering only the raw material content at typically lower quality."

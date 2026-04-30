@@ -1,0 +1,26 @@
+- question: "Under which circumstances does PS 7 require Free, Prior, and Informed Consent (FPIC)?"
+  options:
+    - "For all projects that involve any consultation with indigenous communities"
+    - "When projects affect indigenous lands, require relocation, or impact critical cultural heritage"
+    - "Only when indigenous peoples formally request it"
+    - "Only for Category A projects in forested areas"
+  answer: 1
+  explanation: "PS 7 requires FPIC in three circumstances: (1) impacts on lands and natural resources subject to traditional ownership or customary use, (2) relocation of indigenous peoples from their communally held lands, and (3) significant impacts on critical cultural heritage essential to the identity of indigenous peoples."
+
+- question: "Which characteristics help identify Indigenous Peoples under PS 7?"
+  options:
+    - "Only government-issued indigenous status certificates"
+    - "Self-identification, distinct language or culture, customary institutions, and attachment to ancestral territories"
+    - "Living in rural areas without access to modern services"
+    - "Membership in a UN-recognized indigenous organization"
+  answer: 1
+  explanation: "PS 7 uses multiple criteria: self-identification as indigenous, collective attachment to geographically distinct habitats or ancestral territories, customary cultural, economic, social, or political institutions distinct from the dominant society, and a distinct language or dialect. No single criterion is decisive - they are considered together."
+
+- question: "Does FPIC require unanimous agreement from every member of an indigenous community?"
+  options:
+    - "Yes, every individual must sign a consent document"
+    - "No, it requires a collective decision reached through the community's own decision-making processes"
+    - "Yes, a formal referendum with 100% participation is required"
+    - "No, consent from the community chief alone is sufficient"
+  answer: 1
+  explanation: "FPIC does not require unanimity. It is a collective process conducted through the indigenous community's own representative institutions and decision-making processes. The consent must be free (without coercion), prior (obtained before the activity begins), and informed (based on full disclosure of relevant information)."

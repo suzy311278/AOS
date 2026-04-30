@@ -1,0 +1,189 @@
+{/* source: ESG Analysis, Valuation and Integration, Chapter 7, Range of ESG Integration Databases; Company ESG Assessment and Ratings; Primary and Secondary ESG Data Sources; Other Uses of ESG Data */}
+
+Every ESG analysis process starts with data. And the ESG data landscape is vast, growing, and, frankly, messy. There are dozens of providers, multiple methodologies, inconsistent scoring systems, and persistent gaps in coverage. Understanding who produces ESG data, what it actually measures, and where it falls short is essential for any investment professional who wants to use it effectively rather than uncritically.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/esg-investing/5_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## The ESG Data Ecosystem
+
+ESG data providers can be usefully categorised in several ways.
+
+### By Business Model
+
+**Large for-profit providers** offer ESG products alongside a broad suite of financial data and services. Examples include MSCI, S&P Global, Fitch, Moody's, and Bloomberg. These organisations have the resources to cover large global universes of companies and typically offer both raw data and ratings products.
+
+**Specialist boutique providers** focus specifically on ESG and sustainability data. Examples include RepRisk (known for controversy tracking) and ISS (originally a proxy advisory firm that expanded into ESG research). These firms often have deep expertise in particular areas of ESG analysis.
+
+**Non-profit and public sector providers** offer ESG-related data and ratings free to the public. CDP collects self-reported environmental data from thousands of companies globally. The World Bank maintains a Sovereign ESG data portal covering countries.
+
+### By Provider Origin
+
+It also helps to understand how the provider landscape evolved, because origin shapes methodology:
+
+- **Traditional SRI-origin providers** such as MSCI (which acquired KLD Research in 2010) and Sustainalytics (Morningstar) built their frameworks from socially responsible investment roots, with long histories in corporate governance and environmental screening.
+- **Credit rating agencies entering the ESG space**, S&P Global acquired RobecoSAM's ESG ratings business in 2019; Moody's acquired Vigeo Eiris in 2019. These acquisitions brought ESG ratings under the umbrella of established credit institutions, but the methodologies often remained distinct from traditional credit assessment.
+- **AI and algorithm-driven providers** use web scraping, natural language processing, and alternative data sources to build ESG assessments dynamically, often updating more frequently than survey-based ratings.
+
+### By Product Type
+
+Beyond the business model, it helps to understand the different *types* of ESG service that providers offer:
+
+| Product Type | Description |
+|---|---|
+| **ESG data** | Quantitative or qualitative information on ESG practices and performance at company or country level |
+| **ESG ratings** | Comparative assessments of companies, funds, or countries on ESG criteria, based on a proprietary methodology |
+| **ESG screening** | Tools that evaluate companies based on sector exposure or involvement in specific activities |
+| **Voting and governance advice** | Proxy vote advisory services covering governance items and compensation proposals |
+| **ESG benchmarks and indices** | Indices that incorporate ESG criteria into constituent selection or weighting |
+| **Controversy alerts** | Monitoring tools that flag ESG-relevant events in news, litigation, or regulatory actions |
+| **Integrated research** | Contextualised analytical reports, typically from sell-side research teams |
+
+More specialised services include carbon and water analysis, supply chain assessment, SDG alignment reporting, and class action litigation tracking.
+
+
+## Major ESG Rating Providers: How They Work
+
+The two historically dominant providers of company-level ESG ratings are **MSCI** and **Sustainalytics** (now part of Morningstar). Understanding their methodologies, and how they differ, helps explain why ratings from different providers often diverge.
+
+### Sustainalytics' ESG Risk Rating
+
+Sustainalytics' core product measures **unmanaged ESG risk**, the degree to which a company's economic value is at risk from ESG factors that are not being adequately managed.
+
+Their scoring process works in three stages:
+
+1. **Exposure assessment**: What is this company's exposure to material ESG risks, given its industry and business model? Exposure is measured at sub-industry level and refined at the company level.
+2. **Management assessment**: How effectively is the company managing the risks it is exposed to? Management is assessed through policies, programmes, performance metrics, and involvement in controversies.
+3. **Unmanaged risk calculation**: Unmanaged risk = Exposure minus Managed risk. This final score reflects what remains after accounting for what the company is doing well.
+
+Companies are sorted into five risk categories: Negligible, Low, Medium, High, and Severe. These are absolute categories, a "High" risk company reflects a comparable degree of unmanaged risk regardless of industry.
+
+An important nuance: not all risk is manageable. A Sustainalytics concept called the **manageable risk factor (MRF)** reflects what proportion of a given risk could be addressed by company initiatives. For human capital issues, the MRF is relatively high because companies can implement strong HR policies. For aviation emissions, the MRF is lower because airlines cannot fully decarbonise flight operations through internal decisions alone.
+
+### MSCI ESG Ratings
+
+MSCI's approach identifies key ESG risks and opportunities that are material to each industry, then assesses companies on how exposed they are and how well they manage that exposure.
+
+MSCI's framework is built around **37 ESG key issues** organised across 10 themes and 3 pillars:
+
+- **Environment**: Climate change (emissions, financing impact, carbon footprint, vulnerability), Natural resources (water stress, biodiversity, raw material sourcing), Pollution and waste (toxic emissions, packaging waste, e-waste), Opportunities (clean tech, green buildings, renewable energy).
+- **Social**: Human capital (labour management, health and safety, development, supply chain standards), Product liability (safety, chemical safety, financial product safety, data privacy), Stakeholder opposition, Social opportunities (access to communications, finance, healthcare).
+- **Governance**: Corporate governance (board, pay, ownership, accounting), Corporate behaviour (ethics, anti-competitive practices, tax transparency, corruption).
+
+Companies receive letter ratings from best (AAA) to worst (CCC), normalised by industry. A company is not assessed on an absolute scale, it is rated relative to its sector peers.
+
+<ExampleBox>
+**Example, Relative scoring in practice:** Under MSCI's relative methodology, the best-managed coal company might achieve an A rating if its safety practices, environmental controls, and governance structures outperform sector peers, even though coal is a high-emitting industry. An investor relying solely on the letter rating without reading the industry context could draw a misleading conclusion about the company's absolute ESG standing.
+</ExampleBox>
+
+<HighlightBox>
+MSCI and Sustainalytics use different definitions of materiality and different frameworks for combining exposure and management into a final score. MSCI produces a relative, industry-adjusted rating (AAA to CCC). Sustainalytics produces an absolute unmanaged risk score (0 to 50+). These methodological differences are a primary reason their ratings do not always agree on the same company.
+</HighlightBox>
+
+### CDP
+
+CDP, formerly known as the Carbon Disclosure Project, now officially just "CDP" since it expanded beyond carbon to cover water security and deforestation, is a non-profit that collects self-reported environmental data from companies, cities, and countries. Companies complete detailed questionnaires on climate change, water security, and forests. CDP scores responses on a scale from A (leadership) through to D (disclosure) or F (failure to disclose).
+
+CDP data is widely used as an input by other ESG ratings providers. MSCI, FTSE Russell, and Sustainalytics all draw on CDP data to inform their assessments. CDP's main limitation is that it relies on self-reporting: companies choose to complete the questionnaire, which means non-respondents are not necessarily worse performers, they may simply have chosen not to engage.
+
+### Bloomberg ESG
+
+Bloomberg's ESG offering combines data provision with its own disclosure scoring. Bloomberg collects ESG data directly from company reports and filings, providing access to both raw data points and a proprietary Bloomberg Disclosure Score. Unlike ratings that assess performance, Bloomberg's disclosure score measures how much ESG information a company has chosen to report, a different (and complementary) signal.
+
+### ISS (Institutional Shareholder Services)
+
+ISS began as a proxy advisory firm helping institutional investors make governance-related voting decisions. Its ESG products have expanded to cover broader environmental and social criteria, controversy tracking, and portfolio analysis tools. ISS's origin in proxy advisory gives it particular depth in governance and shareholder rights analysis.
+
+
+## Primary vs. Secondary ESG Data
+
+A foundational distinction in ESG data is between **primary** and **secondary** data.
+
+**Primary data** is straight from the source (the company itself):
+- Annual and sustainability reports.
+- Proxy filings and AGM results.
+- Direct survey responses (like CDP questionnaires).
+
+*Caveat:* Most primary ESG data is self-reported and unaudited. Always treat it as informative but not definitive.
+
+**Secondary data** is primary data that a third party has digested and scored:
+- Proprietary ESG ratings.
+- Controversy monitoring algorithms.
+- Sell-side investment research.
+
+*Caveat:* Secondary data is easier to compare across companies, but you inherit the biases and assumptions of the rating agency.
+
+<AnalogyBox>
+Primary ESG data is like a company's raw financial statements: highly detailed but requiring significant work to interpret. Secondary ESG data is like a Wall Street analyst's report: easily digestible and comparable, but filtered through someone else's judgment. You wouldn't buy a stock based on just one analyst's rating, and you shouldn't judge a company's ESG standing on just one provider's score.
+</AnalogyBox>
+
+
+## The Challenge of ESG Rating Divergence
+
+The most significant practical challenge in ESG analysis is that rating agencies rarely agree. 
+
+If you compare credit ratings from S&P and Moody's, they correlate at about 0.99. If you compare ESG ratings from major providers, they correlate at about 0.54 (and as low as 0.20 for Governance). 
+
+Why do they disagree so wildly?
+
+1. **Scope Divergence:** They measure different things. Provider A might penalize a company for corporate lobbying; Provider B might not track it at all.
+2. **Measurement Divergence:** They measure the *same* thing differently. Provider A measures "diversity" by the percentage of women on the board; Provider B measures it across the entire global workforce.
+3. **Aggregation Divergence:** They weigh things differently. Provider A might make Climate Change 50% of the total score, while Provider B makes it 20%.
+
+### Consequences of Rating Divergence
+
+Rating divergence has real consequences that go beyond investor confusion:
+
+- **Asset pricing**: When ESG ratings disagree, they send conflicting signals to the market. ESG performance is less likely to be reflected consistently in asset prices, making it harder for the market to reward genuine ESG leaders or penalise laggards.
+- **Corporate behaviour**: Companies receive mixed signals about which actions will improve their ratings. A board trying to improve its ESG standing may find that one provider rewards a particular initiative while another ignores it.
+- **Research integrity**: Empirical studies on the relationship between ESG and financial performance are sensitive to which rating provider supplies the data. Two researchers using different providers may reach opposite conclusions, not because the relationship itself is different, but because they are measuring different things.
+
+### The "Teaching to the Test" Problem
+
+Divergence creates a subtler problem too. When companies learn which specific disclosures drive which provider's scores, they can optimise their reporting to maximise ratings without necessarily improving underlying performance. A company might adopt a detailed climate policy, publish it prominently, and score highly for "policy existence", without reducing a single tonne of actual emissions. This form of disclosure greenwashing is a direct product of scoring systems that reward disclosure over demonstrated outcomes.
+
+<HighlightBox>
+The low correlation between ESG ratings is not necessarily a problem to be solved, some investors argue that divergence reflects the genuine complexity of ESG assessment and creates opportunities for differentiated insight. But it does mean that ESG ratings should be used as one input among several, not as a definitive verdict.
+</HighlightBox>
+
+### Other Data Challenges
+
+Beyond rating divergence, practitioners face additional ESG data obstacles:
+
+**Self-reported data**: Most ESG data is reported by companies themselves, without mandatory standardisation or independent audit. Companies have discretion over what to disclose and how to present it.
+
+**Time lag**: ESG data is typically reported annually, lagging actual company behaviour by months or more. This creates a gap between what a company is doing today and what the ratings reflect.
+
+**Coverage gaps**: Smaller companies, private companies, and issuers in emerging markets often have less ESG data available. This creates a bias in available data toward large, publicly listed companies in developed markets.
+
+**Reporting methodology differences**: There is no universal standard for measuring even seemingly objective metrics like carbon emissions. Scope 1 emissions data from different companies may not be directly comparable if companies use different measurement protocols.
+
+
+## Other Uses of ESG Data
+
+ESG data serves purposes beyond individual security selection. Practitioners use it across several domains:
+
+**Big data and NLP analysis**: Large datasets of ESG factors are analysed with algorithms and natural language processing tools to identify industry or country-level trends and detect reputational risks in real time. Scanning news, social media, and earnings transcripts for ESG signals lets analysts surface emerging issues before they appear in annual ratings updates.
+
+**Supply chain and operational risk**: ESG data helps assess supply chain vulnerabilities, forced labour exposure, material sourcing risks, water or energy constraints, at both company and sector level. This informs not just investment decisions but corporate procurement strategy.
+
+**Climate scenario modelling**: ESG data, particularly climate data, is used to model portfolio impacts under different warming trajectories (1.5°C, 2°C, 3°C+), informing strategic asset allocation decisions and climate risk disclosures.
+
+**Real-time monitoring**: Frontier applications use geospatial satellite data to track deforestation, mining activity, or construction in near real-time, providing an independent check on company-reported environmental performance.
+
+These applications illustrate a broader point: ESG data has moved well beyond sustainability reporting into the core toolkit of investment risk management and due diligence.
+
+<DeepDive title="What to consider when choosing an ESG data provider">
+Investors selecting an ESG data provider should consider a range of factors:
+
+- **Universe coverage**, how many companies, countries, or asset classes does the provider cover?
+- **Data history**, how many years of historical data are available for backtesting and time-series analysis?
+- **Methodology stability**, how frequently and significantly does the provider change its methodology? Frequent changes make historical comparisons difficult.
+- **Update frequency**, how often are ratings and data points refreshed?
+- **Asset class breadth**, does the provider cover equities, corporate bonds, sovereign debt, and private markets?
+- **Quality of underlying data**, what proportion of data is based on audited or third-party verified sources versus unverified self-reporting?
+- **Range of services**, does the provider offer data only, or also ratings, screening tools, voting advisory, and research?
+
+No single provider excels on all dimensions. Most sophisticated institutional investors use a combination of providers, combining their different strengths and compensating for their respective weaknesses.
+</DeepDive>
+
+<KeyTakeaways items="ESG ratings from major providers correlate at about 0.54 overall and as low as 0.20 for governance - compared to 0.99 for credit ratings from S&P and Moody's ;; Rating divergence stems from three sources: scope divergence (measuring different things), measurement divergence (measuring the same thing differently), and aggregation divergence (weighting things differently) ;; MSCI produces relative, industry-adjusted ratings (AAA to CCC) while Sustainalytics produces absolute unmanaged risk scores - these methodological differences explain why they often disagree on the same company ;; Companies can optimise reporting to maximise ratings without improving underlying performance - adopting a detailed climate policy scores highly for policy existence without requiring a single tonne of actual emissions reduction ;; Most ESG data is self-reported and unaudited, with annual reporting that lags actual company behaviour by months - analysts should treat it as informative but not definitive ;; Frontier applications use satellite data, NLP on earnings transcripts, and social media scanning to surface ESG signals in near real-time, well before annual ratings updates" />

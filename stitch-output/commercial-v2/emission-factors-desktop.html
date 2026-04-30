@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Emission Factor Search | Greentryst Sustainability Academy</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@700;800&amp;family=JetBrains+Mono:wght@400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "outline-variant": "#bfc8c6",
+                        "surface-bright": "#f8faf9",
+                        "secondary-fixed": "#ffddb8",
+                        "on-tertiary-fixed-variant": "#0e5138",
+                        "primary-container": "#00433d",
+                        "tertiary": "#002c1b",
+                        "surface-dim": "#d8dada",
+                        "surface-container-highest": "#e1e3e2",
+                        "background": "#f8faf9",
+                        "on-secondary-fixed-variant": "#653e00",
+                        "outline": "#707977",
+                        "secondary-container": "#fea619",
+                        "surface-container-low": "#f2f4f3",
+                        "on-background": "#191c1c",
+                        "secondary-fixed-dim": "#ffb95f",
+                        "inverse-primary": "#99d1c8",
+                        "on-surface": "#191c1c",
+                        "tertiary-fixed-dim": "#95d4b3",
+                        "primary-fixed": "#b5eee4",
+                        "inverse-surface": "#2e3131",
+                        "on-secondary": "#ffffff",
+                        "surface-container": "#eceeed",
+                        "on-tertiary-container": "#74b292",
+                        "on-tertiary": "#ffffff",
+                        "secondary": "#855300",
+                        "surface-container-high": "#e6e9e8",
+                        "surface-container-lowest": "#ffffff",
+                        "on-surface-variant": "#404947",
+                        "inverse-on-surface": "#eff1f0",
+                        "surface-tint": "#306760",
+                        "tertiary-container": "#00442d",
+                        "error-container": "#ffdad6",
+                        "on-error-container": "#93000a",
+                        "primary": "#002b27",
+                        "primary-fixed-dim": "#99d1c8",
+                        "surface-variant": "#e1e3e2",
+                        "on-error": "#ffffff",
+                        "on-secondary-fixed": "#2a1700",
+                        "on-secondary-container": "#684000",
+                        "error": "#ba1a1a",
+                        "on-primary-fixed-variant": "#144f49",
+                        "on-primary": "#ffffff",
+                        "on-primary-fixed": "#00201d",
+                        "on-primary-container": "#79afa7",
+                        "on-tertiary-fixed": "#002114",
+                        "surface": "#f8faf9",
+                        "tertiary-fixed": "#b1f0ce"
+                    },
+                    fontFamily: {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"],
+                        "mono": ["JetBrains Mono"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px",
+                        "2xl": "1.5rem"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .tonal-shift { transition: background-color 0.3s ease; }
+        .glass-banner {
+            background: rgba(254, 243, 199, 0.8);
+            backdrop-filter: blur(12px);
+        }
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface flex flex-col min-h-screen">
+<!-- TopNavBar -->
+<header class="sticky top-0 w-full z-50 bg-white/80 backdrop-blur-md shadow-sm shadow-emerald-900/5">
+<div class="flex justify-between items-center px-12 py-4 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a class="font-['Manrope'] font-extrabold text-2xl text-emerald-900 tracking-tighter" href="#">Greentryst</a>
+<nav class="hidden md:flex gap-8 items-center">
+<a class="text-emerald-800/70 font-medium hover:text-emerald-900 transition-colors" href="#">Learn</a>
+<a class="text-emerald-900 relative after:content-[''] after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:w-1 after:h-1 after:bg-amber-500 after:rounded-full font-bold" href="#">Tools</a>
+<a class="text-emerald-800/70 font-medium hover:text-emerald-900 transition-colors" href="#">Jobs</a>
+<a class="text-emerald-800/70 font-medium hover:text-emerald-900 transition-colors" href="#">Pricing</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<button class="material-symbols-outlined text-on-surface-variant hover:bg-surface-container-high rounded-full p-2 transition-all" data-icon="search">search</button>
+<button class="bg-primary text-on-primary font-headline font-bold px-6 py-2 rounded-full scale-95 active:scale-90 transition-transform duration-200">Pro Upgrade</button>
+<div class="w-10 h-10 rounded-full overflow-hidden bg-surface-container-high">
+<img alt="User Profile Avatar" class="w-full h-full object-cover" data-alt="professional headshot of a person with a friendly expression in a modern bright setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXn_W06PdgOTdTxKaz1bGtQJxMT2Dsl4BB65GIwkggwCvrrCrhnfROHD8fNUurEPusxdlq-AB0qBLDODPzAOvd6UyLRkUs5gupnf6jtk9wz6ImofjKtwppCvxOTkNaHuYUjhInk4bcCAsjGYS5KXt_jp9EpbeKpF2vFnvYZnDSO0hBiyWMPQoTaAtdeIDdO6n3usIp2TucdXRuPLygdRU_0cZ9WfN97JlvQYZocqjObf3JiT2txv-5zILKdtSmU8vD_zWU1BqjCWGc"/>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<!-- Breadcrumbs & Header Section -->
+<section class="max-w-[1200px] mx-auto px-6 pt-12 pb-8">
+<nav aria-label="Breadcrumb" class="flex items-center gap-2 text-sm text-on-surface-variant mb-6">
+<a class="hover:text-primary transition-colors" href="#">Tools</a>
+<span class="material-symbols-outlined text-xs">chevron_right</span>
+<span class="text-primary font-semibold">Emission Factor Search</span>
+</nav>
+<div class="max-w-3xl">
+<h1 class="font-headline font-extrabold text-5xl text-primary tracking-tight mb-4">Emission Factor Search</h1>
+<p class="text-lg text-on-surface-variant leading-relaxed">
+                    Search 10,000+ emission factors from DEFRA, EPA, IPCC, IEA, and 20+ national registries.
+                </p>
+</div>
+</section>
+<!-- Search & Filter Section -->
+<section class="max-w-[1200px] mx-auto px-6 pb-20">
+<div class="bg-surface-container-low rounded-2xl p-8 mb-8">
+<!-- Search Bar -->
+<div class="flex gap-4 mb-8">
+<div class="relative flex-grow">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline">search</span>
+<input class="w-full bg-surface-container-lowest border-none rounded-xl py-4 pl-12 pr-6 text-on-surface focus:ring-2 focus:ring-primary shadow-inner" placeholder="Search emission factors (e.g. electricity India 2025, diesel transport UK)" type="text"/>
+</div>
+<button class="bg-primary-container text-on-primary-container hover:bg-primary transition-all font-headline font-bold px-8 py-4 rounded-xl flex items-center gap-2">
+<span>Search Database</span>
+</button>
+</div>
+<!-- Filter Groups -->
+<div class="space-y-6">
+<div class="flex items-center gap-4 overflow-x-auto pb-2 scrollbar-hide">
+<span class="text-sm font-semibold text-primary uppercase tracking-wider whitespace-nowrap">Source:</span>
+<div class="flex gap-2">
+<button class="px-5 py-1.5 rounded-full bg-primary-container text-on-primary-container font-medium text-sm transition-all">DEFRA</button>
+<button class="px-5 py-1.5 rounded-full bg-surface-container-highest text-on-surface-variant font-medium text-sm hover:bg-surface-container-high transition-all">EPA</button>
+<button class="px-5 py-1.5 rounded-full bg-surface-container-highest text-on-surface-variant font-medium text-sm hover:bg-surface-container-high transition-all">IPCC</button>
+<button class="px-5 py-1.5 rounded-full bg-surface-container-highest text-on-surface-variant font-medium text-sm hover:bg-surface-container-high transition-all">IEA</button>
+<button class="px-5 py-1.5 rounded-full bg-surface-container-highest text-on-surface-variant font-medium text-sm hover:bg-surface-container-high transition-all">Other</button>
+</div>
+</div>
+<div class="flex items-center gap-4 overflow-x-auto pb-2 scrollbar-hide">
+<span class="text-sm font-semibold text-primary uppercase tracking-wider whitespace-nowrap">Category:</span>
+<div class="flex gap-2">
+<button class="px-5 py-1.5 rounded-full bg-surface-container-highest text-on-surface-variant font-medium text-sm hover:bg-surface-container-high transition-all">All</button>
+<button class="px-5 py-1.5 rounded-full bg-surface-container-highest text-on-surface-variant font-medium text-sm hover:bg-surface-container-high transition-all">Energy</button>
+<button class="px-5 py-1.5 rounded-full bg-surface-container-highest text-on-surface-variant font-medium text-sm hover:bg-surface-container-high transition-all">Transport</button>
+<button class="px-5 py-1.5 rounded-full bg-surface-container-highest text-on-surface-variant font-medium text-sm hover:bg-surface-container-high transition-all">Industrial</button>
+<button class="px-5 py-1.5 rounded-full bg-surface-container-highest text-on-surface-variant font-medium text-sm hover:bg-surface-container-high transition-all">Agriculture</button>
+<button class="px-5 py-1.5 rounded-full bg-surface-container-highest text-on-surface-variant font-medium text-sm hover:bg-surface-container-high transition-all">Waste</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Free Tier Banner -->
+<div class="glass-banner rounded-2xl px-6 py-4 mb-10 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-amber-600">info</span>
+<p class="text-amber-900 font-medium">5 free lookups remaining this month. Upgrade to Pro for unlimited.</p>
+</div>
+<a class="text-blue-600 font-bold hover:underline decoration-2 underline-offset-4" href="#">Upgrade Now</a>
+</div>
+<!-- Results Table -->
+<div class="bg-surface-container-low rounded-2xl overflow-hidden">
+<div class="grid grid-cols-[1.5fr_1fr_1.2fr_0.8fr_0.5fr_40px] px-8 py-5 text-sm font-bold text-primary uppercase tracking-wider bg-surface-container-high">
+<div>Factor Name</div>
+<div class="text-right">Value</div>
+<div>Unit</div>
+<div>Source</div>
+<div>Year</div>
+<div></div>
+</div>
+<!-- Row 1 -->
+<div class="grid grid-cols-[1.5fr_1fr_1.2fr_0.8fr_0.5fr_40px] px-8 py-6 items-center bg-surface-bright hover:bg-surface-container transition-colors group cursor-pointer">
+<div class="font-semibold text-primary">Grid Electricity - India</div>
+<div class="text-right font-mono text-primary font-medium">0.708</div>
+<div class="text-on-surface-variant text-sm">kgCO2/kWh</div>
+<div><span class="bg-surface-container-high px-3 py-1 rounded-full text-xs font-bold text-primary">IEA</span></div>
+<div class="text-on-surface-variant font-mono">2024</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">expand_more</span>
+</div>
+<!-- Row 2 Expanded -->
+<div class="bg-white">
+<div class="grid grid-cols-[1.5fr_1fr_1.2fr_0.8fr_0.5fr_40px] px-8 py-6 items-center border-l-4 border-amber-500 bg-amber-50/30">
+<div class="font-semibold text-primary">Diesel (transport)</div>
+<div class="text-right font-mono text-primary font-medium">2.68</div>
+<div class="text-on-surface-variant text-sm">kgCO2/litre</div>
+<div><span class="bg-emerald-100 px-3 py-1 rounded-full text-xs font-bold text-emerald-800">DEFRA</span></div>
+<div class="text-on-surface-variant font-mono">2024</div>
+<span class="material-symbols-outlined text-primary">expand_less</span>
+</div>
+<!-- Provenance Details -->
+<div class="px-8 pb-8 bg-amber-50/30">
+<div class="bg-surface-container-lowest rounded-2xl p-6 shadow-sm">
+<h4 class="text-sm font-bold text-primary uppercase tracking-widest mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-lg">history_edu</span> Data Provenance
+                            </h4>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div>
+<span class="block text-xs font-bold text-outline uppercase mb-1">Source Document</span>
+<span class="text-sm text-on-surface font-medium leading-snug">DEFRA Greenhouse gas reporting conversion factors 2024</span>
+</div>
+<div>
+<span class="block text-xs font-bold text-outline uppercase mb-1">Reference Page</span>
+<span class="text-sm text-on-surface font-mono">42</span>
+</div>
+<div>
+<span class="block text-xs font-bold text-outline uppercase mb-1">Last Updated</span>
+<span class="text-sm text-on-surface font-medium">June 2024</span>
+</div>
+<div>
+<span class="block text-xs font-bold text-outline uppercase mb-1">Methodology</span>
+<span class="text-sm text-on-surface font-medium italic">"Based on fuel density and carbon content."</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Row 3 -->
+<div class="grid grid-cols-[1.5fr_1fr_1.2fr_0.8fr_0.5fr_40px] px-8 py-6 items-center bg-surface-bright hover:bg-surface-container transition-colors group cursor-pointer">
+<div class="font-semibold text-primary">Air Freight - Long Haul</div>
+<div class="text-right font-mono text-primary font-medium">0.602</div>
+<div class="text-on-surface-variant text-sm">kgCO2e/tonne.km</div>
+<div><span class="bg-emerald-100 px-3 py-1 rounded-full text-xs font-bold text-emerald-800">DEFRA</span></div>
+<div class="text-on-surface-variant font-mono">2024</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">expand_more</span>
+</div>
+<!-- Row 4 -->
+<div class="grid grid-cols-[1.5fr_1fr_1.2fr_0.8fr_0.5fr_40px] px-8 py-6 items-center bg-white hover:bg-surface-container transition-colors group cursor-pointer">
+<div class="font-semibold text-primary">Natural Gas (Combustion)</div>
+<div class="text-right font-mono text-primary font-medium">2.02</div>
+<div class="text-on-surface-variant text-sm">kgCO2e/m3</div>
+<div><span class="bg-surface-container-high px-3 py-1 rounded-full text-xs font-bold text-primary">IPCC</span></div>
+<div class="text-on-surface-variant font-mono">2023</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">expand_more</span>
+</div>
+<!-- Row 5 -->
+<div class="grid grid-cols-[1.5fr_1fr_1.2fr_0.8fr_0.5fr_40px] px-8 py-6 items-center bg-surface-bright hover:bg-surface-container transition-colors group cursor-pointer">
+<div class="font-semibold text-primary">Steel Production (Global)</div>
+<div class="text-right font-mono text-primary font-medium">1.85</div>
+<div class="text-on-surface-variant text-sm">tCO2/t steel</div>
+<div><span class="bg-surface-container-high px-3 py-1 rounded-full text-xs font-bold text-primary">IEA</span></div>
+<div class="text-on-surface-variant font-mono">2023</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">expand_more</span>
+</div>
+</div>
+<!-- Pagination -->
+<div class="mt-8 flex justify-between items-center px-4">
+<div class="text-sm text-on-surface-variant font-medium">
+                    Showing <span class="text-primary font-bold">1-20</span> of <span class="text-primary font-bold">847</span> results
+                </div>
+<div class="flex items-center gap-3">
+<button class="w-10 h-10 flex items-center justify-center rounded-full bg-surface-container hover:bg-surface-container-high text-outline-variant hover:text-primary transition-all disabled:opacity-50" disabled="">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<div class="flex gap-1">
+<button class="w-10 h-10 flex items-center justify-center rounded-full bg-primary text-on-primary font-bold text-sm">1</button>
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container text-on-surface font-medium text-sm transition-all">2</button>
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container text-on-surface font-medium text-sm transition-all">3</button>
+<span class="w-10 h-10 flex items-center justify-center text-outline">...</span>
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container text-on-surface font-medium text-sm transition-all">43</button>
+</div>
+<button class="w-10 h-10 flex items-center justify-center rounded-full bg-surface-container hover:bg-surface-container-high text-primary transition-all">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 px-12 bg-emerald-50 dark:bg-slate-950 mt-auto border-t-0 tonal-layering">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex flex-col gap-2">
+<span class="font-['Manrope'] font-bold text-xl text-emerald-900 dark:text-emerald-50">Greentryst</span>
+<p class="font-['Inter'] text-sm leading-relaxed text-emerald-800/60 dark:text-emerald-100/40">© 2024 Greentryst Sustainability Academy. Built for the Digital Curator.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="text-sm font-medium text-emerald-800/60 dark:text-emerald-100/40 hover:text-emerald-900 dark:hover:text-emerald-50 underline decoration-amber-500 decoration-2 underline-offset-4 transition-all" href="#">Privacy Policy</a>
+<a class="text-sm font-medium text-emerald-800/60 dark:text-emerald-100/40 hover:text-emerald-900 dark:hover:text-emerald-50 underline decoration-amber-500 decoration-2 underline-offset-4 transition-all" href="#">Terms of Service</a>
+<a class="text-sm font-medium text-emerald-800/60 dark:text-emerald-100/40 hover:text-emerald-900 dark:hover:text-emerald-50 underline decoration-amber-500 decoration-2 underline-offset-4 transition-all" href="#">Carbon Methodology</a>
+<a class="text-sm font-medium text-emerald-800/60 dark:text-emerald-100/40 hover:text-emerald-900 dark:hover:text-emerald-50 underline decoration-amber-500 decoration-2 underline-offset-4 transition-all" href="#">Contact Support</a>
+</div>
+</div>
+</footer>
+</body></html>

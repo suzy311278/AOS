@@ -1,0 +1,26 @@
+- question: "What does the number appended to an SSP scenario name (e.g., SSP2-4.5) represent?"
+  options:
+    - "The percentage reduction in emissions required under that scenario"
+    - "The projected global average temperature increase in degrees Celsius by 2100"
+    - "The level of radiative forcing in watts per square metre by 2100"
+    - "The number of years until emissions must reach net zero"
+  answer: 2
+  explanation: "The appended number (1.9, 2.6, 4.5, 7.0, 8.5) refers to the radiative forcing in watts per square metre (W/m²) that the scenario produces by 2100. Higher forcing means more energy is trapped and therefore more warming. SSP5-8.5 represents 8.5 W/m² of additional forcing above pre-industrial levels."
+
+- question: "Which SSP scenario is broadly consistent with current national NDC pledges as assessed by IPCC AR6 WGIII?"
+  options:
+    - "SSP1-1.9, consistent with limiting warming to 1.5°C"
+    - "SSP1-2.6, consistent with limiting warming to well below 2°C"
+    - "Between SSP2-4.5 and SSP3-7.0, pointing toward roughly 2.5-3.5°C of warming"
+    - "SSP5-8.5, the highest-emissions fossil-fuelled development scenario"
+  answer: 2
+  explanation: "IPCC AR6 WGIII assessed that the aggregate of current NDCs as of 2021 is most consistent with trajectories between SSP2-4.5 and SSP3-7.0, pointing toward roughly 2.5-3.5°C of warming by 2100 if no additional policies are adopted beyond existing pledges."
+
+- question: "SSP1 (the Sustainability pathway) is described by which of the following core features?"
+  options:
+    - "Rapid economic growth driven by fossil fuels with very high energy demand"
+    - "Nationalism and fragmentation with high emissions and limited technology transfer"
+    - "Strong global cooperation, rapid renewable transition, low population growth, and circular economies"
+    - "Current trends continuing with moderate improvement in energy efficiency"
+  answer: 2
+  explanation: "SSP1 envisions strong global cooperation, a rapid renewable energy transition, population peaking below 9 billion before declining, dietary shifts, and circular economies. It is the only scenario consistent with the Paris Agreement's 1.5°C aspiration. In its most aggressive variant (SSP1-1.9), global CO₂ emissions reach net zero before mid-century."

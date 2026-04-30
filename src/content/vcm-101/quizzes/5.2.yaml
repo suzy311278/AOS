@@ -1,0 +1,26 @@
+- question: "To qualify for any tier of a VCMI Claims Code claim (Silver, Gold, or Platinum), a company must meet which baseline requirement that applies to all tiers?"
+  options:
+  - "Purchase credits exclusively from ICVCM CCP-Approved methodologies in the current year"
+  - "Have an SBTi-validated near-term science-based target and a publicly verified GHG inventory covering Scopes 1, 2, and 3"
+  - "Have achieved at least a 25% absolute emissions reduction from its base year"
+  - "Publish an independent third-party audit of all credit purchase agreements"
+  answer: 1
+  explanation: "All VCMI claims tiers share the same baseline requirements: a publicly verified GHG inventory that covers Scopes 1, 2, and 3, and an SBTi-validated near-term science-based target. Without these, a company cannot make any VCMI claim regardless of how many credits it purchases or how high their quality. The VCMI framework is explicitly built on the foundation that credit use complements, not replaces, science-based reduction commitments."
+
+- question: "The Oxford Offsetting Principles (revised 2024) recommend that organisations moving toward net zero should use which type of claim language for credits purchased during the decarbonisation transition phase?"
+  options:
+  - "Compensation claims stating that emissions are fully neutralised by the credits"
+  - "Carbon neutral claims verified by an accredited LCA"
+  - "Contribution claims describing the investment in climate mitigation beyond the value chain, without implying equivalence with the company's own emissions"
+  - "Net zero claims aligned with the Paris Agreement temperature goals"
+  answer: 2
+  explanation: "The Oxford Principles distinguish between contribution claims (appropriate for avoidance credits and any credit purchases during the decarbonisation transition) and compensation claims (appropriate only for durable removal credits applied to genuine residual emissions at net zero). During the transition phase, when a company still has significant own-value-chain emissions, buying avoidance credits does not constitute compensation in any scientifically defensible sense. Contribution language ('we invest in climate mitigation') is both more honest and more regulatorily defensible."
+
+- question: "Under the VCMI Claims Code, a company achieves VCMI Gold status. What does this specifically mean about the company's credit purchases in the relevant year?"
+  options:
+  - "The company purchased credits equivalent to 100% of its Scope 1 and 2 emissions"
+  - "The company purchased high-quality credits equivalent to 50-99% of its total Scope 1, 2, and 3 emissions"
+  - "The company neutralised all residual emissions with durable removal credits"
+  - "The company met its SBTi near-term target through a combination of reductions and credits"
+  answer: 1
+  explanation: "VCMI Gold specifically requires that the company has an SBTi-validated near-term target AND has purchased high-quality credits equivalent to 50-99% of its total remaining Scope 1, 2, and 3 emissions in the relevant year. Platinum requires 100% or more. Silver requires 20-49%. Importantly, none of the tiers allow credits to count toward the SBTi target itself: the credit purchases are additional to, not substitutes for, meeting the science-based reduction commitment."

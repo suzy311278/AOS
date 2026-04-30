@@ -1,0 +1,419 @@
+Source URL: https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/
+
+[Skip to content](https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/#content)
+[ ![Developing and delivering a risk management and disclosure framework for organisations to report and act on evolving nature-related risks](https://tnfd.global/wp-content/themes/tnfd/dist/img/tnfd-logo-white.svg) ](https://tnfd.global/) [ ![Developing and delivering a risk management and disclosure framework for organisations to report and act on evolving nature-related risks](https://tnfd.global/wp-content/themes/tnfd/dist/img/tnfd-smaller-logo.svg) ](https://tnfd.global/)
+[](javascript:showTranslation\(\); "Show translation options") [](javascript:showSearch\(\);)
+Select Language Afrikaans Albanian Amharic Arabic Armenian Azerbaijani Basque Belarusian Bengali Bosnian Bulgarian Catalan Cebuano Chichewa Chinese (Simplified) Chinese (Traditional) Corsican Croatian Czech Danish Dutch English Esperanto Estonian Filipino Finnish French Frisian Galician Georgian German Greek Gujarati Haitian Creole Hausa Hawaiian Hebrew Hindi Hmong Hungarian Icelandic Igbo Indonesian Irish Italian Japanese Javanese Kannada Kazakh Khmer Korean Kurdish (Kurmanji) Kyrgyz Lao Latin Latvian Lithuanian Luxembourgish Macedonian Malagasy Malay Malayalam Maltese Maori Marathi Mongolian Myanmar (Burmese) Nepali Norwegian Pashto Persian Polish Portuguese Punjabi Romanian Russian Samoan Scottish Gaelic Serbian Sesotho Shona Sindhi Sinhala Slovak Slovenian Somali Spanish Sundanese Swahili Swedish Tajik Tamil Telugu Thai Turkish Ukrainian Urdu Uzbek Vietnamese Welsh Xhosa Yiddish Yoruba Zulu
+Search for: Search [](https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/)
+[ TNFD Adopters ](https://tnfd.global/engage/tnfd-adopters/)
+[ Create a profile / Log in ](https://tnfd.global/create-a-profile/)
+Menu
+Menu
+  * [About](javascript:void\(\);)
+    * #### [About us](https://tnfd.global/about/)
+      * [Our mission](https://tnfd.global/about/#mission)
+      * [Why nature matters](https://tnfd.global/about/why-nature-matters/)
+      * [How we are funded](https://tnfd.global/about/#funded)
+      * [Careers](https://tnfd.global/about/careers/)
+    * #### [Who we are](https://tnfd.global/about/#who)
+      * [The Taskforce](https://tnfd.global/about/the-taskforce/)
+      * [The Secretariat](https://tnfd.global/about/the-tnfd-secretariat/)
+      * [Senior Advisers](https://tnfd.global/about/senior-advisers/)
+      * [Stewardship Council](https://tnfd.global/about/stewardship-council/)
+      * [Knowledge Partners](https://tnfd.global/about/knowledge-partners/)
+    * #### [Our history](https://tnfd.global/about/history/)
+      * [Development and timeline](https://tnfd.global/about/history/)
+      * [Engagement with civil society and IPLCs](https://tnfd.global/about/history/engagement-with-civil-society-and-iplcs/)
+      * [Beta framework testing](https://tnfd.global/tnfd-publications/publications-archive/)
+    * #### [Contact](https://tnfd.global/about/contact-us/)
+      * [General enquiries](https://tnfd.global/about/contact-us/)
+      * [Press & media](https://tnfd.global/about/contact-us/#media-press)
+      * [Request a speaker](https://tnfd.global/about/contact-us/request-a-speaker/)
+      * [Request use of TNFD logo](https://tnfd.global/about/contact-us/request-use-of-tnfd-logo/)
+      * [Request to translate TNFD publications](https://tnfd.global/tnfd-publications/translation-proposal/)
+    * [Create a TNFD profile](https://tnfd.global/create-a-profile/)
+  * [Assessment](javascript:void\(\);)
+    * #### [Guidance](https://tnfd.global/additional-guidance/)
+      * [The LEAP Approach](https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/)
+      * [Sector guidance & metrics](https://tnfd.global/tnfd-publications/?_sft_framework-categories=additional-guidance-by-sector#search-filter)
+      * [Guidance by biome ](https://tnfd.global/publication/guidance-by-biome/#publication-content)
+      * [Engagement guidance](https://tnfd.global/publication/guidance-on-engagement-with-indigenous-peoples-local-communities-and-affected-stakeholders/)
+      * [Value chains](https://tnfd.global/publication/guidance-on-value-chains/#publication-content)
+      * [Scenario analysis ](https://tnfd.global/publication/guidance-on-scenario-analysis/#publication-content)
+      * [Target setting](https://tnfd.global/publication/additional-draft-guidance-for-corporates-on-science-based-targets-for-nature-2/#publication-content)
+    * #### [Tools ](https://tnfd.global/learning-tools/tools-catalogue/)
+      * [Explore the Tools Catalogue](https://tnfd.global/learning-tools/tools-catalogue/)
+      * [Locate assessment tools](https://tnfd.global/ibat/)
+    * #### Discussion papers
+      * [Conducting advanced scenario analysis](https://tnfd.global/publication/discussion-paper-on-conducting-advanced-scenario-analysis/)
+      * [Biodiversity footprinting approaches for financial institutions](https://tnfd.global/publication/discussion-paper-on-biodiversity-footprinting-approaches-for-financial-institutions/)
+    * [Join the TNFD Forum](https://tnfd.global/engage/tnfd-forum/)
+  * [Reporting](javascript:void\(\);)
+    * #### [Reporting](https://tnfd.global/recommendations/)
+      * [Overview](https://tnfd.global/recommendations-of-the-tnfd/#overview)
+      * [Four disclosure pillars​](https://tnfd.global/recommendations-of-the-tnfd/#disclosures)
+      * [General requirements ](https://tnfd.global/recommendations-of-the-tnfd/#requirements)
+      * [Core global metrics](https://tnfd.global/recommendations/#disclosure-metrics)
+      * [Sector metrics](https://tnfd.global/recommendations/#sector)
+    * #### [Standards alignment](https://tnfd.global/standards-alignment/)
+      * [Overview](https://tnfd.global/standards-alignment/)
+      * [Using cross-reference tables](https://tnfd.global/the-tnfd-supports-use-of-cross-reference-tables-for-corporate-reporting/)
+      * [ISSB & TNFD](https://tnfd.global/issb-decision-on-nature-related-standard-setting-drawing-on-tnfd-framework/)
+      * [GRI & TNFD](https://tnfd.global/publication/interoperability-mapping-between-the-gri-standards-and-the-tnfd-recommended-disclosures-and-metrics/#publication-content)
+      * [ESRS & TNFD](https://tnfd.global/publication/tnfd-esrs-correspondence-mapping/#publication-content)
+      * [BRSR & TNFD ](https://tnfd.global/publication/integrating-nature-related-aspects-in-brsr-disclosures-using-the-tnfd-recommendations/#publication-content)
+      * [CDP & TNFD](https://tnfd.global/publication/cdp-tnfd-correspondence-mapping/)
+    * #### [Getting started with reporting](https://tnfd.global/recommendations/getting-started-with-tnfd/)
+      * [Guidance on getting started](https://tnfd.global/recommendations/getting-started-with-tnfd/)
+      * [Example TNFD reports ](https://tnfd.global/knowledge-hub/example-tnfd-reporting/)
+    *       * #### Download
+[ ![Recommendations Of The Tnfd V1 V1](https://tnfd.global/wp-content/uploads/2023/08/recommendations-of-the-tnfd-v1_v1-353x500.jpg) ](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/)
+[Taskforce on Nature-related Financial Disclosures (TNFD) Recommendations](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/)
+  * [Metrics & Data](javascript:void\(\);)
+    * #### [Metrics](https://tnfd.global/metrics/)
+      * [Overview](https://tnfd.global/metrics/#overview)
+      * [Metrics architecture](https://tnfd.global/metrics/#architecture)
+      * [Metrics explained](https://tnfd.global/metrics/#explained)
+      * [Sector metrics](https://tnfd.global/metrics/#sector)
+    * #### [Data](https://tnfd.global/upgrading-the-nature-data-value-chain-for-market-participants/)
+      * [Data initiatives](https://tnfd.global/engage/data-initiatives/)
+      * [Upgrading the nature data value chain for market participants](https://tnfd.global/upgrading-the-nature-data-value-chain-for-market-participants/)
+      * [Nature Intelligence for Business Grand Challenge](https://tnfd.global/publication/recommendations-to-upgrade-the-ndvc)
+      * [Tools Catalogue ](https://tnfd.global/assessment-guidance/tools-catalogue/)
+    *       * #### Download
+[ ![Recommendations Of The Ndvc](https://tnfd.global/wp-content/uploads/2025/10/Recommendations-of-the-NDVC-1-354x500.jpg) ](https://tnfd.global/publication/recommendations-to-upgrade-the-ndvc/)
+[Recommendations for upgrading the nature data value chain for market participants](https://tnfd.global/publication/recommendations-to-upgrade-the-ndvc/)
+  * [Opportunities & Transition plans](javascript:void\(\);)
+    * #### [Nature in transition plans](https://tnfd.global/nature-transition-plans/)
+      * [Introduction](https://tnfd.global/nature-transition-plans/#overview)
+      * [What is a nature transition plan?](https://tnfd.global/nature-transition-plans/#what)
+      * [Disclosing transition plans](https://tnfd.global/nature-transition-plans/#disclosure)
+    * #### [Nature-related opportunities](https://tnfd.global/test-2/nature-related-opportunities/)
+      * [What are opportunities?](https://tnfd.global/test-2/nature-related-opportunities/#what)
+      * [Case studies on opportunities](https://tnfd.global/test-2/nature-related-opportunities/#Case)
+      * [Discussion paper on nature related opportunities](https://tnfd.global/publication/discussion-paper-on-nature-related-opportunities/)
+      * [Webinars](https://tnfd.global/test-2/nature-related-opportunities/#webinars)
+    *       * #### Download
+[ ![Guidance On Nature Transition Plans](https://tnfd.global/wp-content/uploads/2025/11/Guidance-on-Nature-Transition-Plans-354x500.jpg) ](https://tnfd.global/publication/guidance-on-nature-in-transition-plans/)
+[Guidance on nature in transition plans](https://tnfd.global/publication/guidance-on-nature-in-transition-plans/)
+    *       * #### Download
+[ ![Discussion Paper On Nature Related Opporunties](https://tnfd.global/wp-content/uploads/2025/10/Discussion-paper-on-nature-related-opporunties-354x500.jpg) ](https://tnfd.global/publication/discussion-paper-on-nature-related-opportunities/)
+[Discussion paper on nature-related opportunities](https://tnfd.global/publication/discussion-paper-on-nature-related-opportunities/)
+  * [Engage & Learn](javascript:void\(\);)
+    * #### [Engage](https://tnfd.global/engage/)
+      * [TNFD Forum](https://tnfd.global/engage/tnfd-forum/)
+      * [Community of Practice](https://tnfd.global/engage/community-of-practice/)
+      * [Consultation groups](https://tnfd.global/engage/tnfd-consultation-groups/)
+      * [Open consultations](https://tnfd.global/tnfd-publications/?_sft_framework-categories=market-consultation#search-filter)
+    * #### [Adopt](https://tnfd.global/engage/tnfd-adopters/)
+      * [What does it mean? ](https://tnfd.global/engage/tnfd-adopters/#what?)
+      * [Who has adopted?](https://tnfd.global/engage/tnfd-adopters-list/)
+      * [Example TNFD reports](https://tnfd.global/knowledge-hub/example-tnfd-reporting/)
+      * [Adopter FAQs](https://tnfd.global/engage/tnfd-adopters/#faqs)
+    * #### [Knowledge Hub](https://tnfd.global/knowledge-hub/)
+      * [Navigating the Knowledge Hub ](https://tnfd.global/learning-tools/knowledge-hub/)
+      * [Webinar library](https://tnfd.global/learning-tools/knowledge-hub/webinars/)
+      * [Learning Lab](https://tnfd.global/knowledge-hub/learning-lab-landing/)
+      * [Trainer Portal](https://tnfd.global/knowledge-hub/trainer-portal/)
+      * [Resources database ](https://tnfd.global/knowledge-hub/resources-bank/)
+      * [Case study library](https://tnfd.global/knowledge-hub/case-studies/)
+      * [Example TNFD reports](https://tnfd.global/knowledge-hub/example-tnfd-reporting/)
+      * [TNFD in a box](https://tnfd.global/workshop/tnfd-in-a-box/)
+      * [Toolkits & worksheets](https://tnfd.global/knowledge-hub/worksheets-and-toolkits/)
+    * [Explore the Knowledge Hub ](https://tnfd.global/knowledge-hub/)
+  * [Publications](javascript:void\(\);)
+    * #### [All Publications](https://tnfd.global/tnfd-publications/)
+      * [Recommendations](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/)
+      * [2025 Status Report](https://tnfd.global/tnfd-2025-status-report/)
+      * [The LEAP Approach](https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/#publication-content)
+      * [Additional guidance](https://tnfd.global/publications/?_sft_framework-categories=additional-guidance#search-filter)
+      * [Sector guidance ](https://tnfd.global/publications/?_sft_framework-categories=additional-guidance-by-sector#search-filter)
+      * [Guidance by biome](https://tnfd.global/publications/?_sft_framework-categories=additional-guidance-by-biome#search-filter)
+      * [Discussion papers](https://tnfd.global/publications/?_sft_framework-categories=discussion-papers#search-filter)
+      * [Standards alignment and mapping](https://tnfd.global/tnfd-publications/?_sft_framework-categories=standards-alignment-and-mapping)
+      * [Asking Better Questions](https://tnfd.global/tnfd-publications/?_sft_framework-categories=abq-on-nature)
+      * [Open for consultation](https://tnfd.global/tnfd-publications/?_sft_framework-categories=market-consultation#search-filter)
+      * [Public comment letters](https://tnfd.global/tnfd-publications/public-comment-letters/)
+      * [Archive](https://tnfd.global/tnfd-publications/publications-archive/)
+    *       * #### Download
+[ ![250918 Tnfd Status Report Cover](https://tnfd.global/wp-content/uploads/2025/09/250918_TNFD-Status-Report_COVER-500x281.jpg) ](https://tnfd.global/publication/tnfd-2025-status-report/)
+[TNFD 2025 Status Report](https://tnfd.global/publication/tnfd-2025-status-report/)
+    *       * #### Download
+[ ![Recommendations Of The Tnfd V1 V1](https://tnfd.global/wp-content/uploads/2023/08/recommendations-of-the-tnfd-v1_v1-353x500.jpg) ](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/)
+[Taskforce on Nature-related Financial Disclosures (TNFD) Recommendations](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/)
+    * [Publication library](https://tnfd.global/tnfd-publications/)
+  * [Media & events](javascript:void\(\);)
+    * #### [Media & events](https://tnfd.global/news/)
+      * [Latest news](https://tnfd.global/news/)
+      * [Upcoming events](https://tnfd.global/events/)
+      * [Multi-media downloads](https://tnfd.global/content-hub/)
+    * [Join our mailing list](https://tnfd.global/join-the-tnfd-mailing-list/)
+
+
+[TNFD Adopters](https://tnfd.global/engage/tnfd-adopters/) [Create a profile / Log in](https://tnfd.global/create-a-profile/)
+[](javascript:showTranslation\(\); "Show translation options") [](javascript:showSearch\(\);)
+Select Language Afrikaans Albanian Amharic Arabic Armenian Azerbaijani Basque Belarusian Bengali Bosnian Bulgarian Catalan Cebuano Chichewa Chinese (Simplified) Chinese (Traditional) Corsican Croatian Czech Danish Dutch English Esperanto Estonian Filipino Finnish French Frisian Galician Georgian German Greek Gujarati Haitian Creole Hausa Hawaiian Hebrew Hindi Hmong Hungarian Icelandic Igbo Indonesian Irish Italian Japanese Javanese Kannada Kazakh Khmer Korean Kurdish (Kurmanji) Kyrgyz Lao Latin Latvian Lithuanian Luxembourgish Macedonian Malagasy Malay Malayalam Maltese Maori Marathi Mongolian Myanmar (Burmese) Nepali Norwegian Pashto Persian Polish Portuguese Punjabi Romanian Russian Samoan Scottish Gaelic Serbian Sesotho Shona Sindhi Sinhala Slovak Slovenian Somali Spanish Sundanese Swahili Swedish Tajik Tamil Telugu Thai Turkish Ukrainian Urdu Uzbek Vietnamese Welsh Xhosa Yiddish Yoruba Zulu
+Search for: Search [](https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/)
+[Home](https://tnfd.global) » [Publications](https://tnfd.global/publication-archive/)
+# Guidance on the identification and assessment of nature-related issues: the LEAP approach
+  * Last updated  April 2025 
+  * Categories 
+Additional Guidance
+  * Version 
+Version v1.1 October 2023
+
+
+This document provides guidance on the integrated approach that TNFD has developed for the identification and assessment of nature-related issues, called the LEAP approach. It is designed for use by organisations of all sizes and across all sectors and geographies.
+This approach aims to help organisations conduct the due diligence necessary to inform disclosure statements aligned with the TNFD recommendations, but it is also useful for other organisations looking to identify and assess their nature-related issues, regardless of their formal disclosure requirements.
+This document provides detailed guidance on the four phases of the LEAP approach designed to be used by an assessment team in an organisation: Locate, Evaluate, Assess and Prepare.
+Guidance to help you: 
+  * **Scope** your assessment 
+  * **Locate** your interface with nature 
+  * **Evaluate** your dependencies and impacts on nature 
+  * **Assess** your nature-related risks and opportunities 
+  * **Prepare** to respond to nature-related risks and opportunities and to report on your material nature-related issues. 
+
+
+Annexes cover: 
+  * TNFD suggested assessment metrics 
+  * State of nature measurement 
+  * Valuation of dependencies and impacts 
+  * Risk assessment methods 
+  * Links between targets in the Kunming-Montreal Global Biodiversity Framework and areas for taggets under TNFD 
+
+
+### Key outcomes
+  * An understanding of how to identify and assess nature-related dependencies, impacts, risks and opportunities
+  * Ready to disclose in line with the TNFD recommendations.
+
+
+![LEAP_COVER_V1.1_October2023](https://tnfd.global/wp-content/uploads/2023/08/LEAP-Cover-october-updated-353x500.jpg)
+## Download this publication:
+This download is available in the following languages: 
+  * [English](https://tnfd.global/wp-content/uploads/2023/08/Guidance_on_the_identification_and_assessment_of_nature-related_Issues_The_TNFD_LEAP_approach_V1.1_October2023.pdf?v=1698403116)
+  * [中文](https://tnfd.global/wp-content/uploads/2023/08/%E8%87%AA%E7%84%B6%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98%E8%AF%86%E5%88%AB%E4%B8%8E%E8%AF%84%E4%BC%B0%E6%8C%87%E5%8D%97-LEAP-%E6%96%B9%E6%B3%95.pdf?v=1743421660)
+  * [Español](https://tnfd.global/wp-content/uploads/2023/08/Guidance-on-the-LEAP-Approach-ES.pdf?v=1744894086)
+
+
+## Publication archive:
+###  Guidance on the identification and assessment of nature-related issues - The TNFD LEAP approach v1 - September 2023
+This archived download is available in the following languages: 
+  * [English](https://tnfd.global/wp-content/uploads/2023/08/Guidance_on_the_identification_and_assessment_of_nature-related-issues_The_TNFD_LEAP_approach_v1.pdf?v=1695138163)
+
+
+## Related publications
+  * [ ![Recommendations Of The Tnfd V1 V1](https://tnfd.global/wp-content/uploads/2023/08/recommendations-of-the-tnfd-v1_v1-353x500.jpg) ](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/)
+[Taskforce on Nature-related Financial Disclosures (TNFD) Recommendations](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/)
+  * [ ![Fuidance On Stakeholders V1](https://tnfd.global/wp-content/uploads/2023/08/fuidance-on-stakeholders_v1-353x500.jpg) ](https://tnfd.global/publication/guidance-on-engagement-with-indigenous-peoples-local-communities-and-affected-stakeholders/)
+[Guidance on engagement with Indigenous Peoples, Local Communities and affected stakeholders](https://tnfd.global/publication/guidance-on-engagement-with-indigenous-peoples-local-communities-and-affected-stakeholders/)
+  * [ ![Getting Started With Adoption Of The Tnfd Recommendations](https://tnfd.global/wp-content/uploads/2023/09/Getting-started-with-adoption-of-the-TNFD-recommendations-353x500.jpg) ](https://tnfd.global/publication/getting-started-with-adoption-of-the-tnfd-recommendations/)
+[Getting started with adoption of the TNFD Recommendations](https://tnfd.global/publication/getting-started-with-adoption-of-the-tnfd-recommendations/)
+  * [ ![Discussion Paper On Sector Metrics Dec](https://tnfd.global/wp-content/uploads/2023/09/Discussion-paper-on-sector-metrics-dec-353x500.jpg) ](https://tnfd.global/publication/discussion-paper-on-sector-metrics/)
+[Discussion paper on proposed sector disclosure metrics ](https://tnfd.global/publication/discussion-paper-on-sector-metrics/)
+  * [ ![Guidance On Biomes V1](https://tnfd.global/wp-content/uploads/2023/09/guidance-on-biomes_v1-353x500.jpg) ](https://tnfd.global/publication/guidance-by-biome/)
+[Guidance on biomes](https://tnfd.global/publication/guidance-by-biome/)
+  * [ ![Proposed Approach To Value Chains V1](https://tnfd.global/wp-content/uploads/2023/08/proposed-approach-to-value-chains_v1-353x500.jpg) ](https://tnfd.global/publication/discussion-paper-on-tnfds-approach-to-value-chains/)
+[Discussion paper on proposed approach to value chains ](https://tnfd.global/publication/discussion-paper-on-tnfds-approach-to-value-chains/)
+  * [ ![Guidance On Scenario Analysis V1](https://tnfd.global/wp-content/uploads/2023/09/guidance-on-scenario-analysis_v1-353x500.jpg) ](https://tnfd.global/publication/guidance-on-scenario-analysis/)
+[Guidance on scenario analysis ](https://tnfd.global/publication/guidance-on-scenario-analysis/)
+  * [ ![Glossary 6.0 Jan 2026](https://tnfd.global/wp-content/uploads/2023/09/Glossary-6.0-Jan-2026-354x500.jpg) ](https://tnfd.global/publication/glossary/)
+[Glossary ](https://tnfd.global/publication/glossary/)
+  * [ ![23 24755 Global Data Facility Paper V14 1 Cover](https://tnfd.global/wp-content/uploads/2023/09/23-24755-Global-Data-Facility-Paper_V14-1-cover-354x500.jpg) ](https://tnfd.global/publication/findings-of-a-high-level-scoping-study-exploring-the-case-for-a-global-nature-related-public-data-facility/)
+[Findings of a high-level scoping study exploring the case for a global nature-related public data facility](https://tnfd.global/publication/findings-of-a-high-level-scoping-study-exploring-the-case-for-a-global-nature-related-public-data-facility/)
+  * [ ![Discussion Paper On Conducting Advanced Scenario Analysis](https://tnfd.global/wp-content/uploads/2023/12/Discussion-paper-on-conducting-advanced-scenario-analysis-353x500.png) ](https://tnfd.global/publication/discussion-paper-on-conducting-advanced-scenario-analysis/)
+[Discussion paper on conducting advanced scenario analysis](https://tnfd.global/publication/discussion-paper-on-conducting-advanced-scenario-analysis/)
+  * [ ![Discussion Paper On Biodiversity Footprinting Approaches For Financial Institutions 2023 Cover Image](https://tnfd.global/wp-content/uploads/2023/12/Discussion-paper-on_Biodiversity-footprinting-approaches-for-financial-institutions_2023_COVER_IMAGE-361x500.png) ](https://tnfd.global/publication/discussion-paper-on-biodiversity-footprinting-approaches-for-financial-institutions/)
+[Discussion paper on biodiversity footprinting approaches for financial institutions](https://tnfd.global/publication/discussion-paper-on-biodiversity-footprinting-approaches-for-financial-institutions/)
+  * [ ![Draft Sector Guidance Aquaculture Cover](https://tnfd.global/wp-content/uploads/2023/12/Draft-sector-guidance-Aquaculture-cover-353x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-aquaculture/)
+[Draft sector guidance – Aquaculture](https://tnfd.global/publication/draft-sector-guidance-aquaculture/)
+  * [ ![Draft Sector Guidance Food And Agriculture Cover](https://tnfd.global/wp-content/uploads/2023/12/Draft-sector-guidance-Food-and-agriculture-cover-353x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-food-and-agriculture/)
+[Draft sector guidance – Food and agriculture](https://tnfd.global/publication/draft-sector-guidance-food-and-agriculture/)
+  * [ ![Draft Sector Guidance Forestry And Paper Cover](https://tnfd.global/wp-content/uploads/2023/12/Draft-sector-guidance-Forestry-and-paper-cover-353x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-forestry-and-paper/)
+[Draft sector guidance – Forestry and paper](https://tnfd.global/publication/draft-sector-guidance-forestry-and-paper/)
+  * [ ![Draft Sector Guidance Chemicals Cover](https://tnfd.global/wp-content/uploads/2023/12/Draft-sector-guidance-Chemicals-cover-353x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-chemicals/)
+[Draft sector guidance – Chemicals](https://tnfd.global/publication/draft-sector-guidance-chemicals/)
+  * [ ![Draft Sector Guidance Biotechnology And Pharmaceuticals Cover](https://tnfd.global/wp-content/uploads/2023/12/Draft-sector-guidance-Biotechnology-and-pharmaceuticals-cover-353x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-biotechnology-and-pharmaceuticals/)
+[Draft sector guidance – Biotechnology and pharmaceuticals](https://tnfd.global/publication/draft-sector-guidance-biotechnology-and-pharmaceuticals/)
+  * [ ![Draft Sector Guidance Oil And Gas Cover](https://tnfd.global/wp-content/uploads/2023/12/Draft-sector-guidance-Oil-and-gas-cover-353x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-oil-and-gas/)
+[Draft sector guidance – Oil and gas](https://tnfd.global/publication/draft-sector-guidance-oil-and-gas/)
+  * [ ![Draft Sector Guidance Electric Utilities Cover](https://tnfd.global/wp-content/uploads/2023/12/Draft-sector-guidance-Electric-utilities-cover-353x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-electric-utilities-and-power-generators/)
+[Draft sector guidance – Electric utilities and power generators](https://tnfd.global/publication/draft-sector-guidance-electric-utilities-and-power-generators/)
+  * [ ![Draft Sector Guidance Metals And Mining Cover](https://tnfd.global/wp-content/uploads/2023/12/Draft-sector-guidance-Metals-and-mining-cover-353x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-metals-and-mining/)
+[Draft sector guidance – Metals and mining](https://tnfd.global/publication/draft-sector-guidance-metals-and-mining/)
+  * [ ![Sector Guidance Metals And Mining Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26189-Draft-Sector-Guidance-Metals-and-Mining-cover-1-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-metals-and-mining/)
+[Additional sector guidance – Metals and mining](https://tnfd.global/publication/additional-sector-guidance-metals-and-mining/)
+  * [ ![Sector Guidance Electric And Power Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26189-Draft-Sector-Guidance-Electric-and-Power-Cover-1-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-electric-utilities-and-power-generators/)
+[Additional sector guidance – Electric utilities and power generators](https://tnfd.global/publication/additional-sector-guidance-electric-utilities-and-power-generators/)
+  * [ ![Additional Sector Guidance Biotechnology And Pharmaceuticals Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26189-Draft-Sector-Guidance-Biotechnology-and-Pharmaceuticals-cover-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-biotechnology-and-pharmaceuticals/)
+[Additional sector guidance – Biotechnology and pharmaceuticals](https://tnfd.global/publication/additional-sector-guidance-biotechnology-and-pharmaceuticals/)
+  * [ ![Sector Guidance Food And Agriculture Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26189-Draft-Sector-Guidance-Food-and-Agriculture-cover-1-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-food-and-agriculture/)
+[Additional sector guidance – Food and agriculture](https://tnfd.global/publication/additional-sector-guidance-food-and-agriculture/)
+  * [ ![Sector Guidance Aquaculture Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26189-Draft-Sector-Guidance-Aquaculture-cover-1-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-aquaculture/)
+[Additional sector guidance – Aquaculture](https://tnfd.global/publication/additional-sector-guidance-aquaculture/)
+  * [ ![Sector Guidance Chemicals Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26189-Draft-Sector-Guidance-Chemicals-cover-1-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-chemicals/)
+[Additional sector guidance – Chemicals](https://tnfd.global/publication/additional-sector-guidance-chemicals/)
+  * [ ![Sector Guidance Forestry And Paper Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26189-Draft-Sector-Guidance-Forestry-and-Paper-cover-1-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-forestry-pulp-and-paper/)
+[Additional sector guidance – Forestry, pulp and paper](https://tnfd.global/publication/additional-sector-guidance-forestry-pulp-and-paper/)
+  * [ ![24 26270 Tnfd Discussion Paper – Approach To Value Chain Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26270-TNFD-Discussion-Paper-%E2%80%93-Approach-to-Value-Chain-cover-353x500.jpg) ](https://tnfd.global/publication/guidance-on-value-chains/)
+[Guidance on value chains](https://tnfd.global/publication/guidance-on-value-chains/)
+  * [ ![Fishing guidance cover](https://tnfd.global/wp-content/uploads/2024/06/Draft-sector-guidance-cover-Fisheries-354x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-fishing/)
+[Draft sector guidance – Fishing](https://tnfd.global/publication/draft-sector-guidance-fishing/)
+  * [ ![Beverages guidance cover](https://tnfd.global/wp-content/uploads/2024/06/Draft-sector-guidance-cover-Beverages-354x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-beverages/)
+[Draft sector guidance – Beverages](https://tnfd.global/publication/draft-sector-guidance-beverages/)
+  * [ ![Construction Materials Cover](https://tnfd.global/wp-content/uploads/2024/06/Draft-sector-guidance-Construction-materials-PDF-Final-1-pdf-353x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-construction-materials/)
+[Draft sector guidance – Construction materials](https://tnfd.global/publication/draft-sector-guidance-construction-materials/)
+  * [ ![Engineering Construction Real Estate 1](https://tnfd.global/wp-content/uploads/2024/06/Draft-sector-guidance-cover-Engineering-construction-and-real-estat-354x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-engineering-construction-and-real-estate/)
+[Draft sector guidance – Engineering, construction and real estate](https://tnfd.global/publication/draft-sector-guidance-engineering-construction-and-real-estate/)
+  * [ ![Apparel Cover](https://tnfd.global/wp-content/uploads/2024/06/Draft-sector-guidance-cover-Aparell-accessories-and-footward-354x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-apparel-accessories-and-footwear/)
+[Draft sector guidance – Apparel, accessories and footwear](https://tnfd.global/publication/draft-sector-guidance-apparel-accessories-and-footwear/)
+  * [ ![Tnfd Esrs Correspondence Mapping](https://tnfd.global/wp-content/uploads/2024/07/TNFD-ESRS-Correspondence-Mapping-351x500.jpg) ](https://tnfd.global/publication/tnfd-esrs-correspondence-mapping/)
+[Correspondence mapping: ESRS requirements and TNFD Disclosure Recommendations and metrics](https://tnfd.global/publication/tnfd-esrs-correspondence-mapping/)
+  * [ ![Tnfd Gri Cover](https://tnfd.global/wp-content/uploads/2024/07/TNFD-GRI-COVER-353x500.jpg) ](https://tnfd.global/publication/interoperability-mapping-between-the-gri-standards-and-the-tnfd-recommended-disclosures-and-metrics/)
+[Interoperability mapping between the GRI Standards and the TNFD Recommended Disclosures and metrics](https://tnfd.global/publication/interoperability-mapping-between-the-gri-standards-and-the-tnfd-recommended-disclosures-and-metrics/)
+  * [ ![Screen Shot Nature Transition Cover](https://tnfd.global/wp-content/uploads/2024/10/Screen-shot-Nature-transition-cover--354x500.jpg) ](https://tnfd.global/publication/discussion-paper-on-nature-transition-plans/)
+[Discussion paper on nature transition plans](https://tnfd.global/publication/discussion-paper-on-nature-transition-plans/)
+  * [ ![24 273~1](https://tnfd.global/wp-content/uploads/2025/01/24-2731-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-engineering-construction-and-real-estate/)
+[Additional sector guidance – Engineering, construction and real estate](https://tnfd.global/publication/additional-sector-guidance-engineering-construction-and-real-estate/)
+  * [ ![24 273~4](https://tnfd.global/wp-content/uploads/2025/01/24-2734-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-construction-materials/)
+[Additional sector guidance – Construction materials](https://tnfd.global/publication/additional-sector-guidance-construction-materials/)
+  * [ ![Water Utilities Draft Cover](https://tnfd.global/wp-content/uploads/2025/01/Draft-sector-guidance-cover-Water-utilities-354x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-water-utilities-and-services/)
+[Draft sector guidance – Water utilities and services](https://tnfd.global/publication/draft-sector-guidance-water-utilities-and-services/)
+  * [ ![Marine Transport Draft Cover](https://tnfd.global/wp-content/uploads/2025/01/Draft-sector-guidance-cover-Marine-transportation-354x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-marine-transportation/)
+[Draft sector guidance – Marine transportation and cruise lines](https://tnfd.global/publication/draft-sector-guidance-marine-transportation/)
+  * [ ![24 27389 Final Sector Guidance Beverages Cover](https://tnfd.global/wp-content/uploads/2025/01/24-27389_Final-Sector-Guidance-Beverages_Cover-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-beverages/)
+[Additional sector guidance – Beverages](https://tnfd.global/publication/additional-sector-guidance-beverages/)
+  * [ ![24 273~3](https://tnfd.global/wp-content/uploads/2025/01/24-2733-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-apparel-accessories-footwear/)
+[Additional sector guidance – Apparel, accessories & footwear](https://tnfd.global/publication/additional-sector-guidance-apparel-accessories-footwear/)
+  * [ ![25 28240 Final Sector Guidance Water Utilities And Services Cover](https://tnfd.global/wp-content/uploads/2025/06/25-28240_Final-Sector-Guidance-Water-Utilities-and-Services_cover-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-water-utilities-and-services/)
+[Additional sector guidance – Water utilities and services](https://tnfd.global/publication/additional-sector-guidance-water-utilities-and-services/)
+  * [ ![250918 Tnfd Status Report Cover](https://tnfd.global/wp-content/uploads/2025/09/250918_TNFD-Status-Report_COVER-500x281.jpg) ](https://tnfd.global/publication/tnfd-2025-status-report/)
+[TNFD 2025 Status Report](https://tnfd.global/publication/tnfd-2025-status-report/)
+  * [ ![Nature Cover Final\[75\] Page 1](https://tnfd.global/wp-content/uploads/2025/09/Nature-Cover-FINAL75_Page_1-353x500.jpg) ](https://tnfd.global/publication/model-guidance-on-nature-related-financial-disclosures/)
+[Model Guidance on Nature-related Financial Disclosures](https://tnfd.global/publication/model-guidance-on-nature-related-financial-disclosures/)
+  * [ ![Guidance On Nature Transition Plans](https://tnfd.global/wp-content/uploads/2025/11/Guidance-on-Nature-Transition-Plans-354x500.jpg) ](https://tnfd.global/publication/guidance-on-nature-in-transition-plans/)
+[Guidance on nature in transition plans](https://tnfd.global/publication/guidance-on-nature-in-transition-plans/)
+  * [ ![Discussion Paper On Nature Related Opporunties](https://tnfd.global/wp-content/uploads/2025/10/Discussion-paper-on-nature-related-opporunties-354x500.jpg) ](https://tnfd.global/publication/discussion-paper-on-nature-related-opportunities/)
+[Discussion paper on nature-related opportunities](https://tnfd.global/publication/discussion-paper-on-nature-related-opportunities/)
+  * [ ![Iso Cover](https://tnfd.global/wp-content/uploads/2025/11/ISO-Cover-353x500.jpg) ](https://tnfd.global/publication/iso-17298-biodiversity-in-strategy-and-operations/)
+[ISO 17298 – Biodiversity in strategy and operations](https://tnfd.global/publication/iso-17298-biodiversity-in-strategy-and-operations/)
+  * [ ![Cover Draft Sector Guidance Technology & Communications \(1\)](https://tnfd.global/wp-content/uploads/2026/01/COVER-Draft-sector-guidance-Technology-communications-1-354x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-technology-communication/)
+[Draft sector guidance – Technology and communications](https://tnfd.global/publication/draft-sector-guidance-technology-communication/)
+  * [ ![Cover Draft Sector Guidance Alternative Fuels \(7\)](https://tnfd.global/wp-content/uploads/2026/02/COVER-Draft-sector-guidance-Alternative-fuels-7-354x500.jpg) ](https://tnfd.global/publication/draft-sector-guidance-alternative-fuels/)
+[Draft sector guidance – Alternative fuels](https://tnfd.global/publication/draft-sector-guidance-alternative-fuels/)
+
+
+## Related webinars
+  * [ ![Hummingbird Hovering Next To Lily Flowers Panoramic View](https://tnfd.global/wp-content/uploads/2023/09/iStock-494587246-1-500x256.jpg) ](https://tnfd.global/webinar/the-leap-approach-assess-for-financial-institutions/)
+### [The LEAP Approach – Assess for Financial Institutions](https://tnfd.global/webinar/the-leap-approach-assess-for-financial-institutions/)
+March 6, 2023 (Updated: September 18, 2023)
+This webinar discusses the Assess phase of TNFD’s LEAP Approach for Financial Institutions including risk and opportunity identification, existing and additional risk mitigation and management, and risk and opportunity...
+  * [ ![3d Stimulate Of High Rise Curve Glass Building And Dark Steel Window System On Blue Clear Sky Background,business Concept Of Future Architecture,lookup To The Angle Of The Corner Building.](https://tnfd.global/wp-content/uploads/2023/09/iStock-1129141502-1-500x375.jpg) ](https://tnfd.global/webinar/the-leap-approach-locate-evaluate/)
+### [The LEAP Approach – Locate + Evaluate](https://tnfd.global/webinar/the-leap-approach-locate-evaluate/)
+September 26, 2022 (Updated: September 15, 2023)
+This webinar discusses the first two sections of the LEAP Approach, Locate and Evaluate. It includes a comprehensive overview of scoping, prioritizing locations, and using available data sets to understand the state of nature and...
+  * [ ![Global Launch Webinar – The Tnfd Recommendations](https://tnfd.global/wp-content/uploads/2023/10/Global-launch-webinar-8211-The-TNFD-Recommendations-500x281.jpg) ](https://tnfd.global/webinar/global-launch-webinar-the-tnfd-recommendations/)
+### [Global launch webinar – The TNFD Recommendations](https://tnfd.global/webinar/global-launch-webinar-the-tnfd-recommendations/)
+September 19, 2023 (Updated: October 6, 2023)
+Following the official launch at New York Climate Week, the TNFD hosted a public webinar on the final version (v1) our recommendations. 
+This comes after a two-year development period, four beta releases, and 3000+ pieces of...
+  * [ ![Insights On Tnfd Sector Guidance](https://tnfd.global/wp-content/uploads/2024/04/Insights-on-TNFD-Sector-Guidance-500x281.jpg) ](https://tnfd.global/webinar/insights-on-tnfd-sector-guidance/)
+### [Insights on TNFD Sector Guidance](https://tnfd.global/webinar/insights-on-tnfd-sector-guidance/)
+March 8, 2024 (Updated: April 29, 2024)
+Draft sector guidance is currently available for eight priority sectors. 
+This webinar for Forum members presented an overview of eight sector guidance documents published at COP28 in December 2023. The session included a...
+  * [ ![Tnfd In A Box Thumbnails Page 3 Image 0001](https://tnfd.global/wp-content/uploads/2023/08/TNFD-in-a-Box_Thumbnails_Page_3_Image_0001-498x500.jpg) ](https://tnfd.global/webinar/additional-guidance-for-financial-institutions/)
+### [Additional guidance for financial institutions](https://tnfd.global/webinar/additional-guidance-for-financial-institutions/)
+March 7, 2024 (Updated: January 29, 2025)
+Published alongside the TNFD Recommendations in September 2023, this Forum member webinar explored the draft additional guidance for financial institutions open for consultation until 29 March.
+This session provides an...
+  * [ ![Tnfd Reporting In Action – Insights From The Asset Management](https://tnfd.global/wp-content/uploads/2024/05/TNFD-reporting-in-action-%E2%80%93-Insights-from-the-Asset-Management-500x281.jpg) ](https://tnfd.global/webinar/tnfd-reporting-in-action-insights-from-the-asset-management/)
+### [TNFD reporting in action – Insights from the Asset Management Industry](https://tnfd.global/webinar/tnfd-reporting-in-action-insights-from-the-asset-management/)
+May 28, 2024 (Updated: January 14, 2025)
+In this webinar, organisations that have recently published a TNFD report shared unique TNFD reporting insights. 
+Whereas climate has become an established part of organisations’ sustainability reporting, nature reports...
+  * [ ![Tnfd Reporting In Action – Insights From Corporates](https://tnfd.global/wp-content/uploads/2024/06/TNFD-reporting-in-action-%E2%80%93-Insights-from-Corporates-500x281.jpg) ](https://tnfd.global/webinar/tnfd-reporting-in-action-insights-from-corporates/)
+### [TNFD reporting in action – Insights from Corporates](https://tnfd.global/webinar/tnfd-reporting-in-action-insights-from-corporates/)
+June 13, 2024 (Updated: February 6, 2026)
+In this webinar, organisations that have recently published a TNFD report shared unique TNFD reporting insights.
+Whereas climate has become an established part of organisations’ sustainability reporting, nature reports...
+  * [ ![Tnfd 101: Assessing Nature Related Issues – Introduction To The Tnfd Leap Approach](https://tnfd.global/wp-content/uploads/2024/08/TNFD-101-Assessing-nature-related-issues-%E2%80%93-Introduction-to-the-TNFD-LEAP-Approach-500x261.jpg) ](https://tnfd.global/webinar/tnfd-101-assessing-nature-related-issues-introduction-to-the-tnfd-leap-approach/)
+### [TNFD 101: Assessing nature-related issues – Introduction to the TNFD LEAP Approach](https://tnfd.global/webinar/tnfd-101-assessing-nature-related-issues-introduction-to-the-tnfd-leap-approach/)
+August 19, 2024 (Updated: August 19, 2024)
+This webinar provided guidance on the integrated approach that TNFD has developed for the identification and assessment of nature-related issues, called the LEAP approach.
+This approach aims to help organisations conduct the...
+  * [ ![Diving Into Oceans Data: New Technologies And Implications To Support Corporate Reporting](https://tnfd.global/wp-content/uploads/2024/09/Diving-Into-Oceans-Data-New-technologies-and-implications-to-support-corporate-reporting-500x280.jpg) ](https://tnfd.global/webinar/diving-into-oceans-data-new-technologies-and-implications-to-support-corporate-reporting/)
+### [Diving Into Oceans Data: New technologies and implications to support corporate reporting](https://tnfd.global/webinar/diving-into-oceans-data-new-technologies-and-implications-to-support-corporate-reporting/)
+September 4, 2024 (Updated: September 4, 2024)
+The session was moderated by Tony Goldner and focused on how innovative data collection methods and metrics are revolutionizing the Blue Economy and informing corporate reporting in alignment with the Taskforce on Nature-related...
+  * [ ![Nature As A Mentor: Learning From Nature, For Nature](https://tnfd.global/wp-content/uploads/2025/01/Nature-as-a-mentor-Learning-from-nature-for-nature-500x281.jpg) ](https://tnfd.global/webinar/nature-as-a-mentor-learning-from-nature-for-nature/)
+### [Nature as a mentor: Learning from nature, for nature](https://tnfd.global/webinar/nature-as-a-mentor-learning-from-nature-for-nature/)
+January 28, 2025 (Updated: January 28, 2025)
+Hosted by TNFD, Biomimicry 3.8 and The Biomimicry Institute
+This session explores nature-related opportunities through biomimicry and other nature-led learnings.
+  * [ ![Nature Risk Is Financial Risk: Case Studies From The Market](https://tnfd.global/wp-content/uploads/2025/01/Nature-risk-is-financial-risk-Case-studies-from-the-market-500x281.jpg) ](https://tnfd.global/webinar/nature-risk-is-financial-risk-case-studies-from-the-market/)
+### [Nature risk is financial risk: Case studies from the market](https://tnfd.global/webinar/nature-risk-is-financial-risk-case-studies-from-the-market/)
+January 28, 2025 (Updated: January 28, 2025)
+This session showcases how organisations are taking action to avoid the financial consequences of not understanding or managing nature-related risks.
+  * [ ![Tackling Invasive Alien Species: The Time For Global Collaboration](https://tnfd.global/wp-content/uploads/2025/01/Tackling-invasive-alien-species-The-time-for-global-collaboration-500x281.jpg) ](https://tnfd.global/webinar/tackling-invasive-alien-species-the-time-for-global-collaboration/)
+### [Tackling invasive alien species: The time for global collaboration](https://tnfd.global/webinar/tackling-invasive-alien-species-the-time-for-global-collaboration/)
+January 28, 2025 (Updated: January 28, 2025)
+Hosted by Anglo American, Fauna & Flora, IUCN and TNFD
+Business has a vital role to play in tackling invasive species, working alongside government and other stakeholders. This session explored the science and economics...
+
+
+[Back to top](https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/#main)
+## Recommendations & Additional Guidance
+  * [TNFD Recommendations](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/)
+  * [Additional Guidance](https://tnfd.global/assessment-guidance/)
+
+
+## Resources
+  * [Publications](https://tnfd.global/tnfd-publications/)
+  * [Beta framework publication archive](https://tnfd.global/tnfd-publications/publications-archive/)
+  * [Knowledge Hub](https://tnfd.global/knowledge-hub/)
+
+
+## Useful links
+  * [Home](https://tnfd.global/)
+  * [Contact us](https://tnfd.global/about/contact-us/)
+  * [Log in](https://tnfd.global/log-in/)
+  * [Create a profile](https://tnfd.global/create-a-profile/)
+  * [User dashboard](https://tnfd.global/user-dashboard/)
+  * [Join the TNFD mailing list](https://tnfd.global/join-the-tnfd-mailing-list/)
+  * [Careers](https://tnfd.global/about/careers/)
+  * [TNFD brand guidelines](https://tnfd.global/content-hub/#resources)
+  * [Events](https://tnfd.global/events/)
+
+
+![TNFD logo](https://tnfd.global/wp-content/themes/tnfd/dist/img/tnfd-logo-white.svg)
+[ ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png) ](http://creativecommons.org/licenses/by/4.0/)
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+The TNFD Secretariat is administratively supported by the Green Finance Institute (GFI) and operates as GFI PMO Ltd. with company registration number 13559729, and has its registered address at International House, 36-38 Cornhill, London, EC3V 3NG.
+© TNFD 2021-2026  |  Website design and development by [EPLS Design](https://epls.design/?utm_source=client&utm_medium=website&utm_campaign=tnfd)
+  * [Privacy policy](https://tnfd.global/privacy-policy/)
+  * [Cookie policy](https://tnfd.global/cookie-policy/)
+
+
+Manage Consent
+To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behaviour or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.
+Functional Functional Always active 
+The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.
+Preferences Preferences
+The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.
+Statistics Statistics
+The technical storage or access that is used exclusively for statistical purposes. The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.
+Marketing Marketing
+The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.
+  * [Manage options](https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/)
+  * [Manage services](https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/)
+  * [Manage {vendor_count} vendors](https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/)
+  * [Read more about these purposes](https://cookiedatabase.org/tcf/purposes/)
+
+
+Accept Deny View preferences Save preferences [View preferences](https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/)
+  * [{title}](https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/)
+  * [{title}](https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/)
+  * [{title}](https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/)
+
+
+Manage consent

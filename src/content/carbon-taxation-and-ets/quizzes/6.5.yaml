@@ -1,0 +1,35 @@
+- question: "What is a managed phase-in for carbon pricing?"
+  options:
+    - "Starting with a low price that gradually increases over time"
+    - "Implementing carbon pricing randomly"
+    - "Starting high and decreasing"
+    - "Phasing out carbon pricing"
+  answer: 0
+  explanation: "Managed phase-in starts with a lower, more acceptable initial price and increases it gradually over time, giving households and businesses time to adjust while building toward effective climate action."
+
+- question: "What is the benefit of announcing a price trajectory in advance?"
+  options:
+    - "It eliminates all opposition"
+    - "It provides certainty for planning and allows gradual adjustment"
+    - "It prevents any price changes"
+    - "It is required by international law"
+  answer: 1
+  explanation: "Announcing future price increases (e.g., 'starting at $20, rising $10/year to $60 by 2030') gives businesses and households time to plan investments and adjust behavior gradually."
+
+- question: "Why might limited sectoral coverage initially be easier politically?"
+  options:
+    - "It covers more emissions"
+    - "Starting with large emitters builds experience while affecting fewer entities"
+    - "Small emitters oppose it more"
+    - "It raises more revenue"
+  answer: 1
+  explanation: "Starting with large emitters or specific sectors (like power generation) affects fewer entities, reduces administrative burden, and builds experience before expanding to economy-wide coverage."
+
+- question: "What is the risk of too slow a price escalation?"
+  options:
+    - "It increases revenue too quickly"
+    - "It may not drive sufficient behavioral change and risks climate targets being missed"
+    - "It causes immediate economic collapse"
+    - "All companies will shut down"
+  answer: 1
+  explanation: "While gradual escalation aids acceptance, prices must ultimately reach levels that drive real behavioral change. Too-slow escalation risks insufficient emissions reductions to meet climate goals."

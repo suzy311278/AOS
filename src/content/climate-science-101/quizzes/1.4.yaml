@@ -1,0 +1,26 @@
+- question: "Why does stratospheric cooling alongside tropospheric warming serve as a definitive fingerprint of greenhouse gas forcing rather than solar forcing?"
+  options:
+    - "The stratosphere is too high for sunlight to reach it, so only greenhouse gases affect its temperature"
+    - "Increased solar output would warm the entire atmosphere including the stratosphere, while greenhouse gases trap heat in the troposphere and reduce energy reaching the stratosphere — producing the observed pattern of lower atmosphere warming and upper atmosphere cooling"
+    - "The stratosphere cools because ozone depletion from human chemicals blocks solar radiation; this is unrelated to greenhouse gas warming"
+    - "Stratospheric cooling is caused by water vapour condensing at high altitudes and releasing latent heat, which cools the air above"
+  answer: 1
+  explanation: "This is one of the most diagnostic fingerprints in climate attribution. If the sun were driving warming, the whole atmosphere would warm together. But greenhouse gases trap heat in the lower troposphere, reducing the infrared energy that reaches the stratosphere — causing it to cool. Satellite measurements confirm the stratosphere has cooled while the troposphere warms, matching greenhouse gas predictions precisely and ruling out solar variability as the primary driver."
+
+- question: "What did quantitative attribution analysis in IPCC AR6 find about the contribution of natural factors (solar and volcanic) to observed warming since 1850–1900?"
+  options:
+    - "Natural factors contributed approximately 0.5°C of warming, accounting for about half the total observed warming"
+    - "Natural factors contributed approximately 0.3°C of warming through increased solar output since industrialization"
+    - "Natural factors changed global surface temperature by only -0.1 to +0.1°C — a negligible contribution to the total 1.07°C of observed warming"
+    - "Natural factors caused cooling of about 0.5°C, partially offsetting human-caused warming"
+  answer: 2
+  explanation: "IPCC AR6 quantitative attribution finds that natural drivers (solar and volcanic) changed global surface temperature by only -0.1 to +0.1°C over the 1850–1900 to 2010–2019 period, compared to a human influence best estimate of +1.07°C. Internal variability also contributed only -0.2 to +0.2°C. Natural factors simply cannot explain the sustained, global, multi-decadal warming trend that has been observed."
+
+- question: "What is the significance of the Suess effect in establishing human causation of rising atmospheric CO₂?"
+  options:
+    - "It demonstrates that rising CO₂ is causing the ocean to become more acidic, confirming atmospheric CO₂ is increasing"
+    - "It is the observed decline in radioactive ¹⁴C and the shift in ¹³C/¹²C ratio in atmospheric CO₂, which directly fingerprints fossil fuel combustion as the source of excess atmospheric CO₂"
+    - "It shows that CO₂ concentrations measured at Mauna Loa in Hawaii match concentrations measured at the South Pole, confirming CO₂ is well-mixed globally"
+    - "It describes the seasonal oscillation in CO₂ caused by Northern Hemisphere vegetation cycles, confirming that biology regulates atmospheric CO₂"
+  answer: 1
+  explanation: "The Suess effect is the isotopic fingerprint of fossil fuel combustion on atmospheric CO₂. Fossil fuels contain no radioactive ¹⁴C (it has all decayed over millions of years) and carry a distinctive ¹³C/¹²C ratio. As fossil carbon enters the atmosphere, it dilutes both the ¹⁴C concentration and shifts the ¹³C/¹²C ratio in measurable ways. This isotopic shift provides direct chemical evidence — independent of temperature records or climate models — that rising CO₂ originates from fossil fuel combustion, not from natural sources like volcanoes or ocean outgassing."

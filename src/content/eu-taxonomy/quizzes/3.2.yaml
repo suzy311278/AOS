@@ -1,0 +1,8 @@
+- question: "Why might a bank's Green Asset Ratio be low even if the bank finances many green projects?"
+  options:
+    - "The bank is not reporting correctly"
+    - "Many counterparties do not yet report taxonomy data under CSRD"
+    - "The GAR formula is wrong"
+    - "Banks are exempt from taxonomy reporting"
+  answer: 1
+  explanation: "The GAR depends on counterparties (borrowers) reporting their own taxonomy data. If they are not yet subject to CSRD, the bank cannot classify those exposures as aligned."

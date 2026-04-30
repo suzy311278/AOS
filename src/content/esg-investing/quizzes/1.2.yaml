@@ -1,0 +1,44 @@
+- question: "The 'Jevons paradox' refers to which phenomenon?"
+  options:
+    - "The finding that biodiversity loss accelerates when countries achieve higher incomes"
+    - "The observation that efficiency improvements in resource use often lead to greater total consumption"
+    - "The tendency for carbon taxes to be offset by increased fossil fuel subsidies"
+    - "The pattern whereby ocean acidification speeds up as atmospheric CO₂ rises"
+  answer: 1
+  explanation: "The Jevons paradox describes how improvements in resource efficiency (using fewer resources per unit of output) can actually increase total resource consumption, because lower unit costs stimulate greater overall demand. It is relevant to the clean energy transition, where more efficient technologies may still drive higher total mineral use."
+
+- question: "Which of the following best describes 'ecosystem services'?"
+  options:
+    - "The financial services provided by banks to companies in environmentally sensitive sectors"
+    - "The benefits that natural ecosystems provide to human society, such as pollination, clean water, and flood regulation"
+    - "The environmental performance metrics used by asset managers to score portfolio companies"
+    - "The services provided by environmental consultancies to companies undertaking impact assessments"
+  answer: 1
+  explanation: "Ecosystem services are the benefits that functioning natural ecosystems provide to human society — from crop pollination and clean water supply to climate regulation and flood protection. The annual monetary value of these services is estimated at US$125–140 trillion, more than one and a half times global GDP."
+
+- question: "According to the IPBES 2019 report, approximately how many animal and plant species are currently threatened with extinction?"
+  options:
+    - "Around 100,000"
+    - "Around 500,000"
+    - "Around one million"
+    - "Around five million"
+  answer: 2
+  explanation: "The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) 2019 report found that approximately one million animal and plant species are now threatened with extinction — many within decades. This represents the fastest rate of biodiversity loss in human history."
+
+- question: "Which of the following correctly describes the three principles of the circular economy?"
+  options:
+    - "Reduce, reuse, recycle"
+    - "Design out waste and pollution; keep products and materials in use; regenerate natural systems"
+    - "Eliminate fossil fuels; decarbonise supply chains; achieve net zero by 2050"
+    - "Internalise externalities; price carbon; tax virgin resource extraction"
+  answer: 1
+  explanation: "The circular economy is based on three core principles: design out waste and pollution from the outset; keep products, components, and materials in use for as long as possible; and regenerate natural systems. This contrasts with the linear 'take-make-dispose' model."
+
+- question: "What is the primary financial risk to investors from deforestation in commodity supply chains?"
+  options:
+    - "Higher insurance premiums from wildfires destroying company assets"
+    - "Supply chain disruption, cost volatility, reputational damage, and potential for stranded assets as regulation tightens"
+    - "Reduced carbon credits available to offset portfolio emissions"
+    - "Increased operational costs from switching to sustainable palm oil"
+  answer: 1
+  explanation: "Companies with supply chain exposure to deforestation face multiple interconnected financial risks: supply disruption if access to forest-risk commodities is restricted, cost volatility from regulatory action, reputational damage from civil society campaigns, and the risk of stranded assets if policy or consumer pressure makes existing operations unviable."

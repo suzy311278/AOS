@@ -1,0 +1,83 @@
+{/* source: EUDR Regulation (EU) 2023/1115, Art. 9-10; EC EUDR Guidance Documents */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/eudr/4_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Building Traceability Systems
+
+<HighlightBox>
+  <p class="font-semibold text-green-800">Why this matters</p>
+  <p class="text-green-900 mt-1">The EUDR's information requirements are only as good as the traceability systems that generate the underlying data. Knowing what the regulation requires is necessary but not sufficient: operators must also build or procure the technical systems, supplier relationships, and internal processes that make compliance repeatable and auditable. This lesson examines what effective EUDR traceability looks like in practice.</p>
+</HighlightBox>
+
+### What the Regulation Requires: The Information Layer
+<p class="mb-3">Articles 9 and 10 of the EUDR set out the information that operators must collect and maintain for every relevant commodity or product. This is not a simple paper trail: for most commodity supply chains, the data requirements represent a significant step change from previous practice.</p>
+<p class="mb-3">The minimum information set for each relevant product includes:</p>
+<ul class="list-disc ml-6 space-y-2 mb-4">
+  <li>Product description, including trade name, type, and relevant HS (Harmonized System) codes</li>
+  <li>Quantity (volume and weight)</li>
+  <li>Country of production</li>
+  <li>Geolocation of all production plots (GPS polygon or point coordinates)</li>
+  <li>Date or time range of production</li>
+  <li>Name, postal address, and email address of the supplier and each customer</li>
+  <li>Adequate and verifiable information that the commodity is deforestation-free</li>
+</ul>
+<p class="mb-4">The geolocation requirement is the most technically demanding element for most commodity supply chains. Plot-level GPS coordinates must be collected for the actual land on which the commodity was grown, not just for an intermediary's warehouse or processing facility.</p>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">Analogy: Farm-to-Fork, Literally</p>
+  <p class="mt-2 text-blue-900">Think of the EUDR traceability requirement as a GPS-tagged provenance certificate that must follow the commodity from the precise plot of land where it was grown all the way to the EU market. Just as a food recall system needs to trace a contaminated ingredient back to the specific farm and harvest date, EUDR compliance requires tracing each commodity back to the specific polygon of land on which it was produced. The challenge is that most agricultural supply chains have been built around price, volume, and quality, not spatial provenance.</p>
+</AnalogyBox>
+
+### Traceability Architecture: Four Key Components
+<p class="mb-3">A functional EUDR traceability system typically involves four integrated components that work together to generate and preserve the required information from plot to market:</p>
+
+<ul class="list-disc ml-6 space-y-2 mb-4">
+  <li><strong>Farm-level data collection:</strong> The starting point. GPS coordinates, farmer identification, and production records must be gathered at the plot level. This may use mobile applications, handheld GPS devices, or satellite-derived mapping tools. For large plantation operations, this is relatively straightforward. For smallholder supply chains, it is the most significant operational challenge.</li>
+  <li><strong>Supply chain linkage:</strong> The farm-level data must be linked to the physical commodity as it moves through the supply chain. Each time the commodity changes hands, the origin data must be preserved and associated with the specific product lot. Mass balance or identity preservation approaches may be used, depending on the commodity and the supply chain structure.</li>
+  <li><strong>Deforestation verification:</strong> The plot coordinates collected must be cross-referenced against satellite-derived forest cover change data to confirm that the land was not deforested after 31 December 2020. This geospatial analysis is typically performed using tools such as the EU Observatory's country data, Global Forest Watch's deforestation alerts, or proprietary analysis platforms.</li>
+  <li><strong>Documentation and record-keeping:</strong> All collected information must be stored in a system that is auditable for at least five years. Records must be sufficient to support the due diligence statement submitted to the EUDR Information System before each market placement.</li>
+</ul>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Example: A Coffee Traceability System</p>
+  <p class="mt-2 text-amber-900">A European coffee roaster sources green beans from a cooperative of 2,000 smallholder farmers in Ethiopia. Before the EUDR, the roaster purchased beans by grade and region with no farm-level data. To comply with the regulation, the cooperative now uses a mobile app to GPS-map each member's farm plots, capturing polygon coordinates and farmer identification. When farmers deliver their harvest to the cooperative's washing station, their delivery is linked to their registered farm ID. The cooperative's processor receives the beans with a digital manifest linking each lot to contributing farms. The roaster receives the data package alongside each shipment, cross-references the coordinates against deforestation monitoring data, and includes the verified information in their EUDR due diligence statement. Total data set: 2,000 farm polygons, linked to processing lot records, verified against satellite imagery.</p>
+</ExampleBox>
+
+### Technology Options for EUDR Traceability
+<p class="mb-3">A growing technology ecosystem has emerged to support EUDR traceability. Operators can choose from a range of solutions depending on their supply chain complexity, budget, and existing data infrastructure:</p>
+
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th>Technology Type</th><th>Use Case</th><th>Examples and Providers</th></tr>
+  <tr><td>Mobile data collection apps</td><td>Farm registration, GPS mapping, farmer surveys</td><td>ODK, KoboToolbox, Farmforce, ArcGIS Survey123</td></tr>
+  <tr><td>Supply chain management platforms</td><td>Lot tracking, supplier data management, document storage</td><td>Sourcemap, Sedex, Primairy, Trase</td></tr>
+  <tr><td>Geospatial analysis tools</td><td>Plot-level deforestation verification, forest cover analysis</td><td>Global Forest Watch, Satelligence, Starling, Planet Labs, Descartes Labs</td></tr>
+  <tr><td>Blockchain and digital ledgers</td><td>Tamper-evident record linking across supply chain actors</td><td>IBM Food Trust, Provenance, various custom implementations</td></tr>
+  <tr><td>EUDR-specific compliance platforms</td><td>End-to-end due diligence statement preparation and EUDR IS submission</td><td>Oritain, Rainforest Alliance's data tools, SGS compliance solutions</td></tr>
+</table>
+</ResponsiveTable>
+
+### Mass Balance vs. Identity Preservation
+<p class="mb-3">One of the most important decisions in traceability system design is whether to use identity preservation or mass balance approaches for commodity tracking:</p>
+<ul class="list-disc ml-6 space-y-2 mb-4">
+  <li><strong>Identity preservation (IP):</strong> The physical commodity from verified deforestation-free origins is kept segregated from other commodities throughout the supply chain. This provides the highest level of assurance but is the most costly option, requiring physical separation at every stage of processing, storage, and transport.</li>
+  <li><strong>Mass balance:</strong> The physical commodity may be mixed with other commodity lots, but verified deforestation-free volumes are tracked as a quantity balance in the data system. Products cannot claim physical origin from specific verified plots, but the system ensures that the volume of verified-deforestation-free product sold never exceeds the verified volume purchased. Less costly than IP, but requires robust data management and is subject to scrutiny about whether it truly guarantees deforestation-free status for any specific product unit.</li>
+</ul>
+<p class="mb-4">The EUDR's requirement for geolocation data implies a strong preference for approaches that maintain linkage between specific physical product and specific production plots. Mass balance may be acceptable in some contexts, particularly for processed commodities, but operators should verify the acceptability of their chosen approach with their legal advisors and enforcement authorities.</p>
+
+### Internal Compliance Processes
+<p class="mb-3">Technology systems alone do not deliver EUDR compliance. Operators also need internal governance structures that integrate traceability into procurement, legal, and risk management workflows. Key elements include:</p>
+<ul class="list-disc ml-6 space-y-2 mb-4">
+  <li>Supplier contracts that make data provision a contractual obligation, not just a request</li>
+  <li>Supplier training and capacity building for those unfamiliar with GPS data collection</li>
+  <li>Designated compliance roles with clear accountability for due diligence statement preparation and submission</li>
+  <li>Internal review processes that assess risk assessment outputs before submission</li>
+  <li>Record-keeping systems that preserve all data for the required five-year period</li>
+  <li>Procedures for responding to enforcement authority requests or substantiated concerns from third parties</li>
+</ul>
+
+<DeepDive title="EUDR Information System (EUDR IS): The Technical Gateway">
+  The EUDR Information System, launched on 4 December 2024, is the central electronic platform through which operators submit due diligence statements. The system issues a unique reference number for each valid statement, which must accompany the relevant product through subsequent supply chain transactions. Customs authorities can verify these reference numbers at the point of entry into the EU. The EUDR IS integrates with the EU's customs IT infrastructure, enabling automated cross-referencing of import declarations with due diligence statement data. Operators access the system through the EU's online portal. Technical specifications, including the data formats and API documentation required for automated system integration, are published by the Commission and are relevant for operators managing high volumes of transactions who wish to automate statement submission rather than entering data manually.
+</DeepDive>
+
+<KeyTakeaways items="EUDR traceability requires plot-level geolocation data linked to the physical commodity throughout the supply chain, a significant step change from most existing agricultural supply chain data practices ;; Four core components are needed: farm-level data collection, supply chain linkage, deforestation verification against satellite data, and auditable record-keeping for five years ;; Technology options range from mobile data collection apps and geospatial analysis platforms to dedicated EUDR compliance systems, with no single mandated approach ;; Mass balance approaches may be acceptable in some contexts but the regulation's geolocation requirements favor identity preservation or tight lot-tracking systems ;; Internal governance (supplier contracts, compliance roles, risk review processes) is as important as the technology layer for sustainable EUDR compliance" />

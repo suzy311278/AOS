@@ -1,0 +1,35 @@
+- question: "In which year was the IFRS Sustainability Standards Board (ISSB) formed?"
+  options:
+    - "2015"
+    - "2019"
+    - "2021"
+    - "2023"
+  answer: 2
+  explanation: "The ISSB was announced at COP26 in Glasgow in November 2021. It was established by the IFRS Foundation specifically to develop global sustainability disclosure standards."
+
+- question: "Which organisation created the TCFD, from which IFRS S2 directly derives its four-pillar structure?"
+  options:
+    - "United Nations Environment Programme"
+    - "Financial Stability Board"
+    - "International Monetary Fund"
+    - "World Economic Forum"
+  answer: 1
+  explanation: "The Task Force on Climate-related Financial Disclosures (TCFD) was established by the Financial Stability Board (FSB) in 2015 and published its recommendations in 2017. IFRS S2 adopted the TCFD's four pillars — governance, strategy, risk management, and metrics & targets — as its core structure."
+
+- question: "Which of the following is true about the relationship between IFRS S1 and IFRS S2?"
+  options:
+    - "IFRS S2 can be applied independently without IFRS S1"
+    - "IFRS S1 provides climate-specific requirements while IFRS S2 provides the general framework"
+    - "Both standards must be applied simultaneously; IFRS S1 provides the general framework"
+    - "IFRS S2 replaces IFRS S1 for entities with material climate risks"
+  answer: 2
+  explanation: "IFRS S1 provides the overarching general framework for sustainability disclosures. IFRS S2 provides climate-specific supplementary requirements. An entity applying IFRS S2 must also apply IFRS S1, and cannot apply IFRS S2 alone."
+
+- question: "When was IFRS S2 published and when did it become effective?"
+  options:
+    - "Published March 2022; effective January 2023"
+    - "Published June 2023; effective January 2024"
+    - "Published June 2023; effective January 2025"
+    - "Published December 2025; effective January 2027"
+  answer: 1
+  explanation: "IFRS S2 was published in June 2023 and is effective for annual reporting periods beginning on or after 1 January 2024. December 2025 refers to the amendments, which are effective from 1 January 2027."

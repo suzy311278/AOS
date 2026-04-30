@@ -1,0 +1,44 @@
+- question: "Under C13, what is the permitted timeframe range for a near-term absolute or intensity emission reduction target?"
+  options:
+    - "Minimum 3 years, maximum 7 years from the submission date"
+    - "Minimum 5 years, maximum 10 years from the submission date"
+    - "Minimum 5 years, maximum 15 years from the submission date"
+    - "Exactly 10 years from the base year, with no flexibility"
+  answer: 1
+  explanation: "C13 requires that absolute and intensity-based near-term targets cover a minimum of 5 years and a maximum of 10 years from the date the target is submitted to the SBTi for validation. The base year must be no earlier than 2015. Scope 1 and scope 2 targets must use the same base year. R7 introduces a recommended 2030 target year that, if applied, exempts the company from the 5-10 year rule in C13."
+
+- question: "A company sets its scope 1 and 2 target using an absolute reduction approach. Under C16, the target must be at least as ambitious as the minimum of the approved range of 1.5C-consistent scenarios. Using the cross-sector pathway at a 4.2% linear annual reduction rate, what percentage reduction from base year is required over a 10-year target period?"
+  options:
+    - "21%"
+    - "42%"
+    - "50%"
+    - "4.2%"
+  answer: 1
+  explanation: "The linear annual reduction (LAR) of 4.2% per year applied over 10 years gives a total reduction of 4.2% x 10 = 42%. This is a linear (not compounding) reduction -- the same absolute tonnage is removed each year. Over 10 years, 42% of base year emissions must be eliminated. Over 5 years the figure would be 21%; over 8 years it would be 33.6%."
+
+- question: "Under C17, when are intensity targets for scope 1 and 2 emissions eligible for SBTi validation?"
+  options:
+    - "Always, as an alternative to absolute targets at any company's discretion"
+    - "Only if the company's absolute emissions are growing faster than 5% per year"
+    - "Only when modeled using an approved 1.5C sector pathway applicable to the company's business activities"
+    - "Only for companies in heavy industry sectors with more than 1 million tCO2e in scope 1 emissions"
+  answer: 2
+  explanation: "C17 restricts intensity targets for scope 1 and 2 to situations where an approved 1.5C sector pathway applicable to the company's business activities exists. Companies cannot freely choose to use intensity targets -- the pathway must be available and applicable. If no approved sector pathway exists for the company's activities, it must use an absolute reduction target under C16."
+
+- question: "C19 requires that supplier and customer engagement targets be fulfilled within a maximum timeframe from the target submission date. What is that maximum?"
+  options:
+    - "5 years from the submission date"
+    - "7 years from the submission date"
+    - "10 years from the submission date (same as C13)"
+    - "By 2030 regardless of submission date"
+  answer: 0
+  explanation: "C19 sets a maximum fulfillment period of 5 years from the date the company's target is submitted to the SBTi for validation. This is stricter than the up to 10 years permitted for regular near-term targets under C13. A company submitting in 2025 must have its engagement target fulfilled by 2030 at the latest. R9 also recommends using 2030 or earlier as the supplier engagement target year."
+
+- question: "C21 establishes thresholds for renewable electricity targets as an acceptable alternative to scope 2 emission reduction targets. What are those thresholds?"
+  options:
+    - "50% renewable electricity by 2025 and 100% by 2035"
+    - "80% renewable electricity by 2025 and 100% by 2030"
+    - "100% renewable electricity by 2030, with no interim threshold"
+    - "60% renewable electricity by 2025 and 80% by 2030"
+  answer: 1
+  explanation: "C21 identifies 80% renewable electricity procurement by 2025 and 100% by 2030 as thresholds for this approach, in line with RE100 recommendations. These thresholds are expressed as the portion of renewable electricity over total electricity use. Companies already sourcing at or above these thresholds must maintain or increase their use. For long-term targets, 100% must be maintained beyond 2030."

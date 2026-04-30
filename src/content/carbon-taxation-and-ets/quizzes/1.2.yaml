@@ -1,0 +1,44 @@
+- question: "What is the social cost of carbon (SCC)?"
+  options:
+    - "The cost to society of implementing carbon pricing"
+    - "The estimated economic damage from one additional ton of CO2 emissions"
+    - "The cost of carbon capture technology"
+    - "The price of carbon allowances in trading markets"
+  answer: 1
+  explanation: "The SCC estimates the total economic damage (globally, across time) from emitting one more ton of CO2, including climate impacts on agriculture, health, infrastructure, and ecosystems."
+
+- question: "Why do estimates of the social cost of carbon vary so widely?"
+  options:
+    - "Scientists cannot measure CO2 accurately"
+    - "Different assumptions about discount rates, climate sensitivity, and damage functions"
+    - "Each country has a different SCC"
+    - "The SCC changes daily like stock prices"
+  answer: 1
+  explanation: "SCC estimates vary based on assumptions about how to value future damages (discount rate), how sensitive climate is to CO2, and how damages translate to economic costs."
+
+- question: "What is the marginal abatement cost (MAC)?"
+  options:
+    - "The total cost of all emissions reductions"
+    - "The cost of reducing one additional ton of emissions"
+    - "The average cost per ton across all reductions"
+    - "The cost of carbon capture equipment"
+  answer: 1
+  explanation: "Marginal abatement cost is the cost of reducing the next ton of emissions. It typically rises as you pursue deeper reductions - easy reductions come first, harder ones later."
+
+- question: "A carbon tax set equal to the social cost of carbon would theoretically:"
+  options:
+    - "Eliminate all emissions immediately"
+    - "Achieve the economically efficient level of emissions"
+    - "Maximize government revenue"
+    - "Have no effect on emissions"
+  answer: 1
+  explanation: "Setting the tax at the SCC internalizes the external cost, leading to economically efficient emissions where the marginal cost of further reductions equals the marginal damage from emissions."
+
+- question: "Why might the political rate be different from the SCC-based rate?"
+  options:
+    - "Politicians do not understand economics"
+    - "Political considerations include feasibility, fairness, and international alignment beyond pure economic efficiency"
+    - "The SCC is always too high"
+    - "Political rates must be lower than economic rates by law"
+  answer: 1
+  explanation: "While the SCC provides economic guidance, political rate-setting also considers what is administratively feasible, politically acceptable, distributionally fair, and aligned with international commitments."

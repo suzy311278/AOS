@@ -1,0 +1,26 @@
+- question: "What was the B-Tech Project launched by OHCHR in 2019 designed to address?"
+  options:
+  - "The development of a new UN binding treaty specifically for technology companies"
+  - "Sector-specific guidance on what respecting human rights means in practice for technology companies, grounded in the UN Guiding Principles"
+  - "A mandatory licensing regime for AI systems deployed in social media platforms"
+  - "International standards for child online safety and age verification"
+  answer: 1
+  explanation: "The B-Tech Project was launched by the UN Office of the High Commissioner for Human Rights to produce authoritative guidance on applying the UN Guiding Principles specifically to technology companies. It addresses the sector's particular role types (product manufacturers, platform operators, data intermediaries) and the heightened responsibilities arising from the scale at which technology can affect human rights, covering content governance, data privacy, algorithmic discrimination, and enabling state surveillance."
+
+- question: "Amazon's automated productivity monitoring system in its fulfilment warehouses generated enforcement action from European data protection authorities. What was the key finding of the Italian data protection authority's action in 2021?"
+  options:
+  - "Amazon's system illegally shared worker data with third-party advertisers, resulting in targeted advertising to employees"
+  - "Amazon's algorithmic management system, tracking 'time off task' and generating automatic disciplinary actions, violated GDPR and raised labour rights concerns about worker dignity and physical health"
+  - "Amazon failed to obtain informed consent from workers before installing CCTV cameras in break rooms"
+  - "Amazon's system violated wiretapping laws by recording verbal communications between workers and managers"
+  answer: 1
+  explanation: "The Italian data protection authority (Garante) fined Amazon EUR 746 million in 2021 for GDPR violations related to its data processing practices. Beyond the data protection dimension, Amazon's 'time off task' monitoring system has been criticised by labour rights advocates for creating working conditions incompatible with worker dignity and physical health, with documented reports of workers avoiding bathroom breaks to maintain productivity metrics - illustrating how digital rights and labour rights violations frequently co-occur in algorithmic management systems."
+
+- question: "Which human rights are most directly implicated by intrusive employer monitoring technologies deployed in remote work settings?"
+  options:
+  - "The right to education and the right to form a family"
+  - "The right to privacy (ICCPR Article 17), freedom of thought and expression, and the right to healthy and safe working conditions"
+  - "The right to vote and the right to a fair trial"
+  - "Property rights and the right to intellectual property protection"
+  answer: 1
+  explanation: "Intrusive workplace monitoring technologies primarily implicate: (1) the right to privacy under ICCPR Article 17 and equivalent constitutional protections; (2) freedom of thought and expression, as workers may self-censor their communications and behaviour under surveillance; and (3) the right to healthy working conditions, as ILO supervisory bodies have noted that intrusive monitoring can cause psychological stress and undermine mental health. Companies must assess proportionality, provide transparent information, and consult worker representatives."

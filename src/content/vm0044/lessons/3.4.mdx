@@ -1,0 +1,128 @@
+{/* source: VM0044 v1.2, Section 8.4 (Reversal Risk) and Section 8.5 (Net Reductions and Removals), Equations 14-15 */}
+
+## Reversal Risk, Net Removals, and the Final Equation
+
+Once biochar is produced and verified, there is still a risk that the stored carbon could be released back into the atmosphere. This is called reversal risk. If carbon is released, the sequestration benefit is cancelled and the carbon credit is invalidated.
+
+VM0044 divides reversal risk into two categories: natural risks and non-natural risks.
+
+## Natural Risks
+
+Natural risks come from environmental events that could physically disturb or destroy biochar after it has been applied.
+
+### Fire
+
+Fire is the most significant natural risk for soil-applied biochar. A fire can combust biochar and release its stored carbon immediately.
+
+However, subsurface application reduces this risk substantially. When biochar is buried at least 10 cm below the soil surface, the heat from even high-intensity wildfires does not reach the depth needed to combust the biochar. Soil temperatures drop sharply with depth during fires.
+
+### Wind and Water Erosion
+
+Biochar applied at the soil surface could theoretically be transported outside the project boundary by wind or flooding. However, research shows that biochar actually reduces water runoff and soil erosion. Even if some biochar reaches waterways, studies indicate it persists there for as long as it would in soil.
+
+### Mitigation for Surface Application
+
+When surface application is used rather than subsurface burial, biochar must be mixed with other substrates such as composts or manures before it is spread. Mixing reduces combustibility and makes the material less susceptible to erosion.
+
+Subsurface application (at least 10 cm deep) is the preferred approach because it eliminates most natural risks.
+
+### Non-Soil Applications
+
+For biochar incorporated into building materials such as cement, concrete, asphalt, or clay-based products, natural risks are considered minimal. Biochar embedded in these materials is protected from biological and chemical decay. The European Biochar Certificate (EBC) guidelines indicate that combustion of biochar in concrete or clay-based materials is nearly impossible.
+
+## Non-Natural Risks
+
+Non-natural risks arise from project management decisions, financial problems, government policy changes, or community resistance.
+
+### Social Risks
+
+VM0044 considers social risks to be minimal. The methodology uses only waste biomass as feedstock. There are no competing uses for this material, and communities may benefit from new livelihood opportunities created by the project.
+
+### Project Management and Financial Risks
+
+These risks are also considered minimal. The key reason is that carbon removal benefits from biochar already applied are independent of whether the project continues to operate.
+
+If the project proponent goes bankrupt or shuts down operations, the biochar already in the soil or embedded in concrete will continue to sequester carbon. The GHG benefits recorded in year 1 do not depend on activities in year 2 or later.
+
+<HighlightBox>
+VM0044 considers the reversal risk of verified biochar carbon sequestration to be negligible. No buffer pool or reversal mechanism is required under this methodology.
+
+The key protections are:
+
+1.  Subsurface application (at least 10 cm deep) for soil-applied biochar.
+2.  Mixing biochar with composts or manures before any surface application.
+3.  The independence of already-verified removals from any future project continuation.
+</HighlightBox>
+
+<AnalogyBox>
+Think of reversal risk like fire insurance for a building. You assess the likelihood and magnitude of the risk, then put measures in place to reduce it. If your precautions are strong enough (smoke detectors, fire suppression systems, fire-resistant construction), the residual risk may be so small that you do not need to pay for additional insurance. VM0044 takes the same approach: strong risk mitigation measures make the residual reversal risk negligible.
+</AnalogyBox>
+
+## Net Removals at the Sourcing Stage (Equation 14)
+
+The sourcing stage covers the collection and transport of waste biomass to the production facility. Equation 14 calculates net GHG emission reductions at this stage.
+
+<EquationBreakdown
+  title="Equation 14 - GHG Emission Reductions at the Sourcing Stage"
+  result="ER<sub>SS,y</sub> | Sourcing Stage Reductions | Net GHG emission reductions at the sourcing stage in year y, in tCO2e | blue"
+  inputs="BE<sub>SS,y</sub> | Baseline Emissions | Emissions that would have occurred at the sourcing stage without the project, conservatively set to zero | green ;; PE<sub>SS,y</sub> | Project Emissions | Emissions at the sourcing stage from the project activity, set to zero because waste biomass is treated as renewable | rose"
+  operator="−"
+/>
+
+Result: ER_SS,y = 0 - 0 = 0 for most projects.
+
+The baseline emissions are set to zero as a conservative default. The project emissions are also set to zero because the feedstock is waste biomass treated as renewable. As a result, the sourcing stage contributes zero net emission reductions under the standard approach.
+
+## The Master Net Removals Formula (Equation 15)
+
+Equation 15 combines all four stages into a single annual net removal figure. This is the final number used for carbon credit issuance.
+
+<EquationBreakdown
+  title="Equation 15 - Net Annual GHG Emissions Reductions and Removals"
+  result="ER<sub>y</sub> | Net Annual Removals | Net GHG emissions reductions and removals in year y, in tCO2e - this is the final credit quantity | blue"
+  inputs="ER<sub>SS,y</sub> | Sourcing Stage Reductions | GHG reductions at the sourcing stage, typically zero under conservative default | green ;; ER<sub>PS,y</sub> | Production Stage Removals | Carbon removals from locking carbon into biochar, the main positive term (Equation 1) | amber ;; PE<sub>AS,y</sub> | Application Stage Emissions | GHG emissions from processing and applying biochar, subtracted from the total | violet ;; LE<sub>y</sub> | Leakage Emissions | Emissions outside the project boundary caused by project activities, subtracted from the total | rose"
+  operator="+"
+/>
+
+The formula adds the sourcing and production stage terms, then subtracts application emissions and leakage. The production stage term (ER_PS,y) is always positive and dominates; PE_AS,y and LE_y are subtracted.
+
+The production stage term (ER_PS,y) is always positive and is the dominant driver of net removals. The application stage and leakage terms are always subtracted, reducing the final credit amount.
+
+## Worked Example
+
+<ExampleBox>
+**Year 1 Calculation for a High Technology Biochar Facility**
+
+A high technology pyrolysis facility processes wood feedstock at above 600 degrees C. In year 1, the project reports the following:
+
+*   ER_SS,y = 0 tCO2e (conservative default for sourcing stage)
+*   ER_PS,y = 1,200 tCO2e (from the production stage calculation, Equation 1)
+*   PE_AS,y = 3 tCO2e (electricity consumed for grinding biochar before soil application)
+*   LE_y = 0 tCO2e (all biochar transport was under 200 km, so no leakage applies)
+
+Applying Equation 15:
+
+ER_y = 0 + 1,200 - 3 - 0 = **1,197 tCO2e**
+
+The project earns 1,197 verified carbon credits for year 1.
+</ExampleBox>
+
+## Practice Calculation
+
+<CalculationExercise
+  question="In year 2, a VM0044 project reports: ER_SS,y = 0 tCO2e; ER_PS,y = 850 tCO2e; PE_AS,y = 5 tCO2e; LE_y = 12 tCO2e (biochar transported over 200 km). What is the net GHG removal (ER_y) for year 2?"
+  answer={833}
+  unit="tCO2e"
+  hints={[
+    "Use Equation 15: ER_y = ER_SS,y + ER_PS,y - PE_AS,y - LE_y",
+    "The sourcing stage is zero, so start with ER_PS,y = 850",
+    "Subtract both the application stage emissions (5) and leakage (12) from the production stage total"
+  ]}
+  solution="ER_y = 0 + 850 - 5 - 12 = 833 tCO2e. The project earns 833 verified carbon credits for year 2. Leakage from long-distance transport (12 tCO2e) meaningfully reduced the net credit total."
+/>
+
+## Summary
+
+The net annual removal calculation ties together every element of VM0044. Reversal risk analysis confirms that no buffer pool deduction is required. The sourcing stage contributes zero under the conservative default. The production stage provides the core carbon removal value. Application stage emissions and leakage are then subtracted to arrive at the final verified credit quantity.
+
+<KeyTakeaways items="VM0044 considers reversal risk negligible - no buffer pool or reversal mechanism is required, thanks to subsurface application and mixing requirements ;; The master formula (Equation 15) is: ER_y = ER_SS,y + ER_PS,y - PE_AS,y - LE_y, where the production stage dominates the result ;; Sourcing stage reductions are zero under the conservative default (both baseline and project emissions set to zero) ;; Subsurface application at 10+ cm depth is preferred for soil biochar because it eliminates fire, wind, and water erosion risks ;; Non-soil applications in concrete, asphalt, or clay products have minimal reversal risk because biochar is permanently embedded in the material ;; Already-verified carbon removals are independent of future project operations - if the project shuts down, biochar already applied continues to store carbon" />

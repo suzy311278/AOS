@@ -1,0 +1,26 @@
+- question: "Which of the following is the most compelling structural business case for adopting Product-as-a-Service over traditional product sales?"
+  options:
+    - "It eliminates the need for product design investment"
+    - "It aligns manufacturer incentives with product longevity and circular recovery"
+    - "It always generates higher revenue per unit than selling products"
+    - "It removes the need for regulatory compliance"
+  answer: 1
+  explanation: "Product-as-a-Service structurally aligns commercial incentives with circular outcomes: a manufacturer who profits from ongoing product performance has direct financial reasons to make products durable, repairable, and recoverable - rather than disposable."
+
+- question: "What does the Ellen MacArthur Foundation estimate manufacturing companies in consumer-facing sectors could save annually by applying circular economy principles?"
+  options:
+    - "USD 70 billion"
+    - "USD 700 billion"
+    - "USD 7 trillion"
+    - "USD 70 trillion"
+  answer: 1
+  explanation: "The Ellen MacArthur Foundation estimates savings of up to USD 700 billion per year globally for consumer-facing manufacturing sectors through circular design and production, reflecting value currently lost by discarding materials and replacing virgin inputs."
+
+- question: "Michelin's EFFIFUEL programme charges fleet operators per kilometre driven rather than per tyre. What is the primary circular economy benefit of this model?"
+  options:
+    - "It reduces the cost of tyre disposal for fleets"
+    - "It incentivises Michelin to make tyres that last longer and consume less fuel"
+    - "It allows fleets to avoid tyre maintenance obligations"
+    - "It guarantees government subsidies for circular business models"
+  answer: 1
+  explanation: "Because Michelin bears the cost of tyre replacement under EFFIFUEL, it has direct financial incentives to develop longer-lasting tyres and optimise pressure management. The result is a 2.5% fuel saving for fleet operators and longer tyre lifespan."

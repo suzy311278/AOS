@@ -1,0 +1,35 @@
+- question: "What are the three habitat types defined by PS 6?"
+  options:
+    - "Forest, wetland, and marine"
+    - "Modified habitat, natural habitat, and critical habitat"
+    - "Protected areas, buffer zones, and unprotected areas"
+    - "Tropical, temperate, and arid habitats"
+  answer: 1
+  explanation: "PS 6 classifies habitats into three types with increasing levels of protection: modified habitat (substantially altered by human activity), natural habitat (largely undisturbed ecosystems), and critical habitat (areas with high biodiversity value - endangered species, endemic species, migratory corridors, or areas of evolutionary significance)."
+
+- question: "What is the biodiversity outcome required for projects affecting critical habitat?"
+  options:
+    - "No impact is permitted under any circumstances"
+    - "Net gain of the biodiversity values for which the critical habitat was designated"
+    - "No net loss of biodiversity"
+    - "Compensation at a 1:1 ratio"
+  answer: 1
+  explanation: "In critical habitat, PS 6 requires the project to achieve a net gain of the biodiversity values for which the critical habitat was designated. This is a higher bar than the no net loss requirement that applies in natural habitat. The project must also not lead to measurable adverse impacts on species that triggered the critical habitat designation."
+
+- question: "What principle governs biodiversity offsets under PS 6?"
+  options:
+    - "Offsets can be used as a first option to address biodiversity impacts"
+    - "Offsets are only permitted after the mitigation hierarchy has been applied, and must achieve measurable conservation outcomes"
+    - "Financial contributions to conservation funds are sufficient as offsets"
+    - "Offsets are not recognized under the Performance Standards"
+  answer: 1
+  explanation: "Biodiversity offsets under PS 6 are a last resort - they can only be considered after the mitigation hierarchy (avoid, minimize, restore) has been fully applied. Offsets must achieve measurable conservation outcomes that can reasonably be expected to result in no net loss (natural habitat) or net gain (critical habitat) of biodiversity."
+
+- question: "What does PS 6 require for projects that source living natural resources?"
+  options:
+    - "No specific requirements for sourcing"
+    - "Sustainable management practices verified through credible certification schemes or equivalent measures"
+    - "Only a declaration of intent to source sustainably"
+    - "Government permits are sufficient"
+  answer: 1
+  explanation: "For primary production of living natural resources (forestry, agriculture, fisheries), PS 6 requires sustainable management practices. For industrial-scale operations, this typically means independent verification through internationally recognized certification schemes (e.g., FSC for forestry) or equivalent systems."

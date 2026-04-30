@@ -1,0 +1,26 @@
+- question: "What percentage of EU electronic waste is formally recycled?"
+  options:
+    - "Less than 10%"
+    - "Around 25%"
+    - "Less than 40%"
+    - "Around 60%"
+  answer: 2
+  explanation: "Less than 40% of electronic waste is formally recycled in the EU, and global e-waste volumes are growing at approximately 2% per year. Electronics contain both valuable recoverable materials and hazardous substances requiring careful management."
+
+- question: "What proportion of EU rare earth element imports comes from China?"
+  options:
+    - "Around 30%"
+    - "Around 50%"
+    - "Around 75%"
+    - "Around 98%"
+  answer: 3
+  explanation: "The EU imports approximately 98% of its rare earth elements from China. This extreme geographic concentration of supply creates significant strategic vulnerability, which circular strategies can reduce by retaining rare earths in the EU economy through better collection, sorting, and recycling."
+
+- question: "What did the EU's common charger initiative require for mobile devices?"
+  options:
+    - "A proprietary EU charging standard replacing all existing connectors"
+    - "Wireless charging capability for all devices over 50 euros"
+    - "USB-C as the standard charging port for mobile devices, tablets, cameras, and laptops"
+    - "A universal battery pack standard for all portable electronics"
+  answer: 2
+  explanation: "The EU required USB-C as the standard charging port for mobile devices, tablets, cameras, and eventually laptops. This is projected to save consumers 250 million euros annually, eliminate around 11,000 tonnes of charger waste per year, and reduce the carbon footprint associated with charger production."

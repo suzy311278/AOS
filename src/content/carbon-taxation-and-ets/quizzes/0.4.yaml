@@ -1,0 +1,44 @@
+- question: "How does carbon pricing typically affect households in the short run?"
+  options:
+    - "No effect on household budgets"
+    - "Higher energy and goods prices"
+    - "Lower prices due to efficiency"
+    - "Only wealthy households are affected"
+  answer: 1
+  explanation: "Carbon pricing increases the cost of carbon-intensive energy and goods, which flows through to consumer prices. This is why revenue recycling to households is often used to address affordability."
+
+- question: "What is carbon leakage?"
+  options:
+    - "Physical leakage of CO2 from storage"
+    - "Inaccurate emissions measurement"
+    - "Production shifting to jurisdictions without carbon pricing"
+    - "Revenue lost to tax evasion"
+  answer: 2
+  explanation: "Carbon leakage occurs when production moves from jurisdictions with carbon pricing to those without it, potentially undermining emissions reductions."
+
+- question: "Which design choice directly addresses distributional concerns?"
+  options:
+    - "Setting a higher carbon price"
+    - "Expanding coverage to more sectors"
+    - "Using revenue for household dividends"
+    - "Tightening the emissions cap"
+  answer: 2
+  explanation: "How revenue is used is key to addressing distributional impacts. Returning revenue through dividends or tax cuts can offset the regressive effects of carbon pricing."
+
+- question: "Why are energy-intensive, trade-exposed industries often given special treatment in carbon pricing systems?"
+  options:
+    - "They have more political influence"
+    - "They produce no emissions"
+    - "To address competitiveness and leakage concerns"
+    - "They are exempt from all environmental regulations"
+  answer: 2
+  explanation: "Industries that face international competition and have high carbon costs often receive free allowances or other provisions to prevent production from shifting to unregulated jurisdictions."
+
+- question: "What is a 'just transition' in the context of carbon pricing?"
+  options:
+    - "Implementing carbon pricing very slowly"
+    - "Supporting workers and communities affected by decarbonization"
+    - "Ensuring all countries adopt carbon pricing simultaneously"
+    - "Making carbon pricing revenue-neutral"
+  answer: 1
+  explanation: "Just transition refers to supporting workers, communities, and regions that depend on carbon-intensive industries as the economy transitions to low-carbon activities."

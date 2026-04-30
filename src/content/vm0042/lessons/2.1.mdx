@@ -1,0 +1,95 @@
+{/* 2.1: Drawing the Lines: Project Boundary */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/vm0042/2_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Drawing the Lines: Project Boundary
+<HighlightBox>
+  <p class="font-semibold text-green-800">What the project boundary defines</p>
+  <p class="text-green-900 mt-1">The project boundary defines <strong>what you measure</strong> and <strong>what you count</strong>. It specifies which carbon pools and GHG emission sources must be included in your calculations, and which can be excluded. Getting this right prevents both under-counting and over-claiming.</p>
+</HighlightBox>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">💳 Analogy: Auditing a Household Budget</p>
+  <p class="mt-2 text-blue-900">The project boundary is like the scope of a household budget audit. The "boundary" determines which bank accounts and expense categories are in scope. If you only track the checking account but ignore the credit card, you get an incomplete picture. VM0042 requires you to account for all significant "accounts", SOC, fossil fuel, lime, methane, and nitrous oxide, so the carbon balance is accurate.</p>
+</AnalogyBox>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📍 Why Boundary Decisions Matter, A Real Case</p>
+  <p class="mt-2 text-sm">In a 2021 VVB audit of a conservation agriculture project in East Africa, the auditor discovered that the project had excluded N₂O from nitrogen-fixing legume cover crops from its project boundary, without first demonstrating the exclusion was de minimis. Since the project had introduced legumes as a new practice (they weren't in the baseline), their N₂O emissions were a new project-scenario source that should have been included. The error required recalculation of ERRs, reducing the credit claim by approximately 8%. The lesson: every new GHG source introduced by the project must be deliberately included or justified as de minimis.</p>
+</ExampleBox>
+
+### Carbon Pools
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th>Carbon Pool</th><th>Status</th><th>When to Include</th></tr>
+  <tr><td><strong>Soil Organic Carbon (SOC)</strong></td><td class="text-green-700 font-bold">MANDATORY, always</td><td>Every VM0042 project, to at least 30 cm depth</td></tr>
+  <tr><td>Aboveground woody biomass</td><td class="text-amber-700">Conditional</td><td>Must include if project activities could significantly REDUCE this pool; optional otherwise (e.g., agroforestry adds trees)</td></tr>
+  <tr><td>Belowground woody biomass</td><td class="text-amber-700">Optional</td><td>Where project significantly increases this pool (agroforestry)</td></tr>
+  <tr><td>Aboveground non-woody biomass</td><td class="text-red-600">Excluded</td><td>Not subject to significant changes or changes are transient</td></tr>
+  <tr><td>Dead wood & litter</td><td class="text-red-600">Excluded</td><td>Not significant for ALM projects</td></tr>
+</table>
+</ResponsiveTable>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">🌱 Think of Carbon Pools as "Storage Locations" on a Farm</p>
+  <p class="mt-1 text-sm text-amber-700">Carbon on a farm is stored in different places, just like money can be in a bank account, a wallet, or loose change in your pocket. Each storage location is a "carbon pool."</p>
+  <ul class="mt-3 space-y-3 text-sm">
+    <li><strong>Soil Organic Carbon (SOC), the main bank account:</strong> This is the carbon locked inside the soil itself, the dark, rich organic matter in the top 30 cm. Picture a Punjab wheat farmer who stops burning rice stubble and instead leaves it on the field. That stubble slowly breaks down, feeding carbon into the soil. Over a year, the soil gains about 1.2 tonnes of carbon per hectare. This pool is <em>always</em> measured in VM0042 because it is where the biggest changes happen.</li>
+    <li><strong>Aboveground woody biomass, the trees:</strong> The wood in trunks, branches, and large roots of trees. If a coffee farmer in Kenya plants shade trees between their coffee rows, each mature tree locks away 50–200 kg of carbon in its wood. You only need to track this pool if the project adds or removes trees.</li>
+    <li><strong>Belowground woody biomass, the hidden roots:</strong> Tree roots underground. That same Kenyan shade tree has roots holding about a quarter of the carbon stored in its trunk and branches. Think of it as the "underground savings", counted only when the project plants new trees.</li>
+    <li><strong>Aboveground non-woody biomass (excluded):</strong> Crop stalks, grass, and leaves, things that grow and die every season. A field of corn has carbon in its stalks, but it gets harvested or dies every year, so nothing accumulates long-term. VM0042 ignores this pool because it resets each season.</li>
+    <li><strong>Dead wood &amp; litter (excluded):</strong> Fallen twigs, dead leaves, and crop debris lying on the ground. On farmland this is a tiny amount that comes and goes quickly, not worth measuring.</li>
+  </ul>
+</ExampleBox>
+
+### GHG Sources & Sinks
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th>Source</th><th>Gas</th><th>Included?</th><th>Why It Matters</th></tr>
+  <tr><td>SOC stock change</td><td>CO₂</td><td class="text-green-700">Yes, mandatory</td><td>The main event, changes in soil carbon storage</td></tr>
+  <tr><td>Fossil fuel combustion</td><td>CO₂</td><td class="text-amber-700">S* (conditional)</td><td>Farm machinery, tractors, pumps. More or less tillage = more or less fuel</td></tr>
+  <tr><td>Liming</td><td>CO₂</td><td class="text-amber-700">S* (conditional)</td><td>Limestone/dolomite releases CO₂ as it dissolves</td></tr>
+  <tr><td>Soil methanogenesis (rice)</td><td>CH₄</td><td class="text-amber-700">S* (conditional)</td><td>Flooded soils produce CH₄, major for rice projects</td></tr>
+  <tr><td>Enteric fermentation</td><td>CH₄</td><td class="text-green-700">Yes (if livestock present)</td><td>Cow digestion produces CH₄, required for grazing projects</td></tr>
+  <tr><td>Manure deposition</td><td>CH₄, N₂O</td><td class="text-green-700">Yes (if livestock present)</td><td>Manure on pastures emits both CH₄ and N₂O</td></tr>
+  <tr><td>Nitrogen fertilizers</td><td>N₂O</td><td class="text-green-700">Yes (if N fertilized)</td><td>N inputs to soil produce N₂O via nitrification/denitrification</td></tr>
+  <tr><td>Nitrogen-fixing species</td><td>N₂O</td><td class="text-green-700">Yes (if N-fixing crops)</td><td>Legumes release N from root nodules, causing N₂O</td></tr>
+  <tr><td>Biomass burning, CO₂</td><td>CO₂</td><td class="text-red-700 font-medium">Excluded</td><td>CO₂ from burning is accounted as a carbon stock change (not an emissions source)</td></tr>
+  <tr><td>Biomass burning, CH₄ &amp; N₂O</td><td>CH₄, N₂O</td><td class="text-amber-700">S* (conditional)</td><td>CH₄ and N₂O from biomass burning must be included where emissions change significantly vs. baseline</td></tr>
+</table>
+</ResponsiveTable>
+<p class="text-sm text-gray-500 mb-4">S* = Must be included where the project activity significantly INCREASES emissions compared to baseline (&gt;5% of total GHG benefit). May be included where it REDUCES emissions.</p>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">🔥 Where Do Greenhouse Gases Come From (and Go) on a Farm?</p>
+  <p class="mt-1 text-sm text-amber-700">A <strong>source</strong> is anything that releases greenhouse gases into the air. A <strong>sink</strong> is anything that absorbs them. A farm can be both at the same time, the goal is to tip the balance toward absorption.</p>
+  <ul class="mt-3 space-y-3 text-sm">
+    <li><strong>Soil carbon change (CO₂), the big one:</strong> Healthy, undisturbed soil steadily absorbs CO₂ from the air (it is a <em>sink</em>). But when a farmer ploughs the field, buried organic matter gets exposed to air and releases CO₂ (it becomes a <em>source</em>). Switching to no-till is like sealing a jar, the carbon stays trapped in the soil instead of escaping.</li>
+    <li><strong>Tractor fuel (CO₂):</strong> Every time a tractor drives across a field, it burns diesel and releases CO₂. Traditional farming needs 3–4 tractor passes per season (plough, disc, harrow, plant). No-till farming needs just 1 pass. Fewer passes = less diesel = less CO₂.</li>
+    <li><strong>Liming (CO₂):</strong> Some soils are too acidic, so farmers spread crushed limestone to fix it. The problem: when limestone reacts with acidic soil, it releases CO₂, like opening a fizzy drink. Stop liming, and that CO₂ source disappears.</li>
+    <li><strong>Flooded rice paddies (CH₄):</strong> When a rice paddy is flooded, the waterlogged soil has no oxygen. Microbes that thrive without oxygen produce methane (CH₄) as they eat organic matter, like a compost heap sealed underwater. Draining the paddy periodically (called AWD) lets air in and cuts methane by 30–50%.</li>
+    <li><strong>Cow burps (CH₄):</strong> Cattle and sheep belch methane as their stomachs digest grass. A single cow belches enough methane each year to equal about 1.6 tonnes of CO₂. Fewer cattle on a ranch = fewer burps = less methane.</li>
+    <li><strong>Manure on pastures (CH₄ + N₂O):</strong> Cow dung sitting in a field produces methane as it rots. The nitrogen in cow urine gets converted to nitrous oxide (N₂O) by soil bacteria. Both gases must be counted when livestock are part of the project.</li>
+    <li><strong>Chemical fertilizers (N₂O):</strong> When a farmer spreads urea or other nitrogen fertilizers, soil bacteria convert a small portion (~1%) into nitrous oxide, a gas 265 times more powerful than CO₂. Using less fertilizer means less N₂O released.</li>
+    <li><strong>Legume crops (N₂O):</strong> Plants like lentils, soybeans, and clover pull nitrogen from the air and store it in their roots. When those roots decompose, the nitrogen enters the soil and some of it turns into N₂O. So planting legumes is great for soil health, but it does create a small new source of greenhouse gas that must be counted.</li>
+    <li><strong>Burning crop stubble (CH₄ + N₂O):</strong> After harvest, many farmers burn leftover stalks. The fire does not burn completely clean, it produces both CH₄ and N₂O. A project that stops stubble burning eliminates this source entirely.</li>
+  </ul>
+</ExampleBox>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📐 Worked Example: Defining the Boundary, US No-Till Project</p>
+  <p class="mt-2 text-sm"><strong>Project:</strong> 5,000 ha Iowa corn farm switches from conventional tillage to no-till + cover crops. No livestock. Uses synthetic N fertilizer (reduced).</p>
+  <ResponsiveTable>
+<table class="mt-3 text-sm">
+    <tr><th>Pool/Source</th><th>Include?</th><th>Reason</th></tr>
+    <tr><td>SOC</td><td class="text-green-700">✅ Yes</td><td>Mandatory, primary benefit</td></tr>
+    <tr><td>Woody biomass</td><td class="text-red-600">❌ No</td><td>No trees, not relevant</td></tr>
+    <tr><td>Fossil fuel (CO₂)</td><td class="text-green-700">✅ Yes</td><td>Switching to no-till reduces tractor passes, lowers fuel use</td></tr>
+    <tr><td>Liming (CO₂)</td><td class="text-red-600">❌ Skip</td><td>No liming practice, not applicable</td></tr>
+    <tr><td>N fertilizer (N₂O)</td><td class="text-green-700">✅ Yes</td><td>Project reduces N rate, emission reduction</td></tr>
+    <tr><td>Enteric fermentation (CH₄)</td><td class="text-red-600">❌ No</td><td>No livestock in project</td></tr>
+    <tr><td>Cover crop N-fixation (N₂O)</td><td class="text-green-700">✅ Yes</td><td>Legume cover crop added, N₂O from root nodules must be included</td></tr>
+  </table>
+</ResponsiveTable>
+</ExampleBox>
+<KeyTakeaways items="SOC (to at least 30 cm depth) is always mandatory in every VM0042 project - it can never be excluded as de minimis ;; Aboveground woody biomass must be included if project activities could significantly reduce it; it is optional if the project adds trees ;; GHG sources that increase by more than 5% of total benefit in the project scenario must be included in the boundary ;; Any new GHG source introduced by the project (e.g., N2O from legume cover crops) must be included or explicitly justified as de minimis ;; The project boundary is like the scope of an audit - missing a significant source will result in recalculation and reduced credit claims at verification" />

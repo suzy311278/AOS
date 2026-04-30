@@ -1,0 +1,35 @@
+- question: "What is significant about China's national ETS?"
+  options:
+    - "It is the smallest ETS in the world"
+    - "It is the world's largest carbon market by coverage"
+    - "It does not exist"
+    - "It only covers one company"
+  answer: 1
+  explanation: "China's national ETS, launched in 2021, is the world's largest carbon market by emissions covered, initially covering the power sector with plans to expand to other industries."
+
+- question: "What approach does South Korea's ETS use?"
+  options:
+    - "Pure carbon tax"
+    - "Cap-and-trade covering major industrial sectors and buildings"
+    - "No carbon pricing"
+    - "Voluntary system only"
+  answer: 1
+  explanation: "South Korea launched its ETS in 2015, covering large emitters across industry, power, buildings, and waste sectors, making it one of Asia's pioneering mandatory carbon markets."
+
+- question: "What is New Zealand's approach to agriculture in its ETS?"
+  options:
+    - "Full coverage from the start"
+    - "Agriculture was initially exempt but the government is developing a plan to price agricultural emissions"
+    - "Agriculture is permanently exempt"
+    - "Only agriculture is covered"
+  answer: 1
+  explanation: "New Zealand's ETS initially exempted agricultural emissions. The government is now developing a plan to price agricultural emissions, significant given agriculture represents nearly half of New Zealand's emissions."
+
+- question: "What is Tokyo's carbon pricing approach?"
+  options:
+    - "National system only"
+    - "City-level cap-and-trade system for large buildings and facilities"
+    - "No carbon pricing"
+    - "Pure carbon tax"
+  answer: 1
+  explanation: "Tokyo operates a city-level cap-and-trade system targeting large commercial buildings and facilities, demonstrating that subnational carbon pricing can work at the municipal level."

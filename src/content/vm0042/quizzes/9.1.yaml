@@ -1,0 +1,35 @@
+- question: "A VM0042 ALM project has a payback period of 22 years. What does the AFOLU Non-Permanence Risk Tool say about this project?"
+  options:
+  - "FV score = 3 (payback >10 and ≤20 years)"
+  - "FV score = 6 (the maximum for financial viability)"
+  - "The project FAILS the risk analysis — payback >20 years is a FAIL condition"
+  - "The project can apply a mitigation to reduce the score to 3"
+  answer: 2
+  explanation: "A payback period >20 years triggers a FAIL condition in the Financial Viability (FV) sub-category. A FAIL designation means the project is ineligible for crediting until the risk is adequately addressed. No mitigation can override a FAIL — the underlying condition must be resolved."
+
+- question: "A VM0042 project has a 50-year term WITH a legally binding agreement securing management for the full period. What is the Project Longevity (PL) score?"
+  options:
+  - "25 − (50/5) = 15 (wrong formula — no legal agreement)"
+  - "25 − (50/4) = 12.5 (correct formula; only overall risk rating is rounded, not sub-scores)"
+  - "0 — a 50-year legally bound project has zero longevity risk"
+  - "25 − (50/5) = 15 (without legal agreement formula)"
+  answer: 1
+  explanation: "With a legal agreement: PL = 25 − (longevity/4) = 25 − (50/4) = 12.5. The risk tool only specifies rounding UP to the nearest whole percent for the overall risk rating (Section 2.5.1); PL sub-scores retain their calculated value. Only a 100-year project with legal backing achieves PL = 0."
+
+- question: "On the Political Risk (PC) scoring, what three conditions must ALL be true for the −2 mitigation to apply?"
+  options:
+  - "Country has GDP >$1 trillion, has a stock exchange, and is a UN member"
+  - "Country is a Paris Agreement party; submitted an NDC in the last 5 years that includes AFOLU commitments; and has a documented, active climate plan that includes the project activity"
+  - "Country has ratified the Kyoto Protocol, UNFCCC, and CBD"
+  - "Country has received climate finance from the Green Climate Fund in the past 5 years"
+  answer: 1
+  explanation: "The PC mitigation (−2 points) requires ALL THREE: (1) Paris Agreement party, (2) NDC submitted to UNFCCC within last 5 years with AFOLU commitments (conditional or unconditional), and (3) documented and active national climate change plan that includes the project's specific activity type."
+
+- question: "The AFOLU Non-Permanence Risk Tool states that buffer credits apply only to 'GHG removals or avoided emissions through carbon sinks.' What does this mean for VM0042 N₂O and CH₄ emission reductions?"
+  options:
+  - "N₂O and CH₄ reductions also require a buffer contribution equal to the SOC buffer rate"
+  - "N₂O and CH₄ reductions require a separate, higher buffer rate since they are gases"
+  - "N₂O and CH₄ reductions do NOT require a buffer contribution — only SOC removals are subject to non-permanence risk"
+  - "N₂O and CH₄ reductions require a 5% minimum buffer regardless of the risk assessment"
+  answer: 2
+  explanation: "The AFOLU Non-Permanence Risk Tool explicitly does NOT apply to reductions of N₂O, CH₄, or fossil-derived CO₂. These are emissions reductions, not reversible carbon removals — once methane is not emitted or N₂O is reduced, that benefit cannot be 'un-done' by future events. Only SOC stock changes (carbon removals) are subject to non-permanence risk and require buffer credits."

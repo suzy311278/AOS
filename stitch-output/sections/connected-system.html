@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Greentryst - Connected System Visualization</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&amp;family=JetBrains+Mono:wght@400;500&amp;family=Space+Grotesk:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-container": "#4a6a6a",
+                        "outline-variant": "#bec9c6",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-fixed": "#c6e9e9",
+                        "inverse-on-surface": "#e2f4f4",
+                        "primary": "#00433d",
+                        "secondary-fixed-dim": "#abcdcd",
+                        "surface-tint": "#1a6962",
+                        "on-primary": "#ffffff",
+                        "on-primary-container": "#8ad2c8",
+                        "on-secondary-fixed": "#002020",
+                        "surface-variant": "#d4e6e5",
+                        "surface-container-highest": "#d4e6e5",
+                        "surface-dim": "#ccdedd",
+                        "on-surface": "#0e1e1e",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed": "#6bfe9c",
+                        "tertiary-container": "#005f2f",
+                        "on-primary-fixed": "#00201d",
+                        "on-primary-fixed-variant": "#00504a",
+                        "on-background": "#0e1e1e",
+                        "error": "#ba1a1a",
+                        "tertiary": "#004520",
+                        "surface-container-high": "#daeceb",
+                        "inverse-surface": "#233333",
+                        "surface-bright": "#ebfdfc",
+                        "inverse-primary": "#8cd4ca",
+                        "on-error-container": "#93000a",
+                        "on-tertiary-fixed-variant": "#005228",
+                        "on-error": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "primary-container": "#005c55",
+                        "on-tertiary-container": "#48df82",
+                        "primary-fixed-dim": "#8cd4ca",
+                        "on-secondary-fixed-variant": "#2c4c4c",
+                        "surface": "#ebfdfc",
+                        "primary-fixed": "#a7f0e6",
+                        "tertiary-fixed-dim": "#4ae183",
+                        "on-tertiary": "#ffffff",
+                        "background": "#ebfdfc",
+                        "outline": "#6f7977",
+                        "on-tertiary-fixed": "#00210c",
+                        "secondary-container": "#c6e9e9",
+                        "surface-container": "#e0f1f1",
+                        "surface-container-low": "#e5f7f6",
+                        "secondary": "#446464",
+                        "on-surface-variant": "#3f4947"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter"],
+                        "body": ["Inter"],
+                        "label": ["Space Grotesk"],
+                        "mono": ["JetBrains Mono"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .network-grid {
+            background-image: radial-gradient(circle, #3f4947 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+        .glow-teal {
+            box-shadow: 0 0 20px rgba(138, 210, 200, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopNavBar -->
+<header class="bg-emerald-50/70 dark:bg-emerald-950/70 backdrop-blur-xl text-emerald-900 dark:text-emerald-50 font-['Inter'] font-bold tracking-tight docked full-width top-0 sticky z-50 flex justify-between items-center w-full px-6 py-3">
+<div class="flex items-center gap-8">
+<div class="text-xl font-extrabold tracking-tighter text-emerald-900 dark:text-emerald-100">Greentryst</div>
+<nav class="hidden md:flex gap-6">
+<a class="text-emerald-950 dark:text-white border-b-2 border-emerald-900 dark:border-emerald-400 pb-1" href="#">Intelligence</a>
+<a class="text-emerald-800/60 dark:text-emerald-400/60 font-medium hover:text-emerald-950 dark:hover:text-white transition-colors duration-200" href="#">Community</a>
+<a class="text-emerald-800/60 dark:text-emerald-400/60 font-medium hover:text-emerald-950 dark:hover:text-white transition-colors duration-200" href="#">Tools</a>
+</nav>
+</div>
+<button class="bg-primary-container text-on-primary-container px-4 py-2 rounded-lg text-sm hover:opacity-80 transition-all">Enterprise Portal</button>
+</header>
+<div class="flex">
+<!-- SideNavBar -->
+<aside class="bg-emerald-100 dark:bg-emerald-900/20 text-emerald-900 dark:text-emerald-50 font-['Inter'] text-sm font-semibold h-screen w-64 fixed left-0 top-0 pt-16 flex flex-col p-4 border-r border-emerald-900/5 dark:border-emerald-100/5 z-40">
+<div class="mb-8 px-2 flex flex-col">
+<span class="font-['JetBrains_Mono'] text-xs uppercase tracking-widest text-on-surface-variant opacity-60">Analyst View</span>
+<div class="flex items-center gap-3 mt-2">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary">account_circle</span>
+</div>
+<div>
+<p class="text-on-surface">Priya Sharma</p>
+<p class="text-[10px] font-mono text-on-surface-variant">Sustainability Analyst</p>
+</div>
+</div>
+</div>
+<nav class="flex-1 space-y-1">
+<a class="flex items-center gap-3 px-3 py-2.5 text-emerald-800/70 dark:text-emerald-400/70 hover:bg-emerald-200/50 dark:hover:bg-emerald-800/20 hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">school</span> Learn
+                </a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-emerald-800/70 dark:text-emerald-400/70 hover:bg-emerald-200/50 dark:hover:bg-emerald-800/20 hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">analytics</span> SustainIQ
+                </a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-emerald-800/70 dark:text-emerald-400/70 hover:bg-emerald-200/50 dark:hover:bg-emerald-800/20 hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">work</span> Career
+                </a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-emerald-800/70 dark:text-emerald-400/70 hover:bg-emerald-200/50 dark:hover:bg-emerald-800/20 hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">build</span> Tools
+                </a>
+<a class="flex items-center gap-3 px-3 py-2.5 bg-white/50 dark:bg-emerald-800/40 text-emerald-950 dark:text-emerald-50 rounded-lg" href="#">
+<span class="material-symbols-outlined">insights</span> Intelligence
+                </a>
+<a class="flex items-center gap-3 px-3 py-2.5 text-emerald-800/70 dark:text-emerald-400/70 hover:bg-emerald-200/50 dark:hover:bg-emerald-800/20 hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">groups</span> Community
+                </a>
+</nav>
+<div class="pt-4 border-t border-emerald-900/10 dark:border-emerald-100/10 space-y-1">
+<a class="flex items-center gap-3 px-3 py-2 text-emerald-800/70 dark:text-emerald-400/70 hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">help</span> Support
+                </a>
+<a class="flex items-center gap-3 px-3 py-2 text-emerald-800/70 dark:text-emerald-400/70 hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">logout</span> Sign Out
+                </a>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="ml-64 flex-1 min-h-screen bg-[#0a1a1a]">
+<!-- Visualization Hero Section -->
+<section class="w-full py-24 px-12 network-grid">
+<div class="max-w-6xl mx-auto">
+<h1 class="text-[56px] leading-tight font-extrabold text-white font-headline tracking-tight mb-20 text-center">
+                        One professional identity,<br/>powered by everything you do.
+                    </h1>
+<!-- Network Topology Diagram -->
+<div class="relative w-full aspect-[16/9] mb-16 flex items-center justify-center">
+<!-- Connecting Lines (SVG Layer) -->
+<svg class="absolute inset-0 w-full h-full pointer-events-none" viewbox="0 0 1000 500">
+<!-- Paths -->
+<path d="M500 250 L350 100" fill="none" stroke="#3f4947" stroke-width="1.5"></path>
+<path d="M500 250 L650 400" fill="none" stroke="#3f4947" stroke-width="1.5"></path>
+<path d="M650 400 L350 100" fill="none" stroke="#3f4947" stroke-dasharray="4 4" stroke-width="1.5"></path>
+<path d="M200 250 L500 250" fill="none" stroke="#3f4947" stroke-width="1.5"></path>
+<path d="M800 250 L500 250" fill="none" stroke="#3f4947" stroke-width="1.5"></path>
+<path d="M350 400 L500 250" fill="none" stroke="#3f4947" stroke-width="1.5"></path>
+<path d="M650 100 L500 250" fill="none" stroke="#3f4947" stroke-width="1.5"></path>
+<!-- Path Labels in JetBrains Mono -->
+<g class="font-mono text-[10px] fill-[#8ad2c8]">
+<text transform="rotate(-45, 380, 180)" x="380" y="180">adds skills + certs</text>
+<text transform="rotate(45, 560, 340)" x="560" y="340">improves match scores</text>
+<text transform="rotate(0, 440, 270)" x="440" y="270">demonstrates competence</text>
+<text transform="rotate(-30, 400, 320)" x="400" y="320">routes to resources</text>
+<text x="480" y="380">identifies skill gaps</text>
+</g>
+</svg>
+<!-- Central Hub -->
+<div class="relative z-10 w-56 h-56 rounded-full bg-[#1a2e2e] border-2 border-primary-container glow-teal flex flex-col items-center justify-center text-center p-6 transition-transform hover:scale-105 duration-300">
+<span class="material-symbols-outlined text-4xl text-on-primary-container mb-2">fingerprint</span>
+<h3 class="text-white font-bold text-xl mb-1">Your Profile</h3>
+<p class="text-on-secondary-container text-xs leading-tight">Skills, certs, tools used, contributions</p>
+</div>
+<!-- Orbiting Nodes (Hexagonal layout logic) -->
+<!-- Learn -->
+<div class="absolute top-[10%] left-[30%] w-40 p-4 bg-[#1a2e2e]/80 rounded-xl border border-white/5 backdrop-blur-sm transition-all hover:-translate-y-1">
+<div class="flex items-center gap-2 mb-1">
+<span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+<h4 class="text-white font-bold text-sm">Learn</h4>
+</div>
+<p class="text-outline-variant text-[11px]">Complete courses, earn certificates</p>
+</div>
+<!-- SustainIQ -->
+<div class="absolute top-[10%] right-[30%] w-40 p-4 bg-[#1a2e2e]/80 rounded-xl border border-white/5 backdrop-blur-sm transition-all hover:-translate-y-1">
+<div class="flex items-center gap-2 mb-1">
+<span class="w-2 h-2 rounded-full bg-teal-400"></span>
+<h4 class="text-white font-bold text-sm">SustainIQ</h4>
+</div>
+<p class="text-outline-variant text-[11px]">Ask questions, get routed to resources</p>
+</div>
+<!-- Tools -->
+<div class="absolute top-1/2 left-[10%] -translate-y-1/2 w-40 p-4 bg-[#1a2e2e]/80 rounded-xl border border-white/5 backdrop-blur-sm transition-all hover:-translate-y-1">
+<div class="flex items-center gap-2 mb-1">
+<span class="w-2 h-2 rounded-full bg-amber-400"></span>
+<h4 class="text-white font-bold text-sm">Tools</h4>
+</div>
+<p class="text-outline-variant text-[11px]">Calculate, report, assess</p>
+</div>
+<!-- Intelligence -->
+<div class="absolute top-1/2 right-[10%] -translate-y-1/2 w-40 p-4 bg-[#1a2e2e]/80 rounded-xl border border-white/5 backdrop-blur-sm transition-all hover:-translate-y-1">
+<div class="flex items-center gap-2 mb-1">
+<span class="w-2 h-2 rounded-full bg-cyan-400"></span>
+<h4 class="text-white font-bold text-sm">Intelligence</h4>
+</div>
+<p class="text-outline-variant text-[11px]">Screen companies, track regulations</p>
+</div>
+<!-- Career -->
+<div class="absolute bottom-[10%] left-[30%] w-40 p-4 bg-[#1a2e2e]/80 rounded-xl border border-white/5 backdrop-blur-sm transition-all hover:-translate-y-1">
+<div class="flex items-center gap-2 mb-1">
+<span class="w-2 h-2 rounded-full bg-blue-400"></span>
+<h4 class="text-white font-bold text-sm">Career</h4>
+</div>
+<p class="text-outline-variant text-[11px]">Match jobs, identify skill gaps</p>
+</div>
+<!-- Community -->
+<div class="absolute bottom-[10%] right-[30%] w-40 p-4 bg-[#1a2e2e]/80 rounded-xl border border-white/5 backdrop-blur-sm transition-all hover:-translate-y-1">
+<div class="flex items-center gap-2 mb-1">
+<span class="w-2 h-2 rounded-full bg-violet-400"></span>
+<h4 class="text-white font-bold text-sm">Community</h4>
+</div>
+<p class="text-outline-variant text-[11px]">Discuss, contribute, build reputation</p>
+</div>
+</div>
+<p class="text-xl text-outline-variant/60 text-center font-medium max-w-3xl mx-auto leading-relaxed">
+                        Priya completed 3 PCAF lessons at 9 AM. By noon, her job match score for <span class="text-white">Climate Risk Analyst</span> roles went up <span class="text-tertiary-fixed font-mono">12%</span>.
+                    </p>
+<!-- Bottom Data Cards -->
+<div class="mt-20 grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Network Intelligence Feed -->
+<div class="bg-[#1a2e2e] p-8 rounded-xl border border-white/5 relative overflow-hidden">
+<div class="flex justify-between items-start mb-6">
+<h3 class="text-white font-bold text-lg flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-fixed">dynamic_feed</span>
+                                    Network Intelligence Feed
+                                </h3>
+<span class="font-mono text-[10px] px-2 py-1 bg-primary-container/20 text-on-primary-container rounded uppercase">Live Sync</span>
+</div>
+<div class="space-y-4">
+<div class="flex gap-4 items-start pb-4 border-b border-white/5">
+<span class="font-mono text-xs text-on-primary-container">09:12</span>
+<div>
+<p class="text-sm text-white">Course verification: "Scope 3 Inventory Methods"</p>
+<p class="text-xs text-outline-variant">Learn Node → Profile Identity</p>
+</div>
+</div>
+<div class="flex gap-4 items-start pb-4 border-b border-white/5">
+<span class="font-mono text-xs text-on-primary-container">11:04</span>
+<div>
+<p class="text-sm text-white">Query analyzed: "SEC Climate Disclosure Compliance"</p>
+<p class="text-xs text-outline-variant">SustainIQ → Intelligence Mapping</p>
+</div>
+</div>
+<div class="flex gap-4 items-start">
+<span class="font-mono text-xs text-on-primary-container">12:00</span>
+<div>
+<p class="text-sm text-white">Career Profile Optimization: 8 jobs matched</p>
+<p class="text-xs text-outline-variant">Profile → Career Gateway</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Ecosystem Health -->
+<div class="bg-[#1a2e2e] p-8 rounded-xl border border-white/5 relative overflow-hidden flex flex-col justify-between">
+<div>
+<h3 class="text-white font-bold text-lg flex items-center gap-2 mb-8">
+<span class="material-symbols-outlined text-tertiary-fixed">health_metrics</span>
+                                    Ecosystem Health
+                                </h3>
+<div class="flex items-end gap-3">
+<span class="text-7xl font-mono text-white tracking-tighter">98.2<span class="text-3xl text-tertiary-fixed">%</span></span>
+<p class="text-outline-variant text-sm mb-3">System Sync Reliability</p>
+</div>
+</div>
+<div class="mt-8">
+<div class="h-1.5 w-full bg-white/5 rounded-full overflow-hidden">
+<div class="h-full w-[98.2%] bg-gradient-to-r from-primary-container to-tertiary-fixed"></div>
+</div>
+<div class="flex justify-between mt-3">
+<span class="text-[10px] font-mono text-outline-variant uppercase">latency: 42ms</span>
+<span class="text-[10px] font-mono text-tertiary-fixed uppercase">Optimal Status</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+</body></html>

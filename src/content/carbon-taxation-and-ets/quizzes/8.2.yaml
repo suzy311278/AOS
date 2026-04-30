@@ -1,0 +1,35 @@
+- question: "What was the Clean Development Mechanism (CDM)?"
+  options:
+    - "A carbon tax system"
+    - "A Kyoto Protocol mechanism allowing developed countries to fund emission reductions in developing countries"
+    - "A renewable energy subsidy"
+    - "A national ETS"
+  answer: 1
+  explanation: "The CDM allowed developed countries with Kyoto targets to invest in emission reduction projects in developing countries and receive credits (CERs) for those reductions."
+
+- question: "What criticism did the CDM face regarding additionality?"
+  options:
+    - "Too strict additionality requirements"
+    - "Many projects may have happened anyway without CDM funding, undermining environmental integrity"
+    - "Additionality was perfect"
+    - "Additionality was never assessed"
+  answer: 1
+  explanation: "Studies found that many CDM projects, particularly renewable energy in China, may have been built without CDM credits, raising questions about whether credited reductions were truly additional."
+
+- question: "What were Certified Emission Reductions (CERs)?"
+  options:
+    - "EU ETS allowances"
+    - "Carbon credits issued under the CDM"
+    - "Renewable energy certificates"
+    - "Carbon taxes"
+  answer: 1
+  explanation: "CERs were the carbon credits issued for each ton of CO2 reduced under CDM projects. They could be used for Kyoto Protocol compliance and in some ETS systems like the EU ETS."
+
+- question: "What is one lesson learned from CDM experience?"
+  options:
+    - "All offsets are perfect"
+    - "Rigorous baseline-setting and additionality assessment are critical for offset integrity"
+    - "Offset quality does not matter"
+    - "Offsets should be banned entirely"
+  answer: 1
+  explanation: "CDM experience showed that determining credible baselines and proving additionality are challenging but essential. Weak standards undermine the environmental integrity of offset credits."

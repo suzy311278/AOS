@@ -1,0 +1,26 @@
+- question: "What is the 'Circularity Rate' as measured by the Circularity Gap Report?"
+  options:
+    - "The percentage of products that are repaired rather than replaced each year"
+    - "The share of secondary (recycled or recovered) materials entering the global economy as a proportion of total material consumption"
+    - "The fraction of waste that is diverted from landfill globally"
+    - "The ratio of renewable to non-renewable energy in global production"
+  answer: 1
+  explanation: "The Circularity Rate is the share of secondary materials (recycled or recovered) flowing into the global economy as a proportion of total material use. At 7.2% in 2023, it means only 7.2 out of every 100 tonnes used come from recycled sources."
+
+- question: "Which material category has the lowest circularity rate globally, pulling down the overall global Circularity Rate?"
+  options:
+    - "Metals"
+    - "Biomass"
+    - "Fossil fuels"
+    - "Non-metallic minerals"
+  answer: 3
+  explanation: "Non-metallic minerals (primarily sand, gravel, limestone, and cement used in construction) comprise about 50% of global material use but have near-zero circularity rates, as construction materials are difficult and expensive to recover at comparable quality."
+
+- question: "What is the Material Circularity Indicator (MCI) developed by the Ellen MacArthur Foundation?"
+  options:
+    - "A government reporting standard for national material consumption statistics"
+    - "A company-level metric scoring product lifecycle circularity from 0 (fully linear) to 1 (fully circular)"
+    - "A financial rating for circular economy bond issuers"
+    - "An ISO certification standard for circular product design"
+  answer: 1
+  explanation: "The MCI is a product-level metric derived from MFA principles. It scores circularity from 0 (fully linear) to 1 (fully circular), accounting for recycled input shares, end-of-life recovery rates, and product lifespan relative to industry average."

@@ -1,0 +1,35 @@
+- question: "What is Canada's federal carbon pricing approach?"
+  options:
+    - "A single national carbon tax"
+    - "A federal backstop that applies only where provinces lack equivalent systems"
+    - "No federal involvement"
+    - "Pure ETS nationwide"
+  answer: 1
+  explanation: "Canada's federal system sets a carbon price floor but allows provinces to implement their own systems (tax or ETS). The federal system applies only in provinces without equivalent pricing."
+
+- question: "How does Canada address distributional concerns?"
+  options:
+    - "By exempting low-income households from carbon pricing"
+    - "Through Climate Action Incentive payments (rebates) that make most households net beneficiaries"
+    - "No distributional measures"
+    - "By eliminating the carbon price"
+  answer: 1
+  explanation: "Canada returns federal carbon pricing revenue through Climate Action Incentive payments, designed so 8 out of 10 households receive more back than they pay, with lower-income households benefiting most."
+
+- question: "What is RGGI in the United States?"
+  options:
+    - "A federal carbon tax"
+    - "The Regional Greenhouse Gas Initiative, a multi-state ETS for the power sector"
+    - "A renewable energy program"
+    - "An oil company"
+  answer: 1
+  explanation: "RGGI is a cooperative ETS among northeastern and mid-Atlantic US states covering power sector emissions. It was the first mandatory market-based carbon pricing program in the United States."
+
+- question: "What is notable about California's carbon pricing system?"
+  options:
+    - "It is voluntary"
+    - "It is linked with Quebec's system, creating an international market"
+    - "It has no cap"
+    - "It only covers one facility"
+  answer: 1
+  explanation: "California's cap-and-trade system is linked with Quebec's, creating the largest carbon market in North America and demonstrating successful cross-border market linking."

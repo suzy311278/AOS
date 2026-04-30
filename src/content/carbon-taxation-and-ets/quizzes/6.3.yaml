@@ -1,0 +1,44 @@
+- question: "What is a just transition in the context of carbon pricing?"
+  options:
+    - "Making carbon pricing fair to all countries"
+    - "Supporting workers, communities, and regions affected by the shift away from carbon-intensive industries"
+    - "Slowly implementing carbon pricing"
+    - "Exempting all fossil fuel workers"
+  answer: 1
+  explanation: "Just transition refers to policies that support people whose livelihoods depend on carbon-intensive industries, including retraining, income support, and regional economic diversification."
+
+- question: "Which sectors typically face the most significant employment impacts from carbon pricing?"
+  options:
+    - "Technology and services"
+    - "Coal mining, oil and gas extraction, and related industries"
+    - "Healthcare"
+    - "Education"
+  answer: 1
+  explanation: "Fossil fuel extraction and processing industries face the most direct employment impacts from carbon pricing, as demand for their products declines with decarbonization."
+
+- question: "What is a common component of just transition programs?"
+  options:
+    - "Banning all job losses"
+    - "Retraining programs to prepare workers for jobs in growing sectors"
+    - "Guaranteeing employment in fossil fuel industries forever"
+    - "Preventing all economic change"
+  answer: 1
+  explanation: "Retraining programs help workers transition from declining carbon-intensive industries to growing sectors like renewable energy, efficiency services, and other low-carbon fields."
+
+- question: "Why is early engagement with affected communities important?"
+  options:
+    - "It is required by law everywhere"
+    - "To understand impacts, build trust, and co-design support programs that meet actual needs"
+    - "To delay implementation"
+    - "It is not important"
+  answer: 1
+  explanation: "Early, meaningful engagement helps identify real concerns, builds trust, and ensures transition support programs actually address the needs of affected workers and communities."
+
+- question: "What is economic diversification in the context of just transition?"
+  options:
+    - "Diversifying carbon pricing revenue uses"
+    - "Supporting regions dependent on fossil fuels to develop new economic activities"
+    - "Investing in foreign countries"
+    - "Banning all economic change"
+  answer: 1
+  explanation: "Economic diversification helps coal mining regions, oil towns, and other fossil fuel-dependent communities develop alternative economic bases so they are not left behind in the energy transition."

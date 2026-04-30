@@ -1,0 +1,44 @@
+- question: "What is the main challenge in synthesizing evidence for decision-makers?"
+  options:
+    - "Too little analysis"
+    - "Translating complex technical analysis into clear, actionable insights"
+    - "Decision-makers know everything already"
+    - "No challenge exists"
+  answer: 1
+  explanation: "The synthesis challenge is bridging the gap between technical complexity and decision-maker needs, presenting vast analytical outputs as clear findings that inform choices without overwhelming detail."
+
+- question: "How should uncertainty be communicated to decision-makers?"
+  options:
+    - "Hide all uncertainty"
+    - "Present ranges, distinguish types of uncertainty, and use scenario analysis"
+    - "Claim perfect knowledge"
+    - "Uncertainty should not be discussed"
+  answer: 1
+  explanation: "Effective communication acknowledges uncertainty honestly through ranges rather than point estimates, distinguishes what is known well vs uncertain, and uses scenarios to bound possible outcomes."
+
+- question: "What is the purpose of an executive summary?"
+  options:
+    - "To include all technical details"
+    - "To provide a one-page synthesis of context, key findings, and recommendations"
+    - "To replace the full analysis"
+    - "To confuse readers"
+  answer: 1
+  explanation: "The executive summary (typically one page or less) distills the essential context, key findings, bottom-line recommendation, and key uncertainties for time-constrained decision-makers."
+
+- question: "Why is it important to present trade-offs clearly?"
+  options:
+    - "Trade-offs do not exist"
+    - "Most policy choices involve trade-offs that decision-makers need to weigh"
+    - "To make decisions impossible"
+    - "Trade-offs are secret"
+  answer: 1
+  explanation: "Carbon pricing involves real trade-offs (efficiency vs equity, ambition vs cost, simplicity vs precision). Clearly presenting these helps decision-makers make informed value judgments."
+
+- question: "What principle should guide synthesis work?"
+  options:
+    - "Make the decision for the decision-maker"
+    - "Present evidence and frame choices, but let decision-makers make value judgments"
+    - "Hide inconvenient findings"
+    - "Advocate rather than analyze"
+  answer: 1
+  explanation: "Analysts should maintain independence, presenting evidence objectively and framing choices clearly, while recognizing that value judgments and political considerations are for decision-makers."

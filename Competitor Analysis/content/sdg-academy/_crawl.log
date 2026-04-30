@@ -1,0 +1,1162 @@
+[INIT].... → Crawl4AI 0.8.0 
+[FETCH]... ↓ https://sdgacademy.org/                                            
+| ✓ | ⏱: 9.82s 
+[SCRAPE].. ◆ https://sdgacademy.org/                                            
+| ✓ | ⏱: 0.34s 
+[COMPLETE] ● https://sdgacademy.org/                                            
+| ✓ | ⏱: 10.33s 
+[FETCH]... ↓ https://sdgacademy.org                                             
+| ✓ | ⏱: 2.02s 
+[SCRAPE].. ◆ https://sdgacademy.org                                             
+| ✓ | ⏱: 0.56s 
+[COMPLETE] ● https://sdgacademy.org                                             
+| ✓ | ⏱: 2.80s 
+[ERROR]... × https://sdgacademy.org/open-education-resources    | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sdgacademy.org/open-education-resources", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sdgacademy.org/sdgacademy-library          | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sdgacademy.org/sdgacademy-library", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sdgacademy.org/professional-development    | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sdgacademy.org/professional-development", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sdgacademy.org/...club-with-jeffrey-sachs  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sdgacademy.org/book-club-with-jeffrey-sachs", waiting
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sdgacademy.org/about-us                    | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sdgacademy.org/about-us", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sdgacademy.org/...sustainable-development  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://sdgacademy.org/course/scaling-impact-for-sustainable-development", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sdgacademy.org/contact-us                  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sdgacademy.org/contact-us", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sdgacademy.org/blog                        | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sdgacademy.org/blog", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sdgacademy.org/global-mdp-program          | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sdgacademy.org/global-mdp-program", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sdgacademy.org/...sustainable-development  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://sdgacademy.org/online-masters-in-sustainable-development", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sdgacademy.org/global-classroom            | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sdgacademy.org/global-classroom", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sdgacademy.org/courses                     | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sdgacademy.org/courses", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sdgacademy.org/insurance-sdgs              | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sdgacademy.org/insurance-sdgs", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sdgacademy.org/mission4point7              | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sdgacademy.org/mission4point7", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[FETCH]... ↓ 
+https://sdgacademy.org/course/monitoring-evaluation-and-learning-nap            
+| ✓ | ⏱: 73.90s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/course/monitoring-evaluation-and-learning-nap            
+| ✓ | ⏱: 1.69s 
+[COMPLETE] ● 
+https://sdgacademy.org/course/monitoring-evaluation-and-learning-nap            
+| ✓ | ⏱: 76.02s 
+[FETCH]... ↓ 
+https://sdgacademy.org/course/teaching-and-learning-about-violent-pasts         
+| ✓ | ⏱: 77.28s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/course/teaching-and-learning-about-violent-pasts         
+| ✓ | ⏱: 2.58s 
+[COMPLETE] ● 
+https://sdgacademy.org/course/teaching-and-learning-about-violent-pasts         
+| ✓ | ⏱: 82.15s 
+[FETCH]... ↓ 
+https://sdgacademy.org/masters-pathway-in-foundations-of-sustainable-development
+| ✓ | ⏱: 82.58s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/masters-pathway-in-foundations-of-sustainable-development
+| ✓ | ⏱: 0.14s 
+[COMPLETE] ● 
+https://sdgacademy.org/masters-pathway-in-foundations-of-sustainable-development
+| ✓ | ⏱: 82.82s 
+[FETCH]... ↓ https://sdgacademy.org/users/password/new                          
+| ✓ | ⏱: 29.87s 
+[SCRAPE].. ◆ https://sdgacademy.org/users/password/new                          
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://sdgacademy.org/users/password/new                          
+| ✓ | ⏱: 29.93s 
+[FETCH]... ↓ https://sdgacademy.org/faqs                                        
+| ✓ | ⏱: 82.81s 
+[SCRAPE].. ◆ https://sdgacademy.org/faqs                                        
+| ✓ | ⏱: 0.20s 
+[COMPLETE] ● https://sdgacademy.org/faqs                                        
+| ✓ | ⏱: 83.03s 
+[FETCH]... ↓ https://sdgacademy.org/faculties                                   
+| ✓ | ⏱: 82.94s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties                                   
+| ✓ | ⏱: 1.84s 
+[COMPLETE] ● https://sdgacademy.org/faculties                                   
+| ✓ | ⏱: 85.59s 
+[FETCH]... ↓ https://sdgacademy.org/sij                                         
+| ✓ | ⏱: 84.41s 
+[SCRAPE].. ◆ https://sdgacademy.org/sij                                         
+| ✓ | ⏱: 1.98s 
+[COMPLETE] ● https://sdgacademy.org/sij                                         
+| ✓ | ⏱: 86.87s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=103                             
+| ✓ | ⏱: 37.61s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=103                             
+| ✓ | ⏱: 3.43s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=103                             
+| ✓ | ⏱: 43.15s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=121                             
+| ✓ | ⏱: 43.95s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=121                             
+| ✓ | ⏱: 5.30s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=121                             
+| ✓ | ⏱: 49.67s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=105                             
+| ✓ | ⏱: 50.65s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=105                             
+| ✓ | ⏱: 0.88s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=105                             
+| ✓ | ⏱: 51.70s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=122                             
+| ✓ | ⏱: 51.79s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=122                             
+| ✓ | ⏱: 1.87s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=122                             
+| ✓ | ⏱: 55.16s 
+[FETCH]... ↓ 
+https://sdgacademy.org/course/monitoring-evaluation-and-learning-nap/courses@sdg
+academy.com          | ✓ | ⏱: 55.54s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/course/monitoring-evaluation-and-learning-nap/courses@sdg
+academy.com          | ✓ | ⏱: 0.27s 
+[COMPLETE] ● 
+https://sdgacademy.org/course/monitoring-evaluation-and-learning-nap/courses@sdg
+academy.com          | ✓ | ⏱: 56.12s 
+[FETCH]... ↓ 
+https://sdgacademy.org/course/climate-change-the-science-and-global-impact      
+| ✓ | ⏱: 56.11s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/course/climate-change-the-science-and-global-impact      
+| ✓ | ⏱: 0.42s 
+[COMPLETE] ● 
+https://sdgacademy.org/course/climate-change-the-science-and-global-impact      
+| ✓ | ⏱: 56.61s 
+[FETCH]... ↓ 
+https://sdgacademy.org/course/the-best-start-in-life-early-childhood-development
+| ✓ | ⏱: 57.17s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/course/the-best-start-in-life-early-childhood-development
+| ✓ | ⏱: 0.13s 
+[COMPLETE] ● 
+https://sdgacademy.org/course/the-best-start-in-life-early-childhood-development
+| ✓ | ⏱: 57.32s 
+[FETCH]... ↓ 
+https://sdgacademy.org/course/teaching-and-learning-about-violent-pasts/courses@
+sdgacademy.org       | ✓ | ⏱: 57.40s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/course/teaching-and-learning-about-violent-pasts/courses@
+sdgacademy.org       | ✓ | ⏱: 0.10s 
+[COMPLETE] ● 
+https://sdgacademy.org/course/teaching-and-learning-about-violent-pasts/courses@
+sdgacademy.org       | ✓ | ⏱: 57.54s 
+[FETCH]... ↓ 
+https://sdgacademy.org/course/nature-based-solutions-for-disaster-and-climate-re
+silience             | ✓ | ⏱: 58.06s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/course/nature-based-solutions-for-disaster-and-climate-re
+silience             | ✓ | ⏱: 0.38s 
+[COMPLETE] ● 
+https://sdgacademy.org/course/nature-based-solutions-for-disaster-and-climate-re
+silience             | ✓ | ⏱: 58.45s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=119                             
+| ✓ | ⏱: 58.10s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=119                             
+| ✓ | ⏱: 0.49s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=119                             
+| ✓ | ⏱: 58.68s 
+[FETCH]... ↓ https://sdgacademy.org/course/ethics-in-action                     
+| ✓ | ⏱: 58.78s 
+[SCRAPE].. ◆ https://sdgacademy.org/course/ethics-in-action                     
+| ✓ | ⏱: 1.29s 
+[COMPLETE] ● https://sdgacademy.org/course/ethics-in-action                     
+| ✓ | ⏱: 60.47s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=114                             
+| ✓ | ⏱: 60.86s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=114                             
+| ✓ | ⏱: 10.12s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=114                             
+| ✓ | ⏱: 71.74s 
+[FETCH]... ↓ 
+https://sdgacademy.org/course/living-heritage-and-sustainable-development       
+| ✓ | ⏱: 73.31s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/course/living-heritage-and-sustainable-development       
+| ✓ | ⏱: 2.06s 
+[COMPLETE] ● 
+https://sdgacademy.org/course/living-heritage-and-sustainable-development       
+| ✓ | ⏱: 76.63s 
+[FETCH]... ↓ https://sdgacademy.org/course/ecosystem-based-adaptation           
+| ✓ | ⏱: 82.59s 
+[SCRAPE].. ◆ https://sdgacademy.org/course/ecosystem-based-adaptation           
+| ✓ | ⏱: 0.47s 
+[COMPLETE] ● https://sdgacademy.org/course/ecosystem-based-adaptation           
+| ✓ | ⏱: 83.32s 
+[FETCH]... ↓ https://sdgacademy.org/course/measuring-sustainable-development    
+| ✓ | ⏱: 85.35s 
+[SCRAPE].. ◆ https://sdgacademy.org/course/measuring-sustainable-development    
+| ✓ | ⏱: 0.16s 
+[COMPLETE] ● https://sdgacademy.org/course/measuring-sustainable-development    
+| ✓ | ⏱: 85.56s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=115                             
+| ✓ | ⏱: 85.72s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=115                             
+| ✓ | ⏱: 3.86s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=115                             
+| ✓ | ⏱: 90.25s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=110                             
+| ✓ | ⏱: 90.86s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=110                             
+| ✓ | ⏱: 1.54s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=110                             
+| ✓ | ⏱: 92.56s 
+[FETCH]... ↓ https://sdgacademy.org/course/equity-and-inclusion-in-education    
+| ✓ | ⏱: 93.79s 
+[SCRAPE].. ◆ https://sdgacademy.org/course/equity-and-inclusion-in-education    
+| ✓ | ⏱: 0.55s 
+[COMPLETE] ● https://sdgacademy.org/course/equity-and-inclusion-in-education    
+| ✓ | ⏱: 94.49s 
+[FETCH]... ↓ 
+https://sdgacademy.org/course/transformative-approaches-to-climate-adaptation-in
+-europe              | ✓ | ⏱: 96.52s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/course/transformative-approaches-to-climate-adaptation-in
+-europe              | ✓ | ⏱: 4.18s 
+[COMPLETE] ● 
+https://sdgacademy.org/course/transformative-approaches-to-climate-adaptation-in
+-europe              | ✓ | ⏱: 101.57s 
+[FETCH]... ↓ 
+https://sdgacademy.org/course/becoming-global-citizens-for-a-sustainable-society
+| ✓ | ⏱: 103.17s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/course/becoming-global-citizens-for-a-sustainable-society
+| ✓ | ⏱: 0.15s 
+[COMPLETE] ● 
+https://sdgacademy.org/course/becoming-global-citizens-for-a-sustainable-society
+| ✓ | ⏱: 103.35s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=131                             
+| ✓ | ⏱: 52.96s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=131                             
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=131                             
+| ✓ | ⏱: 53.65s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=130                             
+| ✓ | ⏱: 70.85s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=130                             
+| ✓ | ⏱: 0.74s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=130                             
+| ✓ | ⏱: 71.65s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=148                             
+| ✓ | ⏱: 42.64s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=148                             
+| ✓ | ⏱: 0.33s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=148                             
+| ✓ | ⏱: 43.01s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=158                             
+| ✓ | ⏱: 43.14s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=158                             
+| ✓ | ⏱: 1.00s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=158                             
+| ✓ | ⏱: 44.15s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=166                             
+| ✓ | ⏱: 44.30s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=166                             
+| ✓ | ⏱: 1.96s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=166                             
+| ✓ | ⏱: 46.49s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=170                             
+| ✓ | ⏱: 46.59s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=170                             
+| ✓ | ⏱: 0.23s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=170                             
+| ✓ | ⏱: 46.83s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=173                             
+| ✓ | ⏱: 46.82s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=173                             
+| ✓ | ⏱: 0.13s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=173                             
+| ✓ | ⏱: 46.97s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=145                             
+| ✓ | ⏱: 46.98s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=145                             
+| ✓ | ⏱: 0.74s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=145                             
+| ✓ | ⏱: 47.73s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=157                             
+| ✓ | ⏱: 47.92s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=157                             
+| ✓ | ⏱: 0.62s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=157                             
+| ✓ | ⏱: 48.55s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=140                             
+| ✓ | ⏱: 51.36s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=140                             
+| ✓ | ⏱: 0.89s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=140                             
+| ✓ | ⏱: 52.55s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=126                             
+| ✓ | ⏱: 84.31s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=126                             
+| ✓ | ⏱: 0.34s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=126                             
+| ✓ | ⏱: 84.66s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=168                             
+| ✓ | ⏱: 50.19s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=168                             
+| ✓ | ⏱: 0.60s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=168                             
+| ✓ | ⏱: 50.80s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=178                             
+| ✓ | ⏱: 50.82s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=178                             
+| ✓ | ⏱: 1.96s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=178                             
+| ✓ | ⏱: 53.18s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=185                             
+| ✓ | ⏱: 50.44s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=185                             
+| ✓ | ⏱: 1.45s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=185                             
+| ✓ | ⏱: 52.41s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=135                             
+| ✓ | ⏱: 63.32s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=135                             
+| ✓ | ⏱: 12.95s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=135                             
+| ✓ | ⏱: 76.71s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=199                             
+| ✓ | ⏱: 55.77s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=199                             
+| ✓ | ⏱: 8.07s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=199                             
+| ✓ | ⏱: 67.54s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=197                             
+| ✓ | ⏱: 92.31s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=197                             
+| ✓ | ⏱: 2.13s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=197                             
+| ✓ | ⏱: 96.21s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=200                             
+| ✓ | ⏱: 93.76s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=200                             
+| ✓ | ⏱: 1.96s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=200                             
+| ✓ | ⏱: 96.07s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=198                             
+| ✓ | ⏱: 99.15s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=198                             
+| ✓ | ⏱: 0.12s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=198                             
+| ✓ | ⏱: 99.28s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=196                             
+| ✓ | ⏱: 106.66s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=196                             
+| ✓ | ⏱: 0.45s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=196                             
+| ✓ | ⏱: 107.14s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=355                             
+| ✓ | ⏱: 44.55s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=355                             
+| ✓ | ⏱: 0.12s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=355                             
+| ✓ | ⏱: 44.70s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=492                             
+| ✓ | ⏱: 18.98s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=492                             
+| ✓ | ⏱: 0.12s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=492                             
+| ✓ | ⏱: 19.12s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=262                             
+| ✓ | ⏱: 59.23s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=262                             
+| ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=262                             
+| ✓ | ⏱: 59.34s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=390                             
+| ✓ | ⏱: 19.22s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=390                             
+| ✓ | ⏱: 0.73s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=390                             
+| ✓ | ⏱: 19.96s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=233                             
+| ✓ | ⏱: 59.95s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=233                             
+| ✓ | ⏱: 5.33s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=233                             
+| ✓ | ⏱: 65.51s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=397                             
+| ✓ | ⏱: 25.78s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=397                             
+| ✓ | ⏱: 0.58s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=397                             
+| ✓ | ⏱: 26.40s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=354                             
+| ✓ | ⏱: 68.06s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=354                             
+| ✓ | ⏱: 0.20s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=354                             
+| ✓ | ⏱: 68.26s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=65                              
+| ✓ | ⏱: 26.59s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=65                              
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=65                              
+| ✓ | ⏱: 26.92s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=321                             
+| ✓ | ⏱: 67.29s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=321                             
+| ✓ | ⏱: 0.57s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=321                             
+| ✓ | ⏱: 67.91s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=66                              
+| ✓ | ⏱: 27.96s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=66                              
+| ✓ | ⏱: 9.99s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=66                              
+| ✓ | ⏱: 40.07s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=60                              
+| ✓ | ⏱: 43.69s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=60                              
+| ✓ | ⏱: 1.10s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=60                              
+| ✓ | ⏱: 44.95s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=496                             
+| ✓ | ⏱: 42.67s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=496                             
+| ✓ | ⏱: 1.75s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=496                             
+| ✓ | ⏱: 44.56s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=202                             
+| ✓ | ⏱: 92.29s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=202                             
+| ✓ | ⏱: 6.65s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=202                             
+| ✓ | ⏱: 100.20s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=372                             
+| ✓ | ⏱: 53.12s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=372                             
+| ✓ | ⏱: 1.69s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=372                             
+| ✓ | ⏱: 55.04s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=72                              
+| ✓ | ⏱: 69.61s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=72                              
+| ✓ | ⏱: 0.69s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=72                              
+| ✓ | ⏱: 70.57s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=69                              
+| ✓ | ⏱: 73.01s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=69                              
+| ✓ | ⏱: 0.12s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=69                              
+| ✓ | ⏱: 73.26s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=84                              
+| ✓ | ⏱: 61.02s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=84                              
+| ✓ | ⏱: 0.20s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=84                              
+| ✓ | ⏱: 61.29s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=76                              
+| ✓ | ⏱: 64.39s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=76                              
+| ✓ | ⏱: 0.81s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=76                              
+| ✓ | ⏱: 65.75s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...and-the-Resilience-of-Cities-
+in-Africa-FINAL.pdf  | ✓ | ⏱: 25.54s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...and-the-Resilience-of-Cities-
+in-Africa-FINAL.pdf  | ✓ | ⏱: 0.18s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...and-the-Resilience-of-Cities-
+in-Africa-FINAL.pdf  | ✓ | ⏱: 25.77s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/11/00-3-Prelim-4-Duarte-Foreword-
+FINAL.pdf            | ✓ | ⏱: 39.30s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/11/00-3-Prelim-4-Duarte-Foreword-
+FINAL.pdf            | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/11/00-3-Prelim-4-Duarte-Foreword-
+FINAL.pdf            | ✓ | ⏱: 39.34s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...lity-of-African-Cities-and-Co
+mmunities-FINAL.pdf  | ✓ | ⏱: 25.91s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...lity-of-African-Cities-and-Co
+mmunities-FINAL.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...lity-of-African-Cities-and-Co
+mmunities-FINAL.pdf  | ✓ | ⏱: 25.92s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...g-the-Realities-of-SDG-11-in-
+Africa_NM-FINAL.pdf  | ✓ | ⏱: 26.13s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...g-the-Realities-of-SDG-11-in-
+Africa_NM-FINAL.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...g-the-Realities-of-SDG-11-in-
+Africa_NM-FINAL.pdf  | ✓ | ⏱: 26.14s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/11/00-4-Prelim-5-EDITORS-NOTE.pdf
+| ✓ | ⏱: 29.34s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/11/00-4-Prelim-5-EDITORS-NOTE.pdf
+| ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/11/00-4-Prelim-5-EDITORS-NOTE.pdf
+| ✓ | ⏱: 29.36s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...omprehensive-Data-Governance-
+in-Africa-FINAL.pdf  | ✓ | ⏱: 26.79s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...omprehensive-Data-Governance-
+in-Africa-FINAL.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...omprehensive-Data-Governance-
+in-Africa-FINAL.pdf  | ✓ | ⏱: 26.80s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...xtractivism-and-Comparative-A
+dvantages-FINAL.pdf  | ✓ | ⏱: 26.80s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...xtractivism-and-Comparative-A
+dvantages-FINAL.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...xtractivism-and-Comparative-A
+dvantages-FINAL.pdf  | ✓ | ⏱: 26.80s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=91                              
+| ✓ | ⏱: 44.13s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=91                              
+| ✓ | ⏱: 0.79s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=91                              
+| ✓ | ⏱: 45.04s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=98                              
+| ✓ | ⏱: 41.41s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=98                              
+| ✓ | ⏱: 0.49s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=98                              
+| ✓ | ⏱: 41.95s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=99                              
+| ✓ | ⏱: 41.98s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=99                              
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=99                              
+| ✓ | ⏱: 42.26s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/11/16-Boukhars-Revised-FINAL.pdf 
+| ✓ | ⏱: 26.63s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/11/16-Boukhars-Revised-FINAL.pdf 
+| ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/11/16-Boukhars-Revised-FINAL.pdf 
+| ✓ | ⏱: 26.66s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=79                              
+| ✓ | ⏱: 67.65s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=79                              
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=79                              
+| ✓ | ⏱: 67.94s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...-and-well-being-in-Africa-wit
+h-remarks-FINAL.pdf  | ✓ | ⏱: 26.99s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...-and-well-being-in-Africa-wit
+h-remarks-FINAL.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...-and-well-being-in-Africa-wit
+h-remarks-FINAL.pdf  | ✓ | ⏱: 27.00s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=96                              
+| ✓ | ⏱: 42.65s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=96                              
+| ✓ | ⏱: 0.21s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=96                              
+| ✓ | ⏱: 42.88s 
+[FETCH]... ↓ https://sdgacademy.org/faculties?c=83                              
+| ✓ | ⏱: 68.23s 
+[SCRAPE].. ◆ https://sdgacademy.org/faculties?c=83                              
+| ✓ | ⏱: 5.14s 
+[COMPLETE] ● https://sdgacademy.org/faculties?c=83                              
+| ✓ | ⏱: 74.30s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...-Achieve-Sustainable-Developm
+ent-Goals-FINAL.pdf  | ✓ | ⏱: 34.66s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...-Achieve-Sustainable-Developm
+ent-Goals-FINAL.pdf  | ✓ | ⏱: 0.04s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...-Achieve-Sustainable-Developm
+ent-Goals-FINAL.pdf  | ✓ | ⏱: 34.73s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...lex-interlinkages-between-the
+-SDGs_MVF-FINAL.pdf  | ✓ | ⏱: 17.15s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...lex-interlinkages-between-the
+-SDGs_MVF-FINAL.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...lex-interlinkages-between-the
+-SDGs_MVF-FINAL.pdf  | ✓ | ⏱: 17.18s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...n-the-Global-Agenda-edited_LP
+_06102024-FINAL.pdf  | ✓ | ⏱: 15.49s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...n-the-Global-Agenda-edited_LP
+_06102024-FINAL.pdf  | ✓ | ⏱: 0.04s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...n-the-Global-Agenda-edited_LP
+_06102024-FINAL.pdf  | ✓ | ⏱: 15.72s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...ework-of-UN-Policy-and-the-20
+30-Agenda-FINAL.pdf  | ✓ | ⏱: 18.67s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...ework-of-UN-Policy-and-the-20
+30-Agenda-FINAL.pdf  | ✓ | ⏱: 0.10s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...ework-of-UN-Policy-and-the-20
+30-Agenda-FINAL.pdf  | ✓ | ⏱: 18.83s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...ho_Towards-Access-to-Quality-
+Education-FINAL.pdf  | ✓ | ⏱: 16.79s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...ho_Towards-Access-to-Quality-
+Education-FINAL.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...ho_Towards-Access-to-Quality-
+Education-FINAL.pdf  | ✓ | ⏱: 16.80s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/11/AJSD-SI_complete.pdf          
+| ✓ | ⏱: 6.26s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/11/AJSD-SI_complete.pdf          
+| ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/11/AJSD-SI_complete.pdf          
+| ✓ | ⏱: 6.26s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2025/04/JESD-Abstracts-_Collated-1.pdf
+| ✓ | ⏱: 6.39s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2025/04/JESD-Abstracts-_Collated-1.pdf
+| ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2025/04/JESD-Abstracts-_Collated-1.pdf
+| ✓ | ⏱: 6.40s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...ways-to-Food-Systems-Transfor
+mation_JU-FINAL.pdf  | ✓ | ⏱: 6.94s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...ways-to-Food-Systems-Transfor
+mation_JU-FINAL.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...ways-to-Food-Systems-Transfor
+mation_JU-FINAL.pdf  | ✓ | ⏱: 6.96s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...n-Africa-ASJSD-Paper-Bhorat2_
+with-Refs-FINAL.pdf  | ✓ | ⏱: 14.62s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...n-Africa-ASJSD-Paper-Bhorat2_
+with-Refs-FINAL.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...n-Africa-ASJSD-Paper-Bhorat2_
+with-Refs-FINAL.pdf  | ✓ | ⏱: 14.65s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...eaten-Africa_s-Sustainable-De
+velopment-FINAL.pdf  | ✓ | ⏱: 14.65s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...eaten-Africa_s-Sustainable-De
+velopment-FINAL.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...eaten-Africa_s-Sustainable-De
+velopment-FINAL.pdf  | ✓ | ⏱: 14.66s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...n-Opportunity-for-Africa-Adva
+ncement_R-FINAL.pdf  | ✓ | ⏱: 16.43s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...n-Opportunity-for-Africa-Adva
+ncement_R-FINAL.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...n-Opportunity-for-Africa-Adva
+ncement_R-FINAL.pdf  | ✓ | ⏱: 16.43s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...Indigenous-Social-Protection-
+in-Africa-FINAL.pdf  | ✓ | ⏱: 7.07s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...Indigenous-Social-Protection-
+in-Africa-FINAL.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...Indigenous-Social-Protection-
+in-Africa-FINAL.pdf  | ✓ | ⏱: 7.09s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...ane_In-the-margins-of-Politic
+al-Power2-FINAL.pdf  | ✓ | ⏱: 14.71s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...ane_In-the-margins-of-Politic
+al-Power2-FINAL.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...ane_In-the-margins-of-Politic
+al-Power2-FINAL.pdf  | ✓ | ⏱: 14.72s 
+[FETCH]... ↓ 
+https://sdgacademy.org/wp-content/uploads/2024/1...e-Implications-for-Inclusive-
+Societies-FINAL.pdf  | ✓ | ⏱: 14.73s 
+[SCRAPE].. ◆ 
+https://sdgacademy.org/wp-content/uploads/2024/1...e-Implications-for-Inclusive-
+Societies-FINAL.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sdgacademy.org/wp-content/uploads/2024/1...e-Implications-for-Inclusive-
+Societies-FINAL.pdf  | ✓ | ⏱: 14.74s 
+  Saved: 000_sdgacademy.org.md (670 words)
+  Saved: 001_sdgacademy.org.md (670 words)
+  SKIP (failed): https://sdgacademy.org/open-education-resources
+  SKIP (failed): https://sdgacademy.org/sdgacademy-library
+  SKIP (failed): https://sdgacademy.org/professional-development
+  SKIP (failed): https://sdgacademy.org/book-club-with-jeffrey-sachs
+  SKIP (failed): https://sdgacademy.org/about-us
+  SKIP (failed): https://sdgacademy.org/course/scaling-impact-for-sustainable-development
+  SKIP (failed): https://sdgacademy.org/contact-us
+  SKIP (failed): https://sdgacademy.org/blog
+  SKIP (failed): https://sdgacademy.org/global-mdp-program
+  SKIP (failed): https://sdgacademy.org/online-masters-in-sustainable-development
+  SKIP (failed): https://sdgacademy.org/global-classroom
+  SKIP (failed): https://sdgacademy.org/courses
+  SKIP (failed): https://sdgacademy.org/insurance-sdgs
+  SKIP (failed): https://sdgacademy.org/mission4point7
+  Saved: 016_sdgacademy.org_course_monitoring-evaluation-and-learning-nap.md (1034 words)
+  Saved: 017_sdgacademy.org_course_teaching-and-learning-about-violent-pasts.md (1117 words)
+  Saved: 018_sdgacademy.org_masters-pathway-in-foundations-of-sustainable-development.md (815 words)
+  Saved: 019_sdgacademy.org_users_password_new.md (243 words)
+  Saved: 020_sdgacademy.org_faqs.md (1724 words)
+  Saved: 021_sdgacademy.org_faculties.md (1603 words)
+  Saved: 022_sdgacademy.org_sij.md (2639 words)
+  Saved: 023_sdgacademy.org_faculties?c=103.md (1756 words)
+  Saved: 024_sdgacademy.org_faculties?c=121.md (1839 words)
+  Saved: 025_sdgacademy.org_course_monitoring-evaluation-and-learning-nap_courses@sdgacademy.com.md (243 words)
+  Saved: 026_sdgacademy.org_faculties?c=122.md (1706 words)
+  Saved: 027_sdgacademy.org_faculties?c=105.md (1801 words)
+  Saved: 028_sdgacademy.org_course_teaching-and-learning-about-violent-pasts_courses@sdgacademy.org.md (243 words)
+  Saved: 029_sdgacademy.org_course_ethics-in-action.md (1361 words)
+  Saved: 030_sdgacademy.org_faculties?c=119.md (1925 words)
+  Saved: 031_sdgacademy.org_course_climate-change-the-science-and-global-impact.md (811 words)
+  Saved: 032_sdgacademy.org_course_the-best-start-in-life-early-childhood-development.md (1014 words)
+  Saved: 033_sdgacademy.org_faculties?c=114.md (1632 words)
+  Saved: 034_sdgacademy.org_course_nature-based-solutions-for-disaster-and-climate-resilience.md (1428 words)
+  Saved: 035_sdgacademy.org_course_ecosystem-based-adaptation.md (1284 words)
+  Saved: 036_sdgacademy.org_course_living-heritage-and-sustainable-development.md (1390 words)
+  Saved: 037_sdgacademy.org_course_measuring-sustainable-development.md (923 words)
+  Saved: 038_sdgacademy.org_faculties?c=115.md (1777 words)
+  Saved: 039_sdgacademy.org_course_equity-and-inclusion-in-education.md (1394 words)
+  Saved: 040_sdgacademy.org_faculties?c=110.md (1930 words)
+  Saved: 041_sdgacademy.org_course_transformative-approaches-to-climate-adaptation-in-europe.md (1457 words)
+  Saved: 042_sdgacademy.org_course_becoming-global-citizens-for-a-sustainable-society.md (769 words)
+  Saved: 043_sdgacademy.org_faculties?c=158.md (1724 words)
+  Saved: 044_sdgacademy.org_faculties?c=130.md (1781 words)
+  Saved: 045_sdgacademy.org_faculties?c=148.md (1739 words)
+  Saved: 046_sdgacademy.org_faculties?c=166.md (1604 words)
+  Saved: 047_sdgacademy.org_faculties?c=131.md (1783 words)
+  Saved: 048_sdgacademy.org_faculties?c=140.md (1629 words)
+  Saved: 049_sdgacademy.org_faculties?c=145.md (1603 words)
+  Saved: 050_sdgacademy.org_faculties?c=178.md (1696 words)
+  Saved: 051_sdgacademy.org_faculties?c=185.md (2328 words)
+  Saved: 052_sdgacademy.org_faculties?c=173.md (1979 words)
+  Saved: 053_sdgacademy.org_faculties?c=157.md (1753 words)
+  Saved: 054_sdgacademy.org_faculties?c=126.md (2040 words)
+  Saved: 055_sdgacademy.org_faculties?c=170.md (1806 words)
+  Saved: 056_sdgacademy.org_faculties?c=168.md (1849 words)
+  Saved: 057_sdgacademy.org_faculties?c=135.md (1603 words)
+  Saved: 058_sdgacademy.org_faculties?c=199.md (1602 words)
+  Saved: 059_sdgacademy.org_faculties?c=197.md (1817 words)
+  Saved: 060_sdgacademy.org_faculties?c=200.md (1605 words)
+  Saved: 061_sdgacademy.org_faculties?c=198.md (1742 words)
+  Saved: 062_sdgacademy.org_faculties?c=196.md (2144 words)
+  Saved: 063_sdgacademy.org_faculties?c=233.md (1796 words)
+  Saved: 064_sdgacademy.org_faculties?c=262.md (1604 words)
+  Saved: 065_sdgacademy.org_faculties?c=492.md (1602 words)
+  Saved: 066_sdgacademy.org_faculties?c=390.md (1603 words)
+  Saved: 067_sdgacademy.org_faculties?c=355.md (1732 words)
+  Saved: 068_sdgacademy.org_faculties?c=354.md (1727 words)
+  Saved: 069_sdgacademy.org_faculties?c=397.md (1853 words)
+  Saved: 070_sdgacademy.org_faculties?c=66.md (1852 words)
+  Saved: 071_sdgacademy.org_faculties?c=60.md (1874 words)
+  Saved: 072_sdgacademy.org_faculties?c=65.md (1736 words)
+  Saved: 073_sdgacademy.org_faculties?c=321.md (1746 words)
+  Saved: 074_sdgacademy.org_faculties?c=496.md (1722 words)
+  Saved: 075_sdgacademy.org_faculties?c=202.md (1849 words)
+  Saved: 076_sdgacademy.org_faculties?c=372.md (1783 words)
+  Saved: 077_sdgacademy.org_faculties?c=69.md (1838 words)
+  Saved: 078_sdgacademy.org_faculties?c=72.md (1630 words)
+  Saved: 079_sdgacademy.org_faculties?c=84.md (1629 words)
+  Saved: 080_sdgacademy.org_faculties?c=76.md (1753 words)
+  Saved: 088_sdgacademy.org_faculties?c=91.md (1888 words)
+  Saved: 089_sdgacademy.org_faculties?c=98.md (2098 words)
+  Saved: 091_sdgacademy.org_faculties?c=99.md (1628 words)
+  Saved: 092_sdgacademy.org_faculties?c=79.md (1630 words)
+  Saved: 094_sdgacademy.org_faculties?c=96.md (1641 words)
+  Saved: 095_sdgacademy.org_faculties?c=83.md (2337 words)
+
+Done: 73 pages saved to /Users/knowprajjwal/LearningPlatform/Competitor Analysis/scripts/../content/sdg-academy

@@ -1,0 +1,26 @@
+- question: "In the Sustainalytics ESG Risk Ratings, how is 'unmanaged risk' defined?"
+  options:
+    - "The total ESG risk a company faces across all material issues"
+    - "The portion of material ESG risk that is not yet managed by a company"
+    - "The risk arising from systemic events outside a company's control"
+    - "The difference between a company's subindustry exposure and its peers"
+  answer: 1
+  explanation: "Unmanaged risk is specifically defined as the portion of material ESG risk that is not (yet) managed by a company. It is not total ESG risk, but rather the residual after accounting for the company's management response."
+
+- question: "How many Material ESG Issues (MEIs) does the Sustainalytics methodology list in Exhibit 2 for use in new company assessments?"
+  options:
+    - "15"
+    - "18"
+    - "22"
+    - "30"
+  answer: 2
+  explanation: "Exhibit 2 of the Sustainalytics ESG Risk Ratings Methodology Abstract v3.1.1 lists 22 material ESG issues used for new company assessments across all subindustries."
+
+- question: "What makes Corporate Governance and Stakeholder Governance different from other Material ESG Issues in the Sustainalytics framework?"
+  options:
+    - "They only apply to companies in high-risk sectors such as oil and gas"
+    - "They are not scored numerically and are assessed qualitatively only"
+    - "Their materiality is determined by a company's business model and subindustry affiliation"
+    - "They are baseline issues that apply to all companies regardless of subindustry affiliation, and for publicly traded companies they cannot be disabled"
+  answer: 3
+  explanation: "Corporate Governance and Stakeholder Governance are baseline issues whose materiality is not determined by a company's business model or subindustry affiliation. For publicly traded companies, they are assessed for all companies and cannot be disabled, unlike other MEIs which apply based on subindustry relevance."

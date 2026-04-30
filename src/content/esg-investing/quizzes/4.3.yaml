@@ -1,0 +1,44 @@
+- question: "Why is the point of new debt issuance considered the greatest opportunity for fixed income investors to influence ESG behaviour?"
+  options:
+    - "New issuances are covered by stricter regulations that require companies to address investor ESG concerns"
+    - "At issuance, companies need buyers and must therefore be responsive to investor demands, including ESG expectations on covenants and terms"
+    - "Fixed income investors gain voting rights at AGMs only when they participate in a new issuance"
+    - "New issuances are only available to investors who have engaged with the company previously"
+  answer: 1
+  explanation: "At the point of new debt issuance, a company needs investors to buy the bonds being offered. This creates a moment of genuine leverage: investors can make their ESG expectations explicit as a condition of participation, negotiate covenants, and influence pricing based on the issuer's ESG profile. Once bonds trade in secondary markets, the investor's primary sanction is simply to sell — which has far less direct influence on company behaviour."
+
+- question: "In a private equity fund structure, where does the primary direct ESG engagement relationship typically sit?"
+  options:
+    - "Between the limited partner (LP) and the portfolio companies, bypassing the general partner"
+    - "Between the general partner (GP) and the portfolio companies, with LPs engaging the GP on its ESG management approach"
+    - "Between the portfolio companies and regulators, with the GP acting as intermediary"
+    - "Between asset owners and index providers who determine ESG eligibility for inclusion"
+  answer: 1
+  explanation: "In a private equity structure, the general partner (GP) manages the portfolio companies directly and is responsible for ESG monitoring, engagement, and reporting at the asset level. Limited partners (asset owners) typically cannot engage portfolio companies directly — instead they engage the GP on how it manages ESG across its holdings, using future capital commitments as the primary leverage."
+
+- question: "Which of the following most accurately describes the current state of engagement with sovereign debt issuers?"
+  options:
+    - "Sovereign debt engagement is highly developed, with standardised engagement frameworks comparable to listed equity"
+    - "Sovereign debt investors have no interest in ESG since governments are not subject to climate risk"
+    - "Sovereign debt engagement is nascent — ESG integration in this asset class relies primarily on screening and investment tilts rather than direct dialogue with governments"
+    - "Engagement with sovereign issuers is prohibited under international securities law"
+  answer: 2
+  explanation: "Engaging governments as sovereign debt issuers is fundamentally more limited than engaging listed companies. Governments are far less responsive to investor pressure, and the escalation tools available to equity investors (voting, resolutions) do not exist. ESG integration in sovereign debt therefore relies primarily on country-level ESG screening and portfolio tilts toward better-scoring sovereigns, with direct engagement remaining a nascent and largely unproven practice."
+
+- question: "What is the primary ESG stewardship challenge that investors face when investing through fund structures such as private equity or infrastructure funds?"
+  options:
+    - "Fund investments are exempt from stewardship codes and therefore require no ESG oversight"
+    - "An agency gap exists — investors are removed from the underlying assets and must engage the fund manager rather than the assets directly, which requires different tools and creates alignment challenges"
+    - "Fund investments offer too much direct influence over portfolio companies, creating conflicts of interest"
+    - "Infrastructure assets are not exposed to ESG risks because they operate under fixed regulatory frameworks"
+  answer: 1
+  explanation: "When investing through fund vehicles, investors are typically several steps removed from the underlying assets. They cannot directly engage the infrastructure asset, property, or private company — they must engage the GP or fund manager and rely on that manager to address ESG issues at the portfolio level. This creates an agency gap: the investor's interests may not be perfectly aligned with the manager's, and ensuring ESG is embedded requires rigorous due diligence, clear mandate terms, and active reporting requirements."
+
+- question: "How does stewardship in listed equities differ most fundamentally from stewardship in fixed income?"
+  options:
+    - "Equity investors focus on environmental issues while fixed income investors focus on governance"
+    - "Equity stewardship is voluntary while fixed income stewardship is legally mandated"
+    - "Equity investors hold formal voting rights and can propose shareholder resolutions; fixed income investors have no such rights and rely primarily on creditor dialogue and issuance-stage leverage"
+    - "Fixed income investors can engage directly with company boards; equity investors can only engage through proxy advisers"
+  answer: 2
+  explanation: "The fundamental structural difference is that equity shareholders have legal ownership rights — including voting at AGMs, attending general meetings, and proposing shareholder resolutions in many jurisdictions. Fixed income investors are creditors, not owners, and hold none of these formal rights. Their primary engagement levers are creditor dialogue (particularly with corporate treasury), the conditions they attach to new issuances, and the ultimate sanction of withdrawing from or refusing future financing."

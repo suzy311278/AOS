@@ -1,0 +1,44 @@
+- question: "What is the key difference between auctioning and free allocation of allowances?"
+  options:
+    - "Auctioning sells allowances to the highest bidder; free allocation distributes them at no cost"
+    - "Auctioning is illegal in most countries"
+    - "Free allocation generates more revenue"
+    - "There is no difference"
+  answer: 0
+  explanation: "Auctioning sells allowances (generating revenue for government), while free allocation distributes allowances to covered entities at no charge (often to address competitiveness concerns)."
+
+- question: "What is grandfathering in allowance allocation?"
+  options:
+    - "Exempting elderly people from carbon pricing"
+    - "Allocating free allowances based on historical emissions"
+    - "Giving all allowances to the oldest companies"
+    - "A type of auction format"
+  answer: 1
+  explanation: "Grandfathering allocates free allowances based on a facility's historical emissions, essentially giving them permission to continue past emission levels."
+
+- question: "What problem does grandfathering create?"
+  options:
+    - "It is too expensive"
+    - "It rewards past high emitters and can create windfall profits"
+    - "It reduces emissions too quickly"
+    - "It eliminates trading"
+  answer: 1
+  explanation: "Grandfathering rewards facilities that emitted more historically, can create windfall profits when costs are passed through to customers, and provides no incentive for early action before the baseline period."
+
+- question: "What is benchmark-based allocation?"
+  options:
+    - "Free allowances based on production levels and industry best-practice emissions rates"
+    - "Allowances sold at benchmark prices"
+    - "Historical emissions allocation"
+    - "Random allocation"
+  answer: 0
+  explanation: "Benchmark allocation gives free allowances based on production multiplied by a best-practice emissions rate, rewarding efficiency and avoiding grandfathering's problems."
+
+- question: "Why do economists generally prefer auctioning allowances?"
+  options:
+    - "Auctions are easier to administer"
+    - "Auctioning generates revenue and avoids windfall profits while maintaining the carbon price signal"
+    - "Free allocation is illegal"
+    - "Auctions eliminate trading"
+  answer: 1
+  explanation: "Auctioning generates public revenue, avoids windfall profits to existing emitters, and maintains full economic incentive for emissions reduction, though free allocation may be used for competitiveness reasons."

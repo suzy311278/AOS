@@ -1,0 +1,26 @@
+- question: "The UNGP Reporting Framework, published in 2015, requires companies to do which of the following that distinguishes it from generic sustainability reporting?"
+  options:
+  - "Disclose audited financial figures relating to human rights expenditures"
+  - "Name specific salient human rights issues, explain the reasoning behind their identification, and report on outcomes rather than just activities"
+  - "Obtain third-party verification of all human rights claims before publication"
+  - "Limit reporting to direct operations only, excluding supply chain disclosures"
+  answer: 1
+  explanation: "The UNGP Reporting Framework specifically requires companies to name their salient human rights issues (not rely on generic categories), explain their reasoning for identifying those issues as salient, and report on outcomes and effectiveness - including honest acknowledgement of gaps and challenges. This is a significantly higher transparency standard than generic sustainability reporting that allows companies to self-select what they disclose."
+
+- question: "Under UNGP Principle 22, what is required of a business enterprise that has caused or contributed to an adverse human rights impact?"
+  options:
+  - "The enterprise should consult its legal team and respond only if facing litigation"
+  - "The enterprise should provide for or cooperate in remediation through legitimate processes"
+  - "The enterprise should immediately terminate the business relationship causing the harm"
+  - "The enterprise should report the harm to the relevant state authority and take no further action"
+  answer: 1
+  explanation: "UNGP Principle 22 states that where business enterprises identify that they have caused or contributed to adverse impacts, they should provide for or cooperate in the remediation of those impacts through legitimate processes. This obligation is not contingent on litigation or regulatory action; it is a core element of the corporate responsibility to respect human rights."
+
+- question: "Which area carries the highest weighting (34%) in the Corporate Human Rights Benchmark (CHRB) methodology, reflecting its central importance to meaningful human rights accountability?"
+  options:
+  - "Policy commitments"
+  - "Board-level accountability"
+  - "Human rights due diligence"
+  - "Remedies and grievance mechanisms"
+  answer: 3
+  explanation: "Remedies and grievance mechanisms carries the highest weight in the CHRB methodology at 34% of the total score, reflecting the view that accountability for actual harms and accessible remedy for affected people are the ultimate test of a company's human rights approach. Despite this high weighting, only 34% of CHRB-assessed companies score full marks in this area, making it the area with the most room for improvement across the benchmarked companies."

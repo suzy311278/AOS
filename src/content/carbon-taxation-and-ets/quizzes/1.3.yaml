@@ -1,0 +1,35 @@
+- question: "What does price escalation in a carbon tax achieve?"
+  options:
+    - "It confuses businesses"
+    - "It provides a long-term signal for investment while managing short-term disruption"
+    - "It guarantees government revenue will increase"
+    - "It eliminates the need for other climate policies"
+  answer: 1
+  explanation: "Scheduled rate increases (escalation) give businesses time to adjust while providing a clear signal that decarbonization investments will become more attractive over time."
+
+- question: "Sweden's carbon tax started at approximately what rate in 1991?"
+  options:
+    - "$10 per ton"
+    - "$30 per ton"
+    - "$100 per ton"
+    - "$200 per ton"
+  answer: 1
+  explanation: "Sweden started with a relatively modest rate around $30 per ton in 1991, then increased it over time to over $100 per ton, demonstrating the escalation approach."
+
+- question: "What is one advantage of announcing a rate trajectory in advance?"
+  options:
+    - "It allows businesses to plan long-term investments"
+    - "It guarantees emissions will fall linearly"
+    - "It eliminates political risk"
+    - "It prevents any economic disruption"
+  answer: 0
+  explanation: "Announcing future rates provides certainty for investment planning. Businesses can evaluate low-carbon investments knowing what carbon will cost in future years."
+
+- question: "Which adjustment approach is most common for carbon tax rates?"
+  options:
+    - "Random adjustments"
+    - "Scheduled increases (e.g., $10/year)"
+    - "Rate reductions over time"
+    - "Daily market-based adjustments"
+  answer: 1
+  explanation: "Most carbon taxes use scheduled increases, such as a fixed dollar amount per year or percentage increases, to provide predictable escalation."

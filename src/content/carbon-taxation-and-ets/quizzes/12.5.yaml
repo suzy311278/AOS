@@ -1,0 +1,44 @@
+- question: "What is the fundamental political economy challenge for carbon pricing?"
+  options:
+    - "It is universally popular"
+    - "Concentrated, visible costs vs diffuse, long-term benefits create political headwinds"
+    - "No political challenges exist"
+    - "Everyone supports carbon pricing"
+  answer: 1
+  explanation: "Carbon pricing faces systematic political challenges because costs are concentrated on specific industries/regions and visible immediately, while climate benefits are diffuse, global, and long-term."
+
+- question: "What is the 'double dividend' coalition strategy?"
+  options:
+    - "Paying dividends twice per year"
+    - "Using revenue recycling to bring together groups with different motivations (e.g., environmentalists and fiscal conservatives)"
+    - "Two governments working together"
+    - "A type of carbon tax"
+  answer: 1
+  explanation: "The double dividend insight suggests using revenue creatively can build coalitions, such as combining environmental groups (who support climate action) with fiscal conservatives (who support tax cuts)."
+
+- question: "How can revenue use be a political tool?"
+  options:
+    - "Revenue use is irrelevant politically"
+    - "Different revenue uses appeal to different stakeholders, helping build supporting coalitions"
+    - "All revenue uses are identical politically"
+    - "Revenue should not be discussed"
+  answer: 1
+  explanation: "Revenue use is politically powerful. Dividends appeal to households, tax cuts to business, climate investments to environmentalists, transition funds to unions - different uses build different coalitions."
+
+- question: "What lesson do failed carbon pricing efforts teach?"
+  options:
+    - "Carbon pricing always fails"
+    - "Distributional fairness, revenue use visibility, and coalition unity are critical for success"
+    - "Technical design does not matter"
+    - "Political factors are irrelevant"
+  answer: 1
+  explanation: "Failures like France's yellow vests and Australia's repeal show that perceived fairness, visible benefits from revenue, and unified supporting coalitions are as important as technical design."
+
+- question: "What is required for long-term political sustainability of carbon pricing?"
+  options:
+    - "Initial passage is sufficient"
+    - "Demonstrating success, adapting to concerns, building beneficiary constituencies, and continuous communication"
+    - "Nothing after implementation"
+    - "Political sustainability is impossible"
+  answer: 1
+  explanation: "Political sustainability requires ongoing work: showing the policy delivers, addressing emerging problems, creating constituencies who benefit and defend the policy, and continuous stakeholder engagement."

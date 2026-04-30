@@ -1,0 +1,80 @@
+{/* 3.4: Leakage: The Carbon That Escapes */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/vm0042/3_4.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Leakage: The Carbon That Escapes
+<HighlightBox>
+  <p class="font-semibold text-green-800">The problem of shifting emissions</p>
+  <p class="text-green-900 mt-1">Leakage occurs when a carbon project causes GHG emissions to <em>increase outside the project boundary</em> as a result of the project's activities. If you only reduce emissions inside your boundary while pushing them outside, the global benefit is less than claimed.</p>
+</HighlightBox>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">🎈 Analogy: Squeezing a Balloon</p>
+  <p class="mt-1 text-sm text-blue-900">Leakage is like squeezing a balloon, if you push it in on one side, it bulges out somewhere else. A truly good carbon project reduces the total size of the balloon (total global emissions), not just reshapes it. VM0042 requires you to check for and quantify all four types of "bulging."</p>
+</AnalogyBox>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📍 Leakage That Almost Sank a Project</p>
+  <p class="mt-2 text-sm">A 2020 grazing improvement project in Patagonia, Argentina planned to reduce stocking density from 1.2 to 0.8 animal units per hectare (AU/ha). The VVB asked a simple question: "Where did the 400 displaced cattle go?" The developer initially said they were sold at market. The auditor requested slaughter records. When slaughter records for only 200 cattle were provided, the VVB required livestock displacement leakage (Type 2) to be calculated for the remaining 200 cattle, which were assumed to have moved to unimproved pasture elsewhere. The leakage deduction reduced the project's net credit claim by 12%.</p>
+  <p class="mt-2 text-sm text-amber-700"><strong>Lesson:</strong> Leakage is a real audit risk for grazing projects. Prepare slaughter records and livestock sales documentation before the verification visit.</p>
+</ExampleBox>
+
+### Type 1: Organic Amendment Diversion (Equation 33)
+<div class="bg-white border rounded p-4 mb-4 shadow-sm">
+  <p class="text-sm text-gray-700"><strong>When it applies:</strong> Project imports compost or manure from outside the project boundary that was not previously imported (new application to fields that didn't receive it before).</p>
+  <p class="text-sm mt-2"><strong>The problem:</strong> That organic matter was previously being applied to other fields outside the project. Now those outside fields lose that organic input → SOC may decline there.</p>
+  <AnalogyBox>
+    💧 Like taking water from your neighbour's pool to fill yours, total water hasn't increased, you just moved it.
+  </AnalogyBox>
+  <EquationBreakdown
+    title="Equation 33 - Organic Amendment Leakage"
+    result="LE<sub>OA</sub> | Leakage from Organic Amendments | CO₂ that would have been stored in soils outside your project, but was lost because you diverted their organic matter, in tCO₂ | blue"
+    inputs="M<sub>OA</sub> | Mass of Amendment | Tonnes of compost or manure imported from outside the project boundary | green ;; CC<sub>oa</sub> | Carbon Content | Fraction of the amendment that is carbon (tC per tonne of material) | amber ;; 0.12 | Retention Factor | Only 12% of applied organic carbon is expected to remain in soil long-term (rest decomposes) | violet ;; 44/12 | C to CO₂ | Molecular weight ratio converting carbon to CO₂ (every 12g C = 44g CO₂) | rose"
+    operator="×"
+  />
+  <p class="text-sm mt-2 text-green-700"><strong>Exemptions:</strong> No leakage deduction if: (1) manure is newly produced on-site, (2) manure diverted from an uncontrolled anaerobic lagoon, or (3) amendment was not previously used as a soil amendment.</p>
+</div>
+
+### Type 2: Livestock Displacement (Equation 36)
+<div class="bg-white border rounded p-4 mb-4 shadow-sm">
+  <p class="text-sm text-gray-700"><strong>When it applies:</strong> Grazing management reduces stocking density within the project boundary. If those animals move to another area, and that area has no improved management, their CH₄ and N₂O emissions continue outside the project.</p>
+  <ExampleBox>
+    <strong>Example:</strong> A project in Montana reduces cattle from 1,000 to 700 head. If the 300 displaced cattle are moved to another ranch with no improved management, their methane emissions must be counted as leakage.
+  </ExampleBox>
+  <p class="text-sm mt-2 text-green-700"><strong>Exemption:</strong> No leakage if you can demonstrate cattle were slaughtered (not relocated) and commodity production didn't decline.</p>
+</div>
+
+### Type 3: Production Decline / Activity-Shifting (Equations 34–36)
+<div class="bg-white border rounded p-4 mb-4 shadow-sm">
+  <p class="text-sm text-gray-700"><strong>When it applies:</strong> If improved practices reduce crop or livestock production, that production may shift elsewhere, potentially to new land (including land clearing).</p>
+  <ExampleBox>
+    <strong>Example:</strong> A project transitions 500 ha from intensive corn to a corn-cover crop rotation that yields 10% less corn. The "missing" corn production may be grown on marginal land elsewhere, causing new emissions.
+  </ExampleBox>
+  <p class="text-sm mt-2">Uses VMD0054 (Module for Estimating Leakage from ARR Activities) adapted for ALM projects.</p>
+</div>
+
+### Type 4: Biomass Residue Diversion
+<div class="bg-white border rounded p-4 mb-4 shadow-sm">
+  <p class="text-sm text-gray-700"><strong>When it applies:</strong> Residues that were previously removed for fuel or animal feed are now retained on the field (e.g., stopping straw burning). The original use of those residues must be replaced, potentially with fossil fuels or other inputs.</p>
+  <ExampleBox>
+    <strong>Example:</strong> Farmers who used to burn crop residues for cooking fuel now retain them on the field. They switch to LPG for cooking. The LPG emissions are a form of leakage.
+  </ExampleBox>
+  <p class="text-sm mt-2">Calculated using CDM TOOL16 (Project and Leakage Emissions from Biomass).</p>
+</div>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📐 Leakage Summary for a US No-Till Project</p>
+  <ResponsiveTable>
+<table class="mt-2 text-sm">
+    <thead><tr><th>Leakage Type</th><th>Applicable?</th><th>Reason</th></tr></thead>
+    <tbody>
+    <tr><td>Type 1: Organic amendment</td><td class="text-green-700">No</td><td>Compost produced on-site from farm waste</td></tr>
+    <tr><td>Type 2: Livestock displacement</td><td class="text-green-700">No</td><td>Cropland project, no livestock</td></tr>
+    <tr><td>Type 3: Production decline</td><td class="text-amber-700">Yes (small)</td><td>Cover crops may slightly reduce main crop yield in Year 1</td></tr>
+    <tr><td>Type 4: Residue diversion</td><td class="text-green-700">No</td><td>Baseline residues were tilled in, not used for energy</td></tr>
+    </tbody>
+  </table>
+</ResponsiveTable>
+  <p class="mt-2 text-sm text-amber-700">Net leakage is small (only Type 3, Year 1) and likely de minimis (&lt;5% of total benefit). Document and demonstrate.</p>
+</ExampleBox>
+<KeyTakeaways items="Leakage occurs when a project causes GHG emissions to increase outside the project boundary - all four types must be assessed ;; Type 1 (organic amendment diversion) applies when compost or manure is imported from outside, depriving other fields of carbon inputs ;; Type 2 (livestock displacement) is a major audit risk for grazing projects - prepare slaughter records and sales documentation before verification ;; Type 3 (production decline) applies when reduced yields shift production to new land, potentially causing land clearing elsewhere ;; Most cropland no-till projects have minimal leakage, but grazing and organic amendment projects require careful documentation and calculation" />

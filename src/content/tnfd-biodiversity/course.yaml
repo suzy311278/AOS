@@ -1,0 +1,147 @@
+id: tnfd-biodiversity
+title: "TNFD & Biodiversity"
+subtitle: "Nature-related risk assessment, disclosure, and the biodiversity crisis"
+description: "A comprehensive course on the Taskforce on Nature-related Financial Disclosures (TNFD), biodiversity loss drivers, ecosystem services valuation, and corporate nature-related risk management."
+icon: "🦋"
+color: green
+status: published
+category: fundamentals
+estimatedHours: 10
+modules:
+  - id: 0
+    title: "The Biodiversity Crisis"
+    subtitle: "Why Nature Matters for Business"
+    icon: "🌍"
+    color: green
+    lessons:
+    - id: "0.1"
+      title: "Biodiversity 101: Genes, Species & Ecosystems"
+      duration: "40 min"
+      vmRef: "IPBES Global Assessment 2019, Chapter 1"
+    - id: "0.2"
+      title: "The Five Drivers of Biodiversity Loss"
+      duration: "45 min"
+      vmRef: "IPBES Global Assessment 2019, Chapter 2.2"
+    - id: "0.3"
+      title: "Ecosystem Services & Natural Capital"
+      duration: "45 min"
+      vmRef: "IPBES Global Assessment 2019, Chapter 2.3"
+    - id: "0.4"
+      title: "The Business Case for Nature"
+      duration: "40 min"
+      vmRef: "TNFD Recommendations v1.0, Introduction"
+
+  - id: 1
+    title: "Introduction to TNFD"
+    subtitle: "Origins, Structure & the LEAP Approach"
+    icon: "📋"
+    color: emerald
+    lessons:
+    - id: "1.1"
+      title: "From TCFD to TNFD: Evolution of Nature Disclosure"
+      duration: "45 min"
+      vmRef: "TNFD Recommendations v1.0, Section A"
+    - id: "1.2"
+      title: "TNFD Framework Architecture"
+      duration: "50 min"
+      vmRef: "TNFD Recommendations v1.0, Section B"
+    - id: "1.3"
+      title: "The LEAP Approach: Locate, Evaluate, Assess, Prepare"
+      duration: "60 min"
+      vmRef: "TNFD LEAP Guidance v2, Overview"
+    - id: "1.4"
+      title: "TNFD vs Other Frameworks: GRI, SBTN, CBD"
+      duration: "45 min"
+      vmRef: "TNFD Recommendations v1.0, Annex"
+
+  - id: 2
+    title: "LEAP in Practice"
+    subtitle: "Applying LEAP to Your Organisation"
+    icon: "🔍"
+    color: teal
+    lessons:
+    - id: "2.1"
+      title: "Locate: Interface with Nature"
+      duration: "50 min"
+      vmRef: "TNFD LEAP Guidance v2, Locate Phase"
+    - id: "2.2"
+      title: "Evaluate: Dependencies & Impacts"
+      duration: "55 min"
+      vmRef: "TNFD LEAP Guidance v2, Evaluate Phase"
+    - id: "2.3"
+      title: "Assess: Risks & Opportunities"
+      duration: "50 min"
+      vmRef: "TNFD LEAP Guidance v2, Assess Phase"
+    - id: "2.4"
+      title: "Prepare: Responding & Reporting"
+      duration: "45 min"
+      vmRef: "TNFD LEAP Guidance v2, Prepare Phase"
+
+  - id: 3
+    title: "Measuring Biodiversity"
+    subtitle: "Metrics, Data & Tools"
+    icon: "📊"
+    color: blue
+    lessons:
+    - id: "3.1"
+      title: "Biodiversity Metrics & Indicators"
+      duration: "50 min"
+      vmRef: "TNFD Recommendations v1.0, Annex 2 - Metrics"
+    - id: "3.2"
+      title: "Biodiversity Footprinting Tools"
+      duration: "45 min"
+      vmRef: "ENCORE Methodology Documentation"
+    - id: "3.3"
+      title: "Science Based Targets for Nature (SBTN)"
+      duration: "50 min"
+      vmRef: "SBTN Initial Guidance for Business 2023"
+    - id: "3.4"
+      title: "Data Challenges & Emerging Solutions"
+      duration: "40 min"
+      vmRef: "TNFD LEAP Guidance v2, Data and Analytics"
+
+  - id: 4
+    title: "Sector Deep Dives"
+    subtitle: "Nature Risk Across Industries"
+    icon: "🏭"
+    color: orange
+    lessons:
+    - id: "4.1"
+      title: "Agriculture & Food Systems"
+      duration: "50 min"
+      vmRef: "TNFD Sector Guidance - Agriculture, 2023"
+    - id: "4.2"
+      title: "Extractives & Infrastructure"
+      duration: "45 min"
+      vmRef: "TNFD Sector Guidance - Mining & Metals, 2023"
+    - id: "4.3"
+      title: "Financial Institutions & Nature Risk"
+      duration: "50 min"
+      vmRef: "TNFD Guidance for Financial Institutions, 2023"
+    - id: "4.4"
+      title: "Supply Chain Nature Dependencies"
+      duration: "45 min"
+      vmRef: "TNFD LEAP Guidance v2, Upstream Dependencies"
+
+  - id: 5
+    title: "Disclosure & Implementation"
+    subtitle: "From Assessment to Action"
+    icon: "📝"
+    color: violet
+    lessons:
+    - id: "5.1"
+      title: "TNFD Disclosure Recommendations"
+      duration: "50 min"
+      vmRef: "TNFD Recommendations v1.0, Section C"
+    - id: "5.2"
+      title: "Nature-Positive Strategies"
+      duration: "45 min"
+      vmRef: "CBD Global Biodiversity Framework, Target 15"
+    - id: "5.3"
+      title: "Biodiversity Credits & Nature Markets"
+      duration: "45 min"
+      vmRef: "CBD Global Biodiversity Framework, Resource Mobilisation"
+    - id: "5.4"
+      title: "Regulatory Landscape & Future Outlook"
+      duration: "40 min"
+      vmRef: "CBD Global Biodiversity Framework, Implementation Mechanisms"

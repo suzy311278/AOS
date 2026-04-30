@@ -1,0 +1,98 @@
+{/* 5.1: Designing a Monitoring Plan */}
+
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/vm0042/5_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+<div class="space-y-6">
+  <HighlightBox>
+    ### The Monitoring Imperative
+    <p>Carbon credits are only as credible as the data behind them. VM0042's monitoring requirements ensure that every VCU issued reflects a real, measured reduction in greenhouse gases, not a promise. Section 9 of VM0042 is the operational backbone of any project.</p>
+  </HighlightBox>
+  <AnalogyBox>
+    #### Analogy: Health Monitoring
+    <p>Think of monitoring like a patient's health tracking program. You don't just weigh the patient once at the start, you regularly check weight, blood pressure, and lab results to confirm the treatment is working. VM0042 monitoring works the same way: regular sampling confirms soil carbon accumulation is real and ongoing.</p>
+  </AnalogyBox>
+  <ExampleBox>
+    <p class="font-semibold text-amber-800">📍 What Monitoring Failure Looks Like</p>
+    <p class="mt-2 text-sm">In a 2021 VVB audit of a rice AWD project in Myanmar, field officers had been recording nitrogen fertilizer application rates from memory rather than actual bag counts. When the VVB cross-checked the farm records against supplier invoices (available from a local agri-dealer), actual fertilizer use was found to be 15% higher than reported, significantly reducing the N₂O reduction credit. The lesson: monitoring is only valuable if it captures what actually happened, not what was planned.</p>
+  </ExampleBox>
+
+  ### What Must Be Monitored?
+  <p>VM0042 distinguishes between parameters determined once (at project start) and parameters monitored periodically throughout the crediting period.</p>
+  <div class="overflow-x-auto">
+    <ResponsiveTable>
+<table class="w-full border-collapse text-sm">
+      <thead><tr class="bg-teal-100">
+        <th class="border border-teal-200 p-2 text-left">Parameter Category</th>
+        <th class="border border-teal-200 p-2 text-left">Examples</th>
+        <th class="border border-teal-200 p-2 text-left">Frequency</th>
+      </tr></thead>
+      <tbody>
+        <tr class="bg-white"><td class="border p-2 font-medium">Project Activity Records</td><td class="border p-2">Fertilizer rates, tillage dates, irrigation volumes, crop planted</td><td class="border p-2">Annually</td></tr>
+        <tr class="bg-gray-50"><td class="border p-2 font-medium">SOC Stock Changes</td><td class="border p-2">Bulk density, SOC concentration, ESM depth</td><td class="border p-2">Per monitoring event</td></tr>
+        <tr class="bg-white"><td class="border p-2 font-medium">GHG Emissions</td><td class="border p-2">Fossil fuel use (L/ha), synthetic N applied (kg/ha), liming (t/ha)</td><td class="border p-2">Annually</td></tr>
+        <tr class="bg-gray-50"><td class="border p-2 font-medium">Leakage Indicators</td><td class="border p-2">Livestock head counts, yield data, amendment sourcing records</td><td class="border p-2">Annually</td></tr>
+        <tr class="bg-white"><td class="border p-2 font-medium">Project Area</td><td class="border p-2">GPS-verified field boundaries, stratum maps, enrolled farmer records</td><td class="border p-2">At enrollment + changes</td></tr>
+      </tbody>
+    </table>
+</ResponsiveTable>
+  </div>
+  ### The QU System: Quantification Units
+  <p>A <strong>quantification unit (QU)</strong> is the unit of land for which a discrete amount of ERRs is quantified. This could be a single farmer's field, a cluster of fields, or a stratum. Monitoring is designed at the QU level.</p>
+  <ExampleBox>
+    <strong>Why it matters:</strong> A project with 5,000 farmers cannot sample every field. Instead it samples a statistically representative subset of QUs within each stratum to estimate the whole. Sampling design determines accuracy and therefore uncertainty deductions.
+  </ExampleBox>
+  ### Sampling Design Principles
+  <p>VM0042 requires SOC sampling achieve a 90% confidence interval within ±10% of the mean SOC stock change. To achieve this:</p>
+  <ul class="list-disc pl-6 space-y-2">
+    <li><strong>Minimum plots per stratum:</strong> Statistical formulas based on pilot variance determine plot count</li>
+    <li><strong>Stratified random sampling:</strong> Fields divided into strata; random plots chosen within each</li>
+    <li><strong>Permanent vs. temporary plots:</strong> Permanent plots track change at the same location (preferred for Approach 2)</li>
+    <li><strong>Composite samples:</strong> Multiple cores per plot composited to reduce lab cost</li>
+  </ul>
+  ### Real Example: Zambia Cooperative Monitoring Plan
+  <ExampleBox>
+    <strong>Scenario:</strong> 3,200 smallholders in Zambia switching to conservation agriculture. Project uses Approach 2 (Measure and Re-Measure).<br/><br/>
+    <strong>Monitoring Plan Summary:</strong>
+    <ul class="list-disc pl-5 mt-2 space-y-1">
+      <li>2 strata: Sandy soils (1,800 ha) and Clay-loam (1,400 ha)</li>
+      <li>Pilot CV: 35% sandy, 28% clay-loam</li>
+      <li>Required plots: 47 permanent in sandy stratum, 31 in clay-loam = 78 total</li>
+      <li>Sampling depth: 0-30 cm in 3 increments</li>
+      <li>Frequency: Every 5 years; activity data annually via mobile app</li>
+      <li>QA/QC: 10% re-sampling by independent technician; accredited lab required</li>
+    </ul>
+  </ExampleBox>
+  ### QA/QC Requirements
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+      #### Field QC
+      <ul class="text-sm space-y-1 text-blue-700">
+        <li>• GPS coordinates for every plot</li>
+        <li>• Sampling depth documented</li>
+        <li>• Chain-of-custody forms for samples</li>
+        <li>• Duplicate samples for 10% of plots</li>
+      </ul>
+    </div>
+    <div class="bg-green-50 p-4 rounded-lg border border-green-200">
+      #### Lab QC
+      <ul class="text-sm space-y-1 text-green-700">
+        <li>• ISO 17025 accredited laboratory</li>
+        <li>• Certified reference standards each batch</li>
+        <li>• Blind duplicate analysis (5% of samples)</li>
+        <li>• Results reviewed for outliers</li>
+      </ul>
+    </div>
+  </div>
+  <HighlightBox>
+    #### Key Takeaways, Lesson 5.1
+    <ul class="space-y-1">
+      <li>✓ Monitoring covers activity data (what farmers did) and SOC stocks (what soil stores)</li>
+      <li>✓ Sampling targets ±10% precision at 90% confidence</li>
+      <li>✓ QA/QC is mandatory, field, lab, and data management protocols all required</li>
+      <li>✓ Monitoring events and verification events are distinct but linked</li>
+    </ul>
+  </HighlightBox>
+</div>
+
+<KeyTakeaways items="Monitoring covers two domains: activity data (what farmers actually did) and SOC stock changes (what the soil stores) ;; SOC sampling must achieve 90% confidence within plus or minus 10% of the mean SOC stock change ;; QA/QC is mandatory at both field level (GPS, chain-of-custody, 10% duplicate samples) and lab level (ISO 17025 accreditation, blind duplicates) ;; Activity data must be collected annually (fertilizer rates, tillage dates, crop planted) while SOC is measured per monitoring event (typically every 5 years) ;; Monitoring is only valuable if it captures what actually happened - records from memory rather than actual measurement will be caught at verification" />

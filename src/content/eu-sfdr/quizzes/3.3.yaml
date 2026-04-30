@@ -1,0 +1,44 @@
+- question: "What does PAI Indicator 12 (Unadjusted Gender Pay Gap) measure, and why is it 'unadjusted'?"
+  options:
+    - "It measures the gap after controlling for role type, seniority, and experience; 'unadjusted' means no financial adjustments are made"
+    - "It measures the raw average pay difference between male and female employees without controlling for factors like role or seniority; 'unadjusted' means the raw gap before any explanatory analysis"
+    - "It measures only the pay gap at board director level"
+    - "It is adjusted for inflation but not for sector differences"
+  answer: 1
+  explanation: "The 'unadjusted' gender pay gap is the raw difference between average male and female pay across the workforce, without controlling for role type, seniority, or hours worked. It is a blunter but more widely available metric than the 'adjusted' gap (which controls for role differences). The unadjusted figure tends to be larger, as it captures both within-role pay differences and differences in role distribution between genders."
+
+- question: "Which international norm violations are captured by Indicator 10 (UNGC/OECD Violations)?"
+  options:
+    - "Violations of EU state aid rules"
+    - "Violations of the UN Global Compact's ten principles (human rights, labour, environment, anti-corruption) and the OECD Guidelines for Multinational Enterprises"
+    - "Violations of national tax regulations in any jurisdiction"
+    - "Violations of the EU Taxonomy minimum social safeguards"
+  answer: 1
+  explanation: "Indicator 10 captures companies involved in violations of the UN Global Compact's ten principles (covering human rights, labour standards, environmental responsibility, and anti-corruption) and the OECD Guidelines for Multinational Enterprises. These are assessed through controversy monitoring services that track regulatory findings, legal proceedings, and news-based signals."
+
+- question: "Why are Indicators 10 and 11 considered complementary rather than duplicative?"
+  options:
+    - "Indicator 10 covers environmental violations; Indicator 11 covers social violations"
+    - "Indicator 10 measures actual current violations (outcomes); Indicator 11 measures the absence of compliance mechanisms (inputs/processes) — a company can score on Indicator 11 without yet appearing in Indicator 10"
+    - "Indicator 10 applies to large companies; Indicator 11 to small companies"
+    - "Indicator 11 is voluntary; Indicator 10 is mandatory only for Article 9 products"
+  answer: 1
+  explanation: "Indicators 10 and 11 work together to provide complementary views: Indicator 10 captures companies currently found to be in violation of UNGC/OECD norms (outcome measure). Indicator 11 captures companies that lack the internal processes and mechanisms to monitor their compliance — a governance/process risk measure. A company with no current violations but no compliance infrastructure still scores on Indicator 11."
+
+- question: "Indicator 13 (Board Gender Diversity) measures the ratio of female board members to total board members across investee companies. What is this expressed as?"
+  options:
+    - "An absolute number of female directors across the portfolio"
+    - "A percentage representing the proportion of female board members, weighted by portfolio allocation"
+    - "The number of companies with gender-balanced boards (above 40% female)"
+    - "A score from 1 to 10 based on gender diversity policies"
+  answer: 1
+  explanation: "Indicator 11 is expressed as a percentage — the weighted average ratio of female board members to total board members across investee companies, with each company weighted by its portfolio allocation. An increasing percentage over time indicates the portfolio is shifting toward companies with better board gender diversity."
+
+- question: "Table 4 Mandatory Indicator 2 for sovereign issuers assesses exposure to countries subject to EU sanctions or violations of which international standards?"
+  options:
+    - "The Paris Agreement and UNFCCC national climate commitments"
+    - "Internationally recognised human rights and labour standards, including ILO Conventions, the Universal Declaration of Human Rights, and anti-corruption conventions"
+    - "The UN Sustainable Development Goals and associated national action plans"
+    - "EU Taxonomy minimum social safeguards"
+  answer: 1
+  explanation: "Table 4 Mandatory Indicator 2 measures the percentage of investments in sovereign issuers of countries subject to EU sanctions, or countries that have violated their obligations under internationally recognised instruments on labour rights (ILO Conventions), human rights (Universal Declaration of Human Rights), and anti-corruption conventions (UNCAC)."

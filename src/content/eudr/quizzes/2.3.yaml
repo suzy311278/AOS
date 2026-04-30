@@ -1,0 +1,26 @@
+- question: "When must an operator submit a due diligence statement through the EUDR Information System?"
+  options:
+    - "Within 30 days after placing a relevant product on the EU market"
+    - "Once per year as part of the annual due diligence report"
+    - "Before each placement of a relevant product on the EU market or each export"
+    - "Only for shipments above a certain volume threshold"
+  answer: 2
+  explanation: "Under Article 4 of the EUDR, operators must submit a due diligence statement before each placement of a relevant product on the EU market or each export from the EU. The statement must be submitted in advance, not retroactively, and it is linked to the customs clearance process: a shipment cannot clear EU customs without a verified due diligence statement reference number."
+
+- question: "What must an SME trader do with the due diligence statement reference number it receives from its supplier?"
+  options:
+    - "Submit it to the EUDR Information System to generate its own due diligence statement"
+    - "Collect and keep it for at least 5 years and be able to demonstrate traceability to the original statement"
+    - "Forward it to the competent authority in its Member State within 10 working days"
+    - "Nothing, because SME traders are exempt from all EUDR record-keeping requirements"
+  answer: 1
+  explanation: "SME traders must collect and keep the due diligence statement reference numbers provided by their suppliers for at least 5 years and maintain information about the products they supply to enable traceability back to the original operator's due diligence statement. They do not need to submit their own due diligence statements through the EUDR IS, which is the key simplification of the SME trader regime compared to non-SME traders."
+
+- question: "How does the EUDR Information System interface with EU customs to enforce compliance?"
+  options:
+    - "Customs authorities manually inspect all shipments of relevant commodities at EU borders"
+    - "Customs declarations must reference a valid due diligence statement number in the EUDR IS, which customs systems verify before clearing shipments"
+    - "The EUDR IS automatically notifies customs when a non-compliant shipment is detected in international waters"
+    - "Customs and the EUDR IS are separate systems with no direct integration"
+  answer: 1
+  explanation: "The EUDR IS interfaces with EU customs IT systems (the Single Window environment) so that customs declarations for relevant products must reference a valid due diligence statement number. Customs authorities can verify the existence and validity of the referenced statement in the EUDR IS before clearing the shipment. This integration makes compliance verification a practical gate at the point of EU market entry."

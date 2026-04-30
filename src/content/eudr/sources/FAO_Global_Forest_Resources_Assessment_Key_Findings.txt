@@ -1,0 +1,278 @@
+FAO GLOBAL FOREST RESOURCES ASSESSMENT - KEY FINDINGS AND STATISTICS
+Sources:
+  1. FAO Global Forest Resources Assessment 2020 (FRA 2020) - fao.org/forest-resources-assessment
+  2. FAO State of the World's Forests 2020 - fao.org/state-of-forests
+  3. FAO FRA 2020 Remote Sensing Survey (FAO Forestry Paper No. 186, 2022)
+     DOI: https://doi.org/10.4060/cb9970en
+     ISBN: 978-92-5-136147-4; 92 pages; FAO, Rome
+  4. FAO Forest Resources Assessment 2025 (latest) - fao.org/forest-resources-assessment/2025
+Accessed: March 2026
+
+================================================================
+GLOBAL FOREST OVERVIEW: KEY STATISTICS
+================================================================
+
+TOTAL GLOBAL FOREST AREA:
+- 4.06 billion hectares of forest globally (State of the World's Forests 2020)
+- Forests cover approximately 31% of the world's total land area
+- This equates to roughly 0.52 hectares of forest per person globally
+- Roughly half of global forest area remains relatively intact
+- Over one-third of global forest area is classified as primary forest
+
+FOREST DISTRIBUTION BY COUNTRY:
+Five countries hold more than half the world's forests:
+1. Russian Federation
+2. Brazil
+3. Canada
+4. United States of America
+5. China
+The top ten countries account for approximately two-thirds of all global forests.
+
+FOREST TYPES:
+- Tropical forests: Largest biome; predominantly in Latin America, Central Africa, Southeast Asia
+- Boreal forests: Vast northern forests in Russia, Canada, Scandinavia
+- Temperate forests: North America, Europe, East Asia
+- Subtropical/Mediterranean forests: Smaller area; high biodiversity
+- Mangrove forests: Coastal ecosystems critical for carbon storage and coastal protection
+- Primary (old-growth) forests: 1.11 billion hectares; irreplaceable biodiversity reservoirs
+
+================================================================
+DEFORESTATION TRENDS AND RATES
+================================================================
+
+HISTORICAL DEFORESTATION (1990-2020):
+- 420 million hectares of forest lost since 1990 through conversion to other land uses
+- Equivalent to losing an area the size of the European Union since 1990
+
+DEFORESTATION RATE BY DECADE:
+- 1990s rate: Approximately 16 million hectares lost per year
+- 2000s rate: Approximately 10 million hectares lost per year
+- 2010s rate: Approximately 10 million hectares lost per year (2015-2020: officially 10 million ha/yr)
+- 2020s rate: Varying; 2024 saw a record high of 30 million hectares of tree cover loss globally
+
+RATE OF IMPROVEMENT (NET):
+- Deforestation rate slowed over 30 years: from 16 million ha/yr to 10 million ha/yr
+- However, 10 million ha/yr of loss is still extremely high by any absolute measure
+- Net forest area change is partially offset by forest growth and planting in some regions
+- Net loss: Approximately 4.7 million hectares per year in 2015-2020 (after accounting for gains)
+
+PRIMARY FOREST LOSS:
+- Over 80 million hectares of primary forest lost since 1990
+- Primary forests are irreplaceable; once lost, they cannot be restored to original condition
+  within human timescales
+
+================================================================
+MAIN DRIVERS OF DEFORESTATION
+================================================================
+
+AGRICULTURAL EXPANSION (DOMINANT DRIVER):
+- Large-scale commercial agriculture: 40% of tropical deforestation (2000-2010)
+- Local subsistence farming: 33% of tropical deforestation
+- Combined agricultural expansion: approximately 73% of all tropical deforestation
+
+SPECIFIC COMMODITY DRIVERS:
+- Cattle ranching: Primary driver in Latin America, particularly Brazilian Amazon and Cerrado
+- Soybean cultivation: Major driver in South American cerrado and Amazon frontier
+- Palm oil: Primary driver of forest loss in Indonesia, Malaysia, and parts of Africa
+- Cocoa: Primary driver of forest loss in West Africa (Cote d'Ivoire, Ghana)
+- Coffee: Growing concern in Ethiopia, Uganda, and other East African highland forests
+- Timber/logging: Enables agricultural access through road building; direct forest loss
+- Rubber: Historically replaced natural forests in Southeast Asia
+
+OTHER DRIVERS:
+- Infrastructure development (roads, dams, mines)
+- Urbanization
+- Fire (natural and human-induced; increasingly linked to climate change)
+- Overgrazing
+
+================================================================
+REGIONAL BREAKDOWN OF FOREST TRENDS
+================================================================
+
+AFRICA:
+- Second-highest deforestation rate globally after South America
+- Democratic Republic of Congo has the world's second-largest tropical rainforest
+- Shifting cultivation and charcoal production are key drivers in Central Africa
+- West Africa has lost the majority of its original forest cover; remnant forests under pressure
+
+SOUTH AMERICA:
+- Largest absolute area of tropical forest loss
+- Amazon basin: World's largest remaining tropical rainforest
+- Brazilian Amazon: Experienced high deforestation 2017-2020 (policy rollbacks)
+- Cerrado (Brazilian savanna): Lost over 50% of native vegetation; high biodiversity
+
+SOUTHEAST ASIA:
+- High deforestation rates relative to forest area
+- Indonesia and Malaysia: Palm oil and pulpwood plantations primary drivers
+- Peatland destruction: Releases extremely high carbon per hectare
+- Progress: Indonesia significantly reduced deforestation 2017-2024 through policy measures
+
+EUROPE:
+- Forest area is increasing in Europe (driven by afforestation and natural expansion)
+- Forest quality concerns: Some primary forests in Eastern Europe under threat
+- EU domestic forests protected; EUDR concerns international supply chain impacts
+
+NORTH AMERICA:
+- Relatively stable forest area but fire risk increasing dramatically
+- Canada: Boreal forest faces increasing wildfire pressure
+- Certification systems (FSC, SFI) widely adopted
+
+================================================================
+FORESTS AND BIODIVERSITY
+================================================================
+
+SPECIES RICHNESS IN FORESTS:
+- Approximately 60,082 tree species documented globally
+  - 45% belong to only ten plant families
+  - 58% are single-country endemics (found nowhere else on Earth)
+- Forests host an estimated 80% of the world's terrestrial biodiversity
+- Tropical forests: 50%+ of all terrestrial species despite covering 10% of land area
+
+VASCULAR PLANTS:
+- Approximately 391,000 vascular plant species known
+- 21% threatened with extinction; habitat loss is primary threat
+- Forest clearing is the leading cause of plant species extinction
+
+FUNGAL DIVERSITY:
+- 144,000 named fungal species; estimated 2.2-3.8 million total species
+- Mycorrhizal fungi essential for tree health; threatened by forest disturbance
+
+VERTEBRATE DIVERSITY IN FORESTS:
+- Approximately 70,000 vertebrate species globally
+- Large proportion are forest-dependent
+- Forest fragmentation isolates populations and reduces genetic diversity
+
+PROTECTED FOREST AREAS:
+- 18% of global forest area (700+ million hectares) in protected areas
+- Regional variation: 31% in South America; 5% in Europe
+- This exceeds the 17% Aichi Biodiversity Target for forests
+- However, many protected forests are inadequately managed or enforced
+
+================================================================
+FORESTS AND HUMAN LIVELIHOODS
+================================================================
+
+EMPLOYMENT AND LIVELIHOODS:
+- Over 86 million people work in formal forest-related jobs globally
+- Approximately 880 million people collect fuelwood for cooking and heating
+- Over 90% of people living in extreme poverty rely on forests for their livelihoods
+- Indigenous peoples: An estimated 300-500 million people live in or depend directly on forests
+
+FOOD SECURITY:
+- Forests contribute to food security through timber, wild meat, fruits, nuts, and medicines
+- Pollinators from forests support agricultural production in surrounding areas
+- Water regulation by forests supports downstream agriculture
+
+INDIGENOUS PEOPLES AND FORESTS:
+- Indigenous peoples' territories cover approximately 22% of the world's land surface
+- These lands hold approximately 80% of the world's remaining biodiversity
+- Indigenous-managed territories often have lower deforestation rates than national parks
+- Free, prior and informed consent (FPIC) is a critical principle recognized in the EUDR
+
+================================================================
+FOREST ECOSYSTEM SERVICES AND CLIMATE
+================================================================
+
+CARBON STORAGE:
+- Forests store an estimated 662 billion tonnes of carbon globally (biomass and soil)
+- Tropical forests: Approximately 471 Gt C stored
+- Boreal forests: Approximately 272 Gt C stored (much in permafrost soil)
+
+CARBON FLUX:
+- Intact forests absorb approximately 2.6 Gt CO2 per year from the atmosphere
+- Degraded and deforested areas release 4.8 Gt CO2 per year
+- Net: Tropical forests may have become a small net carbon source due to degradation
+
+WATER CYCLE REGULATION:
+- Forests transpire enormous quantities of water, creating "flying rivers" that deliver
+  rainfall to distant regions
+- Amazon forests generate approximately 20 billion tonnes of water vapor per day
+- Loss of Amazon forest could reduce rainfall by 20% in major agricultural regions of
+  South America including soy and coffee production areas
+
+EUDR RELEVANCE OF FOREST ECOSYSTEM SERVICES:
+The EUDR's protection of forests thus protects not only carbon and biodiversity but also
+the water and soil stability on which future agricultural production depends.
+
+================================================================
+FAO FOREST RESOURCES ASSESSMENT 2020: REMOTE SENSING SURVEY
+================================================================
+
+Publication: FAO Forestry Paper No. 186, 2022
+DOI: https://doi.org/10.4060/cb9970en
+Coverage: Global; comparing land use dynamics for years 2000, 2010, and 2018
+
+METHODOLOGY:
+- The most comprehensive global land use monitoring exercise ever conducted
+- 800+ local experts from 126 countries and territories participated
+- Approximately 400,000 sample points collected between 2019 and 2020
+- Physical and virtual workshops (34 total) trained national experts
+
+KEY DISTINCTIONS MADE:
+The survey differentiates between:
+- Deforestation: Permanent loss of forest to other land use
+- Forest degradation: Loss of forest quality without full conversion
+- Forest disturbance: Temporary loss (from fire, storms) with recovery expected
+- Afforestation/reforestation: Gain of forest on previously non-forested land
+
+This distinction is critical for EUDR compliance, which covers both deforestation
+AND forest degradation (when relevant to wood products).
+
+GLOBAL LAND USE DYNAMICS (2000-2018):
+- Deforestation rates were highest in tropical South America and Central Africa
+- Some regions showed forest recovery; net loss continued globally
+- Plantation forests expanded but did not compensate for natural forest loss
+- Primary forests continued to decline in all tropical regions
+
+================================================================
+FAO GLOBAL FOREST RESOURCES ASSESSMENT 2025 (LATEST)
+================================================================
+
+Coverage: 194 countries and areas; official national data submissions
+SDG Indicators supported:
+- SDG 15.1.1: Forest area as a proportion of total land area
+- SDG 15.2.1: Progress toward sustainable forest management
+- SDG 15.4.2: Mountain Green Cover Index
+
+The FRA 2025 is described as "the only worldwide assessment based on official national data"
+and "the most authoritative global source of data for policymakers, foresters, and researchers."
+
+Available resources:
+- Interactive digital report and data platform
+- Country-specific reports for all 194 reporting countries
+- API access to forest data
+- Remote sensing survey data
+
+================================================================
+IMPLICATIONS FOR EUDR COMPLIANCE
+================================================================
+
+THE BASELINE PROBLEM:
+The EUDR's cut-off date of 31 December 2020 requires operators to prove that land was NOT
+deforested after that date. However:
+- Reliable land use data for all production areas globally is not uniformly available
+- Small-scale deforestation may not be captured in national statistics
+- Some countries lack robust forest monitoring systems
+
+HOW FAO DATA HELPS:
+- FAO FRA provides country-level deforestation rate data usable in risk assessment
+- Countries with high FAO-documented deforestation rates are more likely to be classified
+  as high-risk under EUDR's benchmarking system
+- FAO data supports EU Observatory's risk maps and country profiles
+
+GAPS AND CHALLENGES:
+- FAO data is reported at national level; sub-national variation can be significant
+- National reporting quality varies; some countries have limited monitoring capacity
+- The EUDR's plot-level geolocation requirement goes beyond what national-level data provides
+- Remote sensing (satellite imagery) is essential to complement FAO statistics for plot-level
+  compliance verification
+
+SOURCE DOCUMENTS BIBLIOGRAPHY:
+1. FAO (2020). Global Forest Resources Assessment 2020: Main Report. Rome.
+   https://doi.org/10.4060/ca9825en
+2. FAO (2020). The State of the World's Forests 2020 — Forests, biodiversity and people.
+   Rome. https://doi.org/10.4060/ca8642en
+3. FAO (2022). FRA 2020 Remote Sensing Survey. FAO Forestry Paper No. 186. Rome.
+   https://doi.org/10.4060/cb9970en
+4. FAO (2025). Global Forest Resources Assessment 2025.
+   https://www.fao.org/forest-resources-assessment/en/

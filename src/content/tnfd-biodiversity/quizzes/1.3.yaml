@@ -1,0 +1,26 @@
+- question: "What does the acronym LEAP stand for in the TNFD context?"
+  options:
+  - "Locate, Explore, Analyse, Publish"
+  - "Land, Ecosystems, Assets, Priorities"
+  - "Locate, Evaluate, Assess, Prepare"
+  - "List, Evaluate, Assign, Plan"
+  answer: 2
+  explanation: "LEAP stands for Locate, Evaluate, Assess, Prepare. These four phases provide a structured sequence for nature-related assessment: Locate establishes where the organisation interfaces with nature, Evaluate analyses dependencies and impacts at priority locations, Assess translates this into financial risks and opportunities, and Prepare develops response strategies and disclosure content."
+
+- question: "In the LEAP Approach, what is the primary analytical output of the Locate phase?"
+  options:
+  - "A set of science-based targets for reducing biodiversity impact"
+  - "A geographic inventory of the organisation's nature-related interfaces, ranked by ecological sensitivity and business significance"
+  - "A financial valuation of all ecosystem services used by the organisation"
+  - "A list of regulatory requirements applicable to the organisation's sector"
+  answer: 1
+  explanation: "The Locate phase produces a geographic inventory of where the organisation interacts with nature (in direct operations and supply chains), prioritised by ecological sensitivity. It identifies 'priority locations' (Key Biodiversity Areas, Ramsar wetlands, protected areas, Indigenous lands) for deeper assessment in the Evaluate phase. This geographic prioritisation is what makes LEAP efficient: organisations do not need to assess all locations with equal depth, only those where nature-related risk is most plausible."
+
+- question: "TNFD categorises nature-related risks into three types. Which of the following correctly identifies all three?"
+  options:
+  - "Environmental risks, social risks, and governance risks"
+  - "Acute risks, chronic risks, and liability risks"
+  - "Physical risks, transition risks, and systemic risks"
+  - "Supply chain risks, operational risks, and reputational risks"
+  answer: 2
+  explanation: "TNFD categorises nature-related risks into physical risks (arising from ecosystem degradation that impairs services the organisation depends on), transition risks (arising from policy, regulatory, market, or technology responses to nature loss), and systemic risks (arising from the potential for nature-related issues to cascade through financial systems and the broader economy). This three-part typology provides the analytical structure for the Assess phase of LEAP."

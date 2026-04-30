@@ -1,0 +1,274 @@
+# Source: https://sustainability-academy.org
+
+Σεβόμαστε την ιδιωτικότητά σας
+Χρησιμοποιούμε cookies για να βελτιώσουμε την εμπειρία περιήγησής σας, να προβάλλουμε εξατομικευμένες διαφημίσεις ή περιεχόμενο και να αναλύουμε την επισκεψιμότητά μας. Κάνοντας κλικ στην επιλογή «Αποδοχή Όλων», συναινείτε στη χρήση των cookies από εμάς.
+Προσαρμογή Απόρριψη όλων Αποδοχή όλων
+Προσαρμογή Προτιμήσεων Συναίνεσης ![Close](http://sustainability-academy.org/wp-content/plugins/cookie-law-info/lite/frontend/images/close.svg)
+Χρησιμοποιούμε cookies για να σας βοηθήσουμε να πλοηγηθείτε αποτελεσματικά και να εκτελέσετε ορισμένες ενέργειες. Θα βρείτε λεπτομερείς πληροφορίες σχετικά με όλα τα cookies κάτω από κάθε κατηγορία συναίνεσης παρακάτω.
+Τα cookies που κατηγοριοποιούνται ως «Απαραίτητα» αποθηκεύονται στο πρόγραμμα περιήγησής σας, καθώς είναι αναγκαία για την ενεργοποίηση των βασικών λειτουργιών του ιστότοπου.... Εμφάνιση περισσότερων
+απαραίτηταΠάντα Ενεργά
+Τα απαραίτητα cookies είναι ζωτικής σημασίας για τις βασικές λειτουργίες του ιστότοπου, ο οποίος δεν θα λειτουργεί με τον προβλεπόμενο τρόπο χωρίς αυτά.Τα cookies αυτά δεν αποθηκεύουν δεδομένα προσωπικής ταυτοποίησης.
+Δεν υπάρχουν cookies για εμφάνιση.
+Λειτουργικό
+Τα λειτουργικά cookies βοηθούν στην εκτέλεση ορισμένων λειτουργιών, όπως η κοινή χρήση του περιεχομένου του ιστότοπου σε πλατφόρμες κοινωνικών μέσων, η συλλογή σχολίων και άλλες λειτουργίες τρίτων.
+Δεν υπάρχουν cookies για εμφάνιση.
+Αναλυτικά στοιχεία
+Τα αναλυτικά cookies χρησιμοποιούνται για να κατανοήσουμε πώς αλληλεπιδρούν οι επισκέπτες με τον ιστότοπο. Αυτά τα cookies παρέχουν πληροφορίες σχετικά με μετρήσεις, όπως ο αριθμός των επισκεπτών, το ποσοστό εγκατάλειψης, η πηγή επισκεψιμότητας κ.λπ.
+Δεν υπάρχουν cookies για εμφάνιση.
+Απόδοσης
+Τα cookies απόδοσης χρησιμοποιούνται για την κατανόηση και την ανάλυση των βασικών δεικτών απόδοσης του ιστότοπου, οι οποίοι βοηθούν στην παροχή μιας καλύτερης εμπειρίας χρήστη για τους επισκέπτες.
+Δεν υπάρχουν cookies για εμφάνιση.
+Διαφήμιση
+Τα cookies διαφήμισης χρησιμοποιούνται για να δώσουν στους επισκέπτες προσαρμοσμένες διαφημίσεις βάσει των σελίδων που έχουν επισκεφτεί και να αναλύσουν την αποτελεσματικότητα της διαφημιστικής καμπάνιας.
+Δεν υπάρχουν cookies για εμφάνιση.
+Απόρριψη όλων  Αποθήκευση προτιμήσεων  Αποδοχή όλων 
+Upgrade your ESG and sustainability skills faster. Enroll in any course and receive 40% off your second certified course.
+[Skip to content](https://sustainability-academy.org/#primary)
+![close icon](https://sustainability-academy.org/wp-content/uploads/2023/01/close-icon.svg)
+![Sustainability Logo](https://sustainability-academy.org/wp-content/uploads/2023/01/logo-white.svg)
+  * [About Us](https://sustainability-academy.org/)![](https://sustainability-academy.org/wp-content/uploads/2023/01/arrow-down-orange.svg)
+    * [About Us | Sustainability Academy – Certified ESG Courses](https://sustainability-academy.org/about-us/)
+    * [Media Partners](https://sustainability-academy.org/media-partners/)
+  * [Certified Online Courses](https://sustainability-academy.org/)![](https://sustainability-academy.org/wp-content/uploads/2023/01/arrow-down-orange.svg)
+    * [Certified Online Sustainability (ESG) Courses](https://sustainability-academy.org/certified-esg-courses/)
+    * [Customize your Course](https://sustainability-academy.org/customize-your-course/)
+    * [Refer & Win](https://sustainability-academy.org/refer-and-win/)
+    * [FAQ](https://sustainability-academy.org/faq/)
+  * [Sustainability (ESG) Group Courses](https://sustainability-academy.org/esg-group-courses/)![](https://sustainability-academy.org/wp-content/uploads/2023/01/arrow-down-orange.svg)
+    * [Group Sustainability Training Discounts](https://sustainability-academy.org/group-sustainability-training-discounts/)
+  * [Testimonials](https://sustainability-academy.org/testimonies/)
+  * [Become a Certified  
+Sustainability Consultant](https://sustainability-academy.org/become-a-certified-sustainability-consultant/)
+  * [Become Recognized ESG Employer](https://sustainability-academy.org/recognized-sustainable-employer-invest-in-workforce/)
+  * [Blog](https://sustainability-academy.org/blog/)
+  * [Contact Us](https://sustainability-academy.org/contact-us/)
+
+
+© 2026 Sustainability Academy. All Rights Reserved
+![Hamburger Icon](https://sustainability-academy.org/wp-content/uploads/2023/01/hamburger-icon.svg)
+[ ![Sustainability Academy Logo](https://sustainability-academy.org/wp-content/uploads/2023/01/sustainability-academy-log.png) ](https://sustainability-academy.org/)
+[Become a Certified Sustainability Consultant](https://sustainability-academy.org/become-a-certified-sustainability-consultant/) [My Courses](https://cse.sustainability-academy.org/index)
+[ ![Cart Icon](https://sustainability-academy.org/wp-content/uploads/2023/01/cart-icon.svg) ](https://sustainability-academy.org/cart/)
+![Hamburger Icon](https://sustainability-academy.org/wp-content/uploads/2023/01/hamburger-icon.svg)
+  * [Certified Online Courses](https://sustainability-academy.org/)
+    * [Certified Online Sustainability (ESG) Courses](https://sustainability-academy.org/certified-esg-courses/)
+    * [Customize your Course](https://sustainability-academy.org/customize-your-course/)
+    * [Refer & Win](https://sustainability-academy.org/refer-and-win/)
+    * [FAQ](https://sustainability-academy.org/faq/)
+![](https://sustainability-academy.org/wp-content/uploads/2023/01/arrow-down-blue.svg)
+  * [Sustainability (ESG) Group Courses](https://sustainability-academy.org/esg-group-courses/)
+    * [Group Sustainability Training Discounts](https://sustainability-academy.org/group-sustainability-training-discounts/)
+![](https://sustainability-academy.org/wp-content/uploads/2023/01/arrow-down-blue.svg)
+  * [Testimonials](https://sustainability-academy.org/testimonies/)
+  * [Blog](https://sustainability-academy.org/blog/)
+  * [![fr_FR](https://sustainability-academy.org/wp-content/plugins/translatepress-multilingual/assets/images/flags/fr_FR.png)](https://sustainability-academy.org/fr/)
+  * [![es_ES](https://sustainability-academy.org/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_ES.png)](https://sustainability-academy.org/es/)
+  * [![en_US](https://sustainability-academy.org/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png)](https://sustainability-academy.org/)
+
+
+![search-close](https://sustainability-academy.org/wp-content/uploads/2023/01/search-icon.svg)
+# How to benefit from our**Group Courses**
+educate your team as group to upgrade your company’s performance and drive success
+[View All Courses](https://sustainability-academy.org/certified-courses/) [View All Testimonies](https://sustainability-academy.org/testimonies/)
+# How to become a **Qualified Sustainability expert**
+explore the best Certified online courses for a sustainability career
+[View All Courses](https://sustainability-academy.org/certified-courses/) [View All Testimonies](https://sustainability-academy.org/testimonies/)
+# How to become Recognized as a **Sustainable Employer**
+Learn how your organization can be recognized while educating your C-Suite Executives, Managers and Staff
+[View All Courses](https://sustainability-academy.org/certified-courses/) [View All Testimonies](https://sustainability-academy.org/testimonies/)
+# How to benefit from our**Group Courses**
+educate your team as group to upgrade your company’s performance and drive success
+[View All Courses](https://sustainability-academy.org/certified-courses/) [View All Testimonies](https://sustainability-academy.org/testimonies/)
+# How to become a **Qualified Sustainability expert**
+explore the best Certified online courses for a sustainability career
+[View All Courses](https://sustainability-academy.org/certified-courses/) [View All Testimonies](https://sustainability-academy.org/testimonies/)
+# How to become Recognized as a **Sustainable Employer**
+Learn how your organization can be recognized while educating your C-Suite Executives, Managers and Staff
+[View All Courses](https://sustainability-academy.org/certified-courses/) [View All Testimonies](https://sustainability-academy.org/testimonies/)
+# How to benefit from our**Group Courses**
+educate your team as group to upgrade your company’s performance and drive success
+[View All Courses](https://sustainability-academy.org/certified-courses/) [View All Testimonies](https://sustainability-academy.org/testimonies/)
+# The Best Certified Online Courses for a Sustainability Career
+### Our **Clients**
+![](https://sustainability-academy.org/wp-content/uploads/2023/01/Previous.png)
+![HSBC Logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-3-1-1.png)
+![gm logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-2-1-2.png)
+![airfrance logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-4-1-1.png)
+![European investment bank logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-6-1-1.png)
+![netgear logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-5-1-1.png)
+![Accenture logo](https://sustainability-academy.org/wp-content/uploads/2023/03/Accenture-logo-n.png)
+![us forest service](https://sustainability-academy.org/wp-content/uploads/2023/03/Logo_of_the_United_States_Forest_Service.svg-n.png)
+![HSBC Logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-3-1-1.png)
+![gm logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-2-1-2.png)
+![airfrance logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-4-1-1.png)
+![European investment bank logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-6-1-1.png)
+![netgear logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-5-1-1.png)
+![Accenture logo](https://sustainability-academy.org/wp-content/uploads/2023/03/Accenture-logo-n.png)
+![us forest service](https://sustainability-academy.org/wp-content/uploads/2023/03/Logo_of_the_United_States_Forest_Service.svg-n.png)
+![HSBC Logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-3-1-1.png)
+![gm logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-2-1-2.png)
+![airfrance logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-4-1-1.png)
+![European investment bank logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-6-1-1.png)
+![netgear logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-5-1-1.png)
+![Accenture logo](https://sustainability-academy.org/wp-content/uploads/2023/03/Accenture-logo-n.png)
+![](https://sustainability-academy.org/wp-content/uploads/2023/01/Next.png)
+###  **Featured** Course
+Diploma on Corporate Sustainability: Foundation Course 'The philosophy of this online diploma is to provide you with a step-by-step introduction to corporate sustainability, sustainable development and circular economy and offer unique knowledge in a simple and practical way. 
+[Learn More](https://sustainability-academy.org/product/diploma-on-corporate-sustainability-foundation-course/)
+[](https://sustainability-academy.org/product/diploma-on-corporate-sustainability-foundation-course/)
+## Diploma on Corporate Sustainability: Foundation Course
+4.6 (1815 ratings)
+![timer icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours
+Assesment: Yes  | Certification: Yes 
+[Add to Cart![add to cart icon](https://sustainability-academy.org/wp-content/uploads/2023/01/bag-1.svg)](https://sustainability-academy.org/product/diploma-on-corporate-sustainability-foundation-course/)
+###  **Certified** Online Courses
+  * All
+  * Best Sellers
+  * New Edition
+
+
+  * [ Get 40% OFF Your 2nd Course  ![Online Certificate on Sustainability \(ESG\) Reporting](https://sustainability-academy.org/wp-content/uploads/2023/01/Foundation-Included.png) Online Diploma on Corporate Sustainability: Foundation Course Build your sustainability expertise with key insights on ESG principles, stakeholder engagement, and reporting frameworks. Self-paced Recorded 4.8 (4012 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/diploma-on-corporate-sustainability-foundation-course/)[Add to cart](https://sustainability-academy.org/?add-to-cart=58)
+  * [ Get 40% OFF Your 2nd Course  ![Online Certificate on Sustainability \(ESG\) Reporting](https://sustainability-academy.org/wp-content/uploads/2023/01/ESRS-CSRD-Standards-Included-3.png) Online Certificate on Sustainability (ESG) Reporting The CPD-accredited course provides professionals with the tools and frameworks needed to master ESG reporting and sustainability disclosure based on global standards. Self-paced Recorded 4.9 (2219 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/online-certificate-on-sustainability-esg-reporting/)[Add to cart](https://sustainability-academy.org/?add-to-cart=80)
+  * [ World Wildlife Day || 20% OFF until March 10  ![Online Certificate on Carbon Reduction and Net Zero Strategies](https://sustainability-academy.org/wp-content/uploads/2023/01/t00gauja-1.png) Online Certificate on Carbon Reduction and Net Zero Strategies Gain practical skills to design and implement effective carbon reduction strategies aligned with international standards. Self-paced Recorded 4.7 (862 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/online-certificate-on-carbon-reduction-strategy/)[Add to cart](https://sustainability-academy.org/?add-to-cart=72)
+  * [ Get 40% OFF Your 2nd Course  ![AI for Business Professionals \(AIBIZ™\)](https://sustainability-academy.org/wp-content/uploads/2025/07/AI-for-Business-Professionals-AIBIZ%E2%84%A2.png) AI for Business Professionals (AIBIZ™) – The role of AI in Sustainability Learn to apply AI tools and insights to drive practical sustainability outcomes through real ESG case studies. Self-paced Recorded 4.8 (172 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)18-20 Hours ](https://sustainability-academy.org/product/ai-for-business-aibiz/)[Add to cart](https://sustainability-academy.org/?add-to-cart=18312)
+  * [ Get 40% OFF Your 2nd Course  ![Online Certificate on Sustainability \(ESG\) Reporting](https://sustainability-academy.org/wp-content/uploads/2023/01/ESRS-CSRD-Standards-Included-2.png) Online Certificate on CSRD & ESRS Standards Master the essentials of the CSRD and ESRS, including structure, disclosures, and double materiality. Self-paced Recorded 4.5 (40 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/online-certificate-csrd-esrs/)[Add to cart](https://sustainability-academy.org/?add-to-cart=17408)
+  * [ Get 40% OFF Your 2nd Course  ![Advanced Course on IFRS S1 & S2 Sustainability Reporting Standards \(1\)](https://sustainability-academy.org/wp-content/uploads/2025/10/Advanced-Course-on-IFRS-S1-S2-Sustainability-Reporting-Standards-1.png) Advanced Course on IFRS S1 & S2 Sustainability Reporting Standards Advance your understanding of global sustainability disclosure with the Advanced Course on IFRS S1 & S2 Sustainability Reporting Standards. Self-paced Recorded 4.6 (22 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/advanced-course-on-ifrs-s1-s2-sustainability-reporting-standards/)[Add to cart](https://sustainability-academy.org/?add-to-cart=18659)
+  * [ Get 40% OFF Your 2nd Course  ![Renewable Energy Fundamentals](https://sustainability-academy.org/wp-content/uploads/2025/06/Renewable-Energy-Fundamentals.jpg) Online Certificate in Renewable Energy Fundamentals: Τhe Path to Net Zero This course is ideal for professionals looking to understand the principles of renewable energy, its role in achieving Net Zero targets. Self-paced Recorded 4.6 (18 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/online-certificate-in-renewable-energy-fundamentals-the-path-to-net-zero/)[Add to cart](https://sustainability-academy.org/?add-to-cart=18152)
+  * [ Get 40% OFF Your 2nd Course  ![Online Certificate on SASB & TCFD Reporting](https://sustainability-academy.org/wp-content/uploads/2023/01/ISSB-Standards-Included-1.png) Online Certificate on SASB & TCFD Reporting-Alignment with IFRS S1-S2 Learn to apply SASB Standards, TCFD recommendations, and IFRS S1 & S2 frameworks to strengthen sustainability and climate-related reporting. Self-paced Recorded 4.6 (1940 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/online-certificate-on-sasb-tcfd-reporting/)[Add to cart](https://sustainability-academy.org/?add-to-cart=78)
+
+
+  * [ Get 40% OFF Your 2nd Course  ![Online Certificate on Sustainability \(ESG\) Reporting](https://sustainability-academy.org/wp-content/uploads/2023/01/Foundation-Included.png) Online Diploma on Corporate Sustainability: Foundation Course Build your sustainability expertise with key insights on ESG principles, stakeholder engagement, and reporting frameworks. Self-paced Recorded 4.8 (4012 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/diploma-on-corporate-sustainability-foundation-course/)[Add to cart](https://sustainability-academy.org/?add-to-cart=58)
+  * [ World Wildlife Day || 20% OFF until March 10  ![Online Certificate on Carbon Reduction and Net Zero Strategies](https://sustainability-academy.org/wp-content/uploads/2023/01/t00gauja-1.png) Online Certificate on Carbon Reduction and Net Zero Strategies Gain practical skills to design and implement effective carbon reduction strategies aligned with international standards. Self-paced Recorded 4.7 (862 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/online-certificate-on-carbon-reduction-strategy/)[Add to cart](https://sustainability-academy.org/?add-to-cart=72)
+  * [ Get 40% OFF Your 2nd Course  ![AI for Business Professionals \(AIBIZ™\)](https://sustainability-academy.org/wp-content/uploads/2025/07/AI-for-Business-Professionals-AIBIZ%E2%84%A2.png) AI for Business Professionals (AIBIZ™) – The role of AI in Sustainability Learn to apply AI tools and insights to drive practical sustainability outcomes through real ESG case studies. Self-paced Recorded 4.8 (172 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)18-20 Hours ](https://sustainability-academy.org/product/ai-for-business-aibiz/)[Add to cart](https://sustainability-academy.org/?add-to-cart=18312)
+  * [ Get 40% OFF Your 2nd Course  ![Online Certificate on Sustainability \(ESG\) Reporting](https://sustainability-academy.org/wp-content/uploads/2023/01/ESRS-CSRD-Standards-Included-2.png) Online Certificate on CSRD & ESRS Standards Master the essentials of the CSRD and ESRS, including structure, disclosures, and double materiality. Self-paced Recorded 4.5 (40 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/online-certificate-csrd-esrs/)[Add to cart](https://sustainability-academy.org/?add-to-cart=17408)
+  * [ Get 40% OFF Your 2nd Course  ![Advanced Course on IFRS S1 & S2 Sustainability Reporting Standards \(1\)](https://sustainability-academy.org/wp-content/uploads/2025/10/Advanced-Course-on-IFRS-S1-S2-Sustainability-Reporting-Standards-1.png) Advanced Course on IFRS S1 & S2 Sustainability Reporting Standards Advance your understanding of global sustainability disclosure with the Advanced Course on IFRS S1 & S2 Sustainability Reporting Standards. Self-paced Recorded 4.6 (22 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/advanced-course-on-ifrs-s1-s2-sustainability-reporting-standards/)[Add to cart](https://sustainability-academy.org/?add-to-cart=18659)
+  * [ Get 40% OFF Your 2nd Course  ![Online Certificate on SASB & TCFD Reporting](https://sustainability-academy.org/wp-content/uploads/2023/01/ISSB-Standards-Included-1.png) Online Certificate on SASB & TCFD Reporting-Alignment with IFRS S1-S2 Learn to apply SASB Standards, TCFD recommendations, and IFRS S1 & S2 frameworks to strengthen sustainability and climate-related reporting. Self-paced Recorded 4.6 (1940 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/online-certificate-on-sasb-tcfd-reporting/)[Add to cart](https://sustainability-academy.org/?add-to-cart=78)
+  * [ Get 40% OFF Your 2nd Course  ![Generative AI for Business Professionals \(GenAIBIZ™\)](https://sustainability-academy.org/wp-content/uploads/2025/07/Generative-AI-for-Business-Professionals-GenAIBIZ%E2%84%A2.png) GenAIBIZ™: Making ChatGPT and Generative AI Work for You Learn how to leverage generative AI tools to boost innovation, automate workflows, and enhance business decision-making across industries. Self-paced Recorded 4.9 (164 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/generative-ai-for-business/)[Add to cart](https://sustainability-academy.org/?add-to-cart=18317)
+  * [ Get 40% OFF Your 2nd Course  ![sustainability](https://sustainability-academy.org/wp-content/uploads/2024/06/diploma-sustainability-spanish-1.png) Online Diploma on Corporate Sustainability: Foundation Course (Spanish Version) Adquiere los conocimientos clave para integrar la sostenibilidad en la estrategia empresarial y mejorar el desempeño ESG. Self-paced Recorded 4.8 (3708 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/diploma-en-sostenibilidad-empresarial/)[Add to cart](https://sustainability-academy.org/?add-to-cart=17134)
+
+
+  * [ Get 40% OFF Your 2nd Course  ![Online Certificate on Sustainability \(ESG\) Reporting](https://sustainability-academy.org/wp-content/uploads/2023/01/ESRS-CSRD-Standards-Included-3.png) Online Certificate on Sustainability (ESG) Reporting The CPD-accredited course provides professionals with the tools and frameworks needed to master ESG reporting and sustainability disclosure based on global standards. Self-paced Recorded 4.9 (2219 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/online-certificate-on-sustainability-esg-reporting/)[Add to cart](https://sustainability-academy.org/?add-to-cart=80)
+  * [ World Wildlife Day || 20% OFF until March 10  ![Online Certificate on Carbon Reduction and Net Zero Strategies](https://sustainability-academy.org/wp-content/uploads/2023/01/t00gauja-1.png) Online Certificate on Carbon Reduction and Net Zero Strategies Gain practical skills to design and implement effective carbon reduction strategies aligned with international standards. Self-paced Recorded 4.7 (862 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/online-certificate-on-carbon-reduction-strategy/)[Add to cart](https://sustainability-academy.org/?add-to-cart=72)
+  * [ Get 40% OFF Your 2nd Course  ![AI for Business Professionals \(AIBIZ™\)](https://sustainability-academy.org/wp-content/uploads/2025/07/AI-for-Business-Professionals-AIBIZ%E2%84%A2.png) AI for Business Professionals (AIBIZ™) – The role of AI in Sustainability Learn to apply AI tools and insights to drive practical sustainability outcomes through real ESG case studies. Self-paced Recorded 4.8 (172 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)18-20 Hours ](https://sustainability-academy.org/product/ai-for-business-aibiz/)[Add to cart](https://sustainability-academy.org/?add-to-cart=18312)
+  * [ Get 40% OFF Your 2nd Course  ![Online Certificate on Sustainability \(ESG\) Reporting](https://sustainability-academy.org/wp-content/uploads/2023/01/ESRS-CSRD-Standards-Included-2.png) Online Certificate on CSRD & ESRS Standards Master the essentials of the CSRD and ESRS, including structure, disclosures, and double materiality. Self-paced Recorded 4.5 (40 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/online-certificate-csrd-esrs/)[Add to cart](https://sustainability-academy.org/?add-to-cart=17408)
+  * [ Get 40% OFF Your 2nd Course  ![Advanced Course on IFRS S1 & S2 Sustainability Reporting Standards \(1\)](https://sustainability-academy.org/wp-content/uploads/2025/10/Advanced-Course-on-IFRS-S1-S2-Sustainability-Reporting-Standards-1.png) Advanced Course on IFRS S1 & S2 Sustainability Reporting Standards Advance your understanding of global sustainability disclosure with the Advanced Course on IFRS S1 & S2 Sustainability Reporting Standards. Self-paced Recorded 4.6 (22 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/advanced-course-on-ifrs-s1-s2-sustainability-reporting-standards/)[Add to cart](https://sustainability-academy.org/?add-to-cart=18659)
+  * [ Get 40% OFF Your 2nd Course  ![Renewable Energy Fundamentals](https://sustainability-academy.org/wp-content/uploads/2025/06/Renewable-Energy-Fundamentals.jpg) Online Certificate in Renewable Energy Fundamentals: Τhe Path to Net Zero This course is ideal for professionals looking to understand the principles of renewable energy, its role in achieving Net Zero targets. Self-paced Recorded 4.6 (18 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/online-certificate-in-renewable-energy-fundamentals-the-path-to-net-zero/)[Add to cart](https://sustainability-academy.org/?add-to-cart=18152)
+  * [ Get 40% OFF Your 2nd Course  ![Online Certificate on SASB & TCFD Reporting](https://sustainability-academy.org/wp-content/uploads/2023/01/ISSB-Standards-Included-1.png) Online Certificate on SASB & TCFD Reporting-Alignment with IFRS S1-S2 Learn to apply SASB Standards, TCFD recommendations, and IFRS S1 & S2 frameworks to strengthen sustainability and climate-related reporting. Self-paced Recorded 4.6 (1940 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/online-certificate-on-sasb-tcfd-reporting/)[Add to cart](https://sustainability-academy.org/?add-to-cart=78)
+  * [ Get 40% OFF Your 2nd Course  ![Generative AI for Business Professionals \(GenAIBIZ™\)](https://sustainability-academy.org/wp-content/uploads/2025/07/Generative-AI-for-Business-Professionals-GenAIBIZ%E2%84%A2.png) GenAIBIZ™: Making ChatGPT and Generative AI Work for You Learn how to leverage generative AI tools to boost innovation, automate workflows, and enhance business decision-making across industries. Self-paced Recorded 4.9 (164 ratings) ![time image icon](https://sustainability-academy.org/wp-content/uploads/2023/01/time-1.png)20-25 Hours ](https://sustainability-academy.org/product/generative-ai-for-business/)[Add to cart](https://sustainability-academy.org/?add-to-cart=18317)
+
+
+[View All](https://sustainability-academy.org/certified-courses/)
+###  **Group** Online Courses
+You can benefit from our specialized online courses on a variety of hot Sustainability topics, such as Sustainability Reporting based on GRI, ESG performance for Investors, Carbon Reduction, Social Impact Assessment, tailored to cover the specific needs of your organization for your staff and other important stakeholders ( Clients, Suppliers). 
+[Learn More](https://sustainability-academy.org/group-online-courses/)
+![Group Online Course Presentation](https://sustainability-academy.org/wp-content/uploads/2023/01/Image-Placeholder-1.png)
+###  **Case** Studies
+[ ![t-mobile](https://sustainability-academy.org/wp-content/uploads/2023/01/t-mobile-1.png) T-Mobile US, Inc., commonly shortened to T-Mobile, is a United States-based wireless network operator whose majority shareholder is the German...  See More ](https://sustainability-academy.org/case_studies/t-mobile/)
+[ ![netgear logo](https://sustainability-academy.org/wp-content/uploads/2023/01/netgear-logo-nn.png) NETGEAR, Inc. is a multinational computer networking company based in San Jose, California, with offices in about 25 other countries.  See More ](https://sustainability-academy.org/case_studies/netgear/)
+[ ![oracle logo](https://sustainability-academy.org/wp-content/uploads/2023/01/oracle.png) Oracle Corporation is an American multinational computer technology corporation. Oracle recognizes that sustainability is good business.  See More ](https://sustainability-academy.org/case_studies/oracle/)
+[ ![UNFCU Logo](https://sustainability-academy.org/wp-content/uploads/2023/03/UNFCU_logo.jpg) UNFCU is a not-for-profit cooperative with a mission to serve the financial needs of the UN  See More ](https://sustainability-academy.org/case_studies/united-nations-federal-credit-unions-unfcu/)
+[ ![Workday Logo](https://sustainability-academy.org/wp-content/uploads/2023/03/Workday_Logo.png) Workday, Inc., is an American on‑demand financial management, human capital management  See More ](https://sustainability-academy.org/case_studies/workday/)
+[ ![mol logo](https://sustainability-academy.org/wp-content/uploads/2023/03/mol-logo.jpg) MOL Magyar Olaj- Es Gazipari Nyrt., commonly known as MOL, was founded in 1991 and currently  See More ](https://sustainability-academy.org/case_studies/mol/)
+[ ![EnTrust Global Logo](https://sustainability-academy.org/wp-content/uploads/2023/03/EnTrust_Global_Logo-Copy@2x.png) EnTrust Partners Offshore LP operates as an investment advisor. The Company offers portfolio  See More ](https://sustainability-academy.org/case_studies/entrust/)
+[ ![martin guitar logo](https://sustainability-academy.org/wp-content/uploads/2023/03/Martin_guitar_logo.png) Martin Guitars and strings are known for more than their unrivaled quality, craftsmanship, and tone. They are backed by our unwavering commitment to  See More ](https://sustainability-academy.org/case_studies/15613/)
+[ ![t-mobile](https://sustainability-academy.org/wp-content/uploads/2023/01/t-mobile-1.png) T-Mobile US, Inc., commonly shortened to T-Mobile, is a United States-based wireless network operator whose majority shareholder is the German...  See More ](https://sustainability-academy.org/case_studies/t-mobile/)
+[ ![netgear logo](https://sustainability-academy.org/wp-content/uploads/2023/01/netgear-logo-nn.png) NETGEAR, Inc. is a multinational computer networking company based in San Jose, California, with offices in about 25 other countries.  See More ](https://sustainability-academy.org/case_studies/netgear/)
+[ ![oracle logo](https://sustainability-academy.org/wp-content/uploads/2023/01/oracle.png) Oracle Corporation is an American multinational computer technology corporation. Oracle recognizes that sustainability is good business.  See More ](https://sustainability-academy.org/case_studies/oracle/)
+[ ![UNFCU Logo](https://sustainability-academy.org/wp-content/uploads/2023/03/UNFCU_logo.jpg) UNFCU is a not-for-profit cooperative with a mission to serve the financial needs of the UN  See More ](https://sustainability-academy.org/case_studies/united-nations-federal-credit-unions-unfcu/)
+[ ![Workday Logo](https://sustainability-academy.org/wp-content/uploads/2023/03/Workday_Logo.png) Workday, Inc., is an American on‑demand financial management, human capital management  See More ](https://sustainability-academy.org/case_studies/workday/)
+[ ![mol logo](https://sustainability-academy.org/wp-content/uploads/2023/03/mol-logo.jpg) MOL Magyar Olaj- Es Gazipari Nyrt., commonly known as MOL, was founded in 1991 and currently  See More ](https://sustainability-academy.org/case_studies/mol/)
+[ ![EnTrust Global Logo](https://sustainability-academy.org/wp-content/uploads/2023/03/EnTrust_Global_Logo-Copy@2x.png) EnTrust Partners Offshore LP operates as an investment advisor. The Company offers portfolio  See More ](https://sustainability-academy.org/case_studies/entrust/)
+[ ![martin guitar logo](https://sustainability-academy.org/wp-content/uploads/2023/03/Martin_guitar_logo.png) Martin Guitars and strings are known for more than their unrivaled quality, craftsmanship, and tone. They are backed by our unwavering commitment to  See More ](https://sustainability-academy.org/case_studies/15613/)
+[ ![t-mobile](https://sustainability-academy.org/wp-content/uploads/2023/01/t-mobile-1.png) T-Mobile US, Inc., commonly shortened to T-Mobile, is a United States-based wireless network operator whose majority shareholder is the German...  See More ](https://sustainability-academy.org/case_studies/t-mobile/)
+[ ![netgear logo](https://sustainability-academy.org/wp-content/uploads/2023/01/netgear-logo-nn.png) NETGEAR, Inc. is a multinational computer networking company based in San Jose, California, with offices in about 25 other countries.  See More ](https://sustainability-academy.org/case_studies/netgear/)
+[ ![oracle logo](https://sustainability-academy.org/wp-content/uploads/2023/01/oracle.png) Oracle Corporation is an American multinational computer technology corporation. Oracle recognizes that sustainability is good business.  See More ](https://sustainability-academy.org/case_studies/oracle/)
+  * 1
+  * 2
+  * 3
+  * 4
+  * 5
+  * 6
+  * 7
+  * 8
+
+
+[View all Case Studies](https://sustainability-academy.org/case_studies/)
+###  Live Remotely or On-Site Courses 
+Register for our Advanced Certified Sustainability Training Programs and join 90% of FT 500 companies 
+![Training Programs Illustration](https://sustainability-academy.org/wp-content/uploads/2023/01/Image-Placeholder-1-1.png)
+![CSE Logo Icon](https://sustainability-academy.org/wp-content/uploads/2023/01/CSE-Logo.png)
+### Our **Awards**
+[ ![silicon valley award](https://sustainability-academy.org/wp-content/uploads/2023/07/silicon-valley-award-300X300.png) ](https://sustainability-academy.org/)
+[ ![SUSTAINABILITY award 2023](https://sustainability-academy.org/wp-content/uploads/2023/09/SUSTAINABILITY-2023.png) ](https://sustainability-academy.org/sustainability-academy-earns-the-title-of-sustainability-product-of-the-year/)
+[ ![education leaders award 2024 GOLD](https://sustainability-academy.org/wp-content/uploads/2024/07/ELA-sticker-24_gold.png) ](https://sustainability-academy.org/)
+[ ![Homepage](https://sustainability-academy.org/wp-content/uploads/2024/07/academy-awards.png) ](https://sustainability-academy.org/sustainability-academy-award-winning-digital-platform-empowering-global-change/)
+###  Sustainability Academy Comparison Chart 
+[View all Courses](https://sustainability-academy.org/certified-courses/)
+![Training Programs Illustration](https://sustainability-academy.org/wp-content/uploads/2025/05/SA-Comparison-Chart-Twitter-Post-3.png)
+### Our **Accreditions & Partnerships**
+![CPD Certified Logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-1-2-1.png)
+![aa1000 logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-2-1-1.png)
+![GRI Training Partner Mark 2026](https://sustainability-academy.org/wp-content/uploads/2025/12/GRI-Training-Partner-Mark-2026.png)
+![cmi logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-4-1.png)
+![pri logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-5-1.png)
+![sasb logo](https://sustainability-academy.org/wp-content/uploads/2023/01/Logo-6-1.png)
+### **Testimonials**
+Diploma on Corporate Sustainability: Foundation Course 'The philosophy of this online diploma is to provide you with a step-by-step introduction to corporate sustainability, sustainable development and circular economy and offer unique knowledge in a simple and practical way. 
+[ ![GM Logo](https://sustainability-academy.org/wp-content/uploads/2023/01/gm-2021-seeklogo.com-1.png) “I greatly appreciated the ability to discuss topics through examples. My expectations for this training program were met completely. I have gained…  Rae Reeshemah Howard  Mission Leader ](https://sustainability-academy.org/testimonials/gm/)
+[ ![coca cola vector](https://sustainability-academy.org/wp-content/uploads/2023/01/Vector.png) “Very well built training. The thought balance between depth and breadth of topics worked well.”  Nelson Mumma JR  Coca Cola ](https://sustainability-academy.org/testimonials/coca-cola/)
+[ ![timberland](https://sustainability-academy.org/wp-content/uploads/2023/01/timberland-logo-1.png) “I found the instructor very knowledgeable and the course content very useful in my current position. It was definitely worth the investment of time and…”  Ann Caron  Timberland ](https://sustainability-academy.org/testimonials/timperlant/)
+[View All Testimonials](https://sustainability-academy.org/testimonies/)
+### Sustainability **News & Trends**
+[View All](https://sustainability-academy.org/blog/)
+[ ![ESG regulations jobs](https://sustainability-academy.org/wp-content/uploads/2026/03/Blog-posts-46.png) Friday March 6, 2026 ESG Regulations Create New Sustainability Jobs  ](https://sustainability-academy.org/esg-regulations-jobs/)
+[ ![World Environment Day 2026](https://sustainability-academy.org/wp-content/uploads/2026/03/World-Environment-Day-2026.png) Thursday March 5, 2026 World Environment Day 2026 Actionable Climate Strategies for Organizations  ](https://sustainability-academy.org/world-environment-day-2026-strategies/)
+[ ![Students participating in Sustainability Academy course learning ESG reporting and AI applications for sustainable business](https://sustainability-academy.org/wp-content/uploads/2026/03/Top-Sustainability-Courses-in-2026-Sustainability-Academy.png) Thursday March 5, 2026 Top Sustainability Courses in 2026 – Sustainability Academy  ](https://sustainability-academy.org/top-sustainability-courses-in-2026/)
+[View All](https://sustainability-academy.org/blog/)
+### Subscribe to **our Newsletter**
+  
+
+I have read the [Privacy Policy](https://sustainability-academy.org/privacy-policy/) and agree to its [terms](https://sustainability-academy.org/terms-and-conditions/)
+[![Sustainability Academy Logo](https://sustainability-academy.org/wp-content/uploads/2023/01/sustainability-academy-log.png)](https://sustainability-academy.org/)
+##### Company
+##### Support
+  * [FAQ](https://sustainability-academy.org/faq/)
+  * [Usage Policy & Terms of Use](https://sustainability-academy.org/terms-and-conditions/)
+  * [Privacy Policy](https://sustainability-academy.org/privacy-policy/)
+
+
+© 2025 Sustainability Academy. All Rights Reserved
+![](https://cse-net.activehosted.com/content/XqqQpQ/2025/05/23/a5e32db2-c1e5-46e5-8faf-3c4fb9be7d3d.png)
+From ESG skills to sustainability careers. Download the guide.
+Explore today’s most in-demand sustainability and ESG roles, the skills employers are looking for, and real career pathways across sectors. Subscribe to the Sustainability Academy and be the first to receive sustainability insights, new online courses, and exclusive offers. As a subscriber, you will also receive an exclusive 15% discount on your next course.
+Type your name
+Type your email
+Submit
+![Image for Close Button](https://sustainability-academy.org/wp-content/uploads/2023/02/close-1.svg)
+Login
+E-mail
+Password
+LOGIN
+modal-check
+## Group registration form
+* * *
+Full name  
+  
+
+Company name  
+  
+
+Email  
+  
+
+Message  
+
+*Please state the number of licensees you require. 
+I have read the [Privacy Policy](https://sustainability-academy.org/privacy-policy/) and agree to its [terms](https://sustainability-academy.org/terms-and-conditions/)  
+  
+  
+
+Dismiss ad Dismiss ad
+This will close in 0 seconds
+[ ![](https://sustainability-academy.org/wp-content/uploads/2025/07/AI-for-Business-Professionals-AIBIZ%E2%84%A2.png) Arjun from Italy has just purchased AI for Business Professionals (AIBIZ™) - The role of AI in Sustainability  
+7 mins ago ](https://sustainability-academy.org/product/ai-for-business-aibiz/)
+[View Cart](https://sustainability-academy.org/cart/) [Checkout](https://sustainability-academy.org/checkout/) Continue Shopping

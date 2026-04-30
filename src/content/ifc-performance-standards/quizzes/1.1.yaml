@@ -1,0 +1,35 @@
+- question: "How many elements make up the Environmental and Social Management System (ESMS) under PS 1?"
+  options:
+    - "Five"
+    - "Six"
+    - "Seven"
+    - "Eight"
+  answer: 2
+  explanation: "PS 1 defines seven elements of an ESMS: (1) Policy, (2) Identification of Risks and Impacts, (3) Management Programs, (4) Organizational Capacity and Competency, (5) Emergency Preparedness and Response, (6) Stakeholder Engagement, and (7) Monitoring and Review."
+
+- question: "What does 'area of influence' mean under PS 1?"
+  options:
+    - "The geographic area within the project fence line only"
+    - "The area where the project has direct, indirect, and cumulative impacts, including associated facilities and supply chains"
+    - "A 10-kilometer radius around the project site"
+    - "Only the communities immediately adjacent to the project"
+  answer: 1
+  explanation: "The area of influence extends beyond the project's physical footprint to include areas affected by direct, indirect, and cumulative impacts, associated facilities that would not exist without the project, and areas affected by unplanned but predictable developments."
+
+- question: "In the mitigation hierarchy, what must a client demonstrate before moving to compensation?"
+  options:
+    - "That compensation is more cost-effective than avoidance"
+    - "That affected communities prefer compensation"
+    - "That avoidance and minimization have been exhausted first"
+    - "That the government has approved the compensation plan"
+  answer: 2
+  explanation: "The mitigation hierarchy is a strict sequence: avoid, then minimize, then compensate/offset. A client must demonstrate that it has exhausted higher-priority measures before moving to lower-priority ones. Jumping straight to compensation without first trying to avoid and minimize is non-compliant."
+
+- question: "How often should the ESMS be reviewed and updated?"
+  options:
+    - "Only at the start of the project"
+    - "Every five years"
+    - "On an ongoing basis throughout the project lifecycle"
+    - "Only when IFC conducts a supervision visit"
+  answer: 2
+  explanation: "PS 1 requires ongoing monitoring and review of the ESMS. The system must be adaptive - updated as the project evolves, new risks emerge, and lessons are learned from implementation experience."

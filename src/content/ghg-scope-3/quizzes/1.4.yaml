@@ -1,0 +1,26 @@
+- question: "Category 4 covers upstream transportation. Which of the following movements does it include?"
+  options:
+    - "A company-owned truck delivering finished products to retailers"
+    - "A third-party logistics provider transporting raw materials from a supplier to the company's factory"
+    - "An employee's flight to a client meeting"
+    - "A customer collecting their online order from a distribution centre"
+  answer: 1
+  explanation: "Category 4 covers transport of purchased goods moving into the company in vehicles not owned by the reporting company — such as a third-party logistics provider delivering raw materials from a supplier. Company-owned trucks are Scope 1. Employee flights are Category 6. Customer logistics is Category 9."
+
+- question: "Which transport mode has the lowest emission factor per tonne-kilometre?"
+  options:
+    - "Air freight"
+    - "Heavy-duty truck"
+    - "Large ocean container ship"
+    - "Medium truck"
+  answer: 2
+  explanation: "Ocean container shipping has a typical emission factor of 0.010–0.016 kgCO₂e/tonne-km — far lower than trucking (0.062–0.098) or air freight (0.600–1.020), due to the large scale and fuel efficiency of container ships."
+
+- question: "A shipment of 100 tonnes travels 2,000 km by truck with an emission factor of 0.090 kgCO₂e/tonne-km. What are the Category 4 emissions in tCO₂e?"
+  options:
+    - "1.8 tCO₂e"
+    - "18 tCO₂e"
+    - "180 tCO₂e"
+    - "1,800 tCO₂e"
+  answer: 1
+  explanation: "100 t × 2,000 km × 0.090 kgCO₂e/tonne-km = 18,000 kgCO₂e = 18 tCO₂e."

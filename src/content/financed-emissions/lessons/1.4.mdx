@@ -1,0 +1,134 @@
+{/* source: PCAF Standard Part A (3rd Edition), Chapter 5 (Data Providers, Estimation Models) */}
+
+Emission factors are the bridge between activity data and emissions estimates. When a financial institution cannot obtain directly reported emissions from a borrower or investee, it must estimate emissions using emission factors combined with either physical or economic activity data. Understanding where to find reliable emission factors and how to select the right data source is a critical practical skill.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/financed-emissions/1_4.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## What Is an Emission Factor?
+
+An emission factor is a coefficient that converts a unit of activity into an estimated quantity of GHG emissions. Emission factors are typically expressed as:
+
+- **tCO2e per unit of energy** (e.g., tCO2e per MWh of natural gas)
+- **tCO2e per unit of production** (e.g., tCO2e per tonne of cement)
+- **tCO2e per unit of revenue** (e.g., tCO2e per €M of revenue in a given sector)
+- **tCO2e per unit of assets** (e.g., tCO2e per €M of sectoral assets)
+
+<AnalogyBox>
+Emission factors work like currency exchange rates. Just as you multiply dollars by an exchange rate to get euros, you multiply activity data (MWh of gas, tonnes of steel, millions of revenue) by an emission factor to get tCO2e. The accuracy of your result depends entirely on how precise and relevant your exchange rate is.
+</AnalogyBox>
+
+## Data Providers for Option 1 (Reported Emissions)
+
+For Option 1, financial institutions either collect emissions directly from the borrower/investee or obtain them from third-party data providers. PCAF recommends several major data providers:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Provider</th>
+      <th>Coverage</th>
+      <th>Key Features</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>CDP</strong></td>
+      <td>Over 23,000 companies globally</td>
+      <td>Standardised questionnaire-based reporting; distinguishes between reported and estimated data</td>
+    </tr>
+    <tr>
+      <td><strong>Bloomberg</strong></td>
+      <td>Broad coverage of listed companies</td>
+      <td>Integrates emissions data into financial terminal; covers Scope 1, 2, and increasingly Scope 3</td>
+    </tr>
+    <tr>
+      <td><strong>MSCI</strong></td>
+      <td>Focuses on listed companies and ESG ratings</td>
+      <td>Combines reported data with modelled estimates for non-reporters</td>
+    </tr>
+    <tr>
+      <td><strong>Sustainalytics</strong></td>
+      <td>Broad ESG and emissions coverage</td>
+      <td>Company-level ESG risk ratings with emissions data layers</td>
+    </tr>
+    <tr>
+      <td><strong>S&P/Trucost</strong></td>
+      <td>Comprehensive environmental data</td>
+      <td>Detailed Scope 1, 2, and 3 coverage with sector-level benchmarks</td>
+    </tr>
+    <tr>
+      <td><strong>ISS ESG</strong></td>
+      <td>Corporate governance and environmental data</td>
+      <td>Climate-related data solutions for institutional investors</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+<HighlightBox>
+PCAF does not endorse or recommend any specific data vendor. However, PCAF recommends using data providers that use the standardised CDP framework and suggests that providers disclose their data quality scores according to the PCAF scoring hierarchy. When using third-party data, financial institutions should verify whether the emissions figures are company-reported or provider-estimated, as this affects the data quality score.
+</HighlightBox>
+
+Data providers often have their own estimation methodologies when company-reported emissions are unavailable. Financial institutions should ask providers to be transparent about their calculation methods and confirm alignment with the GHG Protocol. PCAF also recommends using the **same provider consistently** to avoid variability in Scope 1 and 2 emissions observed across different providers.
+
+## Emission Factor Sources for Option 2 (Physical Activity-Based)
+
+For Option 2, emission factors expressed per physical activity are drawn from established scientific databases:
+
+- **ecoinvent**: A comprehensive lifecycle inventory database covering thousands of processes
+- **DEFRA** (UK Department for Environment, Food & Rural Affairs): Publishes annually updated conversion factors for GHG reporting
+- **IPCC Emission Factor Database**: The Intergovernmental Panel on Climate Change provides emission factors across sectors and regions
+- **GEMIS** (Global Emissions Model for Integrated Systems): Covers energy, materials, and transport emission factors
+- **FAO** (Food and Agriculture Organization): Specialises in agricultural and land-use emission factors
+
+When using Option 2, PCAF recommends using **supplier-specific emission factors** when available (for example, the actual grid emission factor from a specific electricity provider rather than a country-average factor). Supplier-specific factors always produce a higher data quality score than generic averages.
+
+<ExampleBox>
+**Choosing the right emission factor**
+
+A bank finances an office building. The building manager reports consuming 500,000 kWh of electricity per year. To convert this to emissions, the bank needs an emission factor:
+
+**Best option**: The building's electricity supplier publishes a factor of 0.35 tCO2e/MWh for its specific energy mix. Using this: 500 MWh × 0.35 = **175 tCO2e** (Score 1a)
+
+**Good option**: The national grid average emission factor for the country is 0.45 tCO2e/MWh. Using this: 500 MWh × 0.45 = **225 tCO2e** (Score 1b)
+
+**Acceptable option**: No actual energy consumption data is available. The bank estimates consumption from the building's EPC energy label and floor area, then applies the national grid average. (Score 3)
+
+The choice of emission factor directly affects both the accuracy of the estimate and its data quality score.
+</ExampleBox>
+
+## EEIO Databases for Option 3 (Economic Activity-Based)
+
+For Option 3, financial institutions rely on **Environmentally Extended Input-Output (EEIO)** tables that provide sector-average emission factors expressed per unit of economic activity. The major EEIO databases include:
+
+- **EXIOBASE**: A multi-regional input-output database covering 44 countries with detailed sector resolution
+- **CEDA** (Comprehensive Environmental Data Archive): US-focused EEIO database
+- **GTAP** (Global Trade Analysis Project): Covers global trade flows and associated emissions
+- **WIOD** (World Input-Output Database): Covers 43 countries with time-series data
+
+These databases provide emission factors in units like tCO2e per €M of revenue (for Score 3a/3c calculations) or tCO2e per €M of assets (for Score 3b calculations).
+
+<DeepDive title="PCAF's Web-Based Emission Factor Database">
+PCAF maintains its own web-based emission factor database, currently available to PCAF signatories. This database aggregates emission factors suitable for Options 2 and 3, organised by sector and region. It is designed to help financial institutions get started with estimating financed emissions, particularly for portfolios where company-specific data is scarce.
+
+The database covers a large set of emission factors and is continuously updated. PCAF signatories can access it through the PCAF website after logging in with their signatory credentials.
+</DeepDive>
+
+## Selecting the Right Data Source
+
+PCAF provides a clear hierarchy for data source selection:
+
+1. **Start with the highest quality option available**: If verified company-reported emissions exist, use them (Option 1, Score 1)
+2. **Fall back to physical activity data**: If reported emissions are unavailable but physical data is accessible, estimate using Option 2 (Score 2)
+3. **Use economic activity data as last resort**: If neither reported emissions nor physical activity data exist, use Option 3 (Scores 3 to 5)
+4. **Use the most sector-specific factor possible**: For a paddy rice farmer, use a rice-sector-specific emission factor rather than a general agriculture-sector factor
+5. **Use the most recent data available**: Mention the data source, reporting period, and publication date
+6. **Be consistent across time**: Use the same data provider and methodology year over year to enable meaningful trend analysis
+
+Financial institutions should also consider running **sampling tests** based on actual company-level data to validate the accuracy of sector-average estimates from EEIO databases. If a bank has a strong presence in a specific sector or region, it may have access to enough company-level data points to refine the sector averages for its own portfolio.
+
+<HighlightBox>
+The goal is not to achieve perfect data quality immediately, but to establish a credible baseline and improve systematically over time. PCAF expects financial institutions to report the data sources used, the data quality scores achieved, and any plans for improvement. This transparency allows stakeholders to assess not just the current quality of the data but also the institution's trajectory toward better measurement.
+</HighlightBox>
+
+<KeyTakeaways items="Emission factors convert activity data (energy, production, revenue) into tCO2e estimates - their accuracy determines the quality of your financed emissions figures ;; Key data providers for reported emissions include CDP, Bloomberg, MSCI, Sustainalytics, S&P/Trucost, and ISS ESG - use the same provider consistently across years ;; For physical activity-based estimates (Option 2), use supplier-specific emission factors over national averages whenever possible ;; EEIO databases (EXIOBASE, CEDA, GTAP) provide sector-average factors for Option 3 - choose databases with high sector resolution and regional specificity ;; Always follow the PCAF hierarchy: reported emissions first, then physical activity data, then economic proxies as a last resort" />

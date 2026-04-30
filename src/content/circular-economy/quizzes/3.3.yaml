@@ -1,0 +1,26 @@
+- question: "What percentage of extracted materials does the construction sector account for?"
+  options:
+    - "20%"
+    - "35%"
+    - "50%"
+    - "65%"
+  answer: 2
+  explanation: "The construction sector accounts for 50% of extracted materials and 35% of all EU waste generation, making it the single largest consumer of materials in most economies."
+
+- question: "What does 'design for disassembly' primarily use instead of adhesives and concrete pours?"
+  options:
+    - "Organic adhesives and bio-based glues"
+    - "Dry connections such as bolts, brackets, and clips"
+    - "Welded steel connections sealed with epoxy"
+    - "Temporary fasteners removed before occupancy"
+  answer: 1
+  explanation: "Design for disassembly (DfD) uses dry connections such as bolts, brackets, and clips rather than wet connections like adhesives, welds, and concrete pours. This allows materials to be recovered intact at end of building life rather than demolished as waste."
+
+- question: "Which of these is the highest-value circular strategy for existing buildings?"
+  options:
+    - "Demolition and rebuilding with recycled content materials"
+    - "Crushing the building into aggregate for road sub-base"
+    - "Adaptive reuse, converting the building to a new purpose"
+    - "Incinerating demolition waste with energy recovery"
+  answer: 2
+  explanation: "Adaptive reuse, converting an existing building to a new use without demolition, is the highest-value circular strategy because it retains all the embodied carbon and value already invested in the structure, avoiding the emissions and resource consumption of new construction entirely."

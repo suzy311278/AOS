@@ -1,0 +1,161 @@
+{/* source: RTS 2022/1288 Annex I Tables 1-2 */}
+
+The environmental PAI indicators are among the most data-intensive elements of the SFDR framework. They require financial market participants to gather, process, and aggregate emissions data, energy data, and biodiversity information at the level of individual investee companies.
+
+In plain English: for each company in the portfolio, you need to know how much it pollutes, how much energy it uses, and whether it damages protected ecosystems, then attribute the right share of those impacts to your investment.
+
+This lesson explains each environmental indicator in the mandatory Table 1 and covers the optional additional environmental indicators in Table 2, with a focus on calculation methodology.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/eu-sfdr/3_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Core Concepts: Enterprise Value and Portfolio Share
+
+Most environmental PAI indicators are calculated using a common methodological framework:
+
+<FormulaBox>
+**General PAI Attribution Formula:**
+
+Attribution of Investee Metric to Portfolio =
+  (Current Value of Investment in investee i / Enterprise Value of investee i) x Metric of investee i
+
+Portfolio-Level Indicator =
+  Sum [Attribution for each investee i] / Current Value of All Investments x 1,000,000
+
+Where:
+- Enterprise Value = market capitalisation (ordinary + preferred shares) + book value of total debt + non-controlling interests (at fiscal year-end, without deducting cash)
+- Current Value of Investment = market value of the portfolio's holding in the investee company at measurement date
+- Metric = the relevant environmental data point (e.g., tCO₂eq emissions, GWh energy consumption)
+- Result normalised per $1 million of total portfolio value
+</FormulaBox>
+
+The ESMA Q&As (Section III.1) confirm that "enterprise value" means specifically the sum of market capitalisation of ordinary shares, market capitalisation of preferred shares, book value of total debt, and non-controlling interests, at fiscal year-end, without deducting cash or cash equivalents. This precise definition is important because using net asset value or a different enterprise value definition would produce materially different results.
+
+<AnalogyBox>
+The formula allocates the investee's pollution to the portfolio based on the portfolio's ownership share. If you own 2% of a company's enterprise value, you "own" 2% of its emissions for PAI purposes. Think of it like shareholding in a polluting factory, you don't breathe the smoke yourself, but you bear a proportionate share of the environmental cost as an investor.
+</AnalogyBox>
+
+## Indicator 1, GHG Emissions
+
+**What it measures**: The total greenhouse gas (GHG) emissions associated with the portfolio's investments in investee companies.
+
+**Scope**: Covers Scope 1 (direct emissions from owned or controlled sources), Scope 2 (indirect emissions from purchased energy), and Scope 3 (all other indirect emissions in the value chain) where data is available. For how these emissions are calculated under the GHG Protocol, see our [Scope 1 and 2](/courses/ghg-scope-1-2/0_1) and [Scope 3](/courses/ghg-scope-3/0_3) courses.
+
+<EquationBreakdown
+  title="GHG Emissions PAI (Indicator 1)"
+  result="PAI<sub>1</sub> | GHG Emissions PAI | Portfolio-attributed GHG emissions per million euros invested, in tCO₂eq | blue"
+  inputs="I<sub>i</sub> / EV<sub>i</sub> | Ownership Share | Investment value in company i divided by its enterprise value | green ;; GHG<sub>i</sub> | Company Emissions | Company i's total Scope 1 + 2 + 3 GHG emissions in tCO₂eq | amber ;; MV<sub>total</sub> | Total Portfolio Value | Current market value of all investments, used to normalise per million euros | violet"
+/>
+
+**Practical challenge**: Scope 3 data is often unavailable or unreliable, particularly for smaller companies. The RTS permits use of estimated Scope 3 where reported data is not available, but FMPs must disclose the proportion of estimated data used. For this reason, many PAI statements report Scope 1+2 and Scope 3 separately, with different data quality indicators.
+
+## Indicator 2, Carbon Footprint
+
+**What it measures**: The absolute carbon footprint of the portfolio, normalised by portfolio market value. Like Indicator 1, it covers total GHG emissions (Scope 1 + 2 + 3), but the formula structure differs, it expresses the result per $1 million of portfolio value, providing a single normalised figure.
+
+<EquationBreakdown
+  title="Carbon Footprint (Indicator 2)"
+  result="CF | Carbon Footprint | Total attributed GHG emissions per million euros of portfolio value, in tCO₂eq | blue"
+  inputs="I<sub>i</sub> / EV<sub>i</sub> | Ownership Share | Investment value in company i divided by its enterprise value | green ;; GHG<sub>i</sub> | Company Emissions | Company i's total Scope 1 + 2 + 3 GHG emissions in tCO₂eq | amber ;; MV<sub>total</sub> | Total Portfolio Value | Current market value of all investments, used to normalise per million euros | violet"
+/>
+
+The distinction between Indicators 1 and 2 is primarily structural: Indicator 1 reports Scope 1, 2, and 3 emissions as separate line items plus a total, while Indicator 2 aggregates them into a single normalised carbon footprint figure per million EUR invested.
+
+## Indicator 3, GHG Intensity of Investee Companies
+
+**What it measures**: The emissions efficiency of investee companies, how many tonnes of CO₂eq are emitted per unit of revenue. This is a revenue-normalised metric that enables comparison across companies of different sizes.
+
+<EquationBreakdown
+  title="GHG Intensity (Indicator 3)"
+  result="GI | GHG Intensity PAI | Weighted average emissions intensity of investee companies, in tCO₂eq per million EUR revenue | blue"
+  inputs="w<sub>i</sub> | Portfolio Weight | Investment value in company i divided by total portfolio value | green ;; GHG<sub>i</sub> / Rev<sub>i</sub> | Company Emissions Intensity | Company i's Scope 1 + 2 + 3 emissions divided by its revenue | amber"
+/>
+
+Note that the denominator here is company revenue, not enterprise value. This makes Indicator 3 a measure of operational efficiency, whereas Indicators 1 and 2 measure financial exposure to emissions.
+
+## Indicator 4, Fossil Fuel Sector Exposure
+
+**What it measures**: The percentage of the portfolio invested in companies that derive any revenue from fossil fuel exploration, mining, extraction, production, processing, storage, refining, distribution, trading, or combustion (including coal, oil, and natural gas), as well as activities that produce fossil-fuel-related products or materials.
+
+<EquationBreakdown
+  title="Fossil Fuel Exposure (Indicator 4)"
+  result="FFE | Fossil Fuel PAI | Share of portfolio invested in fossil fuel companies, as a percentage | blue"
+  inputs="MV<sub>ff</sub> | Fossil Fuel Investments | Market value of investments in companies active in the fossil fuel sector | green ;; MV<sub>total</sub> | Total Portfolio Value | Total market value of all investments in the portfolio | amber"
+  operator="/"
+/>
+
+**Definition note**: The definition of "fossil fuel sector" in the RTS is broad, it includes not only energy producers but also companies that manufacture equipment primarily used in fossil fuel extraction or processing, and companies that transport fossil fuels. Determining which companies fall within scope requires careful analysis of revenue streams.
+
+<ExampleBox>
+**Why indicator 4 matters in practice:**
+
+A fund that tracks a standard equity index like the MSCI World will typically show 4-8% fossil fuel exposure through Indicator 4, simply because oil companies, gas pipeline operators, and coal mining companies are part of major indices. A fund applying a fossil fuel exclusion policy would show 0%. This indicator makes that difference visible and comparable across fund disclosures.
+
+Many institutional investors, including large pension funds such as **APG** (Netherlands) and **PGGM**, use Indicator 4 trends in their fund manager assessment: they want to see fossil fuel exposure declining over time, not just stated as a commitment.
+</ExampleBox>
+
+## Indicator 5, Non-Renewable Energy Consumption and Production
+
+**What it measures**: The share of energy consumed or produced by investee companies that comes from non-renewable sources (fossil fuels, nuclear).
+
+<EquationBreakdown
+  title="Non-Renewable Energy PAI (Indicator 5)"
+  result="NRE | Non-Renewable Energy PAI | Weighted average share of non-renewable energy across the portfolio, as a percentage | blue"
+  inputs="w<sub>i</sub> | Portfolio Weight | Investment value in company i divided by total portfolio value | green ;; NRE<sub>i</sub> / TE<sub>i</sub> | Non-Renewable Share | Company i's non-renewable energy divided by its total energy consumption | amber"
+/>
+
+## Indicator 6, Energy Consumption Intensity Per High Climate Impact Sector
+
+**What it measures**: Energy consumption intensity (energy per unit of revenue) specifically for investments in **high climate impact sectors**. These sectors are identified in the RTS by NACE code and include: agriculture, forestry, fishing, energy, utilities, transport, manufacturing, construction, and mining.
+
+<EquationBreakdown
+  title="Energy Intensity - High Climate Impact Sectors (Indicator 6)"
+  result="EI | Energy Intensity PAI | Weighted average energy consumption per unit of revenue for high-impact sector companies, in GWh per million EUR | blue"
+  inputs="w<sub>hi</sub> | High-Impact Weight | Investment in high-impact company i divided by total portfolio value | green ;; EC<sub>i</sub> / Rev<sub>i</sub> | Energy Intensity | Company i's energy consumption in GWh divided by its revenue in million EUR | amber"
+/>
+
+The restriction to high-climate-impact sectors means that if the portfolio has no investments in those sectors, this indicator is zero or not applicable, which must be disclosed.
+
+## Indicator 7, Biodiversity-Sensitive Areas
+
+**What it measures**: The share of investments in companies operating in or near environmentally protected areas (biodiversity-sensitive areas) and engaging in activities that negatively affect those areas.
+
+Biodiversity-sensitive areas include:
+- Natura 2000 sites (EU Protected areas)
+- UNESCO World Heritage sites
+- Key Biodiversity Areas (KBAs) as designated by the IUCN
+
+This indicator is binary at the company level (the company either operates in/near these areas and causes negative effects, or it does not), aggregated to a portfolio percentage.
+
+<EquationBreakdown
+  title="Biodiversity PAI (Indicator 7)"
+  result="Bio | Biodiversity PAI | Share of portfolio invested in companies with negative biodiversity impacts in sensitive areas, as a percentage | blue"
+  inputs="MV<sub>bio</sub> | Biodiversity-Impacting Investments | Market value of investments in companies negatively affecting biodiversity-sensitive areas | green ;; MV<sub>total</sub> | Total Portfolio Value | Total market value of all investments in the portfolio | amber"
+  operator="/"
+/>
+
+**Data challenge**: This indicator is among the most difficult to measure in practice. Very few companies publicly disclose their impact on specific biodiversity sites. FMPs typically rely on specialist biodiversity data providers or make conservative assumptions that require disclosure in the PAI statement.
+
+## Optional Environmental Indicators, Table 2
+
+Annex I Table 2 provides additional voluntary environmental indicators that FMPs can choose to report. These include:
+
+- **Emissions to water**: Tonnes of emissions to water per million EUR invested
+- **Hazardous waste ratio**: Tonnes of hazardous waste generated per million EUR invested
+- **Biodiversity footprint**: Land use, freshwater use, and other biodiversity metrics
+- **Deforestation**: Share of investments in companies involved in deforestation
+- **Carbon intensity (real estate)**: Energy consumption and carbon intensity for real estate assets by type
+
+FMPs that report additional Table 2 indicators must use the specified formulas and present them consistently with mandatory indicators. Reporting additional indicators can strengthen the credibility of the PAI statement and demonstrate a more comprehensive approach to impact assessment.
+
+## Data Sources and Estimation
+
+The RTS is explicit that where reliable reported data is unavailable, FMPs should use best estimates. Sources for estimates include:
+
+- Third-party ESG data providers (MSCI, Sustainalytics, Bloomberg ESG, Trucost/S&P Global)
+- Sector average data (where company-specific data is unavailable)
+- Country average data (for sovereign indicators)
+- Physical asset data (for real estate)
+
+All estimates must be flagged as such in the PAI statement, with an explanation of the estimation methodology used. The PAI statement should also describe steps the FMP is taking to improve data quality in future reporting periods.
+
+<KeyTakeaways items="Most environmental PAI indicators use the same core formula: (investment value / enterprise value) x company metric, summed across holdings and normalised per million euros ;; Enterprise value means market cap (ordinary + preferred shares) + book value of total debt + non-controlling interests at fiscal year-end, without deducting cash ;; Indicators 1-3 measure GHG emissions in different ways: absolute attributed emissions, carbon footprint per portfolio value, and emissions intensity per revenue ;; Indicator 4 (fossil fuel exposure) uses a broad definition covering extraction, processing, storage, transport, and related product manufacturing ;; Indicator 7 (biodiversity-sensitive areas) is among the most difficult to measure in practice due to poor company-level disclosure ;; Where reported data is unavailable, FMPs must use best estimates from third-party providers and disclose the proportion of estimated versus reported data" />

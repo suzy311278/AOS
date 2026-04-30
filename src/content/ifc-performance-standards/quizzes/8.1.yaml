@@ -1,0 +1,35 @@
+- question: "What is PS 1's role relative to PS 2-8?"
+  options:
+    - "PS 1 is optional guidance that supplements PS 2-8"
+    - "PS 1's risk identification process determines which of PS 2-8 are triggered for a given project"
+    - "PS 1 only applies when none of PS 2-8 are triggered"
+    - "PS 1 and PS 2-8 are independent - each is assessed separately"
+  answer: 1
+  explanation: "PS 1 is the backbone of the framework. It requires every project to conduct environmental and social risk identification through its ESMS, and the results of that screening determine which of PS 2-8 apply. PS 1 always applies; PS 2-8 are triggered based on project circumstances."
+
+- question: "How many financial institutions have adopted the IFC Performance Standards through the Equator Principles?"
+  options:
+    - "About 50"
+    - "About 80"
+    - "Over 130"
+    - "Over 200"
+  answer: 2
+  explanation: "Over 130 financial institutions in 38 countries have adopted the Equator Principles, which require signatory banks to apply the IFC Performance Standards to project finance deals above $10 million. This makes IFC PS the de facto global standard for project finance E&S risk management."
+
+- question: "How does IFC categorize a project with significant, diverse, or unprecedented adverse environmental and social impacts?"
+  options:
+    - "Category B"
+    - "Category C"
+    - "Category FI"
+    - "Category A"
+  answer: 3
+  explanation: "Category A is assigned to projects with potential significant adverse environmental or social impacts that are diverse, irreversible, or unprecedented. These projects require a full Environmental and Social Impact Assessment (ESIA) and the most rigorous application of the Performance Standards."
+
+- question: "A proposed mining project in a forested area with indigenous communities, downstream farming villages, and nearby archaeological sites would most likely trigger which standards?"
+  options:
+    - "Only PS 1 and PS 3"
+    - "PS 1, PS 2, and PS 6 only"
+    - "All eight Performance Standards (PS 1-8)"
+    - "PS 1, PS 5, and PS 7 only"
+  answer: 2
+  explanation: "A large mining project in this setting would likely trigger all eight standards: PS 1 (ESMS), PS 2 (workers), PS 3 (pollution and resource use), PS 4 (community safety), PS 5 (potential displacement), PS 6 (forest habitat), PS 7 (indigenous peoples), and PS 8 (archaeological heritage). This illustrates why the standards must be read as an integrated package."

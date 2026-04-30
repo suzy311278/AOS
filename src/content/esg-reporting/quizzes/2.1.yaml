@@ -1,0 +1,26 @@
+- question: "You are starting an ESG reporting engagement for a mid-size cement company. How many peer companies should you ideally benchmark against?"
+  options:
+    - "1-2 peers for a focused comparison"
+    - "4-6 peers for a balanced view"
+    - "10-15 peers for maximum coverage"
+    - "As many as publicly available"
+  answer: 1
+  explanation: "4-6 peers is the sweet spot. Fewer than three gives too narrow a view, and more than eight takes longer than it should without adding proportional value."
+
+- question: "After benchmarking five peers in the same industry, you find that four out of five report on GRI 302 (Energy) but none report on GRI 304 (Biodiversity). What should you recommend to your client?"
+  options:
+    - "Include both indicators to exceed peer standards"
+    - "Include GRI 302 as it is a market baseline, and likely skip GRI 304 unless the client operates in a biodiversity-sensitive industry"
+    - "Skip both and let the materiality assessment decide independently"
+    - "Include GRI 304 to differentiate from peers"
+  answer: 1
+  explanation: "Benchmarking narrows your indicator list to what the market expects. If most peers report on an indicator, it is table stakes. If none report on it and the industry does not demand it, you can likely skip it - unless the client's own materiality assessment says otherwise."
+
+- question: "A key limitation of peer benchmarking is that it cannot tell you:"
+  options:
+    - "Which GRI standards are commonly used in the industry"
+    - "Whether the client actually has the data to match what peers are reporting"
+    - "What the typical report length and structure looks like"
+    - "Which materiality approach peers are using"
+  answer: 1
+  explanation: "Benchmarking shows what 'should' be reported based on peer practices, but it cannot guarantee that your client has the data to deliver the same disclosures. Data availability is determined during the data collection phase, not during benchmarking."

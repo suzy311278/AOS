@@ -1,0 +1,81 @@
+{/* source: Scope3_Calculation_Guidance_0[1].pdf, Category 2 (pp. 36-37) */}
+
+**Category 2 — Capital Goods** covers emissions from the extraction, production, and transportation of capital goods purchased or acquired by the company in the reporting year. Capital goods are **fixed assets** with an extended useful life that the company uses to manufacture products, provide services, or otherwise conduct its operations.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-3/1_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## What Counts as a Capital Good?
+
+Capital goods include:
+- Machinery and production equipment
+- Buildings and facility infrastructure
+- IT hardware (servers, computers, network equipment)
+- Vehicles used in operations (company fleet)
+- Furniture and fittings in commercial premises
+- Laboratory and medical equipment
+
+The defining characteristic is that capital goods are **not consumed** in the production process - they are used repeatedly over multiple years. In financial accounting, this is reflected in their capitalisation on the balance sheet and depreciation over their useful life.
+
+## How Category 2 Differs from Category 1
+
+Despite covering physical goods, Category 2 is accounted for differently from Category 1:
+
+| Feature | Category 1 (Purchased Goods) | Category 2 (Capital Goods) |
+|---------|-------------------------------|------------------------------|
+| Asset type | Consumed in operations; expensed | Used over multiple years; capitalised |
+| GHG allocation | Emissions assigned to year purchased | **Full lifecycle emissions assigned to year of acquisition** |
+| Examples | Raw materials, packaging, office supplies | Machinery, buildings, company vehicles |
+
+<HighlightBox>
+The full cradle-to-gate emissions of a capital good are attributed to the year of acquisition - not spread over the depreciation period. This means that a company's Category 2 emissions may spike in years when significant capital investments are made (e.g., a new factory line) and fall in years with minimal capital expenditure.
+</HighlightBox>
+
+## Calculation Methods
+
+Category 2 uses the same four calculation methods as Category 1:
+
+1. **Supplier-specific method**: Obtain GHG data from equipment suppliers (e.g., a machine manufacturer's product carbon footprint)
+2. **Hybrid method**: Supplier-specific data for major equipment; average-data for minor items
+3. **Average-data method**: Use EIO or LCA databases with appropriate emission factors per unit of capital good
+4. **Spend-based method**: Apply EIO emission factors per unit of capital expenditure by sector
+
+For most companies, the spend-based or average-data method is used for initial estimates, as capital goods purchasing is often less frequent and involves fewer individual items than Category 1.
+
+<EquationBreakdown
+  title="Category 2 - Capital Goods Emissions (Spend-Based)"
+  result="E<sub>Cat2</sub> | Category 2 Emissions | Total cradle-to-gate emissions from capital goods purchased in the reporting year, in tCO₂e | blue"
+  inputs="CapEx | Capital Expenditure | Total spend on capital goods in the reporting year (currency) | green ;; EF<sub>EIO</sub> | EIO Emission Factor | tCO₂e per unit of capital expenditure for the relevant industry sector | amber"
+/>
+
+<EquationBreakdown
+  title="Category 2 - Capital Goods Emissions (Physical Data)"
+  result="E<sub>Cat2</sub> | Category 2 Emissions | Total cradle-to-gate emissions from capital goods purchased in the reporting year, in tCO₂e | blue"
+  inputs="Q | Quantity | Mass or number of capital goods purchased (tonnes or units) | green ;; EF<sub>phys</sub> | Physical Emission Factor | tCO₂e per tonne or per unit of capital good | violet"
+/>
+
+<CalculationExercise
+  question="A company purchases a new CNC milling machine for £250,000. The EIO emission factor for industrial machinery (UK) is 0.35 kgCO₂e per £ of output. What are the Category 2 emissions from this purchase in tCO₂e?"
+  answer={87.5}
+  unit="tCO₂e"
+  hints={["Convert the EIO factor to tCO₂e: 0.35 kgCO₂e/£ = 0.00035 tCO₂e/£.", "Multiply spend by factor: £250,000 × 0.00035 tCO₂e/£ = ?", "Check: 250,000 × 0.00035 = 87.5 tCO₂e."]}
+  solution="£250,000 × 0.00035 tCO₂e/£ = 87.5 tCO₂e. The full embedded emission of the machine is recorded in the year of purchase."
+/>
+
+## Materiality and When to Include Category 2
+
+Category 2 tends to be most material for:
+- **Capital-intensive industries** (manufacturing, mining, energy, construction) where large machinery and facilities are regularly purchased
+- **Companies undergoing rapid expansion** (new factories, data centres, renewable energy installations)
+- **Technology companies** with significant server and hardware infrastructure
+
+For service-sector companies with minimal capital expenditure, Category 2 may be negligible. In such cases, the company should document this conclusion - noting the small capex budget relative to total spend - rather than simply omitting the category.
+
+<AnalogyBox>
+Accounting for a new factory building in Category 2 is like recording the full sticker price of a car as a cost in the year you buy it, rather than spreading it over five years of depreciation. From a carbon perspective, all the steel, concrete, glass, and energy used to make the building were consumed during its construction - those emissions occurred in the year the building was produced, regardless of how long it will be used.
+</AnalogyBox>
+
+<DeepDive title="Overlap risk between Category 2 and Category 1">
+A common error is double-counting assets purchased for resale (inventory) as capital goods. A logistics company that buys trucks for its own fleet records them in Category 2. A truck dealer that buys trucks to sell to customers records them in Category 1 (purchased goods for sale). The distinguishing test: if the item is used in the company's own operations, it is Category 2. If it is purchased for resale, it is Category 1.
+</DeepDive>
+
+<KeyTakeaways items="Category 2 covers capital goods (machinery, buildings, IT hardware, vehicles) - assets with extended useful lives that are capitalised and depreciated ;; Full cradle-to-gate emissions are attributed to the year of acquisition, not spread over the depreciation period - causing spikes in years with major capital investments ;; The same four calculation methods as Category 1 apply: supplier-specific, hybrid, average-data, and spend-based ;; Distinguish capital goods (used in operations - Category 2) from goods purchased for resale (inventory - Category 1) to avoid double-counting ;; Category 2 is most material for capital-intensive industries and companies undergoing rapid expansion (new factories, data centres)" />

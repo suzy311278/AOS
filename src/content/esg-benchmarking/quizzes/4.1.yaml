@@ -1,0 +1,26 @@
+- question: "What does carbon intensity measure in ESG peer benchmarking?"
+  options:
+    - "The total volume of Scope 1 and Scope 2 greenhouse gas emissions in absolute terms"
+    - "Greenhouse gas emissions expressed relative to a unit of business output, such as revenue or production volume"
+    - "The share of a company's energy consumption that comes from renewable sources"
+    - "The percentage reduction in absolute emissions achieved over a defined period"
+  answer: 1
+  explanation: "Carbon intensity normalises emissions relative to a unit of output such as revenue or production volume. This allows companies of different sizes in the same industry to be compared on an equal footing, which is the purpose of intensity metrics in peer benchmarking."
+
+- question: "Which MSCI key issue covers the risk arising from a company's exposure to water scarcity in the regions where it operates?"
+  options:
+    - "Toxic Emissions and Waste"
+    - "Biodiversity and Land Use"
+    - "Water Stress"
+    - "Raw Material Sourcing"
+  answer: 2
+  explanation: "The Water Stress key issue sits within the Natural Capital Theme of the MSCI Environmental Pillar. MSCI evaluates exposure to this key issue partly through geographic analysis, adjusting upward for companies with significant operations or revenue in highly water-stressed regions."
+
+- question: "What does the Sustainalytics Carbon - Own Operations Material ESG Issue assess?"
+  options:
+    - "Greenhouse gas emissions associated with the use of a company's products by its customers"
+    - "The carbon footprint of raw materials sourced from a company's supply chain"
+    - "Greenhouse gas emissions directly from a company's own operations"
+    - "The effectiveness of a company's carbon offset purchasing program"
+  answer: 2
+  explanation: "Sustainalytics identifies Carbon - Own Operations as an MEI covering GHG emissions from a company's direct operations. A separate MEI, Carbon - Products and Services, covers emissions associated with the use of a company's products."

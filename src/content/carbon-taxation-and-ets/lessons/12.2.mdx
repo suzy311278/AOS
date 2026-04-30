@@ -1,0 +1,296 @@
+{/* source: PMR Guide Ch 4.3; OECD Cost-Benefit Analysis */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/carbon-taxation-and-ets/12_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Economic Modeling for Carbon Pricing
+
+Economic models are essential tools for assessing carbon pricing impacts. This lesson provides a deeper look at how these models work, what they can tell us, and how to interpret their results.
+
+### The Role of Economic Models
+
+Economic models help answer key questions:
+
+- How much will emissions fall at a given carbon price?
+- What are the economic costs of carbon pricing?
+- How are different sectors and households affected?
+- What revenue will be generated?
+- How do different design choices compare?
+
+<HighlightBox>
+Models are simplifications of reality. They help us think systematically about complex systems, but their results should be interpreted with appropriate humility. The value is in the insights they provide, not in precise predictions.
+</HighlightBox>
+
+### Computable General Equilibrium Models
+
+CGE models are the workhorses of carbon pricing analysis.
+
+**How they work:**
+
+CGE models represent the economy as a set of interconnected markets. Households supply labor and capital. Firms produce goods using inputs. Markets clear through price adjustments. The model solves for equilibrium where all markets balance.
+
+**Key features:**
+- Multiple sectors and commodities
+- Trade between regions
+- Factor markets (labor, capital)
+- Government sector
+- Household consumption
+
+**Carbon pricing in CGE:**
+
+A carbon price is introduced as a tax on emissions. This changes relative prices throughout the economy. The model shows how production, consumption, and trade patterns adjust to the new prices.
+
+<ExampleBox>
+**CGE modeling of a carbon tax:**
+
+A CGE model of a $50/ton carbon tax might show:
+
+**Direct effects:**
+- Coal electricity costs rise 40%
+- Gas electricity costs rise 20%
+- Gasoline costs rise 10%
+
+**Indirect effects:**
+- Steel costs rise 8% (uses electricity, coal)
+- Aluminum costs rise 12% (electricity-intensive)
+- Services costs rise 2% (less energy-intensive)
+
+**Substitution:**
+- Electricity shifts from coal to gas and renewables
+- Transport shifts somewhat toward efficiency
+- Production shifts toward less energy-intensive goods
+
+**Overall:**
+- GDP impact: -0.5% to -1.5%
+- Emissions reduction: 15-25%
+- Employment shifts across sectors
+
+The power of CGE is showing these interconnections systematically.
+</ExampleBox>
+
+### Energy System Models
+
+Energy system models focus specifically on the energy sector with detailed technology representation.
+
+**Types:**
+
+**Optimization models:** Find the least-cost way to meet energy demand subject to constraints. Examples: TIMES, MESSAGE, PRIMES.
+
+**Simulation models:** Project how the energy system evolves based on decision rules. Examples: LEAP, NEMS.
+
+**What they show:**
+- Technology deployment over time
+- Fuel mix changes
+- Investment requirements
+- Emissions trajectories
+- Energy prices
+
+**Carbon pricing in energy models:**
+
+A carbon price changes the relative costs of different technologies. The model shows which technologies become competitive and how fast the transition occurs.
+
+### Macroeconometric Models
+
+These models estimate relationships using historical data.
+
+**Approach:**
+Use econometric techniques to estimate how economic variables (GDP, employment, prices) respond to policy changes based on observed patterns.
+
+**Advantages:**
+- Based on actual behavior, not assumed
+- Good for short to medium-term dynamics
+- Can incorporate institutional detail
+
+**Limitations:**
+- Assumes past relationships continue
+- May not handle structural change well
+- Less suitable for long-term analysis
+
+### Hybrid Models
+
+Many modern models combine approaches:
+
+**Energy-economy models:** Couple detailed energy models with economic models (e.g., NEMS-macroeconomic linkage).
+
+**CGE with technology detail:** Add detailed technology representation to CGE (e.g., GTAP-E).
+
+**Integrated assessment models:** Link economic, energy, and climate models (e.g., GCAM, REMIND, IMAGE).
+
+<DeepDive title="Understanding model differences">
+Different models often produce different results for the same policy:
+
+**Why models differ:**
+
+**Structure:**
+- CGE models emphasize substitution possibilities
+- Macroeconometric models emphasize demand dynamics
+- Energy models emphasize technology detail
+
+**Parameters:**
+- Elasticities vary across models
+- Technology assumptions differ
+- Baseline projections differ
+
+**Scope:**
+- Some models are global, some national
+- Some include multiple sectors, some focus on energy
+- Time horizons vary
+
+**How to handle differences:**
+
+- Use multiple models if possible
+- Understand why models differ
+- Focus on insights, not precise numbers
+- Report ranges, not single values
+- Be transparent about model choice
+
+**Model comparison projects:**
+
+Organizations like the Energy Modeling Forum conduct model comparison exercises where multiple models analyze the same scenario. These show the range of results and help identify key drivers of differences.
+</DeepDive>
+
+### Key Model Parameters
+
+Model results depend heavily on certain parameters:
+
+**Price elasticities:**
+
+How responsive are emissions to carbon prices?
+
+Short-run elasticities are typically lower than long-run because it takes time to change capital stock.
+
+**Substitution elasticities:**
+
+How easily can one fuel substitute for another? Can capital substitute for energy?
+
+Higher elasticities mean easier, cheaper adjustment.
+
+**Technology costs:**
+
+What do renewable energy, efficiency, and other low-carbon technologies cost?
+
+Declining technology costs can dramatically change model results.
+
+**Baseline assumptions:**
+
+What would emissions be without policy?
+
+A high baseline makes reductions look easier (or harder to achieve the same level).
+
+<ResponsiveTable>
+| Parameter | Typical range | Impact on results |
+|-----------|--------------|-------------------|
+| Price elasticity | -0.1 to -0.5 | Higher = more response to carbon price |
+| Substitution elasticity | 0.3 to 1.5 | Higher = easier adjustment |
+| Discount rate | 3% to 7% | Higher = less future focus |
+| Technology costs | Varies widely | Lower clean tech = easier transition |
+</ResponsiveTable>
+
+### Revenue and Fiscal Analysis
+
+Modeling carbon pricing revenue requires attention to:
+
+**Base erosion:**
+As emissions fall, the tax base shrinks. Revenue does not grow linearly with rate increases.
+
+**Interaction effects:**
+Carbon pricing affects other tax bases. Lower consumption may reduce sales tax revenue. Changed employment affects income tax revenue.
+
+**Revenue trajectory:**
+Revenue typically rises initially, then plateaus or declines as emissions fall.
+
+<ExampleBox>
+**Revenue projection example:**
+
+Year 1: 100 Mt x $30 = $3.0 billion
+Year 5: 90 Mt x $50 = $4.5 billion
+Year 10: 75 Mt x $70 = $5.25 billion
+Year 20: 50 Mt x $100 = $5.0 billion
+
+Revenue rises initially as rates increase faster than emissions fall. Eventually, deep decarbonization means revenue declines even as rates rise. This has fiscal planning implications.
+</ExampleBox>
+
+### Distributional Analysis
+
+Assessing who wins and who loses requires specific analytical approaches:
+
+**Household microsimulation:**
+Use survey data on household consumption to estimate direct and indirect carbon price impacts across income groups.
+
+**Input-output analysis:**
+Trace how carbon costs flow through supply chains to final consumption.
+
+**Regional analysis:**
+Examine geographic variation in impacts.
+
+**Sectoral employment analysis:**
+Which workers in which industries are most affected?
+
+### Competitiveness Analysis
+
+Assessing trade-exposed sector impacts:
+
+**Trade intensity:**
+What share of production is traded?
+
+**Emissions intensity:**
+How much does the carbon price affect costs?
+
+**Ability to pass through:**
+Can firms raise prices or do competitors set prices?
+
+**Relocation risk:**
+Are alternative locations realistic?
+
+### Model Validation
+
+How do we know if models are reliable?
+
+**Historical validation:**
+Can the model reproduce historical patterns?
+
+**Ex-post evaluation:**
+Did previous projections match outcomes?
+
+**Structural validity:**
+Does the model structure match how the economy actually works?
+
+**Cross-model comparison:**
+Do different models tell similar stories?
+
+<AnalogyBox>
+Economic models are like flight simulators. They help pilots (policymakers) practice decisions before facing real situations. They are valuable for training and planning, but no one would claim the simulator is exactly like actual flight. The goal is useful approximation, not perfect replication.
+</AnalogyBox>
+
+### Communicating Model Results
+
+Results need to be communicated effectively:
+
+**For technical audiences:**
+Full methodology, sensitivity analysis, uncertainty ranges.
+
+**For decision-makers:**
+Key findings, main scenarios, policy implications.
+
+**For the public:**
+Plain language summary, clear visualizations, honest about limitations.
+
+**In all cases:**
+Be transparent about assumptions, limitations, and uncertainties.
+
+### Building Modeling Capacity
+
+**Options for jurisdictions:**
+
+**Develop in-house:** Build your own modeling team. Most rigorous but most resource-intensive.
+
+**Commission external:** Contract modeling to consultants or academics. Faster but less control.
+
+**Use existing models:** Adapt international models to your context. Leverages existing work.
+
+**Collaborate regionally:** Share modeling resources with neighboring jurisdictions.
+
+**Progressive approach:** Start with simpler models, build toward more sophisticated capacity.
+
+### Looking Ahead
+
+Economic modeling provides quantitative inputs to decision-making. The next lesson examines how to synthesize modeling results and other evidence for decision-makers.

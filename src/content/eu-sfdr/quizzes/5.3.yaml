@@ -1,0 +1,44 @@
+- question: "How does ESMA define greenwashing in the context of financial services?"
+  options:
+    - "The practice of using green imagery in fund marketing materials"
+    - "A practice where sustainability-related statements, declarations, actions or communications do not clearly and fairly reflect the underlying sustainability profile of an entity, financial product or financial services — potentially misleading consumers and investors"
+    - "The act of classifying a product as Article 9 without ESMA approval"
+    - "The failure to report all mandatory PAI indicators in the annual PAI statement"
+  answer: 1
+  explanation: "ESMA's 2023 Greenwashing Progress Report defines greenwashing as a practice where sustainability-related statements, declarations, actions or communications do not clearly and fairly reflect the underlying sustainability profile of an entity, financial product or financial services. Crucially, this covers not just marketing materials but also official SFDR disclosures that misrepresent actual sustainability practices."
+
+- question: "Which of the following is the MOST significant greenwashing risk in SFDR compliance practice?"
+  options:
+    - "Using too many sustainability indicators in the PAI statement"
+    - "A gap between what SFDR disclosures claim (e.g., binding ESG criteria, sustainable investment percentages) and what actually happens in the investment process — the practice of making claims unsupported by actual implementation"
+    - "Reporting PAI indicators with estimated rather than reported data"
+    - "Publishing disclosures only in English when the product is marketed in multiple countries"
+  answer: 1
+  explanation: "The most significant greenwashing risk is the gap between disclosed commitments and actual practice. A fund can produce technically compliant SFDR disclosures (with the right templates, the right language, and the right numbers) but if the binding criteria described are not actually applied in portfolio construction, or if the sustainable investment percentages are overstated, this constitutes substantive greenwashing regardless of disclosure form compliance."
+
+- question: "Why was the wave of Article 9 to Article 8 reclassifications in 2022–2023 NOT necessarily evidence of greenwashing?"
+  options:
+    - "Because ESMA approved all reclassifications in advance"
+    - "Because the products' investment strategies were updated at the same time to reflect the lower sustainability ambition"
+    - "Because many products were proactively and honestly acknowledging that their investment strategies could not sustain the near-100% sustainable investment expectation that crystallised with the RTS — making the reclassification an act of transparency, not deception"
+    - "Because Article 8 and Article 9 are equivalent sustainability levels under the revised RTS"
+  answer: 2
+  explanation: "Many Article 9 to Article 8 reclassifications reflected honest reassessment — managers recognising that their investment strategies, while ESG-oriented, could not consistently meet the emerging expectation of near-100% sustainable investments with rigorous DNSH. Proactive reclassification accompanied by clear investor communication is the opposite of greenwashing. Greenwashing concerns arise where reclassification occurs without genuine change or clear investor notification."
+
+- question: "What is the 'three-consistency check' that firms should apply before publishing SFDR disclosures?"
+  options:
+    - "Checking consistency between the RTS requirements, the ESMA Q&As, and the EC FAQ"
+    - "Verifying that the pre-contractual document, website disclosure, and periodic report for the same product all describe the same sustainability indicators, binding criteria, and minimum proportions consistently"
+    - "Checking that PAI indicator calculations are consistent with three different data providers"
+    - "Ensuring the firm's Article 3, 4, and 5 disclosures are consistent with each other"
+  answer: 1
+  explanation: "The three-consistency check verifies that all three disclosure layers for a product — pre-contractual document, website disclosure, and periodic report — are internally consistent. They must reference the same sustainability indicators, the same binding investment criteria, and the same minimum proportion commitments. Inconsistencies across these documents undermine the SFDR disclosure framework and create greenwashing risk."
+
+- question: "Which internal control is most effective in preventing marketing-level greenwashing (where marketing materials make sustainability claims beyond what SFDR disclosures commit to)?"
+  options:
+    - "Prohibiting all ESG-related marketing for Article 6 products"
+    - "A pre-publication review process where all marketing materials containing sustainability claims are checked against the product's SFDR disclosures before release"
+    - "Requiring marketing teams to obtain ESMA approval for sustainability claim language"
+    - "Limiting all sustainability marketing to statements that appear verbatim in the RTS templates"
+  answer: 1
+  explanation: "A pre-publication marketing review process — where compliance or legal teams verify that sustainability claims in marketing materials are consistent with and supported by the product's SFDR pre-contractual disclosures — is the most direct preventive control. This prevents the common scenario where marketing departments use stronger sustainability language than the formal SFDR disclosures warrant."

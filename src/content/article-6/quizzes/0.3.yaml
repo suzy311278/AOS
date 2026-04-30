@@ -1,0 +1,44 @@
+- question: "Under the Paris Agreement, NDCs are required to be updated every five years and must be 'progressively more ambitious.' What is the name for this requirement?"
+  options:
+    - "The global stocktake mechanism"
+    - "The ratchet mechanism"
+    - "The ambition escalation protocol"
+    - "The Paris Progression Cycle"
+  answer: 1
+  explanation: "The ratchet mechanism -- enshrined in Article 4 of the Paris Agreement -- requires each country to submit a new NDC every five years, with each successive NDC representing at least as much ambition as the previous one and ideally more. The global stocktake (held every five years) informs this process by assessing the collective adequacy of all NDCs against the Agreement's temperature goals."
+
+- question: "When a country uses Article 6 ITMOs to contribute toward its NDC target, what happens to its official national GHG inventory?"
+  options:
+    - "The inventory is reduced by the amount of ITMOs purchased, because the buyer country claims the reductions as its own"
+    - "No change is made to the inventory -- ITMO use is tracked separately in a voluntary registry"
+    - "A corresponding adjustment is applied: the buyer country's effective emissions are reduced by the ITMO amount for NDC accounting purposes, while the host country's inventory is adjusted upward"
+    - "The host country's inventory is reduced by the ITMO amount, because the project took place on its territory"
+  answer: 2
+  explanation: "The corresponding adjustment mechanism works bilaterally. The host country's national GHG inventory is adjusted upward by the amount of the ITMO -- effectively returning the reduction to the host's ledger, so it no longer counts toward the host country's NDC. The acquiring country applies a downward adjustment, effectively crediting the reduction to its own NDC progress. This ensures the reduction is counted once and once only globally."
+
+- question: "78% of countries' NDCs indicate an intention to use at least one Article 6 mechanism. Which of the following best explains why developing host countries are typically interested in participating?"
+  options:
+    - "Developing countries can use Article 6 to avoid setting binding NDC targets while still participating in the Paris Agreement"
+    - "Article 6 allows developing countries to sell their highest-cost domestic abatement opportunities to wealthy nations"
+    - "Participating in Article 6 mechanisms can attract international climate finance for projects that might otherwise lack investment capital"
+    - "Developing countries can use Article 6 to receive credit for historical emissions reductions that occurred before 2015"
+  answer: 2
+  explanation: "Developing host countries with significant but underfinanced mitigation potential -- renewable energy resources, forest conservation opportunities, sustainable land use projects -- can use Article 6 to attract foreign buyers willing to pay for the resulting credits. The project finance flows to the host country, infrastructure gets built, and the emission reduction is formally transferred to the buyer's NDC accounting. This turns domestic mitigation potential into a source of international climate finance."
+
+- question: "A company purchases carbon credits and retires them in a voluntary registry, making a 'carbon neutral' claim. Which of the following most accurately describes the relationship between this purchase and the host country's NDC?"
+  options:
+    - "The corporate purchase automatically counts toward the host country's NDC, because the project took place within its borders"
+    - "The relationship depends on whether the credits are authorised A6.4ERs (with corresponding adjustment) or mitigation contribution units (without): the former creates an additional NDC obligation for the host country, the latter allows the reduction to remain in the host country's NDC accounting"
+    - "Corporate carbon credit purchases are completely separate from NDC accounting and have no effect on any country's climate targets"
+    - "Corporate purchases reduce the host country's NDC obligation because less domestic mitigation is needed once a foreign company has paid for the reduction"
+  answer: 1
+  explanation: "The answer depends critically on the type of credit. If the credits are authorised A6.4ERs or authorised ITMOs (with a corresponding adjustment), the host country has formally removed those reductions from its NDC accounting -- it must find additional domestic reductions to replace them. If the credits are mitigation contribution units (no corresponding adjustment), the emission reduction remains in the host country's inventory and contributes to its NDC progress. The corporate buyer gets a voluntary offset claim, but the NDC accounting benefit stays with the host country."
+
+- question: "A country's NDC includes an 'unconditional' target and a more ambitious 'conditional' target. What does the conditional target typically depend on?"
+  options:
+    - "The country achieving its unconditional target first, before the conditional target becomes binding"
+    - "The provision of international support -- financial, technological, or technical -- from other countries or multilateral institutions"
+    - "The country ratifying additional UN climate treaties beyond the Paris Agreement"
+    - "Whether global average temperature rise remains below 1.5C during the NDC period"
+  answer: 1
+  explanation: "Many developing countries structure their NDCs with two tiers: an unconditional target representing what the country can achieve with its own domestic resources, and a more ambitious conditional target achievable only if it receives international financial, technological, or capacity-building support. Article 6 mechanisms -- which channel international climate finance to host countries in exchange for carbon credits -- are exactly the kind of support that conditional NDC targets contemplate."

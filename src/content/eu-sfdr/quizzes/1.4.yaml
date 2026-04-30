@@ -1,0 +1,44 @@
+- question: "What specific title must be used for the section of the website containing the entity-level PAI statement?"
+  options:
+    - "'Our ESG Approach'"
+    - "'Sustainability Strategy'"
+    - "'Statement on principal adverse impacts of investment decisions on sustainability factors'"
+    - "'Environmental and Social Impact Report'"
+  answer: 2
+  explanation: "The RTS requires the PAI statement to be published in a dedicated section of the website with the exact title 'Statement on principal adverse impacts of investment decisions on sustainability factors.' This precise title is required for regulatory compliance — alternative titles (even similar ones) would not satisfy the requirement."
+
+- question: "Under Article 10 of SFDR, which products require specific website disclosures about the product's sustainability approach?"
+  options:
+    - "All financial products including Article 6"
+    - "Only Article 9 products"
+    - "Article 8 and Article 9 products"
+    - "Only products with more than 50% sustainable investments"
+  answer: 2
+  explanation: "Article 10 of SFDR requires website disclosures specifically for Article 8 products (promoting E/S characteristics) and Article 9 products (sustainable investment objective). Article 6 products do not require dedicated product-level website sustainability disclosures beyond the entity-level information."
+
+- question: "What does ESMA Q&A I.4 say about financial market participants that have no website?"
+  options:
+    - "They may use paper-based disclosures as an alternative to website publication"
+    - "They must create a website in order to comply with SFDR; they may use a group website that functions as their own"
+    - "They are exempt from website disclosure requirements if they have fewer than 10 products"
+    - "They must file all SFDR disclosures directly with the NCA instead of a website"
+  answer: 1
+  explanation: "ESMA Q&A I.4 (published 25 July 2024) confirms that if an FMP has no website, it must create one to comply with SFDR's website disclosure requirements. The FMP may alternatively use a group website if it corresponds to the FMP's own website. In any case, the information must be easily accessible, kept up to date, and changes must be clearly explained."
+
+- question: "What is the relationship between the pre-contractual document, website disclosure, and periodic report for an Article 8 product?"
+  options:
+    - "They are three independent documents with different sustainability frameworks for different audiences"
+    - "They form a layered disclosure system: the pre-contractual document provides concise information, the website expands on it, and the periodic report shows actual results — all must be consistent with each other"
+    - "Only one of the three is required at a time, depending on the investor's preference"
+    - "The pre-contractual document supersedes the website and periodic report"
+  answer: 1
+  explanation: "The RTS creates a three-layer disclosure architecture: the pre-contractual document (concise, given before investment decision), the website disclosure (expanded information, linked via hyperlink), and the periodic report (actual results vs commitments). All three must be internally consistent — using the same sustainability indicators, the same binding criteria, and the same minimum proportions."
+
+- question: "When must website disclosures be updated after a material change to an Article 8 product's investment strategy?"
+  options:
+    - "At the next scheduled annual review"
+    - "Within five years of the change"
+    - "Promptly after the change, with the date of revision and explanation of changes clearly indicated"
+    - "Only when required by the NCA after a supervisory inspection"
+  answer: 2
+  explanation: "Article 12 of SFDR and Article 2 of the RTS require that website disclosures are kept up to date and that any revisions are clearly explained with the date of the change. Material changes to the investment strategy — such as adding or removing an ESG screen, changing a minimum proportion commitment, or reclassifying a product — must be reflected promptly in updated website disclosures."

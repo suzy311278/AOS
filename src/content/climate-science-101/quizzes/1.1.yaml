@@ -1,0 +1,26 @@
+- question: "How much warmer was the 2011–2020 decade compared to the 1850–1900 pre-industrial baseline, according to IPCC AR6?"
+  options:
+    - "0.5°C warmer"
+    - "0.85°C warmer"
+    - "1.09°C warmer"
+    - "1.5°C warmer"
+  answer: 2
+  explanation: "The IPCC AR6 reports that global surface temperature in 2011–2020 was 1.09°C (likely range 0.95–1.20°C) above the 1850–1900 pre-industrial baseline. The warming is larger over land (1.59°C) than over the ocean (0.88°C). By 2024, NOAA data shows annual average temperatures had reached approximately 1.35°C above pre-industrial levels."
+
+- question: "Why do scientists express temperature records as 'anomalies' rather than absolute temperatures?"
+  options:
+    - "Because absolute temperatures are too cold to be meaningful for policy discussions"
+    - "Because anomalies — departures from a reference period average — are more spatially consistent and allow stations with very different baseline temperatures to be compared on the same scale"
+    - "Because satellite instruments cannot measure absolute temperature accurately"
+    - "Because absolute temperatures vary so much between day and night that they cannot be averaged meaningfully"
+  answer: 1
+  explanation: "Temperature anomalies (departures from a reference period) are used because a station in the tropics and one at the Arctic may differ by 40°C in absolute terms, but both show similar anomaly trends when the climate warms. Anomalies cancel out local baseline differences, making it much easier to identify regional and global patterns of change."
+
+- question: "Which observation most directly refutes the argument that the urban heat island effect is causing the global warming trend in surface records?"
+  options:
+    - "Urban stations show exactly the same warming as rural stations, proving no urban bias exists"
+    - "All temperature records have been corrected for urban effects using satellite data"
+    - "Ocean temperature records (from buoys far from any city) show the same long-term warming trend as land records, and urban heat cannot warm the open ocean"
+    - "The urban heat island effect only affects temperature within 1 kilometre of city centres and is therefore negligible in global averages"
+  answer: 2
+  explanation: "The most direct refutation is that ocean surface temperatures — measured by buoys and ships far from any urban area — show the same long-term warming trend as land-based records. Since urban heat cannot warm the open Pacific or Atlantic Ocean, the warming signal in ocean records cannot be an urban artifact. Additionally, multiple research groups that specifically tested for urban bias found it to be negligible in global trends."

@@ -1,0 +1,26 @@
+- question: "What are the two core factors combined in the Material Circularity Indicator (MCI)?"
+  options:
+    - "Carbon footprint and water consumption"
+    - "Recycled input fraction and end-of-life recovery fraction (plus a utility factor)"
+    - "Recycling rate and material cost savings"
+    - "Product durability and repairability score"
+  answer: 1
+  explanation: "The MCI combines two core factors: the fraction of recycled or renewable input feedstock (what proportion of materials entering the product come from recycled or renewable sources) and the fraction of materials collected and effectively recycled at end of life. It also incorporates a utility factor accounting for product lifetime and intensity of use."
+
+- question: "What MCI value represents a fully circular product?"
+  options:
+    - "MCI = 0"
+    - "MCI = 0.5"
+    - "MCI = 1.0"
+    - "MCI = 10"
+  answer: 2
+  explanation: "An MCI of 1.0 represents a fully circular product: made entirely from recycled or renewable inputs, used intensively over a long lifetime, and fully recovered at end of life. An MCI of 0 represents a fully linear product made from virgin inputs, used briefly, and landfilled."
+
+- question: "Why can official recycling rates be misleading as circularity metrics?"
+  options:
+    - "They are measured annually rather than continuously, creating time lag"
+    - "They count weight entering a recycling process, not the quality or value of recovered material"
+    - "They are self-reported by companies without independent verification"
+    - "They exclude industrial waste and only measure household waste"
+  answer: 1
+  explanation: "Official recycling rates typically measure the weight of material entering a recycling process, not the quality or yield of the output. A material counted as 100% 'recycled' may yield only low-grade output suitable for non-recyclable applications. True circularity requires tracking effective material recovery at equivalent quality, not just the quantity processed."

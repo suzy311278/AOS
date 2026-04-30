@@ -1,0 +1,8 @@
+- question: "What must an SFDR Article 6 product disclose about the taxonomy?"
+  options:
+    - "Its taxonomy alignment percentage"
+    - "A statement that it does not consider EU taxonomy criteria"
+    - "Which environmental objectives it contributes to"
+    - "Nothing - Article 6 products are exempt"
+  answer: 1
+  explanation: "Article 6 products must include a disclaimer stating that the investments do not take into account the EU criteria for environmentally sustainable economic activities."

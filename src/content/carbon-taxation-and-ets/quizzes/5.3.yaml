@@ -1,0 +1,35 @@
+- question: "What are offsets in the context of carbon pricing?"
+  options:
+    - "Reductions from uncovered sectors or jurisdictions that can be used for compliance"
+    - "Financial derivatives"
+    - "Tax exemptions"
+    - "Renewable energy subsidies"
+  answer: 0
+  explanation: "Offsets are emissions reductions from projects outside the ETS coverage (different sectors or jurisdictions) that can be used in place of allowances for compliance, expanding reduction opportunities."
+
+- question: "What is additionality in offset projects?"
+  options:
+    - "Extra revenue for the government"
+    - "The requirement that reductions would not have occurred without the offset project"
+    - "Additional emissions"
+    - "More than one offset per ton"
+  answer: 1
+  explanation: "Additionality means the emission reductions are additional to what would have happened anyway. Without additionality, offsets represent reductions that would have occurred regardless, undermining environmental integrity."
+
+- question: "Why do ETS systems typically limit the quantity of offsets allowed?"
+  options:
+    - "To punish offset providers"
+    - "To ensure most reductions occur within the capped sectors and maintain environmental integrity"
+    - "Because offsets are too expensive"
+    - "To maximize government revenue"
+  answer: 1
+  explanation: "Unlimited offsets could allow covered entities to avoid reducing their own emissions entirely, undermining the cap's environmental certainty and the ETS's effectiveness."
+
+- question: "What is one way offsets can provide price management?"
+  options:
+    - "Offsets replace the cap entirely"
+    - "Allowing more offsets when prices are high expands supply and moderates prices"
+    - "Offsets eliminate price volatility"
+    - "Offsets guarantee low prices"
+  answer: 1
+  explanation: "Allowing additional offset use when prices exceed certain levels creates a soft ceiling by expanding the effective supply of compliance instruments."

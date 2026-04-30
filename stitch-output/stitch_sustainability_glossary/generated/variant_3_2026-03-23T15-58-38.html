@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The SOC Ledger | Greentryst Sustainability Journal</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&amp;family=Inter:wght@300;400;500&amp;family=Manrope:wght@200;400;700&amp;family=JetBrains+Mono&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style type="text/tailwindcss">
+        :root {
+            --journal-bg: #f9f7f2;
+            --journal-text: #1a1c1a;
+            --accent-sage: #6b7c6a;
+            --accent-clay: #a67c52;
+            --accent-slate: #4a5568;
+            --border-muted: #e5e1d8;
+        }
+        body {
+            background-color: var(--journal-bg);
+            color: var(--journal-text);
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+        .serif-display {
+            font-family: 'Cormorant Garamond', serif;
+        }
+        .editorial-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 1.5rem;
+        }
+        .wobbly-line {
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            fill: none;
+            stroke-width: 2.5;
+            opacity: 0.8;
+        }
+        .dropcap::first-letter {
+            float: left;
+            font-size: 5rem;
+            line-height: 0.8;
+            margin: 0.5rem 0.75rem 0 0;
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 600;
+            color: var(--accent-sage);
+        }::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--journal-bg);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #d1cfc9;
+        }
+    </style>
+</head>
+<body class="selection:bg-sage-200 selection:text-sage-900">
+<header class="fixed top-0 left-0 w-full z-50 bg-white/30 backdrop-blur-lg border-b border-[var(--border-muted)] px-8 py-4 flex justify-between items-center">
+<div class="font-manrope text-xs uppercase tracking-[0.4em] font-bold">Greentryst Academy</div>
+<div class="hidden md:flex gap-12 font-manrope text-[10px] uppercase tracking-widest font-semibold">
+<a class="hover:text-[var(--accent-sage)] transition-colors" href="#">Archive</a>
+<a class="hover:text-[var(--accent-sage)] transition-colors" href="#">Research</a>
+<a class="hover:text-[var(--accent-sage)] transition-colors" href="#">Manifesto</a>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-lg opacity-60">search</span>
+<span class="material-symbols-outlined text-lg opacity-60">menu</span>
+</div>
+</header>
+<main class="pt-24 pb-32">
+<section class="max-w-[1400px] mx-auto px-6 mb-32">
+<div class="editorial-grid">
+<div class="col-span-12 lg:col-span-8 relative">
+<div class="aspect-[16/10] bg-zinc-200 overflow-hidden rounded-sm grayscale-[0.2] hover:grayscale-0 transition-all duration-700">
+<img alt="Aerial reforestation" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcinzvh32EeEjLqO5zR7YvyJdkrcgkfZSOTA3xyJ4qkgbcSOu-cuvG2fGw_o5kZwCbMUjwJ_izaGZbO3WkoOV6X1kQh-EuQM4v15B66RfGDM1JPdgQ--0BrWLxGgqJtoJjnqFwtfZMO3o5PxbZ6Lno38hd8_SlOJZHd19ibdMMeJPvkg10hwE6h2vFS-CnY3nd1UQ7WgxM04Lq017T3__TIRo1z3MOXF8EIo0ptkl6n64EagKlyCm94unhwB0S-F56JPMAaEi5Aa5g"/>
+</div>
+<div class="absolute -bottom-12 -right-12 lg:right-[-10%] bg-[var(--journal-bg)] p-12 max-w-lg hidden md:block">
+<h1 class="serif-display text-7xl leading-tight font-semibold italic mb-6">The SOC Ledger</h1>
+<p class="font-manrope text-sm tracking-wide text-zinc-500 uppercase">Volume IV — Chapter 2: Carbon Stocks</p>
+</div>
+</div>
+<div class="col-span-12 md:col-span-4 flex flex-col justify-end pt-20 lg:pt-0">
+<div class="md:hidden mb-8">
+<h1 class="serif-display text-5xl leading-tight font-semibold italic">The SOC Ledger</h1>
+</div>
+<p class="dropcap text-lg leading-relaxed text-zinc-700 serif-display italic font-light">
+                        Measuring the invisible architecture of our planet starts at the surface. Soil Organic Carbon (SOC) is more than a metric; it is the physical memory of a landscape's regeneration. Understanding its stock is the first step in auditing the earth's recovery.
+                    </p>
+</div>
+</div>
+</section>
+<section class="max-w-[1100px] mx-auto px-6 mb-40">
+<div class="flex flex-col items-center mb-24">
+<span class="font-manrope text-[10px] uppercase tracking-widest text-zinc-400 mb-6">The Core Formula</span>
+<div class="flex flex-wrap justify-center items-center gap-x-8 gap-y-12 serif-display text-5xl md:text-6xl text-zinc-800">
+<span class="border-b-2 border-blue-200 pb-2">SOC Stock</span>
+<span class="text-zinc-300">=</span>
+<span class="text-[var(--accent-sage)] italic">OC</span>
+<span class="text-zinc-200 text-3xl">×</span>
+<span class="text-[var(--accent-clay)] italic">BD</span>
+<span class="text-zinc-200 text-3xl">×</span>
+<span class="text-purple-400 italic">D</span>
+<span class="text-zinc-200 text-3xl">×</span>
+<span class="text-rose-300">0.1</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="space-y-4">
+<h4 class="font-manrope text-[11px] font-bold uppercase tracking-widest text-zinc-400">01. Organic Carbon</h4>
+<p class="text-sm leading-relaxed text-zinc-600">The raw concentration of carbon matter within the soil matrix, expressed as mass per weight.</p>
+</div>
+<div class="space-y-4">
+<h4 class="font-manrope text-[11px] font-bold uppercase tracking-widest text-zinc-400">02. Bulk Density</h4>
+<p class="text-sm leading-relaxed text-zinc-600">The structural weight of dry soil per volume unit. It bridges the gap between concentration and mass.</p>
+</div>
+<div class="space-y-4">
+<h4 class="font-manrope text-[11px] font-bold uppercase tracking-widest text-zinc-400">03. Sampling Depth</h4>
+<p class="text-sm leading-relaxed text-zinc-600">The vertical dimension. Often measured at horizons of 30cm or 100cm to capture deep sequestration.</p>
+</div>
+<div class="space-y-4">
+<h4 class="font-manrope text-[11px] font-bold uppercase tracking-widest text-zinc-400">04. Constant</h4>
+<p class="text-sm leading-relaxed text-zinc-600">A mathematical anchor (0.1) ensuring all variables harmonize into the final unit: tC/ha.</p>
+</div>
+</div>
+</section>
+<section class="bg-zinc-900 text-zinc-400 py-32 px-6">
+<div class="max-w-[1200px] mx-auto">
+<div class="editorial-grid items-center">
+<div class="col-span-12 lg:col-span-5 space-y-12">
+<div>
+<h2 class="serif-display text-4xl text-white italic mb-8">In Practice</h2>
+<div class="font-mono text-zinc-300 bg-white/5 border border-white/10 p-8 rounded-sm">
+                                SOC stock = 18 g/kg x 1.35 g/cm³ x 30 cm x 0.1 = <span class="text-emerald-400 font-bold">72.9 tC/ha</span>
+</div>
+</div>
+<div class="p-8 border-l-2 border-[var(--accent-sage)] bg-white/5">
+<h3 class="font-manrope text-xs font-bold text-white uppercase tracking-widest mb-4">Key Insight</h3>
+<p class="text-sm italic leading-relaxed">Small deviations in Organic Carbon (OC) or Bulk Density (BD) amplify significantly when extrapolated to the hectare. In the carbon markets, precision is the only currency.</p>
+</div>
+</div>
+<div class="col-span-12 lg:col-span-6 lg:col-start-7">
+<h2 class="serif-display text-4xl text-white italic mb-12">The Pipeline</h2>
+<div class="space-y-12">
+<div class="flex gap-8 group">
+<span class="font-manrope text-4xl font-extralight text-zinc-700 group-hover:text-zinc-500 transition-colors">01</span>
+<div>
+<h4 class="text-white font-medium mb-2">Soil Extraction</h4>
+<p class="text-sm text-zinc-500">Representative field sampling across diverse strata.</p>
+</div>
+</div>
+<div class="flex gap-8 group">
+<span class="font-manrope text-4xl font-extralight text-zinc-700 group-hover:text-zinc-500 transition-colors">02</span>
+<div>
+<h4 class="text-white font-medium mb-2">Laboratory Synthesis</h4>
+<p class="text-sm text-zinc-500">Dry combustion and mass density verification.</p>
+</div>
+</div>
+<div class="flex gap-8 group">
+<span class="font-manrope text-4xl font-extralight text-zinc-700 group-hover:text-zinc-500 transition-colors">03</span>
+<div>
+<h4 class="text-white font-medium mb-2">Quantification</h4>
+<p class="text-sm text-zinc-500">Applying the SOC Stock formula to verified data.</p>
+</div>
+</div>
+<div class="flex gap-8 group">
+<span class="font-manrope text-4xl font-extralight text-zinc-700 group-hover:text-zinc-500 transition-colors">04</span>
+<div>
+<h4 class="text-white font-medium mb-2">Certification</h4>
+<p class="text-sm text-zinc-500">Final deductions and third-party validation.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-40 max-w-[1200px] mx-auto px-6">
+<div class="editorial-grid">
+<div class="col-span-12 md:col-span-7">
+<h3 class="serif-display text-3xl mb-12 italic">Methodological Standards</h3>
+<div class="overflow-x-auto">
+<table class="w-full text-left font-manrope text-xs">
+<thead class="border-b border-zinc-200 text-zinc-400 uppercase tracking-widest">
+<tr>
+<th class="py-4 font-normal">Variable</th>
+<th class="py-4 font-normal">Definiton</th>
+<th class="py-4 font-normal">Method</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-zinc-100">
+<tr>
+<td class="py-8 font-bold text-[var(--accent-sage)]">OC</td>
+<td class="py-8 text-zinc-500">Organic Carbon Concentration</td>
+<td class="py-8 italic">Dry Combustion (Dumas)</td>
+</tr>
+<tr>
+<td class="py-8 font-bold text-[var(--accent-clay)]">BD</td>
+<td class="py-8 text-zinc-500">Bulk Density</td>
+<td class="py-8 italic">Cylindrical Core Sampling</td>
+</tr>
+<tr>
+<td class="py-8 font-bold text-purple-400">D</td>
+<td class="py-8 text-zinc-500">Sampling Depth</td>
+<td class="py-8 italic">Standard Soil Auger</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="col-span-12 md:col-span-4 md:col-start-9 space-y-12 flex flex-col justify-center">
+<div class="p-8 bg-blue-50/50 border border-blue-100 italic serif-display text-xl text-blue-900 leading-relaxed">
+                        "Think of SOC stock as the volume of traffic on a highway. OC represents the percentage of electric vehicles, while BD represents the lanes available. We require both to quantify the impact."
+                    </div>
+<div class="space-y-4">
+<h4 class="font-manrope text-[10px] uppercase tracking-widest text-zinc-400">Example Scenario</h4>
+<div class="text-sm leading-relaxed text-zinc-600">
+                            A degraded silvopasture at 12 g/kg OC (1.45 BD) yields <span class="font-bold">52.2 tC/ha</span>. Five years of regenerative rest can lift this to <span class="font-bold">65.25 tC/ha</span>.
+                        </div>
+</div>
+</div>
+</div>
+</section>
+<section class="max-w-[1200px] mx-auto px-6 mb-40">
+<div class="bg-white p-12 md:p-20 shadow-sm border border-zinc-100">
+<div class="flex flex-col md:flex-row justify-between items-baseline mb-16 gap-4">
+<h2 class="serif-display text-4xl italic">Projected Global Warming</h2>
+<div class="flex gap-6 font-manrope text-[10px] uppercase tracking-widest text-zinc-400">
+<span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-rose-400"></span> SSP5-8.5</span>
+<span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-emerald-400"></span> SSP1-1.9</span>
+</div>
+</div>
+<div class="relative h-[400px] w-full border-l border-b border-zinc-100">
+<svg class="w-full h-full" preserveAspectRatio="none" viewBox="0 0 800 400">
+<path class="wobbly-line stroke-rose-400" d="M 0 350 Q 200 320 400 200 T 800 20"></path>
+<path class="wobbly-line stroke-orange-300" d="M 0 350 Q 250 330 450 240 T 800 100"></path>
+<path class="wobbly-line stroke-amber-200" d="M 0 350 Q 300 340 500 300 T 800 180"></path>
+<path class="wobbly-line stroke-zinc-200" d="M 0 350 Q 350 360 550 340 T 800 250"></path>
+<path class="wobbly-line stroke-emerald-400" d="M 0 350 Q 400 370 600 365 T 800 340"></path>
+</svg>
+<div class="absolute -left-12 top-0 h-full flex flex-col justify-between font-mono text-[10px] text-zinc-300">
+<span>5.0°C</span>
+<span>1.1°C</span>
+</div>
+<div class="absolute -bottom-8 left-0 w-full flex justify-between font-mono text-[10px] text-zinc-300">
+<span>2020</span>
+<span>2100</span>
+</div>
+</div>
+<p class="mt-20 text-center font-manrope text-[10px] uppercase tracking-widest text-zinc-300 italic">Historical projection data aggregated from IPCC AR6</p>
+</div>
+</section>
+<section class="max-w-[750px] mx-auto px-6 space-y-24">
+<div class="border-t border-zinc-200 pt-24 text-center">
+<span class="font-manrope text-[10px] uppercase tracking-widest text-zinc-400 block mb-12">Deep Dive</span>
+<details class="group cursor-pointer">
+<summary class="list-none flex flex-col items-center">
+<h3 class="serif-display text-3xl italic hover:text-[var(--accent-sage)] transition-colors">Why Stratified Random Sampling?</h3>
+<span class="material-symbols-outlined mt-4 group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="pt-12 text-left space-y-6 serif-display text-xl leading-relaxed text-zinc-600">
+<p>Soil isn’t uniform. Patchwork topographies and historical land use create "islands" of carbon. Stratified sampling ensures we capture the reality of the whole plot, not just a single fertile outlier.</p>
+<ol class="space-y-4 font-manrope text-sm text-zinc-500 list-decimal pl-5">
+<li>Partition the project into distinct "strata" by soil type.</li>
+<li>Proportional sample plot assignment.</li>
+<li>Randomized location to eliminate researcher bias.</li>
+</ol>
+</div>
+</details>
+</div>
+<div class="bg-zinc-100 p-12 md:p-20 rounded-sm">
+<h3 class="serif-display text-3xl italic mb-8">The Reader's Challenge</h3>
+<p class="text-lg serif-display italic text-zinc-700 mb-12">A project avoids 10 tonnes of CH4. What is the CO2e equivalent?</p>
+<div class="space-y-8">
+<div class="relative">
+<input class="w-full bg-white border-none text-3xl serif-display font-light p-6 focus:ring-0 placeholder:text-zinc-200" placeholder="00.00" type="number"/>
+<span class="absolute right-6 top-1/2 -translate-y-1/2 font-manrope text-[10px] uppercase tracking-widest text-zinc-300">tCO2e</span>
+</div>
+<div class="flex flex-wrap gap-4">
+<button class="px-6 py-2 font-manrope text-[10px] uppercase tracking-widest border border-zinc-200 hover:border-zinc-400 transition-colors">Hint: Methane GWP</button>
+<button class="px-6 py-2 font-manrope text-[10px] uppercase tracking-widest border border-zinc-200 hover:border-zinc-400 transition-colors">Hint: Multiplication</button>
+</div>
+<button class="w-full bg-zinc-900 text-white py-6 font-manrope text-xs uppercase tracking-[0.3em] hover:bg-zinc-800 transition-all">Submit Solution</button>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-[var(--border-muted)] py-20 px-8">
+<div class="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+<div class="space-y-6 max-w-xs">
+<div class="font-manrope text-sm font-bold tracking-[0.3em] uppercase">Greentryst Academy</div>
+<p class="text-xs text-zinc-400 leading-relaxed font-light">An editorial collective dedicated to the technical precision of our planet's ecological restoration.</p>
+</div>
+<div class="grid grid-cols-2 gap-x-20 gap-y-8 font-manrope text-[10px] uppercase tracking-widest font-semibold">
+<div class="flex flex-col gap-4">
+<a class="hover:opacity-50 transition-opacity" href="#">Privacy Policy</a>
+<a class="hover:opacity-50 transition-opacity" href="#">Terms of Research</a>
+</div>
+<div class="flex flex-col gap-4">
+<a class="hover:opacity-50 transition-opacity" href="#">Journal Index</a>
+<a class="hover:opacity-50 transition-opacity" href="#">Contact Bureau</a>
+</div>
+</div>
+<div class="text-[10px] font-manrope tracking-widest text-zinc-300">
+                © 2024 GREENTRYST SUSTAINABILITY. PRINTED DIGITALLY.
+            </div>
+</div>
+</footer>
+
+</body></html>

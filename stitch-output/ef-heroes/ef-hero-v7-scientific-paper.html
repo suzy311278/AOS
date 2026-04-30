@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container": "#eceeed",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "primary": "#00433d",
+                        "background": "#f8faf9",
+                        "surface-tint": "#1a6962",
+                        "secondary": "#4e6262",
+                        "outline-variant": "#bec9c6",
+                        "error": "#ba1a1a",
+                        "primary-container": "#005c55",
+                        "secondary-container": "#d0e7e6",
+                        "on-surface-variant": "#3f4947",
+                        "tertiary-container": "#744800",
+                        "primary-fixed-dim": "#8cd4ca",
+                        "on-primary-container": "#8ad2c8",
+                        "on-secondary-container": "#546868",
+                        "error-container": "#ffdad6",
+                        "on-primary-container-alt": "#8ad2c8",
+                        "on-secondary-fixed": "#0a1f1f",
+                        "surface-container-low": "#f2f4f3",
+                        "on-primary": "#ffffff",
+                        "secondary-fixed": "#d0e7e6",
+                        "on-tertiary-container": "#ffb759",
+                        "primary-fixed": "#a7f0e6",
+                        "surface-container-highest": "#e1e3e2",
+                        "on-surface": "#191c1c",
+                        "on-primary-fixed": "#00201d",
+                        "tertiary-fixed-dim": "#ffb95f",
+                        "on-secondary-fixed-variant": "#364a4a",
+                        "on-error": "#ffffff",
+                        "on-tertiary-fixed-variant": "#653e00",
+                        "on-primary-fixed-variant": "#00504a",
+                        "on-tertiary-fixed": "#2a1700",
+                        "on-background": "#191c1c",
+                        "secondary-fixed-dim": "#b5cbca",
+                        "inverse-surface": "#2e3131",
+                        "surface": "#f8faf9",
+                        "tertiary-fixed": "#ffddb8",
+                        "surface-container-high": "#e6e9e8",
+                        "tertiary": "#553300",
+                        "on-error-container": "#93000a",
+                        "surface-variant": "#e1e3e2",
+                        "outline": "#6f7977",
+                        "surface-dim": "#d8dada",
+                        "on-tertiary": "#ffffff",
+                        "inverse-on-surface": "#eff1f0",
+                        "inverse-primary": "#8cd4ca",
+                        "surface-bright": "#f8faf9",
+                        "paper": "#fbfaf6"
+                    },
+                    "fontFamily": {
+                        "sans": ["Inter", "sans-serif"],
+                        "mono": ["JetBrains Mono", "monospace"],
+                        "serif": ["Georgia", "serif"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .paper-canvas {
+            background-color: #fbfaf6;
+        }
+        .academic-justified {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+    </style>
+</head>
+<body class="bg-surface font-sans text-on-surface selection:bg-primary-container selection:text-white">
+<!-- TopNavBar (Shared Component) -->
+<nav class="fixed top-0 w-full z-50 bg-[#f8faf9]/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-[#eceeed] dark:border-slate-800">
+<div class="max-w-[1280px] mx-auto flex justify-between items-center px-8 h-16">
+<div class="text-xl font-extrabold tracking-tighter text-[#00433d] dark:text-teal-400 uppercase">
+                Greentryst
+            </div>
+<div class="hidden md:flex items-center gap-8 font-['Inter'] font-normal tracking-tight text-sm">
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#00433d] transition-colors" href="#">Database</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#00433d] transition-colors" href="#">Methodology</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#00433d] transition-colors" href="#">Reports</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#00433d] transition-colors" href="#">Archive</a>
+<button class="bg-primary-container text-white px-6 py-2 rounded-full text-xs font-bold hover:bg-primary transition-all scale-95 duration-200 ease-in-out">
+                    Sign In
+                </button>
+</div>
+</div>
+</nav>
+<!-- Main Hero Section: The Ledger Paper -->
+<main class="pt-32 pb-12 paper-canvas min-h-screen border-t-[0.5px] border-primary/20">
+<div class="max-w-[1280px] mx-auto px-8">
+<!-- 1. TOP META BLOCK -->
+<div class="mb-16">
+<span class="font-mono text-[11px] tracking-[0.2em] text-on-surface-variant/70 uppercase block mb-4">
+                    VOLUME I · EMISSION FACTOR REFERENCE · EDITION 2026.1
+                </span>
+<h1 class="text-[56px] leading-[1.05] font-extrabold text-on-surface tracking-tighter mb-6 max-w-4xl">
+                    Every emission factor. <span class="text-primary-container">Sourced.</span> Dated. Free.
+                </h1>
+<div class="flex flex-col gap-4">
+<p class="font-serif italic text-sm text-on-surface-variant/80">
+                        Curated by the Greentryst reference team. Updated 2026-04-14.
+                    </p>
+<div class="w-[120px] h-[1px] bg-outline-variant/30"></div>
+</div>
+</div>
+<!-- Asymmetric Layout: Abstract & Metrics -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-16 mb-24">
+<!-- 2. ABSTRACT BLOCK -->
+<div class="md:col-span-8">
+<div class="flex flex-col gap-4">
+<span class="font-bold text-[11px] tracking-widest text-on-surface mb-1">ABSTRACT</span>
+<p class="academic-justified text-[15px] leading-[1.7] text-on-surface/90 max-w-[720px]">
+                            This reference library curates 211,651 greenhouse gas emission factors drawn from 41 primary regulatory and scientific sources, including IPCC, IEA, and national environmental protection agencies. Each entry includes full metadata, verified uncertainty ranges, and original source documentation links to ensure auditability for corporate sustainability reporting and life cycle assessment. Access is free for practitioner use.
+                        </p>
+</div>
+<!-- 3. KEYWORDS ROW -->
+<div class="mt-8 pt-8 border-t border-outline-variant/10 flex items-baseline gap-4">
+<span class="font-bold text-[11px] tracking-widest text-on-surface shrink-0">KEYWORDS</span>
+<p class="font-serif italic text-[14px] text-on-surface-variant/80">
+                            GHG accounting, emission factors, Scope 2, CBAM, BRSR, IFRS S2, Scope 3 Category 1, PCAF, USEEIO
+                        </p>
+</div>
+</div>
+<!-- Technical Diagram Placeholder (Asymmetric Element) -->
+<div class="md:col-span-4 flex flex-col justify-end">
+<div class="p-4 bg-surface-container-low rounded-xl border border-outline-variant/5">
+<div class="aspect-square w-full bg-white relative flex items-center justify-center overflow-hidden grayscale contrast-125 opacity-40">
+<img class="w-full h-full object-cover" data-alt="high-fidelity technical diagram showing carbon cycle data architecture with precise thin lines and grid pattern on off-white background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjAuwJ2yQMLzA5ck4bLTRQd8Pzobl-RWPqNGcvuY0rMXXi46V2VQYaksXKuOqUJ-RimBS57QxvtRUQ1O4XfAzF2g2k3dXyeA1p5-oXlff_d9NvWDeqX1PdasugAA9HXXbQ9AMO47h9v7bzN5Vb0SXo5zj9R5y4urRQmnC1WGQy-MyBewSCCMDCiQgGypClOdO9asLDudN5is8FTwXbz1RGL9p3tmj4knxirK-njgqwXmWNWE3J5k2dD2c7qbhksR1FmvB9UMh5ZyQl"/>
+</div>
+<div class="mt-4">
+<span class="font-mono text-[10px] text-on-surface-variant/60 block">Fig 1.1: Data ingestion architecture (Simplified)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- 4. FOOTNOTE SEARCH -->
+<div class="w-full border-t border-on-surface/10 pt-6 mb-20">
+<div class="flex items-center justify-between gap-6">
+<div class="flex items-center flex-1 gap-2">
+<span class="font-mono text-[13px] text-on-surface-variant">¹ Search the library:</span>
+<input class="flex-1 bg-transparent border-0 border-b-2 border-outline-variant/40 focus:border-primary focus:ring-0 text-[15px] font-sans placeholder:text-on-surface-variant/30 py-1 transition-colors" placeholder="e.g. UK grid electricity, natural gas, R-410A" type="text"/>
+</div>
+<span class="font-mono text-[11px] text-on-surface-variant/50 shrink-0">press ⏎ to query</span>
+</div>
+</div>
+<!-- 5. PAGE FOOTER META -->
+<div class="flex justify-between items-center py-6 border-t border-outline-variant/10">
+<div class="font-mono text-[12px] text-on-surface-variant/70">
+                    doi: <span class="hover:underline cursor-pointer">10.greentryst/ef/2026.1</span>
+</div>
+<div class="font-mono text-[12px] text-on-surface-variant/70 uppercase tracking-tighter">
+                    Licence: CC BY-NC 4.0 · 211,651 records indexed
+                </div>
+</div>
+</div>
+</main>
+<!-- BELOW HERO: Stat strip -->
+<section class="bg-surface-container-low py-12 border-t-[0.5px] border-primary/10">
+<div class="max-w-[1280px] mx-auto px-8">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="flex flex-col gap-2">
+<span class="font-mono text-2xl font-medium text-primary-container">211,651</span>
+<span class="font-bold text-[11px] tracking-widest text-on-surface-variant/50 uppercase">FACTORS</span>
+</div>
+<div class="flex flex-col gap-2">
+<span class="font-mono text-2xl font-medium text-primary-container">41</span>
+<span class="font-bold text-[11px] tracking-widest text-on-surface-variant/50 uppercase">PRIMARY SOURCES</span>
+</div>
+<div class="flex flex-col gap-2">
+<span class="font-mono text-2xl font-medium text-primary-container">4</span>
+<span class="font-bold text-[11px] tracking-widest text-on-surface-variant/50 uppercase">FRAMEWORKS</span>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex items-center gap-1">
+<span class="font-mono text-2xl font-medium text-primary-container">0</span>
+<span class="material-symbols-outlined text-primary-container text-sm">verified</span>
+</div>
+<span class="font-bold text-[11px] tracking-widest text-on-surface-variant/50 uppercase">HALLUCINATIONS</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer (Shared Component) -->
+<footer class="w-full py-12 border-t border-[#005c55]/10 bg-[#eceeed] dark:bg-slate-950 font-['Inter'] text-xs tracking-wide">
+<div class="max-w-[1280px] mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="font-bold text-[#00433d] dark:text-teal-500">
+                Greentryst Scientific
+            </div>
+<div class="text-slate-500 dark:text-slate-400 text-center">
+                © 2024 Greentryst Scientific. All rights reserved. Peer-reviewed emission data.
+            </div>
+<div class="flex gap-6">
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#00433d] dark:hover:text-teal-300 underline transition-opacity opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#00433d] dark:hover:text-teal-300 underline transition-opacity opacity-80 hover:opacity-100" href="#">Terms of Service</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#00433d] dark:hover:text-teal-300 underline transition-opacity opacity-80 hover:opacity-100" href="#">Data Ethics</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#00433d] dark:hover:text-teal-300 underline transition-opacity opacity-80 hover:opacity-100" href="#">Contact</a>
+</div>
+</div>
+</footer>
+</body></html>

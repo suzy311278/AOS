@@ -1,0 +1,84 @@
+{/* source: CBAM Implementing Regulation (EU) 2023/1773, Art. 4-6, Annex III; EC CBAM Guidance Documents (2023-2025) */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/eu-cbam/2_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Actual Emissions vs Default Values
+
+<HighlightBox>
+  <p class="font-semibold text-green-800">What you will learn</p>
+  <p class="text-green-900 mt-1">CBAM offers importers a choice in how they calculate embedded emissions: use actual, installation-specific data from the foreign producer, or fall back on conservative default values published by the European Commission. The choice has significant financial consequences, because default values are deliberately set at conservative (high) levels to incentivise investment in actual data collection.</p>
+</HighlightBox>
+
+### The Hierarchy of Emission Values
+
+<p class="mb-3">CBAM establishes a clear preference hierarchy for embedded emissions data. At the top is installation-specific actual data, verified by an accredited third-party verifier. At the bottom are default values, which function as a regulatory fallback when actual data is not available or not provided. Between these two poles, certain transitional provisions allowed alternative methods during the 2023-2025 transitional phase.</p>
+
+<p class="mb-4">The preference for actual data reflects the fundamental logic of CBAM: the mechanism is designed to charge importers based on the real carbon cost embedded in their specific goods, not on a sector average. A steel producer that has invested in cutting-edge low-carbon technology should not face the same CBAM liability as a less efficient producer  -  actual data allows that differentiation, while default values do not.</p>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">The Insurance Premium Analogy</p>
+  <p class="mt-2 text-blue-900">Default values are like the standard insurance premium you pay if you don't submit your health records. The insurer assumes the worst (highest risk) to protect themselves. If you provide verified medical records showing you're healthier than average, you pay less. Similarly, default values in CBAM assume worst-case emission intensity. If your production facility is genuinely cleaner, providing actual verified data gives you a lower  -  and fairer  -  CBAM liability.</p>
+</AnalogyBox>
+
+### Actual Embedded Emissions: What Data Is Required
+
+<p class="mb-3">To report actual embedded emissions under the definitive CBAM regime, the authorised declarant needs data from the installation that produced the imported goods. Specifically, Article 4 of the Implementing Regulation requires that the installation operator in the third country collect the following data:</p>
+
+<ul class="list-disc ml-6 space-y-2 mb-4">
+  <li><strong>Fuel consumption and emission factors:</strong> Quantities and types of fuels burned, multiplied by the appropriate IPCC emission factors, to derive combustion-related CO₂.</li>
+  <li><strong>Process emission data:</strong> Quantities of process inputs (e.g., limestone for cement calcination) and the relevant stoichiometric emission factors for the chemical reactions involved.</li>
+  <li><strong>Production data:</strong> Tonnes of output produced (by product type), to calculate emissions intensity per tonne of good.</li>
+  <li><strong>Electricity consumption data:</strong> kWh consumed, and  -  for indirect emissions  -  the applicable grid emission factor for the country and region of production.</li>
+  <li><strong>Waste gas flows:</strong> Where waste heat or process gases are transferred between installations or sub-installations, quantification of those flows and their embedded carbon content.</li>
+</ul>
+
+<p class="mb-4">This data must be collected at the level of the individual installation (production site), not at the company or country level. Where a company operates multiple sites, each site's data must be reported separately for the goods that site produced.</p>
+
+### Default Values: When and How They Apply
+
+<p class="mb-3">Default values apply when the authorised declarant cannot obtain actual verified emission data from the installation that produced the goods. Under the definitive regime, this is expected to be an exception rather than the norm  -  but it remains a legally valid fallback.</p>
+
+<p class="mb-4">Default values are published by the European Commission and updated periodically. They are calculated based on the average emission intensity of production in the relevant sector across a range of third countries, with a mark-up designed to make them conservative (i.e., higher than the actual average). This mark-up serves two purposes: it provides a buffer for the regulator in case the underlying data is imprecise, and it creates a strong financial incentive for producers to provide actual data rather than accepting the default.</p>
+
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th>Situation</th><th>Which Value Applies</th><th>Financial Implication</th></tr>
+  <tr><td>Installation provides verified actual data meeting CBAM methodology requirements</td><td>Actual embedded emissions</td><td>Reflects true production efficiency  -  potentially much lower than defaults for clean producers</td></tr>
+  <tr><td>No actual data available; product from a specific country with published country-specific defaults</td><td>Country-specific default value</td><td>Higher than EU average but may reflect actual regional production mix</td></tr>
+  <tr><td>No actual data; country-specific default not published</td><td>EU average default or global worst-case default (as applicable)</td><td>Highest liability; strong incentive to obtain actual data</td></tr>
+</table>
+</ResponsiveTable>
+
+### Monitoring Plan Requirements
+
+<p class="mb-3">To use actual emissions data in the definitive period, the installation in the third country must operate according to an approved <strong>monitoring plan</strong>  -  a document describing the methodology for measuring, calculating, and recording all data inputs required for the embedded emissions calculation. The monitoring plan must be consistent with the requirements of Annex VI of the Implementing Regulation and must be submitted to the authorised declarant (and ultimately available to the national competent authority upon request).</p>
+
+<p class="mb-4">The monitoring plan must specify: the monitoring methodology (calculation-based or measurement-based), the activity data sources, the emission factors used, and the uncertainty management approach. This level of rigour is analogous to what EU ETS installations must maintain for their own MRV (Monitoring, Reporting and Verification) plans  -  the intent is to bring third-country installation monitoring to a comparable standard.</p>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">The Cost of Using Defaults: A Steel Example</p>
+  <p class="mt-2">A Japanese steel producer uses an electric arc furnace (EAF) with scrap steel as input  -  one of the lowest-carbon routes for steel production. Their actual embedded emissions are approximately 0.4 tCO₂ per tonne of steel. However, the Japanese producer has not set up a CBAM-compliant monitoring plan, so the EU importer must use the default value published for steel from Japan. The applicable default value for blast furnace route steel (used as the conservative default for unverified production) is approximately 2.3 tCO₂ per tonne of steel. The EU ETS price is €75/tonne CO₂.</p>
+  <p class="mt-2"><strong>With actual data:</strong> 0.4 tCO₂ × €75 = €30 per tonne of steel in CBAM certificates.</p>
+  <p class="mt-2"><strong>With default value:</strong> 2.3 tCO₂ × €75 = €172.50 per tonne of steel.</p>
+  <p class="mt-2 text-amber-700 text-sm">The Japanese EAF producer has an enormous financial incentive to invest in a CBAM-compliant monitoring system  -  the potential saving is €142.50 per tonne of exported steel.</p>
+</ExampleBox>
+
+### Transitional Period Flexibility (2023-2025)
+
+<p class="mb-3">During the 2023-2025 transitional period, the Implementing Regulation allowed importers to choose from three reporting approaches:</p>
+
+<ul class="list-disc ml-6 space-y-2 mb-4">
+  <li><strong>Full EU methodology:</strong> Reporting actual embedded emissions using the CBAM methodology  -  the approach that will be mandatory in the definitive period.</li>
+  <li><strong>Equivalent method:</strong> Reporting based on an equivalent national or international monitoring methodology, provided the importer could demonstrate comparability to the EU method. Three sub-options existed: a reference method using national emission factors; a method based on a national ETS; or a method based on the Carbon Disclosure Project (CDP) framework.</li>
+  <li><strong>Default values (transitional defaults):</strong> Using conservative default values published by the Commission, available only until 31 July 2024 for most sectors.</li>
+</ul>
+
+<p class="mb-3">This transitional flexibility was designed to ease the burden on importers and foreign producers during the learning phase. From 2026, only actual verified data or the published default values are accepted  -  the equivalent method options no longer apply.</p>
+
+<DeepDive title="Measurement-based versus calculation-based monitoring">
+  <p class="mb-3">For direct emissions, the Implementing Regulation allows two methodological approaches to monitoring:</p>
+  <p class="mb-3"><strong>Calculation-based approach:</strong> Activity data (fuel consumed, process materials used) is multiplied by published emission factors. This is the standard approach for most CBAM sectors and mirrors the EU ETS methodology. It is simpler to implement but relies on emission factor tables and may have higher uncertainty than direct measurement.</p>
+  <p><strong>Measurement-based approach (continuous emissions monitoring, CEMS):</strong> Actual gas concentrations and flow rates in exhaust stacks are measured continuously, providing direct measurement of emissions. This approach has lower uncertainty but requires significant capital investment in monitoring equipment and is more complex to operate and verify. It may be preferred by large installations with multiple emission sources where calculation-based approaches become complex.</p>
+</DeepDive>
+
+<KeyTakeaways items="CBAM prefers actual, installation-specific verified emission data over default values; default values are deliberately set high (conservative) to incentivise investment in actual data collection systems ;; Actual embedded emissions require the producing installation to have an approved monitoring plan and to supply fuel consumption, process data, production output, and electricity consumption data at installation level ;; Default values are published by the European Commission; where no country-specific default exists, global worst-case defaults apply  -  creating the highest CBAM liability ;; The financial gap between actual data and defaults can be enormous: for a low-carbon electric arc furnace steel producer, actual data may yield embedded emissions 5-6 times lower than the applicable default ;; During the 2023-2025 transitional period, three reporting approaches were permitted (EU method, equivalent method, transitional defaults); from 2026 only actual verified data or Commission default values are accepted" />

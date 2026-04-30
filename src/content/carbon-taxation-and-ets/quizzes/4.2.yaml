@@ -1,0 +1,35 @@
+- question: "What is a single-round sealed-bid auction?"
+  options:
+    - "An auction where bids are secret and all winners pay the same price"
+    - "An auction where only one allowance is sold"
+    - "An auction that takes one day"
+    - "An auction limited to one bidder"
+  answer: 0
+  explanation: "In a single-round sealed-bid auction, participants submit confidential bids, and all successful bidders typically pay the same clearing price (the lowest accepted bid)."
+
+- question: "What is an auction reserve price?"
+  options:
+    - "The maximum price allowed"
+    - "The minimum price below which allowances will not be sold"
+    - "The average historical price"
+    - "The recommended bidding price"
+  answer: 1
+  explanation: "A reserve price sets a price floor in auctions. If bids are below the reserve, allowances remain unsold rather than being sold too cheaply, protecting against price collapses."
+
+- question: "What happens to unsold allowances from auctions with a reserve price?"
+  options:
+    - "They are destroyed forever"
+    - "They are typically held for future auctions or placed in a reserve"
+    - "They are given away for free"
+    - "They are sold to other countries"
+  answer: 1
+  explanation: "When allowances do not sell because bids are below the reserve price, they are typically held for future auctions or added to price stability reserves rather than being eliminated."
+
+- question: "Why might frequent small auctions be preferred over infrequent large auctions?"
+  options:
+    - "To maximize revenue"
+    - "To provide regular price discovery and reduce price volatility"
+    - "Because small auctions are easier"
+    - "Large auctions are illegal"
+  answer: 1
+  explanation: "Frequent small auctions (e.g., quarterly or monthly) provide regular price signals, allow entities to manage cash flow, and reduce the risk that one auction determines the price for an entire year."

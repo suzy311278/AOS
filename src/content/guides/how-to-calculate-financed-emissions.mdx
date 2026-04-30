@@ -1,0 +1,248 @@
+---
+title: "How Do You Calculate Financed Emissions?"
+description: "A practitioner's guide to calculating financed emissions using the PCAF standard, covering attribution formulas per asset class, data quality scoring, regulatory requirements, and a step-by-step starting playbook."
+courses:
+  - financed-emissions
+  - ghg-scope-3
+  - ifrs-s2
+  - sbti
+  - eu-sfdr
+readingMinutes: 14
+lastUpdated: "2026-04-09"
+---
+
+You have been asked to report your bank's financed emissions. The board wants a number by next quarter. Your sustainability team has heard of PCAF but nobody has actually run the calculation before. Measuring financed emissions for the first time is one of the most common challenges financial institutions face today.
+
+Where do you even start?
+
+Here is the uncomfortable truth: for a typical commercial bank, financed emissions comprise up to 99% of its total carbon footprint. The operational emissions from offices, data centres, and business travel are a rounding error. A mid-sized European bank might emit 5,000 tonnes of CO2 from its own operations. Its lending and investment portfolio? 3.5 million tonnes. Bloomberg reported that banks produce emissions 700 times greater from their loans than from their offices.
+
+The world's 60 largest banks have channelled over $5.5 trillion into fossil fuel companies since the Paris Agreement was signed in 2016, according to the Banking on Climate Chaos report. Financed emissions are not a footnote in your sustainability report. They are the report.
+
+## What Are Financed Emissions?
+
+Financed emissions are the greenhouse gas emissions linked to the companies and projects a financial institution provides capital to. Every loan approved, every bond underwritten, every equity stake held carries an emissions shadow.
+
+A bank that finances a coal-fired power plant is indirectly responsible for the CO2 that plant releases. An investment fund holding shares in a steel manufacturer inherits a share of that manufacturer's Scope 1 and 2 emissions. These emissions fall under Scope 3, Category 15 (Investments) in the GHG Protocol framework.
+
+Why does this matter now? Because four forces converged at once.
+
+IFRS S2 financed emissions disclosure is now mandatory for financial institutions reporting under the ISSB standards. The EU's SFDR uses financed emissions to calculate mandatory Principal Adverse Impact indicators. The SBTi Financial Institutions guidance requires them as the baseline for portfolio decarbonisation targets. And regulations like California's SB 253 are bringing mandatory Scope 3 reporting to the US.
+
+Every major disclosure framework now asks the same question: what emissions are your capital enabling?
+
+<GoDeeper
+  href="/courses/financed-emissions/0_2"
+  title="The GHG Protocol and Scope 3 Category 15"
+  description="Where financed emissions sit within the three-scope framework and why Category 15 dominates for banks"
+/>
+
+## The PCAF Standard
+
+Before 2019, every bank calculated financed emissions differently. Two banks financing the same company could report vastly different numbers because they used different denominators, different scopes, different allocation methods. Comparisons were meaningless.
+
+The Partnership for Carbon Accounting Financials (PCAF) fixed that. Founded in 2015, PCAF has grown to over 630 member institutions representing trillions in assets. It provides the standardised methodology that the GHG Protocol's Category 15 guidance lacked.
+
+PCAF covers three types of emissions:
+- **Part A**: Financed emissions from loans and investments (this is the core)
+- **Part B**: Facilitated emissions from capital markets activities (bond underwriting, IPOs)
+- **Part C**: Insurance-associated emissions from underwriting activities
+
+This guide focuses on Part A: the financed emissions methodology that every financial institution needs to get right first. The PCAF financed emissions formula and data quality framework form the foundation for all downstream disclosure and target-setting.
+
+## The Core Formula
+
+For all asset classes, the logic follows the same shape:
+
+**Financed Emissions = Attribution Factor x Borrower Emissions**
+
+The attribution factor represents your institution's share of the borrower's capital structure:
+
+**Attribution Factor = Outstanding Amount / Total Equity + Debt**
+
+Let us make this tangible. Your bank has a $50 million loan to a cement company. The cement company's total capital (equity plus debt) is $500 million. Your attribution factor is 10%. The cement company emits 2 million tonnes of CO2 per year.
+
+Your financed emissions from that single loan: 200,000 tonnes.
+
+One loan. 200,000 tonnes. Now multiply that across a portfolio of 5,000 borrowers with wildly inconsistent data. That is the real exercise.
+
+## Attribution Formulas by Asset Class
+
+The formula shape is consistent, but the specifics change per asset class. This is where practitioners spend most of their time.
+
+**Listed equity and corporate bonds:**
+Attribution Factor = Investment Value / Enterprise Value Including Cash (EVIC)
+
+EVIC accounts for the full ownership structure (equity plus debt minus cash). For a $10 million equity position in a company with $1 billion EVIC, your attribution is 1%.
+
+**Business loans and unlisted equity:**
+Attribution Factor = Outstanding Loan Amount / (Total Equity + Debt)
+
+For private companies without EVIC data, you use the borrower's balance sheet (equity plus total debt). This is the most common calculation for commercial banks.
+
+**Project finance:**
+Attribution Factor = Outstanding Exposure / Total Project Capital (Debt + Equity)
+
+Only the project's emissions count, not the parent company's. If you financed 30% of a solar farm's construction, you attribute 30% of the farm's lifecycle emissions.
+
+**Commercial real estate:**
+Attribution Factor = Outstanding Loan / Property Value at Origination
+
+Emissions come from the building's energy consumption. You attribute based on your loan's share of the property value, then multiply by the building's annual energy-related emissions.
+
+**Mortgages:**
+Attribution Factor = Outstanding Mortgage / Property Value at Origination
+
+Same property-based logic as commercial real estate, but for residential properties. Emissions are estimated from building energy performance certificates (EPCs) or average consumption data.
+
+**Motor vehicle loans:**
+Attribution Factor = 1 per vehicle financed
+
+Each vehicle loan attributes 100% of that vehicle's annual emissions to you. Emissions are estimated from manufacturer data or average fuel consumption per vehicle type.
+
+The point is that "financed emissions" is not one calculation. It is six different financed emissions asset class formulas wearing the same name. A bank with a diversified portfolio needs all six.
+
+<GoDeeper
+  href="/courses/financed-emissions/1_1"
+  title="PCAF Overview and Guiding Principles"
+  description="Detailed attribution formulas, worked examples, and edge cases for each asset class"
+/>
+
+## Beyond Absolute Emissions: Intensity Metrics
+
+The absolute financed emissions number tells you the total tonnes attributed to your portfolio. But stakeholders increasingly want to see intensity metrics that normalise for portfolio size.
+
+**Financed emissions intensity** divides your total financed emissions by portfolio value:
+
+**Financed Emissions Intensity = Total Financed Emissions (tCO2e) / Total Portfolio Value ($M)**
+
+This lets you track whether your portfolio is decarbonising even as your lending book grows. A bank that doubles its lending but halves its emissions intensity is making real progress.
+
+**Weighted Average Carbon Intensity (WACI)** is the other metric you will be asked for. Instead of attributing absolute tonnes, WACI measures the carbon efficiency of your portfolio companies:
+
+**WACI = Sum of (Portfolio Weight x Company Scope 1+2 Emissions / Company Revenue)**
+
+WACI is expressed in tCO2e per million dollars of revenue. It is the metric favoured by TCFD recommendations, MSCI ESG ratings, and many institutional investors because it allows comparison across portfolios of different sizes. PCAF, SBTi, and IFRS S2 all reference both absolute financed emissions and intensity metrics.
+
+## The PCAF Data Quality Problem
+
+This is where most teams hit a wall.
+
+The PCAF data quality score is a crucial feature of the standard. It ranges from 1 (best) to 5 (worst) and provides a transparent way to communicate the reliability of your financed emissions estimates:
+
+<ResponsiveTable>
+<table>
+<thead>
+<tr><th>Score</th><th>Data Source</th><th>What It Means</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Third-party verified emissions</td><td>Audited Scope 1+2 data directly from the borrower. The gold standard.</td></tr>
+<tr><td>2</td><td>Unverified reported emissions</td><td>Borrower-reported data without external assurance. Common for large corporates.</td></tr>
+<tr><td>3</td><td>Physical activity data</td><td>Estimated from energy consumption, production volumes, or building floor area.</td></tr>
+<tr><td>4</td><td>Economic activity data</td><td>Estimated from revenue multiplied by sector-average emission factors.</td></tr>
+<tr><td>5</td><td>Sector averages</td><td>Broad estimates with no company-specific data. The fallback.</td></tr>
+</tbody>
+</table>
+</ResponsiveTable>
+
+Most financial institutions find that 60-80% of their portfolio sits at Score 4 or 5 in the first year. You are multiplying a rough estimate by another rough estimate.
+
+Does that make the number useless?
+
+No. It tells you which sectors dominate your portfolio's emissions, which borrowers are the biggest contributors, and where to focus engagement. The precision improves every year as you collect better data from borrowers. PCAF explicitly expects this trajectory. Start with what you have. Disclose your data quality alongside the number. Improve each cycle.
+
+## Financed Emissions Challenges Nobody Warns You About
+
+**Complex ownership structures.** Syndicated loans, fund-of-funds structures, indirect investments through intermediaries. Untangling who owns what share of which entity's emissions requires significant effort, especially when a single borrower appears in multiple asset classes on your balance sheet.
+
+**Data availability varies wildly by geography.** European listed companies generally report emissions under CSRD requirements. US mid-caps are improving under SEC pressure. But private companies in emerging markets? You are often working with Score 5 data and no clear path to improvement.
+
+**Evolving standards.** PCAF published its third edition in 2024, adding sovereign debt as a seventh asset class. The methodology for facilitated emissions (Part B) is still maturing. What you calculate this year may need methodological adjustments next year.
+
+**Timing mismatches.** The emissions data you use in 2026 might reflect 2024 borrower emissions combined with 2025 financial data. This lag is standard, but it needs to be disclosed transparently.
+
+**Internal coordination.** The data you need sits across lending teams, risk management, portfolio analytics, and IT. Financed emissions is not a sustainability team project. It is a cross-functional data exercise.
+
+<GoDeeper
+  href="/courses/financed-emissions/2_1"
+  title="Listed Equity and Corporate Bonds"
+  description="Worked examples, data sources, and the EVIC attribution method in detail"
+/>
+
+## The Mistakes Everyone Makes the First Time
+
+**Counting the same emissions twice.** If you hold both equity and a loan in the same company, your total financial exposure needs to be divided by the company's total capital, not calculated separately and summed.
+
+**Mixing up the scopes.** PCAF requires financed Scope 1 and 2 emissions. Financed Scope 3 is encouraged but not yet mandatory for most asset classes. When your CEO sees a number, make sure everyone agrees on what is included.
+
+**Forgetting facilitated emissions entirely.** PCAF Part B covers emissions from capital markets activities like bond underwriting. These are reported separately but within the same Category 15 disclosure. Many institutions miss this completely in year one.
+
+**Reporting without data quality scores.** The number alone is meaningless without context. A financed emissions figure where 90% of the portfolio is Score 5 tells a very different story from one where 60% is Score 2. Always disclose the weighted data quality score.
+
+## How to Start: A Practical Playbook
+
+If you are staring at this for the first time, here is the sequence that works:
+
+**Step 1: Scope the portfolio.** Identify which asset classes you hold. Most commercial banks start with business loans (the largest book) and listed equity/bonds. Mortgages and vehicle loans can come in year two.
+
+**Step 2: Map your data.** For each asset class, identify where the financial data lives (loan management systems, portfolio databases) and where borrower emissions data might come from (CDP responses, annual reports, third-party databases like MSCI, S&P Trucost, or ISS).
+
+**Step 3: Calculate the attribution factors.** This is the easier part. You have the financial data internally. Outstanding amounts, total facility sizes, property values. Extract them.
+
+**Step 4: Source emissions data.** Start with your largest exposures. The top 50 borrowers by outstanding amount likely account for a disproportionate share of your financed emissions. Get the best data you can for those first.
+
+**Step 5: Fill gaps with estimates.** For the rest, use revenue-based emission factors (Score 4) or sector averages (Score 5). PCAF's methodology guides and databases like EXIOBASE provide the factors you need.
+
+**Step 6: Aggregate, score, and disclose.** Sum the financed emissions across the portfolio. Calculate the weighted average data quality score. Disclose both numbers together, with a clear description of methodology and assumptions.
+
+**Step 7: Build the improvement roadmap.** Identify the borrowers and sectors where better data would most improve your score. Plan engagement activities for the next reporting cycle.
+
+<GoDeeper
+  href="/courses/sbti/0_1"
+  title="What Are Science-Based Targets?"
+  description="How SBTi uses your financed emissions baseline to set portfolio decarbonisation targets"
+/>
+
+## What Comes After the Number
+
+The calculation is the starting line, not the destination.
+
+Your SBTi target requires portfolio-level decarbonisation aligned with 1.5 degrees. The number you just calculated is your baseline. IFRS S2 paragraph 29 requires financial institutions to break out financed emissions within their Scope 3 disclosure. The number is your compliance input.
+
+But the real value is simpler. You now know which 50 borrowers account for 80% of your portfolio's emissions. That is your engagement list. That is where decarbonisation actually happens.
+
+Start with what you can measure. Improve the data quality every cycle. That is what every institution that has been through this will tell you.
+
+## Frequently Asked Questions
+
+### Do I need PCAF to report financed emissions?
+
+Technically, the GHG Protocol allows any reasonable methodology for Category 15. In practice, PCAF is the industry standard referenced by IFRS S2, SFDR, the SBTi, and CDP. Using a non-PCAF methodology will raise questions from auditors, investors, and rating agencies. Over 630 institutions have committed to it. The question is not whether to use PCAF, but when you start.
+
+### What if my borrowers do not report their emissions?
+
+You estimate, and PCAF gives you a clear hierarchy for how. Start with the best available proxy and work down.
+
+If you have the borrower's **physical activity data** (energy consumption in kWh, production volumes in tonnes, building floor area), multiply it by the relevant emission factor from a source like the IEA, national grid factors, or sector-specific databases. That gets you a Score 3.
+
+If you only have **financial data** (the borrower's annual revenue), multiply it by a revenue-based emission factor for their sector. Databases like EXIOBASE, PCAF's Emission Factor Database, or S&P Trucost provide these factors, typically expressed as tCO2e per million dollars of revenue. That is a Score 4.
+
+If you have **nothing company-specific**, fall back to broad sector averages. Assign the borrower to a sector (using NACE, GICS, or SIC codes), apply the sector's average emissions intensity, and scale by the borrower's revenue or assets. That is a Score 5.
+
+Most banks find that for their first calculation, roughly 20% of the portfolio has reported data (Score 1-2), another 10-15% can be estimated from physical data (Score 3), and the remaining 65-70% relies on revenue-based or sector-average estimates (Score 4-5). That is normal. The goal is to shift the mix toward better scores each year by engaging borrowers directly and requesting emissions data as part of the lending relationship.
+
+### How often should I recalculate?
+
+Annually, aligned with your financial reporting cycle. The calculation should reflect end-of-year portfolio positions. Most institutions report as part of their annual sustainability report, CDP response, or CSRD filing.
+
+### Does this apply to asset managers and insurers?
+
+Yes. PCAF covers banks (lending), asset managers (investments), and insurers (both investment portfolios and underwriting). For listed equity portfolios, the attribution formula uses Enterprise Value Including Cash (EVIC) as the denominator. For insurance underwriting, PCAF Part C provides a separate methodology.
+
+### What is EVIC?
+
+EVIC stands for Enterprise Value Including Cash. It is the denominator PCAF uses for the listed equity and corporate bonds asset class. EVIC equals the market capitalisation of a company plus its total debt (both short-term and long-term) plus minority interests, without subtracting cash. The reason PCAF uses EVIC rather than standard enterprise value (which subtracts cash) is to avoid negative denominators and to ensure that the attribution factor never exceeds 100% for any single investor. EVIC data is available from financial data providers like Bloomberg, Refinitiv, and S&P Capital IQ.
+
+### What about sovereign debt?
+
+PCAF's third edition (2024) added sovereign debt as a seventh asset class. Attribution is based on the financial institution's share of the country's total sovereign debt outstanding, multiplied by the country's production-based or consumption-based emissions. This is particularly relevant for institutions with large government bond portfolios.

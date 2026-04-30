@@ -1,0 +1,35 @@
+- question: "A model's bias is calculated as +8.5 tCO₂e. The Pooled Measurement Uncertainty (PMU) is 6.2 tCO₂e. Does the model pass the bias test?"
+  options:
+  - "Yes — the bias is positive (overestimation), so it is conservative for crediting"
+  - "No — |mean bias| = 8.5 exceeds PMU of 6.2, so the model fails the bias test"
+  - "Yes — the bias is less than 10% of the total project area emissions"
+  - "Cannot be determined — we need to know the sign of the bias"
+  answer: 1
+  explanation: "The bias test requires |mean bias| ≤ PMU. Here, |8.5| = 8.5 > 6.2 (PMU), so the model FAILS the bias test. Note: even a positive bias (overestimation) fails — large biases of any sign produce large residuals, increasing prediction error and reducing credits. There is no 'conservative' exception."
+
+- question: "What is the minimum confidence coverage requirement for the 90% prediction interval test?"
+  options:
+  - "At least 80% of observed validation data values must fall within the 90% prediction intervals"
+  - "At least 90% of observed validation data values must fall within the 90% prediction intervals"
+  - "At least 95% of observed validation data values must fall within the 90% prediction intervals"
+  - "All observed values must fall within the 90% prediction intervals"
+  answer: 1
+  explanation: "VMD0053 requires a minimum confidence coverage of 90%: at least 90% of observed validation data values must fall within the 90% prediction intervals. This is a relatively strict test designed to ensure the stated intervals are not systematically too narrow."
+
+- question: "A project proponent uses Option B (Monte Carlo) to calculate model prediction error. What is the output of this approach?"
+  options:
+  - "A single σ_model value calculated from the variance of (modeled − observed) differences"
+  - "Posterior predictive distributions (PPDs) that are iteratively resampled to generate an estimate of model prediction error"
+  - "A Monte Carlo simulation of credit prices to estimate project revenue"
+  - "Bayesian priors for each soil carbon parameter in the model"
+  answer: 1
+  explanation: "Option B uses Monte Carlo simulation with Posterior Predictive Distributions (PPDs). The model's parameter uncertainty is represented as probability distributions; these are iteratively resampled to simulate observations in the validation dataset, generating a statistical estimate of prediction error that reflects parameter uncertainty."
+
+- question: "The IME assessment report and Model Validation Report are submitted to the VVB. Where are they ultimately made available?"
+  options:
+  - "They are kept confidential between the VVB and the project proponent"
+  - "They are filed with Verra but available only to registered VCS participants"
+  - "Both the MVR and IME assessment report are made publicly available in the Verra registry"
+  - "Only the IME report is made public; the MVR is proprietary"
+  answer: 2
+  explanation: "VMD0053 Appendix 1 states that all MVRs and IME assessment reports are made publicly available in the Verra registry. This transparency requirement allows independent scrutiny of the model validation process — consistent with the VCS program's overall public documentation requirements."

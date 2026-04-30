@@ -1,0 +1,35 @@
+- question: "IFRS S2 Appendix A defines 'financed emissions.' What is the correct definition?"
+  options:
+    - "All Scope 3 Category 15 emissions, including facilitated and insurance-associated emissions"
+    - "The portion of gross GHG emissions of investees/counterparties attributed to the entity's loans and investments"
+    - "The total carbon footprint of a financial institution's operating activities"
+    - "Emissions from bond issuances and equity underwriting"
+  answer: 1
+  explanation: "IFRS S2 Appendix A defines financed emissions as 'the portion of gross GHG emissions of an investee or counterparty that is attributed to the loans and investments that a reporting entity has made to that investee or counterparty.' It is a proportional attribution — not the total emissions of all borrowers/investees."
+
+- question: "Which three types of financial activities are subject to the enhanced financed emissions disclosure requirements under IFRS S2 Application Guidance B59?"
+  options:
+    - "Investment banking, private equity, and hedge funds"
+    - "Asset management, commercial banking, and insurance"
+    - "Asset management, central banking, and sovereign wealth funds"
+    - "Commercial banking, development finance, and trade finance"
+  answer: 1
+  explanation: "Application Guidance B59 identifies three types of financial activities subject to enhanced financed emissions requirements: (a) asset management, (b) commercial banking, and (c) insurance. Investment banking is explicitly not included (facilitated emissions were considered but excluded due to lack of established methodology)."
+
+- question: "The December 2025 amendments allow financial institutions to 'limit' their Category 15 measure to financed emissions only. What can they EXCLUDE from Category 15?"
+  options:
+    - "Equity investments under 5% ownership"
+    - "Emissions attributable to derivatives and other facilitated activities"
+    - "Scope 3 emissions of investees"
+    - "Category 15 for subsidiaries outside the entity's home country"
+  answer: 1
+  explanation: "Para 29A permits entities to limit Category 15 to financed emissions (attributed to loans and investments) and to exclude emissions attributable to derivatives. This was introduced because derivatives-related emissions lacked established measurement methodology and created an unintended compliance burden."
+
+- question: "Why do financial institutions face unique climate-related risks related to their counterparties' GHG emissions (B58)?"
+  options:
+    - "Because banks are required to own the carbon credits their borrowers generate"
+    - "Because borrowers in high-emission sectors face stranded assets, regulatory penalties, or business disruption that impairs repayment ability — creating credit, market, and reputational risk for the lender"
+    - "Because financial institutions directly emit GHGs through investment activities"
+    - "Because insurance regulations require banks to cover climate-related losses"
+  answer: 1
+  explanation: "Application Guidance B58 explains that financial institutions face climate risks through their counterparties: high-emission borrowers may face business disruption, stranded assets, or carbon pricing penalties — which impair their creditworthiness (credit risk), reduce investment values (market risk), and create reputational exposure for the lender (reputational risk)."

@@ -1,0 +1,78 @@
+{/* source: CBAM Regulation (EU) 2023/956, Art. 3, Annex III; CBAM Implementing Regulation (EU) 2023/1773, Annex II */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/eu-cbam/2_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Direct and Indirect Embedded Emissions
+
+<HighlightBox>
+  <p class="font-semibold text-green-800">What you will learn</p>
+  <p class="text-green-900 mt-1">The concept of "embedded emissions" is the technical heart of CBAM. Getting this right determines the size of the financial liability. This lesson defines exactly what counts as embedded emissions, distinguishes direct from indirect emissions, and explains which goods require both types to be reported.</p>
+</HighlightBox>
+
+### Defining Embedded Emissions
+
+<p class="mb-3">Article 3 of the CBAM Regulation defines <strong>embedded emissions</strong> as the greenhouse gas emissions released during the production of goods, including the production of inputs used in the manufacturing process. More precisely, embedded emissions are expressed in tonnes of CO₂ equivalent per tonne of goods produced (or, for electricity, per MWh).</p>
+
+<p class="mb-4">Embedded emissions are a <strong>production-based</strong> concept, not an end-use concept. They measure what happened at the factory, not what happens when the good is used. A tonne of steel carries embedded emissions reflecting the CO₂ emitted in mining iron ore, smelting it in a blast furnace, and refining the steel  -  not the CO₂ that might be emitted when the steel eventually rusts or is incinerated decades later.</p>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">The Carbon Backpack</p>
+  <p class="mt-2 text-blue-900">Every physical good arrives at the EU border wearing a metaphorical backpack containing all the carbon emitted during its production. CBAM asks: how heavy is that backpack? Direct emissions are the carbon released right at the production facility. Indirect emissions are carbon that was released elsewhere (at a power plant, for example) to generate the electricity that powered the production process. For some sectors, CBAM counts both. For others, only the direct backpack contents count.</p>
+</AnalogyBox>
+
+### Direct Embedded Emissions
+
+<p class="mb-3"><strong>Direct embedded emissions</strong> are greenhouse gas emissions from processes occurring within the installation that produces the CBAM good. They correspond to what the GHG accounting community calls "Scope 1" emissions  -  emissions from sources that are owned or controlled by the reporting entity. For the GHG Protocol methods underlying these calculations, see our <a href="/courses/ghg-scope-1-2/1_1">Scope 1 and 2 GHG Emissions course</a>.</p>
+
+<p class="mb-4">For most CBAM sectors, direct emissions are the combustion of fuels in furnaces, kilns, and boilers, as well as process emissions from chemical reactions. For cement production, for example, the largest source of direct embedded emissions is the calcination of limestone: the chemical decomposition of calcium carbonate into lime (CaO) and CO₂. This is not a combustion emission  -  it occurs as an unavoidable chemical reaction  -  but it is direct because it happens within the cement kiln.</p>
+
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th>Sector</th><th>Key Direct Emission Sources</th><th>Gases Covered</th></tr>
+  <tr><td>Cement</td><td>Calcination of limestone in kiln; fuel combustion for kiln heat</td><td>CO₂</td></tr>
+  <tr><td>Iron and Steel</td><td>Combustion of coking coal in blast furnace; direct reduction processes</td><td>CO₂</td></tr>
+  <tr><td>Aluminium</td><td>Anode consumption in electrolysis (Bayer/Hall-Héroult process)</td><td>CO₂, PFC (CF₄, C₂F₆)</td></tr>
+  <tr><td>Fertilisers (Ammonia)</td><td>Steam methane reforming; catalytic cracking</td><td>CO₂, N₂O</td></tr>
+  <tr><td>Hydrogen</td><td>Steam methane reforming</td><td>CO₂</td></tr>
+  <tr><td>Electricity</td><td>Combustion of fossil fuels in power generation</td><td>CO₂</td></tr>
+</table>
+</ResponsiveTable>
+
+### Indirect Embedded Emissions
+
+<p class="mb-3"><strong>Indirect embedded emissions</strong> are emissions from the generation of electricity, heat, or cooling consumed during the production of the CBAM good, where that energy was generated outside the installation. They correspond to "Scope 2" emissions in GHG accounting terminology.</p>
+
+<p class="mb-4">The inclusion of indirect emissions is sector-specific. Under CBAM, indirect emissions are included for aluminium, cement, and fertilisers (from the start of the definitive period), because electricity is a major cost driver in the production of these goods and the electricity grid in many countries relies heavily on fossil fuels. For iron and steel and hydrogen, only direct emissions are covered initially, reflecting the primarily fuel-based (rather than electricity-based) emission profiles of these sectors in most global production contexts.</p>
+
+<p class="mb-3">Why does this distinction matter? A producer of primary aluminium in a country with a coal-heavy electricity grid will have very high indirect emissions from electrolysis, even if the smelter itself emits nothing directly except from the anode process. Failing to include those indirect emissions would significantly understate the carbon cost of that aluminium  -  understating CBAM liability and providing an unfair advantage to electricity-intensive producers in high-carbon grid countries.</p>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Direct vs. Indirect: Aluminium Smelting</p>
+  <p class="mt-2">A Chinese aluminium smelter produces 1 tonne of primary aluminium. The production process involves:</p>
+  <ul class="mt-2 space-y-1 text-amber-900">
+    <li><strong>Direct emissions:</strong> Anode consumption during electrolysis releases 0.40 tCO₂ per tonne of aluminium (including PFC gases from anode effects).</li>
+    <li><strong>Indirect emissions:</strong> Electrolysis consumes approximately 14,000 kWh of electricity per tonne of aluminium. China's average grid emission factor is approximately 0.58 kgCO₂/kWh. Indirect emissions = 14,000 × 0.00058 = 8.12 tCO₂ per tonne of aluminium.</li>
+    <li><strong>Total embedded emissions:</strong> 0.40 + 8.12 = <strong>8.52 tCO₂ per tonne</strong>, of which the electricity component (indirect) is the dominant source.</li>
+  </ul>
+  <p class="mt-2 text-amber-700 text-sm">Compare this to Norwegian aluminium produced with hydropower: direct emissions would be similar, but indirect emissions would be close to zero (grid emission factor near 0 kgCO₂/kWh). CBAM reflects this enormous difference.</p>
+</ExampleBox>
+
+### The System Boundary
+
+<p class="mb-3">Every embedded emissions calculation requires a defined <strong>system boundary</strong>  -  the line that determines which processes are "inside" the calculation and which are outside. CBAM's system boundary is defined in Annex III of the CBAM Regulation and further elaborated in Annex II of the Implementing Regulation.</p>
+
+<p class="mb-4">For simple goods, the system boundary encompasses the production process at the installation level. For complex goods produced using other CBAM materials as inputs (precursors), the boundary extends to include the embedded emissions of those precursors. This ensures that when CBAM goods are used as inputs to produce other CBAM goods, the full chain of embedded emissions is captured once, and only once.</p>
+
+### Gases Covered Under CBAM
+
+<p class="mb-3">CBAM covers a defined set of greenhouse gases, which vary by sector:</p>
+
+<ul class="list-disc ml-6 space-y-2 mb-4">
+  <li><strong>CO₂ (carbon dioxide):</strong> Covered in all CBAM sectors  -  combustion of fossil fuels and process emissions from calcination, reforming, and similar reactions.</li>
+  <li><strong>N₂O (nitrous oxide):</strong> Covered in fertilisers, particularly from nitric acid production used in making nitrogen-based fertilisers.</li>
+  <li><strong>PFCs (perfluorocarbons, specifically CF₄ and C₂F₆):</strong> Covered in aluminium production, where they are released during "anode effects" in the electrolytic process.</li>
+</ul>
+
+<p class="mb-3">All gases are expressed in CO₂-equivalent (CO₂e) using the GWP values from the IPCC Fifth Assessment Report (AR5): N₂O has a GWP of 265, CF₄ has a GWP of 6,630, and C₂F₆ has a GWP of 11,100. These high GWP values mean that even small quantities of N₂O from fertiliser production or PFCs from aluminium smelting can represent substantial CO₂e embedded emissions.</p>
+
+<KeyTakeaways items="Embedded emissions are the greenhouse gas emissions released during production of a good, expressed per tonne of product (or per MWh for electricity)  -  a production-based measure tied to factory-gate emissions, not end-use ;; Direct embedded emissions are Scope 1 emissions: combustion and process emissions from within the producing installation itself ;; Indirect embedded emissions are Scope 2 emissions: CO₂ from electricity, heat, or cooling generated elsewhere and consumed in production  -  included for aluminium, cement, and fertilisers ;; The sector-specific system boundaries in CBAM Annex III define exactly which processes are inside and outside the embedded emissions calculation, including precursor material chains ;; CBAM covers CO₂ for all sectors, N₂O for fertilisers, and PFCs (CF₄ and C₂F₆) for aluminium  -  all expressed in CO₂-equivalent using IPCC AR5 GWP values" />

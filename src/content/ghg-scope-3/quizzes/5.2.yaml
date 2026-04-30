@@ -1,0 +1,26 @@
+- question: "What is the highest-quality data type in the GHG Protocol's Scope 3 data quality hierarchy?"
+  options:
+    - "Economic input-output (EIO) data from national statistical models"
+    - "Industry-average emission factors from LCA databases"
+    - "Primary data from specific activities in the value chain"
+    - "Proxy data from similar activities in nearby geographies"
+  answer: 2
+  explanation: "Primary data — obtained directly from the specific supplier, facility, or activity in the value chain — is the highest quality because it reflects the actual conditions at that specific operation, rather than sector averages or economic proxies."
+
+- question: "A company is building its Category 1 inventory for the first time. Which approach does the standard recommend for identifying which suppliers to prioritise for primary data collection?"
+  options:
+    - "Randomly sample 10% of all suppliers"
+    - "Rank suppliers by annual spend and prioritise those in the top 10–20 by spend"
+    - "Prioritise suppliers located in developing countries with higher emission intensities"
+    - "Contact all suppliers simultaneously to avoid bias"
+  answer: 1
+  explanation: "The standard recommends ranking suppliers by spend to identify the top 10–20, who typically account for 50–80% of total purchasing spend and are likely the biggest emissions contributors. This focuses primary data collection effort where it will have the greatest impact on accuracy."
+
+- question: "Temporal representativeness is one dimension of data quality assessment. What does it evaluate?"
+  options:
+    - "Whether the data comes from the same country as the reporting company"
+    - "Whether the data is from the same time period as the reporting year"
+    - "Whether the data uses the same currency as the financial accounts"
+    - "Whether the data covers the full lifecycle of the product"
+  answer: 1
+  explanation: "Temporal representativeness assesses whether the emission factor or activity data is from the same time period as the reporting year. Using a 10-year-old electricity grid emission factor for a grid that has substantially decarbonised would produce poor temporal representativeness."

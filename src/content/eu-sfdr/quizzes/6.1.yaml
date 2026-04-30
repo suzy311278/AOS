@@ -1,0 +1,26 @@
+- question: "What percentage of EU assets under management was classified as Article 8 by the time the European Commission launched its SFDR review in 2023?"
+  options:
+  - "Approximately 27%"
+  - "Approximately 41%"
+  - "Approximately 56%"
+  - "Approximately 72%"
+  answer: 2
+  explanation: "By 2023, approximately 56% of EU AUM was classified as Article 8, including funds with minimal sustainability commitments and some fossil fuel funds. This figure exposed the absence of minimum substance requirements under the original 'promotes ESG characteristics' standard."
+
+- question: "What was the primary reason the Article 9 downgrade wave of 2022-2023 (by BlackRock, Amundi, PIMCO and others) occurred?"
+  options:
+  - "Regulatory penalties imposed on firms found to have misclassified their funds"
+  - "Publication of the Level 2 RTS which signalled stricter implicit expectations for Article 9 products"
+  - "A European Commission ruling that all Article 9 funds must invest exclusively in Taxonomy-aligned assets"
+  - "A change in investor demand causing managers to voluntarily lower their sustainability claims"
+  answer: 1
+  explanation: "The Level 2 RTS (published August 2022, applicable from January 2023) signalled informally that near-100% sustainable investment was expected for Article 9. Many managers discovered their portfolios could not meet this bar, triggering mass reclassifications to Article 8. Crucially, the underlying portfolios did not change - only the regulatory interpretation did."
+
+- question: "According to the 2023 SFDR consultation, what percentage of respondents said the objective of strengthening transparency through sustainability disclosures remained relevant?"
+  options:
+  - "56%"
+  - "77%"
+  - "89%"
+  - "94%"
+  answer: 2
+  explanation: "89% of consultation respondents confirmed that the transparency-related disclosure objectives of SFDR remained still relevant. The same consultation found that 77% cited legal clarity failures, and 94% agreed EU-level rules are more effective than national measures. This combination pointed toward reforming the mechanics rather than abandoning the goals."

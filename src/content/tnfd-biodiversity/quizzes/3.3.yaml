@@ -1,0 +1,26 @@
+- question: "What does the AR3T hierarchy in SBTN stand for?"
+  options:
+  - "Assess, Report, Reduce, Transform, Track"
+  - "Avoid, Reduce, Restore, Regenerate, Transform"
+  - "Align, Reduce, Report, Track, Target"
+  - "Avoid, Restore, Regenerate, Replace, Transfer"
+  answer: 1
+  explanation: "AR3T stands for Avoid, Reduce, Restore, Regenerate, and Transform. This hierarchy organises nature actions by strategic ambition, from stopping new harm (Avoid) through reducing existing impacts (Reduce), actively recovering degraded ecosystems (Restore), rebuilding natural capital (Regenerate), to shifting business models and systems (Transform)."
+
+- question: "By approximately what percentage have populations of freshwater vertebrate species declined since 1970?"
+  options:
+  - "Around 25%"
+  - "Around 50%"
+  - "Around 83%"
+  - "Around 95%"
+  answer: 2
+  explanation: "Populations of freshwater vertebrate species have declined by an average of approximately 83% since 1970, making this the sharpest decline of any major ecological group tracked globally. This dramatic decline underscores the urgency of the SBTN freshwater target framework and explains why freshwater is the first realm for which SBTN has published complete target-setting guidance."
+
+- question: "Which of the following best describes the relationship between TNFD and SBTN?"
+  options:
+  - "They are competing frameworks and companies should choose one or the other"
+  - "TNFD replaced SBTN after the publication of the final recommendations in 2023"
+  - "TNFD provides the risk management and disclosure framework; SBTN provides the target-setting methodology - they are designed to work together"
+  - "SBTN is a TNFD working group focused exclusively on the financial sector"
+  answer: 2
+  explanation: "TNFD and SBTN are complementary frameworks designed to work together. TNFD provides the risk management and disclosure structure (the LEAP approach and four disclosure pillars), while SBTN provides the science-grounded methodology for setting verifiable nature targets. TNFD's Prepare phase explicitly encourages SBTN-aligned target setting, and the two organisations have published joint guidance for corporates."

@@ -1,0 +1,26 @@
+- question: "Which WTO legal instrument provides the primary basis for justifying CBAM as a legitimate trade measure under international trade law?"
+  options:
+  - "GATT Article VI (anti-dumping duties)"
+  - "GATT Article XX (general exceptions for environmental protection)"
+  - "TRIPS Agreement (trade-related intellectual property rights)"
+  - "GATS Article XIV (general exceptions for services)"
+  answer: 1
+  explanation: "GATT Article XX provides general exceptions allowing WTO members to adopt measures 'necessary to protect human, animal or plant life or health' and measures 'relating to the conservation of exhaustible natural resources.' CBAM Recitals 21-24 explicitly invoke these exceptions. The measure must also satisfy the Article XX chapeau, meaning it cannot be applied in a manner that constitutes arbitrary or unjustifiable discrimination."
+
+- question: "Why does CBAM use a dynamic certificate mechanism linked to the EU ETS auction price, rather than a fixed statutory carbon tariff?"
+  options:
+  - "Because a fixed tariff would require WTO notification, whereas a certificate mechanism does not"
+  - "Because a dynamic mechanism automatically maintains equivalence between domestic carbon costs and import carbon costs as the EU ETS price changes, without requiring legislative amendment each time"
+  - "Because EU law prohibits fixed-rate carbon tariffs on imports from WTO members"
+  - "Because a certificate mechanism generates more revenue for EU member states than a tariff would"
+  answer: 1
+  explanation: "A fixed tariff would quickly diverge from the actual EU ETS price, either over-compensating EU producers (effectively protectionist) or under-compensating (failing to address leakage). A dynamic mechanism tracking the EU ETS auction price automatically maintains the equivalence that makes CBAM legally defensible and practically effective — without needing legislative changes every time the carbon price moves."
+
+- question: "Under CBAM, if a producer in Canada has already paid CAD 65/tonne CO₂ in domestic carbon pricing, and the EU ETS price is €70/tonne CO₂, what is the basis for calculating the CBAM liability?"
+  options:
+  - "The full EU ETS price of €70/tonne — domestic carbon prices paid abroad are not recognised under CBAM"
+  - "Zero — Canada's carbon price is considered equivalent to the EU ETS and therefore no CBAM applies"
+  - "The difference between the EU ETS price and the equivalent value of the Canadian carbon price already paid, preventing double taxation"
+  - "The Canadian carbon price converted to euros — CBAM always uses the lower of the two applicable prices"
+  answer: 2
+  explanation: "CBAM allows deductions for carbon prices already paid in the country of production, preventing double taxation and ensuring CBAM acts as an equaliser rather than a penalty. The importer would be liable for approximately the difference between the EU ETS price and the Canadian carbon price (converted to euros), not the full EU ETS price."

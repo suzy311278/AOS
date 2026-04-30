@@ -1,0 +1,78 @@
+{/* 4.2: Error Propagation & Monte Carlo */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/vm0042/4_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Error Propagation & Monte Carlo Simulation
+<HighlightBox>
+  <p class="font-semibold text-green-800">Two methods to quantify uncertainty</p>
+  <p class="text-green-900 mt-1">VM0042 provides two approaches for calculating the numerical uncertainty deduction: <strong>analytical error propagation</strong> (straightforward for independent errors) and <strong>Monte Carlo simulation</strong> (for complex, correlated inputs). Understanding these methods is essential for completing the ERR spreadsheet.</p>
+</HighlightBox>
+
+### Method 1: Analytical Error Propagation
+<p class="text-sm mb-3">In plain terms: each measurement you make has some imprecision. When you multiply or add these imprecise numbers together, the imprecision compounds. Error propagation is the mathematical method for tracking how that compounding works so the final uncertainty figure is honest.</p>
+<p class="text-sm mb-3">The key rules:</p>
+
+<div class="bg-gray-50 border rounded p-4 mb-4">
+  <p class="font-semibold text-sm text-gray-800">Key Rule: Adding/Subtracting values → Add absolute variances</p>
+  <p class="font-semibold text-sm text-gray-800 mt-2">Key Rule: Multiplying/Dividing values → Add relative (%) variances, then take square root</p>
+</div>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📐 Worked Example: SOC Stock Uncertainty</p>
+  <p class="mt-2 text-sm">Calculate SOC stock and its uncertainty:</p>
+  <ResponsiveTable>
+<table class="mt-2 text-sm">
+    <tr><th>Input</th><th>Value</th><th>Relative Uncertainty</th></tr>
+    <tr><td>OC concentration</td><td>1.8%</td><td>8.3% (±0.15%)</td></tr>
+    <tr><td>Bulk density</td><td>1.35 g/cm³</td><td>5.9% (±0.08 g/cm³)</td></tr>
+    <tr><td>Depth</td><td>30 cm</td><td>0% (assumed exact)</td></tr>
+  </table>
+</ResponsiveTable>
+  <FormulaBox>
+    SOC stock = 1.8% × 1.35 × 30 × 100 = 72.9 tC/ha<br />
+    Combined uncertainty = √(8.3² + 5.9²) = √(68.9 + 34.8) = √103.7 = <strong>10.2%</strong><br />
+    Absolute uncertainty = 72.9 × 10.2% = ±7.4 tC/ha
+  </FormulaBox>
+  <p class="mt-2 text-sm">95% confidence interval: 72.9 ± (2 × 7.4) = <strong>58.1 to 87.7 tC/ha</strong></p>
+</ExampleBox>
+
+### Method 2: Monte Carlo Simulation
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">🎴 Analogy: Playing Cards 10,000 Times</p>
+  <p class="mt-1 text-sm text-blue-900">Error propagation is like using probability formulas to predict card game outcomes. Monte Carlo is like actually playing the game 10,000 times and recording all results. Both give you a distribution of outcomes, but Monte Carlo handles complex, correlated inputs better.</p>
+</AnalogyBox>
+<div className="max-w-xl mx-auto my-4">
+  <img src="/images/vm0042/monte-carlo-process.drawio.png" alt="Monte Carlo Simulation Process" className="w-full h-auto rounded" />
+</div>
+
+MC simulation is **required** when using spectroscopy techniques for SOC measurement (because their errors are often non-linear and correlated with carbon content).
+
+<div class="bg-blue-50 border border-blue-200 rounded p-4 mb-4">
+  <p class="font-semibold text-blue-800">📊 How VM0042 Uses the Monte Carlo Distribution</p>
+  <p class="text-sm mt-2 text-blue-900">VM0042 does not simply use the "5th percentile." Instead, it uses a <strong>probability-of-exceedance</strong> construct: the uncertainty deduction percentage is set so that the probability of the true value being <em>lower</em> than (mean − deduction) is only 5%, i.e., a 95% confidence lower bound.</p>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3 text-sm">
+    <div class="bg-white p-3 rounded border">
+      <p class="font-semibold text-gray-700">For a symmetric normal distribution:</p>
+      <p class="mt-1 text-gray-600">The 5th percentile is at mean − 1.645σ. So a 10% relative uncertainty (σ/mean = 10%) gives a deduction of 1.645 × 10% = <strong>16.5%</strong> of the mean estimate. Because ≥15% triggers a deduction per VM0042's schedule, this project would face a deduction.</p>
+    </div>
+    <div class="bg-white p-3 rounded border">
+      <p class="font-semibold text-gray-700">For non-symmetric or skewed distributions:</p>
+      <p class="mt-1 text-gray-600">MC simulation directly gives you the 5th percentile value from the simulated distribution, no normal-distribution assumption needed. This is why MC is required for spectroscopy models with non-Gaussian error structures.</p>
+    </div>
+  </div>
+  <p class="mt-3 text-sm text-blue-800"><strong>Deduction schedule:</strong> If 95% confidence interval (CI) half-width &lt;15% of mean → 0% deduction. 15–20% → 5% deduction. 20–30% → 15% deduction. >30% → 35% deduction. Uncertainty is measured as a % of the point estimate.</p>
+</div>
+
+### Model True-Up (Approach 1 only)
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">🏦 Analogy: Bank Reconciliation</p>
+  <p class="mt-1 text-sm text-blue-900">If your personal records say you have $5,000 but the bank statement says $4,700, you adjust your records to match reality. In VM0042, if the model predicted 2.5 tC/ha gain but actual soil samples show 2.0 tC/ha, the model is recalibrated and past credits may be adjusted.</p>
+</AnalogyBox>
+<p class="text-sm mb-3">True-up process:</p>
+<ul class="list-disc ml-6 text-sm space-y-2 mb-4">
+  <li>At each SOC measurement event (≥every 5 years), compare model predictions with actual measurements</li>
+  <li>If model systematically over-predicted: recalibrate model, adjust model prediction error estimate</li>
+  <li>Credits already issued based on over-predicted values may need buffer pool adjustments</li>
+  <li>True-up data is incorporated into the model validation dataset, improving future predictions</li>
+</ul>
+<KeyTakeaways items="Analytical error propagation combines uncertainties by adding squared relative uncertainties and taking the square root (for multiplied/divided values) ;; Monte Carlo simulation runs thousands of random iterations to build a probability distribution - required when spectroscopy is used for SOC measurement ;; VM0042 uses a 95% confidence lower bound: the deduction ensures only a 5% probability that the true value is lower than claimed ;; The deduction schedule: less than 15% CI half-width = 0% deduction, 15-20% = 5%, 20-30% = 15%, over 30% = 35% ;; Model true-up every 5 years compares predictions to actual soil samples - if the model over-predicted, recalibration and buffer adjustments may be required" />

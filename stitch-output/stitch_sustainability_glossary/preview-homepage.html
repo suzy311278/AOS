@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Greentryst - Sustainability Academy (Preview)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Manrope', 'sans-serif'],
+            body: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            primary: { DEFAULT: '#00433d', light: '#005c55', container: '#006a63', fixed: '#a7f0e6', dim: '#8cd4ca' },
+            surface: { DEFAULT: '#f8faf9', dim: '#d8dada', container: '#eceeed', 'container-low': '#f2f4f3', 'container-high': '#e6e9e8', 'container-highest': '#e1e3e2', 'container-lowest': '#ffffff' },
+            on: { surface: '#191c1c', 'surface-variant': '#3f4947', primary: '#ffffff' },
+            outline: { DEFAULT: '#6f7977', variant: '#bec9c6' },
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    * { font-family: 'Inter', sans-serif; }
+    h1, h2, h3, h4, h5, h6, .font-display { font-family: 'Manrope', sans-serif; }
+    .vines-gradient { background: linear-gradient(135deg, #00433d 0%, #006a63 100%); }
+    .hero-gradient { background: linear-gradient(135deg, #00433d 0%, #005c55 40%, #006a63 100%); }
+    .glass { background: rgba(255,255,255,0.08); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.12); }
+    .glass-light { background: rgba(255,255,255,0.8); backdrop-filter: blur(20px); }
+    .card-lift { transition: transform 0.25s ease, box-shadow 0.25s ease; }
+    .card-lift:hover { transform: translateY(-4px); box-shadow: 0 24px 48px -4px rgba(25,28,28,0.08); }
+    .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    .filter-pill { transition: all 0.2s ease; }
+    .filter-pill:hover { background: #e6e9e8; }
+    .filter-pill.active { background: #00433d; color: white; }
+    .filter-pill.active:hover { background: #005c55; }
+    .course-card-img { transition: transform 0.4s ease; }
+    .group:hover .course-card-img { transform: scale(1.08); }
+  </style>
+</head>
+<body class="bg-surface font-body text-on-surface antialiased">
+
+  <!-- ============ NAV (from Screen 1: glass + XP/streak/avatar) ============ -->
+  <header class="sticky top-0 z-50 glass-light border-b border-outline-variant/20">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-8 h-8 rounded-lg vines-gradient flex items-center justify-center shadow-sm">
+          <span class="material-symbols-outlined text-white text-lg">eco</span>
+        </div>
+        <span class="font-display font-bold text-on-surface text-lg tracking-tight">Greentryst</span>
+      </a>
+
+      <!-- Right nav -->
+      <div class="flex items-center gap-3">
+        <!-- Search -->
+        <button class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant text-sm hover:bg-surface-container transition">
+          <span class="material-symbols-outlined text-lg">search</span>
+          <span class="hidden sm:inline text-xs text-outline">Cmd+K</span>
+        </button>
+
+        <!-- XP Badge -->
+        <div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary-fixed/20 text-primary text-xs font-semibold">
+          <span class="material-symbols-outlined text-sm">star</span>
+          500 XP
+        </div>
+
+        <!-- Streak -->
+        <div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 text-xs font-semibold">
+          <span class="material-symbols-outlined text-sm">local_fire_department</span>
+          3 day streak
+        </div>
+
+        <!-- Continue -->
+        <a href="#" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-semibold bg-primary text-on-primary px-4 py-2 rounded-full hover:bg-primary-light transition shadow-sm">
+          <span class="material-symbols-outlined text-base">play_arrow</span>
+          Continue
+        </a>
+
+        <!-- Dashboard -->
+        <a href="#" class="text-sm font-medium text-on-surface-variant hover:text-on-surface transition hidden sm:inline">Dashboard</a>
+
+        <!-- Avatar -->
+        <div class="w-8 h-8 rounded-full bg-primary-dim flex items-center justify-center text-primary text-xs font-bold ring-2 ring-primary-fixed/30">
+          PK
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO (Screen 7 typography + Screen 4 features) ============ -->
+  <section class="relative hero-gradient overflow-x-clip">
+    <div class="max-w-6xl mx-auto px-6 py-20 sm:py-28">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center min-h-[520px]">
+        <!-- Text content -->
+        <div class="lg:col-span-7 relative z-10">
+          <div class="flex items-center gap-2 mb-6">
+            <span class="w-2 h-2 rounded-full bg-primary-dim animate-pulse"></span>
+            <span class="text-sm font-medium text-primary-fixed/70 tracking-widest uppercase font-body">Free &amp; Open Source</span>
+          </div>
+
+          <h1 class="font-display text-5xl sm:text-6xl lg:text-7xl font-extrabold text-white mb-5 leading-[1.05] tracking-tight">
+            Learn<br/>Sustainability.
+          </h1>
+
+          <p class="text-lg text-primary-fixed/60 mb-8 max-w-lg leading-relaxed font-body">
+            Master climate science, carbon markets, ESG reporting, and green finance with structured, expert-quality courses designed for the modern practitioner.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-3 mb-12">
+            <a href="#courses" class="inline-flex items-center gap-2 text-sm font-bold bg-white text-primary px-6 py-3 rounded-full hover:bg-primary-fixed transition shadow-lg shadow-black/10">
+              Browse Courses
+              <span class="material-symbols-outlined text-base">arrow_downward</span>
+            </a>
+            <a href="#" class="inline-flex items-center gap-2 text-sm font-semibold text-white/80 border border-white/20 px-6 py-3 rounded-full hover:bg-white/10 hover:text-white transition">
+              Browse Topics
+            </a>
+          </div>
+
+          <!-- Feature cards (Screen 4 glass icons) -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div class="glass rounded-2xl px-4 py-4 group cursor-default">
+              <span class="material-symbols-outlined text-primary-dim text-2xl mb-2 block">headphones</span>
+              <p class="text-sm font-semibold text-white">Audio Lessons</p>
+              <p class="text-xs text-primary-fixed/50 mt-0.5 leading-snug">Podcast-style narration</p>
+            </div>
+            <div class="glass rounded-2xl px-4 py-4 group cursor-default">
+              <span class="material-symbols-outlined text-primary-dim text-2xl mb-2 block">quiz</span>
+              <p class="text-sm font-semibold text-white">Quizzes</p>
+              <p class="text-xs text-primary-fixed/50 mt-0.5 leading-snug">Test your understanding</p>
+            </div>
+            <div class="glass rounded-2xl px-4 py-4 group cursor-default">
+              <span class="material-symbols-outlined text-primary-dim text-2xl mb-2 block">menu_book</span>
+              <p class="text-sm font-semibold text-white">Glossary</p>
+              <p class="text-xs text-primary-fixed/50 mt-0.5 leading-snug">190+ terms explained</p>
+            </div>
+            <div class="glass rounded-2xl px-4 py-4 group cursor-default">
+              <span class="material-symbols-outlined text-primary-dim text-2xl mb-2 block">lightbulb</span>
+              <p class="text-sm font-semibold text-white">Practitioner Tips</p>
+              <p class="text-xs text-primary-fixed/50 mt-0.5 leading-snug">Real-world examples</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero image (bleeds to right viewport edge) -->
+        <div class="lg:col-span-5 relative hidden lg:block h-[480px]">
+          <div class="absolute inset-y-0 left-0 rounded-l-[3rem] overflow-hidden shadow-2xl" style="right: -50vw;">
+            <img
+              src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1400&q=90"
+              alt="Sunlight streaming through a lush forest canopy"
+              class="w-full h-full object-cover"
+            />
+            <div class="absolute inset-0 bg-gradient-to-r from-primary/60 via-primary/20 to-transparent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS BAR (Screen 5: separate white band) ============ -->
+  <section class="bg-surface-container-lowest border-b border-outline-variant/10">
+    <div class="max-w-6xl mx-auto px-6 py-8 flex flex-wrap items-center justify-center gap-12 sm:gap-20">
+      <div class="text-center">
+        <p class="font-display text-3xl font-extrabold text-primary">8</p>
+        <p class="text-xs text-on-surface-variant mt-1 uppercase tracking-wider font-medium">Courses</p>
+      </div>
+      <div class="w-px h-10 bg-outline-variant/30 hidden sm:block"></div>
+      <div class="text-center">
+        <p class="font-display text-3xl font-extrabold text-primary">200+</p>
+        <p class="text-xs text-on-surface-variant mt-1 uppercase tracking-wider font-medium">Lessons</p>
+      </div>
+      <div class="w-px h-10 bg-outline-variant/30 hidden sm:block"></div>
+      <div class="text-center">
+        <p class="font-display text-3xl font-extrabold text-primary">38</p>
+        <p class="text-xs text-on-surface-variant mt-1 uppercase tracking-wider font-medium">Hours</p>
+      </div>
+      <div class="w-px h-10 bg-outline-variant/30 hidden sm:block"></div>
+      <div class="text-center">
+        <p class="font-display text-3xl font-extrabold text-primary">190+</p>
+        <p class="text-xs text-on-surface-variant mt-1 uppercase tracking-wider font-medium">Glossary Terms</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COURSES (Screen 4 grid + Screen 1 cards + Screen 6 filters) ============ -->
+  <section id="courses" class="bg-surface-container-low">
+    <div class="max-w-6xl mx-auto px-6 py-20">
+      <!-- Header + filters -->
+      <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
+        <div>
+          <h2 class="font-display text-3xl font-extrabold text-on-surface tracking-tight">Courses</h2>
+          <p class="text-sm text-on-surface-variant mt-1">8 courses across the sustainability spectrum</p>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          <button class="filter-pill active px-4 py-2 text-xs font-semibold rounded-full">All</button>
+          <button class="filter-pill px-4 py-2 text-xs font-semibold rounded-full bg-surface-container text-on-surface-variant">Fundamentals</button>
+          <button class="filter-pill px-4 py-2 text-xs font-semibold rounded-full bg-surface-container text-on-surface-variant">Green Finance</button>
+          <button class="filter-pill px-4 py-2 text-xs font-semibold rounded-full bg-surface-container text-on-surface-variant">ESG</button>
+          <button class="filter-pill px-4 py-2 text-xs font-semibold rounded-full bg-surface-container text-on-surface-variant">Carbon Markets</button>
+        </div>
+      </div>
+
+      <!-- 3x2 card grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Card 1: VM0042 -->
+        <article class="group bg-surface-container-lowest rounded-2xl overflow-hidden card-lift cursor-pointer">
+          <div class="h-40 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&q=75" alt="Forest" class="w-full h-full object-cover course-card-img" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+            <span class="absolute bottom-3 left-4 text-xs font-semibold text-white bg-teal-600/90 px-2.5 py-1 rounded-full">Methodology</span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-display font-bold text-on-surface text-base leading-snug mb-1.5">VM0042 Methodology</h3>
+            <p class="text-sm text-on-surface-variant leading-relaxed line-clamp-2 mb-4">Improved Agricultural Land Management for carbon crediting under Verra's VCS program.</p>
+            <div class="flex items-center gap-3 text-xs text-outline mb-4">
+              <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">play_circle</span> 34 lessons</span>
+              <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">schedule</span> 38h</span>
+            </div>
+            <!-- Progress bar -->
+            <div class="w-full h-1.5 bg-surface-container rounded-full mb-3 overflow-hidden">
+              <div class="h-full rounded-full vines-gradient" style="width: 45%"></div>
+            </div>
+            <a href="#" class="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:text-primary-container transition">
+              Resume
+              <span class="material-symbols-outlined text-base transition-transform group-hover:translate-x-0.5">arrow_forward</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 2: Article 6 -->
+        <article class="group bg-surface-container-lowest rounded-2xl overflow-hidden card-lift cursor-pointer">
+          <div class="h-40 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?w=600&q=75" alt="Mountains" class="w-full h-full object-cover course-card-img" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+            <span class="absolute bottom-3 left-4 text-xs font-semibold text-white bg-blue-600/90 px-2.5 py-1 rounded-full">Carbon Markets</span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-display font-bold text-on-surface text-base leading-snug mb-1.5">Article 6 of the Paris Agreement</h3>
+            <p class="text-sm text-on-surface-variant leading-relaxed line-clamp-2 mb-4">International cooperation mechanisms for carbon market linkages and ITMOs.</p>
+            <div class="flex items-center gap-3 text-xs text-outline mb-4">
+              <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">play_circle</span> 16 lessons</span>
+              <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">schedule</span> 12h</span>
+            </div>
+            <a href="#" class="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:text-primary-container transition">
+              Start course
+              <span class="material-symbols-outlined text-base transition-transform group-hover:translate-x-0.5">arrow_forward</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 3: GHG Scope 1 & 2 -->
+        <article class="group bg-surface-container-lowest rounded-2xl overflow-hidden card-lift cursor-pointer">
+          <div class="h-40 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=600&q=75" alt="Autumn forest" class="w-full h-full object-cover course-card-img" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+            <span class="absolute bottom-3 left-4 text-xs font-semibold text-white bg-emerald-600/90 px-2.5 py-1 rounded-full">Fundamentals</span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-display font-bold text-on-surface text-base leading-snug mb-1.5">GHG Protocol: Scope 1 &amp; 2</h3>
+            <p class="text-sm text-on-surface-variant leading-relaxed line-clamp-2 mb-4">Corporate greenhouse gas accounting and reporting for direct and energy emissions.</p>
+            <div class="flex items-center gap-3 text-xs text-outline mb-4">
+              <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">play_circle</span> 14 lessons</span>
+              <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">schedule</span> 8h</span>
+            </div>
+            <!-- Progress bar -->
+            <div class="w-full h-1.5 bg-surface-container rounded-full mb-3 overflow-hidden">
+              <div class="h-full rounded-full vines-gradient" style="width: 100%"></div>
+            </div>
+            <a href="#" class="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:text-primary-container transition">
+              Review course
+              <span class="material-symbols-outlined text-base transition-transform group-hover:translate-x-0.5">arrow_forward</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 4: Circular Economy -->
+        <article class="group bg-surface-container-lowest rounded-2xl overflow-hidden card-lift cursor-pointer">
+          <div class="h-40 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1518173946687-a093db8aca70?w=600&q=75" alt="Green leaves" class="w-full h-full object-cover course-card-img" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+            <span class="absolute bottom-3 left-4 text-xs font-semibold text-white bg-green-600/90 px-2.5 py-1 rounded-full">Sustainability</span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-display font-bold text-on-surface text-base leading-snug mb-1.5">Circular Economy</h3>
+            <p class="text-sm text-on-surface-variant leading-relaxed line-clamp-2 mb-4">Regenerative design principles, material flows, and business models beyond linear take-make-waste.</p>
+            <div class="flex items-center gap-3 text-xs text-outline mb-4">
+              <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">play_circle</span> 12 lessons</span>
+              <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">schedule</span> 6h</span>
+            </div>
+            <a href="#" class="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:text-primary-container transition">
+              Start course
+              <span class="material-symbols-outlined text-base transition-transform group-hover:translate-x-0.5">arrow_forward</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 5: EU Taxonomy -->
+        <article class="group bg-surface-container-lowest rounded-2xl overflow-hidden card-lift cursor-pointer">
+          <div class="h-40 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=75" alt="Building" class="w-full h-full object-cover course-card-img" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+            <span class="absolute bottom-3 left-4 text-xs font-semibold text-white bg-violet-600/90 px-2.5 py-1 rounded-full">ESG</span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-display font-bold text-on-surface text-base leading-snug mb-1.5">EU Taxonomy</h3>
+            <p class="text-sm text-on-surface-variant leading-relaxed line-clamp-2 mb-4">Classification framework for environmentally sustainable economic activities in the European Union.</p>
+            <div class="flex items-center gap-3 text-xs text-outline mb-4">
+              <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">play_circle</span> 18 lessons</span>
+              <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">schedule</span> 10h</span>
+            </div>
+            <a href="#" class="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:text-primary-container transition">
+              Start course
+              <span class="material-symbols-outlined text-base transition-transform group-hover:translate-x-0.5">arrow_forward</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- Card 6: GHG Scope 3 -->
+        <article class="group bg-surface-container-lowest rounded-2xl overflow-hidden card-lift cursor-pointer">
+          <div class="h-40 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=75" alt="Sunrise field" class="w-full h-full object-cover course-card-img" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+            <span class="absolute bottom-3 left-4 text-xs font-semibold text-white bg-emerald-600/90 px-2.5 py-1 rounded-full">Fundamentals</span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-display font-bold text-on-surface text-base leading-snug mb-1.5">GHG Protocol: Scope 3</h3>
+            <p class="text-sm text-on-surface-variant leading-relaxed line-clamp-2 mb-4">Value chain emissions accounting across all 15 upstream and downstream categories.</p>
+            <div class="flex items-center gap-3 text-xs text-outline mb-4">
+              <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">play_circle</span> 20 lessons</span>
+              <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">schedule</span> 14h</span>
+            </div>
+            <a href="#" class="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:text-primary-container transition">
+              Start course
+              <span class="material-symbols-outlined text-base transition-transform group-hover:translate-x-0.5">arrow_forward</span>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOCIAL PROOF (Screen 3: asymmetric bento) ============ -->
+  <section class="bg-surface-container-lowest">
+    <div class="max-w-6xl mx-auto px-6 py-20">
+      <h2 class="font-display text-3xl font-extrabold text-on-surface tracking-tight mb-3">The Academy Experience</h2>
+      <p class="text-sm text-on-surface-variant mb-10 max-w-lg">Built by sustainability practitioners, for sustainability practitioners. Every lesson is sourced from primary standards and methodology documents.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-5">
+        <!-- Large image card -->
+        <div class="md:col-span-7 relative rounded-3xl overflow-hidden h-80">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Mountain landscape" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+          <div class="absolute bottom-6 left-6 right-6">
+            <p class="text-xs text-primary-fixed/70 uppercase tracking-wider font-semibold mb-2">Expert-Curated Content</p>
+            <p class="text-xl font-display font-bold text-white leading-snug">Every lesson verified against primary source documents and methodology standards.</p>
+          </div>
+        </div>
+
+        <!-- Right column: two stacked cards -->
+        <div class="md:col-span-5 flex flex-col gap-5">
+          <div class="flex-1 bg-surface-container-low rounded-3xl p-7 flex flex-col justify-between">
+            <span class="material-symbols-outlined text-primary text-3xl">trending_up</span>
+            <div class="mt-4">
+              <p class="font-display text-4xl font-extrabold text-on-surface">94%</p>
+              <p class="text-sm text-on-surface-variant mt-1">of learners report improved confidence in sustainability topics within 4 weeks</p>
+            </div>
+          </div>
+          <div class="flex-1 bg-surface-container-low rounded-3xl p-7 flex flex-col justify-between">
+            <span class="material-symbols-outlined text-primary text-3xl">public</span>
+            <div class="mt-4">
+              <p class="font-display text-4xl font-extrabold text-on-surface">42+</p>
+              <p class="text-sm text-on-surface-variant mt-1">countries represented in our growing community of sustainability learners</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA (Screen 2: Start Your Journey + Screen 7 quote) ============ -->
+  <section class="hero-gradient relative overflow-hidden">
+    <div class="max-w-6xl mx-auto px-6 py-20 text-center relative z-10">
+      <!-- Decorative watermark -->
+      <div class="absolute inset-0 flex items-center justify-center pointer-events-none select-none opacity-[0.03]">
+        <span class="font-display text-[12rem] font-extrabold text-white tracking-widest">ARCHIVE</span>
+      </div>
+
+      <span class="material-symbols-outlined text-primary-dim text-4xl mb-4 block">format_quote</span>
+      <blockquote class="font-display text-2xl sm:text-3xl font-bold text-white max-w-3xl mx-auto leading-snug mb-6">
+        "Sustainability is no longer a niche election. It is the operating system for the 21st-century global economy."
+      </blockquote>
+      <p class="text-sm text-primary-fixed/50 mb-10">Start building your expertise today.</p>
+      <a href="#courses" class="inline-flex items-center gap-2 text-sm font-bold bg-white text-primary px-8 py-3.5 rounded-full hover:bg-primary-fixed transition shadow-lg shadow-black/10">
+        Start Your Journey
+        <span class="material-symbols-outlined text-base">arrow_forward</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER (Screen 1: 4-column with newsletter) ============ -->
+  <footer class="bg-[#0a2622] text-white/70">
+    <div class="max-w-6xl mx-auto px-6 py-16">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <!-- Brand -->
+        <div>
+          <div class="flex items-center gap-2.5 mb-4">
+            <div class="w-7 h-7 rounded-lg vines-gradient flex items-center justify-center">
+              <span class="material-symbols-outlined text-white text-base">eco</span>
+            </div>
+            <span class="font-display font-bold text-white text-sm">Greentryst</span>
+          </div>
+          <p class="text-xs text-white/40 mb-5 leading-relaxed">Open-source sustainability education for the modern practitioner.</p>
+          <div class="flex items-center gap-3">
+            <a href="#" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition">
+              <span class="material-symbols-outlined text-sm">link</span>
+            </a>
+            <a href="#" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition">
+              <span class="material-symbols-outlined text-sm">mail</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Learning -->
+        <div>
+          <p class="text-xs font-semibold text-white/40 uppercase tracking-wider mb-4">Learning</p>
+          <ul class="space-y-2.5 text-sm">
+            <li><a href="#" class="hover:text-white transition">Climate Science</a></li>
+            <li><a href="#" class="hover:text-white transition">Carbon Markets</a></li>
+            <li><a href="#" class="hover:text-white transition">ESG Reporting</a></li>
+            <li><a href="#" class="hover:text-white transition">Green Finance</a></li>
+          </ul>
+        </div>
+
+        <!-- Resources -->
+        <div>
+          <p class="text-xs font-semibold text-white/40 uppercase tracking-wider mb-4">Resources</p>
+          <ul class="space-y-2.5 text-sm">
+            <li><a href="#" class="hover:text-white transition">Glossary</a></li>
+            <li><a href="#" class="hover:text-white transition">Feedback</a></li>
+            <li><a href="#" class="hover:text-white transition">Disclaimer</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div>
+          <p class="text-xs font-semibold text-white/40 uppercase tracking-wider mb-4">Stay Updated</p>
+          <p class="text-sm text-white/50 mb-4 leading-relaxed">Get notified when new courses and lessons are published.</p>
+          <div class="flex gap-2">
+            <input type="email" placeholder="your@email.com" class="flex-1 px-4 py-2.5 rounded-full bg-white/10 border border-white/10 text-sm text-white placeholder:text-white/30 focus:outline-none focus:border-primary-dim/50 transition" />
+            <button class="px-4 py-2.5 rounded-full bg-primary-container text-white text-sm font-semibold hover:bg-primary-light transition">
+              <span class="material-symbols-outlined text-base">send</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+        <p class="text-xs text-white/30">&copy; 2026 Greentryst. Sustainability Academy.</p>
+        <div class="flex items-center gap-4 text-xs text-white/30">
+          <a href="#" class="hover:text-white/60 transition">Privacy Policy</a>
+          <a href="#" class="hover:text-white/60 transition">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

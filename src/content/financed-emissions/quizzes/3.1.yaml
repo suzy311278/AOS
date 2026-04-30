@@ -1,0 +1,44 @@
+- question: "What denominator does PCAF use for the attribution factor on motor vehicle loans?"
+  options:
+    - "Current market value of the vehicle at the reporting date"
+    - "Total vehicle value at origination, held constant over the loan term"
+    - "Outstanding loan balance only (no separate denominator needed)"
+    - "PPP-adjusted GDP of the country where the vehicle is registered"
+  answer: 1
+  explanation: "For motor vehicle loans, the attribution denominator is the total vehicle value at origination, consistent with the real estate approach. This prevents changes in second-hand vehicle market prices from mechanically altering attributed emissions year to year. As the loan is repaid, the numerator (outstanding amount) falls, reducing the attribution factor to zero at maturity."
+
+- question: "A bank finances a petrol car worth £20,000 with a £15,000 loan. The car achieves 45 mpg (0.063 L/km). Local statistics show average annual mileage of 14,000 km. The petrol emission factor is 2.31 kgCO2e/litre. What are the approximate financed emissions for this vehicle?"
+  options:
+    - "4.2 tCO2e/year"
+    - "3.2 tCO2e/year"
+    - "2.4 tCO2e/year"
+    - "1.5 tCO2e/year"
+  answer: 1
+  explanation: "Annual fuel use = 14,000 km × 0.063 L/km = 882 litres. Annual vehicle emissions = 882 × 2.31 kg/litre = 2,037 kgCO2e = 2.04 tCO2e. Attribution factor = £15,000 / £20,000 = 75%. Financed emissions = 75% × 2.04 = 1.53 tCO2e — closest to the 1.5 tCO2e option. The calculation uses make/model fuel efficiency and local statistics, so this is a Score 2a/3a calculation."
+
+- question: "For a battery electric vehicle (BEV) financed through an auto loan, which emission scope is most relevant for financed emissions?"
+  options:
+    - "Scope 1, from the BEV's combustion-free engine"
+    - "Scope 2, from the electricity consumed to charge the BEV"
+    - "Scope 3, from the upstream mining of battery materials"
+    - "No emissions are attributable since BEVs have zero tailpipe emissions"
+  answer: 1
+  explanation: "BEVs produce no Scope 1 tailpipe emissions (no combustion), but do produce Scope 2 emissions from the electricity used to charge the battery. The Scope 2 emissions are calculated using the grid emission factor of the country or region where the vehicle primarily operates. As the electricity grid decarbonises, the same EV will produce progressively fewer Scope 2 emissions over time, reflecting the improving grid mix."
+
+- question: "What was the PCAF Motor Vehicle Total Cost of Ownership (TCO) study's calculated global weighted average premium-to-TCO ratio for personal motor insurance?"
+  options:
+    - "3.73%"
+    - "6.99%"
+    - "9.24%"
+    - "15.00%"
+  answer: 1
+  explanation: "The PCAF Motor Vehicle TCO Data study (December 2023) calculated a global weighted average premium-to-TCO ratio of 6.99%. This figure is used in Part C (Insurance-Associated Emissions) for personal motor lines when insurers cannot determine a more specific regional ratio. Regional averages range from 3.44% (Middle East) to 9.24% (Central and Eastern Europe)."
+
+- question: "Which PCAF data quality score applies when a bank knows the exact annual fuel consumption of each financed vehicle (as directly reported by commercial fleet customers)?"
+  options:
+    - "Score 1 — actual fuel consumption directly reported by the borrower"
+    - "Score 2 — distance traveled plus make/model efficiency"
+    - "Score 3 — regional average distance with known vehicle make/model"
+    - "Score 5 — no vehicle-specific data available"
+  answer: 0
+  explanation: "Score 1 applies when actual vehicle fuel consumption is directly reported by the borrower (e.g., telematics data from commercial fleet operators, or actual fuel card transaction records). This is the highest quality because it uses observed real-world consumption rather than statistical estimates or manufacturer-rated efficiency figures."

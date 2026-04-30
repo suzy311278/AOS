@@ -1,0 +1,26 @@
+- question: "According to ESRS 1, what is needed for a sustainability matter to be financially material?"
+  options:
+    - "The matter must already have caused a loss recognised in the financial statements"
+    - "The matter must trigger, or could reasonably be expected to trigger, material financial effects on the undertaking through risks or opportunities"
+    - "The matter must be within the direct control of the undertaking"
+    - "The matter must have been identified in the prior year's financial statements"
+  answer: 1
+  explanation: "ESRS 1 paragraph 49 states that a sustainability matter is material from a financial perspective if it triggers or could reasonably be expected to trigger material financial effects through risks or opportunities, regardless of whether it has already appeared in the financial statements."
+
+- question: "Which of the following is listed in ESRS 1 as an example of a financial effect that makes a sustainability matter financially material?"
+  options:
+    - "The number of employees affected by a corporate policy change"
+    - "The volume of greenhouse gas emissions reported in the prior year"
+    - "The undertaking's access to finance or cost of capital"
+    - "The size of the undertaking's environmental management team"
+  answer: 2
+  explanation: "ESRS 1 paragraph 49 lists development, financial position, financial performance, cash flows, access to finance, and cost of capital as the categories of financial effect relevant to financial materiality."
+
+- question: "How does the scope of financial materiality for sustainability reporting compare to the materiality concept used in preparing financial statements?"
+  options:
+    - "It is exactly the same concept applied in the same way"
+    - "It is narrower, covering only items already recognised in the balance sheet"
+    - "It is an expansion of the scope of materiality used for financial statements"
+    - "It applies only to listed companies, not private undertakings"
+  answer: 2
+  explanation: "ESRS 1 paragraph 47 states explicitly that the scope of financial materiality for sustainability reporting is an expansion of the scope of materiality used in the process of determining which information should be included in the undertaking's financial statements."

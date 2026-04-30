@@ -1,0 +1,44 @@
+- question: "The SBTi Sectoral Decarbonisation Approach (SDA) for a financial institution's power sector portfolio sets targets based on:"
+  options:
+    - "Absolute reduction in the outstanding loan balance to power companies"
+    - "Historical national electricity grid emission intensity trends"
+    - "Alignment of the weighted average emission intensity of financed power assets with IEA or IPCC sector decarbonisation pathways"
+    - "Reduction in the number of fossil-fuel power companies in the portfolio"
+  answer: 2
+  explanation: "The SDA assigns emission intensity targets derived from climate science for each sector. For the power sector, the IEA Net Zero Emissions by 2050 (NZE) scenario sets a pathway for electricity generation intensity (tCO2e per MWh). The financial institution's portfolio-weighted average of financed power asset intensity must converge with this scenario target over time. This requires improving the emissions profile of financed power assets — not merely by divesting, but by shifting capital toward lower-carbon generation."
+
+- question: "A bank's corporate lending portfolio temperature score is 2.7°C. To improve this score, the bank should prioritise:"
+  options:
+    - "Reducing the size of the corporate lending portfolio overall"
+    - "Engaging high-temperature-score borrowers to adopt their own validated SBTi targets, and redeploying capital toward borrowers with more ambitious emission reduction targets"
+    - "Switching all corporate loans to green bonds"
+    - "Only lending to companies with existing net-zero commitments"
+  answer: 1
+  explanation: "The temperature rating approach measures the portfolio-weighted average climate ambition of all investees. Improving a high portfolio temperature score requires either (1) engaging high-temperature-score companies to set more ambitious targets (which directly moves their individual temperature score down) or (2) redirecting capital toward companies with stronger targets. Both strategies reduce the weighted average. Simply reducing portfolio size changes the absolute exposure but not necessarily the temperature alignment."
+
+- question: "Which two international alliances most directly commit their members to disclosing financed emissions annually using PCAF-aligned methodology?"
+  options:
+    - "Net-Zero Banking Alliance (NZBA) and Net-Zero Asset Owner Alliance (NZAOA)"
+    - "Science Based Targets initiative (SBTi) and Glasgow Financial Alliance for Net Zero (GFANZ)"
+    - "Task Force on Climate-related Financial Disclosures (TCFD) and ISSB"
+    - "CDP and the UN Environment Programme Finance Initiative (UNEP FI)"
+  answer: 0
+  explanation: "Both the NZBA (for banks) and the NZAOA (for institutional asset owners) explicitly require members to use PCAF methodology for annual portfolio financed emissions reporting. SBTi uses PCAF as the baseline but is a target-setting framework rather than a disclosure alliance. GFANZ is the umbrella grouping for multiple financial alliances. TCFD and ISSB are frameworks, not alliances with membership commitments."
+
+- question: "The SBTi Portfolio Coverage Approach measures success by:"
+  options:
+    - "The absolute reduction in the portfolio's financed emissions in tCO2e over time"
+    - "The percentage of portfolio value (by outstanding amount) where the borrower or investee has its own validated SBTi-approved emission reduction target"
+    - "Whether the portfolio's temperature score is below 1.5°C"
+    - "The total number of green financial products offered by the institution"
+  answer: 1
+  explanation: "The Portfolio Coverage Approach measures the share of the portfolio by outstanding amount where borrowers or investees have their own validated SBTi-approved targets. For example, a target might read: 'By 2030, 75% of our corporate lending portfolio will cover companies with validated SBTi targets.' This approach incentivises direct engagement with portfolio companies, encouraging them to adopt their own science-based targets — driving real-economy decarbonisation rather than just portfolio reshuffling."
+
+- question: "How does measuring financed emissions create a feedback loop for science-based target setting?"
+  options:
+    - "PCAF automatically calculates SBTi targets from financed emissions data"
+    - "Financed emissions are measured annually using PCAF (baseline and tracking), and SBTi targets are set using those measurements as the baseline — creating a Measure → Target → Track → Engage → Report cycle"
+    - "SBTi targets replace the need for PCAF financed emissions measurement once set"
+    - "PCAF requires SBTi targets to be set before the first financed emissions disclosure"
+  answer: 1
+  explanation: "PCAF measurement and SBTi target setting form a continuous cycle: (1) Measure the portfolio's baseline financed emissions using PCAF, (2) Analyse composition by sector and intensity, (3) Set SBTi-aligned targets using the PCAF baseline, (4) Track annual progress by re-measuring with PCAF, (5) Engage high-emission borrowers, and (6) Report progress using PCAF disclosure format. PCAF provides the measurement discipline; SBTi provides the strategic direction."

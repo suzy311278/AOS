@@ -1,0 +1,26 @@
+- question: "A company sets its reporting boundary as 'consolidated group including all subsidiaries.' Midway through data collection, two subsidiaries cannot provide water consumption data. What is the best course of action?"
+  options:
+    - "Report water data only for entities that have it and leave gaps for the rest"
+    - "Narrow the boundary upfront to exclude those subsidiaries and note the exclusion transparently"
+    - "Estimate the missing water data using industry averages"
+    - "Remove the water section entirely from the report"
+  answer: 1
+  explanation: "The boundary set in 'About the Report' governs every data point. If subsidiaries cannot provide data, it is better to exclude them from the boundary and be transparent about it than to publish a report with inconsistent coverage or gaps."
+
+- question: "Where should the GRI Content Index be created in the report production timeline?"
+  options:
+    - "At the start of the project, before any writing begins"
+    - "Alongside the blueprint, during the planning phase"
+    - "After design is finalized and page numbers are locked"
+    - "Immediately after the first draft of all chapters is complete"
+  answer: 2
+  explanation: "The GRI Content Index maps each indicator to specific page numbers. Creating it before the design is finalized means redoing it when content shifts during layout. It is always the last thing produced, once pages are locked."
+
+- question: "A CEO's message in a sustainability report opens with: 'We are deeply committed to sustainability and believe in creating a better world for future generations.' What is the primary problem with this?"
+  options:
+    - "It is too short for a CEO message"
+    - "It uses first person instead of third person"
+    - "It is generic and lacks specific performance data or targets"
+    - "It should not mention future generations in a sustainability report"
+  answer: 2
+  explanation: "A strong CEO message grounds itself in specifics - actual performance data, concrete targets, and honest acknowledgment of progress and shortcomings. Generic aspirational language could appear in any company's report and does not give the reader a reason to keep reading."

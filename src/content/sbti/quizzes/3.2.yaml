@@ -1,0 +1,44 @@
+- question: "A company has a base year of 2022 and wants to set a 1.5C-aligned near-term Scope 1+2 target using Method B.1 (cross-sector absolute reduction, LAR = 4.2% per year). What is the minimum required percentage reduction from the 2022 base year to reach the 2030 target year?"
+  options:
+    - "33.6% (4.2% x 8 years)"
+    - "42% (4.2% x 10 years, anchored to 2020)"
+    - "25.2% (4.2% x 6 years)"
+    - "50.4% (4.2% x 12 years)"
+  answer: 1
+  explanation: "For base years after 2020, the SBTi adjusts the required reduction to account for the years already elapsed since the 2020 anchor point in the global pathway. The formula is: LAR x (Target Year - 2020) = 4.2% x (2030 - 2020) = 4.2% x 10 = 42%. This is higher than the naive 4.2% x 8 = 33.6% that would result from simply applying the LAR to the number of years in the target period, because the pathway requires catching up on reductions that should have occurred between 2020 and the base year."
+
+- question: "The Sectoral Decarbonization Approach (SDA) in Method B.3 is based on which underlying concept?"
+  options:
+    - "All companies in a sector reduce absolute emissions by the same fixed percentage regardless of starting intensity"
+    - "Companies with high emission intensity must converge toward a common sector benchmark intensity by the target year, while low-intensity companies may increase slightly"
+    - "Companies reduce physical emission intensity at 7% compound annual rate toward a sector-average target"
+    - "Companies use revenue-based intensity and converge to an economy-wide economic intensity benchmark"
+  answer: 1
+  explanation: "The SDA is an intensity convergence approach. All companies in a given sector must move toward a common benchmark emission intensity (e.g., tCO2e per tonne of steel, or tCO2e per MWh of electricity generated) that is defined by the science-derived sector pathway. Companies starting with a high intensity face steeper reductions to reach the benchmark; companies already close to the benchmark have a shallower trajectory. The endpoint intensity -- not a universal percentage cut -- is what aligns all companies with the sector's decarbonisation pathway."
+
+- question: "Under Method B.4, what are the SBTi's minimum requirements for a renewable electricity target covering Scope 2?"
+  options:
+    - "50% renewable electricity by 2025 and 80% by 2030"
+    - "80% renewable electricity by 2025 and 100% by 2030"
+    - "100% renewable electricity by 2025"
+    - "60% renewable electricity by 2030 and 100% by 2040"
+  answer: 1
+  explanation: "Method B.4 sets two minimum thresholds for renewable electricity procurement as part of a Scope 2 strategy: at least 80% renewable electricity by 2025, and 100% renewable electricity by 2030. This method covers the electricity component of Scope 2 only and must be used alongside an approach addressing Scope 1 and any non-electricity Scope 2 (steam, heat, cooling)."
+
+- question: "A logistics company wants to set a Scope 3 intensity target using Method B.5 (physical intensity). It measures its Scope 3 in gCO2e per tonne-km. What is the minimum compound annual intensity reduction rate required for well-below-2C alignment under the SBTi?"
+  options:
+    - "4.2% compound annual reduction"
+    - "5.0% compound annual reduction"
+    - "7.0% compound annual reduction"
+    - "10.0% compound annual reduction"
+  answer: 2
+  explanation: "Methods B.5 and B.6 (physical and economic intensity for Scope 3) require a minimum compound annual reduction of 7% in emission intensity for well-below-2C alignment. This is higher than the 4.2% linear annual reduction used for absolute Scope 1+2 targets under Method B.1, reflecting that the well-below-2C threshold (rather than 1.5C) is used for Scope 3 intensity methods. For 1.5C absolute Scope 3 targets, the required reduction rate would be even higher."
+
+- question: "A consumer goods company sets a Scope 3 Category 1 target under Method B.7 (supplier engagement). Which of the following correctly describes what this target requires?"
+  options:
+    - "The company must directly measure and reduce its suppliers' absolute Scope 1 and 2 emissions by a minimum of 30%"
+    - "The company commits that a specified percentage of its Category 1 spend will come from suppliers with their own SBTi-validated targets by a defined year"
+    - "The company requires its top 10 suppliers to submit SBTi targets within 12 months of the company's own target approval"
+    - "The company reduces the number of suppliers in its Scope 3 Category 1 inventory by 50% through supply chain consolidation"
+  answer: 1
+  explanation: "Method B.7 is a supplier engagement target, not a direct emissions reduction target. The company commits that by a specified year, a defined percentage of its Scope 3 Category 1 spend (typically at least 67%) will come from suppliers that have their own SBTi-validated targets. This approach cascades science-based ambition through the supply chain without requiring the setting company to directly measure or control its suppliers' absolute emissions levels."

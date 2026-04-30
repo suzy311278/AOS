@@ -1,0 +1,26 @@
+- question: "Which greenhouse gas has the highest GWP (warming power per molecule) among the three tracked by VM0042?"
+  options:
+  - "CO₂"
+  - "CH₄ (Methane)"
+  - "N₂O (Nitrous oxide)"
+  - "All are equal"
+  answer: 2
+  explanation: "N₂O has a GWP of 265 — meaning 1 tonne of N₂O is equivalent to 265 tonnes of CO₂ in warming impact over 100 years."
+
+- question: "A farm emits 5 tonnes of CH₄ per year. What is this in CO₂-equivalent (using GWP of 28)?"
+  options:
+  - "5 tCO₂e"
+  - "28 tCO₂e"
+  - "140 tCO₂e"
+  - "265 tCO₂e"
+  answer: 2
+  explanation: "5 tonnes CH₄ × 28 (GWP) = 140 tCO₂e. GWP converts all gases to a common unit."
+
+- question: "Which gas is the PRIMARY focus of VM0042's carbon removal tracking?"
+  options:
+  - "N₂O from fertilizers"
+  - "CH₄ from livestock"
+  - "CO₂ from soil organic carbon"
+  - "CO₂ from fossil fuels"
+  answer: 2
+  explanation: "VM0042 centres on soil organic carbon (SOC) — changes in SOC stock are tracked as CO₂ removals. This is the main source of carbon credits."

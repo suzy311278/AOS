@@ -1,0 +1,44 @@
+- question: "What is the 'jurisdictional double-counting risk' associated with unauthorised voluntary carbon market (VCM) credits?"
+  options:
+    - "The risk that two different VCM registries issue credits for the same project simultaneously"
+    - "The risk that the same emission reduction is counted in the host country's NDC progress while the buyer also claims it in their own climate reporting, because no corresponding adjustment was applied"
+    - "The risk that a VCM credit is used for both CORSIA compliance and a corporate net-zero claim"
+    - "The risk that a credit's serial number is duplicated across two registries"
+  answer: 1
+  explanation: "Unauthorised VCM credits do not require a corresponding adjustment. The host country can count the underlying emission reduction in its own NDC progress while the buyer simultaneously claims the same reduction as an offset in their corporate climate reports. This means the same tonne of CO2 is subtracted from global accounts twice -- once by the host country, once by the buyer -- but it only stopped existing in the atmosphere once. This is systemic in the current VCM, not an edge case."
+
+- question: "Why are authorised Article 6 credits (with corresponding adjustments) typically more expensive than equivalent unauthorised VCM credits?"
+  options:
+    - "Because Article 6 credits have a longer shelf life and can be used in future NDC periods"
+    - "Because authorised credits are scarcer (host countries can only authorise surplus reductions beyond their own NDC needs), carry higher transaction costs from government authorisation, and face growing demand from buyers requiring CA-backed credits"
+    - "Because the Supervisory Body charges a mandatory premium on all A6.4 credits sold to non-LDC buyers"
+    - "Because VCM credits are subsidised by developed country governments while Article 6 credits are not"
+  answer: 1
+  explanation: "Authorised Article 6 credits command a premium for three compounding reasons: scarcity (host countries can only authorise reductions in excess of what they need for their own NDC, constraining supply), transaction costs (obtaining government authorisation involves legal documentation and potentially host country conditions), and rising demand (as corporate frameworks increasingly require CA-backed credits for credible climate claims). The premium reflects genuine added integrity and the cost of accessing a constrained supply."
+
+- question: "CORSIA is the carbon offsetting scheme for which sector, and what is its relationship to Article 6 credits?"
+  options:
+    - "The shipping sector; Article 6 credits are automatically CORSIA-eligible without additional review"
+    - "The international aviation sector; Article 6 credits (with corresponding adjustments) are eligible for CORSIA consideration subject to ICAO's separate technical review"
+    - "The steel and cement sector; Article 6 credits are the only eligible offset type for CORSIA compliance"
+    - "The financial sector; CORSIA requires all financial institutions to hold Article 6 credits proportional to their financed emissions"
+  answer: 1
+  explanation: "CORSIA (Carbon Offsetting and Reduction Scheme for International Aviation) is operated by ICAO and applies to international aviation. Airlines must offset emission growth above their 2019 baseline. Article 6 credits with corresponding adjustments are eligible for CORSIA consideration, but ICAO maintains its own eligibility criteria and technical review process separate from the CMA decisions. This creates a significant additional demand channel for authorised Article 6 credits beyond NDC achievement."
+
+- question: "What are the Core Carbon Principles (CCPs) published by the Integrity Council for the Voluntary Carbon Market (ICVCM), and how do they relate to Article 6?"
+  options:
+    - "They are the official accounting rules for Article 6.2 ITMOs, published by the ICVCM on behalf of the UNFCCC"
+    - "They are a set of criteria for high-quality voluntary market credits that overlap significantly with Article 6 requirements (additionality, permanence, real and measurable, independently verified, no double counting), representing the VCM's attempt to raise standards toward Article 6-level integrity"
+    - "They require all VCM credits to obtain corresponding adjustments from host countries by 2025"
+    - "They are ICVCM's critique of Article 6.4 standards, arguing that private market standards are superior to UN-supervised approaches"
+  answer: 1
+  explanation: "The ICVCM's Core Carbon Principles (published 2023) are a set of ten criteria that voluntary market credits must meet to receive an 'approved' label. The criteria overlap substantially with Article 6 requirements: additionality, permanence, robust MRV, independent verification, and robust sustainable development safeguards. They represent the VCM's internal reform effort in response to integrity concerns -- raising standards toward Article 6-level rigour without requiring full Article 6 UN governance. Credits meeting CCP standards represent the high-integrity tier of the voluntary market."
+
+- question: "What does the term 'Article 6-aligned VCM credit' refer to, and what distinguishes it from a formal A6.4ER?"
+  options:
+    - "A VCM credit that has been approved by the Article 6.4 Supervisory Body -- it is legally equivalent to an A6.4ER"
+    - "A VCM credit issued under private standards (such as Verra VCS) that has obtained a corresponding adjustment from the host country government but is not formally an A6.4ER -- it carries the key integrity feature of CA but lacks UN Supervisory Body governance"
+    - "Any VCM credit from a country that has ratified the Paris Agreement -- all such credits are automatically Article 6-aligned"
+    - "A VCM credit that has been retired for CORSIA purposes -- it becomes Article 6-aligned upon retirement"
+  answer: 1
+  explanation: "An Article 6-aligned VCM credit is a voluntary market credit (issued under Verra VCS, Gold Standard, or similar) for which the host country government has separately issued a corresponding adjustment -- meaning the host country does not also count the reduction in its NDC. These credits are not formal A6.4ERs because they are not issued under the Supervisory Body's governance framework. But they carry the corresponding adjustment that is the most critical integrity feature, making them more credible than ordinary unauthorised VCM credits for buyers making international climate claims."

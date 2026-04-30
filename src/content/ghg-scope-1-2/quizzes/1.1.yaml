@@ -1,0 +1,26 @@
+- question: "A facility co-fires wood chips alongside natural gas in its boiler. How should the CO2 from wood chip combustion be treated in the GHG inventory?"
+  options:
+    - "Include it in the Scope 1 total along with natural gas CO2"
+    - "Report it separately and exclude it from the Scope 1 CO2e total"
+    - "Exclude it entirely - biomass emissions are not reported at all"
+    - "Include it in Scope 3 as an upstream emission"
+  answer: 1
+  explanation: "Biomass CO2 is reported separately and excluded from the Scope 1 CO2e total because biomass is considered carbon-neutral (the CO2 was recently absorbed from the atmosphere). However, CH4 and N2O from biomass combustion ARE included in the main inventory regardless of fuel origin. You must know the fuel breakdown to split fossil vs biomass CO2 correctly."
+
+- question: "An office complex burned 80,000 therms of natural gas last year. A junior analyst applies the EPA emission factor of 53.06 kg CO2/MMBtu directly to 80,000. What mistake did they make, and what is the correct CO2 result?"
+  options:
+    - "No mistake - the answer is 4,244,800 kg CO2"
+    - "They forgot to convert therms to MMBtu (1 therm = 0.1 MMBtu). Correct answer: 424.5 tonnes CO2"
+    - "They used the wrong emission factor - therms require a different factor"
+    - "They forgot to add CH4 and N2O, so the total should be much higher"
+  answer: 1
+  explanation: "1 therm = 0.1 MMBtu, not 1 MMBtu. This is a common 10x error. The correct calculation: 80,000 therms x 0.1 = 8,000 MMBtu. Then 8,000 x 53.06 kg CO2/MMBtu = 424,480 kg = 424.5 tonnes CO2. Confusing therms with MMBtu is one of the most frequent unit conversion mistakes in GHG accounting."
+
+- question: "A factory uses pet coke with a known carbon content from the supplier's lab certificate. Which equation should they use for the most accurate CO2 calculation?"
+  options:
+    - "Equation 1 - fuel volume times a default per-unit emission factor"
+    - "Equation 2 - fuel quantity times heat content times an energy-based emission factor"
+    - "Equation 3 - fuel quantity times actual carbon content times the 44/12 molecular ratio"
+    - "Any equation gives the same result for pet coke"
+  answer: 2
+  explanation: "Equation 3 uses the actual carbon content of the fuel and the 44/12 molecular ratio to convert carbon mass to CO2 mass. It is the most accurate method because it directly measures what gets oxidised, rather than relying on default factors. For variable fuels like pet coke, the difference between default factors and actual carbon content can be 10-20%. When you have a supplier certificate, always use it."

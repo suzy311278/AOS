@@ -1,0 +1,26 @@
+- question: "What is the single most important rule for preventing data version chaos in an ESG reporting engagement?"
+  options:
+    - "Use cloud-based collaboration tools for all data sharing"
+    - "Maintain one master data file as the single source of truth - all data flows into it, and every number in the report is pulled only from this file"
+    - "Require all departments to use the same file naming convention"
+    - "Limit data submissions to one round per department"
+  answer: 1
+  explanation: "The master data file is the foundation of version control. When new data arrives, you update this one file rather than creating new ones. Every number in the report comes from here and only here, eliminating the risk of using outdated or mixed versions."
+
+- question: "You receive updated emissions data via email while on a call. What should you do with it?"
+  options:
+    - "Forward it to the design team so they can update the report layout"
+    - "Save it with its original filename to avoid confusion"
+    - "Rename it with the source, data category, and date, save it to the raw data folder, update the master file, and log the change - immediately, not later"
+    - "Reply to the email confirming receipt and process it when you have time"
+  answer: 2
+  explanation: "Processing incoming data immediately is a non-negotiable habit. Rename the file with a clear convention, save to raw data, update the master, and log the change. Leaving files in your inbox for 'later' is exactly how version tracking breaks down."
+
+- question: "Why is it recommended to get final data AFTER assurance is complete before writing the final report?"
+  options:
+    - "Assurance providers will not sign off on reports written before their review"
+    - "Using pre-assurance data means you will almost certainly need to revise numbers when assurance findings come in, creating version chaos and rework"
+    - "Pre-assurance data is always inaccurate"
+    - "It is a regulatory requirement under GRI Standards"
+  answer: 1
+  explanation: "The assurance process frequently results in data changes - revised methodologies, corrected calculations, restated prior year figures. Writing the report with pre-assurance data creates a cascade of revisions and version control problems. Sequencing data assurance before final writing eliminates this category of issues."

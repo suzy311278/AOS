@@ -1,0 +1,17 @@
+- question: "If an economic activity is not taxonomy-eligible, what does that mean?"
+  options:
+    - "The activity is environmentally harmful"
+    - "The activity does not meet the alignment criteria"
+    - "The taxonomy has not yet written criteria for that activity"
+    - "The activity is banned under EU regulations"
+  answer: 2
+  explanation: "Not being eligible simply means the taxonomy has not defined criteria for that activity. Many beneficial activities (education, healthcare) are not covered. It says nothing about sustainability."
+
+- question: "Is 100% taxonomy alignment a realistic goal for most companies?"
+  options:
+    - "Yes - all companies should aim for 100%"
+    - "No - most companies have non-eligible support functions and the taxonomy does not cover all activities"
+    - "Yes - if they invest enough in CapEx"
+    - "No - the taxonomy does not allow 100% alignment"
+  answer: 1
+  explanation: "Even highly green companies rarely exceed 30-50% alignment because many support functions (offices, IT, HR) and economic activities are not yet covered by the taxonomy."

@@ -1,0 +1,26 @@
+- question: "What percentage of incoming solar radiation is immediately reflected back to space by Earth's surface and atmosphere?"
+  options:
+    - "About 10%"
+    - "About 20%"
+    - "About 30%"
+    - "About 50%"
+  answer: 2
+  explanation: "Approximately 30% of incoming solar radiation is reflected back to space by clouds, ice, snow, and bright surfaces — this reflectivity is called Earth's albedo. The remaining 70% is absorbed and warms the planet."
+
+- question: "What is 'radiative forcing' as used in climate science?"
+  options:
+    - "The total amount of solar energy reaching Earth's surface each year"
+    - "The imbalance between incoming and outgoing energy caused by a change in the climate system, measured in watts per square meter"
+    - "The rate at which Earth's surface temperature changes per decade"
+    - "The reflectivity of Earth's surface averaged globally"
+  answer: 1
+  explanation: "Radiative forcing measures the energy imbalance created when something changes how much energy enters or leaves Earth's climate system. A positive forcing (like adding greenhouse gases) traps more heat; the IPCC AR6 estimates total human-caused forcing at approximately +2.72 W/m² since 1750."
+
+- question: "Approximately what fraction of excess heat trapped by greenhouse gases is absorbed by the ocean?"
+  options:
+    - "About 20%"
+    - "About 50%"
+    - "About 70%"
+    - "About 91%"
+  answer: 3
+  explanation: "The ocean absorbs approximately 91% of the excess heat trapped by greenhouse gases. This is why surface air temperature rise underestimates the total planetary warming — the vast majority of extra energy goes into the ocean, not the atmosphere we directly experience."

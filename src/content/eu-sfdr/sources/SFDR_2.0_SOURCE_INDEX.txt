@@ -1,0 +1,136 @@
+SFDR 2.0 RESEARCH SOURCES INDEX
+================================
+Downloaded and compiled: March 2026
+Purpose: Reference material for writing SFDR 2.0 lesson content
+
+OFFICIAL DOCUMENTS (PDFs)
+--------------------------
+
+1. EC_COM_2025_841_SFDR2_Proposal.pdf (564 KB)
+   Title: European Commission SFDR 2.0 Legislative Proposal
+   Reference: COM(2025) 841 final
+   Date: 20 November 2025
+   Source: EUR-Lex (https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52025PC0841)
+   Content: The formal legislative proposal for SFDR revision. 62 pages covering all Articles, recitals,
+   and explanatory memorandum. Defines the three new product categories (Articles 7, 8, 9), abolishes
+   entity-level PAI statements, introduces 70% investment thresholds, mandatory exclusions, and 2-page
+   disclosure templates.
+
+2. ESAs_Joint_Opinion_JC_2024_06.pdf (484 KB)
+   Title: Joint ESAs Opinion on the Assessment of the Sustainable Finance Disclosure Regulation
+   Reference: JC 2024 06
+   Date: 18 June 2024
+   Source: ESMA (https://www.esma.europa.eu/sites/default/files/2024-06/JC_2024_06_Joint_ESAs_Opinion_on_SFDR.pdf)
+   Content: EBA, EIOPA, and ESMA's joint formal opinion recommending SFDR reform. Proposes replacing
+   Articles 8/9 with two product categories (Sustainability + Transition) and/or sustainability indicator
+   grades. Key precursor document to the November 2025 EC proposal.
+
+3. ESAs_PAI_Disclosures_Report_JC_2025_26.pdf (776 KB)
+   Title: Report on Principal Adverse Impact Disclosures under Article 18 SFDR
+   Reference: JC 2025 26
+   Date: September 2025
+   Source: ESMA (https://www.esma.europa.eu/sites/default/files/2025-09/JC_2025_26_Report_on_PAI_disclosures_under_Article_18_SFDR.pdf)
+   Content: Empirical assessment of how PAI disclosures have functioned under SFDR 1.0 in practice.
+   Provides evidence base supporting the proposal to abolish entity-level PAI statements and streamline
+   product-level PAI requirements.
+
+4. EC_2023_SFDR_Targeted_Consultation.pdf (480 KB)
+   Title: SFDR Implementation - Targeted Consultation Document
+   Date: 14 September 2023
+   Source: European Commission DG FISMA
+   (https://finance.ec.europa.eu/system/files/2023-09/2023-sfdr-implementation-targeted-consultation-document_en.pdf)
+   Content: The formal consultation document setting out the review questions on SFDR effectiveness,
+   interaction with other regulations, potential categorization system, and disclosure improvements.
+
+5. EC_2023_SFDR_Consultation_Summary_Report.pdf (772 KB)
+   Title: Summary Report of the Open and Targeted Consultations on the SFDR Assessment
+   Date: 3 May 2024
+   Source: European Commission DG FISMA
+   Content: Compiled results from the September-December 2023 consultations. Documents that 89% of
+   respondents found disclosure objectives still relevant, 94% preferred EU-level rules, and 77%
+   highlighted lack of legal clarity and data availability problems.
+
+PRE-EXISTING SOURCE DOCUMENTS (from prior research sessions)
+-------------------------------------------------------------
+
+6. CELEX%3A32022R1288R%2801%29%3AEN%3ATXT.pdf (15.7 MB)
+   Title: Delegated Regulation (EU) 2022/1288 - SFDR Level 2 RTS
+   Content: The current Level 2 Regulatory Technical Standards for SFDR disclosures. Contains the
+   mandatory PAI indicator tables (14 mandatory + 46 optional), the Article 8 and 9 disclosure
+   templates (Annexes I-IV), and methodology specifications. This is the instrument SFDR 2.0 will
+   eventually replace.
+
+7. CELEX%3A32023R0363%3AEN%3ATXT.pdf (16.3 MB)
+   Title: Related EU Regulation (2023/363)
+   Content: Amendments to the Level 2 RTS.
+
+8. ESMA_Consolidated_SFDR_QAs.pdf (1.1 MB)
+   Title: ESMA Consolidated SFDR Questions and Answers
+   Content: ESMA's official Q&As on SFDR implementation. Useful for understanding how current rules
+   are interpreted and enforced, and what problems practitioners have flagged.
+
+9. European_Commission_SFDR_FAQ_April_2023.pdf (206 KB)
+   Title: European Commission SFDR Frequently Asked Questions (April 2023)
+   Content: EC guidance on common interpretation questions under SFDR 1.0.
+
+RESEARCH NOTES (Text Files - Compiled Analysis)
+-----------------------------------------------
+
+10. SFDR_2.0_Overview_November_2025.txt (22 KB)
+    Content: Comprehensive overview of the SFDR 2.0 proposal. Covers background/rationale,
+    the fundamental shift from disclosure to categorization, all three new categories with full
+    criteria, mandatory exclusions, removed concepts (sustainable investment definition, DNSH, good
+    governance), PAI changes, disclosure simplification, scope changes, naming restrictions,
+    implementation timeline, market impact projections, and UK SDR comparison.
+    Key for: Writing the main SFDR 2.0 lesson narrative.
+
+11. ESAs_Joint_Opinion_SFDR_June_2024.txt (11 KB)
+    Content: Detailed summary of the June 2024 Joint ESAs Opinion. Covers the core problems
+    identified with SFDR 1.0, the three options proposed (categories, sustainability indicators,
+    or combination), PAI reform recommendations, "sustainable investment" definition concerns,
+    and comparison between ESA recommendations and the final Commission proposal.
+    Key for: Understanding the regulatory development process and why changes were made.
+
+12. SFDR_2023_Consultation_Results.txt (9 KB)
+    Content: Summary of the September-December 2023 consultation findings. Covers consultation
+    scope, quantitative results (89% relevance agreement, 77% highlighting problems), industry
+    positions, NGO positions, regulatory positions, and how consultation findings translated into
+    the final SFDR 2.0 proposal.
+    Key for: Understanding the policy background and stakeholder views.
+
+13. SFDR_2.0_PAI_and_Disclosure_Detail.txt (16 KB)
+    Content: Deep dive into PAI changes and disclosure requirements. Covers the current PAI
+    framework in detail (all 64 indicators, entity-level vs. product-level), exactly how SFDR 2.0
+    changes each aspect, the new sustainability-related indicators concept, and a full comparison
+    table of SFDR 1.0 vs. SFDR 2.0 disclosure requirements.
+    Key for: Writing lesson sections on disclosure changes and PAI reform.
+
+14. SFDR_2.0_Industry_Impact_Analysis.txt (15 KB)
+    Content: Market impact projections (Sustainalytics data on fund reclassification), financial
+    cost estimates, compliance operational challenges (70% threshold, data requirements, exclusion
+    screening, naming review, transition planning), IIGCC position paper summary, industry concerns
+    (transparency cliff edge, ESG Basics concerns, delegated acts uncertainty), positive reactions,
+    compliance preparation timeline, and Swiss/Liechtenstein considerations.
+    Key for: Writing lesson sections on practical implications and industry reaction.
+
+15. SFDR_2.0_Legislative_Timeline_and_Process.txt (14 KB)
+    Content: Complete chronological timeline from SFDR 1.0 history through to current SFDR 2.0
+    process. Covers current legislative stage, delegated acts timeline, interaction with Omnibus
+    Package, ESMA fund names guidelines, implementation considerations (closed-ended exemption,
+    contractual obligations), regulatory framework interactions, and unresolved policy debates.
+    Key for: Writing lesson sections on timeline and implementation.
+
+KEY THEMES FOR LESSON WRITING
+-------------------------------
+1. The "de facto label" problem: How the market informally treated Articles 8/9 as labels
+2. The fundamental paradigm shift: From disclosure framework to mandatory categorization regime
+3. The three new categories: Article 7 (Transition), Article 8 (ESG Basics), Article 9 (Sustainable)
+4. The 70% rule: Minimum investment threshold for all three categories
+5. Mandatory exclusions: Tiered strictness across the three categories
+6. Removal of "sustainable investment" concept and associated DNSH/good governance tests
+7. Entity-level PAI abolition and product-level PAI changes
+8. Disclosure simplification: 2-page templates, abolition of Article 10 website disclosures
+9. Naming and marketing restrictions: Non-categorized funds lose ESG terminology rights
+10. Implementation timeline: Proposal November 2025 -> Application late 2028 at earliest
+11. Industry impact: Many current Article 8 funds expected to downgrade to non-categorized
+12. Remaining uncertainties: Delegated acts still to be finalized; unresolved policy debates

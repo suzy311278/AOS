@@ -1,0 +1,44 @@
+- question: "Which two of the five GHG Protocol principles most directly ensure that financed emissions figures are comparable across financial institutions and over time?"
+  options:
+    - "Completeness and Transparency"
+    - "Consistency and Relevance"
+    - "Accuracy and Completeness"
+    - "Relevance and Transparency"
+  answer: 1
+  explanation: "Consistency ensures that the same methodology is used year after year, enabling meaningful trend analysis and comparison across reporting periods. Relevance ensures the inventory reflects the actual emissions profile of the institution (rather than being dominated by irrelevant categories). While all five principles are important, Consistency and Relevance are particularly critical for cross-institution comparability in financed emissions."
+
+- question: "PCAF requires financial institutions to report financed emissions as which type of measurement?"
+  options:
+    - "Intensity-based emissions only (e.g., tCO2e per million invested)"
+    - "Absolute financed emissions in tCO2e as the primary metric"
+    - "Temperature-score-adjusted emissions to align with Paris Agreement scenarios"
+    - "Market-value-adjusted emissions that remove the effect of asset price fluctuations"
+  answer: 1
+  explanation: "PCAF requires absolute financed emissions (total tCO2e attributed to the institution's portfolio) as the primary mandatory metric. Emission intensity metrics such as WACI (Weighted Average Carbon Intensity, in tCO2e per million revenue) are strongly recommended as supplementary measures but do not replace the absolute emissions requirement. Absolute metrics capture the actual volume of emissions, not just the efficiency."
+
+- question: "Starting with reports published in 2025, what did the PCAF Third Edition require regarding Scope 3 emissions of borrowers and investees?"
+  options:
+    - "Scope 3 of borrowers/investees must be excluded to avoid double-counting"
+    - "Scope 3 must be reported across all sectors, but disclosed separately from Scope 1 and Scope 2 financed emissions"
+    - "Scope 3 is optional for all sectors indefinitely"
+    - "Scope 3 is only required for borrowers in the energy sector"
+  answer: 1
+  explanation: "The PCAF Third Edition (December 2025) requires financial institutions to report Scope 3 emissions of borrowers and investees across all sectors in reports published from 2025 onward. However, Scope 3 financed emissions must be disclosed separately from Scope 1 and Scope 2 financed emissions to maintain transparency about potential double-counting across value chains."
+
+- question: "When lending to a subsidiary of a larger parent company, which balance sheet should typically be used for the attribution factor denominator?"
+  options:
+    - "Always the parent company's consolidated balance sheet"
+    - "The subsidiary's own balance sheet, if available; otherwise, the entity to which the financial institution has recourse"
+    - "An average of the subsidiary and parent balance sheets"
+    - "The industry sector average balance sheet"
+  answer: 1
+  explanation: "PCAF's 'follow the money' principle directs the attribution to the level of the specific entity receiving the capital. If the subsidiary has its own balance sheet, use it. If the subsidiary's balance sheet is unavailable, the financial institution should use the total balance sheet of the entity to which it has legal recourse (often the parent), and disclose this substitution."
+
+- question: "Which approach to GHG inventory boundary does PCAF require financial institutions to apply?"
+  options:
+    - "Equity share approach only"
+    - "Operational control or financial control approach, consistently applied"
+    - "Revenue-based approach aligned with financial reporting"
+    - "Any approach, as long as it is disclosed"
+  answer: 1
+  explanation: "PCAF requires financial institutions to use either the operational control or financial control consolidation approach from the GHG Protocol, applied consistently across periods. These two approaches determine which legal entities are included within the reporting boundary of the GHG inventory. The chosen approach determines which subsidiaries and associates are counted as part of the financial institution's own operations (Scope 1 and 2) and which financed entities fall under Scope 3."

@@ -1,0 +1,35 @@
+- question: "Why is carbon pricing considered regressive before revenue recycling?"
+  options:
+    - "It taxes rich people more"
+    - "Lower-income households spend a larger share of income on energy and carbon-intensive goods"
+    - "It only applies to poor households"
+    - "Revenue is always given to the wealthy"
+  answer: 1
+  explanation: "Carbon pricing is regressive because lower-income households spend a larger percentage of their income on energy and basic goods, so carbon costs take a bigger proportional bite of their budgets."
+
+- question: "How can carbon dividends make carbon pricing progressive?"
+  options:
+    - "By exempting low-income households from the carbon price"
+    - "By giving equal per-capita payments, which are larger relative to income for lower-income households"
+    - "By taxing only wealthy households"
+    - "Progressive outcomes are impossible with carbon pricing"
+  answer: 1
+  explanation: "Equal per-capita dividends are a larger percentage of income for lower-income households. If the dividend exceeds their carbon costs, they come out ahead, making the net policy progressive."
+
+- question: "What approach does Canada use to address distributional concerns?"
+  options:
+    - "Exempting low-income households entirely"
+    - "Climate Action Incentive payments (rebates) that make most households net beneficiaries"
+    - "No measures for low-income households"
+    - "Lower carbon prices for the poor"
+  answer: 1
+  explanation: "Canada returns carbon revenue through Climate Action Incentive payments, designed so that 8 out of 10 households receive more back than they pay, with lower-income households benefiting most."
+
+- question: "What is one way to protect low-income households beyond revenue recycling?"
+  options:
+    - "Exemptions for residential energy use"
+    - "Complementary programs like energy efficiency assistance and weatherization"
+    - "Banning energy price increases"
+    - "Eliminating the carbon price"
+  answer: 1
+  explanation: "Programs that help low-income households reduce energy use (efficiency upgrades, weatherization) reduce their exposure to carbon prices while also cutting their bills."

@@ -1,0 +1,102 @@
+SOURCE URL: https://ellenmacarthurfoundation.org/circular-economy/schools-of-thought
+
+[](https://www.ellenmacarthurfoundation.org/)
+Our work
+About us 
+[Support us](https://www.ellenmacarthurfoundation.org/funding-and-support/donations)
+[](https://www.ellenmacarthurfoundation.org/explore)
+[](https://www.ellenmacarthurfoundation.org/explore)
+![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='1333'%20width='2000'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)
+![](https://www.ellenmacarthurfoundation.org/schools-of-thought-that-inspired-the-circular-economy)![Country path with wooden fences and signpost ](https://images.ctfassets.net/isq5xwjfoz2m/5tmQfZZBtKYJZsonq49WnN/14d50a90e170e24db7ea200fe0ccc8d1/Path_signpost_AdobeStock_85316319.jpeg?w=2000&h=1333&fl=progressive&q=80&fm=jpg)
+# Schools of thought that inspired the circular economy
+Published on 23 March 2023
+[Circular economy explained](https://www.ellenmacarthurfoundation.org/explore?topics=Circular%20economy%20explained)
+English
+  * español
+  * português
+
+
+Where did the idea of a circular economycircular economyA systems solution framework that tackles global challenges like climate change, biodiversity loss, waste, and pollution. It is based on three principles, driven by design: eliminate waste and pollution, circulate products and materials (at their highest value), and regenerate nature. come from? What schools of thought or ideas inspired the concept? The origins of circular economy thinking come from many places and have been refined and developed over the years.
+Here are some of those schools of thought that have inspired circular economy thinking:
+## Cradle to Cradle
+German chemist Michael Braungart and American architect Bill McDonough, developed the Cradle to Cradle™ concept and certification process. This design philosophy considers all material involved in industrial and commercial processes to be nutrients, of which there are two main categories: technical and biological. The Cradle to Cradle framework focuses on design for effectiveness in terms of producing products with positive impact.
+![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='673'%20width='996'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E)
+![](https://www.ellenmacarthurfoundation.org/schools-of-thought-that-inspired-the-circular-economy)![Diagram of consumption products loop and Service products loop- from cradle to cradle](https://images.ctfassets.net/isq5xwjfoz2m/hdnz6bdD4hRziNWUuQJVt/f0df7ee97e83c3b3f78c01e3755ca42f/bio-technosphere.png?w=996&h=673&q=80&fm=png)
+### Cradle to Cradle’s three principles:
+  1. Cradle to Cradle design takes inspiration from natural systems, where there is no concept of waste: everything is a resource for something else. Biological nutrients should be safely returned to the soil, while technical nutrients should be used again and again at high quality.
+  2. The second principle is to use clean and renewable energyrenewable energyEnergy derived from resources that are not depleted on timescales relevant to the economy, i.e. not geological timescales.. The argument goes that natural systems thrive on current solar income and human systems could too. Renewable energy is clean (at the point of use), low-cost to operate, creates no emissions in use, and utilises abundant resources.
+  3. Finally, celebrate diversity: diversity builds resilience in natural systems, and can do so in human systems, too. Equally, no two places are the same: a diverse approach is often necessary to overcome the challenges and meet the opportunities offered by different geographies.
+
+
+## The Performance Economy
+In his 1976 research report to the European Commission, Walter Stahel, architect and economist, sketched a vision of an economy in loops (or circular economy), The Potential for Substituting Manpower for Energy, co-authored with Genevieve Reday. The vision looked at its impact on job creation, economic competitiveness, resource savings, and waste prevention.
+Credited with having coined the expression “Cradle to Cradle” in the late 1970s, Stahel worked at developing a ‘closed loop’ approach to production processes and created the Product Life Institute in Geneva more than 25 years ago. It pursues four main goals: product-life extension, long-life goods, reconditioning activities, and waste prevention. It also insists on the importance of selling services rather than products, an idea referred to as the ‘functional service economy’, now more widely absorbed into the notion of ‘performance economy’. Stahel argues that the circular economy should be considered a framework: as a generic notion, the circular economy draws on several more specific approaches that gravitate around a set of basic principles.
+Read more about Walter Stahel’s thinking in his book: [The Circular Economy – A User’s Guide.](https://www.routledge.com/The-Circular-Economy-A-Users-Guide/Stahel/p/book/9780367200176)
+## Biomimicry
+“Innovation inspired by nature” - Janine Benyus
+The idea at the core of [Biomimicry](https://biomimicry.org/) is that life has already solved most of the problems we are currently grappling with. To give some obvious examples: birds can fly with no need for fossil fuels, barnacles can adhere to underwater surfaces and have a tremendous ability to stay attached, insects outweigh humans yet cause no pollution or waste, leaves soak up sunlight and manage to efficiently and effectively transport water and nutrients through a dense network.
+Biomimicry holds that we can find solutions to human challenges by emulating nature’s patterns and strategies.
+Janine Benyus, author of Biomimicry: Innovation Inspired by Nature, defines her approach as “a new discipline that studies nature’s best ideas and then imitates these designs and processes to solve human problems”.
+Visit the [Biomimicry Institute](https://biomimicry.org/what-is-biomimicry/) to learn more about biomimicry.
+## Industrial Ecology
+The study of material and energy flows through industrial systems.
+Focusing on connections between operators within the ‘industrial ecosystem’, this approach aims at creating closed-loop processes in which waste serves as an input, thus eliminating undesirable by-products. Industrial ecology adopts a systemic point of view, designing production processes so they perform as close to living systems as possible. This is achieved by considering local ecological constraints and looking at global impact of processes from the outset.
+This framework is sometimes referred to as the ‘science of sustainability’, given its interdisciplinary nature. The principles of industrial ecology can also be applied in the services sector. With an emphasis on natural capital restoration, industrial ecology also focuses on social wellbeing.
+## Regenerative Design
+In the US, John T. Lyle started developing ideas on regenerative design that could be applied to all systems, i.e., beyond agriculture, for which the concept of regeneration had already been formulated.
+Arguably, he laid the foundations of the circular economy framework, which developed and gained notoriety thanks to McDonough (who had studied with Lyle), Braungart and Stahel. Today, the [Lyle Center for Regenerative Studies](https://env.cpp.edu/rs/rs) offers courses on the subject.
+## Blue Economy
+Initiated by former Ecover CEO and Belgian businessman Gunter Pauli, the Blue Economy is an open-source movement bringing together concrete case studies, initially compiled in an eponymous report handed over to the Club of Rome.
+As the official manifesto states, "using the resources available in cascading systems, (…) the waste of one product becomes the input to create a new cash flow". Based on 21 founding principles, the Blue Economy insists on solutions being determined by their local environment and physical/ecological characteristics, putting the emphasis on gravity as the primary source of energy. The report, which doubles up as the movement’s manifesto, describes "100 innovations that can create 100 million jobs within the next 10 years", and provides many examples of winning South-South collaborative projects— another original feature of this approach intent on promoting its hands-on focus.
+## You may also like
+[ ![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='338'%20width='600'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E) ![](https://www.ellenmacarthurfoundation.org/schools-of-thought-that-inspired-the-circular-economy)![View of trees through a circular stairwell](https://images.ctfassets.net/isq5xwjfoz2m/5AP5gLiSSeWKjTyz6jG8j2/9de9dcc387dd590b3ad527f3811c5430/Listing_-_CE_intro_-_Overview_-_2025.png?w=600&h=338&q=75&fm=png) Collection Circular economy introduction A circular economy eliminates waste, circulates products and materials, and regenerates nature.  ](https://www.ellenmacarthurfoundation.org/topics/circular-economy-introduction/overview)
+  * [Circular economy explained](https://www.ellenmacarthurfoundation.org/explore?sortBy=dateDesc&topics=CircularEconomyExplained)
+
+
+[ ![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='338'%20width='600'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E) ![](https://www.ellenmacarthurfoundation.org/schools-of-thought-that-inspired-the-circular-economy)![circle within trees](https://images.ctfassets.net/isq5xwjfoz2m/6z6GOmOVxw2ZL68QySxCMF/b0ba273a751bfe1d3651c14f1ff3be44/Listing_-_Video_-_Rethink_progress.png?w=574&h=323&q=75&fm=png) Article The biological cycle of the butterfly diagram This page will explain some of the concepts described in the biological cycle of the butterfly... ](https://www.ellenmacarthurfoundation.org/articles/the-biological-cycle-of-the-butterfly-diagram)
+  * [Circular economy explained](https://www.ellenmacarthurfoundation.org/explore?sortBy=dateDesc&topics=CircularEconomyExplained)
+
+
+[ ![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='338'%20width='600'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E) ![](https://www.ellenmacarthurfoundation.org/schools-of-thought-that-inspired-the-circular-economy)![circle within trees](https://images.ctfassets.net/isq5xwjfoz2m/6z6GOmOVxw2ZL68QySxCMF/b0ba273a751bfe1d3651c14f1ff3be44/Listing_-_Video_-_Rethink_progress.png?w=574&h=323&q=75&fm=png) Article The technical cycle of the butterfly diagram This page will focus on the different stages of the technical cycle and look at how each step... ](https://www.ellenmacarthurfoundation.org/articles/the-technical-cycle-of-the-butterfly-diagram)
+  * [Circular economy explained](https://www.ellenmacarthurfoundation.org/explore?sortBy=dateDesc&topics=CircularEconomyExplained)
+
+
+[ ![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='338'%20width='600'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E) ![](https://www.ellenmacarthurfoundation.org/schools-of-thought-that-inspired-the-circular-economy)![Abstract image](https://images.ctfassets.net/isq5xwjfoz2m/3dY7hsIZPKCSzpwfuqMJGQ/7280d9a272de4dd48224565412b8a821/Listing_-_what_is_linear_lock-in_and_how_can_we_break_free.jpg?w=574&h=323&fl=progressive&q=75&fm=jpg) Article Locked in: what is linear lock-in and how can we break free? Everything from our infrastructure to our finance systems is set up to support the current linear... ](https://www.ellenmacarthurfoundation.org/articles/locked-in-what-is-linear-lock-in-and-how-can-we-break-free)
+  * [Business](https://www.ellenmacarthurfoundation.org/explore?sortBy=dateDesc&topics=Business)
+  * [Design](https://www.ellenmacarthurfoundation.org/explore?sortBy=dateDesc&topics=Design)
+
+
+[ ![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='338'%20width='600'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E) ![](https://www.ellenmacarthurfoundation.org/schools-of-thought-that-inspired-the-circular-economy)![Abstract circular imagery](https://images.ctfassets.net/isq5xwjfoz2m/4zHpm1JM62YTX38Io0OtX3/ade7d3ab6cd27f1d194fa0697d6fd23e/Listing_-_Circular-ish.png?w=574&h=323&q=75&fm=png) Article Circular-ish: embracing the messy reality of circular economy innovation What happened to the big, beautiful vision of a circular economy? ](https://www.ellenmacarthurfoundation.org/articles/circular-ish-embracing-the-messy-reality-of-circular-economy-innovation)
+  * [Design](https://www.ellenmacarthurfoundation.org/explore?sortBy=dateDesc&topics=Design)
+
+
+  * [Circular economy explained](https://www.ellenmacarthurfoundation.org/explore?topics=Circular%20economy%20explained)
+
+
+## 
+News and updates from
+The Ellen MacArthur Foundation
+[Click to subscribe](https://www.ellenmacarthurfoundation.org/newsletter-sign-up)
+The Ellen MacArthur Foundation works to accelerate the transition to a circular economy. We develop and promote the idea of a circular economy, and work with business, academia, policymakers, and institutions to mobilise systems solutions at scale, globally.
+Charity Registration No. (England and Wales): 1130306
+OSCR Registration No. (Scotland): SC043120
+Company No.: 6897785
+Ellen MacArthur Foundation ANBI RSIN (Netherlands): 8257 45 925
+[About us](https://www.ellenmacarthurfoundation.org/about-us/what-we-do)[Our network](https://www.ellenmacarthurfoundation.org/network/overview)[Careers](https://www.ellenmacarthurfoundation.org/careers/overview)[Contact us](https://www.ellenmacarthurfoundation.org/contact-us)[Media centre](https://www.ellenmacarthurfoundation.org/media-centre/overview)
+Follow us
+  * [Link to EMF LinkedIn page. Opens in a new tab.](https://uk.linkedin.com/company/ellen-macarthur-foundation)
+  * [Link to EMF YouTube page. Opens in a new tab.](https://www.youtube.com/user/made2bemadeagain)
+  * [Link to EMF Instagram page. Opens in a new tab.](https://www.instagram.com/ellenmacarthurfoundation/)
+
+
+The work of the Ellen MacArthur Foundation is supported by our [Strategic Partners and Partners.](https://www.ellenmacarthurfoundation.org/network/who-is-in-the-network)
+Follow us
+  * [Link to EMF LinkedIn page. Opens in a new tab.](https://uk.linkedin.com/company/ellen-macarthur-foundation)
+  * [Link to EMF YouTube page. Opens in a new tab.](https://www.youtube.com/user/made2bemadeagain)
+  * [Link to EMF Instagram page. Opens in a new tab.](https://www.instagram.com/ellenmacarthurfoundation/)
+
+
+[![People's Postcode Lottery](https://images.ctfassets.net/isq5xwjfoz2m/6iFd9hTHaoWMuDJpKHtmcY/8227c332eee076954bbc75a0b23dbf30/2024_DUAL_EarthTrust_Vertical_RGB.png)](https://www.postcodelottery.co.uk/good-causes)
+[![Cyber Essentials Certified](https://images.ctfassets.net/isq5xwjfoz2m/4ff97t8FvbH7U43ECuj7qg/d9d506077bde444ee2e513626eecc34b/Cyber-Essentials-Logo-v2__1_.png)](https://registry.blockmarktech.com/certificates/138589b4-47e0-4c17-9025-a8a7888fa3f0/)
+© Ellen MacArthur Foundation
+[](https://www.contentful.com/)[Policies](https://www.ellenmacarthurfoundation.org/policies)[Cookies](https://www.ellenmacarthurfoundation.org/cookies)

@@ -1,0 +1,44 @@
+- question: "What is a compliance period in an ETS?"
+  options:
+    - "The time limit for paying fines"
+    - "The timeframe during which emissions are tracked and allowances must be surrendered"
+    - "The duration of government oversight"
+    - "The period when trading is prohibited"
+  answer: 1
+  explanation: "A compliance period (typically one year) is the timeframe for which entities must measure emissions and surrender allowances equal to those emissions."
+
+- question: "What happens if an entity does not surrender enough allowances at the end of a compliance period?"
+  options:
+    - "Nothing, compliance is optional"
+    - "They face penalties and must still cover the shortfall"
+    - "Government provides free extra allowances"
+    - "Allowances are forgiven"
+  answer: 1
+  explanation: "Non-compliance typically results in financial penalties (often per ton of excess emissions) and a requirement to still surrender allowances for the shortfall in the next period."
+
+- question: "Why are ETS penalties typically set higher than the expected allowance price?"
+  options:
+    - "To maximize government revenue"
+    - "To ensure compliance is cheaper than non-compliance"
+    - "Because penalties must be high by law"
+    - "To punish all emitters"
+  answer: 1
+  explanation: "Penalties must exceed the allowance price (often by a significant margin) to ensure that buying allowances is always cheaper than violating compliance, maintaining system integrity."
+
+- question: "What is make-good in ETS compliance?"
+  options:
+    - "Donating to charity"
+    - "The requirement to surrender allowances for any previous shortfall in addition to current emissions"
+    - "Voluntary over-compliance"
+    - "Free allocation increases"
+  answer: 1
+  explanation: "Make-good provisions require entities that were short in one period to surrender both their current emissions plus the previous shortfall, ensuring environmental integrity is maintained."
+
+- question: "How frequently do most ETS systems require emissions reporting?"
+  options:
+    - "Daily"
+    - "Annually"
+    - "Every five years"
+    - "Reporting is optional"
+  answer: 1
+  explanation: "Most ETS systems use annual compliance periods with annual reporting and verification, balancing administrative burden with timely compliance."

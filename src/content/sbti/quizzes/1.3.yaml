@@ -1,0 +1,44 @@
+- question: "Under the SBTi Corporate Net-Zero Standard, which type of carbon credit can be used to neutralise residual emissions at the net-zero target year?"
+  options:
+    - "Avoidance credits from a certified forest protection project"
+    - "Renewable energy credits from a wind farm in a developing country"
+    - "Permanent carbon removal credits, such as from direct air capture with geological storage"
+    - "Methane avoidance credits from a landfill gas capture project"
+  answer: 2
+  explanation: "Only permanent carbon removal qualifies for neutralisation of residual emissions under the Standard. The neutralisation must counterbalance the physical mass of residual GHGs through actual extraction and durable storage -- avoidance credits (forest protection, methane capture, renewable energy) prevent future emissions but do not remove existing CO2 from the atmosphere, so they do not satisfy the permanence requirement for neutralisation."
+
+- question: "The SBTi's Near-Term Criteria (Criterion C11) states that carbon credits may not be used to count toward which of the following?"
+  options:
+    - "BVCM reporting and disclosure"
+    - "Progress against near-term science-based targets"
+    - "Neutralisation of residual emissions at the net-zero target year"
+    - "Long-term target boundary calculations"
+  answer: 1
+  explanation: "Criterion C11 explicitly prohibits using carbon credits -- whether avoidance or removal -- to count toward progress against near-term SBTs. A company's reported near-term progress must reflect actual reductions in Scope 1, Scope 2, and in-scope Scope 3 emissions. Carbon credits may play a role in BVCM and in neutralisation at the long-term net-zero target year, but not in near-term SBT progress."
+
+- question: "What is the correct definition of Beyond Value Chain Mitigation (BVCM) under the SBTi Standard?"
+  options:
+    - "Actions a company takes to reduce its own Scope 3 emissions in its supply chain"
+    - "Purchases of carbon offsets to compensate for a company's current emissions"
+    - "Mitigation action or investments that fall outside a company's own value chain, taken in addition to science-based targets"
+    - "The process of setting long-term emissions reduction targets aligned with net-zero"
+  answer: 2
+  explanation: "BVCM is defined as mitigation action or investments that fall outside a company's value chain. This includes activities that avoid or reduce GHG emissions elsewhere in the economy, and activities that remove and store GHGs from the atmosphere. It is explicitly additional to -- not a substitute for -- the company's near-term and long-term science-based targets."
+
+- question: "Which of the following correctly describes the two goals of BVCM as stated in the SBTi Corporate Net-Zero Standard?"
+  options:
+    - "Reduce the company's Scope 1 emissions by 50% and eliminate all Scope 3 emissions by 2040"
+    - "Deliver near-term mitigation consistent with peaking global emissions in the mid-2020s; and finance the scale-up of nascent climate solutions for the net-zero transition"
+    - "Achieve carbon neutrality for the company by 2030; and publish verified BVCM reports annually"
+    - "Support certified nature-based solutions; and invest in renewable energy in developing countries"
+  answer: 1
+  explanation: "The Standard identifies two BVCM goals: Goal 1 is to deliver additional near-term mitigation outcomes consistent with peaking global emissions in the mid-2020s and halving global emissions by 2030. Goal 2 is to drive additional finance into the scale-up of nascent climate solutions and enabling activities to unlock systemic transformation toward net-zero globally by mid-century."
+
+- question: "A company invests $30 million per year in external clean cooking projects, claiming this fulfils its climate obligations. Which statement best describes how the SBTi Standard treats this approach?"
+  options:
+    - "It is fully valid -- BVCM investments of this scale satisfy both near-term and long-term SBT requirements"
+    - "It is invalid -- BVCM investments may only be made after all SBT requirements have been met"
+    - "It is insufficient on its own -- BVCM does not substitute for the company's near-term and long-term SBTs, which must be met through reductions within its own value chain"
+    - "It is acceptable only if the clean cooking credits are third-party verified under a recognised standard"
+  answer: 2
+  explanation: "BVCM is explicitly not a substitute for a company's science-based targets. The Standard states that BVCM investments are additional to -- and do not reduce -- the requirements of the company's near-term and long-term SBTs. A company that invests in BVCM while failing to meet its SBT requirements is not in compliance with the Standard. BVCM is 'above and beyond' the minimum obligation to decarbonise the company's own value chain."

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>LinkedIn Autoposter - Dashboard</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "secondary-container": "#c3e0fe",
+                        "tertiary-container": "#a85f00",
+                        "inverse-primary": "#93ccff",
+                        "on-primary-fixed-variant": "#004b74",
+                        "primary-fixed": "#cde5ff",
+                        "on-tertiary-fixed-variant": "#6b3b00",
+                        "primary-fixed-dim": "#93ccff",
+                        "surface-container-high": "#e6e8ea",
+                        "surface": "#f7f9fb",
+                        "outline": "#707881",
+                        "surface-container-lowest": "#ffffff",
+                        "on-tertiary-fixed": "#2d1600",
+                        "error-container": "#ffdad6",
+                        "tertiary": "#854a00",
+                        "on-secondary-fixed": "#001d32",
+                        "surface-dim": "#d8dadc",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary": "#ffffff",
+                        "inverse-surface": "#2d3133",
+                        "outline-variant": "#bfc7d1",
+                        "on-background": "#191c1e",
+                        "tertiary-fixed-dim": "#ffb876",
+                        "on-surface": "#191c1e",
+                        "surface-container-highest": "#e0e3e5",
+                        "surface-container-low": "#f2f4f6",
+                        "inverse-on-surface": "#eff1f3",
+                        "primary": "#005d8f",
+                        "surface-tint": "#006398",
+                        "on-surface-variant": "#404850",
+                        "background": "#f7f9fb",
+                        "error": "#ba1a1a",
+                        "secondary-fixed-dim": "#adcae7",
+                        "surface-bright": "#f7f9fb",
+                        "on-secondary-container": "#48647d",
+                        "on-primary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "on-error": "#ffffff",
+                        "on-secondary-fixed-variant": "#2d4961",
+                        "tertiary-fixed": "#ffdcc0",
+                        "secondary": "#45617a",
+                        "surface-container": "#eceef0",
+                        "secondary-fixed": "#cde5ff",
+                        "primary-container": "#0077b5",
+                        "on-tertiary-container": "#fff5ef",
+                        "on-primary-fixed": "#001d32",
+                        "surface-variant": "#e0e3e5",
+                        "on-primary-container": "#f3f7ff"
+                    },
+                    fontFamily: {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .signature-gradient {
+            background: linear-gradient(135deg, #005d8f 0%, #0077b5 100%);
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body min-h-screen flex flex-col">
+<!-- TopAppBar -->
+<header class="bg-[#f7f9fb] dark:bg-slate-900 flex items-center justify-between px-8 py-6 w-full no-border bg-[#f2f4f6] dark:bg-slate-800">
+<h1 class="font-['Manrope'] font-bold text-2xl tracking-tight text-[#191c1e] dark:text-slate-100">
+            LinkedIn Autoposter
+        </h1>
+</header>
+<!-- Main Content Grid -->
+<main class="flex-grow grid grid-cols-1 md:grid-cols-10 gap-0 h-[calc(100vh-80px)] overflow-hidden">
+<!-- LEFT SECTION: Post Cards (60%) -->
+<section class="md:col-span-6 overflow-y-auto px-8 py-8 hide-scrollbar bg-surface">
+<div class="flex flex-col space-y-8 max-w-4xl mx-auto">
+<!-- Post Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-[0_8px_24px_rgba(25,28,30,0.06)] hover:scale-[1.01] transition-transform duration-300">
+<div class="flex justify-between items-start mb-3">
+<span class="text-on-surface-variant font-label font-semibold text-sm tracking-wider uppercase">Mar 22</span>
+</div>
+<h3 class="font-headline font-bold text-xl text-on-surface truncate mb-4">The Gap Between Sustainability Disclosure and Action</h3>
+<div class="flex flex-wrap gap-3">
+<div class="bg-surface-container-low px-4 py-1.5 rounded-full flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-lg">visibility</span>
+<span class="font-label text-sm font-semibold text-secondary">788 <span class="opacity-60 font-normal">imp</span></span>
+</div>
+<div class="bg-surface-container-low px-4 py-1.5 rounded-full flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-lg">favorite</span>
+<span class="font-label text-sm font-semibold text-secondary">20 <span class="opacity-60 font-normal">react</span></span>
+</div>
+<div class="bg-surface-container-low px-4 py-1.5 rounded-full flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-lg">chat_bubble</span>
+<span class="font-label text-sm font-semibold text-secondary">4 <span class="opacity-60 font-normal">comments</span></span>
+</div>
+<div class="bg-surface-container-low px-4 py-1.5 rounded-full flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-lg">rebase_edit</span>
+<span class="font-label text-sm font-semibold text-secondary">1 <span class="opacity-60 font-normal">reposts</span></span>
+</div>
+</div>
+</div>
+<!-- Post Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-[0_8px_24px_rgba(25,28,30,0.06)] hover:scale-[1.01] transition-transform duration-300">
+<div class="flex justify-between items-start mb-3">
+<span class="text-on-surface-variant font-label font-semibold text-sm tracking-wider uppercase">Mar 21</span>
+</div>
+<h3 class="font-headline font-bold text-xl text-on-surface truncate mb-4">Stranded Assets: The Strange Math of Fossil Fuel Reserves</h3>
+<div>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-4 py-1.5 rounded-full text-xs font-bold tracking-tight inline-flex items-center gap-2">
+<span class="material-symbols-outlined text-base">pending_actions</span>
+                            Pending Analytics
+                        </span>
+</div>
+</div>
+<!-- Post Card 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-[0_8px_24px_rgba(25,28,30,0.06)] hover:scale-[1.01] transition-transform duration-300">
+<div class="flex justify-between items-start mb-3">
+<span class="text-on-surface-variant font-label font-semibold text-sm tracking-wider uppercase">Mar 20</span>
+</div>
+<h3 class="font-headline font-bold text-xl text-on-surface truncate mb-4">CBAM as Europe's Climate Trade Wall</h3>
+<div>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-4 py-1.5 rounded-full text-xs font-bold tracking-tight inline-flex items-center gap-2">
+<span class="material-symbols-outlined text-base">pending_actions</span>
+                            Pending Analytics
+                        </span>
+</div>
+</div>
+<!-- Post Card 4 (Top Performer Highlight) -->
+<div class="bg-surface-container-lowest rounded-xl p-6 border-2 border-primary/10 shadow-[0_12px_32px_rgba(0,93,143,0.08)] hover:scale-[1.01] transition-transform duration-300 relative overflow-hidden">
+<div class="absolute top-0 right-0 signature-gradient text-on-primary px-4 py-1 rounded-bl-xl text-xs font-bold">TOP PERFORMER</div>
+<div class="flex justify-between items-start mb-3">
+<span class="text-on-surface-variant font-label font-semibold text-sm tracking-wider uppercase">Mar 19</span>
+</div>
+<h3 class="font-headline font-bold text-xl text-on-surface truncate mb-4">ESG Ratings Divergence: Why Two Agencies Look at the Same Company Differently</h3>
+<div class="flex flex-wrap gap-3">
+<div class="bg-primary-fixed text-on-primary-fixed-variant px-4 py-1.5 rounded-full flex items-center gap-2">
+<span class="material-symbols-outlined text-lg">visibility</span>
+<span class="font-label text-sm font-bold">15,734 <span class="opacity-70 font-normal">imp</span></span>
+</div>
+<div class="bg-surface-container-low px-4 py-1.5 rounded-full flex items-center gap-2 text-secondary">
+<span class="material-symbols-outlined text-lg">favorite</span>
+<span class="font-label text-sm font-semibold">131 <span class="opacity-60 font-normal">react</span></span>
+</div>
+<div class="bg-surface-container-low px-4 py-1.5 rounded-full flex items-center gap-2 text-secondary">
+<span class="material-symbols-outlined text-lg">chat_bubble</span>
+<span class="font-label text-sm font-semibold">49 <span class="opacity-60 font-normal">comments</span></span>
+</div>
+<div class="bg-surface-container-low px-4 py-1.5 rounded-full flex items-center gap-2 text-secondary">
+<span class="material-symbols-outlined text-lg">rebase_edit</span>
+<span class="font-label text-sm font-semibold">8 <span class="opacity-60 font-normal">reposts</span></span>
+</div>
+</div>
+</div>
+<!-- Post Card 5 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-[0_8px_24px_rgba(25,28,30,0.06)] hover:scale-[1.01] transition-transform duration-300">
+<div class="flex justify-between items-start mb-3">
+<span class="text-on-surface-variant font-label font-semibold text-sm tracking-wider uppercase">Mar 18</span>
+</div>
+<h3 class="font-headline font-bold text-xl text-on-surface truncate mb-4">Article 6 of Paris Agreement</h3>
+<div>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-4 py-1.5 rounded-full text-xs font-bold tracking-tight inline-flex items-center gap-2">
+<span class="material-symbols-outlined text-base">pending_actions</span>
+                            Pending Analytics
+                        </span>
+</div>
+</div>
+<!-- Post Card 6 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-[0_8px_24px_rgba(25,28,30,0.06)] hover:scale-[1.01] transition-transform duration-300">
+<div class="flex justify-between items-start mb-3">
+<span class="text-on-surface-variant font-label font-semibold text-sm tracking-wider uppercase">Mar 17</span>
+</div>
+<h3 class="font-headline font-bold text-xl text-on-surface truncate mb-4">Green Bonds and the Question of Additionality</h3>
+<div>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-4 py-1.5 rounded-full text-xs font-bold tracking-tight inline-flex items-center gap-2">
+<span class="material-symbols-outlined text-base">pending_actions</span>
+                            Pending Analytics
+                        </span>
+</div>
+</div>
+<!-- Post Card 7 -->
+<div class="bg-surface-container-lowest rounded-xl p-6 shadow-[0_8px_24px_rgba(25,28,30,0.06)] hover:scale-[1.01] transition-transform duration-300">
+<div class="flex justify-between items-start mb-3">
+<span class="text-on-surface-variant font-label font-semibold text-sm tracking-wider uppercase">Mar 15</span>
+</div>
+<h3 class="font-headline font-bold text-xl text-on-surface truncate mb-4">Climate Risk and Returns</h3>
+<div class="flex flex-wrap gap-3">
+<div class="bg-surface-container-low px-4 py-1.5 rounded-full flex items-center gap-2 text-secondary">
+<span class="material-symbols-outlined text-lg">visibility</span>
+<span class="font-label text-sm font-semibold">982 <span class="opacity-60 font-normal">imp</span></span>
+</div>
+<div class="bg-surface-container-low px-4 py-1.5 rounded-full flex items-center gap-2 text-secondary">
+<span class="material-symbols-outlined text-lg">favorite</span>
+<span class="font-label text-sm font-semibold">16 <span class="opacity-60 font-normal">react</span></span>
+</div>
+<div class="bg-surface-container-low px-4 py-1.5 rounded-full flex items-center gap-2 text-secondary">
+<span class="material-symbols-outlined text-lg">chat_bubble</span>
+<span class="font-label text-sm font-semibold">0 <span class="opacity-60 font-normal">comments</span></span>
+</div>
+<div class="bg-surface-container-low px-4 py-1.5 rounded-full flex items-center gap-2 text-secondary">
+<span class="material-symbols-outlined text-lg">rebase_edit</span>
+<span class="font-label text-sm font-semibold">2 <span class="opacity-60 font-normal">reposts</span></span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- RIGHT SECTION: Summary Panel (40%) -->
+<section class="md:col-span-4 bg-surface-container-low p-8 flex flex-col space-y-8 overflow-y-auto hide-scrollbar">
+<!-- Quick Stats -->
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-surface-container-lowest p-6 rounded-xl">
+<p class="font-label text-xs font-bold text-outline uppercase tracking-widest mb-2">Total Posts</p>
+<p class="font-headline font-extrabold text-4xl text-primary">11</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-xl">
+<p class="font-label text-xs font-bold text-outline uppercase tracking-widest mb-2">Avg Reach</p>
+<p class="font-headline font-extrabold text-4xl text-primary">5,835</p>
+</div>
+</div>
+<!-- Top Performing Widget -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-[0_8px_24px_rgba(25,28,30,0.04)]">
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-tertiary">star</span>
+<h4 class="font-headline font-bold text-lg">Top Performance</h4>
+</div>
+<p class="font-body text-on-surface font-medium leading-relaxed mb-4">
+                    ESG Ratings Divergence: Why Two Agencies Look at the Same Company Differently
+                </p>
+<div class="flex items-baseline gap-2">
+<span class="font-headline font-extrabold text-3xl text-on-surface">15,734</span>
+<span class="font-label text-sm font-semibold text-outline-variant">TOTAL IMPRESSIONS</span>
+</div>
+</div>
+<!-- Daily Impressions Chart (Asymmetric) -->
+<div class="bg-surface-container-lowest p-8 rounded-xl flex-grow flex flex-col">
+<h4 class="font-headline font-bold text-lg mb-8">Impression Velocity <span class="text-xs font-normal text-outline-variant ml-2">(Last 8 Days)</span></h4>
+<div class="flex-grow flex items-end justify-between gap-4 h-48 mb-4">
+<!-- Day 8 (Oldest) -->
+<div class="flex flex-col items-center flex-1 gap-3 h-full justify-end">
+<div class="w-full bg-surface-container-highest rounded-t-lg" style="height: 15%"></div>
+<span class="font-label text-[10px] text-outline-variant uppercase">Mar 15</span>
+</div>
+<!-- Day 7 -->
+<div class="flex flex-col items-center flex-1 gap-3 h-full justify-end">
+<div class="w-full bg-surface-container-highest rounded-t-lg" style="height: 5%"></div>
+<span class="font-label text-[10px] text-outline-variant uppercase">Mar 16</span>
+</div>
+<!-- Day 6 -->
+<div class="flex flex-col items-center flex-1 gap-3 h-full justify-end">
+<div class="w-full bg-surface-container-highest rounded-t-lg" style="height: 0%"></div>
+<span class="font-label text-[10px] text-outline-variant uppercase">Mar 17</span>
+</div>
+<!-- Day 5 -->
+<div class="flex flex-col items-center flex-1 gap-3 h-full justify-end">
+<div class="w-full bg-surface-container-highest rounded-t-lg" style="height: 0%"></div>
+<span class="font-label text-[10px] text-outline-variant uppercase">Mar 18</span>
+</div>
+<!-- Day 4 (Peak) -->
+<div class="flex flex-col items-center flex-1 gap-3 h-full justify-end">
+<div class="w-full signature-gradient rounded-t-lg shadow-lg shadow-primary/20" style="height: 100%"></div>
+<span class="font-label text-[10px] text-primary font-bold uppercase">Mar 19</span>
+</div>
+<!-- Day 3 -->
+<div class="flex flex-col items-center flex-1 gap-3 h-full justify-end">
+<div class="w-full bg-surface-container-highest rounded-t-lg" style="height: 0%"></div>
+<span class="font-label text-[10px] text-outline-variant uppercase">Mar 20</span>
+</div>
+<!-- Day 2 -->
+<div class="flex flex-col items-center flex-1 gap-3 h-full justify-end">
+<div class="w-full bg-surface-container-highest rounded-t-lg" style="height: 0%"></div>
+<span class="font-label text-[10px] text-outline-variant uppercase">Mar 21</span>
+</div>
+<!-- Day 1 (Latest) -->
+<div class="flex flex-col items-center flex-1 gap-3 h-full justify-end">
+<div class="w-full bg-primary-container/40 rounded-t-lg" style="height: 12%"></div>
+<span class="font-label text-[10px] text-outline-variant uppercase">Mar 22</span>
+</div>
+</div>
+<p class="text-[11px] text-on-surface-variant italic">
+                    Note: "0" indicates pending analytics from LinkedIn API.
+                </p>
+</div>
+<!-- Promotion / Action Area -->
+<div class="glass-panel p-6 rounded-xl border border-white/40 flex items-center justify-between">
+<div>
+<p class="font-headline font-bold text-sm">Schedule Next Post</p>
+<p class="font-body text-xs text-outline">Keep the momentum going</p>
+</div>
+<button class="signature-gradient text-on-primary rounded-full p-2 hover:brightness-110 active:scale-95 transition-all">
+<span class="material-symbols-outlined">add</span>
+</button>
+</div>
+</section>
+</main>
+</body></html>

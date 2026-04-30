@@ -1,0 +1,44 @@
+- question: "What is the primary reason financed emissions are classified under Scope 3, Category 15 of the GHG Protocol?"
+  options:
+    - "They are emissions produced directly by the financial institution's offices and vehicles"
+    - "They are indirect emissions caused by the economic activities that the financial institution's loans and investments enable"
+    - "They are upstream emissions from suppliers who provide technology to the financial institution"
+    - "They represent emissions from employee business travel and commuting"
+  answer: 1
+  explanation: "Financed emissions are Scope 3 (indirect, value chain) emissions, not Scope 1 (direct) or Scope 2 (purchased energy). They sit in the downstream value chain of the financial institution — specifically the entities that receive its capital. Category 15 of the GHG Protocol's Scope 3 Standard covers investments and is the designated category for these emissions."
+
+- question: "Which of the following best describes the 'follow the money' principle in PCAF?"
+  options:
+    - "Financial institutions must physically track where loan proceeds are spent by each borrower"
+    - "The financial institution's share of a borrower's total financing determines its proportional share of the borrower's emissions"
+    - "Banks must only finance companies that have a published net-zero commitment"
+    - "Emissions are attributed 100% to the borrower, not to the lender"
+  answer: 1
+  explanation: "The follow-the-money principle means that the financial institution's proportion of the total capital structure of a borrower or investee determines how much of that entity's emissions are attributed back to the financial institution. This is captured in the attribution factor: outstanding amount divided by company value."
+
+- question: "How many distinct asset classes does Part A of the PCAF Standard (3rd Edition, December 2025) cover?"
+  options:
+    - "5"
+    - "7"
+    - "10"
+    - "15"
+  answer: 2
+  explanation: "The Third Edition of Part A covers 10 asset classes: (1) Listed Equity and Corporate Bonds, (2) Business Loans and Unlisted Equity, (3) Project Finance, (4) Commercial Real Estate, (5) Mortgages, (6) Motor Vehicle Loans, (7) Use of Proceeds Structures, (8) Securitizations and Structured Products, (9) Sovereign Debt, and (10) Sub-sovereign Debt."
+
+- question: "Which of the following is NOT currently covered under the main PCAF Standard?"
+  options:
+    - "Financed emissions from on-balance-sheet loans to private companies"
+    - "Facilitated emissions from bond underwriting assignments"
+    - "Insurance-associated emissions from commercial property insurance"
+    - "Emissions from financial advisory and mergers and acquisitions mandates"
+  answer: 3
+  explanation: "M&A advisory and financial advisory services are explicitly excluded from the scope of the current PCAF Standard (Parts A, B, and C). Part A covers on-balance-sheet lending and investing, Part B covers capital market facilitation (underwriting, syndication), and Part C covers re/insurance underwriting. Advisory services do not create a financial capital relationship that triggers emissions attribution."
+
+- question: "By the time of the Third Edition publication in December 2025, approximately how many financial institutions had committed to the PCAF Standard globally?"
+  options:
+    - "Over 50"
+    - "Over 100"
+    - "Over 540"
+    - "Over 2,000"
+  answer: 2
+  explanation: "As of the Third Edition (December 2025), over 540 financial institutions across six continents had signed up to the PCAF Standard. PCAF started in 2015 with 14 Dutch financial institutions and went global in September 2019, growing rapidly as regulatory and market pressure around financed emissions disclosure increased."

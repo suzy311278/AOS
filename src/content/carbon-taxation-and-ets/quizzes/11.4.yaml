@@ -1,0 +1,44 @@
+- question: "What is internal carbon pricing by companies?"
+  options:
+    - "Government-mandated carbon pricing"
+    - "Self-imposed carbon cost that companies use internally for decision-making"
+    - "Trading between companies"
+    - "External carbon pricing only"
+  answer: 1
+  explanation: "Internal carbon pricing is a self-imposed carbon cost (not government-mandated) that companies use internally to guide investment decisions, prepare for regulation, and drive emissions reductions."
+
+- question: "What is a shadow price in corporate carbon pricing?"
+  options:
+    - "A hypothetical carbon cost used in analysis without actual money changing hands"
+    - "The real market price"
+    - "A government price"
+    - "An illegal price"
+  answer: 0
+  explanation: "A shadow price is a hypothetical cost used in investment analysis and decision-making without actual internal payments, helping evaluate projects by including future carbon costs."
+
+- question: "What is an internal carbon fee?"
+  options:
+    - "A fee paid to government"
+    - "Business units actually pay a carbon fee to a central fund based on their emissions"
+    - "A shadow price"
+    - "An external payment"
+  answer: 1
+  explanation: "An internal fee involves actual money transfers within the company, with business units paying based on their emissions to a central fund that may support climate initiatives."
+
+- question: "Why do companies use internal carbon pricing?"
+  options:
+    - "It is legally required everywhere"
+    - "To prepare for regulation, manage risk, guide investment, and meet stakeholder expectations"
+    - "To avoid all emissions"
+    - "It has no purpose"
+  answer: 1
+  explanation: "Companies use internal carbon pricing to prepare for expected regulation, identify carbon-related risks, improve investment decision-making, drive operational efficiency, and respond to investor and customer expectations."
+
+- question: "What is Microsoft's approach to internal carbon pricing?"
+  options:
+    - "No internal carbon price"
+    - "Charges business units a fee per ton of emissions to fund carbon removal and efficiency"
+    - "Shadow price only"
+    - "Voluntary suggestions"
+  answer: 1
+  explanation: "Microsoft charges business units an internal carbon fee (currently $15/ton) on their emissions, generating funds used for carbon removal purchases and efficiency improvements."

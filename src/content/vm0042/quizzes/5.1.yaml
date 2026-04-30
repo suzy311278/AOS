@@ -1,0 +1,23 @@
+- question: "What precision target does VM0042 typically require for SOC sampling?"
+  options:
+  - "±5% at 95% confidence"
+  - "±10% at 90% confidence"
+  - "±20% at 80% confidence"
+  - "±15% at 85% confidence"
+  answer: 1
+
+- question: "What is a quantification unit (QU) in VM0042?"
+  options:
+  - "The unit of CO2e used in calculations"
+  - "The unit of land for which ERRs are discretely quantified"
+  - "A monitoring plot within a field"
+  - "The minimum area eligible for crediting"
+  answer: 1
+
+- question: "Which QA/QC practice is required for soil sampling?"
+  options:
+  - "Sampling every field on the project"
+  - "Using only government laboratories"
+  - "Collecting duplicate samples for ~10% of plots"
+  - "Sampling during the wet season only"
+  answer: 2

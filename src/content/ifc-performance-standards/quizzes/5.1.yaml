@@ -1,0 +1,35 @@
+- question: "What does 'replacement cost' mean under PS 5?"
+  options:
+    - "The depreciated market value of the lost asset"
+    - "The cost of replacing the asset at current market value, without deduction for depreciation or salvage value"
+    - "The government-assessed tax value of the property"
+    - "The original purchase price plus inflation adjustment"
+  answer: 1
+  explanation: "Replacement cost under PS 5 is the market value of the asset at its current condition, without deducting for depreciation, salvage materials, or transaction costs. The principle is that affected people should be able to replace what they've lost at no financial disadvantage."
+
+- question: "What are the three categories of displacement recognized by PS 5?"
+  options:
+    - "Temporary, permanent, and seasonal"
+    - "Physical displacement, economic displacement, and physical plus economic displacement combined"
+    - "Voluntary, involuntary, and negotiated"
+    - "Urban, rural, and peri-urban"
+  answer: 1
+  explanation: "PS 5 recognizes three forms of displacement: physical displacement (loss of shelter - people must move), economic displacement (loss of income or livelihood sources without relocation), and situations where both occur simultaneously. Each requires different compensation and restoration measures."
+
+- question: "What does PS 5 say about forced eviction?"
+  options:
+    - "Forced eviction is permitted if compensation is paid afterward"
+    - "Forced eviction is permitted with government authorization"
+    - "Forced eviction is prohibited - the client must not carry out or participate in forced evictions"
+    - "Forced eviction is permitted only for Category A projects"
+  answer: 2
+  explanation: "PS 5 explicitly prohibits forced evictions. Regardless of the legal framework in the host country, the client must not carry out forced evictions. All resettlement must follow the requirements of PS 5, including meaningful consultation, fair compensation at replacement cost, and livelihood restoration."
+
+- question: "What must a Livelihood Restoration Plan achieve for economically displaced people?"
+  options:
+    - "One-time cash payment equal to one year's income"
+    - "Improvement or at minimum restoration of livelihoods and living standards to pre-displacement levels"
+    - "Job placement within the project company"
+    - "Relocation to a government resettlement site"
+  answer: 1
+  explanation: "PS 5 requires that economically displaced persons have their livelihoods improved or at least restored to pre-displacement levels. This typically involves a combination of compensation, transitional support, and measures to help people establish alternative livelihoods - not just a one-time payment."

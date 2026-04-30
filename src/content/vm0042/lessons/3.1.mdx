@@ -1,0 +1,102 @@
+{/* 3.1: Three Quantification Approaches */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/vm0042/3_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## The Three Quantification Approaches
+<HighlightBox>
+  <p class="font-semibold text-green-800">Choosing how to measure</p>
+  <p class="text-green-900 mt-1">VM0042 offers three approaches for estimating GHG reductions and carbon removals. Each has different requirements, costs, and precision levels. Your choice of approach affects how many credits you earn, and how much it costs to measure them.</p>
+</HighlightBox>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📍 Which Approach Do Real Projects Use?</p>
+  <ul class="mt-2 space-y-2 text-sm">
+    <li><strong>Approach 1 (Measure &amp; Model):</strong> Indigo Ag's corn belt program (USA) uses the COMET-Farm and DayCent models. Verra-registered VM0042 projects in the US Midwest often use Approach 1 because the high scale (100,000+ ha) justifies the model setup cost.</li>
+    <li><strong>Approach 2 (Measure &amp; Re-Measure):</strong> The Kenya Agricultural Carbon Project (KACP) and similar sub-Saharan Africa programs use Approach 2. Reliable biogeochemical model validation data for tropical soils is scarce, making direct soil measurement more defensible.</li>
+    <li><strong>Approach 3 (Default Factors):</strong> Many smallholder aggregation programs in South Asia and East Africa start with Approach 3 for N₂O and CH₄ while using Approach 2 for SOC, a hybrid that is explicitly allowed if different QUs use consistent approaches.</li>
+  </ul>
+</ExampleBox>
+
+### Side-by-Side Comparison
+<ResponsiveTable>
+<table class="mb-6">
+  <thead>
+    <tr><th>Feature</th><th>Approach 1: Measure &amp; Model</th><th>Approach 2: Measure &amp; Re-Measure</th><th>Approach 3: Default Factors</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Core method</strong></td><td>Biogeochemical model + soil measurements</td><td>Direct SOC measurement at project &amp; control sites</td><td>IPCC emission factors &amp; stock change factors</td></tr>
+    <tr><td><strong>GHGs covered</strong></td><td>CO₂ (SOC), CH₄ (soil), N₂O</td><td>CO₂ (SOC) only</td><td>CO₂ (fossil fuel, liming), CH₄, N₂O</td></tr>
+    <tr><td><strong>Precision</strong></td><td>High</td><td>High</td><td>Lower</td></tr>
+    <tr><td><strong>Cost</strong></td><td>High (model + sampling)</td><td>Moderate-High (sampling)</td><td>Low</td></tr>
+    <tr><td><strong>Uncertainty deduction</strong></td><td>Lower (model + sampling)</td><td>Moderate (sampling only)</td><td>Higher (default factor uncertainty)</td></tr>
+    <tr><td><strong>Best for</strong></td><td>Large projects, complex systems</td><td>Where modelling is impractical</td><td>Small/resource-constrained projects</td></tr>
+    <tr><td><strong>Soil sampling required?</strong></td><td>Yes, every 5 years (model true-up)</td><td>Yes, at each verification</td><td>Not for SOC, but needed for other params</td></tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+### Approach 1: Measure and Model
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">🌦️ Analogy: Weather Forecasting</p>
+  <p class="mt-1 text-sm text-blue-900">You take real temperature measurements to calibrate a forecast model, then let it predict future conditions. Periodically you check whether predictions match reality and adjust. In VM0042: soil samples = real measurements; biogeochemical model = the forecast model; model true-up = the reality check.</p>
+</AnalogyBox>
+
+![Approach 1: Measure and Model workflow](/images/vm0042/approach-1-measure-model.png)
+
+<ul class="list-disc ml-6 text-sm space-y-2 mb-4">
+  <li>Select an approved biogeochemical model (e.g., DNDC, DayCent, RothC, CENTURY)</li>
+  <li>Model must be peer-reviewed, publicly available, and validated for your project domain</li>
+  <li>Collect initial soil samples (SOC, bulk density, texture) at project start</li>
+  <li>Run model for both baseline and project scenarios using same parameters</li>
+  <li>Re-sample soil every 5 years to "true-up" the model</li>
+  <li>Model can estimate CH₄ and N₂O fluxes (not just SOC), most comprehensive approach</li>
+</ul>
+<div class="bg-red-50 border border-red-200 rounded-lg p-4 mb-4">
+  #### Critical Requirement: VMD0053 Compliance
+  <p class="text-sm text-red-900">Approach 1 is not simply "pick a model and run it." Applicability Condition 4d explicitly requires that the model be <strong>validated per the procedures in VMD0053</strong> (VCS Module: <em>Model Calibration, Validation, and Uncertainty Guidance for Improved Agricultural Land Management</em>). This means:</p>
+  <ul class="text-sm mt-2 space-y-1 text-red-800 list-disc pl-4">
+    <li>Model prediction error must be calculated using independent validation datasets (Section 5.2 of VMD0053)</li>
+    <li>A qualified <strong>Independent Modeling Expert (IME)</strong> must review model calibration and validation</li>
+    <li>Measured CH₄ and N₂O flux data from controlled research trials are required for model calibration (not just SOC)</li>
+    <li>All model inputs, outputs, versions, and parameter sets must be fully documented for audit reproducibility</li>
+    <li>The same model version and parameter sets must be used in both baseline and project scenarios</li>
+  </ul>
+  <p class="text-sm mt-2 text-red-800 font-medium">Implication: Approach 1 has high upfront cost and significant documentation burden. It is most viable for large projects (&gt;5,000 ha) where the higher credit precision justifies the investment.</p>
+</div>
+
+### Approach 2: Measure and Re-Measure
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">🧪 Analogy: Clinical Trial</p>
+  <p class="mt-1 text-sm text-blue-900">The "treatment group" (project sites) and "control group" (baseline control sites) are measured at the start and end. The difference in outcomes is attributed to the "treatment", the improved farming practices.</p>
+</AnalogyBox>
+<ul class="list-disc ml-6 text-sm space-y-2 mb-4">
+  <li>Establish permanent sampling plots at project sites AND baseline control sites</li>
+  <li>Measure SOC stocks at project start and at each verification event</li>
+  <li>Net SOC change = (Project SOC change) − (Control site SOC change)</li>
+  <li>No model needed, pure direct measurement</li>
+  <li>Only covers SOC (CO₂), other GHGs (CH₄, N₂O) must use Approach 3 default factors</li>
+  <li>Requires minimum 3 control sites, within 250 km of linked quantification units</li>
+</ul>
+
+### Approach 3: Default Factors
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">🏷️ Analogy: Nutrition Labels</p>
+  <p class="mt-1 text-sm text-blue-900">Estimating your calorie intake using standard nutrition labels rather than weighing every ingredient. Faster and cheaper but less accurate, especially if your portion sizes differ from standard.</p>
+</AnalogyBox>
+<ul class="list-disc ml-6 text-sm space-y-2 mb-4">
+  <li>Uses IPCC 2019 Tier 1/2 emission factors and stock change factors</li>
+  <li>Applies to: fossil fuel CO₂, liming CO₂, enteric fermentation CH₄, manure CH₄ & N₂O, biomass burning CH₄ & N₂O</li>
+  <li>For SOC: uses IPCC stock change factors (FLU × FMG × FI × SOCref)</li>
+  <li>Lower cost, but larger uncertainty deductions mean fewer net credits</li>
+</ul>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📐 Decision Framework: Which Approach to Choose?</p>
+  <div class="mt-3 space-y-2 text-sm">
+    <p>❓ Do you have access to a validated biogeochemical model + resources for soil sampling every 5 years?<br />→ <strong class="text-blue-700">YES: Consider Approach 1</strong> (most comprehensive, potentially most credits)</p>
+    <p>❓ No model available, but can you establish and maintain baseline control sites with periodic soil sampling?<br />→ <strong class="text-green-700">YES: Use Approach 2</strong> (simpler, still high accuracy for SOC)</p>
+    <p>❓ Limited resources, small project scale, or no model or control site capacity?<br />→ <strong class="text-amber-700">Use Approach 3</strong> (default factors, lowest cost, highest uncertainty deduction)</p>
+  </div>
+  <p class="mt-3 text-sm text-amber-700">Important: The same approach must be used for both baseline and project scenarios for a given quantification unit. You can mix approaches across different QUs, but not within the same QU.</p>
+</ExampleBox>
+<KeyTakeaways items="Approach 1 (Measure and Model) uses a biogeochemical model calibrated with soil measurements - highest precision but highest cost ;; Approach 2 (Measure and Re-Measure) directly measures SOC at project and control sites - no model needed, but only covers SOC ;; Approach 3 (Default Factors) uses IPCC emission factors - lowest cost but largest uncertainty deductions and fewest net credits ;; The same approach must be used for both baseline and project scenarios within a given QU, though different QUs can use different approaches ;; For projects over 5,000 ha, Approach 1 or 2 is almost always more economically rational due to lower uncertainty deductions" />

@@ -1,0 +1,289 @@
+{/* source: ETS Handbook Step 5, Step 6 */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/carbon-pricing/4_4.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Auction Design and Revenue Use
+
+When allowances are sold rather than given away, the auction becomes a critical piece of market infrastructure. How the auction is designed affects market efficiency, price discovery, and access. And the resulting revenue creates both opportunities and obligations.
+
+### Why Auction Design Matters
+
+A well-designed auction:
+
+- **Discovers fair prices:** Ensures allowances go to those who value them most
+- **Prevents manipulation:** Blocks gaming by large players
+- **Provides access:** Allows all market participants to acquire allowances
+- **Generates predictable revenue:** Creates reliable funding streams
+
+A poorly designed auction can lead to price manipulation, market exclusion, and inefficient allocation.
+
+### Common Auction Formats
+
+**Single-round, sealed-bid, uniform-price**
+
+The most common format for ETS auctions.
+
+1. All bidders submit sealed bids simultaneously
+2. Bids are ranked from highest to lowest price
+3. Allowances are awarded to highest bidders until supply is exhausted
+4. All winners pay the clearing price (the lowest successful bid)
+
+<ExampleBox>
+**Uniform-price auction example:**
+
+100 allowances offered. Bids received:
+- Bidder A: 40 allowances at €100
+- Bidder B: 30 allowances at €90
+- Bidder C: 25 allowances at €85
+- Bidder D: 20 allowances at €80
+- Bidder E: 15 allowances at €75
+
+Working down: A gets 40, B gets 30, C gets 25, D gets 5 (only 5 remaining after A+B+C). D's bid at €80 is partially filled.
+
+Clearing price: €80 (the lowest price at which supply equals demand)
+
+All winners pay €80, even A who bid €100.
+</ExampleBox>
+
+**Pay-as-bid (discriminatory) auction**
+
+Winners pay their actual bid prices rather than a uniform clearing price.
+
+- Less common for carbon markets
+- Can discourage aggressive bidding (bidders shade their true valuation)
+- More complex to understand
+
+**Ascending-price (English) auction**
+
+Price starts low and rises. Bidders drop out as price exceeds their willingness to pay.
+
+- Creates dynamic price discovery
+- More time-consuming
+- Reveals bidder intentions during the process
+
+<ResponsiveTable>
+| Format | Price all winners pay | Complexity | Use in carbon markets |
+|--------|----------------------|------------|----------------------|
+| Uniform-price | Same (clearing price) | Low | Most common (EU, CA, RGGI) |
+| Pay-as-bid | Their own bid | Moderate | Rare |
+| Ascending | Final auction price | Higher | Rare |
+</ResponsiveTable>
+
+### EU ETS Auction Design
+
+The EU ETS runs auctions on a common platform with sophisticated design:
+
+**Frequency:** Daily or near-daily auctions
+
+**Format:** Single-round, sealed-bid, uniform-price
+
+**Participation:** Open to compliance entities, intermediaries, and financial participants (with some restrictions)
+
+**Bidding window:** Usually 2 hours
+
+**Volume:** Announced in advance, varies by quarter
+
+**Reserve price:** Minimum acceptable price (prevents sales at absurdly low prices)
+
+**Information:** Results published immediately after auction
+
+<HighlightBox>
+The EU's frequent auctions (nearly daily) provide regular price signals and reduce the impact of any single auction. Large entities cannot corner the market by winning a single big auction.
+</HighlightBox>
+
+### California's Quarterly Auctions
+
+California takes a different approach:
+
+**Frequency:** Quarterly (4 per year)
+
+**Format:** Sealed-bid, uniform-price
+
+**Participation:** Registered market participants only
+
+**Reserve price:** Auction floor price (creates minimum carbon price)
+
+**Holding limits:** Limits on how many allowances any entity can hold
+
+**Two-tier system:** Current vintage and future vintage allowances sold
+
+<DeepDive title="How California's auction reserve price works">
+California's cap-and-trade has an auction reserve price, effectively a price floor:
+
+**How it works:**
+- Minimum bid price is set by regulation
+- If bids are all below the reserve, allowances are not sold
+- The reserve price increases annually (by 5% plus inflation)
+
+**2024 reserve price:** About $22 per ton
+
+**Impact:**
+When market prices are above the reserve, auctions function normally. If demand is very weak (like in a recession), the reserve prevents prices from collapsing.
+
+**Difference from a tax:**
+Unlike a carbon tax, the reserve is only a floor. Prices can rise above it based on market demand. This provides both quantity certainty (the cap) and a minimum price certainty.
+
+**Revenue implications:**
+If allowances do not sell at the reserve price, they go to a reserve pool and may be offered at future auctions. This can slightly tighten near-term supply if sustained.
+</DeepDive>
+
+### Auction Access
+
+Who can participate in ETS auctions?
+
+**Compliance entities**
+
+Companies required to surrender allowances. Primary participants.
+
+**Intermediaries**
+
+Trading firms, banks, and brokers who buy and resell allowances. Provide market liquidity.
+
+**Financial participants**
+
+Investors seeking carbon exposure. More restricted in some systems.
+
+**Registration requirements:**
+
+- Background checks and due diligence
+- Financial guarantees or deposits
+- Compliance with market rules
+
+<AnalogyBox>
+Think of auction participation like bidding at an art auction house. You need to register, provide credentials, sometimes post a deposit, and agree to rules. Not everyone can walk in off the street and start bidding.
+</AnalogyBox>
+
+### Preventing Manipulation
+
+Auctions can be vulnerable to manipulation:
+
+**Bid shading:** Large players deliberately underbid to lower the clearing price, then buy more on the secondary market.
+
+**Collusion:** Bidders coordinate to suppress prices.
+
+**Cornering:** A single entity acquires a dominant position.
+
+**Counter-measures:**
+
+- Holding limits (maximum allowances any entity can hold)
+- Bid size limits
+- Multiple auctions (reduces impact of any single event)
+- Market surveillance
+- Penalties for manipulation
+- Transparency requirements
+
+### Revenue Generation
+
+Auction revenue can be substantial:
+
+**EU ETS:** Over €40 billion in 2023
+
+**California:** About $4 billion annually
+
+**RGGI:** About $500 million annually
+
+**UK ETS:** About £6 billion in 2023
+
+This revenue creates both opportunity and responsibility.
+
+### Using Auction Revenue
+
+Revenue from ETS auctions can be used for the same purposes as carbon tax revenue:
+
+**Climate investments**
+
+Funding renewable energy, efficiency programs, R&D, and adaptation.
+
+**Tax reductions**
+
+Cutting income, payroll, or business taxes.
+
+**Direct transfers**
+
+Returning money to households as rebates or dividends.
+
+**Transition support**
+
+Helping workers and communities affected by decarbonization.
+
+**General budget**
+
+Funding any government priority.
+
+<ResponsiveTable>
+| System | Primary revenue use |
+|--------|---------------------|
+| EU ETS | At least 50% for climate (national determination) |
+| California | Climate investments through GGRF |
+| RGGI | Energy efficiency and renewables |
+| UK ETS | General budget (some climate programs) |
+</ResponsiveTable>
+
+### EU Revenue Use Requirements
+
+The EU ETS Directive requires:
+
+- At least 50% of auction revenue must be used for climate-related purposes
+- Member states report annually on revenue use
+- In practice, most states exceed the 50% threshold
+
+**Examples of use:**
+- Building renovation programs
+- Renewable energy subsidies
+- Clean transportation investment
+- Climate adaptation infrastructure
+- International climate finance
+
+<HighlightBox>
+The EU's 50% climate earmarking is a floor, not a ceiling. Germany, for example, uses nearly all ETS revenue for climate purposes through its Climate and Transformation Fund.
+</HighlightBox>
+
+### Revenue Volatility
+
+Unlike carbon tax revenue (stable if the rate is fixed), auction revenue fluctuates with prices:
+
+**When prices are high:**
+- Revenue exceeds expectations
+- Windfall can fund additional programs
+
+**When prices are low:**
+- Revenue falls short
+- Committed programs may face funding gaps
+
+**Managing volatility:**
+
+- Build reserves in high-price years
+- Avoid over-committing in budget projections
+- Use floor prices to provide minimum revenue certainty
+- Consider stabilization funds
+
+<ExampleBox>
+**EU ETS revenue volatility:**
+
+| Year | Average price | Estimated revenue |
+|------|---------------|-------------------|
+| 2017 | €5 | €5 billion |
+| 2019 | €25 | €15 billion |
+| 2022 | €80 | €38 billion |
+| 2023 | €85 | €43 billion |
+
+Revenue increased nearly 10× as prices rose. Programs funded in 2017 had much more resources available by 2023. But had prices fallen, commitments might have outstripped revenue.
+</ExampleBox>
+
+### Timing Considerations
+
+**Auction revenue arrives periodically**
+
+Unlike carbon taxes collected continuously, auction revenue comes in batches (quarterly, daily auctions accumulated).
+
+**Budget planning implications**
+
+Governments must plan for uneven cash flows.
+
+**Forward auctions**
+
+Some systems auction future vintage allowances, providing revenue today for allowances valid in future years.
+
+### Looking Ahead
+
+With cap, scope, and allocation design covered, the next module explores how ETS markets actually operate. We will examine trading infrastructure, banking and borrowing provisions, and the crucial question of price stability mechanisms.

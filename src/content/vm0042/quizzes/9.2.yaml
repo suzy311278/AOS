@@ -1,0 +1,35 @@
+- question: "A project scores: Internal = 14, External = 5, Natural = 9.4. What is the buffer contribution rate?"
+  options:
+  - "28%"
+  - "29% (rounded up from 28.4)"
+  - "28.4%"
+  - "30% (next 5% increment)"
+  answer: 1
+  explanation: "Total risk = 14 + 5 + 9.4 = 28.4. The tool rounds UP to the nearest whole percent. So 28.4% rounds up to 29%. This 29% is the buffer contribution rate — 29% of all net SOC VCUs are deposited into the AFOLU Pooled Buffer Account rather than sold."
+
+- question: "A project area was affected by fire once every 8 years historically, causing an average loss of 60% of carbon stocks. There are no fire prevention measures in place. What is the natural risk sub-total for fire before the climate factor is applied?"
+  options:
+  - "20 (major significance × 10–25 years)"
+  - "30 (devastating significance × >once every 10 years)"
+  - "FAIL — catastrophic fires occurring more than once per 10 years"
+  - "5 (devastating × 50–100 years)"
+  answer: 1
+  explanation: "60% loss = 'Devastating' category (50 to <70%). Once every 8 years = '>once every 10 years' band. From Table 10, Devastating × >once every 10 years = 30. No mitigation (M = 1.0). Sub-total = 30 × 1.0 = 30. Note: FAIL only applies to Catastrophic (≥70%) losses occurring more than once every 10 years."
+
+- question: "What does the climate change adaptive capacity assessment do to the CID amplification factor?"
+  options:
+  - "Meeting ≥5 of 7 criteria removes the climate change factor entirely (sets it to 1.0)"
+  - "Meeting ≥5 of 7 criteria reduces the amplification fraction by 40% (e.g., a 1.3 factor becomes 1.0 + 0.3×0.6 = 1.18)"
+  - "Meeting ≥5 of 7 criteria caps the climate factor at 1.2 regardless of CID analysis"
+  - "The adaptive capacity assessment only applies to sea-level rise, not other natural risks"
+  answer: 1
+  explanation: "If ≥5 of 7 adaptive capacity criteria are met, the amplification fraction (the part above 1.0) is reduced by 40%. For example: if the CID analysis gives a factor of 1.30, the fraction above 1.0 is 0.30. Reducing this by 40% gives 0.30 × 0.60 = 0.18. New factor = 1.0 + 0.18 = 1.18."
+
+- question: "The AFOLU Pooled Buffer Account releases accumulated buffer credits every 5 years if no reversal events occurred. What percentage of the project's cumulative buffer is released per 5-year period?"
+  options:
+  - "5%"
+  - "10%"
+  - "15%"
+  - "20%"
+  answer: 2
+  explanation: "The VCS Program releases 15% of the project's cumulative buffer credits every 5 years of successful monitoring without a reversal event. This mechanism incentivizes long-term carbon maintenance and returns value to project proponents over time as risk diminishes."

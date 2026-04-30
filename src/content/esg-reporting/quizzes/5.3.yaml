@@ -1,0 +1,26 @@
+- question: "A textile company is writing its Environmental section. Which environmental resource should get the most space and narrative attention?"
+  options:
+    - "Energy consumption, because it is the first topic in GRI standards numbering"
+    - "Biodiversity, because it is the most scrutinized topic globally"
+    - "Water, because dyeing and finishing processes consume enormous quantities of water"
+    - "Waste, because textile waste is a growing public concern"
+  answer: 2
+  explanation: "The core environmental resource should be identified based on where the company has the most impact. For a textile company, water is central to operations (dyeing, finishing). It should lead the Environmental section and receive the most detailed coverage, regardless of GRI numbering order."
+
+- question: "A company reports: 'We saved 12,500 MWh of energy through efficiency improvements.' How can this data point be made more impactful for non-technical readers?"
+  options:
+    - "Convert it to gigajoules for technical precision"
+    - "Add a relatable equivalency such as 'equivalent to powering 3,400 households for a year'"
+    - "Remove the number and describe the savings qualitatively"
+    - "Present it only in a data table without narrative context"
+  answer: 1
+  explanation: "Converting environmental savings into commonly understood equivalents (households powered, cars taken off the road, Olympic swimming pools) makes the data tangible and accessible to non-technical readers, including board members and community stakeholders."
+
+- question: "Why should the Environmental section address how the environment impacts the business, not just how the business impacts the environment?"
+  options:
+    - "Because GRI standards require a dedicated climate risk section"
+    - "Because it fills space in a section that is otherwise too short"
+    - "Because investors and rating agencies specifically look for risk awareness around climate, water scarcity, and regulatory changes"
+    - "Because environmental impact on business is always more significant than business impact on environment"
+  answer: 2
+  explanation: "The best Environmental sections address the two-way interplay between business and environment. Investors and rating agencies look for awareness of environmental risks to the business - climate risks, water scarcity, carbon pricing - not just the company's own footprint. Omitting this is a missed opportunity."

@@ -1,0 +1,35 @@
+- question: "What trend is evident in global carbon pricing coverage?"
+  options:
+    - "Coverage is declining"
+    - "More jurisdictions are implementing carbon pricing, expanding coverage"
+    - "No change"
+    - "All countries have carbon pricing"
+  answer: 1
+  explanation: "The number of carbon pricing systems has grown from fewer than 20 in 2010 to about 75 in 2024, with coverage expanding from under 5% to about 24% of global emissions."
+
+- question: "What is a common carbon price level challenge globally?"
+  options:
+    - "Prices are uniformly too high"
+    - "Most carbon prices remain below levels needed to meet Paris Agreement targets"
+    - "All prices are perfect"
+    - "Prices are too volatile"
+  answer: 1
+  explanation: "While carbon pricing is spreading, most systems have prices below $40-80/ton levels that many analyses suggest are needed for Paris-consistent pathways, indicating a price-level gap."
+
+- question: "What is one reason for the growth in carbon pricing adoption?"
+  options:
+    - "International law mandates"
+    - "Learning from early adopters, Paris Agreement commitments, and international momentum"
+    - "All alternatives have been exhausted"
+    - "Carbon pricing is free to implement"
+  answer: 1
+  explanation: "Growth is driven by learning from successful early systems, Paris Agreement commitments creating pressure for credible climate policies, and increasing international acceptance of carbon pricing."
+
+- question: "What is the EU's CBAM effect on other countries?"
+  options:
+    - "No effect"
+    - "Creating incentives for trading partners to implement carbon pricing to keep revenue at home"
+    - "Reducing global carbon pricing"
+    - "Eliminating all trade"
+  answer: 1
+  explanation: "The EU CBAM creates incentive for countries exporting to the EU to implement domestic carbon pricing, since the revenue would stay home rather than being collected at the EU border."

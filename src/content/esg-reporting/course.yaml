@@ -1,0 +1,172 @@
+id: esg-reporting
+title: "Sustainability / ESG Reporting in Practice"
+subtitle: "The real-world playbook for producing an ESG or sustainability report"
+description: "A practitioner-led course on how ESG and sustainability reporting actually gets done - from the first client call to the final designed PDF. Covers the end-to-end workflow, data collection, writing craft, stakeholder management, materiality, design, QA, and the hard-won lessons that textbooks don't teach. Built for newcomers entering the field and first-time consultants who need to know what to expect, what to ask, and what will go wrong."
+icon: "📋"
+color: emerald
+status: published
+category: esg
+estimatedHours: 10
+modules:
+  - id: 0
+    title: "Why Companies Report & How to Begin"
+    subtitle: "Understanding the purpose, the players, and the kickoff"
+    icon: "🧭"
+    color: emerald
+    lessons:
+      - id: "0.1"
+        title: "Why Do Companies Write ESG Reports?"
+        duration: "15 min"
+      - id: "0.2"
+        title: "Who Is Involved? Stakeholders, Teams & Roles"
+        duration: "12 min"
+      - id: "0.3"
+        title: "The First Conversation: Discovery & Setting Expectations"
+        duration: "15 min"
+      - id: "0.4"
+        title: "Timelines, Scope & Boundary Decisions"
+        duration: "12 min"
+
+  - id: 1
+    title: "The Standards Landscape"
+    subtitle: "A high-level map of frameworks you'll encounter"
+    icon: "🗺️"
+    color: blue
+    lessons:
+      - id: "1.1"
+        title: "GRI: The Backbone of Sustainability Reporting"
+        duration: "15 min"
+      - id: "1.2"
+        title: "Other Frameworks at a Glance: SASB, TCFD, IFRS, CDP, BRSR"
+        duration: "15 min"
+        seoTitle: "SASB vs TCFD vs IFRS vs CDP vs BRSR Compared"
+        seoDescription: "SASB vs TCFD vs IFRS S1/S2 vs CDP vs BRSR: what each sustainability reporting framework covers, who uses it, and how to choose between them."
+      - id: "1.3"
+        title: "How Standards Interoperate & Which to Choose"
+        duration: "12 min"
+
+  - id: 2
+    title: "Peer Benchmarking & Materiality"
+    subtitle: "Research that shapes the entire report"
+    icon: "🔍"
+    color: violet
+    lessons:
+      - id: "2.1"
+        title: "Conducting a Peer Benchmarking Exercise"
+        duration: "15 min"
+      - id: "2.2"
+        title: "Materiality Assessment in Practice"
+        duration: "15 min"
+      - id: "2.3"
+        title: "Selecting GRI Indicators: The 200, 300 & 400 Series"
+        duration: "15 min"
+        seoTitle: "GRI 200, 300 & 400 Series: Selecting Topic Indicators"
+        seoDescription: "How to select GRI topic-specific indicators: economic (200), environmental (300), and social (400). Linking selections to material topics and disclosure scope."
+
+  - id: 3
+    title: "Data Collection & The Data Requirement Sheet"
+    subtitle: "The hardest part of the entire process"
+    icon: "📊"
+    color: orange
+    lessons:
+      - id: "3.1"
+        title: "Building & Sharing the Data Requirement Template"
+        duration: "15 min"
+      - id: "3.2"
+        title: "Working with Departments: HR, Operations, Finance & Beyond"
+        duration: "12 min"
+      - id: "3.3"
+        title: "When Data Doesn't Come: Escalation & the Force of Hierarchy"
+        duration: "10 min"
+      - id: "3.4"
+        title: "Data Sanity Checks: The Practitioner's Checklist"
+        duration: "15 min"
+      - id: "3.5"
+        title: "Version Control & Avoiding the Data Disaster"
+        duration: "10 min"
+
+  - id: 4
+    title: "Structuring the Report"
+    subtitle: "Table of contents, blueprint, and setting the theme"
+    icon: "🏗️"
+    color: teal
+    lessons:
+      - id: "4.1"
+        title: "The Standard Report Structure: What Goes Where"
+        duration: "15 min"
+      - id: "4.2"
+        title: "Building a Blueprint Alongside the ToC"
+        duration: "12 min"
+      - id: "4.3"
+        title: "Setting a Theme: The Character Arc of Your Report"
+        duration: "15 min"
+
+  - id: 5
+    title: "Writing the Report"
+    subtitle: "The craft of turning data and chaos into a coherent story"
+    icon: "✍️"
+    color: indigo
+    lessons:
+      - id: "5.1"
+        title: "The Writing Method: Questions First, Answers Second"
+        duration: "12 min"
+      - id: "5.2"
+        title: "About the Report, Boundary & Chairman's Message"
+        duration: "15 min"
+      - id: "5.3"
+        title: "Writing the Environmental Section"
+        duration: "18 min"
+      - id: "5.4"
+        title: "Writing the Social Section"
+        duration: "15 min"
+      - id: "5.5"
+        title: "Writing the Governance Section"
+        duration: "12 min"
+      - id: "5.6"
+        title: "Flow, Language & Narrative-Data Balance"
+        duration: "15 min"
+      - id: "5.7"
+        title: "Using AI to Write (Without Producing AI Slop)"
+        duration: "12 min"
+
+  - id: 6
+    title: "Revisions, QA & the GRI Content Index"
+    subtitle: "From draft to print-ready"
+    icon: "✅"
+    color: rose
+    lessons:
+      - id: "6.1"
+        title: "Surviving the Revision Cycle"
+        duration: "12 min"
+      - id: "6.2"
+        title: "The Final QA Checklist: What to Check Before It's Too Late"
+        duration: "15 min"
+        seoTitle: "ESG Report Final QA Checklist Before Publication"
+        seoDescription: "The practitioner's final QA checklist for an ESG/sustainability report: data consistency, GRI content index, design review, legal sign-off, and disclosure gaps."
+      - id: "6.3"
+        title: "Creating the GRI Content Index"
+        duration: "10 min"
+      - id: "6.4"
+        title: "Assurance & Verification: What You Need to Know"
+        duration: "10 min"
+
+  - id: 7
+    title: "Design, Delivery & What Comes After"
+    subtitle: "Making it look right and getting it out the door"
+    icon: "🎨"
+    color: cyan
+    lessons:
+      - id: "7.1"
+        title: "Design Principles: Brand Language, Visuals & Mistakes"
+        duration: "12 min"
+      - id: "7.2"
+        title: "Deliverable Formats: PDF, Microsite & Beyond"
+        duration: "10 min"
+      - id: "7.3"
+        title: "BRSR & Annual Report Alignment"
+        duration: "10 min"
+        seoTitle: "BRSR Report Format & Annual Report Alignment"
+        seoDescription: "Business Responsibility and Sustainability Reporting (BRSR) format: the nine NGRBC principles, Section A/B/C structure, and alignment with the annual report."
+      - id: "7.4"
+        title: "Lessons from the Field: What I Wish I Knew on Day One"
+        duration: "12 min"

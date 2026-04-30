@@ -1,0 +1,26 @@
+- question: "Where does the Paris Agreement explicitly reference just transition?"
+  options:
+  - "In Article 2, setting binding obligations for signatory governments to fund worker retraining"
+  - "In the preamble, acknowledging 'the imperatives of a just transition of the workforce and the creation of decent work and quality jobs'"
+  - "In Annex I, listing specific sectors where transition support is required"
+  - "In Article 6, covering carbon markets and their social impact requirements"
+  answer: 1
+  explanation: "The Paris Agreement's preamble explicitly references 'the imperatives of a just transition of the workforce and the creation of decent work and quality jobs in accordance with nationally defined development priorities.' While the preamble is not legally binding, it signals that the parties understood climate action and social justice to be inseparable from the agreement's inception."
+
+- question: "According to the ILO's 2015 Guidelines for a Just Transition, what is the cornerstone of achieving a just transition?"
+  options:
+  - "Mandatory carbon taxes applied to fossil fuel industries to fund worker compensation"
+  - "Social dialogue - structured tripartite engagement between governments, employers, and workers"
+  - "International financial transfers from developed to developing countries to compensate displaced workers"
+  - "Immediate moratoria on new fossil fuel investments pending development of retraining programmes"
+  answer: 1
+  explanation: "The ILO Guidelines place social dialogue - structured engagement between governments, employers, and workers through tripartite processes - at the heart of just transition. The Guidelines argue that transition plans developed without genuine consultation tend to be technically sound but socially fragile, and that tripartite consultation is a precondition for effective and legitimate transition planning."
+
+- question: "Which of the following best describes the 'just transition gap' that labour advocates frequently highlight when comparing global green job creation projections with actual transition outcomes?"
+  options:
+  - "The gap between the number of jobs created in renewable energy and the number of jobs lost in fossil fuels, which is always negative"
+  - "Net green job creation may be positive globally, but the workers who lose jobs in coal and fossil fuels are rarely the same individuals who gain employment in the new green economy"
+  - "Just transition frameworks require government subsidies that create fiscal deficits, the 'gap' between expenditure and tax revenue"
+  - "The gap between what companies disclose in transition plans and their actual investment in affected communities"
+  answer: 1
+  explanation: "While the ILO has projected that the green transition could create 24 million new jobs globally while displacing 6 million (a net positive), the 'just transition gap' refers to the geographic, skills, and demographic mismatch between who loses the old jobs and who gains the new ones. A coal miner in rural Poland or West Virginia is rarely the person who installs solar panels or manufactures wind turbine components, unless active retraining, relocation support, and local economic diversification are pursued."

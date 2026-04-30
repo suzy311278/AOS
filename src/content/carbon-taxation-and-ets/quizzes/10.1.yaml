@@ -1,0 +1,35 @@
+- question: "When did the EU ETS begin operations?"
+  options:
+    - "1990"
+    - "2005"
+    - "2015"
+    - "2020"
+  answer: 1
+  explanation: "The EU ETS launched in 2005, becoming the world's first and largest international emissions trading system, covering about 40% of the EU's greenhouse gas emissions."
+
+- question: "What was the main problem in EU ETS Phase 1 (2005-2007)?"
+  options:
+    - "Prices were too high"
+    - "Overallocation of allowances leading to price collapse"
+    - "Too few participants"
+    - "The system worked perfectly"
+  answer: 1
+  explanation: "Phase 1 suffered from overallocation because initial caps were based on incomplete emissions data. When actual emissions proved lower than expected, surplus allowances drove prices near zero."
+
+- question: "What is the Market Stability Reserve (MSR) in the EU ETS?"
+  options:
+    - "A government savings account"
+    - "An automatic mechanism that removes allowances when surplus is high and can inject them when surplus is low"
+    - "A reserve of fossil fuels"
+    - "A price floor"
+  answer: 1
+  explanation: "The MSR addresses the allowance surplus problem by automatically removing allowances from auctions when the bank exceeds 833 million allowances, stabilizing supply and supporting prices."
+
+- question: "What is the EU's CBAM?"
+  options:
+    - "A carbon tax"
+    - "A border adjustment mechanism requiring importers of certain goods to pay for embedded carbon"
+    - "A free allocation system"
+    - "An international treaty"
+  answer: 1
+  explanation: "The EU's Carbon Border Adjustment Mechanism (CBAM) requires importers of steel, cement, aluminum, fertilizers, and other products to purchase certificates corresponding to the carbon content, addressing leakage and competitiveness."

@@ -1,0 +1,111 @@
+{/* source: Scope3_Calculation_Guidance_0[1].pdf, Category 12 (pp. 125-127) */}
+
+**Category 12 — End-of-Life Treatment of Sold Products** covers GHG emissions from the waste disposal and treatment of products sold by the reporting company at the **end of their useful life**. This is the downstream counterpart to Category 5 (Waste Generated in Operations) - while Category 5 covers operational waste, Category 12 covers what happens to the company's sold products after consumers discard them.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-3/3_4.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## What Is Included
+
+Category 12 covers the emissions from all end-of-life treatment pathways for products sold in the reporting year:
+
+- **Landfill**: Decomposition of organic or composite materials generates methane
+- **Incineration**: Oxidation of materials generates CO₂ (and, for waste-to-energy, some credit for recovered energy)
+- **Recycling**: Sorting and reprocessing energy consumption
+- **Composting**: Aerobic breakdown of organic materials
+- **Reuse and refurbishment**: Often zero or very low emissions
+- **Wastewater treatment**: For liquid products or organic materials entering sewers
+
+<HighlightBox>
+Category 12 is the downstream mirror of Category 5. Category 5 asks: "What happens to the waste my operations generate?" Category 12 asks: "What happens to my sold products when customers throw them away?" Both use the same accounting logic: the reporting company is responsible for the emissions caused by the disposal of what it created.
+</HighlightBox>
+
+## What Is Not Included
+
+- Emissions from disposal of products **during the company's own operations** before sale (Category 5)
+- Emissions from **using** the product (Category 11)
+- Emissions from processing or transportation of the product after sale (Categories 9 and 10)
+
+## Calculation Methods
+
+### Method 1: Waste-Type-Specific Method (Most Accurate)
+Requires knowledge of product composition (materials breakdown) and end-of-life fate (what % goes to landfill, recycling, incineration).
+
+<EquationBreakdown
+  title="Category 12 - Waste-Type-Specific Method"
+  result="E<sub>Cat12</sub> | Category 12 Emissions | Total end-of-life treatment emissions for sold products, in tCO₂e | blue"
+  inputs="M<sub>i</sub> | Component Mass | Mass of each product component by material type, in tonnes | green ;; EF<sub>EoL,i</sub> | End-of-Life Emission Factor | Emissions per tonne for each treatment pathway (landfill, incineration, recycling), in tCO₂e/tonne | amber"
+/>
+
+### Method 2: Average-Data Method
+Uses industry-average end-of-life treatment profiles for product categories. For example, average recycling rates and landfill rates for consumer electronics, packaging, or textiles.
+
+### Method 3: Spend-Based Method
+Applies EIO emission factors per unit of product revenue. Useful for screening; less accurate.
+
+## End-of-Life Profiles by Product Type
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Product Category</th>
+      <th>Typical End-of-Life Profile</th>
+      <th>Key Emission Driver</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Food and beverage (packaging)</td>
+      <td>40-60% landfill, 30-40% recycling, 10-20% incineration</td>
+      <td>Organic material in landfill producing CH₄</td>
+    </tr>
+    <tr>
+      <td>Consumer electronics</td>
+      <td>30-50% landfill, 40-60% e-waste recycling</td>
+      <td>Energy for e-waste dismantling and recovery</td>
+    </tr>
+    <tr>
+      <td>Clothing and textiles</td>
+      <td>60-80% landfill, 15-25% incineration, 5-10% recycling</td>
+      <td>Synthetic fibres in landfill</td>
+    </tr>
+    <tr>
+      <td>Vehicles</td>
+      <td>80-90% recycled (end-of-life vehicle schemes)</td>
+      <td>Low overall due to high metal recycling rates</td>
+    </tr>
+    <tr>
+      <td>Plastics packaging</td>
+      <td>30-50% landfill, 30-40% incineration, 20-30% recycling</td>
+      <td>Incineration CO₂ from fossil-based plastics</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+<CalculationExercise
+  question="A packaging company sells 5,000 tonnes of plastic packaging per year. 40% goes to landfill and 60% is incinerated at end of life. The landfill emission factor for plastics is 0.02 tCO₂e/tonne. The incineration emission factor for plastics is 2.43 tCO₂e/tonne. What are the total Category 12 emissions?"
+  answer={7306}
+  unit="tCO₂e"
+  hints={["Landfill portion = 5,000 × 0.40 = 2,000 tonnes. Emissions = 2,000 × 0.02 = 40 tCO₂e.", "Incineration portion = 5,000 × 0.60 = 3,000 tonnes. Emissions = 3,000 × 2.43 = 7,290 tCO₂e.", "Total = 40 + 7,290 = 7,330 tCO₂e. (Minor rounding differences acceptable.)"]}
+  solution="(5,000 × 0.40 × 0.02) + (5,000 × 0.60 × 2.43) = 40 + 7,290 = 7,330 tCO₂e. The incineration pathway dominates because fossil-based plastic oxidises entirely to CO₂."
+/>
+
+## Circular Economy and Category 12 Reduction
+
+Category 12 data directly supports circular economy strategy:
+
+- **Designing for recyclability**: Materials that are easier to separate and recycle shift end-of-life fate toward lower-emission pathways
+- **Take-back schemes**: Manufacturers collecting end-of-life products can divert materials from landfill and incineration
+- **Biobased and biodegradable materials**: May reduce CO₂ emissions at incineration (biogenic carbon) or improve landfill degradation profiles
+- **Extended product lifetimes**: Products lasting longer reduce the annual throughput of Category 12 volume
+
+<AnalogyBox>
+Category 12 is the "carbon balance sheet" of a product at the end of its life. Just as a company is responsible for pollution from its factory smokestack (Scope 1), it is responsible for the pollution from discarded products it put into the market. Measuring Category 12 makes the connection between product design decisions and end-of-life climate impact explicit - and measurable.
+</AnalogyBox>
+
+<DeepDive title="Biogenic carbon and Category 12">
+Products made from biobased materials (wood, natural fibres, bioplastics) involve biogenic carbon - carbon that was absorbed from the atmosphere during plant growth and is re-released at end of life through incineration or decomposition. The GHG Protocol allows companies to separately track and disclose biogenic CO₂ flows, labelled as biogenic CO₂ rather than included in the standard CO₂e total. This is important for paper, cardboard, wood products, and bioplastic packaging companies, where significant end-of-life biogenic CO₂ is released but should not be netted against the fossil CO₂ emissions from energy use.
+</DeepDive>
+
+<KeyTakeaways items="Category 12 covers end-of-life treatment emissions for products sold by the company - the downstream mirror of Category 5 (operational waste) ;; End-of-life profiles vary dramatically by product type - vehicles achieve 80-90% recycling while textiles are 60-80% landfilled ;; Incineration of fossil-based plastics typically dominates Category 12 emissions because the full carbon content oxidises to CO2 ;; Circular economy strategies (design for recyclability, take-back schemes, extended product lifetimes) directly reduce Category 12 ;; Biogenic CO2 from biobased materials should be tracked and disclosed separately from fossil CO2 in the inventory" />

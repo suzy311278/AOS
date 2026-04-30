@@ -1,0 +1,26 @@
+- question: "Why did Gold Standard begin restricting renewable energy credit issuance from some markets around 2020?"
+  options:
+  - "Renewable energy projects generate too many credits and would flood the market"
+  - "As solar and wind costs fell, projects in competitive markets could no longer demonstrate that carbon revenue was necessary for financial viability"
+  - "Gold Standard decided renewable energy was not relevant to climate change mitigation"
+  - "Compliance markets began purchasing all available renewable energy credits, leaving none for the voluntary market"
+  answer: 1
+  explanation: "The core additionality issue is financial viability. When solar and wind became cheaper than new fossil fuel generation in most markets, these projects would proceed regardless of carbon revenue - making them non-additional by the financial additionality test. Gold Standard restricted credit issuance in competitive markets because the fundamental rationale for the credits (that carbon revenue enables the project) no longer held. Projects in markets where renewable energy still faces genuine commercial barriers can still qualify."
+
+- question: "A wind farm generates 100,000 MWh of electricity per year in a grid with an operating margin emission factor of 0.7 tCO2/MWh and a build margin emission factor of 0.4 tCO2/MWh. If the methodology requires using a combined margin (50% operating, 50% build margin), how many credits are generated annually?"
+  options:
+  - "70,000 tCO2e (using only operating margin)"
+  - "40,000 tCO2e (using only build margin)"
+  - "55,000 tCO2e (combined margin: 0.55 tCO2/MWh x 100,000 MWh)"
+  - "110,000 tCO2e (sum of both margins)"
+  answer: 2
+  explanation: "The combined margin emission factor is calculated as: (0.7 x 0.5) + (0.4 x 0.5) = 0.35 + 0.20 = 0.55 tCO2/MWh. Multiplying by 100,000 MWh gives 55,000 tCO2e. The combined margin approach averages the operating margin (what generators are currently running) and the build margin (what new capacity would be built without the project), providing a more balanced estimate of the actual displacement effect."
+
+- question: "What is the 'rebound effect' in the context of energy efficiency carbon projects?"
+  options:
+  - "When the price of carbon credits rises after a project is issued, creating unexpected returns"
+  - "When energy users increase consumption after efficiency improvements reduce their energy costs, partially offsetting the emissions savings"
+  - "When the project developer re-applies baseline assumptions from previous monitoring periods"
+  - "When a project's methodology is revised and older credits are retroactively re-calculated"
+  answer: 1
+  explanation: "The rebound effect occurs because efficiency improvements lower the effective cost of energy services, which can induce higher consumption. For example, a household that installs an efficient refrigerator may buy a larger one, or a factory that reduces its heating costs may run its equipment longer. This additional consumption partially offsets the efficiency gain. Robust energy efficiency methodologies require an assessment of rebound effects and deduction from gross credits."

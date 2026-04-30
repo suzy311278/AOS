@@ -1,0 +1,151 @@
+# IFRS S2 Climate-related Disclosures — framework metadata.
+#
+# Structure consumed by src/lib/frameworks.ts. Each pillar renders as a
+# full page with its disclosures rendered in-page at anchor IDs derived
+# from the disclosure ref (e.g. 6(a)(i) → #6-a-i).
+
+id: ifrs-s2
+name: "IFRS S2: Climate-related Disclosures"
+short_name: IFRS S2
+issuer: "IFRS Foundation · International Sustainability Standards Board"
+issuer_short: ISSB
+type: Standard
+status: final
+effective_from: "2024-01-01"
+seo_title: "IFRS S2: Clauses Explained with Illustrative Disclosures"
+seo_description: "IFRS S2 broken down pillar by pillar and clause by clause. For every requirement: the verbatim text, plain English, and an illustrative disclosure."
+last_reviewed: "2026-04-19"
+issuer_url: "https://www.ifrs.org/issued-standards/ifrs-sustainability-standards-navigator/ifrs-s2-climate-related-disclosures/"
+
+jurisdictions_detailed:
+  - name: United Kingdom
+    regulator: FCA / FRC
+    status: Endorsement underway
+    period: TBD
+    notes: Endorsement decision via the FRC. Will apply to large listed entities first.
+  - name: Australia
+    regulator: AASB / ASIC
+    status: Adopted (AASB S2)
+    period: Phase-in from FY 2025
+    notes: Tiered phase-in by entity size.
+  - name: Canada
+    regulator: CSSB
+    status: Adopted (CSDS 2)
+    period: Voluntary now; regulator-led mandatory timing
+    notes: Aligned with IFRS S2 with limited modifications.
+  - name: Brazil
+    regulator: CVM
+    status: Adopted
+    period: Phase-in for listed issuers
+    notes: Voluntary period during phase-in.
+  - name: Japan
+    regulator: SSBJ
+    status: Adopted (SSBJ S2)
+    period: Phase-in for Prime Market issuers
+    notes: SSBJ standards released March 2025.
+  - name: Singapore
+    regulator: ACRA / SGX
+    status: Adopted
+    period: Phase-in for listed issuers
+    notes: Climate-only initially.
+  - name: Nigeria
+    regulator: FRC
+    status: Adopted
+    period: Voluntary now; staged toward mandatory
+    notes: First African adopter.
+
+jurisdictions:
+  - global
+  - "UK"
+  - "Canada"
+  - "Australia"
+  - "Japan"
+  - "Singapore"
+  - "Nigeria"
+summary: >
+  IFRS S2 Climate-related Disclosures is the global baseline standard for
+  corporate climate reporting. Issued by the International Sustainability
+  Standards Board (ISSB) under the IFRS Foundation in June 2023 and
+  effective for annual reporting periods beginning on or after 1 January
+  2024, it has since been adopted or formally referenced by regulators
+  in the United Kingdom, Australia, Canada, Brazil, Japan, Singapore,
+  and Nigeria. With that global footprint, IFRS S2 is now the de facto
+  successor to the TCFD recommendations.
+
+long_summary: >
+  The International Sustainability Standards Board issued IFRS S2 in
+  June 2023 alongside IFRS S1 General Requirements for Disclosure of
+  Sustainability-related Financial Information. The two standards form
+  the first pair of IFRS Sustainability Disclosure Standards. IFRS S2
+  absorbs and replaces the TCFD framework, carries forward the same four
+  pillars, and adds quantitative and industry-based metric requirements
+  drawn from the SASB Standards. Adoption is being introduced in
+  jurisdictions on a staggered basis, typically beginning with listed
+  issuers and financial institutions.
+
+related_courses:
+  - ifrs-s2
+related_tools:
+  - /emission-factors
+  - /carbon/retirements
+
+# The `status` field on a pillar controls rendering:
+#   live        — full page with all disclosures.
+#   in_progress — page 404s; card shows "In preparation" on the overview.
+pillars:
+  - id: governance
+    name: Governance
+    slug: governance
+    order: 1
+    summary: >
+      How oversight of climate-related risks and opportunities is
+      organised, resourced, informed, and factored into strategic
+      decision-making at board and management level. Covers paragraphs 6
+      and 7.
+    paragraph_refs:
+      - "6(a)"
+      - "6(a)(i)"
+      - "6(a)(ii)"
+      - "6(a)(iii)"
+      - "6(a)(iv)"
+      - "6(a)(v)"
+      - "6(b)"
+      - "6(b)(i)"
+      - "6(b)(ii)"
+      - "7"
+    status: live
+  - id: strategy
+    name: Strategy
+    slug: strategy
+    order: 2
+    summary: >
+      Climate-related risks and opportunities, their effects on the
+      business model and value chain, strategic response and transition
+      plans, financial effects over the short, medium, and long term,
+      and climate resilience under scenario analysis. Covers paragraphs
+      9 through 23.
+    paragraph_refs: []
+    status: live
+  - id: risk-management
+    name: Risk Management
+    slug: risk-management
+    order: 3
+    summary: >
+      The processes used to identify, assess, prioritise, and monitor
+      climate-related risks and opportunities, and how those processes
+      are integrated into enterprise risk management. Covers paragraphs
+      25 and 26.
+    paragraph_refs: []
+    status: live
+  - id: metrics-and-targets
+    name: Metrics and Targets
+    slug: metrics-and-targets
+    order: 4
+    summary: >
+      Cross-industry metric categories including Scope 1, 2, and 3
+      greenhouse gas emissions, transition and physical risk exposure,
+      climate-related opportunities, capital deployment, internal carbon
+      prices, and remuneration linkages. Industry-based metrics and
+      climate-related targets. Covers paragraphs 28 through 37.
+    paragraph_refs: []
+    status: live

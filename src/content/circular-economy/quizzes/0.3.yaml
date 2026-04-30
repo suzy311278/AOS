@@ -1,0 +1,26 @@
+- question: "Walter Stahel is credited with pioneering which core circular economy concept in a 1976 report to the European Commission?"
+  options:
+    - "Biomimicry and nature-inspired design"
+    - "An economy in loops and selling performance rather than products"
+    - "The butterfly diagram and two-cycle material flows"
+    - "Cradle to Cradle material nutrient classification"
+  answer: 1
+  explanation: "Walter Stahel co-authored a 1976 report to the European Commission outlining an 'economy in loops,' and later developed the concept of selling performance rather than products (the performance economy), now absorbed into product-as-a-service models."
+
+- question: "The Cradle to Cradle framework, developed by Braungart and McDonough, classifies all materials as which two categories?"
+  options:
+    - "Renewable and non-renewable"
+    - "Technical and biological nutrients"
+    - "Virgin and secondary materials"
+    - "Organic and synthetic compounds"
+  answer: 1
+  explanation: "Cradle to Cradle classifies all materials as nutrients of two types: biological nutrients that safely re-enter natural cycles, and technical nutrients that cycle perpetually through industrial systems at high quality."
+
+- question: "The Kalundborg Symbiosis in Denmark is significant because it demonstrates which circular economy principle?"
+  options:
+    - "Product-as-a-service in the energy sector"
+    - "Industrial ecology through voluntary waste stream exchange between companies"
+    - "Government-mandated recycling targets achieving 65% recovery"
+    - "Biomimicry applied to industrial design"
+  answer: 1
+  explanation: "Kalundborg demonstrates industrial symbiosis: companies voluntarily exchanging waste streams, energy, and water with neighbours, avoiding 635,000 tonnes of CO2 annually and saving over 30 million euros - all from bilateral economic agreements."

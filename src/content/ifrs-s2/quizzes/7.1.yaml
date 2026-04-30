@@ -1,0 +1,35 @@
+- question: "Cross-industry metric category (e) covers 'capital deployment.' What type of capital does this metric capture?"
+  options:
+    - "Total assets of the entity"
+    - "Capital expenditure, financing, or investment deployed toward climate-related risks and opportunities"
+    - "Carbon credits purchased in the reporting period"
+    - "Executive compensation linked to climate performance"
+  answer: 1
+  explanation: "Category (e) — capital deployment — covers amounts of capex, financing, or investment that the entity has deployed toward managing climate-related risks and opportunities. This includes investments in renewable energy, efficiency improvements, resilience upgrades, and green financing instruments."
+
+- question: "An entity discloses that 75% of its revenues come from products that help customers reduce their emissions. Which cross-industry metric category does this primarily address?"
+  options:
+    - "(b) Climate-related transition risk exposure"
+    - "(c) Climate-related physical risk exposure"
+    - "(d) Climate-related opportunities"
+    - "(f) Internal carbon price"
+  answer: 2
+  explanation: "Revenue from products aligned with climate-related opportunities — specifically those helping customers reduce emissions during the low-carbon transition — falls under category (d): the amount and percentage of assets or business activities aligned with climate-related opportunities."
+
+- question: "An entity has no internal carbon price. What does IFRS S2 require it to disclose for category (f)?"
+  options:
+    - "Nothing — category (f) only applies to entities with a carbon price"
+    - "That it does not use an internal carbon price"
+    - "Its external carbon price exposure (e.g., EU ETS costs)"
+    - "An explanation of why a carbon price is not appropriate for its sector"
+  answer: 1
+  explanation: "Para 29(f) requires disclosure of 'whether and how' an entity uses an internal carbon price. If the entity does not use one, it must disclose that fact. The absence of an internal carbon price is itself informative — investors can compare entities that do and do not use this strategic tool."
+
+- question: "Category (g) requires disclosure of the percentage of executive remuneration linked to climate. Why is a PERCENTAGE more informative than just describing what climate metrics are used?"
+  options:
+    - "A percentage is easier to audit than a qualitative description"
+    - "A percentage allows investors to compare the financial incentive strength across companies and assess whether climate alignment is material to executive wealth"
+    - "Percentage disclosure satisfies ESRS requirements"
+    - "IFRS S2 requires both percentage and qualitative description; the percentage alone is sufficient"
+  answer: 1
+  explanation: "A percentage enables comparison. An entity with 5% of executive pay linked to a climate metric and one with 30% linked face very different financial incentive structures. The percentage tells investors whether climate performance is material to management's personal financial outcomes — which is a meaningful signal of commitment strength."

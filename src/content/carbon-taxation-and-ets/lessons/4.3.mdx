@@ -1,0 +1,270 @@
+{/* source: ETS Handbook Step 5; Fig 5-1 */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/carbon-pricing/4_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Updating Allocations Over Time
+
+Free allocation is not a one-time event. As facilities expand, contract, open, or close, allocations need to adjust. Getting these updates right is essential for fairness, efficiency, and preventing gaming.
+
+### Why Allocations Change
+
+Several factors require allocation updates:
+
+**Activity level changes**
+
+Production may increase or decrease significantly from the baseline period.
+
+**New entrants**
+
+New facilities come online and need allowances to operate.
+
+**Closures**
+
+Facilities shut down and no longer need allowances.
+
+**Mergers and splits**
+
+Corporate restructuring changes which entities hold allocations.
+
+**Policy changes**
+
+Benchmark updates, cap tightening, or sector reclassification affects allocations.
+
+<HighlightBox>
+A static allocation system becomes increasingly unfair over time. A facility that doubled production since the baseline faces shortage, while one that halved production enjoys surplus. Dynamic updates keep allocations aligned with actual activity.
+</HighlightBox>
+
+### Approaches to Updates
+
+**Fixed allocation**
+
+Allocations are set once and do not change regardless of production. Simple, but creates problems if activity diverges from baseline.
+
+**Periodic updates**
+
+Allocations recalculated every few years (e.g., every trading period). Better reflects changes but creates uncertainty around update cycles.
+
+**Annual updates**
+
+Allocations adjusted every year based on recent production. Most responsive but highest administrative burden.
+
+**Threshold-based updates**
+
+Allocations only change when activity deviates beyond a threshold (e.g., +/- 15% from baseline).
+
+<ResponsiveTable>
+| Approach | Responsiveness | Admin burden | Predictability |
+|----------|---------------|--------------|----------------|
+| Fixed | None | Low | High |
+| Periodic (5 years) | Low-moderate | Moderate | Moderate |
+| Annual | High | High | Lower |
+| Threshold-based | Moderate | Moderate | Moderate |
+</ResponsiveTable>
+
+### Activity Level Adjustments
+
+Most sophisticated ETS systems include activity level adjustments (ALAs):
+
+**How ALAs work:**
+
+1. Set a baseline activity level for each facility
+2. Monitor actual activity each year
+3. If activity deviates beyond thresholds, adjust allocation
+
+<ExampleBox>
+**EU ETS Activity Level Adjustment:**
+
+Thresholds:
+- If activity falls below 80% of baseline: reduce allocation to 50%
+- If activity falls below 50% of baseline: reduce allocation to 25%
+- If activity falls below 25% of baseline: suspend allocation
+- Reverse applies for increases
+
+Example: A cement plant with baseline production of 1 million tons:
+- If 2024 production is 950,000 tons (95%): full allocation maintained
+- If 2024 production is 700,000 tons (70%): allocation reduced to 50%
+- If 2024 production is 400,000 tons (40%): allocation reduced to 25%
+
+This prevents facilities from receiving full allocations for capacity they are not using.
+</ExampleBox>
+
+### New Entrant Reserves
+
+New facilities entering the market need allowances but have no baseline emissions. New entrant reserves (NERs) address this.
+
+**How NERs work:**
+
+1. Set aside a portion of the total cap for new entrants
+2. When new facilities register, allocate from the reserve
+3. Use benchmarking (not grandfathering, since there is no history)
+
+**Design considerations:**
+
+- Reserve size: Too small and late entrants get nothing; too large and cap is effectively loosened
+- Allocation method: Usually benchmarks, sometimes technology-specific
+- Reserve exhaustion: What happens when the reserve runs out?
+
+<AnalogyBox>
+A new entrant reserve is like reserving parking spaces in a garage for new tenants. Existing tenants have their spaces; new ones draw from the reserve. If the reserve runs out, late arrivals must find alternatives.
+</AnalogyBox>
+
+<DeepDive title="Managing new entrant reserve exhaustion">
+What happens when the NER runs out? Systems handle this differently:
+
+**First-come, first-served:**
+Allocations continue until the reserve is empty. Late entrants receive nothing. Creates a race to register.
+
+**Prorated allocation:**
+Once reserve pressure is detected, all new entrants receive reduced allocations. Fairer but less predictable.
+
+**No reserve:**
+Some systems (like full auctioning) do not have NERs. New entrants simply buy allowances.
+
+**Reserve replenishment:**
+Take allowances from the general cap or from closures to refill the reserve.
+
+**EU ETS approach:**
+The EU maintains an NER of about 5% of allowances. New facilities receive benchmark-based allocations. If the reserve is exhausted, allocations are prorated across new entrants.
+
+**California approach:**
+California uses true-up provisions where new entrants receive benchmark allocations and the cap adjusts slightly. This maintains full allocation for new entrants but can create some cap uncertainty.
+</DeepDive>
+
+### Closure Rules
+
+When facilities close, their allocations should end. But the details matter:
+
+**Immediate cessation**
+
+Allocation stops when closure is confirmed. Simple but may discourage timely reporting.
+
+**Grace period**
+
+Some allocation continues for a limited period to support orderly closure and workforce transition.
+
+**Partial closure**
+
+If only part of a facility closes, allocation should adjust proportionally. Defining "partial closure" can be complex.
+
+**Mothballing vs permanent closure**
+
+Is the facility suspended temporarily or closed permanently? Different rules may apply.
+
+<HighlightBox>
+Closure rules must balance multiple goals: not rewarding facilities that have closed, not creating incentives to delay closure reporting, and supporting communities through transition.
+</HighlightBox>
+
+### Preventing Gaming
+
+Allocation updates create gaming opportunities:
+
+**Production inflation**
+
+Facilities might artificially increase production to boost baseline for future allocations.
+
+**Strategic closure timing**
+
+Facilities might time closure to maximize remaining allocations.
+
+**Corporate restructuring**
+
+Splitting a facility into multiple entities might generate more total allocation.
+
+**Mothballing to retain allocation**
+
+Keeping facilities nominally "operating" at minimal levels to retain allocations.
+
+**Counter-measures:**
+
+- Verification requirements for activity data
+- Anti-abuse provisions in legislation
+- Lookback periods to catch gaming
+- Bright-line definitions for closure and activity levels
+
+<ExampleBox>
+**Anti-gaming provisions in the EU ETS:**
+
+To prevent manipulation, the EU ETS includes:
+
+- **Activity thresholds:** Operations below 25% of capacity for extended periods trigger allocation suspension
+- **Continuous operation requirement:** Facilities must demonstrate genuine continued operation
+- **Verification:** Third-party verification of activity data
+- **Lookback:** If manipulation is discovered, allocations can be reclaimed
+
+These provisions aim to ensure free allocation goes to genuinely operating, productive facilities.
+</ExampleBox>
+
+### Updating Benchmarks
+
+Benchmarks themselves need periodic updates as technology improves:
+
+**The challenge:**
+
+If benchmarks remain static while technology improves, even "efficient" facilities become relatively less efficient. The benchmark loses its meaning.
+
+**Updating frequency:**
+
+Most systems update benchmarks every 5-10 years, aligned with trading periods.
+
+**The ratchet:**
+
+Updated benchmarks are typically tighter (lower emissions per unit) reflecting technological progress and best practice improvements.
+
+**Transition provisions:**
+
+When benchmarks tighten, facilities may get adjustment periods to meet new standards.
+
+<ResponsiveTable>
+| Update cycle | Pros | Cons |
+|--------------|------|------|
+| Every 5 years | Reflects technology progress | Creates uncertainty around updates |
+| Every 10 years | More stability | May lag technology changes |
+| Continuous | Always current | Very high admin burden |
+| Never | Maximum stability | Outdated over time |
+</ResponsiveTable>
+
+### Information Systems
+
+Managing allocation updates requires robust information systems:
+
+**Registry integration**
+
+Allocation changes must flow to the allowance registry, updating account balances.
+
+**Production monitoring**
+
+Activity level data must be collected, verified, and processed.
+
+**Audit trails**
+
+All allocation changes should be documented and auditable.
+
+**Timing**
+
+Updates need clear deadlines and processing schedules.
+
+### Principles for Allocation Updates
+
+**1. Predictability**
+
+Rules should be clear in advance so facilities can plan.
+
+**2. Proportionality**
+
+Updates should be proportional to activity changes, not all-or-nothing.
+
+**3. Timeliness**
+
+Updates should occur quickly enough to be relevant.
+
+**4. Anti-gaming**
+
+Rules should minimize opportunities for manipulation.
+
+**5. Administrative feasibility**
+
+Systems should be manageable for regulators and facilities.
+
+### Looking Ahead
+
+Whether from auctions or free allocation, allowances generate value. When allowances are auctioned, the revenue goes to government. The next lesson explores how auctions are designed and how auction revenue can be used.

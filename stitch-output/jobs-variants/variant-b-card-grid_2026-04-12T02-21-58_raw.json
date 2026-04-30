@@ -1,0 +1,186 @@
+{
+  "outputComponents": [
+    {
+      "design": {
+        "screens": [
+          {
+            "designSystem": {
+              "designSystem": {
+                "displayName": "Greentryst Meridian",
+                "theme": {
+                  "bodyFont": "INTER",
+                  "colorMode": "LIGHT",
+                  "colorVariant": "FIDELITY",
+                  "customColor": "#2D6A4F",
+                  "designMd": "# Design System Strategy: The High-End Sustainability OS\n\n## 1. Overview & Creative North Star: \"The Verdant Ledger\"\nThis design system is not a generic dashboard; it is a high-stakes financial terminal for the natural world. Our Creative North Star is **\"The Verdant Ledger.\"** It combines the cold, calculated precision of a Bloomberg Terminal with the organic, breathable luxury of a premium architectural journal. \n\nWe move beyond the \"template\" look by rejecting standard grid constraints in favor of **intentional asymmetry** and **tonal depth**. The interface should feel like a series of heavy, high-quality paper stock layers floating over a deep, forest-like foundation. We use high-contrast typography scales—pairing the industrial rigor of monospaced data with the sleek, tight-tracked authority of modern sans-serifs—to signal that this is where critical sustainability decisions are made.\n\n---\n\n## 2. Color & Surface Architecture\nOur palette transitions from the deep shadows of an old-growth forest to the airy clarity of a misty morning.\n\n### The \"No-Line\" Rule\n**Explicit Instruction:** Designers are prohibited from using 1px solid borders to define sections or containers. Structural boundaries must be achieved exclusively through:\n1.  **Background Color Shifts:** Placing a `surface-container-lowest` (#FFFFFF) card on a `surface` (#e9ffeb) background.\n2.  **Tonal Transitions:** Using subtle shifts between `surface-container-low` and `high` to denote hierarchy.\n3.  **Top Accent Bars:** A 3px solid bar using `primary` (#0f5238) or `leaf` (#52B788) at the top of cards to provide a \"weighted\" anchor.\n\n### Surface Hierarchy & Nesting\nTreat the UI as a physical stack of materials. \n*   **Base Layer:** `background` (#e9ffeb) – The wide-open canvas.\n*   **Section Layer:** `surface-container-low` (#dffbe3) – For grouping related modules.\n*   **Action Layer:** `surface-container-lowest` (#FFFFFF) – The primary card surface where interaction happens.\n\n### The \"Glass & Gradient\" Rule\nTo prevent the UI from feeling \"flat\" or \"cheap,\" use **Glassmorphism** for floating elements (like side navigation or persistent filters). Use `surface` colors at 80% opacity with a `20px` backdrop blur. For primary CTAs, apply a subtle linear gradient from `primary` (#0f5238) to `primary_container` (#2d6a4f) at a 135-degree angle to add \"soul\" and depth.\n\n---\n\n## 3. Typography: The Editorial Edge\nThe typography system relies on the tension between the humanist 'Inter' and the technical 'JetBrains Mono.'\n\n*   **Headings (Inter):** Set with **-2% to -4% tracking**. This \"tight\" feel mimics high-end editorial magazines and conveys an authoritative, \"no-nonsense\" tone.\n*   **Body (Inter):** Standard tracking, generous line height (1.6) for readability.\n*   **Data & Eyebrows (JetBrains Mono):** Always uppercase with **+10% to +15% tracking**. This is used for \"eyebrow\" labels, metadata, and numerical data. It signals precision and a \"pro-tool\" environment.\n\n| Level | Font | Size | Case/Tracking | Use Case |\n| :--- | :--- | :--- | :--- | :--- |\n| **Display LG** | Inter | 3.5rem | Tight (-4%) | Hero impact numbers |\n| **Headline MD** | Inter | 1.75rem | Tight (-2%) | Section headers |\n| **Label MD** | JetBrains | 0.75rem | Upper (+12%) | Category tags, Status |\n| **Body LG** | Inter | 1rem | Normal | Long-form reporting |\n\n---\n\n## 4. Elevation & Depth: Tonal Layering\nWe reject \"standard\" Material Design shadows. Depth is an atmosphere, not an effect.\n\n*   **The Layering Principle:** Depth is achieved by stacking. A `#FFFFFF` card should sit on a `surface-dim` (#c6e1ca) background to create a soft, natural lift without a single pixel of shadow.\n*   **Ambient Shadows:** When a component must float (e.g., a Modal or Popover), use an **Ambient Shadow**: `0px 20px 40px rgba(11, 61, 46, 0.06)`. Note the tint: we use the `on-surface` forest green, never pure black, to keep the shadow feeling organic.\n*   **The \"Ghost Border\" Fallback:** If a border is required for accessibility, use the `outline_variant` at **15% opacity**. It should be felt, not seen.\n\n---\n\n## 5. Component Signatures\n\n### Buttons (The \"Power\" Action)\n*   **Primary:** Solid `primary_container` (#2d6a4f). **8px corner radius**. \n*   **Signature Detail:** Must include a Lucide arrow icon (trailing) to signal \"forward momentum.\"\n*   **Typography:** JetBrains Mono, Uppercase, Small.\n\n### Professional Data Cards\n*   **Structure:** 16px rounded corners, `#FFFFFF` background.\n*   **Accent:** 3px top border in `primary` (#0f5238).\n*   **Spacing:** 32px internal padding (Generous whitespace is luxury).\n*   **No Dividers:** Separate list items within cards using 12px of vertical whitespace or a 4px `surface-variant` color block—never a 1px line.\n\n### Status Chips\n*   **Style:** JetBrains Mono, 10px size, tracked out.\n*   **Visual:** No background. Instead, use a 6px solid circle (Leaf green or Error red) next to the mono text to indicate status.\n\n### Inputs\n*   **Style:** Minimalist. No bottom line or full border. Use a subtle `surface-container-high` background fill with 8px rounding.\n*   **Active State:** The top 3px accent bar appears on the input field when focused.\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do\n*   **Do** use asymmetrical layouts (e.g., a wide 8-column data card paired with a 4-column sidebar of text).\n*   **Do** use JetBrains Mono for every single number in the platform.\n*   **Do** embrace \"White Space as a Feature.\" If a screen feels crowded, increase the padding, don't shrink the text.\n\n### Don't\n*   **Don't** use 1px dividers or borders. It breaks the premium \"editorial\" feel.\n*   **Don't** use standard \"Blue\" for links. Use `leaf` (#52B788) or `primary`.\n*   **Don't** use Inter for data. It’s too \"soft.\" Data must be in Mono to feel like a \"Sustainability OS.\"\n*   **Don't** use drop shadows on every card. Only use them for elements that literally \"float\" over others.",
+                  "font": "INTER",
+                  "headlineFont": "INTER",
+                  "labelFont": "SPACE_GROTESK",
+                  "namedColors": {
+                    "background": "#e9ffeb",
+                    "error": "#ba1a1a",
+                    "error_container": "#ffdad6",
+                    "inverse_on_surface": "#ddf8e0",
+                    "inverse_primary": "#95d4b3",
+                    "inverse_surface": "#1f3526",
+                    "on_background": "#092012",
+                    "on_error": "#ffffff",
+                    "on_error_container": "#93000a",
+                    "on_primary": "#ffffff",
+                    "on_primary_container": "#a8e7c5",
+                    "on_primary_fixed": "#002114",
+                    "on_primary_fixed_variant": "#0e5138",
+                    "on_secondary": "#ffffff",
+                    "on_secondary_container": "#436b58",
+                    "on_secondary_fixed": "#002114",
+                    "on_secondary_fixed_variant": "#274e3d",
+                    "on_surface": "#092012",
+                    "on_surface_variant": "#404943",
+                    "on_tertiary": "#ffffff",
+                    "on_tertiary_container": "#89edba",
+                    "on_tertiary_fixed": "#002113",
+                    "on_tertiary_fixed_variant": "#005235",
+                    "outline": "#707973",
+                    "outline_variant": "#bfc9c1",
+                    "primary": "#0f5238",
+                    "primary_container": "#2d6a4f",
+                    "primary_fixed": "#b1f0ce",
+                    "primary_fixed_dim": "#95d4b3",
+                    "secondary": "#3f6653",
+                    "secondary_container": "#beead1",
+                    "secondary_fixed": "#c1ecd4",
+                    "secondary_fixed_dim": "#a5d0b9",
+                    "surface": "#e9ffeb",
+                    "surface_bright": "#e9ffeb",
+                    "surface_container": "#daf5de",
+                    "surface_container_high": "#d4efd8",
+                    "surface_container_highest": "#cee9d3",
+                    "surface_container_low": "#dffbe3",
+                    "surface_container_lowest": "#ffffff",
+                    "surface_dim": "#c6e1ca",
+                    "surface_tint": "#2c694e",
+                    "surface_variant": "#cee9d3",
+                    "tertiary": "#005236",
+                    "tertiary_container": "#006d48",
+                    "tertiary_fixed": "#92f7c3",
+                    "tertiary_fixed_dim": "#75daa8"
+                  },
+                  "overrideNeutralColor": "#D8F3DC",
+                  "overridePrimaryColor": "#2D6A4F",
+                  "overrideSecondaryColor": "#1B4332",
+                  "overrideTertiaryColor": "#52B788",
+                  "roundness": "ROUND_EIGHT",
+                  "spacingScale": 3
+                }
+              },
+              "name": "assets/a19ca81ca8aa459abb5b871a9b309548",
+              "version": "1"
+            },
+            "deviceType": "DESKTOP",
+            "generatedBy": "figaro_agent",
+            "height": "4106",
+            "htmlCode": {
+              "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2FlNmY0MTM5MjA3ZDQzMzVhZjY1MzVjYzA3YzBkMjQxEgsSBxD4gf-qtRAYAZIBIwoKcHJvamVjdF9pZBIVQhMyMjE3MDE2MTcxNzY1NDY1MzIz&filename=&opi=96797242",
+              "mimeType": "text/html",
+              "name": "projects/2217016171765465323/files/c7bc5b205159429a8800bd6178c5436f"
+            },
+            "id": "1667cfc7953a4e51bedfdee8c060ac11",
+            "name": "projects/2217016171765465323/screens/1667cfc7953a4e51bedfdee8c060ac11",
+            "prompt": "Desktop website. A sustainability JOBS DIRECTORY page for Greentryst. Product page, no dark hero band. Light background.\n\nLayout B: VISUAL CARD GRID. \n- Compact light header at top: 'CAREER DIRECTORY' mono eyebrow (JetBrains Mono, uppercase, letter-spacing), heading 'Sustainability jobs, curated for practitioners.' (Inter, 40-56px, tight tracking), stats row (e.g., '142 Active Roles', '18 Sectors', 'Updated 4m ago').\n- Below: a sticky filter bar with profile tabs (All Roles, Climate Risk, Sustainable Finance, EU Taxonomy, Carbon Markets, Clean Energy), search input with Lucide search icon, and dropdown 'Filter' button with Lucide sliders icon.\n- Main Content: a 2-COLUMN GRID of job CARDS. \n- Each card: white rounded-2xl container, subtle shadow, thin 3px top accent bar in brand green (#2D6A4F). \n- Inside Card: \n    - Top row: company name (e.g., 'BLACKROCK') in JetBrains Mono eyebrow uppercase.\n    - Large 18-22px bold job title (Inter).\n    - Location with Lucide map pin icon (e.g., 'London, UK (Hybrid)').\n    - Meta pill row: job type ('Full-time'), experience level ('10+ Years Exp'), work mode ('High Impact') using small pills with 8px roundness.\n    - Role summary: 2-3 line excerpt in muted dark text (Inter, 15-17px).\n    - Footer: Small category pill (e.g. 'CLIMATE RISK') in JetBrains Mono on the left; Brand-green 'View role' button (#2D6A4F) with white text and Lucide arrow icon on the right.\n- Real job content: \n    - 'Climate Risk Analyst' at 'BlackRock'\n    - 'ESG Data Manager' at 'MSCI'\n    - 'Carbon Market Specialist' at 'South Pole'\n    - 'Sustainability Reporting Lead' at 'Unilever'\n    - 'Green Finance Associate' at 'Standard Chartered'\n    - 'EU Taxonomy Analyst' at 'Deloitte'\n- Below grid: Pagination with numbers.\n- Palette: #0B3D2E, #2D6A4F, #52B788, #D8F3DC (bg), #FFFFFF (cards). \n- Fonts: Inter (headings/body), JetBrains Mono (data/labels).\n- Icons: Lucide.",
+            "screenMetadata": {
+              "agentType": "PRO_AGENT",
+              "status": "COMPLETE"
+            },
+            "screenType": "DESIGN",
+            "screenshot": {
+              "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0uj-7WswXg8d_OYjR-Ztfosd6rLH4C9VZXggPe9aABVeOtI9bnwPh-l4bOh3oBkKebBczF9r5O7mvL8xh4WS2nrJRsn2KRRw1CewX51JXnW4cIvt3ENWH9yxmnFYYmck_fOajGcDZh3f986l9L7OqnRhsx90VuqWksVyDTRkyKD1m_PWmiy9KOCwyo2ikti6rDy8TlatBMe9w2oZ3EafNdgSSDixrsK43TADQhWEgb17euAmR7Hk5RxI9w",
+              "name": "projects/2217016171765465323/files/ff7b334b62864cc1b35c8e78f17aed59"
+            },
+            "theme": {
+              "bodyFont": "INTER",
+              "colorMode": "LIGHT",
+              "colorVariant": "FIDELITY",
+              "customColor": "#2D6A4F",
+              "designMd": "# Design System Strategy: The High-End Sustainability OS\n\n## 1. Overview & Creative North Star: \"The Verdant Ledger\"\nThis design system is not a generic dashboard; it is a high-stakes financial terminal for the natural world. Our Creative North Star is **\"The Verdant Ledger.\"** It combines the cold, calculated precision of a Bloomberg Terminal with the organic, breathable luxury of a premium architectural journal. \n\nWe move beyond the \"template\" look by rejecting standard grid constraints in favor of **intentional asymmetry** and **tonal depth**. The interface should feel like a series of heavy, high-quality paper stock layers floating over a deep, forest-like foundation. We use high-contrast typography scales—pairing the industrial rigor of monospaced data with the sleek, tight-tracked authority of modern sans-serifs—to signal that this is where critical sustainability decisions are made.\n\n---\n\n## 2. Color & Surface Architecture\nOur palette transitions from the deep shadows of an old-growth forest to the airy clarity of a misty morning.\n\n### The \"No-Line\" Rule\n**Explicit Instruction:** Designers are prohibited from using 1px solid borders to define sections or containers. Structural boundaries must be achieved exclusively through:\n1.  **Background Color Shifts:** Placing a `surface-container-lowest` (#FFFFFF) card on a `surface` (#e9ffeb) background.\n2.  **Tonal Transitions:** Using subtle shifts between `surface-container-low` and `high` to denote hierarchy.\n3.  **Top Accent Bars:** A 3px solid bar using `primary` (#0f5238) or `leaf` (#52B788) at the top of cards to provide a \"weighted\" anchor.\n\n### Surface Hierarchy & Nesting\nTreat the UI as a physical stack of materials. \n*   **Base Layer:** `background` (#e9ffeb) – The wide-open canvas.\n*   **Section Layer:** `surface-container-low` (#dffbe3) – For grouping related modules.\n*   **Action Layer:** `surface-container-lowest` (#FFFFFF) – The primary card surface where interaction happens.\n\n### The \"Glass & Gradient\" Rule\nTo prevent the UI from feeling \"flat\" or \"cheap,\" use **Glassmorphism** for floating elements (like side navigation or persistent filters). Use `surface` colors at 80% opacity with a `20px` backdrop blur. For primary CTAs, apply a subtle linear gradient from `primary` (#0f5238) to `primary_container` (#2d6a4f) at a 135-degree angle to add \"soul\" and depth.\n\n---\n\n## 3. Typography: The Editorial Edge\nThe typography system relies on the tension between the humanist 'Inter' and the technical 'JetBrains Mono.'\n\n*   **Headings (Inter):** Set with **-2% to -4% tracking**. This \"tight\" feel mimics high-end editorial magazines and conveys an authoritative, \"no-nonsense\" tone.\n*   **Body (Inter):** Standard tracking, generous line height (1.6) for readability.\n*   **Data & Eyebrows (JetBrains Mono):** Always uppercase with **+10% to +15% tracking**. This is used for \"eyebrow\" labels, metadata, and numerical data. It signals precision and a \"pro-tool\" environment.\n\n| Level | Font | Size | Case/Tracking | Use Case |\n| :--- | :--- | :--- | :--- | :--- |\n| **Display LG** | Inter | 3.5rem | Tight (-4%) | Hero impact numbers |\n| **Headline MD** | Inter | 1.75rem | Tight (-2%) | Section headers |\n| **Label MD** | JetBrains | 0.75rem | Upper (+12%) | Category tags, Status |\n| **Body LG** | Inter | 1rem | Normal | Long-form reporting |\n\n---\n\n## 4. Elevation & Depth: Tonal Layering\nWe reject \"standard\" Material Design shadows. Depth is an atmosphere, not an effect.\n\n*   **The Layering Principle:** Depth is achieved by stacking. A `#FFFFFF` card should sit on a `surface-dim` (#c6e1ca) background to create a soft, natural lift without a single pixel of shadow.\n*   **Ambient Shadows:** When a component must float (e.g., a Modal or Popover), use an **Ambient Shadow**: `0px 20px 40px rgba(11, 61, 46, 0.06)`. Note the tint: we use the `on-surface` forest green, never pure black, to keep the shadow feeling organic.\n*   **The \"Ghost Border\" Fallback:** If a border is required for accessibility, use the `outline_variant` at **15% opacity**. It should be felt, not seen.\n\n---\n\n## 5. Component Signatures\n\n### Buttons (The \"Power\" Action)\n*   **Primary:** Solid `primary_container` (#2d6a4f). **8px corner radius**. \n*   **Signature Detail:** Must include a Lucide arrow icon (trailing) to signal \"forward momentum.\"\n*   **Typography:** JetBrains Mono, Uppercase, Small.\n\n### Professional Data Cards\n*   **Structure:** 16px rounded corners, `#FFFFFF` background.\n*   **Accent:** 3px top border in `primary` (#0f5238).\n*   **Spacing:** 32px internal padding (Generous whitespace is luxury).\n*   **No Dividers:** Separate list items within cards using 12px of vertical whitespace or a 4px `surface-variant` color block—never a 1px line.\n\n### Status Chips\n*   **Style:** JetBrains Mono, 10px size, tracked out.\n*   **Visual:** No background. Instead, use a 6px solid circle (Leaf green or Error red) next to the mono text to indicate status.\n\n### Inputs\n*   **Style:** Minimalist. No bottom line or full border. Use a subtle `surface-container-high` background fill with 8px rounding.\n*   **Active State:** The top 3px accent bar appears on the input field when focused.\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do\n*   **Do** use asymmetrical layouts (e.g., a wide 8-column data card paired with a 4-column sidebar of text).\n*   **Do** use JetBrains Mono for every single number in the platform.\n*   **Do** embrace \"White Space as a Feature.\" If a screen feels crowded, increase the padding, don't shrink the text.\n\n### Don't\n*   **Don't** use 1px dividers or borders. It breaks the premium \"editorial\" feel.\n*   **Don't** use standard \"Blue\" for links. Use `leaf` (#52B788) or `primary`.\n*   **Don't** use Inter for data. It’s too \"soft.\" Data must be in Mono to feel like a \"Sustainability OS.\"\n*   **Don't** use drop shadows on every card. Only use them for elements that literally \"float\" over others.",
+              "font": "INTER",
+              "headlineFont": "INTER",
+              "labelFont": "SPACE_GROTESK",
+              "namedColors": {
+                "background": "#e9ffeb",
+                "error": "#ba1a1a",
+                "error_container": "#ffdad6",
+                "inverse_on_surface": "#ddf8e0",
+                "inverse_primary": "#95d4b3",
+                "inverse_surface": "#1f3526",
+                "on_background": "#092012",
+                "on_error": "#ffffff",
+                "on_error_container": "#93000a",
+                "on_primary": "#ffffff",
+                "on_primary_container": "#a8e7c5",
+                "on_primary_fixed": "#002114",
+                "on_primary_fixed_variant": "#0e5138",
+                "on_secondary": "#ffffff",
+                "on_secondary_container": "#436b58",
+                "on_secondary_fixed": "#002114",
+                "on_secondary_fixed_variant": "#274e3d",
+                "on_surface": "#092012",
+                "on_surface_variant": "#404943",
+                "on_tertiary": "#ffffff",
+                "on_tertiary_container": "#89edba",
+                "on_tertiary_fixed": "#002113",
+                "on_tertiary_fixed_variant": "#005235",
+                "outline": "#707973",
+                "outline_variant": "#bfc9c1",
+                "primary": "#0f5238",
+                "primary_container": "#2d6a4f",
+                "primary_fixed": "#b1f0ce",
+                "primary_fixed_dim": "#95d4b3",
+                "secondary": "#3f6653",
+                "secondary_container": "#beead1",
+                "secondary_fixed": "#c1ecd4",
+                "secondary_fixed_dim": "#a5d0b9",
+                "surface": "#e9ffeb",
+                "surface_bright": "#e9ffeb",
+                "surface_container": "#daf5de",
+                "surface_container_high": "#d4efd8",
+                "surface_container_highest": "#cee9d3",
+                "surface_container_low": "#dffbe3",
+                "surface_container_lowest": "#ffffff",
+                "surface_dim": "#c6e1ca",
+                "surface_tint": "#2c694e",
+                "surface_variant": "#cee9d3",
+                "tertiary": "#005236",
+                "tertiary_container": "#006d48",
+                "tertiary_fixed": "#92f7c3",
+                "tertiary_fixed_dim": "#75daa8"
+              },
+              "overrideNeutralColor": "#D8F3DC",
+              "overridePrimaryColor": "#2D6A4F",
+              "overrideSecondaryColor": "#1B4332",
+              "overrideTertiaryColor": "#52B788",
+              "roundness": "ROUND_EIGHT",
+              "spacingScale": 3
+            },
+            "title": "Sustainability Jobs Directory - Grid View",
+            "width": "2560"
+          }
+        ],
+        "theme": {}
+      }
+    },
+    {
+      "text": "I've designed the **Sustainability Jobs Directory** for Greentryst using the **Visual Card Grid** layout.\n\n### Design Highlights:\n*   **Aesthetic:** Clean, professional \"Bloomberg for Sustainability\" look with a pale green background and white elevation cards.\n*   **Typography:** Strategic use of **Inter** for readability in headings and body, paired with **JetBrains Mono** for technical metadata and eyebrows to reinforce the data-driven feel.\n*   **Visual Hierarchy:** Each card features a signature 3px top accent bar in forest green and a balanced layout of job details, meta-pills, and a clear call-to-action.\n*   **Functionality:** Includes a sticky filter bar with profile-specific tabs and comprehensive job metadata (location, experience, impact type).\n\nYou can see the new version on the canvas now. How does this look to you?"
+    },
+    {
+      "suggestion": "Add a 'Job Details' view for the analyst role"
+    },
+    {
+      "suggestion": "Change the grid to a dense table layout"
+    },
+    {
+      "suggestion": "Try a dark mode version of this directory"
+    }
+  ],
+  "projectId": "2217016171765465323",
+  "sessionId": "12277228073512178583"
+}

@@ -1,0 +1,35 @@
+- question: "What is a price floor in an ETS?"
+  options:
+    - "The lowest historical price"
+    - "A minimum price below which allowances cannot be sold"
+    - "The average price"
+    - "The starting auction price"
+  answer: 1
+  explanation: "A price floor (often implemented through auction reserve prices) ensures allowances do not sell below a certain level, preventing price collapses that would undermine investment in low-carbon alternatives."
+
+- question: "What is a price ceiling in an ETS?"
+  options:
+    - "The maximum price before additional allowances or offsets become available"
+    - "The highest price ever recorded"
+    - "A ban on price increases"
+    - "The auction starting price"
+  answer: 0
+  explanation: "A price ceiling (hard or soft) limits how high prices can go by making additional allowances or offsets available above a certain price, protecting against excessive cost increases."
+
+- question: "What is the trade-off created by a price ceiling?"
+  options:
+    - "It guarantees emissions will fall"
+    - "It protects against high costs but undermines environmental certainty if triggered"
+    - "It increases revenue"
+    - "It eliminates the need for banking"
+  answer: 1
+  explanation: "A ceiling protects against extreme costs but weakens environmental certainty because triggering the ceiling effectively increases the cap by making more allowances available."
+
+- question: "What happened in the EU ETS Phase 1 due to lack of a price floor?"
+  options:
+    - "Prices stayed stable"
+    - "Prices collapsed to near zero due to overallocation"
+    - "The system was cancelled"
+    - "Prices rose too high"
+  answer: 1
+  explanation: "EU ETS Phase 1 saw prices collapse to near zero when it became clear the cap was too loose, demonstrating the value of price floors to maintain investment signals."

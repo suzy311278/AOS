@@ -1,0 +1,26 @@
+- question: "The first principle of the circular economy, 'Eliminate waste and pollution,' defines waste as what?"
+  options:
+    - "An inevitable by-product of industrial processes that must be managed"
+    - "A design failure that can be prevented by better product and system design"
+    - "Any material that exits a production process as an unintended output"
+    - "A legal category defined by waste management regulations"
+  answer: 1
+  explanation: "The circular economy defines waste as a design failure, not an inevitable outcome. Products and materials can be redesigned so that waste is not produced in the first place, rather than designing better waste management systems after the fact."
+
+- question: "In the butterfly diagram, why must technical and biological materials be kept in separate cycles?"
+  options:
+    - "Because biological materials are always more valuable than technical materials"
+    - "Because mixing them prevents either cycle from functioning cleanly - composite materials cannot safely biodegrade or be efficiently recycled"
+    - "Because EU regulations prohibit mixing waste categories"
+    - "Because technical materials are always made from non-renewable resources"
+  answer: 1
+  explanation: "Mixing technical and biological materials (for example, plastic-fibre composites) prevents biological materials from safely biodegrading and prevents technical materials from being efficiently recycled. Both cycles are blocked simultaneously by contaminated composites."
+
+- question: "The third circular economy principle, 'Regenerate nature,' requires what, beyond simply reducing harm?"
+  options:
+    - "Zero net emissions from all manufacturing processes"
+    - "Active restoration of degraded ecological and soil systems through positive intervention"
+    - "The replacement of all synthetic materials with bio-based alternatives"
+    - "The mandatory use of renewable energy in all industrial processes"
+  answer: 1
+  explanation: "Regenerate nature is the most ambitious principle: it calls for human economic activity to actively rebuild degraded natural systems, not merely do less harm. Regenerative agriculture is the leading application, rebuilding soil health, carbon, and biodiversity."

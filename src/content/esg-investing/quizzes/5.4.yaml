@@ -1,0 +1,44 @@
+- question: "A bond investor and an equity investor are both analysing the same company, which has just announced a major acquisition of a clean energy technology firm funded primarily by debt. Which of the following best captures how their ESG perspectives on this news are likely to differ?"
+  options:
+    - "Both investors view the acquisition positively due to the environmental opportunity"
+    - "The equity investor may view the environmental opportunity positively; the bond investor is likely more focused on whether the additional debt impairs the company's ability to service its existing obligations"
+    - "The bond investor views the acquisition positively; the equity investor is concerned about dilution"
+    - "Neither investor considers environmental factors relevant to their analysis"
+  answer: 1
+  explanation: "Bond investors face an asymmetric return profile — they do not participate in upside but bear full downside in default. An ESG-driven acquisition that creates long-term value may be attractive to equity investors but concerning to bond investors if it increases leverage and weakens the balance sheet. The opportunity side of ESG is largely captured by equity holders."
+
+- question: "Credit rating agencies (CRAs) evolved significantly in their treatment of ESG between 2016 and 2020. Which of the following best describes their pre-2016 approach to ESG in credit analysis?"
+  options:
+    - "CRAs had fully integrated ESG factors into all credit assessments from the early 2000s"
+    - "CRAs typically focused on financial and legal factors, incorporating ESG primarily when it had already materialised into quantifiable financial losses or litigation"
+    - "CRAs rated companies primarily on governance, ignoring environmental and social factors entirely"
+    - "CRAs used ESG ratings from MSCI and Sustainalytics as direct inputs to their credit ratings"
+  answer: 1
+  explanation: "Before 2016, CRAs primarily focused on financial and legal factors directly bearing on default probability. ESG factors were incorporated mainly when they had already translated into regulatory action, litigation, or measurable financial impairment. The PRI statement of 2016 and subsequent CRA commitments marked the beginning of more systematic ESG integration."
+
+- question: "What is the fundamental difference between a green bond and a sustainability-linked bond (SLB)?"
+  options:
+    - "Green bonds are issued only by governments; SLBs are issued only by corporations"
+    - "Green bonds ring-fence proceeds for specific environmental projects; SLBs use general corporate proceeds but link the coupon rate to the issuer meeting predetermined ESG performance targets"
+    - "Green bonds have lower credit risk than SLBs because they finance safer projects"
+    - "SLBs are exclusively used for renewable energy projects; green bonds cover all ESG themes"
+  answer: 1
+  explanation: "Green bonds use ring-fenced proceeds for qualifying environmental projects — the environmental commitment is in how the money is spent. SLBs allow proceeds for general corporate purposes but embed an ESG commitment into the bond's financial structure: if the issuer fails to meet its sustainability performance targets, the coupon steps up, creating a financial cost for non-performance."
+
+- question: "When assessing sovereign bonds through an ESG lens, which pillar of ESG tends to be most directly measurable and has historically been incorporated into sovereign credit analysis?"
+  options:
+    - "Environmental (E), because climate risk is the most quantifiable factor"
+    - "Social (S), because social welfare spending directly affects government revenues"
+    - "Governance (G), because political stability, rule of law, anti-corruption, and government effectiveness have well-established links to sovereign creditworthiness"
+    - "All three pillars contribute equally with no one pillar being more tractable"
+  answer: 2
+  explanation: "Governance factors — political stability, rule of law, control of corruption, regulatory quality, and government effectiveness — have historically been incorporated into sovereign credit analysis and have the most direct and traceable links to a country's ability to repay its debt. Environmental and social factors transmit to sovereign creditworthiness through more indirect and complex pathways, making them harder to assess."
+
+- question: "Which of the following accurately describes a key limitation of green bonds that investors should consider in their analysis?"
+  options:
+    - "Green bonds always carry lower interest rates than conventional bonds from the same issuer, reducing investor returns"
+    - "The 'green' label changes the credit risk of the bond because green projects are inherently less risky"
+    - "There is no universal global consensus on what qualifies a bond as 'green', and once ESG criteria are confirmed, credit risk analysis proceeds in the same way as for conventional bonds"
+    - "Green bonds can only be issued by companies with a AAA ESG rating from MSCI"
+  answer: 2
+  explanation: "A critical point about green bonds is that the 'green' classification addresses the use of proceeds, not the creditworthiness of the issuer. A well-structured green bond can still carry significant credit risk if the issuer's financial position is weak. Additionally, the absence of a universal standard for what constitutes a 'green' project means investors must evaluate the credibility of each bond's green framework independently."

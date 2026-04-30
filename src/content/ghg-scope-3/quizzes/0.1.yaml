@@ -1,0 +1,35 @@
+- question: "In what year was the GHG Protocol Scope 3 Standard published?"
+  options:
+    - "2004"
+    - "2008"
+    - "2011"
+    - "2015"
+  answer: 2
+  explanation: "The Corporate Value Chain (Scope 3) Accounting and Reporting Standard was published in 2011, as a companion to the original 2004 Corporate Standard."
+
+- question: "Which of the following is a Scope 3 downstream category?"
+  options:
+    - "Purchased goods and services"
+    - "Business travel"
+    - "Use of sold products"
+    - "Upstream leased assets"
+  answer: 2
+  explanation: "Use of sold products (Category 11) is a downstream category — it covers emissions from the use of products after they have been sold to customers. The others are upstream categories (1, 6, 8)."
+
+- question: "How many Scope 3 categories does the GHG Protocol define?"
+  options:
+    - "10"
+    - "12"
+    - "15"
+    - "18"
+  answer: 2
+  explanation: "The GHG Protocol defines 15 Scope 3 categories: 8 upstream (Categories 1–8) and 7 downstream (Categories 9–15)."
+
+- question: "Which organisations jointly developed the GHG Protocol Scope 3 Standard?"
+  options:
+    - "IPCC and UNEP"
+    - "WRI and WBCSD"
+    - "CDP and GRI"
+    - "ISO and IEA"
+  answer: 1
+  explanation: "The GHG Protocol was developed through a partnership between the World Resources Institute (WRI) and the World Business Council for Sustainable Development (WBCSD)."

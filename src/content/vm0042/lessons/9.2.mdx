@@ -1,0 +1,193 @@
+{/* 9.2: Natural Risks, Climate Change Impact & Final Buffer */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/vm0042/9_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## AFOLU Risk Tool: Natural Risks, Climate Change & Final Buffer
+
+<HighlightBox>
+  <p class="font-semibold text-green-800">This lesson covers</p>
+  <p class="text-green-900 mt-1">Natural risks, fire, pest outbreaks, extreme weather, geological events, and sea-level rise, form the third and often most variable component of the non-permanence risk score. Version 4.2 added a new <strong>climate change amplification factor</strong>, reflecting IPCC AR6 projections that many natural risks will intensify over the 100-year assessment horizon.</p>
+</HighlightBox>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">Analogy: Home Insurance Premium Calculation</p>
+  <p class="mt-2 text-blue-900">Natural risk scoring works like an insurer calculating your home insurance premium. They ask: how often does this area flood? (Likelihood) How much would a flood damage? (Significance) Do you have flood barriers installed? (Mitigation). High likelihood x high damage x no mitigation = high premium. In VM0042, the "premium" is the buffer percentage you contribute before any VCU can be sold.</p>
+</AnalogyBox>
+
+### How Natural Risk Scoring Works
+<p class="mb-3 text-sm">For each natural risk factor, calculate a <strong>sub-total risk score</strong> using three inputs:</p>
+
+<EquationBreakdown
+  title="Sub-total Natural Risk per Factor"
+  result="Sub-total | Sub-total Risk | The risk score for a single natural risk factor after applying mitigation, determines that factor's contribution to the buffer | blue"
+  inputs="LS | Likelihood x Significance | Score from Table 10 combining how often the risk occurs (historical frequency over 100 years) with how much carbon is lost per event (% of stocks) | green ;; M | Mitigation Factor | Reduction multiplier: 1.0 (no mitigation), 0.50 (one mitigation measure), 0.25 (both prevention and containment history) | amber"
+/>
+
+### Table 10: Historic Natural Risk Scores (LS Values)
+<ResponsiveTable>
+<table class="mb-6 text-sm">
+  <tr><th>Significance (loss per event)</th><th>&gt;once/10yr</th><th>10-&lt;25yr</th><th>25-&lt;50yr</th><th>50-&lt;100yr</th><th>Once per 100yr or less / Not applicable</th></tr>
+  <tr><td><strong>Catastrophic (≥70%)</strong></td><td class="bg-red-200 text-red-900 font-bold">FAIL</td><td>30</td><td>20</td><td>5</td><td>4</td></tr>
+  <tr><td><strong>Devastating (50% to &lt;70%)</strong></td><td>30</td><td>20</td><td>5</td><td>4</td><td>3</td></tr>
+  <tr><td><strong>Major (25% to &lt;50%)</strong></td><td>20</td><td>5</td><td>4</td><td>3</td><td>2</td></tr>
+  <tr><td><strong>Minor (5% to &lt;25%)</strong></td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td></tr>
+  <tr><td><strong>Insignificant (&lt;5%) or transient</strong></td><td>4</td><td>3</td><td>2</td><td>1</td><td>1</td></tr>
+  <tr><td><strong>Not applicable</strong></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+</table>
+</ResponsiveTable>
+<p class="text-sm text-slate-600 mb-4"><em>Transient = full recovery within 10 years (e.g., drought that briefly reduces SOC but soil recovers)</em></p>
+
+### Mitigation Scores (M)
+<ResponsiveTable>
+<table class="mb-6 text-sm">
+  <tr><th>Mitigation Condition</th><th>M Value</th><th>Effect</th></tr>
+  <tr><td>Prevention measures in place for this risk factor</td><td>0.50</td><td>Risk score halved</td></tr>
+  <tr><td>Demonstrated history of effectively containing this risk</td><td>0.50</td><td>Risk score halved</td></tr>
+  <tr><td>BOTH prevention measures AND demonstrated containment history</td><td>0.25</td><td>Risk score reduced to 25%</td></tr>
+  <tr><td>Neither</td><td>1.00</td><td>No reduction</td></tr>
+</table>
+</ResponsiveTable>
+<div class="bg-blue-50 border border-blue-200 rounded p-3 mb-6 text-sm">
+  <p class="font-semibold text-blue-800">Mitigation Examples by Risk Factor</p>
+  <ul class="mt-1 space-y-1 text-blue-900">
+    <li><strong>Fire:</strong> Fuel removal, fire breaks, fire towers, firefighting equipment</li>
+    <li><strong>Pest/Disease:</strong> Biodiverse planting, pest-resistant species, co-planting inhibiting vegetation</li>
+    <li><strong>Extreme Weather:</strong> Frost-tolerant species, riparian flood zones, species tolerant of waterlogging</li>
+  </ul>
+</div>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Natural Risk Calculation: Semi-Arid Kenya Project</p>
+  <p class="mt-2 text-sm">For the Rift Valley Kenya project, assess fire, pest/disease, and extreme weather:</p>
+  <ResponsiveTable>
+<table class="text-sm mt-2">
+    <tr><th>Risk Factor</th><th>Likelihood</th><th>Significance</th><th>LS Score</th><th>Mitigation</th><th>M</th><th>Sub-total (LS x M)</th></tr>
+    <tr><td>Fire (F)</td><td>Once per 15 years (10-25yr band)</td><td>Minor (10-20% loss)</td><td>4</td><td>Firebreaks installed, burning permit required</td><td>0.50</td><td>2.0</td></tr>
+    <tr><td>Pest/Disease (PD)</td><td>Once per 30 years (25-50yr band)</td><td>Minor (5-15% loss)</td><td>3</td><td>No active prevention</td><td>1.00</td><td>3.0</td></tr>
+    <tr><td>Extreme Weather (W)</td><td>Once per 12 years (10-25yr band)</td><td>Major (30% loss in drought)</td><td>5</td><td>Drought-tolerant species, soil moisture monitoring</td><td>0.50</td><td>2.5</td></tr>
+    <tr><td>Geological (G)</td><td>N/A (no seismic/volcanic history)</td><td>Not applicable</td><td>0</td><td>N/A</td><td>1.00</td><td>0</td></tr>
+  </table>
+</ResponsiveTable>
+  <p class="mt-2 text-sm">Sum of natural risk sub-totals before climate factor = 2.0 + 3.0 + 2.5 + 0 = <strong>7.5</strong></p>
+</ExampleBox>
+
+### Climate Change Amplification (CIDs), New in v4.2
+<p class="mb-3 text-sm">Version 4.2 added a <strong>Climatic Impact Driver (CID)</strong> amplification factor based on IPCC AR6. Risks affected by climate change (fire, pest/disease, extreme weather) are multiplied by a factor between <strong>1.0 and 1.4</strong>, reflecting projections that these risks will intensify over the 100-year assessment horizon.</p>
+
+<EquationBreakdown
+  title="Total Natural Risk with Climate Factor"
+  result="Total Natural Risk | Total Natural Risk | The combined natural risk score after applying climate amplification and adding all components | blue"
+  inputs="NR-c | Climate-Sensitive Risks | Sum of sub-totals for fire, pest/disease, and extreme weather, multiplied by Climate Change Factor (1.0-1.4) | green ;; NR-nc | Non-Climate Risks | Sum of sub-totals for geological and other non-climate-sensitive risks, multiplied by 1.0 | amber ;; SLR | Sea-Level Rise | Additional risk score for coastal projects only (zero for inland projects) | violet"
+  operator="+"
+/>
+
+<div class="bg-amber-50 border border-amber-200 rounded p-4 mb-6 text-sm">
+  <p class="font-semibold text-amber-800">Adaptive Capacity Reduction</p>
+  <p class="mt-1 text-amber-900">If the project meets at least <strong>5 of 7 adaptive capacity criteria</strong>, the climate change amplification fraction is reduced by 40%. The seven criteria (Table 12) assess whether the project proponent has embedded climate adaptation into its governance:</p>
+  <ol class="list-decimal ml-6 mt-2 space-y-1 text-amber-900">
+    <li><strong>Variety</strong>, Range of policy options; multi-sector governance</li>
+    <li><strong>Learning capacity</strong>, Incorporates lessons from past climate events</li>
+    <li><strong>Room for change</strong>, Uses climate information at different scales (early warning, projections)</li>
+    <li><strong>Leadership</strong>, Long-term vision; proactive or collaborative climate action</li>
+    <li><strong>Resources</strong>, Environmental science expertise; financial resources for adaptation</li>
+    <li><strong>Fair governance</strong>, Accountability procedures and impact indicators</li>
+    <li><strong>Innovation</strong>, Novel or traditional solutions to reduce climate threat</li>
+  </ol>
+</div>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Climate Factor Application: Kenya Project</p>
+  <p class="mt-2 text-sm">Climate-affected risks: Fire (sub-total = 2.0), Pest/Disease (3.0), Extreme Weather (2.5) - NR-c sum = 7.5</p>
+  <p class="text-sm">Non-climate risk: Geological (sub-total = 0.0) - NR-nc = 0</p>
+  <p class="text-sm mt-1">IPCC AR6 CID analysis for East Africa projects suggests temperature and drought intensification - Climate Change Factor = <strong>1.25</strong></p>
+  <p class="text-sm mt-1">Project meets 5/7 adaptive capacity criteria (has learning capacity, resources, room for change, leadership, and governance) - adaptive capacity reduces amplification fraction by 40%:</p>
+  <p class="font-mono text-sm bg-slate-100 p-2 rounded mt-2">NR-c = 7.5 x 1.25 = 9.375; but with 40% adaptive capacity reduction of the amplification:</p>
+  <p class="font-mono text-sm bg-slate-100 p-2 rounded mt-1">Adjusted factor = 1.0 + (0.25 x 0.60) = 1.15 - NR-c = 7.5 x 1.15 = <strong>8.63</strong></p>
+  <p class="text-sm font-bold text-amber-800 mt-2">Total Natural Risk = 8.63 + 0 (SLR not applicable) = <strong>8.63</strong></p>
+</ExampleBox>
+
+### Sea-Level Rise (SLR) Risk
+<p class="mb-3 text-sm">Applies only to coastal projects (wetland restoration, mangrove ALM, etc.). Uses a separate table based on the overall SLR impact level (High/Major/Minor/Low/Insignificant) rather than historical frequency.</p>
+<p class="mb-3 text-sm">SLR adaptation measures reduce the score:</p>
+<ResponsiveTable>
+<table class="mb-4 text-sm">
+  <tr><th>Adaptation Measure</th><th>Multiplier</th></tr>
+  <tr><td>Ecosystem-based adaptation (EbA): mangrove restoration, inland migration buffers</td><td>0.50</td></tr>
+  <tr><td>Land use planning, participation, livelihood support</td><td>0.50</td></tr>
+  <tr><td>Protection barriers: bioengineering, breakwaters</td><td>0.60</td></tr>
+  <tr><td>Two or more measures combined</td><td>0.25</td></tr>
+  <tr><td>None</td><td>1.00</td></tr>
+</table>
+</ResponsiveTable>
+
+### Calculating the Final Buffer Contribution
+
+<EquationBreakdown
+  title="Overall Non-Permanence Risk Rating"
+  result="Total Risk | Total Risk Rating | The sum of all three risk categories, rounded up to the nearest whole percent to become the buffer contribution rate | blue"
+  inputs="Internal | Internal Risk | Sum of Project Management, Financial Viability, Opportunity Cost, and Project Longevity scores | green ;; External | External Risk | Sum of Land Tenure, Stakeholder Engagement, and Political Risk scores | amber ;; Natural | Natural Risk | Sum of all natural risk sub-totals with climate amplification applied | violet"
+  operator="+"
+/>
+
+<p class="text-sm text-slate-600 mb-2">Buffer credits = Net VCUs earned x Buffer rate</p>
+<p class="text-sm text-slate-600 mb-4">Marketable VCUs = Net VCUs earned - Buffer credits</p>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Complete Buffer Calculation: Kenya Project</p>
+  <ResponsiveTable>
+<table class="text-sm mt-2">
+    <tr><th>Category</th><th>Score</th></tr>
+    <tr><td>Internal Risk (PM + FV + OC + PL)</td><td>17</td></tr>
+    <tr><td>External Risk (LT + SE + PC)</td><td>2</td></tr>
+    <tr><td>Natural Risk (NR-c x 1.15 + NR-nc)</td><td>8.63</td></tr>
+    <tr class="font-bold"><td>Total Risk Rating</td><td>27.63 - rounded UP to <strong>28%</strong></td></tr>
+  </table>
+</ResponsiveTable>
+  <p class="mt-3 text-sm">In the project's first verification period, 10,000 tCO₂e of net SOC removals are quantified:</p>
+  <ul class="list-disc ml-6 text-sm mt-1 space-y-1">
+    <li>Buffer credits deposited: 10,000 x 0.28 = <strong>2,800 VCUs</strong> (withheld; not for sale)</li>
+    <li>Marketable VCUs: 10,000 - 2,800 = <strong>7,200 VCUs</strong> (can be sold)</li>
+    <li>At $25/VCU: <strong>$180,000</strong> net revenue in first period</li>
+  </ul>
+  <p class="text-sm mt-2 text-amber-800">The 2,800 buffer VCUs sit in the AFOLU Pooled Buffer Account for the life of the project. Every 5 years, 15% of the accumulated buffer is released back to the project if no reversal events have occurred.</p>
+</ExampleBox>
+
+### The Buffer Release Mechanism
+<p class="mb-3 text-sm">Buffer credits are not locked away forever. The VCS Program releases them over time if no reversal events occur:</p>
+<ul class="list-disc ml-6 text-sm space-y-1 mb-4">
+  <li>Every 5 years of monitoring without a reversal event: <strong>15% of the project's cumulative buffer</strong> is released back to the project proponent as marketable VCUs</li>
+  <li>If a reversal event occurs (fire destroys carbon stocks, farmer abandons practice), Verra cancels buffer credits from the pool to compensate</li>
+  <li>The pooled account means that all AFOLU projects share the insurance, a small number of reversals are absorbed without any individual project bearing the full loss</li>
+</ul>
+
+<div class="bg-red-50 border border-red-200 rounded p-4 mb-4 text-sm">
+  <p class="font-semibold text-red-800">Floors, Ceilings & Category-Level Failure Thresholds (Section 2.5)</p>
+  <ResponsiveTable>
+<table class="text-sm mt-2">
+    <tr><th>Rule</th><th>Threshold</th><th>Effect</th></tr>
+    <tr><td>Minimum buffer floor</td><td>12% (regardless of calculated score)</td><td>Even a score of 5 - 12% buffer required</td></tr>
+    <tr><td>Overall risk ceiling</td><td>&gt;60%</td><td>Project FAILS risk analysis - ineligible for crediting</td></tr>
+    <tr><td>Internal risk ceiling</td><td>&gt;35</td><td>Project FAILS risk analysis</td></tr>
+    <tr><td>External risk ceiling</td><td>&gt;20</td><td>Project FAILS risk analysis</td></tr>
+    <tr><td>Natural risk ceiling</td><td>&gt;35</td><td>Project FAILS risk analysis</td></tr>
+  </table>
+</ResponsiveTable>
+  <p class="text-red-900 text-xs mt-2"><strong>Critical for project economics:</strong> The 12% minimum floor means no matter how low your calculated score, at least 12% of all net SOC VCUs are withheld. A project calculating 6% buffer still loses 12% of its credits, project financial models must account for this.</p>
+</div>
+
+<div class="bg-green-50 border border-green-200 rounded p-4 text-sm">
+  <p class="font-semibold text-green-800">Summary: The Complete Risk Calculation Flow</p>
+  <ol class="list-decimal ml-6 mt-2 space-y-2 text-green-900">
+    <li>Score each of 4 Internal sub-categories (PM + FV + OC + PL); check for individual FAIL conditions</li>
+    <li>Score each of 3 External sub-categories (LT + SE + PC); check for individual FAIL conditions</li>
+    <li>Score each natural risk factor using the LS x M formula (Table 10 + mitigation)</li>
+    <li>Apply the CID climate change amplification factor (1.0-1.4) to climate-sensitive risks; reduce by 40% if ≥5 adaptive capacity criteria are met</li>
+    <li>Add SLR score for coastal projects</li>
+    <li>Verify: Natural risk &le; 35, Internal risk &le; 35, External risk &le; 20, and no individual FAIL conditions</li>
+    <li>Sum all three categories - round UP to nearest whole percent = buffer rate; apply 12% minimum floor</li>
+    <li>Verify overall risk &le; 60 (otherwise project FAILS entirely)</li>
+    <li>Buffer credits = net SOC VCUs x buffer rate; marketable VCUs = net VCUs - buffer credits</li>
+  </ol>
+</div>
+
+<KeyTakeaways items="Natural risk scoring uses a Likelihood x Significance (LS) matrix combined with a mitigation multiplier (M) - having both prevention and containment history reduces risk to 25% ;; Version 4.2 added a climate change amplification factor (1.0 to 1.4) applied to fire, pest/disease, and extreme weather risks based on IPCC AR6 projections ;; Meeting 5 of 7 adaptive capacity criteria reduces the climate amplification fraction by 40%, rewarding projects with embedded climate adaptation governance ;; The minimum buffer floor is 12% regardless of calculated score - project financial models must account for this even in low-risk scenarios ;; Buffer credits are released back as marketable VCUs at 15% of accumulated buffer every 5 years if no reversal events occur ;; Natural risk above 35, internal risk above 35, external risk above 20, or total risk above 60 each independently disqualify the project from crediting" />

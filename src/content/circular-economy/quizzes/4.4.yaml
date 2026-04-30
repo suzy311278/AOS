@@ -1,0 +1,26 @@
+- question: "What happened to the global circularity rate between 2018 and 2023, according to the Circularity Gap Report?"
+  options:
+    - "It increased from 7.2% to 9.1%"
+    - "It remained stable at around 8%"
+    - "It declined from 9.1% to 7.2%"
+    - "It declined from 15% to 10%"
+  answer: 2
+  explanation: "The global circularity rate declined from 9.1% in 2018 to 7.2% in 2023, a 21% drop over five years, even as the volume of circular economy discussion and policy commitments tripled. This demonstrates that policy ambition has not translated into adequate market-changing instruments."
+
+- question: "What does the Circularity Gap Report's 'Shift countries' category refer to?"
+  options:
+    - "Countries shifting from manufacturing to service economies"
+    - "High-income countries that must reduce material extraction and consumption"
+    - "Middle-income countries shifting to sustainable industrial growth"
+    - "Countries shifting from coal to renewable energy"
+  answer: 1
+  explanation: "Shift countries are high-income nations whose primary circular economy challenge is reducing absolute material consumption. Their policies must focus on reducing material extraction through instruments like Right to Repair legislation, circular building standards, material extraction taxes, and restrictions on the most unsustainable consumption patterns."
+
+- question: "What fiscal reform does the Circularity Gap Report recommend to invert incentives away from virgin material extraction?"
+  options:
+    - "Subsidizing renewable energy for manufacturing"
+    - "Providing tax credits to companies that adopt circular business models"
+    - "Taxing material extraction rather than labour"
+    - "Introducing import tariffs on products made from virgin materials"
+  answer: 2
+  explanation: "The Circularity Gap Report recommends considering taxing material extraction rather than labour as a structural fiscal reform. This would raise the cost of virgin inputs relative to circular alternatives, shifting the economic logic of production and consumption. Examples already implemented include Sweden's virgin mineral aggregate tax, the UK's Plastic Packaging Tax, and the EU's non-recycled plastic contribution."

@@ -1,0 +1,89 @@
+{/* 1.3: Applicability Conditions */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/vm0042/1_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Applicability Conditions: Is Your Project Eligible?
+<HighlightBox>
+  <p class="font-semibold text-green-800">The eligibility gate</p>
+  <p class="text-green-900 mt-1">Before designing a VM0042 project, you must check all applicability conditions. There are <strong>4 positive conditions</strong> that must ALL be met, and <strong>4 exclusion conditions</strong>, if ANY apply, the project is ineligible.</p>
+</HighlightBox>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">🏥 Analogy: Hospital Admission Criteria</p>
+  <p class="mt-2 text-blue-900">Imagine a hospital that treats only certain conditions. There are positive admission criteria, the patient must have a diagnosable condition, must not be from an excluded geographic zone, and so on. If ANY exclusion criterion applies, the patient cannot be admitted regardless of how well they meet the positive criteria. VM0042 eligibility works the same way: all four positive conditions must be met, and zero exclusion conditions can apply.</p>
+</AnalogyBox>
+
+<div class="my-8">
+  <img src="/images/vm0042/applicability-conditions.drawio.png?v=5" alt="Decision Tree for VM0042 Applicability Conditions" class="w-full max-w-4xl mx-auto rounded shadow-sm" />
+  <p class="text-sm text-center text-gray-500 mt-3">The logic flow: 4 positive conditions (must meet ALL) and 4 exclusion conditions (must meet NONE).</p>
+</div>
+
+### ✅ Positive Conditions (ALL must be satisfied)
+<div class="space-y-4 mb-6">
+  <div class="bg-white border-l-4 border-green-500 rounded p-4 shadow-sm">
+    <p class="font-bold text-green-800">Condition 1: Improved ALM Practices</p>
+    <p class="text-gray-700 mt-1">The project introduces or implements one or more new changes to pre-existing ALM practices in at least one of the five categories (fertilizer, water, tillage, crop planting, grazing).</p>
+    <p class="text-gray-500 text-sm mt-1">Quantitative adjustments must exceed 5% of the pre-existing value to count.</p>
+  </div>
+  <div class="bg-white border-l-4 border-green-500 rounded p-4 shadow-sm">
+    <p class="font-bold text-green-800">Condition 2: Land Type, Cropland or Grassland</p>
+    <p class="text-gray-700 mt-1">Project activities occur on land that is cropland or grassland at the project start date. The land must remain cropland or grassland throughout.</p>
+    <p class="text-gray-500 text-sm mt-1">Exception: One-time conversion is allowed where land is demonstrated to be degraded in the baseline.</p>
+  </div>
+  <div class="bg-white border-l-4 border-green-500 rounded p-4 shadow-sm">
+    <p class="font-bold text-green-800">Condition 3: Approved Models (for Approach 1)</p>
+    <p class="text-gray-700 mt-1">If using Quantification Approach 1 (Measure & Model), the biogeochemical model must be publicly available, peer-reviewed, validated, and used consistently in both baseline and project scenarios.</p>
+  </div>
+  <div class="bg-white border-l-4 border-green-500 rounded p-4 shadow-sm">
+    <p class="font-bold text-green-800">Condition 4: SOC Must Be Monitored</p>
+    <p class="text-gray-700 mt-1">SOC must be included in the project boundary and monitored, it cannot be deemed de minimis (negligible) and excluded.</p>
+  </div>
+</div>
+
+### ❌ Exclusion Conditions (ANY disqualifies the project)
+<div class="space-y-4 mb-6">
+  <div class="bg-white border-l-4 border-red-400 rounded p-4 shadow-sm">
+    <p class="font-bold text-red-700">Exclusion 5: Recent Native Ecosystem Conversion</p>
+    <p class="text-gray-700 mt-1">The project area has been cleared of <strong>native ecosystems</strong> within the 10-year period prior to the project start date. This prevents rewarding deforestation followed by a claim for "improved" farming.</p>
+  </div>
+  <div class="bg-white border-l-4 border-red-400 rounded p-4 shadow-sm">
+    <p class="font-bold text-red-700">Exclusion 6: Sustained Productivity Reduction >5%</p>
+    <p class="text-gray-700 mt-1">The project activity is expected to cause a sustained reduction in agricultural productivity of greater than 5% (as demonstrated by peer-reviewed studies). Carbon projects cannot compromise food security.</p>
+  </div>
+  <div class="bg-white border-l-4 border-red-400 rounded p-4 shadow-sm">
+    <p class="font-bold text-red-700">Exclusion 7: Biochar Application as the Sole Practice</p>
+    <p class="text-gray-700 mt-1">Biochar is excluded as a standalone practice (it has its own methodology: VM0044). However, biochar <em>can</em> be applied alongside other VM0042 practices, with the biochar carbon subtracted from the SOC claim.</p>
+  </div>
+  <div class="bg-white border-l-4 border-red-400 rounded p-4 shadow-sm">
+    <p class="font-bold text-red-700">Exclusion 8: Activities on Wetlands</p>
+    <p class="text-gray-700 mt-1">The project does not occur on wetlands. Exception: crops subject to artificial flooding (like rice paddies) are acceptable if they don't impact nearby wetland hydrology.</p>
+  </div>
+</div>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📐 Worked Example: Eligibility Check, Iowa Corn-Soy Farm</p>
+  <p class="mt-2"><strong>Proposed project:</strong> 5,000 ha of corn-soybean farms in Iowa switching to no-till + cover crops.</p>
+  <ResponsiveTable>
+<table class="mt-3 text-sm">
+    <tr><th>Check</th><th>Status</th><th>Reason</th></tr>
+    <tr><td>Condition 1: Improved practices?</td><td class="text-green-700">✅ Pass</td><td>No-till (c) + cover crops (d)</td></tr>
+    <tr><td>Condition 2: Cropland?</td><td class="text-green-700">✅ Pass</td><td>Row crops for 70+ years</td></tr>
+    <tr><td>Excl 5: Recent deforestation?</td><td class="text-green-700">✅ Pass</td><td>No native ecosystem cleared in 10 years</td></tr>
+    <tr><td>Excl 6: Productivity decline >5%?</td><td class="text-green-700">✅ Pass</td><td>No-till + cover crops maintain or improve yields</td></tr>
+    <tr><td>Excl 7: Biochar only?</td><td class="text-green-700">✅ Pass</td><td>No biochar involved</td></tr>
+    <tr><td>Excl 8: Wetland?</td><td class="text-green-700">✅ Pass</td><td>Upland row-crop fields</td></tr>
+  </table>
+</ResponsiveTable>
+  <p class="mt-2 text-amber-700 font-medium">Result: ✅ Eligible under VM0042</p>
+</ExampleBox>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📐 Counter-Example: Ineligible Project, Indonesia</p>
+  <p class="mt-2"><strong>Proposed project:</strong> Establish rice paddies on recently drained peatland in Sumatra.</p>
+  <ul class="mt-2 space-y-1 text-sm">
+    <li>❌ <strong>Fails Exclusion 8:</strong> The project is on wetland (peatland drainage)</li>
+    <li>❌ <strong>Also problematic:</strong> Peatland is a native ecosystem; drainage of peat releases massive CO₂</li>
+  </ul>
+  <p class="mt-2 text-red-700 font-medium">Result: ❌ Ineligible, cannot use VM0042</p>
+</ExampleBox>
+<KeyTakeaways items="VM0042 has 4 positive conditions (all must be met) and 4 exclusion conditions (any one disqualifies the project) ;; SOC monitoring is always mandatory and can never be excluded as de minimis ;; The most common disqualifiers are recent native ecosystem conversion (10-year lookback) and activities on wetlands ;; Quantitative practice changes must exceed 5% of the pre-existing value to count as an improved ALM practice ;; Biochar as a sole practice is excluded (use VM0044 instead), but biochar alongside other VM0042 practices is allowed with the biochar carbon subtracted" />

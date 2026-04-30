@@ -1,0 +1,26 @@
+- question: "A manufacturer consumes 10,000 MWh on a coal-heavy grid (0.75 tCO2e/MWh) and holds wind energy certificates covering all 10,000 MWh. What must they report?"
+  options:
+    - "Only the market-based figure: 0 tCO2e"
+    - "Only the location-based figure: 7,500 tCO2e"
+    - "Both: location-based 7,500 tCO2e AND market-based 0 tCO2e"
+    - "The average of both: 3,750 tCO2e"
+  answer: 2
+  explanation: "The GHG Protocol's dual reporting rule requires both a location-based and a market-based Scope 2 total whenever contractual instruments (RECs, GOs, I-RECs) exist in any market where the company operates. The two totals are never added, averaged, or netted - each represents a different way of allocating emissions. Location-based shows physical grid reality; market-based shows procurement impact."
+
+- question: "A company installs rooftop solar panels but sells the I-RECs generated from that solar electricity to another buyer. For their own Scope 2 inventory, how should they treat the on-site solar consumption?"
+  options:
+    - "Report it as zero-emission electricity since it is generated on their own roof"
+    - "Treat it as grid-average electricity for their market-based calculation since they sold the environmental claim"
+    - "Exclude it from the inventory entirely since it is on-site generation"
+    - "Report it as Scope 1 with zero emissions"
+  answer: 1
+  explanation: "When you sell the RECs or I-RECs from your on-site solar, you transfer the environmental attributes to the buyer. You can no longer claim that electricity as zero-emission. For your market-based Scope 2 calculation, that solar consumption must be treated as if it came from the grid (using grid-average or residual mix factors). You cannot sell the certificate and keep the claim - it is one or the other."
+
+- question: "A company has a diesel generator on its premises that provides backup power during grid outages. How should emissions from this generator be classified?"
+  options:
+    - "Scope 2 - it generates electricity consumed on-site"
+    - "Scope 1 - the company owns and controls the combustion source"
+    - "Scope 3 - backup power is not part of regular operations"
+    - "Split between Scope 1 (fuel) and Scope 2 (electricity generated)"
+  answer: 1
+  explanation: "Scope 2 covers purchased electricity from sources outside your organizational boundary. A diesel generator that you own and control on your premises is within your boundary - its emissions are Scope 1 (direct combustion), not Scope 2. The fact that it generates electricity is irrelevant; the test is ownership and control of the source, not the form of energy produced."

@@ -1,0 +1,26 @@
+- question: "What proportion of human CO₂ emissions do land and ocean sinks currently absorb each year, according to IPCC AR6?"
+  options:
+    - "About 25%"
+    - "About 44%"
+    - "About 56%"
+    - "About 80%"
+  answer: 2
+  explanation: "Land and ocean together absorb approximately 56% of human CO₂ emissions per year, split roughly equally between terrestrial ecosystems (30%) and the oceans (26%). The remaining 44% accumulates in the atmosphere and is responsible for the rising CO₂ concentration we measure."
+
+- question: "What is the 'Suess effect' and what does it tell us about the source of rising atmospheric CO₂?"
+  options:
+    - "It describes the seasonal cycle of CO₂ driven by Northern Hemisphere vegetation"
+    - "It is the decline in radioactive ¹⁴C and the ¹³C/¹²C ratio in atmospheric CO₂, confirming fossil fuel carbon is diluting the atmospheric pool"
+    - "It is the increase in CO₂ absorption by oceans as temperatures rise"
+    - "It describes the rate at which weathering removes CO₂ from the atmosphere over geological time"
+  answer: 1
+  explanation: "The Suess effect is the dilution of atmospheric ¹⁴C and the shift in the ¹³C/¹²C ratio caused by fossil fuel emissions. Fossil fuels are ancient (all ¹⁴C has decayed) and derived from plants (which preferentially use ¹²C). As fossil carbon enters the atmosphere, it shifts the isotopic composition in measurable ways — directly confirming that rising CO₂ comes from fossil fuel combustion, not from natural sources."
+
+- question: "Which of the following best explains why CO₂ persists in the atmosphere for thousands of years while methane breaks down in about 12 years?"
+  options:
+    - "CO₂ molecules are heavier and settle slowly, while methane is light and escapes to space quickly"
+    - "Methane is actively destroyed by ultraviolet radiation in the stratosphere, while no equivalent chemical sink exists for CO₂ at similar rates"
+    - "Methane is chemically reactive and broken down by hydroxyl radicals in the troposphere within about 12 years, while CO₂ is chemically inert and only slowly removed by ocean uptake and geological weathering over centuries to millennia"
+    - "CO₂ dissolves completely in the ocean within 50 years, creating an apparent long atmospheric lifetime because it re-releases from the ocean later"
+  answer: 2
+  explanation: "Methane reacts with hydroxyl (OH) radicals in the troposphere and has an atmospheric lifetime of about 12 years. CO₂ is chemically stable and lacks an equivalent rapid chemical removal process. Ocean uptake absorbs some CO₂ on decadal timescales, but roughly 20% of any CO₂ pulse can persist for tens of thousands of years, until slow geological processes such as silicate weathering eventually remove it."

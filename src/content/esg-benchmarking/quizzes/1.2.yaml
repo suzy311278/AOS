@@ -1,0 +1,26 @@
+- question: "What are the two components used to calculate each Environmental and Social Key Issue Score in the MSCI framework?"
+  options:
+    - "A Disclosure Score and a Controversy Score"
+    - "A Pillar Score and a Theme Score"
+    - "A Key Issue Exposure Score and a Key Issue Management Score"
+    - "A Business Segment Score and a Geographic Segment Score"
+  answer: 2
+  explanation: "Each Environmental and Social Key Issue Score is calculated using two components: the Key Issue Exposure Score, which reflects how exposed the company is to the ESG risk, and the Key Issue Management Score, which reflects how well the company is managing that exposure."
+
+- question: "What does the Key Issue Exposure Score reflect in the MSCI methodology?"
+  options:
+    - "The quality of the company's ESG policies and management systems"
+    - "The number of controversies associated with the key issue"
+    - "How exposed the company is to the ESG risk, based on its business segments, geographic segments, and company-level risk factors"
+    - "The company's score relative to the global universe of all MSCI-rated companies"
+  answer: 2
+  explanation: "The Exposure Score reflects the company's exposure to the ESG risk associated with the key issue. It draws on three areas: Business Risk Exposure (business segments by revenue, assets, or operations), Geographic Risk Exposure, and Company-Level Risk Exposure factors such as employee count or reliance on outsourced production."
+
+- question: "How do controversies affect a company's Management Score in the MSCI framework?"
+  options:
+    - "Controversies have no effect on Management Scores; they are tracked separately as a supplemental indicator"
+    - "Controversies can reduce the Management Score for the relevant key issue, because they serve as evidence that management systems may not be effective"
+    - "A single controversy automatically reduces a company's overall ESG Rating by one letter grade"
+    - "Controversies only affect the Governance Pillar Score, not Environmental or Social Key Issue scores"
+  answer: 1
+  explanation: "MSCI includes controversies as one of the four indicators feeding into Management Scores, alongside strategy and programs, initiatives, and performance metrics. Controversies function as evidence against the effectiveness of management systems, so they can reduce the Management Score for the relevant key issue."

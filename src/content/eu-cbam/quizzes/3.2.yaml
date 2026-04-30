@@ -1,0 +1,26 @@
+- question: "From January 2026, what is the single mass-based threshold below which importers are exempt from the full authorised declarant obligations?"
+  options:
+    - "10 tonnes per year"
+    - "25 tonnes per year"
+    - "50 tonnes per year"
+    - "100 tonnes per year"
+  answer: 2
+  explanation: "The 2025 simplification regulation introduced a single mass-based threshold of 50 tonnes across all CBAM sectors. Importers whose total annual imports of CBAM goods remain below this threshold are not required to become authorised declarants or surrender certificates."
+
+- question: "In the CBAM definitive period, when must authorised declarants submit their annual CBAM declaration and surrender the corresponding certificates?"
+  options:
+    - "By 31 January of the following year"
+    - "By 31 March of the following year"
+    - "By 31 May of the following year"
+    - "By 31 December of the same import year"
+  answer: 2
+  explanation: "The annual CBAM declaration and corresponding certificate surrender are both due by 31 May of the year following the import year. For example, for goods imported throughout 2026, the declaration and surrender are due by 31 May 2027."
+
+- question: "How is the CBAM certificate price determined in 2026, and how does this change from 2027 onwards?"
+  options:
+    - "It is fixed annually by the Commission at the start of each year in both periods"
+    - "It is a quarterly average of EU ETS auction prices in 2026, and a weekly average from 2027 onwards"
+    - "It is set at a fixed rate of €55 per tonne CO₂e throughout the definitive period"
+    - "It is a monthly average of EU ETS prices in both 2026 and 2027"
+  answer: 1
+  explanation: "In 2026, CBAM certificate prices are calculated as the quarterly average EU ETS auction price. From 2027 onwards, pricing becomes a weekly average, making certificates more responsive to real-time EU ETS market conditions. Certificates are priced in euros and are non-transferable between declarants."

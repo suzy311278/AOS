@@ -1,0 +1,35 @@
+- question: "Which business goal for Scope 3 accounting involves understanding where emissions concentrate in the value chain to inform investment decisions?"
+  options:
+    - "Responding to stakeholder requests"
+    - "Identifying hotspots and reduction opportunities"
+    - "Participating in GHG markets"
+    - "Setting a base year"
+  answer: 1
+  explanation: "Identifying hotspots and reduction opportunities is a primary goal: Scope 3 accounting reveals which value chain activities are most emission-intensive, directing management effort and investment to where they will have the greatest impact."
+
+- question: "The Science Based Targets initiative (SBTi) requires companies to set Scope 3 targets when Scope 3 emissions represent more than what share of total GHG emissions?"
+  options:
+    - "20%"
+    - "30%"
+    - "40%"
+    - "50%"
+  answer: 2
+  explanation: "SBTi requires Scope 3 targets when Scope 3 represents more than 40% of a company's total Scope 1+2+3 emissions — a threshold met by the vast majority of companies."
+
+- question: "For which goal is spend-based or rough estimation data sufficient?"
+  options:
+    - "Regulatory compliance reporting"
+    - "Hotspot screening and identification"
+    - "Science-based target setting"
+    - "Third-party assurance"
+  answer: 1
+  explanation: "Spend-based or rough estimates are acceptable for hotspot screening — the goal is to identify the most significant categories, not to calculate precise totals. Higher data quality is needed for regulatory reporting, target-setting, and assurance."
+
+- question: "A supplier who sells to a company with a Scope 3 inventory should expect to find its Scope 1 and 2 emissions counted in which of the company's categories?"
+  options:
+    - "Category 2 — Capital Goods"
+    - "Category 4 — Upstream Transportation"
+    - "Category 1 — Purchased Goods and Services"
+    - "Category 11 — Use of Sold Products"
+  answer: 2
+  explanation: "The buyer's Category 1 (Purchased Goods and Services) captures the cradle-to-gate emissions of goods purchased from suppliers — which includes the supplier's own Scope 1 and 2 emissions as well as the upstream supply chain of inputs to those goods."

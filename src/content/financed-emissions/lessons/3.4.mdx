@@ -1,0 +1,147 @@
+{/* source: PCAF Standard Part A (3rd Edition), Chapters 5.9-5.10 */}
+
+The final two asset classes in the PCAF Standard cover **sovereign debt** and **sub-sovereign debt**. These represent the financial flows that fund governments and public institutions rather than private companies. Getting the attribution methodology right for these asset classes is distinct from corporate lending because national governments and their sub-units have fundamentally different financing structures and emissions profiles from private corporations.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/financed-emissions/3_4.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Part 1: Sovereign Debt (Chapter 5.9)
+
+### Asset Class Definition
+
+Sovereign debt covers loans and fixed-income securities (bonds, notes, bills) issued by or lent to **national governments and central banks**. This includes:
+- Government bonds (gilts, treasuries, bunds, and their equivalents)
+- Direct loans to sovereign borrowers (often in development finance contexts)
+- Bonds issued by government agencies at the national level
+
+Supranational bonds (issued by entities like the IMF, World Bank, or European Investment Bank) and sub-national bonds (issued by regions, municipalities) are excluded from sovereign debt and covered separately.
+
+### Attribution of Emissions
+
+The key challenge with sovereign debt is that governments do not have equity or debt in the same sense as corporations. PCAF therefore uses **PPP-adjusted GDP** (Purchasing Power Parity-adjusted Gross Domestic Product) as the denominator, reflecting the overall economic output of the country that is funded by the government's spending:
+
+<EquationBreakdown
+  title="Sovereign Debt - Attribution Factor"
+  result="AF | Attribution Factor | The financial institution's proportional share of the country's emissions | blue"
+  inputs="Outstanding Amount | Outstanding Amount | The FI's holding of sovereign bonds or direct loans to the government | green ;; GDP<sub>PPP</sub> | PPP-adjusted GDP | Purchasing Power Parity-adjusted Gross Domestic Product of the country, correcting for price-level differences | amber"
+  operator="÷"
+/>
+
+<HighlightBox>
+PPP-adjusted GDP is used rather than nominal GDP to correct for differences in price levels across countries. Countries with lower price levels would appear to have smaller economies when measured in unadjusted exchange-rate terms, leading to higher attribution factors for financial institutions investing in their sovereign bonds. PPP adjustment corrects this distortion.
+</HighlightBox>
+
+**The financed emissions formula for sovereign debt:**
+
+<EquationBreakdown
+  title="Sovereign Debt Financed Emissions - Aggregation"
+  result="FE | Financed Emissions | Total financed emissions from sovereign debt holdings, summed across all countries, in tCO₂e | blue"
+  inputs="AF<sub>c</sub> | Attribution Factor | Outstanding Amount / PPP-adjusted GDP for each country c | green ;; E<sub>c</sub> | Country Emissions | Total national GHG emissions of country c reported to UNFCCC, in tCO₂e | amber"
+/>
+
+Where c = each country in the sovereign debt portfolio.
+
+<ExampleBox>
+**Sovereign debt calculation**
+
+A pension fund holds $500 million of Indonesian government bonds. Indonesia's PPP-adjusted GDP is $4,000 billion. Indonesia's total national GHG emissions (reported to UNFCCC) are 2,000 MtCO2e per year.
+
+Attribution factor = $500M / $4,000,000M = **0.0125%**
+
+Financed emissions = 0.0125% × 2,000,000,000 tCO2e = **250,000 tCO2e/year**
+</ExampleBox>
+
+### Production vs Consumption-Based Emissions
+
+National GHG inventories reported under the UNFCCC use **production-based accounting**: they capture emissions from activities taking place within the country's territory, regardless of whether the goods or services are consumed domestically or exported.
+
+PCAF requires the use of **production-based** emissions as the primary approach. However, consumption-based emissions data (which attributes emissions to the country that consumes goods, even if those goods were produced abroad) may optionally be reported as supplementary information. Financial institutions that report both approaches should clearly label each.
+
+### Data Quality for Sovereign Debt
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Score</th>
+      <th>Option</th>
+      <th>Emissions Data Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1</strong></td>
+      <td>1a</td>
+      <td>Verified national GHG emissions reported by the country to UNFCCC</td>
+    </tr>
+    <tr>
+      <td><strong>2</strong></td>
+      <td>1b</td>
+      <td>Unverified national GHG emissions reported by the country</td>
+    </tr>
+    <tr>
+      <td><strong>3</strong></td>
+      <td>2</td>
+      <td>Emissions estimated from primary physical energy data (national energy balance)</td>
+    </tr>
+    <tr>
+      <td><strong>4</strong></td>
+      <td>3a</td>
+      <td>Sector revenue-based estimates using sector-level GHG intensities</td>
+    </tr>
+    <tr>
+      <td><strong>5</strong></td>
+      <td>3b</td>
+      <td>PPP-adjusted GDP of a proxy country with similar development level used as estimate</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+Most developed-country sovereign emissions data are publicly available from the UNFCCC, the IEA, and the Global Carbon Project, making Score 1 or 2 easily achievable for developed-market sovereign portfolios.
+
+## Part 2: Sub-sovereign Debt (Chapter 5.10)
+
+### Asset Class Definition
+
+Sub-sovereign debt covers loans and securities issued by entities below the national government level:
+- **Regional or state governments** (provinces, länder, cantons, states)
+- **Municipal governments** (cities, counties, local authorities)
+- **Public-sector entities** (public utilities, public hospitals, government-owned enterprises)
+
+### Attribution of Emissions
+
+The attribution methodology for sub-sovereign debt depends on the entity type. PCAF prescribes:
+
+- **For regional and local governments**: Use the regional or local GDP as the denominator (analogous to PPP-adjusted GDP for sovereign debt)
+- **For public utilities** (electricity grid operators, water companies, state railways): Apply the methodology from the relevant corporate asset class (Business Loans, Chapter 5.2, or Project Finance, Chapter 5.3) since these entities have identifiable operational emissions
+
+**For municipal issuers where regional GDP data is unavailable**, the financial institution may scale down national GDP proportionally by population or another suitable proxy.
+
+### Emission Scopes for Sub-sovereign Entities
+
+- **For regional and local governments**: Report all national and regional emissions attributable to activities under the government's jurisdiction
+- **For public utilities**: Report Scope 1 and Scope 2 emissions from the entity's own operations, plus Scope 3 if material
+
+<DeepDive title="Development Finance and Sub-Sovereign Lending">
+Development finance institutions (DFIs) and multilateral development banks (MDBs) often structure their lending through sub-sovereign channels. A DFI might lend to a state government in an emerging market to finance a public transport project, where the emissions relate to construction and operations of buses or rail infrastructure.
+
+For these cases, PCAF recommends:
+1. Applying Project Finance methodology (Chapter 5.3) if the lending is for a specific, identifiable infrastructure project
+2. Applying sub-sovereign (Chapter 5.10) methodology if the lending is for general budget support or a broad programme without a defined project structure
+
+The choice of methodology materially affects the calculated financed emissions and should be disclosed transparently.
+</DeepDive>
+
+### Data Availability Challenges
+
+Sub-sovereign emissions data is often significantly less available than national data. Many regions and municipalities do not publish formal GHG inventories. For these cases, PCAF allows the financial institution to use:
+
+- National-level sectoral emission factors scaled to the local economy
+- Third-party estimates of regional GHG emissions where available
+- Proxy approaches using energy consumption data from national statistics disaggregated to the regional level
+
+<HighlightBox>
+Both sovereign and sub-sovereign debt highlight an often-overlooked truth about portfolio decarbonisation: financial institutions that hold significant government bond portfolios are exposed to the emissions trajectories of entire nations. Sovereign bond portfolios of banks in the European Union, for instance, embed exposure to the EU's collective decarbonisation pathway, as well as to those of individual member states with very different energy mixes and climate policies.
+</HighlightBox>
+
+<KeyTakeaways items="Sovereign debt uses PPP-adjusted GDP as the denominator to correct for price-level differences across countries ;; Production-based national emissions (reported to UNFCCC) are the primary approach - consumption-based data may be reported as supplementary information ;; Sub-sovereign debt attribution varies by entity type: regional GDP for governments, corporate-style methodologies for public utilities ;; Most developed-country sovereign emissions data is publicly available from UNFCCC, IEA, and Global Carbon Project, making Score 1-2 easily achievable ;; Sub-sovereign emissions data is often significantly less available than national data - proxy approaches using national statistics scaled to the regional level may be necessary" />

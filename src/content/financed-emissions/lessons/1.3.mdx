@@ -1,0 +1,146 @@
+{/* source: PCAF Standard Part A (3rd Edition), Chapter 6; Annex 10.1 */}
+
+Data quality is central to the credibility of financed emissions reporting. PCAF addresses this by requiring every financial institution to score the quality of the data underlying its financed emissions calculations. The scoring system creates both transparency and accountability, signalling to stakeholders how reliable the reported figures are and motivating institutions to improve over time.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/financed-emissions/1_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## The Data Quality Score: 1 to 5
+
+PCAF uses a simple five-point scale where **1 represents the highest data quality** and **5 represents the lowest**:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Score</th>
+      <th>Data Quality</th>
+      <th>Emissions Data Used</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1</strong></td>
+      <td>Highest</td>
+      <td>Verified emissions reported by the borrower/investee in line with the GHG Protocol</td>
+    </tr>
+    <tr>
+      <td><strong>2</strong></td>
+      <td>High</td>
+      <td>Unverified emissions calculated by the borrower/investee, or emissions estimated from primary physical activity data</td>
+    </tr>
+    <tr>
+      <td><strong>3</strong></td>
+      <td>Moderate</td>
+      <td>Emissions estimated from economic activity data (revenue-based approach) with company-specific financial data</td>
+    </tr>
+    <tr>
+      <td><strong>4</strong></td>
+      <td>Low</td>
+      <td>Emissions estimated from sector-level data with limited company-specific information</td>
+    </tr>
+    <tr>
+      <td><strong>5</strong></td>
+      <td>Lowest</td>
+      <td>Emissions estimated from sector averages with no company-specific data beyond the outstanding amount</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+## The Three Options for Estimating Emissions
+
+Behind the scoring system, PCAF distinguishes three fundamental approaches to calculating the emissions of a borrower or investee. These are known as **Option 1, Option 2, and Option 3**, and they correspond broadly to the top, middle, and bottom of the data quality scale:
+
+### Option 1: Reported Emissions (Scores 1 and 2)
+
+This option uses emissions figures that the borrower or investee has actually reported, either directly (through sustainability reports) or indirectly (through data providers like CDP).
+
+- **Score 1a**: Verified emissions calculated in line with the GHG Protocol and verified by a third-party auditor
+- **Score 1b**: Unverified emissions calculated by the company in line with the GHG Protocol, without third-party verification
+
+Option 1 is always preferred because it reflects the actual measured emissions of the specific company.
+
+### Option 2: Physical Activity-Based Emissions (Score 2)
+
+When reported emissions are unavailable, the financial institution can estimate emissions based on **primary physical activity data** collected from the borrower or investee. Examples include:
+
+- Megawatt-hours of natural gas consumed (for energy-related emissions)
+- Tonnes of steel produced (for production-related emissions)
+- Litres of fuel consumed (for transport-related emissions)
+
+These physical activity data points are then multiplied by appropriate **emission factors** (expressed in tCO2e per unit of activity) to estimate total emissions.
+
+- **Score 2a**: Energy consumption data combined with energy-source-specific emission factors
+- **Score 2b**: Production data combined with production-specific emission factors
+
+<HighlightBox>
+Option 2 can only estimate Scope 1 and Scope 2 emissions of the borrower/investee. It cannot estimate Scope 3 emissions, because Scope 3 requires knowledge of the company's entire value chain, which is not captured by physical activity data alone. Other options must be used for the Scope 3 component.
+</HighlightBox>
+
+### Option 3: Economic Activity-Based Emissions (Scores 3, 4, and 5)
+
+When neither reported emissions nor physical activity data are available, the financial institution falls back on **economic activity data** combined with sector-average emission factors. This approach uses EEIO (Environmentally Extended Input-Output) tables and other statistical sources.
+
+- **Score 3a**: Company-specific revenue multiplied by sector emission factors per unit of revenue (tCO2e per €/$ of revenue)
+- **Score 3b**: Outstanding amount multiplied by sector emission factors per unit of asset (tCO2e per €/$ of assets)
+- **Score 3c**: Outstanding amount multiplied by sector asset turnover ratio and sector emission factors per unit of revenue
+
+<ExampleBox>
+**Comparing the three options in practice**
+
+A bank lends to a cement manufacturer. Here is how the same loan would be scored under different options:
+
+**Option 1 (Score 1a)**: The cement company publishes a verified sustainability report stating annual emissions of 500,000 tCO2e. The bank uses this figure directly. Score: 1.
+
+**Option 2 (Score 2b)**: The company does not report emissions, but the bank knows the company produces 200,000 tonnes of cement per year. Using an emission factor of 0.6 tCO2e per tonne of cement, the bank estimates emissions at 120,000 tCO2e (covering only Scope 1 and 2). Score: 2.
+
+**Option 3 (Score 3a)**: The company shares its annual revenue ($180 million) but no emissions data. The bank uses a sector average emission factor of 3,000 tCO2e per $M of revenue, estimating emissions at 540,000 tCO2e. Score: 3.
+
+**Option 3 (Score 5)**: The bank only knows its outstanding amount and the sector the company operates in. It multiplies the outstanding amount by a broad sector asset-based emission factor. Score: 5.
+</ExampleBox>
+
+## Asset-Class-Specific Scoring
+
+While the general structure (Options 1, 2, 3) applies across asset classes, some asset classes have modified scoring tables that reflect their unique data characteristics:
+
+- **Commercial real estate and mortgages** score based on whether actual building energy consumption or estimated consumption (from energy labels, floor area, or statistical data) is used
+- **Motor vehicle loans** score based on whether actual fuel consumption, known vehicle make/model efficiency, or statistical averages are used
+- **Sovereign debt** scores based on whether verified or unverified country-level emissions (reported to UNFCCC) or proxy data are used
+
+The detailed scoring tables for each asset class are provided in **Annex 10.1** of the PCAF Standard (Tables 10.1-1 through 10.1-8).
+
+## Weighted Average Data Quality Score
+
+Financial institutions shall calculate and report a **weighted average data quality score** across their entire financed emissions inventory. The weighting is based on the **outstanding amount** associated with each score level.
+
+<AnalogyBox>
+Think of it like calculating your GPA. Each course (each loan or investment) gets a grade (data quality score from 1 to 5). The GPA is calculated by weighting each grade by the number of credits (the outstanding amount). A high-value loan scored at data quality 5 will drag the weighted average up (toward lower quality), just as a high-credit course with a low grade drags down your GPA.
+</AnalogyBox>
+
+The formula is:
+
+<EquationBreakdown
+  title="Weighted Average Data Quality Score"
+  result="WADQ | Weighted Average DQ Score | Portfolio-level data quality metric, weighted by exposure size (1 = highest quality, 5 = lowest) | blue"
+  inputs="OA<sub>i</sub> × DQ<sub>i</sub> | Weighted Score | Each loan or investment's outstanding amount multiplied by its data quality score, summed across all positions | green ;; Σ OA<sub>i</sub> | Total Outstanding | Sum of all outstanding amounts across the portfolio | amber"
+  operator="÷"
+/>
+
+A financial institution with a weighted average score of 2.3 has significantly better data quality than one with a score of 4.1, and stakeholders can use this metric to assess the reliability of the reported emissions figures.
+
+## The Improvement Imperative
+
+PCAF does not expect every financial institution to start with Score 1 across its entire portfolio. The standard explicitly acknowledges that data limitations exist, particularly for:
+
+- **Small and medium enterprises (SMEs)** that do not publish emissions data
+- **Emerging markets** where corporate disclosure is less mature
+- **Private companies** with limited public reporting obligations
+- **Scope 3 emissions** of borrowers/investees, which are inherently difficult to measure
+
+The expectation is that financial institutions **start with the best available data** and progressively improve their data quality score over time. This is why PCAF requires the weighted average score to be disclosed publicly: it creates accountability and allows stakeholders to track year-over-year improvement.
+
+<HighlightBox>
+A weighted average data quality score of 4 or 5 is acceptable for a first-year reporter. However, PCAF expects institutions to demonstrate improvement in subsequent years. Financial institutions that consistently remain at Score 5 without showing progress may face scrutiny from stakeholders, regulators, and the PCAF Secretariat itself as part of its signatory disclosure review process.
+</HighlightBox>
+
+<KeyTakeaways items="PCAF scores data quality from 1 (verified company-reported emissions) to 5 (sector-average estimates with no company-specific data) ;; Option 1 uses reported emissions (Scores 1-2), Option 2 uses physical activity data (Score 2), and Option 3 uses economic proxies (Scores 3-5) ;; Option 2 can only estimate Scope 1 and 2 of borrowers - other options are needed for their Scope 3 component ;; The weighted average data quality score, weighted by outstanding amount, must be disclosed publicly to create accountability ;; Score 4 or 5 is acceptable for first-year reporters, but PCAF expects demonstrated improvement in subsequent years" />

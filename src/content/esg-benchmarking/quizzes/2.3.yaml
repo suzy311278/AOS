@@ -1,0 +1,26 @@
+- question: "What does the Manageable Risk Factor (MRF) represent in the Sustainalytics framework?"
+  options:
+    - "The percentage of a company's overall ESG risk score that is attributable to governance issues"
+    - "The share of exposure to a material ESG issue that is deemed to be at least theoretically manageable by the company"
+    - "The proportion of a company's unmanaged risk that has been addressed through management initiatives"
+    - "A correction factor applied to ensure the average beta within a subindustry equals one"
+  answer: 1
+  explanation: "The MRF is predefined at the subindustry level and represents the share of exposure to a material ESG issue that is deemed to be (at least theoretically) manageable by the company. MRFs range from 30% to 100%. The portion of exposure that exceeds the MRF is structurally unmanageable regardless of the company's actions."
+
+- question: "Using the Sustainalytics waterfall calculation, if a company's exposure to an MEI is 8.1 and its managed risk is 2.3, what is its unmanaged risk score for that issue?"
+  options:
+    - "10.4"
+    - "2.3"
+    - "5.8"
+    - "7.3"
+  answer: 2
+  explanation: "Unmanaged Risk = Company Exposure minus Managed Risk = 8.1 minus 2.3 = 5.8. This is the core formula from Exhibit 7 of the Sustainalytics methodology."
+
+- question: "Which score range corresponds to the 'High' risk category in the Sustainalytics ESG Risk Ratings?"
+  options:
+    - "20 to less than 30"
+    - "25 to less than 35"
+    - "30 to less than 40"
+    - "35 to less than 50"
+  answer: 2
+  explanation: "The five risk categories are: Negligible (0 to less than 10), Low (10 to less than 20), Medium (20 to less than 30), High (30 to less than 40), and Severe (40 and above). High risk corresponds to scores of 30 to less than 40."

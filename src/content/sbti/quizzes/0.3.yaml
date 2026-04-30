@@ -1,0 +1,44 @@
+- question: "After submitting a commitment letter to the SBTi, how long does a large company have to develop and submit validated science-based targets?"
+  options:
+    - "12 months"
+    - "18 months"
+    - "24 months"
+    - "36 months"
+  answer: 2
+  explanation: "From the date of the commitment letter, companies have 24 months to develop and submit their targets for validation. If a company fails to submit within this window, it is removed from the SBTi's public list of committed companies. Companies may begin developing their GHG inventory and modelling targets in parallel with the commitment process."
+
+- question: "Under the SBTi Corporate Net-Zero Standard, what is the earliest allowed base year for a science-based target?"
+  options:
+    - "2010"
+    - "2015"
+    - "2018"
+    - "2020"
+  answer: 1
+  explanation: "The base year must be no earlier than 2015. Additionally, scope 1, 2, and 3 data for the base year should be accurate and verifiable, the base year should represent a typical year for the company's GHG profile, and the SBTi does not accept multi-year average base years (unless specified in sector guidance). For submissions in 2025, the most recent year inventory provided must be no earlier than 2023."
+
+- question: "A company's scope 3 emissions total 300,000 tCO₂e and represent 55% of total scope 1+2+3 emissions. What is the minimum scope 3 coverage required for the company's near-term science-based targets?"
+  options:
+    - "No scope 3 target is required because scope 3 is less than 60%"
+    - "At least 50% of total scope 3 emissions (150,000 tCO₂e)"
+    - "At least 67% of total scope 3 emissions (201,000 tCO₂e)"
+    - "At least 90% of total scope 3 emissions (270,000 tCO₂e)"
+  answer: 2
+  explanation: "When scope 3 emissions are 40% or more of total scope 1, 2, and 3 emissions, near-term science-based targets must cover at least 67% of total scope 3 emissions. At 55% of total, this company exceeds the 40% threshold, so it must cover at least 67% of its 300,000 tCO₂e scope 3 total -- that is, at least 201,000 tCO₂e. The 90% boundary applies to long-term targets, not near-term."
+
+- question: "Which SBTi criterion requires companies to publicly announce their approved science-based targets within six months of validation?"
+  options:
+    - "C25"
+    - "C26"
+    - "C27"
+    - "C28"
+  answer: 3
+  explanation: "C28 requires companies to publicly announce their approved targets within six months of receiving validation from the SBTi, using the exact SBTi-approved target wording. C25 requires annual public reporting of GHG emissions and progress against targets. C26 (near-term) and C32 (net-zero) require targets validated five or more years ago to be reviewed against the latest criteria. C27 and C33 govern target recalculation triggers."
+
+- question: "Which of the following business events would trigger a mandatory recalculation of a company's validated science-based targets?"
+  options:
+    - "The company hires a new Chief Sustainability Officer"
+    - "The company switches from a calendar year to a fiscal year reporting period without changing emissions data"
+    - "The company acquires a subsidiary, and the acquisition causes base year emissions to change by more than 5%"
+    - "The SBTi publishes a new version of its sector guidance that does not apply to the company's sector"
+  answer: 2
+  explanation: "Under Near-Term Criterion C27 and Net-Zero Criterion C33, a significant change in company structure or activities that affects the target boundary or ambition -- such as acquisitions, divestitures, or mergers -- can trigger a target recalculation. The SBTi applies a significance threshold of 5%: a change of 5% or more in base year emissions covered within the target boundary triggers a target recalculation. Personnel changes and non-applicable guidance updates do not trigger recalculation."

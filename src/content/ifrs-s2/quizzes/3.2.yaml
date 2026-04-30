@@ -1,0 +1,26 @@
+- question: "Under Para 19, when may an entity omit quantitative anticipated financial effects?"
+  options:
+    - "When the effects are less than 1% of revenue"
+    - "When effects are not separately identifiable, OR when measurement uncertainty is too high to be useful"
+    - "When the entity has fewer than 500 employees"
+    - "When quantitative information would reveal commercially sensitive strategy"
+  answer: 1
+  explanation: "Paragraph 19 provides two exemptions from quantitative disclosure: (a) the financial effects are not separately identifiable from other factors, or (b) the measurement uncertainty is so high that quantitative information would not be useful to users."
+
+- question: "An entity uses the Para 20 exemption (lacks skills/capabilities) to provide qualitative rather than quantitative anticipated financial effects. What three things must it still disclose under Para 21?"
+  options:
+    - "Its carbon budget, carbon price assumption, and Scope 3 total"
+    - "Why quantitative info is not provided, which financial statement line items are affected, and combined quantitative impact where possible"
+    - "The names of managers building capabilities, timeline for improvement, and governance oversight"
+    - "Its insurance coverage, physical risk assessment, and scenario analysis results"
+  answer: 1
+  explanation: "Para 21 requires even when exemptions are used: (a) explanation of why quantitative information is not provided; (b) qualitative identification of affected financial statement line items, totals, or subtotals; and (c) combined quantitative financial effects where not impracticable."
+
+- question: "The Para 20 capability gap exemption is best described as:"
+  options:
+    - "A permanent exemption for entities in developing economies"
+    - "A transitional accommodation with an expectation that capabilities will improve over time"
+    - "An exemption available for all entities that complete a self-assessment"
+    - "A relief from all Metrics and Targets disclosures"
+  answer: 1
+  explanation: "The Para 20 capability gap exemption is explicitly transitional — not a permanent waiver. The ISSB expects entities to build their climate financial modelling capabilities over time. Repeated use of the exemption without demonstrated progress would undermine the credibility of the disclosure."

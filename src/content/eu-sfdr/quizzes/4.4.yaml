@@ -1,0 +1,44 @@
+- question: "How must the sustainability content be integrated into periodic reports (annual reports) under SFDR?"
+  options:
+    - "As a separate standalone SFDR periodic report filed with the NCA"
+    - "Within the existing annual report or equivalent periodic document — not as a separate filing"
+    - "Published only on the website, not included in the annual report itself"
+    - "As a quarterly supplement to the annual report"
+  answer: 1
+  explanation: "SFDR periodic reporting content must be integrated within the existing annual report (or equivalent periodic document) — not filed as a separate standalone SFDR report. The sustainability disclosures are embedded within the same document that investors receive as their regular annual statement."
+
+- question: "What does the 'top 15 investments' section of an Article 8 or Article 9 periodic report require?"
+  options:
+    - "The 15 largest sector allocations and their ESG ratings"
+    - "The 15 investments that accounted for the greatest portfolio proportion over the course of the reporting period (by average weighting), and their contribution to E/S characteristics or the sustainable investment objective"
+    - "The 15 investments divested during the period due to ESG concerns"
+    - "The 15 investments with the highest ESG ratings in the portfolio at year-end"
+  answer: 1
+  explanation: "The 'top 15 investments' section requires disclosure of the 15 investments that accounted for the greatest proportion of the portfolio over the course of the reporting period — calculated based on average weighting across the period, not just year-end positions. For Article 9 products, these top 15 must also indicate their contribution to the sustainable investment objective."
+
+- question: "In an Article 8 periodic report, how should shortfalls against pre-contractual commitments be handled?"
+  options:
+    - "Shortfalls should be omitted from the periodic report to avoid investor concern"
+    - "Shortfalls should be disclosed candidly with an explanation of the causes and, where relevant, the actions being taken to address them"
+    - "Shortfalls should be reported to the NCA before the periodic report is published"
+    - "The product should be reclassified to Article 6 immediately upon any shortfall"
+  answer: 1
+  explanation: "Periodic reports must be candid. If a sustainability indicator fell short of the pre-contractual commitment, the periodic report must disclose this shortfall, explain why it occurred, and describe what actions are being taken. Omitting or understating shortfalls against pre-contractual commitments is a form of greenwashing and a regulatory compliance failure."
+
+- question: "From which year of reporting is the historical year-on-year comparison required in Article 8 and Article 9 periodic reports?"
+  options:
+    - "From the first year of reporting"
+    - "From the second year of reporting, building to a five-year historical comparison over time"
+    - "Only after five years of reporting, when the full historical dataset is available"
+    - "Only for Article 9 products from the third year of reporting"
+  answer: 1
+  explanation: "The historical comparison requirement applies from the second periodic report. From year two, FMPs must show year-on-year sustainability indicator results, building toward a five-year historical comparison over time (where data is available). This enables investors to track sustainability trends and hold managers accountable for improvement commitments."
+
+- question: "Which RTS Annex applies to the periodic report for an Article 9 fund that does NOT use a designated reference benchmark?"
+  options:
+    - "Annex VI"
+    - "Annex VII"
+    - "Annex VIII"
+    - "Annex IX"
+  answer: 3
+  explanation: "Annex IX applies to Article 9 products without a designated reference benchmark. Annex VIII applies to Article 9 products with a reference benchmark. Annexes VI and VII apply to Article 8 products (with and without benchmark, respectively). The template selection for periodic reports mirrors the selection for pre-contractual documents."

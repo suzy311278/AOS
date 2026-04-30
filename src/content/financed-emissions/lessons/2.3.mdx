@@ -1,0 +1,107 @@
+{/* source: PCAF Standard Part A (3rd Edition), Chapter 5.3 */}
+
+**Project finance** covers on-balance-sheet loans or equity investments in specific projects or activities with a defined, known use of proceeds. Unlike business loans made to a company for general corporate purposes, project finance is directed at a particular activity: constructing a wind farm, operating a gas-fired power plant, or implementing an energy efficiency upgrade.
+
+The emissions accounting challenge for project finance is unique because the financial institution's exposure is tied to a single, identifiable set of activities rather than the entire operations of a company.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/financed-emissions/2_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Asset Class Definition
+
+Project finance includes:
+- **Project loans**: On-balance-sheet debt provided for a specific project with a defined purpose
+- **Project equity**: Equity investments in a project, typically through a Special Purpose Vehicle (SPV)
+
+The key requirement is that the financing is **designated for a defined activity or set of activities**. Common examples include:
+
+- Construction and operation of renewable energy plants (solar, wind, hydro)
+- Gas-fired power plants
+- Infrastructure projects (roads, ports, airports)
+- Energy efficiency upgrades to buildings or industrial facilities
+
+<HighlightBox>
+Starting with the Third Edition (December 2025), **avoided emissions** from renewable energy projects are no longer covered in the Financed Emissions Standard. Financial institutions seeking guidance on avoided emissions should refer to PCAF's Financed Avoided Emissions and Forward-looking Metrics guidance, which covers a broader range of project types.
+</HighlightBox>
+
+## Emission Scopes Covered
+
+Financial institutions shall report **absolute Scope 1 and Scope 2 emissions** of the project. **Scope 3 emissions** of the project should be covered if relevant. Relevant examples include nuclear power plants, hydroelectric projects, airports, highways, and oil and gas exploration, where Scope 3 emissions (from operations, use of the infrastructure, or upstream supply chains) are material.
+
+Removed emissions may be reported separately if relevant, but shall never be netted against absolute emissions.
+
+## Attribution of Emissions
+
+The attribution formula for project finance follows the same logic as business loans:
+
+<EquationBreakdown
+  title="Project Finance - Attribution Factor"
+  result="AF | Attribution Factor | The financial institution's proportional share of the project's emissions | blue"
+  inputs="Outstanding Amount | Outstanding Amount | The FI's loan amount or equity investment in the project | green ;; E<sub>proj</sub> + D<sub>proj</sub> | Total Project Equity + Debt | Sum of all equity and debt committed to the project, typically from the SPV balance sheet | amber"
+  operator="÷"
+/>
+
+For equity, the outstanding amount is:
+
+<EquationBreakdown
+  title="Outstanding Amount - Project Equity"
+  result="OA | Outstanding Amount | The financial institution's equity stake value in the project | blue"
+  inputs="Share Ratio | Project Ownership Share | Shares held by the FI divided by total shares in the project entity | green ;; E<sub>proj</sub> | Total Project Equity | The project's total equity from its balance sheet | amber"
+/>
+
+The denominator includes the **total financing available for the project**: at inception, this is the total debt plus equity committed to realise the project. In subsequent years, financial institutions should use the total equity and debt reported on the project's balance sheet.
+
+<ExampleBox>
+**How attribution shifts from debt to equity over time**
+
+Consider a solar farm initially financed with $800 million in debt and $200 million in equity (total: $1 billion). A bank provides $100 million of the debt.
+
+**Year 1 attribution factor** = $100M / $1,000M = **10%**
+
+As debt is repaid over 15 years, the total debt declines. By year 10, only $300M of debt remains and equity is $200M (total: $500M).
+
+**Year 10 attribution factor** = $100M / $500M = **20%**
+
+By year 15, when the loan is fully repaid, the bank's outstanding amount is $0, so its attribution factor is 0. The emissions are now entirely attributed to equity providers.
+
+This shift from debt-heavy to equity-heavy attribution is illustrated in PCAF Figure 5.3-1. It reflects the underlying reality: as debt is repaid, equity becomes the dominant form of capital in the project.
+</ExampleBox>
+
+## Projects Without a Separate Balance Sheet
+
+The default attribution methodology assumes a separate balance sheet for the project (typically through an SPV). However, some projects are financed without creating a separate legal entity, particularly common for energy efficiency projects:
+
+- Replacing fluorescent lights with LEDs in a building
+- Installing a new boiler in a manufacturing plant
+
+For these cases, if total project debt is unavailable but the project's emissions can be defined independently, the following alternative attribution factor may be used:
+
+<EquationBreakdown
+  title="Alternative Attribution - No Separate Balance Sheet"
+  result="AF | Attribution Factor | The FI's proportional share when no separate project balance sheet exists | blue"
+  inputs="Outstanding Amount | Outstanding Amount | The FI's loan amount for the project | green ;; PV<sub>orig</sub> | Project Value at Origination | The total project cost at inception, frozen as a constant denominator for all subsequent years | amber"
+  operator="÷"
+/>
+
+The total project value is **frozen at origination** and used as a constant denominator for all subsequent years of GHG accounting. This can only be applied when the project's emissions can be independently measured (the LED installation's electricity consumption can be estimated; the boiler's fuel consumption can be measured directly).
+
+## Data Quality Options
+
+Like other corporate asset classes, project finance uses Options 1 to 3 for estimating project emissions. The data quality hierarchy follows the same structure: verified project-reported emissions (Score 1) through sector-average economic estimates (Score 5). The detailed scoring table is provided in Annex 10.1, Table 10.1-3.
+
+For project finance, data availability is generally better than for SME business loans, since project lenders often require detailed reporting as a loan covenant condition.
+
+## Guarantees
+
+Financial guarantees extended to projects have **no attribution until they are called and converted into a loan**. Once a guarantee is called, the outstanding amount (the value of the guarantee that has been converted to debt) enters the attribution calculation.
+
+## Key Considerations
+
+**SPV structure**: Project finance typically routes through an SPV specifically created for the project. The SPV's balance sheet is used for the attribution calculation, not the parent company's.
+
+**Recourse**: In some project finance structures, the lender has recourse to the parent company if the project fails (limited recourse or full recourse). If the subsidiary (project) balance sheet is unavailable, the attribution should be calculated using the total balance sheet of the entity to which the financial institution has recourse.
+
+<AnalogyBox>
+Think of project finance like co-owning a specific factory, not shares in a conglomerate. The attribution is clean: you own or fund a defined asset that produces defined emissions. Unlike corporate loans where the money disappears into a company's general treasury, project finance keeps the money tied to one project, making emissions attribution more precise.
+</AnalogyBox>
+
+<KeyTakeaways items="Project finance attribution uses total project equity plus total project debt as the denominator, typically from the SPV balance sheet ;; As project debt is repaid, the attribution factor shifts from debt providers toward equity holders over the life of the project ;; For projects without a separate balance sheet, freeze the total project value at origination and use it as a constant denominator ;; Financial guarantees carry no attribution until they are called and converted into a loan ;; Avoided emissions from renewable energy projects are no longer covered in Part A (Third Edition) - refer to PCAF's separate avoided emissions guidance" />

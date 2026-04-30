@@ -1,0 +1,263 @@
+{
+  "outputComponents": [
+    {
+      "designSystem": {
+        "designSystem": {
+          "displayName": "Greentryst Meridian",
+          "theme": {
+            "bodyFont": "INTER",
+            "colorMode": "LIGHT",
+            "colorVariant": "FIDELITY",
+            "customColor": "#00433D",
+            "designMd": "# Design System Specification: The Tonal Ecosystem\n\n## 1. Overview & Creative North Star\n**Creative North Star: \"The Editorial Conservatory\"**\nThis design system moves away from the rigid, boxy layouts of traditional SaaS and toward a high-end editorial experience. It is designed to feel like a premium digital publication—authoritative yet organic. We achieve this through \"The Editorial Conservatory\" approach: combining heavy, intentional typography with a sophisticated play of light and layering. \n\nThe goal is to facilitate sustainability education and ESG data analysis without the clinical \"spreadsheet\" feel. We break the template look by using intentional asymmetry in layout, generous white space (breathing room), and a \"No-Line\" philosophy that relies on tonal depth rather than structural borders.\n\n---\n\n## 2. Colors & Surface Philosophy\nThe palette is rooted in deep, intellectual teals and breathable neutrals.\n\n### The \"No-Line\" Rule\n**Explicit Instruction:** Designers are prohibited from using 1px solid borders to define sections or containers. Boundaries must be defined solely through background color shifts or subtle tonal transitions.\n*   **Surface:** `#f8faf9` (The base canvas)\n*   **Surface Container Low:** `#f2f4f3` (Subtle grouping)\n*   **Surface Container High:** `#e6e9e8` (Emphasis or nesting)\n\n### Surface Hierarchy & Nesting\nTreat the UI as a physical stack of semi-transparent layers. \n*   **Layer 0 (Canvas):** `surface`\n*   **Layer 1 (Cards/Sections):** `surface-container-low`\n*   **Layer 2 (Inner Nesting):** `surface-container-lowest` (#ffffff) to create a \"pop\" effect against the subtle grey-green background.\n\n### The Glass & Gradient Rule\nTo elevate the \"Modern\" tone, use Glassmorphism for floating overlays (Modals, Dropdowns, Tooltips).\n*   **Effect:** `White / 8% opacity` with a `16px backdrop-blur`.\n*   **Signature Gradient:** For primary CTAs and Hero backgrounds, use a `135deg linear gradient` from `primary` (#00433d) to `primary-container` (#006a63). This provides a rich, tactile depth that flat color cannot replicate.\n\n---\n\n## 3. Typography\nOur typography pairing balances the \"Human\" (Manrope) with the \"Technical\" (Inter/JetBrains Mono).\n\n*   **Display & Headlines (Manrope, 700-800):** Use these at a high-contrast scale. Bold, heavy headlines create a sense of authority and ESG leadership.\n*   **Body & Titles (Inter, 400-600):** Inter provides neutral clarity for complex sustainability data and learning materials.\n*   **Data & Technicals (JetBrains Mono):** Use for ESG metrics, carbon footprints, or numerical tables to signal precision.\n\n**Hierarchy Note:** Always lead with a `display-lg` or `headline-lg` to ground the page. The gap between a Headline and Body text should be significant to maintain an editorial \"white space\" feel.\n\n---\n\n## 4. Elevation & Depth\nWe define space through **Tonal Layering** rather than traditional shadows.\n\n*   **The Layering Principle:** To create a card, do not draw a border. Instead, place a `surface-container-lowest` (#ffffff) card on top of a `surface-container-low` (#f2f4f3) background. The delta in hex value creates the edge.\n*   **Ambient Shadows:** For floating elements (Navigation, Modals), use a \"Whisper Shadow\": \n    *   `X: 0, Y: 8, Blur: 32, Spread: 0`\n    *   Color: `on-surface` at `4-6% opacity`.\n*   **The Ghost Border Fallback:** If a border is required for accessibility, use `outline-variant` (#bec9c6) at `20% opacity`. Never use a 100% opaque border.\n\n---\n\n## 5. Components\n\n### Navigation\n*   **Style:** Horizontal top bar, `surface-container-lowest` (#ffffff).\n*   **Elevation:** Use an Ambient Shadow to separate it from the content.\n*   **Layout:** High-end spacing (1200px max width), centered content, with navigation links in `title-sm` (Inter 600).\n\n### Buttons\n*   **Primary:** Pill-shaped (9999px), `135deg gradient` (Teal), `on-primary` text.\n*   **Secondary:** Pill-shaped, `surface-container-high` background, `on-surface` text. No border.\n*   **Interactive State:** On hover, increase the gradient intensity or apply a `4px` vertical lift.\n\n### Input Fields\n*   **Shape:** 12px radius (softer than cards, sharper than buttons).\n*   **Background:** `surface-container-high`.\n*   **Active State:** Change background to `surface-container-lowest` and apply a `ghost border` using `primary-container` at 30% opacity.\n\n### ESG Data Cards\n*   **Radius:** 16px.\n*   **Rule:** Forbid divider lines within cards. Use `spacing-6` (1.5rem) or `surface-container` background blocks to separate card headers from body content.\n\n### Additional Signature Components\n*   **Impact Metric Chips:** Pill-shaped chips using `accent-green` or `accent-amber` at 10% opacity with 100% opacity text for ESG status indicators.\n*   **Course Progress Glass-Bar:** A progress bar using the Glass Effect with a `primary` color fill.\n\n---\n\n## 6. Do's and Don'ts\n\n### Do\n*   **Do** use asymmetrical layouts (e.g., a 60/40 split where one side is an image and the other is a floating card).\n*   **Do** use `JetBrains Mono` for all numerical data and ESG scores.\n*   **Do** rely on the `spacing-12` (3rem) and `spacing-16` (4rem) tokens to create an expansive, premium feel.\n\n### Don't\n*   **Don't** use 1px solid borders of any color.\n*   **Don't** use pure black (#000000). Use `on-surface` (#191c1c) for all dark text.\n*   **Don't** crowd the screen. If you feel a section is too busy, increase the background-color contrast between containers rather than adding lines.\n*   **Don't** use standard \"drop shadows\" that look like dark smudges; ensure they are tinted and diffused.",
+            "font": "MANROPE",
+            "headlineFont": "MANROPE",
+            "labelFont": "INTER",
+            "namedColors": {
+              "background": "#f8faf9",
+              "error": "#ba1a1a",
+              "error_container": "#ffdad6",
+              "inverse_on_surface": "#eff1f0",
+              "inverse_primary": "#99d1c8",
+              "inverse_surface": "#2e3131",
+              "on_background": "#191c1c",
+              "on_error": "#ffffff",
+              "on_error_container": "#93000a",
+              "on_primary": "#ffffff",
+              "on_primary_container": "#79afa7",
+              "on_primary_fixed": "#00201d",
+              "on_primary_fixed_variant": "#144f49",
+              "on_secondary": "#ffffff",
+              "on_secondary_container": "#007432",
+              "on_secondary_fixed": "#002109",
+              "on_secondary_fixed_variant": "#005321",
+              "on_surface": "#191c1c",
+              "on_surface_variant": "#404947",
+              "on_tertiary": "#ffffff",
+              "on_tertiary_container": "#76a4ff",
+              "on_tertiary_fixed": "#001a42",
+              "on_tertiary_fixed_variant": "#004395",
+              "outline": "#707977",
+              "outline_variant": "#bfc8c6",
+              "primary": "#002b27",
+              "primary_container": "#00433d",
+              "primary_fixed": "#b5eee4",
+              "primary_fixed_dim": "#99d1c8",
+              "secondary": "#006e2f",
+              "secondary_container": "#6bff8f",
+              "secondary_fixed": "#6bff8f",
+              "secondary_fixed_dim": "#4ae176",
+              "surface": "#f8faf9",
+              "surface_bright": "#f8faf9",
+              "surface_container": "#eceeed",
+              "surface_container_high": "#e6e9e8",
+              "surface_container_highest": "#e1e3e2",
+              "surface_container_low": "#f2f4f3",
+              "surface_container_lowest": "#ffffff",
+              "surface_dim": "#d8dada",
+              "surface_tint": "#306760",
+              "surface_variant": "#e1e3e2",
+              "tertiary": "#002354",
+              "tertiary_container": "#00387e",
+              "tertiary_fixed": "#d8e2ff",
+              "tertiary_fixed_dim": "#adc6ff"
+            },
+            "overrideNeutralColor": "#F8FAF9",
+            "overridePrimaryColor": "#00433D",
+            "overrideSecondaryColor": "#22C55E",
+            "overrideTertiaryColor": "#3B82F6",
+            "roundness": "ROUND_FULL",
+            "spacingScale": 2
+          }
+        },
+        "name": "assets/9e21e4b4749248cbaca7ea35a574f3f2",
+        "version": "1"
+      }
+    },
+    {
+      "design": {
+        "screens": [
+          {
+            "designSystem": {
+              "designSystem": {
+                "displayName": "Greentryst Meridian",
+                "theme": {
+                  "bodyFont": "INTER",
+                  "colorMode": "LIGHT",
+                  "colorVariant": "FIDELITY",
+                  "customColor": "#00433D",
+                  "designMd": "# Design System Specification: The Tonal Ecosystem\n\n## 1. Overview & Creative North Star\n**Creative North Star: \"The Editorial Conservatory\"**\nThis design system moves away from the rigid, boxy layouts of traditional SaaS and toward a high-end editorial experience. It is designed to feel like a premium digital publication—authoritative yet organic. We achieve this through \"The Editorial Conservatory\" approach: combining heavy, intentional typography with a sophisticated play of light and layering. \n\nThe goal is to facilitate sustainability education and ESG data analysis without the clinical \"spreadsheet\" feel. We break the template look by using intentional asymmetry in layout, generous white space (breathing room), and a \"No-Line\" philosophy that relies on tonal depth rather than structural borders.\n\n---\n\n## 2. Colors & Surface Philosophy\nThe palette is rooted in deep, intellectual teals and breathable neutrals.\n\n### The \"No-Line\" Rule\n**Explicit Instruction:** Designers are prohibited from using 1px solid borders to define sections or containers. Boundaries must be defined solely through background color shifts or subtle tonal transitions.\n*   **Surface:** `#f8faf9` (The base canvas)\n*   **Surface Container Low:** `#f2f4f3` (Subtle grouping)\n*   **Surface Container High:** `#e6e9e8` (Emphasis or nesting)\n\n### Surface Hierarchy & Nesting\nTreat the UI as a physical stack of semi-transparent layers. \n*   **Layer 0 (Canvas):** `surface`\n*   **Layer 1 (Cards/Sections):** `surface-container-low`\n*   **Layer 2 (Inner Nesting):** `surface-container-lowest` (#ffffff) to create a \"pop\" effect against the subtle grey-green background.\n\n### The Glass & Gradient Rule\nTo elevate the \"Modern\" tone, use Glassmorphism for floating overlays (Modals, Dropdowns, Tooltips).\n*   **Effect:** `White / 8% opacity` with a `16px backdrop-blur`.\n*   **Signature Gradient:** For primary CTAs and Hero backgrounds, use a `135deg linear gradient` from `primary` (#00433d) to `primary-container` (#006a63). This provides a rich, tactile depth that flat color cannot replicate.\n\n---\n\n## 3. Typography\nOur typography pairing balances the \"Human\" (Manrope) with the \"Technical\" (Inter/JetBrains Mono).\n\n*   **Display & Headlines (Manrope, 700-800):** Use these at a high-contrast scale. Bold, heavy headlines create a sense of authority and ESG leadership.\n*   **Body & Titles (Inter, 400-600):** Inter provides neutral clarity for complex sustainability data and learning materials.\n*   **Data & Technicals (JetBrains Mono):** Use for ESG metrics, carbon footprints, or numerical tables to signal precision.\n\n**Hierarchy Note:** Always lead with a `display-lg` or `headline-lg` to ground the page. The gap between a Headline and Body text should be significant to maintain an editorial \"white space\" feel.\n\n---\n\n## 4. Elevation & Depth\nWe define space through **Tonal Layering** rather than traditional shadows.\n\n*   **The Layering Principle:** To create a card, do not draw a border. Instead, place a `surface-container-lowest` (#ffffff) card on top of a `surface-container-low` (#f2f4f3) background. The delta in hex value creates the edge.\n*   **Ambient Shadows:** For floating elements (Navigation, Modals), use a \"Whisper Shadow\": \n    *   `X: 0, Y: 8, Blur: 32, Spread: 0`\n    *   Color: `on-surface` at `4-6% opacity`.\n*   **The Ghost Border Fallback:** If a border is required for accessibility, use `outline-variant` (#bec9c6) at `20% opacity`. Never use a 100% opaque border.\n\n---\n\n## 5. Components\n\n### Navigation\n*   **Style:** Horizontal top bar, `surface-container-lowest` (#ffffff).\n*   **Elevation:** Use an Ambient Shadow to separate it from the content.\n*   **Layout:** High-end spacing (1200px max width), centered content, with navigation links in `title-sm` (Inter 600).\n\n### Buttons\n*   **Primary:** Pill-shaped (9999px), `135deg gradient` (Teal), `on-primary` text.\n*   **Secondary:** Pill-shaped, `surface-container-high` background, `on-surface` text. No border.\n*   **Interactive State:** On hover, increase the gradient intensity or apply a `4px` vertical lift.\n\n### Input Fields\n*   **Shape:** 12px radius (softer than cards, sharper than buttons).\n*   **Background:** `surface-container-high`.\n*   **Active State:** Change background to `surface-container-lowest` and apply a `ghost border` using `primary-container` at 30% opacity.\n\n### ESG Data Cards\n*   **Radius:** 16px.\n*   **Rule:** Forbid divider lines within cards. Use `spacing-6` (1.5rem) or `surface-container` background blocks to separate card headers from body content.\n\n### Additional Signature Components\n*   **Impact Metric Chips:** Pill-shaped chips using `accent-green` or `accent-amber` at 10% opacity with 100% opacity text for ESG status indicators.\n*   **Course Progress Glass-Bar:** A progress bar using the Glass Effect with a `primary` color fill.\n\n---\n\n## 6. Do's and Don'ts\n\n### Do\n*   **Do** use asymmetrical layouts (e.g., a 60/40 split where one side is an image and the other is a floating card).\n*   **Do** use `JetBrains Mono` for all numerical data and ESG scores.\n*   **Do** rely on the `spacing-12` (3rem) and `spacing-16` (4rem) tokens to create an expansive, premium feel.\n\n### Don't\n*   **Don't** use 1px solid borders of any color.\n*   **Don't** use pure black (#000000). Use `on-surface` (#191c1c) for all dark text.\n*   **Don't** crowd the screen. If you feel a section is too busy, increase the background-color contrast between containers rather than adding lines.\n*   **Don't** use standard \"drop shadows\" that look like dark smudges; ensure they are tinted and diffused.",
+                  "font": "MANROPE",
+                  "headlineFont": "MANROPE",
+                  "labelFont": "INTER",
+                  "namedColors": {
+                    "background": "#f8faf9",
+                    "error": "#ba1a1a",
+                    "error_container": "#ffdad6",
+                    "inverse_on_surface": "#eff1f0",
+                    "inverse_primary": "#99d1c8",
+                    "inverse_surface": "#2e3131",
+                    "on_background": "#191c1c",
+                    "on_error": "#ffffff",
+                    "on_error_container": "#93000a",
+                    "on_primary": "#ffffff",
+                    "on_primary_container": "#79afa7",
+                    "on_primary_fixed": "#00201d",
+                    "on_primary_fixed_variant": "#144f49",
+                    "on_secondary": "#ffffff",
+                    "on_secondary_container": "#007432",
+                    "on_secondary_fixed": "#002109",
+                    "on_secondary_fixed_variant": "#005321",
+                    "on_surface": "#191c1c",
+                    "on_surface_variant": "#404947",
+                    "on_tertiary": "#ffffff",
+                    "on_tertiary_container": "#76a4ff",
+                    "on_tertiary_fixed": "#001a42",
+                    "on_tertiary_fixed_variant": "#004395",
+                    "outline": "#707977",
+                    "outline_variant": "#bfc8c6",
+                    "primary": "#002b27",
+                    "primary_container": "#00433d",
+                    "primary_fixed": "#b5eee4",
+                    "primary_fixed_dim": "#99d1c8",
+                    "secondary": "#006e2f",
+                    "secondary_container": "#6bff8f",
+                    "secondary_fixed": "#6bff8f",
+                    "secondary_fixed_dim": "#4ae176",
+                    "surface": "#f8faf9",
+                    "surface_bright": "#f8faf9",
+                    "surface_container": "#eceeed",
+                    "surface_container_high": "#e6e9e8",
+                    "surface_container_highest": "#e1e3e2",
+                    "surface_container_low": "#f2f4f3",
+                    "surface_container_lowest": "#ffffff",
+                    "surface_dim": "#d8dada",
+                    "surface_tint": "#306760",
+                    "surface_variant": "#e1e3e2",
+                    "tertiary": "#002354",
+                    "tertiary_container": "#00387e",
+                    "tertiary_fixed": "#d8e2ff",
+                    "tertiary_fixed_dim": "#adc6ff"
+                  },
+                  "overrideNeutralColor": "#F8FAF9",
+                  "overridePrimaryColor": "#00433D",
+                  "overrideSecondaryColor": "#22C55E",
+                  "overrideTertiaryColor": "#3B82F6",
+                  "roundness": "ROUND_FULL",
+                  "spacingScale": 2
+                }
+              },
+              "name": "assets/9e21e4b4749248cbaca7ea35a574f3f2",
+              "version": "1"
+            },
+            "deviceType": "DESKTOP",
+            "generatedBy": "figaro_agent",
+            "height": "4450",
+            "htmlCode": {
+              "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2Q1OTY0YzE1MmJkMzRmMTBiZjdkNGNkNTcyODFjYzM0EgsSBxD4gf-qtRAYAZIBIwoKcHJvamVjdF9pZBIVQhM3MjAzMjczOTY4MzI2NTc2OTQ4&filename=&opi=96797242",
+              "mimeType": "text/html",
+              "name": "projects/7203273968326576948/files/3f48b6631e3d45b9a017afd70f5aa5f2"
+            },
+            "id": "488f16fb82824ff1afc902ac2d12f097",
+            "name": "projects/7203273968326576948/screens/488f16fb82824ff1afc902ac2d12f097",
+            "prompt": "Sustainability Academy Desktop Lesson Page: 'The Three Pillars of ESG'.\nSidebar (Left, 250px): Background: Surface Container. Header: 'ESG Fundamentals'. Progress: '3 of 12 lessons complete' with teal progress bar (25%). List: Module 0: What is ESG?, Module 1: The Three Pillars (Highlighted in Primary), Module 2: Ethics, etc. Completed lessons show Accent Green checkmarks.\nMain Content Area:\nTop: Audio Player Bar. Orange waveform visualization, primary play button, time '04:22 / 12:45', speed '1.0x'.\nBreadcrumb: 'ESG Fundamentals > Module 1 > The Three Pillars'.\nHeadline: 'The Three Pillars of ESG' (Large Manrope, Primary).\nBody Text: Inter. Use tonal layering and shadows for boxes.\nCallout 1: HighlightBox (Green-bordered, soft shadow). 'Key takeaway: ESG covers environmental, social, and governance factors'.\nCallout 2: AnalogyBox (Blue-bordered). 'Think of Governance as the central nervous system...'.\nDiscussion Section: Header: 'Discussion (5)'. \nComments (3):\n1. User: Elena Rossi (2 hours ago). 'The Governance analogy really clicked...'. 12 upvotes.\n2. User: Marcus Thorne (1 hour ago). 'Check out Ørsted's latest report...'. 4 upvotes.\n3. User: Sarah Jenkins (5 hours ago). 'Are we going to cover biodiversity?'. 8 upvotes. (Nested Reply from 'Tutor' indented below).\nBottom: 'Write a comment' text input with primary teal 'Post' button.\nFooter: Previous Lesson and Next Lesson navigation pill buttons.\nApply Design System tokens: Primary #00433d, Surface #f8faf9, Manrope for display, Inter for body. Rounded-2xl (16px) for cards, pill-shaped buttons. No 1px borders. Use shadows and tonal layering.",
+            "screenMetadata": {
+              "agentType": "PRO_AGENT",
+              "status": "COMPLETE"
+            },
+            "screenType": "DESIGN",
+            "screenshot": {
+              "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0ujDGMF6vE6yWstBPUqt3yGipTmhpwd2stfbbUwp5s15EKALQKYXb1Y-NPXVYRemaUxRM5cOKHwQFFmPfcsJOI7dZlqU9ZLHzXYf1y4fLoihV5pteltTujSd8oawK8KmKRhGDQXngnjtKBlt3TEml5Eym79E7zOYeltkZk5rTRTpGOwda9kfTCN9hWsqWDHYDzbJXOQFPsEkaVYMfW1cTDV6kXnUL4OW8X5qVTccKm25ibh_aMOemprg9Q",
+              "name": "projects/7203273968326576948/files/f32a5ad497de4f4a8a1e28f6af7dabd6"
+            },
+            "theme": {
+              "bodyFont": "INTER",
+              "colorMode": "LIGHT",
+              "colorVariant": "FIDELITY",
+              "customColor": "#00433D",
+              "designMd": "# Design System Specification: The Tonal Ecosystem\n\n## 1. Overview & Creative North Star\n**Creative North Star: \"The Editorial Conservatory\"**\nThis design system moves away from the rigid, boxy layouts of traditional SaaS and toward a high-end editorial experience. It is designed to feel like a premium digital publication—authoritative yet organic. We achieve this through \"The Editorial Conservatory\" approach: combining heavy, intentional typography with a sophisticated play of light and layering. \n\nThe goal is to facilitate sustainability education and ESG data analysis without the clinical \"spreadsheet\" feel. We break the template look by using intentional asymmetry in layout, generous white space (breathing room), and a \"No-Line\" philosophy that relies on tonal depth rather than structural borders.\n\n---\n\n## 2. Colors & Surface Philosophy\nThe palette is rooted in deep, intellectual teals and breathable neutrals.\n\n### The \"No-Line\" Rule\n**Explicit Instruction:** Designers are prohibited from using 1px solid borders to define sections or containers. Boundaries must be defined solely through background color shifts or subtle tonal transitions.\n*   **Surface:** `#f8faf9` (The base canvas)\n*   **Surface Container Low:** `#f2f4f3` (Subtle grouping)\n*   **Surface Container High:** `#e6e9e8` (Emphasis or nesting)\n\n### Surface Hierarchy & Nesting\nTreat the UI as a physical stack of semi-transparent layers. \n*   **Layer 0 (Canvas):** `surface`\n*   **Layer 1 (Cards/Sections):** `surface-container-low`\n*   **Layer 2 (Inner Nesting):** `surface-container-lowest` (#ffffff) to create a \"pop\" effect against the subtle grey-green background.\n\n### The Glass & Gradient Rule\nTo elevate the \"Modern\" tone, use Glassmorphism for floating overlays (Modals, Dropdowns, Tooltips).\n*   **Effect:** `White / 8% opacity` with a `16px backdrop-blur`.\n*   **Signature Gradient:** For primary CTAs and Hero backgrounds, use a `135deg linear gradient` from `primary` (#00433d) to `primary-container` (#006a63). This provides a rich, tactile depth that flat color cannot replicate.\n\n---\n\n## 3. Typography\nOur typography pairing balances the \"Human\" (Manrope) with the \"Technical\" (Inter/JetBrains Mono).\n\n*   **Display & Headlines (Manrope, 700-800):** Use these at a high-contrast scale. Bold, heavy headlines create a sense of authority and ESG leadership.\n*   **Body & Titles (Inter, 400-600):** Inter provides neutral clarity for complex sustainability data and learning materials.\n*   **Data & Technicals (JetBrains Mono):** Use for ESG metrics, carbon footprints, or numerical tables to signal precision.\n\n**Hierarchy Note:** Always lead with a `display-lg` or `headline-lg` to ground the page. The gap between a Headline and Body text should be significant to maintain an editorial \"white space\" feel.\n\n---\n\n## 4. Elevation & Depth\nWe define space through **Tonal Layering** rather than traditional shadows.\n\n*   **The Layering Principle:** To create a card, do not draw a border. Instead, place a `surface-container-lowest` (#ffffff) card on top of a `surface-container-low` (#f2f4f3) background. The delta in hex value creates the edge.\n*   **Ambient Shadows:** For floating elements (Navigation, Modals), use a \"Whisper Shadow\": \n    *   `X: 0, Y: 8, Blur: 32, Spread: 0`\n    *   Color: `on-surface` at `4-6% opacity`.\n*   **The Ghost Border Fallback:** If a border is required for accessibility, use `outline-variant` (#bec9c6) at `20% opacity`. Never use a 100% opaque border.\n\n---\n\n## 5. Components\n\n### Navigation\n*   **Style:** Horizontal top bar, `surface-container-lowest` (#ffffff).\n*   **Elevation:** Use an Ambient Shadow to separate it from the content.\n*   **Layout:** High-end spacing (1200px max width), centered content, with navigation links in `title-sm` (Inter 600).\n\n### Buttons\n*   **Primary:** Pill-shaped (9999px), `135deg gradient` (Teal), `on-primary` text.\n*   **Secondary:** Pill-shaped, `surface-container-high` background, `on-surface` text. No border.\n*   **Interactive State:** On hover, increase the gradient intensity or apply a `4px` vertical lift.\n\n### Input Fields\n*   **Shape:** 12px radius (softer than cards, sharper than buttons).\n*   **Background:** `surface-container-high`.\n*   **Active State:** Change background to `surface-container-lowest` and apply a `ghost border` using `primary-container` at 30% opacity.\n\n### ESG Data Cards\n*   **Radius:** 16px.\n*   **Rule:** Forbid divider lines within cards. Use `spacing-6` (1.5rem) or `surface-container` background blocks to separate card headers from body content.\n\n### Additional Signature Components\n*   **Impact Metric Chips:** Pill-shaped chips using `accent-green` or `accent-amber` at 10% opacity with 100% opacity text for ESG status indicators.\n*   **Course Progress Glass-Bar:** A progress bar using the Glass Effect with a `primary` color fill.\n\n---\n\n## 6. Do's and Don'ts\n\n### Do\n*   **Do** use asymmetrical layouts (e.g., a 60/40 split where one side is an image and the other is a floating card).\n*   **Do** use `JetBrains Mono` for all numerical data and ESG scores.\n*   **Do** rely on the `spacing-12` (3rem) and `spacing-16` (4rem) tokens to create an expansive, premium feel.\n\n### Don't\n*   **Don't** use 1px solid borders of any color.\n*   **Don't** use pure black (#000000). Use `on-surface` (#191c1c) for all dark text.\n*   **Don't** crowd the screen. If you feel a section is too busy, increase the background-color contrast between containers rather than adding lines.\n*   **Don't** use standard \"drop shadows\" that look like dark smudges; ensure they are tinted and diffused.",
+              "font": "MANROPE",
+              "headlineFont": "MANROPE",
+              "labelFont": "INTER",
+              "namedColors": {
+                "background": "#f8faf9",
+                "error": "#ba1a1a",
+                "error_container": "#ffdad6",
+                "inverse_on_surface": "#eff1f0",
+                "inverse_primary": "#99d1c8",
+                "inverse_surface": "#2e3131",
+                "on_background": "#191c1c",
+                "on_error": "#ffffff",
+                "on_error_container": "#93000a",
+                "on_primary": "#ffffff",
+                "on_primary_container": "#79afa7",
+                "on_primary_fixed": "#00201d",
+                "on_primary_fixed_variant": "#144f49",
+                "on_secondary": "#ffffff",
+                "on_secondary_container": "#007432",
+                "on_secondary_fixed": "#002109",
+                "on_secondary_fixed_variant": "#005321",
+                "on_surface": "#191c1c",
+                "on_surface_variant": "#404947",
+                "on_tertiary": "#ffffff",
+                "on_tertiary_container": "#76a4ff",
+                "on_tertiary_fixed": "#001a42",
+                "on_tertiary_fixed_variant": "#004395",
+                "outline": "#707977",
+                "outline_variant": "#bfc8c6",
+                "primary": "#002b27",
+                "primary_container": "#00433d",
+                "primary_fixed": "#b5eee4",
+                "primary_fixed_dim": "#99d1c8",
+                "secondary": "#006e2f",
+                "secondary_container": "#6bff8f",
+                "secondary_fixed": "#6bff8f",
+                "secondary_fixed_dim": "#4ae176",
+                "surface": "#f8faf9",
+                "surface_bright": "#f8faf9",
+                "surface_container": "#eceeed",
+                "surface_container_high": "#e6e9e8",
+                "surface_container_highest": "#e1e3e2",
+                "surface_container_low": "#f2f4f3",
+                "surface_container_lowest": "#ffffff",
+                "surface_dim": "#d8dada",
+                "surface_tint": "#306760",
+                "surface_variant": "#e1e3e2",
+                "tertiary": "#002354",
+                "tertiary_container": "#00387e",
+                "tertiary_fixed": "#d8e2ff",
+                "tertiary_fixed_dim": "#adc6ff"
+              },
+              "overrideNeutralColor": "#F8FAF9",
+              "overridePrimaryColor": "#00433D",
+              "overrideSecondaryColor": "#22C55E",
+              "overrideTertiaryColor": "#3B82F6",
+              "roundness": "ROUND_FULL",
+              "spacingScale": 2
+            },
+            "title": "Sustainability Academy Lesson",
+            "width": "2560"
+          }
+        ],
+        "theme": {}
+      }
+    },
+    {
+      "text": "I've designed the Sustainability Academy lesson page for you. This includes the 'ESG Fundamentals' course layout with a functional sidebar, a sleek audio player for the lesson content, and a structured discussion thread. The design is fully consistent with the Greentryst Meridian design system, focusing on tonal layering, modern typography, and a clean, professional aesthetic.\n\n**Key Features:**\n- **Navigation:** A 250px left sidebar with course progress, module sections, and status checkmarks.\n- **Interactivity:** An audio playback bar with an orange waveform visualization and integrated playback controls.\n- **Content:** The main lesson body follows the brand's typography guidelines, featuring high-contrast headlines and themed callout boxes.\n- **Community:** A structured discussion area at the bottom with multiple comment states and a nested reply example.\n\nWould you like to see a mobile version or perhaps design the user's dashboard next?"
+    },
+    {
+      "suggestion": "Create a mobile version of this lesson page"
+    },
+    {
+      "suggestion": "Design the ESG Tools dashboard"
+    },
+    {
+      "suggestion": "Add a video player instead of audio"
+    },
+    {
+      "suggestion": "Change the color scheme to a darker theme"
+    }
+  ],
+  "projectId": "7203273968326576948",
+  "sessionId": "2961738242077548465"
+}

@@ -1,0 +1,99 @@
+{/* source: Application Guidance B61-B63A, Illustrative Guidance IE25-IE38 */}
+
+<HighlightBox>
+Each type of financial institution (asset manager, commercial bank, or insurer) has different portfolio structures and reporting needs. IFRS S2 provides tailored financed emissions disclosure requirements for each, along with detailed illustrative examples of how to present disaggregated data across strategies, asset classes, and industry sectors.
+</HighlightBox>
+
+## Asset Management (B61)
+
+For entities engaged in asset management, IFRS S2 Application Guidance B61 requires disclosure of:
+
+- **(a) Absolute gross financed emissions** by Scope 1, Scope 2, and Scope 3 (of investees) attributed to the asset manager's assets under management (AUM)
+- **(b) Total AUM included** in the calculation
+- **(c) Percentage of total AUM included.** If less than 100% of AUM is included, the entity must explain what is excluded and why (for example, cash and money market instruments may be excluded).
+- **(d) Methodology,** including the allocation method used to attribute investee emissions to the asset manager's position
+
+**Allocation method:** Asset managers typically use a portfolio share approach. The entity's financed emissions from each investee are:
+
+<EquationBreakdown
+  title="Financed Emissions Attribution (Asset Management)"
+  result="FE | Financed Emissions | Emissions attributed to the asset manager from a single investee, in tCO₂e | blue"
+  inputs="E<sub>inv</sub> | Investee Total Emissions | Investee's total Scope 1 + Scope 2 + Scope 3 GHG emissions | green ;; I / EV | Ownership Share | Entity's investment value divided by the investee's enterprise value | amber"
+/>
+
+## Illustrative Example 4: Asset Management by Strategy (IE25 to IE32)
+
+An asset manager with CU11 billion (CU = Currency Unit, the placeholder used in IFRS illustrative examples) across seven corporate bond portfolios considers disaggregating by investment strategy:
+
+**Setup:**
+- Active strategies (Funds A to C): CU6 billion, lower emissions, higher management fees
+- Passive strategies (Funds D to G): CU5 billion, higher emissions, index-tracking
+- 2% of AUM is cash (excluded from emissions calculation)
+
+**Results (metric tonnes CO2e):**
+
+The data reveals a significant gap: active strategies carry more than 2x lower financed emissions than passive strategies, despite managing comparable AUM. This reflects that active managers can avoid or engage with high-emitting companies, while passive funds must hold the index.
+
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th></th><th>Active Strategies</th><th>Passive Strategies</th><th>Total</th></tr>
+  <tr><td>Scope 1</td><td>12,880,551</td><td>27,300,950</td><td>40,181,501</td></tr>
+  <tr><td>Scope 2</td><td>2,983,115</td><td>8,120,335</td><td>11,103,450</td></tr>
+  <tr><td>Scope 3</td><td>43,771,005</td><td>103,799,005</td><td>147,570,010</td></tr>
+  <tr><td><strong>Total financed emissions</strong></td><td><strong>59,634,671</strong></td><td><strong>139,220,290</strong></td><td><strong>198,854,961</strong></td></tr>
+  <tr><td>AUM included</td><td>CU 5.88bn</td><td>CU 4.90bn</td><td>CU 10.78bn</td></tr>
+  <tr><td>% of total AUM</td><td>53.5% (98%)</td><td>44.5% (98%)</td><td>98%</td></tr>
+</table>
+</ResponsiveTable>
+
+*Why disaggregate?* Active and passive strategies have different climate risk profiles and different manager ability to influence portfolio companies on climate. Disaggregation reveals that active strategies (where managers have discretion) already have much lower financed emissions per CU invested.
+
+## Commercial Banking (B62 and B62A)
+
+For commercial banking entities, disclosure includes:
+
+- **(a) Absolute gross financed emissions** by Scope 1, Scope 2, and Scope 3 for each industry, disaggregated by asset class
+- **(b) Gross exposure** (funded amounts plus undrawn commitments) for each industry by asset class
+- **(c) Percentage of gross exposure included,** with explanation of exclusions
+- **(d) Methodology,** including allocation method and industry classification system
+
+The 2025 amendments (B62A) replaced the previously mandatory GICS (Global Industry Classification Standard) with a more flexible requirement: entities select an industry classification system that enables useful information about transition risk exposure. They must disclose which system they used and why it meets the requirements.
+
+## Illustrative Example 5: Asset Management by Asset Class (IE33 to IE38)
+
+This example shows disaggregation by asset class rather than strategy:
+
+**Setup:**
+- Long-term bonds (Funds A to C): CU22.6 billion, 7-year average holding period
+- Publicly traded equities (Funds D to H): CU37.4 billion, 9-month average holding period
+- 2% (CU1.2 billion) is cash, excluded
+
+**Results (metric tonnes CO2e):**
+
+The data shows that publicly traded equities carry roughly 77% higher absolute financed emissions than long-term bonds, despite both having similar coverage at 98% of AUM. This reflects the higher-carbon composition of the equity portfolio.
+
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th></th><th>Long-term Bonds</th><th>Publicly Traded Equities</th><th>Total</th></tr>
+  <tr><td>Scope 1</td><td>48,600,415</td><td>101,487,332</td><td>150,087,747</td></tr>
+  <tr><td>Scope 2</td><td>33,805,025</td><td>27,187,765</td><td>60,992,790</td></tr>
+  <tr><td>Scope 3</td><td>159,615,008</td><td>301,001,718</td><td>460,616,726</td></tr>
+  <tr><td><strong>Total financed emissions</strong></td><td><strong>242,020,448</strong></td><td><strong>429,676,815</strong></td><td><strong>671,697,263</strong></td></tr>
+  <tr><td>AUM included</td><td>CU 22.15bn</td><td>CU 36.65bn</td><td>CU 58.8bn</td></tr>
+  <tr><td>% of total AUM</td><td>36.9%</td><td>61.1%</td><td>98%</td></tr>
+</table>
+</ResponsiveTable>
+
+*Why disaggregate by asset class?* Long-term bonds and equities have different holding periods, different climate risk profiles, and different mechanisms for engagement. Bond positions may be held for 7+ years, providing long-term exposure to borrower transition risk. Equity positions turn over in months, limiting transition-related engagement opportunities.
+
+## Insurance (B63 and B63A)
+
+Insurance entities apply the same structure as commercial banking, with disclosure of:
+
+- Absolute gross financed emissions by Scope 1, 2, 3 for each industry by asset class
+- Gross exposure (carrying amounts of investment assets held, by industry and asset class)
+- Percentage included (with explanation of exclusions)
+- Methodology and industry classification system used
+
+The 2025 amendments (B63A) provide the same industry classification flexibility to insurance entities as to commercial banks.
+<KeyTakeaways items="Asset managers must disclose absolute financed emissions by scope, total AUM included, percentage coverage, and attribution methodology (typically portfolio share approach) ;; Commercial banks disclose financed emissions by industry and asset class, with gross exposure (funded plus undrawn commitments) for each category ;; Disaggregation by investment strategy (active vs passive) reveals that active managers typically carry lower financed emissions per unit invested due to engagement and avoidance capabilities ;; The 2025 amendments replaced mandatory GICS classification with a principles-based requirement to select and disclose an industry system that provides useful transition risk information ;; Insurance entities follow the same structure as commercial banking, covering investment assets held by industry and asset class with full methodology disclosure" />

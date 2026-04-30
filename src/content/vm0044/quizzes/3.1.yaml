@@ -1,0 +1,35 @@
+- question: "In Equation 1, the coefficient 44/12 is used to convert organic carbon (tonnes of C) to tCO2e. What does this ratio represent?"
+  options:
+    - "The fraction of carbon that escapes as CO2 during pyrolysis"
+    - "The molecular weight of CO2 divided by the atomic weight of carbon"
+    - "The percentage of biochar that is organic carbon"
+    - "The global warming potential of carbon relative to CO2"
+  answer: 1
+  explanation: "The 44/12 ratio converts tonnes of carbon to tonnes of CO2 equivalent. CO2 has a molecular weight of 44 (one carbon atom at 12, two oxygen atoms at 16 each), and carbon has an atomic weight of 12. One tonne of carbon, when fully oxidised to CO2, produces 44/12 = 3.667 tonnes of CO2. This conversion is used across GHG accounting frameworks, not just VM0044."
+
+- question: "A high technology facility operates above 600 degrees C. According to Table 3, what is the correct permanence adjustment factor (PR_de,k) for soil application?"
+  options:
+    - "0.65"
+    - "0.56"
+    - "0.80"
+    - "0.89"
+  answer: 3
+  explanation: "Table 3 (from IPCC 2019) assigns PR_de,k = 0.89 for high temperature pyrolysis or gasification above 600 degrees C. This means 89% of the organic carbon in the biochar is expected to remain stored after 100 years. Higher temperatures produce more aromatic, chemically stable carbon structures that resist microbial breakdown."
+
+- question: "Why does VM0044 set pyrolysis process emissions (PE_P,p,y) to zero for high technology facilities?"
+  options:
+    - "High technology facilities do not use any fossil fuels"
+    - "Pyrolysis at high temperatures produces no gases at all"
+    - "High technology facilities must have pollution controls that prevent GHG emissions from escaping during pyrolysis"
+    - "The emissions are counted elsewhere in the formula and would be double-counted"
+  answer: 2
+  explanation: "High technology facilities are required to have pollution control equipment that captures or combusts gases produced during pyrolysis. Because these systems prevent net greenhouse gas emissions from the conversion process, VM0044 sets PE_P,p,y = 0 by default. This simplifies accounting and reflects the engineering reality of these systems."
+
+- question: "A project switches its pre-treatment energy source from a diesel generator to solar panels. All other inputs remain the same. What happens to the net GHG removal (ER_PS,y)?"
+  options:
+    - "It decreases, because solar panels have a manufacturing carbon footprint"
+    - "It increases, because PE_D,p,y becomes zero and total project emissions fall"
+    - "It stays the same, because the carbon content of the biochar does not change"
+    - "It becomes negative, because renewable energy counts as a removal"
+  answer: 1
+  explanation: "If the pre-treatment energy source is entirely renewable, PE_D,p,y = 0. This reduces total project emissions (PE_PS,p,y), which are subtracted from the gross carbon removal in Equation 1. A smaller subtraction means a larger net removal. The carbon content of the biochar (CC_t,k,y) is unaffected by the energy source, but the net result improves."

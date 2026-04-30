@@ -1,0 +1,26 @@
+- question: "Category 10 (Processing of Sold Products) applies to which type of company?"
+  options:
+    - "Companies that sell final consumer products directly"
+    - "Companies that sell intermediate products further processed by downstream manufacturers"
+    - "Companies that recycle products at end of life"
+    - "Companies with downstream leased assets"
+  answer: 1
+  explanation: "Category 10 applies when a company sells intermediate inputs (not finished consumer goods) that downstream customers further transform before end use — for example, a chemical company selling resin that a manufacturer moulds into products."
+
+- question: "When allocating Category 10 processing emissions, what does the GHG Protocol recommend as the primary allocation basis?"
+  options:
+    - "Revenue of each product"
+    - "Number of employees involved in processing each product"
+    - "Physical quantity (mass or volume) of the reporting company's product relative to all inputs"
+    - "Patent value of the product"
+  answer: 2
+  explanation: "Physical allocation by mass or volume is preferred because it most directly reflects the physical production process. Economic allocation by revenue is a secondary option when physical allocation is not meaningful."
+
+- question: "A company sells 500 tonnes of chemical resin to a processor. The processor's total inputs are 2,500 tonnes including all materials. The processing operation emits 1,000 tCO₂e. What is allocated to the resin company's Category 10?"
+  options:
+    - "100 tCO₂e"
+    - "200 tCO₂e"
+    - "500 tCO₂e"
+    - "1,000 tCO₂e"
+  answer: 1
+  explanation: "Resin share = 500/2,500 = 20%. Category 10 emissions = 20% × 1,000 = 200 tCO₂e."

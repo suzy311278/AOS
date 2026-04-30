@@ -1,0 +1,35 @@
+- question: "IFRS S2 paragraph 15 requires disclosure of both current and anticipated financial effects. What is the key difference between them?"
+  options:
+    - "Current effects are qualitative; anticipated effects are always quantitative"
+    - "Current effects are from the current reporting period; anticipated effects cover short, medium, and long term"
+    - "Current effects are only disclosed for physical risks; anticipated effects for transition risks"
+    - "Current effects appear in the strategy section; anticipated effects in the risk management section"
+  answer: 1
+  explanation: "Paragraph 15 distinguishes: (a) current financial effects — how climate risks and opportunities have affected the current reporting period's financial position, performance, and cash flows; and (b) anticipated financial effects — expected impacts over the short, medium, and long term."
+
+- question: "Which financial statement area would most directly show the impact of a severe flood damaging a manufacturing facility?"
+  options:
+    - "Revenue"
+    - "Financing cash flows"
+    - "Property, plant and equipment (asset impairment)"
+    - "Trade payables"
+  answer: 2
+  explanation: "Physical damage to a manufacturing facility would most directly affect property, plant and equipment through asset impairment or write-down. Insurance recoveries might offset some of the impact in P&L. This is one of the key financial statement line items that entities must identify when disclosing physical risk exposure."
+
+- question: "IFRS S2 paragraph 17 says entities 'may disclose a single amount or a range' for anticipated financial effects. When might a range be more appropriate than a single figure?"
+  options:
+    - "When the entity prefers to disclose minimum possible impacts"
+    - "When climate scenario analysis produces a range of outcomes under different climate futures"
+    - "When the entity's financial modelling team lacks expertise"
+    - "Ranges are only used for Scope 3 emissions, not financial effects"
+  answer: 1
+  explanation: "A range acknowledges the inherent uncertainty in forward-looking climate estimates. When different scenarios produce different financial outcomes (e.g., 1.5°C vs 3°C warming), the range of outcomes may be more honest and informative than a point estimate that implies false precision."
+
+- question: "Which of the following climate events would create a 'significant risk of material adjustment within the next annual reporting period' (Para 16(b))?"
+  options:
+    - "A theoretical sea level rise scenario 30 years in the future"
+    - "Rising global temperatures generally"
+    - "A carbon tax set to take effect in three months that will significantly increase operating costs"
+    - "Employee commuting emissions"
+  answer: 2
+  explanation: "A carbon tax taking effect imminently could create a material adjustment risk within the next reporting period — it will change operating costs in a quantifiable way within a short time horizon. This type of near-term, quantifiable risk is what Para 16(b) is designed to capture."

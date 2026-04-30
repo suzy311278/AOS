@@ -1,0 +1,44 @@
+- question: "ESMA Q&A I.5 addresses a critical interaction between SFDR and other EU law. What does it clarify?"
+  options:
+    - "SFDR takes precedence over MiFID II for ESG disclosure purposes"
+    - "An AIFM that states sustainability risks are 'not relevant' under SFDR cannot use this to override its obligation to consider sustainability risks in its risk management under other EU law (e.g., AIFMD Delegated Regulation Article 18(5))"
+    - "SFDR Article 6 disclosure requirements substitute for UCITS prospectus disclosure requirements"
+    - "Financial advisers are exempt from SFDR if they comply with MiFID II suitability requirements"
+  answer: 1
+  explanation: "ESMA Q&A I.5 confirms that SFDR disclosures and obligations under other EU law are cumulative, not alternative. An AIFM saying sustainability risks are 'not relevant' under SFDR cannot use this to override the AIFMD requirement (Delegated Regulation 231/2013, Article 18(5)) to consider sustainability risks in risk management. The two legal frameworks run in parallel."
+
+- question: "What did ESMA Q&A II.1 clarify about the level at which sustainable investment can be assessed?"
+  options:
+    - "Sustainable investment must always be assessed at the level of a specific project or economic activity"
+    - "Sustainable investment can be assessed at the level of a company as a whole — not only at the level of a specific economic activity — meaning investments in general equity or debt can qualify as sustainable"
+    - "Sustainable investment must be assessed at the sector level, not the individual company level"
+    - "Sustainable investment assessment is only required for Article 9 products"
+  answer: 1
+  explanation: "The EC clarification incorporated into ESMA Q&A II.1 confirms that sustainable investment under Article 2(17) SFDR can be measured at the company level. An FMP investing in the general equity or debt of a company (not activity-specific instruments) may classify that investment as sustainable if the company as a whole meets the contribution, DNSH, and good governance tests. This resolved a major practical ambiguity."
+
+- question: "What does ESMA Q&A III.1 clarify about 'current value' in PAI calculations?"
+  options:
+    - "'Current value' means the original acquisition cost of the investment"
+    - "'Current value' is the market value of the investment, consistent with the enterprise value definition in Annex I — it is NOT the net asset value"
+    - "'Current value' means the book value of the investment as reported in the fund's accounts"
+    - "'Current value' must be calculated on the first trading day of each month"
+  answer: 1
+  explanation: "ESMA Q&A III.1 clarifies that 'current value of all investments' in PAI calculations should be consistent with the enterprise value definition in Annex I of the RTS — specifically using market values. This is not the same as net asset value, which would be netted by the fund's liabilities. Using NAV instead of market value would overstate Taxonomy alignment and potentially affect PAI calculations."
+
+- question: "What is the significance of the ESMA Q&As being a 'living document'?"
+  options:
+    - "The Q&As are updated monthly and supersede all other SFDR guidance"
+    - "The Q&As are periodically updated as new questions arise from market practice and regulatory developments; practitioners should check for updates when preparing disclosures or addressing new compliance questions"
+    - "FMPs must update their SFDR disclosures every time the Q&As are revised"
+    - "The Q&As apply only to the current calendar year and are replaced entirely each year"
+  answer: 1
+  explanation: "The ESMA Consolidated Q&As are described as a living document because they are updated periodically as new questions arise from market practice, legislative developments, and supervisory experience. The most recent update (4 November 2025) is version JC 2023 18. Compliance professionals should regularly check for updates when preparing disclosures or addressing compliance questions, as new guidance may affect existing practices."
+
+- question: "ESMA Q&A V on multi-option products (MOPs) addresses which practical compliance challenge?"
+  options:
+    - "How to classify a fund of funds that invests in both Article 6 and Article 9 sub-funds"
+    - "How SFDR applies when an insurance product offers investors a range of underlying investment options with different SFDR classifications — some Article 8 or 9, others Article 6"
+    - "How to handle products that simultaneously qualify as both Article 8 and Article 9"
+    - "How to disclose PAI for products that only hold index derivatives"
+  answer: 1
+  explanation: "ESMA Q&A Section VI (Multi-option products) addresses the specific challenges of products (typically insurance-based) where investors can choose from a range of underlying investment options with different SFDR classifications. The guidance covers how to categorise the MOP as a whole, how to disclose sustainability information at the MOP level versus the individual option level, and how Delegated Regulation 2023/363 amended the RTS to address MOP-specific requirements."

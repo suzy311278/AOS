@@ -1,0 +1,26 @@
+- question: "Why does the GHG Protocol divide corporate emissions into Scope 1, 2, and 3 categories rather than reporting a single total?"
+  options:
+    - "Because international law requires separate reporting for each scope to prevent double-counting between companies"
+    - "Because Scope 1 emissions are more harmful than Scope 2 and 3, requiring separate monitoring"
+    - "Because the atmosphere does not differentiate emission sources, and a full value-chain perspective is physically necessary to capture total warming impact"
+    - "Because Scope 3 emissions are not measurable and are therefore excluded from regulatory requirements"
+  answer: 2
+  explanation: "The three-scope framework exists because the physics of the greenhouse effect does not care where an emission originates: only the total atmospheric concentration matters for warming. Scope 3 typically represents 70-90% of a company's total emissions footprint. A full value-chain perspective is physically necessary to capture the complete climate impact of a company's activities, which is why climate science provides the rationale for a comprehensive approach to GHG accounting."
+
+- question: "Which pair of concepts from Climate Science 101 is most directly required as a prerequisite for understanding Science Based Targets (SBTi)?"
+  options:
+    - "The greenhouse effect and ocean acidification"
+    - "The carbon budget and temperature scenarios (SSPs)"
+    - "Sea level rise projections and biodiversity loss"
+    - "Tipping points and paleoclimate evidence"
+  answer: 1
+  explanation: "Science-based targets are mathematically derived from the remaining carbon budget (lesson 2.4): the total CO₂ that can still be emitted while maintaining a given probability of staying below 1.5°C or 2°C. The SSP scenarios (lesson 4.1) provide the temperature pathways against which corporate targets are calibrated. Without understanding these two concepts, SBTi methodology cannot be properly interpreted or applied."
+
+- question: "How does the EU Carbon Border Adjustment Mechanism (CBAM) connect to GHG accounting methodology?"
+  options:
+    - "CBAM requires importing companies to measure and report embedded (embodied) GHG emissions in imported goods, applying the same physics and methodology as Scope 3 accounting"
+    - "CBAM applies only to Scope 1 emissions and has no connection to value-chain GHG accounting"
+    - "CBAM replaces the need for corporate GHG reporting in EU member states"
+    - "CBAM is based on a different measurement system than the GHG Protocol and uses carbon intensity per unit of revenue rather than physical emissions"
+  answer: 0
+  explanation: "CBAM requires importers to measure and report the embedded (embodied) GHG emissions in their imported goods, calculating the carbon price those goods would have incurred under the EU ETS if produced in the EU. This concept of embedded emissions is directly connected to Scope 3 accounting: the same underlying physics and measurement methodology, applied at a regulatory level rather than voluntary corporate disclosure. Understanding why embedded emissions matter requires the foundational GHG science from this course."

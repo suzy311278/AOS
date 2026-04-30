@@ -1,0 +1,44 @@
+- question: "Which metric does PCAF require as the primary mandatory disclosure for financed emissions?"
+  options:
+    - "Weighted average carbon intensity (WACI) in tCO2e per million of revenue"
+    - "Absolute financed emissions in tCO2e, disaggregated by asset class"
+    - "Portfolio carbon footprint (tCO2e per million invested)"
+    - "Temperature score of the portfolio (blended 1.5°C, 2°C, etc.)"
+  answer: 1
+  explanation: "PCAF requires absolute financed emissions in tCO2e as the primary mandatory metric, disaggregated by asset class and split between Scope 1+2 and Scope 3 of borrowers/investees. WACI and portfolio carbon footprint are intensity metrics that are strongly recommended as supplementary disclosures but do not replace the absolute emissions requirement."
+
+- question: "When financial institutions report Scope 3 emissions of their borrowers and investees starting from 2025, how must they present this data?"
+  options:
+    - "Combined with Scope 1 and 2 financed emissions in a single total figure"
+    - "Separately from Scope 1 and 2 financed emissions, with disclosure of which Scope 3 categories are included"
+    - "Only in the qualitative section of the disclosure, without quantification"
+    - "As a percentage of industry total Scope 3, not in absolute tCO2e terms"
+  answer: 1
+  explanation: "PCAF requires Scope 3 financed emissions to be disclosed separately from Scope 1 and 2 financed emissions. This separation is important for two reasons: (1) it maintains transparency about the completeness of Scope 3 coverage, since very few companies report full Scope 3; and (2) it prevents inadvertent double-counting at the aggregate portfolio level, where Scope 3 emissions of one company overlap with Scope 1 and 2 of another in the supply chain."
+
+- question: "How does PCAF's standard reporting table (Annex 10.2) help financial institutions satisfy TCFD and IFRS S2 disclosure requirements?"
+  options:
+    - "It replaces these frameworks' disclosure requirements entirely"
+    - "It provides the structured, standardised data outputs (absolute emissions, WACI, data quality score, coverage) that directly correspond to the quantitative metrics required by TCFD Metrics and IFRS S2 Scope 3 Category 15"
+    - "It automatically generates TCFD-compliant reports when submitted to PCAF"
+    - "It is only applicable to EU-regulated financial institutions"
+  answer: 1
+  explanation: "The PCAF Annex 10.2 reporting table is designed to produce the exact data needed across multiple regulatory and voluntary frameworks. TCFD Metrics and IFRS S2 require disclosure of total portfolio carbon emissions, carbon intensity, and coverage. Completing the PCAF table generates all of these in a single, consistent dataset. Financial institutions can cross-reference the PCAF disclosure from their sustainability reports to satisfy both TCFD/IFRS S2 requirements."
+
+- question: "A financial institution's absolute financed emissions are 8 million tCO2e in Year 1. In Year 2, the portfolio expands significantly, and absolute financed emissions rise to 11 million tCO2e — but the WACI (intensity) decreases. How should this be interpreted?"
+  options:
+    - "The institution is making climate progress because intensity declined"
+    - "The institution is not making climate progress; absolute emissions rose from 8M to 11M tCO2e, indicating the portfolio's total GHG footprint increased"
+    - "The PCAF standard requires reporting both figures, but only the intensity change is relevant for target setting"
+    - "An absolute increase combined with an intensity decrease cancels out and is climate-neutral"
+  answer: 1
+  explanation: "PCAF places absolute financed emissions as the primary metric precisely because intensity metrics can decline while absolute emissions grow (due to portfolio growth). A rising absolute footprint represents a real increase in the emissions financed, even if the portfolio contains cleaner assets on average. Climate targets require absolute emissions to fall. PCAF allows intensity metrics as supplementary context (e.g., to demonstrate efficiency improvements) but not as a substitute for absolute reduction."
+
+- question: "Which of the following is NOT a required disclosure element under PCAF for financed emissions?"
+  options:
+    - "Percentage of the portfolio covered by the financed emissions calculation"
+    - "Weighted average data quality score by asset class"
+    - "External auditor's opinion on the financed emissions figures"
+    - "Explanation of what is excluded from the calculation and why"
+  answer: 2
+  explanation: "External audit or third-party verification of financed emissions figures is recommended by PCAF but not required. Financial institutions can disclose financed emissions based on their own internal calculations without external assurance. Verification status does affect the data quality score (verified = Score 1a), but obtaining verification is not a precondition for PCAF-compliant disclosure. Coverage percentage, data quality scores, and exclusion explanations are all mandatory."

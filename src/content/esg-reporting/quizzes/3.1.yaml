@@ -1,0 +1,26 @@
+- question: "Why should you NOT simply email the data requirement template to the client and wait for them to fill it out?"
+  options:
+    - "Email attachments have file size limits that prevent sharing large templates"
+    - "The template needs a guided walkthrough so the client understands what each field means, what units to use, and where to find the data internally"
+    - "Clients prefer receiving data requests via project management software"
+    - "GRI Standards require in-person data request sessions"
+  answer: 1
+  explanation: "The data template is a communication tool, not just a spreadsheet. Without a walkthrough, clients are overwhelmed by unfamiliar fields and GRI terminology. Walking them through it tab by tab, explaining units and data sources, dramatically improves the quality and speed of data collection."
+
+- question: "When setting deadlines for the data requirement template, which approach is most effective?"
+  options:
+    - "Set a single deadline for the entire template to keep things simple"
+    - "Let the client decide their own timeline based on internal capacity"
+    - "Break it into phased deadlines by data category - economic data by week 2, environmental by week 4, social by week 6"
+    - "Set no deadlines and follow up weekly until data arrives"
+  answer: 2
+  explanation: "Phased deadlines create momentum and allow you to start writing report chapters as data arrives rather than waiting for everything at once. A single deadline often leads to last-minute submissions with more errors."
+
+- question: "The data requirement template requests multiple years of data (typically 2-3 prior years plus the current year). Why is this important?"
+  options:
+    - "GRI Standards mandate a minimum of three years of historical data"
+    - "ESG reports need trend data to show year-on-year progress, and rating agencies specifically look for it"
+    - "Historical data is needed to calculate industry averages"
+    - "It is only needed for first-time reporters to establish a baseline"
+  answer: 1
+  explanation: "ESG reports almost always include trend data because stakeholders and rating agencies want to see year-on-year progress or patterns. Requesting historical data upfront is essential - going back to ask for it later is much harder."

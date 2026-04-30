@@ -1,0 +1,26 @@
+- question: "According to the EU's 2021 Impact Assessment, approximately what share of global deforestation is driven by EU consumption?"
+  options:
+    - "2%"
+    - "5%"
+    - "10%"
+    - "25%"
+  answer: 2
+  explanation: "The European Commission's 2021 Impact Assessment (SWD(2021) 315) concluded that EU consumption patterns drive approximately 10% of global deforestation, placing the EU among the world's largest drivers of forest loss."
+
+- question: "Why did the European Commission's Impact Assessment conclude that voluntary certification schemes were insufficient?"
+  options:
+    - "Because certification standards were too strict for producers to meet"
+    - "Because less than 20% of globally traded deforestation-risk commodities were covered and uptake was uneven"
+    - "Because certification only applied to EU-produced goods, not imports"
+    - "Because certification schemes were not legally recognised by the WTO"
+  answer: 1
+  explanation: "The Impact Assessment found that less than 20% of globally traded deforestation-risk commodities were covered by independent third-party sustainability certification as of 2021. Uptake was concentrated among larger companies and did not reach smallholder supply chains, and the voluntary approach created a competitive disadvantage for companies that invested in sustainable sourcing."
+
+- question: "What is the estimated annual greenhouse gas emission reduction if the EUDR achieves full compliance?"
+  options:
+    - "3.1 million tonnes CO2e per year"
+    - "10 million tonnes CO2e per year"
+    - "32 million tonnes CO2e per year"
+    - "120 million tonnes CO2e per year"
+  answer: 2
+  explanation: "The EUDR's Impact Assessment projects that full compliance could avoid at least 32 million tonnes of CO2 equivalent in greenhouse gas emissions per year from deforestation that would otherwise occur. This is described as a minimum estimate."

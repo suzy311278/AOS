@@ -1,0 +1,26 @@
+- question: "By 2019, atmospheric CO2 concentrations had reached approximately what level, according to IPCC AR6?"
+  options:
+    - "350 ppm"
+    - "380 ppm"
+    - "410 ppm"
+    - "450 ppm"
+  answer: 2
+  explanation: "IPCC AR6 WGI reported an annual average CO2 concentration of 410 ppm in 2019, which is higher than at any time in at least 2 million years."
+
+- question: "What makes CO2 the 'dominant driver' of climate change, even though methane is a more potent greenhouse gas per molecule?"
+  options:
+    - "CO2 absorbs more infrared radiation per molecule than methane"
+    - "CO2 is emitted in far greater volumes and has a much longer atmospheric lifetime"
+    - "CO2 is harder to remove from the atmosphere through technology"
+    - "CO2 reacts with water vapour to amplify warming more than methane"
+  answer: 1
+  explanation: "Methane is roughly 28 times more potent per molecule over 100 years, but CO2-FFI alone accounted for about 64% of total GHG emissions in 2019 by CO2-equivalent. CO2 also persists in the atmosphere for centuries, making cumulative emissions the key warming driver."
+
+- question: "Approximately what fraction of human CO2 emissions are absorbed by natural land and ocean sinks each year?"
+  options:
+    - "About 20%"
+    - "About 36%"
+    - "About 56%"
+    - "About 75%"
+  answer: 2
+  explanation: "Land and ocean together absorb approximately 56% of human CO2 emissions per year on average. This fraction has remained broadly constant over the past six decades, but the remaining 44% accumulates in the atmosphere."

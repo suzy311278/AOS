@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-surface-variant": "#3e4947",
+              "surface-container": "#edeeef",
+              "inverse-surface": "#2e3132",
+              "primary-fixed-dim": "#80d5cb",
+              "surface-variant": "#e1e3e4",
+              "on-secondary-fixed": "#002116",
+              "on-tertiary": "#ffffff",
+              "on-primary-container": "#a3faef",
+              "error-container": "#ffdad6",
+              "tertiary-container": "#616980",
+              "error": "#ba1a1a",
+              "on-secondary-fixed-variant": "#00513c",
+              "primary": "#005c55",
+              "on-secondary-container": "#007055",
+              "inverse-primary": "#80d5cb",
+              "on-secondary": "#ffffff",
+              "surface-dim": "#d9dadb",
+              "outline": "#6e7977",
+              "secondary-fixed-dim": "#7bd8b5",
+              "on-primary-fixed": "#00201d",
+              "surface-bright": "#f8f9fa",
+              "secondary-fixed": "#97f5d0",
+              "on-primary-fixed-variant": "#00504a",
+              "on-tertiary-container": "#e4e9ff",
+              "tertiary-fixed": "#dae2fd",
+              "on-background": "#191c1d",
+              "primary-fixed": "#9cf2e8",
+              "on-error": "#ffffff",
+              "surface-container-highest": "#e1e3e4",
+              "secondary-container": "#94f2cd",
+              "surface-tint": "#006a63",
+              "on-error-container": "#93000a",
+              "outline-variant": "#bdc9c6",
+              "surface-container-lowest": "#ffffff",
+              "surface": "#f8f9fa",
+              "primary-container": "#0f766e",
+              "on-tertiary-fixed": "#131b2e",
+              "on-primary": "#ffffff",
+              "surface-container-high": "#e7e8e9",
+              "surface-container-low": "#f3f4f5",
+              "secondary": "#006c51",
+              "on-tertiary-fixed-variant": "#3f465c",
+              "on-surface": "#191c1d",
+              "inverse-on-surface": "#f0f1f2",
+              "tertiary-fixed-dim": "#bec6e0",
+              "background": "#f8f9fa",
+              "tertiary": "#495167"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .font-headline { font-family: 'Manrope', sans-serif; }
+    </style>
+</head>
+<body class="bg-background text-on-surface selection:bg-primary-fixed-dim selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-xl shadow-sm dark:shadow-none h-20">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 h-full">
+<div class="text-2xl font-bold tracking-tighter text-teal-900 dark:text-teal-50">Greentryst</div>
+<div class="hidden md:flex items-center space-gap-8 gap-x-8 font-manrope text-sm font-semibold tracking-tight">
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-200 transition-colors" href="#">Courses</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-200 transition-colors" href="#">Glossary</a>
+<a class="text-teal-700 dark:text-teal-300 border-b-2 border-teal-700 dark:border-teal-300 pb-1" href="#">Sustainability Topics</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-on-surface-variant hover:bg-teal-50/50 p-2 rounded-lg transition-all">search</button>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-lg font-semibold hover:scale-95 duration-200 ease-in-out">Login</button>
+</div>
+</div>
+</nav>
+<main class="pt-32 pb-24 px-8 max-w-7xl mx-auto">
+<!-- Hero Section: Asymmetric & Editorial -->
+<header class="mb-24 flex flex-col md:flex-row items-end justify-between gap-12">
+<div class="max-w-2xl">
+<span class="text-primary font-semibold tracking-widest uppercase text-xs mb-4 block">Knowledge Clusters</span>
+<h1 class="text-6xl font-extrabold tracking-tighter text-on-surface leading-[1.1] mb-8">
+                    Sustainability <span class="text-primary">Topics</span>
+</h1>
+<p class="text-xl text-on-surface-variant leading-relaxed font-body">
+                    Dive into our curated living archive. These foundational pillars represent the evolving landscape of global sustainability, designed for strategic depth and environmental impact.
+                </p>
+</div>
+<div class="hidden lg:block w-1/3 aspect-square bg-surface-container-low rounded-xl relative overflow-hidden">
+<img alt="Top view of forest canopy" class="w-full h-full object-cover opacity-80 mix-blend-multiply grayscale hover:grayscale-0 transition-all duration-700" data-alt="Abstract aerial view of lush green forest canopy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNMrt6Xgm1-uw9tGafZH5tArCkOAa4QhkVxYO8KCpeP8p0TdHjAJ1ycuHZkQxtxkBky-yotycEIOMPGpv_sfoVMmuSJ80bsTkfb9gb40zTvfZqPWZTvew3s6JVD46L2xQaeE2iDNTsY4swNGgIFTGJN8PzGK-Eu_oUdjw9Lr10LIIhwf5K3x_Ax8Nkv0Pzv3qNgwFT8KK-vSZpKtmKllyw3mj-gW0Ma1iaiHVp-yNS3G4usgq7HkTZ5RsXjfgj_A-B1LBolYi2TWI"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent"></div>
+</div>
+</header>
+<!-- Topic Grid: Bento Style / Asymmetric -->
+<section class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Green Finance (Large Hero Card) -->
+<div class="md:col-span-8 group relative overflow-hidden rounded-xl bg-surface-container-low min-h-[450px] flex flex-col justify-end p-10 hover:bg-surface-container-lowest transition-all duration-300">
+<div class="absolute top-0 right-0 w-1/2 h-full opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-[300px] text-primary" data-icon="payments">payments</span>
+</div>
+<div class="relative z-10 max-w-md">
+<div class="mb-6 inline-flex items-center justify-center w-14 h-14 rounded-lg bg-primary-container text-on-primary-container shadow-sm">
+<span class="material-symbols-outlined" data-icon="payments" data-weight="fill" style="font-variation-settings: 'FILL' 1;">payments</span>
+</div>
+<h2 class="text-4xl font-bold tracking-tight text-on-surface mb-4">Green Finance</h2>
+<p class="text-on-surface-variant leading-relaxed mb-8">Exploring the mechanisms of sustainable investment, green bonds, and the integration of environmental risk into global financial systems.</p>
+<button class="bg-on-surface text-surface px-8 py-3 rounded-lg font-semibold flex items-center gap-2 group-hover:bg-primary transition-colors">
+                        Explore Modules <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- ESG Strategies (Vertical Card) -->
+<div class="md:col-span-4 bg-tertiary-fixed rounded-xl p-10 flex flex-col justify-between hover:shadow-xl hover:shadow-primary/5 transition-all">
+<div>
+<div class="mb-6 inline-flex items-center justify-center w-12 h-12 rounded-lg bg-on-tertiary-fixed text-tertiary-fixed">
+<span class="material-symbols-outlined" data-icon="strategy" data-weight="fill" style="font-variation-settings: 'FILL' 1;">strategy</span>
+</div>
+<h2 class="text-3xl font-bold tracking-tight text-on-tertiary-fixed mb-4">ESG Strategies</h2>
+<p class="text-on-tertiary-fixed-variant leading-relaxed">Frameworks for Environmental, Social, and Governance criteria in corporate governance and long-term value creation.</p>
+</div>
+<div class="mt-8 border-t border-on-tertiary-fixed/10 pt-8">
+<ul class="space-y-4">
+<li class="flex items-center gap-3 text-on-tertiary-fixed font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span> Compliance Mapping
+                        </li>
+<li class="flex items-center gap-3 text-on-tertiary-fixed font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span> Stakeholder Impact
+                        </li>
+</ul>
+</div>
+</div>
+<!-- Circular Economy (Wide Card) -->
+<div class="md:col-span-6 group bg-surface-container-low rounded-xl p-10 flex flex-col md:flex-row gap-10 items-center hover:bg-surface-container-lowest transition-all">
+<div class="flex-1">
+<div class="mb-6 inline-flex items-center justify-center w-12 h-12 rounded-lg bg-secondary-container text-on-secondary-container">
+<span class="material-symbols-outlined" data-icon="cycle">cycle</span>
+</div>
+<h2 class="text-3xl font-bold tracking-tight text-on-surface mb-4">Circular Economy</h2>
+<p class="text-on-surface-variant leading-relaxed">Transitioning from linear "take-make-waste" models to regenerative systems that decouple growth from resource consumption.</p>
+</div>
+<div class="w-full md:w-48 aspect-square rounded-lg overflow-hidden shrink-0">
+<img alt="Circular pattern in nature" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="Abstract circular pattern in nature or recycling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8xSwXaiJ0ys3aivJ4XPFIwxdoTZqicvw5_Ultuf8DdOdYrDLI_fM9Fk9pYD5FGDMjz1Z3yv2EyEFKRXoItkrqS537zXjB62tPd4q4RBv43ZgfJXykEJ-tmjm4sZ2t5E8UcBg75ym3zsbY7vGzvPirgkH50mDU4JAvrrX89ojzKBUYVw1_QSLfUzJQ-MNsQt4_hzf0LsCchZNPKOnCjlZQHjQs6yzIRZG15fZTqIuAORr_eCwUz45IAY_0B5iGeNyGQW8CpoEn69M"/>
+</div>
+</div>
+<!-- Carbon Markets (Standard Card) -->
+<div class="md:col-span-6 group bg-surface-container-low rounded-xl p-10 flex flex-col md:flex-row gap-10 items-center hover:bg-surface-container-lowest transition-all">
+<div class="flex-1">
+<div class="mb-6 inline-flex items-center justify-center w-12 h-12 rounded-lg bg-primary-container text-on-primary-container">
+<span class="material-symbols-outlined" data-icon="co2">co2</span>
+</div>
+<h2 class="text-3xl font-bold tracking-tight text-on-surface mb-4">Carbon Markets</h2>
+<p class="text-on-surface-variant leading-relaxed">Navigating cap-and-trade systems, voluntary offsets, and the economics of global emission reduction targets.</p>
+</div>
+<div class="w-full md:w-48 aspect-square rounded-lg overflow-hidden shrink-0">
+<img alt="Forest mist" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="Atmospheric forest mist representing air and carbon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYuRqtMUGa4NlDV1WqAqK6EqqrTcVtU4rlAuHQuBL7iUjIF26RTFA5CzdqE8LeRSayxNa4toxf14IAzm-H9KboM7hPhaRcj14AhAtfEoqKjGwnT4V74mJvUtyG8Gv8reiMinpg4rSXRJdtJ9SFJf8qvZkXQwdr2Hkt-shqxgqLXgIGHOnBObrNZBGCCRykVdIezfbq7srAt_FUibXoyPCyTVK7h5tnXA0YojepqeyI2IW9ZYeu_0aADdpKUKb5_VtnMOkh4CUqOrY"/>
+</div>
+</div>
+<!-- Additional Micro Topics (Row) -->
+<div class="md:col-span-3 bg-surface-container rounded-xl p-8 hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-primary mb-4" data-icon="energy_savings_leaf">energy_savings_leaf</span>
+<h3 class="font-bold text-lg mb-2">Renewable Energy</h3>
+<p class="text-sm text-on-surface-variant">The transition to solar, wind, and geothermal infrastructure.</p>
+</div>
+<div class="md:col-span-3 bg-surface-container rounded-xl p-8 hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-primary mb-4" data-icon="water_drop">water_drop</span>
+<h3 class="font-bold text-lg mb-2">Water Stewardship</h3>
+<p class="text-sm text-on-surface-variant">Conserving and managing shared freshwater resources.</p>
+</div>
+<div class="md:col-span-3 bg-surface-container rounded-xl p-8 hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-primary mb-4" data-icon="diversity_2">diversity_2</span>
+<h3 class="font-bold text-lg mb-2">Social Equity</h3>
+<p class="text-sm text-on-surface-variant">The human pillar of the sustainability triple bottom line.</p>
+</div>
+<div class="md:col-span-3 bg-surface-container rounded-xl p-8 hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-primary mb-4" data-icon="biotech">biotech</span>
+<h3 class="font-bold text-lg mb-2">Agri-Tech</h3>
+<p class="text-sm text-on-surface-variant">Regenerative agriculture and food security innovations.</p>
+</div>
+</section>
+<!-- Newsletter / CTA Callout -->
+<section class="mt-32 rounded-2xl bg-primary-container p-12 md:p-20 relative overflow-hidden">
+<div class="absolute top-0 right-0 p-8 opacity-20">
+<span class="material-symbols-outlined text-[200px] text-on-primary-container" data-icon="potted_plant">potted_plant</span>
+</div>
+<div class="relative z-10 max-w-xl">
+<h2 class="text-4xl font-bold text-on-primary-container tracking-tight mb-6">Stay Informed on the Living Archive.</h2>
+<p class="text-primary-fixed text-lg mb-10">Receive weekly curated insights on the latest shifts in global sustainability policy and regenerative strategy.</p>
+<form class="flex flex-col sm:flex-row gap-4">
+<input class="flex-grow bg-white/10 border-0 rounded-lg px-6 py-4 text-white placeholder:text-primary-fixed/60 focus:ring-2 focus:ring-primary-fixed-dim outline-none transition-all" placeholder="Your professional email" type="email"/>
+<button class="bg-primary-fixed text-on-primary-fixed px-10 py-4 rounded-lg font-bold hover:bg-white transition-colors">Join Archive</button>
+</form>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-50 dark:bg-slate-900 w-full pt-20 pb-12">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-12 mb-16">
+<div>
+<h4 class="font-manrope font-bold text-lg text-teal-900 dark:text-teal-50 mb-6">Greentryst</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-inter leading-relaxed">Cultivating a collective intelligence for the regenerative age.</p>
+</div>
+<div>
+<h5 class="font-bold text-teal-800 dark:text-teal-400 mb-6 text-sm uppercase tracking-wider">Top Priorities</h5>
+<nav class="flex flex-col gap-4">
+<a class="text-slate-500 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-200 underline decoration-2 underline-offset-4 transition-opacity" href="#">Green Finance</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-200 underline decoration-2 underline-offset-4 transition-opacity" href="#">ESG Strategies</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-200 underline decoration-2 underline-offset-4 transition-opacity" href="#">Circular Economy</a>
+</nav>
+</div>
+<div>
+<h5 class="font-bold text-teal-800 dark:text-teal-400 mb-6 text-sm uppercase tracking-wider">Resources</h5>
+<nav class="flex flex-col gap-4">
+<a class="text-slate-500 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-200 underline decoration-2 underline-offset-4 transition-opacity" href="#">Glossary</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-200 underline decoration-2 underline-offset-4 transition-opacity" href="#">Feedback</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-200 underline decoration-2 underline-offset-4 transition-opacity" href="#">Privacy Policy</a>
+</nav>
+</div>
+<div>
+<h5 class="font-bold text-teal-800 dark:text-teal-400 mb-6 text-sm uppercase tracking-wider">Connect</h5>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-lg bg-white shadow-sm flex items-center justify-center text-teal-800 hover:scale-95 transition-all" href="#">
+<span class="material-symbols-outlined text-xl">share</span>
+</a>
+<a class="w-10 h-10 rounded-lg bg-white shadow-sm flex items-center justify-center text-teal-800 hover:scale-95 transition-all" href="#">
+<span class="material-symbols-outlined text-xl">mail</span>
+</a>
+</div>
+</div>
+</div>
+<div class="pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-slate-500 dark:text-slate-400 text-sm">© 2024 Greentryst. Cultivating a Living Archive.</p>
+<div class="flex gap-8">
+<a class="text-slate-400 text-xs hover:text-teal-600" href="#">Terms of Service</a>
+<a class="text-slate-400 text-xs hover:text-teal-600" href="#">Accessibility</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

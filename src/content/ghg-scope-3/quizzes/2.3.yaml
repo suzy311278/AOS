@@ -1,0 +1,26 @@
+- question: "Under which organisational boundary consolidation approach are Category 8 (Upstream Leased Assets) emissions most likely to be zero?"
+  options:
+    - "Equity share approach"
+    - "Financial control approach"
+    - "Operational control approach"
+    - "Headcount approach"
+  answer: 2
+  explanation: "Under the operational control approach, companies include emissions from all assets they operate, including leased ones. This means leased assets are already in Scope 1 and 2, so Category 8 would be zero or negligible."
+
+- question: "Category 8 covers which of the following scenarios?"
+  options:
+    - "A company leasing out its warehouse to a third party"
+    - "A company leasing server space in a data centre it does not operate, under financial control consolidation"
+    - "A company owning and operating its own server room"
+    - "A company's data centre located on land leased from a government"
+  answer: 1
+  explanation: "Category 8 applies when a company leases an asset FROM another party (is the lessee) and the leased asset's emissions are not already in its Scope 1/2. Server co-location space leased from a data centre operator — where the company does not have operational control — is a clear Category 8 example. Leasing out to a third party is Category 13."
+
+- question: "IFRS 16 (the financial leasing standard) is useful for Category 8 because:"
+  options:
+    - "It provides emission factors for all leased assets"
+    - "It lists all operating leases, which can serve as a starting inventory for Category 8 identification"
+    - "It requires lessors to report emissions to lessees"
+    - "It eliminates the need for Category 8 reporting"
+  answer: 1
+  explanation: "IFRS 16 requires companies to bring most operating leases onto the balance sheet as right-of-use assets. This creates a ready-made list of leased assets that companies can use as a starting point to identify which items are relevant for Category 8."

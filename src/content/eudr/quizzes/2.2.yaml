@@ -1,0 +1,26 @@
+- question: "A coffee cooperative in Ethiopia consolidates beans from 800 smallholder farmers. Each farmer has a plot of approximately 1.5 hectares. What geolocation data format does the EUDR require for each of these plots?"
+  options:
+    - "A polygon defined by multiple GPS coordinates outlining the plot boundary"
+    - "A single GPS point coordinate, since each plot is 4 hectares or less"
+    - "The administrative district code plus the GPS coordinates of the cooperative's processing facility"
+    - "No GPS data is required for plots under 2 hectares"
+  answer: 1
+  explanation: "For production plots of 4 hectares or less, the EUDR allows a single GPS point coordinate rather than requiring a full polygon. Since each farmer's plot is approximately 1.5 hectares, a single GPS point per plot is sufficient. A polygon (multiple boundary coordinates) is required only for plots larger than 4 hectares."
+
+- question: "How does Brazil's Rural Environmental Registry (CAR) help with EUDR compliance for cattle and soy supply chains?"
+  options:
+    - "CAR registration automatically certifies that a farm is deforestation-free, satisfying the EUDR requirement"
+    - "CAR provides polygon boundary data for Brazilian rural properties, which can be used as a starting point for geolocation compliance, though it must be supplemented with satellite imagery to verify deforestation-free status"
+    - "CAR data is not accepted under the EUDR because it is a national system, not an EU-recognised source"
+    - "CAR replaces the need for due diligence statements for cattle products from Brazil"
+  answer: 1
+  explanation: "Brazil's CAR system provides polygon boundary data for registered rural properties, which is a valuable starting point for EUDR geolocation compliance. However, CAR data alone does not prove deforestation-free status: operators must still cross-reference CAR polygon coordinates with satellite imagery showing vegetation history to verify whether the specific production area was cleared after 31 December 2020."
+
+- question: "What role does the EU Observatory on Deforestation and Forest Degradation play in EUDR compliance?"
+  options:
+    - "It issues official EUDR compliance certificates to operators who use its data"
+    - "It provides country-level forest monitoring data and tools that operators can use to support their risk assessments, but compliance decisions remain the operator's responsibility"
+    - "It replaces national competent authorities as the primary enforcement body"
+    - "It manages the EUDR Information System where due diligence statements are submitted"
+  answer: 1
+  explanation: "The EU Observatory on Deforestation provides country-level deforestation data, global forest cover monitoring tools, and risk information that operators can use to support their due diligence risk assessments. However, it does not make compliance decisions or issue certificates. The responsibility for determining whether specific production plots are deforestation-free rests with the operator, informed by Observatory data and other sources."

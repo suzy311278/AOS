@@ -1,0 +1,384 @@
+{
+  "start_url": "https://verst.earth/e-learning/",
+  "pages_crawled": 63,
+  "pages": [
+    {
+      "url": "https://verst.earth/e-learning/",
+      "title": "E-Learning - Verst Carbon",
+      "word_count": 919,
+      "file": "000_verst.earth_e-learning.md"
+    },
+    {
+      "url": "https://verst.earth",
+      "title": "Home - Verst Carbon",
+      "word_count": 919,
+      "file": "012_verst.earth.md"
+    },
+    {
+      "url": "https://verst.earth/carbon-credit-financing-for-productive-use-appliance-pua-markets",
+      "title": "Carbon Credit Financing for Productive Use Appliance (PUA) Markets. - Verst Carbon",
+      "word_count": 1134,
+      "file": "013_verst.earth_carbon-credit-financing-for-productive-use-appliance-pua-markets.md"
+    },
+    {
+      "url": "https://verst.earth/15billiontrees-initiative-capacity-building",
+      "title": "#15BillionTrees initiative Capacity Building. Verst Carbon Capacity Building - Verst Carbon",
+      "word_count": 1306,
+      "file": "014_verst.earth_15billiontrees-initiative-capacity-building.md"
+    },
+    {
+      "url": "https://verst.earth/carbon-markets-activation-plan-platform-cmap",
+      "title": "Carbon Markets Activation Plan Platform (CMAP). - Verst Carbon",
+      "word_count": 1095,
+      "file": "015_verst.earth_carbon-markets-activation-plan-platform-cmap.md"
+    },
+    {
+      "url": "https://verst.earth/ai-pdd-generator",
+      "title": "AI PDD Generator - Verst Carbon",
+      "word_count": 982,
+      "file": "016_verst.earth_ai-pdd-generator.md"
+    },
+    {
+      "url": "https://verst.earth/bio-energy-for-agriculture-rural-livelihoods",
+      "title": "Bio-Energy for Agriculture + Rural Livelihoods - Verst Carbon",
+      "word_count": 1185,
+      "file": "017_verst.earth_bio-energy-for-agriculture-rural-livelihoods.md"
+    },
+    {
+      "url": "https://verst.earth/carbon-project-development",
+      "title": "Carbon Project Development Verst Carbon Project Development - Verst Carbon",
+      "word_count": 902,
+      "file": "018_verst.earth_carbon-project-development.md"
+    },
+    {
+      "url": "https://verst.earth/carbon-markets-capacity-building",
+      "title": "Verst Carbon Carbon Markets Capacity Building - Verst Carbon Carbon Markets Capacity Building",
+      "word_count": 1213,
+      "file": "019_verst.earth_carbon-markets-capacity-building.md"
+    },
+    {
+      "url": "https://verst.earth/carbon-market-capacity-building-for-e-mobility-companies",
+      "title": "Carbon Market Capacity Building for E-Mobility Companies. - Verst Carbon",
+      "word_count": 861,
+      "file": "020_verst.earth_carbon-market-capacity-building-for-e-mobility-companies.md"
+    },
+    {
+      "url": "https://verst.earth/deib-sustainability-workshop",
+      "title": "DEIB Sustainability Workshop - Verst Carbon",
+      "word_count": 790,
+      "file": "021_verst.earth_deib-sustainability-workshop.md"
+    },
+    {
+      "url": "https://verst.earth/contact-us",
+      "title": "Contact Us - Verst Carbon",
+      "word_count": 604,
+      "file": "022_verst.earth_contact-us.md"
+    },
+    {
+      "url": "https://verst.earth/insights",
+      "title": "Insights - Verst Carbon",
+      "word_count": 943,
+      "file": "023_verst.earth_insights.md"
+    },
+    {
+      "url": "https://verst.earth/local-stakeholder-consultations-lsc",
+      "title": "Local Stakeholder Consultations (LSC) - Verst Carbon",
+      "word_count": 536,
+      "file": "024_verst.earth_local-stakeholder-consultations-lsc.md"
+    },
+    {
+      "url": "https://verst.earth/mass-transition-to-clean-cooking-energy-for-sustainable-school-feeding-through-carbon-finance",
+      "title": "Mass Transition to Clean Cooking Energy for Sustainable School Feeding through Carbon Finance. - Verst Carbon",
+      "word_count": 1151,
+      "file": "025_verst.earth_mass-transition-to-clean-cooking-energy-for-sustainable-school-feeding-through-carbon-finance.md"
+    },
+    {
+      "url": "https://verst.earth/dmrv",
+      "title": "dMRV - Verst Carbon",
+      "word_count": 898,
+      "file": "026_verst.earth_dmrv.md"
+    },
+    {
+      "url": "https://verst.earth/finance-project",
+      "title": "Finance Project - Verst Carbon",
+      "word_count": 1908,
+      "file": "027_verst.earth_finance-project.md"
+    },
+    {
+      "url": "https://verst.earth/media",
+      "title": "Media - Verst Carbon",
+      "word_count": 593,
+      "file": "028_verst.earth_media.md"
+    },
+    {
+      "url": "https://verst.earth/e-learning",
+      "title": "E-Learning - Verst Carbon",
+      "word_count": 919,
+      "file": "029_verst.earth_e-learning.md"
+    },
+    {
+      "url": "https://verst.earth/naconek-lsc",
+      "title": "NACONEK POA LSC - Verst Carbon",
+      "word_count": 901,
+      "file": "030_verst.earth_naconek-lsc.md"
+    },
+    {
+      "url": "https://verst.earth/national-carbon-registry",
+      "title": "National Carbon Registry - Verst Carbon",
+      "word_count": 930,
+      "file": "031_verst.earth_national-carbon-registry.md"
+    },
+    {
+      "url": "https://verst.earth/innovation-and-emerging-technology",
+      "title": "Innovation and Emerging Technology - Verst Carbon",
+      "word_count": 944,
+      "file": "032_verst.earth_innovation-and-emerging-technology.md"
+    },
+    {
+      "url": "https://verst.earth/eoi-aggregating-projects",
+      "title": "Expression of Interest - Verst Carbon",
+      "word_count": 1107,
+      "file": "033_verst.earth_eoi-aggregating-projects.md"
+    },
+    {
+      "url": "https://verst.earth/project-development-platform",
+      "title": "Project Development Platform - Verst Carbon",
+      "word_count": 748,
+      "file": "034_verst.earth_project-development-platform.md"
+    },
+    {
+      "url": "https://verst.earth/the-gold-standard-carbon-market-training-network",
+      "title": "The Gold Standard Carbon Market Training Network. - Verst Carbon",
+      "word_count": 947,
+      "file": "035_verst.earth_the-gold-standard-carbon-market-training-network.md"
+    },
+    {
+      "url": "https://verst.earth/paygo",
+      "title": "PayGo - Verst Carbon",
+      "word_count": 958,
+      "file": "036_verst.earth_paygo.md"
+    },
+    {
+      "url": "https://verst.earth/navigating-the-carbon-market-opportunities-in-zimbabwes-agricultural-communities",
+      "title": "Navigating the Carbon Market Opportunities in Zimbabwe\u2019s Agricultural Communities. - Verst Carbon",
+      "word_count": 1190,
+      "file": "037_verst.earth_navigating-the-carbon-market-opportunities-in-zimbabwes-agricultural-communities.md"
+    },
+    {
+      "url": "https://verst.earth/our-carbon-project-life-cycle",
+      "title": "Our Carbon Project Principle - Verst Carbon",
+      "word_count": 873,
+      "file": "038_verst.earth_our-carbon-project-life-cycle.md"
+    },
+    {
+      "url": "https://verst.earth/the-team",
+      "title": "The Team Meet the Verst Carbon Team - Verst Carbon",
+      "word_count": 1085,
+      "file": "039_verst.earth_the-team.md"
+    },
+    {
+      "url": "https://verst.earth/strengthening-carbon-market-readiness-in-turkana-county",
+      "title": "Strengthening Carbon Market Readiness in Turkana County - Verst Carbon",
+      "word_count": 1182,
+      "file": "040_verst.earth_strengthening-carbon-market-readiness-in-turkana-county.md"
+    },
+    {
+      "url": "https://verst.earth/pureplant-organics-lsc",
+      "title": "PurePlant Organics LSC - Verst Carbon",
+      "word_count": 792,
+      "file": "041_verst.earth_pureplant-organics-lsc.md"
+    },
+    {
+      "url": "https://verst.earth?page_id=5241",
+      "title": "Page not found \u2013 Verst Carbon",
+      "word_count": 547,
+      "file": "042_verst.earth?page_id=5241.md"
+    },
+    {
+      "url": "https://verst.earth/transforming-cooking-transforming-lives",
+      "title": "Transforming cooking, transforming lives. - Verst Carbon",
+      "word_count": 951,
+      "file": "043_verst.earth_transforming-cooking-transforming-lives.md"
+    },
+    {
+      "url": "https://verst.earth/author/verst-carbon",
+      "title": "Verst Carbon - Verst Carbon",
+      "word_count": 755,
+      "file": "045_verst.earth_author_verst-carbon.md"
+    },
+    {
+      "url": "https://verst.earth/verst-carbon-launches-its-innovative-carbon-project-development-support-platform-at-cop28",
+      "title": "Verst Carbon Launches its Innovative Carbon Project Development Support Platform at COP28 - March 2023",
+      "word_count": 1480,
+      "file": "046_verst.earth_verst-carbon-launches-its-innovative-carbon-project-development-support-platform-at-cop28.md"
+    },
+    {
+      "url": "https://verst.earth/kenya-officially-launches-national-carbon-registry-to-strengthenintegrity-and-global-market-participation",
+      "title": "Kenya Officially Launches National Carbon Registry to StrengthenIntegrity and Global Market Participation - March 2026",
+      "word_count": 1419,
+      "file": "047_verst.earth_kenya-officially-launches-national-carbon-registry-to-strengthenintegrity-and-global-market-participation.md"
+    },
+    {
+      "url": "https://verst.earth/verst-carbon-partners-with-nyalore-impact-to-scale-clean-cooking-in-rural-kenya-part-1",
+      "title": "Verst Carbon Partners with Nyalore Impact to Scale Clean Cooking in Rural Kenya: Part 1 - March 2024",
+      "word_count": 1513,
+      "file": "048_verst.earth_verst-carbon-partners-with-nyalore-impact-to-scale-clean-cooking-in-rural-kenya-part-1.md"
+    },
+    {
+      "url": "https://verst.earth/category/ai",
+      "title": "AI - Verst Carbon",
+      "word_count": 782,
+      "file": "049_verst.earth_category_ai.md"
+    },
+    {
+      "url": "https://verst.earth/building-resilient-african-carbon-markets-in-a-shifting-global-climate-order",
+      "title": "Building Resilient African Carbon Markets in a Shifting Global Climate Order - March 2026",
+      "word_count": 1585,
+      "file": "050_verst.earth_building-resilient-african-carbon-markets-in-a-shifting-global-climate-order.md"
+    },
+    {
+      "url": "https://verst.earth/biochar-as-evaporative-cooling-a-simple-idea-for-hot-dry-places",
+      "title": "Biochar as Evaporative Cooling: A Simple Idea for Hot, Dry Places - March 2026",
+      "word_count": 1352,
+      "file": "051_verst.earth_biochar-as-evaporative-cooling-a-simple-idea-for-hot-dry-places.md"
+    },
+    {
+      "url": "https://verst.earth/author/antonysure",
+      "title": "Antony Sure - Verst Carbon",
+      "word_count": 783,
+      "file": "052_verst.earth_author_antonysure.md"
+    },
+    {
+      "url": "https://verst.earth/category/technology",
+      "title": "Technology - Verst Carbon",
+      "word_count": 1502,
+      "file": "053_verst.earth_category_technology.md"
+    },
+    {
+      "url": "https://verst.earth/category/waste-management",
+      "title": "Waste Management - Verst Carbon",
+      "word_count": 719,
+      "file": "054_verst.earth_category_waste-management.md"
+    },
+    {
+      "url": "https://verst.earth/%f0%9d%90%84%f0%9d%90%b1%f0%9d%90%a9%f0%9d%90%a5%f0%9d%90%a8%f0%9d%90%ab%f0%9d%90%a2%f0%9d%90%a7%f0%9d%90%a0-%f0%9d%90%92%f0%9d%90%ae%f0%9d%90%ac%f0%9d%90%ad%f0%9d%90%9a%f0%9d%90%a2%f0%9d%90%a7",
+      "title": "Exploring Sustainable Innovations in Turkana County - March 2024",
+      "word_count": 841,
+      "file": "056_verst.earth_%f0%9d%90%84%f0%9d%90%b1%f0%9d%90%a9%f0%9d%90%a5%f0%9d%90%a8%f0%9d%90%ab%f0%9d%90%a2%f0%9d%90%a7%f0%9d%90%a0.md"
+    },
+    {
+      "url": "https://verst.earth/category/technology/page/2",
+      "title": "Technology - Verst Carbon - Page 2",
+      "word_count": 1243,
+      "file": "057_verst.earth_category_technology_page_2.md"
+    },
+    {
+      "url": "https://verst.earth/author/naima",
+      "title": "Naima Salim - Verst Carbon",
+      "word_count": 929,
+      "file": "058_verst.earth_author_naima.md"
+    },
+    {
+      "url": "https://verst.earth/kenyas-national-carbon-registry-what-it-is-why-it-matters-and-what-comes-next",
+      "title": "Kenya\u2019s National Carbon Registry: What It Is, Why It Matters, and What Comes Next - March 2026",
+      "word_count": 851,
+      "file": "059_verst.earth_kenyas-national-carbon-registry-what-it-is-why-it-matters-and-what-comes-next.md"
+    },
+    {
+      "url": "https://verst.earth/what-next-after-verras-consultation-with-blockchain-players",
+      "title": "What next after Verra\u2019s consultation with blockchain players? - March 2023",
+      "word_count": 1584,
+      "file": "060_verst.earth_what-next-after-verras-consultation-with-blockchain-players.md"
+    },
+    {
+      "url": "https://verst.earth/building-a-carbon-smart-energy-future-in-kenya",
+      "title": "Building a Carbon-Smart Energy Future in Kenya - March 2026",
+      "word_count": 1736,
+      "file": "061_verst.earth_building-a-carbon-smart-energy-future-in-kenya.md"
+    },
+    {
+      "url": "https://verst.earth/kenyas-proposed-climate-change-bill-amendment-a-blueprint-for-african-countries",
+      "title": "Kenya\u2019s Proposed Climate Change Bill Amendment: A Blueprint for African Countries? - March 2023",
+      "word_count": 1549,
+      "file": "062_verst.earth_kenyas-proposed-climate-change-bill-amendment-a-blueprint-for-african-countries.md"
+    },
+    {
+      "url": "https://verst.earth/carbon-removal-in-africa-why-integrity-matters-more-than-scale",
+      "title": "Carbon Removal in Africa: Why Integrity Matters More Than Scale - March 2026",
+      "word_count": 1184,
+      "file": "063_verst.earth_carbon-removal-in-africa-why-integrity-matters-more-than-scale.md"
+    },
+    {
+      "url": "https://verst.earth/verst-carbon-pilots-dmrv-platform-for-transparent-impact-part-2",
+      "title": "Verst Carbon pilots dMRV platform for Transparent Impact : Part 2 - March 2024",
+      "word_count": 1677,
+      "file": "064_verst.earth_verst-carbon-pilots-dmrv-platform-for-transparent-impact-part-2.md"
+    },
+    {
+      "url": "https://verst.earth/electrification-without-demand-flexibility-is-a-carbon-risk",
+      "title": "Electrification Without Demand Flexibility Is a Carbon Risk - March 2026",
+      "word_count": 1342,
+      "file": "065_verst.earth_electrification-without-demand-flexibility-is-a-carbon-risk.md"
+    },
+    {
+      "url": "https://verst.earth/advancing-solar-productive-use-appliances-with-carbon-finance-in-kenya",
+      "title": "Advancing Solar Productive Use Appliances with Carbon Finance in Kenya - March 2024",
+      "word_count": 832,
+      "file": "066_verst.earth_advancing-solar-productive-use-appliances-with-carbon-finance-in-kenya.md"
+    },
+    {
+      "url": "https://verst.earth/verst-carbon-and-africa-e-mobility-alliance-facilitated-an-impactful-three-day-workshop-organized-by-siemens-stiftung-on-carbon-markets-and-climate-financing-in-the-e-mobility-sector",
+      "title": "Verst Carbon partners with Africa E-Mobility Alliance to facilitate a 3 day workshop. - March 2024",
+      "word_count": 915,
+      "file": "067_verst.earth_verst-carbon-and-africa-e-mobility-alliance-facilitated-an-impactful-three-day-workshop-organized-by-siemens.md"
+    },
+    {
+      "url": "https://verst.earth/category/finance",
+      "title": "Finance - Verst Carbon",
+      "word_count": 607,
+      "file": "068_verst.earth_category_finance.md"
+    },
+    {
+      "url": "https://verst.earth/category/energy",
+      "title": "Energy - Verst Carbon",
+      "word_count": 902,
+      "file": "069_verst.earth_category_energy.md"
+    },
+    {
+      "url": "https://verst.earth/can-digital-mrv-boost-africas-participation-in-the-vcm",
+      "title": "Can Digital-MRV Boost Africa\u2019s participation in the VCM? - March 2023",
+      "word_count": 1724,
+      "file": "070_verst.earth_can-digital-mrv-boost-africas-participation-in-the-vcm.md"
+    },
+    {
+      "url": "https://verst.earth/beyond-the-data-poor-narrative-unlocking-high-quality-carbon-project-development-in-africa",
+      "title": "Beyond the \u201cData Poor\u201d Narrative: Unlocking High-Quality Carbon Project Development in Africa - March 2026",
+      "word_count": 1428,
+      "file": "071_verst.earth_beyond-the-data-poor-narrative-unlocking-high-quality-carbon-project-development-in-africa.md"
+    },
+    {
+      "url": "https://verst.earth/beyond-offsets-what-africa-needs-to-build-trust-in-carbon-removal-markets",
+      "title": "Beyond Offsets: What Africa Needs to Build Trust in Carbon Removal Markets - March 2026",
+      "word_count": 639,
+      "file": "072_verst.earth_beyond-offsets-what-africa-needs-to-build-trust-in-carbon-removal-markets.md"
+    },
+    {
+      "url": "https://verst.earth/author/rfaiz",
+      "title": "Rahma Faiz - Verst Carbon",
+      "word_count": 1356,
+      "file": "073_verst.earth_author_rfaiz.md"
+    },
+    {
+      "url": "https://verst.earth/from-waste-to-wealth-how-biochar-can-anchor-high-integrity-carbon-removal-in-africa",
+      "title": "From Waste to Wealth: How Biochar Can Anchor High\u2011Integrity Carbon Removal in Africa - March 2026",
+      "word_count": 695,
+      "file": "074_verst.earth_from-waste-to-wealth-how-biochar-can-anchor-high-integrity-carbon-removal-in-africa.md"
+    },
+    {
+      "url": "https://verst.earth/category/dmrv",
+      "title": "dMRV - Verst Carbon",
+      "word_count": 1051,
+      "file": "075_verst.earth_category_dmrv.md"
+    }
+  ]
+}

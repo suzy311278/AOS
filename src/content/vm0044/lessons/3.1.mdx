@@ -1,0 +1,165 @@
+{/* source: VM0044 v1.2, Section 8.2.2.1; Equations 1-5; Table 3 */}
+
+The production stage is where the main climate benefit happens in a biochar project. During pyrolysis, organic carbon from waste biomass is locked into a stable solid form. That carbon would otherwise have returned to the atmosphere as CO2 or methane over time. The GHG accounting at this stage compares the carbon locked into the biochar against the emissions generated to produce it. The net result is usually a large removal.
+
+This lesson covers the accounting rules for high technology production facilities. High technology facilities have automated process controls, continuous temperature monitoring, and pollution control equipment that prevents greenhouse gases from escaping during pyrolysis.
+
+## The Overall Production Stage Formula (Equation 1)
+
+The net GHG removal at the production stage is calculated as:
+
+<EquationBreakdown
+  title="Equation 1 - Production Stage Net Removals"
+  result="ER<sub>PS,y</sub> | Production Stage Net Removals | Net GHG emission removals at the production stage in year y, in tCO2e | blue"
+  inputs="CC<sub>t,k,y</sub> | Organic Carbon Content | Carbon locked in biochar type t for application k in year y, converted to tCO2e by multiplying by 44/12 (3.667) | green ;; PE<sub>PS,t,p,y</sub> | Production Stage Emissions | Project emissions from producing biochar type t at facility p in year y, in tCO2e (subtracted) | rose"
+  operator="−"
+/>
+
+The formula sums across all biochar types (t), application types (k), and facilities (p). The 44/12 factor converts tonnes of organic carbon to tCO2e (the molecular weight ratio of CO2 to carbon).
+
+The logic is straightforward. You take the carbon locked in the biochar and convert it to CO2 equivalent. Then you subtract all the emissions generated during production. The difference is the net removal credited to the project.
+
+<AnalogyBox>
+Think of it like a household budget. The carbon stored in the biochar is your income. The emissions from running the production facility are your expenses. The net removal is what you have left after paying the bills. High technology facilities have very low expenses, so most of the income becomes net credit.
+</AnalogyBox>
+
+## Step 1: Estimating Organic Carbon Content (Equation 2)
+
+For high technology facilities, the organic carbon content locked into the biochar is calculated as:
+
+<EquationBreakdown
+  title="Equation 2 - Organic Carbon Content"
+  result="CC<sub>t,k,y</sub> | Organic Carbon Content | Permanent organic carbon in biochar type t for application k in year y, in tonnes of carbon | blue"
+  inputs="M<sub>t,k,p,y</sub> | Biochar Mass | Dry weight of biochar type t for application k produced at facility p in year y, in tonnes | green ;; F<sub>Cp,t,p</sub> | Carbon Fraction | Organic carbon content per tonne of dry biochar (e.g. 0.77 means 77%), determined by lab analysis for high technology | amber ;; PR<sub>de,k</sub> | Permanence Factor | Fraction of carbon expected to remain stored after 100 years for application type k (from Table 3) | violet"
+/>
+
+Note that M_t,k,p,y is measured on a dry weight basis. Water content in freshly produced biochar must be excluded. Most high technology facilities have continuous weighing systems that can record this directly.
+
+For high technology facilities, F_Cp,t,p must be determined by laboratory material analysis. This means sending representative samples of each biochar type to an accredited laboratory. The laboratory measures the fraction of organic carbon in the dry biochar. Common values range from about 0.50 to 0.85 depending on feedstock and temperature.
+
+## The Permanence Adjustment Factor (Table 3)
+
+Biochar decays slowly over time. Even though it is far more stable than raw organic matter, some fraction of the carbon will eventually return to the atmosphere over a 100-year horizon. The permanence adjustment factor PR_de,k represents the fraction of organic carbon that will still be stored in the biochar after 100 years.
+
+Higher temperature pyrolysis creates more aromatic carbon ring structures. These structures are chemically resistant to microbial breakdown. This is why high temperature biochar has a higher permanence factor.
+
+For soil end-use, Table 3 provides default values based on production temperature:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Production Process and Temperature</th>
+      <th>Permanence Factor (PR_de,k)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>High temperature pyrolysis or gasification (above 600 degrees C)</td>
+      <td>0.89</td>
+    </tr>
+    <tr>
+      <td>Medium temperature pyrolysis (450 to 600 degrees C)</td>
+      <td>0.80</td>
+    </tr>
+    <tr>
+      <td>Low temperature pyrolysis (350 to 450 degrees C)</td>
+      <td>0.65</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+These values come from IPCC (2019). A PR_de,k of 0.89 means that 89% of the carbon locked into the biochar today is expected to still be stored after 100 years. The remaining 11% represents gradual degradation.
+
+For non-soil end-use applications (such as incorporation into concrete or use in water filtration), the same Table 3 values apply as defaults where no scientifically robust permanence data exists. Project proponents may propose alternative permanence values using peer-reviewed evidence, following VCS Methodology Requirements Section 2.5.2.
+
+## Step 2: Estimating Project Emissions (Equation 3)
+
+For high technology facilities, project emissions at the production stage are calculated as:
+
+PE_PS,p,y = (PE_D,p,y + PE_P,p,y + PE_C,p,y) x (sum of M_t,k,p,y / M_p,y)
+
+Where:
+*   PE_D,p,y = emissions from pre-treatment of feedstock at facility p in year y (tCO2e)
+*   PE_P,p,y = emissions from conversion of waste biomass into biochar at facility p in year y (tCO2e)
+*   PE_C,p,y = emissions from auxiliary energy for pyrolysis at facility p in year y (tCO2e)
+*   M_p,y = total mass of all biochar types on dry weight basis produced at facility p in year y (tonnes)
+
+The ratio (sum of M_t,k,p,y / M_p,y) allocates the facility-level emissions proportionally to the biochar types being accounted for. In most projects with a single biochar type, this ratio equals 1.
+
+### PE_D,p,y: Pre-Treatment Emissions (Equation 4)
+
+Pre-treatment includes drying, grinding, screening, and other steps to prepare the feedstock before pyrolysis.
+
+PE_D,p,y = PE_DE,p,y + PE_DF,p,y
+
+Where:
+*   PE_DE,p,y = emissions from grid-connected electricity used for pre-treatment. Calculated using CDM TOOL05.
+*   PE_DF,p,y = emissions from combustion of fossil fuels used for pre-treatment. Calculated using CDM TOOL03.
+
+If the energy source for pre-treatment is entirely renewable, PE_D,p,y = 0.
+
+### PE_P,p,y: Pyrolysis Process Emissions
+
+<HighlightBox>
+For high technology facilities, PE_P,p,y = 0. High technology systems are required to have pollution controls that capture or combust any gases emitted during the pyrolysis process. Net greenhouse gas emissions from the conversion process itself are therefore de minimis and set to zero by default.
+</HighlightBox>
+
+This is a significant advantage of the high technology classification. It simplifies accounting and reduces the deductions from gross carbon removal credits.
+
+### PE_C,p,y: Auxiliary Energy Emissions (Equation 5)
+
+Some reactors require electricity or fossil fuel to start up the pyrolysis reaction or to maintain stable temperatures.
+
+PE_C,p,y = PE_CE,p,y + PE_CF,p,y
+
+Where:
+*   PE_CE,p,y = emissions from grid electricity used to start or maintain the reactor. Calculated using CDM TOOL05.
+*   PE_CF,p,y = emissions from fossil fuels used to start or maintain the reactor. Calculated using CDM TOOL03.
+
+If the auxiliary energy source is entirely renewable, PE_C,p,y = 0.
+
+<ExampleBox>
+**Worked Example: High Technology Wood Biochar Production**
+
+A high technology facility produces 500 tonnes (dry weight) of wood pyrolysis biochar at above 600 degrees C. Laboratory analysis shows F_Cp = 0.77. All biochar goes to soil application. Electricity for pre-treatment = 2 tCO2e. No fossil fuels are used anywhere in the process.
+
+**Step 1: Calculate organic carbon content**
+
+CC = M x F_Cp x PR_de,k
+CC = 500 x 0.77 x 0.89
+CC = 342.65 tonnes of organic carbon
+
+**Step 2: Convert to CO2e**
+
+Carbon removal (gross) = 342.65 x 44/12 = 342.65 x 3.667 = 1,256.4 tCO2e
+
+**Step 3: Calculate project emissions**
+
+*   PE_D,p,y (pre-treatment electricity) = 2 tCO2e
+*   PE_P,p,y (pyrolysis process) = 0 (high technology default)
+*   PE_C,p,y (auxiliary energy) = 0 (no fossil fuels used)
+*   Total PE_PS = 2 tCO2e
+
+**Step 4: Net removal**
+
+ER_PS,y = 1,256.4 - 2 = **1,254.4 tCO2e**
+
+The net removal is almost entirely determined by the carbon content of the biochar. Production emissions are a small fraction of the gross removal.
+</ExampleBox>
+
+<CalculationExercise
+  question="A high technology facility produces 200 tonnes dry weight of wood biochar via pyrolysis above 600 degrees C. Laboratory analysis gives F_Cp = 0.77. All biochar goes to soil application (PR_de = 0.89). Pre-treatment electricity emissions = 1.5 tCO2e. All other emissions are zero. What is the net GHG emission removal at the production stage in tCO2e?"
+  answer={499}
+  tolerance={5}
+  unit="tCO2e"
+  hints={[
+    "First calculate the organic carbon content: M x F_Cp x PR_de = 200 x 0.77 x 0.89",
+    "Then convert carbon to CO2e by multiplying by 44/12 (approximately 3.667)",
+    "Finally subtract the project emissions: the pre-treatment electricity of 1.5 tCO2e"
+  ]}
+  solution="CC = 200 x 0.77 x 0.89 = 137.06 tonnes of carbon. Gross removal = 137.06 x 44/12 = 137.06 x 3.667 = 502.7 tCO2e. PE_PS = 1.5 tCO2e (pre-treatment only; PE_P = 0 for high technology). Net removal = 502.7 - 1.5 = 501.2 tCO2e (approximately 499 tCO2e depending on rounding)."
+/>
+
+<KeyTakeaways items="Net production removals = gross carbon stored in biochar (converted to tCO2e via 44/12 factor) minus all production stage emissions ;; Organic carbon content (CC) is calculated as dry mass x carbon fraction (F_Cp from lab analysis) x permanence factor (PR_de,k from Table 3) ;; Permanence factors range from 0.65 (low temp, 350-450C) to 0.89 (high temp, above 600C) - higher pyrolysis temperatures yield more stable biochar ;; For high technology facilities, pyrolysis process emissions (PE_P) are zero because pollution controls capture or combust all escaping gases ;; Production emissions are typically a small fraction of gross removals, meaning most of the carbon stored in biochar translates directly into credits" />

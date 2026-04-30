@@ -1,0 +1,26 @@
+- question: "What are the two specific disclosures required by IFRS S2 paragraph 6(b) about management's role?"
+  options:
+    - "The number of sustainability staff and their qualifications"
+    - "Whether responsibility is delegated to a specific role, and whether management uses controls and procedures"
+    - "The sustainability committee meeting frequency and reporting line"
+    - "The CSO's reporting line and whether a climate budget exists"
+  answer: 1
+  explanation: "Paragraph 6(b) requires two disclosures: (i) whether the climate risk management role is delegated to a specific management-level position, committee, or individual; and (ii) whether management uses controls and procedures to support oversight and how these integrate with other internal functions."
+
+- question: "IFRS S2 paragraph 7 allows entities to avoid unnecessary duplication in governance disclosures. When does this apply?"
+  options:
+    - "When the entity is applying IFRS S2 for the first time"
+    - "When climate risks are managed on an integrated basis with other sustainability topics"
+    - "When the board has fewer than 5 members with climate responsibilities"
+    - "When the entity uses the same governance body for all ESG topics"
+  answer: 1
+  explanation: "Paragraph 7 provides that if an entity manages climate-related risks on an integrated basis with other sustainability topics, it need not provide separate governance disclosures for climate specifically. Integrated disclosures that clearly indicate which elements apply to climate are sufficient."
+
+- question: "An entity discloses that its Chief Sustainability Officer chairs a monthly Climate Risk Management Committee. Where in the IFRS S2 structure does this most directly belong?"
+  options:
+    - "Governance — paragraph 6(a): board oversight"
+    - "Governance — paragraph 6(b): management's role"
+    - "Risk Management — paragraph 25(a): risk identification processes"
+    - "Strategy — paragraph 14: strategic responses"
+  answer: 1
+  explanation: "The CSO chairing a management committee is an example of delegated management responsibility — directly relevant to paragraph 6(b)(i), which requires disclosure of whether climate risk oversight is delegated to a specific management-level position or committee."

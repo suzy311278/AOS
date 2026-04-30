@@ -1,0 +1,26 @@
+- question: "A company reimburses employees for using their personal cars on business trips. The company also owns a fleet of delivery trucks. How should emissions from each be classified?"
+  options:
+    - "Both are Scope 1 - the company pays for both"
+    - "Employee cars are Scope 1 (reimbursement equals control), delivery trucks are also Scope 1"
+    - "Employee cars are Scope 3 (company does not own them), delivery trucks are Scope 1 (company-owned)"
+    - "Employee cars are Scope 3, delivery trucks are Scope 2"
+  answer: 2
+  explanation: "The scope boundary for mobile emissions is based on ownership or operational control, not who pays. Mileage reimbursement does not transfer ownership of the vehicle. Employee-owned cars used for business travel fall under Scope 3 (Category 6). Company-owned delivery trucks are Scope 1. This distinction catches people out constantly."
+
+- question: "A utility company's electrical switchgear leaks 3 kg of SF6 during the year. SF6 has a GWP of 23,500. How many tonnes CO2e should be reported?"
+  options:
+    - "70.5 tCO2e - equivalent to burning about 26,300 litres of diesel"
+    - "23.5 tCO2e - equivalent to burning about 8,800 litres of diesel"
+    - "7.05 tCO2e - equivalent to burning about 2,630 litres of diesel"
+    - "235 tCO2e - equivalent to burning about 87,700 litres of diesel"
+  answer: 0
+  explanation: "3 kg SF6 x 23,500 GWP = 70,500 kg CO2e = 70.5 tonnes CO2e. Since diesel produces about 2.68 kg CO2 per litre, this equals roughly 70,500 / 2.68 = 26,306 litres of diesel. This illustrates why fugitive emissions from high-GWP gases cannot be dismissed as negligible - a barely noticeable 3 kg leak has the climate impact of a significant fuel burn."
+
+- question: "An office building has 10 split AC units, each containing 4 kg of R-410A (GWP = 2,088). An AC contractor's service records show 6 kg of refrigerant was topped up during the year. Using the simplified material balance method, what are the fugitive emissions?"
+  options:
+    - "83.5 tCO2e - based on the total charge of 40 kg times GWP"
+    - "12.5 tCO2e - based on the 6 kg topped up times GWP"
+    - "4.2 tCO2e - based on a 5% default leak rate times total charge times GWP"
+    - "0 tCO2e - refrigerant top-ups are maintenance, not emissions"
+  answer: 1
+  explanation: "Under the simplified material balance method, the refrigerant topped up by the contractor equals the amount that leaked (assuming no equipment changes). So the emission is 6 kg x 2,088 GWP = 12,528 kg CO2e = 12.5 tCO2e. This method works well when external contractors handle all servicing - the top-up quantity is your direct measure of leakage."

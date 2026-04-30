@@ -1,0 +1,26 @@
+- question: "Under Article 9 of the CBAM Regulation, what is the primary condition that a third-country carbon price must meet to be deductible from a declarant's CBAM certificate obligation?"
+  options:
+    - "The carbon price must have been collected by the national central bank of the exporting country"
+    - "The carbon price must be at least 50% of the prevailing EU ETS price"
+    - "The carbon price must be legally binding and paid directly in respect of the embedded GHG emissions, with no export rebates or refunds"
+    - "The carbon price must cover at least three of the six CBAM product categories"
+  answer: 2
+  explanation: "Article 9 requires that the carbon price be imposed by a legally binding instrument, paid directly for the embedded emissions in the goods, and not refunded through export rebates or equivalent schemes. If a country refunds the carbon cost on exported goods, no deduction is available, because the producer has not actually borne the carbon cost."
+
+- question: "Which countries are generally exempt from CBAM entirely because their carbon pricing is considered equivalent to the EU ETS?"
+  options:
+    - "South Korea, China, and Canada"
+    - "Norway, Iceland, Liechtenstein (EEA), and Switzerland"
+    - "The United Kingdom, Japan, and Australia"
+    - "Turkey, Ukraine, and Kazakhstan"
+  answer: 1
+  explanation: "Norway, Iceland, and Liechtenstein participate in the EU ETS through the EEA Agreement. Switzerland operates a national ETS formally linked to the EU ETS. Because their producers already pay a carbon cost functionally equivalent to the EU ETS, they are generally exempt from CBAM obligations. Other countries with independent carbon pricing systems (such as South Korea) can claim partial deductions but are not fully exempt."
+
+- question: "A French company imports aluminium from a country with a carbon price of €20 per tonne CO₂e. The CBAM certificate price is €65 per tonne CO₂e. Embedded emissions are 5 tCO₂e per tonne of aluminium. What is the net CBAM certificate cost per tonne of aluminium imported, assuming full evidence is provided?"
+  options:
+    - "€325 per tonne (full CBAM cost at €65 x 5 tCO₂e, no deduction)"
+    - "€225 per tonne (deducting the €20 third-country price from €65, then multiplying by 5 tCO₂e)"
+    - "€100 per tonne (applying a fixed rebate rate to the full cost)"
+    - "€0 per tonne (any carbon price in the exporting country fully exempts the importer)"
+  answer: 1
+  explanation: "The net CBAM cost per tonne of CO₂e is €65 minus the deductible third-country price of €20, giving €45 per tonne CO₂e. Multiplied by the embedded emissions of 5 tCO₂e per tonne of aluminium, the net CBAM certificate cost is 5 x €45 = €225 per tonne of aluminium. Only the net difference between the CBAM price and the verified third-country carbon price is owed as CBAM certificates."

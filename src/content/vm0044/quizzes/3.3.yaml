@@ -1,0 +1,35 @@
+- question: "What does VM0044 set as the value for utilization emissions (E_ap,t,k,y) at the application stage?"
+  options:
+    - "Calculated case-by-case depending on the application type"
+    - "Zero in all cases, because these emissions are considered negligible"
+    - "Equal to the transport emissions for that application type"
+    - "Only zero for soil application; non-zero for non-soil applications"
+  answer: 1
+  explanation: "E_ap,t,k,y = 0 in all cases under VM0044. GHG emissions from fossil fuel combustion during mixing of biochar with fertilizer products or similar utilization activities are considered negligible, consistent with CDM methodology AR-ACM0003. This applies to all application types, not just soil application."
+
+- question: "A project transports biochar 150 km (one way) from the production facility to a soil application site. The round-trip distance is 300 km. How should this transportation leakage (LE_tap,y) be treated?"
+  options:
+    - "Set to zero, because one-way distance is under 200 km"
+    - "Calculated using CDM TOOL12, because the round-trip distance exceeds 200 km"
+    - "Set to zero, because soil application is always exempt from transport leakage"
+    - "Calculated using CDM TOOL03, because it involves fossil fuel combustion"
+  answer: 1
+  explanation: "VM0044 uses round-trip distance to determine whether transport leakage must be calculated. A round-trip of 300 km exceeds the 200 km threshold, so LE_tap,y must be calculated using CDM TOOL12. The one-way distance of 150 km is not the relevant figure. CDM TOOL03 is used for direct combustion emissions, not for freight transport leakage."
+
+- question: "Why is activity shift leakage (LE_as,y) always set to zero in VM0044 projects?"
+  options:
+    - "Activity shift leakage is too small to be worth calculating"
+    - "VM0044 only allows waste biomass feedstock, so no productive activity can shift elsewhere as a result of the project"
+    - "Activity shift leakage only applies to forestry projects, not biochar projects"
+    - "CDM TOOL12 already accounts for activity shift within its transport calculations"
+  answer: 1
+  explanation: "VM0044 Condition 4a requires that all feedstock must be purely biogenic waste biomass, not purpose-grown material. Because the project only uses waste or residue that had no prior productive use, the project cannot cause any agricultural or industrial activity to relocate or intensify elsewhere. There is no mechanism for activity shifting, so LE_as,y = 0 by design."
+
+- question: "How many leakage components make up total leakage (LE_y) in Equation 13 of VM0044?"
+  options:
+    - "Two"
+    - "Three"
+    - "Four"
+    - "Five"
+  answer: 2
+  explanation: "Equation 13 defines four leakage components: LE_as,y (activity shift), LE_bd,y (biomass diversion), LE_ts,y (transport of biomass from sourcing to production), and LE_tap,y (transport of biochar from production to application). For most projects with local supply chains, the first two are always zero and the last two are zero if distances stay under 200 km round-trip."

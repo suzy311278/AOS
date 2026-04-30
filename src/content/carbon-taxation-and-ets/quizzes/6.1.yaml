@@ -1,0 +1,35 @@
+- question: "What defines an industry as trade-exposed?"
+  options:
+    - "It exports some products"
+    - "A significant share of production is traded internationally and faces direct competition"
+    - "It employs foreign workers"
+    - "It uses imported equipment"
+  answer: 1
+  explanation: "Trade-exposed industries are those where a significant portion of production competes in international markets, making them vulnerable to carbon cost disadvantages if competitors do not face similar costs."
+
+- question: "What is the double exposure problem for some industries?"
+  options:
+    - "Being taxed twice"
+    - "Being both energy-intensive and trade-exposed, facing high carbon costs and international competition"
+    - "Exposure to two different regulations"
+    - "Operating in two countries"
+  answer: 1
+  explanation: "Industries like steel, cement, and aluminum are both highly energy-intensive (high carbon costs) and trade-exposed (face international competition), creating acute competitiveness concerns."
+
+- question: "What is output-based rebating?"
+  options:
+    - "Rebating allowance auction revenue based on production levels"
+    - "Taxing outputs rather than inputs"
+    - "Subsidizing exports"
+    - "Banning certain production"
+  answer: 0
+  explanation: "Output-based rebating returns revenue (from auctions or taxes) to facilities based on their production, maintaining efficiency incentives while reducing net carbon cost impact on competitiveness."
+
+- question: "How does benchmark-based free allocation address competitiveness?"
+  options:
+    - "By eliminating the carbon price entirely"
+    - "By providing free allowances based on best-practice emissions rates, reducing costs while rewarding efficiency"
+    - "By banning imports"
+    - "By subsidizing all production"
+  answer: 1
+  explanation: "Benchmark allocation gives free allowances based on production times a best-practice emissions rate, so efficient producers get more value and inefficient producers still face incentive to improve."

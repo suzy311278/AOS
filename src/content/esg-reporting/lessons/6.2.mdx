@@ -1,0 +1,161 @@
+{/* Sustainability / ESG Reporting in Practice */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/esg-reporting/6_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## The Final QA Checklist
+
+You have written the report. You have survived the revisions. The content is locked, the data is in, and the design team is putting the finishing touches on layout. You are almost done.
+
+This is the most dangerous moment in the entire engagement.
+
+The temptation is to skim the final PDF, declare it "looks good," and ship it. Do not do this. The errors that slip through at this stage (a mismatched number in a table, a table of contents that points to the wrong page, a decimal that moved one place) are the ones that damage credibility. Nobody remembers the 98 things you got right. Everyone remembers the one number that did not match between page 12 and page 47.
+
+This lesson walks through the complete QA checklist, in order. Every step is here for a reason, usually because someone, somewhere, learned the hard way that skipping it was a mistake.
+
+### Step 1: Index Page Matching
+
+Open the table of contents. Open the actual report. Check every single entry. Does "Chapter 4: Environmental Performance" actually start on the page the ToC says it does?
+
+This sounds trivial. It is not. Design layouts shift content constantly. A paragraph gets added, a chart gets resized, and suddenly every page number after page 30 is off by one or two. If the report is being professionally designed (which it should be), the designer will adjust page numbers, but your job is to verify that they did.
+
+Check every chapter, every sub-section, every entry in the ToC. If the report has a GRI Content Index with page references (it will: that is lesson 6.3), check those page numbers too.
+
+<HighlightBox>
+Index page matching is the first thing to check because it is the easiest to verify and the most embarrassing to get wrong. A reader who flips to a referenced page and finds the wrong section immediately loses trust in the document's precision.
+</HighlightBox>
+
+### Step 2: Internal Data Matching
+
+This is where the real work begins. Every number that appears in the report must be consistent with every other instance of that same number.
+
+Pick any metric, say, total Scope 1 emissions. It might appear in the CEO's message ("We reduced Scope 1 emissions to 12,450 tCO2e"), in the Environmental section's narrative, in a data table, in an infographic, and in the GRI Content Index. All five instances must show the same number.
+
+You would be surprised how often they do not. The narrative was written in March with preliminary data. The table was updated in May with audited data. The infographic was designed in April using a version in between. Nobody went back to update the CEO's message.
+
+Go through the report systematically. For every key metric, search for every instance and confirm they match. The metrics to prioritize:
+
+- Total emissions (Scope 1, 2, and 3 if reported)
+- Energy consumption
+- Water withdrawal and discharge
+- Waste generated and diverted
+- Employee headcount and diversity percentages
+- Safety incident rates
+- Any financial figures (revenue, CSR spend, environmental investment)
+
+<ExampleBox>
+**Common trap:** A data table shows total energy consumption as 1,245,000 GJ. The narrative in the same chapter says "approximately 1.2 million GJ." These are both correct, but if the table says 1,245,000 and the infographic on the next page says 1,240,000, you have a problem. Rounding is fine, but only when it is obviously rounding. Two different precise numbers for the same metric is a credibility issue.
+</ExampleBox>
+
+### Step 3: Cross-Report Data Matching
+
+This step is critical for Indian companies (or any company filing multiple reports with overlapping data). If the company also files a BRSR (Business Responsibility and Sustainability Reporting) or includes sustainability data in its annual report, the numbers must match, provided the reporting boundary is the same.
+
+This is one of the most common and serious errors in practice. The sustainability report says one thing, the BRSR says another, and the annual report says a third. When a rating agency, investor, or regulator cross-references these documents and finds discrepancies, the company's credibility takes a hit that no amount of narrative quality can repair.
+
+Before you finalize, get the BRSR and annual report data (or at least the relevant sections) and cross-check every overlapping metric. If the boundaries differ between reports, document that clearly, but if they are the same, the numbers must be identical. No exceptions.
+
+### Step 4: Factual Corrections
+
+Go through every factual claim in the report. This includes:
+
+- Regulatory references (is the act name correct? is the year right?)
+- Awards and certifications mentioned (did the company actually receive them?)
+- Project descriptions (are the locations, dates, and outcomes accurate?)
+- Targets and commitments (do they match what the company has publicly committed to?)
+- Any external data cited (industry averages, benchmark figures, scientific claims)
+
+Do not assume that because the client provided the information, it is correct. Clients make mistakes. They reference awards from two years ago as if they were current. They cite targets that have since been updated. They round numbers in ways that change the meaning.
+
+### Step 5: Spell Check
+
+Run a spell check. Yes, the entire document. In 2026, this sounds almost insulting to mention, but spell-check errors still make it into published ESG reports regularly. The reason is simple: spell check catches "teh" but does not catch "form" when you meant "from." It does not catch "2023" when the reporting period is 2025. It does not catch a company name spelled slightly wrong.
+
+Run the automated check first. Then read specifically for the errors that software misses:
+
+- Homophone errors (their/there, affect/effect)
+- Company and proper noun spellings
+- Technical terms and acronym consistency (is it "Scope 1" or "Scope-1" or "scope 1"? Pick one and use it everywhere)
+- Date and year references (are you accidentally referencing last year's reporting period?)
+
+### Step 6: Spacing and Formatting
+
+Check for visual consistency. This matters more than most people think, because inconsistent formatting signals carelessness, even if the content is strong.
+
+- Are headings consistent in size, font, and style?
+- Are bullet points aligned?
+- Are table formats consistent across the report (same column widths, same header styling)?
+- Are units of measurement formatted the same way throughout (GJ, not sometimes GJ and sometimes gj)?
+- Are there random double spaces, orphaned lines at the top of pages, or widows/orphans in paragraphs?
+- Are image captions consistently formatted?
+- Do charts and graphs use the same color scheme?
+
+If the report was professionally designed, most of these should be handled. But design teams work fast under deadline pressure, and small inconsistencies slip through. Your job is to catch them.
+
+### Step 7: Full Read-Through
+
+Read the entire report from cover to cover. Not skimming. Not jumping to sections you remember editing. Start at page 1 and read every word through to the last page.
+
+This is where you catch flow issues: a transition that does not make sense, a section that contradicts something said three chapters earlier, a tone shift where someone else's edits were merged in without smoothing, a paragraph that was clearly written by AI and never properly edited.
+
+Read it as if you are a reader encountering this report for the first time. Does it make sense? Does it flow? Does it tell a coherent story?
+
+<AnalogyBox>
+Think of the full read-through like watching a film from start to finish before release. The director has reviewed every scene individually, but only by watching the whole film in sequence can you catch pacing problems, continuity errors, and moments where the story loses its thread. An ESG report is the same: individual sections may be excellent, but the whole thing needs to work as a single document.
+</AnalogyBox>
+
+### Step 8: Team Review
+
+Get at least one person from your team (someone who has worked on the engagement but has not written every section) to review the full report. They bring a semi-fresh perspective. They know the content well enough to catch technical errors but have enough distance to spot things you have gone blind to.
+
+Ask them to focus specifically on:
+- Data consistency (a second pair of eyes catches number mismatches you have been staring past)
+- Logical flow between sections
+- Any claims that feel unsupported or vague
+- Anything that reads as unclear or confusing
+
+### Step 9: Fresh Eyes: The Non-Negotiable
+
+This is the most important step on the entire list. It is also the one most often skipped due to time pressure. Do not skip it.
+
+Find someone who has **not** been involved in writing or reviewing the report. Give them the full document and ask them to read it cover to cover. They do not need to be an ESG expert. In fact, a non-expert is better for this purpose: they will flag things that insiders take for granted.
+
+<HighlightBox>
+The fresh-eyes review is non-negotiable. You have been staring at this report for weeks, possibly months. You have read every section dozens of times. Your brain is auto-correcting errors, filling in missing context, and smoothing over rough transitions without you even realizing it. A new person sees the report as it actually is, not as you intended it to be. They will catch things in 30 minutes that you have been missing for a month.
+</HighlightBox>
+
+What the fresh-eyes reviewer should look for:
+
+- **Clarity:** Can they understand what is being said without prior context?
+- **Jargon:** Are there terms used without explanation that a general reader would not know?
+- **Repetition:** Do they notice the same point being made in multiple places?
+- **Data credibility:** Do the numbers feel plausible? Does anything seem off?
+- **Overall impression:** Does the report feel professional, coherent, and trustworthy?
+
+Give them a simple feedback form or just ask them to mark up the PDF. Their feedback is gold. Treat it that way.
+
+### Putting It All Together
+
+Here is the sequence, in order:
+
+1. Index page matching
+2. Internal data matching
+3. Cross-report data matching (BRSR, annual report)
+4. Factual corrections
+5. Spell check
+6. Spacing and formatting
+7. Full read-through
+8. Team review
+9. Fresh-eyes review
+
+Do not rearrange this order. The mechanical checks (steps 1-6) come first because they are faster and catch objective errors. The holistic reviews (steps 7-9) come after because they require a clean document to be meaningful: there is no point reading for flow when page numbers are still wrong and data is inconsistent.
+
+<DeepDive title="How long does proper QA take?">
+For a typical 80-120 page ESG report, expect the full QA process to take 3-5 working days if done properly. Steps 1-6 can be done in 1-2 days by one person. Steps 7-8 need another 1-2 days. The fresh-eyes review needs at least a full day, plus time for you to address their feedback.
+
+Build this time into your project timeline from the start. If the client's deadline does not allow for proper QA, push back. A report with errors is worse than a report that is a week late.
+</DeepDive>
+
+The QA phase is not glamorous. It is tedious, detail-oriented work. But it is the difference between a report that builds credibility and one that undermines it. Every error you catch now is an error that will not embarrass your client, or you, after publication.
+
+<KeyTakeaways items="Follow the nine-step QA sequence in order: index page matching, internal data matching, cross-report data matching, factual corrections, spell check, spacing and formatting, full read-through, team review, and fresh-eyes review ;; Internal data matching is the highest-risk step - search for every instance of key metrics (emissions, energy, water, headcount) across narrative, tables, infographics, and indexes to confirm they are identical ;; Cross-check numbers against the BRSR and annual report if the reporting boundary is the same - discrepancies between published documents severely damage credibility ;; The fresh-eyes review is non-negotiable: find someone uninvolved in writing the report to read it cover to cover, as they will catch errors your brain has been auto-correcting for weeks ;; Build 3-5 working days for proper QA into the project timeline from the start - a report with errors is worse than a report delivered a week late" />
+

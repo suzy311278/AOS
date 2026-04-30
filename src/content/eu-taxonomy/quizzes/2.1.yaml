@@ -1,0 +1,17 @@
+- question: "How many economic activities does the Climate Delegated Act approximately cover?"
+  options:
+    - "About 30"
+    - "About 60"
+    - "About 90"
+    - "About 150"
+  answer: 2
+  explanation: "The Climate Delegated Act covers approximately 90 economic activities across sectors including forestry, manufacturing, energy, transport, construction, and ICT."
+
+- question: "Under the Complementary Climate Delegated Act, natural gas activities must be ready to switch to renewable gases by which year?"
+  options:
+    - "2030"
+    - "2035"
+    - "2040"
+    - "2050"
+  answer: 1
+  explanation: "Natural gas facilities must demonstrate readiness to switch to renewable or low-carbon gases by 2035."

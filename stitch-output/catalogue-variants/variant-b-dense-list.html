@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "outline-variant": "#bfc9c1",
+                    "tertiary": "#005236",
+                    "primary-fixed-dim": "#95d4b3",
+                    "on-tertiary-container": "#89edba",
+                    "surface-tint": "#2c694e",
+                    "error": "#ba1a1a",
+                    "on-error-container": "#93000a",
+                    "surface-bright": "#e7fff3",
+                    "secondary-container": "#beead1",
+                    "on-primary-fixed": "#002114",
+                    "surface-variant": "#d1e8dc",
+                    "primary-fixed": "#b1f0ce",
+                    "inverse-on-surface": "#dff6ea",
+                    "on-primary-fixed-variant": "#0e5138",
+                    "surface-container-low": "#e2f9ed",
+                    "tertiary-fixed": "#92f7c3",
+                    "on-tertiary": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container-highest": "#d1e8dc",
+                    "on-secondary-fixed": "#002114",
+                    "surface-container-high": "#d6eee2",
+                    "on-error": "#ffffff",
+                    "secondary-fixed": "#c1ecd4",
+                    "error-container": "#ffdad6",
+                    "outline": "#707973",
+                    "inverse-surface": "#21342c",
+                    "primary": "#0f5238",
+                    "surface-dim": "#c8dfd4",
+                    "surface-container": "#dcf3e7",
+                    "on-tertiary-fixed": "#002113",
+                    "primary-container": "#2d6a4f",
+                    "on-secondary-container": "#436b58",
+                    "on-primary": "#ffffff",
+                    "on-primary-container": "#a8e7c5",
+                    "tertiary-container": "#006d48",
+                    "on-background": "#0b1f18",
+                    "on-secondary-fixed-variant": "#274e3d",
+                    "secondary": "#3f6653",
+                    "surface": "#e7fff3",
+                    "on-surface-variant": "#404943",
+                    "on-secondary": "#ffffff",
+                    "background": "#e7fff3",
+                    "on-surface": "#0b1f18",
+                    "inverse-primary": "#95d4b3",
+                    "secondary-fixed-dim": "#a5d0b9",
+                    "tertiary-fixed-dim": "#75daa8",
+                    "on-tertiary-fixed-variant": "#005235"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Inter"],
+                    "body": ["Inter"],
+                    "label": ["Inter"],
+                    "mono": ["JetBrains Mono"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .mono-text { font-family: 'JetBrains Mono', monospace; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface">
+<!-- TopNavBar Mapping -->
+<header class="fixed top-0 w-full z-50 h-16 flex justify-between items-center px-8 w-full bg-[#0f5238] dark:bg-emerald-950 text-emerald-50 dark:text-emerald-100 shadow-[0_4px_24px_-1px_rgba(8,28,21,0.12)] backdrop-blur-md">
+<div class="text-xl font-bold tracking-tighter text-white">Sovereign Archive</div>
+<nav class="hidden md:flex gap-8 items-center font-['Inter'] tracking-tight font-semibold">
+<a class="text-white border-b-2 border-emerald-400 pb-1" href="#">Catalog</a>
+<a class="text-emerald-200/80 hover:text-white transition-colors" href="#">Curriculum</a>
+<a class="text-emerald-200/80 hover:text-white transition-colors" href="#">Faculty</a>
+<a class="text-emerald-200/80 hover:text-white transition-colors" href="#">Reports</a>
+</nav>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined hover:bg-emerald-800/50 p-2 rounded-lg cursor-pointer transition-all" data-icon="notifications">notifications</span>
+<span class="material-symbols-outlined hover:bg-emerald-800/50 p-2 rounded-lg cursor-pointer transition-all" data-icon="account_circle">account_circle</span>
+</div>
+</header>
+<main class="pt-16">
+<!-- Hero Header -->
+<section class="relative bg-[#081C15] text-white pt-20 pb-16 px-8 overflow-hidden">
+<div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_#2D6A4F_0%,_transparent_70%)] opacity-30"></div>
+<div class="max-w-7xl mx-auto relative z-10">
+<p class="mono-text uppercase text-[11px] tracking-[0.2em] text-on-primary-container mb-4">COURSE CATALOGUE</p>
+<h1 class="text-5xl font-extrabold tracking-[-0.04em] mb-6 leading-tight max-w-2xl">
+                    22 courses. Every sustainability domain.
+                </h1>
+<p class="text-lg text-emerald-100/70 max-w-xl mb-12 leading-relaxed">
+                    Access institutional-grade technical training designed for ESG practitioners, financial analysts, and policy makers in the emerging green economy.
+                </p>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-white/10 pt-10">
+<div>
+<p class="mono-text text-3xl font-bold text-white">22</p>
+<p class="mono-text text-[10px] text-emerald-100/50 uppercase tracking-widest mt-1">Courses</p>
+</div>
+<div>
+<p class="mono-text text-3xl font-bold text-white">850+</p>
+<p class="mono-text text-[10px] text-emerald-100/50 uppercase tracking-widest mt-1">Lessons</p>
+</div>
+<div>
+<p class="mono-text text-3xl font-bold text-white">14</p>
+<p class="mono-text text-[10px] text-emerald-100/50 uppercase tracking-widest mt-1">Certifications</p>
+</div>
+<div>
+<p class="mono-text text-3xl font-bold text-white">100%</p>
+<p class="mono-text text-[10px] text-emerald-100/50 uppercase tracking-widest mt-1">Technical</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Sticky Filter Bar -->
+<section class="sticky top-16 z-40 bg-white border-b border-outline-variant/15 py-4 px-8 shadow-sm">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="relative w-full md:w-96 group">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline" data-icon="search">search</span>
+<input class="w-full pl-10 pr-4 py-2 bg-surface-container-low border-none rounded-lg focus:ring-2 focus:ring-primary-container text-sm" placeholder="Filter courses by keyword..." type="text"/>
+</div>
+<div class="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-2 md:pb-0">
+<span class="mono-text text-[10px] text-outline mr-2">SORT:</span>
+<button class="px-4 py-1.5 rounded-full bg-primary-container text-white text-xs font-semibold">Latest</button>
+<button class="px-4 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant text-xs font-semibold hover:bg-surface-variant transition-colors">Popular</button>
+<button class="px-4 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant text-xs font-semibold hover:bg-surface-variant transition-colors">Introductory</button>
+<button class="px-4 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant text-xs font-semibold hover:bg-surface-variant transition-colors">Advanced</button>
+</div>
+</div>
+</section>
+<!-- Main Layout -->
+<div class="max-w-7xl mx-auto px-8 py-12 flex gap-12">
+<!-- SideNavBar Mapping -->
+<aside class="hidden lg:block w-64 sticky top-48 h-[calc(100vh-12rem)] flex flex-col py-8 pl-0 pr-0">
+<div class="mb-8">
+<h3 class="mono-text uppercase text-[11px] tracking-widest text-[#2D6A4F] font-bold">CATEGORIES</h3>
+<p class="mono-text text-[9px] text-outline mt-1">Archival Classification</p>
+</div>
+<nav class="space-y-1">
+<a class="flex justify-between items-center py-3 px-4 bg-white dark:bg-emerald-800/40 text-[#1b4332] font-bold rounded-l-lg border-r-4 border-[#2D6A4F] mono-text text-[11px] uppercase tracking-widest" href="#">
+<span>All courses</span>
+<span class="opacity-50">22</span>
+</a>
+<a class="flex justify-between items-center py-3 px-4 text-[#40916c] hover:bg-white/50 transition-transform hover:translate-x-1 mono-text text-[11px] uppercase tracking-widest" href="#">
+<span>Fundamentals</span>
+<span class="opacity-50">6</span>
+</a>
+<a class="flex justify-between items-center py-3 px-4 text-[#40916c] hover:bg-white/50 transition-transform hover:translate-x-1 mono-text text-[11px] uppercase tracking-widest" href="#">
+<span>Carbon Markets</span>
+<span class="opacity-50">5</span>
+</a>
+<a class="flex justify-between items-center py-3 px-4 text-[#40916c] hover:bg-white/50 transition-transform hover:translate-x-1 mono-text text-[11px] uppercase tracking-widest" href="#">
+<span>ESG</span>
+<span class="opacity-50">6</span>
+</a>
+<a class="flex justify-between items-center py-3 px-4 text-[#40916c] hover:bg-white/50 transition-transform hover:translate-x-1 mono-text text-[11px] uppercase tracking-widest" href="#">
+<span>Green Finance</span>
+<span class="opacity-50">4</span>
+</a>
+<a class="flex justify-between items-center py-3 px-4 text-[#40916c] hover:bg-white/50 transition-transform hover:translate-x-1 mono-text text-[11px] uppercase tracking-widest" href="#">
+<span>Standards</span>
+<span class="opacity-50">1</span>
+</a>
+</nav>
+</aside>
+<!-- Course List -->
+<section class="flex-1 space-y-4">
+<!-- Course Row 1 -->
+<div class="group bg-white rounded-xl p-4 flex items-center gap-6 border border-[#E8E8EA] hover:shadow-[0_4px_24px_-1px_rgba(8,28,21,0.08)] transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary-container" data-icon="science">science</span>
+</div>
+<div class="flex-1 min-w-0">
+<h4 class="text-[20px] font-bold text-on-surface truncate">Climate Science 101</h4>
+<p class="text-[15px] text-outline truncate">Physical risks and the thermodynamics of climate change.</p>
+</div>
+<div class="w-40 shrink-0">
+<span class="mono-text text-[10px] uppercase tracking-wider bg-surface-container px-2 py-1 rounded">Fundamentals</span>
+</div>
+<div class="w-48 shrink-0">
+<p class="mono-text text-[11px] text-on-surface-variant font-medium">6 modules · 24 lessons · 8h</p>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</div>
+<!-- Course Row 2 -->
+<div class="group bg-white rounded-xl p-4 flex items-center gap-6 border border-[#E8E8EA] hover:shadow-[0_4px_24px_-1px_rgba(8,28,21,0.08)] transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary-container" data-icon="eco">eco</span>
+</div>
+<div class="flex-1 min-w-0">
+<h4 class="text-[20px] font-bold text-on-surface truncate">Voluntary Carbon Markets 101</h4>
+<p class="text-[15px] text-outline truncate">Mechanics of credits, offsets, and registry protocols.</p>
+</div>
+<div class="w-40 shrink-0">
+<span class="mono-text text-[10px] uppercase tracking-wider bg-surface-container px-2 py-1 rounded">Carbon Markets</span>
+</div>
+<div class="w-48 shrink-0">
+<p class="mono-text text-[11px] text-on-surface-variant font-medium">8 modules · 32 lessons · 12h</p>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</div>
+<!-- Course Row 3 -->
+<div class="group bg-white rounded-xl p-4 flex items-center gap-6 border border-[#E8E8EA] hover:shadow-[0_4px_24px_-1px_rgba(8,28,21,0.08)] transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary-container" data-icon="public">public</span>
+</div>
+<div class="flex-1 min-w-0">
+<h4 class="text-[20px] font-bold text-on-surface truncate">EU Carbon Border Adjustment Mechanism</h4>
+<p class="text-[15px] text-outline truncate">Regulatory compliance for importers into the European Union.</p>
+</div>
+<div class="w-40 shrink-0">
+<span class="mono-text text-[10px] uppercase tracking-wider bg-surface-container px-2 py-1 rounded">Policy</span>
+</div>
+<div class="w-48 shrink-0">
+<p class="mono-text text-[11px] text-on-surface-variant font-medium">4 modules · 18 lessons · 6h</p>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</div>
+<!-- Course Row 4 -->
+<div class="group bg-white rounded-xl p-4 flex items-center gap-6 border border-[#E8E8EA] hover:shadow-[0_4px_24px_-1px_rgba(8,28,21,0.08)] transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary-container" data-icon="description">description</span>
+</div>
+<div class="flex-1 min-w-0">
+<h4 class="text-[20px] font-bold text-on-surface truncate">Sustainability / ESG Reporting in Practice</h4>
+<p class="text-[15px] text-outline truncate">Annual disclosure cycles and stakeholder communication.</p>
+</div>
+<div class="w-40 shrink-0">
+<span class="mono-text text-[10px] uppercase tracking-wider bg-surface-container px-2 py-1 rounded">ESG</span>
+</div>
+<div class="w-48 shrink-0">
+<p class="mono-text text-[11px] text-on-surface-variant font-medium">10 modules · 45 lessons · 20h</p>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</div>
+<!-- Course Row 5 -->
+<div class="group bg-white rounded-xl p-4 flex items-center gap-6 border border-[#E8E8EA] hover:shadow-[0_4px_24px_-1px_rgba(8,28,21,0.08)] transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary-container" data-icon="factory">factory</span>
+</div>
+<div class="flex-1 min-w-0">
+<h4 class="text-[20px] font-bold text-on-surface truncate">Scope 1 and 2 GHG Emissions</h4>
+<p class="text-[15px] text-outline truncate">Calculation methodologies and emission factor databases.</p>
+</div>
+<div class="w-40 shrink-0">
+<span class="mono-text text-[10px] uppercase tracking-wider bg-surface-container px-2 py-1 rounded">Carbon Markets</span>
+</div>
+<div class="w-48 shrink-0">
+<p class="mono-text text-[11px] text-on-surface-variant font-medium">5 modules · 20 lessons · 10h</p>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</div>
+<!-- Course Row 6 -->
+<div class="group bg-white rounded-xl p-4 flex items-center gap-6 border border-[#E8E8EA] hover:shadow-[0_4px_24px_-1px_rgba(8,28,21,0.08)] transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary-container" data-icon="gavel">gavel</span>
+</div>
+<div class="flex-1 min-w-0">
+<h4 class="text-[20px] font-bold text-on-surface truncate">EU Taxonomy</h4>
+<p class="text-[15px] text-outline truncate">Classification system for sustainable economic activities.</p>
+</div>
+<div class="w-40 shrink-0">
+<span class="mono-text text-[10px] uppercase tracking-wider bg-surface-container px-2 py-1 rounded">Policy</span>
+</div>
+<div class="w-48 shrink-0">
+<p class="mono-text text-[11px] text-on-surface-variant font-medium">7 modules · 28 lessons · 14h</p>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</div>
+<!-- Course Row 7 -->
+<div class="group bg-white rounded-xl p-4 flex items-center gap-6 border border-[#E8E8EA] hover:shadow-[0_4px_24px_-1px_rgba(8,28,21,0.08)] transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary-container" data-icon="analytics">analytics</span>
+</div>
+<div class="flex-1 min-w-0">
+<h4 class="text-[20px] font-bold text-on-surface truncate">IFRS S2 Climate-related Disclosures</h4>
+<p class="text-[15px] text-outline truncate">International standards for climate risk reporting.</p>
+</div>
+<div class="w-40 shrink-0">
+<span class="mono-text text-[10px] uppercase tracking-wider bg-surface-container px-2 py-1 rounded">Standards</span>
+</div>
+<div class="w-48 shrink-0">
+<p class="mono-text text-[11px] text-on-surface-variant font-medium">6 modules · 22 lessons · 11h</p>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</div>
+<!-- Course Row 8 -->
+<div class="group bg-white rounded-xl p-4 flex items-center gap-6 border border-[#E8E8EA] hover:shadow-[0_4px_24px_-1px_rgba(8,28,21,0.08)] transition-all cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary-container" data-icon="balance">balance</span>
+</div>
+<div class="flex-1 min-w-0">
+<h4 class="text-[20px] font-bold text-on-surface truncate">Double Materiality</h4>
+<p class="text-[15px] text-outline truncate">Assessing financial and impact materiality under ESRS.</p>
+</div>
+<div class="w-40 shrink-0">
+<span class="mono-text text-[10px] uppercase tracking-wider bg-surface-container px-2 py-1 rounded">ESG</span>
+</div>
+<div class="w-48 shrink-0">
+<p class="mono-text text-[11px] text-on-surface-variant font-medium">3 modules · 12 lessons · 5h</p>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer Mapping -->
+<footer class="w-full py-12 border-t border-[#bfc9c1]/15 bg-[#e7fff3] dark:bg-[#081C15]">
+<div class="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex flex-col gap-2">
+<span class="text-emerald-900 dark:text-emerald-100 font-bold tracking-tighter">SOVEREIGN ARCHIVE</span>
+<p class="font-['JetBrains_Mono'] uppercase text-[10px] opacity-70 text-[#2D6A4F] dark:text-emerald-400">© 2024 SOVEREIGN ARCHIVE - INSTITUTIONAL DATA SYSTEMS</p>
+</div>
+<div class="flex gap-8">
+<a class="font-['JetBrains_Mono'] uppercase text-[10px] opacity-70 text-[#52B788] hover:text-[#2D6A4F] transition-opacity" href="#">Privacy Protocol</a>
+<a class="font-['JetBrains_Mono'] uppercase text-[10px] opacity-70 text-[#52B788] hover:text-[#2D6A4F] transition-opacity" href="#">Archive Access</a>
+<a class="font-['JetBrains_Mono'] uppercase text-[10px] opacity-70 text-[#52B788] hover:text-[#2D6A4F] transition-opacity" href="#">Terms of Service</a>
+<a class="font-['JetBrains_Mono'] uppercase text-[10px] opacity-70 text-[#52B788] hover:text-[#2D6A4F] transition-opacity" href="#">API Documentation</a>
+</div>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,26 @@
+- question: "What are the four scoring levels in the CDP Climate Change scoring methodology, in ascending order?"
+  options:
+    - "Bronze, Silver, Gold, Platinum"
+    - "Basic, Intermediate, Advanced, Leading"
+    - "Disclosure, Awareness, Management, Leadership"
+    - "Reporting, Understanding, Action, Excellence"
+  answer: 2
+  explanation: "The four CDP scoring levels are Disclosure, Awareness, Management, and Leadership. Each level builds on the one before it, and a company must achieve full points at a lower level before being eligible for points at the next level."
+
+- question: "What does a company need to achieve before it can earn Leadership points for a specific question in the CDP methodology?"
+  options:
+    - "It must achieve full Disclosure points only"
+    - "It must achieve full Awareness points only"
+    - "It must achieve full Management points, which itself requires full Awareness points"
+    - "Leadership points are awarded independently and do not depend on lower-level points"
+  answer: 2
+  explanation: "To receive Leadership points, a company must first achieve full Management points. To receive Management points, it must first achieve full Awareness points. The levels are sequential: Disclosure is the entry level, followed by Awareness, then Management, then Leadership."
+
+- question: "In the 2024 CDP questionnaire, which of the following best describes how sector-specific scoring works?"
+  options:
+    - "All companies in all sectors answer identical questions and are scored identically"
+    - "Companies in high-impact sectors are presented with sector-specific questions and may be scored differently in general questions, with scoring based on their primary sector"
+    - "Sector-specific scoring only applies to the Environmental Performance modules and not to governance or strategy modules"
+    - "Companies choose which sector scoring criteria to apply based on self-reported materiality"
+  answer: 1
+  explanation: "Organizations in high-impact sectors are presented with questions specific to their sector and may be scored differently in general questions that display for all responders. Each question is tagged to one or more sectors and companies are scored based on their primary questionnaire sector."

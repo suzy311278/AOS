@@ -1,0 +1,119 @@
+{/* source: Scope3_Calculation_Guidance_0[1].pdf, Category 11 (pp. 113-124) */}
+
+**Category 11 — Use of Sold Products** covers GHG emissions from the **use** of goods and services sold by the reporting company. This is typically the largest downstream Scope 3 category for companies selling energy-consuming products, and it can dwarf all other Scope 3 categories combined for manufacturers of appliances, vehicles, boilers, and fuels.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-3/3_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Two Types of Use Emissions
+
+The standard distinguishes between two types of use-phase emissions:
+
+### Type 1: Direct Use-Phase Emissions
+The product itself **emits GHGs** when used by the consumer:
+- **Energy-consuming products**: Appliances, vehicles, HVAC equipment, electronics - consume electricity or fuel that generates GHGs
+- **Products that emit GHGs directly**: Refrigerants released from air conditioning units, propellants from aerosols, CO₂ from carbonated beverages when opened, methane from fossil fuels sold directly (e.g., natural gas utilities)
+
+### Type 2: Indirect Use-Phase Emissions
+The product **enables** downstream processes that emit GHGs, but does not directly consume energy or emit GHGs itself - for example, lubricants, fertilisers, or cleaning chemicals whose use creates secondary emissions.
+
+<HighlightBox>
+Category 11 is mandatory for any company selling products or services whose use phase generates significant GHG emissions. For automotive companies, the use of sold vehicles (petrol and diesel cars) accounts for 85-95% of total Scope 1+2+3 emissions. For fossil fuel companies, the combustion of sold fuels (Category 11) is essentially the entire Scope 3 footprint.
+</HighlightBox>
+
+## Calculation Methods
+
+### Method 1: Product-Level Lifecycle Data (Most Accurate)
+Uses actual product-specific emission rates measured during product development or certification testing. For example, the certified fuel economy (litres/100 km) of a vehicle model, or the annual energy consumption rating of an appliance.
+
+<EquationBreakdown
+  title="Category 11 - Energy-Using Products"
+  result="E<sub>Cat11</sub> | Category 11 Emissions | Total lifetime use-phase emissions for products sold in the reporting year, in tCO₂e | blue"
+  inputs="N | Units Sold | Number of product units sold in the reporting year | green ;; L | Product Lifetime | Average years the product remains in service | amber ;; AEU | Annual Energy Use | Energy consumed per unit per year, in kWh/unit/year | violet ;; EF | Emission Factor | Emissions per kWh of energy consumed, in tCO₂e/kWh | rose"
+/>
+
+For vehicles, the same logic applies with fuel instead of electricity:
+
+<EquationBreakdown
+  title="Category 11 - Vehicles"
+  result="E<sub>Cat11</sub> | Category 11 Emissions | Total lifetime use-phase emissions for vehicles sold, in tCO₂e | blue"
+  inputs="N | Units Sold | Number of vehicles sold in the reporting year | green ;; D<sub>life</sub> | Lifetime Km Driven | Total kilometres driven over the vehicle lifetime | amber ;; FE | Fuel Economy | Fuel consumed per kilometre, in litres/km | violet ;; EF<sub>fuel</sub> | Fuel Emission Factor | Emissions per litre of fuel burned, in tCO₂e/litre | rose"
+/>
+
+### Method 2: Average-Data Method
+Uses industry-average energy consumption or emission rates for product categories when product-specific data is unavailable.
+
+### Method 3: Spend-Based Method
+EIO-based estimate per unit of revenue from product sales. Suitable only for screening; too imprecise for credible reporting of use-phase emissions.
+
+## Key Parameters
+
+Three parameters determine Category 11 magnitude:
+
+1. **Sales volume**: Number of units sold in the reporting year
+2. **Product lifetime**: Average years a unit remains in service (e.g., 10 years for a washing machine, 15 years for a car, 40 years for a boiler)
+3. **Use-phase emission rate**: Energy consumption or direct emission rate per unit per year
+
+The standard typically calcects all lifetime emissions of products **sold in the reporting year** - not all products currently in use. This means a company launching a highly efficient new model will see Category 11 reduction even before old units are retired.
+
+<CalculationExercise
+  question="A manufacturer sells 50,000 electric kettles per year. Each kettle has an annual energy use of 50 kWh/year and an expected lifetime of 8 years. The grid emission factor is 0.207 tCO₂e/MWh. What are the Category 11 emissions for one year's kettle sales over their full lifetime?"
+  answer={4140}
+  unit="tCO₂e"
+  hints={["Lifetime energy per kettle = 50 kWh/year × 8 years = 400 kWh = 0.4 MWh.", "Lifetime emissions per kettle = 0.4 MWh × 0.207 tCO₂e/MWh = 0.0828 tCO₂e.", "Total for 50,000 kettles = 50,000 × 0.0828 = 4,140 tCO₂e."]}
+  solution="50,000 units × (50 kWh/yr × 8 yr) / 1,000 × 0.207 tCO₂e/MWh = 50,000 × 0.4 MWh × 0.207 = 4,140 tCO₂e."
+/>
+
+## Category 11 Across Different Sectors
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Sector</th>
+      <th>Key Category 11 Emission Source</th>
+      <th>Typical Share of Total Scope 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Automotive</td>
+      <td>Petrol/diesel combustion in sold vehicles</td>
+      <td>80-95%</td>
+    </tr>
+    <tr>
+      <td>Oil and gas</td>
+      <td>Combustion of sold fossil fuels</td>
+      <td>85-95%</td>
+    </tr>
+    <tr>
+      <td>Appliance manufacturers</td>
+      <td>Electricity consumed by appliances in use</td>
+      <td>50-80%</td>
+    </tr>
+    <tr>
+      <td>Software/cloud services</td>
+      <td>Server electricity for hosted services</td>
+      <td>30-60%</td>
+    </tr>
+    <tr>
+      <td>HVAC and heating equipment</td>
+      <td>Gas/fuel combustion in sold boilers and heaters</td>
+      <td>70-90%</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+## The Decarbonisation Lever
+
+Category 11 emissions fall when:
+- Products are made more energy-efficient (lower kWh/unit/year)
+- Products are electrified (replacing combustion with electricity that can be decarbonised)
+- The electricity grid decarbonises (a given MWh of electricity used by sold appliances emits less as grids add renewables)
+- Customers shift to lower-emission alternatives
+
+<DeepDive title="Scope 3 Category 11 and the automotive industry's transition to EVs">
+The internal combustion engine vehicle (ICEV) generates Category 11 emissions for every litre of fuel burned over its lifetime. A battery electric vehicle (BEV) generates Category 11 emissions only if the electricity it charges from emits GHGs. As grids decarbonise, BEV Category 11 emissions fall automatically - the car company does not have to change its product. This dynamic means that an automotive company's Category 11 trajectory is partially determined by grid decarbonisation rates in countries where its vehicles are sold, creating a direct link between climate policy and corporate Scope 3 performance.
+</DeepDive>
+
+<KeyTakeaways items="Category 11 covers lifetime use-phase emissions of products sold in the reporting year - often the largest downstream category for energy-consuming products ;; For automotive and oil/gas companies, Category 11 can represent 85-95% of total Scope 1+2+3 emissions ;; Three parameters drive Category 11: sales volume, product lifetime in years, and annual energy consumption or emission rate per unit ;; Product electrification and energy efficiency improvements are the primary levers - a more efficient appliance reduces lifetime emissions for every unit sold ;; Grid decarbonisation automatically reduces Category 11 for electric products, linking corporate Scope 3 performance to national energy policy" />

@@ -1,0 +1,35 @@
+- question: "What is the key distinction between Article 6 (no specific ESG claim) and Article 8 (promoting E/S characteristics) at the investment strategy level?"
+  options:
+    - "Article 8 funds must be larger than €1 billion in AUM"
+    - "Article 8 requires binding, systematic investment criteria specifically designed to promote E/S characteristics; Article 6 integrates ESG as a risk input without binding promotion constraints"
+    - "Article 8 funds must exclude all fossil fuels; Article 6 funds have no exclusions"
+    - "Article 6 requires annual ESG reporting; Article 8 requires quarterly reporting"
+  answer: 1
+  explanation: "The core distinction is whether there are binding, systematic E/S promotion criteria. A fund can integrate ESG data as a risk management tool (Article 6) without being Article 8. Article 8 requires that the investment strategy includes binding elements specifically designed to promote identified environmental or social characteristics — not merely to manage sustainability risks."
+
+- question: "ESMA has expressed concern about reclassification from Article 9 to Article 8 without a clear substantive rationale. What specific risk does this create?"
+  options:
+    - "Investors may be confused about which template to use"
+    - "The reclassification may constitute greenwashing — using a lower classification to avoid demanding obligations while not genuinely changing the investment strategy"
+    - "The reclassification automatically triggers an NCA audit of the firm's entire product range"
+    - "Article 8 products face higher regulatory fees than Article 9 products"
+  answer: 1
+  explanation: "ESMA has flagged that reclassification from Article 9 to Article 8 without genuine changes to the investment strategy may constitute greenwashing — reducing the sustainability claim not because the product's approach has changed, but to avoid the more demanding Article 9 obligations. Supervisors expect reclassification decisions to be supported by documented substantive rationale."
+
+- question: "The ESMA Q&As confirm that sustainable investment under SFDR Article 2(17) can be assessed at the level of a company. What does this mean in practice?"
+  options:
+    - "Companies must assess all their employees' sustainability attitudes"
+    - "An investment manager can classify an investment in a diversified company's general equity as a sustainable investment if the company as a whole meets the contribution, DNSH, and good governance tests — not just if one specific activity of that company qualifies"
+    - "Sustainable investment classification only applies to single-activity companies"
+    - "FMPs must assess each country where the company operates separately"
+  answer: 1
+  explanation: "The EC FAQ and ESMA Q&As confirmed that the Article 2(17) definition can be applied at the company level, not only at the level of a specific economic activity. This resolved a major practical ambiguity: managers investing in diversified companies' general equity or debt can assess whether the company as a whole (in terms of its total contribution, DNSH profile, and governance) qualifies as a sustainable investment."
+
+- question: "What procedural steps should accompany a product reclassification (e.g., from Article 9 to Article 8)?"
+  options:
+    - "Simply update the website disclosure; no other steps are required"
+    - "Internal governance approval with documented rationale, NCA notification or approval where required, investor communication (with potential redemption rights), and update of all disclosure documents"
+    - "File an application with ESMA for reclassification approval"
+    - "Reclassification only needs to happen at the end of the annual accounting period"
+  answer: 1
+  explanation: "A reclassification requires: (1) internal governance approval with documented justification; (2) regulatory notification or approval where required (e.g., prospectus amendment approval from the NCA); (3) investor communication explaining the change and potentially offering a right to redeem; and (4) update of all disclosure documents (pre-contractual, website, future periodic reports). Missing any of these steps creates regulatory and reputational risk."

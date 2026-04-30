@@ -1,0 +1,26 @@
+- question: "Which EU Directive requires large companies to identify and address adverse human rights and environmental impacts across their value chains?"
+  options:
+    - "Corporate Sustainability Reporting Directive (CSRD)"
+    - "Corporate Sustainability Due Diligence Directive (CSDDD)"
+    - "EU Timber Regulation (EUTR)"
+    - "EU Taxonomy Regulation"
+  answer: 1
+  explanation: "The Corporate Sustainability Due Diligence Directive (CSDDD, Directive (EU) 2024/1760), also called CS3D, requires large companies to identify, prevent, mitigate, and account for adverse human rights and environmental impacts in their own operations and value chains. It complements the EUDR's product-specific prohibition with a broader process-based obligation."
+
+- question: "Which European Sustainability Reporting Standard (ESRS) is most directly relevant to a company's EUDR compliance data?"
+  options:
+    - "ESRS E1 (Climate Change) only"
+    - "ESRS S1 (Own Workforce)"
+    - "ESRS E4 (Biodiversity and Ecosystems)"
+    - "ESRS G2 (Corporate Governance)"
+  answer: 2
+  explanation: "ESRS E4 (Biodiversity and Ecosystems) requires companies to disclose impacts on biodiversity including deforestation and land use change in supply chains. EUDR compliance data (geolocation data, deforestation screening results, supply chain risk assessments) directly informs ESRS E4 disclosures, enabling integration of EUDR and CSRD reporting."
+
+- question: "How did the EUDR change the legal landscape compared to the EU Timber Regulation (EUTR) that it replaced?"
+  options:
+    - "The EUDR narrowed scope from all agricultural commodities to timber only"
+    - "The EUDR added a deforestation-free requirement, mandatory geolocation, formal country risk classification, and expanded product scope beyond timber"
+    - "The EUDR removed penalties for non-compliance, relying solely on market mechanisms"
+    - "The EUDR reduced the due diligence burden by eliminating the risk assessment step"
+  answer: 1
+  explanation: "The EUDR significantly expanded on the EUTR by: adding six new commodity sectors beyond wood; requiring mandatory GPS geolocation of production plots (EUTR did not require this); establishing a formal three-tier country risk classification system; broadening the product scope; and setting minimum penalty standards of 4% of turnover (vs. inconsistent Member State penalties under EUTR)."

@@ -1,0 +1,341 @@
+Source URL: https://tnfd.global/recommendations-of-the-tnfd/
+
+[Skip to content](https://tnfd.global/recommendations/#content)
+[ ![Developing and delivering a risk management and disclosure framework for organisations to report and act on evolving nature-related risks](https://tnfd.global/wp-content/themes/tnfd/dist/img/tnfd-logo-white.svg) ](https://tnfd.global/) [ ![Developing and delivering a risk management and disclosure framework for organisations to report and act on evolving nature-related risks](https://tnfd.global/wp-content/themes/tnfd/dist/img/tnfd-smaller-logo.svg) ](https://tnfd.global/)
+[](javascript:showTranslation\(\); "Show translation options") [](javascript:showSearch\(\);)
+Select Language Afrikaans Albanian Amharic Arabic Armenian Azerbaijani Basque Belarusian Bengali Bosnian Bulgarian Catalan Cebuano Chichewa Chinese (Simplified) Chinese (Traditional) Corsican Croatian Czech Danish Dutch English Esperanto Estonian Filipino Finnish French Frisian Galician Georgian German Greek Gujarati Haitian Creole Hausa Hawaiian Hebrew Hindi Hmong Hungarian Icelandic Igbo Indonesian Irish Italian Japanese Javanese Kannada Kazakh Khmer Korean Kurdish (Kurmanji) Kyrgyz Lao Latin Latvian Lithuanian Luxembourgish Macedonian Malagasy Malay Malayalam Maltese Maori Marathi Mongolian Myanmar (Burmese) Nepali Norwegian Pashto Persian Polish Portuguese Punjabi Romanian Russian Samoan Scottish Gaelic Serbian Sesotho Shona Sindhi Sinhala Slovak Slovenian Somali Spanish Sundanese Swahili Swedish Tajik Tamil Telugu Thai Turkish Ukrainian Urdu Uzbek Vietnamese Welsh Xhosa Yiddish Yoruba Zulu
+Search for: Search [](https://tnfd.global/recommendations/)
+[ TNFD Adopters ](https://tnfd.global/engage/tnfd-adopters/)
+[ Create a profile / Log in ](https://tnfd.global/create-a-profile/)
+Menu
+Menu
+  * [About](javascript:void\(\);)
+    * #### [About us](https://tnfd.global/about/)
+      * [Our mission](https://tnfd.global/about/#mission)
+      * [Why nature matters](https://tnfd.global/about/why-nature-matters/)
+      * [How we are funded](https://tnfd.global/about/#funded)
+      * [Careers](https://tnfd.global/about/careers/)
+    * #### [Who we are](https://tnfd.global/about/#who)
+      * [The Taskforce](https://tnfd.global/about/the-taskforce/)
+      * [The Secretariat](https://tnfd.global/about/the-tnfd-secretariat/)
+      * [Senior Advisers](https://tnfd.global/about/senior-advisers/)
+      * [Stewardship Council](https://tnfd.global/about/stewardship-council/)
+      * [Knowledge Partners](https://tnfd.global/about/knowledge-partners/)
+    * #### [Our history](https://tnfd.global/about/history/)
+      * [Development and timeline](https://tnfd.global/about/history/)
+      * [Engagement with civil society and IPLCs](https://tnfd.global/about/history/engagement-with-civil-society-and-iplcs/)
+      * [Beta framework testing](https://tnfd.global/tnfd-publications/publications-archive/)
+    * #### [Contact](https://tnfd.global/about/contact-us/)
+      * [General enquiries](https://tnfd.global/about/contact-us/)
+      * [Press & media](https://tnfd.global/about/contact-us/#media-press)
+      * [Request a speaker](https://tnfd.global/about/contact-us/request-a-speaker/)
+      * [Request use of TNFD logo](https://tnfd.global/about/contact-us/request-use-of-tnfd-logo/)
+      * [Request to translate TNFD publications](https://tnfd.global/tnfd-publications/translation-proposal/)
+    * [Create a TNFD profile](https://tnfd.global/create-a-profile/)
+  * [Assessment](javascript:void\(\);)
+    * #### [Guidance](https://tnfd.global/additional-guidance/)
+      * [The LEAP Approach](https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/)
+      * [Sector guidance & metrics](https://tnfd.global/tnfd-publications/?_sft_framework-categories=additional-guidance-by-sector#search-filter)
+      * [Guidance by biome ](https://tnfd.global/publication/guidance-by-biome/#publication-content)
+      * [Engagement guidance](https://tnfd.global/publication/guidance-on-engagement-with-indigenous-peoples-local-communities-and-affected-stakeholders/)
+      * [Value chains](https://tnfd.global/publication/guidance-on-value-chains/#publication-content)
+      * [Scenario analysis ](https://tnfd.global/publication/guidance-on-scenario-analysis/#publication-content)
+      * [Target setting](https://tnfd.global/publication/additional-draft-guidance-for-corporates-on-science-based-targets-for-nature-2/#publication-content)
+    * #### [Tools ](https://tnfd.global/learning-tools/tools-catalogue/)
+      * [Explore the Tools Catalogue](https://tnfd.global/learning-tools/tools-catalogue/)
+      * [Locate assessment tools](https://tnfd.global/ibat/)
+    * #### Discussion papers
+      * [Conducting advanced scenario analysis](https://tnfd.global/publication/discussion-paper-on-conducting-advanced-scenario-analysis/)
+      * [Biodiversity footprinting approaches for financial institutions](https://tnfd.global/publication/discussion-paper-on-biodiversity-footprinting-approaches-for-financial-institutions/)
+    * [Join the TNFD Forum](https://tnfd.global/engage/tnfd-forum/)
+  * [Reporting](javascript:void\(\);)
+    * #### [Reporting](https://tnfd.global/recommendations/)
+      * [Overview](https://tnfd.global/recommendations-of-the-tnfd/#overview)
+      * [Four disclosure pillars​](https://tnfd.global/recommendations-of-the-tnfd/#disclosures)
+      * [General requirements ](https://tnfd.global/recommendations-of-the-tnfd/#requirements)
+      * [Core global metrics](https://tnfd.global/recommendations/#disclosure-metrics)
+      * [Sector metrics](https://tnfd.global/recommendations/#sector)
+    * #### [Standards alignment](https://tnfd.global/standards-alignment/)
+      * [Overview](https://tnfd.global/standards-alignment/)
+      * [Using cross-reference tables](https://tnfd.global/the-tnfd-supports-use-of-cross-reference-tables-for-corporate-reporting/)
+      * [ISSB & TNFD](https://tnfd.global/issb-decision-on-nature-related-standard-setting-drawing-on-tnfd-framework/)
+      * [GRI & TNFD](https://tnfd.global/publication/interoperability-mapping-between-the-gri-standards-and-the-tnfd-recommended-disclosures-and-metrics/#publication-content)
+      * [ESRS & TNFD](https://tnfd.global/publication/tnfd-esrs-correspondence-mapping/#publication-content)
+      * [BRSR & TNFD ](https://tnfd.global/publication/integrating-nature-related-aspects-in-brsr-disclosures-using-the-tnfd-recommendations/#publication-content)
+      * [CDP & TNFD](https://tnfd.global/publication/cdp-tnfd-correspondence-mapping/)
+    * #### [Getting started with reporting](https://tnfd.global/recommendations/getting-started-with-tnfd/)
+      * [Guidance on getting started](https://tnfd.global/recommendations/getting-started-with-tnfd/)
+      * [Example TNFD reports ](https://tnfd.global/knowledge-hub/example-tnfd-reporting/)
+    *       * #### Download
+[ ![Recommendations Of The Tnfd V1 V1](https://tnfd.global/wp-content/uploads/2023/08/recommendations-of-the-tnfd-v1_v1-353x500.jpg) ](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/)
+[Taskforce on Nature-related Financial Disclosures (TNFD) Recommendations](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/)
+  * [Metrics & Data](javascript:void\(\);)
+    * #### [Metrics](https://tnfd.global/metrics/)
+      * [Overview](https://tnfd.global/metrics/#overview)
+      * [Metrics architecture](https://tnfd.global/metrics/#architecture)
+      * [Metrics explained](https://tnfd.global/metrics/#explained)
+      * [Sector metrics](https://tnfd.global/metrics/#sector)
+    * #### [Data](https://tnfd.global/upgrading-the-nature-data-value-chain-for-market-participants/)
+      * [Data initiatives](https://tnfd.global/engage/data-initiatives/)
+      * [Upgrading the nature data value chain for market participants](https://tnfd.global/upgrading-the-nature-data-value-chain-for-market-participants/)
+      * [Nature Intelligence for Business Grand Challenge](https://tnfd.global/publication/recommendations-to-upgrade-the-ndvc)
+      * [Tools Catalogue ](https://tnfd.global/assessment-guidance/tools-catalogue/)
+    *       * #### Download
+[ ![Recommendations Of The Ndvc](https://tnfd.global/wp-content/uploads/2025/10/Recommendations-of-the-NDVC-1-354x500.jpg) ](https://tnfd.global/publication/recommendations-to-upgrade-the-ndvc/)
+[Recommendations for upgrading the nature data value chain for market participants](https://tnfd.global/publication/recommendations-to-upgrade-the-ndvc/)
+  * [Opportunities & Transition plans](javascript:void\(\);)
+    * #### [Nature in transition plans](https://tnfd.global/nature-transition-plans/)
+      * [Introduction](https://tnfd.global/nature-transition-plans/#overview)
+      * [What is a nature transition plan?](https://tnfd.global/nature-transition-plans/#what)
+      * [Disclosing transition plans](https://tnfd.global/nature-transition-plans/#disclosure)
+    * #### [Nature-related opportunities](https://tnfd.global/test-2/nature-related-opportunities/)
+      * [What are opportunities?](https://tnfd.global/test-2/nature-related-opportunities/#what)
+      * [Case studies on opportunities](https://tnfd.global/test-2/nature-related-opportunities/#Case)
+      * [Discussion paper on nature related opportunities](https://tnfd.global/publication/discussion-paper-on-nature-related-opportunities/)
+      * [Webinars](https://tnfd.global/test-2/nature-related-opportunities/#webinars)
+    *       * #### Download
+[ ![Guidance On Nature Transition Plans](https://tnfd.global/wp-content/uploads/2025/11/Guidance-on-Nature-Transition-Plans-354x500.jpg) ](https://tnfd.global/publication/guidance-on-nature-in-transition-plans/)
+[Guidance on nature in transition plans](https://tnfd.global/publication/guidance-on-nature-in-transition-plans/)
+    *       * #### Download
+[ ![Discussion Paper On Nature Related Opporunties](https://tnfd.global/wp-content/uploads/2025/10/Discussion-paper-on-nature-related-opporunties-354x500.jpg) ](https://tnfd.global/publication/discussion-paper-on-nature-related-opportunities/)
+[Discussion paper on nature-related opportunities](https://tnfd.global/publication/discussion-paper-on-nature-related-opportunities/)
+  * [Engage & Learn](javascript:void\(\);)
+    * #### [Engage](https://tnfd.global/engage/)
+      * [TNFD Forum](https://tnfd.global/engage/tnfd-forum/)
+      * [Community of Practice](https://tnfd.global/engage/community-of-practice/)
+      * [Consultation groups](https://tnfd.global/engage/tnfd-consultation-groups/)
+      * [Open consultations](https://tnfd.global/tnfd-publications/?_sft_framework-categories=market-consultation#search-filter)
+    * #### [Adopt](https://tnfd.global/engage/tnfd-adopters/)
+      * [What does it mean? ](https://tnfd.global/engage/tnfd-adopters/#what?)
+      * [Who has adopted?](https://tnfd.global/engage/tnfd-adopters-list/)
+      * [Example TNFD reports](https://tnfd.global/knowledge-hub/example-tnfd-reporting/)
+      * [Adopter FAQs](https://tnfd.global/engage/tnfd-adopters/#faqs)
+    * #### [Knowledge Hub](https://tnfd.global/knowledge-hub/)
+      * [Navigating the Knowledge Hub ](https://tnfd.global/learning-tools/knowledge-hub/)
+      * [Webinar library](https://tnfd.global/learning-tools/knowledge-hub/webinars/)
+      * [Learning Lab](https://tnfd.global/knowledge-hub/learning-lab-landing/)
+      * [Trainer Portal](https://tnfd.global/knowledge-hub/trainer-portal/)
+      * [Resources database ](https://tnfd.global/knowledge-hub/resources-bank/)
+      * [Case study library](https://tnfd.global/knowledge-hub/case-studies/)
+      * [Example TNFD reports](https://tnfd.global/knowledge-hub/example-tnfd-reporting/)
+      * [TNFD in a box](https://tnfd.global/workshop/tnfd-in-a-box/)
+      * [Toolkits & worksheets](https://tnfd.global/knowledge-hub/worksheets-and-toolkits/)
+    * [Explore the Knowledge Hub ](https://tnfd.global/knowledge-hub/)
+  * [Publications](javascript:void\(\);)
+    * #### [All Publications](https://tnfd.global/tnfd-publications/)
+      * [Recommendations](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/)
+      * [2025 Status Report](https://tnfd.global/tnfd-2025-status-report/)
+      * [The LEAP Approach](https://tnfd.global/publication/additional-guidance-on-assessment-of-nature-related-issues-the-leap-approach/#publication-content)
+      * [Additional guidance](https://tnfd.global/publications/?_sft_framework-categories=additional-guidance#search-filter)
+      * [Sector guidance ](https://tnfd.global/publications/?_sft_framework-categories=additional-guidance-by-sector#search-filter)
+      * [Guidance by biome](https://tnfd.global/publications/?_sft_framework-categories=additional-guidance-by-biome#search-filter)
+      * [Discussion papers](https://tnfd.global/publications/?_sft_framework-categories=discussion-papers#search-filter)
+      * [Standards alignment and mapping](https://tnfd.global/tnfd-publications/?_sft_framework-categories=standards-alignment-and-mapping)
+      * [Asking Better Questions](https://tnfd.global/tnfd-publications/?_sft_framework-categories=abq-on-nature)
+      * [Open for consultation](https://tnfd.global/tnfd-publications/?_sft_framework-categories=market-consultation#search-filter)
+      * [Public comment letters](https://tnfd.global/tnfd-publications/public-comment-letters/)
+      * [Archive](https://tnfd.global/tnfd-publications/publications-archive/)
+    *       * #### Download
+[ ![250918 Tnfd Status Report Cover](https://tnfd.global/wp-content/uploads/2025/09/250918_TNFD-Status-Report_COVER-500x281.jpg) ](https://tnfd.global/publication/tnfd-2025-status-report/)
+[TNFD 2025 Status Report](https://tnfd.global/publication/tnfd-2025-status-report/)
+    *       * #### Download
+[ ![Recommendations Of The Tnfd V1 V1](https://tnfd.global/wp-content/uploads/2023/08/recommendations-of-the-tnfd-v1_v1-353x500.jpg) ](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/)
+[Taskforce on Nature-related Financial Disclosures (TNFD) Recommendations](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/)
+    * [Publication library](https://tnfd.global/tnfd-publications/)
+  * [Media & events](javascript:void\(\);)
+    * #### [Media & events](https://tnfd.global/news/)
+      * [Latest news](https://tnfd.global/news/)
+      * [Upcoming events](https://tnfd.global/events/)
+      * [Multi-media downloads](https://tnfd.global/content-hub/)
+    * [Join our mailing list](https://tnfd.global/join-the-tnfd-mailing-list/)
+
+
+[TNFD Adopters](https://tnfd.global/engage/tnfd-adopters/) [Create a profile / Log in](https://tnfd.global/create-a-profile/)
+[](javascript:showTranslation\(\); "Show translation options") [](javascript:showSearch\(\);)
+Select Language Afrikaans Albanian Amharic Arabic Armenian Azerbaijani Basque Belarusian Bengali Bosnian Bulgarian Catalan Cebuano Chichewa Chinese (Simplified) Chinese (Traditional) Corsican Croatian Czech Danish Dutch English Esperanto Estonian Filipino Finnish French Frisian Galician Georgian German Greek Gujarati Haitian Creole Hausa Hawaiian Hebrew Hindi Hmong Hungarian Icelandic Igbo Indonesian Irish Italian Japanese Javanese Kannada Kazakh Khmer Korean Kurdish (Kurmanji) Kyrgyz Lao Latin Latvian Lithuanian Luxembourgish Macedonian Malagasy Malay Malayalam Maltese Maori Marathi Mongolian Myanmar (Burmese) Nepali Norwegian Pashto Persian Polish Portuguese Punjabi Romanian Russian Samoan Scottish Gaelic Serbian Sesotho Shona Sindhi Sinhala Slovak Slovenian Somali Spanish Sundanese Swahili Swedish Tajik Tamil Telugu Thai Turkish Ukrainian Urdu Uzbek Vietnamese Welsh Xhosa Yiddish Yoruba Zulu
+Search for: Search [](https://tnfd.global/recommendations/)
+[Home](https://tnfd.global)
+# Disclosure recommendations
+Providing companies and financial institutions with a risk management and disclosure framework to identify, assess, respond to and, disclose their nature-related issues
+  * [ Recommended disclosures ](https://tnfd.global/recommendations/#disclosures)
+  * [ General requirements ](https://tnfd.global/recommendations/#requirements)
+  * [ Disclosure metrics ](https://tnfd.global/recommendations/#disclosure-metrics)
+  * [ Sector disclosure metrics ](https://tnfd.global/recommendations/#sector)
+  * [ Get started ](https://tnfd.global/recommendations/#get-started)
+  * [Back to top](https://tnfd.global/recommendations/#page)
+
+
+## Overview
+The recommendations of the TNFD have been designed to meet the corporate reporting requirements of organisations across jurisdictions, to be consistent with the global baseline for corporate sustainability reporting and to be aligned with the global policy goals in the Kunming-Montreal Global Biodiversity Framework. The TNFD disclosure framework consists of conceptual foundations for nature-related disclosures, a set of general requirements, a set of recommended disclosures structured around the four recommendation pillars of governance, strategy, risk and impact management, and metrics and targets. This is consistent with the approach of the TCFD and the ISSB’s IFRS Standards.
+![download](https://tnfd.global/wp-content/themes/tnfd/dist/img/icons/download.svg?v=1695984191)
+### Related publication
+[ ![Recommendations Of The Tnfd V1 V1](https://tnfd.global/wp-content/uploads/2023/08/recommendations-of-the-tnfd-v1_v1-353x500.jpg) ](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/#publication-content)
+[Taskforce on Nature-related Financial Disclosures (TNFD) Recommendations](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/#publication-content)
+This document provides the final TNFD Recommendations. It includes a set of general requirements for nature-related disclosures and a set of recommended disclosures structured around the four pillars of governance, strategy, risk and…
+This download is available in the following languages: 
+  * [English](https://tnfd.global/wp-content/uploads/2023/08/Recommendations-of-the-Taskforce-on-Nature-related-Financial-Disclosures.pdf?v=1734112245)
+  * [Français](https://tnfd.global/wp-content/uploads/2023/08/Recommandations-de-la-Taskforce-on-Nature-related-Financial-Disclosures_Septembre-2023.pdf?v=1710158245)
+  * [日本語](https://tnfd.global/wp-content/uploads/2024/02/%E8%87%AA%E7%84%B6%E9%96%A2%E9%80%A3%E8%B2%A1%E5%8B%99%E6%83%85%E5%A0%B1%E9%96%8B%E7%A4%BA-%E3%82%BF%E3%82%B9%E3%82%AF%E3%83%95%E3%82%A9%E3%83%BC%E3%82%B9%E3%81%AE%E6%8F%90%E8%A8%80_2023.pdf?v=1707222327)
+  * [한국어](https://tnfd.global/wp-content/uploads/2023/08/250311-Recommendations-of-the-TNFD-Korean-Translated.pdf?v=1748512280)
+  * [中文](https://tnfd.global/wp-content/uploads/2023/08/%E8%87%AA%E7%84%B6%E7%9B%B8%E5%85%B3%E8%B4%A2%E5%8A%A1%E9%9C%B2%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E5%BB%BA.pdf?v=1725286582)
+  * [Português](https://tnfd.global/wp-content/uploads/2024/06/Recomendacoes-da-Forca-Tarefa-para-Divulgacoes-Financeiras-Relacionadas-a-Natureza.pdf?v=1718113716)
+  * [Español](https://tnfd.global/wp-content/uploads/2023/08/Recomendaciones-del-Grupo-de-Trabajo-sobre-Divulgaciones-Financieras-Relacionadas-con-la-Naturaleza.pdf?v=1718113955)
+
+
+[ ![22 22529 Tnfd Main Diagrams V4](https://tnfd.global/wp-content/uploads/2023/09/22-22529-TNFD-Main-Diagrams_v4-15-2.jpg) ](https://tnfd.global/wp-content/uploads/2023/09/22-22529-TNFD-Main-Diagrams_v4-15-2.jpg)
+## Recommended disclosures 
+The recommended disclosures for all sectors are structured around four pillars
+  1. Governance 
+  2. Strategy 
+  3. Risk and impact management 
+  4. Metrics and targets 
+
+
+##  ![governance](https://tnfd.global/wp-content/themes/tnfd/dist/img/icons/governance.svg?v=1695984191) Governance
+Disclose the organisation’s governance of nature-related dependencies, impacts, risks and opportunities. 
+  1. Describe the board’s oversight of nature-related dependencies, impacts, risks and opportunities.
+  2. Describe management’s role in assessing and managing nature-related dependencies, impacts, risks and opportunities. 
+  3. Describe the organisation’s human rights policies and engagement activities, and oversight by the board and management, with respect to Indigenous Peoples, Local Communities, affected and other stakeholders, in the organisation’s assessment of, and response to, nature-related dependencies, impacts, risks and opportunities. 
+
+
+##  ![strategy](https://tnfd.global/wp-content/themes/tnfd/dist/img/icons/strategy.svg?v=1695984191) Strategy
+Disclose the effects of nature-related dependencies, impacts, risks and opportunities on the organisation’s business model, strategy and financial planning where such information is material. 
+  1. Describe the nature-related dependencies, impacts, risks and opportunities the organisation has identified over the short, medium and long term. 
+  2. Describe the effect nature-related dependencies, impacts, risks and opportunities have had on the organisation’s business model, value chain, strategy and financial planning, as well as any transition plans or analysis in place. 
+  3. Describe the resilience of the organisation’s strategy to nature-related risks and opportunities, taking into consideration different scenarios. 
+  4. Disclose the locations of assets and/or activities in the organisation’s direct operations and, where possible, upstream and downstream value chain(s) that meet the criteria for priority locations. 
+
+
+##  ![risk management](https://tnfd.global/wp-content/themes/tnfd/dist/img/icons/risk-management.svg?v=1695984191) Risk and impact management
+Describe the process used by the organisation to identify, assess, prioritise and monitor nature-related dependencies, impacts, risk and opportunities.
+  1.      * Describe the organisation’s processes for identifying, assessing and prioritising nature-related dependencies, impacts, risks and opportunities in its direct operations.
+     * Describe the organisation’s processes for identifying, assessing and prioritising nature-related dependencies, impacts, risks and opportunities in its upstream and downstream value chain(s).
+  2. Describe the organisation’s processes for monitoring nature-related dependencies, impacts, risks and opportunities. 
+  3. Describe how processes for identifying, assessing, prioritising and monitoring nature-related risks are integrated into and inform the organisation’s overall risk management processes.
+
+
+##  ![metrics and targets](https://tnfd.global/wp-content/themes/tnfd/dist/img/icons/metrics-and-targets.svg?v=1695984191) Metrics and targets
+Disclose the metrics and targets used to assess and manage material nature-related dependencies, impacts, risks and opportunities.
+  1. Disclose the metrics used by the organisation to assess and manage material nature-related risks and opportunities in line with its strategy and risk management process. 
+  2. Disclose the metrics used by the organisation to assess and manage dependencies and impacts on nature. 
+  3. Describe the targets and goals used by the organisation to manage nature-related dependencies, impacts, risks and opportunities and its performance against these. 
+
+
+## General requirements 
+Our recommendations include six general requirements that are additional to the general requirements and other provisions of the ISSB’s IFRS-S1 Standard. Report preparers publicly stating their use of, and alignment with, our recommendations are expected to apply the general requirements to create consistency in the information disclosed. The general requirements apply to all four pillars of the recommended disclosures: Governance, Strategy, Risk and Impact Management, and Metrics and Targets. 
+### They describe: 
+  1. The application of materiality.
+  2. The scope of disclosures.
+  3. The location of nature-related issues.
+  4. Integration with other sustainability-related disclosures. 
+  5. The time horizons considered.
+  6. The engagement of Indigenous Peoples, Local Communities and affected stakeholders in the identification and assessment of the organisation’s nature-related issues. 
+
+
+## Principles of our approach 
+The TNFD Recommendations were developed on the basis of seven principles
+  1. ****Market usability****   
+Directly usable and valuable to market participants, notably corporates and financial institutions, as well as policy and other actors. 
+  2. **Science-based**  
+Follow a scientifically anchored approach, incorporate well established and emerging scientific evidence, and converge towards other existing science-based initiatives. 
+  3. **Nature-related risks**   
+Embrace nature-related risks that include immediate and material financial risks, as well as nature dependencies and impacts and their related organisational and societal risks. 
+  4. **Purpose driven**   
+Actively reducing risks and increasing nature-positive action by using the minimum required level of granularity to ensure achievement of the TNFD goal. 
+  5. **Integrated and adaptive**   
+Can be integrated into and enhance existing disclosures and other standards. Account for and be adaptive to changes in national and international policy commitments, standards and market conditions.
+  6. ****Climate-nature nexus****   
+Employ an integrated approach to climate- and nature-related risks, scaling up finance for nature-based solutions.
+  7. ****Globally inclusive****   
+Ensure the framework and approach is relevant and accessible worldwide, across emerging and developed markets. 
+
+
+[ ![22 22529 Tnfd Main Diagrams V4](https://tnfd.global/wp-content/uploads/2023/09/22-22529-TNFD-Main-Diagrams_v4-45-1.jpg) ](https://tnfd.global/wp-content/uploads/2023/09/22-22529-TNFD-Main-Diagrams_v4-45-1.jpg)
+## Disclosure metrics 
+TNFD’s metrics include: 
+  1. A small set of core metrics – ‘core global metrics’ that apply to all sectors and ‘core sector metrics’ for each sector – to be disclosed on a comply or explain basis. 
+  2. A larger set of additional disclosure and assessment metrics, which report preparers may wish to use for their assessment and, where relevant and helpful, disclosure. 
+
+
+## Sector disclosure metrics
+TNFD additional sector guidance includes guidance on applying the core global disclosure metrics for each sector and a list of core and additional sector disclosure indicators and metrics.
+  * [ ![Sector Guidance Aquaculture Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26189-Draft-Sector-Guidance-Aquaculture-cover-1-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-aquaculture/)
+[Additional sector guidance – Aquaculture](https://tnfd.global/publication/additional-sector-guidance-aquaculture/)
+  * [ ![Additional Sector Guidance Biotechnology And Pharmaceuticals Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26189-Draft-Sector-Guidance-Biotechnology-and-Pharmaceuticals-cover-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-biotechnology-and-pharmaceuticals/)
+[Additional sector guidance – Biotechnology and pharmaceuticals](https://tnfd.global/publication/additional-sector-guidance-biotechnology-and-pharmaceuticals/)
+  * [ ![Sector Guidance Electric And Power Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26189-Draft-Sector-Guidance-Electric-and-Power-Cover-1-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-electric-utilities-and-power-generators/)
+[Additional sector guidance – Electric utilities and power generators](https://tnfd.global/publication/additional-sector-guidance-electric-utilities-and-power-generators/)
+  * [ ![Sector Guidance Food And Agriculture Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26189-Draft-Sector-Guidance-Food-and-Agriculture-cover-1-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-food-and-agriculture/)
+[Additional sector guidance – Food and agriculture](https://tnfd.global/publication/additional-sector-guidance-food-and-agriculture/)
+  * [ ![Sector Guidance Metals And Mining Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26189-Draft-Sector-Guidance-Metals-and-Mining-cover-1-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-metals-and-mining/)
+[Additional sector guidance – Metals and mining](https://tnfd.global/publication/additional-sector-guidance-metals-and-mining/)
+  * [ ![Sector Guidance Oil And Gas Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26189-Draft-Sector-Guidance-Oil-and-Gas-cover-1-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-oil-and-gas/)
+[Additional sector guidance – Oil and gas](https://tnfd.global/publication/additional-sector-guidance-oil-and-gas/)
+  * [ ![Sector Guidance Chemicals Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26189-Draft-Sector-Guidance-Chemicals-cover-1-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-chemicals/)
+[Additional sector guidance – Chemicals](https://tnfd.global/publication/additional-sector-guidance-chemicals/)
+  * [ ![Sector Guidance Forestry And Paper Cover](https://tnfd.global/wp-content/uploads/2024/06/24-26189-Draft-Sector-Guidance-Forestry-and-Paper-cover-1-353x500.jpg) ](https://tnfd.global/publication/additional-sector-guidance-forestry-pulp-and-paper/)
+[Additional sector guidance – Forestry, pulp and paper](https://tnfd.global/publication/additional-sector-guidance-forestry-pulp-and-paper/)
+
+
+  * ### Getting started
+We recognise that every organisation is different often with their own pathway to adopting our recommendations.
+To help organisations get started we’ve created a useful Getting Started guide alongside a set of Additional Guidance and a range of useful tools and capacity building materials that can help organisations chart their course towards the identification, assessment, management and disclosure of nature-related issues.
+[Getting started](https://tnfd.global/recommendations-of-the-tnfd/getting-started-with-tnfd/)
+
+
+[Back to top](https://tnfd.global/recommendations/#main)
+## Recommendations & Additional Guidance
+  * [TNFD Recommendations](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/)
+  * [Additional Guidance](https://tnfd.global/assessment-guidance/)
+
+
+## Resources
+  * [Publications](https://tnfd.global/tnfd-publications/)
+  * [Beta framework publication archive](https://tnfd.global/tnfd-publications/publications-archive/)
+  * [Knowledge Hub](https://tnfd.global/knowledge-hub/)
+
+
+## Useful links
+  * [Home](https://tnfd.global/)
+  * [Contact us](https://tnfd.global/about/contact-us/)
+  * [Log in](https://tnfd.global/log-in/)
+  * [Create a profile](https://tnfd.global/create-a-profile/)
+  * [User dashboard](https://tnfd.global/user-dashboard/)
+  * [Join the TNFD mailing list](https://tnfd.global/join-the-tnfd-mailing-list/)
+  * [Careers](https://tnfd.global/about/careers/)
+  * [TNFD brand guidelines](https://tnfd.global/content-hub/#resources)
+  * [Events](https://tnfd.global/events/)
+
+
+![TNFD logo](https://tnfd.global/wp-content/themes/tnfd/dist/img/tnfd-logo-white.svg)
+[ ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png) ](http://creativecommons.org/licenses/by/4.0/)
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+The TNFD Secretariat is administratively supported by the Green Finance Institute (GFI) and operates as GFI PMO Ltd. with company registration number 13559729, and has its registered address at International House, 36-38 Cornhill, London, EC3V 3NG.
+© TNFD 2021-2026  |  Website design and development by [EPLS Design](https://epls.design/?utm_source=client&utm_medium=website&utm_campaign=tnfd)
+  * [Privacy policy](https://tnfd.global/privacy-policy/)
+  * [Cookie policy](https://tnfd.global/cookie-policy/)
+
+
+Manage Consent
+To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behaviour or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.
+Functional Functional Always active 
+The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.
+Preferences Preferences
+The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.
+Statistics Statistics
+The technical storage or access that is used exclusively for statistical purposes. The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.
+Marketing Marketing
+The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.
+  * [Manage options](https://tnfd.global/recommendations/)
+  * [Manage services](https://tnfd.global/recommendations/)
+  * [Manage {vendor_count} vendors](https://tnfd.global/recommendations/)
+  * [Read more about these purposes](https://cookiedatabase.org/tcf/purposes/)
+
+
+Accept Deny View preferences Save preferences [View preferences](https://tnfd.global/recommendations/)
+  * [{title}](https://tnfd.global/recommendations/)
+  * [{title}](https://tnfd.global/recommendations/)
+  * [{title}](https://tnfd.global/recommendations/)
+
+
+Manage consent

@@ -1,0 +1,167 @@
+JOINT ESAs OPINION ON SFDR - JUNE 18, 2024
+==========================================
+Title: Joint ESAs Opinion on the Assessment of the Sustainable Finance Disclosure Regulation
+Published: 18 June 2024
+Authors: European Banking Authority (EBA), European Insurance and Occupational Pensions Authority (EIOPA), European Securities and Markets Authority (ESMA)
+Document reference: JC 2024 06
+Official PDF: https://www.esma.europa.eu/sites/default/files/2024-06/JC_2024_06_Joint_ESAs_Opinion_on_SFDR.pdf
+
+BACKGROUND
+----------
+The three European Supervisory Authorities (ESAs) published this joint opinion at their own initiative (not in response to a Commission request) to provide a comprehensive assessment of the SFDR framework and recommendations for reform. This document is a critical precursor to the formal SFDR 2.0 legislative proposal of November 2025.
+
+The ESAs had previously engaged with SFDR implementation issues through various Q&As and guidance. This opinion represents their consolidated view after observing market behaviour under SFDR 1.0 since March 2021.
+
+CORE PROBLEM IDENTIFIED
+------------------------
+The ESAs found that the current SFDR framework suffers from three main deficiencies:
+
+1. DE FACTO LABELING: Articles 8 and 9 have been used as informal labels by the market despite being designed as disclosure categories. This has led to significant greenwashing risks, because qualifying for Article 8 or 9 requires no minimum sustainability standard.
+
+2. CONCEPTUAL AMBIGUITY: The definition of "sustainable investment" is overly flexible, enabling wildly inconsistent interpretations. The ESAs found that similar products could legitimately claim vastly different percentages of "sustainable investments" in their portfolios based on differing methodological choices.
+
+3. CONSUMER CONFUSION: Disclosure templates are too complex for retail investors. The PAI (Principal Adverse Impact) indicator templates in particular are technical and data-heavy, providing limited decision-useful information to the average retail investor.
+
+MAIN RECOMMENDATION: REPLACE ARTICLE 8/9 WITH CATEGORIES AND/OR INDICATORS
+-----------------------------------------------------------------------------
+The ESAs recommend that the European Commission replace or complement the Article 8 and 9 disclosure framework with one of three approaches:
+
+OPTION A: VOLUNTARY PRODUCT CATEGORIES
+- Establish two primary product categories with minimum standards:
+
+  1. SUSTAINABILITY CATEGORY:
+     Products investing in companies or activities already aligned with environmental and/or social sustainability.
+     - Environmental sustainability threshold: should be based on Taxonomy-aligned investments
+     - Non-qualifying investments must meet "do no significant harm" criteria
+     - Governance requirements apply
+     - The ESAs note this is similar to the intent behind original Article 9
+
+  2. TRANSITION CATEGORY:
+     Products targeting companies or activities not yet fully sustainable but on a credible improvement pathway.
+     - Should NOT require "do no significant harm" standard (which is incompatible with transition strategies)
+     - Must demonstrate clear transition pathways and ambition levels
+     - Minimum investment proportions to be specified
+     - Transparent methodology for assessing transition credibility
+
+- Products NOT in either category would face basic disclosure requirements and naming restrictions
+
+OPTION B: SUSTAINABILITY INDICATORS (GRADES)
+- Adopt a grading system similar to EU Energy Performance Certificates
+- Products would be rated on a visual scale (e.g., A through G or a numerical scale) based on measured sustainability performance
+- Advantages: More granular and continuous; avoids binary in/out decisions
+- Disadvantages: Risk of oversimplification; complex aggregation challenges
+
+OPTION C: COMBINATION OF CATEGORIES AND INDICATORS
+- Categories define minimum standards and eligibility
+- Indicators provide additional granular information within and across categories
+- The ESAs note this combination may best balance comparability with nuance
+
+The ESAs recommend that consumer testing be conducted before implementing any option to ensure practical improvements for retail investors.
+
+RECOMMENDATIONS ON PRINCIPAL ADVERSE IMPACT (PAI) DISCLOSURES
+--------------------------------------------------------------
+
+Current PAI framework problems identified by ESAs:
+- "Consider" vs. "inform" ambiguity: Current rules require FMPs to "consider" PAIs, but it is unclear whether this mandates actual mitigation or merely awareness
+- Excessive mandatory PAI indicators: The 14 mandatory and 46 optional PAI indicators in the RTS are too extensive for most asset classes
+- Data availability gaps: Many PAI indicators rely on data that is frequently unavailable, especially for non-listed companies and alternative assets
+- Disproportionate burden on smaller FMPs with limited analytical resources
+
+ESA Recommendations on PAI:
+1. Change wording from "consideration" to mandatory "information" disclosure: All FMPs should disclose which PAIs their investments have, even without requiring active mitigation
+2. PAI information should be MANDATORY for transition-category products
+3. MINIMAL PAI disclosures should be required across ALL financial products (not only categorized ones)
+4. Clarify that disclosing PAI information does NOT create an obligation to mitigate those adverse impacts
+5. Streamline the indicator list: Reduce to a smaller set of the most material, data-available indicators
+6. Align PAI indicator requirements with data available under the Corporate Sustainability Reporting Directive (CSRD)
+
+RECOMMENDATIONS ON THE "SUSTAINABLE INVESTMENT" DEFINITION
+-----------------------------------------------------------
+The ESAs identify the "sustainable investment" definition in Article 2(17) of SFDR as a major source of inconsistency:
+
+Current definition: An investment in an economic activity contributing to an environmental or social objective, not significantly harming any other such objective, and the investee following good governance practices.
+
+Problems:
+- "Contribute" is undefined and applied inconsistently
+- "Do no significant harm" threshold varies widely across FMPs
+- "Good governance" criteria are not standardized
+- The relationship with EU Taxonomy-aligned investments is unclear
+
+ESA Recommendations:
+- If categories are introduced, the "sustainable investment" concept may become unnecessary
+- If retained, key parameters should be made prescriptive rather than principles-based
+- The relationship between SFDR's "sustainable investment" and EU Taxonomy alignment must be clarified
+- The ESAs urge completing the EU Social Taxonomy to extend coverage beyond environmental objectives
+
+RECOMMENDATIONS ON TAXONOMY ALIGNMENT DISCLOSURES
+-------------------------------------------------
+The ESAs note that mandatory Taxonomy alignment reporting for all Article 8 and 9 products has created confusion:
+- Requiring funds to report "0%" Taxonomy alignment is counterproductive and misleading to investors
+- Taxonomy alignment disclosures should only be required when a product explicitly relies on Taxonomy criteria as a core part of its strategy
+
+RECOMMENDATIONS ON DISCLOSURE SIMPLIFICATION
+---------------------------------------------
+The ESAs call for significant simplification of disclosure templates:
+- Tailor sustainability information to investor sophistication levels
+- Create simplified, consumer-friendly summaries for retail investors
+- Provide more detailed technical information for sophisticated/professional investors
+- Improve consistency with PRIIPs Key Information Documents (KIDs)
+- Reduce the number of mandatory disclosure datapoints
+
+RECOMMENDATIONS ON SCOPE
+-------------------------
+The ESAs consider whether the current SFDR scope (covering financial advisers and portfolio managers) is appropriate:
+- Financial advisers and portfolio managers do not manufacture products and their sustainability claims are better addressed through suitability frameworks under MiFID II and IDD
+- Consider standardizing sustainability disclosures for currently excluded products to address inconsistencies
+
+ENTITY-LEVEL DISCLOSURE OBSERVATIONS
+--------------------------------------
+- Entity-level PAI statements represent a significant compliance burden
+- Much of this information overlaps with what large companies must now report under CSRD
+- The ESAs suggest rationalizing entity-level requirements to avoid duplication
+
+INDUSTRY AND MARKET DATA
+-------------------------
+At the time of the June 2024 opinion, the ESAs noted:
+- Approximately 56% of EU fund AUM was designated Article 8
+- Approximately 2.7% was Article 9
+- These proportions had grown substantially since 2021, suggesting the categories were being widely adopted as de facto labels
+- The ESAs expressed concern about greenwashing risk given the low bar for Article 8 designation
+
+KEY DIFFERENCES BETWEEN ESA OPINION (JUNE 2024) AND FINAL COMMISSION PROPOSAL (NOVEMBER 2025)
+-----------------------------------------------------------------------------------------------
+The Commission largely followed ESA recommendations but with some important divergences:
+
+1. Number of categories: ESAs proposed 2 categories (Sustainability + Transition); Commission adopted 3 (Sustainable + Transition + ESG Basics)
+2. ESG Basics (Article 8): The Commission added a third "middle" category that the ESAs did not specifically recommend; critics note this may perpetuate the greenwashing risk the ESAs identified
+3. Entity-level PAI: Both agreed on elimination, but Commission went further in removing all entity-level PAI obligations
+4. "Do no significant harm": ESAs suggested retaining it for the Sustainability category; Commission removed it entirely from SFDR
+5. Category optionality: ESAs discussed voluntary vs. mandatory categories; Commission made categories mandatory for any product making sustainability claims
+
+SUBSEQUENT ESA WORK
+--------------------
+September 2025: ESAs published a Report on PAI Disclosures under Article 18 SFDR
+Reference: JC 2025 26 - "Report on Principal Adverse Impact disclosures"
+URL: https://www.esma.europa.eu/sites/default/files/2025-09/JC_2025_26_Report_on_PAI_disclosures_under_Article_18_SFDR.pdf
+
+This report assessed how PAI disclosures under the current SFDR have functioned in practice, providing empirical evidence to support the reform proposals.
+
+SOURCES FOR THIS SUMMARY
+--------------------------
+1. Joint ESAs Opinion - Official Document
+   https://www.esma.europa.eu/sites/default/files/2024-06/JC_2024_06_Joint_ESAs_Opinion_on_SFDR.pdf
+
+2. Global Financial Regulatory Blog - "ESAs Propose New SFDR Classification System"
+   https://www.globalfinregblog.com/2024/06/esas-propose-new-sfdr-classification-system/
+
+3. Ashurst - "Joint ESAs Opinion on the Assessment of the SFDR"
+   https://www.ashurst.com/en/insights/joint-esas-opinion-on-the-assessment-of-the-sfdr/
+
+4. Lexology - "ESAs propose improvements to the SFDR"
+   https://www.lexology.com/library/detail.aspx?g=cbaaeda2-3dce-4346-938c-1732dc017286
+
+5. National Law Review - "European Supervisory Authorities Publish Joint Opinion on SFDR 2"
+   https://natlawreview.com/article/european-supervisory-authorities-joint-opinion-sfdr-20
+
+6. ESMA PAI Report (September 2025)
+   https://www.esma.europa.eu/sites/default/files/2025-09/JC_2025_26_Report_on_PAI_disclosures_under_Article_18_SFDR.pdf

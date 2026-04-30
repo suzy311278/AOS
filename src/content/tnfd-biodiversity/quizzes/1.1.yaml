@@ -1,0 +1,26 @@
+- question: "The TCFD (Task Force on Climate-related Financial Disclosures) was established in which year and published its final recommendations in which year?"
+  options:
+  - "Established 2013, recommendations published 2015"
+  - "Established 2015, recommendations published 2017"
+  - "Established 2017, recommendations published 2019"
+  - "Established 2019, recommendations published 2021"
+  answer: 1
+  explanation: "The TCFD was established in 2015 by the Financial Stability Board under the chairmanship of Michael Bloomberg and Mark Carney. It published its final recommendations in June 2017, structured around four pillars: Governance, Strategy, Risk Management, and Metrics and Targets. This architecture was explicitly adopted by TNFD."
+
+- question: "Which feature of nature-related risk most fundamentally distinguishes it from climate risk and required a separate framework?"
+  options:
+  - "Nature loss is more recent than climate change and therefore less well understood"
+  - "Nature risk only affects developing countries while climate risk is global"
+  - "Nature risk is inherently location-specific: actions in one place cannot offset losses in another, unlike carbon reductions which contribute to a single global atmospheric goal"
+  - "Nature risk cannot be measured quantitatively while climate risk can"
+  answer: 2
+  explanation: "The most fundamental distinction is location specificity. A carbon reduction in Brazil contributes equally to the global atmospheric goal as one in Norway. By contrast, restoring a wetland in Australia cannot substitute for a destroyed coral reef in Indonesia. This location specificity is embedded throughout TNFD's architecture, most visibly in the S4 disclosure requirement for priority location mapping."
+
+- question: "TNFD was formally established in which year and published its final recommendations (v1.0) in which year?"
+  options:
+  - "Established 2019, v1.0 published 2021"
+  - "Established 2021, v1.0 published 2023"
+  - "Established 2020, v1.0 published 2022"
+  - "Established 2022, v1.0 published 2024"
+  answer: 1
+  explanation: "TNFD was formally established in June 2021 following two years of preparatory work. It published four beta framework versions for market testing between March 2022 and January 2023, then released its final Recommendations v1.0 in September 2023 at New York Climate Week, coinciding with the UN General Assembly."

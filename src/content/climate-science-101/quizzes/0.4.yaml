@@ -1,0 +1,26 @@
+- question: "What is Equilibrium Climate Sensitivity (ECS), and what is the IPCC AR6 best estimate?"
+  options:
+    - "The warming expected within 10 years of doubling CO₂, estimated at 1.2°C"
+    - "The long-term warming expected after a doubling of atmospheric CO₂ once the climate reaches a new equilibrium, with a best estimate of 3°C"
+    - "The maximum possible warming under the highest emission scenario, estimated at 4.5°C"
+    - "The warming that has already occurred due to human emissions, measured at 1.07°C"
+  answer: 1
+  explanation: "Equilibrium Climate Sensitivity (ECS) is the long-term global warming that would occur after atmospheric CO₂ doubles and the entire climate system — including the deep ocean — reaches a new equilibrium. The IPCC AR6 narrowed the likely range to 2.5–4°C, with a best estimate of 3°C. Without feedbacks, CO₂ doubling would cause only about 1.2°C of warming — feedbacks are what drive ECS to approximately 3°C."
+
+- question: "Why does the Arctic warm more than twice as fast as the global average?"
+  options:
+    - "The Arctic receives more sunlight in summer due to its position at the top of the Earth"
+    - "Methane leaking from Arctic permafrost directly heats the Arctic atmosphere more than other regions"
+    - "The ice-albedo feedback: melting sea ice exposes dark ocean water that absorbs much more solar energy than reflective ice, amplifying warming in a self-reinforcing cycle"
+    - "Ocean currents deliver more warm water to the Arctic than to other high-latitude regions"
+  answer: 2
+  explanation: "Arctic amplification is primarily driven by the ice-albedo feedback. Sea ice reflects about 80–90% of incoming sunlight; dark ocean water absorbs about 94%. As warming melts ice, more dark ocean is exposed, absorbing more heat, causing more warming, melting more ice. This positive feedback loop is why the Arctic warms more than twice as fast as the global average."
+
+- question: "What is 'committed warming' and why does it matter for climate policy?"
+  options:
+    - "The warming already baked into future projections based on policies that governments have committed to implementing"
+    - "The additional warming that will occur even if all greenhouse gas emissions stop today, due to the thermal inertia of the ocean"
+    - "The warming that scientists are certain will occur in the next decade regardless of any actions taken"
+    - "The difference between surface temperature and upper atmosphere temperature at any given time"
+  answer: 1
+  explanation: "Committed warming (or unrealized warming) is the additional warming the climate will undergo even if emissions stopped today, because the ocean has not yet fully equilibrated with current greenhouse gas concentrations. Estimates suggest 0.3–0.5°C of additional committed warming exists already. This means every additional tonne emitted today extends and deepens the warming commitment, making early and rapid emissions reductions more valuable than delayed action."

@@ -1,0 +1,26 @@
+- question: "What is the minimum sustainable development co-benefit requirement for a project certified under Gold Standard for the Global Goals (GS4GG)?"
+  options:
+    - "The project must contribute to at least one SDG of the developer's choice"
+    - "The project must contribute to at least three SDGs, one of which must be SDG 13 Climate Action"
+    - "The project must contribute to SDG 1 (No Poverty) and SDG 7 (Affordable and Clean Energy)"
+    - "Co-benefit contributions are optional under GS4GG; only the carbon reduction is mandatory"
+  answer: 1
+  explanation: "Every GS4GG project must contribute to at least three SDGs, with SDG 13 (Climate Action) being mandatory. Co-benefits must be measured, reported, and verified, not just asserted, making GS4GG's sustainable development requirements substantially more rigorous than Verra VCS, which treats co-benefit certification (through CCB Standards) as optional."
+
+- question: "What is the key structural difference between ART TREES and project-based crediting programs like VCS and Gold Standard?"
+  options:
+    - "ART TREES only accepts projects in North America; VCS and Gold Standard accept global projects"
+    - "ART TREES credits emission reductions at national or sub-national jurisdictional level; VCS and Gold Standard credit individual projects"
+    - "ART TREES requires corresponding adjustments; VCS and Gold Standard do not"
+    - "ART TREES is a compliance market program; VCS and Gold Standard are voluntary only"
+  answer: 1
+  explanation: "ART TREES (the REDD+ Environmental Excellence Standard) credits emission reductions at jurisdictional scale, meaning an entire country or state's REDD+ performance is measured and credited as a unit. This avoids the baseline leakage and permanence concerns associated with isolated project-based REDD+ credits, where deforestation in one project area may simply shift to adjacent unprotected areas."
+
+- question: "Which crediting program is the oldest in the world, having been established in 1996, and operates primarily in North America with compliance market linkages?"
+  options:
+    - "Plan Vivo"
+    - "Gold Standard"
+    - "Climate Action Reserve (CAR)"
+    - "American Carbon Registry (ACR)"
+  answer: 3
+  explanation: "The American Carbon Registry (ACR), operated by Winrock International, was established in 1996, making it the oldest carbon offset program in the world. It operates primarily in North America across forest carbon, agriculture, and other sectors, and its protocols are accepted in the California-Quebec cap-and-trade system for certain project types."

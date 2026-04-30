@@ -1,0 +1,153 @@
+NOAA Climate.gov - Key Climate Indicators and Data
+Multiple sources from climate.gov
+Crawled: March 2026
+
+=============================================================================
+GLOBAL TEMPERATURE
+Source: https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature
+=============================================================================
+
+2024 TEMPERATURE RECORDS:
+- 2024 was the warmest year since global records began in 1850 by a wide margin
+- Temperature was 2.32°F (1.18°C) above the 20th-century average
+- It reached 2.62°F (1.35°C) above pre-industrial levels (1850-1900)
+
+LONG-TERM WARMING TRENDS:
+- Average increase of 0.11°F (0.06°C) per decade since 1850, totaling roughly 2°F overall
+- Since 1982, warming accelerated to 0.36°F (0.20°C) per decade - more than triple the historical rate
+- All ten warmest years occurred during 2015-2024
+- The 2024 global temperature anomaly exceeded the 2023 record by 0.18°F (0.10°C)
+
+SCIENTIFIC EXPLANATION:
+Surface temperature reflects Earth's energy balance - the relationship between absorbed sunlight and radiated heat. The observed warming indicates an energy imbalance caused by human-produced greenhouse gases. The IPCC confirms that human activities, particularly greenhouse gas emissions, unequivocally caused modern warming.
+
+FUTURE PROJECTIONS:
+Depending on emission scenarios, models project end-of-century temperatures ranging from 2.4°F to 10.2°F above early 20th-century baselines. Current annual carbon emissions total approximately 11 billion metric tons.
+
+=============================================================================
+ATMOSPHERIC CARBON DIOXIDE
+Source: https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide
+=============================================================================
+
+CURRENT LEVELS (2024):
+- Global atmospheric CO2 reached 422.8 parts per million (ppm) in 2024, marking a new record
+- Year-over-year increase of 3.75 ppm represented "the largest one-year increase on record"
+- At Mauna Loa Observatory specifically, 2024 averaged 424.61 ppm
+
+HISTORICAL CONTEXT:
+- Pre-industrial atmospheric CO2 stood at approximately 280 ppm
+- Current concentration is "50 percent higher than it was before the Industrial Revolution"
+- Over the past 60 years, CO2 has increased at rates "about 100 times faster than previous natural increases, such as those that occurred at the end of the last ice age 11,000-17,000 years ago"
+
+WHY 2024 WAS EXCEPTIONAL:
+The enormous 2024 increase resulted from multiple factors. Although an El Nino pattern had weakened by April, "record high air temperatures and drought in all of 2024, similar to those during an El Nino, were likely drivers." Significant forest fires in the Amazon and Canada additionally contributed to accelerated atmospheric concentrations.
+
+HUMAN EMISSIONS CONTEXT:
+Fossil fuel combustion drives rising CO2. Since the Industrial Revolution's mid-1700s start, annual emissions climbed from roughly 11 billion tons in the 1960s to "an estimated 37.4 billion tons in 2024." Natural carbon sinks absorb approximately half of human emissions; the remainder accumulates atmospherically.
+
+OCEAN ACIDIFICATION IMPACT:
+Dissolved atmospheric CO2 chemically transforms into carbonic acid within seawater. Ocean surface pH has declined from 8.21 to 8.10 since industrialization - representing "a 30% increase in acidity." This phenomenon damages shellfish development and marine organisms' calcium-based structures.
+
+PALEOCLIMATE COMPARISON:
+Ice-core evidence demonstrates that during ice-age cycles spanning the past million years, atmospheric CO2 never exceeded 300 ppm. Contemporary levels are unparalleled in human history, comparable only to conditions "roughly 3 million years ago" during the Mid-Pliocene Warm Period.
+
+=============================================================================
+OCEAN HEAT CONTENT
+Source: https://www.climate.gov/news-features/understanding-climate/climate-change-ocean-heat-content
+=============================================================================
+
+The ocean stores approximately 91% of excess heat trapped in Earth's climate system by greenhouse gases. Between 1993-2024, ocean heat-gain rates averaged "0.66 to 0.74 Watts per square meter" across all depths globally.
+
+HEAT DISTRIBUTION AND MEASUREMENT:
+- Upper ocean layers (0-700 meters): heat-gain rates of 0.39-0.46 Watts per square meter
+- Deeper layers (700-2,000 meters): accumulate heat at 0.17-0.24 Watts per square meter
+- Deepest sections (2,000-6,000 meters): gain approximately 0.070 Watts per square meter
+
+CONSEQUENCES OF OCEAN WARMING:
+Rising ocean heat contributes to "sea level rise, ocean heat waves and coral bleaching, and melting of ocean-terminating glaciers and ice sheets" around Greenland and Antarctica.
+
+HISTORICAL CONTEXT:
+"More than 90 percent of the warming that has happened on Earth over the past 50 years has occurred in the ocean." Upper ocean warming accounts for about 63% of total stored heat increase from 1971-2010, with deeper waters contributing another 30%.
+
+TEMPERATURE MONITORING:
+Scientists use multiple methods including Argo floats (3,000+ robotic instruments drifting at various depths), satellites measuring sea surface height, and in-situ temperature sensors. "Argo floats" rise every 10 days, recording temperature and salinity while transmitting data via satellite.
+
+FUTURE IMPLICATIONS:
+Heat already stored in ocean depths will eventually release, committing Earth to additional surface warming once greenhouse gas emissions cease.
+
+=============================================================================
+GLOBAL SEA LEVEL
+Source: https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level
+=============================================================================
+
+CURRENT STATUS AND TRENDS:
+- Global average sea level has risen 8-9 inches (21-24 centimeters) since 1880
+- In 2023, it reached a record high of 101.4 mm (3.99 inches) above 1993 levels
+- The rate of increase is accelerating, having more than doubled from 0.06 inches per year in the twentieth century to 0.14 inches annually from 2006-2015
+
+REGIONAL VARIATIONS:
+Some ocean basins have experienced rises of 6-8 inches since satellite measurements began in 1993. Local sea level changes differ from global averages due to factors including land subsidence, geological processes, and regional ocean currents. U.S. coastal areas show the fastest increases in the Gulf of Mexico region and mid-Atlantic, while Alaska and parts of the Pacific Northwest experience declining levels.
+
+CAUSES OF SEA LEVEL RISE:
+1. Melting ice: Glaciers and ice sheets worldwide are melting and adding water to oceans. Ice loss from Greenland increased sevenfold between 1992-2001 and 2012-2016. Antarctic ice loss nearly quadrupled during the same period.
+2. Thermal expansion: Warming ocean water expands in volume. From 1970 through the recent decade, melting and expansion contributed roughly equally to observed rise.
+
+SOCIETAL IMPACTS:
+Nearly 30 percent of the U.S. population lives in coastal areas vulnerable to flooding and erosion. High-tide nuisance flooding is now 300-900 percent more frequent than 50 years ago.
+
+FUTURE PROJECTIONS:
+By 2100, outcomes depend heavily on greenhouse gas emission trajectories:
+- Low emissions scenario: Global sea level rises at least one foot above 2000 levels
+- High emissions with ice sheet collapse: Could reach 2.2 meters (7.2 feet) by 2100 and 3.9 meters (13 feet) by 2150
+For the contiguous U.S., the next 30 years may see rises equal to the past century's total increase.
+
+=============================================================================
+ARCTIC SEA ICE
+Source: https://www.climate.gov/news-features/understanding-climate/climate-change-arctic-sea-ice-summer-minimum
+=============================================================================
+
+CURRENT STATUS (2024):
+- September 2024 Arctic sea ice extent measured 4.38 million square kilometers (1.69 million square miles), marking the sixth lowest on record
+- This represented a deficit of 2.03 million square kilometers compared to the 1981-2010 baseline (an area exceeding Alaska's size)
+- The minimum daily extent occurred September 11 at 4.28 million km2
+
+LONG-TERM DECLINE TRENDS:
+- Between 1979 and 2024, summer sea ice cover diminished by "12.1 percent per decade relative to the 1981-2010 average"
+- This translates to approximately 78,000 square kilometers of annual loss (comparable to South Carolina's area)
+- Average minimum extents decreased successively: 6.85 million km2 (1979-1992), 6.13 million km2 (1993-2006), and 4.44 million km2 (2007-2020)
+
+ICE THICKNESS AND COMPOSITION CHANGES:
+"Old, thick ice" exceeding 4 years persists at merely "5 percent of what they were in the 1980s." In mid-1985, approximately one-third of winter ice was multiyear; by 2020, this proportion fell to just 5 percent.
+
+ARCTIC AMPLIFICATION:
+Sea ice's reflective surface deflects up to 80 percent of incoming solar radiation; reduced ice coverage allows dark ocean water to absorb substantially more energy, creating a reinforcing warming cycle.
+
+HISTORICAL CONTEXT:
+Paleoclimate records spanning 1,500 years demonstrate that "the decrease during the modern era is unrivaled." Contemporary ice extents are "far lower than anything that's occurred over at least the past 1,500 years."
+
+=============================================================================
+ANNUAL GREENHOUSE GAS INDEX (AGGI)
+Source: https://www.climate.gov/news-features/understanding-climate/climate-change-annual-greenhouse-gas-index
+=============================================================================
+
+The AGGI is NOAA's measure combining warming influence of major human-produced greenhouse gases compared to 1990 baseline levels.
+
+CURRENT FINDINGS:
+- 2023 AGGI: 1.51 - indicating a 51% increase in warming influence since 1990
+- 2022 AGGI: 1.49 - representing a 49% increase since 1990
+- The atmosphere now absorbs more than 3 extra watts per square meter of energy relative to pre-industrial times
+
+HISTORICAL CONTEXT:
+"Beginning with the Industrial Revolution in 1750, it took more than 200 years for the AGGI to go from 0 to 1 (to reach 100%), but only another 30 years for it to hit nearly 1.5 (an additional 50 percent)."
+
+GREENHOUSE GAS CONTRIBUTIONS (as of 2022):
+- Carbon dioxide: 64% of warming influence
+- Methane: 19%
+- Chlorofluorocarbons (CFCs): 8.1%
+- Other industrial chemicals: remainder
+
+SINCE 1990 CHANGES:
+Human greenhouse gases increased atmospheric heating by 1.11 watts per square meter, with carbon dioxide responsible for 78% of that increase.
+
+MEASUREMENT METHOD:
+NOAA's Global Monitoring Division collects weekly air samples from approximately 40 remote worldwide locations using advanced instruments to measure gas concentrations.

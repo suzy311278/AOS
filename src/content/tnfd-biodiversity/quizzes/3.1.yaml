@@ -1,0 +1,26 @@
+- question: "Mean Species Abundance (MSA) measures which of the following?"
+  options:
+  - "The total number of species present in a defined geographic area"
+  - "The average abundance of original native species relative to their abundance in an undisturbed reference ecosystem"
+  - "The proportion of a species' historical range that remains unaffected by human activity"
+  - "The financial value of ecosystem services provided per square kilometre of natural habitat"
+  answer: 1
+  explanation: "MSA measures the average abundance of original (native) species relative to their abundance in an undisturbed reference ecosystem, expressed as a value between 0 and 100%. An MSA of 100% indicates a fully intact native species community; MSA of 0 indicates complete loss of original species. Intensive agriculture typically reduces MSA to 30-40%."
+
+- question: "The Biodiversity Intactness Index (BII) is primarily grounded in which type of data?"
+  options:
+  - "Satellite remote sensing of vegetation cover change since 1984"
+  - "Expert elicitation panels rating ecosystem degradation levels by biome"
+  - "Empirical species abundance records from a global database of over 2.38 million records across 78,000 species"
+  - "IUCN Red List threat assessments aggregated to landscape level"
+  answer: 2
+  explanation: "BII, developed by the Natural History Museum London, is calibrated against empirical observed species abundance data from a large global database containing over 2.38 million records across 78,000 species. This empirical grounding distinguishes it from MSA, which is derived from modelled pressure-response relationships."
+
+- question: "Which biodiversity metric is specifically designed to measure a company's potential contribution to reducing species extinction risk?"
+  options:
+  - "MSA (Mean Species Abundance)"
+  - "BII (Biodiversity Intactness Index)"
+  - "STAR (Species Threat Abatement and Restoration)"
+  - "SHI (Species Habitat Index)"
+  answer: 2
+  explanation: "The STAR metric, developed by IUCN and partners, is structured around IUCN Red List threat categories and calculates the share of global extinction risk attributable to specific threats in specific locations. Unlike state-of-nature metrics such as MSA and BII, STAR directly measures potential corporate contributions to avoiding species extinction, making it particularly useful for outcome-based target setting."

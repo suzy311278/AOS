@@ -1,0 +1,44 @@
+- question: "If a financial market participant selects optional PAI indicators beyond the mandatory set, what is the minimum coverage requirement across Tables 2 and 3?"
+  options:
+    - "At least five additional indicators total"
+    - "At least one additional indicator from Table 2 (environmental) AND at least one from Table 3 (social) — both dimensions must be represented"
+    - "Only indicators from either Table 2 or Table 3, not both"
+    - "At least 10 additional indicators, covering all Tables 2 and 3"
+  answer: 1
+  explanation: "When FMPs report additional PAI indicators beyond the mandatory set, they must include at least one additional indicator from Table 2 (additional environmental indicators for investee companies) AND at least one from Table 3 (additional social indicators). This ensures that additional reporting covers both environmental and social dimensions."
+
+- question: "For an Article 9 fund claiming to promote ocean sustainability, which approach to optional indicator selection would be most appropriate?"
+  options:
+    - "Only mandatory indicators are required — optional ones are irrelevant"
+    - "Select optional Table 2 indicators related to water (emissions to water, water intensity) and biodiversity, as these directly relate to the ocean sustainability objective and strengthen the DNSH methodology"
+    - "Select only the largest set of optional indicators regardless of relevance to the fund's objective"
+    - "Select optional Table 3 social indicators to balance the environmental focus"
+  answer: 1
+  explanation: "For a fund with an ocean sustainability objective, optional Table 2 indicators on emissions to water, water pollutant intensity, and biodiversity-related metrics are directly relevant — they measure the specific environmental impacts the fund aims to reduce. Selecting relevant optional indicators strengthens the credibility of the PAI disclosure and the fund's DNSH methodology."
+
+- question: "What is the purpose of the 'actions taken and targets' section of the PAI statement?"
+  options:
+    - "To list the specific fund managers responsible for PAI outcomes"
+    - "To describe what the FMP did during the reference period to reduce PAI and what targets it has set for the following period — creating accountability for improvement over time"
+    - "To summarise the regulatory changes that affected PAI reporting during the year"
+    - "To explain why some PAI indicators showed unfavourable results"
+  answer: 1
+  explanation: "The 'actions taken and targets' section is the accountability mechanism in the PAI statement. It describes concrete actions taken during the reference period (e.g., divestments, successful engagements, policy changes) and forward-looking targets for the next period. This creates an improvement loop — investors can track whether the FMP is meeting its own targets in subsequent years."
+
+- question: "What is the PAI due diligence policy, and why is it important beyond the annual PAI statement?"
+  options:
+    - "It is a legal document filed with the NCA certifying PAI data accuracy"
+    - "It is the FMP's documented process for identifying, prioritising, collecting, and acting on PAI data — the backbone that makes the annual PAI statement credible rather than just a data exercise"
+    - "It is the EU-standardised template for PAI calculations"
+    - "It is a policy governing which third-party data providers the FMP is permitted to use"
+  answer: 1
+  explanation: "The PAI due diligence policy describes how the FMP identifies and prioritises PAI in its investment universe, how PAI data is collected and fed into investment decisions, and what engagement or exclusion frameworks apply. This policy is the infrastructure that makes the PAI statement credible — without a documented process linking PAI data to actual investment decisions, the PAI statement is merely data disclosure without substance."
+
+- question: "What happens to the historical comparison requirement for PAI statements in subsequent years?"
+  options:
+    - "The historical comparison is only required in the first year of reporting"
+    - "From the second year of reporting, FMPs must include a year-on-year historical comparison for at least the five most recent reference periods where available"
+    - "Historical data must be provided by a third-party verifier"
+    - "Historical comparison is optional and only required if the NCA requests it"
+  answer: 1
+  explanation: "The RTS requires that from the second reporting year, PAI statements include a historical year-by-year comparison for at least the five most recent reference periods (where available). This enables investors to track sustainability impact trends over time and creates accountability by allowing comparison of current results against targets set in previous statements."

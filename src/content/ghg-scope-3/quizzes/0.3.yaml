@@ -1,0 +1,35 @@
+- question: "Which GHG Protocol accounting principle requires the same methodology to be used year over year so that emissions can be tracked meaningfully over time?"
+  options:
+    - "Relevance"
+    - "Completeness"
+    - "Consistency"
+    - "Transparency"
+  answer: 2
+  explanation: "The Consistency principle requires companies to use the same methodologies year over year. If methodologies change, companies must recalculate the base year so that comparisons remain meaningful."
+
+- question: "In the GHG Protocol Scope 3 Standard, what does the word 'shall' indicate?"
+  options:
+    - "A recommended best practice"
+    - "An optional enhancement"
+    - "A mandatory requirement"
+    - "A suggested approach for large companies only"
+  answer: 2
+  explanation: "The standard uses 'shall' to denote mandatory requirements that must be met for an inventory to claim conformance with the standard. 'Should' and 'may' denote recommended but non-mandatory guidance."
+
+- question: "Which principle requires that the inventory account for all GHG emission sources and activities within the chosen Scope 3 boundary, with any omissions disclosed and justified?"
+  options:
+    - "Accuracy"
+    - "Relevance"
+    - "Completeness"
+    - "Transparency"
+  answer: 2
+  explanation: "The Completeness principle requires all emission sources within the boundary to be accounted for. Any omissions must be disclosed with justification — companies cannot simply ignore categories without explanation."
+
+- question: "What are the six steps of the Scope 3 accounting process in the correct order?"
+  options:
+    - "Collect data → Set boundary → Identify categories → Calculate → Report → Allocate"
+    - "Review principles → Identify activities → Set boundary → Collect data → Calculate → Allocate"
+    - "Set targets → Identify suppliers → Collect data → Calculate → Report → Verify"
+    - "Map categories → Allocate → Collect data → Calculate → Set boundary → Report"
+  answer: 1
+  explanation: "The six steps are: (1) Review accounting steps and principles, (2) Identify Scope 3 activities, (3) Set the Scope 3 boundary, (4) Collect data, (5) Apply calculation methods, (6) Allocate emissions. This order ensures the framework is understood before data collection begins."

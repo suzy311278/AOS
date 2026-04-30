@@ -1,0 +1,26 @@
+- question: "In the questions-first writing method, what do you do after answering all the questions you wrote for a section?"
+  options:
+    - "Send the questions and answers to the client for review"
+    - "Delete the questions and connect the answer paragraphs with transitions so they flow as coherent prose"
+    - "Keep the questions as sub-headings in the final report"
+    - "Reorganize the questions into a FAQ section at the end of the chapter"
+  answer: 1
+  explanation: "The questions serve as invisible scaffolding. Once answered, you delete them and edit the answer paragraphs to flow into each other with transitions. The reader never sees the questions - they experience a well-structured section built on a clear framework."
+
+- question: "A consultant is waiting for the client to provide narratives for the Environmental section. After two follow-ups, nothing has arrived. What should they do?"
+  options:
+    - "Escalate to the client's CEO to expedite the narrative inputs"
+    - "Write the section themselves using past reports, the annual report, policies, and public information, then share it for the client to refine"
+    - "Leave the section blank and move on to other chapters until the client responds"
+    - "Use only the data tables without any narrative text"
+  answer: 1
+  explanation: "Clients do not think in terms of report narratives and will rarely provide them unprompted. The effective workflow is: you write the narrative from available sources (past reports, annual report, policies, website), share it with the client, and let them correct and refine it."
+
+- question: "What is the primary benefit of the questions-first writing method over 'just start writing'?"
+  options:
+    - "It produces more polished prose in the first draft"
+    - "It eliminates the need for client review"
+    - "It reveals data gaps early and prevents rambling paragraphs by forcing direct answers"
+    - "It allows AI tools to generate better content"
+  answer: 2
+  explanation: "Writing questions first forces you to think about what the reader needs to know, reveals exactly which data points are missing (because you cannot answer certain questions), and ensures every paragraph makes a direct point rather than circling around one."

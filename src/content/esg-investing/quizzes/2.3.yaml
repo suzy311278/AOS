@@ -1,0 +1,44 @@
+- question: "An analyst is beginning social factor analysis on a global apparel company. In which order should the analysis proceed?"
+  options:
+    - "Company level first, then sector, then country — to avoid being distracted by macro factors"
+    - "Country level first, then sector, then company — to establish context before narrowing to specifics"
+    - "Sector level only, since social risks are determined primarily by industry type"
+    - "Company level only, since financial materiality is specific to each investee"
+  answer: 1
+  explanation: "The recommended approach moves from the outside in: country-level context establishes the regulatory and social environment; sector analysis identifies the inherent social risks of the business type; and company-level analysis determines the specific exposure and quality of management response."
+
+- question: "A company operates mines in a country where local labour laws do not comply with ILO principles. Compared to a peer operating only in well-regulated jurisdictions, this company faces:"
+  options:
+    - "Lower social risk because local law provides a clearer compliance framework"
+    - "Higher social risk due to greater potential for labour violations and regulatory gaps"
+    - "The same social risk, since global companies face uniform international standards"
+    - "Lower social risk because emerging market investors have different expectations"
+  answer: 1
+  explanation: "Operating in jurisdictions where local labour law falls short of international standards increases the risk of labour violations occurring and reduces the legal backstop that protects workers. Investors must factor in both the probability of a violation occurring and the regulatory exposure if it does."
+
+- question: "When applying social factors to financial modelling, which of the following represents the most direct quantitative application?"
+  options:
+    - "Excluding companies from the portfolio that score below a certain ESG rating"
+    - "Adjusting revenue projections, cost assumptions, or the discount rate to reflect specific social risk scenarios"
+    - "Increasing portfolio allocation to sectors with better diversity metrics"
+    - "Engaging with management to request improved social disclosure"
+  answer: 1
+  explanation: "Financial modelling integration means translating social risk scenarios into specific financial line items: for example, modelling the revenue impact of a consumer boycott, the cost impact of high employee turnover, or increasing the discount rate to reflect poor overall social risk management. Exclusion and engagement are distinct activities from financial modelling."
+
+- question: "The case of Apple's supply chain issues at Foxconn is most useful to investors as an illustration of:"
+  options:
+    - "How product design flaws create product liability exposure"
+    - "Why data privacy regulation threatens technology company valuations"
+    - "How supply chain labour violations can crystallise into share price impacts before the issue becomes widely known"
+    - "The financial benefits of relocating manufacturing to lower-cost jurisdictions"
+  answer: 2
+  explanation: "The Apple/Foxconn case illustrates that supply chain social risks — poor labour conditions, worker suicides, riots — can directly affect a company's share price. Analysts who identified and monitored these risks proactively had a material information advantage over those who reacted only once the issues became front-page news."
+
+- question: "A retail analyst identifies that a major supermarket chain pays its predominantly female shopfloor staff significantly less per hour than its predominantly male warehouse staff for roles of comparable value. What is the primary investment risk this creates?"
+  options:
+    - "A risk of consumer boycotts driven by animal welfare concerns"
+    - "A regulatory risk related to data privacy legislation"
+    - "A significant financial liability from potential equal pay claims, with broader implications for the retail sector"
+    - "A reputational risk stemming from poor environmental disclosure"
+  answer: 2
+  explanation: "Structural gender pay gaps in large workforces create material legal exposure under equality legislation. As the Tesco equal pay case illustrates, potential liabilities can reach billions of pounds. Analysts covering retailers with large proportions of lower-paid female staff should assess whether similar structural disparities exist and whether the liability has been adequately recognised."

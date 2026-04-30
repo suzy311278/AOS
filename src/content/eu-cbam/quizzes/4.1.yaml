@@ -1,0 +1,26 @@
+- question: "According to the EU Commission's 2021 Impact Assessment, approximately how much annual import value was estimated to be covered by the initial CBAM scope?"
+  options:
+    - "€5 billion"
+    - "€14 billion"
+    - "€28 billion"
+    - "€55 billion"
+  answer: 2
+  explanation: "The Commission's 2021 Impact Assessment estimated that CBAM would affect approximately €28 billion worth of annual imports across the initial six covered sectors (cement, iron and steel, aluminium, fertilisers, electricity, and hydrogen). At an assumed EU ETS price of around €50 per tonne, this translated to estimated CBAM certificate costs of €1.3 to €2.1 billion per year."
+
+- question: "Which type of aluminium producer faces the highest CBAM exposure for indirect emissions, and why?"
+  options:
+    - "Producers using natural gas-fired electricity, because natural gas has the highest emission factor"
+    - "Producers using hydroelectric power, because water-based electricity carries hidden process emissions"
+    - "Producers using coal-fired electricity, because coal generates the highest CO₂ per unit of electricity and aluminium smelting is highly electricity-intensive"
+    - "Producers using nuclear power, because nuclear fuel is classified as a fossil resource under CBAM rules"
+  answer: 2
+  explanation: "Aluminium smelters are extremely electricity-intensive (around 13-15 MWh per tonne of aluminium). The emission intensity of their electricity supply dominates their embedded indirect emissions. Coal-fired electricity has an emission factor roughly four to six times higher than natural gas and many times higher than renewables. A coal-powered smelter therefore faces substantially higher CBAM indirect emission costs than an equivalent hydroelectric-powered smelter."
+
+- question: "The World Bank's State and Trends of Carbon Pricing (2024) report indicates that carbon pricing instruments globally cover approximately what share of total global GHG emissions?"
+  options:
+    - "Less than 5%"
+    - "Around 25%"
+    - "Around 50%"
+    - "More than 70%"
+  answer: 1
+  explanation: "The World Bank's 2024 report found that carbon pricing instruments (ETS and carbon taxes combined) cover approximately 25% of global GHG emissions. While this represents significant growth from earlier years, the majority of global emissions remain unpriced, and the average effective carbon price paid by covered emissions remains far below levels consistent with 1.5-2°C climate pathways. This coverage gap is a key justification for instruments like CBAM."

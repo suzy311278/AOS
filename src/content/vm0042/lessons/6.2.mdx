@@ -1,0 +1,106 @@
+{/* 6.2: VCU Lifecycle: Retirement, Buffer & Ongoing Obligations */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/vm0042/6_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## VCU Lifecycle: After First Issuance
+<HighlightBox>
+  <p class="font-semibold text-green-800">A VCU doesn't end at issuance</p>
+  <p class="text-green-900 mt-1">Once VCUs are deposited into a registry account, they have a defined lifecycle, they can be transferred, sold, labeled, retired, or cancelled. Meanwhile, the project must continue submitting verifications and maintaining its registry status. This lesson covers what happens to VCUs and to the project throughout its crediting life.</p>
+</HighlightBox>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📍 VCU Lifecycle in Practice: Microsoft's Soil Carbon Purchase</p>
+  <p class="mt-2 text-sm">In 2021, Microsoft purchased a tranche of soil carbon VCUs from the Soil Carbon Initiative operating under the Australian Carbon Farming Initiative (similar structure to VM0042). The VCUs were vintage 2019–2020, each with a unique serial number on the registry. Microsoft's sustainability team verified the serial numbers on the registry before paying, confirmed they were not already retired, executed the purchase via a broker, and then initiated retirement through their own Verra registry account, marking each serial number "retired for Microsoft's FY2021 Scope 1 offset claim." The retired VCUs are now permanently cancelled and publicly visible on the Verra registry. This is the standard end-to-end lifecycle for every corporate VCU purchase.</p>
+</ExampleBox>
+
+### Step 5: Periodic VCU Issuance, Repeat Crediting
+<p class="text-sm mb-3">A registered project can continue issuing VCUs from subsequent monitoring periods throughout its crediting period (typically 20–30 years for VM0042). Each subsequent issuance follows the same core process as the first, submit monitoring report, verification report, and representations to Verra; Verra reviews; VCUs deposited after levy payment.</p>
+<div class="bg-amber-50 border border-amber-200 rounded p-3 mb-4 text-sm">
+  <p class="font-semibold text-amber-800">5-Year Maximum Verification Gap</p>
+  <p class="mt-1 text-amber-900">The project proponent <strong>must</strong> submit a verification approval request within 5 years of the previous approval date. Missing this deadline triggers <strong>"late to verify"</strong> status on the registry, a public signal that the project has not been recently audited. Projects with "late to verify" status can still submit and recover, but investors and buyers treat this as a quality signal.</p>
+</div>
+
+### Step 6: VCU Retirement vs. Cancellation, A Critical Distinction
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">🏷️ Analogy: Concert Ticket vs. Refund</p>
+  <p class="mt-1 text-sm text-blue-900">Retiring a VCU is like using your concert ticket, the credit is permanently consumed to offset a tonne of emissions, with the retirement reason recorded publicly. Cancelling a VCU is like voiding a ticket without going to the concert, it's removed from circulation without making an offsetting claim, often for technical or regulatory reasons (e.g., converting VCUs into another program's credits).</p>
+</AnalogyBox>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6 text-sm">
+  <div class="bg-green-50 border border-green-200 rounded p-4">
+    #### Retirement
+    <p class="text-green-900">Used when a buyer permanently claims the credit against their emissions (e.g., corporate net-zero claim, CORSIA compliance). The registry account holder initiates retirement through their Verra Registry account. The Verra Registry records all details, quantity, vintage, retirement reason, and the entity retiring.</p>
+    <p class="mt-2 text-green-800"><strong>Who initiates:</strong> Registry account holder (owner of the VCU).</p>
+    <p class="mt-1 text-green-700 text-xs">Incremental retirement is permitted, holder may retire part of their holdings now and the rest later.</p>
+  </div>
+  <div class="bg-orange-50 border border-orange-200 rounded p-4">
+    #### Cancellation
+    <p class="text-orange-900">Used when VCUs are being converted into another form of GHG credit, or when Verra cancels credits due to a reversal or compliance issue. Cancellation does NOT constitute an offset claim. The registry records all cancellation details.</p>
+    <p class="mt-2 text-orange-800"><strong>Who initiates:</strong> Registry account holder, the other GHG program, or Verra (in some cases).</p>
+    <p class="mt-1 text-orange-700 text-xs">Example: converting VCUs into ITMOs (Article 6 credits) for use in a compliance market requires cancellation + corresponding adjustment.</p>
+  </div>
+</div>
+
+### The AFOLU Pooled Buffer Account, Mechanics
+<p class="text-sm mb-3">For AFOLU projects (including all VM0042 projects), a percentage of every VCU issuance is deposited as non-tradeable <strong>buffer credits</strong> into the centrally managed AFOLU Pooled Buffer Account. These are not VCUs, they have no serial numbers and cannot be sold or traded.</p>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4 text-sm">
+  <div class="bg-blue-50 border border-blue-200 rounded p-3">
+    <h5 class="font-bold text-blue-800 mb-1">Deposit</h5>
+    <p class="text-blue-900 text-xs">At every VCU issuance, buffer credits = buffer % × net GHG removals. Buffer contributions are set separately for reductions (typically 0%) and removals (10–20%). The non-permanence risk tool determines the %. Buffer credits are deposited simultaneously with VCU issuance.</p>
+  </div>
+  <div class="bg-green-50 border border-green-200 rounded p-3">
+    <h5 class="font-bold text-green-800 mb-1">Release (Earned Back)</h5>
+    <p class="text-green-900 text-xs">Buffer credits can be <em>released</em> back as VCUs (into the project's account) if the project's non-permanence risk remains the same or decreases. Release conditions: first release ≥5 years after first verification; subsequent releases at most every 5 years. A <strong>15% time release</strong> applies to total accumulated buffer credits at each eligible release event.</p>
+  </div>
+  <div class="bg-red-50 border border-red-200 rounded p-3">
+    <h5 class="font-bold text-red-800 mb-1">Cancellation (Loss Events)</h5>
+    <p class="text-red-900 text-xs">If a reversal occurs (e.g., drought kills soil carbon), the project proponent must notify Verra within 30 days. Verra puts buffer credits on hold equal to the estimated loss. Upon verification confirming the loss, an equivalent number of buffer credits are cancelled, covering the reversal without impacting VCU holders. The project cannot issue new VCUs until a loss event report is submitted.</p>
+  </div>
+</div>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📐 Buffer Pool Worked Example, 10-year project</p>
+  <ResponsiveTable>
+<table class="mt-2">
+    <tr><th>Event</th><th>Buffer Credits</th><th>VCUs Issued</th></tr>
+    <tr><td>Year 5, First verification (100,000 tCO₂e removals, 15% buffer rate)</td><td>+15,000 deposited to pool</td><td>85,000 VCUs</td></tr>
+    <tr><td>Year 10, Second verification (80,000 tCO₂e, risk same → 15% time release eligible)</td><td>+12,000 deposited; 15% × 27,000 total = 4,050 released as VCUs</td><td>68,000 + 4,050 = 72,050</td></tr>
+    <tr><td>Year 8 drought event (carbon loss estimated 5,000 tCO₂e)</td><td>5,000 buffer credits cancelled from pool</td><td>No new VCUs until loss report filed</td></tr>
+  </table>
+</ResponsiveTable>
+</ExampleBox>
+
+### The 9 VCU Attributes, What Makes a VCU Credible?
+<p class="text-sm mb-3">The VCS Program Guide (Section 3) establishes 9 attributes that every VCU must embody. These are the quality standards that underpin the entire VCS system:</p>
+<ResponsiveTable>
+<table class="mb-4 text-sm">
+  <tr><th>Attribute</th><th>What It Means for VM0042</th></tr>
+  <tr><td><strong>Additional</strong></td><td>Reductions exceed what would happen without carbon market incentive (Lesson 2.3, the additionality tests)</td></tr>
+  <tr><td><strong>Durable</strong></td><td>Safeguards (buffer pool) are in place; reversals are accounted for, reported, and replaced where possible</td></tr>
+  <tr><td><strong>Independently verified</strong></td><td>Accredited VVB with AFOLU sectoral scope approval audits the project</td></tr>
+  <tr><td><strong>Traceable and not double counted</strong></td><td>Unique VCU serial numbers in the Verra Registry prevent double issuance, double claiming, and double use</td></tr>
+  <tr><td><strong>Robustly quantified</strong></td><td>VM0042 equations, uncertainty deductions, and buffer pool ensure conservative measurement (Modules 3–4)</td></tr>
+  <tr><td><strong>Participatory-based</strong></td><td>Stakeholder consultation, free prior and informed consent (FPIC), grievance mechanisms, required by VCS</td></tr>
+  <tr><td><strong>Safeguarded from unmitigated harm</strong></td><td>Negative impacts on people/environment assessed and mitigated; Indigenous Peoples' rights upheld</td></tr>
+  <tr><td><strong>Aligned with SDGs</strong></td><td>Project activities designed to deliver positive sustainable development outcomes</td></tr>
+  <tr><td><strong>Aligned with net zero transition</strong></td><td>Activities must not lock in emissions or be incompatible with mid-century net zero</td></tr>
+</table>
+</ResponsiveTable>
+
+### Step 7: Project Maintenance & Quality Control
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 text-sm">
+  <div class="bg-gray-50 border border-gray-200 rounded p-3">
+    <h5 class="font-bold text-gray-700 mb-1">Project Maintenance Obligations</h5>
+    <ul class="space-y-1 text-gray-600 text-xs">
+      <li>• Submit verification approval request every ≤5 years or become "late to verify"</li>
+      <li>• Proponent may voluntarily withdraw the project via the Verra Project Hub (withdrawal form); already-verified credits are still issued before withdrawal</li>
+      <li>• Withdrawn projects that move to another GHG program have all buffer credits cancelled</li>
+      <li>• Projects may re-join VCS after withdrawal subject to Verra review</li>
+    </ul>
+  </div>
+  <div class="bg-red-50 border border-red-200 rounded p-3">
+    <h5 class="font-bold text-red-800 mb-1">Quality Control Reviews</h5>
+    <p class="text-xs text-red-900">Verra may open a Quality Control (QC) review at any time if it identifies potential non-conformances, including VCUs already issued. If the QC review finds problems, Verra can require corrective actions, cancel VCUs, or reject the project. Project proponents are liable for compensating for erroneously issued VCUs (statute of limitations: 6 years from issuance, or 12 months after a subsequent verification report, whichever is later).</p>
+  </div>
+</div>
+<KeyTakeaways items="VCUs are either retired (permanently consumed for an offset claim) or cancelled (removed for technical/regulatory reasons) - never both ;; The AFOLU pooled buffer account is non-tradeable insurance: buffer credits are deposited at issuance and cancelled if a reversal event occurs ;; Buffer credits can be released back as marketable VCUs every 5 years (15% of accumulated buffer per release) if no reversals have occurred ;; Every VCU embodies 9 program attributes including additionality, durability, independent verification, and SDG alignment ;; Project proponents must submit verification every 5 years or receive 'late to verify' status, and carry liability for erroneously issued credits for up to 6 years" />

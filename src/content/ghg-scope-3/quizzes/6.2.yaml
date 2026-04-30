@@ -1,0 +1,26 @@
+- question: "What is the difference between 'limited assurance' and 'reasonable assurance' for a Scope 3 inventory?"
+  options:
+    - "Limited assurance covers fewer categories; reasonable assurance covers all 15"
+    - "Limited assurance uses lighter-touch procedures with lower confidence; reasonable assurance uses audit-equivalent rigour with higher confidence"
+    - "Limited assurance is provided by internal auditors; reasonable assurance requires external verifiers"
+    - "There is no difference — both are equivalent levels of scrutiny"
+  answer: 1
+  explanation: "Limited assurance involves less intensive procedures and produces a 'nothing has come to our attention' conclusion. Reasonable assurance involves more extensive testing and produces a positive opinion that the inventory is 'fairly stated in all material respects' — equivalent to a financial audit."
+
+- question: "Which regulatory framework first mandated sustainability assurance (including GHG) for large European companies?"
+  options:
+    - "TCFD Recommendations"
+    - "ISSB IFRS S2"
+    - "EU Corporate Sustainability Reporting Directive (CSRD)"
+    - "GRI Standards"
+  answer: 2
+  explanation: "The EU Corporate Sustainability Reporting Directive (CSRD) requires limited assurance of sustainability information, including GHG data, for large listed EU companies from reporting year 2024, expanding progressively to more companies. This makes Scope 3 assurance de facto mandatory at scale for the first time."
+
+- question: "What is a materiality threshold in the context of Scope 3 assurance?"
+  options:
+    - "The minimum revenue a company must have to require assurance"
+    - "The percentage of total Scope 3 emissions below which an individual item need not be tested in detail"
+    - "The number of categories that must be verified to claim conformance"
+    - "The maximum percentage uncertainty permitted in a verified inventory"
+  answer: 1
+  explanation: "Materiality in assurance refers to the threshold — typically 5% of total Scope 3 — below which individual items or categories are unlikely to significantly affect the overall reported figure. Verifiers focus testing on material items while applying lighter-touch procedures to immaterial categories."

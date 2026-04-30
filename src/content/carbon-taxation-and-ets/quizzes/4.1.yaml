@@ -1,0 +1,35 @@
+- question: "Which sector is typically covered first in ETS systems?"
+  options:
+    - "Agriculture"
+    - "Power generation and large industry"
+    - "Transportation"
+    - "Residential buildings"
+  answer: 1
+  explanation: "Power generation and large industrial facilities are usually covered first because they have large, concentrated emissions that are easier to monitor and account for."
+
+- question: "Why is aviation challenging to include in ETS systems?"
+  options:
+    - "Airplanes produce no emissions"
+    - "International flights cross jurisdictions, creating complexity in attribution and competitiveness"
+    - "Aviation is exempt from all climate policy"
+    - "It is too expensive"
+  answer: 1
+  explanation: "International aviation is complex because flights cross borders (which jurisdiction regulates?), international competition is fierce, and ICAO has its own offsetting scheme (CORSIA)."
+
+- question: "What is the point of regulation for an ETS?"
+  options:
+    - "The location of government offices"
+    - "Where in the supply chain the compliance obligation falls"
+    - "The geographic center of the system"
+    - "The start date of the ETS"
+  answer: 1
+  explanation: "Point of regulation determines which entities are obligated to surrender allowances - upstream (fuel suppliers), midstream (large emitters), or downstream (end users)."
+
+- question: "What is a facility-level inclusion threshold?"
+  options:
+    - "The maximum size of a facility"
+    - "The minimum emissions level for a facility to be covered by the ETS"
+    - "The building height limit"
+    - "The required number of employees"
+  answer: 1
+  explanation: "An inclusion threshold (e.g., 25,000 tons CO2/year) determines which facilities are large enough to be worth including in the ETS, balancing coverage against administrative burden."

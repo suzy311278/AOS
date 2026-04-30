@@ -1,0 +1,44 @@
+- question: "Which of the following best describes the primary goal of ESG investing?"
+  options:
+    - "To exclude all companies with any environmental or social controversies from the portfolio"
+    - "To incorporate environmental, social, and governance factors into investment decisions with the long-term return of the portfolio in mind"
+    - "To maximise charitable donations and social impact at the expense of financial return"
+    - "To replicate a standard market-cap-weighted index while avoiding tobacco and weapons"
+  answer: 1
+  explanation: "ESG investing is defined by its intent to incorporate ESG factors into investment decisions *with long-term financial return in mind*. It is not about simple exclusion, philanthropy, or passive index replication — it is about generating a more complete picture of risk and opportunity."
+
+- question: "An investment fund selects only companies that rank in the top quartile on ESG criteria *within their own industry*, maintaining full sector diversification. This approach is best described as:"
+  options:
+    - "Negative screening"
+    - "Impact investing"
+    - "Best-in-class investment"
+    - "Thematic investment"
+  answer: 2
+  explanation: "Best-in-class investment selects the ESG leaders within each sector or industry, keeping sector weights intact. This contrasts with negative screening, which excludes entire sectors, and thematic investment, which concentrates in specific sustainability themes across sectors."
+
+- question: "Which form of responsible investment is distinguished by its requirement to *measure and track* positive social or environmental outcomes against stated goals?"
+  options:
+    - "Socially responsible investment (SRI)"
+    - "ESG integration"
+    - "Shareholder engagement"
+    - "Impact investing"
+  answer: 3
+  explanation: "Impact investing is defined by the *intent* to generate measurable positive impact and the commitment to track outcomes against specific goals. SRI and ESG integration do not require this measurement framework; shareholder engagement is a distinct ownership-based approach."
+
+- question: "Which of the following statements about shareholder engagement is most accurate?"
+  options:
+    - "It is only possible for investors who have adopted negative screening strategies"
+    - "It involves influencing corporate ESG behaviour through ownership rights such as voting and dialogue, rather than simply excluding companies"
+    - "It requires investors to divest from any company that does not meet ESG standards"
+    - "It is exclusively available to investors with holdings above 5% of a company's shares"
+  answer: 1
+  explanation: "Shareholder engagement is about using ownership rights — voting at AGMs, direct dialogue with management, and collaborative action — to influence corporate ESG behaviour. It is distinct from portfolio construction approaches and does not require exclusion or any minimum ownership threshold."
+
+- question: "A pension fund wants to invest in renewable energy companies, green transport infrastructure, and smart grid technology across multiple sectors. This is best described as:"
+  options:
+    - "Best-in-class investment"
+    - "Negative screening"
+    - "Thematic investment"
+    - "Norms-based screening"
+  answer: 2
+  explanation: "Thematic investment targets companies across multiple sectors that fall under a specific sustainability theme — in this case, clean energy and low-carbon infrastructure. Best-in-class selects leaders within each sector; negative screening excludes industries; norms-based screening excludes companies that violate international standards."

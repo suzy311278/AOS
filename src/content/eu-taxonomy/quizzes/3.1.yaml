@@ -1,0 +1,17 @@
+- question: "Which KPI uses the narrowest definition of operating expenditure?"
+  options:
+    - "Turnover KPI"
+    - "CapEx KPI"
+    - "OpEx KPI"
+    - "Green Asset Ratio"
+  answer: 2
+  explanation: "The OpEx KPI only covers direct non-capitalised costs for R&D, renovation, short-term leases, and maintenance/repair - not all operating expenses. Many companies find this denominator immaterial."
+
+- question: "A company has 5% aligned turnover and 40% aligned CapEx. What does this signal?"
+  options:
+    - "The company is greenwashing"
+    - "The company is investing to transition toward alignment"
+    - "The taxonomy assessment is incorrect"
+    - "The company should only report the turnover KPI"
+  answer: 1
+  explanation: "A gap between low turnover alignment and high CapEx alignment signals that the company is investing to become more aligned - the CapEx KPI captures transition credibility."

@@ -1,0 +1,150 @@
+{/* source: VM0044 v1.2, Section 5 (Project Boundary) and Table 2 */}
+
+Before calculating emission reductions, a project must clearly define its boundary. The project boundary tells us which emission sources are counted and which are excluded. It also determines where the project activity starts and ends along the value chain.
+
+## The Three Locations in the Project Boundary
+
+VM0044 Section 5 specifies that the project boundary encompasses three geographic locations.
+
+1.  **Where waste biomass is initially sourced:** This is the site where the feedstock originates. It may be a farm, a food processing plant, a sawmill, a composting facility, or any other location that generates eligible waste biomass. This location is inside the boundary because the project must account for the handling of feedstock at the source.
+2.  **Where biochar is produced:** This is the production facility, which may be a high technology or low technology plant. The thermochemical conversion happens here. Feedstock pre-treatment (such as grinding and drying) occurs at this location before the kiln, and biochar processing occurs after the kiln.
+3.  **Where biochar is applied:** This is the end-use destination, either a soil application site (agricultural land, forest, garden) or a non-soil application location (a concrete plant, a construction site, or another facility where biochar is incorporated into a manufactured product). Only biochar that reaches this final application location generates credits.
+
+<AnalogyBox>
+Think of the project boundary like drawing a dotted line around a manufacturing process on a map. Everything inside the dotted line is your responsibility to measure. Inputs that cross the line from outside, and outputs that cross the line to the outside, are the connection points where emissions enter or leave your accounting. The three locations in VM0044 mark where those connection points are along the biochar value chain.
+</AnalogyBox>
+
+## The Three Stages of the Value Chain
+
+The three locations correspond to three stages, each with its own emission sources.
+
+*   **Waste Biomass Sourcing Stage:** The project collects eligible feedstock. Eligible feedstock types include agricultural waste, food processing residues, forestry waste, recycling economy biomass, aquaculture plants, animal manure, and high-carbon fly ash. This stage covers the collection and initial handling of the biomass before it reaches the production facility.
+*   **Production Stage:** The feedstock is converted to biochar at either a high technology or low technology production facility. This stage covers pre-treatment of the feedstock (grinding, shredding, drying), the thermochemical conversion itself (pyrolysis or gasification), and any post-kiln processing of the biochar before transport.
+*   **Application Stage:** The biochar is transported to its end-use destination and applied. This is the final stage. The carbon stored in biochar at this stage is the basis for the emission reduction calculation.
+
+## GHG Sources: What Is Included and What Is Excluded
+
+Table 2 of VM0044 lists every GHG source and specifies which gases are included or excluded. The table covers both the baseline scenario and the project scenario. The reasoning behind each inclusion or exclusion matters as much as the result.
+
+<HighlightBox>
+Baseline emissions at the sourcing stage are set to zero by default. This is a conservative assumption. The methodology does not give credit for changing waste handling practices at the source site. Avoiding over-crediting is the priority.
+</HighlightBox>
+
+### Baseline Scenario Sources
+
+*   **Feedstock production:** CO2, CH4, and N2O are all excluded. The feedstock is waste biomass and is classified as renewable under CDM EB23 Annex 18 eligibility conditions. No emissions are attributed to growing or producing the feedstock because it is a by-product or residue, not a purpose-grown crop.
+*   **Feedstock transportation:** CO2 from transportation is included in the baseline. CH4 and N2O from baseline transport are excluded because they are expected to be de minimis. This applies when the distance between the sourcing site and the production facility is less than 200 km (round trip). If the distance is below this threshold, transportation emissions are set to zero.
+*   **Combustion, aerobic decomposition, and anaerobic decomposition of feedstocks:** All three gases (CO2, CH4, N2O) are excluded. This means the methodology does not estimate what would have happened to the waste biomass in the absence of the project. The default assumption is that baseline net GHG emissions at the sourcing stage are zero. This is the most conservative approach. It avoids arguments about counterfactual scenarios and prevents any over-crediting from claiming the biomass would have released large amounts of methane if left to rot.
+
+### Project Scenario Sources
+
+*   **Feedstock production:** All gases excluded. The same logic as the baseline applies. Purpose-grown crops are ineligible as feedstock, so there are no emissions to attribute to feedstock production. The feedstock is waste biomass and is considered renewable.
+*   **Pyrolysis and gasification at high technology facilities:** All gases excluded. High technology facilities are required to have pollution controls, including the recovery or combustion of pyrolytic gases. Because the facility meets the high technology criteria, process emissions are treated as de minimis and are not calculated.
+*   **Pyrolysis and gasification at low technology facilities:** CH4 is included. Low technology facilities do not have the same emissions controls as high technology facilities. A default emission value from published literature (Cornelissen et al., 2016) is applied. CO2 and N2O from low technology pyrolysis are excluded.
+*   **Electricity and fossil fuels consumed during thermochemical processing:** CO2 is included. The fuel or electricity used to run the kiln or processing equipment generates emissions that are attributed to the project. CH4 and N2O from these energy inputs are excluded, consistent with CDM TOOL03 and TOOL05 provisions.
+*   **Biochar transportation:** CO2 is included. As with feedstock transportation, if the distance between the production facility and the end-use destination is less than 200 km (round trip), these emissions are treated as de minimis and set to zero.
+*   **Pre-treatment of feedstocks (grinding, drying):** CO2 is included. Energy used to prepare the feedstock before it enters the kiln is directly associated with the project activity.
+*   **Biochar application (preparation for final use):** CO2 is included. Energy used to prepare and apply the biochar at the end-use site is directly associated with the project activity.
+
+## The 200 km Transportation Threshold
+
+The methodology provides a practical simplification for transportation emissions. If the round-trip distance for feedstock transport (from source site to production facility) is less than 200 km, transportation emissions from that leg are treated as de minimis and set to zero. The same rule applies to biochar transport (from production facility to application site). Project proponents must document the transport distances to confirm they fall within this threshold.
+
+If transport distances exceed 200 km, CO2 emissions from the transport must be calculated and subtracted from the project's emission reductions.
+
+## Full GHG Source Table
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Scenario</th>
+      <th>CO2</th>
+      <th>CH4</th>
+      <th>N2O</th>
+      <th>Justification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Feedstock production</td>
+      <td>Baseline and Project</td>
+      <td>Excluded</td>
+      <td>Excluded</td>
+      <td>Excluded</td>
+      <td>Waste biomass is renewable per CDM EB23 Annex 18. No purpose-grown crops permitted.</td>
+    </tr>
+    <tr>
+      <td>Feedstock transportation</td>
+      <td>Baseline</td>
+      <td>Included</td>
+      <td>Excluded</td>
+      <td>Excluded</td>
+      <td>CH4 and N2O de minimis if distance is under 200 km round trip.</td>
+    </tr>
+    <tr>
+      <td>Combustion/aerobic/anaerobic decomposition of feedstock</td>
+      <td>Baseline</td>
+      <td>Excluded</td>
+      <td>Excluded</td>
+      <td>Excluded</td>
+      <td>Conservative default: baseline sourcing emissions set to zero to avoid over-crediting.</td>
+    </tr>
+    <tr>
+      <td>Pyrolysis/gasification (high technology)</td>
+      <td>Project</td>
+      <td>Excluded</td>
+      <td>Excluded</td>
+      <td>Excluded</td>
+      <td>Pollution controls required by high technology definition make emissions de minimis.</td>
+    </tr>
+    <tr>
+      <td>Pyrolysis/gasification (low technology)</td>
+      <td>Project</td>
+      <td>Excluded</td>
+      <td>Included</td>
+      <td>Excluded</td>
+      <td>Default Fe applied. CO2 and N2O excluded.</td>
+    </tr>
+    <tr>
+      <td>Electricity and fossil fuels during thermochemical process</td>
+      <td>Project</td>
+      <td>Included</td>
+      <td>Excluded</td>
+      <td>Excluded</td>
+      <td>Directly associated with project. Per CDM TOOL03 and TOOL05.</td>
+    </tr>
+    <tr>
+      <td>Biochar transportation</td>
+      <td>Project</td>
+      <td>Included</td>
+      <td>Excluded</td>
+      <td>Excluded</td>
+      <td>De minimis if distance is under 200 km round trip. Otherwise calculated.</td>
+    </tr>
+    <tr>
+      <td>Feedstock pre-treatment</td>
+      <td>Project</td>
+      <td>Included</td>
+      <td>Excluded</td>
+      <td>Excluded</td>
+      <td>Directly associated with project activity.</td>
+    </tr>
+    <tr>
+      <td>Biochar application</td>
+      <td>Project</td>
+      <td>Included</td>
+      <td>Excluded</td>
+      <td>Excluded</td>
+      <td>Directly associated with project activity.</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+<DeepDive title="Why are baseline combustion and decay emissions excluded?">
+A common question is: should a project get credit for preventing biomass from rotting and releasing methane? VM0044 takes the conservative position that it should not. The reason is uncertainty. It is very difficult to verify what would actually have happened to each batch of waste biomass without the project. If the methodology assumed that all waste biomass would have decomposed anaerobically and released methane, it would produce large baseline emission estimates that might not reflect reality. Some of that biomass might have been composted, burned, or processed through other means. By setting the baseline sourcing emissions to zero, the methodology avoids this uncertainty entirely. Any credits earned come entirely from the proven carbon stored in biochar that reaches a confirmed application site.
+</DeepDive>
+
+<KeyTakeaways items="The project boundary encompasses three geographic locations: sourcing site, production facility, and application site - each with distinct GHG sources to track ;; Baseline emissions for feedstock production and decay are excluded (set to zero) as a conservative measure to prevent over-crediting ;; High technology facilities have de minimis process emissions, while low technology facilities must include CH4 from pyrolysis ;; The 200 km round-trip threshold determines whether transportation emissions are included - below it, they are treated as de minimis and set to zero ;; Only CO2 from energy use (electricity, fossil fuels) during pre-treatment, conversion, and application is included in project emissions ;; Understanding which GHG sources are included versus excluded is essential for accurate credit calculations and avoiding verification issues" />

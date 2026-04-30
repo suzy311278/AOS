@@ -1,0 +1,164 @@
+{/* source: RTS 2022/1288 Annex I Tables 3-4 */}
+
+Alongside the 9 environmental indicators (indicators 1-9) in Table 1, SFDR's mandatory PAI framework includes five indicators addressing social, employee, human rights, anti-corruption, and governance matters (indicators 10-14). These indicators capture the human dimension of investment impact, from gender equality and labour rights to exposure to controversial weapons.
+
+In plain English: the environmental indicators measure what companies do to nature. The social indicators measure what companies do to people. Both dimensions matter for a complete picture of a fund's real-world impact.
+
+This lesson examines each mandatory social/governance indicator and the sovereign-level indicators in Table 4.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/eu-sfdr/3_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Social and Governance Indicators, Overview
+
+The social and governance indicators in Table 1 (indicators 10-14) span three thematic areas:
+
+1. **Norms compliance**: Whether investee companies violate or lack mechanisms to comply with international norms on conduct (UNGC, OECD Guidelines)
+2. **Workplace equality**: Gender pay gap and board gender diversity
+3. **Harmful activities**: Exposure to controversial weapons
+
+Unlike the environmental indicators, which use quantitative financial formulas to attribute physical metrics to the portfolio, several social indicators are binary (companies either have/do not have certain mechanisms) or require qualitative assessment alongside quantitative aggregation.
+
+<HighlightBox>
+Note: Tobacco exposure and land degradation are sometimes confused with mandatory Table 1 indicators. They are **not**, they appear in the optional Tables 2 and 3. The five mandatory social indicators are numbered 10 through 14.
+</HighlightBox>
+
+## Indicator 10, Violations of UN Global Compact and OECD Guidelines
+
+**What it measures**: The share of investments in investee companies that have been found to be in violation of the United Nations Global Compact (UNGC) principles or the OECD Guidelines for Multinational Enterprises.
+
+<EquationBreakdown
+  title="UNGC/OECD Violations PAI (Indicator 10)"
+  result="PAI<sub>10</sub> | UNGC Violations PAI | Share of portfolio invested in companies found violating UNGC/OECD principles, as a percentage | blue"
+  inputs="MV<sub>viol</sub> | Violating Investments | Market value of investments in companies that have been found in violation of UNGC/OECD standards | green ;; MV<sub>total</sub> | Total Portfolio Value | Total market value of all investments in the portfolio | amber"
+  operator="/"
+/>
+
+The UNGC's ten principles cover human rights, labour standards, environment, and anti-corruption. The OECD Guidelines extend these to responsible business conduct in areas including supply chains, consumer interests, and taxation.
+
+**Practical implementation**: Determining which companies are "in violation" requires reference to specialist controversy monitoring services. These services track regulatory findings, legal proceedings, and news-based controversy signals against the UNGC/OECD frameworks. Different providers use different severity thresholds, so the choice of data provider significantly affects what proportion of the portfolio is flagged.
+
+<HighlightBox>
+A company may be flagged by one controversy monitoring service as a UNGC violator (perhaps based on an environmental fine in one country) while another service does not flag it (applying a higher severity threshold). FMPs must disclose their data sources and explain their approach to identifying violations. Consistency across reporting periods is important for the historical trend comparison required from year two of reporting.
+</HighlightBox>
+
+<ExampleBox>
+**Real-world example, controversy screening in practice:**
+
+Many large ESG funds use controversy monitoring from providers like **Sustainalytics** (owned by Morningstar) or **RepRisk** to assess Indicator 10.
+
+In 2022, **Boohoo** (a UK fast fashion retailer) appeared in controversy monitoring databases due to labour rights violations in its supply chain, a UNGC breach. Any fund holding Boohoo and relying on controversy screening would have flagged it under Indicator 10. This type of signal often triggers engagement; persistent violations can lead to divestment.
+
+The key compliance point: the data provider you choose and the severity threshold you apply must be documented and consistently applied year-on-year.
+</ExampleBox>
+
+## Indicator 11, Lack of UNGC/OECD Compliance Mechanisms
+
+**What it measures**: The share of investments in investee companies that lack processes or compliance mechanisms to monitor their own adherence to UNGC principles or OECD Guidelines, or that lack grievance and complaints handling mechanisms.
+
+This indicator is distinct from Indicator 10 in an important way: Indicator 10 measures actual violations (outcomes), while Indicator 11 measures the absence of governance processes (inputs). A company may not currently be in violation but still lack the mechanisms that would help prevent violations, it would not appear in Indicator 10 but would contribute to Indicator 11.
+
+<EquationBreakdown
+  title="Lack of Compliance Mechanisms PAI (Indicator 11)"
+  result="PAI<sub>11</sub> | Lack of Mechanism PAI | Share of portfolio invested in companies without UNGC/OECD compliance mechanisms, as a percentage | blue"
+  inputs="MV<sub>no-mech</sub> | Non-Compliant Investments | Market value of investments in companies lacking UNGC/OECD compliance or grievance mechanisms | green ;; MV<sub>total</sub> | Total Portfolio Value | Total market value of all investments in the portfolio | amber"
+  operator="/"
+/>
+
+In practice, whether a company has appropriate compliance mechanisms is assessed through:
+- Codes of conduct and ethics policies
+- Supplier codes of conduct
+- Grievance mechanisms and whistleblower protections
+- Audit/assurance processes for ESG compliance
+- Supply chain monitoring programmes
+
+## Indicator 12, Unadjusted Gender Pay Gap
+
+**What it measures**: The average difference between the median or mean pay of male and female employees across investee companies, expressed as a percentage of male pay.
+
+<EquationBreakdown
+  title="Gender Pay Gap PAI (Indicator 12)"
+  result="PAI<sub>12</sub> | Gender Pay Gap PAI | Weighted average unadjusted gender pay gap across the portfolio, in percentage | blue"
+  inputs="w<sub>i</sub> | Portfolio Weight | Investment value in company i divided by total portfolio value | green ;; GPG<sub>i</sub> | Gender Pay Gap | Company i's unadjusted gender pay gap: (Avg Male Pay - Avg Female Pay) / Avg Male Pay x 100% | amber"
+/>
+
+"Unadjusted" means the raw pay difference, without controlling for factors like role type, seniority, or hours worked. The unadjusted gap is a blunter but more widely available metric, adjusted pay gap data (which controls for role differences) is less commonly reported by companies.
+
+<ExampleBox>
+**Example, Interpreting the gender pay gap PAI:**
+
+A fund investing $100 million across five companies calculates the following gender pay gaps:
+- Company A: 15% gap (investment: $30M)
+- Company B: 8% gap (investment: $25M)
+- Company C: 20% gap (investment: $20M)
+- Company D: 5% gap (investment: $15M)
+- Company E: 12% gap (investment: $10M)
+
+Weighted average gender pay gap PAI = [(15% x 30) + (8% x 25) + (20% x 20) + (5% x 15) + (12% x 10)] / 100
+= [450 + 200 + 400 + 75 + 120] / 100
+= 1,245 / 100 = **12.45%**
+
+This figure is reported in the PAI statement. A reduction in this figure over time indicates the portfolio is shifting toward companies with smaller gender pay gaps, a positive social impact trend.
+</ExampleBox>
+
+## Indicator 13, Board Gender Diversity
+
+**What it measures**: The average ratio of female board members to male board members across investee companies.
+
+<EquationBreakdown
+  title="Board Gender Diversity PAI (Indicator 13)"
+  result="PAI<sub>13</sub> | Board Diversity PAI | Weighted average female board representation across the portfolio, in percentage | blue"
+  inputs="w<sub>i</sub> | Portfolio Weight | Investment value in company i divided by total portfolio value | green ;; FBR<sub>i</sub> | Female Board Ratio | Female board members divided by total board members for company i | amber"
+/>
+
+This indicator measures governance representation rather than pay equality. A portfolio with a high board gender diversity PAI has more female board representation across its investee companies. An increasing trend over time would indicate positive progress.
+
+Note that board diversity data is typically more widely available than gender pay gap data, as many jurisdictions require listed companies to disclose board composition.
+
+## Indicator 14, Controversial Weapons
+
+**What it measures**: The share of investments in companies involved in the manufacture or sale of weapons that are prohibited or restricted under international conventions.
+
+The RTS specifies the following categories of controversial weapons:
+- Anti-personnel mines (Ottawa Treaty)
+- Cluster munitions (Oslo Convention)
+- Chemical weapons (Chemical Weapons Convention)
+- Biological weapons (Biological Weapons Convention)
+
+<EquationBreakdown
+  title="Controversial Weapons PAI (Indicator 14)"
+  result="PAI<sub>14</sub> | Controversial Weapons PAI | Share of portfolio invested in controversial weapons companies, as a percentage | blue"
+  inputs="MV<sub>weapons</sub> | Weapons Investments | Market value of investments in companies involved in controversial weapons manufacture or sale | green ;; MV<sub>total</sub> | Total Portfolio Value | Total market value of all investments in the portfolio | amber"
+  operator="/"
+/>
+
+This indicator is binary, a company either is or is not involved in controversial weapons manufacture or sale. Many FMPs apply sector exclusions for controversial weapons across all products (Article 6, 8, and 9), which would result in a 0% reading for this indicator. Where that is the case, it should be stated clearly in the PAI statement.
+
+## Mandatory Indicators, Table 4: Sovereign Issuers
+
+For the portion of a portfolio invested in government bonds and supranational bonds, two additional mandatory indicators apply:
+
+**Indicator 1 (Table 4), GHG Intensity of Sovereign Issuers**
+
+<EquationBreakdown
+  title="Sovereign GHG Intensity (Table 4, Indicator 1)"
+  result="PAI<sub>sov</sub> | Sovereign GHG Intensity | Weighted average GHG intensity of sovereign holdings, in tCO₂eq per million USD PPP-adjusted GDP | blue"
+  inputs="w<sub>i</sub> | Investment Weight | Investment value in sovereign i divided by total value of all investments | green ;; GHG<sub>i</sub> / GDP<sub>i</sub> | National GHG Intensity | Country i's total GHG emissions divided by its PPP-adjusted GDP | amber"
+/>
+
+Data sources include EDGAR (Emissions Database for Global Atmospheric Research), national GHG inventories, and the IEA. GDP data from the IMF or World Bank using PPP adjustment.
+
+**Indicator 2 (Table 4), Social Violations in Sovereign Issuers**
+
+The share of investments in sovereign issuers of countries subject to EU sanctions, or countries that have violated internationally recognised human rights and labour standards instruments (ILO Conventions, UDHR, UNCAC).
+
+## Why Social Indicators Matter for Portfolio Management
+
+The social indicators in the mandatory PAI framework serve a dual purpose.
+
+For investors, they reveal the social risk profile embedded in a portfolio, high controversy scores may signal regulatory or reputational risks ahead.
+
+For society, they create transparency about the social impacts of investment capital allocation, potentially channelling capital flows toward companies with better social outcomes over time.
+
+Engagement strategies, where fund managers actively engage with investee companies on PAI metrics, are one of the most direct tools for improving PAI scores over time. Many institutional investors now use their PAI statement trends as evidence of stewardship effectiveness, demonstrating to clients that engagement activity is producing measurable improvements in portfolio-level social and governance outcomes.
+
+<KeyTakeaways items="The five mandatory social indicators cover UNGC/OECD violations (Indicator 10), lack of compliance mechanisms (Indicator 11), gender pay gap (Indicator 12), board gender diversity (Indicator 13), and controversial weapons exposure (Indicator 14) ;; Indicator 10 measures actual violations (outcomes) while Indicator 11 measures the absence of governance processes (inputs) - both matter but address different risk dimensions ;; Choice of controversy monitoring provider significantly affects Indicator 10 results because severity thresholds vary between providers - document your approach and apply it consistently ;; The unadjusted gender pay gap (Indicator 12) is a blunt metric that does not control for role differences, but it is more widely available than adjusted figures ;; Sovereign indicators in Table 4 cover GHG intensity per GDP and social violations, using country-level data from sources like EDGAR and the IMF ;; Use PAI trends over time as evidence of stewardship effectiveness - engagement with high-PAI companies is often more effective than blunt exclusion" />

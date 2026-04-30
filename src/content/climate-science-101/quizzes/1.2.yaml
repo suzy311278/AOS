@@ -1,0 +1,26 @@
+- question: "What do ice cores drilled in Antarctica and Greenland directly provide that makes them uniquely valuable for paleoclimate research?"
+  options:
+    - "Physical samples of ancient rock that reveal past volcanic activity and earthquake history"
+    - "Trapped air bubbles containing samples of the ancient atmosphere, allowing direct measurement of past CO₂ and CH₄ concentrations"
+    - "Fossilized pollen grains that reveal what plant species lived near the poles in past centuries"
+    - "Annual layers of dust that record the history of global wind patterns over millions of years"
+  answer: 1
+  explanation: "Ice cores are uniquely valuable because they contain trapped air bubbles — literal samples of the ancient atmosphere. Scientists analyze these bubbles to directly measure the CO₂ and CH₄ concentrations of the air at the time the snow fell, providing a continuous 800,000-year record of atmospheric composition alongside temperature proxies from the ice isotopes themselves."
+
+- question: "What was the natural range of atmospheric CO₂ concentration during glacial-interglacial cycles over the past 800,000 years, and how does today's concentration compare?"
+  options:
+    - "CO₂ ranged from 200 to 300 ppm naturally; today's 422 ppm is about 40% above the maximum"
+    - "CO₂ ranged from 180 to 280 ppm naturally; today's 422 ppm is about 50% above the maximum natural level"
+    - "CO₂ ranged from 250 to 380 ppm naturally; today's level is only slightly above historical maximums"
+    - "CO₂ ranged from 100 to 200 ppm naturally; today's level represents a tripling of the maximum"
+  answer: 1
+  explanation: "Ice core records show that during glacial periods, CO₂ dropped to around 180 ppm, while during warm interglacials it rose to around 280 ppm. This 100 ppm natural range was associated with temperature swings of 4–7°C. Today's concentration of approximately 422 ppm is about 50% above the highest natural interglacial level in 800,000 years — and is the highest in at least 2 million years (IPCC AR6)."
+
+- question: "What does the sea level evidence from the Last Interglacial period (approximately 125,000 years ago) suggest about long-term risks from current warming?"
+  options:
+    - "Sea levels during the Last Interglacial were about the same as today, suggesting current temperatures pose no long-term sea level risk"
+    - "Sea levels during the Last Interglacial were 1–2 metres higher, suggesting modest long-term risk from current temperatures"
+    - "Sea levels during the Last Interglacial were approximately 5–10 metres higher than today, even though temperatures were only 0.5–1.5°C above pre-industrial levels — temperatures similar to today"
+    - "Sea levels during the Last Interglacial were 50 metres higher due to complete ice sheet collapse, which is also expected within the next century"
+  answer: 2
+  explanation: "Paleoclimate records indicate global sea levels during the Last Interglacial (around 125,000 years ago) were likely 5–10 metres higher than today, even though temperatures were only 0.5–1.5°C above pre-industrial levels — comparable to the warming we have already experienced. This benchmark illustrates that current temperatures are already in a regime historically associated with dramatically higher sea levels, though the full adjustment takes centuries to millennia."

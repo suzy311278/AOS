@@ -1,0 +1,44 @@
+- question: "In the context of investment management, the 'agency problem' refers to which of the following?"
+  options:
+    - "The difficulty of finding a suitable government-approved investment adviser"
+    - "The misalignment of interests that can arise when a fund manager acts on behalf of an asset owner"
+    - "The regulatory requirement for investment managers to register with a national agency"
+    - "The problem of coordinating investment activity across multiple asset classes"
+  answer: 1
+  explanation: "The agency problem arises because a fund manager (the agent) acts on behalf of an asset owner (the principal), and their interests — particularly around time horizons and performance incentives — may not be perfectly aligned. This is the central challenge that well-designed mandates are intended to address."
+
+- question: "Which two principles, borrowed from corporate governance, are central to good investment mandate design?"
+  options:
+    - "Diversification and liquidity"
+    - "Transparency and compliance"
+    - "Alignment and accountability"
+    - "Reporting and disclosure"
+  answer: 2
+  explanation: "Alignment ensures that fee structures, performance assessment, and timeframes reflect the client's actual needs. Accountability ensures that the fund manager responds to the client's expressed intentions and reports against them fully. Both are necessary for a mandate to function effectively."
+
+- question: "A client's 'investment beliefs' are best described as:"
+  options:
+    - "The specific financial return targets the client expects from each mandate"
+    - "A philosophy of how the institution believes markets work and how value is created over time"
+    - "A list of excluded sectors and companies that the client refuses to invest in"
+    - "The legal clauses in the investment management agreement that govern the manager's conduct"
+  answer: 1
+  explanation: "Investment beliefs are a deeper layer than financial goals. They describe how the institution understands the drivers of long-term investment performance — including the role of ESG factors. Without clear investment beliefs, it is very difficult to design a mandate that genuinely reflects the client's views or to hold a manager meaningfully accountable."
+
+- question: "According to the PRI framework for ESG mandates, which of the following is NOT a typical requirement placed on a fund manager?"
+  options:
+    - "Integrate ESG issues into investment research, analysis, and decision-making"
+    - "Guarantee a minimum ESG-adjusted return above the benchmark over a five-year period"
+    - "Implement effective stewardship processes, including voting all listed shareholdings"
+    - "Report on actions taken and outcomes achieved so the asset owner can assess delivery"
+  answer: 1
+  explanation: "Fund managers are not expected to guarantee ESG-adjusted outperformance — no mandate can credibly promise this. PRI requirements focus on process: integrating ESG into analysis, implementing stewardship, investing consistently with the client's time horizon, and reporting transparently. Guaranteeing a specific financial outcome is outside the scope of what a responsible investment mandate can or should promise."
+
+- question: "A Statement of Investment Principles (SIP) primarily serves which purpose in the context of ESG investing?"
+  options:
+    - "It is a marketing document used to attract retail investors to ESG-labelled funds"
+    - "It is a governing document that codifies an institution's investment beliefs, including its stance on ESG factors, to guide mandate design and manager selection"
+    - "It is a legal filing submitted to the regulator that replaces the need for an investment management agreement"
+    - "It is a quarterly performance report comparing a portfolio's ESG scores to its benchmark"
+  answer: 1
+  explanation: "A Statement of Investment Principles is an internal governance document — often a regulatory requirement for institutional investors — that sets out the institution's overall investment philosophy, including its approach to ESG. It is the foundational document from which mandate design flows, ensuring that the mandates awarded to fund managers genuinely reflect the client's beliefs."

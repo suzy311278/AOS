@@ -1,0 +1,26 @@
+- question: "What is the key distinction between a minimum wage and a living wage?"
+  options:
+  - "A minimum wage is set by trade unions while a living wage is set by government"
+  - "A minimum wage is a legal floor set by governments, while a living wage is independently calculated as what workers need for a basic but decent standard of living"
+  - "A living wage applies only to formal sector workers, while a minimum wage covers all workers"
+  - "They are the same concept, just described differently by different organizations"
+  answer: 1
+  explanation: "A minimum wage is a legal floor set by governments through political compromise. A living wage is independently calculated based on what workers actually need - including food, housing, healthcare, education, and a small savings margin - for a basic but decent standard of living. In most major producing countries, minimum wages represent only 30-50% of living wage levels."
+
+- question: "The Anker methodology calculates a living wage for a specific location based on which components?"
+  options:
+  - "National GDP per capita, industry profit margins, and union wage demands"
+  - "The cost of a nutritious diet, decent housing, other essential needs, and adjustment for typical family size and earners"
+  - "International poverty lines multiplied by a country-specific cost-of-living index"
+  - "The average wage in the industry sector plus a 20% wellbeing premium"
+  answer: 1
+  explanation: "The Anker methodology calculates a living wage by estimating the cost of: a nutritious local diet, decent housing at local market prices, other essential needs (healthcare, transport, education, clothing), and adjusting for average household size and the typical number of full-time workers per household, plus a small margin of 5-10% for adequacy."
+
+- question: "According to the OECD Due Diligence Guidance, how do buyer purchasing practices relate to human rights due diligence?"
+  options:
+  - "Purchasing practices are a purely commercial decision separate from human rights responsibilities"
+  - "Buyer purchasing practices can be a cause of or contributor to adverse impacts on workers and must be addressed as part of HRDD"
+  - "Purchasing practices only become relevant after a human rights violation has been documented"
+  - "Only buyers with more than USD 1 billion in revenue are expected to address purchasing practices in HRDD"
+  answer: 1
+  explanation: "The OECD Due Diligence Guidance explicitly recognizes that buyers' own purchasing practices - including price squeezing, short lead times, and last-minute order changes - can directly cause or contribute to violations of workers' wages, working hours, and OHS conditions. Responsible purchasing practice is therefore an integral component of human rights due diligence."

@@ -1,0 +1,44 @@
+- question: "A bank lends to a private company. The company's balance sheet shows total equity of €50 million and total debt of €150 million. The bank's outstanding loan balance is €30 million. What is the attribution factor?"
+  options:
+    - "30 / 150 = 20.0%"
+    - "30 / 200 = 15.0%"
+    - "30 / 50 = 60.0%"
+    - "30 / 100 = 30.0%"
+  answer: 1
+  explanation: "For business loans and unlisted equity, the denominator is total equity + total debt = €50M + €150M = €200M. Attribution factor = €30M / €200M = 15.0%. The outstanding amount (numerator) is the current balance of the loan, not the original principal. Total debt alone (€150M) or total equity alone (€50M) would be incorrect denominators."
+
+- question: "A startup company has accumulated losses. Its balance sheet shows total equity of −€20 million and total debt of €80 million. How does PCAF require the attribution factor to be calculated?"
+  options:
+    - "Total equity is used as −€20M, so denominator = −€20M + €80M = €60M"
+    - "Total equity is set to zero, so denominator = €0 + €80M = €80M"
+    - "The loan is excluded from financed emissions since the company has negative equity"
+    - "The denominator is set to the absolute value of equity: €20M + €80M = €100M"
+  answer: 1
+  explanation: "PCAF explicitly states that if total company equity is negative, the financial institution shall set total equity to zero. This means all attributed emissions fall on debt providers only. Using negative equity would produce a denominator smaller than total debt, inflating the attribution factor and overstating financed emissions. The correct denominator is €0 + €80M = €80M."
+
+- question: "When accounting for business loans to a listed company (general corporate purpose), which denominator should be used?"
+  options:
+    - "Total equity + total debt from the listed company's balance sheet"
+    - "EVIC of the listed company"
+    - "Revenue of the listed company for the most recent fiscal year"
+    - "The outstanding amount of all bank loans to that company (market wide)"
+  answer: 1
+  explanation: "When a bank provides a general-purpose business loan to a listed company (not a specific project or ring-fenced use of proceeds), PCAF shifts the denominator from 'total equity + debt' to EVIC. This is because the market-observable EVIC is more accurate and current than book values for listed entities. For private companies, where no market cap is observable, total equity + debt from the balance sheet is used."
+
+- question: "For revolving credit facilities with significant intra-year fluctuations, what does PCAF acknowledge and recommend?"
+  options:
+    - "Only the drawn amount at fiscal year-end should be used; intra-year data is irrelevant"
+    - "Financial institutions should flag and be transparent about major last-minute changes to balances at fiscal year-end which could distort reported financed emissions"
+    - "Revolving facilities are excluded from financed emissions calculations under the current standard"
+    - "An average of the 12 month-end balances must be used for all revolving facilities"
+  answer: 1
+  explanation: "PCAF acknowledges the difficulty of accurately capturing emissions for revolving credit facilities and other financing with large seasonal or tactical fluctuations. An abnormally high year-end balance (e.g., from a seasonal drawdown that is repaid weeks later) would artificially inflate financed emissions. PCAF recommends transparency about any major last-minute increases or decreases, and guidance on best practice for revolving facilities is under further development."
+
+- question: "Which of the following PCAF data quality scores would apply when a bank estimates a private borrower's emissions using only the outstanding loan amount and a sector-level asset-based emission intensity factor?"
+  options:
+    - "Score 1b"
+    - "Score 2a"
+    - "Score 3a"
+    - "Score 3b or Score 5"
+  answer: 3
+  explanation: "When only the outstanding amount and sector affiliation are known (no company-specific revenue, financial data, or physical data), the calculation falls under Option 3b or 3c (asset-based or asset-turnover-based sector proxy). Option 3b uses a sector emission factor per unit of assets applied to the outstanding amount, and receives a Score 4 or 5 depending on specificity. Score 3a requires company revenue data, which is not available in this scenario."

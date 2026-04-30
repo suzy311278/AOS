@@ -1,0 +1,26 @@
+- question: "An authorised CBAM declarant purchased 500 CBAM certificates during 2026 at various prices. In their 2026 annual declaration, they report 350 tCO₂ of embedded emissions. They surrender 350 certificates. What can they do with the remaining 150 certificates?"
+  options:
+  - "Sell them on the secondary market to another declarant who needs additional certificates"
+  - "Bank them indefinitely for use in a future compliance year"
+  - "Sell back a maximum of one-third of their total 2026 purchases (up to 167 certificates) to the national competent authority at the current weekly average EU ETS price"
+  - "Exchange them for EU ETS allowances at a ratio set by the European Commission"
+  answer: 2
+  explanation: "Article 25 allows declarants to sell back to their NCA up to one-third (33%) of certificates purchased in the preceding year. With 500 certificates purchased, the buyback limit is 167 certificates. The declarant can sell back up to 150 of the remaining certificates (which is within the one-third limit). Buyback occurs at the prevailing current weekly average EU ETS price — not the original purchase price. CBAM certificates cannot be traded on secondary markets or exchanged for EUAs."
+
+- question: "From 2027, how frequently is the CBAM certificate price updated?"
+  options:
+  - "Daily, based on the spot price of EU ETS allowances"
+  - "Weekly, based on the average closing price of EU ETS allowances at auction"
+  - "Monthly, based on the month-end EU ETS auction price"
+  - "Annually, set at the start of each compliance year by the European Commission"
+  answer: 1
+  explanation: "From 2027, Article 21 of the CBAM Regulation specifies that the certificate price is calculated as the weekly average closing price of EU ETS allowances on the EU auction platform. The European Commission calculates and publishes this weekly average. In 2026 (the first year of the definitive period), a quarterly average was used instead."
+
+- question: "What is the financial penalty for failing to surrender the required number of CBAM certificates by the annual deadline?"
+  options:
+  - "A fixed fee of €500 per missing certificate"
+  - "Three times the average CBAM certificate price for the year, per certificate not surrendered"
+  - "A 10% surcharge on the total value of CBAM goods imported during the year"
+  - "Suspension of the declarant's import authorisation for 30 days"
+  answer: 1
+  explanation: "Article 26 of the CBAM Regulation sets the penalty at three times the average CBAM certificate price for the reporting year, per certificate not surrendered by the deadline. At an EU ETS price of €70/tonne CO₂, this would mean a penalty of €210 per missing certificate — three times the underlying carbon cost. This substantial deterrent is designed to ensure timely compliance."

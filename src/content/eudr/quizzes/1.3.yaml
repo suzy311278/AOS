@@ -1,0 +1,26 @@
+- question: "A company with 35 employees and EUR 8 million annual turnover imports coffee directly from Ethiopia and places it on the EU market for the first time. What are its EUDR obligations?"
+  options:
+    - "Simplified SME trader obligations: collect and keep reference numbers from supplier statements"
+    - "No obligations, because it is below the 50-employee threshold"
+    - "Full operator due diligence obligations, because placing products on the market makes it an operator regardless of size"
+    - "Full operator obligations only if Ethiopia is classified as a high-risk country"
+  answer: 2
+  explanation: "The company is an operator because it places relevant products on the EU market for the first time. SME operators carry full due diligence obligations under the EUDR. The simplified SME regime applies only to SME traders (downstream supply chain participants who do not place products on the market for the first time), not to SME operators."
+
+- question: "What is the minimum penalty level that EU Member States must be able to impose on non-compliant operators under the EUDR?"
+  options:
+    - "A fixed fine of EUR 50,000 per infringement"
+    - "A maximum fine of at least 4% of the operator's annual turnover in the relevant Member State"
+    - "A warning letter for first-time offences and fines for repeat violations"
+    - "Suspension from the EU market for a minimum of 12 months"
+  answer: 1
+  explanation: "The EUDR mandates that Member States provide for penalties including maximum fines of at least 4% of the operator's annual turnover in the relevant Member State. Other penalties include confiscation of non-compliant products and revenues, exclusion from public procurement, and temporary prohibition from placing products on the market. The 4% turnover threshold mirrors the scale of penalties used in other major EU regulatory frameworks."
+
+- question: "Under the EUDR, a large Dutch retailer sells chocolate bars in its stores. It does not import cocoa; it buys finished chocolate from a Belgian manufacturer. What category does the retailer fall into?"
+  options:
+    - "Operator, because it places products on the EU market"
+    - "Non-SME trader, because it makes relevant products available on the market without being the first to place them there"
+    - "SME trader, because it does not produce the goods itself"
+    - "Exempt, because it is not directly dealing with raw commodities"
+  answer: 1
+  explanation: "The retailer is a non-SME trader: it makes relevant products (chocolate) available on the EU market but is not the first to place them there. As a non-SME, it must exercise due diligence equivalent to an operator, including submitting due diligence statements and publishing annual reports. If it were an SME, it would only need to collect and keep supplier statement reference numbers."

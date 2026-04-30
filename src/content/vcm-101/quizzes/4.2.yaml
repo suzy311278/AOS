@@ -1,0 +1,26 @@
+- question: "A corporate sustainability team wants to purchase REDD+ credits from a specific project in the Amazon, including CCB certification and a 2022 vintage. Which market channel is most appropriate for this purchase?"
+  options:
+  - "CBL GEO futures contract on ICE"
+  - "OTC bilateral deal negotiated directly with the project developer or broker"
+  - "N-GEO spot contract on Xpansiv"
+  - "C-GEO exchange contract"
+  answer: 1
+  explanation: "Exchange contracts (GEO, N-GEO, C-GEO) and futures standardise credit eligibility at the category level and cannot specify individual projects, vintages, or co-benefit certifications. Only OTC bilateral deals allow the buyer to specify project, vintage, registry, certification level (CCB), and quantity. This is the defining advantage of OTC markets over exchange-listed instruments."
+
+- question: "What is the primary purpose of a central counterparty (CCP) clearinghouse in exchange-traded carbon futures?"
+  options:
+  - "To verify that the underlying credits meet environmental quality standards"
+  - "To eliminate bilateral counterparty risk by standing between buyer and seller and guaranteeing performance"
+  - "To set the eligible credit categories for the futures contract"
+  - "To manage the retirement of credits in the underlying registry"
+  answer: 1
+  explanation: "A CCP clearinghouse's primary function is credit risk management between trading parties. By standing between buyer and seller and guaranteeing contract performance, the CCP eliminates the need for each party to assess the other's creditworthiness. This is why exchange-traded futures are accessible to financial market participants who lack direct relationships with carbon credit sellers. The CCP does not perform environmental verification, which remains the role of independent auditors and registries."
+
+- question: "An Emissions Reduction Purchase Agreement (ERPA) is signed between a buyer and a project developer for delivery of 50,000 credits in three years at $18 per tonne. Which of the following risks is most significant for the buyer under this arrangement?"
+  options:
+  - "Price risk: the market price might fall below $18 by delivery"
+  - "Registry risk: the credits may not be issued on an eligible registry"
+  - "Delivery risk: the project may underperform and fail to issue the contracted volume"
+  - "Liquidity risk: the buyer may be unable to sell the credits after delivery"
+  answer: 2
+  explanation: "In a forward ERPA, the buyer has locked in a fixed price, which eliminates price risk (the buyer cannot benefit if prices rise, but is protected if they fall). The primary risk the buyer bears is delivery risk: the project may underperform its emission reduction estimates, face operational challenges, experience registry validation delays, or in extreme cases be revoked. Buyers mitigate delivery risk through performance clauses, partial prepayments, and developer due diligence."

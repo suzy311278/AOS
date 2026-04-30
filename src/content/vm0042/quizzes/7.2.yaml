@@ -1,0 +1,35 @@
+- question: "In VT0008's Benchmark Analysis (Option B of Step 3), what must be true about the project's IRR?"
+  options:
+  - "The IRR with carbon credits must exceed the WACC"
+  - "The IRR without carbon credits must be below the benchmark, AND carbon credits must raise it to or above the benchmark"
+  - "The IRR must always exceed 10% with carbon credits"
+  - "The project IRR must be lower than the equity IRR"
+  answer: 1
+  explanation: "Benchmark analysis requires three conditions: (1) project IRR without credits < WACC (benchmark), (2) carbon credit revenues raise the IRR decisively, and (3) IRR with credits ≥ WACC. Meeting only condition 1 means the project is additional but not CCP-eligible."
+
+- question: "A VM0042 project uses VT0008 Step 4c. It finds N_all = 8 similar farms, N_diff = 5 (with essential distinctions). Is the activity common practice?"
+  options:
+  - "Yes — F = 37.5%, which exceeds the 20% threshold"
+  - "No — although F > 20%, N_all − N_diff = 3, which does not exceed 3"
+  - "Yes — because more than half of the farms are similar"
+  - "Cannot be determined without knowing the project size"
+  answer: 1
+  explanation: "F = 1 − 5/8 = 37.5% (above 20%). But N_all − N_diff = 3 (not greater than 3 — the threshold requires strictly >3). VT0008 says both conditions must be true: F > 20% AND N_all − N_diff > 3. Here, N_all − N_diff = 3, so the exception applies and the project is NOT common practice."
+
+- question: "VT0008 requires an Excel spreadsheet for investment analysis. Which of these requirements applies?"
+  options:
+  - "The spreadsheet must be kept confidential to protect proprietary financial data"
+  - "The spreadsheet must be published with formulas readable and relevant cells viewable/unprotected; commercially sensitive information may be protected where justified under the VCS Standard"
+  - "Only a PDF summary of the analysis is required for the Verra registry"
+  - "The spreadsheet is only required for benchmark analysis, not investment comparison analysis"
+  answer: 1
+  explanation: "VT0008 Appendix 2 requires the Excel spreadsheet to be published on the Verra website alongside the project description. All formulas must be readable and relevant cells viewable/unprotected. However, commercially sensitive information may be protected where the project proponent demonstrates to Verra's satisfaction that such information is commercially sensitive."
+
+- question: "In the WACC formula (WACC = r_e × W_e + r_d × (1 − T_c) × W_d), why is the cost of debt multiplied by (1 − T_c)?"
+  options:
+  - "To convert from real to nominal terms"
+  - "To account for the tax deductibility of interest payments (debt is pre-tax)"
+  - "To adjust for country risk premium"
+  - "To convert from equity IRR to project IRR"
+  answer: 1
+  explanation: "Interest payments on debt are tax-deductible in most jurisdictions. The after-tax cost of debt = r_d × (1 − T_c). Since WACC uses post-tax cash flows, the cost of debt must also be expressed on an after-tax basis. This is why the tax shield is applied to the debt component."

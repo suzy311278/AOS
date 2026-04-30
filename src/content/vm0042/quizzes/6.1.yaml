@@ -1,0 +1,35 @@
+- question: "What document triggers the mandatory 30-day public comment period?"
+  options:
+  - "Submitting the draft project description as 'under development'"
+  - "Listing the project as 'under validation' on the Verra Registry"
+  - "Paying the pipeline listing fee"
+  - "Submitting the Validation Report to Verra"
+  answer: 1
+  explanation: "The 30-day public comment period starts the moment the project is listed as 'under validation' on the Verra Registry. The project remains in this status for the entirety of the 30-day period before it can proceed to registration."
+
+- question: "What is the correct sequence of registration steps to get VCUs deposited into the project proponent's account?"
+  options:
+  - "Open account → Validate → Submit to Verra → Verra review → Pay issuance levy → VCUs issued"
+  - "Validate → Open account → Submit to Verra → Pay pipeline fee → VCUs issued"
+  - "Pipeline listing → Submit 12 documents → Verra approves → VCUs issued → Validation"
+  - "Pay all fees upfront → Submit documents → VCUs issued automatically"
+  answer: 0
+  explanation: "The correct sequence is: (1) Open Verra Registry account; (2) Pipeline listing (under development → under validation, 30-day comment period); (3) Validation and verification by VVB; (4) Submit full document package to Verra; (5) Verra project review (up to 3 rounds); (6) Approval; (7) VCU serial numbers generated, issuance levy invoiced and paid; (8) VCUs deposited."
+
+- question: "Verra's project review can involve up to how many review rounds before a request is returned?"
+  options:
+  - "1 round"
+  - "2 rounds"
+  - "3 rounds"
+  - "5 rounds"
+  answer: 2
+  explanation: "Per Section 4.3.7 of the Registration and Issuance Process, Verra may raise up to 3 review rounds. If findings are still not addressed after 3 rounds, Verra returns the project request to the project proponent — meaning the proponent must resubmit."
+
+- question: "What is the total Verra registry fee (excluding the VCU issuance levy) for a joint registration + first verification request?"
+  options:
+  - "USD 1,500"
+  - "USD 3,750"
+  - "USD 8,750"
+  - "USD 15,000"
+  answer: 2
+  explanation: "Pipeline listing fee (USD 1,500) + Registration review fee (USD 3,750) + Verification review fee (USD 5,000) = USD 10,250 total. However, the USD 2,500 prepayment component of the verification review fee is credited against the VCU issuance levy. So net registry charges (excluding issuance levy) total USD 10,250 upfront, with USD 2,500 credited back."

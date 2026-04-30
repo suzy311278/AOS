@@ -1,0 +1,35 @@
+- question: "A project uses a biogeochemical model to estimate N₂O flux from inorganic nitrogen fertilizer applied to maize (C4 annual). The same model also estimates N₂O from cover cropping with soybean (C3 N-fixing annual). How many PC/CFG/ES combinations require separate validation for N₂O alone?"
+  options:
+  - "One — N₂O is a single emission source regardless of practice or crop"
+  - "Two — inorganic N fertilizer/maize/N₂O and cover cropping/soybean/N₂O"
+  - "Three — maize, soybean, and the combined crop rotation"
+  - "Six — all six practice categories must always be validated"
+  answer: 1
+  explanation: "Each unique combination of (Practice Category, CFG, Emission Source) requires separate validation. Inorganic N fertilizer applied to maize is one combination; cover cropping with soybean is another. Two different PCs and two different CFGs = two distinct PC/CFG/ES combinations for N₂O."
+
+- question: "VMD0053 requires that calibration and validation datasets be 'demonstrably independent.' What does this mean?"
+  options:
+  - "The calibration dataset must be larger than the validation dataset"
+  - "Calibration and validation data must come from different experimental studies and locations — they cannot overlap"
+  - "Calibration must use European data while validation uses data from the project country"
+  - "The model developer must conduct calibration while the VVB conducts validation"
+  answer: 1
+  explanation: "Independence means calibration data and validation data come from different experimental research locations and different studies. Using the same data for both would be circular — the model would just be testing itself against data it was already trained on. K-folding or other cross-validation techniques can be used where data are scarce."
+
+- question: "For a project in a 'warm temperate dry' climate zone with sandy clay loam and clay loam soils (clay content ranging from 28–42%), what is the minimum clay content span required in the validation dataset?"
+  options:
+  - "The full 28–42% range must be represented (14 percentage points)"
+  - "At least 15 percentage points of clay content range"
+  - "The most common clay content class is sufficient"
+  - "No minimum clay range is required — only soil textural class needs to be matched"
+  answer: 1
+  explanation: "VMD0053 requires validation data to cover clay content spanning at least 15 percentage points. The project's clay range is 28–42% (14 percentage points), which is less than 15%. The project proponent must demonstrate representative coverage of soil textures in this case."
+
+- question: "A model parameter set calibrated for 'warm temperate moist' IPCC climate zone is being used in a project spanning both 'warm temperate moist' and 'warm temperate dry' climate zones. What does VMD0053 require?"
+  options:
+  - "The same parameter set can be applied to both zones without any additional documentation"
+  - "A separate, independently calibrated parameter set must be used for each climate zone"
+  - "The validation dataset must cover both climate zones; if zone-specific parameter sets exist, each must be separately documented and validated"
+  - "The project is ineligible for model use — only one climate zone is permitted per project"
+  answer: 2
+  explanation: "VMD0053 requires parameters to be defined at no finer than one climate zone or one nationally defined agricultural region. If the project spans two zones, the validation dataset must cover both. If separate parameter sets are used for different zones, each must be documented and validated. The same parameter set can be used across both zones as long as that parameter set was validated across both zones."

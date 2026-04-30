@@ -1,0 +1,35 @@
+- question: "What is the key difference between validation and verification?"
+  options:
+  - "Validation is done by Verra; verification is done by the project developer"
+  - "Validation reviews the project design document before the project starts; verification audits actual monitoring data after each monitoring period"
+  - "Validation is optional; verification is mandatory"
+  - "Validation checks carbon calculations only; verification checks all project documents"
+  answer: 1
+  explanation: "Validation = checking the plan (PDD) before the project begins, confirming the design is credible. Verification = checking the results (Monitoring Report) after a monitoring period, confirming real credits were earned. Both are done by independent VVBs, but VCS requires different VVBs for validation and first verification."
+
+- question: "What is a CAR in the verification process?"
+  options:
+  - "Carbon Accounting Record"
+  - "Corrective Action Request"
+  - "Credit Allocation Report"
+  - "Certification Audit Review"
+  answer: 1
+  explanation: "A Corrective Action Request (CAR) is issued by the VVB when they find a non-conformance or gap that must be resolved before credits can be issued. The project developer must respond to and resolve all CARs."
+
+- question: "Who issues VCUs after verification is complete?"
+  options:
+  - "The project developer"
+  - "The VVB (auditor)"
+  - "Verra (the registry)"
+  - "The buffer pool committee"
+  answer: 2
+  explanation: "Verra registers and issues VCUs. The VVB produces the Verification Report stating how many tCO₂e were verified, but only Verra can actually issue VCUs into the project's registry account."
+
+- question: "During a site visit, what does the VVB auditor typically do?"
+  options:
+  - "Collect soil samples themselves"
+  - "Only review office documents"
+  - "Interview farmers and cross-check field records"
+  - "Issue the Monitoring Report"
+  answer: 2
+  explanation: "During a site visit, VVB auditors go to the project fields to interview farmers about practices, confirm field boundaries, observe monitoring procedures, and cross-check activity records against what was reported. They do not collect soil samples themselves."

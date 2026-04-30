@@ -1,0 +1,26 @@
+- question: "A company's base year (2021) Scope 1+2 emissions were 80,000 tCO2e. In 2023, it doubled production output at an existing factory, increasing emissions by 15,000 tCO2e. Should the base year be recalculated?"
+  options:
+    - "Yes, because the 15,000 tCO2e increase exceeds any reasonable significance threshold"
+    - "Yes, because the production doubled, which is a major operational event"
+    - "No, because increased production at an existing facility is an operational change, not a structural one"
+    - "No, but only if the increase is below the company's significance threshold"
+  answer: 2
+  explanation: "Ramping up production output at an existing facility is an operational change - it represents a genuine change in emissions to the atmosphere. Operational changes are exactly what the base year comparison is designed to capture. Only structural changes (mergers, acquisitions, divestments) trigger recalculation. The size of the increase is irrelevant to this determination."
+
+- question: "A company made three small acquisitions over two years, each adding roughly 4% to its base year emissions. Using California's Climate Action Registry threshold of 10% (applied cumulatively), when does recalculation become required?"
+  options:
+    - "After the first acquisition, since any structural change requires recalculation"
+    - "After the second acquisition, since 8% is close enough to 10%"
+    - "After the third acquisition, since the cumulative impact (12%) exceeds the 10% threshold"
+    - "Never, because each individual acquisition is below 10%"
+  answer: 2
+  explanation: "The significance threshold is applied cumulatively. The first acquisition adds 4%, the second brings the total to 8%, and the third pushes the cumulative impact to 12% - past the 10% threshold. At that point, the base year must be recalculated to include all three acquisitions. Testing each acquisition individually would defeat the purpose of the threshold."
+
+- question: "A company discovers that electricity meters at its largest facility were miscalibrated, causing Scope 2 emissions to be understated by 7% in the base year. Which of the following is correct?"
+  options:
+    - "No recalculation needed - emission factor updates and data corrections are routine adjustments"
+    - "Recalculate the base year, because discovery of significant errors is a valid recalculation trigger"
+    - "Only recalculate if the error exceeds the company's significance threshold for structural changes"
+    - "Report the corrected figure for the current year only and note the historical discrepancy"
+  answer: 1
+  explanation: "Discovery of significant errors or improvements in data accuracy that materially change historical figures are explicit recalculation triggers under the GHG Protocol - separate from structural changes. A 7% understatement at the company's largest facility is clearly significant and warrants restating the base year to maintain the integrity of year-over-year comparisons."

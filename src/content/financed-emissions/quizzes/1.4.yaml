@@ -1,0 +1,44 @@
+- question: "PCAF recommends using the same third-party data provider consistently over time. What is the primary reason for this?"
+  options:
+    - "PCAF has a commercial partnership with specific data vendors"
+    - "Different providers use different methodologies, so switching creates inconsistency in the year-on-year emissions trend"
+    - "Regulators require a single provider to be named in all PCAF disclosures"
+    - "Using multiple providers results in double-counting of emissions"
+  answer: 1
+  explanation: "Different third-party providers (Bloomberg, MSCI, Sustainalytics, S&P/Trucost, ISS ESG) apply different boundary definitions, estimation methodologies, and Scope 3 category coverage. Switching providers between years can cause apparent changes in financed emissions that are purely methodological, not reflective of actual changes in the portfolio's emissions profile. PCAF requires any provider change to be disclosed along with its impact on the reported trend."
+
+- question: "Which database type provides emission factors expressed as tCO2e per million dollars of revenue or per million dollars of assets, suitable for PCAF Option 3 calculations?"
+  options:
+    - "CDP database — company-specific verified emissions"
+    - "DEFRA database — UK-specific energy conversion factors"
+    - "EEIO (Environmentally Extended Input-Output) databases"
+    - "UNFCCC national inventory database"
+  answer: 2
+  explanation: "Environmentally Extended Input-Output (EEIO) databases (such as EXIOBASE, CEDA, GTAP, and WIOD) link economic output data to environmental emissions across sectors. They provide the sector-average intensity factors (tCO2e per $M of revenue or assets) needed for PCAF's Option 3 proxy calculations. CDP provides company-level reported emissions (Option 1), DEFRA provides energy conversion factors (Option 2), and UNFCCC provides national-level inventory data (sovereign debt)."
+
+- question: "A bank holds a loan to a palm oil producer. It has no reported emissions and no physical activity data. The bank uses the most recent EXIOBASE sector-level emission factor for 'Vegetable Oils and Fats' multiplied by the company's known revenue. This process addresses which data quality level?"
+  options:
+    - "Score 1b — unverified reported emissions"
+    - "Score 2a — energy consumption-based estimate"
+    - "Score 3a — revenue-based economic proxy"
+    - "Score 5 — sector average with no company-specific data"
+  answer: 2
+  explanation: "Using company-specific revenue data combined with a sector emission factor per unit of revenue is the definition of Option 3a, which receives a Score 3. The bank has company-specific financial data (revenue) even though it lacks reported emissions or physical activity data. If the bank only had the outstanding loan amount and the sector classification (no revenue), it would be Score 3b, 3c, or Score 5."
+
+- question: "Which of the following correctly describes the ecoinvent database and its relevance to PCAF?"
+  options:
+    - "ecoinvent is a corporate GHG emissions registry operated by CDP"
+    - "ecoinvent is a comprehensive lifecycle inventory database covering thousands of industrial processes, useful for PCAF Option 2 emission factors"
+    - "ecoinvent is an energy trading database used to determine grid emission factors"
+    - "ecoinvent is a PCAF-specific database available only to PCAF signatories"
+  answer: 1
+  explanation: "ecoinvent is a widely used lifecycle inventory database that contains emission factors for thousands of production processes (e.g., 1 tonne of steel, 1 MWh of natural gas combustion, 1 tonne of cement). For PCAF Option 2 calculations that use production-based emission factors, ecoinvent is one of the key academic and scientific sources alongside DEFRA, IPCC emission factor databases, and FAO for agriculture."
+
+- question: "When using supplier-specific electricity emission factors (e.g., the actual grid factor from the company's electricity provider) instead of national average grid factors, how does this affect the PCAF data quality score?"
+  options:
+    - "It has no effect on the score — only the type of emissions data (reported vs estimated) determines the score"
+    - "It improves the data quality score because supplier-specific factors are more company-specific than national averages"
+    - "It worsens the data quality score because supplier information is harder to verify"
+    - "It triggers a mandatory external audit requirement"
+  answer: 1
+  explanation: "PCAF explicitly states that supplier-specific emission factors should be used when available and that their use results in a higher data quality score than generic national or regional averages. For electricity, using the actual grid emission factor of the specific supplier (rather than the country average) is more company-specific, moving the estimate closer to the reality of that company's actual Scope 2 emissions."

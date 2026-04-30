@@ -1,0 +1,26 @@
+- question: "When different stakeholders give contradictory feedback on the same section, what is the recommended approach?"
+  options:
+    - "Pick the feedback from the most senior stakeholder and implement it"
+    - "Try to merge both suggestions into a compromise version"
+    - "Consolidate the conflicting comments and send them to the primary contact for internal alignment"
+    - "Ignore both suggestions and keep your original version"
+  answer: 2
+  explanation: "Resolving conflicting feedback yourself risks guessing wrong and making both parties unhappy. The correct approach is to surface the conflict to the primary contact and let the client resolve it internally - you are the report writer, not the internal mediator."
+
+- question: "What is the most effective way to prevent revision cycles from spiraling out of control?"
+  options:
+    - "Limit the number of stakeholders who can review the document"
+    - "Set explicit review round expectations (e.g., three rounds with defined scope) from the start of the engagement"
+    - "Accept all feedback without question to move through rounds faster"
+    - "Skip the revision process and submit the first draft as final"
+  answer: 1
+  explanation: "Setting round limits from the start gives you a documented reference point. When someone tries to initiate Round 7, you can point to the agreed process and discuss timeline implications - which focuses the client's attention on making decisions rather than requesting endless revisions."
+
+- question: "A department head asks you to add content, and two weeks later their manager asks you to remove it. How should you handle this with a proper paper trail?"
+  options:
+    - "Side with the manager since they are more senior"
+    - "Keep both versions in the document and let the reader decide"
+    - "Point to both email records and let the two stakeholders resolve the conflict internally"
+    - "Remove the content and do not tell the department head"
+  answer: 2
+  explanation: "A paper trail protects you from being stuck in the middle of internal disagreements. With written records of both requests, you can share the evidence and let the client's team align on what they want - your job is to write what they agree on, not referee their internal conflicts."

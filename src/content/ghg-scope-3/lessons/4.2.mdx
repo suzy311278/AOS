@@ -1,0 +1,84 @@
+{/* source: Scope3_Calculation_Guidance_0[1].pdf, Category 14 (pp. 130-135) */}
+
+**Category 14 — Franchises** covers GHG emissions from the operation of **franchises** not already included in the reporting company's Scope 1 and Scope 2. This category applies to **franchisors** - companies that license their brand, business model, and operating systems to franchisees who then run their own independently owned businesses under that brand.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-3/4_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## The Franchisor/Franchisee Relationship
+
+In a franchise system:
+
+- The **franchisor** owns the brand, intellectual property, and operating standards.
+- The **franchisee** owns and operates individual outlets (restaurants, stores, hotels, service centres) under the franchisor's brand.
+- The franchisee's operations generate Scope 1 and Scope 2 emissions that appear in **the franchisee's** own inventory.
+- From the franchisor's perspective, those franchisee emissions are **downstream Scope 3 Category 14**.
+
+<HighlightBox>
+Category 14 exists because a franchisor has significant influence over how franchisees operate - through brand standards, equipment specifications, operating procedures, and supply chain requirements - even without owning the franchised outlets. The franchisor is therefore in a unique position to drive emissions reductions across the franchise network, and should be accountable for those emissions.
+</HighlightBox>
+
+## Who Does Category 14 Apply To?
+
+Category 14 applies to any company with a franchise business model:
+
+- **Quick service restaurants (QSRs)**: McDonald's, Subway, KFC - thousands of franchisee-operated outlets
+- **Hotels**: Marriott, Hilton, IHG - many properties owned and operated by franchisees
+- **Fuel and convenience retail**: Branded petrol station networks operated by franchisees
+- **Business format franchises**: Automotive service chains, real estate agencies, fitness studios
+- **Retail**: Some clothing and specialty retailers operate mixed company-owned/franchise models
+
+## Calculation Methods
+
+### Method 1: Franchisee-Specific Method (Most Accurate)
+The franchisor collects actual Scope 1 and 2 emissions data from individual franchisees - either from their own GHG reporting or through a dedicated data collection programme.
+
+<EquationBreakdown
+  title="Category 14 - Franchisee-Specific Method"
+  result="E<sub>Cat14</sub> | Category 14 Emissions | Total franchise network emissions, in tCO₂e | blue"
+  inputs="S1<sub>i</sub> | Franchisee Scope 1 | Direct emissions from each franchisee's operations (fuel, gas, refrigerants), in tCO₂e | green ;; S2<sub>i</sub> | Franchisee Scope 2 | Indirect emissions from each franchisee's purchased electricity and heat, in tCO₂e | amber"
+  operator="+"
+/>
+
+### Method 2: Average-Data Method
+The franchisor calculates average emissions per outlet type (e.g., per restaurant, per hotel room, per petrol station) based on a representative sample of franchisee energy audits, then scales up to the total number of franchised outlets.
+
+<EquationBreakdown
+  title="Category 14 - Average-Data Method"
+  result="E<sub>Cat14</sub> | Category 14 Emissions | Total franchise network emissions, in tCO₂e | blue"
+  inputs="N | Number of Outlets | Total number of franchised outlets in the network | green ;; E<sub>avg</sub> | Average Emissions per Outlet | Typical annual emissions per franchised outlet, in tCO₂e/outlet/year | amber"
+/>
+
+### Method 3: Spend-Based Method
+Uses franchise revenue or royalty payments and EIO emission factors for the relevant sector. Least accurate.
+
+<CalculationExercise
+  question="A QSR franchisor has 3,000 franchised restaurants. Average energy consumption per restaurant is 250 MWh/year. The average grid emission factor across franchise markets is 0.35 tCO₂e/MWh. What are the Category 14 Scope 2-equivalent emissions from franchised restaurants?"
+  answer={262500}
+  unit="tCO₂e"
+  hints={["Total energy = 3,000 restaurants × 250 MWh/year = 750,000 MWh/year.", "Emissions = 750,000 MWh × 0.35 tCO₂e/MWh = ?", "750,000 × 0.35 = 262,500 tCO₂e."]}
+  solution="3,000 × 250 MWh × 0.35 tCO₂e/MWh = 262,500 tCO₂e from electricity alone, across the franchise network. This does not include Scope 1 gas cooking and heating, which would add significantly more."
+/>
+
+## Franchisor's Influence on Emissions
+
+Unlike many Scope 3 categories where the reporting company has limited leverage, franchisors have direct and substantial influence over franchisee emissions through:
+
+- **Equipment specifications**: Mandating high-efficiency kitchen equipment, LED lighting, HVAC standards
+- **Building design standards**: Energy performance requirements for new outlets and refits
+- **Procurement programmes**: Centralised purchasing of lower-emission materials and supplies
+- **Training**: Teaching franchisee staff energy management practices
+- **Renewable energy**: Facilitated green energy procurement for the entire franchise network
+- **Reporting requirements**: Requiring franchisees to report energy data as part of franchise obligations
+
+## The Boundary with Scope 1 and 2
+
+A company with a mixed portfolio - some company-owned outlets and some franchised - should:
+- Include company-owned outlet emissions in Scope 1 and Scope 2
+- Include franchised outlet emissions in Category 14 (not Scope 1/2)
+- Disclose the proportion of the business that is franchised vs. company-owned
+
+<DeepDive title="How McDonald's and other QSRs manage Category 14 emissions">
+Major QSR franchisors face a Category 14 challenge: they may have tens of thousands of franchised restaurants worldwide, each independently owned, each consuming significant gas (cooking) and electricity (refrigeration, lighting, HVAC). McDonald's addressed this through its Net Zero roadmap by engaging directly with franchisees on energy efficiency, setting energy intensity targets per restaurant, facilitating green energy procurement through its global scale, and investing in equipment trials to identify the most cost-effective efficiency upgrades. The franchisor-led approach demonstrates that even without owning the franchised assets, a brand owner can drive substantial emissions reductions across the network.
+</DeepDive>
+
+<KeyTakeaways items="Category 14 applies to franchisors - covering the Scope 1 and 2 emissions of independently owned and operated franchised outlets ;; Franchisors have significant influence over franchisee emissions through equipment specifications, building standards, procurement programmes, and training ;; The average-data method scales average emissions per outlet by the total number of franchised locations - useful when individual data is unavailable ;; Companies with mixed portfolios must split company-owned outlets (Scope 1/2) from franchised outlets (Category 14) and disclose the proportion ;; Franchisors can drive network-wide reductions through centralised green energy procurement, energy intensity targets per outlet, and mandated high-efficiency equipment" />

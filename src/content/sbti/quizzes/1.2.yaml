@@ -1,0 +1,44 @@
+- question: "The IPCC SR15 report concluded that global net-zero CO2 emissions must be reached by approximately which year to limit warming to 1.5 degrees C with no or limited overshoot?"
+  options:
+    - "2030"
+    - "2040"
+    - "2050"
+    - "2070"
+  answer: 2
+  explanation: "IPCC SR15 found that limiting warming to 1.5 degrees C with no or limited overshoot (overshoot below 0.1 degrees C) requires reaching net-zero CO2 emissions at the global level around 2050, accompanied by rapid reductions in non-CO2 GHGs. This finding is the scientific foundation for the SBTi's long-term target deadline of 2050 at the latest."
+
+- question: "The SBTi's 1.5C-aligned pathways stay within a carbon budget of approximately how much cumulative CO2 from now until 2050?"
+  options:
+    - "50 gigatonnes CO2"
+    - "200 gigatonnes CO2"
+    - "500 gigatonnes CO2"
+    - "1,000 gigatonnes CO2"
+  answer: 2
+  explanation: "In aggregate, 1.5C-aligned pathways used by the SBTi stay within a 500 gigatonne CO2 budget, under the assumption of approximately 20 to 40 gigatonnes of cumulative CO2 removal by 2050. This finite budget is the reason why early action is irreplaceable -- every tonne emitted now reduces the budget available for future years."
+
+- question: "Under the cross-sector pathway, what is the minimum linear annual reduction rate for Scope 1 and 2 absolute emissions for a company with a base year on or before 2020?"
+  options:
+    - "2.5% per year"
+    - "4.2% per year"
+    - "7.6% per year"
+    - "10% per year"
+  answer: 1
+  explanation: "The cross-sector pathway requires a minimum linear annual reduction (LAR) rate of 4.2% for Scope 1 and 2 absolute emissions, for companies with a base year on or before 2020. Companies with base years after 2020 face higher annual rates to compensate for the carbon budget already consumed in the intervening years."
+
+- question: "How does the SBTi use mitigation pathways differently for near-term targets versus long-term targets?"
+  options:
+    - "Near-term targets use the depth of reduction; long-term targets use the rate of reduction"
+    - "Near-term targets use the rate of reduction and are target-year dependent; long-term targets use the overall level of reduction and are target-year independent"
+    - "Both near-term and long-term targets are target-year dependent and use the same rate"
+    - "Near-term targets are set by the company; long-term targets are set by the SBTi"
+  answer: 1
+  explanation: "For near-term SBTs, pathways inform the rate of emissions reductions needed over the chosen target period -- because the required percentage depends on when you start and when you aim to arrive, these are target-year dependent. For long-term SBTs, pathways inform the overall level or depth of reduction needed to align with net-zero at the global or sector level; this destination is fixed regardless of target year, making long-term targets target-year independent."
+
+- question: "Which of the following is identified in IPCC SR15 as one of the four system transformations required to reach net-zero CO2 by 2050?"
+  options:
+    - "Universal adoption of carbon border adjustment mechanisms"
+    - "Mandatory company-level scope 3 accounting under GHG Protocol"
+    - "Full or near-full decarbonisation of energy and industrial CO2 emissions"
+    - "Replacement of all internal combustion vehicles with electric vehicles by 2035"
+  answer: 2
+  explanation: "IPCC SR15 identifies four required system transformations: (1) full or near-full decarbonisation of energy and industrial CO2 emissions; (2) eliminating CO2 emissions from agriculture, forestry, and land use; (3) deep reductions in non-CO2 GHGs from all sectors; and (4) removing CO2 from the atmosphere through CDR. Carbon border adjustments and GHG Protocol accounting are policy tools, not system transformations identified in SR15."

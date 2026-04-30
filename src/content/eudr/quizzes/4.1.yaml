@@ -1,0 +1,26 @@
+- question: "Which of the following information items is required by the EUDR but was NOT required by the predecessor EU Timber Regulation?"
+  options:
+    - "The country of production"
+    - "Supplier name and contact details"
+    - "GPS geolocation coordinates of all production plots"
+    - "Product description and quantity"
+  answer: 2
+  explanation: "GPS geolocation coordinates of all production plots is a new requirement under the EUDR that was not part of the EU Timber Regulation. The EUTR required country of origin and due diligence but did not mandate plot-level GPS data."
+
+- question: "In an 'identity preservation' traceability approach, how is the physical commodity handled?"
+  options:
+    - "Verified volumes from different origins are mixed but tracked in a data balance"
+    - "Commodity from verified deforestation-free origins is physically segregated throughout the supply chain"
+    - "Products are labeled with a digital QR code but may be mixed with unverified lots"
+    - "Random samples are selected for geospatial verification while the bulk lot proceeds"
+  answer: 1
+  explanation: "Identity preservation requires physical segregation of verified deforestation-free commodity throughout the supply chain. This provides the highest assurance but is the most costly approach. Mass balance tracks quantities in data systems but allows physical mixing."
+
+- question: "For how long must operators retain their due diligence documentation under the EUDR?"
+  options:
+    - "1 year"
+    - "3 years"
+    - "5 years"
+    - "10 years"
+  answer: 2
+  explanation: "Article 9 requires operators to collect and keep all due diligence information and documentation for at least 5 years. This applies to geolocation data, risk assessments, supporting evidence, and supplier and customer records."

@@ -1,0 +1,26 @@
+- question: "Approximately how much value-at-risk per week do social conflicts at mining sites cost companies, according to IFC estimates?"
+  options:
+  - "US$1-2 million per week"
+  - "US$5-10 million per week"
+  - "US$20-30 million per week"
+  - "US$100 million per week"
+  answer: 2
+  explanation: "A 2014 IFC study estimated that social conflicts at mining sites cost companies between US$20 million and US$30 million per week in value-at-risk, excluding reputational damage and litigation costs. This figure underscores the direct financial risk of failing to manage human rights impacts."
+
+- question: "What threshold determines which EU companies fall within the scope of the EU Corporate Sustainability Due Diligence Directive (CSDDD)?"
+  options:
+  - "More than 250 employees and EUR 50 million turnover"
+  - "More than 500 employees and EUR 150 million turnover"
+  - "More than 1,000 employees and EUR 450 million worldwide turnover"
+  - "More than 5,000 employees and EUR 1 billion worldwide turnover"
+  answer: 2
+  explanation: "The EU CSDDD applies to large EU limited liability companies and partnerships with more than 1,000 employees and more than EUR 450 million worldwide turnover (net). Approximately 6,000 EU companies meet this threshold. Around 900 non-EU companies generating more than EUR 450 million in the EU are also in scope."
+
+- question: "The US Uyghur Forced Labor Prevention Act (UFLPA, 2021) creates what kind of legal presumption regarding goods from Xinjiang, China?"
+  options:
+  - "A presumption that goods comply with international labour standards unless proven otherwise"
+  - "A rebuttable presumption that goods involve forced labour and are banned from import"
+  - "A requirement for third-party audits of all Xinjiang suppliers"
+  - "A voluntary certification scheme for responsible sourcing from Xinjiang"
+  answer: 1
+  explanation: "The UFLPA creates a rebuttable presumption that goods mined, produced, or manufactured wholly or in part in Xinjiang involve forced labour and are therefore banned from import into the US. To rebut the presumption, importers must provide clear and convincing evidence that their goods are not produced using forced labour."

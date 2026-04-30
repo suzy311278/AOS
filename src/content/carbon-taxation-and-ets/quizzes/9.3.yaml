@@ -1,0 +1,35 @@
+- question: "What is output-based pricing?"
+  options:
+    - "Pricing based on product outputs"
+    - "Rebating carbon costs based on production levels to address competitiveness while maintaining efficiency incentives"
+    - "Pricing electricity output"
+    - "A pure carbon tax"
+  answer: 1
+  explanation: "Output-based pricing charges entities for emissions but rebates costs based on production levels (often using efficiency benchmarks), reducing net impact on competitiveness while maintaining incentives to improve efficiency."
+
+- question: "How does output-based pricing maintain efficiency incentives?"
+  options:
+    - "It eliminates all carbon costs"
+    - "Rebates are based on production, not emissions, so reducing emissions per unit still provides financial benefit"
+    - "It has no efficiency incentives"
+    - "By removing all incentives"
+  answer: 1
+  explanation: "Since rebates are based on output, not emissions, facilities that reduce emissions per unit of output still gain financially. A cleaner facility pays less than a dirtier one producing the same amount."
+
+- question: "What is one application of output-based pricing?"
+  options:
+    - "Residential sector only"
+    - "Protecting competitiveness of energy-intensive, trade-exposed industries"
+    - "Small businesses only"
+    - "Agriculture only"
+  answer: 1
+  explanation: "Output-based pricing is often used for trade-exposed industries like cement, steel, and chemicals, reducing the net carbon cost impact while maintaining incentives for efficiency improvements."
+
+- question: "How does output-based pricing differ from free allocation in an ETS?"
+  options:
+    - "No difference"
+    - "Output-based allocation ties free allowances to current production, not historical levels"
+    - "Output-based has no trading"
+    - "Free allocation is always better"
+  answer: 1
+  explanation: "Traditional grandfathering bases free allocation on historical emissions. Output-based allocation ties it to current production levels, maintaining better incentives for production efficiency and avoiding rewarding past high emitters."

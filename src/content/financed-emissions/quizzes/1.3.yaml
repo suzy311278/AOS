@@ -1,0 +1,44 @@
+- question: "In the PCAF data quality scoring system, what does a Score 1 represent?"
+  options:
+    - "The lowest quality — emissions estimated from sector-level averages with no company-specific data"
+    - "The highest quality — verified emissions reported by the company in accordance with the GHG Protocol"
+    - "A mid-range quality — emissions estimated from company revenue with sector emission factors"
+    - "The minimum acceptable quality for PCAF disclosure"
+  answer: 1
+  explanation: "PCAF uses an inverse scoring convention: Score 1 is the highest quality and Score 5 is the lowest. Score 1a represents verified emissions calculated in line with the GHG Protocol and audited by a third party. Score 1b is unverified company-reported emissions. This counterintuitive scale (lower number = better quality) is a specific PCAF convention that users of the standard should memorise."
+
+- question: "Which Option covers the estimation of emissions based on physical activity data such as tonnes of cement produced or kilowatt-hours of gas consumed?"
+  options:
+    - "Option 1 — Reported Emissions"
+    - "Option 2 — Physical Activity-Based Emissions"
+    - "Option 3 — Economic Activity-Based Emissions"
+    - "Option 4 — Sector Proxy Emissions"
+  answer: 1
+  explanation: "Option 2 uses primary physical activity data — actual energy consumption, production volumes, or other physical metrics — combined with emission factors to estimate Scope 1 and Scope 2 emissions of the borrower or investee. Option 1 uses company-reported GHG figures directly. Option 3 uses revenue or asset-based economic proxies with sector-average intensity factors. There is no Option 4 in the PCAF standard."
+
+- question: "A bank knows only a company's annual revenue ($200 million) and the sector it operates in. It multiplies revenue by a sector emission factor of 400 tCO2e per $M of revenue. What PCAF data quality score does this receive?"
+  options:
+    - "Score 1a"
+    - "Score 2a"
+    - "Score 3a"
+    - "Score 5"
+  answer: 2
+  explanation: "This is Option 3a: using company-specific revenue data combined with a sector-average emission factor per unit of revenue. Because the bank has company-specific revenue (not just the outstanding amount) but uses sector-level emission factors rather than the company's own reported emissions or physical activity data, this method receives a Score 3a under the PCAF data quality scale."
+
+- question: "Which PCAF data quality option is the ONLY one that can estimate both Scope 1 and Scope 2 emissions of a borrower but CANNOT estimate their Scope 3 emissions?"
+  options:
+    - "Option 1 (reported emissions)"
+    - "Option 2 (physical activity data)"
+    - "Option 3a (revenue-based)"
+    - "Option 3b (asset-based)"
+  answer: 1
+  explanation: "Option 2 (physical activity-based estimation) can cover Scope 1 emissions (from on-site fuel combustion data) and Scope 2 emissions (from electricity consumption data), but it cannot estimate Scope 3 emissions because Scope 3 encompasses the entire value chain, which physical activity data from a single entity's operations cannot capture. Estimating Scope 3 requires either company-reported data (Option 1) or specialised EEIO-based sector models."
+
+- question: "How is the weighted average data quality score calculated?"
+  options:
+    - "Simple average of the data quality score for each loan in the portfolio"
+    - "Each data quality score multiplied by its percentage of total portfolio count, summed"
+    - "Each data quality score multiplied by the outstanding amount of that tranche, divided by total outstanding amount"
+    - "The data quality score of the largest loan by outstanding amount"
+  answer: 2
+  explanation: "The weighted average data quality score = Σ (Outstanding Amount_i × DQ Score_i) / Σ Outstanding Amount_i. The weighting is by outstanding amount (not by number of loans), so a single large loan at Score 5 will substantially drag the weighted average upward compared to many small loans at Score 1. This ensures the metric reflects the reliability of the most economically significant portions of the portfolio."

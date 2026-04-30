@@ -1,0 +1,214 @@
+GLOBAL FOREST WATCH - DEFORESTATION DATA AND KEY FINDINGS 2024
+Source: World Resources Institute / Global Forest Watch
+URL: gfr.wri.org/gfr/latest-analysis-deforestation-trends
+Dataset: Hansen/UMD/Google/USGS/NASA Global Forest Change v1.11 (2000-2024)
+Accessed: March 2026
+
+================================================================
+2024 HEADLINE FINDINGS: RECORD TROPICAL FOREST LOSS
+================================================================
+
+PRIMARY FOREST LOSS - GLOBAL RECORD:
+- The tropics lost 6.7 million hectares of primary rainforest in 2024
+- This is an area nearly the size of Panama
+- Loss increased 80% compared to 2023 levels
+- Rate: 18 football (soccer) fields of primary forest lost per minute in 2024
+- 2024 nearly doubled the rate of forest loss compared to 2023
+
+GREENHOUSE GAS EMISSIONS FROM PRIMARY FOREST LOSS (2024):
+- 3.1 gigatonnes (Gt) of CO2 equivalent emitted
+- Equivalent to India's entire annual fossil fuel CO2 emissions
+
+GLOBAL TREE COVER LOSS (all forests, not just primary):
+- 30 million hectares of global tree cover lost in 2024
+- Highest on record ever documented by Global Forest Watch
+- 5% increase compared to 2023
+
+================================================================
+FIRE AS THE DOMINANT DRIVER IN 2024
+================================================================
+
+FIRE-DRIVEN DEFORESTATION (unprecedented scale in 2024):
+- Wildfires burned 5 times more tropical primary forest in 2024 than in 2023
+- Wildfires accounted for almost half (approximately 48%) of all tropical primary forest loss in 2024
+- 2024 was the hottest year on record, with El Nino conditions amplifying drought and fire risk
+- Global fire emissions: 4.1 Gt CO2e in 2024
+  - Equivalent to more than 4 times the annual emissions from global air travel in 2023
+
+NON-FIRE PRIMARY FOREST LOSS:
+- Non-fire primary forest loss also increased 14% between 2023 and 2024
+- Agricultural conversion remains the dominant non-fire driver
+- Cattle ranching, soy cultivation, and other commodity crops are primary causes
+
+================================================================
+REGIONAL HOTSPOTS AND COUNTRY DATA
+================================================================
+
+BRAZIL (largest single contributor):
+- Responsible for 42% of total tropical primary rainforest loss in 2024
+- Amazon biome experienced a 110% increase in primary forest loss from 2023 to 2024
+- 60% of Amazon loss was fire-driven in 2024
+- Pantanal wetland lost 1.6% of its tree cover (more than double Brazil's national average rate)
+- 2024 saw one of Brazil's worst fire seasons on record despite reduced deforestation in the
+  Amazon from clearing (non-fire deforestation continued to decline due to policy enforcement)
+
+BOLIVIA (second highest globally):
+- 200% increase in primary forest loss in 2024
+- Surpassed the Democratic Republic of Congo in absolute loss despite having only 40% of its
+  forest area
+- Almost 12% of Bolivia's total land area burned in 2024
+- Chiquitano dry forest particularly affected
+
+DEMOCRATIC REPUBLIC OF CONGO AND REPUBLIC OF CONGO:
+- Both countries experienced their highest primary forest loss on record in 2024
+- DRC remains the country with the largest area of primary tropical forest outside of Brazil
+- Main drivers: shifting cultivation, charcoal production, timber removal, smallholder agriculture
+
+LATIN AMERICA - ADDITIONAL COUNTRIES:
+- Guatemala: Lost 2.7% of its primary forest in 2024
+- Nicaragua: Highest percentage primary forest loss in the region at 4.7%
+- Mexico: Tropical primary forest loss nearly doubled compared to 2023
+- Peru: 135% increase in fire-related forest loss
+- Guyana: Four-fold increase in primary forest loss (largely fire-driven)
+
+POSITIVE DEVELOPMENTS:
+- Indonesia: 11% decrease in primary forest loss in 2024 (attributed to strong government policy)
+- Malaysia: 13% reduction in primary forest loss; dropped out of the global top 10 for the
+  first time since monitoring began
+
+================================================================
+LONG-TERM TRENDS AND HISTORICAL CONTEXT (2000-2024)
+================================================================
+
+24-YEAR TREND (2000-2024):
+- Forest clearing for permanent agriculture has been the largest driver of tropical primary
+  forest loss over the 24-year monitoring period
+- Commodity crops (cattle, soy, palm oil) account for the majority of agricultural-driven loss
+- Fire has become an increasingly significant driver, particularly since 2015
+
+EUDR-RELEVANT BASELINE (pre-2021 context):
+- The EUDR cut-off date of 31 December 2020 was set against a backdrop of sustained high
+  deforestation rates throughout 2017-2020
+- Brazil: Deforestation peaked in 2019-2020 under weakened environmental enforcement
+- Commodity-driven deforestation: Remained the dominant driver in South America and Southeast Asia
+- Forest loss associated with cattle ranching, soy cultivation, and palm oil plantations was
+  highest in the years immediately before the cut-off date
+
+DEFORESTATION DRIVERS LINKED TO EUDR COMMODITIES (2001-2024 aggregate):
+- Commodity-driven deforestation: Primary cause in Latin America and Southeast Asia
+- Cattle ranching: Dominant driver in Brazilian Amazon
+- Soybean cultivation: Significant in Cerrado and Amazon frontier areas
+- Palm oil: Primary driver in Indonesian and Malaysian forests
+- Cocoa: Significant driver in West African forests (Ghana, Cote d'Ivoire)
+- Coffee: Growing concern in East African highland forests
+- Rubber: Historically significant in Southeast Asia
+
+================================================================
+FORESTS AND CLIMATE: THE CARBON SINK CRISIS
+================================================================
+
+PRIMARY FORESTS AS CARBON SINKS:
+- Tropical primary forests store an estimated 250 billion tonnes of carbon
+- When primary forests are lost, they can shift from carbon sinks to carbon sources
+- Forest degradation (not just outright clearing) releases significant carbon through
+  reduced carbon sequestration capacity
+
+ANNUAL CARBON LOSS RATES FROM DEFORESTATION:
+- In 2024: 3.1 Gt CO2e released from tropical primary forest loss alone
+- This does not include emissions from degraded (but not cleared) forests
+- Forest loss contributes approximately 10% of global annual greenhouse gas emissions
+
+THE DEGRADATION-FIRE FEEDBACK LOOP:
+- Deforestation fragments forests, creating drier conditions at forest edges
+- Dry conditions increase fire risk
+- Fires kill trees and degrade forest structure, making remaining forests more fire-prone
+- A "savannization" process can occur, transforming rainforest into drier ecosystem types
+
+================================================================
+MEETING THE GLASGOW DECLARATION GOALS
+================================================================
+
+GLASGOW FOREST DECLARATION (2021):
+- 145 countries pledged to halt and reverse deforestation and land degradation by 2030
+- The EU is a signatory through its Glasgow commitments
+
+PROGRESS ASSESSMENT:
+- To meet 2030 goals, annual forest loss must fall 20% each year from 2024 levels
+- Of the 20 countries with the largest primary forests:
+  17 have HIGHER primary forest loss today than when the Glasgow Declaration was signed in 2021
+- 2024 data represents a significant setback to 2030 deforestation goals
+
+WHAT THIS MEANS FOR EUDR:
+- The urgency of the EUDR is underscored by accelerating deforestation
+- Market-side measures (like the EUDR) are critical complements to producer-country policies
+- The 2024 data shows that voluntary commitments alone are insufficient
+
+================================================================
+DEFORESTATION AND COMMODITY SUPPLY CHAINS
+================================================================
+
+GLOBAL SUPPLY CHAIN LINKAGES:
+- Approximately 80% of tropical deforestation is driven by agricultural expansion
+- The European Union imports significant volumes of all seven EUDR-covered commodities
+- Key import origins for EU consumers:
+
+  CATTLE/BEEF: Brazil, Argentina, Uruguay (South America primary)
+  COCOA: Cote d'Ivoire, Ghana (together ~60% of world production)
+  COFFEE: Brazil, Vietnam, Colombia, Ethiopia
+  PALM OIL: Indonesia, Malaysia (together ~85% of world production)
+  RUBBER: Thailand, Indonesia, Vietnam
+  SOYA: Brazil, Argentina, Paraguay, USA
+  WOOD/TIMBER: Multiple origins including tropical and temperate forests globally
+
+CERTIFICATION SYSTEM COVERAGE (pre-EUDR baseline):
+- Less than 20% of globally traded deforestation-risk commodities were covered by
+  independent third-party sustainability certification as of 2021
+- Certification uptake was uneven across commodities and geographies
+- Voluntary certification proved insufficient to halt deforestation
+
+================================================================
+BIODIVERSITY DIMENSION
+================================================================
+
+FORESTS AND BIODIVERSITY:
+- Tropical forests contain over half of the world's terrestrial species
+- Primary forests harbor significantly more biodiversity than secondary or plantation forests
+- Even partial forest degradation (not full clearing) can disrupt biodiversity
+
+EXTINCTION RISK FROM DEFORESTATION:
+- An estimated 15,000 plant species face extinction risk from habitat loss
+- 70% of terrestrial vertebrates depend on forests for habitat
+- Forest fragmentation isolates populations, reducing genetic diversity
+
+EUDR AND BIODIVERSITY:
+The regulation explicitly aims to reduce biodiversity loss associated with deforestation.
+Protecting primary forests is the most effective biodiversity conservation measure because:
+- Primary forests have developed complex ecosystem structures over centuries or millennia
+- They contain irreplaceable endemic species
+- They provide ecosystem services (water cycling, pollination, pest control) that support
+  agricultural production in surrounding areas
+
+================================================================
+DATA METHODOLOGY NOTES
+================================================================
+
+Global Forest Watch uses:
+- Satellite imagery from Landsat and Sentinel satellites
+- Tree cover loss data defined as stand-replacement disturbance (canopy cover below 30% threshold)
+- Primary forest data from Turubanova et al. 2018 and updated annually
+- Fire data from FIRMS (Fire Information for Resource Management System)
+
+IMPORTANT DISTINCTION:
+"Tree cover loss" is not synonymous with "deforestation":
+- Loss includes fire, logging, disease, and temporary land clearing
+- Deforestation refers specifically to permanent conversion to non-forest use
+- For EUDR compliance, the key metric is permanent conversion after 31 December 2020
+
+LIMITATIONS:
+- Satellite data has minimum detectable area thresholds
+- Cloud cover in tropical regions can affect annual estimates
+- Some forest degradation (not full clearing) is not captured in tree cover loss metrics
+
+Source: World Resources Institute / Global Forest Watch
+gfr.wri.org/gfr/latest-analysis-deforestation-trends
+Accessed March 2026

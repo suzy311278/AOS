@@ -1,0 +1,26 @@
+- question: "Which GATT 1994 articles pose the most direct legal challenges to CBAM's WTO compatibility?"
+  options:
+    - "Articles V and IX, covering freedom of transit and marks of origin"
+    - "Articles I (Most-Favoured Nation) and III (National Treatment)"
+    - "Articles XI and XII, covering quantitative restrictions and balance of payments"
+    - "Articles XVII and XVIII, covering state trading and government assistance"
+  answer: 1
+  explanation: "CBAM faces potential challenges under GATT Article I (MFN), which prohibits discrimination between like products from different WTO Members, and Article III (National Treatment), which prohibits treating imported goods less favourably than like domestic goods. If CBAM imposes a greater effective carbon burden on imports than on equivalent EU domestic products, Article III could be violated. If it treats countries differently without objective justification, Article I could be violated."
+
+- question: "Which GATT Article XX exception does the EU primarily rely on to justify CBAM as a WTO-compatible environmental measure?"
+  options:
+    - "Article XX(a): measures necessary to protect public morals"
+    - "Article XX(d): measures necessary to secure compliance with domestic laws"
+    - "Article XX(b) and (g): measures to protect human/animal/plant life or health, and measures relating to conservation of exhaustible natural resources"
+    - "Article XX(f): measures relating to protection of national treasures of artistic value"
+  answer: 2
+  explanation: "The EU relies primarily on GATT Article XX(b), covering measures necessary to protect human, animal, or plant life or health, and Article XX(g), covering measures relating to the conservation of exhaustible natural resources, to justify CBAM. Climate change mitigation falls within both these heads. The WTO Appellate Body has recognised climate-related measures as potentially falling within Article XX's scope, though the specific design must also satisfy the Article XX chapeau's prohibition on arbitrary or unjustifiable discrimination."
+
+- question: "What is the 'process and production methods' (PPM) problem in the context of CBAM's WTO compatibility?"
+  options:
+    - "CBAM requires importers to disclose production methods in their customs declaration, which may violate trade secret protections"
+    - "Traditional GATT jurisprudence has been cautious about measures that discriminate based on how products are made rather than their physical characteristics, and CBAM explicitly distinguishes goods by their emission intensity"
+    - "The CBAM methodology for measuring embedded emissions has not been reviewed by WTO technical experts"
+    - "CBAM's PPM requirement conflicts with ISO 14001 environmental management standards"
+  answer: 1
+  explanation: "The PPM problem arises because GATT traditionally considers goods as 'like' products based on their physical characteristics, not how they are made. CBAM distinguishes between otherwise identical steel products based on their embedded emission intensity, which is a PPM distinction. While the WTO Appellate Body has shown greater openness to PPM-based environmental measures in recent cases, the doctrine remains legally unsettled, making this one of CBAM's most significant legal vulnerabilities."

@@ -1,0 +1,17 @@
+- question: "What should a company assess first in its taxonomy workflow?"
+  options:
+    - "Substantial contribution thresholds"
+    - "DNSH criteria"
+    - "Minimum safeguards"
+    - "CapEx allocation"
+  answer: 2
+  explanation: "If minimum safeguards are not met at the company level, no activities can be aligned. Assessing them first avoids unnecessary detailed activity-level work."
+
+- question: "If an activity contributes to both climate mitigation and circular economy, how should it be reported?"
+  options:
+    - "Report it under both objectives and double the KPI"
+    - "Choose the primary objective and report it once"
+    - "Report it only under climate mitigation"
+    - "It cannot contribute to more than one objective"
+  answer: 1
+  explanation: "To prevent double counting, the company chooses the primary objective and reports the activity under that one objective only."

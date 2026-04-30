@@ -1,0 +1,35 @@
+- question: "What is a cost containment reserve (CCR)?"
+  options:
+    - "Money saved by the government"
+    - "A pool of extra allowances released if prices exceed a trigger level"
+    - "A reserve of fossil fuels"
+    - "An emergency fund for disasters"
+  answer: 1
+  explanation: "A CCR holds allowances that are released to the market if prices rise above specified trigger prices, providing a soft price ceiling to limit cost spikes."
+
+- question: "How does an emissions containment reserve (ECR) work?"
+  options:
+    - "It releases allowances when prices are low"
+    - "It removes allowances from the market when prices are low to support the price floor"
+    - "It stores physical emissions"
+    - "It eliminates the cap"
+  answer: 1
+  explanation: "An ECR removes (withholds) allowances from auctions when prices fall below a threshold, supporting prices and preventing collapses that undermine the carbon price signal."
+
+- question: "What is the Market Stability Reserve (MSR) in the EU ETS?"
+  options:
+    - "A government savings account"
+    - "An automatic mechanism that adjusts allowance supply based on the surplus of banked allowances"
+    - "A price floor mechanism"
+    - "A reserve of renewable energy"
+  answer: 1
+  explanation: "The MSR automatically removes allowances from the market when the bank of surplus allowances is too large and injects them back when it is too small, stabilizing supply and prices."
+
+- question: "What is the key advantage of automatic price management mechanisms?"
+  options:
+    - "They eliminate government involvement entirely"
+    - "They respond to market conditions without requiring repeated political decisions"
+    - "They guarantee zero price volatility"
+    - "They are free to implement"
+  answer: 1
+  explanation: "Automatic mechanisms respond to price triggers without new political decisions each time, depoliticizing adjustments and providing faster, more predictable market responses."

@@ -1,0 +1,44 @@
+- question: "Under Article 6.2, what is the unit that is traded between countries in a cooperative approach?"
+  options:
+    - "Certified Emission Reduction (CER)"
+    - "Internationally Transferred Mitigation Outcome (ITMO)"
+    - "Article 6.4 Emission Reduction (A6.4ER)"
+    - "Verified Emission Reduction (VER)"
+  answer: 1
+  explanation: "Article 6.2 trades Internationally Transferred Mitigation Outcomes (ITMOs). The term is deliberately broad -- ITMOs can be measured in CO2-equivalent tonnes or other metrics depending on the NDC structures of the participating countries. CERs are the Kyoto CDM unit; A6.4ERs are the Article 6.4 unit; VERs are a voluntary market term."
+
+- question: "Which of the following correctly describes the two types of A6.4ERs produced under Article 6.4?"
+  options:
+    - "Primary credits (newly issued) and secondary credits (traded on the secondary market)"
+    - "Authorised credits (with corresponding adjustment, for NDC use) and mitigation contribution units (no CA, for other uses)"
+    - "Domestic credits (used only within the host country) and international credits (sold across borders)"
+    - "Compliance credits (for government use) and voluntary credits (for corporate net-zero claims)"
+  answer: 1
+  explanation: "Article 6.4 creates two categories of A6.4ERs. Authorised credits are formally authorised by the host country for use toward another country's NDC or for international purposes like CORSIA -- a corresponding adjustment is required. Mitigation contribution units are not authorised for NDC transfer; they support mitigation activity but do not carry a corresponding adjustment."
+
+- question: "What percentage of issued A6.4ERs is automatically cancelled under the Overall Mitigation in Global Emissions (OMGE) requirement, and what is its purpose?"
+  options:
+    - "5%, to fund the Adaptation Fund for climate resilience programmes"
+    - "2%, to ensure the mechanism contributes a net reduction in global emissions beyond NDC accounting"
+    - "10%, to compensate for potential permanence reversal risks in land-based projects"
+    - "2%, to cover the administrative costs of the Article 6.4 Supervisory Body"
+  answer: 1
+  explanation: "The OMGE requirement cancels 2% of all issued A6.4ERs -- meaning those credits are permanently retired without being used by any buyer. This ensures the mechanism generates net global mitigation: for every 100 tonnes of reductions produced, only 98 can be used by buyers. The separate Share of Proceeds (SOP) levy of 5% of transaction proceeds funds the Adaptation Fund."
+
+- question: "As of March 2025, which countries completed the first formal ITMO transfer under Article 6.2?"
+  options:
+    - "Germany and Kenya"
+    - "Japan and Indonesia"
+    - "Switzerland and Thailand"
+    - "South Korea and Vietnam"
+  answer: 2
+  explanation: "Switzerland and Thailand completed the first formal ITMO transfer under Article 6.2 in 2024. Switzerland funded emission-reduction projects in Thailand (including electric buses and solar installations) and received ITMOs in return, with Thailand applying corresponding adjustments to its national inventory. Switzerland has been the most active Article 6.2 buyer, with bilateral agreements in place across multiple countries."
+
+- question: "Article 6.8 differs from Articles 6.2 and 6.4 in which fundamental way?"
+  options:
+    - "Article 6.8 operates only between developed countries, whereas 6.2 and 6.4 can involve developing countries"
+    - "Article 6.8 involves no tradeable carbon credits and no corresponding adjustments -- it is a framework for non-market cooperative approaches"
+    - "Article 6.8 requires UN Supervisory Body approval for all transactions, making it more centralised than Article 6.4"
+    - "Article 6.8 is exclusively used for adaptation finance and cannot fund any mitigation activities"
+  answer: 1
+  explanation: "Article 6.8 creates a framework for non-market cooperative approaches -- financial transfers, technology sharing, capacity building, and technical assistance -- that do not involve the creation or transfer of carbon credits. Because no credit changes hands, no corresponding adjustment is required. A UNFCCC-managed digital platform supports these non-market cooperative approaches by connecting project seekers with funders."

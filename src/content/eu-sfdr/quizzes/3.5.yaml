@@ -1,0 +1,44 @@
+- question: "What is the correct title required for the website section containing the entity-level PAI statement?"
+  options:
+    - "'Our Environmental Impact Report'"
+    - "'Statement on principal adverse impacts of investment decisions on sustainability factors'"
+    - "'Annual Sustainability Disclosure (PAI)'"
+    - "'ESG Impact Dashboard'"
+  answer: 1
+  explanation: "The RTS prescribes the exact title for the PAI statement's website section: 'Statement on principal adverse impacts of investment decisions on sustainability factors.' This precise title is required — alternatives would not meet the specification."
+
+- question: "When calculating annual PAI indicator values from multiple measurement dates, which averaging method does the RTS require?"
+  options:
+    - "The median value across the measurement dates"
+    - "The highest value recorded during the year (conservative approach)"
+    - "The arithmetic average (simple mean) of the values recorded at each of the four (minimum) measurement dates"
+    - "A time-weighted average using the number of days the portfolio held each position"
+  answer: 2
+  explanation: "The RTS requires the arithmetic average (simple mean) of the PAI indicator values recorded at the minimum four measurement dates during the reference period. This averaging methodology ensures the annual figure reflects the portfolio's composition throughout the year, preventing year-end window dressing."
+
+- question: "Why does the RTS require measurement at a minimum of four dates during the year rather than only at year-end?"
+  options:
+    - "To reduce the administrative burden on smaller firms by spreading the work"
+    - "To prevent portfolio composition 'window dressing' — temporarily improving PAI metrics at year-end while maintaining high-impact positions throughout the rest of the year"
+    - "Because quarterly measurement aligns with most firms' existing reporting cycles"
+    - "To enable comparison with quarterly corporate sustainability reports"
+  answer: 1
+  explanation: "The four-measurement requirement prevents window dressing — where a portfolio with high PAI impacts throughout the year could show a misleadingly favourable year-end position if only one measurement date were used. By averaging across at least four measurement points, the PAI statement must reflect the portfolio's actual composition and impact throughout the reference period."
+
+- question: "For a firm publishing its PAI statement for the FIRST time, what is it required to include regarding historical data?"
+  options:
+    - "It must provide five years of historical data obtained from the investee companies' own disclosures"
+    - "No historical comparison is required in the first-year statement; the firm should focus on current-period data and plan for future periods"
+    - "It must provide at least two years of historical data before the first formal reporting year"
+    - "It must include estimated historical data going back to 2021 when SFDR Level 1 applied"
+  answer: 1
+  explanation: "For first-time PAI reporters, no historical comparison is required — the historical data requirement (five most recent reference periods) builds over subsequent years. The first-year statement should focus on current-period indicator values, the firm's policies for managing PAI, and plans and targets for future periods."
+
+- question: "Is there currently a mandatory external assurance requirement for SFDR PAI statements?"
+  options:
+    - "Yes — PAI statements must be independently audited annually"
+    - "Yes — they must be reviewed by the NCA before publication"
+    - "No — PAI statements are currently self-reported; there is no mandatory external assurance requirement under SFDR"
+    - "Yes — only for FMPs above 500 employees"
+  answer: 2
+  explanation: "As of current regulatory requirements, SFDR does not mandate external assurance (audit or review) for PAI statements. FMPs are self-reporting. Some FMPs voluntarily seek internal or external review for assurance purposes, and the overall quality expectation from supervisors is increasing over time. The absence of mandatory assurance means data quality and disclosure accuracy are primarily a firm's own responsibility."

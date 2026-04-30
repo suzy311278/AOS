@@ -1,0 +1,26 @@
+- question: "Category 12 (End-of-Life Treatment of Sold Products) is the downstream counterpart to which upstream category?"
+  options:
+    - "Category 1 — Purchased Goods and Services"
+    - "Category 4 — Upstream Transportation"
+    - "Category 5 — Waste Generated in Operations"
+    - "Category 3 — Fuel- and Energy-Related Activities"
+  answer: 2
+  explanation: "Category 5 covers waste from the company's own operations; Category 12 covers what happens to the company's sold products when consumers discard them. Both use the same accounting logic: the company is responsible for disposal emissions of material it generated or produced."
+
+- question: "A company sells 2,000 tonnes of plastic packaging. 50% is landfilled (EF = 0.02 tCO₂e/t) and 50% is incinerated (EF = 2.43 tCO₂e/t). What are the total Category 12 emissions?"
+  options:
+    - "245 tCO₂e"
+    - "2,450 tCO₂e"
+    - "24,500 tCO₂e"
+    - "490 tCO₂e"
+  answer: 1
+  explanation: "Landfill: 1,000 t × 0.02 = 20 tCO₂e. Incineration: 1,000 t × 2.43 = 2,430 tCO₂e. Total = 2,450 tCO₂e. Incineration dominates because fossil-based plastics oxidise completely to CO₂ at high emission factors."
+
+- question: "Which circular economy intervention would most directly reduce a company's Category 12 emissions?"
+  options:
+    - "Installing rooftop solar panels at the company's factory"
+    - "Reducing employee business travel"
+    - "Designing products for easier disassembly and recycling"
+    - "Switching to a lower-carbon logistics provider"
+  answer: 2
+  explanation: "Designing products for recyclability shifts end-of-life fate from high-emission landfill and incineration toward lower-emission recycling, directly reducing Category 12 emissions. The other options affect Scope 1/2 (solar), Category 6 (travel), or Category 9 (logistics)."

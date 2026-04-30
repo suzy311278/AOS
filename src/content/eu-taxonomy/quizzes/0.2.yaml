@@ -1,0 +1,17 @@
+- question: "How many environmental objectives does the EU Taxonomy define?"
+  options:
+    - "Three"
+    - "Four"
+    - "Six"
+    - "Eight"
+  answer: 2
+  explanation: "The six objectives are: climate change mitigation, climate change adaptation, water and marine resources, circular economy, pollution prevention, and biodiversity."
+
+- question: "Which environmental objectives received technical screening criteria first?"
+  options:
+    - "Water and circular economy"
+    - "Climate change mitigation and climate change adaptation"
+    - "Pollution prevention and biodiversity"
+    - "All six at the same time"
+  answer: 1
+  explanation: "The Climate Delegated Act (December 2021) covered mitigation and adaptation first. The remaining four received criteria in the Environmental Delegated Act (November 2023)."

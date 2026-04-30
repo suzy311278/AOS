@@ -1,0 +1,26 @@
+- question: "Under SFDR 2.0, which entity-level disclosure obligations are abolished entirely?"
+  options:
+  - "Product-level PAI disclosure for Article 7 funds"
+  - "Entity-level PAI statements (Article 4) and remuneration disclosures (Article 5)"
+  - "Website disclosures for Article 9 products only"
+  - "The obligation to publish sustainability risk integration policies"
+  answer: 1
+  explanation: "SFDR 2.0 abolishes entity-level PAI statements (previously required under Article 4) and entity-level remuneration disclosures (previously required under Article 5). The rationale is that CSRD now covers entity-level sustainability reporting for large companies, making the parallel SFDR entity-level obligations redundant. The Commission estimates these abolitions will save approximately EUR 56 million per year across the EU industry."
+
+- question: "What is the maximum length for pre-contractual disclosures for Articles 7, 8, and 9 products under SFDR 2.0?"
+  options:
+  - "Two pages, plus one additional page for the impact sub-category"
+  - "Four pages for Article 7 and 8; six pages for Article 9"
+  - "No page limit, but a simplified template format is required"
+  - "Three pages for all categories, regardless of complexity"
+  answer: 0
+  explanation: "Under SFDR 2.0, pre-contractual disclosures for all three categories (Articles 7, 8, and 9) are capped at a maximum of two pages. Products qualifying for the impact sub-category may include one additional page, bringing the maximum to three pages for those products. This is a dramatic simplification from the current norm of four to seven pages under the SFDR 1.0 RTS templates."
+
+- question: "Under SFDR 2.0, which of the following categories of entity is REMOVED from the scope of SFDR?"
+  options:
+  - "UCITS management companies"
+  - "Alternative Investment Fund Managers (AIFMs)"
+  - "Financial advisers and credit institutions providing portfolio management"
+  - "Insurance companies offering insurance-based investment products"
+  answer: 2
+  explanation: "SFDR 2.0 removes financial advisers and credit institutions providing portfolio management from its scope. The policy rationale is that these entities do not manufacture financial products; their sustainability obligations are instead addressed through MiFID II and IDD suitability frameworks. UCITS management companies, AIFMs, insurance companies, and pension providers all remain fully subject to SFDR 2.0."

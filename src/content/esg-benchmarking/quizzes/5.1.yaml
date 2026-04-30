@@ -1,0 +1,26 @@
+- question: "Why is the GICS sub-industry the primary lens for defining a peer group in MSCI ESG benchmarking?"
+  options:
+    - "Because GICS sub-industries are the only classification system accepted by regulators for ESG disclosure"
+    - "Because key issues, key issue weights, and industry-adjusted scores are all determined and calculated at the GICS sub-industry level"
+    - "Because GICS sub-industries always contain exactly the right number of peers for a statistically valid comparison"
+    - "Because the GICS system is the only classification that separates companies by geographic region"
+  answer: 1
+  explanation: "MSCI assigns every rated company to an ESG Rating Industry based on GICS sub-industries. Key Issues and Key Issue Weights are determined at the GICS sub-industry level. Industry-adjusted scores, ESG letter ratings, percentiles, quartiles, and score distributions are all calculated relative to the ESG Rating Industry. A rating only has meaning in the context of this peer set."
+
+- question: "How does MSCI handle a company that derives more than 20% of its revenue from a secondary business line in a different industry?"
+  options:
+    - "The company is reassigned to a new ESG Rating Industry based on the secondary business line"
+    - "The secondary business line is excluded from the company's ESG assessment entirely"
+    - "A Company-Specific Key Issue relevant to the secondary business line is added to the company's analysis"
+    - "The company's key issue weights are set to the average of the two relevant industries"
+  answer: 2
+  explanation: "MSCI handles this through Company-Specific Key Issues. When a company sources more than 20% of revenue or earnings from a secondary business line, the most relevant key issue facing that secondary business line is added to the company's analysis. The weights on the remaining key issues are reduced proportionally. The company-specific key issue contributes to that company's rating but not to the ratings of peers that do not face that same issue."
+
+- question: "In a typical benchmarking engagement, which of the following is the best primary source for a client company's Scope 1 and Scope 2 emissions data in a standardised, comparable format?"
+  options:
+    - "The company's investor relations press releases"
+    - "MSCI's Carbon Emissions Business Exposure Score"
+    - "CDP climate questionnaire responses"
+    - "The company's annual financial report"
+  answer: 2
+  explanation: "CDP (formerly the Carbon Disclosure Project) questionnaire responses are the primary source for standardised Scope 1, Scope 2, and often Scope 3 emissions data, energy use figures, and climate governance information. Companies that respond to CDP provide this data in a consistent format that supports cross-peer comparison. Annual financial reports and investor relations materials typically do not provide the level of environmental detail needed."

@@ -1,0 +1,26 @@
+- question: "Illustrative Example 1 (IE3-IE5) shows an entity using the equity share approach with a 40% associate. How are the associate's emissions presented?"
+  options:
+    - "Included 100% in the consolidated group total"
+    - "Excluded entirely from the entity's disclosure"
+    - "Presented separately as 'other investees' at the 40% equity share"
+    - "Combined with Scope 3 Category 15 (investments)"
+  answer: 2
+  explanation: "IFRS S2 Para 29(a)(iv) requires disaggregation of Scope 1 and 2 emissions between the consolidated accounting group and other investees. Under the equity share approach, the associate's emissions are attributed at 40% and disclosed separately — not blended into the consolidated total."
+
+- question: "According to the illustrative guidance examples, which two factors suggest that Scope 3 Category 1 (purchased goods and services) should be separately disaggregated?"
+  options:
+    - "It accounts for a large percentage of total emissions AND the entity has a target or plan for those emissions"
+    - "It is the entity's only Scope 3 category AND data is directly measured"
+    - "It is upstream AND downstream simultaneously"
+    - "Sector guidance requires it AND the entity's revenue exceeds €1 billion"
+  answer: 0
+  explanation: "In Illustrative Example 2 (IE6-IE12), Category 1 is separately disclosed because: (1) it accounts for 60% of total Scope 1+2+3 emissions (concentration) and (2) the entity has a supply chain emissions reduction target (target linkage). Both factors indicate disaggregation provides material investor-relevant information."
+
+- question: "An oil and gas company separately discloses methane from its total Scope 1 emissions. Which illustrative example supports this practice, and why?"
+  options:
+    - "Example 2 — because methane is the largest Scope 3 category"
+    - "Example 3A — because methane regulations are stringent and industry guidance calls for separate methane disclosure in oil and gas"
+    - "Example 4 — because methane affects financed emissions calculations"
+    - "Example 5 — because methane has a different asset class profile"
+  answer: 1
+  explanation: "Illustrative Example 3A (IE13-IE18) demonstrates separate methane disclosure for an oil and gas entity. The decision factors include: stringent methane regulations, ISSB industry guidance (Volume 11 — Oil & Gas Exploration & Production) calling for specific methane metrics, and regulator and investor scrutiny of methane specifically."

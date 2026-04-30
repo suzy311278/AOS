@@ -1,0 +1,1955 @@
+{
+  "total": 325,
+  "chunks": [
+    {
+      "i": 0,
+      "path": "(none)",
+      "chars": 22,
+      "text": "VCS Methodology\nVM0042"
+    },
+    {
+      "i": 1,
+      "path": "IMPROVED AGRICULTURAL LAND MANAGEMENT",
+      "chars": 1317,
+      "text": "Version 2.2\n21 October 2025\nSectoral Scope 14: Agriculture, Forestry and Other Land Use\nVersion 1.0 of this methodology was developed by TerraCarbon LLC and Indigo Ag. The lead authors were David Shoch and Erin Swails from TerraCarbon. Contributions from Indigo were made by (in alphabetical order): "
+    },
+    {
+      "i": 2,
+      "path": "IMPROVED AGRICULTURAL LAND MANAGEMENT",
+      "chars": 297,
+      "text": "Version 2.0 of this methodology was prepared by Verra. Revisions to the uncertainty section were prepared by Dan Kane and Jaclyn Kachelmeyer, TerraCarbon LLC with input from Brian McConkey, Viresco Solutions and Beth Ziniti, Applied Geosolutions; and in consultation with several external experts."
+    },
+    {
+      "i": 3,
+      "path": "IMPROVED AGRICULTURAL LAND MANAGEMENT",
+      "chars": 1484,
+      "text": "Valuable input was provided by: Denis Angers (Laval University, Canada), Eyal Ben-Dor (Tel Aviv University, Israel), Charlie Brummit (Indigo Ag, USA), Rich Conant (Colorado State University, USA), Ciniro Costa Jr. (Alliance of Bioversity International and the International Center for Tropical Agricu"
+    },
+    {
+      "i": 4,
+      "path": "CONTENTS",
+      "chars": 457,
+      "text": "\n1, 1 = SUMMARY DESCRIPTION.............................................................................5. 1, 2 = SUMMARY DESCRIPTION.............................................................................5. 2, 1 = SOURCES........................................................................."
+    },
+    {
+      "i": 5,
+      "path": "CONTENTS",
+      "chars": 464,
+      "text": "\n DEFINITIONS.................................................................................................7. 3, 2 = DEFINITIONS.................................................................................................7. 4, 1 = APPLICABILITY CONDITIONS......................................"
+    },
+    {
+      "i": 6,
+      "path": "CONTENTS",
+      "chars": 420,
+      "text": "\n ................................................................................11. 5, 2 = PROJECT BOUNDARY ................................................................................11. 6, 1 = BASELINE SCENARIO ................................................................................."
+    },
+    {
+      "i": 7,
+      "path": "CONTENTS",
+      "chars": 409,
+      "text": "\n ADDITIONALITY..........................................................................................17. 7, 2 = ADDITIONALITY..........................................................................................17. 8, 1 = QUANTIFICATION OF REDUCTIONS AND REMOVALS............................."
+    },
+    {
+      "i": 8,
+      "path": "CONTENTS",
+      "chars": 461,
+      "text": "\n Summary............................................................................................................................19. 8.2, 1 = 8.2. 8.2, 2 = Baseline Emissions .............................................................................................................24. 8.3, 1 ="
+    },
+    {
+      "i": 9,
+      "path": "CONTENTS",
+      "chars": 468,
+      "text": "\n 8.4, 2 = Leakage.............................................................................................................................50. 8.5, 1 = 8.5. 8.5, 2 = Net Reductions and Removals.......................................................................................54. 8.6, 1 = 8.6"
+    },
+    {
+      "i": 10,
+      "path": "CONTENTS",
+      "chars": 455,
+      "text": "\n Calculation of Verified Carbon Units.............................................................................84. 9 MONITORING.............................................................................................86, 1 = 9 MONITORING........................................................"
+    },
+    {
+      "i": 11,
+      "path": "CONTENTS",
+      "chars": 522,
+      "text": "\n MONITORING.............................................................................................86. 9.1, 1 = 9.1. 9.1, 2 = Data and Parameters Available at Validation ............................................................86. 9.2, 1 = 9.2. 9.2, 2 = Data and Parameters Monitored........"
+    },
+    {
+      "i": 12,
+      "path": "CONTENTS",
+      "chars": 485,
+      "text": "\n REFERENCES.............................................................................................137, 1 = 10 REFERENCES.............................................................................................137. 10 REFERENCES.............................................................."
+    },
+    {
+      "i": 13,
+      "path": "CONTENTS",
+      "chars": 1005,
+      "text": "\n POTENTIAL IMPROVED ALM PRACTICES THAT COULD CONSTITUTE THE PROJECT ACTIVITY ...................140, 1 = APPENDIX 1: NON-EXHAUSTIVE LIST OF POTENTIAL IMPROVED ALM PRACTICES THAT COULD CONSTITUTE THE PROJECT ACTIVITY ...................140. APPENDIX 1: NON-EXHAUSTIVE LIST OF POTENTIAL IMPROVED ALM P"
+    },
+    {
+      "i": 14,
+      "path": "CONTENTS",
+      "chars": 144,
+      "text": " PROCEDURE TO DEMONSTRATE DEGRADATION OF PROJECT LANDS IN THE BASELINE SCENARIO..............................................................143"
+    },
+    {
+      "i": 15,
+      "path": "CONTENTS",
+      "chars": 805,
+      "text": "APPENDIX 3: SELECTION AND JUSTIFICATION OF THE BASELINE SCENARIO 145 = APPENDIX 4: GUIDANCE ON POTENTIAL EMERGING TECHNOLOGIES TO MEASURE SOC CONTENT ..............................................................................152. APPENDIX 3: SELECTION AND JUSTIFICATION OF THE BASELINE SCENARIO 14"
+    },
+    {
+      "i": 16,
+      "path": "SUMMARY DESCRIPTION",
+      "chars": 53,
+      "text": "Table 1: Additionality and crediting baseline methods"
+    },
+    {
+      "i": 17,
+      "path": "Additionality,Crediting Method and Mitigation Outcome",
+      "chars": 1917,
+      "text": "Additionality\nCrediting Baseline\nMitigation Outcome\nProject Method\nProject Method\nReductions and Removals\nThis agricultural land management (ALM) methodology provides procedures to estimate the greenhouse gas (GHG) emission reductions (CO2, CH4, and N2O) and carbon dioxide removals (reductions and r"
+    },
+    {
+      "i": 18,
+      "path": "Additionality,Crediting Method and Mitigation Outcome",
+      "chars": 1912,
+      "text": "1  Project proponents must reassess ALM project baselines every ten years or every five years, where regional practice changes are more frequent and/or data becomes available to update the baseline. See the most recent version of the VCS Standard for further details on baseline reassessment requirem"
+    },
+    {
+      "i": 19,
+      "path": "Additionality,Crediting Method and Mitigation Outcome",
+      "chars": 148,
+      "text": "Project proponents must use the templates available on the VM0042 webpage to prepare the documents required for project validation and verification."
+    },
+    {
+      "i": 20,
+      "path": "2 SOURCES",
+      "chars": 1180,
+      "text": "This methodology is based on the following methodologies, modules, and tools:\n- VM0017 Adoption of Sustainable Agricultural Land Management, v1.0\n- VM0022 Quantifying N2O Emissions Reductions in Agricultural Crops through Nitrogen Fertilizer Rate Reduction, v1.1\n- VM0026 Methodology for Sustainable "
+    },
+    {
+      "i": 21,
+      "path": "3 DEFINITIONS",
+      "chars": 133,
+      "text": "In addition to the definitions set out in the VCS document Program Definitions , the following definitions apply to this methodology."
+    },
+    {
+      "i": 22,
+      "path": "Annual",
+      "chars": 84,
+      "text": "A plant species that within one year completes its life cycle, reproduces, and dies."
+    },
+    {
+      "i": 23,
+      "path": "Baseline control site",
+      "chars": 339,
+      "text": "Defined area that is managed according to pre-project (baseline) practices (as set out in the schedule of activities) for direct measurement of baseline soil organic carbon stock change. It is linked to and representative of the land in one or more quantification units. Baseline control sites may be"
+    },
+    {
+      "i": 24,
+      "path": "Historical look-back period",
+      "chars": 213,
+      "text": "The time period prior to the project start date covering at minimum three years and one complete crop rotation. The historical look-back period is used to produce the schedule of activities (see definition below)."
+    },
+    {
+      "i": 25,
+      "path": "Improved agricultural land management practice",
+      "chars": 1007,
+      "text": "An agricultural practice yielding increased soil organic carbon storage or other climate benefit, involving a refinement to fertilizer or other soil amendment application, water management/irrigation, tillage, residue management, crop planting and harvesting, and/or grazing practices. Projects may i"
+    },
+    {
+      "i": 26,
+      "path": "Inelastic neutron scattering (INS)",
+      "chars": 226,
+      "text": "An in-field (in situ) measurement technique based on the detection and analysis of gamma rays emitted by soil elements after irradiation with neutrons. It is also known as neutron-stimulated gamma ray analysis or spectroscopy."
+    },
+    {
+      "i": 27,
+      "path": "Infrared spectroscopy",
+      "chars": 480,
+      "text": "Mid-infrared (MIR), near-infrared (NIR), and visible near-infrared (Vis-NIR) spectroscopy, including diffuse reflectance spectroscopy (DRS) and diffuse reflectance infrared Fourier transform spectroscopy (DRIFT). Vis-NIR combines the visible and near-infrared electromagnetic range and usually refers"
+    },
+    {
+      "i": 28,
+      "path": "Laser-induced breakdown spectroscopy (LIBS)",
+      "chars": 184,
+      "text": "Application of a high-energy pulse to soil samples to generate a high-temperature plasma, which emits radiation at different wavelengths depending on the elements present in the sample"
+    },
+    {
+      "i": 29,
+      "path": "Nitrogen-fixing species",
+      "chars": 162,
+      "text": "Any plant species that associates with nitrogen-fixing microbes found within nodules formed on the roots, including but not limited to soybeans, alfalfa, and peas"
+    },
+    {
+      "i": 30,
+      "path": "Organic nitrogen fertilizer",
+      "chars": 108,
+      "text": "Any organic material containing nitrogen, including but not limited to animal manure, compost, and biosolids"
+    },
+    {
+      "i": 31,
+      "path": "Perennial",
+      "chars": 87,
+      "text": "A plant species whose life cycle, reproduction, and death extends across multiple years"
+    },
+    {
+      "i": 32,
+      "path": "Professional agronomist",
+      "chars": 272,
+      "text": "An individual with specialized knowledge, skills, education, experience, or training in crop and/or soil science. Such individuals may be agricultural experts like soil scientists, husbandry specialists, agronomists, or representatives of a governmental agricultural body."
+    },
+    {
+      "i": 33,
+      "path": "Project domain",
+      "chars": 236,
+      "text": "Set of conditions (including crop type, soil texture, and climate) in which model application has been validated (see VCS Module VMD0053 Model Calibration, Validation, and Uncertainty Guidance for Improved Agricultural Land Management )"
+    },
+    {
+      "i": 34,
+      "path": "Sample point",
+      "chars": 33,
+      "text": "Sample location of undefined area"
+    },
+    {
+      "i": 35,
+      "path": "Quantification unit",
+      "chars": 177,
+      "text": "Defined area within the project for which GHG emission reductions and carbon dioxide removals (reductions and removals) are estimated using the selected quantification approach."
+    },
+    {
+      "i": 36,
+      "path": "Schedule of activities",
+      "chars": 270,
+      "text": "Annual schedule of historical management/activity practices applied in the baseline scenario over the historical look-back period (e.g., tillage, planting, harvest, and fertilization events). These practices are determined following the data requirements given in Box 1."
+    },
+    {
+      "i": 37,
+      "path": "Stratum",
+      "chars": 155,
+      "text": "A subset of each quantification unit within which the value of a variable, and the processes leading to change in that variable, are relatively homogenous."
+    },
+    {
+      "i": 38,
+      "path": "Synthetic nitrogen fertilizer",
+      "chars": 384,
+      "text": "Any fertilizer made by chemical synthesis (solid, liquid, gaseous) and containing nitrogen. This may be a single nutrient fertilizer product (only including N), or any other synthetic fertilizer containing N, such as multi-nutrient fertilizers (e.g., N -P -K fertilizers) and ' enhancedefficiency ' N"
+    },
+    {
+      "i": 39,
+      "path": "Woody perennials",
+      "chars": 148,
+      "text": "Trees and shrubs having a life cycle lasting more than two years, excluding cultivated annual species with lignified tissues, such as cotton or hemp"
+    },
+    {
+      "i": 40,
+      "path": "4 APPLICABILITY CONDITIONS",
+      "chars": 1196,
+      "text": "This methodology applies to a broad range of project activities that increase SOC storage and/or decrease net emissions of CO2, CH4, and N2O from ALM operations compared to the baseline scenario. The methodology is globally applicable.\nThis methodology is applicable under the following conditions:\n-"
+    },
+    {
+      "i": 41,
+      "path": "4 APPLICABILITY CONDITIONS",
+      "chars": 1664,
+      "text": "- activities (see Section 6). Appendix 1 gives additional details and guidance on practices and on determining practice change.\n- 3) Project activities are implemented on land that is either cropland or grassland at the project start date. The land must remain cropland or grassland throughout the pr"
+    },
+    {
+      "i": 42,
+      "path": "4 APPLICABILITY CONDITIONS",
+      "chars": 1765,
+      "text": "- a) Publicly available, though not necessarily free of charge, 4  from a reputable and recognized source (e.g., the model developer's website, IPCC , or government agency). Sufficient conceptual documentation of inputs, outputs, and information on how the model functionally represents SOC dynamics "
+    },
+    {
+      "i": 43,
+      "path": "4 APPLICABILITY CONDITIONS",
+      "chars": 1637,
+      "text": "- d) Validated per datasets and procedures detailed in Section 5.2 of VCS Module VMD0053 Model Calibration, Validation, and Uncertainty Guidance for Improved Agricultural Land Management. Model prediction error must be calculated using datasets as described in Section 5.2.5 of VMD0053 and must use t"
+    },
+    {
+      "i": 44,
+      "path": "5 PROJECT BOUNDARY",
+      "chars": 779,
+      "text": "The spatial extent of the project boundary is all lands planning to implement the proposed improved ALM practice(s). Carbon pools included in the project boundary in the baseline and project scenarios are listed in Table 2.\n5  To estimate the total carbon content of the applied biochar, project prop"
+    },
+    {
+      "i": 45,
+      "path": "5 PROJECT BOUNDARY",
+      "chars": 1708,
+      "text": "Aboveground woody biomass, Included? = Yes / Optional. Aboveground woody biomass, Justification/Explanation = Aboveground woody biomass must be included where project activities significantly reduce the pool compared to the baseline. In all other cases, aboveground woody biomass is an optional pool."
+    },
+    {
+      "i": 46,
+      "path": "5 PROJECT BOUNDARY",
+      "chars": 998,
+      "text": "GHG sources included in the project boundary in the baseline and project scenarios are listed in Table 3. Specific carbon pools and GHG sources may be deemed de minimis and need not be accounted for (i.e., value set to zero) where together the omitted decrease in carbon stocks (in carbon pools) or i"
+    },
+    {
+      "i": 47,
+      "path": "5 PROJECT BOUNDARY",
+      "chars": 1676,
+      "text": "S* -Must be included where the project activity significantly increases emissions (i.e., by more than 5%) compared to the baseline scenario and may be included where the project activity reduces emissions compared to the baseline scenario.\nFossil fuel, CO 2 = CO 2. Fossil fuel, Yes = S*. Fossil fuel"
+    },
+    {
+      "i": 48,
+      "path": "5 PROJECT BOUNDARY",
+      "chars": 1671,
+      "text": " boundary.. Use of nitrogen fertilizers, CO 2 = N 2 O. Use of nitrogen fertilizers, Yes = Yes. Use of nitrogen fertilizers, Quantified as stock change in the pool, rather than an emissions source (see Table 2) = Must be included where: • The project area would have been subject to nitrogen fertiliza"
+    },
+    {
+      "i": 49,
+      "path": "6 BASELINE SCENARIO",
+      "chars": 1400,
+      "text": "Considering current market trends, existing government policies and legal requirements, socioeconomic conditions, and technological developments in the agriculture sector, the continuation of pre-project ALM practices is determined to be the most plausible baseline scenario (see further justificatio"
+    },
+    {
+      "i": 50,
+      "path": "Development of Schedule of Activities in the Baseline Scenario",
+      "chars": 1699,
+      "text": "For each quantification unit, a schedule of activities in the baseline scenario is determined by assessment of practices implemented during the period prior to the project start date. The interval over which practices are assessed, x years, must be a minimum of three years and must include at least "
+    },
+    {
+      "i": 51,
+      "path": "Development of Schedule of Activities in the Baseline Scenario",
+      "chars": 1719,
+      "text": "8  For example, where the schedule of activities includes tillage events in years t = -3 and -1 but does not involve tillage in year t = -2, the schedule of activities for tillage in the baseline scenario would be tillage, no tillage, tillage. This pattern would be repeated as follows for the first "
+    },
+    {
+      "i": 52,
+      "path": "Development of Schedule of Activities in the Baseline Scenario",
+      "chars": 1527,
+      "text": "Table 4: Minimum specifications for ALM practices in the baseline scenario• Crop type(s), Qualitative = • Approximate date(s) planted (where applicable). • Crop type(s), Quantitative = Crop Planting and Harvesting. • Manure (Y/N) • Compost (Y/N) • Synthetic N fertilizer (Y/N), Qualitative = • Manure"
+    },
+    {
+      "i": 53,
+      "path": "Development of Schedule of Activities in the Baseline Scenario",
+      "chars": 12,
+      "text": "*Y/N: Yes/No"
+    },
+    {
+      "i": 54,
+      "path": "Box 1: Sources of qualitative and quantitative data",
+      "chars": 869,
+      "text": "Sources of information for all undefined activity/management-related model input variables (see Table 6 and Table 8), and all parameters relevant to the baseline scenario (i.e., all parameters with the subscript bsl that reference Box 1 in its respective parameter table), must follow the requirement"
+    },
+    {
+      "i": 55,
+      "path": "Box 1: Sources of qualitative and quantitative data",
+      "chars": 1691,
+      "text": "- 1) Historical management records supported by one or more forms of documented evidence pertaining to the selected sample field and period t = -1 to t = -3 (e.g., management logs, receipts or invoices, farm equipment specifications, logs or files containing machine and/or sensor data) or remote sen"
+    },
+    {
+      "i": 56,
+      "path": "Box 1: Sources of qualitative and quantitative data",
+      "chars": 846,
+      "text": "- 4) Regional (sub-national) average values derived from agricultural census data or other sources from within the 20-year period preceding the project start date or the 10 most recent iterations of the dataset, whichever is more recent. Where estimates have been disaggregated by relevant crop or ow"
+    },
+    {
+      "i": 57,
+      "path": "7 ADDITIONALITY",
+      "chars": 634,
+      "text": "This methodology uses a project method for the demonstration of additionality. For grouped projects, demonstration of additionality must be based upon the initial project activity instances (see further details in the most recent version of the VCS Standard ). Project proponents using this methodolo"
+    },
+    {
+      "i": 58,
+      "path": "Step 1: Regulatory surplus",
+      "chars": 157,
+      "text": "Project proponents must demonstrate regulatory surplus in accordance with the rules and requirements set out in the most recent version of the VCS Standard ."
+    },
+    {
+      "i": 59,
+      "path": "Step 2: Barrier analysis",
+      "chars": 135,
+      "text": "Project proponents must apply the procedures and requirements in Step 2 of the most recent version of VT0008 Additionality Assessment ."
+    },
+    {
+      "i": 60,
+      "path": "Step 3: Demonstrate that adoption of  proposed individual or combined project activities is not common practice",
+      "chars": 1803,
+      "text": "Project proponents must determine whether the proposed project is common practice in each region (or ' geographic area ' as defined for grouped projects in the VCS Standard ) included within the project area. Common practice is defined as greater than 20% adoption. 11  The approach to common practic"
+    },
+    {
+      "i": 61,
+      "path": "Step 3: Demonstrate that adoption of  proposed individual or combined project activities is not common practice",
+      "chars": 1775,
+      "text": "Evidence of practice adoption rates within the project area must be provided in the form of publicly available information contained in:\n- a) agricultural census or other government (e.g., survey) data;\n- b) peer-reviewed scientific literature;\n- c) independent research data; or\n- d) reports or asse"
+    },
+    {
+      "i": 62,
+      "path": "Step 3: Demonstrate that adoption of  proposed individual or combined project activities is not common practice",
+      "chars": 1367,
+      "text": "Step 3.2: Where the best available data from the above sources for an individual or combined practice determines that the adoption rate is greater than 20% or the required data is not available, project proponents must demonstrate that the activity is not common practice by applying Step 4c of VT000"
+    },
+    {
+      "i": 63,
+      "path": "8.1 Summary",
+      "chars": 1924,
+      "text": "This methodology provides a flexible approach to quantifying reductions and removals from the adoption of improved ALM practices in the project compared to the baseline scenario. Baseline and project emissions are defined in terms of flux of CH4, N2O, and CO2 in tonnes of CO2e per unit area 12  per "
+    },
+    {
+      "i": 64,
+      "path": "8.1 Summary",
+      "chars": 137,
+      "text": "approach may be used provided that the same approach is used for a given quantification unit in both the project and baseline scenarios.\n"
+    },
+    {
+      "i": 65,
+      "path": "8.1 Summary",
+      "chars": 1451,
+      "text": "Table 5: Summary of allowable quantification approaches\nCO 2, Source = SOC. CO 2, Quantification Approach 1: Measure and Model* = X. CO 2, Quantification Approach 2: Measure and Remeasure = X. CO 2, Quantification Approach 3: Default Factors = . CO 2, Source = Fossil fuel. CO 2, Quantification Appro"
+    },
+    {
+      "i": 66,
+      "path": "8.1 Summary",
+      "chars": 1447,
+      "text": " CH 4, Source = Biomass burning. CH 4, Quantification Approach 1: Measure and Model* = . CH 4, Quantification Approach 2: Measure and Remeasure = . CH 4, Quantification Approach 3: Default Factors = X. N 2 O, Source = Use of nitrogen fertilizers***. N 2 O, Quantification Approach 1: Measure and Mode"
+    },
+    {
+      "i": 67,
+      "path": "Quantification Approach 1: Measure and Model",
+      "chars": 1305,
+      "text": "An acceptable model is used to estimate GHG flux based on soil characteristics, implemented ALM practices, measured initial SOC stocks, and climatic conditions in quantification units. Measurements of SOC stocks are required every five years or more frequently (see Table 8).\n13  See Section 3.6.6 in"
+    },
+    {
+      "i": 68,
+      "path": "Quantification Approach 2: Measure and Remeasure",
+      "chars": 441,
+      "text": "Direct measurement is used to quantify changes in SOC stocks. This approach is relevant where models are unavailable or have not yet been validated or parameterized, or where project proponents prefer to use a direct measurement approach for SOC stock change. The baseline scenario is measured and re"
+    },
+    {
+      "i": 69,
+      "path": "Quantification Approach 3: Default Factors",
+      "chars": 1984,
+      "text": "GHG flux is calculated following the 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories using equations contained in this methodology.\nWhere a given activity is not practiced in the baseline or project scenarios, resulting in an effective input of zero for any equati"
+    },
+    {
+      "i": 70,
+      "path": "Summary",
+      "chars": 1177,
+      "text": "Figure 1 summarizes which equations are to be applied to each GHG flux depending on the selected quantification approach (see also Table 5).\nProject proponents must use the templates available on the VM0042 webpage to prepare the documents required for project validation and verification, including "
+    },
+    {
+      "i": 71,
+      "path": "Quantification Approach 1",
+      "chars": 1688,
+      "text": "The baseline is modeled for each quantification unit. The model serves to project future stock change/emissions resulting from the schedule of ALM activities taking place in the baseline scenario (derived in Section 6). Further guidance on biophysical model inputs is elaborated in Table 6.\nTable 6: "
+    },
+    {
+      "i": 72,
+      "path": "Quantification Approach 1",
+      "chars": 469,
+      "text": "Climate variables (e.g., precipitation, temperature), 1 = Continuously monitored ex post. Climate variables (e.g., precipitation, temperature), 2 = Measured for each model-specific meteorological input variable at its required temporal frequency (e.g., daily) for the model prediction interval. Measu"
+    },
+    {
+      "i": 73,
+      "path": "Quantification Approach 2",
+      "chars": 1591,
+      "text": "Baseline SOC stocks are measured and remeasured directly at baseline control sites which are linked to quantification units. Control sites are managed by applying schedules of activities established in the baseline scenario for the corresponding quantification unit (derived in Section 6). Control si"
+    },
+    {
+      "i": 74,
+      "path": "Quantification Approach 2",
+      "chars": 1247,
+      "text": "Under this approach at least three control sites are required across the entire project area, but more will decrease uncertainty, particularly where the total number of control sites is less than ten. Note that with increasing variability and heterogeneity of the project area, a higher number of con"
+    },
+    {
+      "i": 75,
+      "path": "Quantification Approach 2",
+      "chars": 1907,
+      "text": "\nTopography, Threshold a = Most frequent slope class 18 must be the same in the quantification units and control sites (to be determined from a slope map or via a GIS slope analysis 19 ). For control sites classified as hilly, steep, or very steep, the aspect must be within 30° of the cardinal direc"
+    },
+    {
+      "i": 76,
+      "path": "Quantification Approach 2",
+      "chars": 1617,
+      "text": " ALM activities.\nHistorical land cover b, Threshold a = For lands converted up to 50 years prior to the project start date, the site must be converted from the same major land cover type (e.g., forestland, grassland, savanna) as the linked quantification unit within ±10 years.. Native vegetation, Th"
+    },
+    {
+      "i": 77,
+      "path": "Quantification Approach 3",
+      "chars": 301,
+      "text": "The baseline is calculated for each sample field using the equations provided. Emissions resulting from the schedule of ALM activities taking place in the baseline scenario (derived in Section 6) are estimated using default emission factors and data are determined for each sample field at validation"
+    },
+    {
+      "i": 78,
+      "path": "8.2.1 Soil Organic Carbon Stocks",
+      "chars": 1898,
+      "text": "Direct measurements of SOC stocks are required under Quantification Approach 1 as model inputs for baseline setting and at a minimum every five years after for model true-up. Direct measurements of SOC stocks are also required under Quantification Approach 2 to determine the baseline and project SOC"
+    },
+    {
+      "i": 79,
+      "path": "8.2.1.1 General Requirements for Soil Sampling",
+      "chars": 1455,
+      "text": "Standard QA/QC procedures for soil inventory including field data collection and data management must be applied.\nUse or adaptation of QA/QC procedures available from published handbooks is recommended, such as those produced by FAO and available on the FAO Soils Portal, the ISO standards on soil sa"
+    },
+    {
+      "i": 80,
+      "path": "8.2.1.2 Sampling Design: Stratified Random Sampling",
+      "chars": 1762,
+      "text": "Soil sampling must be conducted following the stratified random sampling strategy. 24  Each quantification unit within the project area should be divided into sub-units (i.e., strata) based on factors influencing SOC stock distribution (see below) that make each stratum more homogenous than the proj"
+    },
+    {
+      "i": 81,
+      "path": "8.2.1.2 Sampling Design: Stratified Random Sampling",
+      "chars": 1444,
+      "text": "Random sampling schemes, without prior stratification, frequently produce relatively high uncertainties when estimating SOC stock changes. Grid or linear sampling patterns require a large number of samples and may produce biased results due to linear features across the site being under- or over-rep"
+    },
+    {
+      "i": 82,
+      "path": "8.2.1.2 Sampling Design: Stratified Random Sampling",
+      "chars": 1582,
+      "text": "The sampling design must capture variability within the project area. An unbiased spatially stratified approach is important to capture variations in SOC across the project area. The larger a stratum's area and the greater the expected or known variability within a stratum, the higher the number of "
+    },
+    {
+      "i": 83,
+      "path": "8.2.1.3 Collection and Processing of Soil Samples",
+      "chars": 1880,
+      "text": "The following are guidelines for collection and processing of soil samples and reporting.\n- 1) Soil sampling must follow established best practices, such as those found in FAO (2019, 2020), De Gruijter et al. (2006), Smith et al. (2020), and Soil Science Division Staff (2017).\n- 2) Where possible, S"
+    },
+    {
+      "i": 84,
+      "path": "8.2.1.3 Collection and Processing of Soil Samples",
+      "chars": 747,
+      "text": "- 7) Reporting of SOC stock changes from direct measurements under Quantification Approaches 1 and 2 must occur on an equivalent soil mass (ESM) basis.\n- a) The mass of soil in each depth layer depends on the bulk density of the respective layer. Therefore, it is important to differentiate between s"
+    },
+    {
+      "i": 85,
+      "path": "8.2.1.3 Collection and Processing of Soil Samples",
+      "chars": 1674,
+      "text": "- the need for extrapolation outside of the measured range, soils must be sampled deeper than the minimum 30 cm required for reporting SOC stock changes.\n- c) To enable the ESM approach, soil samples at re-sampling must be divided into at least two increments. Soil mass may be derived from bulk dens"
+    },
+    {
+      "i": 86,
+      "path": "8.2.1.3 Collection and Processing of Soil Samples",
+      "chars": 701,
+      "text": "- 10) The number of samples to be taken within each stratum should be determined based on the expected variance, to reduce overall uncertainty. A pre-sampling of 5 to 10 soil samples per stratum may provide an estimate of SOC variance where up-to-date soil data are unavailable.\n- 11) A power analysi"
+    },
+    {
+      "i": 87,
+      "path": "Where:",
+      "chars": 702,
+      "text": "MDD, 1 = =. MDD, 2 = Minimum detectable difference. S, 1 = =. S, 2 = Standard deviation of the difference in SOC stocks between t 0 and t 1. n, 1 = =. n, 2 = Number of samples. t α, 1 = =. t α, 2 = Two-sided critical value of the t-distribution at a given significance level ( α ) frequently taken as"
+    },
+    {
+      "i": 88,
+      "path": "8.2.1.4 Measurements of SOC Content",
+      "chars": 2006,
+      "text": "SOC content with known uncertainty should be measured using dry combustion (Dumas method). In addition, the following proximal sensing techniques are allowed: infrared spectroscopy, including near infrared (NIR), visible near infrared (Vis-NIR), and mid-infrared spectroscopy (MIR); laser-induced bre"
+    },
+    {
+      "i": 89,
+      "path": "8.2.1.4 Measurements of SOC Content",
+      "chars": 448,
+      "text": "The use of remote sensing to estimate and monitor SOC stock changes is allowed through digital soil mapping used to initialize and/or true-up any model under Quantification Approach 1 or used to generate mapped predictions of SOC content and/or stock at different times under Quantification Approach "
+    },
+    {
+      "i": 90,
+      "path": "8.2.1.5 Measurements of Bulk Density",
+      "chars": 973,
+      "text": "Bulk density must be determined applying the core, excavation, or clod methods in the field, and subsequently processing the samples in the laboratory. Best practice guidance and established standards for these methods, such as ISO 11272:2017 Soil quality -Determination of dry bulk density , must be"
+    },
+    {
+      "i": 91,
+      "path": "8.2.1.6 Calculation of SOC Stocks",
+      "chars": 1488,
+      "text": "To ensure that changes in SOC stocks do not arise solely from a temporal change in bulk density (related to ALM practices), SOC stock changes based on measurements (including for baseline and true-up measurements under Quantification Approach 1) must be calculated on an ESM basis 33  following the p"
+    },
+    {
+      "i": 92,
+      "path": "8.2.1.6 Calculation of SOC Stocks",
+      "chars": 614,
+      "text": "The cumulative SOC mass per unit area is then calculated by summing all sampled depth increments (see column H in Figure 3). Project proponents may use the spreadsheet 34  provided in Wendt and Hauser (2013) to calculate reference ESMs and adjustments independently from sampled depth increments by u"
+    },
+    {
+      "i": 93,
+      "path": "8.2.1.6 Calculation of SOC Stocks",
+      "chars": 1333,
+      "text": "In the example in Figure 3, the cumulative organic carbon (OC) mass to 30 cm depth at the first sampling point VM42point1-1 is 47.36 Mg/ha (t/ha; cell H15) for a cumulative soil mass of 1950 Mg/ha (cell F15). Column I provides standard cumulative reference masses, which in this example have been adj"
+    },
+    {
+      "i": 94,
+      "path": "8.2.1.6 Calculation of SOC Stocks",
+      "chars": 1016,
+      "text": "34  Available for download in the VM0042 webpage at: https://verra.org/wp-content/uploads/2025/01/ESM-samplespreadsheets-Wendt-and-Hauser-2013.xlsx\n35  Available at: https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fgcb.15124&file=gcb15124-sup0002-Supinfo.pdf\n·\nHome\n7 VCS\nAutoS"
+    },
+    {
+      "i": 95,
+      "path": "Where:",
+      "chars": 1153,
+      "text": "SOCmodel\n=\nSOC stock as model input data (t/ha)\nBDcorr\n= Corrected bulk density of the fine soil fraction, after subtracting the mass proportion of the coarse fragments (g/cm 3 )\nd = Soil depth (cm)\n100\n= Conversion factor from g/cm 2  to t/ha\nFinally, modeled SOC stocks under Quantification Approac"
+    },
+    {
+      "i": 96,
+      "path": "8.2.2 Change in Carbon Stocks in Aboveground and Belowground Woody Biomass",
+      "chars": 993,
+      "text": "Where carbon stocks in aboveground and belowground woody biomass are included in the project boundary per Table 3, the change in carbon stocks in trees (Δ CTREE,bsl,i,t ) and shrubs (Δ CSHRUB,bsl,i,t ) in the baseline for quantification unit i in year t are calculated using the CDM A/R tools Estimat"
+    },
+    {
+      "i": 97,
+      "path": "8.2.3 Carbon Dioxide Emissions from Fossil Fuel Combustion",
+      "chars": 1319,
+      "text": "Where carbon dioxide emissions from fossil fuel are included in the project boundary per Table 3, they are quantified in the baseline scenario under Quantification Approach 3, using Equations (6) and (7).\nParameter 𝐶𝑂2_𝑓𝑓 𝑏𝑠𝑙,𝑖,𝑡 ̅̅̅̅̅̅̅̅̅̅̅̅ ̅̅̅ is estimated using the following equation:\n<!-- formu"
+    },
+    {
+      "i": 98,
+      "path": "8.2.4 Carbon Dioxide Emissions from Liming",
+      "chars": 845,
+      "text": "Application of calcitic limestone (CaCO3) or dolomite (CaMg(CO3)2) releases bicarbonate (2HCO3 -), which evolves into CO2 and water (H2O) as carbonate limes dissolve. Where one of the ALM practices is liming and resulting carbon dioxide emissions are not deemed de minimis, they are quantified in the"
+    },
+    {
+      "i": 99,
+      "path": "Where:",
+      "chars": 587,
+      "text": "M Limestone,bsl,i, 1 = =. M Limestone,bsl,i, 2 = Amount of calcitic limestone (CaCO 3 ) applied to quantification unit i in year t (tonnes). EF Limestone, 1 = =. EF Limestone, 2 = Emission factor for calcitic limestone (0.12) (t C/t of limestone). M Dolomite,bsl,i, 1 = =. M Dolomite,bsl,i, 2 = Amoun"
+    },
+    {
+      "i": 100,
+      "path": "8.2.5 Methane Emissions from the SOC Pool",
+      "chars": 680,
+      "text": "Where methane emissions from soil methanogenesis are included in the project boundary per Table 3, they are quantified in the baseline scenario under Quantification Approach 1 using Equation (10).\n<!-- formula-not-decoded -->\nWhere:\n𝐶𝐻4_𝑠𝑜𝑖𝑙𝑏𝑠𝑙,𝑖,𝑡 ̅̅̅̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅\n- = Areal mean met"
+    },
+    {
+      "i": 101,
+      "path": "8.2.6 Methane Emissions from Livestock Enteric Fermentation",
+      "chars": 1110,
+      "text": "Where methane emissions from livestock enteric fermentation are included per Table 3, they are quantified in the baseline scenario under Quantification Approach 3 using Equation (11). Following the 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories , quantification m"
+    },
+    {
+      "i": 102,
+      "path": "8.2.7 Methane Emissions from Manure Deposition",
+      "chars": 1476,
+      "text": "Where methane emissions from manure deposition are included in the project boundary per Table 3, they are quantified in the baseline scenario under Quantification Approach 3 using Equations (12) and (13).\n<!-- formula-not-decoded -->\nWhere:\n𝐶𝐻4_𝑚𝑑𝑏𝑠𝑙,𝑖,𝑡 ̅̅̅̅̅̅̅̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅\n- = Baseline areal"
+    },
+    {
+      "i": 103,
+      "path": "8.2.8 Methane Emissions from Biomass Burning",
+      "chars": 788,
+      "text": "Where methane emissions from biomass burning are included in the project boundary per Table 3, they are quantified in the baseline scenario under Quantification Approach 3 using Equation (14).\n<!-- formula-not-decoded -->\nWhere:\n𝐶𝐻4_𝑏𝑏 𝑏𝑠𝑙,𝑖,𝑡 ̅̅̅̅̅̅ ̅̅̅̅̅̅̅̅̅̅, 1 = = Methane emissions in the baseli"
+    },
+    {
+      "i": 104,
+      "path": "8.2.9 Nitrous Oxide Emissions from Nitrogen Fertilizers and Nitrogen-Fixing Species",
+      "chars": 754,
+      "text": "Nitrous oxide emissions due to nitrification/denitrification include direct and indirect emissions from nitrogen fertilizers and direct emissions from nitrogen-fixing species. Where nitrous oxide emissions due to nitrogen inputs to soils from nitrogen fertilizers and nitrogen-fixing species are incl"
+    },
+    {
+      "i": 105,
+      "path": "Quantification Approach 1",
+      "chars": 726,
+      "text": "Direct and indirect nitrous oxide emissions due to nitrogen inputs to soils (nitrogen fertilizers, manure deposition, and nitrogen-fixing species) in the baseline scenario are quantified as:\n<!-- formula-not-decoded -->\nWhere:\n𝑁2𝑂_𝑠𝑜𝑖𝑙𝑏𝑠𝑙,𝑖,𝑡 ̅̅̅̅̅̅̅̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ = Areal mean direct and indi"
+    },
+    {
+      "i": 106,
+      "path": "Quantification Approach 3",
+      "chars": 1280,
+      "text": "Nitrous oxide emissions due to nitrogen inputs to soils in the baseline scenario are estimated by applying Equation (16).\n<!-- formula-not-decoded -->\nWhere :\nN 2 O_soilbsl,i,t = Nitrous oxide emissions due to nitrogen inputs to soils in the baseline scenario for quantification unit i in year t (t C"
+    },
+    {
+      "i": 107,
+      "path": "Quantification Approach 3",
+      "chars": 418,
+      "text": "Direct nitrous oxide emissions due to fertilizer use in the baseline scenario are quantified in Equations (18) -(20).\n<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->\nWhere:\n𝑁2𝑂_𝑓𝑒𝑟𝑡𝑏𝑠𝑙,𝑑𝑖𝑟𝑒𝑐𝑡,𝑖,𝑡 ̅̅̅̅̅̅̅̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ = Areal mean direct "
+    },
+    {
+      "i": 108,
+      "path": "Quantification Approach 3",
+      "chars": 1159,
+      "text": "\nFSN bsl,i,t, 1 = =. FSN bsl,i,t, 2 = Synthetic N fertilizer applied to quantification unit i in year t in the baseline scenario (t N). FON bsl,i,t, 1 = =. FON bsl,i,t, 2 = Organic N fertilizer applied to quantification unit i in year t in the baseline scenario (t N). EF Ndirect, 1 = =. EF Ndirect, "
+    },
+    {
+      "i": 109,
+      "path": "Quantification Approach 3",
+      "chars": 226,
+      "text": " to N 2 O emissions\nIndirect nitrous oxide emissions due to fertilizer use in the baseline scenario are quantified in Equations (21) -(23).\n<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->"
+    },
+    {
+      "i": 110,
+      "path": "Where:",
+      "chars": 786,
+      "text": "𝑁2𝑂_𝑓𝑒𝑟𝑡 𝑏𝑠𝑙,𝑖𝑛𝑑𝑖𝑟𝑒𝑐𝑡,𝑖,𝑡 ̅̅̅̅̅̅̅̅̅ ̅̅̅̅̅̅̅̅̅̅ ̅̅̅̅̅̅̅̅̅, 1 = =. 𝑁2𝑂_𝑓𝑒𝑟𝑡 𝑏𝑠𝑙,𝑖𝑛𝑑𝑖𝑟𝑒𝑐𝑡,𝑖,𝑡 ̅̅̅̅̅̅̅̅̅ ̅̅̅̅̅̅̅̅̅̅ ̅̅̅̅̅̅̅̅̅, 2 = Areal mean indirect nitrous oxide emissions due to fertilizer use in the baseline scenario for quantification unit i in year t (t CO 2 e/ha). N 2 O_fert bsl,volat,i,t, 1 = ="
+    },
+    {
+      "i": 111,
+      "path": "Where:",
+      "chars": 1401,
+      "text": "Frac GASF, 1 = = Fraction of all synthetic N added to soils that volatilizes as NH 3 and. Frac GASM, 1 = = Fraction of all organic N added to soils and N in manure and urine deposited on soils that volatilizes as NH 3 and NO x (dimensionless). EF Nvolat, 1 = = Emission factor for nitrous oxide emiss"
+    },
+    {
+      "i": 112,
+      "path": "Where:",
+      "chars": 241,
+      "text": "- = Annual dry matter (above- and belowground) of N-fixing species g returned to soils for quantification unit i in year t (t d.m.)\nNcontent,g\n- = Fraction of N in dry matter for N-fixing species g (t N/t d.m.)\ng\n- = Type of N-fixing species"
+    },
+    {
+      "i": 113,
+      "path": "8.2.10 Nitrous Oxide Emissions from Manure Deposition",
+      "chars": 238,
+      "text": "Where nitrous oxide emissions due to manure deposition are included in the project boundary per Table 3, they are quantified in the baseline scenario under Quantification Approach 3 using Equations (26) -(31).\n<!-- formula-not-decoded -->"
+    },
+    {
+      "i": 114,
+      "path": "Where:",
+      "chars": 790,
+      "text": "𝑁2𝑂_𝑚𝑑 𝑏𝑠𝑙,𝑖,𝑡 ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅, 1 = =. 𝑁2𝑂_𝑚𝑑 𝑏𝑠𝑙,𝑖,𝑡 ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅, 2 = Areal mean nitrous oxide emissions due to manure deposition in the baseline scenario for quantification unit i in year t (t CO 2 e/ha). N 2 O_md bsl,direct,i,t, 1 = =. N 2 O_md bsl,direct,i,t, 2 = Direct nitrous oxide emi"
+    },
+    {
+      "i": 115,
+      "path": "Where:",
+      "chars": 1304,
+      "text": "𝑁2𝑂_𝑚𝑑 𝑏𝑠𝑙,𝑑𝑖𝑟𝑒𝑐𝑡,𝑖,𝑡,𝑃,𝑆 ̅̅̅̅̅̅̅̅ ̅̅̅̅̅̅̅̅̅ ̅̅̅̅̅̅̅̅̅̅̅, 1 = =. 𝑁2𝑂_𝑚𝑑 𝑏𝑠𝑙,𝑑𝑖𝑟𝑒𝑐𝑡,𝑖,𝑡,𝑃,𝑆 ̅̅̅̅̅̅̅̅ ̅̅̅̅̅̅̅̅̅ ̅̅̅̅̅̅̅̅̅̅̅, 2 = Areal mean direct nitrous oxide emissions due to manure deposition in the baseline scenario for quantification unit i for productivity system P and manure management system "
+    },
+    {
+      "i": 116,
+      "path": "Where:",
+      "chars": 802,
+      "text": "<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->\nWhere:\n𝑁2𝑂_𝑚𝑑𝑏𝑠𝑙,𝑖𝑛𝑑𝑖𝑟𝑒𝑐𝑡,𝑖,𝑡 ̅̅̅̅̅̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅\n- = Areal mean indirect nitrous oxide emissions due to manure deposition in the baseline scenario for quantification unit i in year t (t CO2e/ha)\nN 2 O_mdbsl,volat"
+    },
+    {
+      "i": 117,
+      "path": "8.2.11 Nitrous Oxide Emissions from Biomass Burning",
+      "chars": 559,
+      "text": "Nitrous oxide emissions from biomass burning in the baseline scenario are quantified under Quantification Approach 3.\nParameter 𝑁2𝑂_𝑏𝑏𝑏𝑠𝑙,𝑖,𝑡 ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ̅ is estimated using Equation (32).\n<!-- formula-not-decoded -->\nWhere:\n𝑁2𝑂_𝑏𝑏𝑏𝑠𝑙,𝑖,𝑡 ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ̅\n- = Areal mean nitrous oxide emissions"
+    },
+    {
+      "i": 118,
+      "path": "8.3 Project Emissions",
+      "chars": 606,
+      "text": "Stock change/emissions resulting from project scenario ALM activities are calculated or modeled based on monitored inputs. Project scenario CO2, CH4, and N2O emissions must be quantified following the approaches found in Table 5 and using the equations provided in\nSection 8.2. For all equations, the"
+    },
+    {
+      "i": 119,
+      "path": "Quantification Approach 1",
+      "chars": 66,
+      "text": "Model inputs must be collected following the guidance in Table 8.\n"
+    },
+    {
+      "i": 120,
+      "path": "Quantification Approach 1",
+      "chars": 1947,
+      "text": "Table 8: Guidance on collection of model inputs, where required by the model selected, for Quantification Approach 1 for the project scenarioSOC content to calculate SOC stocks, Timing = Determined at project start via direct measurements at t = 0 or (back-) modeled to t = 0 from measurements collec"
+    },
+    {
+      "i": 121,
+      "path": "Quantification Approach 1",
+      "chars": 963,
+      "text": "ALM activities (as identified following procedures in VMD0053 , referencing categories of practices outlined in Applicability Condition 1), 1 = Monitored ex post. ALM activities (as identified following procedures in VMD0053 , referencing categories of practices outlined in Applicability Condition 1"
+    },
+    {
+      "i": 122,
+      "path": "Quantification Approach 2",
+      "chars": 735,
+      "text": "Quantification Approach 2 is used to estimate emissions from SOC stocks only. SOC stocks in the project scenario ( SOCwp,i,t ) are calculated on an equivalent soil mass (ESM) basis by multiplication with the SOC content in each quantification unit or stratum at time t -1, directly measured in each s"
+    },
+    {
+      "i": 123,
+      "path": "Quantification Approach 3",
+      "chars": 1635,
+      "text": "Project emissions are calculated for each sample field using applicable default values and any monitored parameters. The most accurate available emission factor applicable to the project conditions must be used, in the following descending order of preference:\n- 1) Where available, a project-specifi"
+    },
+    {
+      "i": 124,
+      "path": "Woody Biomass",
+      "chars": 748,
+      "text": "Aboveground woody biomass must be included where project activities may significantly reduce this pool compared to the baseline. In all other cases, aboveground woody biomass is an optional pool. Where included, it is calculated using the CDM A/R tools Estimation of carbon stocks and change in carbo"
+    },
+    {
+      "i": 125,
+      "path": "8.4 Leakage",
+      "chars": 906,
+      "text": "Improved ALM projects may result in leakage through: new application of organic amendments from outside the project area (i.e., organic amendments applied in the project from outside of the project area, that were not previously applied in the historical look-back period); productivity declines; dis"
+    },
+    {
+      "i": 126,
+      "path": "8.4.1 Accounting for Leakage from New Application of Organic Amendments from Outside the Project Area",
+      "chars": 1720,
+      "text": "Where new 39  or additional 40  manure, compost, or biosolids 41  are applied in the project that were not applied in the historical look-back period, there is a risk of activity-shifting leakage if the organic amendments were applied to other fields before the project and their application is diver"
+    },
+    {
+      "i": 127,
+      "path": "8.4.1 Accounting for Leakage from New Application of Organic Amendments from Outside the Project Area",
+      "chars": 1127,
+      "text": "= Leakage from organic amendments in year t (t CO2e)\n39 In this context, 'new' refers to organic amendment application to fields that did not have organic amendment applied during the historical look-back period.\n40 In this context, 'additional' refers to organic amendment application to fields that"
+    },
+    {
+      "i": 128,
+      "path": "8.4.1 Accounting for Leakage from New Application of Organic Amendments from Outside the Project Area",
+      "chars": 575,
+      "text": "M_OA wp,I,t, 1 = =. M_OA wp,I,t, 2 = Mass of organic amendment applied as fertilizer in the project area in year t , disaggregated by livestock type l for manure (tonnes). CC wp,oa,t, 1 = =. CC wp,oa,t, 2 = Carbon content of organic amendment applied as fertilizer in the project area in year t , dis"
+    },
+    {
+      "i": 129,
+      "path": "8.4.2 Accounting for Leakage from Livestock Displacement",
+      "chars": 1229,
+      "text": "CH4 and N2O emissions from livestock production are dependent on livestock population (see Sections 8.2.6, 8.2.7, and 8.2.10). To avoid crediting reductions resulting from livestock displacement (i.e., lowering of CH4 and N2O emissions within the project area relative to the baseline by reducing the"
+    },
+    {
+      "i": 130,
+      "path": "8.4.3 Accounting for Leakage from Production Declines",
+      "chars": 1561,
+      "text": "Project proponents must account for leakage from production declines in the initial years of a project 43  or due to changes in overall crop or livestock products produced. To do so, project proponents must apply the most recent version of VMD0054 as modified by the following:\n- 1) Throughout VMD005"
+    },
+    {
+      "i": 131,
+      "path": "8.4.3 Accounting for Leakage from Production Declines",
+      "chars": 302,
+      "text": "Leakage emissions from livestock displacement in year t (t CO2e)\nLKt =\nCumulative leakage up to year t calculated using VMD0054 (t CO2e)\nLKprior =\nCumulative leakage between y = 0 and the previous verification event, calculated using VMD0054 (t CO2e)\nyears\n= Duration of the verification period (year"
+    },
+    {
+      "i": 132,
+      "path": "8.4.4 Accounting for Leakage from Diversion of Biomass Residues Used for Energy Applications in the Baseline Scenario",
+      "chars": 942,
+      "text": "Where manure or crop residue management is a component of the project activity, and the manure or crop residues are diverted from energy applications (e.g., fuel for cookstoves or biomass power generation) in the baseline scenario there is a risk of leakage. Implementation of the project activity ma"
+    },
+    {
+      "i": 133,
+      "path": "8.5 Net Reductions and Removals",
+      "chars": 1387,
+      "text": "GHG emission reductions occur when:\n- 1) Carbon stocks decrease from year t to year t + 1 in the baseline scenario and, to a lesser extent, in the project scenario. 47  The cumulative carbon stock change in the project scenario is negative or zero (i.e., the project carbon stock at the end of the ve"
+    },
+    {
+      "i": 134,
+      "path": "Where:",
+      "chars": 1135,
+      "text": "\n𝐼(Δ𝐶𝑂2 𝑤𝑝 ) = 1 if ∑ Δ𝐶𝑂2 𝑤𝑝,𝑡 > 0 1 and; 𝐼(Δ𝐶𝑂2 𝑤𝑝 ) = 0 if ∑ Δ𝐶𝑂2 𝑤𝑝,𝑡 ≤ 0 𝑡 1, 1 = 𝐼(Δ𝐶𝑂2 𝑤𝑝 ) = 1 if ∑ Δ𝐶𝑂2 𝑤𝑝,𝑡 > 0 1 and; 𝐼(Δ𝐶𝑂2 𝑤𝑝 ) = 0 if ∑ Δ𝐶𝑂2 𝑤𝑝,𝑡 ≤ 0 𝑡 1. 𝐼(Δ𝐶𝑂2 𝑤𝑝 ) = 1 if ∑ Δ𝐶𝑂2 𝑤𝑝,𝑡 > 0 1 and; 𝐼(Δ𝐶𝑂2 𝑤𝑝 ) = 0 if ∑ Δ𝐶𝑂2 𝑤𝑝,𝑡 ≤ 0 𝑡 1, 2 = 𝐼(Δ𝐶𝑂2 𝑤𝑝 ) = 1 if ∑ Δ𝐶𝑂2 𝑤𝑝,𝑡 > 0 1 and; 𝐼(Δ"
+    },
+    {
+      "i": 135,
+      "path": "Where:",
+      "chars": 1283,
+      "text": " Δ CH 4_ bb t, 2 = Total methane emission reductions from avoided or reduced biomass burning in year t (t CO 2 e). Δ CH 4_ soil t, 1 = =. Δ CH 4_ soil t, 2 = Total methane emission reductions from increasing uptake into the SOC pool in year t (t CO 2 e). UNC t,CH 4 _soil, 1 = =. UNC t,CH 4 _soil, 2 "
+    },
+    {
+      "i": 136,
+      "path": "Where:",
+      "chars": 1463,
+      "text": "= Estimated net GHG emission reductions in year t (t CO2e)\nLKER,t = Leakage allocated to GHG emission reductions in year t (t CO2e)\nLeakage allocated to emission reductions ( LKER,t ) is calculated as:\n<!-- formula-not-decoded -->\nWhere:\nLEBR,t\n- = Leakage emissions from the diversion of manure or c"
+    },
+    {
+      "i": 137,
+      "path": "Where:",
+      "chars": 1040,
+      "text": "49  In this case, the project activity leads to avoiding emissions that would occur in the baseline scenario in the considered timeframe, and increases carbon stocks beyond the level at the project start date, resulting in CO2 removals.\nCRNET,t\n- = Estimated net carbon dioxide removals in year t (t "
+    },
+    {
+      "i": 138,
+      "path": "8.5.1 Carbon Stock Changes",
+      "chars": 1517,
+      "text": "Total carbon stock change in the baseline scenario in year t is quantified as:\n<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->\nWhere:\nΔ CO2_soilbsl,t = SOC stock change in the baseline scenario in year t (t CO2e) UNCt,CO 2 = associated with modeling or\nUncertainty deduction in year t measu"
+    },
+    {
+      "i": 139,
+      "path": "8.5.1 Carbon Stock Changes",
+      "chars": 1277,
+      "text": "= Carbon stock change in tree biomass in the project scenario in year t (t CO2e)\nΔ CSHRUB,wp,t\n= Carbon stock change in shrub biomass in the project scenario in year t (t CO2e)\nQuantification unit S OC stock change in the baseline scenario in year t is quantified as:\n<!-- formula-not-decoded -->\nWhe"
+    },
+    {
+      "i": 140,
+      "path": "8.5.1 Carbon Stock Changes",
+      "chars": 1414,
+      "text": "For Quantification Approach 2, SOC stock changes for quantification unit i in year t are compared to the estimated SOC stock change in baseline control sites. The mean SOC stock per hectare of each 'project site-baseline control site' combination should be used. Whe re measurements are conducted les"
+    },
+    {
+      "i": 141,
+      "path": "8.5.1 Carbon Stock Changes",
+      "chars": 504,
+      "text": "∆𝐶𝑆𝐻𝑅𝑈𝐵,𝑏𝑠𝑙,𝑖,𝑡-𝑥 = Areal mean baseline carbon stock change in shrub biomass for quantification unit i in year t -x (t CO2e/ha)\nShrub biomass carbon stock change in the project scenario is quantified as:\n<!-- formula-not-decoded -->\nWhere:\n∆𝐶𝑆𝐻𝑅𝑈𝐵,𝑤𝑝,𝑖,𝑡 = Areal mean project scenario carbon stock ch"
+    },
+    {
+      "i": 142,
+      "path": "8.5.2 Fossil Fuel Combustion Emission Reductions (Δ CO2_fft )",
+      "chars": 450,
+      "text": "GHG emission reductions from fossil fuel combustion are quantified as:\n<!-- formula-not-decoded -->\nWhere:\n𝐶𝑂2_𝑓𝑓 𝑏𝑠𝑙,𝑖,𝑡 ̅̅̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ = Areal mean GHG emissions from fossil fuel combustion in the baseline scenario for quantification unit i in year t (t CO2e/ha)\n𝐶𝑂2_𝑓𝑓 𝑤𝑝,𝑖,𝑡 ̅̅̅ ̅ "
+    },
+    {
+      "i": 143,
+      "path": "8.5.3 Liming Emission Reductions (Δ CO2_limet )",
+      "chars": 418,
+      "text": "GHG emission reductions from liming are quantified as:\n<!-- formula-not-decoded -->\nWhere:\n𝐶𝑂2_𝑙𝑖𝑚𝑒𝑏𝑠𝑙,𝑖,𝑡 ̅̅̅̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅\n- = Areal mean GHG emissions from liming in the baseline scenario for quantification unit i in year t (t CO2e/ha)\n𝐶𝑂2_𝑙𝑖𝑚𝑒𝑤𝑝,𝑖,𝑡 ̅̅̅̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ "
+    },
+    {
+      "i": 144,
+      "path": "8.5.4 Methane Emission Reductions ( Δ CH4t )",
+      "chars": 1510,
+      "text": "Methane emission reductions from the SOC pool are quantified as:\n<!-- formula-not-decoded -->\nWhere:\n𝐶𝐻4_𝑠𝑜𝑖𝑙𝑏𝑠𝑙,𝑖,𝑡 ̅̅̅̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ = Areal mean methane emissions from SOC pool in the baseline scenario for quantification unit i in year t (t CO2e/ha)\n𝐶𝐻4_𝑠𝑜𝑖𝑙𝑤𝑝,𝑖,𝑡 ̅̅̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅"
+    },
+    {
+      "i": 145,
+      "path": "8.5.4 Methane Emission Reductions ( Δ CH4t )",
+      "chars": 292,
+      "text": "- = Areal mean methane emissions from biomass burning in the baseline scenario for quantification unit i in year t (t CO2e/ha)\n𝐶𝐻4_𝑏𝑏𝑤𝑝,𝑖,𝑡 ̅̅̅̅̅̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅\n- = Areal mean methane emissions from biomass burning in the project scenario for quantification unit i in year t (t CO2e/ha)"
+    },
+    {
+      "i": 146,
+      "path": "8.5.5 Nitrous Oxide Emission Reductions ( Δ N 2 Ot )",
+      "chars": 907,
+      "text": "Nitrous oxide emission reductions from nitrification/denitrification are quantified as:\n<!-- formula-not-decoded -->\nWhere:\n𝑁2𝑂_𝑠𝑜𝑖𝑙𝑏𝑠𝑙,𝑖,𝑡 ̅̅̅̅̅̅̅̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ = Areal mean nitrous oxide emissions from nitrogen inputs to soils in the baseline scenario for quantification unit i in year t (t "
+    },
+    {
+      "i": 147,
+      "path": "8.6 Uncertainty",
+      "chars": 1744,
+      "text": "Uncertainty deductions are estimated separately for each GHG source within a project. Deductions are based on an estimate of the total error of the project's calculated reductions and removals for that source over a given verification period. Key sources of uncertainty that contribute to this error "
+    },
+    {
+      "i": 148,
+      "path": "8.6 Uncertainty",
+      "chars": 813,
+      "text": "The remainder of this section is based on a simplified example of a stratified random sampling design in which the entire project is divided into strata and points within those strata are placed using simple random sampling with replacement. Examples of additional uncertainty calculations using a mu"
+    },
+    {
+      "i": 149,
+      "path": "8.6.1 Quantification Approach 1",
+      "chars": 1231,
+      "text": "Quantification Approach 1 is a measure and model approach in which a biogeochemical model is used to simulate changes in SOC stocks and GHG fluxes over a given time period in both the project and baseline scenarios. Initial measures of SOC are taken at the project start 51  for use within the model."
+    },
+    {
+      "i": 150,
+      "path": "8.6.1 Quantification Approach 1",
+      "chars": 1276,
+      "text": "- Sampling error resulting from measuring/modeling only a portion of the project area. Estimates of sampling error are contingent on the sampling design employed by the project proponent.\n- Measurement error of model inputs (see Table 6), including initial SOC content, bulk density, soil texture, an"
+    },
+    {
+      "i": 151,
+      "path": "8.6.1.1 Analytical Calculation of Error Propagation",
+      "chars": 468,
+      "text": "In this approach, the various sources of error outlined above are independently estimated for each GHG source or carbon pool · that results in a reduction or removal (e.g., SOC, N2O). The estimated errors are then combined to provide an estimate of the total variance of the areal mean emission reduc"
+    },
+    {
+      "i": 152,
+      "path": "8.6.1.1.1 Model Prediction Error",
+      "chars": 1842,
+      "text": "Model prediction error includes model structural error (i.e., parameter uncertainty) and any errors related to model data inputs (e.g., inaccuracy of source for soil texture data), which result in incorrect estimation of a flux or change in stock in either the project or baseline scenarios or both. "
+    },
+    {
+      "i": 153,
+      "path": "8.6.1.1.1 Model Prediction Error",
+      "chars": 1245,
+      "text": "For verification periods shorter than the median length of experiments in the statistical validation dataset, a single mixed-duration estimate of model prediction error is conservative and acceptable to use at verification. For example, where a model is validated against a dataset containing experim"
+    },
+    {
+      "i": 154,
+      "path": "8.6.1.1.1 Model Prediction Error",
+      "chars": 1017,
+      "text": "𝑠 𝑚𝑜𝑑𝑒𝑙,Δ• 2, 1 = =. 𝑠 𝑚𝑜𝑑𝑒𝑙,Δ• 2, 2 = Variance of modeled estimates of emission reductions in gas or pool • (t CO 2 e/ha) 2. ∆ • ̂ 𝑏𝑠𝑙, 1 = =. ∆ • ̂ 𝑏𝑠𝑙, 2 = Modeled estimate of change in emission reductions in gas or pool • in the baseline scenario (t CO 2 e). ∆ • ̂ 𝑤𝑝, 1 = =. ∆ • ̂ 𝑤𝑝, 2 = Modele"
+    },
+    {
+      "i": 155,
+      "path": "8.6.1.1.1 Model Prediction Error",
+      "chars": 1794,
+      "text": "Because side-by-side trials are rare, ρ is estimated from fewer data points than 𝑠 𝑚𝑜𝑑𝑒𝑙,· 2 . In the initial stages of a project, it is expected that the datasets used to estimate model prediction error will be from peer-reviewed publications or readily available benchmark datasets that meet the re"
+    },
+    {
+      "i": 156,
+      "path": "8.6.1.1.2 Model Input and Measurement Error",
+      "chars": 1771,
+      "text": "The ALM data used as model inputs may be an important source of error where details of such activities are not well known. However, as projects are expected to follow the data collection procedures outlined in Box 1 to determine ALM activities across the entire project area, this source of error is "
+    },
+    {
+      "i": 157,
+      "path": "8.6.1.1.2 Model Input and Measurement Error",
+      "chars": 1353,
+      "text": "Where soil spectroscopy tools are used in place of conventional analytical techniques to determine SOC content at sampling points, it must not be assumed that measurement error from such methods is automatically captured in the estimate of model prediction error or that the impact of such errors is "
+    },
+    {
+      "i": 158,
+      "path": "8.6.1.1.3 Sampling Error",
+      "chars": 1725,
+      "text": "Sampling error derives from only measuring or modeling a subset of the entire project area, resulting in a potentially inaccurate estimate of the true variance of a GHG flux or carbon stock change. Sampling error is determined by calculating the approximate standard error of GHG fluxes or carbon sto"
+    },
+    {
+      "i": 159,
+      "path": "8.6.1.1.3 Sampling Error",
+      "chars": 685,
+      "text": "2\n- = Variance of reductions and removals in gas or pool • due to sampling error at time t across the entire project area (t CO2e) 2\n𝑠 s𝑎𝑚𝑝𝑙𝑖𝑛𝑔 , Δ•,ℎ,𝑡 2\n- = Variance of reductions and removals in gas or pool • within stratum h due to sampling error at time t (t CO2e) 2\nΔ • ℎ,𝑡 ̅̅̅̅̅̅̅\n- = Areal me"
+    },
+    {
+      "i": 160,
+      "path": "8.6.1.1.4 Combined Sample and Model Error",
+      "chars": 1406,
+      "text": "To incorporate model errors, assume that they are uncorrelated with the input data in the sample and are independent across samples. Then, the variance of Δ · 𝑡 ̅̅ ̅ ̅ ̅ incorporating sample uncertainty and model prediction uncertainty is estimated by combining the variance estimates of both error s"
+    },
+    {
+      "i": 161,
+      "path": "8.6.1.2 Monte Carlo Simulation",
+      "chars": 1745,
+      "text": "In addition to the analytical error propagation method detailed in Section 8.6.1.1, a Monte Carlo (MC) simulation method may be used for uncertainty estimation. MC simulation methods are commonly used in Bayesian analyses, which have gained popularity as a framework for estimating uncertainty of out"
+    },
+    {
+      "i": 162,
+      "path": "8.6.1.2 Monte Carlo Simulation",
+      "chars": 1839,
+      "text": "To generate a PPD, Bayesian calibration methods must be used to estimate model parameters as probability distribution functions (as opposed to single values). To ensure parity with the analytical error propagation method detailed in Section 8.6.1.1, these probability distribution functions of model "
+    },
+    {
+      "i": 163,
+      "path": "8.6.1.2 Monte Carlo Simulation",
+      "chars": 1303,
+      "text": "The notation in this section is different than in previous sections, aligning with notation commonly used in Bayesian statistics. Key differences include:\n- The observed outcome of interest (i.e., reductions and removals) is denoted as y , which is commonly used in statistics to denote outcomes.\n- M"
+    },
+    {
+      "i": 164,
+      "path": "8.6.1.2.1 Combined Sample and Model Error",
+      "chars": 1373,
+      "text": "For a particular time period and GHG emission source, the estimand, or target parameter of interest, is the true total reductions and removals across the entire project, denoted as 𝜏 , in tonnes of carbon dioxide equivalent (t CO2e). The estimate of 𝜏 produced through MC simulation is denoted by 𝜏 ."
+    },
+    {
+      "i": 165,
+      "path": "Where:",
+      "chars": 1234,
+      "text": "𝑦 ̃ ℎ,𝑖𝑝,𝑙, 1 = =. 𝑦 ̃ ℎ,𝑖𝑝,𝑙, 2 = Predicted reductions and removals on an area basis for point i in stratum h and MC simulation 𝑙 (t CO 2 e/ha). 𝑧̃ 𝑏𝑠𝑙,ℎ,𝑖𝑝,𝑙, 1 = =. 𝑧̃ 𝑏𝑠𝑙,ℎ,𝑖𝑝,𝑙, 2 = Predicted GHG emissions in the baseline scenario on an area basis for point ip in stratum h and MC simulation 𝑙 ("
+    },
+    {
+      "i": 166,
+      "path": "Where:",
+      "chars": 1314,
+      "text": "- 𝜇 = Areal mean unbiased estimator of reductions and removals for gas or pool • in year t (t CO2e/ha)\n- 𝜏 ℎ = given source within stratum h (t CO2e)\nMonte Carlo estimate (MC mean) of reductions and removals for a\nThe total uncertainty is then decomposed into two components, sampling and modeling un"
+    },
+    {
+      "i": 167,
+      "path": "Where:",
+      "chars": 1576,
+      "text": "- = Variance of reductions and removals in gas or pool • due to sampling error at time t (notation suppressed) across the entire project area (t CO2e) 2\n𝑠 𝑠𝑎𝑚𝑝𝑙𝑖𝑛𝑔 , ℎ 2\n- = Variance of reductions and removals in gas or pool • within stratum h due to sampling error at time t (notation suppressed) (t"
+    },
+    {
+      "i": 168,
+      "path": "8.6.1.2.2 Monte Carlo Propagation of Model Input Error",
+      "chars": 1246,
+      "text": "Monte Carlo error propagation methods may be used in some cases to propagate model input errors alone. In Section 8.6.1.2, these errors are identified as being otherwise captured in estimates of sample or model prediction error. However, in some circumstances, such as when land management data are u"
+    },
+    {
+      "i": 169,
+      "path": "8.6.1.2.3 Monte Carlo Error",
+      "chars": 1050,
+      "text": "The accuracy of the MC estimates depends on the number of independent MC draws. Where MC draws use a Markov Chain Monte Carlo (MCMC) algorithm such as the No-U-Turn Sampler implemented in Stan (Carpenter et al., 2017), samples may contain some autocorrelation and thus the MC error depends on an effe"
+    },
+    {
+      "i": 170,
+      "path": "8.6.1.3 Remeasurement, Model True-Up and Cumulative Modeling",
+      "chars": 1641,
+      "text": "As outlined in Section 8.3, SOC stocks must be directly remeasured every five years in the project scenario. These data are used to re-estimate model prediction error and/or recalibrate the model in relation to measured SOC stocks.\nPrior to remeasurement, model structural error during simulation of "
+    },
+    {
+      "i": 171,
+      "path": "8.6.2 Quantification Approach 2",
+      "chars": 1496,
+      "text": "Quantification Approach 2 is applicable for SOC stocks only. The baseline is represented by control sites that are linked to one or more project quantification units. The SOC stock difference and its uncertainty is calculated based on comparisons of control sites and paired project quantification un"
+    },
+    {
+      "i": 172,
+      "path": "8.6.2 Quantification Approach 2",
+      "chars": 1514,
+      "text": "As in Section 8.6.1, an example is provided here based on the default stratified random sampling approach. In this example, each individual stratum is paired with an appropriately determined control site. Net SOC stock changes in the project scenario are determined by comparing net change in SOC in "
+    },
+    {
+      "i": 173,
+      "path": "8.6.2 Quantification Approach 2",
+      "chars": 1843,
+      "text": "- = Variance of the estimate of mean SOC stock changes in verification period t across the entire project area, calculated as the difference in net change between the project and baseline scenarios over period t (t CO2e/ha) 2\n- = Variance of the estimate of total SOC stock changes in verification pe"
+    },
+    {
+      "i": 174,
+      "path": "8.6.2 Quantification Approach 2",
+      "chars": 1092,
+      "text": "Equation (71) provides an example for the project scenario. The variance of the estimate of the change is then a function of the variance and covariance of soil sampling results at both time points within verification period t . These time points are denoted as tfinal and tstart ,  hereafter shorten"
+    },
+    {
+      "i": 175,
+      "path": "8.6.2 Quantification Approach 2",
+      "chars": 225,
+      "text": "- =  Estimated SOC stock on an area basis at point ip in the project scenario at tfinal in stratum h (t CO2e/ha)\n- =  Estimated SOC stock on an area basis at point ip in the project scenario at tstart in stratum h (t CO2e/ha)"
+    },
+    {
+      "i": 176,
+      "path": "8.6.2.1 Alternative SOC Measurement Methods",
+      "chars": 1947,
+      "text": "Projects may elect to use alternative measurement methods to determine SOC content at each sample point, such as Vis-NIR and MIR (see Appendix 4). Such methods may reduce sampling error by allowing for data collection at a greater number of points. However, they introduce error into the estimation o"
+    },
+    {
+      "i": 177,
+      "path": "8.6.2.1 Alternative SOC Measurement Methods",
+      "chars": 202,
+      "text": "<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->"
+    },
+    {
+      "i": 178,
+      "path": "Where:",
+      "chars": 1110,
+      "text": "𝑠 𝑆𝑂𝐶,𝑤𝑝,ℎ,𝑓,𝑠𝑎𝑚𝑝𝑙𝑒 2\n- = Variance of the estimate of SOC stocks in the project scenario at tfinal in stratum h attributable to sampling error (t CO2e) 2\n𝑠 𝑆𝑂𝐶,𝑤𝑝,ℎ,𝑓,𝑚𝑜𝑑𝑒𝑙 2\n- = Variance of the estimate of SOC stocks in the project scenario at tfinal in stratum h attributable to prediction error of"
+    },
+    {
+      "i": 179,
+      "path": "Where:",
+      "chars": 1657,
+      "text": "Where a project proponent elects not to use the MC simulation approach and instead estimate model error using a simple frequentist approach, then 𝑠 𝑆𝑂𝐶,𝑤𝑝,ℎ𝑓,𝑚𝑜𝑑𝑒𝑙 2 in Equation (72) is replaced with an estimate of model prediction error that is the same across all strata and both scenarios, 𝑠 𝑆𝑂𝐶,𝑚"
+    },
+    {
+      "i": 180,
+      "path": "8.6.2.2 Extensions to Other Sampling Designs",
+      "chars": 771,
+      "text": "In this simplified example, it is assumed that a single control plot or area is sufficient to represent the baseline scenario for each stratum and that the same soil sampling points can be revisited at both time points. In practice, such assumptions may not hold true in many projects developed under"
+    },
+    {
+      "i": 181,
+      "path": "8.6.3 Quantification Approach 3",
+      "chars": 1952,
+      "text": "In Quantification Approach 3, reductions and removals are estimated using emission factors (EF) determined to be most relevant for the project area (see Section 8.3 for additional details on EF selection). Whenever available, disaggregated values which are best applicable to the project area, projec"
+    },
+    {
+      "i": 182,
+      "path": "8.6.4 Uncertainty Deductions",
+      "chars": 314,
+      "text": "Uncertainty deductions are estimated and applied separately for each reduction and removal source within the project boundary. This deduction is estimated using a probability of exceedance method as follows (see the most recent version of the VCS Methodology Requirements Section 2.4):\n<!-- formula-n"
+    },
+    {
+      "i": 183,
+      "path": "Where:",
+      "chars": 1580,
+      "text": "𝑈𝑁𝐶 ∆· ̅ ,𝑡, 1 = = Uncertainty deduction for each GHG or C pool • to be applied in. ∆ · ̅ ̅ ̅ ̅ 𝑡, 1 = = Mean ERR for each GHG or C pool • across the entire project area in year t (t CO 2 e/ha). 𝑠 ∆· ̅ ,𝑡 2, 1 = = Variance of the mean ERR estimate from each GHG or C pool • at time t. See Figure 4 to"
+    },
+    {
+      "i": 184,
+      "path": "8.7 Calculation of Verified Carbon Units",
+      "chars": 1469,
+      "text": "To calculate the number of Verified Carbon Units (VCUs) that may be issued, the project proponent must consider the number of buffer credits that must be deposited in the AFOLU pooled buffer account. The number of buffer credits that must be deposited is calculated by multiplying the non-permanence "
+    },
+    {
+      "i": 185,
+      "path": "8.7 Calculation of Verified Carbon Units",
+      "chars": 653,
+      "text": "<!-- formula-not-decoded -->\nWhere:\n𝑉𝐶𝑈𝐸𝑅,𝑡 = Number of Verified Carbon Units resulting from project activities leading to reductions in year t\n𝐸𝑅𝑁𝐸𝑇,𝑡 = Estimated net reductions in year t (t CO2e)\nThe number of VCUs resulting from project activities leading to removals that may be issued in year t "
+    },
+    {
+      "i": 186,
+      "path": "9 MONITORING",
+      "chars": 170,
+      "text": "Where discretion exists in the selection of a value for a parameter, the principle of conservativeness must be applied (see the most recent version of the VCS Standard )."
+    },
+    {
+      "i": 187,
+      "path": "9.1 Data and Parameters Available at Validation 56",
+      "chars": 1193,
+      "text": "Data/Parameter, 1 = FFC bsl,j,i,t. Data unit, 1 = Liters. Description, 1 = Consumption of fossil fuel type j (gasoline or diesel) for quantification unit i in year t in the baseline scenario. Equations, 1 = (7). Source of data, 1 = See Box 1. Value applied, 1 = See Box 1. Justification of choice of "
+    },
+    {
+      "i": 188,
+      "path": "9.1 Data and Parameters Available at Validation 56",
+      "chars": 1488,
+      "text": "Value applied, 1 = Amount of calcitic limestone (CaCO 3 ) or dolomite (CaMg(CO 3 ) 2 ) applied to quantification unit i in year t. Justification of choice of data or description of measurement methods and procedures applied, 1 = All limestone and dolomite applied to soils should be included, even th"
+    },
+    {
+      "i": 189,
+      "path": "9.1 Data and Parameters Available at Validation 56",
+      "chars": 1397,
+      "text": "Justification of choice of data or description of measurement methods and procedures applied, 1 = See 'Source of data. ' Global warming potential values must be applied as described in the most recent version of the VCS Standard and derived from IPCC Assessment Reports.. Purpose of data, 1 = Calcula"
+    },
+    {
+      "i": 190,
+      "path": "9.1 Data and Parameters Available at Validation 56",
+      "chars": 1474,
+      "text": "measurement methods and procedures applied, 1 = . Purpose of data, 1 = Calculation of baseline emissions. Comments, 1 = Mass of residues burned is a function of the amount of aboveground biomass, the removal of aboveground biomass, and whether remaining residues are burned. It is assumed that 100% o"
+    },
+    {
+      "i": 191,
+      "path": "9.1 Data and Parameters Available at Validation 56",
+      "chars": 916,
+      "text": "Data/Parameter, 1 = M bsl,OF,i,t. Data unit, 1 = t fertilizer. Description, 1 = Mass of N-containing organic fertilizer scenario for quantification unit i in year. (20), 1 = Equations. Source of data, 1 = See Box 1. Value applied, 1 = See Box 1. Justification of choice of data or description of meas"
+    },
+    {
+      "i": 192,
+      "path": "9.1 Data and Parameters Available at Validation 56",
+      "chars": 1130,
+      "text": "Data/Parameter MS bsl,l,i,t = Data unit Fraction of N deposited. Data/Parameter MS bsl,l,i,t = Description Fraction of nitrogen excretion by livestock type l that is deposited in quantification unit i in year t in the baseline scenario. Data/Parameter MS bsl,l,i,t = Equations (28). Data/Parameter MS"
+    },
+    {
+      "i": 193,
+      "path": "9.1 Data and Parameters Available at Validation 56",
+      "chars": 807,
+      "text": "Data/Parameter, 1 = A. Data unit, 1 = Hectare (ha). Description, 1 = Project area. Equations, 1 = (62), (63), (64), (66), (68) - (73). Source of data, 1 = Measured in project area. Value applied, 1 = The project area is measured prior to validation.. Justification of choice of data or description of"
+    },
+    {
+      "i": 194,
+      "path": "9.2 Data and Parameters Monitored",
+      "chars": 1241,
+      "text": "Data/Parameter, 1 = MDD. Data unit, 1 = t CO 2 e/ha. Description, 1 = Minimum detectable difference in SOC stocks between two points in time. Equations, 1 = (1), (2). Source of data, 1 = Estimation of the smallest difference in SOC stocks between two monitoring events that can be detected as statist"
+    },
+    {
+      "i": 195,
+      "path": "9.2 Data and Parameters Monitored",
+      "chars": 1577,
+      "text": "Description of measurement methods and procedures to be applied, 1 = See Section 8.2.1. Frequency of monitoring/recording, 1 = Monitoring must be conducted at least every five years, or prior to each verification event where verification occurs more frequently.. QA/QC procedures to be applied, 1 = S"
+    },
+    {
+      "i": 196,
+      "path": "9.2 Data and Parameters Monitored",
+      "chars": 1743,
+      "text": "Description, 1 = Degrees of freedom for the relevant t-distribution. Equations, 1 = (1), (2). Source of data, 1 = Estimation of the smallest difference in SOC stocks between two monitoring events that can be detected as statistically significant. Description of measurement methods and procedures to "
+    },
+    {
+      "i": 197,
+      "path": "Comments",
+      "chars": 1563,
+      "text": "Calculating the number of samples required to detect a minimum difference is optional.\nData unit, M n,dl,SOC = kg/ha. Description, M n,dl,SOC = SOC mass in soil sample n in depth layer dl. Equations, M n,dl,SOC = (3). Source of data, M n,dl,SOC = Measured after soil sampling in the project area. Des"
+    },
+    {
+      "i": 198,
+      "path": "Comments",
+      "chars": 1538,
+      "text": "Frequency of monitoring/recording, 1 = Measurement of SOC stocks must be conducted at least every five years, or, when following quantification approach 2, prior to each verification event where verification occurs more frequently.. QA/QC procedures to be applied, 1 = See Section 8.2.1 Soil mass mus"
+    },
+    {
+      "i": 199,
+      "path": "Comments",
+      "chars": 1743,
+      "text": "Description, 1 = Number of cores sampled. Equations (3), 1 = . Source of data Measured, 1 = in the project area. Description of measurement methods and procedures to be applied The of a, 1 = number of samples taken is determined as part sampling strategy (see Section 8.2.1).. Frequency of monitoring"
+    },
+    {
+      "i": 200,
+      "path": "Comments",
+      "chars": 1019,
+      "text": "Data unit, BD corr = g/cm 3. Description, BD corr = Corrected bulk density of the fine soil fraction (after subtracting the mass proportion of the coarse fragments)), for calibration of SOC models. Equations, BD corr = (4). Source of data, BD corr = See VMD0053 for bulk density data requirements for"
+    },
+    {
+      "i": 201,
+      "path": "Data/Parameter",
+      "chars": 31,
+      "text": "Data unit\nDescription\nEquations"
+    },
+    {
+      "i": 202,
+      "path": "Source of data",
+      "chars": 354,
+      "text": "Description of measurement methods and procedures to be applied\nFrequency of monitoring/recording\nd\ncm\nSoil depth\n(4)\nSee VMD0053 for requirements on calibration datasets\nSoil depth for each depth increment to be captured as part of data collection following requirements in VMD0053\nMeasurements of S"
+    },
+    {
+      "i": 203,
+      "path": "Source of data",
+      "chars": 1577,
+      "text": "\nQA/QC procedures to be applied, 1 = See VMD0053 for requirements on calibration datasets. QA/QC procedures to be applied, 2 = See VMD0053 for requirements on calibration datasets. Purpose of data, 1 = Modeling of baseline emissions. Purpose of data, 2 = scenario, calculation of baseline and project"
+    },
+    {
+      "i": 204,
+      "path": "Source of data",
+      "chars": 1742,
+      "text": " SOC_soil bsl,i,t. Description of measurement methods and procedures to be applied, 2 = = Modeled SOC stocks in the baseline scenario for quantification unit i at time t (t CO 2 e/ha). Description of measurement methods and procedures to be applied, 1 = ʄ SOC. Description of measurement methods and "
+    },
+    {
+      "i": 205,
+      "path": "Source of data",
+      "chars": 1494,
+      "text": "QA/QC procedures to be applied, 1 = See VMD0053. Purpose of data, 1 = Calculation of baseline emissions following Quantification Approach 1. Calculation method, 1 = Not applicable. Comments, 1 = The SOC stocks at time t = 0 are calculated based on directly measured SOC content and bulk density at t "
+    },
+    {
+      "i": 206,
+      "path": "Source of data",
+      "chars": 1722,
+      "text": "Source of data, 1 = Measurement of each quantification unit within the project area. Description of measurement methods and procedures to be applied, 1 = The quantification unit area is measured prior to verification.. Frequency of monitoring/recording, 1 = The quantification units must be reported "
+    },
+    {
+      "i": 207,
+      "path": "Source of data",
+      "chars": 1184,
+      "text": "Data unit, EF CO2,j = t CO 2 e/liter. Description, EF CO2,j = Emission factor for fossil fuel j (gasoline, diesel or other) combusted. Equations, EF CO2,j = (7). Source of data, EF CO2,j = See Section 8.3 under Quantification Approach 3. For gasoline or diesel, EFs listed in Table 3.3.1 Chapter 3 Vo"
+    },
+    {
+      "i": 208,
+      "path": "Source of data",
+      "chars": 583,
+      "text": "Data/Parameter, 1 = FFC wp,j,i,t. Data unit, 1 = Liters. Description, 1 = Consumption of fossil fuel type j for quantification unit i in year t in the project scenario. Equations, 1 = (7). Source of data, 1 = See Box 1. Description of measurement methods and procedures to be applied, 1 = Fossil fuel"
+    },
+    {
+      "i": 209,
+      "path": "Source of data",
+      "chars": 1596,
+      "text": "\nFrequency of monitoring/recording, 1 = Monitoring must be conducted at least every five years, or prior to each verification event where verification occurs more frequently.. QA/QC procedures to be applied, 1 = Guidance provided in IPCC (2003) Section 5.5 or IPCC (2000) Chapter 8 must be applied.. "
+    },
+    {
+      "i": 210,
+      "path": "Source of data",
+      "chars": 130,
+      "text": " Calculation method, 1 = Not applicable. Comments, 1 = None. Data/Parameter, 1 = ƒ ( CH4_soil bsl,i,t ). Data unit, 1 = t CH 4 /ha"
+    },
+    {
+      "i": 211,
+      "path": "Source of data",
+      "chars": 1792,
+      "text": "\nDescription, 1 = Modeled methane emissions from soil in the baseline scenario for quantification unit i at time t , calculated by modeling soil methane fluxes over the course of the preceding year. Equations, 1 = (10). Source of data, 1 = Modeled in the project area. Description of measurement meth"
+    },
+    {
+      "i": 212,
+      "path": "Source of data",
+      "chars": 278,
+      "text": " Calculation method, 1 = Methods are specific to the model used.. Comments, 1 = None. Data/Parameter, 1 = EF ent,l,P. Data unit, 1 = kg CH 4 /(head × year). Description, 1 = Enteric fermentation emission factor for livestock type l and productivity system P. Equations, 1 = (11)"
+    },
+    {
+      "i": 213,
+      "path": "Source of data",
+      "chars": 1919,
+      "text": "\nSource of data, 1 = See Section 8.3 under Quantification Approach 3. Where no alternative information source is available that is applicable to the project conditions, project proponents may derive emission factors for each category of livestock estimated based on the gross energy intake and methan"
+    },
+    {
+      "i": 214,
+      "path": "Source of data",
+      "chars": 1388,
+      "text": " wp,l,i,t,P. Data unit, 1 = Head. Description, 1 = Population of grazing livestock of type l in the project scenario in quantification unit i for productivity system P in year t. Equations, 1 = (11), (12), (28). Source of data, 1 = See Box 1\nDescription of measurement methods and procedures to be ap"
+    },
+    {
+      "i": 215,
+      "path": "Source of data",
+      "chars": 682,
+      "text": "Data/Parameter, 1 = l. Data unit Dimensionless, 1 = . Description Type of livestock, 1 = . Equations (11) - (13), (23),, 1 = (28), (31), (33). Source of data in, 1 = Determined quantification unit i. Description of measurement methods and procedures to be applied, 1 = See Box 1. Livestock type is de"
+    },
+    {
+      "i": 216,
+      "path": "Source of data",
+      "chars": 1321,
+      "text": "Data unit, P = Unitless. Description, P = Productivity system. Equations, P = (11), (27), (28). Source of data, P = Subsection ' Definitions of High and Low Productivity Systems, ' Section 10.2, Chapter 10, Volume 4 of IPCC (2019). Description of measurement methods and procedures to be applied, P ="
+    },
+    {
+      "i": 217,
+      "path": "Source of data",
+      "chars": 1377,
+      "text": "Data/Parameter, 1 = AWMS l,i,t,P,S. Data unit, 1 = Dimensionless. Description, 1 = Fraction of total annual volatile solids for each livestock type l that is managed in manure management system S in the project area, for productivity system P. Equations, 1 = (12), (28). Source of data, 1 = See Secti"
+    },
+    {
+      "i": 218,
+      "path": "Source of data",
+      "chars": 1519,
+      "text": "Data unit, EF CH4,md,l,P,S = g CH 4 /(kg volatile solids). Description, EF CH4,md,l,P,S = Emission factor for methane emissions from manure deposition for livestock type l in productivity system P and manure management system S. Equations, EF CH4,md,l,P,S = (12). Source of data, EF CH4,md,l,P,S = Se"
+    },
+    {
+      "i": 219,
+      "path": "Source of data",
+      "chars": 1713,
+      "text": "Data/Parameter, 1 = S. Data unit, 1 = Unitless. Description, 1 = Manure management system. Equations, 1 = (12), (22), (23), (27), (28). Source of data, 1 = Table 10.18, Chapter 10, Volume 4 in IPCC (2019). Description of measurement methods and procedures to be applied, 1 = See Section 8.3 under Qua"
+    },
+    {
+      "i": 220,
+      "path": "Source of data",
+      "chars": 1073,
+      "text": ", 1 = 10, Volume 4 in IPCC (2019). Where project proponents justify a lack of sufficient activity data and project-specific information sources, Tier 1 and Tier 1a values from Table 10.13a, Chapter 10, Volume 4 in IPCC (2019) may be selected.. Description of measurement methods and procedures to be "
+    },
+    {
+      "i": 221,
+      "path": "Source of data",
+      "chars": 1458,
+      "text": "Data unit, W wp,l,i,t,P = kg animal mass/head. Description, W wp,l,i,t,P = Average weight in the project scenario of livestock type l for quantification unit i in productivity system P in year t. Equations, W wp,l,i,t,P = (13). Source of data, W wp,l,i,t,P = Estimated based on management records fro"
+    },
+    {
+      "i": 222,
+      "path": "Source of data",
+      "chars": 1330,
+      "text": "Data/Parameter, 1 = CF c. Data unit, 1 = Proportion of pre-fire fuel biomass consumed. Description, 1 = Combustion factor for agricultural residue type c. Equations, 1 = (14), (32). Source of data, 1 = Table 2.6, Chapter 2, Volume 4 in IPCC (2019). Description of measurement methods and procedures t"
+    },
+    {
+      "i": 223,
+      "path": "Source of data",
+      "chars": 1452,
+      "text": "Frequency of monitoring/recording, 1 = Source of data for emission factor must be monitored every five years and must be updated when more accurate data applicable to the project conditions become available following the guidance in Section 8.3 under Quantification Approach 3.. QA/QC procedures to b"
+    },
+    {
+      "i": 224,
+      "path": "Source of data",
+      "chars": 1214,
+      "text": "Equations, 1 = (14), (32). Source of data, 1 = See Box 1. Description of measurement methods and procedures to be applied, 1 = Estimate the aboveground biomass of grassland before burning for at least three plots (1 m × 1 m). The difference in the aboveground biomass is the aboveground biomass burne"
+    },
+    {
+      "i": 225,
+      "path": "Source of data",
+      "chars": 1984,
+      "text": "\nDescription of measurement methods and procedures to be applied, 1 = Modeled nitrous oxide emissions from soil in the baseline scenario are determined according to the following equation:. Description of measurement methods and procedures to be applied, 2 = Modeled nitrous oxide emissions from soil"
+    },
+    {
+      "i": 226,
+      "path": "Source of data",
+      "chars": 1379,
+      "text": " 2 = quantification unitquantification unitquantification unitSee Box 1 for sources of data and description of measurement methods and procedures to be applied to obtain values for model input variables.. Frequency of monitoring/recording, 1 = Monitoring must be conducted at least every five years, "
+    },
+    {
+      "i": 227,
+      "path": "QA/QC procedures to be applied",
+      "chars": 1096,
+      "text": "Purpose of data\nCalculation method\nComments proponents may derive emission factors following the guidance in Chapter 11 Section 11.2.1.1 and Chapter 2 Section 2.2.4 in IPCC (2019). The emission factors will depend on, for example, SOC content, soil texture, drainage, soil pH, N application rate per "
+    },
+    {
+      "i": 228,
+      "path": "Not applicable",
+      "chars": 1281,
+      "text": "The emission factor is applicable to N additions from mineral fertilizers, organic amendments, and crop residues, and N mineralized from mineral soil as a result of SOC loss.\nWet climates occur in temperate and boreal zones where the ratio of annual precipitation to potential evapotranspiration is g"
+    },
+    {
+      "i": 229,
+      "path": "Not applicable",
+      "chars": 783,
+      "text": "Data/Parameter, 1 = SF. Data unit, 1 = Dimensionless. Description Type, 1 = of synthetic N fertilizer. Equations (19), 1 = . Source of data, 1 = Determined in quantification unit i. Description of measurement methods and procedures to be applied, 1 = See Box 1. Synthetic fertilizer type is determine"
+    },
+    {
+      "i": 230,
+      "path": "Not applicable",
+      "chars": 1404,
+      "text": "Description, t fertilizer = Mass of N-containing synthetic fertilizer type SF applied in the project for quantification unit i in year t. Equations, t fertilizer = (19). Source of data, t fertilizer = Management records from project area. Description of measurement methods and procedures to be appli"
+    },
+    {
+      "i": 231,
+      "path": "Not applicable",
+      "chars": 733,
+      "text": "Data/Parameter, 1 = NC OF. Data unit, 1 = t N/t fertilizer. Description, 1 = N content of organic fertilizer type OF. Equations, 1 = (20). Source of data, 1 = Peer-reviewed published data may be used. For example, default manure N content may be selected from Edmonds et al. (2003) cited in US EPA (2"
+    },
+    {
+      "i": 232,
+      "path": "Not applicable",
+      "chars": 2089,
+      "text": "\nQA/QC procedures to be applied, new default values become available in peer-reviewed publications or databases. = Guidance provided in IPCC (2003) Section 5.5 or IPCC (2000) Chapter 8 must be applied.. Purpose of data, new default values become available in peer-reviewed publications or databases. "
+    },
+    {
+      "i": 233,
+      "path": "Not applicable",
+      "chars": 1746,
+      "text": " become available in peer-reviewed publications or databases. = None. Data/Parameter, new default values become available in peer-reviewed publications or databases. = M wp,OF,i,t. Data unit, new default values become available in peer-reviewed publications or databases. = t fertilizer. Description,"
+    },
+    {
+      "i": 234,
+      "path": "Not applicable",
+      "chars": 1098,
+      "text": "Data unit, Frac GASF = kg N volatilized/kg N applied. Description, Frac GASF = Fraction of all synthetic N added to soils that volatilizes as NH 3 and NO x. Equations, Frac GASF = (22). Source of data, Frac GASF = See Section 8.3 under Quantification Approach 3. When no information source is availab"
+    },
+    {
+      "i": 235,
+      "path": "Not applicable",
+      "chars": 1603,
+      "text": "Data unit kg, Frac GASM = N volatilized/kg N applied. Description, Frac GASM = Fraction of all organic N added to soils and N in manure and urine deposited on soils that volatilizes as NH 3 and NO x. Equations (22),, Frac GASM = (30). Source of data, Frac GASM = See Section 8.3 under Quantification "
+    },
+    {
+      "i": 236,
+      "path": "Not applicable",
+      "chars": 1359,
+      "text": ", 1 = conditions, project proponents may define value from Lookup Table 11.3, Chapter 11, Volume 4 in IPCC (2019).. Description of measurement methods and procedures to be applied, 1 = When using values from IPCC (2019), for wet climates and for dry climate regions where irrigation (other than drip "
+    },
+    {
+      "i": 237,
+      "path": "Not applicable",
+      "chars": 1043,
+      "text": "Data/Parameter, 1 = EF Nleach. Data unit, 1 = t N 2 O-N/t N leached and runoff. Description, 1 = Emission factor for nitrous oxide emissions from leaching and runoff. Equations, 1 = (23), (31). Source of data, 1 = See Section 8.3 under Quantification Approach 3. When no information source is availab"
+    },
+    {
+      "i": 238,
+      "path": "Not applicable",
+      "chars": 1552,
+      "text": "Data unit, MB g,wp,i,t = t d.m.. Description, MB g,wp,i,t = Annual aboveground and belowground dry matter of N-fixing species g returned to soils for quantification unit i in year t. Equations, MB g,wp,i,t = (25). Source of data, MB g,wp,i,t = Aboveground and belowground dry matter in N-fixing speci"
+    },
+    {
+      "i": 239,
+      "path": "Not applicable",
+      "chars": 1071,
+      "text": "Data/Parameter\nData unit\nNcontent,g t N/t d.m.\nDescription, 1 = Fraction of N in dry matter for N-fixing species g. Equations, 1 = (25). Source of data, 1 = See Section 8.3 under Quantification Approach 3. When no information source is available that is applicable to the project conditions, project "
+    },
+    {
+      "i": 240,
+      "path": "Not applicable",
+      "chars": 679,
+      "text": "Data/Parameter, 1 = g. Data unit, 1 = Dimensionless. Description, 1 = Type of N-fixing species. Equations, 1 = (25). Source of data, 1 = Determined in quantification unit i. Description of measurement methods and procedures to be applied, 1 = See Box 1. N-fixing species type is determined prior to v"
+    },
+    {
+      "i": 241,
+      "path": "Calculation method",
+      "chars": 1250,
+      "text": "Comments\nNot applicable\nNone\nData unit, EF N2O,md,l,S = kg N 2 O-N/kg N input. Description, EF N2O,md,l,S = Emission factor for nitrous oxide from manure and urine deposited on soils by livestock type l and manure management system S. Equations, EF N2O,md,l,S = (27). Source of data, EF N2O,md,l,S = "
+    },
+    {
+      "i": 242,
+      "path": "Calculation method",
+      "chars": 1321,
+      "text": "Data/Parameter, 1 = Nex l,P. Data unit, 1 = kg N deposited/(head × year). Description, 1 = Annual average nitrogen excretion per head of livestock type l in productivity system P. Equations, 1 = (28). Source of data, 1 = See Section 8.3 under Quantification Approach 3. Where no alternative informati"
+    },
+    {
+      "i": 243,
+      "path": "Calculation method",
+      "chars": 1113,
+      "text": "Data/Parameter, 1 = EF Nvolat. Data unit, 1 = t N 2 O-N/(t NH 3 -N + NO x -N volatilized). Description, 1 = Emission factor for nitrous oxide emissions from atmospheric deposition of N on soils and water surfaces. Equations, 1 = (22), (30). Source of data, 1 = See Section 8.3 under Quantification Ap"
+    },
+    {
+      "i": 244,
+      "path": "Calculation method",
+      "chars": 1371,
+      "text": "Data unit, EF c,N 2 O = g N 2 O/kg dry matter burned. Description, EF c,N 2 O = Nitrous oxide emission factor for the burning of agricultural residue type c. Equations, EF c,N 2 O = (32). Source of data, EF c,N 2 O = See Section 8.3 under Quantification Approach 3. When no information source is avai"
+    },
+    {
+      "i": 245,
+      "path": "Calculation method",
+      "chars": 707,
+      "text": "Equations, 1 = (33). Source of data Management, 1 = records from project area. Description of measurement methods and procedures to be applied, 1 = For manure application, data should be disaggregated for each livestock type l. Frequency of monitoring/recording, 1 = Monitoring must be conducted at l"
+    },
+    {
+      "i": 246,
+      "path": "Calculation method",
+      "chars": 1198,
+      "text": "Data unit t C/t organic amendment = Description Carbon content of organic amendment (disaggregated by livestock type l for manure) applied as fertilizer on the project area in year t. Data unit t C/t organic amendment = Equations (33). Data unit t C/t organic amendment = Source of data Carbon conten"
+    },
+    {
+      "i": 247,
+      "path": "Calculation method",
+      "chars": 1641,
+      "text": "\nData unit, 𝑆𝑂𝐶 𝑏𝑠𝑙,𝑖,𝑡 = t CO 2 e/ha. Description, 𝑆𝑂𝐶 𝑏𝑠𝑙,𝑖,𝑡 = Areal mean SOC stocks in the baseline scenario for quantification unit i in year t. Equations, 𝑆𝑂𝐶 𝑏𝑠𝑙,𝑖,𝑡 = (46). Source of data, 𝑆𝑂𝐶 𝑏𝑠𝑙,𝑖,𝑡 = Modeled in the project area or measured in baseline control sites. Description of measure"
+    },
+    {
+      "i": 248,
+      "path": "Calculation method",
+      "chars": 1101,
+      "text": " Quantification Approach 1.\nData/Parameter, 1 = 𝑆𝑂𝐶 𝑏𝑠𝑙,𝑖,𝑡-𝑥. Data unit, 1 = t CO 2 e/ha\nDescription, 1 = Areal mean SOC stocks in the baseline scenario for quantification unit i in year t - x. Equations, 1 = (46). Source of data, 1 = Modeled in the project area or measured in baseline control site"
+    },
+    {
+      "i": 249,
+      "path": "Calculation method",
+      "chars": 569,
+      "text": "Data/Parameter, 1 = 𝑆𝑂𝐶 𝑤𝑝,𝑖,𝑡. Data unit t CO, 1 = 2 e/ha. Description, 1 = Areal mean SOC stocks in the project scenario for quantification unit in year t. (47), 1 = Equations. Source of data, 1 = Modeled or measured in the project area. Description of measurement methods and procedures to be appl"
+    },
+    {
+      "i": 250,
+      "path": "Calculation method",
+      "chars": 1801,
+      "text": "\n, 1 = Val A wp,i,t. , 2 = =. , 3 = Value of model input variable A in the project scenario for quantification unit i at time t (units unspecified). , 1 = Val B wp,i,t. , 2 = =. , 3 = Value of model input variable B in the project scenario for quantification unit i at time t (units unspecified). , 1"
+    },
+    {
+      "i": 251,
+      "path": "Calculation method",
+      "chars": 1657,
+      "text": "\n data, 1 = Calculation of project emissions. Purpose of data, 2 = Calculation of project emissions. Purpose of data, 3 = Calculation of project emissions. Calculation method, 1 = Not applicable. Calculation method, 2 = Not applicable. Calculation method, 3 = Not applicable. Comments, 1 = Initially "
+    },
+    {
+      "i": 252,
+      "path": "Calculation method",
+      "chars": 1090,
+      "text": " must be reported every five years or more frequently under Quantification Approaches 1 and 2.. Comments, 3 = SOC stocks in the project scenario for quantification unit i must be reported every five years or more frequently under Quantification Approaches 1 and 2.\nData/Parameter, 1 = 𝑆𝑂𝐶 𝑤𝑝,𝑖,𝑡-𝑥. D"
+    },
+    {
+      "i": 253,
+      "path": "Calculation method",
+      "chars": 1254,
+      "text": "Data/Parameter, 1 = ∆𝐶 𝑇𝑅𝐸𝐸,𝑏𝑠𝑙,𝑖,𝑡. Data unit, 1 = t CO 2 e/ha. Description, 1 = Areal mean baseline carbon stock change in tree biomass for quantification unit i in year t. Equations, 1 = Section 8.2.2 and (48). Source of data, 1 = Determined in project area. Description of measurement methods and"
+    },
+    {
+      "i": 254,
+      "path": "Calculation method",
+      "chars": 1075,
+      "text": "Equations Section 8.2.2 and (50) = Source of data Determined in project area. Equations Section 8.2.2 and (50) = Description of measurement methods and procedures to be applied Calculated using the CDM A/R tools Estimation of carbon stocks and change in carbon stocks of trees and shrubs in A/R CDM p"
+    },
+    {
+      "i": 255,
+      "path": "Calculation method",
+      "chars": 1357,
+      "text": "Data unit, ∆𝐶 𝑇𝑅𝐸𝐸,𝑤𝑝,𝑖,𝑡 = t CO 2 e/ha. Description, ∆𝐶 𝑇𝑅𝐸𝐸,𝑤𝑝,𝑖,𝑡 = Areal mean project scenario carbon stock change in tree biomass for quantification unit i in year t. Equations, ∆𝐶 𝑇𝑅𝐸𝐸,𝑤𝑝,𝑖,𝑡 = Section 8.2.2 and (49). Source of data, ∆𝐶 𝑇𝑅𝐸𝐸,𝑤𝑝,𝑖,𝑡 = Determined in project area. Description of "
+    },
+    {
+      "i": 256,
+      "path": "Calculation method",
+      "chars": 1563,
+      "text": "Data unit, ∆𝐶 𝑆𝐻𝑅𝑈𝐵,𝑤𝑝,𝑖,𝑡 = t CO 2 e/ha. Description, ∆𝐶 𝑆𝐻𝑅𝑈𝐵,𝑤𝑝,𝑖,𝑡 = Areal mean project scenario carbon stock change in shrub biomass for quantification unit i in year t. Equations, ∆𝐶 𝑆𝐻𝑅𝑈𝐵,𝑤𝑝,𝑖,𝑡 = Section 8.2.2 and (51). Source of data, ∆𝐶 𝑆𝐻𝑅𝑈𝐵,𝑤𝑝,𝑖,𝑡 = Determined in project area. Descriptio"
+    },
+    {
+      "i": 257,
+      "path": "Calculation method",
+      "chars": 1621,
+      "text": "Description of measurement methods and procedures to be applied, 1 = Not applicable. Frequency of monitoring/recording, 1 = Monitoring must be conducted at least every five years, or prior to each verification event where verification occurs more frequently.. QA/QC procedures to be applied, 1 = Not "
+    },
+    {
+      "i": 258,
+      "path": "Calculation method",
+      "chars": 1738,
+      "text": "Data/Parameter, 1 = BU ER,t. Data unit, 1 = t CO 2 e. Description, 1 = Number of buffer credits to be deducted from reductions in year t. Equations, 1 = (75). Source of data, 1 = The number of buffer credits to be contributed to the AFOLU pooled buffer account must be determined by applying the most"
+    },
+    {
+      "i": 259,
+      "path": "Calculation method",
+      "chars": 497,
+      "text": "QA/QC procedures to be applied, 1 = The number of buffer credits to be contributed to the AFOLU pooled buffer account must be determined by applying the most recent version of the VCS AFOLU Non-Permanence Risk Tool .. Purpose of data, 1 = Calculation of project emissions. Calculation method, 1 = The"
+    },
+    {
+      "i": 260,
+      "path": "9.3 Description of the Monitoring Plan",
+      "chars": 1751,
+      "text": "The main objective of monitoring is to quantify stock change of SOC and emissions of CO2 , CH4, and N2O resulting from the project scenario during the verification period.\nProject proponents must detail the procedures for collecting and reporting all data and parameters listed in Section 9.2. The mo"
+    },
+    {
+      "i": 261,
+      "path": "9.3 Description of the Monitoring Plan",
+      "chars": 508,
+      "text": "- must be archived electronically and kept for at least two years after the end of the last project crediting period;\n- Roles, responsibilities, and capacity of monitoring team and management; and\n- Modeling plan, where Quantification Approach 1 is applied. The project modeling plan must describe th"
+    },
+    {
+      "i": 262,
+      "path": "10 REFERENCES",
+      "chars": 925,
+      "text": "Aynekulu, E., Vagen, T. G., Shephard, K., & Winowiecki, L. (2011). A protocol for modeling, measurement and monitoring soil carbon stocks in agricultural landscapes. Version 1.1 . World Agroforestry Centre, Nairobi.\nBarnes, B., Southwell, D., Bruce, S., & Woodhams, F. (2014). Additionality, common p"
+    },
+    {
+      "i": 263,
+      "path": "10 REFERENCES",
+      "chars": 1146,
+      "text": "Carpenter, B., Gelman, A., Hoffman, M. D., Lee, D., Goodrich, B., Betancourt, M., Brubaker, M., Guo, J., Li, P., & Riddell, A. (2017). Stan: A probabilistic programming language . Journal of Statistical Software , 76 (1), 1 -32. https://doi.org/10.18637/jss.v076.i01\nCochran, W. G. (1977). Sampling t"
+    },
+    {
+      "i": 264,
+      "path": "10 REFERENCES",
+      "chars": 1097,
+      "text": "Finger, R., Garcia, V., McCallum, C., & Rommel, J. (2024). A note on European farmers' preferences under cumulative prospect theory. Journal of Agricultural Economics , 75 (1), 465 -472. https://doi.org/10.1111/1477-9552.12565\nGautam, M., Laborde, D., Mamun, A., Piñeiro, V., Martin, W., & Vos, R. (2"
+    },
+    {
+      "i": 265,
+      "path": "10 REFERENCES",
+      "chars": 1146,
+      "text": "de Gruijter, J., Brus, D., Bierkens, M., & Knotters, M. (2006). Sampling for natural resource monitoring . Springer-Verlag.\ndel Grosso, S. J., Ogle, S. M., Parton, W. J., & Breidt, F. J. (2010). Estimating uncertainty in N2O emissions from US cropland soils. Global Biogeochemical Cycles , 24 (1), Ar"
+    },
+    {
+      "i": 266,
+      "path": "10 REFERENCES",
+      "chars": 1316,
+      "text": "Hoff, P. D. (2009). A first course in Bayesian statistical methods . Springer.\nIEA (2005). Energy statistics manual . IEA. Available at: https://www.iea.org/reports/energy-statistics-manual-2\nIPCC (2000). Land use, land-use change and forestry . Prepared by R. T. Watson, I. R. Noble, B. Bolin, N. H."
+    },
+    {
+      "i": 267,
+      "path": "10 REFERENCES",
+      "chars": 1139,
+      "text": "Liu, T., Bruins, R. J. F., & Heberling, M. T. (2018). Factors influencing farmers' adoption of best management practices: A review and synthesis. Sustainability , 10 (2), Article 432. https://doi.org/10.3390/su10020432\nMaillard, É., McConkey, B. G., & Angers, D. A. (2017). Increased uncertainty in s"
+    },
+    {
+      "i": 268,
+      "path": "10 REFERENCES",
+      "chars": 1161,
+      "text": "Meijer, S. S., Catacutan, D., Ajayi, O. C., Sileshi, G. W., & Nieuwenhuis, M. (2015). The role of knowledge, attitudes and perceptions in the uptake of agricultural and agroforestry innovations among smallholder farmers in sub-Saharan Africa, International Journal of Agricultural Sustainability , 13"
+    },
+    {
+      "i": 269,
+      "path": "10 REFERENCES",
+      "chars": 1119,
+      "text": "Ogle, S. M., Breidt, F. J., Easter, M., Williams, S., & Paustian, K. (2007). An empirically based approach for estimating uncertainty associated with modelling carbon sequestration in soils. Ecological Modelling , 205 (3 -4), 453 -463. https://doi.org/10.1016/j.ecolmodel.2007.03.007\nOgle, S. M., Bre"
+    },
+    {
+      "i": 270,
+      "path": "10 REFERENCES",
+      "chars": 846,
+      "text": "Piñeiro, V., Arias, J., Dürr, J., Elverdin, P., Ibáñez, A. M., Kinengyere, A., Morales Opazo, C., Owoo, N., Page, J. R., Prager, S. D., & Torero, M. (2020). A scoping review on incentives for adoption of sustainable agricultural practices and their outcomes. Nature Sustainability , 3 , 809 -820. htt"
+    },
+    {
+      "i": 271,
+      "path": "10 REFERENCES",
+      "chars": 923,
+      "text": "Smith, P., Soussana, J. F., Angers, D., Schipper, L., Chenu, C., Rasse, D. P., Batjes, N. H., van Egmond, F., McNeill, S., Kuhnert, M., Arias-Navarro, C., Olesen, J. E., Chirinda, N., Fornara, D., Wollenberg, E., ÁlvaroFuentes, J., Sanz-Cobena, A., Klumpp, K. (2020). How to measure, report and verif"
+    },
+    {
+      "i": 272,
+      "path": "10 REFERENCES",
+      "chars": 1008,
+      "text": "Vanguelova, E. I., Bonifacio, E., De Vos, B., Hoosbeek, M. R., Berger, T. W., Vesterdal, L., Armolaitis, K., Celi, L., Dinca, L., Kjønaas, O. J., Pavlenda, P., Pumpanen, J., Pütt sepp, Ü., Reidy, B., Simončič , P., Tobin, B., & Zhiyanski, M. (2016). Sources of errors and uncertainties in the assessm"
+    },
+    {
+      "i": 273,
+      "path": "APPENDIX 1: NON-EXHAUSTIVE LIST OF POTENTIAL IMPROVED ALM PRACTICES THAT COULD CONSTITUTE THE PROJECT ACTIVITY",
+      "chars": 838,
+      "text": "The following list presents the main categories of practices expected to enhance SOC stocks and/or reduce GHG emissions from soils under a range of cropping and livestock systems. However, the list is non-exhaustive; there are many other improved ALM practices with the potential to enhance SOC stock"
+    },
+    {
+      "i": 274,
+      "path": "Improve fertilizer (organic or inorganic) application",
+      "chars": 285,
+      "text": "- Optimization of fertilizer application (e.g., 4R Nutrient Stewardship -right source, rate, time, and placement)\n- Organic fertilizer application (e.g., manure, compost)\n- Enhanced efficiency nitrogen fertilizers (e.g., urease/nitrification inhibitors, controlled release fertilizers)"
+    },
+    {
+      "i": 275,
+      "path": "Improve water management/irrigation",
+      "chars": 198,
+      "text": "- Alteration of irrigation (e.g., precision irrigation)\n- Alternate wetting and drying (AWD) in rice systems\n- Groundwater level management (e.g., adjust groundwater levels to reduce peat oxidation)"
+    },
+    {
+      "i": 276,
+      "path": "Reduce tillage/improve residue management",
+      "chars": 128,
+      "text": "- Reduced tillage/conservation tillage\n- Strip-till/mulch-till\n- No-till\n- Crop residue retention\n- Avoidance of residue burning"
+    },
+    {
+      "i": 277,
+      "path": "Improve crop planting and harvesting",
+      "chars": 364,
+      "text": "- Rotational commercial crop\n- Continuous commercial crop with cover crop\n- Rotational commercial crop with cover crop\n- Double cropping\n- Relay cropping\n- Intercropping of cover crop with commercial crop during the same growing season\n- Incorporation of fungal/microbial inoculants or other soil pro"
+    },
+    {
+      "i": 278,
+      "path": "Improve grazing management",
+      "chars": 377,
+      "text": "- Rotational grazing (also known as cell and holistic grazing)\n- Adaptive multi-paddock grazing (rotational, livestock numbers are adjusted to match available forage as conditions change)\n- Multi-species grazing\n- Grazing of cover crops and agricultural residues post-harvest\n- Silvipasture (integrat"
+    },
+    {
+      "i": 279,
+      "path": "APPENDIX 2: PROCEDURE TO DEMONSTRATE DEGRADATION OF PROJECT LANDS IN THE BASELINE SCENARIO",
+      "chars": 1506,
+      "text": "According to the IPCC, up to one quarter of the Earth's ice-free lands are affected by land degradation 57 caused by direct or indirect human-induced processes. This equates to hundreds of millions of hectares of degraded crop- and grasslands with reduced productive capacity, which adversely affects"
+    },
+    {
+      "i": 280,
+      "path": "Step 1: Demonstration of Land Degradation",
+      "chars": 1098,
+      "text": "The project proponent must use the CDM Tool for the identification of degraded or degrading lands for consideration in implementing CDM A/R project activities to demonstrate that the land is degraded at the start of the project and will continue to degrade in the baseline scenario. The tool uses a t"
+    },
+    {
+      "i": 281,
+      "path": "Step 2: Demonstration of Expected Improvements Resulting from Project Implementation",
+      "chars": 970,
+      "text": "The project proponent must provide an analysis of how the proposed project activities will lead to restoration of project lands. Such analysis must be based on the degradation indicators identified in Step 1 and must at minimum include expected impacts on soil health, plant (i.e., crops, forage) pro"
+    },
+    {
+      "i": 282,
+      "path": "Current Global Agricultural Trends",
+      "chars": 1380,
+      "text": "The most recent OECD-FAO Agricultural Outlook provides a global baseline scenario for 2025 -2034 based on specific assumptions about macroeconomic conditions, productivity trends, agriculture and trade policies, demographic developments, weather, and consumer preferences (OECD & FAO 2025).\nConsideri"
+    },
+    {
+      "i": 283,
+      "path": "Current Global Agricultural Trends",
+      "chars": 1077,
+      "text": "Cereals, Market conditions, consumption, and price trends = Growth in cereal production is expected to continue, driven mostly by yield increases. Harvested area expansion is modest (0.14% p.a.), much lower than in the prior decade. Demand from food and feed use remains the leading driver. Prices ar"
+    },
+    {
+      "i": 284,
+      "path": "Current Global Agricultural Trends",
+      "chars": 1879,
+      "text": "Meat, 1 = Prices are increasing moderately due to strong demand. Meat-exporting countries are increasing production. Demand for poultry and beef remains high and growing. Per capita consumption is rising in all regions except Africa, most prominently in developed economies. Livestock production, mea"
+    },
+    {
+      "i": 285,
+      "path": "Current Global Agricultural Trends",
+      "chars": 1334,
+      "text": "In summary, many agricultural commodities show consumption indices above their decadal average, reflecting strong recent demand -particularly in emerging economies. Supply (i.e., production and trade) has generally been able to respond to demand, moderating upward pressure on real prices. Potential "
+    },
+    {
+      "i": 286,
+      "path": "Current Global Agricultural Trends",
+      "chars": 1660,
+      "text": "- 3) Energy and input prices, as agriculture is highly energy-intensive (e.g., for fertilizers, fuel, transport) causing a strong dependency on high or volatile energy prices potentially raising production costs, influencing GHG emissions from input use, and affecting biofuel competitiveness and fee"
+    },
+    {
+      "i": 287,
+      "path": "Current Global Agricultural Trends",
+      "chars": 1455,
+      "text": "- 7) Geopolitical instability and conflicts (e.g., Ukraine -Russia conflict) may disrupt production and exports of commodities and inputs, cause price spikes and market volatility, and trigger migration and changes in land use or labor availability.\n- 8) Pandemics and global shocks, such as health c"
+    },
+    {
+      "i": 288,
+      "path": "Alternative Scenarios to Improved ALM, Plausibility, and Uncertainties",
+      "chars": 1366,
+      "text": "Step 1a of VCS tool VT0009 Combined Baseline and Additionality Assessment requires identifying all realistic and credible alternative scenarios that deliver a comparable output or use a comparable input to a proposed project activity, as follows:\nScenario 1 (S1): Project is implemented but is not re"
+    },
+    {
+      "i": 289,
+      "path": "Alternative Scenarios to Improved ALM, Plausibility, and Uncertainties",
+      "chars": 1020,
+      "text": "S1, Description = Adoption of CA independently from a carbon market project. S1, Plausibility and likelihood = Realistic if supported by external aid or NGOs. S1, Comparable input/output = Limited scale, short-term implementation tied to external funding. S2, Description = A cooperative, agribusines"
+    },
+    {
+      "i": 290,
+      "path": "Alternative Scenarios to Improved ALM, Plausibility, and Uncertainties",
+      "chars": 1602,
+      "text": "S4, 1 = Farmers adopt partial CA (e.g., no-tillage only).. S4, 2 = Plausible if supported by government programs and extension services. S4, 3 = Lower increase in SOC stocks and lower GHG emission reductions due to the missing synergistic effect of stacked practices. Adoption more likely to be rever"
+    },
+    {
+      "i": 291,
+      "path": "Alternative Scenarios to Improved ALM, Plausibility, and Uncertainties",
+      "chars": 766,
+      "text": "In the above example, if the adoption of CA became mandated by law in the project jurisdiction, Scenario 1 would become the most plausible. At the same time, the project activity would no longer be eligible in a carbon market context as it would not meet the regulatory surplus requirement (see Step "
+    },
+    {
+      "i": 292,
+      "path": "Continuation of Pre-project Historical Practices as the Most Plausible Baseline Scenario",
+      "chars": 1522,
+      "text": "As shown by the global outlook of agricultural production (OECD & FAO 2025), agricultural production is subject to multiple economic and policy pressures. While adoption of improved ALM and regenerative practices is increasing, regional uptake varies and key barriers to adoption prevail. Grand View "
+    },
+    {
+      "i": 293,
+      "path": "Continuation of Pre-project Historical Practices as the Most Plausible Baseline Scenario",
+      "chars": 1869,
+      "text": "Farmers face multiple challenges when aiming to increase productivity to meet growing demand, with declining prices and the need to adapt to a changing climate. Farmers' decisions are influenced by a complex mix of economic, social, environmental, psychological, and institutional factors. Unlike sta"
+    },
+    {
+      "i": 294,
+      "path": "Continuation of Pre-project Historical Practices as the Most Plausible Baseline Scenario",
+      "chars": 782,
+      "text": "While the ecological benefits of improved ALM are well understood and a long-term economic benefit is widely recognized, the transition requires investments for different agricultural equipment, alternative inputs, and to cover potential short-term yield declines in the adjustment phase. Farm-specif"
+    },
+    {
+      "i": 295,
+      "path": "APPENDIX 4: GUIDANCE ON POTENTIAL EMERGING TECHNOLOGIES TO MEASURE SOC CONTENT",
+      "chars": 1429,
+      "text": "As indicated in Table 6 and Table 8 and the parameter tables related to modeled and measured SOC stocks (Section 9.2), project proponents may use emerging technologies to determine SOC content where sufficient scientific progress has been achieved in calibrating and validating measurements, and unce"
+    },
+    {
+      "i": 296,
+      "path": "APPENDIX 4: GUIDANCE ON POTENTIAL EMERGING TECHNOLOGIES TO MEASURE SOC CONTENT",
+      "chars": 1956,
+      "text": "Table 9 presents potential emerging proximal sensing technologies which research and publications have shown to hold promise for streamlining SOC measurement. Although proximal sensing techniques may not be as precise per individual measurement compared to conventional analytical laboratory methods "
+    },
+    {
+      "i": 297,
+      "path": "APPENDIX 4: GUIDANCE ON POTENTIAL EMERGING TECHNOLOGIES TO MEASURE SOC CONTENT",
+      "chars": 1881,
+      "text": "- 1) Standard Operating Procedures for sample processing (including drying, sieving, rock and root removal, grinding) and analysis adapted to the proximal sensing technique to be applied\n- 2) For in-field or laboratory measurements without sample processing, a detailed explanation of strategies to o"
+    },
+    {
+      "i": 298,
+      "path": "APPENDIX 4: GUIDANCE ON POTENTIAL EMERGING TECHNOLOGIES TO MEASURE SOC CONTENT",
+      "chars": 1207,
+      "text": "- 9) Description of the approach used to generate posterior predictive distributions (PPDs) or intervals used to propagate error from the spectroscopy model to calculations of the uncertainty deduction. PPDs may be based on Bayesian modeling methods that incorporate parameter uncertainty in the cali"
+    },
+    {
+      "i": 299,
+      "path": "APPENDIX 4: GUIDANCE ON POTENTIAL EMERGING TECHNOLOGIES TO MEASURE SOC CONTENT",
+      "chars": 1846,
+      "text": "Table 9: Method-specific criteria to evaluate use of emerging technologies based on proximal sensing to measure SOC content\nInelastic neutron scattering 63 (INS), Criteria and Considerations to Ensure Robustness and Reliability = • Where carbonates are present (calcareous or limed soils), inorganic "
+    },
+    {
+      "i": 300,
+      "path": "APPENDIX 4: GUIDANCE ON POTENTIAL EMERGING TECHNOLOGIES TO MEASURE SOC CONTENT",
+      "chars": 1903,
+      "text": " Multiple linear regression has proven to be an effective calibration strategy to tackle interference in soil carbon analysis. Further ' non-traditional calibration strategies ' 64 may be applied, which explore the plasma physicochemical properties, use of analyte emission lines/transition energies "
+    },
+    {
+      "i": 301,
+      "path": "INS",
+      "chars": 909,
+      "text": "Izaurralde, R. C., Rice, C. W., Wielopolski, L., Ebinger, M. H., Reeves III, J. B., Thomson, A. M., Harris, R., Francis, B., Mitra, S., Rappaport, A. G., Etchevers, J. D., Sayre, K. D., Govaerts, B., & McCarty, G. W. (2013). Evaluation of three fieldbased methods for quantifying soil carbon. PLoS ON"
+    },
+    {
+      "i": 302,
+      "path": "LIBS",
+      "chars": 1287,
+      "text": "Castro, J. P., & Pereira-Filho, E. R. (2016). Twelve different types of data normalization for the proposition of classification, univariate and multivariate regression models for the direct analyses of alloys by laser-induced breakdown spectroscopy (LIBS). Journal of Analytical Atomic Spectrometry "
+    },
+    {
+      "i": 303,
+      "path": "LIBS",
+      "chars": 919,
+      "text": "Fu, X., Duan, F. J., Huang, T. T., Ma, L., Jiang, J. J., & Li, Y. C. (2017). A fast variable selection method for quantitative analysis of soils using laser-induced breakdown spectroscopy. Journal of Analytical Atomic Spectrometry , 32 (6), 1166 -1176. https://doi.org/10.1039/C7JA00114B\nMilori, D. M"
+    },
+    {
+      "i": 304,
+      "path": "LIBS",
+      "chars": 987,
+      "text": "Segnini, A., Pereira Xavier, A. A., Otaviani-Junior, P. L., Ferreira, E. C., Watanabe, A. M., Sperança, M. A., Nicolodelli, G., Villas-Boas, P. R., Anchão Oliveira, P. P., & Milori, D. M. B. P. (2014). Physical and chemical matrix effects in soil carbon quantification using laser-induced breakdown s"
+    },
+    {
+      "i": 305,
+      "path": "LIBS",
+      "chars": 328,
+      "text": "Villas-Boas, P. R., Franco, M. A., Martin-Neto, L., Gollany, H. T., & Milori, D. M. B. P. (2020). Applications of laser-induced breakdown spectroscopy for soil characterization, part II: Review of elemental analysis and soil classification. European Journal of Soil Science , 71 (5), 805 -818. https:"
+    },
+    {
+      "i": 306,
+      "path": "MIR and (Vis-)NIR, including DR and DRIFT spectroscopy",
+      "chars": 1039,
+      "text": "Barthès, B. G., & Chotte, J. L. (2021). Infrared spectroscopy approaches support soil organic carbon estimations to evaluate land degradation. Land Degradation & Development , 32 (1), 310 -322. https://doi.org/10.1002/ldr.3718\nDangal, S. R. S., Sanderman, J., Wills, S., & Ramirez-Lopez, L. (2019). A"
+    },
+    {
+      "i": 307,
+      "path": "MIR and (Vis-)NIR, including DR and DRIFT spectroscopy",
+      "chars": 1005,
+      "text": "Nocita, M., Stevens, A., van Wesemael, B., Aitkenhead, M., Bachmann, M., Barthès, B., Dor, E. B., Brown, D. J., Clairotte, M., Csorba, A., Dardenne, P., Demmatê, J. A. M., Genot, V., Guerrero, C., Knadel, M., Montanarella, L., Noon, C., RamirezLopez, L., Robertson, J., …, Wetterlind, J. (2015). Soil"
+    },
+    {
+      "i": 308,
+      "path": "MIR and (Vis-)NIR, including DR and DRIFT spectroscopy",
+      "chars": 588,
+      "text": "Seybold, C. A., Ferguson, R., Wysocki, D., Bailey, S., Anderson, J., Nester, B., Schoeneberger, P., Wills, S., Libohova, Z., Hoover, D., & Thomas, P. (2019). Application of mid-infrared spectroscopy in soil survey. Soil Science Society of America Journal , 83 (6), 1746 -1759. https://doi.org/10.2136"
+    },
+    {
+      "i": 309,
+      "path": "MIR and (Vis-)NIR, including DR and DRIFT spectroscopy",
+      "chars": 688,
+      "text": "Viscarra Rossel, R. A., Behrens, T., Ben-Dor, E., Brown, D. J., Demmatê, J. A. M., Shepherd, K. D., Shi, Z., Stenberg, B., Stevens, A., Adamchuk, V., Aïchi, H., Barthès, B. G., Bartholomeus, H. M., Bayer, A. D., Bernoux, M., Böttcher, K., Brodský, L., Du, C. W., Chappell, A., … J i, W. (2016). A glo"
+    },
+    {
+      "i": 310,
+      "path": "APPENDIX 5: DEFINITIONS OF SOIL SLOPE CLASSES FOR USE IN SETTING BASELINE CONTROL SITES",
+      "chars": 1350,
+      "text": "Table 10: Soil slope classes\n\nNearly level, Classes for -.Complex Slopes = Nearly level. Nearly level, Slope (Gradient) Class Limits.Lower (%) = 0. Nearly level, Slope (Gradient) Class Limits.Upper (%) = 3. Gently sloping, Classes for -.Complex Slopes = Undulating. Gently sloping, Slope (Gradient) C"
+    },
+    {
+      "i": 311,
+      "path": "Workflow for a Slope Analysis in a GIS",
+      "chars": 749,
+      "text": "- 1) Data required: digital elevation model (DEM) as a raster data layer of horizontal and vertical resolution suitable for the extent of the area of interest, and coordinate reference system in meters\n- 2) Tools required: GIS software suitable for processing raster data (e.g., QGIS, ArcGIS, SAGA GI"
+    },
+    {
+      "i": 312,
+      "path": "APPENDIX 6: ADDITIONAL UNCERTAINTY EXAMPLES",
+      "chars": 1656,
+      "text": "Staged sampling designs and alternative measurement approaches are valid and may be applied under this methodology, but stratified random sampling is the required sampling strategy at the stage during which sample points are selected (see Section 8.2.1). In this appendix, an example based on a multi"
+    },
+    {
+      "i": 313,
+      "path": "APPENDIX 6: ADDITIONAL UNCERTAINTY EXAMPLES",
+      "chars": 643,
+      "text": "The same sources of error apply in this example as in the examples provided in Section 8.6, but the uncertainty estimator for sampling error should be changed to match this alternative design. Below are similar sets of equations for both uncertainty estimation approaches allowed under Quantification"
+    },
+    {
+      "i": 314,
+      "path": "Quantification Approach 1 -Analytical Error Propagation",
+      "chars": 1287,
+      "text": "<!-- formula-not-decoded -->\nNote -notation for time period t is suppressed hereafter for convenience.\nWhere:\n<!-- formula-not-decoded -->\nand:\n$$𝑠 𝑠𝑎𝑚𝑝𝑙𝑖𝑛𝑔 , Δ•,𝑡 2$$\n- = Variance of reductions or removals in gas or pool • due to sampling error at time t across the entire project area (t CO2e) 2\n$$"
+    },
+    {
+      "i": 315,
+      "path": "Quantification Approach 1 -Analytical Error Propagation",
+      "chars": 410,
+      "text": "Model errors are assumed to be uncorrelated with the input data in the sample and to be independent across samples. Then, the variance of Δ · 𝑡 ̅̅ ̅ ̅ ̅ incorporating sample uncertainty and model prediction\n<!-- formula-not-decoded -->\n<!-- formula-not-decoded -->\nuncertainty is the sum of variances"
+    },
+    {
+      "i": 316,
+      "path": "Quantification Approach 1 -Monte Carlo Error Propagation",
+      "chars": 1749,
+      "text": "Similar to the MC error propagation example provided in Section 8.6.1.2, both model prediction error and sampling error are estimated from a set of L estimates of the true total GHG emissions across the entire project. For convenience, introductory text from Section 8.6.1.2 is included here again. L"
+    },
+    {
+      "i": 317,
+      "path": "Quantification Approach 1 -Monte Carlo Error Propagation",
+      "chars": 1294,
+      "text": "𝑦 ̃ 𝑓ℎ𝑗𝑖𝑙, 1 = =. 𝑦 ̃ 𝑓ℎ𝑗𝑖𝑙, 2 = Predicted reductions and removals for the 𝑙 th simulation at point i in stratum h in field j for farmer f (t CO 2 e/ha). 𝑧̃ 𝑏𝑠𝑙,𝑓ℎ𝑗𝑖𝑙, 1 = =. 𝑧̃ 𝑏𝑠𝑙,𝑓ℎ𝑗𝑖𝑙, 2 = Predicted reductions and removals in the baseline scenario for the 𝑙 th simulation at point i in stratum h "
+    },
+    {
+      "i": 318,
+      "path": "Quantification Approach 1 -Monte Carlo Error Propagation",
+      "chars": 849,
+      "text": "𝜏 𝑓ℎ𝑗𝑖𝑙 = Monte Carlo estimate (MC mean) of reductions and removals for a given source in field j for farmer f (t CO2e) scaled to their total land area (A-f) in the 𝑙 th simulation (t CO2e)\nThe total uncertainty is then decomposed into two components, sampling and modeling uncertainty. Using standar"
+    },
+    {
+      "i": 319,
+      "path": "Quantification Approach 1 -Monte Carlo Error Propagation",
+      "chars": 876,
+      "text": "- = Variance of reductions and removals in gas or pool · due to sampling error for farmer f (i.e., the primary quantification unit) at time t (t CO2e) 2\n- = Monte Carlo estimate (MC mean) of reductions and removals for a given source across the entire project area in the 𝑙 th simulation (t CO2e)\n- ="
+    },
+    {
+      "i": 320,
+      "path": "Quantification Approach 2",
+      "chars": 1571,
+      "text": "The total variance of the estimate of mean SOC stock changes is based on the sum of variances of comparisons of project and baseline control plots for each farmer. Variance of SOC removal estimates for each farmer are based on the combined variance of the estimates of change over time in a given ver"
+    },
+    {
+      "i": 321,
+      "path": "Quantification Approach 2",
+      "chars": 1534,
+      "text": "Because the sample design for the project and baseline control plots may be different, the uncertainty estimator should match the sample design used in the project and baseline control plots. For example, the project area may be monitored using a staged design if there are a substantial number of qu"
+    },
+    {
+      "i": 322,
+      "path": "Quantification Approach 2",
+      "chars": 1039,
+      "text": "𝑠 𝑆𝑂𝐶,𝑝𝑟,𝑓𝑥 2, 1 = =. 𝑠 𝑆𝑂𝐶,𝑝𝑟,𝑓𝑥 2, 2 = Variance of the estimate of SOC stocks in the project scenario at t final for farmer f (t CO 2 e) 2. 𝑠 𝑆𝑂𝐶,𝑝𝑟,𝑓𝑠 2, 1 = =. 𝑠 𝑆𝑂𝐶,𝑝𝑟,𝑓𝑠 2, 2 = Variance of the estimate of SOC stocks in the project scenario at t start for farmer f (t CO 2 e) 2. COV ( SOC pr,fs "
+    },
+    {
+      "i": 323,
+      "path": "DOCUMENT HISTORY",
+      "chars": 1985,
+      "text": "\nv1.0, Date = 19 Oct 2020. v1.0, Comment = Initial version. v2.0, Date = 30 May 2023. v2.0, Comment = • Introduction of a baseline control sites option to allow for direct SOC measurement under Quantification Approach 2 • Update of Section 8.6 on uncertainty assessment to clarify statistical procedu"
+    },
+    {
+      "i": 324,
+      "path": "DOCUMENT HISTORY",
+      "chars": 130,
+      "text": " 2 from VT0008 o Replace Step 3 with Step 3.1 determining if the project activity has below 20% adoption in the project region and"
+    }
+  ]
+}

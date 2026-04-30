@@ -1,0 +1,26 @@
+- question: "Which KM-GBF target most directly requires large companies and financial institutions to assess, disclose, and reduce their biodiversity impacts?"
+  options:
+  - "Target 3 (30x30 - protect 30% of land and ocean by 2030)"
+  - "Target 15 (business disclosures on biodiversity risks, dependencies, and impacts)"
+  - "Target 18 (reform harmful subsidies)"
+  - "Target 22 (rights of indigenous peoples and local communities)"
+  answer: 1
+  explanation: "Target 15 of the Kunming-Montreal GBF directly calls on governments to require large companies and financial institutions to monitor, assess, and disclose their risks, dependencies, and impacts on biodiversity, and to progressively reduce negative impacts. TNFD is the primary framework designed to enable companies to implement Target 15."
+
+- question: "The EU Corporate Sustainability Reporting Directive (CSRD) biodiversity requirements are set out in which European Sustainability Reporting Standard?"
+  options:
+  - "ESRS E1 (Climate Change)"
+  - "ESRS E3 (Water and Marine Resources)"
+  - "ESRS E4 (Biodiversity and Ecosystems)"
+  - "ESRS G1 (Business Conduct)"
+  answer: 2
+  explanation: "ESRS E4 (Biodiversity and Ecosystems) contains the CSRD biodiversity reporting requirements, including transition plans, material impacts and risks, sites near biodiversity-sensitive areas, and nature-related targets. ESRS E4 is explicitly aligned with TNFD recommendations."
+
+- question: "Under the EU Deforestation Regulation, what is the earliest compliance deadline for large companies?"
+  options:
+  - "June 2023 (entry into force date)"
+  - "January 2025"
+  - "December 2025"
+  - "January 2030"
+  answer: 2
+  explanation: "Large companies must comply with the EUDR's due diligence requirements from December 2025. SMEs have a later deadline of June 2026. The regulation entered into force in June 2023 but included a transition period to allow companies to build the required supply chain traceability systems."

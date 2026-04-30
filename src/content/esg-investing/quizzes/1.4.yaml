@@ -1,0 +1,44 @@
+- question: "What distinguishes a sustainability-linked bond (SLB) from a conventional green bond?"
+  options:
+    - "Green bonds can only be issued by governments, while SLBs can be issued by any entity"
+    - "SLBs are general purpose instruments where financing terms are linked to the issuer's ESG performance targets, rather than ring-fencing proceeds for specific green projects"
+    - "SLBs are exclusively used to finance climate adaptation projects, while green bonds fund mitigation"
+    - "Green bonds require third-party certification from the TCFD, while SLBs use only self-certification"
+  answer: 1
+  explanation: "A key structural difference is that green bond proceeds are earmarked for eligible environmental projects, while sustainability-linked bonds are general purpose instruments whose coupon or other financing terms adjust based on whether the issuer meets pre-agreed environmental (or social or governance) performance targets. If targets are missed, the coupon typically steps up."
+
+- question: "The TCFD framework organises climate-related disclosures around four thematic areas. Which of the following is NOT one of them?"
+  options:
+    - "Governance"
+    - "Strategy"
+    - "Carbon offsetting"
+    - "Metrics and targets"
+  answer: 2
+  explanation: "The four TCFD pillars are: Governance (board and management oversight of climate risks and opportunities), Strategy (impacts on business and financial planning, including scenario analysis), Risk Management (processes to identify and manage climate risks), and Metrics and Targets (GHG emissions data and climate-related targets). Carbon offsetting is not one of the four pillars."
+
+- question: "Which of the following best describes 'transition finance'?"
+  options:
+    - "Financing provided to fund the physical adaptation of assets to withstand climate change impacts"
+    - "Capital provided to help high-emission sectors and companies reduce their emissions over time, even if they cannot currently be labelled 'green'"
+    - "Investment in renewable energy projects that are transitioning from public to private ownership"
+    - "Finance raised specifically for projects that help developing countries transition to developed-country environmental standards"
+  answer: 1
+  explanation: "Transition finance refers to capital channelled to high-emission companies and sectors that are making credible efforts to reduce their environmental footprint over time. It recognises that an orderly economic transition requires financing for 'brown-to-green' journeys — not just for already-clean assets. Without transition finance, hard-to-abate sectors may face disorderly adjustment."
+
+- question: "The Green Bond Principles (GBP) published by ICMA include which of the following components?"
+  options:
+    - "A mandatory carbon offset requirement for all green bond issuers"
+    - "Use of proceeds, project evaluation and selection, management of proceeds, and reporting"
+    - "A minimum credit rating requirement and independent audit by a central bank supervisor"
+    - "Alignment with the EU Taxonomy for Sustainable Activities as a prerequisite for issuance"
+  answer: 1
+  explanation: "The four core components of the Green Bond Principles are: (1) Use of proceeds — earmarked for eligible green projects; (2) Process for project evaluation and selection; (3) Management of proceeds — tracked separately; and (4) Reporting — annual disclosure on use of proceeds and environmental impact. These are voluntary guidelines, not mandatory requirements."
+
+- question: "In the context of green bonds, the CICERO 'Shades of Green' methodology classifies bonds as dark green, medium green, light green, or brown. What does 'dark green' indicate?"
+  options:
+    - "Bonds issued by fossil fuel companies that are beginning their transition to renewables"
+    - "Bonds financing projects fully aligned with a low-carbon climate-resilient future, with strong governance"
+    - "Bonds where proceeds are used for a combination of green and non-green projects"
+    - "Bonds issued by emerging market governments to fund environmental infrastructure"
+  answer: 1
+  explanation: "CICERO's 'dark green' classification is allocated to projects and solutions corresponding to the long-term vision of a low-carbon, climate-resilient future, with strong governance that integrates environmental concerns. 'Brown' is allocated to projects incompatible with the low-carbon transition, such as new coal infrastructure."

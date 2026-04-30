@@ -1,0 +1,44 @@
+- question: "How many mandatory PAI indicator tables are specified in Annex I of the RTS (2022/1288)?"
+  options:
+    - "2 (environmental and social)"
+    - "3 (environmental, social, and governance)"
+    - "5 (investee companies mandatory, investee companies optional environmental, investee companies optional social, sovereigns, real estate)"
+    - "1 single comprehensive table"
+  answer: 2
+  explanation: "Annex I of the RTS contains five tables: Table 1 (mandatory indicators for investments in investee companies), Table 2 (additional optional environmental indicators for investee companies), Table 3 (additional optional social indicators for investee companies), Table 4 (mandatory indicators for sovereign and supranational issuers), and Table 5 (mandatory indicators for real estate assets)."
+
+- question: "What is the fundamental conceptual difference between sustainability risks (Article 2(22)) and PAI?"
+  options:
+    - "Sustainability risks relate to environmental topics only; PAI relate to social and governance topics"
+    - "Sustainability risks run from the ESG environment to the portfolio (ESG events affect investment value); PAI run from the portfolio to the ESG environment (investment decisions affect sustainability factors)"
+    - "Sustainability risks are quantitative; PAI are qualitative assessments"
+    - "Sustainability risks apply at the entity level; PAI apply only at the product level"
+  answer: 1
+  explanation: "This bidirectional relationship is known as 'double materiality.' Sustainability risks (Article 2(22)) are ESG events that could cause material negative impacts on investment value — they flow from the environment/society to the portfolio. PAI are the negative effects investment decisions have on sustainability factors — they flow from the portfolio to the environment/society."
+
+- question: "For Table 1 indicator calculations, what is the standard formula for attributing an investee company metric to the portfolio?"
+  options:
+    - "(Revenue of investee / Total market capitalisation) × Metric"
+    - "(Current Value of Investment in company / Enterprise Value of company) × Metric of company, then normalised by total portfolio value per €1 million"
+    - "(Number of shares held / Total shares outstanding) × Metric"
+    - "(Portfolio weight × Metric) / GDP of home country"
+  answer: 1
+  explanation: "The standard attribution formula is: (Current Value of Investment in investee / Enterprise Value of investee) × Metric of investee. This is then summed across all investees and normalised by the total portfolio value (expressed per €1 million invested). This formula captures the portfolio's proportionate 'ownership' of each investee's metric."
+
+- question: "Which of the following is a mandatory PAI indicator specifically for investments in sovereign and supranational issuers (Table 4)?"
+  options:
+    - "Board gender diversity of sovereign-owned enterprises"
+    - "GHG intensity of sovereign issuers (tCO₂eq per million USD PPP-adjusted GDP)"
+    - "Exposure to fossil fuels in government budget revenues"
+    - "Unadjusted gender pay gap across the public sector"
+  answer: 1
+  explanation: "Table 4 Mandatory Indicator 1 is GHG intensity of sovereign issuers, calculated as country-level GHG emissions divided by GDP (expressed in tCO₂eq per million USD PPP-adjusted GDP). This enables comparison of the emissions efficiency of sovereign debt issuers."
+
+- question: "At what level does SFDR Article 4 entity-level PAI reporting operate, compared to product-level PAI?"
+  options:
+    - "Entity-level PAI aggregates across ALL investments made by the FMP; product-level PAI focuses on the specific holdings of an individual fund or product"
+    - "Entity-level PAI is more detailed than product-level PAI"
+    - "They are identical — entity and product PAI use the same framework applied to the same universe"
+    - "Entity-level PAI covers only environmental indicators; product-level covers social indicators"
+  answer: 0
+  explanation: "Entity-level PAI reporting (Article 4) aggregates data across the FMP's entire investment portfolio — all investments made by the firm, across all products. Product-level PAI reporting focuses on the specific holdings of an individual financial product. The entity-level statement gives an aggregate picture of the firm's total sustainability impact; product-level disclosures show the impact of each individual fund."

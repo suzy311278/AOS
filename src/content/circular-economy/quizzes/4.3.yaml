@@ -1,0 +1,26 @@
+- question: "What was the primary focus of the original Ecodesign Directive 2009/125/EC before ESPR replaced it?"
+  options:
+    - "Recycled content requirements for all products"
+    - "Chemical substance restrictions in consumer goods"
+    - "Energy efficiency of energy-related products"
+    - "End-of-life collection and recycling rates"
+  answer: 2
+  explanation: "The original Ecodesign Directive 2009/125/EC focused exclusively on energy-related products, primarily through minimum energy performance standards for appliances, lighting, and motors. ESPR 2024 transforms this into a comprehensive sustainability framework covering durability, repairability, recycled content, and end-of-life recovery."
+
+- question: "Which of the following is a key feature of the Digital Product Passport under ESPR?"
+  options:
+    - "A single central EU database storing all product data directly"
+    - "QR codes or RFID chips linking to a unique identifier in a registry"
+    - "A paper certificate issued by the manufacturer at point of sale"
+    - "A consumer-facing score from 1 to 10 for product sustainability"
+  answer: 1
+  explanation: "The DPP uses data carriers (QR codes, watermarks, or RFID chips) on the physical product that link to a unique identifier in a centralized registry. The actual data is managed in a decentralized way by economic operators, with the registry pointing to the data location rather than storing everything centrally."
+
+- question: "What does ESPR prohibit economic operators from doing with unsold consumer apparel?"
+  options:
+    - "Selling it at a discount of more than 50%"
+    - "Exporting it to non-EU countries without documentation"
+    - "Destroying it (burning or landfilling unsold stock)"
+    - "Donating it to charity without EPR fee payment"
+  answer: 2
+  explanation: "ESPR prohibits economic operators from destroying unsold consumer apparel, clothing accessories, and footwear. Medium-sized enterprises have a six-year transition period and micro and small enterprises are exempt. Transparency obligations require disclosure of quantities destroyed, creating accountability for brands that had been burning surplus stock."

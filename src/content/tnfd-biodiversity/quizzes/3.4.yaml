@@ -1,0 +1,26 @@
+- question: "Environmental DNA (eDNA) monitoring collects which type of material from environmental samples?"
+  options:
+  - "Pollen grains from air filters in forest monitoring stations"
+  - "Genetic material shed by organisms through skin cells, feces, mucus, or spores in water, soil, or air samples"
+  - "Micro-satellite imagery data calibrated against ground truth species counts"
+  - "Chemical signatures of metabolic processes produced by target species"
+  answer: 1
+  explanation: "eDNA monitoring collects environmental samples (water, soil, or air) and sequences the genetic material shed by organisms through skin cells, feces, mucus, spores, and other biological material. This genetic fingerprint is matched against reference databases to identify which species were present without requiring visual observation or physical capture of organisms."
+
+- question: "What is 'spatial finance' in the context of nature-related risk assessment?"
+  options:
+  - "A financing mechanism that pays landowners based on the spatial extent of protected habitats"
+  - "The integration of geospatial data about physical assets and their environmental context into financial analysis and decision-making"
+  - "A method for allocating biodiversity offset investments across geographic regions"
+  - "Financial modelling that accounts for the spatial dimension of supply chain transportation costs"
+  answer: 1
+  explanation: "Spatial finance refers to the integration of geospatial data about physical asset locations and their environmental context into financial analysis and decision-making. It enables banks and investors to overlay asset locations with biodiversity risk data (protected areas, deforestation alerts, water stress maps) to screen loan and investment portfolios for nature-related physical risk without relying solely on borrower self-disclosure."
+
+- question: "Which of the following best describes the three key data quality problems that constrain corporate biodiversity assessment?"
+  options:
+  - "High cost, lack of standardisation, and poor academic peer review of available datasets"
+  - "Spatial bias (tropical regions poorly sampled), temporal resolution gaps (periodic not continuous monitoring), and taxonomic bias (vertebrates far better documented than invertebrates and fungi)"
+  - "Proprietary data ownership, regulatory restrictions on data sharing, and computational intensity of biodiversity models"
+  - "Language barriers in international species databases, inconsistent national reporting standards, and lack of satellite coverage in developing countries"
+  answer: 1
+  explanation: "The three core biodiversity data quality problems are spatial bias (most records in global databases come from Europe and North America, leaving tropical regions, which contain most species richness, poorly sampled), temporal resolution (data collected periodically rather than continuously), and taxonomic bias (vertebrates vastly better documented than invertebrates and fungi, despite the latter groups often being more functionally important for ecosystem services)."

@@ -1,0 +1,281 @@
+{/* source: EPA Center for Corporate Climate Leadership, Direct Emissions from Stationary Combustion Sources (December 2023), Sections 4-7; Direct Emissions from Mobile Combustion Sources (December 2023), Sections 5-8; Direct Fugitive Emissions (December 2023), Sections 4-7; GHG Protocol Corporate Standard, Chapter 6 */}
+
+You have calculated emissions from boilers, trucks, and AC units. Now comes the part that separates a credible inventory from a spreadsheet exercise: making sure your numbers are right, your sources are complete, and your units are not quietly sabotaging you.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-1-2/1_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## The Core Formula
+
+Every Scope 1 calculation - stationary, mobile, or fugitive - reduces to the same structure:
+
+<EquationBreakdown
+  title="GHG Emissions Calculation"
+  result="E | GHG Emissions | Total greenhouse gas emissions in mass units | blue"
+  inputs="AD | Activity Data | Quantitative measure of activity (e.g., litres of fuel, kg of refrigerant leaked) | green ;; EF | Emission Factor | Coefficient converting activity to emissions (e.g., kg CO2 per litre) | amber"
+/>
+
+For combustion sources, the activity data is fuel consumed and the emission factor converts fuel to CO2/CH4/N2O. For fugitive sources, the activity data is mass of gas leaked, and the "emission factor" is the GWP.
+
+Once you have emissions of each individual gas, you convert everything to a common currency:
+
+<EquationBreakdown
+  title="CO2 Equivalent Conversion"
+  result="CO2e | CO2 Equivalent | Climate impact expressed in tonnes of CO2 equivalent | blue"
+  inputs="m | Mass of Gas | Mass of the greenhouse gas released, in tonnes | green ;; GWP | Global Warming Potential | Relative warming impact vs CO2 over 100 years (e.g., CH4 = 28, SF6 = 23,500) | amber"
+/>
+
+This is why fugitive emissions punch above their weight. Half a tonne of HFC-134a leaked is only 500 kg of gas, but at a GWP of 1,430, that is 715 tonnes CO2e - equivalent to burning roughly 267,000 litres of diesel.
+
+<CalculationExercise
+  question="A refrigeration facility leaks 0.5 tonnes of HFC-134a during the year. HFC-134a has a GWP of 1,430. What is the CO2e emission from this leak?"
+  answer={715}
+  unit="tCO2e"
+  hints={["Multiply the mass of the gas by its GWP.", "0.5 t x 1,430 = ?"]}
+  solution="0.5 tonnes HFC-134a x 1,430 (GWP) = 715 tCO2e. This illustrates why fugitive HFC emissions can be significant even from small physical quantities."
+/>
+
+## Emission Factor Hierarchy: Which Number to Trust
+
+Not all emission factors are created equal. Use the best one available, following this hierarchy from most to least preferred:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Tier</th>
+      <th>Source</th>
+      <th>When to Use</th>
+      <th>Uncertainty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1. Site-specific CEMS</strong></td>
+      <td>Continuous monitoring at the stack</td>
+      <td>Large emitters with regulatory CEMS requirements</td>
+      <td>Lowest</td>
+    </tr>
+    <tr>
+      <td><strong>2. Site-specific fuel analysis</strong></td>
+      <td>Supplier certificate or lab test of your actual fuel</td>
+      <td>When the supplier provides carbon/heat content data</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td><strong>3. National defaults (EPA)</strong></td>
+      <td>EPA GHG Emission Factors Hub</td>
+      <td>U.S. operations using standard commercial fuels</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td><strong>4. International defaults (IPCC)</strong></td>
+      <td>IPCC Guidelines for National GHG Inventories</td>
+      <td>Non-U.S. operations, or fuels not covered by EPA</td>
+      <td>Highest</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+In practice, most corporate inventories use Tier 3 or Tier 4. That is fine for standard fuels like natural gas and diesel, where the default factors are well-characterised. But for variable fuels - coal, pet coke, waste-derived fuels - the difference between the default and your actual fuel can be 10-20%. For those fuels, push the client for a supplier certificate.
+
+## Activity Data Quality Tiers
+
+Your emission factor is only as good as the activity data feeding into it. Here is the hierarchy for fuel consumption data:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Tier</th>
+      <th>Data Source</th>
+      <th>Example</th>
+      <th>Reliability</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1. Direct metering</strong></td>
+      <td>Flow meters on the combustion device</td>
+      <td>Gas meter on a boiler feed line</td>
+      <td>Highest</td>
+    </tr>
+    <tr>
+      <td><strong>2. Purchase records</strong></td>
+      <td>Utility bills, fuel delivery invoices</td>
+      <td>Monthly natural gas bill in therms</td>
+      <td>Good (adjust for stock changes)</td>
+    </tr>
+    <tr>
+      <td><strong>3. Operating estimates</strong></td>
+      <td>Run hours x rated consumption</td>
+      <td>Backup generator: 200 hours x 15 litres/hour</td>
+      <td>Moderate</td>
+    </tr>
+    <tr>
+      <td><strong>4. Cost-based estimates</strong></td>
+      <td>Fuel cost / average price per unit</td>
+      <td>"We spent Rs 50 lakh on diesel last year"</td>
+      <td>Poor - avoid this</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+If a client says "we do not have fuel data, just the cost," push back. Contact the fuel supplier - they will have delivery records in litres or tonnes. Cost-based estimates introduce price volatility into what should be a physical measurement.
+
+<HighlightBox>
+**Practitioner Tip: Build the Documentary Trail from Day One**
+
+The numbers you report need traceable documentary evidence - invoices, delivery challans, meter readings, purchase orders. This may not seem critical during the calculation stage, but it becomes essential during assurance. Verifiers will ask "where did this number come from?" for every material source. Companies that don't maintain proper evidence trails from the start face a scramble when assurance time arrives. Also watch for completeness: fuels used passively or in small quantities (LPG for canteens, propane for forklifts) tend to be forgotten because they're not major procurement line items. Cross-check against the purchase ledger, not just memory.
+</HighlightBox>
+
+## The Unit Conversion Trap
+
+Unit conversion errors are the most common source of material mistakes in GHG inventories. They are also the most embarrassing, because they are entirely preventable. Here are the conversions that trip people up:
+
+**Energy units:**
+- 1 therm = 0.1 MMBtu (not 1 MMBtu - this 10x error is shockingly common)
+- 1 MMBtu = 1.055 GJ
+- 1 MWh = 3.6 GJ
+- 1 GJ = 0.9478 MMBtu
+
+**Volume and mass:**
+- 1 US gallon = 3.785 litres (not 4 - using round numbers costs you 5%)
+- 1 Imperial gallon = 4.546 litres (not the same as US gallons)
+- 1 short ton = 0.907 metric tonnes
+- 1 long ton = 1.016 metric tonnes
+
+**The HHV/LHV trap:**
+EPA emission factors are based on Higher Heating Value (HHV). Many countries (India, EU) report fuel energy in Lower Heating Value (LHV). If your activity data is in LHV-based energy units, you must convert before applying EPA factors. The correction: divide LHV energy by ~0.9 for natural gas, or ~0.95 for coal and petroleum products, to get HHV-equivalent.
+
+<AnalogyBox>
+Think of the HHV/LHV difference like gross vs net salary. HHV is the gross - total energy in the fuel including the energy locked up in water vapour from combustion. LHV is the net - what you actually capture as useful heat. EPA emission factors are calibrated to the gross number. If you feed them a net number, your emissions come out ~5-10% too low.
+</AnalogyBox>
+
+<HighlightBox>
+**Quick unit-check rule:** Before hitting "calculate," look at your answer and ask: "Does this pass the smell test?" A mid-size office building burning natural gas should be in the range of 100-500 tonnes CO2. A single delivery truck should be 5-15 tonnes CO2/year. If your number is 10x above or below these ranges, you almost certainly have a unit error.
+</HighlightBox>
+
+## The Three Most Common Errors (Expanded)
+
+### Error 1: Missing Sources
+
+This is the most damaging error because it creates a systematic undercount that is invisible in the spreadsheet.
+
+<ExampleBox>
+**United Technologies Corporation: The jet fuel surprise**
+
+In 1996, United Technologies (UTC) assembled a team to inventory its energy sources. They debated whether to include jet fuel, which was used across several divisions for engine testing and flight hardware trials. They decided to include it. Good call: jet fuel turned out to account for 9 to 13 percent of UTC's total annual energy use. Had they excluded it, a material emissions source would have been permanently invisible in their inventory.
+</ExampleBox>
+
+Sources commonly missed: backup diesel generators (run infrequently but hold significant fuel), propane forklifts (managed by warehouse, not facilities), rooftop gas-fired heaters, pilot lights on inactive flares, small LPG cylinders for canteen kitchens, company-owned boats at remote sites.
+
+**How to catch them:** Cross-check your source list against the facility's air permit, insurance records, fuel purchase ledgers, and equipment maintenance contracts. If a fuel type appears in any of those lists but not in your inventory, investigate.
+
+### Error 2: Wrong Emission Factor Tier
+
+Using a per-volume default factor when you have energy-unit data available, or applying IPCC defaults when EPA factors exist for that fuel. This does not just add uncertainty - it often introduces a systematic bias.
+
+**Example:** Natural gas emission factors per volume vary because gas composition differs by region. The per-energy factor (53.06 kg CO2/MMBtu) is nearly universal because it is tied to energy content, not composition. If you have consumption in MMBtu or GJ, always use the energy-based factor.
+
+### Error 3: Unit Conversion Errors
+
+Confusing therms with MMBtu (10x error), short tons with metric tonnes (10% error), gallons with litres (3.8x error), or applying LHV-based data to HHV-calibrated emission factors (5-10% error). These are pure arithmetic mistakes that compound across every source in the inventory.
+
+## Your Scope 1 Submission Checklist
+
+Before you submit the Scope 1 inventory, run through these ten checks:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Check</th>
+      <th>What to Look For</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>All fuel types captured</td>
+      <td>Cross-reference fuel purchase ledger against inventory source list. Every fuel type that was purchased should appear.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>All equipment included</td>
+      <td>Compare against air permits, insurance records, and maintenance contracts. Backup generators, forklifts, and small heaters are commonly missed.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Biomass CO2 separated</td>
+      <td>If any biomass or biofuel is used, confirm biomass CO2 is reported separately and excluded from the Scope 1 total.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Refrigerant inventory complete</td>
+      <td>Every AC unit, chiller, cold room, and fire suppression system is listed with refrigerant type and charge quantity.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Mobile source scope boundary correct</td>
+      <td>Only owned/controlled vehicles in Scope 1. Employee-owned vehicles in Scope 3.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Units are consistent</td>
+      <td>Emission factor units match activity data units. No mixing of litres/gallons, therms/MMBtu, short tons/metric tonnes.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>HHV/LHV alignment</td>
+      <td>If using EPA emission factors, confirm activity data is in HHV-based energy units. Convert from LHV if necessary.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>GWP values are from the correct source</td>
+      <td>Check which assessment report your reporting program requires (SAR, AR4, AR5). Using the wrong GWP changes fugitive emission totals significantly.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Year-over-year comparison done</td>
+      <td>Compare total Scope 1 against last year. Any change greater than 10% should have a documented explanation (production change, new facility, methodology change, or data error).</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Documentation is traceable</td>
+      <td>Every number in the inventory can be traced back to a source document (bill, invoice, meter reading, contractor record). If a verifier asks "where did this come from?" you can answer in under 60 seconds.</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+## Emission Factor Sources: Where to Find Them
+
+When you sit down to build an inventory, you need to know where to get your factors:
+
+- **EPA GHG Emission Factors Hub** - the primary source for U.S. operations. Updated periodically. Covers all major fossil fuels, refrigerants, and GWP values.
+- **IPCC Emission Factor Database (EFDB)** - international defaults for countries without national factors.
+- **India GHG Program** - India-specific factors for fuels common in Indian industry (furnace oil, pet coke, Indian coal grades).
+- **DEFRA Conversion Factors** - UK government factors, widely used in Commonwealth countries. Updated annually.
+- **Supplier certificates** - the best source for site-specific carbon content or calorific value. Always ask.
+
+<HighlightBox>
+**Practitioner Tip: Always Use the Latest Emission Factors**
+
+The most common emission factor mistake is not picking the wrong source - it is using an obsolete version. Here is the practical hierarchy for Indian companies:
+
+- **Scope 2 (grid electricity):** Use the CEA (Central Electricity Authority) CO2 Baseline Database. Updated annually, typically published around June/July. Always check for the latest version rather than reusing last year's factor.
+- **Scope 1 (combustion):** IPCC 2006 Guidelines are the standard. For specific fuel types not covered by IPCC, DEFRA conversion factors work as an alternative.
+- **GWP values:** Use the latest IPCC Assessment Report - currently AR6. The GWP factors are in the Chapter 7 supplementary documentation. Do not default to AR4 or AR5 values unless your reporting framework specifically requires them.
+- **Niche fuel sources:** When IPCC and DEFRA don't cover a specific fuel type, published research papers with documented emission factors are acceptable - but cite them clearly.
+
+The numbers between years may not change dramatically, but using the current publication matters for credibility and assurance.
+</HighlightBox>
+
+<DeepDive title="What is an Inventory Management Plan?">
+An Inventory Management Plan (IMP) is a document that records your methodology, data sources, emission factors, and assumptions for each source category and each reporting year. It is recommended by both the GHG Protocol and EPA guidance. The IMP ensures that when personnel change, the methodology survives the transition - and when a verifier asks "why did you use this factor?", the answer is already written down. Build one at the start of the engagement, not at the end.
+</DeepDive>
+
+<KeyTakeaways items="Every Scope 1 calculation reduces to Activity Data x Emission Factor - but getting both inputs right is where credibility lives ;; Use the emission factor hierarchy: site-specific CEMS or fuel analysis first, then national defaults (EPA), then international defaults (IPCC) ;; Activity data quality matters more than emission factor precision - push clients for physical records (litres, kg, kWh) instead of cost-based estimates ;; The three most common material errors are missing sources, wrong emission factor tier, and unit conversion mistakes - use the 10-point submission checklist to catch them ;; Before submitting, do a smell test: a mid-size office should be 100-500 tCO2, a single delivery truck 5-15 tCO2/year - if your number is 10x off, check your units ;; Build an Inventory Management Plan at the start of the engagement so methodology and assumptions are documented before personnel change" />

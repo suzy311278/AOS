@@ -1,0 +1,26 @@
+- question: "Under ESRS 1, when must a company include upstream and downstream value chain information in its sustainability statement?"
+  options:
+    - "Always, for all topics and all tiers of the value chain"
+    - "Only for Scope 3 GHG emissions and no other topics"
+    - "When material impacts, risks, and opportunities are connected to the company through its direct or indirect business relationships in the value chain"
+    - "Only when the company has more than 1,000 suppliers"
+  answer: 2
+  explanation: "ESRS 1 paragraph 63 states that the sustainability statement is extended to include value chain information connected to the company through its direct and indirect business relationships in the upstream or downstream value chain, but only in relation to the parts of the value chain for which the matter is material (ESRS 1 paragraph 64)."
+
+- question: "Under ESRS 1, what may a company use to estimate value chain information when it cannot collect the required data despite making reasonable efforts?"
+  options:
+    - "Internal financial projections and management estimates only"
+    - "Sector-average data and other proxies"
+    - "Data from competitors' sustainability reports"
+    - "The previous year's reported figures, carried forward"
+  answer: 1
+  explanation: "ESRS 1 paragraph 69 states that where a company cannot collect value chain information after making reasonable efforts, it shall estimate the information using all reasonable and supportable information, such as sector-average data and other proxies. ESRS 1 paragraph 71 notes this is particularly relevant for environmental metrics such as Scope 3 GHG emissions."
+
+- question: "ESRS 1 paragraph 62 requires that the sustainability statement shall be for the same reporting undertaking as which other document?"
+  options:
+    - "The company's tax return"
+    - "The annual general meeting report"
+    - "The financial statements"
+    - "The remuneration report"
+  answer: 2
+  explanation: "ESRS 1 paragraph 62 states that the sustainability statement shall be for the same reporting undertaking as the financial statements. If the reporting undertaking is a parent company required to prepare consolidated financial statements, the sustainability statement will be for the consolidated group."

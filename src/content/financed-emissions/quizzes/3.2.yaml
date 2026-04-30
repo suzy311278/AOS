@@ -1,0 +1,44 @@
+- question: "What distinguishes a Use of Proceeds (UoP) loan from a standard general-purpose business loan for PCAF accounting purposes?"
+  options:
+    - "UoP loans are always larger in size than business loans"
+    - "UoP loans have their proceeds contractually designated for specific activities or assets, triggering a look-through methodology"
+    - "UoP loans are only available to listed companies, while business loans serve private entities"
+    - "UoP loans always have a lower interest rate than equivalent business loans"
+  answer: 1
+  explanation: "The defining characteristic of a Use of Proceeds structure is that the funds are contractually tied to specific, identifiable activities or assets (e.g., a green bond to finance a solar farm). This triggers PCAF's look-through methodology: rather than attributing emissions at the company level using EVIC, the financial institution attributes emissions at the level of the specific underlying activity or asset funded."
+
+- question: "Under PCAF's look-through approach, a bank holds a green bond issued by a property company to finance the energy-efficient retrofit of 10 office buildings. Which PCAF chapter's methodology applies to calculate the financed emissions?"
+  options:
+    - "Chapter 5.1 — Listed Equity and Corporate Bonds (company-level EVIC attribution)"
+    - "Chapter 5.2 — Business Loans (total equity + debt of the property company)"
+    - "Chapter 5.4 — Commercial Real Estate (property value at origination, building energy consumption)"
+    - "Chapter 5.7 — Use of Proceeds (a unique formula specific to green bonds)"
+  answer: 2
+  explanation: "The look-through principle requires the financial institution to identify the underlying asset type and apply the relevant chapter's methodology. Since the proceeds fund commercial office buildings, Chapter 5.4 (Commercial Real Estate) methodology applies: the attribution denominator is the property value at origination, and the emissions are the buildings' energy consumption. There is no unique formula for green bonds; the formula is always derived from the underlying asset type."
+
+- question: "What should a financial institution report for the period between a green bond issuance and the full allocation of proceeds to specific projects?"
+  options:
+    - "The full notional value of the bond, attributed to the issuer's total corporate emissions using EVIC"
+    - "Zero emissions, since no projects have been funded yet"
+    - "Only emissions for the assets actually funded at the reporting date; unallocated proceeds held in liquid instruments are treated separately with minimal or zero emissions"
+    - "A weighted average of the issuer's corporate emissions and the target projects' emissions"
+  answer: 2
+  explanation: "PCAF recommends reporting emissions only for assets that have actually been funded at the reporting date. Proceeds not yet allocated (held in treasury instruments, cash, or temporary liquid assets) should be treated as a separate category with minimal or zero attributed emissions. The percentage of proceeds allocated vs. unallocated should be disclosed transparently."
+
+- question: "A bank arranges a 'green loan' for a wind farm developer, contractually linking the $200M facility to the construction of a specific offshore wind project. This falls under which PCAF asset class?"
+  options:
+    - "Business Loans and Unlisted Equity (Chapter 5.2), since the developer is a private company"
+    - "Use of Proceeds Structures (Chapter 5.7), and the look-through applies Project Finance methodology"
+    - "Listed Equity and Corporate Bonds (Chapter 5.1), since wind projects trade on green bond markets"
+    - "Sovereign Debt (Chapter 5.9), since wind energy is a public good"
+  answer: 1
+  explanation: "When a loan is contractually linked to a specific wind farm project and the proceeds have a defined use (construction of an offshore wind farm), it qualifies as a Use of Proceeds structure under Chapter 5.7. The look-through then applies Project Finance methodology (Chapter 5.3) for the underlying asset, since a wind farm is a defined infrastructure project with its own financing structure."
+
+- question: "How does the EU Taxonomy Regulation relate to Use of Proceeds structures in a financial institution's PCAF analysis?"
+  options:
+    - "The EU Taxonomy replaces PCAF for all UoP bond disclosures in the EU"
+    - "PCAF's look-through approach provides the activity-level data needed to assess taxonomy alignment for UoP instruments, making the two frameworks complementary"
+    - "EU Taxonomy compliance automatically assigns a Score 1 data quality rating under PCAF"
+    - "UoP bonds must be excluded from PCAF financed emissions if they are taxonomy-aligned"
+  answer: 1
+  explanation: "PCAF's look-through approach forces the financial institution to identify and analyse the specific underlying activities funded by each UoP instrument. This activity-level analysis is exactly what the EU Taxonomy Regulation also requires (assessing whether the activity meets the 'do no significant harm' and 'substantial contribution' criteria). The two frameworks are naturally complementary: the same data generated for PCAF financed emissions can inform the taxonomy alignment assessment."

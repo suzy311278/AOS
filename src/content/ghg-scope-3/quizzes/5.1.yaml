@@ -1,0 +1,26 @@
+- question: "What is the primary criterion for determining whether a Scope 3 category is 'relevant' and must be included in the inventory?"
+  options:
+    - "The category must be easy to calculate with available data"
+    - "The category must be significant in size OR expected by key stakeholders"
+    - "The category must be required by the company's industry regulator"
+    - "The category must be reported by more than 50% of competitors"
+  answer: 1
+  explanation: "The standard defines relevance as significant in size OR expected by stakeholders. A category cannot be excluded simply because it is difficult to measure — if it is likely significant, it must be included even if only with a rough estimate."
+
+- question: "A company determines that Category 14 (Franchises) does not apply to its business because it has no franchise operations. What should it do?"
+  options:
+    - "Leave the category blank in its inventory without any comment"
+    - "Include a zero with a note explaining it has no franchise operations"
+    - "Report the industry average for its sector in Category 14"
+    - "Redistribute potential Category 14 emissions proportionally across other categories"
+  answer: 1
+  explanation: "The standard requires companies to evaluate all 15 categories. For excluded categories, the company must document its justification — in this case noting it has no franchise model. Simply leaving it blank without explanation does not meet the transparency and completeness requirements."
+
+- question: "Which concept describes the preferred approach to setting the Scope 3 boundary when one activity could span multiple categories?"
+  options:
+    - "Economic allocation across all relevant categories"
+    - "Subdividing activities so each portion is attributed to the most appropriate single category"
+    - "Including the activity in the upstream category only"
+    - "Excluding ambiguous activities until categorisation is confirmed"
+  answer: 1
+  explanation: "The standard prefers subdivision — physically separating activities so each part clearly belongs to one category — over allocation. Where subdivision is not feasible, allocation using physical or economic bases is applied."

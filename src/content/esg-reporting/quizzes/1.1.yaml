@@ -1,0 +1,26 @@
+- question: "Why do consulting firms typically structure their ESG data collection templates around GRI indicators, even when the client plans to reference other standards like SASB or IFRS?"
+  options:
+    - "GRI is the only legally recognized reporting standard"
+    - "GRI is the most comprehensive framework and most other standards can be mapped back to its indicators"
+    - "GRI is the easiest standard to comply with"
+    - "Other standards do not have their own data requirements"
+  answer: 1
+  explanation: "GRI covers the widest range of sustainability topics and has strong interoperability with other frameworks. Most SASB, IFRS, CDP, and BRSR requirements can be mapped to GRI indicators. This makes GRI the practical base layer for data collection - you collect once against GRI and then map to other standards as needed."
+
+- question: "A financial services company is selecting GRI topic standards for their first sustainability report. Which combination of topics is most appropriate for their sector?"
+  options:
+    - "GRI 302 (Energy), 303 (Water), 305 (Emissions), 306 (Waste)"
+    - "GRI 205 (Anti-corruption), 401 (Employment), 418 (Customer Privacy)"
+    - "All available GRI topic standards to demonstrate comprehensive reporting"
+    - "Only GRI Universal Standards, skipping all topic standards"
+  answer: 1
+  explanation: "GRI's flexibility allows companies to select topics that are material to their business. A financial services firm typically has minimal direct environmental impact but significant governance and social topics. Anti-corruption, employment practices, and customer privacy are far more material than water or waste for this sector."
+
+- question: "What is the key distinction between GRI as a reporting framework and ESG rating agencies like MSCI?"
+  options:
+    - "GRI covers more topics than rating agencies assess"
+    - "GRI tells you what to disclose, while rating agencies evaluate whether your performance is good or bad"
+    - "Rating agencies are voluntary while GRI is mandatory"
+    - "GRI only applies to environmental topics"
+  answer: 1
+  explanation: "GRI is a transparency framework - it tells you what to disclose but does not judge whether your performance is acceptable. A company can report terrible environmental performance and still be 'in accordance' with GRI. Rating agencies like MSCI score and rank companies on their actual performance. The two serve fundamentally different purposes."

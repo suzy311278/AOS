@@ -1,0 +1,26 @@
+- question: "An airline advertises that its transatlantic flights are 'CO2 neutral' because it purchases carbon offsets for all flights. Under which regulatory body's jurisdiction is this claim most likely to face formal challenge in the United Kingdom?"
+  options:
+  - "The Financial Conduct Authority (FCA)"
+  - "The UK Advertising Standards Authority (ASA)"
+  - "The Competition and Markets Authority (CMA)"
+  - "The Environment Agency"
+  answer: 1
+  explanation: "The UK Advertising Standards Authority (ASA) has jurisdiction over advertising and marketing claims, including environmental claims. The ASA has issued a series of high-profile rulings against airlines and fossil fuel companies for carbon neutral claims that could not be substantiated, finding that claims like 'CO2 neutral flights' were misleading where the actual offset proportion was small relative to total emissions. The ASA's enforcement powers cover broadcast and non-broadcast media advertising, including digital and social media."
+
+- question: "The EU Green Claims Directive, agreed in principle in 2024, introduced which specific requirement that makes product-level 'carbon neutral' claims substantially harder to make across the European Union?"
+  options:
+  - "All carbon credit purchases must be pre-approved by the ICVCM before a claim can be made"
+  - "Environmental claims must be substantiated by a standardised Life Cycle Assessment (LCA) pre-approved by an accredited body before consumer-facing use"
+  - "Companies must retire credits equivalent to 120% of stated emissions to account for uncertainty"
+  - "Only removal credits from CORSIA-eligible programs may be used to support environmental claims"
+  answer: 1
+  explanation: "The EU Green Claims Directive requires that environmental claims (including carbon neutrality claims) be substantiated by a standardised Life Cycle Assessment following ISO 14040/44 methodology, reviewed and pre-approved by an accredited conformity assessment body, before the claim can appear in consumer-facing communications. This pre-approval requirement is significantly more stringent than the post-hoc complaint mechanisms used by the ASA and FTC, because it requires substantiation before the claim is made rather than investigating complaints after."
+
+- question: "A company's sustainability report states: 'We are a net zero company. In 2024 we purchased 450,000 carbon credits equivalent to our annual Scope 1 and 2 emissions.' Which of the following makes this claim most defensible?"
+  options:
+  - "Including the word 'net zero' signals alignment with the Paris Agreement, which makes the claim inherently credible"
+  - "Nothing: product-level and company-level claims of this type are now prohibited under EU law"
+  - "Providing full disclosure of the credit type, project, vintage, registry, quality rating, emissions scope covered, and the company's ongoing reduction trajectory with near-term targets"
+  - "Limiting the claim to Scope 1 emissions only rather than combining Scopes 1 and 2"
+  answer: 2
+  explanation: "Defensible environmental claims rest on specificity, transparency, and separation of credit use from genuine reduction progress. A claim becomes substantially more defensible when it discloses exactly which credits were purchased (type, project, vintage, registry), what quality standards they meet, which emission scopes they cover, and how credit use fits within a declining trajectory of own-value-chain emissions toward a science-based target. Simply using terminology like 'net zero' without these disclosures increases rather than decreases regulatory and reputational risk under current ASA, FTC, and EU Green Claims Directive frameworks."

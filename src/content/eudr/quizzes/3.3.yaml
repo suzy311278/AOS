@@ -1,0 +1,26 @@
+- question: "Which article of the EUDR authorizes the Commission to classify parts of countries differently from the national classification?"
+  options:
+    - "Article 9(1)(d)"
+    - "Article 29(3)"
+    - "Article 14"
+    - "Article 3"
+  answer: 1
+  explanation: "Article 29(3) explicitly authorizes sub-national benchmarking, allowing the Commission to assign risk classifications to specific regions or provinces within a country separately from the national classification."
+
+- question: "What is 'deforestation displacement' in the context of sub-national benchmarking?"
+  options:
+    - "The movement of deforestation monitoring data between EU databases"
+    - "The relocation of EU competent authority checks to different Member States"
+    - "The shift of production from high-risk sub-national zones to lower-risk zones rather than reduction in deforestation overall"
+    - "The reassignment of a commodity from one risk tier to another"
+  answer: 2
+  explanation: "Deforestation displacement refers to the risk that producers shift their activities to sub-nationally designated lower-risk areas to benefit from reduced EUDR scrutiny, moving deforestation rather than reducing it. This is monitored through the EU Observatory's satellite data."
+
+- question: "What is required for an operator to benefit from a lower-risk sub-national classification within a standard-risk country?"
+  options:
+    - "A letter of confirmation from the country's ministry of agriculture"
+    - "An independent third-party audit of the production area"
+    - "Geolocation data precise enough to assign the production to the specific lower-risk sub-national region"
+    - "A certification from an EU-recognized sustainability standard"
+  answer: 2
+  explanation: "To claim the benefit of a sub-national classification, operators must be able to prove through their traceability data (specifically plot-level GPS coordinates) that their products originate from the designated lower-risk zone. Without that geographic precision, they default to the higher applicable classification."

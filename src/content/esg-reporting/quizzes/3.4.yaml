@@ -1,0 +1,26 @@
+- question: "When checking GHG emissions data before including it in the report, which of the following is NOT part of the GHG inventory sanity check?"
+  options:
+    - "Verifying that Scope 1 subcategories sum to the reported Scope 1 total"
+    - "Confirming which emission factors and GHG Protocol approach were used"
+    - "Comparing the company's emissions intensity against the industry average"
+    - "Checking that the gases included (CO2, CH4, N2O, etc.) are clearly noted"
+  answer: 2
+  explanation: "The GHG inventory sanity check focuses on internal accuracy: boundaries are defined, sources are listed, methodology is stated, gases are noted, and breakups add up to totals. Comparing against industry averages is a benchmarking exercise, not a data sanity check."
+
+- question: "A report shows 5,000 male employees and 3,000 female employees, but lists total headcount as 8,500. What is the correct response?"
+  options:
+    - "Accept it since the difference is small enough to be a rounding error"
+    - "Stop and investigate - either there is a missing category that accounts for the 500, or the numbers are wrong"
+    - "Average the discrepancy across both categories"
+    - "Use the total of 8,500 since it came from a different data source"
+  answer: 1
+  explanation: "Totals must equal the sum of their parts. If there is a difference, either a category is missing (such as non-binary employees or undisclosed) that should be explicitly shown, or the data contains an error. Never proceed with numbers that do not add up."
+
+- question: "What is the recommended approach for timing sanity checks during an ESG reporting engagement?"
+  options:
+    - "Run all checks at the end when the full dataset is available"
+    - "Only check data that will appear in the executive summary"
+    - "Run checks every time new data arrives - immediate checks when received, detailed checks before using in the report, and cross-checks during final QA"
+    - "Delegate all checking to the assurance provider"
+  answer: 2
+  explanation: "Running sanity checks progressively - at each stage from data receipt through final QA - catches errors early when they are easy to correct. Waiting until the end makes corrections painful and time-consuming, and risks publishing errors."

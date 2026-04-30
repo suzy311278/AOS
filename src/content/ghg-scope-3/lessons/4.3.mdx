@@ -1,0 +1,129 @@
+{/* source: Scope3_Calculation_Guidance_0[1].pdf, Category 15 (pp. 136-151) */}
+
+**Category 15 — Investments** covers GHG emissions associated with the reporting company's investments in the reporting year, not already included in Scope 1 or Scope 2. This is the principal Scope 3 category for **financial institutions** - banks, insurance companies, pension funds, asset managers, and private equity firms - where financed emissions often represent 99% or more of total GHG impact.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-3/4_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Who Does Category 15 Apply To?
+
+Category 15 applies to any company that makes investments:
+
+- **Banks and lenders**: Corporate loans, project finance, mortgages
+- **Asset managers**: Equity portfolios, bond portfolios
+- **Pension funds and sovereign wealth funds**: Long-term equity and debt holdings
+- **Insurance companies**: Underwriting portfolios and investment portfolios
+- **Industrial companies**: Equity stakes in joint ventures, subsidiaries, and minority investments
+- **Private equity firms**: Portfolio company ownership
+
+## Types of Investments Covered
+
+The standard covers five types of financial products:
+
+1. **Equity investments** (shares and ownership stakes)
+2. **Debt investments** (corporate bonds, loans)
+3. **Project finance** (financing specific assets: power plants, buildings, mines)
+4. **Managed investments and client services** (assets under management for third-party clients)
+5. **Other financial investments**
+
+## The Core Calculation Principle: Attribution
+
+The fundamental challenge in Category 15 is **attribution** - how much of an investee company's total emissions should be attributed to the investor? The GHG Protocol uses the concept of **proportional ownership**: the investor claims the fraction of the investee's emissions equal to their ownership share (for equity) or their loan share (for debt).
+
+### Equity Investments
+
+<EquationBreakdown
+  title="Category 15 - Equity Investments"
+  result="E<sub>equity</sub> | Financed Emissions (Equity) | Investor's attributed share of investee emissions from equity holdings, in tCO₂e | blue"
+  inputs="Equity<sub>owned</sub> | Equity Owned | Value of equity held by the investor in the investee company | green ;; Equity<sub>total</sub> | Total Investee Equity | Total equity capitalisation of the investee company | amber ;; E<sub>investee</sub> | Investee Emissions | Investee's total Scope 1 + Scope 2 emissions, in tCO₂e | violet"
+  operator="(÷) then ×"
+/>
+
+### Debt Investments (Loans and Bonds)
+
+<EquationBreakdown
+  title="Category 15 - Debt Investments"
+  result="E<sub>debt</sub> | Financed Emissions (Debt) | Investor's attributed share of investee emissions from debt holdings, in tCO₂e | blue"
+  inputs="Debt<sub>outstanding</sub> | Outstanding Loan/Bond | Value of the investor's outstanding loan or bond holding | green ;; (D+E)<sub>total</sub> | Total Debt + Equity | Total capital structure (debt plus equity) of the investee company | amber ;; E<sub>investee</sub> | Investee Emissions | Investee's total Scope 1 + Scope 2 emissions, in tCO₂e | violet"
+  operator="(÷) then ×"
+/>
+
+This is the **PCAF (Partnership for Carbon Accounting Financials)** attribution approach, which extends and operationalises the GHG Protocol Category 15 guidance for financial institutions.
+
+<HighlightBox>
+PCAF (Partnership for Carbon Accounting Financials) is the leading standard for Category 15 calculation by financial institutions. PCAF provides asset-class-specific methodologies for measuring and disclosing financed emissions, and is formally endorsed as consistent with the GHG Protocol Scope 3 Standard. Over 500 financial institutions representing &gt;$70 trillion in assets had adopted PCAF standards as of 2024.
+</HighlightBox>
+
+For the full PCAF methodology covering all six asset classes, data quality scoring, and worked examples, see our dedicated [Financed Emissions course](/courses/financed-emissions/0_2).
+
+## Worked Example
+
+<CalculationExercise
+  question="A bank has a £10 million loan to a manufacturing company. The manufacturer has total equity + debt of £200 million and annual Scope 1+2 emissions of 50,000 tCO₂e. What are the bank's Category 15 financed emissions from this loan?"
+  answer={2500}
+  unit="tCO₂e"
+  hints={["Attribution factor = £10m loan / £200m total equity+debt = 5% = 0.05.", "Financed emissions = 0.05 × 50,000 tCO₂e = ?", "0.05 × 50,000 = 2,500 tCO₂e."]}
+  solution="Attribution factor = £10m / £200m = 5%. Financed emissions = 5% × 50,000 tCO₂e = 2,500 tCO₂e. This represents the bank's proportional share of the borrower's emissions, tied to the bank's funding of the borrower's capital structure."
+/>
+
+## Data Availability Challenges
+
+The primary challenge for financial institutions is obtaining emissions data for investees, particularly:
+
+- **Private companies**: Do not publicly disclose Scope 1/2 emissions; no mandatory disclosure in many jurisdictions
+- **SME borrowers**: Rarely have formal GHG inventories
+- **Sovereign bonds**: Require country-level GHG inventories
+- **Real estate mortgages**: Require energy performance certificates for individual properties
+
+The PCAF standard provides a **data quality scoring system** (1 = highest quality, 5 = lowest quality) that financial institutions use to communicate the reliability of their financed emissions estimates alongside the absolute numbers.
+
+## Sector Relevance
+
+Category 15 transforms the climate risk calculation for financial institutions:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Institution Type</th>
+      <th>Category 15 vs. Scope 1+2</th>
+      <th>Key Exposure</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Commercial bank</td>
+      <td>&gt;700× Scope 1+2</td>
+      <td>Fossil fuel lending, heavy industry loans</td>
+    </tr>
+    <tr>
+      <td>Asset manager</td>
+      <td>&gt;1,000× Scope 1+2</td>
+      <td>Equity holdings in energy, materials, utilities</td>
+    </tr>
+    <tr>
+      <td>Pension fund</td>
+      <td>&gt;2,000× Scope 1+2</td>
+      <td>Long-term equity and infrastructure investments</td>
+    </tr>
+    <tr>
+      <td>Insurance (underwriting)</td>
+      <td>Significant</td>
+      <td>Insurance of fossil fuel operations</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+## Net Zero for Finance
+
+Financial institution net-zero commitments (e.g., through the Glasgow Financial Alliance for Net Zero - GFANZ) rely entirely on Category 15 measurement. These commitments require banks and investors to:
+- Measure financed emissions across all asset classes
+- Set intermediate 2030 targets aligned with 1.5°C pathways
+- Engage with high-emitting portfolio companies on transition plans
+- Phase out financing of new fossil fuel development
+
+<DeepDive title="Scope 3 Category 15 and the TNFD - biodiversity financed impacts">
+Analogous to financed emissions, the **Taskforce on Nature-related Financial Disclosures (TNFD)** framework (released 2023) requires financial institutions to assess and disclose their **financed nature impacts** - the biodiversity, water, and land use impacts of their lending and investment portfolios. Just as PCAF operationalises GHG Protocol Category 15, sector-specific TNFD guidance is emerging to operationalise financed nature impact assessment. Financial institutions are increasingly expected to disclose both financed emissions and financed nature impacts as part of comprehensive sustainability reporting.
+</DeepDive>
+
+<KeyTakeaways items="Category 15 covers financed emissions from investments - the principal Scope 3 category for banks, asset managers, pension funds, and insurers ;; Financed emissions for a commercial bank can exceed 700x its own Scope 1+2, making Category 15 the dominant climate impact for financial institutions ;; Attribution uses proportional ownership: the investor claims their equity share (or loan share of total capital) of the investee's Scope 1+2 emissions ;; PCAF provides asset-class-specific methodologies and a data quality scoring system (1-5) for measuring and disclosing financed emissions ;; Net-zero finance commitments (e.g., GFANZ) depend entirely on Category 15 measurement - requiring portfolio-level targets, engagement with high emitters, and fossil fuel phase-out" />

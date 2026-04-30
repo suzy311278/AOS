@@ -1,0 +1,44 @@
+- question: "A company's total minimum-boundary scope 3 emissions are 800,000 tCO2e. To satisfy C6, what is the minimum tonnage that must be covered by the company's collective near-term scope 3 targets?"
+  options:
+    - "400,000 tCO2e (50%)"
+    - "480,000 tCO2e (60%)"
+    - "536,000 tCO2e (67%)"
+    - "640,000 tCO2e (80%)"
+  answer: 2
+  explanation: "C6 requires that collective scope 3 targets cover at least 67% of total reported and excluded scope 3 emissions. 67% of 800,000 = 536,000 tCO2e. This coverage can be achieved through a combination of emission reduction targets on specific categories and supplier or customer engagement targets under C19. The 67% applies to minimum-boundary scope 3 emissions only."
+
+- question: "Under C19, a company formulates the following supplier engagement target: 'We will work collaboratively with our key strategic suppliers on climate action over the next five years.' Does this satisfy C19's formulation requirement?"
+  options:
+    - "Yes, because it specifies a five-year timeframe consistent with C19"
+    - "No, because it does not specify what percentage of emissions or spend is covered by the engagement target"
+    - "Yes, because engaging key suppliers on climate is the intent of C19"
+    - "No, because C19 only permits downstream customer engagement targets, not upstream supplier targets"
+  answer: 1
+  explanation: "C19's formulation requirement states that companies must provide information in the target language on what percentage of emissions from relevant categories is covered, or -- if emissions data is unavailable -- what percentage of annual procurement spend is covered. Vague language about 'working with key suppliers' without a specific percentage does not satisfy this requirement. The target also fails to specify that suppliers must have SBTi-aligned science-based targets, which is the C19 ambition requirement."
+
+- question: "C19 requires that the company's suppliers covered by an engagement target shall have science-based emission reduction targets in line with what standard?"
+  options:
+    - "Any internal carbon reduction target set by the supplier"
+    - "CDP disclosure with a science-based target score of B or above"
+    - "The latest version of the SBTi Corporate Near-Term Criteria"
+    - "The Paris Agreement's nationally determined contribution (NDC) for the supplier's home country"
+  answer: 2
+  explanation: "C19's ambition level requirement is that the company's suppliers and/or customers shall have science-based emission reduction targets in line with the latest version of the SBTi Corporate Near-Term Criteria. It is not sufficient for suppliers to have any target or to disclose emissions -- they must have targets aligned with the same SBTi framework. R9 notes that actual SBTi validation of supplier targets is recommended but not required."
+
+- question: "A food company has total scope 3 emissions of 1,500,000 tCO2e. It sets: (A) a supplier engagement target covering 60% of category 1 emissions (900,000 tCO2e x 60% = 540,000 tCO2e), and (B) an absolute reduction target on category 11 (150,000 tCO2e). What is the combined coverage percentage, and does it satisfy C6?"
+  options:
+    - "36% -- does not satisfy C6"
+    - "46% -- does not satisfy C6"
+    - "56% -- does not satisfy C6"
+    - "69% -- satisfies C6"
+  answer: 2
+  explanation: "Target A covers 540,000 tCO2e (60% of 900,000). Target B covers 150,000 tCO2e. Combined = 690,000 tCO2e. As a percentage of total scope 3 (1,500,000): 690,000 / 1,500,000 = 46%. This does not meet C6's 67% threshold (which would require 1,005,000 tCO2e). The company needs additional targets covering at least another 315,000 tCO2e to satisfy C6."
+
+- question: "What is the key difference between the ambition standard required for scope 3 emission reduction targets (C18) compared to scope 1 and 2 targets (C15)?"
+  options:
+    - "Scope 3 targets must be 1.5C aligned, the same as scope 1 and 2 targets"
+    - "Scope 3 emission reduction targets must be at minimum well-below 2C aligned, while scope 1 and 2 targets must be at minimum 1.5C aligned"
+    - "Scope 3 targets have no minimum ambition requirement -- any reduction target qualifies"
+    - "Scope 1 and 2 targets must be well-below 2C aligned, while scope 3 must be 1.5C aligned"
+  answer: 1
+  explanation: "C15 requires scope 1 and 2 near-term targets to be at minimum 1.5C aligned. C18 sets a lower minimum bar for scope 3 emission reduction targets: at minimum well-below 2C aligned. This difference reflects the practical difficulty of directly controlling value chain emissions compared to operational emissions. Companies are encouraged to aim for higher ambition, but well-below 2C is the validation floor for scope 3 reduction targets."

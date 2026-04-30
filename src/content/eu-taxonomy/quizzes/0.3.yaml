@@ -1,0 +1,17 @@
+- question: "Which KPI captures a company's transition investment?"
+  options:
+    - "Turnover KPI"
+    - "CapEx KPI"
+    - "OpEx KPI"
+    - "Green Asset Ratio"
+  answer: 1
+  explanation: "The CapEx KPI includes investment in assets and plans to become taxonomy-aligned, making it the forward-looking transition indicator."
+
+- question: "What is the Green Asset Ratio?"
+  options:
+    - "The proportion of a company's revenue from green products"
+    - "The proportion of taxonomy-aligned exposures in a bank's covered assets"
+    - "The ratio of green bonds to total bonds issued"
+    - "The percentage of renewable energy in a company's energy mix"
+  answer: 1
+  explanation: "The GAR is the key taxonomy KPI for banks, measuring what proportion of their covered loan book is taxonomy-aligned."

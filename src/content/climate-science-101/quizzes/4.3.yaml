@@ -1,0 +1,26 @@
+- question: "What reduction in global CO₂ emissions by 2030 does the IPCC AR6 say is required to limit warming to 1.5°C?"
+  options:
+    - "Approximately 10% reduction relative to 2019 levels"
+    - "Approximately 25% reduction relative to 2019 levels"
+    - "Approximately 43% reduction relative to 2019 levels"
+    - "Approximately 70% reduction relative to 2019 levels"
+  answer: 2
+  explanation: "IPCC AR6 WGIII found that limiting warming to 1.5°C requires global CO₂ emissions to peak before 2025 and decline by approximately 43% by 2030 relative to 2019 levels, before reaching net zero CO₂ in the early 2050s. Pathways consistent with 2°C allow a somewhat slower trajectory, requiring a 25% reduction by 2030."
+
+- question: "By approximately how much did the cost of solar photovoltaic electricity fall between 2010 and 2019, according to IPCC AR6 WGIII?"
+  options:
+    - "Approximately 15%"
+    - "Approximately 40%"
+    - "Approximately 65%"
+    - "Approximately 85%"
+  answer: 3
+  explanation: "IPCC AR6 WGIII reports that between 2010 and 2019, the cost of solar PV electricity fell by approximately 85%, wind power by 55%, and lithium-ion battery storage by 85%. These dramatic cost declines have fundamentally changed the economics of decarbonization, making clean energy competitive with or cheaper than fossil fuels in many markets."
+
+- question: "Why do virtually all 1.5°C pathways include carbon dioxide removal (CDR) in addition to steep emissions reductions?"
+  options:
+    - "CDR is needed to compensate for hard-to-abate residual emissions from sectors such as aviation, shipping, and cement"
+    - "CDR replaces the need for emissions reductions in the energy sector, which is too difficult to decarbonize"
+    - "CDR is only required to offset emissions from agriculture and is not needed for other sectors"
+    - "CDR is a precautionary measure with no real impact on temperature outcomes"
+  answer: 0
+  explanation: "The IPCC SR1.5 found that CDR is needed in all 1.5°C pathways because some sectors (aviation, shipping, cement production, agriculture) have hard-to-abate residual emissions that cannot realistically reach zero by mid-century. CDR compensates for these residual emissions. However, the IPCC consistently cautions that CDR should not be used as a reason to delay near-term emissions reductions."

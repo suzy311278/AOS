@@ -1,0 +1,26 @@
+- question: "What does the baseline scenario represent in a VM0042 project?"
+  options:
+  - "The target outcome the project aims to achieve"
+  - "The continuation of pre-project farming practices — business as usual without the carbon project"
+  - "The worst-case scenario for carbon loss"
+  - "The average GHG emissions across all similar farms in the region"
+  answer: 1
+  explanation: "The baseline scenario is the counterfactual — it represents what would have continued to happen on this land without the carbon project. Carbon credits are the difference between project and baseline performance."
+
+- question: "How often must VM0042 project baselines be reassessed?"
+  options:
+  - "Every year"
+  - "Every 3 years"
+  - "Every 10 years (or every 5 years where regional practices change rapidly)"
+  - "Never — the initial baseline applies for the entire project lifetime"
+  answer: 2
+  explanation: "VM0042 requires baseline reassessment every 10 years (or every 5 years where regional production practices change and/or data becomes available to update the baseline). This ensures the baseline reflects current agricultural practices in the region."
+
+- question: "When multiple values are available for a baseline parameter, which should you choose according to the conservativeness principle?"
+  options:
+  - "The average of all available values"
+  - "The highest value to maximise credits"
+  - "The value that results in the lowest expected emissions in the baseline scenario"
+  - "The most recent value"
+  answer: 2
+  explanation: "The conservativeness principle requires selecting the value that gives the lowest emissions (or highest SOC stocks) in the baseline scenario. This is the most conservative approach — it results in fewer credits but ensures no over-claiming."

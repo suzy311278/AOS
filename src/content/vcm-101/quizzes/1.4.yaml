@@ -1,0 +1,26 @@
+- question: "During the 30-day public comment period for a VCS project, who can submit comments and what must happen to those comments?"
+  options:
+    - "Only accredited VVBs can submit comments; comments are addressed confidentially between the VVB and Verra"
+    - "Any member of the public can submit comments; all comments must be entered into the Verra Registry and addressed by the project developer"
+    - "Only directly affected local communities can submit comments; unresolved comments block registration permanently"
+    - "Only government bodies can submit comments; all approved comments are incorporated into the PDD automatically"
+  answer: 1
+  explanation: "The public comment period is open to any stakeholder, including NGOs, researchers, and community members. All comments received must be entered into the Verra Registry and addressed by the project developer and validating VVB. This transparent mechanism allows independent scrutiny of project documentation before registration."
+
+- question: "What is the difference between 'retirement' and 'cancellation' of a VCU?"
+  options:
+    - "Retirement is permanent; cancellation is temporary and the VCU can be re-issued after two years"
+    - "Retirement permanently cancels a VCU with a climate claim by the retiring entity; cancellation permanently removes VCUs without conferring any climate claim, used for buffer account compensation or compliance penalties"
+    - "Retirement applies to VCUs from AFOLU projects; cancellation applies to VCUs from energy projects"
+    - "There is no difference; retirement and cancellation are interchangeable terms in the VCS system"
+  answer: 1
+  explanation: "When a VCU is retired, the retiring entity makes a specific climate claim associated with that retirement, for example, offsetting a year's emissions. When VCUs are cancelled (from the buffer account to compensate for a reversal, or as a penalty), they are permanently removed from circulation but no party claims the associated emission reduction. Both are irreversible, but only retirement creates an auditable climate claim."
+
+- question: "Which VVB governance rule prevents the same VVB from both validating and immediately verifying the same project?"
+  options:
+    - "VVBs must rotate after every project completion, regardless of timeline"
+    - "The validating VVB cannot also perform the first verification of the same project, reducing conflicts of interest"
+    - "VVBs must be headquartered in a different country from the project they are assessing"
+    - "Only government-accredited VVBs can perform validation; only NGO-accredited VVBs can perform verification"
+  answer: 1
+  explanation: "To reduce conflicts of interest, the VCS Program requires that the VVB conducting the first verification of a project must be different from the VVB that performed validation. This prevents a validating VVB from having an incentive to overlook design flaws it approved in the PDD when it comes to verifying actual performance."

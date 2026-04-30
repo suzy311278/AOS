@@ -1,0 +1,26 @@
+- question: "According to the World Bank State and Trends of Carbon Pricing (2024), approximately what share of global greenhouse gas emissions is covered by carbon pricing instruments worldwide?"
+  options:
+  - "About 5% of global emissions"
+  - "About 24% of global emissions"
+  - "About 50% of global emissions"
+  - "About 75% of global emissions"
+  answer: 1
+  explanation: "The World Bank's 2024 report found that over 75 carbon pricing instruments now cover approximately 24% of global GHG emissions — a significant increase from roughly 7% in 2012, but still leaving the large majority of global emissions unpriced. This coverage gap is one of the key justifications for CBAM."
+
+- question: "China operates the world's largest emissions trading system by volume of covered emissions. What is its approximate carbon price as of 2024, and why does this matter for CBAM?"
+  options:
+  - "Approximately €70/tCO₂ — equivalent to the EU ETS, so Chinese exporters can claim significant CBAM deductions"
+  - "Approximately €12/tCO₂ — much lower than the EU ETS, so Chinese exporters can claim only modest CBAM deductions and face substantial remaining CBAM liability"
+  - "Zero — China's ETS only covers power sector installations and does not result in any actual carbon payments by producers"
+  - "Approximately €40/tCO₂ — half the EU ETS level, resulting in a 50% CBAM deduction for all Chinese exporters"
+  answer: 1
+  explanation: "China's national ETS price is approximately CNY 90-100/tCO₂, which at current exchange rates is roughly €12/tCO₂ — far below the EU ETS level of €60-80/tCO₂. This means Chinese exporters of CBAM-covered goods can claim only modest deductions and face substantial remaining CBAM liability. Additionally, China's ETS currently covers only power sector installations, not the industrial facilities that produce CBAM goods like steel and aluminium, which further limits applicable deductions."
+
+- question: "Which of the following best describes how CBAM functions as an incentive for global carbon pricing adoption?"
+  options:
+  - "CBAM requires all countries exporting to the EU to implement a carbon price equivalent to the EU ETS within five years or face trade sanctions"
+  - "By creating financial liability for CBAM-covered exports proportional to the gap between the EU ETS price and any domestic carbon price, CBAM makes it financially attractive for exporting countries to raise their domestic carbon price — reducing their exporters' CBAM burden"
+  - "CBAM redistributes 10% of certificate revenues to developing countries as an incentive to adopt carbon pricing"
+  - "CBAM automatically exempts any country that ratifies the Paris Agreement from certificate obligations"
+  answer: 1
+  explanation: "CBAM creates a financial incentive for exporting countries to adopt or raise their own domestic carbon prices because doing so reduces their exporters' CBAM liability at the EU border. Every €1/tonne CO₂ of domestic carbon price reduces the CBAM charge by €1/tonne. Countries with no carbon price effectively subsidise the CBAM — they collect no domestic carbon revenue while their exporters face the full EU ETS-equivalent charge at the EU border."

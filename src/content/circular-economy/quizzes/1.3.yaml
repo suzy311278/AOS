@@ -1,0 +1,26 @@
+- question: "What does the EU Ecodesign for Sustainable Products Regulation (ESPR 2024) primarily represent compared to the earlier Ecodesign Directive of 2009?"
+  options:
+    - "A narrower regulation focused solely on energy efficiency for appliances"
+    - "An extension of ecodesign from energy-related products to a comprehensive sustainability framework for virtually all physical goods"
+    - "A voluntary certification scheme for companies that adopt circular design"
+    - "A recycling target framework replacing the Waste Framework Directive"
+  answer: 1
+  explanation: "The ESPR transforms the 2009 Ecodesign Directive from a narrow energy-efficiency framework into a comprehensive sustainability regulation covering durability, repairability, recycled content, recyclability, and more - applicable to virtually all physical goods on the EU market."
+
+- question: "The Digital Product Passport (DPP) mandated by ESPR is designed to serve multiple stakeholders. Which of the following best describes its key function?"
+  options:
+    - "It replaces the product warranty and insurance documentation"
+    - "It provides differentiated access to product lifecycle information for consumers, repairers, recyclers, and regulators"
+    - "It serves as a marketing tool for sustainable product claims"
+    - "It is a government database tracking all products sold in the EU"
+  answer: 1
+  explanation: "The DPP provides differentiated access: consumers see environmental performance and repairability; repairers access disassembly instructions; recyclers see material composition; customs authorities verify compliance. Different stakeholders get the specific information they need."
+
+- question: "What share of a product's environmental impact is typically determined at the design stage, according to the lesson?"
+  options:
+    - "20%"
+    - "50%"
+    - "80%"
+    - "95%"
+  answer: 2
+  explanation: "Up to 80% of a product's environmental impact is determined at the design stage. Once a product is manufactured, options for improving its circularity are dramatically limited, making design the highest-leverage intervention point in the circular economy."

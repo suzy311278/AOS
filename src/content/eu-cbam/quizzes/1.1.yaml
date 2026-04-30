@@ -1,0 +1,26 @@
+- question: "Which of the following goods would NOT trigger CBAM obligations when imported into the EU in the definitive period?"
+  options:
+  - "Portland cement (CN 2523 21)"
+  - "Aluminium foil (CN 7607)"
+  - "Stainless steel cutlery (CN 8215)"
+  - "Urea fertiliser (CN 3102 10)"
+  answer: 2
+  explanation: "Stainless steel cutlery (CN 8215) is a downstream manufactured product. CBAM applies to the goods listed in Annex I of the CBAM Regulation — primarily basic materials and precursors — not to finished products that incorporate those materials. Portland cement, aluminium foil, and urea are all listed in Annex I and are directly subject to CBAM."
+
+- question: "Article 30 of the CBAM Regulation requires the European Commission to review CBAM's scope. What is the primary purpose of this review requirement?"
+  options:
+  - "To assess whether the EU ETS free allocation phase-out is proceeding on schedule"
+  - "To evaluate whether additional sectors and goods should be brought within CBAM scope, based on carbon leakage risk and administrative feasibility"
+  - "To determine whether CBAM should be extended to exports from the EU as well as imports"
+  - "To assess whether the CBAM certificate price should be adjusted to reflect purchasing power parity in exporting countries"
+  answer: 1
+  explanation: "Article 30 of the CBAM Regulation requires the Commission to submit a report by 31 December 2025 assessing whether CBAM's scope should be extended to additional goods and sectors. The review considers carbon leakage risk for uncovered goods, administrative feasibility, and interaction with free allocation phase-out. Potential future sectors include chemicals, polymers, glass, and downstream goods with high CBAM-material content."
+
+- question: "Why are iron ore pellets considered a 'precursor' good under CBAM Annex I?"
+  options:
+  - "Because they are produced using cement as an input, linking them to another CBAM sector"
+  - "Because they are themselves a CBAM-listed good used as an input in the production of other CBAM goods (iron and steel), so their embedded emissions must be incorporated into the final steel product's total embedded emissions"
+  - "Because they are exempt from CBAM when imported as raw materials but subject to CBAM when processed"
+  - "Because they contain embedded hydrogen emissions that flow into the downstream steel product"
+  answer: 1
+  explanation: "Iron ore pellets (or sinter) are themselves listed in CBAM Annex I and are used as a key input in iron and steel production. As a precursor material, the emissions embedded in their production must be tracked and incorporated into the total embedded emissions of the steel products they are used to make. This prevents a producer from bypassing CBAM by claiming the steel's emissions are lower than they actually are."

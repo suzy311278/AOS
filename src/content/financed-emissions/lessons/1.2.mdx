@@ -1,0 +1,155 @@
+{/* source: PCAF Standard Part A (3rd Edition), Chapter 5 (Introduction) */}
+
+At the heart of every financed emissions calculation is the **attribution formula**. This formula determines what share of a borrower's or investee's total emissions can be associated with a specific financial institution. Mastering this formula and its variations across asset classes is the single most important technical skill in financed emissions accounting.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/financed-emissions/1_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## The Core Formula
+
+The general formula for calculating financed emissions is:
+
+<EquationBreakdown
+  title="Financed Emissions - Core Formula"
+  result="FE | Financed Emissions | Total GHG emissions attributed to the financial institution across all borrowers and investees, summed using Σ, in tCO₂e | blue"
+  inputs="AF<sub>c</sub> | Attribution Factor | Outstanding Amount / Company Value for each borrower or investee c (see below) | green ;; E<sub>c</sub> | Company Emissions | Annual GHG emissions of borrower or investee c, in tCO₂e | amber"
+/>
+
+Where the Attribution Factor is:
+
+<EquationBreakdown
+  title="Attribution Factor - General Formula"
+  result="AF | Attribution Factor | The financial institution's proportional share of a borrower's emissions, expressed as a ratio between 0 and 1 | blue"
+  inputs="Outstanding Amount | Outstanding Amount | The capital deployed by the financial institution (loan balance, equity holding, or bond position) | green ;; Company Value | Company Value | The total financing structure of the borrower or investee (EVIC for listed companies, total equity + debt for private companies, or other denominator by asset class) | amber"
+  operator="÷"
+/>
+
+This formula has three components:
+
+1. **Outstanding Amount (Numerator)**: The capital that the financial institution has deployed to the borrower or investee. For a loan, this is the disbursed amount minus any repayments. For equity, this is the value of the equity holding.
+
+2. **Company Value (Denominator)**: The total financing structure of the borrower or investee. The specific denominator varies by asset class (EVIC for listed companies, total equity + debt for private companies, property value for real estate, etc.).
+
+3. **Company Emissions**: The annual GHG emissions of the borrower or investee, expressed in tCO2e.
+
+<HighlightBox>
+The attribution factor is always a ratio between 0 and 1 (or 0% to 100%). It represents the financial institution's proportional claim on the borrower's financing structure. If a bank provides 10% of a company's total funding, it is attributed 10% of that company's emissions.
+</HighlightBox>
+
+## The "Follow the Money" Principle
+
+The attribution factor operationalises PCAF's fundamental principle: **follow the money**. Capital flows from the financial institution to the borrower or investee. That capital enables real-world economic activity, which in turn generates emissions. The attribution factor traces that chain backwards, assigning a proportional share of emissions to the capital provider.
+
+<AnalogyBox>
+Imagine a restaurant with three investors. Investor A owns 50% of the equity, Investor B owns 30%, and Investor C owns 20%. If the restaurant produces 100 tonnes of CO2e per year (from cooking gas, electricity, food waste, etc.), the attribution would be:
+
+Investor A: 50 tCO2e
+Investor B: 30 tCO2e
+Investor C: 20 tCO2e
+
+The total attributed emissions (100 tCO2e) equal the restaurant's actual emissions. No emissions are created or destroyed by the attribution process; they are simply allocated to the capital providers in proportion to their financial stake.
+</AnalogyBox>
+
+## Two Key Denominators
+
+The choice of denominator is the most important variable in the attribution formula. PCAF prescribes two primary denominators depending on whether the borrower or investee is a listed or unlisted company:
+
+### EVIC (Enterprise Value Including Cash): For Listed Companies
+
+EVIC is defined as the sum of:
+- Market capitalisation of ordinary shares at fiscal year end
+- Market capitalisation of preferred shares at fiscal year end
+- Book value of total debt (both current and long-term)
+- Minorities' interests
+
+No deductions of cash or cash equivalents are made. This avoids the possibility of negative enterprise values.
+
+<DeepDive title="Why EVIC, Not Market Cap?">
+Using market capitalisation alone as the denominator would exclude debt providers from the attribution. A company financed 80% by debt and 20% by equity would attribute all emissions to the equity holders, unfairly ignoring the debt providers whose capital equally enables the company's operations.
+
+EVIC captures both equity and debt, ensuring that all capital providers are attributed their fair share. PCAF aligned its EVIC definition with the EU Technical Expert Group (EU TEG) to maximise consistency across European regulatory frameworks.
+
+When specific elements of EVIC (such as minority interests or certain debt components) are not readily available, financial institutions may exclude them as long as the exclusion follows the **precautionary principle**: "If in doubt, err on the side of the planet, not the side of the company." Excluding components makes the denominator smaller, which increases the attribution factor and the reported financed emissions. This conservative approach is intentional.
+</DeepDive>
+
+### Total Equity + Debt: For Private Companies
+
+For business loans and equity investments in private companies, the denominator is the sum of **total company equity and total debt** from the client's balance sheet. This approximates EVIC for companies without publicly traded shares.
+
+If the total equity value according to the client's balance sheet is negative (which can happen for startups with accumulated losses), the financial institution shall set total equity to zero. This means all emissions are attributed to debt providers only.
+
+<ExampleBox>
+**Worked example: Attribution factor calculation**
+
+A bank holds a $50 million loan in a private manufacturing company. The company's balance sheet shows:
+- Total equity: $120 million
+- Total debt: $180 million
+- Total equity + debt: $300 million
+
+**Attribution factor** = $50M / $300M = **16.7%**
+
+If the company reports annual emissions of 200,000 tCO2e:
+
+**Financed emissions** = 16.7% × 200,000 = **33,333 tCO2e**
+
+Now compare: if the same bank holds a $50 million bond position in a listed company with an EVIC of $5 billion:
+
+**Attribution factor** = $50M / $5,000M = **1.0%**
+
+If the listed company reports annual emissions of 2,000,000 tCO2e:
+
+**Financed emissions** = 1.0% × 2,000,000 = **20,000 tCO2e**
+
+The significantly lower attribution factor for the listed company reflects the fact that the bank's $50 million stake represents a much smaller fraction of the total capital structure.
+</ExampleBox>
+
+## Outstanding Amount Definitions
+
+The numerator (outstanding amount) varies depending on the type of financial exposure:
+
+**For loans (debt)**: The outstanding amount is the value of the debt that the borrower owes to the lender, namely the disbursed amount minus any repayments. It declines over time as the borrower repays the loan, reaching zero at maturity.
+
+**For equity (unlisted)**: The outstanding amount is calculated as:
+
+<EquationBreakdown
+  title="Outstanding Amount - Unlisted Equity"
+  result="OA | Outstanding Amount | The financial institution's equity stake value in the unlisted company | blue"
+  inputs="Share Ratio | Ownership Share | Number of shares held by the FI divided by total shares of the investee | green ;; Total Equity | Total Equity of Investee | The investee company's total equity from its balance sheet | amber"
+/>
+
+This captures the financial institution's proportional equity stake, valued at book value.
+
+**For listed equity**: The outstanding amount is the market value of the equity holding at fiscal year end.
+
+**For bonds**: The outstanding amount is the book value of the bond position at fiscal year end.
+
+Financial institutions should use either the calendar year-end or financial year-end outstanding amount, provided the approach is communicated and applied consistently.
+
+## Aggregating Across Portfolios
+
+The total financed emissions for a financial institution are calculated by summing the attributed emissions across all individual loans and investments:
+
+<EquationBreakdown
+  title="Total Financed Emissions - Portfolio Aggregation"
+  result="Total FE | Total Financed Emissions | Sum of attributed emissions across all individual loans and investments in the portfolio, in tCO₂e | blue"
+  inputs="AF<sub>c</sub> | Attribution Factor | Outstanding Amount / Company Value for each borrower or investee c | green ;; E<sub>c</sub> | Company Emissions | Annual GHG emissions of borrower or investee c, in tCO₂e | amber"
+/>
+
+Where c represents each individual borrower or investee company.
+
+This summation produces the financial institution's total financed emissions, which can then be disaggregated by:
+- Asset class (listed equity, business loans, project finance, etc.)
+- Sector (energy, manufacturing, real estate, etc.)
+- Geography (country, region)
+- Emission scope (Scope 1, 2, and 3 of borrowers/investees)
+
+<HighlightBox>
+When a financial institution lends to or invests in a **subsidiary** of a larger entity, the attribution should be calculated at the subsidiary level according to the "follow the money" principle, if the subsidiary's balance sheet information is available. If not, the financial institution should use the total balance sheet of the entity to which it has recourse for repayment.
+</HighlightBox>
+
+## Timing Considerations
+
+PCAF requires that financial institutions use the **most recent available data** for both the outstanding amount and the company emissions. Ideally, both should reference the same fiscal year. In practice, emissions data often lags financial data by one or two years, which means the most recent available emissions may correspond to a prior year.
+
+Financial institutions should be transparent about any lag between the financial data and the emissions data, and should strive to minimise this gap over time.
+
+<KeyTakeaways items="The core formula is: Financed Emissions = Attribution Factor x Company Emissions, where Attribution Factor = Outstanding Amount / Company Value ;; EVIC (Enterprise Value Including Cash) is the denominator for listed companies - it includes market cap, preferred shares, total debt, and minority interests with no cash deduction ;; Total equity plus debt from the balance sheet serves as the denominator for private companies - set equity to zero if negative ;; Outstanding amounts vary by instrument type: disbursed minus repayments for loans, market value for listed equity, book value for bonds ;; When lending to a subsidiary, calculate attribution at the subsidiary level if its balance sheet is available" />

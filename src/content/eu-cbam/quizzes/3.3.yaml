@@ -1,0 +1,26 @@
+- question: "What is the primary function of the Authorisation Management Module (AMM) within the CBAM Registry?"
+  options:
+    - "Calculating the price of CBAM certificates based on EU ETS auction results"
+    - "Handling applications for authorised declarant status, including NCA review and status updates"
+    - "Cross-referencing customs import data with CBAM declarations to identify discrepancies"
+    - "Processing the surrender of CBAM certificates against declared embedded emissions"
+  answer: 1
+  explanation: "The Authorisation Management Module (AMM) handles the entire authorisation lifecycle: applications from importers or customs representatives for authorised declarant status, review by National Competent Authorities (NCAs), status updates, and revocations. Without a valid AMM authorisation, no importer may bring CBAM goods above the 50-tonne threshold into the EU from 2026."
+
+- question: "What happens at an EU border crossing when a shipment of CBAM goods arrives under the definitive regime?"
+  options:
+    - "The importer must present a paper certificate to the customs official before the goods are unloaded"
+    - "The customs authority manually checks a quarterly list of authorised declarants published by the Commission"
+    - "An automated customs declaration triggers a real-time query to the CBAM Registry to verify the declarant's authorisation"
+    - "The goods are held in a bonded warehouse until the importer submits the required CBAM report"
+  answer: 2
+  explanation: "The CBAM Registry integrates in real time with national customs import systems, TARIC, and the EU Customs Single Window. When a customs declaration is submitted for CBAM goods, the system automatically queries the CBAM Registry to verify that the declarant holds a valid authorisation. If no valid authorisation is found, the goods cannot be released into free circulation."
+
+- question: "What is the purpose of the Data Reconciliation for Monitoring and Control (DRMC) module in the CBAM Registry?"
+  options:
+    - "It allows declarants to revise their embedded emission calculations after import"
+    - "It cross-references customs import data with CBAM declarations to identify discrepancies and potential circumvention"
+    - "It calculates the applicable CBAM certificate price based on the daily EU ETS spot price"
+    - "It manages the repurchase of excess CBAM certificates held by declarants"
+  answer: 1
+  explanation: "The DRMC module is the compliance and oversight tool. It cross-references data from national customs systems (recording what was actually imported) against the annual CBAM declarations submitted by declarants. Discrepancies identified by DRMC can trigger further investigation by NCAs and the Commission, helping to detect under-declaration of embedded emissions or potential circumvention."

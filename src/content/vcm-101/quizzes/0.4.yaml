@@ -1,0 +1,26 @@
+- question: "The Clean Development Mechanism (CDM) was established under which international agreement?"
+  options:
+    - "The Paris Agreement (2015)"
+    - "The Kyoto Protocol (1997)"
+    - "The UN Framework Convention on Climate Change (1992)"
+    - "The Montreal Protocol (1987)"
+  answer: 1
+  explanation: "The CDM was one of three 'flexibility mechanisms' created by the Kyoto Protocol, adopted in 1997. It allowed industrialised (Annex I) countries with binding emission reduction targets to earn Certified Emission Reduction (CER) credits by financing projects in developing countries."
+
+- question: "What was the primary criticism of the CDM that contributed to its loss of credibility and eventual market collapse?"
+  options:
+    - "CER credits were too expensive, making them inaccessible to most companies"
+    - "The CDM only accepted credits from renewable energy projects, excluding nature-based solutions"
+    - "Additionality standards were inconsistently applied, with a significant proportion of credits representing reductions that would have occurred anyway"
+    - "The UN registry system was technically unreliable and prone to double-counting errors"
+  answer: 2
+  explanation: "Academic studies and investigative reporting found that a substantial share of CDM credits did not represent genuinely additional reductions. Industrial gas destruction projects were particularly criticised for incentivising the production of pollutants precisely to earn credits for destroying them. This integrity failure was a primary driver of CDM's declining credibility."
+
+- question: "Which event most directly triggered the resurgence of voluntary carbon market demand after 2015?"
+  options:
+    - "The collapse of CER prices in the EU ETS, which drove demand toward voluntary alternatives"
+    - "The adoption of the Paris Agreement and the subsequent wave of corporate net-zero commitments"
+    - "The launch of Verra's new REDD+ methodology, which provided cheaper credits"
+    - "Gold Standard's decision to lower its certification requirements to attract more projects"
+  answer: 1
+  explanation: "The Paris Agreement (December 2015) created a universal framework where all countries committed to climate targets. This, combined with the spread of corporate net-zero pledges and Science Based Targets, generated new demand for voluntary carbon credits from companies seeking to address residual emissions. VCM transaction values grew from roughly $300 million in 2018 to approximately $2 billion by 2021."

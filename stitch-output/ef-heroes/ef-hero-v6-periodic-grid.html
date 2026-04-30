@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Greentryst | Emission Factor Library</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "background": "#f8faf9",
+                      "on-background": "#191c1c",
+                      "tertiary-container": "#005f2f",
+                      "on-tertiary-fixed": "#00210c",
+                      "tertiary": "#004520",
+                      "surface-container-low": "#f2f4f3",
+                      "primary-fixed-dim": "#8cd4ca",
+                      "error-container": "#ffdad6",
+                      "surface-tint": "#1a6962",
+                      "on-primary-fixed-variant": "#00504a",
+                      "surface-dim": "#d8dada",
+                      "tertiary-fixed-dim": "#4ae183",
+                      "surface": "#f8faf9",
+                      "secondary-fixed": "#d0e7e6",
+                      "primary": "#00433d",
+                      "tertiary-fixed": "#6bfe9c",
+                      "surface-container-high": "#e6e9e8",
+                      "surface-bright": "#f8faf9",
+                      "on-surface-variant": "#3f4947",
+                      "surface-container-highest": "#e1e3e2",
+                      "primary-container": "#005c55",
+                      "on-primary-container": "#8ad2c8",
+                      "on-secondary-fixed": "#0a1f1f",
+                      "surface-container": "#eceeed",
+                      "on-surface": "#191c1c",
+                      "inverse-surface": "#2e3131",
+                      "on-secondary": "#ffffff",
+                      "on-tertiary": "#ffffff",
+                      "on-tertiary-container": "#48df82",
+                      "on-secondary-fixed-variant": "#364a4a",
+                      "on-primary": "#ffffff",
+                      "outline-variant": "#bec9c6",
+                      "on-secondary-container": "#546868",
+                      "secondary-fixed-dim": "#b5cbca",
+                      "inverse-primary": "#8cd4ca",
+                      "error": "#ba1a1a",
+                      "primary-fixed": "#a7f0e6",
+                      "on-error-container": "#93000a",
+                      "on-primary-fixed": "#00201d",
+                      "secondary": "#4e6262",
+                      "secondary-container": "#d0e7e6",
+                      "surface-container-lowest": "#ffffff",
+                      "surface-variant": "#e1e3e2",
+                      "on-tertiary-fixed-variant": "#005228",
+                      "outline": "#6f7977",
+                      "inverse-on-surface": "#eff1f0",
+                      "on-error": "#ffffff"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "fontFamily": {
+                      "headline": ["Inter"],
+                      "body": ["Inter"],
+                      "label": ["JetBrains Mono"]
+              }
+            },
+          }
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+        .dot-grid {
+            background-image: radial-gradient(rgba(0, 92, 85, 0.15) 1px, transparent 0);
+            background-size: 24px 24px;
+        }
+        .teal-glow {
+            box-shadow: 0 0 25px rgba(140, 212, 202, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-[#0a1a1a] text-white selection:bg-primary-container selection:text-white antialiased overflow-x-hidden">
+<!-- Top Navigation -->
+<nav class="fixed top-0 w-full flex justify-between items-center px-8 py-4 bg-[#f8faf9]/0 z-50">
+<div class="flex items-center gap-12">
+<span class="text-xl font-bold tracking-tighter text-white">Greentryst</span>
+<div class="hidden md:flex gap-6 items-center">
+<a class="text-[13px] text-white/70 hover:text-white transition-colors duration-200 font-medium" href="#">Tools</a>
+<a class="text-[13px] text-white/70 hover:text-white transition-colors duration-200 font-medium" href="#">Guides</a>
+<a class="text-[13px] text-white/70 hover:text-white transition-colors duration-200 font-medium" href="#">Learn</a>
+<a class="text-[13px] text-white/70 hover:text-white transition-colors duration-200 font-medium" href="#">Community</a>
+<a class="text-[13px] text-white/70 hover:text-white transition-colors duration-200 font-medium" href="#">About</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<a class="text-[13px] text-white/70 hover:text-white font-medium" href="#">Ask AI</a>
+<button class="bg-[#005c55] text-white px-5 py-2 rounded-full text-[13px] font-bold hover:bg-[#007a70] transition-colors">Sign In</button>
+</div>
+</nav>
+<!-- Accent Header Line -->
+<div class="fixed top-[72px] left-0 w-full h-[1px] bg-[#005c55]/30 z-40"></div>
+<!-- Main Hero Section -->
+<main class="relative pt-32 pb-12 px-8 min-h-screen dot-grid flex flex-col justify-between">
+<div class="max-w-[1440px] mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Hero Copy & Periodic Grid -->
+<div class="lg:col-span-8 flex flex-col gap-12">
+<!-- Headline Group -->
+<div class="space-y-3">
+<p class="text-[11px] font-bold tracking-[0.2em] text-white/50 uppercase">EMISSION FACTOR LIBRARY · 2026 EDITION</p>
+<h1 class="text-5xl font-extrabold tracking-tight text-white leading-tight">Every factor. Mapped.</h1>
+<p class="text-[13px] text-white/60 mono">Curated. Sourced. Dated. Free.</p>
+</div>
+<!-- Periodic Table Grid -->
+<div class="grid grid-cols-10 gap-2 w-fit">
+<!-- Standard Tile Generator Loop (Mocking 50 tiles) -->
+<!-- Tile 1 -->
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5 hover:border-primary-container transition-all cursor-crosshair">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">DF</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.412</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Diesel</span>
+</div>
+<!-- Tile 2 -->
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">IP</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">1.284</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Petro</span>
+</div>
+<!-- UK GRID Special Tile (2x Size) -->
+<div class="col-span-2 row-span-2 w-[136px] h-[136px] rounded-md bg-[#11201f] p-3 flex flex-col justify-between border border-[#8cd4ca]/40 teal-glow relative group">
+<div class="flex justify-between items-start">
+<span class="mono text-[10px] text-primary-container font-black">EP</span>
+<span class="material-symbols-outlined text-[14px] text-[#8cd4ca]" data-icon="north_east">north_east</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="mono text-2xl text-[#8cd4ca] font-bold tracking-tighter">0.207</span>
+<span class="text-[8px] text-[#8cd4ca] mono uppercase tracking-widest mt-1">kgCO2e/kWh</span>
+</div>
+<span class="text-[10px] text-white font-bold uppercase tracking-wider">UK GRID ELECT.</span>
+</div>
+<!-- More Tiles -->
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">EP</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.052</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Wind</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">CE</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">2.689</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Coal</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">MR</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.115</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Rail</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">US</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.923</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Steel</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">IE</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.033</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Hydro</span>
+</div>
+<!-- Row 2 Fillers -->
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">CE</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">4.120</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Gas</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">MR</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.021</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Ship</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">US</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">1.500</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Alum</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">DF</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.822</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">LPG</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">IP</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.334</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Ethanol</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">EP</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.012</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Solar</span>
+</div>
+<!-- Row 3 -->
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">IE</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.245</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Geoth</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">DF</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">1.102</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Jet A1</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">IP</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.005</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Nuc</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">EP</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.298</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">US Grid</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">CE</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.550</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Cement</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">MR</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.120</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Road</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">US</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">1.920</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Meat</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">IE</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.334</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Paper</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">DF</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.450</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Waste</span>
+</div>
+<div class="w-16 h-16 rounded-md bg-[#11201f] p-1.5 flex flex-col justify-between border border-white/5">
+<span class="mono text-[8px] text-primary-container font-bold leading-none">IP</span>
+<span class="mono text-[10px] text-[#8cd4ca] text-center font-medium">0.112</span>
+<span class="text-[8px] text-white/50 uppercase font-medium truncate leading-none">Wood</span>
+</div>
+</div>
+<!-- Publisher Wordmarks -->
+<div class="flex flex-wrap gap-x-12 gap-y-6 pt-12 items-center opacity-30 grayscale invert">
+<span class="font-black text-xl tracking-tighter">IPCC</span>
+<span class="font-bold text-lg">EPA</span>
+<span class="font-medium text-lg">IEA</span>
+<span class="font-black text-xl italic">DEFRA</span>
+<span class="font-bold text-lg">Ecoinvent</span>
+<span class="font-medium text-lg">ADEME</span>
+<span class="font-black text-lg">GLEC</span>
+<span class="font-bold text-lg">CLIMATIQS</span>
+</div>
+</div>
+<!-- Sidebar Controls -->
+<div class="lg:col-span-4 flex flex-col gap-10 items-end">
+<!-- Search Component -->
+<div class="w-[280px] bg-white rounded-2xl p-1 flex items-center shadow-2xl">
+<input class="flex-grow px-4 py-2 text-[13px] text-slate-900 border-none focus:ring-0 placeholder:text-slate-400" placeholder="Search 211,651 factors" type="text"/>
+<button class="bg-[#005c55] p-2 rounded-xl flex items-center justify-center hover:bg-[#00433d] transition-colors">
+<span class="material-symbols-outlined text-white text-[20px]" data-icon="search">search</span>
+</button>
+</div>
+<!-- Legend Box -->
+<div class="w-[280px] space-y-4">
+<h3 class="text-[10px] font-bold text-white/40 uppercase tracking-widest mono">Filter Methodology</h3>
+<div class="space-y-3">
+<div class="flex items-center gap-3">
+<div class="w-2 h-2 rounded-full bg-[#8cd4ca]"></div>
+<span class="text-[12px] text-white/80 font-medium">Location-based</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-2 h-2 rounded-full bg-primary-container"></div>
+<span class="text-[12px] text-white/80 font-medium">Market-based</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-2 h-2 rounded-full bg-white/20"></div>
+<span class="text-[12px] text-white/60 font-medium">Activity-based</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-2 h-2 rounded-full border border-primary-container"></div>
+<span class="text-[12px] text-white/60 font-medium">Combined margin</span>
+</div>
+</div>
+</div>
+<!-- Contextual Tooltip Mockup -->
+<div class="w-[280px] bg-[#1a2a2a] rounded-xl p-4 border border-white/5 space-y-3">
+<div class="flex justify-between items-start">
+<span class="mono text-[10px] text-primary-container font-bold">SOURCE REPORT</span>
+<span class="text-[10px] text-white/40 mono">ID: EF-992-K</span>
+</div>
+<p class="text-[12px] leading-relaxed text-white/90">Electricity grid emission factors for United Kingdom, including T&amp;D losses. Based on 2025 published DEFRA data.</p>
+<div class="pt-2 flex gap-4">
+<div class="flex flex-col">
+<span class="text-[9px] text-white/40 mono">CERTAINTY</span>
+<span class="text-[11px] text-[#4ae183] mono font-bold">HIGH (σ 0.02)</span>
+</div>
+<div class="flex flex-col">
+<span class="text-[9px] text-white/40 mono">EXPIRES</span>
+<span class="text-[11px] text-white/80 mono">DEC 2026</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Stats Strip -->
+<div class="mt-20 border-t border-white/5 pt-8">
+<div class="max-w-[1440px] mx-auto w-full flex justify-between items-center text-[11px] mono tracking-tight text-white/60">
+<div class="flex gap-8">
+<span><strong class="text-white">211,651</strong> factors</span>
+<span><strong class="text-white">41</strong> primary sources</span>
+<span><strong class="text-white">4</strong> reporting frameworks</span>
+<span><strong class="text-white">0</strong> hallucinations</span>
+</div>
+<div class="flex gap-4 items-center">
+<span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-[#4ae183] animate-pulse"></span> Systems Nominal</span>
+<span class="text-white/30">|</span>
+<span>v4.0.2-LTS</span>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full px-8 py-12 flex flex-col md:flex-row justify-between items-center bg-[#f2f4f3] dark:bg-[#0a1a1a] border-t border-[#e6e9e8]/15">
+<div class="flex flex-col gap-2">
+<span class="text-lg font-black text-[#00433d] dark:text-[#005c55]">Greentryst</span>
+<p class="text-[10px] mono text-slate-500 dark:text-slate-400 uppercase tracking-tighter">© 2024 Greentryst. The Sovereign Analyst Operating Environment.</p>
+</div>
+<div class="flex gap-8 mt-6 md:mt-0">
+<a class="text-[11px] mono text-slate-500 dark:text-slate-400 hover:text-[#005c55] transition-colors" href="#">Privacy Policy</a>
+<a class="text-[11px] mono text-slate-500 dark:text-slate-400 hover:text-[#005c55] transition-colors" href="#">Terms of Service</a>
+<a class="text-[11px] mono text-slate-500 dark:text-slate-400 hover:text-[#005c55] transition-colors" href="#">Carbon Methodology</a>
+<a class="text-[11px] mono text-slate-500 dark:text-slate-400 hover:text-[#005c55] transition-colors" href="#">API Documentation</a>
+</div>
+</footer>
+</body></html>

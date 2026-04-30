@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Greentryst Sustainability Jobs Directory | Arboreal Ledger</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Space+Grotesk:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-variant": "#d1e8dc",
+                        "tertiary-fixed-dim": "#b3cdb7",
+                        "error": "#ba1a1a",
+                        "secondary-fixed-dim": "#a0d1bc",
+                        "on-surface-variant": "#404943",
+                        "inverse-on-surface": "#dff6ea",
+                        "on-secondary-fixed": "#002116",
+                        "on-background": "#0b1f18",
+                        "tertiary": "#364d3c",
+                        "on-primary-fixed": "#002114",
+                        "primary": "#0f5238",
+                        "secondary-fixed": "#bcedd7",
+                        "primary-container": "#2d6a4f",
+                        "surface-bright": "#e7fff3",
+                        "inverse-primary": "#95d4b3",
+                        "outline": "#707973",
+                        "error-container": "#ffdad6",
+                        "on-primary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "on-secondary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-dim": "#c8dfd4",
+                        "tertiary-container": "#4d6553",
+                        "on-secondary-container": "#3e6b5a",
+                        "background": "#e7fff3",
+                        "surface-container-highest": "#d1e8dc",
+                        "on-error": "#ffffff",
+                        "on-secondary-fixed-variant": "#214f3f",
+                        "outline-variant": "#bfc9c1",
+                        "secondary-container": "#b9ead4",
+                        "surface-container-low": "#e2f9ed",
+                        "on-surface": "#0b1f18",
+                        "on-primary-fixed-variant": "#0e5138",
+                        "surface-container": "#dcf3e7",
+                        "primary-fixed": "#b1f0ce",
+                        "inverse-surface": "#21342c",
+                        "on-tertiary-container": "#c6e1ca",
+                        "tertiary-fixed": "#cee9d3",
+                        "on-tertiary-fixed": "#092012",
+                        "surface": "#e7fff3",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed-dim": "#95d4b3",
+                        "on-tertiary-fixed-variant": "#354c3b",
+                        "surface-container-high": "#d6eee2",
+                        "secondary": "#396756",
+                        "on-primary-container": "#a8e7c5",
+                        "surface-tint": "#2c694e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter"],
+                        "body": ["Inter"],
+                        "label": ["Space Grotesk"],
+                        "mono": ["JetBrains Mono"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+            vertical-align: middle;
+        }
+        .job-row-hover:hover {
+            background-color: rgba(45, 106, 79, 0.04);
+            box-shadow: inset 3px 0 0 0 #2d6a4f;
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-[#e7fff3] dark:bg-[#0b1f18] text-[#0f5238] dark:text-[#b9ead4]">
+<div class="flex justify-between items-center px-8 py-4 max-w-[1440px] mx-auto relative">
+<div class="flex items-center gap-8">
+<span class="text-xl font-bold tracking-tighter text-[#0f5238] dark:text-[#e7fff3]">Arboreal Ledger</span>
+<nav class="hidden md:flex gap-6 items-center">
+<a class="text-[#0f5238] dark:text-[#ffffff] border-b-2 border-[#0f5238] dark:border-[#b9ead4] pb-1 font-semibold" href="#">Directory</a>
+<a class="text-[#21342c]/70 dark:text-[#e7fff3]/70 hover:text-[#0f5238] dark:hover:text-[#ffffff] transition-colors" href="#">Analysis</a>
+<a class="text-[#21342c]/70 dark:text-[#e7fff3]/70 hover:text-[#0f5238] dark:hover:text-[#ffffff] transition-colors" href="#">Network</a>
+<a class="text-[#21342c]/70 dark:text-[#e7fff3]/70 hover:text-[#0f5238] dark:hover:text-[#ffffff] transition-colors" href="#">Reporting</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="px-4 py-2 text-sm font-medium hover:bg-[#d1e8dc]/50 dark:hover:bg-[#2d6a4f]/20 rounded-md transition-all">Sign In</button>
+<button class="bg-primary text-on-primary px-4 py-2 rounded font-medium hover:opacity-90 transition-all">Post a Job</button>
+</div>
+<div class="bg-[#e2f9ed] dark:bg-[#21342c] h-[1px] w-full block absolute bottom-0 opacity-20"></div>
+</div>
+</header>
+<main class="pt-24 min-h-screen">
+<!-- Hero Section -->
+<section class="bg-surface-container-lowest px-12 py-16">
+<div class="max-w-[1440px] mx-auto">
+<p class="font-mono text-xs uppercase tracking-widest text-primary-container mb-4">Career Directory</p>
+<h1 class="text-[36px] font-bold tracking-tight text-on-background leading-tight mb-4">Sustainability jobs, curated for practitioners.</h1>
+<p class="text-lg text-on-surface-variant max-w-3xl mb-8 leading-relaxed">
+                    Expert-verified roles across carbon markets, climate risk, and sustainable infrastructure within the Arboreal ecosystem.
+                </p>
+<div class="flex gap-8 items-center border-t border-outline-variant/20 pt-6">
+<div class="font-mono text-sm">
+<span class="font-bold text-primary-container">1,482</span> <span class="text-outline/60">jobs</span>
+</div>
+<div class="font-mono text-sm">
+<span class="font-bold text-primary-container">340</span> <span class="text-outline/60">companies</span>
+</div>
+<div class="font-mono text-sm">
+<span class="font-bold text-primary-container">28</span> <span class="text-outline/60">countries</span>
+</div>
+<div class="font-mono text-sm">
+<span class="font-bold text-primary-container">420</span> <span class="text-outline/60">remote</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Layout -->
+<div class="max-w-[1440px] mx-auto flex gap-12 px-12 py-12">
+<!-- Left Rail -->
+<aside class="w-[260px] sticky top-28 h-fit flex flex-col gap-8">
+<div class="flex flex-col gap-6">
+<!-- Search -->
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+<input class="w-full bg-surface-container-low border-none border-b border-outline-variant/40 focus:ring-0 focus:border-primary text-sm py-2 pl-10 transition-all font-body" placeholder="Search roles..." type="text"/>
+</div>
+<!-- Categories -->
+<div>
+<p class="font-mono text-[10px] tracking-widest text-outline mb-4">CATEGORIES</p>
+<nav class="flex flex-col text-sm">
+<a class="flex justify-between py-2 px-3 bg-primary-container/10 border-l-2 border-primary-container font-semibold text-primary" href="#">
+<span>All Roles</span>
+<span class="text-[10px] font-mono opacity-60">(1482)</span>
+</a>
+<a class="flex justify-between py-2 px-3 hover:bg-surface-container-high transition-colors text-on-surface-variant" href="#">
+<span>Climate Risk</span>
+<span class="text-[10px] font-mono opacity-60">(312)</span>
+</a>
+<a class="flex justify-between py-2 px-3 hover:bg-surface-container-high transition-colors text-on-surface-variant" href="#">
+<span>Sustainable Finance</span>
+<span class="text-[10px] font-mono opacity-60">(287)</span>
+</a>
+<a class="flex justify-between py-2 px-3 hover:bg-surface-container-high transition-colors text-on-surface-variant" href="#">
+<span>Carbon Markets</span>
+<span class="text-[10px] font-mono opacity-60">(198)</span>
+</a>
+<a class="flex justify-between py-2 px-3 hover:bg-surface-container-high transition-colors text-on-surface-variant" href="#">
+<span>EU Taxonomy</span>
+<span class="text-[10px] font-mono opacity-60">(156)</span>
+</a>
+<a class="flex justify-between py-2 px-3 hover:bg-surface-container-high transition-colors text-on-surface-variant" href="#">
+<span>Clean Energy</span>
+<span class="text-[10px] font-mono opacity-60">(204)</span>
+</a>
+</nav>
+</div>
+<!-- Filters -->
+<div class="flex flex-col gap-6">
+<div>
+<p class="font-mono text-[10px] tracking-widest text-outline mb-3">LOCATION</p>
+<select class="w-full bg-transparent border-none border-b border-outline-variant/40 focus:ring-0 text-sm py-1 font-body">
+<option>All Countries</option>
+<option>United Kingdom</option>
+<option>Switzerland</option>
+<option>United States</option>
+</select>
+</div>
+<div>
+<p class="font-mono text-[10px] tracking-widest text-outline mb-3">COMPANY TYPE</p>
+<select class="w-full bg-transparent border-none border-b border-outline-variant/40 focus:ring-0 text-sm py-1 font-body">
+<option>All Types</option>
+<option>Banking &amp; Finance</option>
+<option>Energy &amp; Utilities</option>
+<option>Consultancy</option>
+</select>
+</div>
+<div class="flex items-center gap-3 mt-2">
+<input class="rounded border-outline-variant text-primary focus:ring-primary h-4 w-4" id="remote" type="checkbox"/>
+<label class="text-sm font-medium text-on-surface-variant cursor-pointer" for="remote">Remote only</label>
+</div>
+</div>
+</div>
+</aside>
+<!-- Right Column -->
+<div class="flex-1 flex flex-col gap-16">
+<!-- Section 1: Climate Risk -->
+<section>
+<div class="flex justify-between items-baseline mb-4">
+<h2 class="font-mono text-xs tracking-widest text-primary-container font-bold">CLIMATE RISK</h2>
+<span class="font-mono text-[10px] text-outline/60 uppercase">312 JOBS</span>
+</div>
+<div class="bg-surface-container-lowest border-t border-outline-variant/15">
+<!-- Job Row 1 -->
+<div class="flex items-center gap-6 p-4 border-b border-outline-variant/15 transition-all job-row-hover group cursor-pointer">
+<div class="w-14 h-14 bg-[#0B3D2E] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[#52B788]" data-icon="work" data-weight="fill" style="font-variation-settings: 'FILL' 1;">work</span>
+</div>
+<div class="flex-1 flex flex-col gap-1">
+<h3 class="text-[17px] font-bold text-on-background">Climate Risk Analyst</h3>
+<div class="flex items-center gap-4 text-sm text-on-surface-variant">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-base">corporate_fare</span>Zurich Insurance</span>
+<span class="font-mono text-[11px] text-outline uppercase tracking-wider">Zurich · Full-time · 2 days ago</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">chevron_right</span>
+</div>
+<!-- Job Row 2 -->
+<div class="flex items-center gap-6 p-4 border-b border-outline-variant/15 transition-all job-row-hover group cursor-pointer">
+<div class="w-14 h-14 bg-[#0B3D2E] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[#52B788]" data-icon="work" data-weight="fill" style="font-variation-settings: 'FILL' 1;">work</span>
+</div>
+<div class="flex-1 flex flex-col gap-1">
+<h3 class="text-[17px] font-bold text-on-background">Physical Risk Modeler</h3>
+<div class="flex items-center gap-4 text-sm text-on-surface-variant">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-base">corporate_fare</span>Swiss Re</span>
+<span class="font-mono text-[11px] text-outline uppercase tracking-wider">London · Hybrid · 3 days ago</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">chevron_right</span>
+</div>
+<!-- Job Row 3 -->
+<div class="flex items-center gap-6 p-4 border-b border-outline-variant/15 transition-all job-row-hover group cursor-pointer">
+<div class="w-14 h-14 bg-[#0B3D2E] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[#52B788]" data-icon="work" data-weight="fill" style="font-variation-settings: 'FILL' 1;">work</span>
+</div>
+<div class="flex-1 flex flex-col gap-1">
+<h3 class="text-[17px] font-bold text-on-background">Transition Risk Specialist</h3>
+<div class="flex items-center gap-4 text-sm text-on-surface-variant">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-base">corporate_fare</span>Shell</span>
+<span class="font-mono text-[11px] text-outline uppercase tracking-wider">Amsterdam · Remote · 1 day ago</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">chevron_right</span>
+</div>
+<!-- Job Row 4 -->
+<div class="flex items-center gap-6 p-4 border-b border-outline-variant/15 transition-all job-row-hover group cursor-pointer">
+<div class="w-14 h-14 bg-[#0B3D2E] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[#52B788]" data-icon="work" data-weight="fill" style="font-variation-settings: 'FILL' 1;">work</span>
+</div>
+<div class="flex-1 flex flex-col gap-1">
+<h3 class="text-[17px] font-bold text-on-background">Climate Scenario Analyst</h3>
+<div class="flex items-center gap-4 text-sm text-on-surface-variant">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-base">corporate_fare</span>HSBC</span>
+<span class="font-mono text-[11px] text-outline uppercase tracking-wider">Hong Kong · Full-time · 4 days ago</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">chevron_right</span>
+</div>
+<!-- Job Row 5 -->
+<div class="flex items-center gap-6 p-4 border-b border-outline-variant/15 transition-all job-row-hover group cursor-pointer">
+<div class="w-14 h-14 bg-[#0B3D2E] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[#52B788]" data-icon="work" data-weight="fill" style="font-variation-settings: 'FILL' 1;">work</span>
+</div>
+<div class="flex-1 flex flex-col gap-1">
+<h3 class="text-[17px] font-bold text-on-background">TCFD Reporting Manager</h3>
+<div class="flex items-center gap-4 text-sm text-on-surface-variant">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-base">corporate_fare</span>Standard Chartered</span>
+<span class="font-mono text-[11px] text-outline uppercase tracking-wider">London · Full-time · 5 days ago</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">chevron_right</span>
+</div>
+</div>
+</section>
+<!-- Section 2: Sustainable Finance -->
+<section>
+<div class="flex justify-between items-baseline mb-4">
+<h2 class="font-mono text-xs tracking-widest text-primary-container font-bold">SUSTAINABLE FINANCE</h2>
+<span class="font-mono text-[10px] text-outline/60 uppercase">287 JOBS</span>
+</div>
+<div class="bg-surface-container-lowest border-t border-outline-variant/15">
+<!-- Job Row 1 -->
+<div class="flex items-center gap-6 p-4 border-b border-outline-variant/15 transition-all job-row-hover group cursor-pointer">
+<div class="w-14 h-14 bg-[#0B3D2E] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[#52B788]" data-icon="work" data-weight="fill" style="font-variation-settings: 'FILL' 1;">work</span>
+</div>
+<div class="flex-1 flex flex-col gap-1">
+<h3 class="text-[17px] font-bold text-on-background">Green Bond Structurer</h3>
+<div class="flex items-center gap-4 text-sm text-on-surface-variant">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-base">corporate_fare</span>BNP Paribas</span>
+<span class="font-mono text-[11px] text-outline uppercase tracking-wider">Paris · Full-time · 1 day ago</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">chevron_right</span>
+</div>
+<!-- Job Row 2 -->
+<div class="flex items-center gap-6 p-4 border-b border-outline-variant/15 transition-all job-row-hover group cursor-pointer">
+<div class="w-14 h-14 bg-[#0B3D2E] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[#52B788]" data-icon="work" data-weight="fill" style="font-variation-settings: 'FILL' 1;">work</span>
+</div>
+<div class="flex-1 flex flex-col gap-1">
+<h3 class="text-[17px] font-bold text-on-background">ESG Fund Manager</h3>
+<div class="flex items-center gap-4 text-sm text-on-surface-variant">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-base">corporate_fare</span>Amundi</span>
+<span class="font-mono text-[11px] text-outline uppercase tracking-wider">Dublin · Hybrid · 2 days ago</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">chevron_right</span>
+</div>
+<!-- Job Row 3 -->
+<div class="flex items-center gap-6 p-4 border-b border-outline-variant/15 transition-all job-row-hover group cursor-pointer">
+<div class="w-14 h-14 bg-[#0B3D2E] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[#52B788]" data-icon="work" data-weight="fill" style="font-variation-settings: 'FILL' 1;">work</span>
+</div>
+<div class="flex-1 flex flex-col gap-1">
+<h3 class="text-[17px] font-bold text-on-background">Sustainable Lending Officer</h3>
+<div class="flex items-center gap-4 text-sm text-on-surface-variant">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-base">corporate_fare</span>ING</span>
+<span class="font-mono text-[11px] text-outline uppercase tracking-wider">Brussels · Full-time · 4 days ago</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">chevron_right</span>
+</div>
+</div>
+</section>
+<div class="flex justify-center pt-8">
+<button class="bg-surface-container-low border border-outline-variant/30 px-8 py-3 rounded font-mono text-xs uppercase tracking-widest text-primary-container font-bold hover:bg-surface-container-high transition-all">Load More Opportunities</button>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-[#bfc9c1]/15 bg-[#e7fff3] dark:bg-[#0b1f18] text-[#0f5238] dark:text-[#b9ead4]">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-10 w-full max-w-[1440px] mx-auto">
+<div class="flex flex-col gap-2 mb-8 md:mb-0">
+<span class="text-lg font-black text-[#0f5238] dark:text-[#e7fff3]">Arboreal Ledger</span>
+<p class="font-body text-sm leading-6 text-[#21342c]/60 dark:text-[#e7fff3]/60 max-w-sm">© 2024 Arboreal Ledger. High-performance sustainability operations.</p>
+</div>
+<div class="flex flex-wrap gap-x-8 gap-y-4">
+<a class="font-mono text-[10px] tracking-widest text-[#21342c]/60 dark:text-[#e7fff3]/60 hover:text-[#0f5238] hover:underline decoration-[#0f5238]/30 underline-offset-4 uppercase" href="#">Resources</a>
+<a class="font-mono text-[10px] tracking-widest text-[#21342c]/60 dark:text-[#e7fff3]/60 hover:text-[#0f5238] hover:underline decoration-[#0f5238]/30 underline-offset-4 uppercase" href="#">Methodology</a>
+<a class="font-mono text-[10px] tracking-widest text-[#21342c]/60 dark:text-[#e7fff3]/60 hover:text-[#0f5238] hover:underline decoration-[#0f5238]/30 underline-offset-4 uppercase" href="#">Privacy</a>
+<a class="font-mono text-[10px] tracking-widest text-[#21342c]/60 dark:text-[#e7fff3]/60 hover:text-[#0f5238] hover:underline decoration-[#0f5238]/30 underline-offset-4 uppercase" href="#">Terms</a>
+<a class="font-mono text-[10px] tracking-widest text-[#21342c]/60 dark:text-[#e7fff3]/60 hover:text-[#0f5238] hover:underline decoration-[#0f5238]/30 underline-offset-4 uppercase" href="#">API Docs</a>
+</div>
+</div>
+</footer>
+</body></html>

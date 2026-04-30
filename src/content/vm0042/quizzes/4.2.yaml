@@ -1,0 +1,26 @@
+- question: "A SOC estimate combines OC concentration (10% relative uncertainty) and bulk density (6% relative uncertainty). What is the combined relative uncertainty?"
+  options:
+  - "16%"
+  - "8%"
+  - "11.7%"
+  - "4%"
+  answer: 2
+  explanation: "For multiplication, add the squared relative uncertainties and take the square root: √(10² + 6²) = √(100 + 36) = √136 ≈ 11.7%. This is the combined relative uncertainty of the SOC stock estimate."
+
+- question: "When is Monte Carlo simulation REQUIRED (not just optional) in VM0042?"
+  options:
+  - "For all projects using Approach 1"
+  - "When using soil spectroscopy techniques to measure SOC content (due to non-linear, potentially biased measurement errors)"
+  - "When the project has more than 10 strata"
+  - "For all projects with more than 1,000 ha"
+  answer: 1
+  explanation: "MC simulation is required when using proximal sensing techniques (infrared spectroscopy, LIBS) for SOC measurement, unless the project demonstrates the measurement errors are unbiased and have de minimis impact on model simulations."
+
+- question: "What does 'model true-up' ensure in Approach 1 projects?"
+  options:
+  - "That the model remains properly licensed and available"
+  - "That model predictions are compared against actual soil measurements periodically, preventing systematic over-crediting from model bias"
+  - "That the carbon price is updated to current market rates"
+  - "That the project complies with the latest IPCC guidelines"
+  answer: 1
+  explanation: "True-up is the periodic reality check. By comparing model predictions with actual soil measurements (every 5 years), the project can detect and correct model bias before it leads to systematic over-crediting."

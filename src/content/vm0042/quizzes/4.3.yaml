@@ -1,0 +1,26 @@
+- question: "Why are emission reductions NOT subject to buffer pool deductions?"
+  options:
+  - "Because reductions are smaller in magnitude than removals"
+  - "Because reductions (avoided GHG emissions like less N₂O) are permanent — once that emission didn't happen, it can't be reversed"
+  - "Because the buffer tool doesn't cover cropland projects"
+  - "Because reductions are tracked in a different registry"
+  answer: 1
+  explanation: "Emission reductions represent GHG emissions that were avoided — these cannot be 'un-avoided.' They are permanent. Removals (SOC gains) can be reversed if farming practices change, so they need the buffer pool as insurance."
+
+- question: "A project has 20,000 tCO₂e of net SOC removals and 2,000 tCO₂e of non-SOC reductions, all after uncertainty deduction. The buffer rate is 15%. How many total VCUs are issued?"
+  options:
+  - "22,000 VCUs"
+  - "18,700 VCUs"
+  - "19,000 VCUs"
+  - "18,000 VCUs"
+  answer: 2
+  explanation: "Buffer applies only to removals: 20,000 × (1 − 0.15) = 17,000 VCUs from removals. Reductions (no buffer): 2,000 VCUs. Total = 17,000 + 2,000 = 19,000 VCUs."
+
+- question: "What determines the buffer percentage for a specific project?"
+  options:
+  - "The size of the project in hectares"
+  - "The type of crops being grown"
+  - "Verra's AFOLU Non-Permanence Risk Tool, which assesses socio-economic, natural, and internal project risks"
+  - "The quantification approach chosen (1, 2, or 3)"
+  answer: 2
+  explanation: "The buffer % is determined by Verra's AFOLU Non-Permanence Risk Tool. It assesses the project's reversal risk based on multiple factors: socio-economic stability, natural hazards, governance, and internal management quality. Higher risk = higher buffer %."

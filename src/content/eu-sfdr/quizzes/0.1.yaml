@@ -1,0 +1,44 @@
+- question: "What is the primary purpose of SFDR (Regulation (EU) 2019/2088)?"
+  options:
+    - "To require financial market participants to only invest in sustainable assets"
+    - "To create standardised transparency obligations about how sustainability is integrated in investment decisions"
+    - "To prohibit greenwashing by banning ESG marketing claims"
+    - "To establish minimum ESG performance standards for investment funds"
+  answer: 1
+  explanation: "SFDR is a disclosure regulation, not a performance or prohibition regulation. Its primary purpose is to reduce information asymmetries by requiring standardised, comparable disclosures about how sustainability risks and impacts are integrated into investment decisions."
+
+- question: "Which EU regulation defines which economic activities qualify as environmentally sustainable, and is closely linked to SFDR disclosures?"
+  options:
+    - "CSRD (Corporate Sustainability Reporting Directive)"
+    - "MiFID II"
+    - "EU Taxonomy Regulation (EU) 2020/852"
+    - "AIFMD (Alternative Investment Fund Managers Directive)"
+  answer: 2
+  explanation: "The EU Taxonomy Regulation (EU) 2020/852 defines environmentally sustainable economic activities. SFDR Article 8 and 9 products must disclose the proportion of investments aligned with the EU Taxonomy, creating a direct dependency between the two regulations."
+
+- question: "What does 'double materiality' mean in the context of SFDR?"
+  options:
+    - "Each disclosure must be made in two languages"
+    - "Products must be assessed under both Article 8 and Article 9 before classification"
+    - "ESG factors are material both because they affect investment value (financial materiality) and because investments affect the environment and society (impact materiality)"
+    - "PAI indicators must be measured at least twice per year"
+  answer: 2
+  explanation: "Double materiality captures two directions: financial materiality (how ESG risks affect portfolio value — the focus of Article 3 sustainability risk policies) and impact materiality (how investment decisions affect sustainability factors — the focus of Article 4 PAI disclosures)."
+
+- question: "SFDR was adopted by the European Parliament and Council on which date?"
+  options:
+    - "10 March 2021"
+    - "27 November 2019"
+    - "1 January 2023"
+    - "25 July 2022"
+  answer: 1
+  explanation: "SFDR was adopted on 27 November 2019 and entered into force on 29 December 2019. It became applicable (Level 1 obligations) on 10 March 2021. The RTS (Level 2) applied from 1 January 2023."
+
+- question: "Which of the following best describes Article 6 of SFDR?"
+  options:
+    - "A product category specifically for non-sustainable mainstream funds"
+    - "A baseline disclosure requirement that applies to ALL financial products regardless of sustainability ambition"
+    - "The article requiring firms to adopt a formal sustainability risk policy"
+    - "The article that defines principal adverse impacts"
+  answer: 1
+  explanation: "Article 6 sets the baseline sustainability risk disclosure requirement that applies to every financial product. The Article 6/8/9 classification system emerged as market practice — Article 6 is not a designated 'non-sustainable' category but the minimum floor that all products must meet."

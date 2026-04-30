@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Greentryst | Career Directory</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-tint": "#2c694e",
+                        "outline-variant": "#bfc9c1",
+                        "surface-container-highest": "#cee9d3",
+                        "inverse-surface": "#1f3526",
+                        "outline": "#707973",
+                        "surface": "#e9ffeb",
+                        "error-container": "#ffdad6",
+                        "surface-container": "#daf5de",
+                        "on-secondary": "#ffffff",
+                        "on-primary": "#ffffff",
+                        "secondary-container": "#b9ead4",
+                        "error": "#ba1a1a",
+                        "on-surface": "#092012",
+                        "surface-container-low": "#dffbe3",
+                        "on-background": "#092012",
+                        "surface-dim": "#c6e1ca",
+                        "on-primary-fixed": "#002114",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary": "#396756",
+                        "surface-bright": "#e9ffeb",
+                        "primary": "#0f5238",
+                        "inverse-on-surface": "#ddf8e0",
+                        "on-tertiary-container": "#98eabf",
+                        "tertiary": "#005236",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed": "#b1f0ce",
+                        "on-tertiary-fixed": "#002113",
+                        "inverse-primary": "#95d4b3",
+                        "surface-variant": "#cee9d3",
+                        "secondary-fixed": "#bcedd7",
+                        "on-secondary-fixed-variant": "#214f3f",
+                        "secondary-fixed-dim": "#a0d1bc",
+                        "primary-fixed-dim": "#95d4b3",
+                        "on-secondary-container": "#3e6b5a",
+                        "on-error": "#ffffff",
+                        "on-surface-variant": "#404943",
+                        "tertiary-container": "#116c4a",
+                        "surface-container-high": "#d4efd8",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#a1f4c8",
+                        "tertiary-fixed-dim": "#86d7ad",
+                        "on-primary-container": "#a8e7c5",
+                        "on-secondary-fixed": "#002116",
+                        "on-primary-fixed-variant": "#0e5138",
+                        "background": "#e9ffeb",
+                        "on-tertiary-fixed-variant": "#005236",
+                        "primary-container": "#2d6a4f"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter"],
+                        "body": ["Inter"],
+                        "label": ["Inter"],
+                        "mono": ["JetBrains Mono"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .hairline-border {
+            outline: 1px solid rgba(15, 82, 56, 0.08);
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#e9ffeb]/80 dark:bg-[#092012]/80 backdrop-blur-xl shadow-[0px_12px_32px_rgba(9,32,18,0.06)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-[1440px] mx-auto">
+<div class="flex items-center gap-12">
+<span class="text-xl font-bold tracking-tighter text-[#092012] dark:text-[#ffffff]">Greentryst</span>
+<div class="hidden md:flex gap-8 items-center font-['Inter'] tracking-tight font-medium text-sm">
+<a class="text-[#0f5238] dark:text-[#ffffff] border-b-2 border-[#0f5238] pb-1" href="#">Directory</a>
+<a class="text-[#092012]/60 dark:text-[#ffffff]/60 hover:text-[#0f5238] dark:hover:text-[#ffffff] transition-colors duration-200" href="#">Ecosystem</a>
+<a class="text-[#092012]/60 dark:text-[#ffffff]/60 hover:text-[#0f5238] dark:hover:text-[#ffffff] transition-colors duration-200" href="#">Reports</a>
+<a class="text-[#092012]/60 dark:text-[#ffffff]/60 hover:text-[#0f5238] dark:hover:text-[#ffffff] transition-colors duration-200" href="#">Intelligence</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex gap-4">
+<button class="material-symbols-outlined text-[#0f5238] active:scale-95 transition-transform" data-icon="notifications">notifications</button>
+<button class="material-symbols-outlined text-[#0f5238] active:scale-95 transition-transform" data-icon="settings">settings</button>
+</div>
+<div class="w-8 h-8 rounded-full overflow-hidden bg-surface-container-highest">
+<img alt="User profile" class="w-full h-full object-cover" data-alt="professional headshot of a corporate executive in a modern green-lit office setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxtS2BrsxhmaaLRtBiyUASzQPY2B0PdULNWf96AUMSY292D7iUp5v0i85dptBWAlRAodfst9OVVAmFbtTYvKpc4SmM4Z9smYRqGBK9QZjesKcpXfrOOf8AShm8y4uQNPeJBvcPm8KCCKE0YN3nMSbfTuAjEIBISbIoHOPcLYgQFD-qHgTImgtBSEvMIDB6qAKDPJwv2Nw4oJ6eJ1ujEP-l_szCwsG8veak7zFoWMxWBigv_1emF75kXSqTrQuJdXXsis6sN8gfC6B3"/>
+</div>
+</div>
+</div>
+<div class="bg-[#dffbe3] dark:bg-[#1a3a2a] h-[1px]"></div>
+</nav>
+<main class="pt-24 pb-20 max-w-[1440px] mx-auto px-8">
+<!-- Section 1: Header & Domain Cards -->
+<header class="bg-surface-container-lowest rounded-xl p-10 mb-8 hairline-border">
+<div class="max-w-4xl">
+<span class="font-mono text-[10px] uppercase tracking-wider text-primary mb-4 block">CAREER DIRECTORY</span>
+<h1 class="text-[32px] font-bold tracking-tight text-on-surface mb-4 leading-tight">What sustainability role fits your expertise?</h1>
+<div class="font-mono text-[11px] text-on-surface/60 flex gap-4 uppercase tracking-widest">
+<span>1,482 jobs</span>
+<span class="text-outline-variant">•</span>
+<span>340 companies</span>
+<span class="text-outline-variant">•</span>
+<span>28 countries</span>
+</div>
+</div>
+<div class="flex gap-4 mt-10 overflow-x-auto pb-4 scrollbar-hide">
+<!-- Domain Cards -->
+<div class="min-w-[120px] flex-col items-center flex gap-3 cursor-pointer group">
+<div class="w-[120px] h-[120px] bg-primary flex items-center justify-center rounded-xl transition-all duration-300 group-hover:shadow-lg">
+<span class="material-symbols-outlined text-surface text-4xl" data-icon="shield_with_heart" style="font-variation-settings: 'FILL' 1;">shield_with_heart</span>
+</div>
+<div class="text-center border-b-2 border-primary pb-2 w-full">
+<p class="font-bold text-[12px] text-on-surface">Climate Risk</p>
+<p class="font-mono text-[10px] text-on-surface/50">412 OPEN</p>
+</div>
+</div>
+<div class="min-w-[120px] flex-col items-center flex gap-3 cursor-pointer group opacity-60 hover:opacity-100 transition-opacity">
+<div class="w-[120px] h-[120px] bg-[#0B3D2E] flex items-center justify-center rounded-xl">
+<span class="material-symbols-outlined text-[#95d4b3] text-4xl" data-icon="energy_savings_leaf">energy_savings_leaf</span>
+</div>
+<div class="text-center w-full">
+<p class="font-bold text-[12px] text-on-surface">Renewables</p>
+<p class="font-mono text-[10px] text-on-surface/50">289 OPEN</p>
+</div>
+</div>
+<div class="min-w-[120px] flex-col items-center flex gap-3 cursor-pointer group opacity-60 hover:opacity-100 transition-opacity">
+<div class="w-[120px] h-[120px] bg-[#0B3D2E] flex items-center justify-center rounded-xl">
+<span class="material-symbols-outlined text-[#95d4b3] text-4xl" data-icon="finance_chip">finance_chip</span>
+</div>
+<div class="text-center w-full">
+<p class="font-bold text-[12px] text-on-surface">ESG Fin</p>
+<p class="font-mono text-[10px] text-on-surface/50">156 OPEN</p>
+</div>
+</div>
+<div class="min-w-[120px] flex-col items-center flex gap-3 cursor-pointer group opacity-60 hover:opacity-100 transition-opacity">
+<div class="w-[120px] h-[120px] bg-[#0B3D2E] flex items-center justify-center rounded-xl">
+<span class="material-symbols-outlined text-[#95d4b3] text-4xl" data-icon="agriculture">agriculture</span>
+</div>
+<div class="text-center w-full">
+<p class="font-bold text-[12px] text-on-surface">AgriTech</p>
+<p class="font-mono text-[10px] text-on-surface/50">92 OPEN</p>
+</div>
+</div>
+<div class="min-w-[120px] flex-col items-center flex gap-3 cursor-pointer group opacity-60 hover:opacity-100 transition-opacity">
+<div class="w-[120px] h-[120px] bg-[#0B3D2E] flex items-center justify-center rounded-xl">
+<span class="material-symbols-outlined text-[#95d4b3] text-4xl" data-icon="query_stats">query_stats</span>
+</div>
+<div class="text-center w-full">
+<p class="font-bold text-[12px] text-on-surface">Reporting</p>
+<p class="font-mono text-[10px] text-on-surface/50">214 OPEN</p>
+</div>
+</div>
+<div class="min-w-[120px] flex-col items-center flex gap-3 cursor-pointer group opacity-60 hover:opacity-100 transition-opacity">
+<div class="w-[120px] h-[120px] bg-[#0B3D2E] flex items-center justify-center rounded-xl">
+<span class="material-symbols-outlined text-[#95d4b3] text-4xl" data-icon="biotech">biotech</span>
+</div>
+<div class="text-center w-full">
+<p class="font-bold text-[12px] text-on-surface">Circular</p>
+<p class="font-mono text-[10px] text-on-surface/50">114 OPEN</p>
+</div>
+</div>
+</div>
+</header>
+<!-- Section 2: Sticky Filter Bar -->
+<div class="sticky top-20 z-40 bg-surface/90 backdrop-blur-md py-4 mb-6">
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between gap-4">
+<div class="flex-1 max-w-md relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-primary/60" data-icon="search">search</span>
+<input class="w-full bg-surface-container-lowest border-none rounded-lg pl-10 pr-4 py-3 text-sm focus:ring-1 focus:ring-primary/20" placeholder="Search roles, skills or companies..." type="text"/>
+</div>
+<div class="flex items-center gap-3">
+<div class="flex gap-2">
+<select class="bg-surface-container-lowest border-none rounded-lg py-3 px-4 text-xs font-medium focus:ring-1 focus:ring-primary/20 cursor-pointer">
+<option>Country</option>
+</select>
+<select class="bg-surface-container-lowest border-none rounded-lg py-3 px-4 text-xs font-medium focus:ring-1 focus:ring-primary/20 cursor-pointer">
+<option>Company Type</option>
+</select>
+<select class="bg-surface-container-lowest border-none rounded-lg py-3 px-4 text-xs font-medium focus:ring-1 focus:ring-primary/20 cursor-pointer">
+<option>Remote</option>
+</select>
+</div>
+<div class="h-8 w-[1px] bg-outline-variant/30"></div>
+<select class="bg-transparent border-none text-xs font-mono font-medium focus:ring-0 cursor-pointer">
+<option>RELEVANCE</option>
+<option>LATEST</option>
+</select>
+</div>
+</div>
+<div class="font-mono text-[10px] tracking-wider text-on-surface/60 uppercase">
+                    Showing 312 of 1,482 jobs <span class="mx-2 text-primary">•</span> Climate Risk
+                </div>
+</div>
+</div>
+<!-- Section 3: Job List -->
+<div class="space-y-4">
+<!-- Job 1: Expanded -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden hairline-border transition-all hover:shadow-md">
+<div class="p-8">
+<div class="flex justify-between items-start mb-6">
+<div class="flex gap-6">
+<div class="w-16 h-16 bg-surface-container flex items-center justify-center rounded-lg">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="account_balance">account_balance</span>
+</div>
+<div>
+<h2 class="text-xl font-bold text-on-surface mb-1">Climate Risk Analyst - Banking</h2>
+<p class="text-primary font-medium">HSBC <span class="text-on-surface/30 mx-2">·</span> London, UK</p>
+</div>
+</div>
+<button class="material-symbols-outlined text-on-surface/40 hover:text-primary transition-colors" data-icon="bookmark">bookmark</button>
+</div>
+<div class="flex flex-wrap gap-2 mb-8">
+<span class="font-mono text-[10px] px-3 py-1 bg-surface-container rounded-full text-on-secondary-container">PERMANENT</span>
+<span class="font-mono text-[10px] px-3 py-1 bg-surface-container rounded-full text-on-secondary-container">MID-SENIOR</span>
+<span class="font-mono text-[10px] px-3 py-1 bg-surface-container rounded-full text-on-secondary-container">5+ YRS EXP</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="md:col-span-2">
+<h3 class="font-mono text-[10px] text-on-surface/40 uppercase tracking-widest mb-4">Role Summary</h3>
+<p class="text-sm leading-relaxed text-on-surface/80 mb-6">
+                                Join our Sustainable Finance group to lead quantitative analysis on climate-related financial risks. You will develop models to assess physical and transition risks across our commercial loan portfolio, ensuring alignment with TCFD and Basel III requirements.
+                            </p>
+<h3 class="font-mono text-[10px] text-on-surface/40 uppercase tracking-widest mb-4">Skills Required</h3>
+<ul class="grid grid-cols-2 gap-y-2 text-sm">
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 bg-primary rounded-full"></span>
+<span>Python / SQL Data Modeling</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 bg-primary rounded-full"></span>
+<span>TCFD Disclosure Frameworks</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 bg-primary rounded-full"></span>
+<span>Scenario Analysis (NGFS)</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 bg-primary rounded-full"></span>
+<span>IFRS Sustainability Standards</span>
+</li>
+</ul>
+</div>
+<div class="space-y-8">
+<div>
+<h3 class="font-mono text-[10px] text-on-surface/40 uppercase tracking-widest mb-4">Domain Context</h3>
+<div class="bg-surface p-4 rounded-lg">
+<p class="text-xs font-medium text-primary">High Impact Role</p>
+<p class="text-[11px] leading-relaxed text-on-surface/70 mt-1">Directly influences ESG capital allocation for EMEA regional markets.</p>
+</div>
+</div>
+<button class="w-full bg-primary text-white py-4 rounded-lg font-bold text-sm tracking-tight active:scale-95 transition-transform">
+                                Apply on company website
+                            </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Job 2: Collapsed -->
+<div class="bg-surface-container-lowest rounded-xl p-6 hairline-border flex items-center justify-between hover:bg-surface-container-low transition-colors group cursor-pointer">
+<div class="flex items-center gap-6">
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded-lg">
+<span class="material-symbols-outlined text-primary/60" data-icon="monitoring">monitoring</span>
+</div>
+<div>
+<h3 class="font-bold text-[15px]">Physical Risk Modeler</h3>
+<p class="text-xs text-on-surface/60">Munich Re <span class="mx-2">·</span> Munich, DE</p>
+</div>
+</div>
+<div class="flex items-center gap-10">
+<div class="hidden md:flex gap-4">
+<span class="font-mono text-[10px] text-on-surface/40">FULL-TIME</span>
+<span class="font-mono text-[10px] text-on-surface/40">REMOTE OPTIONAL</span>
+</div>
+<span class="material-symbols-outlined text-on-surface/20 group-hover:text-primary transition-colors" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+<!-- Job 3: Collapsed -->
+<div class="bg-surface-container-lowest rounded-xl p-6 hairline-border flex items-center justify-between hover:bg-surface-container-low transition-colors group cursor-pointer">
+<div class="flex items-center gap-6">
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded-lg">
+<span class="material-symbols-outlined text-primary/60" data-icon="strategy">strategy</span>
+</div>
+<div>
+<h3 class="font-bold text-[15px]">Transition Risk Strategy Lead</h3>
+<p class="text-xs text-on-surface/60">Shell <span class="mx-2">·</span> Amsterdam, NL</p>
+</div>
+</div>
+<div class="flex items-center gap-10">
+<div class="hidden md:flex gap-4">
+<span class="font-mono text-[10px] text-on-surface/40">CONTRACT</span>
+<span class="font-mono text-[10px] text-on-surface/40">SENIOR</span>
+</div>
+<span class="material-symbols-outlined text-on-surface/20 group-hover:text-primary transition-colors" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+<!-- Job 4: Collapsed -->
+<div class="bg-surface-container-lowest rounded-xl p-6 hairline-border flex items-center justify-between hover:bg-surface-container-low transition-colors group cursor-pointer">
+<div class="flex items-center gap-6">
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded-lg">
+<span class="material-symbols-outlined text-primary/60" data-icon="assignment_turned_in">assignment_turned_in</span>
+</div>
+<div>
+<h3 class="font-bold text-[15px]">TCFD Disclosure Manager</h3>
+<p class="text-xs text-on-surface/60">Deloitte <span class="mx-2">·</span> Sydney, AU</p>
+</div>
+</div>
+<div class="flex items-center gap-10">
+<div class="hidden md:flex gap-4">
+<span class="font-mono text-[10px] text-on-surface/40">PERMANENT</span>
+<span class="font-mono text-[10px] text-on-surface/40">MID-LEVEL</span>
+</div>
+<span class="material-symbols-outlined text-on-surface/20 group-hover:text-primary transition-colors" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+<!-- Job 5: Collapsed -->
+<div class="bg-surface-container-lowest rounded-xl p-6 hairline-border flex items-center justify-between hover:bg-surface-container-low transition-colors group cursor-pointer">
+<div class="flex items-center gap-6">
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded-lg">
+<span class="material-symbols-outlined text-primary/60" data-icon="data_exploration">data_exploration</span>
+</div>
+<div>
+<h3 class="font-bold text-[15px]">Climate Scenario Analyst</h3>
+<p class="text-xs text-on-surface/60">Standard Chartered <span class="mx-2">·</span> Singapore</p>
+</div>
+</div>
+<div class="flex items-center gap-10">
+<div class="hidden md:flex gap-4">
+<span class="font-mono text-[10px] text-on-surface/40">FULL-TIME</span>
+<span class="font-mono text-[10px] text-on-surface/40">HYBRID</span>
+</div>
+<span class="material-symbols-outlined text-on-surface/20 group-hover:text-primary transition-colors" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+<!-- Job 6: Collapsed -->
+<div class="bg-surface-container-lowest rounded-xl p-6 hairline-border flex items-center justify-between hover:bg-surface-container-low transition-colors group cursor-pointer">
+<div class="flex items-center gap-6">
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center rounded-lg">
+<span class="material-symbols-outlined text-primary/60" data-icon="account_balance_wallet">account_balance_wallet</span>
+</div>
+<div>
+<h3 class="font-bold text-[15px]">Green Bond Structurer</h3>
+<p class="text-xs text-on-surface/60">BNP Paribas <span class="mx-2">·</span> Paris, FR</p>
+</div>
+</div>
+<div class="flex items-center gap-10">
+<div class="hidden md:flex gap-4">
+<span class="font-mono text-[10px] text-on-surface/40">PERMANENT</span>
+<span class="font-mono text-[10px] text-on-surface/40">VP LEVEL</span>
+</div>
+<span class="material-symbols-outlined text-on-surface/20 group-hover:text-primary transition-colors" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+</div>
+<!-- Section 4: Course Banner -->
+<div class="mt-12 bg-primary-container/20 rounded-xl p-10 flex flex-col md:flex-row items-center justify-between gap-8 border border-primary/10">
+<div class="max-w-xl">
+<span class="font-mono text-[10px] text-primary tracking-widest uppercase mb-2 block">LEARNING PATHS</span>
+<h2 class="text-2xl font-bold text-on-surface mb-2">Build skills for Climate Risk roles</h2>
+<p class="text-sm text-on-surface/70">Certified pathways developed with leading academic and industry bodies.</p>
+</div>
+<div class="flex flex-wrap gap-3">
+<button class="bg-surface-container-lowest px-6 py-3 rounded-full text-sm font-bold shadow-sm hover:shadow-md transition-shadow active:scale-95">
+                    Climate Science 101
+                </button>
+<button class="bg-surface-container-lowest px-6 py-3 rounded-full text-sm font-bold shadow-sm hover:shadow-md transition-shadow active:scale-95">
+                    IFRS S2 Standards
+                </button>
+</div>
+</div>
+<!-- Section 5: Pagination -->
+<div class="mt-12 flex items-center justify-center gap-8">
+<button class="w-10 h-10 flex items-center justify-center bg-surface-container-lowest rounded-lg hairline-border text-on-surface/40 hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="arrow_back">arrow_back</span>
+</button>
+<span class="font-mono text-xs uppercase tracking-widest font-medium">Page 1 of 12</span>
+<button class="w-10 h-10 flex items-center justify-center bg-surface-container-lowest rounded-lg hairline-border text-on-surface/40 hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-[#daf5de] dark:bg-[#0d2a1a] w-full py-12 mt-auto">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 gap-6 max-w-[1440px] mx-auto">
+<div class="font-['JetBrains_Mono'] text-[10px] uppercase tracking-wider text-[#092012]/70 dark:text-[#ffffff]/70">
+                © 2024 Greentryst. The Digital Curator.
+            </div>
+<div class="flex flex-wrap justify-center gap-8 font-['JetBrains_Mono'] text-[10px] uppercase tracking-wider">
+<a class="text-[#092012]/70 dark:text-[#ffffff]/70 hover:translate-x-1 hover:text-[#0f5238] transition-all" href="#">TCFD Framework</a>
+<a class="text-[#092012]/70 dark:text-[#ffffff]/70 hover:translate-x-1 hover:text-[#0f5238] transition-all" href="#">GHG Protocol</a>
+<a class="text-[#092012]/70 dark:text-[#ffffff]/70 hover:translate-x-1 hover:text-[#0f5238] transition-all" href="#">SFDR Compliance</a>
+<a class="text-[#092012]/70 dark:text-[#ffffff]/70 hover:translate-x-1 hover:text-[#0f5238] transition-all" href="#">Privacy Policy</a>
+</div>
+</div>
+</footer>
+</body></html>

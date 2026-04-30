@@ -1,0 +1,263 @@
+{
+  "outputComponents": [
+    {
+      "designSystem": {
+        "designSystem": {
+          "displayName": "The Living Archive",
+          "theme": {
+            "bodyFont": "INTER",
+            "colorMode": "LIGHT",
+            "colorVariant": "FIDELITY",
+            "customColor": "#005C55",
+            "designMd": "```markdown\n# Design System Specification: The Architectural Editorial\n\n## 1. Overview & Creative North Star\n**Creative North Star: The Digital Curator**\n\nThis design system is not a utility; it is a destination. It rejects the frantic, cluttered nature of modern \"SaaS\" aesthetics in favor of a high-end editorial journal experience. We aim for a \"Monolithic Architecture\" feel—where structural integrity is defined by volume, mass, and light rather than thin lines. \n\nThe system moves beyond the grid through intentional asymmetry and extreme whitespace. By treating the screen as a physical gallery space, we elevate content to the status of an artifact. Every element must feel intentional, authoritative, and organic.\n\n---\n\n## 2. Colors & Surface Philosophy\nThe palette is rooted in the \"Forest and Stone\" concept. We use deep, intellectual greens and warm, archival whites to create a sense of history and permanence.\n\n### The Palette\n- **Primary Tone:** `primary` (#00433d) and `primary_container` (#005c55). These are our \"Ink\" colors. They represent authority.\n- **Surface Tones:** `surface_container_low` (#f3f4f5) serves as our primary canvas color—a warm, paper-like white that reduces eye strain and feels premium.\n- **Citation Accents:** Use `tertiary_fixed_dim` (#e9c176) for citations, highlights, and subtle callouts. This amber/gold provides a \"lit-from-within\" glow against the forest green.\n\n### The \"No-Line\" Rule\n**Strict Mandate:** Designers are prohibited from using 1px solid borders for sectioning or containment. \nBoundaries must be defined through:\n1. **Background Shifts:** Placing a `surface_container_lowest` (#ffffff) card on a `surface_container_low` (#f3f4f5) background.\n2. **Tonal Transitions:** Moving from `surface` to `surface_dim` to denote a footer or sidebar.\n3. **Spatial Breathing:** Using extreme values from the Spacing Scale (e.g., `spacing-16` or `spacing-24`) to create logical separation.\n\n### Signature Textures\nTo add \"soul,\" use subtle linear gradients on primary CTAs and Hero sections. Transition from `primary` (#00433d) to `primary_container` (#005c55) at a 135-degree angle. This prevents the \"flat-vector\" look and adds architectural depth.\n\n---\n\n## 3. Typography\nWe pair the architectural structure of **Manrope** with the utilitarian precision of **Inter**.\n\n- **Display & Headlines (Manrope):** Use `display-lg` (3.5rem) for hero statements. These should feel heavy and authoritative. Set headlines with tight letter-spacing (-0.02em) to mimic high-end print journals.\n- **Body & Utility (Inter):** Use `body-lg` (1rem) for long-form reading. Inter provides the modern, technical counterbalance to the organic headings.\n- **Citations & Labels:** Use `label-md` in `secondary` (#735c00) or `tertiary` (#4e3700) to create a clear visual hierarchy for metadata.\n\n---\n\n## 4. Elevation & Depth\nIn this system, depth is a result of **Tonal Layering**, not structural scaffolding.\n\n### The Layering Principle\nTreat the UI as a stack of fine paper. \n- **Base Layer:** `surface_container_low` (#f3f4f5).\n- **Interactive Layer:** `surface_container_lowest` (#ffffff).\n- **Overlay Layer:** Glassmorphism. Use `surface_bright` with 80% opacity and a `20px` backdrop blur for floating navigation or modals.\n\n### Ambient Shadows\nShadows must mimic natural gallery lighting. \n- **Specs:** Blur: 40px–80px | Spread: -10px | Color: `on_surface` at 4% opacity. \n- Never use pure black shadows; they feel \"digital\" and cheap.\n\n### The \"Ghost Border\" Fallback\nIf accessibility requirements demand a border (e.g., in high-contrast modes), use the **Ghost Border**: `outline_variant` (#bec9c6) at 15% opacity. It should be felt, not seen.\n\n---\n\n## 5. Components\n\n### Buttons\n- **Primary:** Solid `primary` (#00433d) background, `on_primary` (#ffffff) text. \n- **Shape:** `rounded-md` (0.75rem). \n- **Style:** No border. Use a subtle `primary_container` glow on hover.\n- **Secondary:** `surface_container_high` background with `primary` text. This maintains the \"architectural\" feel without the weight of the dark green.\n\n### Minimalist Inputs\n- **Background:** `surface_container_low` (#f3f4f5).\n- **Shape:** `rounded-md` (0.75rem).\n- **State:** On focus, shift background to `surface_container_lowest` (#ffffff) and add a 2px \"Soft Shadow.\" Do not add a stroke.\n- **Typography:** Use `label-sm` for floating labels, tucked into the top-left with `spacing-1.5` padding.\n\n### Cards & Lists\n- **Rule:** Absolute prohibition of divider lines. \n- **Separation:** Use `spacing-12` (4rem) between list items. \n- **Cards:** Forgo the border. Use a `surface_container_lowest` background on the warm `surface_container_low` canvas. The 0.75rem corner radius provides the \"organic\" softness required to balance the heavy typography.\n\n### Editorial Citations (Custom Component)\n- **Role:** For pull quotes or metadata.\n- **Style:** Left-aligned `tertiary_fixed_dim` (#e9c176) vertical accent bar (4px wide), using `display-sm` for the quote text.\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do:\n- **Use \"Extreme Whitespace\":** If you think a section has enough padding, double it. Use `spacing-20` (7rem) and `spacing-24` (8.5rem) generously between major content blocks.\n- **Asymmetric Balance:** Place a large headline on the left and a small body paragraph on the right, leaving the rest of the row empty.\n- **Intentional Overlaps:** Allow images to slightly overlap background color shifts to create a layered, \"collaged\" editorial look.\n\n### Don't:\n- **Don't use 1px lines:** Ever. This is the quickest way to break the \"High-End\" feel.\n- **Don't use pure grey:** Use the warm neutrals provided (`surface_container` variants) to keep the \"organic\" feeling alive.\n- **Don't crowd the edges:** Content should never be within `spacing-10` of the viewport edge. Maintain a \"gutter of silence.\"\n- **Don't use standard shadows:** Avoid the default \"Drop Shadow\" plugins. Hand-craft large, soft, ambient glows.\n\n---\n\n**Director’s Note:** Remember, we are not designing a tool for speed; we are designing a tool for *reflection*. Every click should feel like turning a heavy, matte page in a collector's edition journal. Keep it quiet, keep it bold, keep it architectural.```",
+            "font": "MANROPE",
+            "headlineFont": "MANROPE",
+            "labelFont": "INTER",
+            "namedColors": {
+              "background": "#f8f9fa",
+              "error": "#ba1a1a",
+              "error_container": "#ffdad6",
+              "inverse_on_surface": "#f0f1f2",
+              "inverse_primary": "#8cd4ca",
+              "inverse_surface": "#2e3132",
+              "on_background": "#191c1d",
+              "on_error": "#ffffff",
+              "on_error_container": "#93000a",
+              "on_primary": "#ffffff",
+              "on_primary_container": "#8ad2c8",
+              "on_primary_fixed": "#00201d",
+              "on_primary_fixed_variant": "#00504a",
+              "on_secondary": "#ffffff",
+              "on_secondary_container": "#745c00",
+              "on_secondary_fixed": "#241a00",
+              "on_secondary_fixed_variant": "#574500",
+              "on_surface": "#191c1d",
+              "on_surface_variant": "#3f4947",
+              "on_tertiary": "#ffffff",
+              "on_tertiary_container": "#e7bf75",
+              "on_tertiary_fixed": "#261900",
+              "on_tertiary_fixed_variant": "#5d4201",
+              "outline": "#6f7977",
+              "outline_variant": "#bec9c6",
+              "primary": "#00433d",
+              "primary_container": "#005c55",
+              "primary_fixed": "#a7f0e6",
+              "primary_fixed_dim": "#8cd4ca",
+              "secondary": "#735c00",
+              "secondary_container": "#fed65b",
+              "secondary_fixed": "#ffe088",
+              "secondary_fixed_dim": "#e9c349",
+              "surface": "#f8f9fa",
+              "surface_bright": "#f8f9fa",
+              "surface_container": "#edeeef",
+              "surface_container_high": "#e7e8e9",
+              "surface_container_highest": "#e1e3e4",
+              "surface_container_low": "#f3f4f5",
+              "surface_container_lowest": "#ffffff",
+              "surface_dim": "#d9dadb",
+              "surface_tint": "#1a6962",
+              "surface_variant": "#e1e3e4",
+              "tertiary": "#4e3700",
+              "tertiary_container": "#694d0c",
+              "tertiary_fixed": "#ffdea5",
+              "tertiary_fixed_dim": "#e9c176"
+            },
+            "overrideNeutralColor": "#F3F4F5",
+            "overridePrimaryColor": "#005C55",
+            "overrideSecondaryColor": "#D4AF37",
+            "overrideTertiaryColor": "#C5A059",
+            "roundness": "ROUND_EIGHT",
+            "spacingScale": 3
+          }
+        },
+        "name": "assets/f690038bc26b47fea6a619736ca4ded5",
+        "version": "1"
+      }
+    },
+    {
+      "design": {
+        "screens": [
+          {
+            "designSystem": {
+              "designSystem": {
+                "displayName": "The Living Archive",
+                "theme": {
+                  "bodyFont": "INTER",
+                  "colorMode": "LIGHT",
+                  "colorVariant": "FIDELITY",
+                  "customColor": "#005C55",
+                  "designMd": "```markdown\n# Design System Specification: The Architectural Editorial\n\n## 1. Overview & Creative North Star\n**Creative North Star: The Digital Curator**\n\nThis design system is not a utility; it is a destination. It rejects the frantic, cluttered nature of modern \"SaaS\" aesthetics in favor of a high-end editorial journal experience. We aim for a \"Monolithic Architecture\" feel—where structural integrity is defined by volume, mass, and light rather than thin lines. \n\nThe system moves beyond the grid through intentional asymmetry and extreme whitespace. By treating the screen as a physical gallery space, we elevate content to the status of an artifact. Every element must feel intentional, authoritative, and organic.\n\n---\n\n## 2. Colors & Surface Philosophy\nThe palette is rooted in the \"Forest and Stone\" concept. We use deep, intellectual greens and warm, archival whites to create a sense of history and permanence.\n\n### The Palette\n- **Primary Tone:** `primary` (#00433d) and `primary_container` (#005c55). These are our \"Ink\" colors. They represent authority.\n- **Surface Tones:** `surface_container_low` (#f3f4f5) serves as our primary canvas color—a warm, paper-like white that reduces eye strain and feels premium.\n- **Citation Accents:** Use `tertiary_fixed_dim` (#e9c176) for citations, highlights, and subtle callouts. This amber/gold provides a \"lit-from-within\" glow against the forest green.\n\n### The \"No-Line\" Rule\n**Strict Mandate:** Designers are prohibited from using 1px solid borders for sectioning or containment. \nBoundaries must be defined through:\n1. **Background Shifts:** Placing a `surface_container_lowest` (#ffffff) card on a `surface_container_low` (#f3f4f5) background.\n2. **Tonal Transitions:** Moving from `surface` to `surface_dim` to denote a footer or sidebar.\n3. **Spatial Breathing:** Using extreme values from the Spacing Scale (e.g., `spacing-16` or `spacing-24`) to create logical separation.\n\n### Signature Textures\nTo add \"soul,\" use subtle linear gradients on primary CTAs and Hero sections. Transition from `primary` (#00433d) to `primary_container` (#005c55) at a 135-degree angle. This prevents the \"flat-vector\" look and adds architectural depth.\n\n---\n\n## 3. Typography\nWe pair the architectural structure of **Manrope** with the utilitarian precision of **Inter**.\n\n- **Display & Headlines (Manrope):** Use `display-lg` (3.5rem) for hero statements. These should feel heavy and authoritative. Set headlines with tight letter-spacing (-0.02em) to mimic high-end print journals.\n- **Body & Utility (Inter):** Use `body-lg` (1rem) for long-form reading. Inter provides the modern, technical counterbalance to the organic headings.\n- **Citations & Labels:** Use `label-md` in `secondary` (#735c00) or `tertiary` (#4e3700) to create a clear visual hierarchy for metadata.\n\n---\n\n## 4. Elevation & Depth\nIn this system, depth is a result of **Tonal Layering**, not structural scaffolding.\n\n### The Layering Principle\nTreat the UI as a stack of fine paper. \n- **Base Layer:** `surface_container_low` (#f3f4f5).\n- **Interactive Layer:** `surface_container_lowest` (#ffffff).\n- **Overlay Layer:** Glassmorphism. Use `surface_bright` with 80% opacity and a `20px` backdrop blur for floating navigation or modals.\n\n### Ambient Shadows\nShadows must mimic natural gallery lighting. \n- **Specs:** Blur: 40px–80px | Spread: -10px | Color: `on_surface` at 4% opacity. \n- Never use pure black shadows; they feel \"digital\" and cheap.\n\n### The \"Ghost Border\" Fallback\nIf accessibility requirements demand a border (e.g., in high-contrast modes), use the **Ghost Border**: `outline_variant` (#bec9c6) at 15% opacity. It should be felt, not seen.\n\n---\n\n## 5. Components\n\n### Buttons\n- **Primary:** Solid `primary` (#00433d) background, `on_primary` (#ffffff) text. \n- **Shape:** `rounded-md` (0.75rem). \n- **Style:** No border. Use a subtle `primary_container` glow on hover.\n- **Secondary:** `surface_container_high` background with `primary` text. This maintains the \"architectural\" feel without the weight of the dark green.\n\n### Minimalist Inputs\n- **Background:** `surface_container_low` (#f3f4f5).\n- **Shape:** `rounded-md` (0.75rem).\n- **State:** On focus, shift background to `surface_container_lowest` (#ffffff) and add a 2px \"Soft Shadow.\" Do not add a stroke.\n- **Typography:** Use `label-sm` for floating labels, tucked into the top-left with `spacing-1.5` padding.\n\n### Cards & Lists\n- **Rule:** Absolute prohibition of divider lines. \n- **Separation:** Use `spacing-12` (4rem) between list items. \n- **Cards:** Forgo the border. Use a `surface_container_lowest` background on the warm `surface_container_low` canvas. The 0.75rem corner radius provides the \"organic\" softness required to balance the heavy typography.\n\n### Editorial Citations (Custom Component)\n- **Role:** For pull quotes or metadata.\n- **Style:** Left-aligned `tertiary_fixed_dim` (#e9c176) vertical accent bar (4px wide), using `display-sm` for the quote text.\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do:\n- **Use \"Extreme Whitespace\":** If you think a section has enough padding, double it. Use `spacing-20` (7rem) and `spacing-24` (8.5rem) generously between major content blocks.\n- **Asymmetric Balance:** Place a large headline on the left and a small body paragraph on the right, leaving the rest of the row empty.\n- **Intentional Overlaps:** Allow images to slightly overlap background color shifts to create a layered, \"collaged\" editorial look.\n\n### Don't:\n- **Don't use 1px lines:** Ever. This is the quickest way to break the \"High-End\" feel.\n- **Don't use pure grey:** Use the warm neutrals provided (`surface_container` variants) to keep the \"organic\" feeling alive.\n- **Don't crowd the edges:** Content should never be within `spacing-10` of the viewport edge. Maintain a \"gutter of silence.\"\n- **Don't use standard shadows:** Avoid the default \"Drop Shadow\" plugins. Hand-craft large, soft, ambient glows.\n\n---\n\n**Director’s Note:** Remember, we are not designing a tool for speed; we are designing a tool for *reflection*. Every click should feel like turning a heavy, matte page in a collector's edition journal. Keep it quiet, keep it bold, keep it architectural.```",
+                  "font": "MANROPE",
+                  "headlineFont": "MANROPE",
+                  "labelFont": "INTER",
+                  "namedColors": {
+                    "background": "#f8f9fa",
+                    "error": "#ba1a1a",
+                    "error_container": "#ffdad6",
+                    "inverse_on_surface": "#f0f1f2",
+                    "inverse_primary": "#8cd4ca",
+                    "inverse_surface": "#2e3132",
+                    "on_background": "#191c1d",
+                    "on_error": "#ffffff",
+                    "on_error_container": "#93000a",
+                    "on_primary": "#ffffff",
+                    "on_primary_container": "#8ad2c8",
+                    "on_primary_fixed": "#00201d",
+                    "on_primary_fixed_variant": "#00504a",
+                    "on_secondary": "#ffffff",
+                    "on_secondary_container": "#745c00",
+                    "on_secondary_fixed": "#241a00",
+                    "on_secondary_fixed_variant": "#574500",
+                    "on_surface": "#191c1d",
+                    "on_surface_variant": "#3f4947",
+                    "on_tertiary": "#ffffff",
+                    "on_tertiary_container": "#e7bf75",
+                    "on_tertiary_fixed": "#261900",
+                    "on_tertiary_fixed_variant": "#5d4201",
+                    "outline": "#6f7977",
+                    "outline_variant": "#bec9c6",
+                    "primary": "#00433d",
+                    "primary_container": "#005c55",
+                    "primary_fixed": "#a7f0e6",
+                    "primary_fixed_dim": "#8cd4ca",
+                    "secondary": "#735c00",
+                    "secondary_container": "#fed65b",
+                    "secondary_fixed": "#ffe088",
+                    "secondary_fixed_dim": "#e9c349",
+                    "surface": "#f8f9fa",
+                    "surface_bright": "#f8f9fa",
+                    "surface_container": "#edeeef",
+                    "surface_container_high": "#e7e8e9",
+                    "surface_container_highest": "#e1e3e4",
+                    "surface_container_low": "#f3f4f5",
+                    "surface_container_lowest": "#ffffff",
+                    "surface_dim": "#d9dadb",
+                    "surface_tint": "#1a6962",
+                    "surface_variant": "#e1e3e4",
+                    "tertiary": "#4e3700",
+                    "tertiary_container": "#694d0c",
+                    "tertiary_fixed": "#ffdea5",
+                    "tertiary_fixed_dim": "#e9c176"
+                  },
+                  "overrideNeutralColor": "#F3F4F5",
+                  "overridePrimaryColor": "#005C55",
+                  "overrideSecondaryColor": "#D4AF37",
+                  "overrideTertiaryColor": "#C5A059",
+                  "roundness": "ROUND_EIGHT",
+                  "spacingScale": 3
+                }
+              },
+              "name": "assets/f690038bc26b47fea6a619736ca4ded5",
+              "version": "1"
+            },
+            "deviceType": "DESKTOP",
+            "generatedBy": "figaro_agent",
+            "height": "2048",
+            "htmlCode": {
+              "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzRjNzE3ZGM5NWYxMjRkNWM4MjNmZjk5MGZiMDhkY2I5EgsSBxD4gf-qtRAYAZIBIwoKcHJvamVjdF9pZBIVQhM0MTU4NjE2MTg0NjU4NzUwNzk2&filename=&opi=96797242",
+              "mimeType": "text/html",
+              "name": "projects/4158616184658750796/files/a042dafee72e4ca4ad4e1651e6690b8f"
+            },
+            "id": "8a3717f3887f48e4a4ec96a5034a28d2",
+            "name": "projects/4158616184658750796/screens/8a3717f3887f48e4a4ec96a5034a28d2",
+            "prompt": "A desktop AI-powered sustainability knowledge search platform. \n- Layout: Full-height page, warm/off-white background (#f3f4f5). \n- Header: Minimalist TopAppBar with back arrow, 'Sustainability Knowledge Search', and 'PageIndex RAG' badge. \n- SideNavBar: Left navigation for Knowledge Base, Recent Searches, etc.\n- Main Area: Max-width 720px, scrollable chat. \n- User Message: Right-aligned deep forest green (#005c55) bubble, white text. \n- AI Response: AI avatar, white response card, soft shadow. Headlines in Manrope bold, bullet points with green dots, circular green badges for numbers. Amber/gold pills for inline citations. \n- Source Section: 'Referenced Sources' label, cards with source info (name, page range). \n- Bottom Bar: Minimalist input bar with textarea, circular green send button, and small disclaimer text below. \n- Styling: NO 1px borders. Use shadows and tonal shifts. Manrope (headings) and Inter (body). Soft rounded corners (12px). Extreme whitespace (8px-12px padding/gaps).",
+            "screenMetadata": {
+              "agentType": "HATTER_AGENT",
+              "status": "COMPLETE"
+            },
+            "screenType": "DESIGN",
+            "screenshot": {
+              "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0uhOAl7aWtINqc0vcULgU5PiXQRX0JUKTEmOiwUhYN4bcxKtYofsTyI-HUTrF68LzqOXt1a2XIagBQ51EYyTc3BB0IZyO9PIybXnthNvPzDJngHnqgd1_9pY10F4d9RhQHfYBiNgS6sOFMFQcJX_L67r0zdghcvpnHyc5cYr7uHJFHwz0mACW0wz3JMqS7XF18G2txdGbdLr-UMpQdxjdBte15uAlaxz9OlspzSTZf1EjPsers2Lp9m7NiY",
+              "name": "projects/4158616184658750796/files/0b0b86c956f848478b81624cf7814485"
+            },
+            "theme": {
+              "bodyFont": "INTER",
+              "colorMode": "LIGHT",
+              "colorVariant": "FIDELITY",
+              "customColor": "#005C55",
+              "designMd": "```markdown\n# Design System Specification: The Architectural Editorial\n\n## 1. Overview & Creative North Star\n**Creative North Star: The Digital Curator**\n\nThis design system is not a utility; it is a destination. It rejects the frantic, cluttered nature of modern \"SaaS\" aesthetics in favor of a high-end editorial journal experience. We aim for a \"Monolithic Architecture\" feel—where structural integrity is defined by volume, mass, and light rather than thin lines. \n\nThe system moves beyond the grid through intentional asymmetry and extreme whitespace. By treating the screen as a physical gallery space, we elevate content to the status of an artifact. Every element must feel intentional, authoritative, and organic.\n\n---\n\n## 2. Colors & Surface Philosophy\nThe palette is rooted in the \"Forest and Stone\" concept. We use deep, intellectual greens and warm, archival whites to create a sense of history and permanence.\n\n### The Palette\n- **Primary Tone:** `primary` (#00433d) and `primary_container` (#005c55). These are our \"Ink\" colors. They represent authority.\n- **Surface Tones:** `surface_container_low` (#f3f4f5) serves as our primary canvas color—a warm, paper-like white that reduces eye strain and feels premium.\n- **Citation Accents:** Use `tertiary_fixed_dim` (#e9c176) for citations, highlights, and subtle callouts. This amber/gold provides a \"lit-from-within\" glow against the forest green.\n\n### The \"No-Line\" Rule\n**Strict Mandate:** Designers are prohibited from using 1px solid borders for sectioning or containment. \nBoundaries must be defined through:\n1. **Background Shifts:** Placing a `surface_container_lowest` (#ffffff) card on a `surface_container_low` (#f3f4f5) background.\n2. **Tonal Transitions:** Moving from `surface` to `surface_dim` to denote a footer or sidebar.\n3. **Spatial Breathing:** Using extreme values from the Spacing Scale (e.g., `spacing-16` or `spacing-24`) to create logical separation.\n\n### Signature Textures\nTo add \"soul,\" use subtle linear gradients on primary CTAs and Hero sections. Transition from `primary` (#00433d) to `primary_container` (#005c55) at a 135-degree angle. This prevents the \"flat-vector\" look and adds architectural depth.\n\n---\n\n## 3. Typography\nWe pair the architectural structure of **Manrope** with the utilitarian precision of **Inter**.\n\n- **Display & Headlines (Manrope):** Use `display-lg` (3.5rem) for hero statements. These should feel heavy and authoritative. Set headlines with tight letter-spacing (-0.02em) to mimic high-end print journals.\n- **Body & Utility (Inter):** Use `body-lg` (1rem) for long-form reading. Inter provides the modern, technical counterbalance to the organic headings.\n- **Citations & Labels:** Use `label-md` in `secondary` (#735c00) or `tertiary` (#4e3700) to create a clear visual hierarchy for metadata.\n\n---\n\n## 4. Elevation & Depth\nIn this system, depth is a result of **Tonal Layering**, not structural scaffolding.\n\n### The Layering Principle\nTreat the UI as a stack of fine paper. \n- **Base Layer:** `surface_container_low` (#f3f4f5).\n- **Interactive Layer:** `surface_container_lowest` (#ffffff).\n- **Overlay Layer:** Glassmorphism. Use `surface_bright` with 80% opacity and a `20px` backdrop blur for floating navigation or modals.\n\n### Ambient Shadows\nShadows must mimic natural gallery lighting. \n- **Specs:** Blur: 40px–80px | Spread: -10px | Color: `on_surface` at 4% opacity. \n- Never use pure black shadows; they feel \"digital\" and cheap.\n\n### The \"Ghost Border\" Fallback\nIf accessibility requirements demand a border (e.g., in high-contrast modes), use the **Ghost Border**: `outline_variant` (#bec9c6) at 15% opacity. It should be felt, not seen.\n\n---\n\n## 5. Components\n\n### Buttons\n- **Primary:** Solid `primary` (#00433d) background, `on_primary` (#ffffff) text. \n- **Shape:** `rounded-md` (0.75rem). \n- **Style:** No border. Use a subtle `primary_container` glow on hover.\n- **Secondary:** `surface_container_high` background with `primary` text. This maintains the \"architectural\" feel without the weight of the dark green.\n\n### Minimalist Inputs\n- **Background:** `surface_container_low` (#f3f4f5).\n- **Shape:** `rounded-md` (0.75rem).\n- **State:** On focus, shift background to `surface_container_lowest` (#ffffff) and add a 2px \"Soft Shadow.\" Do not add a stroke.\n- **Typography:** Use `label-sm` for floating labels, tucked into the top-left with `spacing-1.5` padding.\n\n### Cards & Lists\n- **Rule:** Absolute prohibition of divider lines. \n- **Separation:** Use `spacing-12` (4rem) between list items. \n- **Cards:** Forgo the border. Use a `surface_container_lowest` background on the warm `surface_container_low` canvas. The 0.75rem corner radius provides the \"organic\" softness required to balance the heavy typography.\n\n### Editorial Citations (Custom Component)\n- **Role:** For pull quotes or metadata.\n- **Style:** Left-aligned `tertiary_fixed_dim` (#e9c176) vertical accent bar (4px wide), using `display-sm` for the quote text.\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do:\n- **Use \"Extreme Whitespace\":** If you think a section has enough padding, double it. Use `spacing-20` (7rem) and `spacing-24` (8.5rem) generously between major content blocks.\n- **Asymmetric Balance:** Place a large headline on the left and a small body paragraph on the right, leaving the rest of the row empty.\n- **Intentional Overlaps:** Allow images to slightly overlap background color shifts to create a layered, \"collaged\" editorial look.\n\n### Don't:\n- **Don't use 1px lines:** Ever. This is the quickest way to break the \"High-End\" feel.\n- **Don't use pure grey:** Use the warm neutrals provided (`surface_container` variants) to keep the \"organic\" feeling alive.\n- **Don't crowd the edges:** Content should never be within `spacing-10` of the viewport edge. Maintain a \"gutter of silence.\"\n- **Don't use standard shadows:** Avoid the default \"Drop Shadow\" plugins. Hand-craft large, soft, ambient glows.\n\n---\n\n**Director’s Note:** Remember, we are not designing a tool for speed; we are designing a tool for *reflection*. Every click should feel like turning a heavy, matte page in a collector's edition journal. Keep it quiet, keep it bold, keep it architectural.```",
+              "font": "MANROPE",
+              "headlineFont": "MANROPE",
+              "labelFont": "INTER",
+              "namedColors": {
+                "background": "#f8f9fa",
+                "error": "#ba1a1a",
+                "error_container": "#ffdad6",
+                "inverse_on_surface": "#f0f1f2",
+                "inverse_primary": "#8cd4ca",
+                "inverse_surface": "#2e3132",
+                "on_background": "#191c1d",
+                "on_error": "#ffffff",
+                "on_error_container": "#93000a",
+                "on_primary": "#ffffff",
+                "on_primary_container": "#8ad2c8",
+                "on_primary_fixed": "#00201d",
+                "on_primary_fixed_variant": "#00504a",
+                "on_secondary": "#ffffff",
+                "on_secondary_container": "#745c00",
+                "on_secondary_fixed": "#241a00",
+                "on_secondary_fixed_variant": "#574500",
+                "on_surface": "#191c1d",
+                "on_surface_variant": "#3f4947",
+                "on_tertiary": "#ffffff",
+                "on_tertiary_container": "#e7bf75",
+                "on_tertiary_fixed": "#261900",
+                "on_tertiary_fixed_variant": "#5d4201",
+                "outline": "#6f7977",
+                "outline_variant": "#bec9c6",
+                "primary": "#00433d",
+                "primary_container": "#005c55",
+                "primary_fixed": "#a7f0e6",
+                "primary_fixed_dim": "#8cd4ca",
+                "secondary": "#735c00",
+                "secondary_container": "#fed65b",
+                "secondary_fixed": "#ffe088",
+                "secondary_fixed_dim": "#e9c349",
+                "surface": "#f8f9fa",
+                "surface_bright": "#f8f9fa",
+                "surface_container": "#edeeef",
+                "surface_container_high": "#e7e8e9",
+                "surface_container_highest": "#e1e3e4",
+                "surface_container_low": "#f3f4f5",
+                "surface_container_lowest": "#ffffff",
+                "surface_dim": "#d9dadb",
+                "surface_tint": "#1a6962",
+                "surface_variant": "#e1e3e4",
+                "tertiary": "#4e3700",
+                "tertiary_container": "#694d0c",
+                "tertiary_fixed": "#ffdea5",
+                "tertiary_fixed_dim": "#e9c176"
+              },
+              "overrideNeutralColor": "#F3F4F5",
+              "overridePrimaryColor": "#005C55",
+              "overrideSecondaryColor": "#D4AF37",
+              "overrideTertiaryColor": "#C5A059",
+              "roundness": "ROUND_EIGHT",
+              "spacingScale": 3
+            },
+            "title": "Sustainability Knowledge Search",
+            "width": "2560"
+          }
+        ],
+        "theme": {}
+      }
+    },
+    {
+      "text": "I've created a high-end, editorial search interface for your sustainability platform, following \"The Living Archive\" design principles. \n\nKey design choices:\n- **\"No-Line\" Philosophy:** Sectioning is achieved through background shifts and soft, tonal layering instead of borders, creating a seamless, architectural feel.\n- **Editorial Typography:** High-contrast pairing of **Manrope** for authoritative headings and **Inter** for clean, readable body text.\n- **Visual Depth:** AI responses are presented as elevated \"cards\" on a warm, off-white background with soft ambient shadows to imply physical weight.\n- **Sustainability Cues:** Deep forest green (#005c55) as the primary brand color, with amber/gold accents for grounded citations and references.\n- **Structured Insights:** A \"Topic Insights\" sidebar provides additional context, including global trends, related keywords, and an \"Impact Spotlight.\"\n\nWould you like me to adjust any of the layout elements or perhaps explore a dark mode version?"
+    },
+    {
+      "suggestion": "Design a dark mode version"
+    },
+    {
+      "suggestion": "Add more source document types to the sidebar"
+    },
+    {
+      "suggestion": "Refine the 'Topic Insights' section style"
+    },
+    {
+      "suggestion": "Create a 'My Saved Research' library page"
+    }
+  ],
+  "projectId": "4158616184658750796",
+  "sessionId": "2484585577299759880"
+}

@@ -1,0 +1,35 @@
+- question: "Under VM0044, which category of reversal risk does fire belong to?"
+  options:
+    - "Non-natural risk"
+    - "Natural risk"
+    - "Leakage risk"
+    - "Financial risk"
+  answer: 1
+  explanation: "Fire is classified as a natural risk. It is the most significant natural risk for soil-applied biochar because it can combust the biochar and immediately release stored carbon. Subsurface application at least 10 cm deep greatly reduces this risk."
+
+- question: "Does VM0044 require a buffer pool to account for reversal risk of verified biochar sequestration?"
+  options:
+    - "Yes, 10% of all credits must be deposited in the buffer pool"
+    - "Yes, a buffer pool applies for surface-applied biochar only"
+    - "No, VM0044 considers reversal risk to be negligible and no buffer pool is required"
+    - "No, but a 5-year monitoring period is required after each verification"
+  answer: 2
+  explanation: "VM0044 considers the reversal risk of verified biochar sequestration to be negligible, given the risk mitigation measures in the methodology (subsurface application, mixing with substrates, independence of verified removals from future project continuation). No buffer pool or reversal mechanism is required."
+
+- question: "Under the conservative baseline default in VM0044, what is the value of ER_SS,y (GHG emission reductions at the sourcing stage)?"
+  options:
+    - "Equal to the transport emissions from collecting the biomass feedstock"
+    - "Zero, because both baseline and project emissions at the sourcing stage are set to zero"
+    - "Equal to the avoided landfill emissions from not decomposing the biomass"
+    - "Equal to the production stage removals divided by three"
+  answer: 1
+  explanation: "Under the conservative default approach in Equation 14, baseline emissions at the sourcing stage (BE_SS,y) are set to zero and project emissions (PE_SS,y) are also set to zero because waste biogenic material is treated as renewable biomass. The result is ER_SS,y = 0 - 0 = 0."
+
+- question: "Which of the following correctly states Equation 15, the master net removals formula in VM0044?"
+  options:
+    - "ER_y = ER_SS,y + ER_PS,y + PE_AS,y + LE_y"
+    - "ER_y = ER_PS,y - ER_SS,y - PE_AS,y - LE_y"
+    - "ER_y = ER_SS,y + ER_PS,y - PE_AS,y - LE_y"
+    - "ER_y = ER_SS,y - ER_PS,y + PE_AS,y - LE_y"
+  answer: 2
+  explanation: "Equation 15 states: ER_y = ER_SS,y + ER_PS,y - PE_AS,y - LE_y. The sourcing and production stage reductions are added together. The application stage emissions and leakage are subtracted, because both of these represent positive GHG emissions that reduce the net credit amount."

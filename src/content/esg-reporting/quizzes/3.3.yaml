@@ -1,0 +1,26 @@
+- question: "A department reports zero workplace injuries for the year, but you discover they do not have a formal injury tracking system. How should this be reported?"
+  options:
+    - "Report it as zero injuries since no injuries were recorded"
+    - "Report it as 'not tracked' or flag it as a data gap - the absence of evidence is not evidence of absence"
+    - "Estimate a number based on industry averages"
+    - "Omit the metric entirely from the report"
+  answer: 1
+  explanation: "A company that does not track injuries is not a company with zero injuries - it is a company that does not know how many injuries it has. Reporting untracked data as zero creates serious credibility and legal risks. It should be disclosed as 'not tracked' or flagged as a gap."
+
+- question: "Your sustainability report shows total energy consumption as 45,000 GJ in the environmental section, but the data table in the appendix says 44,800 GJ. What type of sanity check failure is this?"
+  options:
+    - "Cross-report consistency failure"
+    - "Year-on-year change anomaly"
+    - "Internal consistency failure - the same metric shows different numbers in different places within the same report"
+    - "Decimal place precision error"
+  answer: 2
+  explanation: "This is an internal consistency failure. It typically happens when different sections are written at different times using different versions of the data. The fix is to maintain a master data table as a single source of truth that every section of the report pulls from."
+
+- question: "A company's Scope 2 emissions dropped 40% compared to last year. Before including this in the report, what should you investigate first?"
+  options:
+    - "Whether the drop makes the company look too good compared to peers"
+    - "Whether the change is due to a genuine shift (like renewable energy adoption) or a methodology change (like different emission factors or boundary changes)"
+    - "Whether the assurance provider will accept the number"
+    - "Whether to round the percentage to make it look less dramatic"
+  answer: 1
+  explanation: "Year-on-year changes greater than 20-25% always warrant investigation. A large drop could reflect genuine progress, but it could also result from changed emission factors, boundary changes, or calculation errors. Understanding the cause is essential before reporting it."

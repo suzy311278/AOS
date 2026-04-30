@@ -1,0 +1,26 @@
+- question: "A department head has not responded to three data requests over six weeks, then claims they were never asked when the report is delayed. What is the most effective defense against this behavior?"
+  options:
+    - "Escalate directly to the CEO after the first missed request"
+    - "Maintain a documented paper trail of every request, follow-up, and escalation"
+    - "Write the section without their data and note it as unavailable"
+    - "Schedule daily reminder calls until they respond"
+  answer: 1
+  explanation: "This is classic BOGON behavior - absent during work, present during blame. A documented paper trail (emails, status updates noting pending items by name) is your primary defense. When they claim ignorance, you can forward the evidence. Without documentation, it becomes your word against theirs."
+
+- question: "A senior stakeholder provides vague feedback like 'make it more impactful' and requests repeated review rounds without adding substantive value. What is the best management strategy?"
+  options:
+    - "Implement every piece of feedback exactly as stated to keep them happy"
+    - "Remove them from the review process entirely"
+    - "Set clear review milestones with defined scope and limit revision rounds upfront"
+    - "Ask them to rewrite the sections themselves"
+  answer: 2
+  explanation: "This is DRONGON behavior - high noise, low signal. The management strategy is structural: define what each review round covers (e.g., factual accuracy only), require written mark-ups instead of verbal feedback, and cap the number of revision rounds in the project plan. You cannot ignore them, but you can channel their input productively."
+
+- question: "Why is ESG reporting described as '30% technical work and 70% people management'?"
+  options:
+    - "The frameworks are too simple to require much technical effort"
+    - "Most of the calendar time is spent getting data from reluctant departments, managing stakeholder feedback, and navigating approval chains"
+    - "Companies prefer reports written by committee rather than by experts"
+    - "ESG data does not require technical validation"
+  answer: 1
+  explanation: "The frameworks are learnable and the writing is a developable skill. But the real challenge is organizational: extracting data from departments that do not prioritize ESG, managing stakeholders with conflicting feedback, and moving reports through multi-level approval chains. These people dynamics determine whether engagements succeed or fail."

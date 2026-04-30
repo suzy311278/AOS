@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Greentryst | The Sovereign Ledger for Sustainability Professionals</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&amp;family=JetBrains+Mono:wght@400;700&amp;family=Space+Grotesk:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-tertiary-container": "#48df82",
+                        "surface-bright": "#2c3c3c",
+                        "surface-tint": "#70d8c8",
+                        "error": "#ffb4ab",
+                        "on-error-container": "#ffdad6",
+                        "error-container": "#93000a",
+                        "secondary-fixed-dim": "#b5cbca",
+                        "on-tertiary": "#003919",
+                        "on-surface": "#d4e6e5",
+                        "secondary": "#b5cbca",
+                        "surface-variant": "#283837",
+                        "on-secondary-fixed": "#0a1f1f",
+                        "on-primary-fixed": "#00201c",
+                        "on-secondary-container": "#a7bdbc",
+                        "outline-variant": "#3f4947",
+                        "primary": "#70d8c8",
+                        "inverse-on-surface": "#233333",
+                        "secondary-fixed": "#d0e7e6",
+                        "primary-container": "#005c52",
+                        "tertiary": "#4ae183",
+                        "secondary-container": "#384d4d",
+                        "on-tertiary-fixed-variant": "#005228",
+                        "surface-container": "#122222",
+                        "surface-container-high": "#1d2d2d",
+                        "on-secondary": "#203434",
+                        "surface-container-highest": "#283837",
+                        "on-tertiary-fixed": "#00210c",
+                        "outline": "#889391",
+                        "on-primary-fixed-variant": "#005048",
+                        "surface": "#061616",
+                        "tertiary-fixed": "#6bfe9c",
+                        "inverse-primary": "#006b5f",
+                        "surface-dim": "#061616",
+                        "on-secondary-fixed-variant": "#364a4a",
+                        "primary-fixed-dim": "#70d8c8",
+                        "primary-fixed": "#8df5e4",
+                        "surface-container-low": "#0e1e1e",
+                        "inverse-surface": "#d4e6e5",
+                        "tertiary-container": "#005f2f",
+                        "on-background": "#d4e6e5",
+                        "on-primary-container": "#6ed6c6",
+                        "on-surface-variant": "#bec9c6",
+                        "on-error": "#690005",
+                        "on-primary": "#003731",
+                        "tertiary-fixed-dim": "#4ae183",
+                        "surface-container-lowest": "#021111",
+                        "background": "#061616"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    fontFamily: {
+                        "headline": ["Inter", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "label": ["Space Grotesk", "sans-serif"],
+                        "mono": ["JetBrains Mono", "monospace"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .marquee-container {
+            display: flex;
+            overflow: hidden;
+            user-select: none;
+            gap: 4rem;
+        }
+        .marquee-content {
+            flex-shrink: 0;
+            display: flex;
+            justify-content: space-around;
+            min-width: 100%;
+            gap: 4rem;
+            animation: scroll 40s linear infinite;
+        }
+        @keyframes scroll {
+            from { transform: translateX(0); }
+            to { transform: translateX(-100%); }
+        }
+        .mesh-grid {
+            background-image: radial-gradient(circle at 2px 2px, rgba(112, 216, 200, 0.05) 1px, transparent 0);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-6 md:px-12 py-6 max-w-[1920px] mx-auto bg-[#0a1a1a]/80 backdrop-blur-xl shadow-[0_24px_48px_rgba(212,230,229,0.06)]">
+<div class="text-2xl font-extrabold tracking-tighter text-[#70d8c8]">Greentryst</div>
+<div class="hidden md:flex gap-10 items-center">
+<a class="text-[#70d8c8] font-bold border-b-2 border-[#70d8c8] pb-1" href="#">Platform</a>
+<a class="text-[#d4e6e5] hover:text-[#70d8c8] transition-colors" href="#">Resources</a>
+<a class="text-[#d4e6e5] hover:text-[#70d8c8] transition-colors" href="#">Solutions</a>
+<a class="text-[#d4e6e5] hover:text-[#70d8c8] transition-colors" href="#">Network</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="text-[#d4e6e5] font-bold hover:text-[#70d8c8] transition-colors">Log In</button>
+<button class="bg-[#005c52] text-[#70d8c8] px-6 py-2.5 rounded-xl font-bold hover:scale-95 transition-all duration-200">Get Started</button>
+</div>
+</nav>
+<!-- HERO SECTION -->
+<section class="relative min-h-screen pt-32 pb-24 overflow-hidden mesh-grid flex flex-col items-center justify-center text-center px-6">
+<div class="absolute top-0 left-0 w-full h-full pointer-events-none">
+<div class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-[128px]"></div>
+<div class="absolute bottom-1/4 right-1/4 w-64 h-64 bg-primary-container/20 rounded-full blur-[96px]"></div>
+</div>
+<div class="max-w-5xl relative z-10">
+<h1 class="font-headline font-extrabold text-5xl md:text-7xl lg:text-[80px] leading-[0.95] tracking-[-0.03em] mb-8 text-on-surface">
+                Your sustainability <br/><span class="text-primary">command center.</span>
+</h1>
+<p class="font-body text-xl md:text-2xl text-on-surface-variant max-w-3xl mx-auto mb-12">
+                22 courses. 80+ indexed source documents. <br/>
+                Every answer <span class="text-on-surface font-semibold">traceable to its origin.</span>
+</p>
+<div class="flex flex-col sm:flex-row gap-6 justify-center mb-24">
+<button class="bg-primary-container text-on-primary-container px-8 py-5 rounded-xl font-bold text-lg shadow-xl hover:scale-[0.98] transition-transform">
+                    Get Started Free
+                </button>
+<button class="bg-surface-variant/40 backdrop-blur-md text-on-surface px-8 py-5 rounded-xl font-bold text-lg border border-outline-variant/30 hover:bg-surface-variant/60 transition-colors">
+                    Explore the Platform
+                </button>
+</div>
+<!-- Browser Mockup -->
+<div class="relative w-full max-w-6xl mx-auto transform -rotate-1 perspective-1000">
+<div class="bg-[#0e1e1e] rounded-xl border border-outline-variant/20 shadow-[0_48px_96px_rgba(0,0,0,0.5)] overflow-hidden">
+<!-- Title Bar -->
+<div class="flex items-center gap-2 px-4 py-3 bg-surface-container-high border-b border-outline-variant/10">
+<div class="flex gap-1.5">
+<div class="w-3 h-3 rounded-full bg-error/40"></div>
+<div class="w-3 h-3 rounded-full bg-amber-500/40"></div>
+<div class="w-3 h-3 rounded-full bg-primary/40"></div>
+</div>
+<div class="flex-1 max-w-md mx-auto h-7 bg-surface-container-low rounded-lg flex items-center px-3 gap-2">
+<span class="material-symbols-outlined text-[14px] text-outline">search</span>
+<span class="text-[12px] font-mono text-outline">greentryst.com/ledger/ghg-protocol</span>
+</div>
+</div>
+<img alt="Greentryst Dashboard Interface" class="w-full h-auto opacity-90" data-alt="A sophisticated professional software dashboard showing complex data visualizations, sustainability reports, and document sidebars in a sleek dark interface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBi6XTmDt2t6PFZKFueoQj7CtBq9Z4LqJcDBJRZBsQ3QPjNFVrlFSYCpUsaAzhRCAcEijDeeBed_azHiPaJYV1J6R2g6vuA1vhNufzE3LQQVkV_GSn01rUrijXPdujzZhggJlx4zFcg8tsB1_5-m7gV0rquzPsLIo_AAlYYOdP5ajlZmnMzWsPAL7CDPTT6qPzS9bseqHS3f0rvqsQ8e_6sf9X_oyIzqgixTqYFoeac7fec7pZfeWHhlhPYOoaSO4Rv51I17Pvo_TSU"/>
+</div>
+</div>
+</div>
+</section>
+<!-- MARQUEE -->
+<div class="bg-primary-container py-6 overflow-hidden border-y border-primary/20">
+<div class="marquee-container">
+<div class="marquee-content font-mono font-bold text-lg text-primary tracking-widest whitespace-nowrap">
+<span>GHG PROTOCOL</span>
+<span>EU TAXONOMY</span>
+<span>CSRD</span>
+<span>BRSR</span>
+<span>VM0042</span>
+<span>PCAF</span>
+<span>TCFD</span>
+<span>GRI STANDARDS</span>
+<span>ISSB</span>
+<span>SCOPE 3</span>
+</div>
+<div class="marquee-content font-mono font-bold text-lg text-primary tracking-widest whitespace-nowrap">
+<span>GHG PROTOCOL</span>
+<span>EU TAXONOMY</span>
+<span>CSRD</span>
+<span>BRSR</span>
+<span>VM0042</span>
+<span>PCAF</span>
+<span>TCFD</span>
+<span>GRI STANDARDS</span>
+<span>ISSB</span>
+<span>SCOPE 3</span>
+</div>
+</div>
+</div>
+<!-- TRUST STATEMENT SECTION -->
+<section class="bg-[#f8faf9] py-32 px-6">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-24">
+<h2 class="text-surface font-headline font-extrabold italic text-4xl md:text-6xl max-w-4xl mx-auto leading-tight">
+                    "If it is on Greentryst, it can be traced back to the original source."
+                </h2>
+</div>
+<div class="grid md:grid-cols-2 gap-12">
+<!-- ChatGPT Block -->
+<div class="bg-[#fdeaea] p-10 rounded-xl border-l-8 border-error">
+<div class="flex justify-between items-start mb-8">
+<span class="font-headline font-bold text-surface text-2xl">Generic AI</span>
+<span class="material-symbols-outlined text-error text-3xl">warning</span>
+</div>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-error">close</span>
+<p class="text-surface-variant font-medium">Plausible but unsourced answers</p>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-error">close</span>
+<p class="text-surface-variant font-medium">Significant hallucination risk on regulatory data</p>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-error">close</span>
+<p class="text-surface-variant font-medium">No verifiable link to source documents</p>
+</div>
+</div>
+</div>
+<!-- Greentryst Block -->
+<div class="bg-[#edf9f7] p-10 rounded-xl border-l-8 border-primary">
+<div class="flex justify-between items-start mb-8">
+<span class="font-headline font-bold text-surface text-2xl">Greentryst</span>
+<span class="material-symbols-outlined text-primary text-3xl">verified</span>
+</div>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<p class="text-surface-variant font-medium">Every claim cited at the paragraph level</p>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<p class="text-surface-variant font-medium">Source documents linked and previewable</p>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<p class="text-surface-variant font-medium">Auditable data chain for professionals</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FOUR WORK MODES -->
+<section class="bg-[#0a1a1a] py-32 px-6">
+<div class="max-w-7xl mx-auto">
+<h3 class="font-headline font-extrabold text-4xl mb-16 text-on-surface">Precision Workflows</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Large: Deep Learn -->
+<div class="md:col-span-2 bg-surface-container-low p-12 rounded-xl relative overflow-hidden group">
+<div class="absolute top-0 right-0 w-1/2 h-full bg-primary/5 -skew-x-12 translate-x-24 group-hover:translate-x-12 transition-transform duration-700"></div>
+<span class="material-symbols-outlined text-primary text-4xl mb-6">menu_book</span>
+<h4 class="text-3xl font-extrabold mb-2">Deep Learn</h4>
+<p class="text-primary italic font-medium mb-4">"I need to master a framework."</p>
+<p class="text-on-surface-variant text-lg max-w-md">Structured, immersive paths through the most complex regulatory standards on earth. Master the logic, not just the labels.</p>
+</div>
+<!-- Medium: Quick Lookup -->
+<div class="bg-surface-container-low p-10 rounded-xl group hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">search_insights</span>
+<h4 class="text-2xl font-extrabold mb-2">Quick Lookup</h4>
+<p class="text-primary italic font-medium mb-4">"I need an exact definition."</p>
+<p class="text-on-surface-variant">Global search across 80+ regulatory manuals. Find the exact clause in seconds.</p>
+</div>
+<!-- Medium: Execute -->
+<div class="bg-surface-container-low p-10 rounded-xl group hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">terminal</span>
+<h4 class="text-2xl font-extrabold mb-2">Execute</h4>
+<p class="text-primary italic font-medium mb-4">"I need to build a report."</p>
+<p class="text-on-surface-variant">Workflow tools to draft disclosures, calculate metrics, and bridge frameworks.</p>
+</div>
+<!-- Large: Orient -->
+<div class="md:col-span-2 bg-surface-container-low p-12 rounded-xl relative overflow-hidden group">
+<div class="absolute bottom-0 right-0 w-64 h-64 bg-primary-container/10 blur-[80px]"></div>
+<span class="material-symbols-outlined text-primary text-4xl mb-6">explore</span>
+<h4 class="text-3xl font-extrabold mb-2">Orient</h4>
+<p class="text-primary italic font-medium mb-4">"Where does my firm stand?"</p>
+<p class="text-on-surface-variant text-lg max-w-md">Strategic mapping of your sustainability maturity against global indices and peers.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- PRODUCT SHOWCASE -->
+<section class="bg-[#f8faf9] py-32 px-6">
+<div class="max-w-7xl mx-auto space-y-48">
+<!-- Showcase 1 -->
+<div class="flex flex-col md:flex-row items-center gap-24">
+<div class="flex-1">
+<span class="font-mono font-bold text-primary-container tracking-widest text-sm uppercase mb-4 block">Education</span>
+<h2 class="text-surface font-headline font-extrabold text-5xl mb-8 leading-tight">Master the technicality of the GRI Standards.</h2>
+<p class="text-surface-variant text-xl leading-relaxed mb-10">Go beyond high-level summaries. Our platform breaks down the most dense GRI disclosures into interactive, visual learning modules that link directly to the official handbook.</p>
+<button class="flex items-center gap-2 text-primary-container font-extrabold text-lg hover:gap-4 transition-all">
+                        View Curriculum <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<div class="flex-1">
+<div class="bg-surface-container-highest rounded-xl p-4 shadow-2xl">
+<img alt="GRI Standards Dashboard" class="rounded-lg" data-alt="Detailed data charts and technical documentation layout on a professional software screen with clean UI and high information density." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1N68kfntVPoY_orv2liNuG3B5laCmqyDCCIWbOSXF1mL0a-OIjndxYQWR2sNnKQ3us_zN86Ru6h--aTU7fRxYhW5BbDDvDfAPGnDqgjbn_yTSF3fPxR-ZsIEKk4Q0Sp0LkyzgjCZSd6w_5Ch955JW-gf7xu-v8tSAjqVzBLHDpmKfsWd8XwLjoSbbsGdSffnjhskLdeqNFHWfCQnOFHI3IT3iJ42MAX4PYiCUtMExEeXpxhvOkYxRttRI9OdLD3WCGSA1D9BeLv7V"/>
+</div>
+</div>
+</div>
+<!-- Showcase 2 -->
+<div class="flex flex-col md:flex-row-reverse items-center gap-24">
+<div class="flex-1">
+<span class="font-mono font-bold text-primary-container tracking-widest text-sm uppercase mb-4 block">Analytics</span>
+<h2 class="text-surface font-headline font-extrabold text-5xl mb-8 leading-tight">SustainIQ: Precision Benchmarking.</h2>
+<p class="text-surface-variant text-xl leading-relaxed mb-10">Upload your disclosure drafts and let SustainIQ analyze them against 40,000+ indexed reports. Identify gaps, verify citations, and ensure compliance before submission.</p>
+<button class="flex items-center gap-2 text-primary-container font-extrabold text-lg hover:gap-4 transition-all">
+                        Launch Demo <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<div class="flex-1">
+<div class="bg-surface-container-highest rounded-xl p-4 shadow-2xl">
+<img alt="Analytics Interface" class="rounded-lg" data-alt="Professional data analytics screen showing network graphs and sustainability metric comparisons in a modern light-themed interface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAHzo2GDSxkqSGnLOORslScIHLBq_fTDZUa2kwBmp538fHbFDzfTApxVoxsCD71f3RFNABBZfl44Rh64vJwMbyS_scHsBItybk-CjhoU9wL11cl-rlR2RVlvkEH2OyZ-kWidevL2E78KvoxLlXasf7wE628b0FUmcTIlOh__PxWXHjCAqf2T0f9Qnv9R-wBGatPh1M9btcGOQRq6KdLjPlFq2h4kcu6a1WsU59UWLw2lb2VDdPEZGzM7T2-EFoJVgF5gzWYGsRVYMo"/>
+</div>
+</div>
+</div>
+</div>
+<!-- Coming Soon Strip -->
+<div class="mt-48 max-w-7xl mx-auto bg-surface py-12 px-12 rounded-xl flex flex-wrap items-center justify-between gap-8">
+<div class="flex items-center gap-4">
+<span class="bg-amber-500/10 text-amber-500 px-3 py-1 rounded-full text-xs font-bold tracking-widest uppercase border border-amber-500/20">Coming Soon</span>
+<span class="text-on-surface font-headline font-bold text-xl">Greentryst Ledger Pro</span>
+</div>
+<div class="h-px flex-1 bg-outline-variant/20 hidden md:block"></div>
+<div class="flex gap-12">
+<div class="text-on-surface-variant font-mono text-sm">Automated PCAF Calculations</div>
+<div class="text-on-surface-variant font-mono text-sm">Audit-ready API</div>
+</div>
+</div>
+</section>
+<!-- STATS RIBBON -->
+<section class="bg-primary-container py-24">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+<div>
+<div class="font-mono text-5xl md:text-6xl font-extrabold text-primary mb-2">22+</div>
+<div class="text-on-primary-container font-label uppercase tracking-widest text-sm font-bold">Global Courses</div>
+</div>
+<div>
+<div class="font-mono text-5xl md:text-6xl font-extrabold text-primary mb-2">470+</div>
+<div class="text-on-primary-container font-label uppercase tracking-widest text-sm font-bold">Solved Scenarios</div>
+</div>
+<div>
+<div class="font-mono text-5xl md:text-6xl font-extrabold text-primary mb-2">80+</div>
+<div class="text-on-primary-container font-label uppercase tracking-widest text-sm font-bold">Source Docs</div>
+</div>
+<div>
+<div class="font-mono text-5xl md:text-6xl font-extrabold text-primary mb-2">100%</div>
+<div class="text-on-primary-container font-label uppercase tracking-widest text-sm font-bold">Traceability</div>
+</div>
+</div>
+</section>
+<!-- PRICING SECTION -->
+<section class="bg-[#f8faf9] py-32 px-6">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-24">
+<h2 class="text-surface font-headline font-extrabold text-5xl mb-6">Invest in Authority.</h2>
+<p class="text-surface-variant text-xl max-w-2xl mx-auto">Start with 3 free lessons. No credit card needed.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Learn -->
+<div class="bg-white p-10 rounded-xl shadow-[0_4px_24px_rgba(0,0,0,0.04)] flex flex-col">
+<h4 class="text-surface font-headline font-bold text-2xl mb-2">Learn</h4>
+<p class="text-surface-variant mb-8">Master the fundamentals.</p>
+<div class="mb-8">
+<span class="text-surface font-mono text-5xl font-extrabold">$8</span>
+<span class="text-surface-variant font-medium">/mo</span>
+</div>
+<ul class="space-y-4 mb-12 flex-1">
+<li class="flex items-center gap-3 text-surface-variant"><span class="material-symbols-outlined text-primary text-xl">check</span> All core courses</li>
+<li class="flex items-center gap-3 text-surface-variant"><span class="material-symbols-outlined text-primary text-xl">check</span> Course certificates</li>
+<li class="flex items-center gap-3 text-surface-variant"><span class="material-symbols-outlined text-primary text-xl">check</span> Basic search</li>
+</ul>
+<button class="w-full py-4 rounded-xl border-2 border-primary-container text-primary-container font-extrabold hover:bg-primary-container hover:text-white transition-all">Get Started</button>
+</div>
+<!-- Career -->
+<div class="bg-white p-10 rounded-xl shadow-[0_32px_64px_rgba(0,0,0,0.08)] flex flex-col relative border-2 border-primary transform scale-105">
+<div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-on-primary px-4 py-1 rounded-full text-xs font-extrabold tracking-widest uppercase">Most Popular</div>
+<h4 class="text-surface font-headline font-bold text-2xl mb-2">Career</h4>
+<p class="text-surface-variant mb-8">For the modern professional.</p>
+<div class="mb-8">
+<span class="text-surface font-mono text-5xl font-extrabold">$14</span>
+<span class="text-surface-variant font-medium">/mo</span>
+</div>
+<ul class="space-y-4 mb-12 flex-1">
+<li class="flex items-center gap-3 text-surface-variant font-bold"><span class="material-symbols-outlined text-primary text-xl">verified</span> Unlimited source lookup</li>
+<li class="flex items-center gap-3 text-surface-variant"><span class="material-symbols-outlined text-primary text-xl">check</span> Advanced search queries</li>
+<li class="flex items-center gap-3 text-surface-variant"><span class="material-symbols-outlined text-primary text-xl">check</span> Career pathway tools</li>
+<li class="flex items-center gap-3 text-surface-variant"><span class="material-symbols-outlined text-primary text-xl">check</span> SustainIQ Lite</li>
+</ul>
+<button class="w-full py-4 rounded-xl bg-primary-container text-white font-extrabold shadow-lg hover:scale-95 transition-transform">Get Started</button>
+</div>
+<!-- Pro -->
+<div class="bg-white p-10 rounded-xl shadow-[0_4px_24px_rgba(0,0,0,0.04)] flex flex-col">
+<h4 class="text-surface font-headline font-bold text-2xl mb-2">Pro</h4>
+<p class="text-surface-variant mb-8">Enterprise-grade tools.</p>
+<div class="mb-8">
+<span class="text-surface font-mono text-5xl font-extrabold">$25</span>
+<span class="text-surface-variant font-medium">/mo</span>
+</div>
+<ul class="space-y-4 mb-12 flex-1">
+<li class="flex items-center gap-3 text-surface-variant"><span class="material-symbols-outlined text-primary text-xl">check</span> SustainIQ Full Suite</li>
+<li class="flex items-center gap-3 text-surface-variant"><span class="material-symbols-outlined text-primary text-xl">check</span> API Access</li>
+<li class="flex items-center gap-3 text-surface-variant"><span class="material-symbols-outlined text-primary text-xl">check</span> Team collaboration</li>
+<li class="flex items-center gap-3 text-surface-variant"><span class="material-symbols-outlined text-primary text-xl">check</span> White-labeled reporting</li>
+</ul>
+<button class="w-full py-4 rounded-xl border-2 border-primary-container text-primary-container font-extrabold hover:bg-primary-container hover:text-white transition-all">Get Started</button>
+</div>
+</div>
+</div>
+</section>
+<!-- FOOTER -->
+<footer class="bg-[#061616] py-24">
+<div class="max-w-7xl mx-auto px-12 grid grid-cols-1 md:grid-cols-4 gap-12 border-t border-[#d4e6e5]/10 pt-16">
+<div class="col-span-1 md:col-span-1">
+<div class="text-xl font-bold text-[#70d8c8] mb-6">Greentryst</div>
+<p class="text-[#d4e6e5]/60 text-sm leading-relaxed max-w-xs">
+                    Built for sustainability professionals who demand precision, traceability, and institutional authority.
+                </p>
+</div>
+<div>
+<h5 class="text-[#d4e6e5] font-bold text-xs uppercase tracking-widest mb-6">Platform</h5>
+<ul class="space-y-4 text-[#d4e6e5]/60 text-sm">
+<li><a class="hover:text-[#70d8c8] transition-colors" href="#">Course Catalog</a></li>
+<li><a class="hover:text-[#70d8c8] transition-colors" href="#">SustainIQ</a></li>
+<li><a class="hover:text-[#70d8c8] transition-colors" href="#">Pricing</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-[#d4e6e5] font-bold text-xs uppercase tracking-widest mb-6">Resources</h5>
+<ul class="space-y-4 text-[#d4e6e5]/60 text-sm">
+<li><a class="hover:text-[#70d8c8] transition-colors" href="#">Source Ledger</a></li>
+<li><a class="hover:text-[#70d8c8] transition-colors" href="#">Documentation</a></li>
+<li><a class="hover:text-[#70d8c8] transition-colors" href="#">Support</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-[#d4e6e5] font-bold text-xs uppercase tracking-widest mb-6">Company</h5>
+<ul class="space-y-4 text-[#d4e6e5]/60 text-sm">
+<li><a class="hover:text-[#70d8c8] transition-colors" href="#">About Us</a></li>
+<li><a class="hover:text-[#70d8c8] transition-colors" href="#">Legal</a></li>
+<li><a class="hover:text-[#70d8c8] transition-colors" href="#">Privacy</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-12 mt-16 pt-8 border-t border-[#d4e6e5]/5">
+<p class="text-[#d4e6e5]/40 text-xs font-mono">
+                © 2026 Greentryst. The Sovereign Ledger for Sustainability Professionals. All rights reserved.
+            </p>
+</div>
+</footer>
+</body></html>

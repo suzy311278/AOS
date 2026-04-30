@@ -1,0 +1,184 @@
+{
+  "outputComponents": [
+    {
+      "design": {
+        "screens": [
+          {
+            "designSystem": {
+              "designSystem": {
+                "displayName": "Insight Flux",
+                "theme": {
+                  "bodyFont": "INTER",
+                  "colorMode": "LIGHT",
+                  "colorVariant": "FIDELITY",
+                  "customColor": "#0A66C2",
+                  "designMd": "```markdown\n# Design System Document: The Editorial Analyst\n\nThis design system is a high-end, data-first framework engineered for professional LinkedIn analytics. It moves beyond the \"SaaS dashboard\" trope by treating data with the reverence of a premium financial publication. We replace rigid grids and heavy borders with a \"Atmospheric Layering\" philosophy, creating a workspace that feels light, authoritative, and profoundly intentional.\n\n---\n\n### 1. Overview & Creative North Star: \"The Digital Curator\"\n\nThe Creative North Star for this system is **The Digital Curator**. \n\nIn a world of cluttered analytics, this system acts as a sophisticated filter. We reject the \"standard\" implementation of cards and lines. Instead, we use **intentional asymmetry** and **tonal depth** to guide the eye. \n- **The Philosophy:** Data is the hero; the UI is the gallery. \n- **Breaking the Template:** We avoid the boxed-in look. Key metrics should breathe, utilizing expansive white space (using the `20` and `24` spacing tokens) to create an editorial rhythm that feels more like a high-end magazine than a database.\n\n---\n\n### 2. Colors & Surface Philosophy\n\nOur palette is a sophisticated play on professional blues and architectural grays. \n\n| Role | Token | Hex | Application |\n| :--- | :--- | :--- | :--- |\n| **Primary** | `primary` | `#004e99` | Main brand actions and focal points. |\n| **Accent** | `primary_container` | `#0a66c2` | The \"LinkedIn Blue\" for interactive cues. |\n| **Secondary** | `secondary` | `#466270` | Muted utility and secondary metadata. |\n| **Tertiary** | `tertiary` | `#833900` | Warning or high-attention insights (Warm Amber). |\n| **Surface** | `surface` | `#f7fafc` | The base canvas. |\n\n#### The \"No-Line\" Rule\n**Explicit Instruction:** Designers are prohibited from using 1px solid borders for sectioning. Structural boundaries must be defined solely through background color shifts. Use `surface_container_low` for large content areas sitting on a `surface` background.\n\n#### Surface Hierarchy & Nesting\nTreat the UI as physical layers of fine paper. \n- **Base Layer:** `surface` (#f7fafc).\n- **Section Layer:** `surface_container_low` (#f1f4f6).\n- **Content Cards:** `surface_container_lowest` (#ffffff).\nBy nesting `#ffffff` cards inside a `#f1f4f6` section, you create definition without a single line of \"ink.\"\n\n#### The \"Glass & Gradient\" Rule\nFor floating modals or sticky navigation, use **Glassmorphism**. Apply `surface` at 80% opacity with a `backdrop-blur` of 12px. For main CTAs, use a subtle linear gradient from `primary` to `primary_container` at a 135-degree angle to provide a \"soul\" that flat colors lack.\n\n---\n\n### 3. Typography: The Editorial Voice\n\nWe utilize a dual-typeface system to balance character with readability.\n\n- **Display & Headlines (Manrope):** A modern sans-serif with geometric foundations. Use `display-lg` (3.5rem) for hero analytics (e.g., total follower count) to create an authoritative, \"big data\" feel.\n- **Body & Labels (Inter):** A workhorse for legibility. \n- **The Hierarchy Strategy:** Use `label-sm` (#414752) in all-caps with 0.05rem letter spacing for \"Overline\" text above headlines. This creates a professional, \"Report-style\" aesthetic.\n\n---\n\n### 4. Elevation & Depth\n\nWe eschew traditional drop shadows for **Tonal Layering**.\n\n- **The Layering Principle:** Depth is achieved by \"stacking.\" A card using `surface_container_lowest` (#ffffff) naturally lifts off a `surface_container` (#ebeef0) background. \n- **Ambient Shadows:** Only use shadows for floating elements (dropdowns, popovers). Use a 32px blur with 4% opacity, using a tinted version of `on_surface` (#181c1e). \n- **The \"Ghost Border\" Fallback:** If a border is required for accessibility (e.g., input fields), use `outline_variant` at 20% opacity. **Never use 100% opaque borders.**\n- **Signature Finish:** Apply `xl` (0.75rem) roundedness to all primary cards to soften the data-heavy environment, making the professional tool feel approachable.\n\n---\n\n### 5. Components\n\n#### Cards & Data Clusters\n- **Style:** Forbid dividers. Use spacing token `8` (1.75rem) to separate internal card content.\n- **Visual:** Use `surface_container_lowest` for the card body. If data is \"inactive,\" shift the card background to `surface_dim`.\n\n#### Buttons\n- **Primary:** Gradient fill (`primary` to `primary_container`), white text, `lg` corner radius.\n- **Secondary:** No fill. `outline_variant` (at 20% opacity) \"Ghost Border.\" \n- **Tertiary:** Text-only, using `primary_fixed_variant` for a sophisticated, low-contrast interactive state.\n\n#### Data Input\n- **Fields:** Use `surface_container_high` as the fill. On focus, transition the background to `surface_container_lowest` and add a 1px `primary` \"Ghost Border\" at 40% opacity.\n\n#### Insights Chips\n- **Action Chips:** Use `secondary_container` with `on_secondary_container` text. Use `full` (9999px) roundedness for a pill shape that contrasts against the rectangular cards.\n\n---\n\n### 6. Do's and Don'ts\n\n**Do:**\n- **Do** use `display-lg` for single, impactful numbers.\n- **Do** use `20` (4.5rem) spacing between major sections to let the data \"breathe.\"\n- **Do** use `surface_tint` as a 2px top-accent on high-priority insight cards.\n\n**Don't:**\n- **Don't** use black (#000000) for text. Use `on_surface` (#181c1e) for high contrast and `on_surface_variant` (#414752) for secondary text.\n- **Don't** use standard 1px borders to separate list items; use a `0.5` (0.1rem) vertical gap and a color shift to `surface_container_low` on hover.\n- **Don't** crowd the screen. If you feel the need for a divider, you likely need more white space instead.\n\n---\n\n*This design system is a living framework. When in doubt, prioritize the \"Negative Space\" over structural \"Containers.\" Let the content define the boundaries.*```",
+                  "font": "MANROPE",
+                  "headlineFont": "MANROPE",
+                  "labelFont": "INTER",
+                  "namedColors": {
+                    "background": "#f7fafc",
+                    "error": "#ba1a1a",
+                    "error_container": "#ffdad6",
+                    "inverse_on_surface": "#eef1f3",
+                    "inverse_primary": "#a8c8ff",
+                    "inverse_surface": "#2d3133",
+                    "on_background": "#181c1e",
+                    "on_error": "#ffffff",
+                    "on_error_container": "#93000a",
+                    "on_primary": "#ffffff",
+                    "on_primary_container": "#dbe6ff",
+                    "on_primary_fixed": "#001b3d",
+                    "on_primary_fixed_variant": "#00468a",
+                    "on_secondary": "#ffffff",
+                    "on_secondary_container": "#4a6774",
+                    "on_secondary_fixed": "#001f2a",
+                    "on_secondary_fixed_variant": "#2e4b57",
+                    "on_surface": "#181c1e",
+                    "on_surface_variant": "#414752",
+                    "on_tertiary": "#ffffff",
+                    "on_tertiary_container": "#ffe0d1",
+                    "on_tertiary_fixed": "#331200",
+                    "on_tertiary_fixed_variant": "#773300",
+                    "outline": "#727783",
+                    "outline_variant": "#c1c6d4",
+                    "primary": "#004e99",
+                    "primary_container": "#0a66c2",
+                    "primary_fixed": "#d6e3ff",
+                    "primary_fixed_dim": "#a8c8ff",
+                    "secondary": "#466270",
+                    "secondary_container": "#c6e4f4",
+                    "secondary_fixed": "#c9e7f7",
+                    "secondary_fixed_dim": "#adcbda",
+                    "surface": "#f7fafc",
+                    "surface_bright": "#f7fafc",
+                    "surface_container": "#ebeef0",
+                    "surface_container_high": "#e5e9eb",
+                    "surface_container_highest": "#e0e3e5",
+                    "surface_container_low": "#f1f4f6",
+                    "surface_container_lowest": "#ffffff",
+                    "surface_dim": "#d7dadc",
+                    "surface_tint": "#005eb5",
+                    "surface_variant": "#e0e3e5",
+                    "tertiary": "#833900",
+                    "tertiary_container": "#a94b00",
+                    "tertiary_fixed": "#ffdbca",
+                    "tertiary_fixed_dim": "#ffb68e"
+                  },
+                  "overrideNeutralColor": "#F3F6F8",
+                  "overridePrimaryColor": "#0A66C2",
+                  "overrideSecondaryColor": "#607D8B",
+                  "roundness": "ROUND_FOUR",
+                  "spacingScale": 1
+                }
+              },
+              "name": "assets/3d08b029eaf6492095d65079e3692250",
+              "version": "1"
+            },
+            "deviceType": "DESKTOP",
+            "generatedBy": "figaro_agent",
+            "height": "3900",
+            "htmlCode": {
+              "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzczYzVmNWUyOTcwYjRkMGRhNWNhMjZkNjA1MzIxN2U1EgsSBxD4gf-qtRAYAZIBIwoKcHJvamVjdF9pZBIVQhM1NjYyOTk1MTg0MzY5NDMwNTAy&filename=&opi=96797242",
+              "mimeType": "text/html",
+              "name": "projects/5662995184369430502/files/fd1a63b8202247ed9a7589db3a399b4a"
+            },
+            "id": "da41a873fb3c497e83e13d0d86fd3957",
+            "name": "projects/5662995184369430502/screens/da41a873fb3c497e83e13d0d86fd3957",
+            "prompt": "A desktop dashboard for 'LinkedIn Autoposter' with a light, modern aesthetic. \n\nLayout: Two columns.\n- Left Column (60%): Scrollable list of post cards. Each card displays the date (e.g., 'Mar 22'), the title (e.g., 'The Gap Between Sustainability Disclosure and Sustainability Action'), and a row of metric chips for impressions, reactions, comments, and reposts. If analytics are pending, show a 'Pending Analytics' status. Use the real data: \n  - Mar 22: 'The Gap Between Sustainability Disclosure and Sustainability Action' (788 imp, 20 react, 4 comments, 1 repost)\n  - Mar 21: 'Stranded Assets: The Strange Math of Fossil Fuel Reserves' (pending)\n  - Mar 20: 'CBAM as Europe’s Climate Trade Wall' (pending)\n  - Mar 19: 'ESG Ratings Divergence: Why Two Agencies Look at the Same Company Differently' (15,734 imp, 131 react, 49 comments, 8 reposts)\n  - Mar 18: 'Article 6 of Paris Agreement' (pending)\n  - Mar 17: 'Green Bonds and the Question of Additionality' (pending)\n  - Mar 16: 'The Integrity Crisis in Voluntary Carbon Markets' (pending)\n  - Mar 15: 'Climate Risk and Returns' (982 imp, 16 react, 0 comments, 2 reposts)\n\n- Right Column (40%): Summary insights panel.\n  - Total posts: 11\n  - Avg. Impressions: 5,835\n  - Top Performing Post: 'ESG Ratings Divergence...' (15,734 impressions)\n  - A vertical bar chart showing impressions over the last 8 days (Mar 15-22).\n\nThe style should be clean, with Manrope typography and the #0A66C2 primary blue from the 'Insight Flux' system. No navigation bars or headers as per the request.",
+            "screenMetadata": {
+              "agentType": "HATTER_AGENT",
+              "status": "COMPLETE"
+            },
+            "screenType": "DESIGN",
+            "screenshot": {
+              "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0ujUBwDI8sfN-e-m7kK6PaFB6w-2oyXb-sV9HrweJ0luO7748R2mKDkRBPamCrLZj9H5wH2Aw_UVUH5Lx9iGri6T8_g__tY2YEEcn95itWbpGHrL1KXQnnsCtDcM_WUrKN5lQeFIle7J0rdOzoISJx5bVHK7y-G697Lx8MyZvVYa5iDHoG-sDr0ctoJdhTCJPLD8rShefE3EzpsLF8b5vRffFCaBbOqpOU5Szc6e3e1zw5yvtXVk_d-TQA",
+              "name": "projects/5662995184369430502/files/2512a6f4d58c4e60a45b75e4a8529a2e"
+            },
+            "theme": {
+              "bodyFont": "INTER",
+              "colorMode": "LIGHT",
+              "colorVariant": "FIDELITY",
+              "customColor": "#0A66C2",
+              "designMd": "```markdown\n# Design System Document: The Editorial Analyst\n\nThis design system is a high-end, data-first framework engineered for professional LinkedIn analytics. It moves beyond the \"SaaS dashboard\" trope by treating data with the reverence of a premium financial publication. We replace rigid grids and heavy borders with a \"Atmospheric Layering\" philosophy, creating a workspace that feels light, authoritative, and profoundly intentional.\n\n---\n\n### 1. Overview & Creative North Star: \"The Digital Curator\"\n\nThe Creative North Star for this system is **The Digital Curator**. \n\nIn a world of cluttered analytics, this system acts as a sophisticated filter. We reject the \"standard\" implementation of cards and lines. Instead, we use **intentional asymmetry** and **tonal depth** to guide the eye. \n- **The Philosophy:** Data is the hero; the UI is the gallery. \n- **Breaking the Template:** We avoid the boxed-in look. Key metrics should breathe, utilizing expansive white space (using the `20` and `24` spacing tokens) to create an editorial rhythm that feels more like a high-end magazine than a database.\n\n---\n\n### 2. Colors & Surface Philosophy\n\nOur palette is a sophisticated play on professional blues and architectural grays. \n\n| Role | Token | Hex | Application |\n| :--- | :--- | :--- | :--- |\n| **Primary** | `primary` | `#004e99` | Main brand actions and focal points. |\n| **Accent** | `primary_container` | `#0a66c2` | The \"LinkedIn Blue\" for interactive cues. |\n| **Secondary** | `secondary` | `#466270` | Muted utility and secondary metadata. |\n| **Tertiary** | `tertiary` | `#833900` | Warning or high-attention insights (Warm Amber). |\n| **Surface** | `surface` | `#f7fafc` | The base canvas. |\n\n#### The \"No-Line\" Rule\n**Explicit Instruction:** Designers are prohibited from using 1px solid borders for sectioning. Structural boundaries must be defined solely through background color shifts. Use `surface_container_low` for large content areas sitting on a `surface` background.\n\n#### Surface Hierarchy & Nesting\nTreat the UI as physical layers of fine paper. \n- **Base Layer:** `surface` (#f7fafc).\n- **Section Layer:** `surface_container_low` (#f1f4f6).\n- **Content Cards:** `surface_container_lowest` (#ffffff).\nBy nesting `#ffffff` cards inside a `#f1f4f6` section, you create definition without a single line of \"ink.\"\n\n#### The \"Glass & Gradient\" Rule\nFor floating modals or sticky navigation, use **Glassmorphism**. Apply `surface` at 80% opacity with a `backdrop-blur` of 12px. For main CTAs, use a subtle linear gradient from `primary` to `primary_container` at a 135-degree angle to provide a \"soul\" that flat colors lack.\n\n---\n\n### 3. Typography: The Editorial Voice\n\nWe utilize a dual-typeface system to balance character with readability.\n\n- **Display & Headlines (Manrope):** A modern sans-serif with geometric foundations. Use `display-lg` (3.5rem) for hero analytics (e.g., total follower count) to create an authoritative, \"big data\" feel.\n- **Body & Labels (Inter):** A workhorse for legibility. \n- **The Hierarchy Strategy:** Use `label-sm` (#414752) in all-caps with 0.05rem letter spacing for \"Overline\" text above headlines. This creates a professional, \"Report-style\" aesthetic.\n\n---\n\n### 4. Elevation & Depth\n\nWe eschew traditional drop shadows for **Tonal Layering**.\n\n- **The Layering Principle:** Depth is achieved by \"stacking.\" A card using `surface_container_lowest` (#ffffff) naturally lifts off a `surface_container` (#ebeef0) background. \n- **Ambient Shadows:** Only use shadows for floating elements (dropdowns, popovers). Use a 32px blur with 4% opacity, using a tinted version of `on_surface` (#181c1e). \n- **The \"Ghost Border\" Fallback:** If a border is required for accessibility (e.g., input fields), use `outline_variant` at 20% opacity. **Never use 100% opaque borders.**\n- **Signature Finish:** Apply `xl` (0.75rem) roundedness to all primary cards to soften the data-heavy environment, making the professional tool feel approachable.\n\n---\n\n### 5. Components\n\n#### Cards & Data Clusters\n- **Style:** Forbid dividers. Use spacing token `8` (1.75rem) to separate internal card content.\n- **Visual:** Use `surface_container_lowest` for the card body. If data is \"inactive,\" shift the card background to `surface_dim`.\n\n#### Buttons\n- **Primary:** Gradient fill (`primary` to `primary_container`), white text, `lg` corner radius.\n- **Secondary:** No fill. `outline_variant` (at 20% opacity) \"Ghost Border.\" \n- **Tertiary:** Text-only, using `primary_fixed_variant` for a sophisticated, low-contrast interactive state.\n\n#### Data Input\n- **Fields:** Use `surface_container_high` as the fill. On focus, transition the background to `surface_container_lowest` and add a 1px `primary` \"Ghost Border\" at 40% opacity.\n\n#### Insights Chips\n- **Action Chips:** Use `secondary_container` with `on_secondary_container` text. Use `full` (9999px) roundedness for a pill shape that contrasts against the rectangular cards.\n\n---\n\n### 6. Do's and Don'ts\n\n**Do:**\n- **Do** use `display-lg` for single, impactful numbers.\n- **Do** use `20` (4.5rem) spacing between major sections to let the data \"breathe.\"\n- **Do** use `surface_tint` as a 2px top-accent on high-priority insight cards.\n\n**Don't:**\n- **Don't** use black (#000000) for text. Use `on_surface` (#181c1e) for high contrast and `on_surface_variant` (#414752) for secondary text.\n- **Don't** use standard 1px borders to separate list items; use a `0.5` (0.1rem) vertical gap and a color shift to `surface_container_low` on hover.\n- **Don't** crowd the screen. If you feel the need for a divider, you likely need more white space instead.\n\n---\n\n*This design system is a living framework. When in doubt, prioritize the \"Negative Space\" over structural \"Containers.\" Let the content define the boundaries.*```",
+              "font": "MANROPE",
+              "headlineFont": "MANROPE",
+              "labelFont": "INTER",
+              "namedColors": {
+                "background": "#f7fafc",
+                "error": "#ba1a1a",
+                "error_container": "#ffdad6",
+                "inverse_on_surface": "#eef1f3",
+                "inverse_primary": "#a8c8ff",
+                "inverse_surface": "#2d3133",
+                "on_background": "#181c1e",
+                "on_error": "#ffffff",
+                "on_error_container": "#93000a",
+                "on_primary": "#ffffff",
+                "on_primary_container": "#dbe6ff",
+                "on_primary_fixed": "#001b3d",
+                "on_primary_fixed_variant": "#00468a",
+                "on_secondary": "#ffffff",
+                "on_secondary_container": "#4a6774",
+                "on_secondary_fixed": "#001f2a",
+                "on_secondary_fixed_variant": "#2e4b57",
+                "on_surface": "#181c1e",
+                "on_surface_variant": "#414752",
+                "on_tertiary": "#ffffff",
+                "on_tertiary_container": "#ffe0d1",
+                "on_tertiary_fixed": "#331200",
+                "on_tertiary_fixed_variant": "#773300",
+                "outline": "#727783",
+                "outline_variant": "#c1c6d4",
+                "primary": "#004e99",
+                "primary_container": "#0a66c2",
+                "primary_fixed": "#d6e3ff",
+                "primary_fixed_dim": "#a8c8ff",
+                "secondary": "#466270",
+                "secondary_container": "#c6e4f4",
+                "secondary_fixed": "#c9e7f7",
+                "secondary_fixed_dim": "#adcbda",
+                "surface": "#f7fafc",
+                "surface_bright": "#f7fafc",
+                "surface_container": "#ebeef0",
+                "surface_container_high": "#e5e9eb",
+                "surface_container_highest": "#e0e3e5",
+                "surface_container_low": "#f1f4f6",
+                "surface_container_lowest": "#ffffff",
+                "surface_dim": "#d7dadc",
+                "surface_tint": "#005eb5",
+                "surface_variant": "#e0e3e5",
+                "tertiary": "#833900",
+                "tertiary_container": "#a94b00",
+                "tertiary_fixed": "#ffdbca",
+                "tertiary_fixed_dim": "#ffb68e"
+              },
+              "overrideNeutralColor": "#F3F6F8",
+              "overridePrimaryColor": "#0A66C2",
+              "overrideSecondaryColor": "#607D8B",
+              "roundness": "ROUND_FOUR",
+              "spacingScale": 1
+            },
+            "title": "LinkedIn Autoposter Dashboard",
+            "width": "2560"
+          }
+        ],
+        "theme": {}
+      }
+    },
+    {
+      "text": "I've created the 'LinkedIn Autoposter' dashboard for you. \n\nThe layout is split into two sections as requested: \n- **The Content Archive** on the left shows your sustainability-focused posts with their engagement metrics (or a 'Pending' status where applicable). \n- **The Performance Summary** on the right provides a high-level view of your analytics, including total posts, average reach, a highlight of your top-performing post, and an 8-day impression velocity chart.\n\nI've used the 'Insight Flux' design system for a light, professional look. Let me know if you'd like to adjust any of the data visualizations or styling!"
+    },
+    {
+      "suggestion": "Add a 'Draft New Post' button"
+    },
+    {
+      "suggestion": "Change the chart to show engagement rate instead"
+    },
+    {
+      "suggestion": "Add a filtering option for the post list"
+    }
+  ],
+  "projectId": "5662995184369430502",
+  "sessionId": "7638152180695239555"
+}

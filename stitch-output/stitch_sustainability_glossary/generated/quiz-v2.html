@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Knowledge Check | The Living Archive</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-tint": "#1a6962",
+                        "secondary-fixed-dim": "#80d5cb",
+                        "surface-container-lowest": "#ffffff",
+                        "error": "#ba1a1a",
+                        "tertiary-fixed-dim": "#99d1c8",
+                        "primary-fixed": "#a7f0e6",
+                        "primary": "#00433d",
+                        "surface": "#f8f9fa",
+                        "on-error-container": "#93000a",
+                        "outline": "#6f7977",
+                        "on-primary-fixed": "#00201d",
+                        "on-tertiary-container": "#98cfc7",
+                        "inverse-surface": "#2e3132",
+                        "surface-bright": "#f8f9fa",
+                        "on-surface-variant": "#3f4947",
+                        "surface-container": "#eceeef",
+                        "secondary": "#006a63",
+                        "surface-container-highest": "#e1e3e4",
+                        "background": "#f8f9fa",
+                        "on-tertiary-fixed-variant": "#144f49",
+                        "tertiary": "#00423d",
+                        "on-primary-fixed-variant": "#00504a",
+                        "on-primary": "#ffffff",
+                        "tertiary-fixed": "#b5eee4",
+                        "on-secondary-container": "#006f67",
+                        "surface-container-high": "#e7e8e9",
+                        "primary-fixed-dim": "#8cd4ca",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "tertiary-container": "#225a54",
+                        "on-primary-container": "#8ad2c8",
+                        "inverse-on-surface": "#eff1f2",
+                        "secondary-fixed": "#9cf2e8",
+                        "primary-container": "#005c55",
+                        "surface-dim": "#d8dadb",
+                        "on-secondary": "#ffffff",
+                        "inverse-primary": "#8cd4ca",
+                        "surface-container-low": "#f2f4f5",
+                        "on-secondary-fixed": "#00201d",
+                        "on-surface": "#191c1d",
+                        "on-background": "#191c1d",
+                        "error-container": "#ffdad6",
+                        "surface-variant": "#e1e3e4",
+                        "on-secondary-fixed-variant": "#00504a",
+                        "outline-variant": "#bec9c6",
+                        "on-tertiary-fixed": "#00201d",
+                        "secondary-container": "#99efe5"
+                    },
+                    fontFamily: {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .tonal-shadow {
+            box-shadow: 0 20px 40px rgba(25, 28, 29, 0.06);
+        }
+        .vine-progress {
+            background: linear-gradient(90deg, #005c55 0%, #0f766e 100%);
+            box-shadow: 0 0 8px rgba(26, 105, 98, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface antialiased">
+<!-- Top Navigation Shell -->
+<nav class="fixed top-0 w-full z-50 bg-stone-50/80 backdrop-blur-xl flex justify-between items-center h-20 px-8 md:px-12 w-full mx-auto">
+<div class="text-2xl font-bold tracking-tighter font-headline text-teal-900">The Living Archive</div>
+<div class="hidden md:flex space-x-8">
+<a class="font-label text-sm font-medium text-stone-600 hover:text-teal-900 transition-colors" href="#">Library</a>
+<a class="font-label text-sm font-bold text-teal-700 border-b-2 border-teal-700 pb-1" href="#">My Progress</a>
+<a class="font-label text-sm font-medium text-stone-600 hover:text-teal-900 transition-colors" href="#">Community</a>
+</div>
+<div class="flex items-center space-x-4">
+<span class="material-symbols-outlined text-teal-900 hover:bg-stone-200/50 p-2 rounded-full transition-all cursor-pointer">account_circle</span>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="max-w-[750px] mx-auto pt-32 pb-24 px-6 space-y-12">
+<!-- 1. QUIZ HEADER -->
+<header class="space-y-4">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary-container text-3xl">quiz</span>
+<h1 class="font-headline font-bold text-4xl tracking-tight text-primary">Knowledge Check</h1>
+</div>
+<div class="flex justify-between items-end">
+<p class="text-on-surface-variant font-medium">Verify your understanding</p>
+<div class="bg-secondary-container px-4 py-1 rounded-full text-on-secondary-container text-xs font-bold font-label uppercase tracking-widest">
+                    2 of 5 answered
+                </div>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full overflow-hidden">
+<div class="vine-progress h-full w-[40%] rounded-full"></div>
+</div>
+</header>
+<!-- 2. CORRECT ANSWER -->
+<section class="space-y-6">
+<h3 class="font-headline text-xl font-bold">What is the primary mechanism of the "Paris Agreement" regarding global temperature?</h3>
+<div class="grid gap-3">
+<div class="bg-surface-container-lowest p-5 rounded-2xl flex items-center transition-all">
+<span class="w-6 h-6 rounded-full border border-outline-variant mr-4"></span>
+<span class="text-on-surface-variant">Mandatory carbon taxation on all imports</span>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-2xl flex items-center transition-all">
+<span class="w-6 h-6 rounded-full border border-outline-variant mr-4"></span>
+<span class="text-on-surface-variant">Complete cessation of fossil fuel extraction by 2040</span>
+</div>
+<div class="bg-primary-fixed border-l-4 border-primary p-5 rounded-2xl flex items-center tonal-shadow">
+<span class="material-symbols-outlined text-primary mr-4" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-semibold text-primary">Nationally Determined Contributions (NDCs)</span>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-2xl flex items-center transition-all">
+<span class="w-6 h-6 rounded-full border border-outline-variant mr-4"></span>
+<span class="text-on-surface-variant">Establishment of a single global energy grid</span>
+</div>
+</div>
+<div class="bg-surface-container-low p-6 rounded-2xl space-y-2">
+<p class="text-xs font-bold uppercase tracking-widest text-primary-container font-label">Explanation</p>
+<p class="text-on-surface-variant leading-relaxed">NDCs are at the heart of the Paris Agreement. They represent each country's efforts to reduce national emissions and adapt to the impacts of climate change.</p>
+</div>
+</section>
+<!-- 3. UNANSWERED QUESTION -->
+<section class="space-y-6">
+<h3 class="font-headline text-xl font-bold">Which sector currently accounts for the largest share of global GHG emissions?</h3>
+<div class="grid gap-3">
+<button class="bg-surface-container-lowest p-5 rounded-2xl flex items-center hover:-translate-y-1 hover:shadow-lg transition-all text-left">
+<span class="w-6 h-6 rounded-full border border-outline-variant mr-4"></span>
+<span>Agriculture &amp; Land Use</span>
+</button>
+<button class="bg-surface-container-lowest p-5 rounded-2xl flex items-center hover:-translate-y-1 hover:shadow-lg transition-all text-left">
+<span class="w-6 h-6 rounded-full border border-outline-variant mr-4"></span>
+<span>Transport &amp; Logistics</span>
+</button>
+<button class="bg-surface-container-lowest p-5 rounded-2xl flex items-center hover:-translate-y-1 hover:shadow-lg transition-all text-left">
+<span class="w-6 h-6 rounded-full border border-outline-variant mr-4"></span>
+<span>Energy Production</span>
+</button>
+<button class="bg-surface-container-lowest p-5 rounded-2xl flex items-center hover:-translate-y-1 hover:shadow-lg transition-all text-left">
+<span class="w-6 h-6 rounded-full border border-outline-variant mr-4"></span>
+<span>Manufacturing &amp; Industry</span>
+</button>
+</div>
+<button class="bg-primary text-on-primary rounded-full py-4 px-10 font-bold font-headline tonal-shadow hover:bg-primary-container transition-colors">
+                Submit Answer
+            </button>
+</section>
+<!-- 4. TRUE/FALSE -->
+<section class="space-y-6">
+<h3 class="font-headline text-xl font-bold">Methane has a higher Global Warming Potential (GWP) than Carbon Dioxide over a 20-year period.</h3>
+<div class="grid grid-cols-2 gap-4">
+<button class="bg-surface-container-lowest p-8 rounded-2xl font-bold text-center hover:bg-surface-container transition-all">
+                    True
+                </button>
+<button class="bg-surface-container-lowest p-8 rounded-2xl font-bold text-center hover:bg-surface-container transition-all">
+                    False
+                </button>
+</div>
+</section>
+<!-- 5. MULTI-SELECT -->
+<section class="space-y-6">
+<div class="space-y-1">
+<h3 class="font-headline text-xl font-bold">Identify types of 'Nature-Based Solutions' (NbS).</h3>
+<p class="text-sm text-on-surface-variant italic">Select all that apply</p>
+</div>
+<div class="grid gap-3">
+<div class="bg-primary-fixed p-5 rounded-2xl flex items-center justify-between tonal-shadow">
+<div class="flex items-center">
+<span class="material-symbols-outlined text-primary-container mr-4" style="font-variation-settings: 'FILL' 1;">check_box</span>
+<span class="font-medium text-on-primary-fixed">Mangrove restoration</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-2xl flex items-center transition-all">
+<span class="material-symbols-outlined text-outline-variant mr-4">check_box_outline_blank</span>
+<span class="text-on-surface-variant">Direct Air Capture (DAC)</span>
+</div>
+<div class="bg-primary-fixed p-5 rounded-2xl flex items-center justify-between tonal-shadow">
+<div class="flex items-center">
+<span class="material-symbols-outlined text-primary-container mr-4" style="font-variation-settings: 'FILL' 1;">check_box</span>
+<span class="font-medium text-on-primary-fixed">Reforestation initiatives</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-2xl flex items-center transition-all">
+<span class="material-symbols-outlined text-outline-variant mr-4">check_box_outline_blank</span>
+<span class="text-on-surface-variant">Nuclear fission expansion</span>
+</div>
+</div>
+</section>
+<!-- 6. MATCHING -->
+<section class="space-y-6">
+<h3 class="font-headline text-xl font-bold">Match the ESG framework to its primary focus.</h3>
+<div class="relative grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-4">
+<!-- SVG Connection Line -->
+<svg class="absolute inset-0 w-full h-full hidden md:block pointer-events-none" style="z-index: 0;">
+<line stroke="#00433d" stroke-dasharray="4 4" stroke-width="2" x1="45%" x2="55%" y1="18%" y2="18%"></line>
+</svg>
+<!-- Left Column -->
+<div class="space-y-4 z-10">
+<div class="bg-surface-container-lowest p-4 rounded-2xl flex items-center border-l-4 border-primary">
+<span class="material-symbols-outlined text-outline mr-3 cursor-grab">drag_indicator</span>
+<span class="font-medium">TCFD</span>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-2xl flex items-center border-l-4 border-outline-variant">
+<span class="material-symbols-outlined text-outline mr-3 cursor-grab">drag_indicator</span>
+<span class="font-medium">GRI</span>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-2xl flex items-center border-l-4 border-outline-variant">
+<span class="material-symbols-outlined text-outline mr-3 cursor-grab">drag_indicator</span>
+<span class="font-medium">SASB</span>
+</div>
+</div>
+<!-- Right Column -->
+<div class="space-y-4 z-10">
+<div class="bg-surface-container-lowest p-4 rounded-2xl text-center border-r-4 border-primary">
+<span class="font-medium">Climate-related Risk</span>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-2xl text-center border-r-4 border-outline-variant">
+<span class="font-medium">Industry Materiality</span>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-2xl text-center border-r-4 border-outline-variant">
+<span class="font-medium">Impact on Stakeholders</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. MARK COMPLETE -->
+<div class="pt-8">
+<button class="w-full bg-gradient-to-r from-primary to-primary-container text-on-primary py-5 rounded-full font-headline font-bold text-lg flex items-center justify-center gap-3 tonal-shadow hover:opacity-90 transition-opacity">
+                Mark Complete and Continue
+                <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<!-- 8. PREV/NEXT NAV -->
+<nav class="grid grid-cols-2 gap-4">
+<button class="bg-surface-container-lowest p-6 rounded-2xl group hover:-translate-y-1 transition-all text-left flex items-center gap-4">
+<span class="material-symbols-outlined text-primary-container group-hover:-translate-x-1 transition-transform">arrow_back</span>
+<div>
+<p class="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold font-label">Previous</p>
+<p class="font-headline font-bold text-on-surface">Paris Agreement</p>
+</div>
+</button>
+<button class="bg-surface-container-lowest p-6 rounded-2xl group hover:-translate-y-1 transition-all text-right flex items-center justify-end gap-4">
+<div>
+<p class="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold font-label">Next</p>
+<p class="font-headline font-bold text-on-surface">ITMOs and Reporting</p>
+</div>
+<span class="material-symbols-outlined text-primary-container group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</nav>
+<!-- 9. QUIZ RESULTS -->
+<section class="bg-surface-container-lowest p-12 rounded-2xl text-center space-y-8 tonal-shadow">
+<div class="space-y-2">
+<h2 class="font-headline font-bold text-2xl">Session Summary</h2>
+<p class="text-on-surface-variant">Great progress, you're becoming an expert.</p>
+</div>
+<div class="relative w-48 h-48 mx-auto flex items-center justify-center">
+<!-- Circular Progress Ring -->
+<svg class="w-full h-full -rotate-90">
+<circle class="text-surface-container" cx="96" cy="96" fill="transparent" r="88" stroke="currentColor" stroke-width="8"></circle>
+<circle class="text-primary-container rounded-full" cx="96" cy="96" fill="transparent" r="88" stroke="currentColor" stroke-dasharray="552.9" stroke-dashoffset="110.5" stroke-width="12"></circle>
+</svg>
+<div class="absolute flex flex-col items-center">
+<span class="text-4xl font-headline font-extrabold text-primary">80%</span>
+<span class="text-xs font-label font-bold uppercase tracking-widest text-on-surface-variant">4/5 correct</span>
+</div>
+</div>
+<div class="flex flex-col items-center gap-4">
+<button class="bg-primary text-on-primary py-4 px-12 rounded-full font-headline font-bold tonal-shadow hover:bg-primary-container transition-all">
+                    Continue to Next Module
+                </button>
+<button class="text-on-surface-variant font-bold font-label text-sm hover:text-primary transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">refresh</span>
+                    Reset Quiz
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer Shell -->
+<footer class="w-full py-16 mt-24 bg-stone-100 border-t border-stone-200/20">
+<div class="max-w-[750px] mx-auto flex flex-col md:flex-row justify-between items-center px-6 gap-8">
+<div class="font-headline font-bold text-stone-900">The Living Archive</div>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="font-label text-xs tracking-wide uppercase font-semibold text-stone-500 hover:text-teal-600 transition-colors" href="#">Ethics</a>
+<a class="font-label text-xs tracking-wide uppercase font-semibold text-stone-500 hover:text-teal-600 transition-colors" href="#">Privacy</a>
+<a class="font-label text-xs tracking-wide uppercase font-semibold text-stone-500 hover:text-teal-600 transition-colors" href="#">Citations</a>
+<a class="font-label text-xs tracking-wide uppercase font-semibold text-stone-500 hover:text-teal-600 transition-colors" href="#">Sustainability Report</a>
+</div>
+<p class="font-label text-xs tracking-wide uppercase font-semibold text-stone-500 text-center md:text-right">
+                © 2024 The Living Archive. Curated for the Future.
+            </p>
+</div>
+</footer>
+</body></html>

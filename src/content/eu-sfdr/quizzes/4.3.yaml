@@ -1,0 +1,44 @@
+- question: "For an Article 9 product using an EU Paris-aligned Benchmark (PAB) as its reference benchmark, which RTS Annex applies for pre-contractual disclosures?"
+  options:
+    - "Annex III (Article 8 without benchmark)"
+    - "Annex IV (Article 9 with reference benchmark)"
+    - "Annex V (Article 9 without reference benchmark)"
+    - "Annex II (Article 8 with reference benchmark)"
+  answer: 1
+  explanation: "Annex IV applies to Article 9 products that use a designated reference benchmark — including products tracking EU PABs or CTBs under Article 9(3). Annex V applies to Article 9 products without a benchmark. Annexes II and III apply to Article 8 products."
+
+- question: "What must an Article 9 product's pre-contractual disclosure state about its sustainable investment objective?"
+  options:
+    - "A general statement that the fund 'aims to be sustainable'"
+    - "A precise, specific statement of the environmental or social objective(s) the product aims to achieve — vague language is non-compliant"
+    - "The number of sustainable investments in the portfolio"
+    - "The fund's ESG rating from a recognised rating agency"
+  answer: 1
+  explanation: "The Article 9 pre-contractual template requires a precise, specific statement of the sustainable investment objective. 'This fund has a sustainable investment objective' or 'we aim to invest sustainably' is insufficient. The objective must be tied to specific environmental objectives (e.g., climate change mitigation, biodiversity) or social objectives, stated in concrete, verifiable terms."
+
+- question: "For Article 9 products, why is DNSH methodology disclosure more demanding than for Article 8 products?"
+  options:
+    - "Article 9 products are larger and therefore need more detailed disclosure"
+    - "Article 9 products must apply DNSH to ALL investments as a condition of qualifying those investments as sustainable; the methodology for assessing DNSH must be specified in the pre-contractual document"
+    - "Article 8 products do not use the DNSH concept at all"
+    - "Article 9 products must apply DNSH only to their top 15 investments by weight"
+  answer: 1
+  explanation: "DNSH is a core element of the Article 2(17) sustainable investment definition, and every investment in an Article 9 product must qualify as a sustainable investment. This means DNSH must be applied to every holding. The pre-contractual template requires disclosure of the specific DNSH methodology — which indicators are used as DNSH proxies, what thresholds trigger concerns, and what action is taken when an investment fails the DNSH test."
+
+- question: "In the Article 9 pre-contractual asset allocation section, what categories of investment must be distinguished?"
+  options:
+    - "Equities, fixed income, derivatives, and cash"
+    - "Sustainable investments (with environmental objective, social objective, and Taxonomy-aligned sub-categories) and other investments (with explanation)"
+    - "EU-domiciled and non-EU investments"
+    - "Liquid and illiquid investments"
+  answer: 1
+  explanation: "The Article 9 pre-contractual template requires the asset allocation section to show: (1) sustainable investments broken down by environmental objective (including Taxonomy-aligned and non-Taxonomy-aligned), social objective, and minimum committed percentages; and (2) other investments (cash, derivatives for hedging, etc.) with an explanation of why they are held and how they do not prevent attainment of the sustainable investment objective."
+
+- question: "For an Article 9 product without a designated reference benchmark (Annex V), what must the pre-contractual document include in place of benchmark-related disclosures?"
+  options:
+    - "A competitor benchmark comparison showing sustainability outperformance"
+    - "An explanation of why no benchmark was designated and specific sustainability indicators by which investors can assess whether the sustainable investment objective is being met"
+    - "A commitment to adopt a benchmark within 12 months of launch"
+    - "Nothing — benchmark disclosure is only required for Article 8 products"
+  answer: 1
+  explanation: "Article 9(2) and the Annex V template require that products without a benchmark include a clear explanation of why no index has been designated as a reference benchmark, along with the specific sustainability indicators and methodology that investors can use to assess whether the sustainable investment objective is being attained. This replaces the benchmark-alignment explanation required in Annex IV."

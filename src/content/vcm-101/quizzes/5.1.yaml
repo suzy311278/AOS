@@ -1,0 +1,26 @@
+- question: "Under the SBTi Corporate Net-Zero Standard, which of the following is permitted when accounting for near-term science-based reduction targets?"
+  options:
+  - "Using high-quality REDD+ credits to offset up to 20% of Scope 1 and 2 emissions"
+  - "Purchasing durable removal credits to compensate for Scope 3 emissions that cannot yet be reduced"
+  - "No carbon credits of any kind may be used to count toward meeting near-term SBTi reduction targets"
+  - "Credits from ICVCM CCP-Approved methodologies may substitute for reductions in hard-to-abate sectors"
+  answer: 2
+  explanation: "The SBTi is explicit: carbon credits, regardless of quality, cannot be used to meet near-term science-based reduction targets. Near-term targets (typically 42-50% absolute reduction within ten years) must be met through genuine operational decarbonisation. Credits are permitted only to neutralise genuine residual emissions at the net zero endpoint, and even then only high-quality removal credits are appropriate for that role."
+
+- question: "What is Beyond Value Chain Mitigation (BVCM) in the context of SBTi's Corporate Net-Zero Standard?"
+  options:
+  - "A company's Scope 3 emissions reduction efforts across its supply chain"
+  - "Voluntary climate action, including high-quality carbon credit purchases, that goes beyond a company's own emissions boundary and is additional to meeting its science-based targets"
+  - "The use of carbon credits to offset residual emissions at the net zero endpoint"
+  - "An SBTi-validated mechanism for hard-to-abate sector companies to delay Scope 1 reductions"
+  answer: 1
+  explanation: "BVCM is the SBTi's term for voluntary action that extends beyond a company's own value chain emissions boundary. It explicitly includes purchasing high-quality carbon credits as a contribution to global climate goals, but these purchases must be additional to meeting SBTi targets, not substitutes for them. BVCM is how the SBTi legitimises credit use during the decarbonisation transition without allowing credits to replace genuine operational emission reductions."
+
+- question: "A manufacturing company has reduced its Scope 1 and 2 emissions by 8% over three years while its SBTi near-term target requires a 42% reduction by 2030. The company purchases REDD+ credits equivalent to its current annual emissions and claims 'carbon neutral operations.' This is problematic primarily because:"
+  options:
+  - "REDD+ credits are not accepted by any registry for carbon neutral claims"
+  - "The company is using credits as a substitute for the operational decarbonisation required by the mitigation hierarchy and its SBTi commitment, which defines greenwashing"
+  - "Carbon neutral claims require purchasing removal credits, not avoidance credits"
+  - "The company should purchase futures contracts rather than spot credits for operational claims"
+  answer: 1
+  explanation: "This scenario is a textbook example of using offsetting as a substitute for reduction rather than as a complement to it. The mitigation hierarchy and the SBTi standard both require prioritising genuine operational decarbonisation. With only 8% reduction against a 42% target, the company is significantly off track and using credits to mask this gap. The 'carbon neutral operations' claim is therefore misleading because it implies the company is managing its climate impact when its actual emissions remain near their baseline level."

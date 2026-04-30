@@ -1,0 +1,26 @@
+- question: "What is the purpose of uncertainty deductions in VM0042?"
+  options:
+  - "To penalise projects that don't use biogeochemical models"
+  - "To ensure every VCU issued represents at least one real tonne of CO₂e, by accounting for measurement uncertainty"
+  - "To account for future reversal risk of soil carbon"
+  - "To reduce the cost of verification audits"
+  answer: 1
+  explanation: "Uncertainty deductions make the credit claim conservative — they ensure that even with measurement error, every VCU issued represents a genuine tonne of CO₂e. This protects the integrity of the carbon market."
+
+- question: "A project has 20% aggregate uncertainty in its SOC estimate. Does this result in a deduction?"
+  options:
+  - "No — 20% is within the acceptable 15% tolerance"
+  - "Yes — proportional deduction applies for uncertainty between 15% and 30%"
+  - "Yes — 50% deduction applies automatically above 15%"
+  - "No — deductions only apply above 30%"
+  answer: 1
+  explanation: "The 15% threshold is a tolerance level — uncertainty below 15% results in minimal or no deduction. Between 15% and 30%, a proportional deduction is applied. The exact deduction is calculated from the uncertainty equations in Section 8.6."
+
+- question: "Which action would MOST effectively reduce sampling uncertainty?"
+  options:
+  - "Using a more expensive biogeochemical model"
+  - "Increasing the number of stratified soil samples per quantification unit"
+  - "Applying liming to raise soil pH"
+  - "Switching from Approach 2 to Approach 3"
+  answer: 1
+  explanation: "Sampling uncertainty decreases as the number of samples increases (variance decreases proportionally to 1/n). More samples per stratum, combined with good stratification that reduces within-stratum variability, most directly reduces sampling error."

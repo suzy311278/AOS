@@ -1,0 +1,26 @@
+- question: "Category 9 (Downstream Transportation) covers transport of products from which point to which point?"
+  options:
+    - "From the supplier to the reporting company's factory"
+    - "From the reporting company's point of sale to the end consumer"
+    - "From the company's factory to its own distribution centre in company-owned vehicles"
+    - "From the end consumer to recycling facilities"
+  answer: 1
+  explanation: "Category 9 covers transport of sold products from the reporting company's point of sale downstream to the end consumer, in vehicles not owned or controlled by the reporting company."
+
+- question: "Which e-commerce delivery model typically has the highest Category 9 emissions per unit sold?"
+  options:
+    - "Bulk delivery to a single wholesale customer by container ship"
+    - "Pallet delivery to a regional distribution centre by truck"
+    - "Individual parcel delivery to each consumer's home by van"
+    - "Click-and-collect from a nearby retail store"
+  answer: 2
+  explanation: "Individual last-mile parcel delivery to consumer homes by van has very high per-unit emissions because each van carries many individual parcels (low consolidation efficiency) over the final leg of the journey. Bulk deliveries consolidate many units per trip, dramatically reducing per-unit emissions."
+
+- question: "A company ships 500 tonnes of products to retailers, with an average distance of 200 km by heavy truck (EF = 0.080 kgCO₂e/tonne-km). What are the Category 9 emissions?"
+  options:
+    - "8 tCO₂e"
+    - "80 tCO₂e"
+    - "800 tCO₂e"
+    - "8,000 tCO₂e"
+  answer: 0
+  explanation: "500 t × 200 km × 0.080 kgCO₂e/tonne-km = 8,000 kgCO₂e = 8 tCO₂e."

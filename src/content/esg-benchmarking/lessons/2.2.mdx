@@ -1,0 +1,76 @@
+{/* source: Sustainalytics ESG Risk Ratings Methodology Abstract v3.1.1, pages 7-9 */}
+
+The Sustainalytics ESG Risk Ratings calculate unmanaged risk by colliding two opposing numbers: **Exposure** and **Management**. 
+
+This lesson dissects the first dimension: Exposure. To a consultant, understanding Exposure is critical because it mathematically defines the sheer volume of "incoming fire" the client must survive before they can deploy their management shields.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/esg-benchmarking/2_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## What is Exposure?
+
+Exposure measures a company's raw, naked vulnerability to ESG factors before management intervention. It calculates precisely how much of the company's enterprise value will be annihilated if the risk detonates.
+
+Sustainalytics calculates Exposure in a highly methodical sequence: they calculate the baseline danger of the **entire subindustry**, and then they forcefully adjust that baseline using a customized multiplier for the **specific company**.
+
+## Step 1: Subindustry Exposure (The Baseline)
+
+The calculation begins by assessing the entire subindustry cluster. Sustainalytics identifies the core **risk drivers** for an MEI (e.g., carbon intensity for heavy manufacturing; data sensitivity for software). 
+
+They run massive quantitative models, subject the data to brutal expert review, and arrive at a single **Subindustry Exposure Score** ranging from **2 (Low) to 10 (High)**.
+
+<HighlightBox>
+**The Immateriality Threshold:** If a subindustry scores below a 2 on a specific Material ESG Issue, Sustainalytics mathematically declares the issue structurally "immaterial." It is entirely deleted from the module and the companies in that subindustry are never scored on it.
+</HighlightBox>
+
+### The Governance Exception
+
+As established, Corporate Governance and Stakeholder Governance deviate from standard subindustry logic. They are hard-coded into the model for every company on earth.
+- **Public Companies:** Are immediately slammed with an automatic Corporate Governance exposure score of 7, and a Stakeholder Governance score of 2.
+- **Private Companies:** Have their Corporate Governance exposure reduced, but their Stakeholder Governance exposure is artificially spiked to a 5 to compensate for their lack of transparency.
+
+## Step 2: The Issue Beta (The Company Multiplier)
+
+A universal subindustry score is fundamentally flawed because every company operates differently within that industry. To fix this, Sustainalytics created **The Beta Concept**.
+
+Beta is the ultimate multiplier. It mathematical measures exactly how far a specific company deviates from the baseline average of its industry peers. 
+
+To calculate the final Company Exposure, the baseline Subindustry Score is violently multiplied by the company's specific Issue Beta.
+
+<ExampleBox>
+**The Beta Multiplier in Action:**
+
+Imagine the Subindustry Exposure Score for "Data Privacy" is **6**.
+
+- **Company A (The Average Player):** Has an Issue Beta of 1.0. 
+  *Calculation: 6 x 1.0 = **6.0 Company Exposure**.*
+- **Company B (The High-Risk Player):** Operates entirely in hostile regulatory zones with a history of massive data breaches. Sustainalytics hits them with an Issue Beta of 1.35.
+  *Calculation: 6 x 1.35 = **8.1 Company Exposure**.*
+
+Company B suddenly has a massively larger target on its back than Company A, despite existing in the exact same subindustry. 
+</ExampleBox>
+
+## How Beta is Calculated: The Five Signals
+
+Sustainalytics doesn't guess the Beta multiplier. They extract it from five highly specific data signals:
+
+1. **Product & Production:** What exactly are you building, and are your factories uniquely toxic?
+2. **Financials:** Are you financially brittle and close to bankruptcy?
+3. **Events:** Do you have a horrific history of controversies and explosions?
+4. **Geography:** Are your assets trapped in conflict zones, corrupt dictatorships, or regions with zero rule of law?
+5. **Governance:** Is your shareholder structure uniquely chaotic? *(Note: This signal is only applied to the two Governance MEIs).*
+
+<AnalogyBox>
+Think of Beta as an insurance premium multiplier. If you are a 25-year-old male driver (Subindustry = High Baseline Risk), your base premium is high. If you also have three speeding tickets and a DUI (Beta Signals), the insurance company applies a massive multiplier (Beta = 1.8), making your personal premium utterly devastating compared to the average 25-year-old.
+</AnalogyBox>
+
+## The Three-Stage Beta Calculation
+
+The final Beta multiplier is generated through a rigid, auditable three-stage process:
+
+1. **Beta Signal Generation:** Evaluators plug the company data into the five thematic signals to generate the raw deviations above or below the 1.0 baseline.
+2. **Subindustry Correction Factor:** The entire subindustry is normalized to ensure that the mathematical average Beta across all peers remains exactly 1.0. If one company gets a Beta of 1.5, someone else must take the hit to balance the math.
+3. **Qualitative Overlay:** The human override. If a company has a bizarre nuance not captured by the algorithm, a senior analyst will manually aggressively adjust the Beta. 
+
+The Beta framework is exactly what enables aggressive peer benchmarking within Sustainalytics. It allows consultants to directly compare two companies in the exact same subindustry and mathematically prove exactly why one company faces significantly higher targeted exposure than the other based solely on their geographic or operational footprint.
+
+<KeyTakeaways items="Sustainalytics calculates Exposure in two steps: a Subindustry Baseline (scored 2-10) and a company-specific Beta multiplier that adjusts for individual risk deviations ;; If a subindustry scores below 2 on an MEI, that issue is declared structurally immaterial and entirely deleted from scoring ;; Beta is derived from five signals: Product and Production, Financials, Events, Geography, and Governance - and is normalized so the subindustry average always equals 1.0 ;; Public companies receive an automatic Corporate Governance exposure of 7, while private companies get a lower governance score but higher Stakeholder Governance exposure (5) to compensate for opacity ;; Beta enables precise peer differentiation - two companies in the same subindustry can have drastically different exposure scores based on their geographic footprint and controversy history" />

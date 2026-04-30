@@ -1,0 +1,184 @@
+{
+  "outputComponents": [
+    {
+      "design": {
+        "screens": [
+          {
+            "designSystem": {
+              "designSystem": {
+                "displayName": "Greentryst Academic",
+                "theme": {
+                  "bodyFont": "INTER",
+                  "colorMode": "LIGHT",
+                  "colorVariant": "FIDELITY",
+                  "customColor": "#005C55",
+                  "designMd": "# Design System Specification: The Scholarly Canopy\n\n## 1. Overview & Creative North Star\nThe \"Creative North Star\" for this design system is **The Scholarly Canopy**. This concept bridges the gap between high-level academic rigor and the organic, breathing nature of sustainability. We are moving away from the \"boxed-in\" feel of standard SaaS templates, opting instead for an editorial experience that feels curated and expansive.\n\nTo achieve this, the layout prioritizes intentional asymmetry—placing content off-center to allow for generous white space—and treats the UI as a series of layered, light-permeable surfaces. We don't build containers; we define spaces through light and depth.\n\n---\n\n## 2. Color & Tonal Architecture\nThe palette is rooted in deep, intellectual teals, balanced by a sophisticated range of \"Paper\" neutrals that mimic high-end stationery.\n\n### The \"No-Line\" Rule\n**Explicit Instruction:** Designers are prohibited from using 1px solid borders for sectioning or containment. Boundaries must be defined solely through background color shifts or subtle tonal transitions. \n- Use `surface_container_low` (#f1f4f3) as a base section color.\n- Use `surface_container_lowest` (#ffffff) for inset cards or focused content areas.\n- For high-impact separation, transition from `surface` (#f7faf9) to `primary_container` (#005c55).\n\n### Surface Hierarchy & Nesting\nTreat the UI as a physical stack of semi-transparent materials. \n- **Base Layer:** `surface` (#f7faf9).\n- **Secondary Layer:** `surface_container` (#ebeeed) for sidebars or secondary content blocks.\n- **Top Layer:** `surface_container_lowest` (#ffffff) for the most interactive elements (cards, inputs).\n\n### Glass & Gradient Implementation\nTo move beyond a flat digital feel, the navigation utilizes a \"Frosted Glass\" effect. Use `surface_container_lowest` at 80% opacity with a `20px` backdrop blur. \n- **Signature Gradient:** For primary CTAs or Hero backgrounds, use a subtle linear gradient from `primary` (#00433d) to `primary_container` (#005c55) at a 135-degree angle. This adds \"visual soul\" and prevents the deep teal from feeling static.\n\n---\n\n## 3. Typography: The Editorial Voice\nWe utilize a high-contrast scale to create an authoritative, yet accessible, academic atmosphere.\n\n*   **Headlines (Manrope):** This is our \"voice.\" Headlines should feel architectural. Use `display-lg` (3.5rem) with a tight letter-spacing (-0.02em) for hero sections to create a bold, modern impact.\n*   **Body (Inter):** This is our \"utility.\" Inter is chosen for its extreme readability in long-form academic content. Use `body-lg` (1rem) with a generous line-height (1.6) to ensure the \"academic\" content remains \"accessible.\"\n*   **Labels (Inter):** Use `label-md` (0.75rem) in all-caps with increased letter-spacing (+0.05em) for category tags or \"Sustainability Insights.\"\n\n---\n\n## 4. Elevation & Depth\nIn this system, elevation is a property of light, not physics.\n\n### The Layering Principle\nDepth is achieved by \"stacking\" the surface-container tiers. For instance, a `surface_container_lowest` card sitting on a `surface_container_low` background creates a soft, natural lift. \n\n### Ambient Shadows\nWhen a component must \"float\" (e.g., a modal or a primary dropdown), use an **Ambient Shadow**:\n- **Color:** A tinted version of `on_surface` (e.g., #181c1c at 6% opacity).\n- **Blur:** Large and diffused (30px–50px blur).\n- **Y-Offset:** Subtle (4px–8px).\n\n### The \"Ghost Border\" Fallback\nIf a border is absolutely required for accessibility (e.g., high-contrast mode), use a **Ghost Border**. This is the `outline_variant` token (#bec9c6) at 15% opacity. Never use a 100% opaque border.\n\n---\n\n## 5. Component Logic\n\n### Buttons\n- **Primary:** `primary` background with `on_primary` text. Use `radius-xl` (1.5rem) for a friendly, modern feel.\n- **Secondary:** `secondary_container` background with `on_secondary_container` text.\n- **Tertiary/Ghost:** No background. Use `primary` text with a subtle `surface_variant` hover state.\n\n### Input Fields\nAvoid the \"boxed\" look. Use a `surface_container_highest` (#e0e3e2) background with a bottom-only emphasis or a very soft `radius-md`. When focused, the background should shift to `surface_container_lowest` (#ffffff) with a soft `primary` glow.\n\n### Cards & Content Blocks\n**Strictly no divider lines.** Separate internal card content (e.g., header from body) using a `2.75rem` (spacing-8) vertical gap or a subtle background shift to `surface_container_low`. Use `radius-xl` (1.5rem) for all main content cards.\n\n### Navigation (The Glass Nav)\nThe top navigation must feel light. \n- **Background:** `surface_container_lowest` at 80% alpha.\n- **Blur:** `backdrop-filter: blur(16px)`.\n- **Active State:** A small `primary` dot below the text, rather than a heavy underline or background change.\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do:\n- **Do** use asymmetrical margins. If a text block is 6 columns wide, offset it to start on column 3 to create white space \"breathing room.\"\n- **Do** use `primary_fixed` (#a7f0e6) for subtle highlights in academic text (like a digital highlighter).\n- **Do** ensure all interactive elements have at least a `radius-md` (0.75rem) to maintain the \"accessible\" aesthetic.\n\n### Don’t:\n- **Don't** use pure black (#000000). Use `on_background` (#181c1c) for all text to keep the look \"premium editorial.\"\n- **Don't** use standard drop shadows. If it looks like a default shadow, it’s too heavy.\n- **Don't** use 1px dividers to separate list items. Use spacing (`spacing-3` or `spacing-4`) and tonal shifts.\n- **Don't** crowd the footer. Even though it uses the Dark Teal (`primary`), maintain the same generous white space used in the lighter sections.",
+                  "font": "MANROPE",
+                  "headlineFont": "MANROPE",
+                  "labelFont": "INTER",
+                  "namedColors": {
+                    "background": "#f7faf9",
+                    "error": "#ba1a1a",
+                    "error_container": "#ffdad6",
+                    "inverse_on_surface": "#eef1f0",
+                    "inverse_primary": "#8cd4ca",
+                    "inverse_surface": "#2d3131",
+                    "on_background": "#181c1c",
+                    "on_error": "#ffffff",
+                    "on_error_container": "#93000a",
+                    "on_primary": "#ffffff",
+                    "on_primary_container": "#8ad2c8",
+                    "on_primary_fixed": "#00201d",
+                    "on_primary_fixed_variant": "#00504a",
+                    "on_secondary": "#ffffff",
+                    "on_secondary_container": "#546965",
+                    "on_secondary_fixed": "#0a1f1c",
+                    "on_secondary_fixed_variant": "#364b47",
+                    "on_surface": "#181c1c",
+                    "on_surface_variant": "#3f4947",
+                    "on_tertiary": "#ffffff",
+                    "on_tertiary_container": "#ffb295",
+                    "on_tertiary_fixed": "#370e00",
+                    "on_tertiary_fixed_variant": "#6e3822",
+                    "outline": "#6f7977",
+                    "outline_variant": "#bec9c6",
+                    "primary": "#00433d",
+                    "primary_container": "#005c55",
+                    "primary_fixed": "#a7f0e6",
+                    "primary_fixed_dim": "#8cd4ca",
+                    "secondary": "#4e625f",
+                    "secondary_container": "#d0e7e2",
+                    "secondary_fixed": "#d0e7e2",
+                    "secondary_fixed_dim": "#b5cbc6",
+                    "surface": "#f7faf9",
+                    "surface_bright": "#f7faf9",
+                    "surface_container": "#ebeeed",
+                    "surface_container_high": "#e6e9e8",
+                    "surface_container_highest": "#e0e3e2",
+                    "surface_container_low": "#f1f4f3",
+                    "surface_container_lowest": "#ffffff",
+                    "surface_dim": "#d7dbda",
+                    "surface_tint": "#1a6962",
+                    "surface_variant": "#e0e3e2",
+                    "tertiary": "#5f2c17",
+                    "tertiary_container": "#7b422b",
+                    "tertiary_fixed": "#ffdbce",
+                    "tertiary_fixed_dim": "#ffb599"
+                  },
+                  "overrideNeutralColor": "#F4F7F6",
+                  "overridePrimaryColor": "#005C55",
+                  "overrideSecondaryColor": "#1A2E2B",
+                  "roundness": "ROUND_EIGHT",
+                  "spacingScale": 3
+                }
+              },
+              "name": "assets/4873a883188c48869d654aec193ef06e",
+              "version": "1"
+            },
+            "deviceType": "DESKTOP",
+            "generatedBy": "figaro_agent",
+            "height": "7198",
+            "htmlCode": {
+              "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzg2YjA0OGZiODFjODQ4ZDk4ZjIxMzljOTIyN2M3ZDdmEgsSBxD4gf-qtRAYAZIBJAoKcHJvamVjdF9pZBIWQhQxMjE0MzIyNDExNjMwNjAzMjU5OQ&filename=&opi=96797242",
+              "mimeType": "text/html",
+              "name": "projects/12143224116306032599/files/71692d1743c441e88a8e05199cfca358"
+            },
+            "id": "73f20104abaa4cd594b5f61ce9487862",
+            "name": "projects/12143224116306032599/screens/73f20104abaa4cd594b5f61ce9487862",
+            "prompt": "A desktop website lesson page for 'Greentryst Sustainability Academy'. \nLayout: Left sidebar (280px, fixed) + main content area (max-width 750px, centered).\nLEFT SIDEBAR: \n- Title: 'Article 6 of the Paris Agreement' with a document icon. \n- Modules: 'Module 1: Foundations of Article 6' (current), 'Module 2: Carbon Markets', 'Module 3: Implementation'. \n- Lessons: 4-5 per module with green check if done, lesson number, title, and time (e.g., '8 min'). \n- Highlight: 'The Glasgow Rulebook' is the current lesson with a teal background pill. \n- Bottom: '45% Complete' progress bar. Background: #f2f4f3.\n\nMAIN CONTENT AREA: \n- Sticky teal reading progress bar. \n- Breadcrumbs: Home > Article 6 > Module 1 > The Glasgow Rulebook. \n- Metadata: 'Module 1: Foundations · Lesson 3 of 5 · 8 min read · Completed'. \n- Heading: 'The Glasgow Rulebook' in Manrope. \n- Audio Player: Amber waveform, play button, 12:45/24:00, 1x speed. \n- Article: H2 headings (dark), body (gray), bullet points. \n- Callouts: Green 'Key Takeaway', Blue 'Analogy', Amber 'Example'. \n- Quiz Section: 'Knowledge Check' (quiz icon), '1 of 5 questions answered'. \n- Question 1: 'At which COP were the Article 6 rules finally agreed?' (A-D). C is selected as correct (green highlight + explanation). \n- Question 2: 'What three-tier reporting system did the Glasgow Rulebook establish?' (4 options, unanswered). \n- Options: Rounded cards. 'Submit Answer' teal buttons.\n\nBOTTOM: \n- 'Mark Complete & Continue' button (full-width teal). \n- Prev/Next lesson navigation cards.\n\nTypography: Manrope (headings), Inter (body). \nColor: Deep teal (#005c55) primary. Tonal layering, generous whitespace, no 1px borders.",
+            "screenMetadata": {
+              "agentType": "HATTER_AGENT",
+              "status": "COMPLETE"
+            },
+            "screenType": "DESIGN",
+            "screenshot": {
+              "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0uhPEmveWdPuBFe5CxYGpZ5jq7faKw6596MjbhnSsyUDynB4tpUyMLBbJclEB98CVCmU3XBMRWdVS1tEQNaOz8ydCiwirnml_-REz6s9Z93DRXZ_4qBiIQg8L-TynpJLdlP8TXO-0wOUUR8GzEYmtGTb1KxMaY_ejlrILAdND5n8LQ9o0UJneNzbcyzKZyQUkakUUe6JLdOjo-8kIRChTlOitY_TcpejDPC3NopgE3AXJv9ho6jZBP4qCznr",
+              "name": "projects/12143224116306032599/files/7479edb41b4e4d78a34d1fd0e6c1b3e1"
+            },
+            "theme": {
+              "bodyFont": "INTER",
+              "colorMode": "LIGHT",
+              "colorVariant": "FIDELITY",
+              "customColor": "#005C55",
+              "designMd": "# Design System Specification: The Scholarly Canopy\n\n## 1. Overview & Creative North Star\nThe \"Creative North Star\" for this design system is **The Scholarly Canopy**. This concept bridges the gap between high-level academic rigor and the organic, breathing nature of sustainability. We are moving away from the \"boxed-in\" feel of standard SaaS templates, opting instead for an editorial experience that feels curated and expansive.\n\nTo achieve this, the layout prioritizes intentional asymmetry—placing content off-center to allow for generous white space—and treats the UI as a series of layered, light-permeable surfaces. We don't build containers; we define spaces through light and depth.\n\n---\n\n## 2. Color & Tonal Architecture\nThe palette is rooted in deep, intellectual teals, balanced by a sophisticated range of \"Paper\" neutrals that mimic high-end stationery.\n\n### The \"No-Line\" Rule\n**Explicit Instruction:** Designers are prohibited from using 1px solid borders for sectioning or containment. Boundaries must be defined solely through background color shifts or subtle tonal transitions. \n- Use `surface_container_low` (#f1f4f3) as a base section color.\n- Use `surface_container_lowest` (#ffffff) for inset cards or focused content areas.\n- For high-impact separation, transition from `surface` (#f7faf9) to `primary_container` (#005c55).\n\n### Surface Hierarchy & Nesting\nTreat the UI as a physical stack of semi-transparent materials. \n- **Base Layer:** `surface` (#f7faf9).\n- **Secondary Layer:** `surface_container` (#ebeeed) for sidebars or secondary content blocks.\n- **Top Layer:** `surface_container_lowest` (#ffffff) for the most interactive elements (cards, inputs).\n\n### Glass & Gradient Implementation\nTo move beyond a flat digital feel, the navigation utilizes a \"Frosted Glass\" effect. Use `surface_container_lowest` at 80% opacity with a `20px` backdrop blur. \n- **Signature Gradient:** For primary CTAs or Hero backgrounds, use a subtle linear gradient from `primary` (#00433d) to `primary_container` (#005c55) at a 135-degree angle. This adds \"visual soul\" and prevents the deep teal from feeling static.\n\n---\n\n## 3. Typography: The Editorial Voice\nWe utilize a high-contrast scale to create an authoritative, yet accessible, academic atmosphere.\n\n*   **Headlines (Manrope):** This is our \"voice.\" Headlines should feel architectural. Use `display-lg` (3.5rem) with a tight letter-spacing (-0.02em) for hero sections to create a bold, modern impact.\n*   **Body (Inter):** This is our \"utility.\" Inter is chosen for its extreme readability in long-form academic content. Use `body-lg` (1rem) with a generous line-height (1.6) to ensure the \"academic\" content remains \"accessible.\"\n*   **Labels (Inter):** Use `label-md` (0.75rem) in all-caps with increased letter-spacing (+0.05em) for category tags or \"Sustainability Insights.\"\n\n---\n\n## 4. Elevation & Depth\nIn this system, elevation is a property of light, not physics.\n\n### The Layering Principle\nDepth is achieved by \"stacking\" the surface-container tiers. For instance, a `surface_container_lowest` card sitting on a `surface_container_low` background creates a soft, natural lift. \n\n### Ambient Shadows\nWhen a component must \"float\" (e.g., a modal or a primary dropdown), use an **Ambient Shadow**:\n- **Color:** A tinted version of `on_surface` (e.g., #181c1c at 6% opacity).\n- **Blur:** Large and diffused (30px–50px blur).\n- **Y-Offset:** Subtle (4px–8px).\n\n### The \"Ghost Border\" Fallback\nIf a border is absolutely required for accessibility (e.g., high-contrast mode), use a **Ghost Border**. This is the `outline_variant` token (#bec9c6) at 15% opacity. Never use a 100% opaque border.\n\n---\n\n## 5. Component Logic\n\n### Buttons\n- **Primary:** `primary` background with `on_primary` text. Use `radius-xl` (1.5rem) for a friendly, modern feel.\n- **Secondary:** `secondary_container` background with `on_secondary_container` text.\n- **Tertiary/Ghost:** No background. Use `primary` text with a subtle `surface_variant` hover state.\n\n### Input Fields\nAvoid the \"boxed\" look. Use a `surface_container_highest` (#e0e3e2) background with a bottom-only emphasis or a very soft `radius-md`. When focused, the background should shift to `surface_container_lowest` (#ffffff) with a soft `primary` glow.\n\n### Cards & Content Blocks\n**Strictly no divider lines.** Separate internal card content (e.g., header from body) using a `2.75rem` (spacing-8) vertical gap or a subtle background shift to `surface_container_low`. Use `radius-xl` (1.5rem) for all main content cards.\n\n### Navigation (The Glass Nav)\nThe top navigation must feel light. \n- **Background:** `surface_container_lowest` at 80% alpha.\n- **Blur:** `backdrop-filter: blur(16px)`.\n- **Active State:** A small `primary` dot below the text, rather than a heavy underline or background change.\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do:\n- **Do** use asymmetrical margins. If a text block is 6 columns wide, offset it to start on column 3 to create white space \"breathing room.\"\n- **Do** use `primary_fixed` (#a7f0e6) for subtle highlights in academic text (like a digital highlighter).\n- **Do** ensure all interactive elements have at least a `radius-md` (0.75rem) to maintain the \"accessible\" aesthetic.\n\n### Don’t:\n- **Don't** use pure black (#000000). Use `on_background` (#181c1c) for all text to keep the look \"premium editorial.\"\n- **Don't** use standard drop shadows. If it looks like a default shadow, it’s too heavy.\n- **Don't** use 1px dividers to separate list items. Use spacing (`spacing-3` or `spacing-4`) and tonal shifts.\n- **Don't** crowd the footer. Even though it uses the Dark Teal (`primary`), maintain the same generous white space used in the lighter sections.",
+              "font": "MANROPE",
+              "headlineFont": "MANROPE",
+              "labelFont": "INTER",
+              "namedColors": {
+                "background": "#f7faf9",
+                "error": "#ba1a1a",
+                "error_container": "#ffdad6",
+                "inverse_on_surface": "#eef1f0",
+                "inverse_primary": "#8cd4ca",
+                "inverse_surface": "#2d3131",
+                "on_background": "#181c1c",
+                "on_error": "#ffffff",
+                "on_error_container": "#93000a",
+                "on_primary": "#ffffff",
+                "on_primary_container": "#8ad2c8",
+                "on_primary_fixed": "#00201d",
+                "on_primary_fixed_variant": "#00504a",
+                "on_secondary": "#ffffff",
+                "on_secondary_container": "#546965",
+                "on_secondary_fixed": "#0a1f1c",
+                "on_secondary_fixed_variant": "#364b47",
+                "on_surface": "#181c1c",
+                "on_surface_variant": "#3f4947",
+                "on_tertiary": "#ffffff",
+                "on_tertiary_container": "#ffb295",
+                "on_tertiary_fixed": "#370e00",
+                "on_tertiary_fixed_variant": "#6e3822",
+                "outline": "#6f7977",
+                "outline_variant": "#bec9c6",
+                "primary": "#00433d",
+                "primary_container": "#005c55",
+                "primary_fixed": "#a7f0e6",
+                "primary_fixed_dim": "#8cd4ca",
+                "secondary": "#4e625f",
+                "secondary_container": "#d0e7e2",
+                "secondary_fixed": "#d0e7e2",
+                "secondary_fixed_dim": "#b5cbc6",
+                "surface": "#f7faf9",
+                "surface_bright": "#f7faf9",
+                "surface_container": "#ebeeed",
+                "surface_container_high": "#e6e9e8",
+                "surface_container_highest": "#e0e3e2",
+                "surface_container_low": "#f1f4f3",
+                "surface_container_lowest": "#ffffff",
+                "surface_dim": "#d7dbda",
+                "surface_tint": "#1a6962",
+                "surface_variant": "#e0e3e2",
+                "tertiary": "#5f2c17",
+                "tertiary_container": "#7b422b",
+                "tertiary_fixed": "#ffdbce",
+                "tertiary_fixed_dim": "#ffb599"
+              },
+              "overrideNeutralColor": "#F4F7F6",
+              "overridePrimaryColor": "#005C55",
+              "overrideSecondaryColor": "#1A2E2B",
+              "roundness": "ROUND_EIGHT",
+              "spacingScale": 3
+            },
+            "title": "Lesson: The Glasgow Rulebook",
+            "width": "3160"
+          }
+        ],
+        "theme": {}
+      }
+    },
+    {
+      "text": "I've designed the Greentryst Sustainability Academy lesson page for you. This desktop view includes:\n\n*   **A Persistent Course Navigation:** A 280px left sidebar (in #f2f4f3) that tracks your progress through \"Article 6 of the Paris Agreement.\" It highlights the current lesson, \"The Glasgow Rulebook,\" and shows a 45% completion status at the bottom.\n*   **A Focused Learning Environment:** The main content area is centered at 750px for optimal readability. It features a sticky reading progress bar, breadcrumbs, and a comprehensive article with callout boxes for \"Key Takeaways,\" \"Analogies,\" and \"Examples.\"\n*   **Interactive Elements:** An audio player with a waveform visualization allows for listening on the go, while the \"Knowledge Check\" section at the end of the lesson provides immediate feedback on your understanding.\n*   **Seamless Progression:** Clear navigation cards at the bottom of the page make it easy to move between lessons, with a prominent \"Mark Complete & Continue\" button to keep the momentum going.\n\nThe design follows your request for Manrope headings, Inter body text, and a deep teal (#005c55) primary color palette with tonal layering for a clean, professional aesthetic."
+    },
+    {
+      "suggestion": "Add a mobile version of this lesson page"
+    },
+    {
+      "suggestion": "Design a quiz results summary screen"
+    },
+    {
+      "suggestion": "Create a course overview dashboard with a visual progress map"
+    }
+  ],
+  "projectId": "12143224116306032599",
+  "sessionId": "1074767329469112504"
+}

@@ -1,0 +1,26 @@
+- question: "IFRS S2 Para 25(a) requires disclosure of six process elements for climate risk identification and assessment. Which of the following is one of those six?"
+  options:
+    - "The total number of climate risks identified"
+    - "Whether and how processes changed from the previous reporting period"
+    - "The names of executives responsible for each identified risk"
+    - "The financial cost of the risk management process"
+  answer: 1
+  explanation: "Para 25(a)(vi) requires disclosure of whether and how the climate risk identification and assessment processes have changed from the previous reporting period. This creates year-on-year accountability for process improvements or changes."
+
+- question: "Why does IFRS S2 specifically require disclosure of whether scenario analysis is used in risk identification (Para 25(a)(ii))?"
+  options:
+    - "To force all entities to conduct quantitative scenario analysis"
+    - "To connect the risk management process to the climate resilience disclosure in the strategy section"
+    - "To comply with TCFD supplemental guidance on risk management"
+    - "To ensure risk managers report to the sustainability team"
+  answer: 1
+  explanation: "The explicit requirement to disclose scenario analysis use in risk identification (Para 25(a)(ii)) was added by the ISSB specifically to connect the Risk Management and Strategy sections. Without this linkage, entities might conduct scenario analysis for resilience purposes while using entirely different, disconnected processes for risk management."
+
+- question: "An entity assesses each climate risk by scoring it on likelihood (1-5) and financial impact (1-5) using the same matrix as all other enterprise risks. What does this demonstrate?"
+  options:
+    - "The entity has quantified all financial effects as required by Para 15"
+    - "The entity's climate risk management is integrated with enterprise risk management (ERM)"
+    - "The entity has validated its risk assessment against the GHG Protocol"
+    - "The entity uses a net present value approach to risk assessment"
+  answer: 1
+  explanation: "Using the same scoring matrix for climate risks as other enterprise risks demonstrates integration of climate risk management with the entity's overall enterprise risk management (ERM) framework — addressing Para 25(c)'s requirement to disclose the extent of integration."

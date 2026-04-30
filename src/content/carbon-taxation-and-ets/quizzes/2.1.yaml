@@ -1,0 +1,35 @@
+- question: "What does 'revenue recycling' mean in carbon pricing?"
+  options:
+    - "Using the same revenue multiple times"
+    - "Returning carbon pricing revenue to the economy through tax cuts, dividends, or spending"
+    - "Recycling physical materials"
+    - "Keeping revenue in a savings account"
+  answer: 1
+  explanation: "Revenue recycling refers to how carbon pricing revenue is returned to the economy, whether through reducing other taxes, providing dividends to households, or funding climate programs."
+
+- question: "What is the 'double dividend' hypothesis?"
+  options:
+    - "Carbon pricing generates twice the expected revenue"
+    - "Using carbon revenue to reduce distortionary taxes creates both environmental and economic efficiency benefits"
+    - "Two countries benefit when they link systems"
+    - "Dividends are paid twice per year"
+  answer: 1
+  explanation: "The double dividend hypothesis suggests that using carbon revenue to reduce economically distortionary taxes (like income or corporate taxes) can improve economic efficiency while also reducing emissions."
+
+- question: "What is a carbon dividend?"
+  options:
+    - "Payment from companies to government"
+    - "Equal per-capita payment of carbon revenue to all households"
+    - "Dividend paid by carbon-intensive companies"
+    - "Corporate tax break"
+  answer: 1
+  explanation: "A carbon dividend is an equal per-capita rebate of carbon pricing revenue to all residents. This approach makes the net policy progressive since lower-income households typically receive more than they pay."
+
+- question: "Why is earmarking revenue for climate programs controversial among economists?"
+  options:
+    - "Climate programs are too expensive"
+    - "Earmarking reduces fiscal flexibility and may not be the highest-value use of funds"
+    - "Earmarking is illegal in most countries"
+    - "It generates no revenue"
+  answer: 1
+  explanation: "Economists often prefer flexible budgeting where funds go to their highest value use. Earmarking locks funds into specific uses regardless of changing priorities or better opportunities."

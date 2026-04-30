@@ -1,0 +1,26 @@
+- question: "Category 14 (Franchises) applies to which party in a franchise relationship?"
+  options:
+    - "The franchisee, who operates individual outlets"
+    - "The franchisor, who licenses the brand and business model"
+    - "The landlord of franchised premises"
+    - "The supplier of products to franchise outlets"
+  answer: 1
+  explanation: "Category 14 applies to the FRANCHISOR — the company that licenses its brand and systems to independently owned franchisees. The franchisor includes franchisee Scope 1 and 2 emissions in Category 14 because, although the franchisee operates independently, the franchisor's brand standards and systems shape how those operations run."
+
+- question: "A QSR franchisor has 2,000 franchised restaurants, each consuming 300 MWh/year. The average grid emission factor is 0.40 tCO₂e/MWh. What are the Category 14 electricity-related emissions?"
+  options:
+    - "24,000 tCO₂e"
+    - "240,000 tCO₂e"
+    - "2,400,000 tCO₂e"
+    - "240 tCO₂e"
+  answer: 1
+  explanation: "2,000 restaurants × 300 MWh/restaurant × 0.40 tCO₂e/MWh = 240,000 tCO₂e."
+
+- question: "Which of the following is a lever a franchisor can use to reduce Category 14 emissions?"
+  options:
+    - "Reducing the franchisor's own office energy consumption"
+    - "Mandating high-efficiency kitchen equipment specifications in the franchise operating manual"
+    - "Reducing the number of business trips by franchisor headquarters staff"
+    - "Installing solar panels at the franchisor's corporate offices"
+  answer: 1
+  explanation: "The franchisor's most powerful lever on Category 14 is setting operational standards for franchisees — such as mandating energy-efficient equipment specifications. This drives emissions reductions across the entire franchise network, not just the franchisor's own operations."

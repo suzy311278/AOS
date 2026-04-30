@@ -1,0 +1,44 @@
+- question: "Which IPCC report, published in 2018, established that global net CO₂ emissions must reach zero around 2050 to limit warming to 1.5C?"
+  options:
+    - "The Fifth Assessment Report (AR5)"
+    - "The Special Report on Global Warming of 1.5C (SR15)"
+    - "The Sixth Assessment Report (AR6)"
+    - "The Special Report on Climate Change and Land (SRCCL)"
+  answer: 1
+  explanation: "The IPCC Special Report on Global Warming of 1.5C (SR15), published in 2018, was widely accepted as a warning that we must limit global temperature rise to 1.5C above pre-industrial levels and reach net-zero CO₂ emissions by 2050 for the best chance of avoiding catastrophic climate breakdown."
+
+- question: "A company publicly announces it will be 'net zero by 2040' and plans to offset 60% of remaining emissions using forestry credits purchased on the voluntary market. Under SBTi definitions, which statement best describes this commitment?"
+  options:
+    - "It qualifies as a science-based target because it has a net-zero date"
+    - "It qualifies as a science-based target because forestry credits are recognized by the IPCC"
+    - "It is not a science-based target because carbon credits cannot count as emission reductions toward SBTi targets"
+    - "It is not a science-based target because the target year is before 2050"
+  answer: 2
+  explanation: "Carbon credits must be reported separately from the GHG inventory and do not count as reductions toward meeting near-term or long-term science-based targets. Carbon credits may only be considered as an option for neutralizing residual emissions after the long-term SBT is achieved. Using credits to substitute for emission reductions means a commitment does not meet the SBTi definition of a science-based target."
+
+- question: "Which of the following is NOT listed as a partner organization that facilitated the SBTi's growth and development?"
+  options:
+    - "CDP"
+    - "The United Nations Global Compact"
+    - "The Intergovernmental Panel on Climate Change (IPCC)"
+    - "The World Wide Fund for Nature (WWF)"
+  answer: 2
+  explanation: "The SBTi's partner organizations who facilitated its growth and development are CDP, the United Nations Global Compact, the We Mean Business Coalition, the World Resources Institute (WRI), and the World Wide Fund for Nature (WWF). The IPCC is an independent scientific body that produces climate science reports -- it is not an SBTi partner organisation."
+
+- question: "Which type of company uses the SME Streamlined Target Validation Route?"
+  options:
+    - "Companies with more than 500 employees who want a faster process"
+    - "Financial institutions setting targets on financed emissions"
+    - "Small and medium-sized enterprises as defined by the SBTi"
+    - "Companies in the power sector using the SDA pathway"
+  answer: 2
+  explanation: "Small and medium-sized enterprises (SMEs), as defined by the SBTi, have the option to set targets using a streamlined route that bypasses the initial commitment letter step and allows companies to immediately select from predefined target options. Financial institutions use a separate standard -- the SBTi Financial Institutions Net-Zero Standard."
+
+- question: "According to the SBTi definition, when can a company claim to have reached net-zero?"
+  options:
+    - "When it has purchased enough carbon offsets to balance its annual emissions"
+    - "When it has achieved its near-term science-based target"
+    - "When its long-term SBT for all scopes is achieved and residual emissions are permanently neutralized"
+    - "When it procures 100% renewable electricity"
+  answer: 2
+  explanation: "A company cannot claim to have reached net-zero until the long-term science-based target for all scopes is achieved AND the company has neutralized its residual emissions through permanent removal and storage of carbon from the atmosphere. Purchasing offsets, achieving a near-term target, or sourcing renewable electricity alone does not satisfy the SBTi net-zero definition."

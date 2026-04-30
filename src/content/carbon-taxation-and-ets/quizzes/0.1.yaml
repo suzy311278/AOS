@@ -1,0 +1,35 @@
+- question: "What market failure does carbon pricing aim to correct?"
+  options:
+    - "Monopoly power in energy markets"
+    - "Externalities from greenhouse gas emissions"
+    - "Information asymmetry about climate science"
+    - "Public goods provision in renewable energy"
+  answer: 1
+  explanation: "Carbon pricing addresses the externality problem where emitters do not bear the full social cost of their emissions. By putting a price on carbon, it internalizes this external cost."
+
+- question: "Which statement best describes the difference between a carbon tax and an emissions trading system?"
+  options:
+    - "A carbon tax sets the quantity of emissions, while ETS sets the price"
+    - "A carbon tax sets the price, while ETS sets the quantity of emissions"
+    - "A carbon tax applies to households, while ETS applies to businesses"
+    - "A carbon tax is temporary, while ETS is permanent"
+  answer: 1
+  explanation: "A carbon tax directly sets the price per ton of emissions, while an ETS sets a cap (quantity) and lets the market determine the price through trading."
+
+- question: "What is the primary economic rationale for carbon pricing?"
+  options:
+    - "To punish polluters"
+    - "To raise government revenue"
+    - "To achieve emissions reductions at lowest cost"
+    - "To eliminate all carbon emissions immediately"
+  answer: 2
+  explanation: "The main economic argument for carbon pricing is cost-effectiveness. By letting all emitters respond to the same price signal, reductions happen where they are cheapest."
+
+- question: "According to the Stern Review, what is the approximate cost of inaction on climate change compared to the cost of early action?"
+  options:
+    - "Inaction costs less than action"
+    - "Inaction costs about the same as action"
+    - "Inaction costs 5-20% of GDP vs 1% for action"
+    - "The review did not compare costs"
+  answer: 2
+  explanation: "The Stern Review found that the cost of inaction could reach 5-20% of global GDP, while early action might cost around 1% of GDP, making a strong economic case for carbon pricing."

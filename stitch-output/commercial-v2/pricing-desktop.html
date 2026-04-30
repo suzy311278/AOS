@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pricing | Greentryst Academy</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-surface-variant": "#404947",
+                        "primary": "#002b27",
+                        "on-tertiary-container": "#11be58",
+                        "on-primary-fixed": "#00201d",
+                        "tertiary": "#002c0f",
+                        "secondary-fixed-dim": "#84d5cc",
+                        "on-tertiary-fixed-variant": "#005321",
+                        "on-primary-container": "#79afa7",
+                        "surface-bright": "#f8faf9",
+                        "on-error": "#ffffff",
+                        "error": "#ba1a1a",
+                        "secondary-fixed": "#a0f1e8",
+                        "primary-container": "#00433d",
+                        "tertiary-fixed": "#6bff8f",
+                        "surface-tint": "#306760",
+                        "inverse-primary": "#99d1c8",
+                        "on-tertiary-fixed": "#002109",
+                        "on-surface": "#191c1c",
+                        "on-primary-fixed-variant": "#144f49",
+                        "on-primary": "#ffffff",
+                        "on-secondary-container": "#0c6f67",
+                        "surface": "#f8faf9",
+                        "secondary-container": "#9deee5",
+                        "outline": "#707977",
+                        "primary-fixed-dim": "#99d1c8",
+                        "on-secondary-fixed-variant": "#00504a",
+                        "background": "#f8faf9",
+                        "surface-variant": "#e1e3e2",
+                        "error-container": "#ffdad6",
+                        "on-background": "#191c1c",
+                        "surface-container-low": "#f2f4f3",
+                        "primary-fixed": "#b5eee4",
+                        "tertiary-fixed-dim": "#4ae176",
+                        "surface-dim": "#d8dada",
+                        "on-tertiary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "on-secondary": "#ffffff",
+                        "inverse-on-surface": "#eff1f0",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary-container": "#00451b",
+                        "outline-variant": "#bfc8c6",
+                        "on-secondary-fixed": "#00201d",
+                        "surface-container": "#eceeed",
+                        "secondary": "#006a63",
+                        "surface-container-highest": "#e1e3e2",
+                        "surface-container-high": "#e6e9e8",
+                        "inverse-surface": "#2e3131"
+                    },
+                    fontFamily: {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .premium-gradient {
+            background: linear-gradient(135deg, #00433d 0%, #006a63 100%);
+        }
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(16px);
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopNavBar Navigation Shell -->
+<header class="fixed top-0 w-full z-50 glass-nav shadow-sm">
+<nav class="flex justify-between items-center px-8 h-20 max-w-screen-2xl mx-auto">
+<div class="text-2xl font-extrabold tracking-tighter text-emerald-900 font-headline">Greentryst</div>
+<div class="hidden md:flex items-center space-x-8 font-headline font-bold tracking-tight">
+<a class="text-emerald-900/60 hover:text-emerald-900 transition-colors" href="#">Learn</a>
+<a class="text-emerald-900/60 hover:text-emerald-900 transition-colors" href="#">Tools</a>
+<a class="text-emerald-900/60 hover:text-emerald-900 transition-colors" href="#">Jobs</a>
+<a class="text-emerald-700 border-b-2 border-emerald-700 pb-1" href="#">Pricing</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 hover:bg-emerald-50/50 rounded-lg transition-all scale-95 active:scale-100 duration-200">
+<span class="material-symbols-outlined text-emerald-900">account_circle</span>
+</button>
+</div>
+</nav>
+</header>
+<main class="pt-32 pb-24 px-6 max-w-[1200px] mx-auto">
+<!-- Header Section -->
+<section class="text-center mb-20">
+<h1 class="font-headline font-extrabold text-5xl md:text-6xl tracking-tight text-on-surface mb-8">
+                Simple, transparent pricing
+            </h1>
+<!-- Pricing Toggle -->
+<div class="flex items-center justify-center gap-4">
+<span class="text-sm font-semibold text-on-surface-variant">Monthly</span>
+<div class="w-14 h-8 bg-surface-container-high rounded-full p-1 cursor-pointer flex items-center justify-end relative">
+<div class="w-6 h-6 bg-primary rounded-full shadow-md"></div>
+</div>
+<div class="flex items-center gap-2">
+<span class="text-sm font-bold text-primary">Annual</span>
+<span class="bg-[#22c55e]/10 text-[#22c55e] text-[10px] font-bold px-2 py-1 rounded-full uppercase tracking-wider">Save 30%</span>
+</div>
+</div>
+</section>
+<!-- Pricing Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24 items-stretch">
+<!-- Free Plan -->
+<div class="bg-surface-container-lowest rounded-2xl p-10 flex flex-col shadow-sm transition-transform hover:-translate-y-1 duration-300">
+<div class="mb-8">
+<h3 class="text-xl font-headline font-bold text-on-surface mb-2">Free</h3>
+<div class="flex items-baseline gap-1">
+<span class="text-4xl font-headline font-extrabold">$0</span>
+<span class="text-on-surface-variant text-sm">/ forever</span>
+</div>
+</div>
+<ul class="space-y-4 mb-10 flex-grow">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+<span class="text-sm text-on-surface-variant font-medium">3 lessons/month</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+<span class="text-sm text-on-surface-variant font-medium">Job board browsing</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+<span class="text-sm text-on-surface-variant font-medium">5 emission factor lookups/mo</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+<span class="text-sm text-on-surface-variant font-medium">Lesson discussions (3/day)</span>
+</li>
+</ul>
+<button class="w-full py-4 rounded-full border-2 border-primary-container text-primary-container font-bold hover:bg-surface-container-low transition-all">
+                    Get Started
+                </button>
+</div>
+<!-- Pro Plan (Highlighted) -->
+<div class="premium-gradient rounded-2xl p-10 flex flex-col shadow-xl text-on-primary scale-105 z-10 relative overflow-hidden transition-transform hover:-translate-y-1 duration-300">
+<div class="absolute top-6 right-6">
+<span class="bg-[#f59e0b] text-primary text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-widest shadow-sm">Most Popular</span>
+</div>
+<div class="mb-8">
+<h3 class="text-xl font-headline font-bold mb-2">Pro</h3>
+<div class="flex items-baseline gap-1">
+<span class="text-4xl font-headline font-extrabold">$39</span>
+<span class="opacity-80 text-sm">/ year</span>
+</div>
+</div>
+<ul class="space-y-4 mb-10 flex-grow">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-xl">verified</span>
+<span class="text-sm font-medium">Everything in Free plus</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-xl">all_inclusive</span>
+<span class="text-sm font-medium">Unlimited lessons</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-xl">cloud_sync</span>
+<span class="text-sm font-medium">Cloud progress and streaks</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-xl">workspace_premium</span>
+<span class="text-sm font-medium">Certificates</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-xl">forum</span>
+<span class="text-sm font-medium">Unlimited discussions</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-xl">extension</span>
+<span class="text-sm font-medium">Case studies and challenges</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-xl">query_stats</span>
+<span class="text-sm font-medium">5 resume match scores/mo</span>
+</li>
+</ul>
+<button class="w-full py-4 rounded-full bg-white text-primary-container font-bold hover:shadow-lg transition-all">
+                    Go Pro
+                </button>
+</div>
+<!-- Work Plan -->
+<div class="bg-surface-container-lowest rounded-2xl p-10 flex flex-col shadow-sm transition-transform hover:-translate-y-1 duration-300">
+<div class="mb-8">
+<h3 class="text-xl font-headline font-bold text-on-surface mb-2">Work</h3>
+<div class="flex items-baseline gap-1">
+<span class="text-4xl font-headline font-extrabold">$249</span>
+<span class="text-on-surface-variant text-sm">/ year</span>
+</div>
+</div>
+<ul class="space-y-4 mb-10 flex-grow">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+<span class="text-sm text-on-surface-variant font-medium">Everything in Pro plus</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+<span class="text-sm text-on-surface-variant font-medium">Unlimited resume matching</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+<span class="text-sm text-on-surface-variant font-medium">GHG Calculator with export</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+<span class="text-sm text-on-surface-variant font-medium">Full regulation dashboard</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+<span class="text-sm text-on-surface-variant font-medium">API access</span>
+</li>
+</ul>
+<button class="w-full py-4 rounded-full border-2 border-primary-container text-primary-container font-bold hover:bg-surface-container-low transition-all">
+                    Contact Sales
+                </button>
+</div>
+</div>
+<!-- For Teams Section -->
+<section class="bg-surface-container-low rounded-2xl p-12 mb-24 flex flex-col md:flex-row items-center justify-between gap-12">
+<div class="max-w-2xl">
+<h2 class="font-headline font-bold text-3xl mb-4 text-primary">For Teams</h2>
+<p class="text-on-surface-variant leading-relaxed text-lg">
+                    Train your ESG team with completion tracking, admin dashboards, and compliance reporting. Leverage specialized tools designed for corporate sustainability departments. Contact us for custom team pricing and bulk enrollment options.
+                </p>
+</div>
+<button class="px-10 py-5 rounded-full premium-gradient text-on-primary font-bold text-lg whitespace-nowrap shadow-lg scale-95 active:scale-100 transition-all">
+                Contact Sales
+            </button>
+</section>
+<!-- FAQ Section -->
+<section class="max-w-3xl mx-auto">
+<h2 class="font-headline font-extrabold text-3xl mb-12 text-center text-on-surface">Frequently Asked Questions</h2>
+<div class="space-y-4">
+<!-- FAQ 1 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 cursor-pointer hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between">
+<h4 class="font-bold text-on-surface">Can I cancel my subscription anytime?</h4>
+<span class="material-symbols-outlined text-on-surface-variant">expand_more</span>
+</div>
+</div>
+<!-- FAQ 2 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 cursor-pointer hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between">
+<h4 class="font-bold text-on-surface">Do you offer discounts for non-profits?</h4>
+<span class="material-symbols-outlined text-on-surface-variant">expand_more</span>
+</div>
+</div>
+<!-- FAQ 3 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 cursor-pointer hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between">
+<h4 class="font-bold text-on-surface">How does the GHG Calculator work?</h4>
+<span class="material-symbols-outlined text-on-surface-variant">expand_more</span>
+</div>
+</div>
+<!-- FAQ 4 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 cursor-pointer hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between">
+<h4 class="font-bold text-on-surface">Are the certificates industry-recognized?</h4>
+<span class="material-symbols-outlined text-on-surface-variant">expand_more</span>
+</div>
+</div>
+<!-- FAQ 5 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 cursor-pointer hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between">
+<h4 class="font-bold text-on-surface">Is there a limit to API requests on the Work plan?</h4>
+<span class="material-symbols-outlined text-on-surface-variant">expand_more</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-neutral-100 py-16 px-8 mt-auto w-full">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 max-w-screen-2xl mx-auto">
+<div class="flex flex-col gap-6">
+<div class="text-xl font-bold text-emerald-900 font-headline">Greentryst</div>
+<p class="text-emerald-800/50 text-sm font-['Inter']">© 2024 Greentryst Academy. Engineered for the Planet.</p>
+</div>
+<div class="flex flex-col gap-4">
+<h5 class="font-['Inter'] text-sm uppercase tracking-widest font-semibold text-emerald-900">Platform</h5>
+<a class="text-emerald-800/50 hover:text-emerald-700 underline transition-all" href="#">Curriculum</a>
+<a class="text-emerald-800/50 hover:text-emerald-700 underline transition-all" href="#">Impact Metrics</a>
+</div>
+<div class="flex flex-col gap-4">
+<h5 class="font-['Inter'] text-sm uppercase tracking-widest font-semibold text-emerald-900">Legal</h5>
+<a class="text-emerald-800/50 hover:text-emerald-700 underline transition-all" href="#">Privacy Policy</a>
+<a class="text-emerald-800/50 hover:text-emerald-700 underline transition-all" href="#">Terms of Service</a>
+</div>
+<div class="flex flex-col gap-4">
+<h5 class="font-['Inter'] text-sm uppercase tracking-widest font-semibold text-emerald-900">Support</h5>
+<a class="text-emerald-800/50 hover:text-emerald-700 underline transition-all" href="#">Contact</a>
+</div>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,208 @@
+{/* source: ghg-protocol-revised.pdf Chapter 7 (pp. 48-57), Chapter 9 (pp. 62-67), Chapter 10 (pp. 68-73) */}
+
+You have collected data, calculated emissions, and produced a number. Now what? The number is only useful if it is credible, reported correctly, and can survive scrutiny. This lesson covers the three things that turn a spreadsheet into a defensible GHG inventory: quality management, proper reporting, and verification.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-1-2/3_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Part 1: Inventory Quality
+
+### The 5% Rule
+
+Here is the most practical quality threshold you need to remember: an error is considered **material** if it exceeds **5% of the total inventory** for the part of the organisation being assessed. That is the line between "minor data issue" and "your inventory is misleading."
+
+This does not mean errors under 5% do not matter. It means errors above 5% are the ones that will get flagged by verifiers, questioned by investors, and potentially invalidate your reporting claims.
+
+### Where Quality Problems Actually Come From
+
+In theory, quality issues could come from bad emission factors, wrong GWP values, or flawed methodologies. In practice, the most common limitation is much more mundane: **activity data quality**.
+
+Missing invoices. Estimated readings instead of metered data. Fuel consumption recorded in the wrong units. Data from one facility arriving in litres while another sends it in gallons. These are the errors that actually derail inventories.
+
+<ExampleBox>
+**Vauxhall Motors: The Round-Trip Problem**
+
+When calculating GHG emissions from staff air travel, Vauxhall's quality review discovered that the calculation used one-way flight distances instead of round-trip. This single assumption error would have understated emissions by 50%. The fix was trivial - but catching it required someone to actually check the assumptions behind the formula, not just the formula itself.
+</ExampleBox>
+
+### Building Quality In (Not Bolting It On)
+
+A quality management system does not need to be a 50-page document. At its core, it needs four things:
+
+1. **A named coordinator** who is accountable for inventory quality across all business units
+2. **Documented procedures** for data collection, so the same data can be efficiently re-collected next year
+3. **Generic checks** applied across the inventory: transcription errors, unit conversions, spreadsheet formula audits, version control
+4. **Source-specific checks** for high-risk categories: are you using electricity bills or meter readings? Are fuel purchases matching delivery records?
+
+One practical rule of thumb: if any data point changes more than 10% year-over-year, investigate before accepting it. It might be real (a new production line), or it might be a data error (someone entered MWh instead of kWh).
+
+<HighlightBox>
+Activity data quality is the most common limitation in corporate GHG inventories - not emission factors. Invest your quality effort where errors are most likely: at the data collection stage.
+</HighlightBox>
+
+## Part 2: Reporting
+
+### What You Must Report
+
+Any public GHG report claiming conformance with the GHG Protocol must include these elements:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Required Information</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Boundary</strong></td>
+      <td>Consolidation approach (equity share, financial control, or operational control); operational boundary (which scopes); reporting period</td>
+    </tr>
+    <tr>
+      <td><strong>Scope 1</strong></td>
+      <td>Total gross emissions in tCO2e, reported independently of any GHG trades or offsets</td>
+    </tr>
+    <tr>
+      <td><strong>Scope 2</strong></td>
+      <td>Both location-based and market-based totals (where applicable), reported separately from Scope 1</td>
+    </tr>
+    <tr>
+      <td><strong>By gas</strong></td>
+      <td>Emissions of each Kyoto gas separately (CO2, CH4, N2O, HFCs, PFCs, SF6) in both mass and CO2e</td>
+    </tr>
+    <tr>
+      <td><strong>Base year</strong></td>
+      <td>The year chosen, the base year emissions figure, the recalculation policy, and context for any recalculations</td>
+    </tr>
+    <tr>
+      <td><strong>Biomass</strong></td>
+      <td>Direct CO2 from biologically sequestered carbon, reported separately from scopes</td>
+    </tr>
+    <tr>
+      <td><strong>Methodology</strong></td>
+      <td>Calculation methods used, emission factor sources, and any exclusions with justification</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+### The Offsets Rule
+
+This trips up a surprising number of companies: **offsets are never netted against scope totals**. You report Scope 1 and Scope 2 gross. If you purchased 5,000 tonnes of carbon offsets, you disclose that separately. Your Scope 1 number does not change.
+
+Why? Because offsets represent emission reductions happening somewhere else. Your inventory is about what your operations actually emitted.
+
+### Intensity Ratios
+
+Absolute emissions tell you the total. Intensity ratios tell you how efficiently you are emitting relative to your business activity. Both matter.
+
+<AnalogyBox>
+Intensity ratios are like fuel economy figures for cars. Two vehicles may consume very different absolute quantities of fuel, but comparing litres per 100 km lets you assess efficiency independently of how far each one drives. Similarly, GHG intensity lets you compare emissions performance regardless of company size.
+</AnalogyBox>
+
+The three main types:
+
+- **Per unit of output**: tCO2e per tonne of product, per MWh generated, per room-night. Best for comparing similar operations.
+- **Per revenue**: tCO2e per million dollars of revenue. Useful for diversified companies, but sensitive to price changes and currency fluctuations.
+- **Per employee**: tCO2e per full-time equivalent. Common in service industries where physical output is hard to define.
+
+Choose the ratio that best matches how your stakeholders think about your business. A cement company should use tCO2e per tonne of clinker. A hotel chain should use tCO2e per room-night. A bank might use tCO2e per employee or per dollar of assets under management.
+
+### What a Good GHG Report Looks Like
+
+Here is a checklist of mandatory elements in order - use this as your template:
+
+1. **Company description** and reporting period
+2. **Consolidation approach** and justification
+3. **Operational boundary** - which scopes, which gases, any exclusions and why
+4. **Base year** - year chosen, emissions figure, recalculation policy
+5. **Scope 1 total** (gross, in tCO2e) with breakdown by gas
+6. **Scope 2 totals** - location-based and market-based, with emission factor sources
+7. **Biomass CO2** reported separately
+8. **Methodology** - calculation approach, emission factor sources, any estimation methods
+9. **Intensity ratios** (at least one)
+10. **Year-over-year trend** with context for any significant changes
+11. **Offsets** (if applicable) - type, origin, verification status, reported separately
+
+## Part 3: Verification
+
+### Limited vs. Reasonable Assurance
+
+When you hire a verifier, you are buying one of two things:
+
+**Limited assurance** (also called negative assurance): The verifier says "nothing has come to our attention suggesting this is materially wrong." Think of it as a desk review - they check the methodology, sample some data, and look for red flags. Less expensive, less intensive.
+
+**Reasonable assurance** (positive assurance): The verifier says "we have examined this and it is free from material misstatement." This involves site visits, detailed data testing, and examination of underlying systems. It is analogous to a financial audit. More expensive, more credible.
+
+Most voluntary reporting starts with limited assurance. Regulatory frameworks (EU CSRD, California climate disclosure) are increasingly requiring reasonable assurance.
+
+### What Verifiers Actually Check
+
+Verifiers do not re-do your entire inventory. They apply a risk-based approach, focusing effort where errors are most likely to be material. In practice, the top five things they examine are:
+
+1. **Organisational boundary** - is it consistent with your consolidation approach? Are any significant operations missing?
+2. **Activity data for the largest sources** - electricity bills, fuel purchase records, meter readings for your biggest facilities
+3. **Emission factor selection** - are you using appropriate, current factors? Is the source documented?
+4. **Calculation logic** - do the spreadsheet formulas actually do what you think they do? Unit conversions correct?
+5. **Base year recalculation** - if there were structural changes, was the base year properly adjusted?
+
+### Documentation You Need Ready
+
+Before a verifier arrives (or logs in), have these assembled:
+
+- **Organisational structure** showing which entities are included and the consolidation approach
+- **Energy consumption data** with supporting invoices, delivery notes, or meter readings
+- **Emission factors** with bibliographic references and justification for selection
+- **Assumptions log** documenting every estimation, proxy, or judgment call
+- **Calibration records** for any meters used (especially fuel flow meters and electricity sub-meters)
+- **Change log** showing any differences in data or methodology from the prior year
+
+<HighlightBox>
+If you cannot document an assumption, a verifier cannot confirm it. Design your record-keeping from day one with external review in mind - not as an afterthought before the audit.
+</HighlightBox>
+
+<HighlightBox>
+**Practitioner Tip: The Multi-Branch Data Challenge**
+
+Financial institutions - banks and NBFCs with 10,000 to 15,000 branches - face a unique completeness problem. Typical data coverage across all branches is only 50-60%. You will encounter: blank rows where branches simply didn't report, zero values, electricity bills consolidated bi-monthly or quarterly instead of monthly, no bills for six months followed by all arriving at once, branches added or closed mid-year, and residential branches where electricity is bundled into rent with no separate meter.
+
+None of these are reasons to skip the inventory. But every single one must be transparently documented: how you estimated for non-reporting branches (e.g., extrapolation from similar reporting branches), how you handled partial-year data, and which branches were excluded and why. Verifiers will accept reasonable estimation methods as long as they are disclosed and consistently applied. The worst outcome is an undisclosed gap that the assurer discovers independently.
+</HighlightBox>
+
+### Common Reporting and Verification Mistakes
+
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Mistake</th>
+      <th>Why It Matters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Double-counting in multi-facility rollups</td>
+      <td>When aggregating from facilities to corporate level, emissions from shared services or inter-company energy transfers can be counted twice</td>
+    </tr>
+    <tr>
+      <td>Netting offsets against scope totals</td>
+      <td>Violates the GHG Protocol requirement to report gross emissions. Offsets go in a separate disclosure</td>
+    </tr>
+    <tr>
+      <td>Missing intensity ratio</td>
+      <td>While technically optional, omitting intensity ratios makes your report less useful for comparison and is a common auditor flag</td>
+    </tr>
+    <tr>
+      <td>Reporting only one Scope 2 method</td>
+      <td>If contractual instruments exist in your market, dual reporting (location-based and market-based) is mandatory</td>
+    </tr>
+    <tr>
+      <td>No documentation of exclusions</td>
+      <td>If you excluded any sources, the justification must be explicit. "Too small to matter" without quantification is not acceptable</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+<KeyTakeaways items="An error exceeding 5% of total inventory is considered material - activity data quality, not emission factors, is where most quality problems originate ;; A GHG Protocol-conformant report must include scope totals by gas, consolidation approach, base year with recalculation policy, methodology, and biomass CO2 separately ;; Offsets are never netted against scope totals - report Scope 1 and Scope 2 gross, with offsets disclosed separately ;; Choose intensity ratios that match how stakeholders think about your business - tCO2e per tonne of product, per revenue, or per employee ;; Verification comes in two levels: limited assurance (desk review for red flags) and reasonable assurance (detailed examination analogous to a financial audit) ;; Design your record-keeping for external review from day one - every estimation, proxy, and judgment call belongs in an assumptions log" />

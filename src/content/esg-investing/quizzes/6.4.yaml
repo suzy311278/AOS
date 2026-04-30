@@ -1,0 +1,44 @@
+- question: "A portfolio manager claims that ESG integration cannot improve the portfolio's risk-return profile because any constraint on the investable universe can only move the portfolio away from the unconstrained efficient frontier. What is the most important conceptual flaw in this argument?"
+  options:
+    - "ESG integration never constrains the portfolio because it only adds information"
+    - "The unconstrained efficient frontier may not be truly efficient if it omits material risks such as climate risk that are not yet fully priced by markets"
+    - "ESG constraints always reduce tracking error, which improves the risk-return trade-off"
+    - "The efficient frontier applies only to passive strategies, not active ESG approaches"
+  answer: 1
+  explanation: "The flaw in the argument is that the 'unconstrained' efficient frontier is only efficient relative to the risks it measures. If the conventional frontier ignores material ESG risks (such as systemic climate risk), then it is not genuinely efficient — it is efficient only on the set of risks that traditional models capture. ESG constraints help navigate toward a more complete efficient frontier that accounts for the full set of material risks."
+
+- question: "What is weighted-average carbon intensity (WACI) and why is it the standard TCFD metric for portfolio-level climate risk disclosure?"
+  options:
+    - "WACI is the average carbon footprint per employee across portfolio companies; it is used because employment data is reliably reported"
+    - "WACI measures a portfolio's position-weighted exposure to carbon-intensive companies, normalised by issuer revenue; it allows comparison across portfolios of different sizes and compositions"
+    - "WACI measures the total absolute carbon emissions of all companies in a portfolio; it is used because absolute emissions are the most important climate metric"
+    - "WACI measures the carbon offset purchases made by portfolio companies relative to their emissions"
+  answer: 1
+  explanation: "Weighted-average carbon intensity sums each holding's contribution as (portfolio weight × company Scope 1+2 emissions / company revenue). Revenue normalisation allows meaningful comparison across companies of different sizes and across portfolios with different compositions. It is the TCFD-recommended metric because it captures the portfolio's proportional exposure to carbon-intensive business models in a standardised, comparable way."
+
+- question: "Researchers find that a portfolio of high-ESG-rated companies significantly outperformed the benchmark over a decade. Which explanation should a critical investor consider most carefully before attributing this to ESG generating alpha?"
+  options:
+    - "The portfolio was actively managed, which always outperforms passive strategies over the long run"
+    - "High ESG ratings correlate with existing factors like quality and size, so the outperformance may reflect known factor premia rather than a genuine ESG effect"
+    - "Outperformance over a decade is too short a period to draw any conclusions about ESG"
+    - "ESG ratings are assigned randomly, so any correlation with performance must be coincidental"
+  answer: 1
+  explanation: "ESG ratings correlate significantly with existing investment factors — particularly quality (strong governance, stable cash flows) and size (larger companies score higher due to disclosure advantages). Apparent ESG outperformance may therefore reflect known, pre-existing factor premia rather than an independent ESG effect. Rigorous attribution analysis, separating ESG-specific signal from factor exposures, is essential before claiming genuine ESG alpha."
+
+- question: "Under the EU SFDR framework, what distinguishes an Article 9 fund from an Article 8 fund?"
+  options:
+    - "Article 9 funds invest exclusively in equities while Article 8 funds invest in all asset classes"
+    - "Article 9 funds have sustainable investment as their primary objective and must meet strict Do No Significant Harm criteria; Article 8 funds promote ESG characteristics as one factor without making it the defining objective"
+    - "Article 8 funds are required to report carbon emissions while Article 9 funds are not"
+    - "Article 9 funds are passively managed while Article 8 funds use active strategies"
+  answer: 1
+  explanation: "Under SFDR, Article 9 ('dark green') funds have sustainable investment as their primary objective and must demonstrate that investments actively advance environmental or social objectives without causing significant harm to other sustainability goals. Article 8 ('light green') funds promote ESG characteristics as part of their process but sustainable investment need not be the primary objective. Most ESG-labelled investment products are expected to classify as Article 8."
+
+- question: "An active ESG manager presents a case study of a single holding whose share price tripled after improved governance, citing this as evidence that ESG integration generated alpha for the portfolio. What methodological limitation does this evidence have?"
+  options:
+    - "Case studies cannot involve governance improvements — only environmental factors are relevant for performance attribution"
+    - "A single-security case study is subject to selection bias and does not constitute portfolio-level performance attribution — it cannot demonstrate that ESG as a systematic approach contributed to overall portfolio returns"
+    - "Share price appreciation is not a valid measure of investment performance for ESG purposes"
+    - "ESG performance can only be measured over periods of 20 years or more"
+  answer: 1
+  explanation: "Single-security case studies are almost always selected because they succeeded — managers naturally highlight positive examples. This selection bias means they do not represent the average outcome of ESG integration across the portfolio. Genuine ESG performance attribution requires systematic analysis of how ESG factor exposure contributed to overall portfolio returns across all holdings over time — not anecdotal evidence from individual successes."

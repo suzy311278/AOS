@@ -1,0 +1,26 @@
+- question: "What happened to the TCFD framework, and why do practitioners still need to know about it?"
+  options:
+    - "TCFD was replaced by GRI and is no longer relevant"
+    - "TCFD was absorbed into IFRS S2, but its four-pillar structure lives on and many existing reports still reference it"
+    - "TCFD became a mandatory regulation in all jurisdictions"
+    - "TCFD merged with SASB to form a new combined standard"
+  answer: 1
+  explanation: "The TCFD was disbanded in late 2023, with its work folded into IFRS S2. However, practitioners still encounter TCFD because many existing reports reference it, clients have legacy TCFD mappings, the four-pillar structure (Governance, Strategy, Risk Management, Metrics & Targets) persists in IFRS S2, and some jurisdictions still reference TCFD in regulations."
+
+- question: "What is the fundamental difference between the materiality lens used by GRI versus the one used by IFRS/SASB?"
+  options:
+    - "GRI focuses on financial materiality while IFRS/SASB focus on impact materiality"
+    - "GRI uses impact materiality (effects on the world) while IFRS/SASB use financial materiality (effects on enterprise value)"
+    - "There is no difference - both use the same materiality definition"
+    - "GRI does not use any materiality concept"
+  answer: 1
+  explanation: "GRI asks 'what are the company's most significant impacts on the economy, environment, and people?' (impact materiality). IFRS/SASB ask 'what sustainability issues could affect the company's enterprise value?' (financial materiality). The EU's CSRD combines both into double materiality. Understanding this distinction helps practitioners choose the right lens for each engagement."
+
+- question: "A company already prepares IFRS S2-aligned climate disclosures for their sustainability report. How does this affect their CDP questionnaire response?"
+  options:
+    - "It has no effect - CDP requires entirely different data"
+    - "It makes responding to CDP significantly easier because CDP questionnaires are aligned with TCFD/IFRS S2 and the data overlaps substantially"
+    - "It means they are automatically exempt from CDP questionnaires"
+    - "They must choose between IFRS S2 and CDP - they cannot reference both"
+  answer: 1
+  explanation: "CDP has aligned its questionnaires with TCFD (now IFRS S2), creating significant data overlap. Smart practitioners collect data once and use it for both the sustainability report and CDP responses. A company with IFRS S2-aligned disclosures already has much of what CDP asks for."

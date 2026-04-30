@@ -1,0 +1,26 @@
+- question: "A bank that lends to a palm oil company faces nature-related risk primarily through which mechanism?"
+  options:
+  - "Direct habitat destruction by the bank's employees"
+  - "Financed or transmitted risk through the loan portfolio"
+  - "Physical risk to the bank's own office buildings"
+  - "Regulatory fines imposed directly on banks for agricultural deforestation"
+  answer: 1
+  explanation: "Financial institutions face nature risk primarily through transmitted or financed risk: the nature-related risks faced by their borrowers, investees, and underwritten activities flow back to the financial institution through credit risk, market risk, and underwriting risk."
+
+- question: "Which tool maps economic sectors to ecosystem service dependencies and impacts, helping financial institutions identify high-risk sectors in their portfolios?"
+  options:
+  - "SBTN Step 1 Assess"
+  - "GRI 304 Biodiversity"
+  - "ENCORE (Exploring Natural Capital Opportunities, Risks, and Exposure)"
+  - "CDP Forests Questionnaire"
+  answer: 2
+  explanation: "ENCORE, developed by UNEP-WCMC and Global Canopy, provides a structured approach to assessing which economic sectors are most dependent on and have the greatest impact on different ecosystem services, making it a key portfolio screening tool for financial institutions."
+
+- question: "The Finance for Biodiversity Pledge, by 2024, had been signed by financial institutions representing approximately how much in assets under management?"
+  options:
+  - "EUR 5 trillion"
+  - "EUR 21 trillion"
+  - "EUR 50 trillion"
+  - "USD 100 trillion"
+  answer: 1
+  explanation: "By 2024, over 150 financial institutions representing more than EUR 21 trillion in assets under management had signed the Finance for Biodiversity Pledge, committing to assess and disclose their biodiversity impact and engage portfolio companies on nature."

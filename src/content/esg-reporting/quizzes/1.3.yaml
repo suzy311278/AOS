@@ -1,0 +1,26 @@
+- question: "In the Layer Model for standards interoperability, what role does GRI play?"
+  options:
+    - "It is a delivery mechanism like CDP and BRSR"
+    - "It is a focusing lens like SASB and IFRS"
+    - "It is the base layer that provides the broadest disclosure structure and data collection foundation"
+    - "It is an optional overlay applied only for European companies"
+  answer: 2
+  explanation: "In the Layer Model, GRI serves as Layer 1 - the Base. It provides the broadest set of disclosure topics and structures your data collection template. Standards like SASB and IFRS act as Layer 2 lenses that focus emphasis, while CDP, BRSR, and the GRI Content Index are Layer 3 delivery mechanisms. All layers draw from the same underlying data."
+
+- question: "A first-time reporter wants to align their sustainability report with GRI, SASB, IFRS S2, CDP, and CSRD all at once. What is the best advice?"
+  options:
+    - "Help them implement all five frameworks to maximize credibility"
+    - "Start with GRI alone to build a solid foundation, and layer additional standards in future reporting cycles"
+    - "Skip GRI and focus only on the mandatory frameworks"
+    - "Let the client decide without providing guidance on prioritization"
+  answer: 1
+  explanation: "Overwhelming a first-time reporter with every framework is counterproductive. A solid GRI-aligned report is credible, comprehensive, and provides a foundation to build on. Additional standards like SASB, IFRS S2, and CDP can be layered in year two or three as the company's data maturity and reporting capacity grow."
+
+- question: "A practitioner is collecting emissions data separately for GRI, then again for SASB, and a third time for CDP. What is wrong with this approach?"
+  options:
+    - "Nothing - each standard requires different emissions data"
+    - "It wastes time because the underlying data is largely the same and should be collected once then mapped to each standard"
+    - "Only GRI requires emissions data"
+    - "CDP does not accept data that was also used for GRI reporting"
+  answer: 1
+  explanation: "The biggest time waste in ESG reporting is collecting the same data multiple times for different standards. The underlying data (e.g., GHG emissions) is largely identical across frameworks. The practical approach is to centralize data collection around GRI, then map and format that data for SASB, CDP, BRSR, and other standards as needed."

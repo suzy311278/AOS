@@ -1,0 +1,35 @@
+- question: "Which parameter determines whether biochar is eligible for soil applications under VM0044, and what is the threshold?"
+  options:
+    - "Organic carbon content (F_Cp,t,p) must be at least 50%"
+    - "Permanence adjustment factor (PR_de,k) must be at least 0.56"
+    - "Hydrogen to organic carbon ratio (H:Corg) must be 0.7 or less"
+    - "Production temperature (T_prod) must be at least 400 degrees C"
+  answer: 2
+  explanation: "Applicability Condition 10b of VM0044 requires that biochar used in soil applications must have an H:Corg (hydrogen to organic carbon) ratio of 0.7 or less. This ratio indicates that the biochar has undergone sufficient carbonization and is stable enough to be credited as a long-term carbon sink."
+
+- question: "How often must organic carbon content (F_Cp,t,p) be tested during the crediting period under VM0044?"
+  options:
+    - "Once at the start of the project, then never again"
+    - "Every five years, aligned with verification cycles"
+    - "Annually, or more frequently after any material change in feedstock or production parameters"
+    - "Monthly, for every batch of biochar produced"
+  answer: 2
+  explanation: "F_Cp,t,p must be measured at least annually during operations. Testing must also occur after any material change in feedstock type or in thermochemical production parameters, whichever requires more frequent testing. Laboratory analysis must follow IBI Biochar Testing Guidelines or EBC Production Guidelines using an accredited laboratory."
+
+- question: "What is the default Global Warming Potential (GWP) value for methane (CH4) used in VM0044?"
+  options:
+    - "21 (IPCC Second Assessment Report, SAR)"
+    - "25 (IPCC Fourth Assessment Report, AR4)"
+    - "28 (IPCC Fifth Assessment Report, AR5)"
+    - "34 (IPCC Sixth Assessment Report, AR6)"
+  answer: 2
+  explanation: "VM0044 uses a GWP of 28 for methane, as required by the VCS Standard, which mandates the use of values from the IPCC Fifth Assessment Report (AR5). This value is used in Equation 9 to calculate methane emissions from low technology biochar production facilities."
+
+- question: "When is the default permanence adjustment factor (PR_de,k) of 0.56 applied in VM0044?"
+  options:
+    - "When the biochar is used in non-soil applications such as concrete"
+    - "When the production temperature is unknown, for low technology facilities"
+    - "When the project has not yet completed its first year of monitoring"
+    - "When the organic carbon content is below 30%"
+  answer: 1
+  explanation: "The default PR_de,k of 0.56 is used for low technology facilities where the production temperature cannot be measured. High technology facilities must use the values from Table 3 of VM0044, which are derived from IPCC 2019 and Woolf et al. 2021 and are linked to specific temperature ranges."

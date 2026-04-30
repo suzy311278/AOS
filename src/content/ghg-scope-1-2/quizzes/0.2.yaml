@@ -1,0 +1,26 @@
+- question: "A retail chain reports a 12% emissions reduction but also switched from location-based to market-based electricity accounting that year. Which principle did they most likely violate?"
+  options:
+    - "Relevance - they measured the wrong sources"
+    - "Completeness - they left out emission sources"
+    - "Consistency - they changed methods without restating historical data"
+    - "Accuracy - their numbers were systematically overstated"
+  answer: 2
+  explanation: "Consistency requires using the same methods, emission factors, and boundary definitions year to year. When methods change, you must restate the base year so trends remain meaningful. In this case, the apparent 12% reduction was mostly an accounting change (only 3% was real). Without restating the base year under the new method, stakeholders are misled about actual performance."
+
+- question: "The Body Shop operates 2,000 stores across 51 countries. Many stores inside shopping centres cannot get separate energy meters. They used real meter data where available and standardised estimation guidelines (based on floor area, equipment, and hours) for the rest. Which principles does this approach satisfy?"
+  options:
+    - "Accuracy only - estimates are never complete"
+    - "Completeness and accuracy - all stores are included using the best available data"
+    - "Transparency only - they disclosed their method"
+    - "Relevance only - they covered the right sources"
+  answer: 1
+  explanation: "This two-tier approach satisfies both completeness (all 2,000 stores are included, not just the ones with meters) and accuracy (estimates use real parameters like floor area and operating hours, not guesses). Using estimated data is acceptable under the GHG Protocol - but you must disclose that it is estimated, which also satisfies transparency."
+
+- question: "A company reports total emissions of 150,000 tCO2e with no breakdown by scope, source category, or gas. Which principle is most directly violated?"
+  options:
+    - "Relevance"
+    - "Completeness"
+    - "Transparency"
+    - "Accuracy"
+  answer: 2
+  explanation: "Transparency requires documenting methods, assumptions, data sources, and results clearly enough that someone else could reproduce the numbers. A single total without scope breakdowns, source categories, or methodology documentation makes the report impossible to verify or evaluate. An auditor cannot check what is not documented."

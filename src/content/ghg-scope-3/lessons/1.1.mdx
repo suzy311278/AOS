@@ -1,0 +1,118 @@
+{/* source: Scope3_Calculation_Guidance_0[1].pdf, Category 1 (pp. 20-35) */}
+
+**Category 1 — Purchased Goods and Services** covers emissions from the extraction, production, and transportation of all goods and services purchased or acquired by the company in the reporting year. For most manufacturing companies, this is the single largest Scope 3 category, often representing 50-80% of the total Scope 3 inventory.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-3/1_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## What Is Included
+
+Category 1 includes the **cradle-to-gate** emissions of everything the company buys and consumes - raw materials, processed materials, components, packaging, and purchased services. "Cradle-to-gate" means all emissions from natural resource extraction, through processing, manufacturing, and transport, up to the point of delivery to the reporting company's facility.
+
+Purchased services include professional services, cleaning services, IT services, marketing, and any other third-party services. The category does not include capital goods (Category 2), which have multi-year useful lives.
+
+<HighlightBox>
+Category 1 is intentionally broad. It covers every purchased input - from a tonne of steel to a consulting engagement to a box of printer paper. The challenge is not understanding what is included, but finding the right calculation method to estimate emissions efficiently across potentially thousands of purchased items.
+</HighlightBox>
+
+## The Four Calculation Methods
+
+### Method 1: Supplier-Specific Method (Highest Quality)
+The company collects actual GHG inventory data from individual suppliers - typically the supplier's Scope 1 and Scope 2 emissions attributed to the products sold to the reporting company. This data may come from:
+- Supplier life cycle assessments (LCAs) or product carbon footprints
+- CDP supply chain questionnaire responses
+- Direct communication with suppliers
+
+This is the highest-quality method because it reflects the actual emission intensity of the specific supplier, not an industry average. However, it requires significant supplier engagement effort and may not be feasible for all purchased items.
+
+### Method 2: Hybrid Method
+Combines supplier-specific data for key suppliers with average industry data for the remainder. Companies identify their top 10-20 suppliers by spend (who are likely also the highest emitters) and collect primary data from those, while using average emission factors for smaller purchases.
+
+### Method 3: Average-Data Method
+Uses industry-average [emission factors](/emission-factors) per unit of purchased good or service (e.g., tCO₂e per tonne of steel, tCO₂e per tonne of plastic). These factors are available from databases such as:
+- ecoinvent (life cycle inventory database)
+- The US EPA's USEEIO model
+- The UK DEFRA emission factor database
+- Commodity-specific databases (e.g., World Steel Association steel factor)
+
+The average-data method is faster and simpler than collecting supplier-specific data but reflects industry averages rather than the emission intensity of the company's actual suppliers.
+
+### Method 4: Spend-Based Method (Screening)
+Converts supplier spend (in currency) into emissions using **economic input-output (EIO) emission factors** - tonnes of CO₂e per unit of economic output for each industry sector. The spend-based method is the easiest way to produce a rough estimate for all purchased goods and services at once, making it ideal for initial hotspot screening.
+
+<AnalogyBox>
+Think of the four methods as four levels of zoom on a map. The spend-based method gives you a satellite view - broad, low-resolution, useful for identifying which regions to focus on. The average-data method is a street map - better resolution, covers the whole area. The hybrid method is a detailed survey of the most important streets. The supplier-specific method is a floor plan of the most critical buildings - highest accuracy, narrowest coverage.
+</AnalogyBox>
+
+## Calculation Formula
+
+For the average-data and spend-based methods:
+
+<EquationBreakdown
+  title="Category 1 - Purchased Goods and Services Emissions"
+  result="E<sub>Cat1</sub> | Category 1 Emissions | Total cradle-to-gate emissions from purchased goods and services, in tCO₂e | blue"
+  inputs="AD | Activity Data | Mass of purchased good (tonnes) or spend on purchased category (currency) | green ;; EF | Emission Factor | tCO₂e per tonne of good (average-data method) or tCO₂e per unit of spend (spend-based method) | amber"
+/>
+
+<CalculationExercise
+  question="A company purchases 500 tonnes of aluminium per year. The average-data emission factor for aluminium is 8.24 tCO₂e per tonne. What are the Category 1 emissions from aluminium purchases?"
+  answer={4120}
+  unit="tCO₂e"
+  hints={["Multiply the quantity purchased by the emission factor.", "500 tonnes × 8.24 tCO₂e/tonne = ?"]}
+  solution="500 t × 8.24 tCO₂e/t = 4,120 tCO₂e. This represents the cradle-to-gate emissions embodied in the aluminium delivered to the company's facility."
+/>
+
+## Data Quality Considerations
+
+The standard recommends progressing from spend-based estimates toward average-data and then supplier-specific methods for the highest-spend, highest-emission categories as the inventory matures.
+
+When using average-data methods, companies should ensure the emission factor:
+- Covers the same geography as the actual supply chain (a global average may differ significantly from a region-specific factor)
+- Includes the same lifecycle stages (some factors are gate-to-gate rather than cradle-to-gate)
+- Is sourced from a credible, peer-reviewed database
+
+## Relevance Across Sectors
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Sector</th>
+      <th>Typical Category 1 Share of Scope 3</th>
+      <th>Key Hotspots</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Food and beverage</td>
+      <td>60-80%</td>
+      <td>Agricultural commodities (beef, dairy, soy, palm oil)</td>
+    </tr>
+    <tr>
+      <td>Automotive</td>
+      <td>50-70%</td>
+      <td>Steel, aluminium, plastics, electronics</td>
+    </tr>
+    <tr>
+      <td>Retail</td>
+      <td>70-90%</td>
+      <td>Manufactured goods, packaging</td>
+    </tr>
+    <tr>
+      <td>Technology</td>
+      <td>40-60%</td>
+      <td>Electronic components, rare earth minerals</td>
+    </tr>
+    <tr>
+      <td>Financial services</td>
+      <td>10-20%</td>
+      <td>IT services, office supplies, professional services</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+<DeepDive title="Scope 3 Category 1 and supply chain deforestation">
+For food, retail, and consumer goods companies, the largest single Category 1 hotspot is often agricultural commodities linked to tropical deforestation - beef, soy, palm oil, and timber. Deforestation releases biogenic CO₂ from soil and biomass that is conventionally excluded from standard emission factors but increasingly demanded by investors and regulators under new supply chain due diligence requirements (EU Deforestation Regulation, UK Environment Act). Some companies supplement their standard Category 1 calculation with a separate deforestation-linked land-use change (LUC) emissions estimate, disclosing it alongside but separate from the core Scope 3 inventory.
+</DeepDive>
+
+<KeyTakeaways items="Category 1 covers cradle-to-gate emissions of all purchased goods and services and is typically the largest Scope 3 category for manufacturers (50-80% of total) ;; Four calculation methods exist in ascending quality: spend-based (screening), average-data (industry factors), hybrid (mixed), and supplier-specific (highest accuracy) ;; Start with spend-based screening to identify hotspots, then progressively upgrade to average-data and supplier-specific methods for the highest-emission purchases ;; Ensure emission factors match the actual geography, lifecycle stages (cradle-to-gate, not gate-to-gate), and come from credible peer-reviewed databases ;; For food and consumer goods companies, agricultural commodities linked to deforestation are often the single largest Category 1 hotspot" />

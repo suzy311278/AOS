@@ -1,0 +1,26 @@
+- question: "Which of the following best describes the commercial incentive the EUDR creates for producer countries?"
+  options:
+    - "Countries that receive high-risk classifications receive EU development aid to compensate for market losses"
+    - "Countries that achieve low-risk classifications gain a competitive advantage in EU markets through simplified due diligence for their buyers"
+    - "Countries in any risk tier are subject to the same level of enforcement to avoid trade discrimination"
+    - "Countries can opt out of the benchmarking system by signing a bilateral free trade agreement with the EU"
+  answer: 1
+  explanation: "Low-risk classified countries gain a competitive commercial advantage because their EU buyers only need simplified due diligence, reducing transaction costs and compliance workload. This creates a market-based incentive for countries to invest in forest governance improvements."
+
+- question: "Which West African cocoa-producing nations were highlighted as facing particular EUDR challenges related to smallholder plot mapping?"
+  options:
+    - "Nigeria and Senegal"
+    - "Cameroon and Togo"
+    - "Cote d'Ivoire and Ghana"
+    - "Kenya and Tanzania"
+  answer: 2
+  explanation: "Cote d'Ivoire and Ghana together produce approximately 60% of global cocoa, almost entirely through smallholder farmers. Both countries have engaged with the EU on national farmer registration and GPS mapping programs to address the EUDR's geolocation requirements."
+
+- question: "The EU Commission's response to producer country concerns has primarily involved which of the following approaches?"
+  options:
+    - "Exempting developing countries from the EUDR entirely"
+    - "Reducing the scope of covered commodities for imports from least-developed countries"
+    - "Bilateral dialogues, capacity building support, development finance, and phased implementation timelines"
+    - "Accepting national certification schemes as full substitutes for EUDR due diligence in partner countries"
+  answer: 2
+  explanation: "The EU has engaged through bilateral dialogues, capacity building support through development finance programs (Global Gateway), technical assistance, and phased implementation timelines. The regulation's core requirements, including geolocation data and the deforestation cut-off date, remain unchanged for all origins."

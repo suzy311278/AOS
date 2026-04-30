@@ -1,0 +1,26 @@
+- question: "What is the purpose of Step A in the EFRAG IG1 materiality assessment process?"
+  options:
+    - "To determine which IROs are material and must be reported"
+    - "To develop an overview of the undertaking's activities, business relationships, context, and key affected stakeholders"
+    - "To prepare the disclosures required by ESRS 2 IRO-1"
+    - "To apply quantitative thresholds to the long list of potential impacts"
+  answer: 1
+  explanation: "EFRAG IG1 paragraph 68 states that in Step A, the undertaking develops an overview of its activities and business relationships, the context in which these take place, and an understanding of its key affected stakeholders. This overview provides key inputs to identify the undertaking's IROs."
+
+- question: "Why does context matter in Step A of the materiality assessment?"
+  options:
+    - "Context determines the legal deadlines for ESRS reporting"
+    - "Context, including business model, strategy, value chain, sectors, and geographies, determines which sustainability matters are relevant to consider"
+    - "Context is only relevant if the undertaking operates in multiple countries"
+    - "Context determines the financial thresholds to be applied in Step C"
+  answer: 1
+  explanation: "The sectors, geographies, value chain, and business model of the undertaking shape which sustainability matters could plausibly be relevant to it. EFRAG IG1 paragraph 69 describes how activities, products, services, geographic locations, and business relationship mapping all inform which IROs the undertaking should be looking for."
+
+- question: "What role does ESRS 1 Application Requirement 16 (AR16) play in Step A?"
+  options:
+    - "It provides the mandatory list of disclosures that all undertakings must make regardless of materiality"
+    - "It provides a list of sustainability matters categorised by topics, subtopics, and sub-subtopics to support the materiality assessment and ensure completeness"
+    - "It sets the quantitative thresholds that must be applied when assessing financial materiality"
+    - "It specifies which audit procedures must be followed when verifying the materiality assessment"
+  answer: 1
+  explanation: "ESRS 1 paragraph 27 states that the Application Requirements in Appendix A include a list of sustainability matters covered in topical ESRS, categorised by topics, sub-topics and sub-sub-topics, to support the materiality assessment. EFRAG IG1 paragraph 74 confirms the undertaking should use this list to support the process and ensure completeness."

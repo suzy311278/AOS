@@ -1,0 +1,26 @@
+- question: "Under the VCMI Claims Code, what must a company satisfy before it can make any Carbon Integrity Claim (Silver, Gold, or Platinum)?"
+  options:
+  - "It must purchase credits equal to 100% of its scope 1, 2, and 3 emissions in the most recent year"
+  - "It must receive SBTi validation of its net zero target before any VCMI claim is permitted"
+  - "It must satisfy the Foundational Criteria, including scope 1-3 emissions reporting, science-aligned near-term emission reduction targets, and demonstrated progress on reductions"
+  - "It must have the ICVCM CCP label on all credits it purchases"
+  answer: 2
+  explanation: "The VCMI Foundational Criteria are prerequisites for any Carbon Integrity Claim. They require: reporting scope 1, 2, and 3 emissions consistent with the GHG Protocol; setting near-term emission reduction targets consistent with reaching net zero by 2050; demonstrating progress toward those near-term targets; and purchasing and retiring high-quality carbon credits. The credits supplement demonstrated emissions reductions - they do not substitute for them."
+
+- question: "A company has scope 1 and scope 2 residual emissions of 500,000 tCO2e after meeting its near-term reduction targets. To qualify for a VCMI Gold Carbon Integrity Claim, how many credits must it purchase and retire?"
+  options:
+  - "At least 100,000 tCO2e (20% of 500,000)"
+  - "At least 300,000 tCO2e (60% of 500,000)"
+  - "Exactly 500,000 tCO2e (100% of scope 1+2 residual)"
+  - "At least 500,000 tCO2e plus all scope 3 emissions"
+  answer: 1
+  explanation: "The VCMI Gold Claim requires purchasing and retiring credits equivalent to at least 60% of scope 1 and 2 residual emissions. 60% of 500,000 tCO2e = 300,000 tCO2e. The Silver Claim threshold is 20% (100,000 tCO2e), and the Platinum Claim requires 100% of scope 1, 2, and 3 residual emissions. Residual emissions are those remaining after the company has met its near-term science-aligned reduction targets."
+
+- question: "Why does the VCMI Claims Code use 'contribution' language rather than 'offset' or 'neutralisation' language?"
+  options:
+  - "The word 'offset' is legally trademarked and cannot be used by non-profit bodies"
+  - "Carbon credits represent the company's contribution to global climate action beyond its value chain, not a physical neutralisation of its own emissions"
+  - "VCMI chose contribution language to distinguish its framework from Gold Standard, which uses offset language"
+  - "Contribution language is required under the Paris Agreement for all corporate climate claims"
+  answer: 1
+  explanation: "The contribution framing reflects a scientifically accurate distinction: buying a carbon credit does not physically remove the carbon from the buyer's value chain - it finances an emission reduction or removal elsewhere. The VCMI framework positions credit purchases as actions 'above and beyond' the company's own decarbonisation path, contributing to the collective global effort. This framing prevents misleading 'carbon neutral' claims where companies stop reducing their own emissions and rely on credits to claim equivalence, while still recognising the genuine climate value of high-quality credit purchases."

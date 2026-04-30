@@ -1,0 +1,26 @@
+- question: "In the most recent CHRB assessment covering 105 companies, what was the average score and what sector scored lowest?"
+  options:
+  - "Average 35.2/100; apparel and footwear scored lowest at 28%"
+  - "Average 53.7/100; automotive manufacturing scored lowest at 44%"
+  - "Average 72.1/100; food and agricultural products scored lowest at 61%"
+  - "Average 45.0/100; ICT manufacturing scored lowest at 32%"
+  answer: 1
+  explanation: "The most recent CHRB results found an average score of 53.7/100 across 105 companies. Automotive manufacturing scored lowest at 44%, meeting less than half the benchmark's requirements, despite being the sector that improved the most since the previous assessment (gaining 16 percentage points). Extractives scored highest at 64%."
+
+- question: "What does the CHRB finding that 'only 24% of companies disclose names and locations of significant suppliers' indicate about corporate supply chain transparency?"
+  options:
+  - "Most companies are legally prohibited from disclosing supplier information due to commercial confidentiality agreements"
+  - "Despite growing regulatory requirements for supply chain due diligence, the vast majority of benchmarked companies have not disclosed basic supplier information, limiting affected stakeholders' ability to raise concerns"
+  - "Supply chain transparency is improving rapidly and 24% represents a major increase from previous years"
+  - "Only 24% of companies have supply chains complex enough to require supplier disclosure"
+  answer: 1
+  explanation: "The CHRB finding that only 24% of companies disclose supplier names and locations is significant because supply chain transparency is a foundational requirement for credible due diligence under both the CSDDD and the UNGP framework. Without knowing who suppliers are, affected workers and communities cannot raise concerns through grievance mechanisms, civil society cannot conduct targeted investigations, and investors cannot assess whether claimed due diligence processes are effective."
+
+- question: "Why is the traditional argument that 'fiduciary duty prevents investors from considering human rights factors' increasingly difficult to sustain?"
+  options:
+  - "The UN has passed a binding resolution requiring all investment funds to adopt human rights screening criteria"
+  - "Major legal reviews have confirmed that long-term systemic risks including human rights-related regulatory penalties, litigation, reputational damage, and supply chain disruption are legitimately within the scope of fiduciary analysis"
+  - "Fiduciary duty only applies to pension funds, not to institutional investors managing endowments or sovereign wealth funds"
+  - "Human rights factors are now classified as financial data by international accounting standards, making their consideration mandatory in financial analysis"
+  answer: 1
+  explanation: "Major legal reviews in the UK, US, and internationally have confirmed that long-term, systemic risks that affect portfolio value - including human rights risks that materialise as regulatory fines under the CSDDD, litigation costs from civil liability claims, reputational damage, and supply chain disruptions - fall squarely within the scope of fiduciary analysis. The UNPRI's 2020 guidance argues further that institutional investors have positive obligations to use ownership rights to improve human rights performance of investee companies."

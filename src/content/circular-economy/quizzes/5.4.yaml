@@ -1,0 +1,26 @@
+- question: "What is a key structural financing challenge unique to circular economy investments compared to conventional linear investments?"
+  options:
+    - "Circular investments are always riskier than linear investments due to technology uncertainty"
+    - "Novel revenue models (e.g. product-as-service) are unfamiliar to lenders accustomed to product sales"
+    - "Circular businesses are excluded from equity markets and must rely only on bank lending"
+    - "Circular economy projects are ineligible for public subsidies in the EU"
+  answer: 1
+  explanation: "A key structural challenge is that circular business models like product-as-service, pay-per-use, or refurbishment have revenue profiles unfamiliar to investors and lenders accustomed to valuing conventional product sales businesses. This makes it harder to model and underwrite circular revenues, even when the business fundamentals are sound."
+
+- question: "How does a sustainability-linked bond (SLB) differ from a green bond in the context of circular economy?"
+  options:
+    - "SLBs can only be issued by governments, while green bonds are available to corporations"
+    - "Green bonds have lower interest rates than SLBs"
+    - "SLBs link interest rates to achieving company-wide circular performance targets, while green bonds earmark proceeds for specific circular projects"
+    - "SLBs require EU Taxonomy alignment while green bonds do not"
+  answer: 2
+  explanation: "Sustainability-linked bonds tie the interest rate of the instrument to achieving sustainability performance targets: if the company meets its circular targets (e.g. 50% recycled content by 2027), it pays a lower rate; if it misses the target, it pays a higher rate. Green bonds, by contrast, earmark bond proceeds for specific eligible projects. SLBs reward systemic company-level transition; green bonds fund specific circular projects."
+
+- question: "What is the role of the EU Taxonomy Regulation in circular economy financing?"
+  options:
+    - "It prohibits investment in linear economy activities"
+    - "It provides direct grants to circular economy businesses"
+    - "It defines eligible circular economy activities so financial products can credibly direct capital toward verified circular investments"
+    - "It sets mandatory recycled content requirements for all products sold in the EU"
+  answer: 2
+  explanation: "The EU Taxonomy Regulation defines specific circular economy economic activities that make a substantial contribution to the 'transition to a circular economy' objective. Financial products marketed as environmentally sustainable must disclose their alignment with these criteria, and mandatory taxonomy reporting under CSRD enables comparison of circular economy investment credentials across sectors. This creates a standardized language for directing capital toward verified circular activities."

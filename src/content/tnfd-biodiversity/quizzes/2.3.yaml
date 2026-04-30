@@ -1,0 +1,26 @@
+- question: "A company discovers that its coastal aquaculture facilities are exposed to increasing storm surge risk as mangrove forests in the region are degraded. Which TNFD risk category does this represent?"
+  options:
+  - "Transition risk - regulatory"
+  - "Transition risk - market"
+  - "Physical risk"
+  - "Systemic risk"
+  answer: 2
+  explanation: "This is a physical nature risk: the degradation of mangrove ecosystems (which provide coastal protection services) directly exposes the company's physical assets to greater storm damage. Physical risks arise when ecosystem degradation reduces the delivery of ecosystem services that businesses depend on."
+
+- question: "The EU Deforestation Regulation (EUDR) represents which type of nature-related risk for companies sourcing forest-risk commodities?"
+  options:
+  - "Physical risk from ecosystem degradation"
+  - "Systemic risk from tipping point breaches"
+  - "Transition risk - specifically regulatory transition risk"
+  - "Reputational risk from investor pressure"
+  answer: 2
+  explanation: "The EU Deforestation Regulation is a regulatory transition risk: it represents societal and policy responses to nature loss that create new compliance requirements for companies sourcing deforestation-linked commodities (palm oil, soy, cattle products, cocoa, coffee, wood, rubber) into EU markets. This is distinct from physical ecosystem degradation directly affecting operations."
+
+- question: "According to global estimates, what proportion of global GDP is considered moderately or highly dependent on nature?"
+  options:
+  - "Less than 10%"
+  - "Approximately 25%"
+  - "More than half"
+  - "Virtually all economic activity"
+  answer: 2
+  explanation: "More than half of global GDP is estimated to be moderately or highly dependent on nature, according to analyses by the World Economic Forum and others. This figure underscores why systemic nature risk - the risk that large-scale ecosystem breakdown could destabilise entire economies - is treated as a macro-level financial stability concern, not just a sectoral issue."

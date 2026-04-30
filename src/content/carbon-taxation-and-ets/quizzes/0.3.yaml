@@ -1,0 +1,35 @@
+- question: "As of 2024, approximately how many carbon pricing systems are operating worldwide?"
+  options:
+    - "Under 20 systems"
+    - "About 75 systems"
+    - "Over 150 systems"
+    - "Over 300 systems"
+  answer: 1
+  explanation: "As of 2024, there are approximately 75 carbon pricing systems operating globally, covering about 24% of global emissions."
+
+- question: "Which region has the oldest and largest emissions trading system?"
+  options:
+    - "North America"
+    - "European Union"
+    - "Asia-Pacific"
+    - "Latin America"
+  answer: 1
+  explanation: "The EU ETS, launched in 2005, is the world's oldest and largest emissions trading system, covering about 40% of the EU's emissions."
+
+- question: "What percentage of global emissions is currently covered by carbon pricing?"
+  options:
+    - "Less than 5%"
+    - "About 24%"
+    - "About 50%"
+    - "Over 75%"
+  answer: 1
+  explanation: "Carbon pricing systems cover approximately 24% of global emissions as of 2024, though this percentage is growing as more jurisdictions implement carbon pricing."
+
+- question: "Which statement about carbon pricing trends is accurate?"
+  options:
+    - "Only developed countries use carbon pricing"
+    - "Carbon pricing is declining globally"
+    - "Developing countries are increasingly adopting carbon pricing"
+    - "All carbon pricing systems use the same design"
+  answer: 2
+  explanation: "Developing countries like Colombia, South Africa, and Indonesia are increasingly implementing carbon pricing, adapting designs to their specific circumstances."

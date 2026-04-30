@@ -1,0 +1,136 @@
+{/* source: PCAF Standard Part A (3rd Edition), Chapter 5.6; PCAF Personal Motor TCO Data */}
+
+**Motor vehicle loans** are loans provided to individuals or companies to purchase vehicles. This asset class is particularly relevant for banks with large retail or commercial auto-lending books. The emissions associated with this asset class come from the **fuel consumption of the financed vehicles** throughout their years of operation.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/financed-emissions/3_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Asset Class Definition
+
+Motor vehicle loans include on-balance-sheet financing for:
+- **Personal vehicles** (cars, motorcycles, light trucks)
+- **Commercial vehicles** (vans, lorries, buses, fleet vehicles)
+
+Both internal combustion engine (ICE) vehicles and battery electric vehicles (BEVs) are included. For EVs, the relevant fuel type is electricity, and the applicable emission factor is the grid emission factor for the electricity consumed.
+
+## Emission Scopes Covered
+
+Financial institutions shall report the **vehicle's operational Scope 1 emissions** (fuel combustion) and, for electrically powered vehicles, the **Scope 2 emissions** from electricity consumption. The well-to-wheel emissions (upstream fuel production emissions) may optionally be reported separately.
+
+Scope 3 emissions from vehicle manufacturing are not required under the current standard, though they may become increasingly relevant as the share of EVs in lending portfolios grows.
+
+## Attribution of Emissions
+
+The attribution for motor vehicle loans uses the **vehicle or fleet value at origination** as the denominator:
+
+<EquationBreakdown
+  title="Motor Vehicle Loans - Attribution Factor"
+  result="AF | Attribution Factor | The bank's share of the vehicle's annual emissions | blue"
+  inputs="Outstanding Amount | Outstanding Amount | Current outstanding loan balance for the vehicle | green ;; VV<sub>orig</sub> | Vehicle Value at Origination | Total vehicle purchase price at the time the loan was made | amber"
+  operator="÷"
+/>
+
+<AnalogyBox>
+This is consistent with the real estate approach: the financial institution's share of the vehicle's cost at the time the loan was made determines its share of the vehicle's lifetime emissions attribution. As the loan is repaid, the outstanding amount falls and the attribution factor shrinks, eventually reaching zero at loan maturity.
+</AnalogyBox>
+
+The financed emissions formula aggregates across all financed vehicles:
+
+<EquationBreakdown
+  title="Motor Vehicle Financed Emissions - Portfolio Aggregation"
+  result="FE | Financed Emissions | Total financed emissions across all financed vehicles, summed using Σ, in tCO₂e | blue"
+  inputs="AF<sub>v</sub> | Attribution Factor | Outstanding Amount / Vehicle Value at Origination for each vehicle or fleet v | green ;; E<sub>v</sub> | Annual Vehicle Emissions | Annual GHG emissions of vehicle v from fuel or electricity consumption, in tCO₂e | amber"
+/>
+
+Where v = each vehicle or vehicle fleet.
+
+## Data Quality Options
+
+The data quality scoring for motor vehicle loans depends on the quality of the **vehicle-level activity data** available:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Score</th>
+      <th>Option</th>
+      <th>Activity Data Basis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1</strong></td>
+      <td>1a</td>
+      <td>Actual vehicle fuel consumption directly reported by the borrower</td>
+    </tr>
+    <tr>
+      <td><strong>2</strong></td>
+      <td>1b</td>
+      <td>Actual distance traveled plus vehicle fuel efficiency from known make and model</td>
+    </tr>
+    <tr>
+      <td><strong>3</strong></td>
+      <td>2a / 2b</td>
+      <td>Local or regional statistical distance data plus known vehicle make and model fuel efficiency</td>
+    </tr>
+    <tr>
+      <td><strong>4</strong></td>
+      <td>3a</td>
+      <td>Local or regional statistical distance data plus fuel efficiency from known vehicle type</td>
+    </tr>
+    <tr>
+      <td><strong>5</strong></td>
+      <td>3b</td>
+      <td>Local or regional statistical distance data plus average vehicle fuel efficiency (no make/model/type known)</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+<ExampleBox>
+**Motor vehicle calculation example**
+
+A bank finances a petrol car worth £25,000 with an £18,000 loan. The vehicle's make and model are known: it achieves 50 mpg (0.057 litres/km). Local statistics suggest average annual distance driven is 12,000 km.
+
+Annual fuel consumption = 12,000 km × 0.057 L/km = **684 litres of petrol**
+Emission factor for petrol = 2.31 kgCO2e/litre
+Annual vehicle emissions = 684 × 2.31 = **1,580 kgCO2e = 1.58 tCO2e/year**
+
+Attribution factor = £18,000 / £25,000 = **72%**
+Financed emissions = 72% × 1.58 = **1.14 tCO2e/year** (Score 2a)
+</ExampleBox>
+
+## PCAF Motor Vehicle Total Cost of Ownership Study
+
+For personal motor insurance-associated emissions (dealt with under Part C), PCAF published a separate study on the **Total Cost of Ownership (TCO)** methodology. However, TC0 data is also relevant to motor vehicle loans, providing reference attribution factors based on the proportion of a vehicle's lifetime cost represented by the loan.
+
+The PCAF TCO study (December 2023) calculated a **global weighted average attribution factor of 6.99%** for personal auto insurers using the premium-to-TCO ratio. This figure reflects the fact that an insurance premium typically represents approximately 7% of the total cost of owning and operating a vehicle over its lifetime.
+
+<DeepDive title="Regional TCO Attribution Factors">
+The PCAF TCO study calculated regional premiums-to-TCO ratios for use in insurance-associated emissions calculations (Part C). These are not directly used for motor vehicle loans (which use the outstanding-amount-to-vehicle-value-at-origination approach), but they provide useful context for understanding how different regions value auto insurance:
+
+- Advanced EMEA: 6.46%
+- Central and Eastern Europe: 9.24%
+- North America: 8.67%
+- Latin America: 3.73%
+- Asia-Pacific: 6.79%
+- Middle East: 3.44%
+- Global average: 6.99%
+
+The global average of ~7% means that in a typical country, insurance premiums represent about 7% of the total lifetime cost of owning and operating a vehicle.
+</DeepDive>
+
+## Electric Vehicles
+
+For battery electric vehicles (BEVs), the attributable emissions are the Scope 2 emissions from electricity consumption:
+
+<EquationBreakdown
+  title="Electric Vehicle Annual Emissions"
+  result="E<sub>BEV</sub> | Annual BEV Emissions | Annual Scope 2 emissions from the electric vehicle's electricity consumption, in tCO₂e | blue"
+  inputs="kWh | Annual Electricity Consumed | Total kilowatt-hours consumed by the vehicle per year | green ;; EF<sub>grid</sub> | Grid Emission Factor | tCO₂e per MWh for the country or region where the vehicle primarily operates | amber"
+/>
+
+The grid emission factor should be the most current available for the country or region where the vehicle primarily operates. As the electricity grid decarbonises over time, the same EV will produce decreasing Scope 2 emissions from year to year, which is a natural feature of this methodology.
+
+For hydrogen fuel cell vehicles, a combination of Scope 1 (if produced from fossil-derived hydrogen) and Scope 2 considerations applies. PCAF expects further guidance to be developed as these vehicle types proliferate.
+
+<KeyTakeaways items="Motor vehicle loan attribution uses vehicle value at origination as the denominator - consistent with the real estate approach ;; Data quality scoring depends on vehicle-level activity data: actual fuel consumption (Score 1) through average statistical data with no vehicle specifics (Score 5) ;; For electric vehicles, the relevant emissions are Scope 2 from electricity consumption using the local grid emission factor ;; As the electricity grid decarbonises, the same EV will naturally produce decreasing attributed emissions year over year ;; The PCAF TCO study calculated a global average premium-to-TCO ratio of 6.99% for personal motor insurance attribution" />

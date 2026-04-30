@@ -1,0 +1,26 @@
+- question: "Under the EUDR's simplified due diligence for low-risk countries, which obligation is removed for operators?"
+  options:
+    - "The requirement to collect geolocation data for production plots"
+    - "The requirement to submit a due diligence statement through the EUDR Information System"
+    - "The requirement to conduct a detailed multi-factor risk assessment, though information collection and statement submission are still required"
+    - "All obligations, because low-risk country products are automatically compliant"
+  answer: 2
+  explanation: "Simplified due diligence for low-risk countries removes the requirement for a detailed multi-factor risk assessment when information collection reveals no concerns. Operators still collect all required information (including geolocation data), still submit a due diligence statement through the EUDR IS, and are still subject to competent authority checks (at least 1% check rate). The simplification reduces the depth of investigation required, not the fundamental compliance obligations."
+
+- question: "What is the default risk classification for a country that has not yet been formally assessed under the EUDR benchmarking system?"
+  options:
+    - "Low risk, to give producing countries the benefit of the doubt"
+    - "Standard risk, with full due diligence obligations applying"
+    - "High risk, to incentivise countries to seek formal assessment quickly"
+    - "Countries receive no classification until formally assessed; no products can be sourced from them"
+  answer: 1
+  explanation: "Standard risk is the default classification for any country not yet formally assessed by the Commission. This means full due diligence obligations apply from the outset. Since most producing countries were not formally classified when the regulation entered into force, standard risk (and therefore full due diligence) applies to the majority of supply chains during the regulation's early implementation period."
+
+- question: "What is the purpose of sub-national benchmarking under Article 29(3) of the EUDR?"
+  options:
+    - "To allow individual operators to request a lower risk classification for their specific supply chain"
+    - "To classify specific regions or provinces within a country at a different risk level than the country as a whole, enabling more precise risk calibration"
+    - "To create a separate compliance regime for products produced in EU overseas territories"
+    - "To allow Member States to set their own risk classifications for countries they trade with predominantly"
+  answer: 1
+  explanation: "Article 29(3) allows the Commission to classify specific regions or provinces within a country at a different risk level than the country as a whole. This is particularly relevant for large, geographically diverse countries where deforestation rates and governance capacity vary significantly between regions. A state in Brazil with strong environmental enforcement could potentially receive a low-risk classification even if Brazil as a whole receives a standard or high-risk designation."

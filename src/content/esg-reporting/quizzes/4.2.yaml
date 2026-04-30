@@ -1,0 +1,26 @@
+- question: "What is the primary purpose of creating a blueprint alongside the table of contents?"
+  options:
+    - "To replace the table of contents with a more detailed document"
+    - "To align the client on what each chapter will contain before writing begins, preventing rewrites"
+    - "To serve as the final outline that writers follow paragraph by paragraph"
+    - "To satisfy GRI requirements for report planning documentation"
+  answer: 1
+  explanation: "A blueprint goes one level deeper than the ToC, showing sub-sections and data dependencies for each chapter. By getting client sign-off on this before writing starts, you prevent surprises and the rewrites that come with them."
+
+- question: "A consultant emails the blueprint to the client and asks for written feedback. Two weeks later, no response. What should they have done differently?"
+  options:
+    - "Sent a shorter blueprint to make it easier to review"
+    - "Walked the client through the blueprint on a call instead of just emailing it"
+    - "Skipped the blueprint and started writing based on the ToC alone"
+    - "Asked the client's CEO to review it instead of the project team"
+  answer: 1
+  explanation: "Blueprints force clients to think concretely about report content, which most have not done before. A walkthrough call is essential because clients need the guided conversation to engage properly with the level of detail a blueprint contains."
+
+- question: "Beyond aligning on content, what additional function does a well-constructed blueprint serve?"
+  options:
+    - "It replaces the need for a materiality assessment"
+    - "It acts as a project management tool for tracking data availability, writing assignments, and progress"
+    - "It serves as the assurance provider's primary audit document"
+    - "It becomes the GRI Content Index once page numbers are added"
+  answer: 1
+  explanation: "The data dependencies flagged in the blueprint become a checklist for tracking what data has arrived. Sub-sections can be assigned as writing tasks, and progress can be reported at the sub-section level rather than vague percentages."

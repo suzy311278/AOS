@@ -1,0 +1,2682 @@
+[INIT].... → Crawl4AI 0.8.0 
+[FETCH]... ↓ https://sustainability-academy.org/                                
+| ✓ | ⏱: 22.93s 
+[SCRAPE].. ◆ https://sustainability-academy.org/                                
+| ✓ | ⏱: 22.22s 
+[COMPLETE] ● https://sustainability-academy.org/                                
+| ✓ | ⏱: 51.68s 
+[FETCH]... ↓ https://sustainability-academy.org                                 
+| ✓ | ⏱: 47.04s 
+[SCRAPE].. ◆ https://sustainability-academy.org                                 
+| ✓ | ⏱: 4.67s 
+[COMPLETE] ● https://sustainability-academy.org                                 
+| ✓ | ⏱: 57.09s 
+[ERROR]... × https://sustainability-academy.org/es              | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/es", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...my.org/case_studies/mol  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/case_studies/mol", waiting
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...ral-credit-unions-unfcu  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://sustainability-academy.org/case_studies/united-nations-federal-credit-u
+nions-unfcu", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...y.org/certified-courses  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/certified-courses", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...rg/case_studies/entrust  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/case_studies/entrust", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-academy.org/cart            | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/cart", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...org/case_studies/oracle  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/case_studies/oracle", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...stainability-consultant  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://sustainability-academy.org/become-a-certified-sustainability-consultant
+", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...g/case_studies/t-mobile  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/case_studies/t-mobile", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[FETCH]... ↓ https://cse.sustainability-academy.org/index                       
+| ✓ | ⏱: 80.66s 
+[SCRAPE].. ◆ https://cse.sustainability-academy.org/index                       
+| ✓ | ⏱: 1.55s 
+[COMPLETE] ● https://cse.sustainability-academy.org/index                       
+| ✓ | ⏱: 82.43s 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[FETCH]... ↓ https://sustainability-academy.org/customize-your-course           
+| ✓ | ⏱: 94.10s 
+[SCRAPE].. ◆ https://sustainability-academy.org/customize-your-course           
+| ✓ | ⏱: 0.73s 
+[COMPLETE] ● https://sustainability-academy.org/customize-your-course           
+| ✓ | ⏱: 95.03s 
+[FETCH]... ↓ https://sustainability-academy.org/certified-esg-courses           
+| ✓ | ⏱: 95.32s 
+[SCRAPE].. ◆ https://sustainability-academy.org/certified-esg-courses           
+| ✓ | ⏱: 1.68s 
+[COMPLETE] ● https://sustainability-academy.org/certified-esg-courses           
+| ✓ | ⏱: 97.15s 
+[FETCH]... ↓ https://sustainability-academy.org/case_studies/netgear            
+| ✓ | ⏱: 99.29s 
+[SCRAPE].. ◆ https://sustainability-academy.org/case_studies/netgear            
+| ✓ | ⏱: 0.67s 
+[COMPLETE] ● https://sustainability-academy.org/case_studies/netgear            
+| ✓ | ⏱: 100.57s 
+[FETCH]... ↓ https://sustainability-academy.org/about-us                        
+| ✓ | ⏱: 103.65s 
+[SCRAPE].. ◆ https://sustainability-academy.org/about-us                        
+| ✓ | ⏱: 0.73s 
+[COMPLETE] ● https://sustainability-academy.org/about-us                        
+| ✓ | ⏱: 104.57s 
+[FETCH]... ↓ https://sustainability-academy.org/blog                            
+| ✓ | ⏱: 105.00s 
+[SCRAPE].. ◆ https://sustainability-academy.org/blog                            
+| ✓ | ⏱: 0.14s 
+[COMPLETE] ● https://sustainability-academy.org/blog                            
+| ✓ | ⏱: 105.15s 
+[FETCH]... ↓ https://sustainability-academy.org/contact-us                      
+| ✓ | ⏱: 105.24s 
+[SCRAPE].. ◆ https://sustainability-academy.org/contact-us                      
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://sustainability-academy.org/contact-us                      
+| ✓ | ⏱: 105.37s 
+[FETCH]... ↓ https://sustainability-academy.org/case_studies/15613              
+| ✓ | ⏱: 105.38s 
+[SCRAPE].. ◆ https://sustainability-academy.org/case_studies/15613              
+| ✓ | ⏱: 0.09s 
+[COMPLETE] ● https://sustainability-academy.org/case_studies/15613              
+| ✓ | ⏱: 105.48s 
+[FETCH]... ↓ https://sustainability-academy.org/case_studies                    
+| ✓ | ⏱: 105.33s 
+[SCRAPE].. ◆ https://sustainability-academy.org/case_studies                    
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://sustainability-academy.org/case_studies                    
+| ✓ | ⏱: 105.40s 
+[FETCH]... ↓ https://sustainability-academy.org/case_studies/workday            
+| ✓ | ⏱: 105.47s 
+[SCRAPE].. ◆ https://sustainability-academy.org/case_studies/workday            
+| ✓ | ⏱: 0.12s 
+[COMPLETE] ● https://sustainability-academy.org/case_studies/workday            
+| ✓ | ⏱: 105.65s 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[ERROR]... × https://sustainability-...ility-foundation-course  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://sustainability-academy.org/product/diploma-on-corporate-sustainability-
+foundation-course", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...ls-the-path-to-net-zero  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://sustainability-academy.org/product/online-certificate-in-renewable-ener
+gy-fundamentals-the-path-to-net-zero", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...erative-ai-for-business  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://sustainability-academy.org/product/generative-ai-for-business", waiting
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...e-certificate-csrd-esrs  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://sustainability-academy.org/product/online-certificate-csrd-esrs", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[ERROR]... × https://sustainability-academy.org/refer-and-win   | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/refer-and-win", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...inability-esg-reporting  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://sustainability-academy.org/product/online-certificate-on-sustainability
+-esg-reporting", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...-on-sasb-tcfd-reporting  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://sustainability-academy.org/product/online-certificate-on-sasb-tcfd-repo
+rting", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[FETCH]... ↓ https://sustainability-academy.org/privacy-policy                  
+| ✓ | ⏱: 97.57s 
+[SCRAPE].. ◆ https://sustainability-academy.org/privacy-policy                  
+| ✓ | ⏱: 0.11s 
+[COMPLETE] ● https://sustainability-academy.org/privacy-policy                  
+| ✓ | ⏱: 97.69s 
+[FETCH]... ↓ https://sustainability-academy.org/group-online-courses            
+| ✓ | ⏱: 98.08s 
+[SCRAPE].. ◆ https://sustainability-academy.org/group-online-courses            
+| ✓ | ⏱: 2.05s 
+[COMPLETE] ● https://sustainability-academy.org/group-online-courses            
+| ✓ | ⏱: 100.17s 
+[FETCH]... ↓ https://sustainability-academy.org/esg-regulations-jobs            
+| ✓ | ⏱: 103.90s 
+[SCRAPE].. ◆ https://sustainability-academy.org/esg-regulations-jobs            
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://sustainability-academy.org/esg-regulations-jobs            
+| ✓ | ⏱: 104.18s 
+[FETCH]... ↓ https://sustainability-academy.org/esg-group-courses               
+| ✓ | ⏱: 114.45s 
+[SCRAPE].. ◆ https://sustainability-academy.org/esg-group-courses               
+| ✓ | ⏱: 0.16s 
+[COMPLETE] ● https://sustainability-academy.org/esg-group-courses               
+| ✓ | ⏱: 114.69s 
+[FETCH]... ↓ https://sustainability-academy.org/product/ai-for-business-aibiz   
+| ✓ | ⏱: 101.05s 
+[SCRAPE].. ◆ https://sustainability-academy.org/product/ai-for-business-aibiz   
+| ✓ | ⏱: 0.49s 
+[COMPLETE] ● https://sustainability-academy.org/product/ai-for-business-aibiz   
+| ✓ | ⏱: 101.56s 
+[FETCH]... ↓ https://sustainability-academy.org/media-partners                  
+| ✓ | ⏱: 102.05s 
+[SCRAPE].. ◆ https://sustainability-academy.org/media-partners                  
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● https://sustainability-academy.org/media-partners                  
+| ✓ | ⏱: 102.17s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/group-sustainability-training-discounts      
+| ✓ | ⏱: 102.47s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/group-sustainability-training-discounts      
+| ✓ | ⏱: 0.90s 
+[COMPLETE] ● 
+https://sustainability-academy.org/group-sustainability-training-discounts      
+| ✓ | ⏱: 103.41s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product/advan...on-ifrs-s1-s2-sustainability-
+reporting-standards  | ✓ | ⏱: 103.56s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product/advan...on-ifrs-s1-s2-sustainability-
+reporting-standards  | ✓ | ⏱: 0.68s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product/advan...on-ifrs-s1-s2-sustainability-
+reporting-standards  | ✓ | ⏱: 104.27s 
+[FETCH]... ↓ https://sustainability-academy.org/faq                             
+| ✓ | ⏱: 104.26s 
+[SCRAPE].. ◆ https://sustainability-academy.org/faq                             
+| ✓ | ⏱: 0.53s 
+[COMPLETE] ● https://sustainability-academy.org/faq                             
+| ✓ | ⏱: 104.86s 
+[FETCH]... ↓ https://sustainability-academy.org/fr                              
+| ✓ | ⏱: 105.03s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr                              
+| ✓ | ⏱: 6.21s 
+[COMPLETE] ● https://sustainability-academy.org/fr                              
+| ✓ | ⏱: 111.64s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product/diploma-en-sostenibilidad-empresarial
+| ✓ | ⏱: 109.12s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product/diploma-en-sostenibilidad-empresarial
+| ✓ | ⏱: 2.45s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product/diploma-en-sostenibilidad-empresarial
+| ✓ | ⏱: 114.08s 
+[ERROR]... × https://sustainability-...y.org?add-to-cart=17408  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/?add-to-cart=17408", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-academy.org?add-to-cart=72  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/?add-to-cart=72", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...y.org?add-to-cart=18152  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/?add-to-cart=18152", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...y.org?add-to-cart=17134  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/?add-to-cart=17134", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...ability-courses-in-2026  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://sustainability-academy.org/top-sustainability-courses-in-2026", waiting
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...testimonials/timperlant  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/testimonials/timperlant", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...ent-day-2026-strategies  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://sustainability-academy.org/world-environment-day-2026-strategies", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-.../testimonials/coca-cola  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/testimonials/coca-cola", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-academy.org/testimonials/gm | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/testimonials/gm", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...rg/terms-and-conditions  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/terms-and-conditions", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-academy.org/testimonies     | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/testimonies", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...y.org?add-to-cart=18312  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/?add-to-cart=18312", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...y.org?add-to-cart=18317  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/?add-to-cart=18317", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...y.org?add-to-cart=18659  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/?add-to-cart=18659", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-academy.org?add-to-cart=78  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/?add-to-cart=78", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-academy.org?add-to-cart=58  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/?add-to-cart=58", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[FETCH]... ↓ 
+https://sustainability-academy.org/recognized-sustainable-employer-invest-in-wor
+kforce               | ✓ | ⏱: 142.21s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/recognized-sustainable-employer-invest-in-wor
+kforce               | ✓ | ⏱: 0.88s 
+[COMPLETE] ● 
+https://sustainability-academy.org/recognized-sustainable-employer-invest-in-wor
+kforce               | ✓ | ⏱: 143.09s 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product/online-certificate-on-carbon-reductio
+n-strategy           | ✓ | ⏱: 143.29s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product/online-certificate-on-carbon-reductio
+n-strategy           | ✓ | ⏱: 0.16s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product/online-certificate-on-carbon-reductio
+n-strategy           | ✓ | ⏱: 143.46s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/sustainabilit...inning-digital-platform-empow
+ering-global-change  | ✓ | ⏱: 75.31s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/sustainabilit...inning-digital-platform-empow
+ering-global-change  | ✓ | ⏱: 0.10s 
+[COMPLETE] ● 
+https://sustainability-academy.org/sustainabilit...inning-digital-platform-empow
+ering-global-change  | ✓ | ⏱: 75.45s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/sustainabilit...-the-title-of-sustainability-
+product-of-the-year  | ✓ | ⏱: 71.74s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/sustainabilit...-the-title-of-sustainability-
+product-of-the-year  | ✓ | ⏱: 0.04s 
+[COMPLETE] ● 
+https://sustainability-academy.org/sustainabilit...-the-title-of-sustainability-
+product-of-the-year  | ✓ | ⏱: 71.79s 
+[FETCH]... ↓ https://sustainability-academy.org?add-to-cart=80                  
+| ✓ | ⏱: 9.07s 
+[SCRAPE].. ◆ https://sustainability-academy.org?add-to-cart=80                  
+| ✓ | ⏱: 0.53s 
+[COMPLETE] ● https://sustainability-academy.org?add-to-cart=80                  
+| ✓ | ⏱: 9.65s 
+[ERROR]... × http://www.sustainability-academy.org/about-us     | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "http://www.sustainability-academy.org/about-us", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...orporate-sustainability  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://sustainability-academy.org/category/corporate-sustainability", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://sustainability-...ustainability-education  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://sustainability-academy.org/category/sustainability-education", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[FETCH]... ↓ https://cse.sustainability-academy.org                             
+| ✓ | ⏱: 58.86s 
+[SCRAPE].. ◆ https://cse.sustainability-academy.org                             
+| ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://cse.sustainability-academy.org                             
+| ✓ | ⏱: 59.00s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/best-online-sustainability-courses           
+| ✓ | ⏱: 59.21s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/best-online-sustainability-courses           
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● 
+https://sustainability-academy.org/best-online-sustainability-courses           
+| ✓ | ⏱: 59.57s 
+[FETCH]... ↓ https://cse.sustainability-academy.org/catalog                     
+| ✓ | ⏱: 46.83s 
+[SCRAPE].. ◆ https://cse.sustainability-academy.org/catalog                     
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● https://cse.sustainability-academy.org/catalog                     
+| ✓ | ⏱: 46.93s 
+[DEBUG]... ⋯ Body visibility info: True 
+[FETCH]... ↓ https://sustainability-academy.org/category/sustainability         
+| ✓ | ⏱: 57.43s 
+[SCRAPE].. ◆ https://sustainability-academy.org/category/sustainability         
+| ✓ | ⏱: 0.11s 
+[COMPLETE] ● https://sustainability-academy.org/category/sustainability         
+| ✓ | ⏱: 57.55s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/category/sustainability-educationpress-releas
+e                    | ✓ | ⏱: 57.69s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/category/sustainability-educationpress-releas
+e                    | ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://sustainability-academy.org/category/sustainability-educationpress-releas
+e                    | ✓ | ⏱: 57.83s 
+[FETCH]... ↓ https://sustainability-academy.org/category/esg-reporting          
+| ✓ | ⏱: 58.47s 
+[SCRAPE].. ◆ https://sustainability-academy.org/category/esg-reporting          
+| ✓ | ⏱: 2.29s 
+[COMPLETE] ● https://sustainability-academy.org/category/esg-reporting          
+| ✓ | ⏱: 63.23s 
+[FETCH]... ↓ https://sustainability-academy.org/category/education              
+| ✓ | ⏱: 64.58s 
+[SCRAPE].. ◆ https://sustainability-academy.org/category/education              
+| ✓ | ⏱: 0.73s 
+[COMPLETE] ● https://sustainability-academy.org/category/education              
+| ✓ | ⏱: 65.52s 
+[FETCH]... ↓ https://sustainability-academy.org/category/news                   
+| ✓ | ⏱: 65.53s 
+[SCRAPE].. ◆ https://sustainability-academy.org/category/news                   
+| ✓ | ⏱: 1.01s 
+[COMPLETE] ● https://sustainability-academy.org/category/news                   
+| ✓ | ⏱: 66.67s 
+[FETCH]... ↓ 
+https://cse.sustainability-academy.org/index/sociallogin/service:linkedin,init:y
+es                   | ✓ | ⏱: 61.45s 
+[SCRAPE].. ◆ 
+https://cse.sustainability-academy.org/index/sociallogin/service:linkedin,init:y
+es                   | ✓ | ⏱: 0.43s 
+[COMPLETE] ● 
+https://cse.sustainability-academy.org/index/sociallogin/service:linkedin,init:y
+es                   | ✓ | ⏱: 62.66s 
+[FETCH]... ↓ 
+https://cse.sustainability-academy.org/index/sociallogin/service:google         
+| ✓ | ⏱: 63.26s 
+[SCRAPE].. ◆ 
+https://cse.sustainability-academy.org/index/sociallogin/service:google         
+| ✓ | ⏱: 0.73s 
+[COMPLETE] ● 
+https://cse.sustainability-academy.org/index/sociallogin/service:google         
+| ✓ | ⏱: 64.47s 
+[FETCH]... ↓ https://cse.sustainability-academy.org/unit/view/id:62612          
+| ✓ | ⏱: 63.20s 
+[SCRAPE].. ◆ https://cse.sustainability-academy.org/unit/view/id:62612          
+| ✓ | ⏱: 0.01s 
+[COMPLETE] ● https://cse.sustainability-academy.org/unit/view/id:62612          
+| ✓ | ⏱: 63.23s 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[FETCH]... ↓ https://cse.sustainability-academy.org/unit/view/id:63728          
+| ✓ | ⏱: 68.33s 
+[SCRAPE].. ◆ https://cse.sustainability-academy.org/unit/view/id:63728          
+| ✓ | ⏱: 0.01s 
+[COMPLETE] ● https://cse.sustainability-academy.org/unit/view/id:63728          
+| ✓ | ⏱: 68.34s 
+[FETCH]... ↓ https://cse.sustainability-academy.org/unit/view/id:63729          
+| ✓ | ⏱: 61.59s 
+[SCRAPE].. ◆ https://cse.sustainability-academy.org/unit/view/id:63729          
+| ✓ | ⏱: 0.01s 
+[COMPLETE] ● https://cse.sustainability-academy.org/unit/view/id:63729          
+| ✓ | ⏱: 61.61s 
+[FETCH]... ↓ https://cse.sustainability-academy.org/unit/view/id:63731          
+| ✓ | ⏱: 63.91s 
+[SCRAPE].. ◆ https://cse.sustainability-academy.org/unit/view/id:63731          
+| ✓ | ⏱: 0.46s 
+[COMPLETE] ● https://cse.sustainability-academy.org/unit/view/id:63731          
+| ✓ | ⏱: 65.14s 
+[FETCH]... ↓ 
+https://cse.sustainability-academy.org/index/sociallogin/service:facebook       
+| ✓ | ⏱: 66.66s 
+[SCRAPE].. ◆ 
+https://cse.sustainability-academy.org/index/sociallogin/service:facebook       
+| ✓ | ⏱: 0.35s 
+[COMPLETE] ● 
+https://cse.sustainability-academy.org/index/sociallogin/service:facebook       
+| ✓ | ⏱: 67.06s 
+[FETCH]... ↓ http://www.sustainability-academy.org                              
+| ✓ | ⏱: 79.76s 
+[SCRAPE].. ◆ http://www.sustainability-academy.org                              
+| ✓ | ⏱: 1.44s 
+[COMPLETE] ● http://www.sustainability-academy.org                              
+| ✓ | ⏱: 81.23s 
+[FETCH]... ↓ https://cse.sustainability-academy.org/unit/view/id:63726          
+| ✓ | ⏱: 78.01s 
+[SCRAPE].. ◆ https://cse.sustainability-academy.org/unit/view/id:63726          
+| ✓ | ⏱: 0.01s 
+[COMPLETE] ● https://cse.sustainability-academy.org/unit/view/id:63726          
+| ✓ | ⏱: 78.08s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/category/sustainability-innovation           
+| ✓ | ⏱: 25.39s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/category/sustainability-innovation           
+| ✓ | ⏱: 1.70s 
+[COMPLETE] ● 
+https://sustainability-academy.org/category/sustainability-innovation           
+| ✓ | ⏱: 29.94s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/category/sustainability-leadership           
+| ✓ | ⏱: 47.02s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/category/sustainability-leadership           
+| ✓ | ⏱: 0.87s 
+[COMPLETE] ● 
+https://sustainability-academy.org/category/sustainability-leadership           
+| ✓ | ⏱: 48.48s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/category/sustainability-jobssustainability-co
+nsulting             | ✓ | ⏱: 48.00s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/category/sustainability-jobssustainability-co
+nsulting             | ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://sustainability-academy.org/category/sustainability-jobssustainability-co
+nsulting             | ✓ | ⏱: 48.16s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/category/sustainability-reporting            
+| ✓ | ⏱: 40.58s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/category/sustainability-reporting            
+| ✓ | ⏱: 0.22s 
+[COMPLETE] ● 
+https://sustainability-academy.org/category/sustainability-reporting            
+| ✓ | ⏱: 40.86s 
+[FETCH]... ↓ https://sustainability-academy.org/category/sustainable-economy    
+| ✓ | ⏱: 57.67s 
+[SCRAPE].. ◆ https://sustainability-academy.org/category/sustainable-economy    
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● https://sustainability-academy.org/category/sustainable-economy    
+| ✓ | ⏱: 57.80s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=17134      
+| ✓ | ⏱: 57.81s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=17134      
+| ✓ | ⏱: 0.58s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=17134      
+| ✓ | ⏱: 58.44s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=16306      
+| ✓ | ⏱: 58.64s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=16306      
+| ✓ | ⏱: 0.27s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=16306      
+| ✓ | ⏱: 58.96s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=16974      
+| ✓ | ⏱: 59.00s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=16974      
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=16974      
+| ✓ | ⏱: 59.40s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=16230      
+| ✓ | ⏱: 59.49s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=16230      
+| ✓ | ⏱: 0.50s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=16230      
+| ✓ | ⏱: 60.11s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=17269      
+| ✓ | ⏱: 54.74s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=17269      
+| ✓ | ⏱: 0.85s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=17269      
+| ✓ | ⏱: 56.50s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=17151      
+| ✓ | ⏱: 60.79s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=17151      
+| ✓ | ⏱: 0.76s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=17151      
+| ✓ | ⏱: 61.94s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=17408      
+| ✓ | ⏱: 59.83s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=17408      
+| ✓ | ⏱: 1.08s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=17408      
+| ✓ | ⏱: 61.04s 
+[FETCH]... ↓ https://sustainability-academy.org/category/sustainability-training
+| ✓ | ⏱: 66.94s 
+[SCRAPE].. ◆ https://sustainability-academy.org/category/sustainability-training
+| ✓ | ⏱: 0.19s 
+[COMPLETE] ● https://sustainability-academy.org/category/sustainability-training
+| ✓ | ⏱: 67.36s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=17740      
+| ✓ | ⏱: 60.02s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=17740      
+| ✓ | ⏱: 0.22s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=17740      
+| ✓ | ⏱: 60.28s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=18312      
+| ✓ | ⏱: 55.98s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=18312      
+| ✓ | ⏱: 0.20s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=18312      
+| ✓ | ⏱: 56.23s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=18659      
+| ✓ | ⏱: 54.62s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=18659      
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=18659      
+| ✓ | ⏱: 54.95s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=18152      
+| ✓ | ⏱: 56.60s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=18152      
+| ✓ | ⏱: 0.17s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=18152      
+| ✓ | ⏱: 56.79s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=60         
+| ✓ | ⏱: 55.27s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=60         
+| ✓ | ⏱: 0.42s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=60         
+| ✓ | ⏱: 55.70s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=58         
+| ✓ | ⏱: 55.65s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=58         
+| ✓ | ⏱: 0.63s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=58         
+| ✓ | ⏱: 56.30s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=64         
+| ✓ | ⏱: 54.74s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=64         
+| ✓ | ⏱: 0.18s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=64         
+| ✓ | ⏱: 54.95s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=18317      
+| ✓ | ⏱: 58.26s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=18317      
+| ✓ | ⏱: 0.19s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=18317      
+| ✓ | ⏱: 58.46s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=74         
+| ✓ | ⏱: 24.84s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=74         
+| ✓ | ⏱: 0.16s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=74         
+| ✓ | ⏱: 25.01s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=72         
+| ✓ | ⏱: 27.60s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=72         
+| ✓ | ⏱: 0.15s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=72         
+| ✓ | ⏱: 27.75s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=76         
+| ✓ | ⏱: 23.16s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=76         
+| ✓ | ⏱: 1.56s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=76         
+| ✓ | ⏱: 24.74s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=78         
+| ✓ | ⏱: 34.74s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=78         
+| ✓ | ⏱: 1.16s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=78         
+| ✓ | ⏱: 36.05s 
+[FETCH]... ↓ https://sustainability-academy.org/es/blog                         
+| ✓ | ⏱: 36.07s 
+[SCRAPE].. ◆ https://sustainability-academy.org/es/blog                         
+| ✓ | ⏱: 0.17s 
+[COMPLETE] ● https://sustainability-academy.org/es/blog                         
+| ✓ | ⏱: 36.26s 
+[FETCH]... ↓ https://sustainability-academy.org/company-address-climate-risks   
+| ✓ | ⏱: 36.28s 
+[SCRAPE].. ◆ https://sustainability-academy.org/company-address-climate-risks   
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://sustainability-academy.org/company-address-climate-risks   
+| ✓ | ⏱: 36.34s 
+[FETCH]... ↓ https://sustainability-academy.org/certified-online-courses        
+| ✓ | ⏱: 36.34s 
+[SCRAPE].. ◆ https://sustainability-academy.org/certified-online-courses        
+| ✓ | ⏱: 0.13s 
+[COMPLETE] ● https://sustainability-academy.org/certified-online-courses        
+| ✓ | ⏱: 36.48s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=80         
+| ✓ | ⏱: 36.48s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=80         
+| ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=80         
+| ✓ | ⏱: 36.60s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=82         
+| ✓ | ⏱: 36.59s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=82         
+| ✓ | ⏱: 0.15s 
+[COMPLETE] ● 
+https://sustainability-academy.org/certified-esg-courses?add-to-cart=82         
+| ✓ | ⏱: 36.76s 
+[FETCH]... ↓ https://sustainability-academy.org/es/cursos-del-grupo-esg         
+| ✓ | ⏱: 36.77s 
+[SCRAPE].. ◆ https://sustainability-academy.org/es/cursos-del-grupo-esg         
+| ✓ | ⏱: 0.11s 
+[COMPLETE] ● https://sustainability-academy.org/es/cursos-del-grupo-esg         
+| ✓ | ⏱: 36.91s 
+[FETCH]... ↓ https://sustainability-academy.org/es/acerca-de-nosotros           
+| ✓ | ⏱: 36.94s 
+[SCRAPE].. ◆ https://sustainability-academy.org/es/acerca-de-nosotros           
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://sustainability-academy.org/es/acerca-de-nosotros           
+| ✓ | ⏱: 37.02s 
+[FETCH]... ↓ https://sustainability-academy.org/es/contacto                     
+| ✓ | ⏱: 37.10s 
+[SCRAPE].. ◆ https://sustainability-academy.org/es/contacto                     
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://sustainability-academy.org/es/contacto                     
+| ✓ | ⏱: 37.15s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/es/estudios_de_caso/jornada-laboral          
+| ✓ | ⏱: 35.60s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/es/estudios_de_caso/jornada-laboral          
+| ✓ | ⏱: 0.96s 
+[COMPLETE] ● 
+https://sustainability-academy.org/es/estudios_de_caso/jornada-laboral          
+| ✓ | ⏱: 36.92s 
+[FETCH]... ↓ https://sustainability-academy.org/es/estudios_de_caso/netgear     
+| ✓ | ⏱: 37.90s 
+[SCRAPE].. ◆ https://sustainability-academy.org/es/estudios_de_caso/netgear     
+| ✓ | ⏱: 0.96s 
+[COMPLETE] ● https://sustainability-academy.org/es/estudios_de_caso/netgear     
+| ✓ | ⏱: 39.17s 
+[FETCH]... ↓ https://sustainability-academy.org/es/estudios_de_caso/15613       
+| ✓ | ⏱: 39.43s 
+[SCRAPE].. ◆ https://sustainability-academy.org/es/estudios_de_caso/15613       
+| ✓ | ⏱: 0.14s 
+[COMPLETE] ● https://sustainability-academy.org/es/estudios_de_caso/15613       
+| ✓ | ⏱: 39.59s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/es/empleador-sostenible-reconocido-invierte-e
+n-mano-de-obra       | ✓ | ⏱: 39.59s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/es/empleador-sostenible-reconocido-invierte-e
+n-mano-de-obra       | ✓ | ⏱: 0.37s 
+[COMPLETE] ● 
+https://sustainability-academy.org/es/empleador-sostenible-reconocido-invierte-e
+n-mano-de-obra       | ✓ | ⏱: 40.00s 
+[FETCH]... ↓ https://sustainability-academy.org/es/estudios_de_caso             
+| ✓ | ⏱: 40.01s 
+[SCRAPE].. ◆ https://sustainability-academy.org/es/estudios_de_caso             
+| ✓ | ⏱: 0.12s 
+[COMPLETE] ● https://sustainability-academy.org/es/estudios_de_caso             
+| ✓ | ⏱: 40.14s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/es/descuentos-para-grupos-en-formacion-sobre-
+sostenibilidad       | ✓ | ⏱: 40.16s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/es/descuentos-para-grupos-en-formacion-sobre-
+sostenibilidad       | ✓ | ⏱: 4.23s 
+[COMPLETE] ● 
+https://sustainability-academy.org/es/descuentos-para-grupos-en-formacion-sobre-
+sostenibilidad       | ✓ | ⏱: 45.26s 
+[FETCH]... ↓ https://sustainability-academy.org/es/case_studies/mol             
+| ✓ | ⏱: 47.51s 
+[SCRAPE].. ◆ https://sustainability-academy.org/es/case_studies/mol             
+| ✓ | ⏱: 0.15s 
+[COMPLETE] ● https://sustainability-academy.org/es/case_studies/mol             
+| ✓ | ⏱: 47.69s 
+[FETCH]... ↓ https://sustainability-academy.org/es/cursos-esg-certificados      
+| ✓ | ⏱: 45.82s 
+[SCRAPE].. ◆ https://sustainability-academy.org/es/cursos-esg-certificados      
+| ✓ | ⏱: 0.53s 
+[COMPLETE] ● https://sustainability-academy.org/es/cursos-esg-certificados      
+| ✓ | ⏱: 46.80s 
+[FETCH]... ↓ https://sustainability-academy.org/es/faq                          
+| ✓ | ⏱: 49.83s 
+[SCRAPE].. ◆ https://sustainability-academy.org/es/faq                          
+| ✓ | ⏱: 0.12s 
+[COMPLETE] ● https://sustainability-academy.org/es/faq                          
+| ✓ | ⏱: 50.02s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/es/plataforma...a-de-sostenibilidad-que-impul
+sa-el-cambio-global  | ✓ | ⏱: 17.50s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/es/plataforma...a-de-sostenibilidad-que-impul
+sa-el-cambio-global  | ✓ | ⏱: 0.30s 
+[COMPLETE] ● 
+https://sustainability-academy.org/es/plataforma...a-de-sostenibilidad-que-impul
+sa-el-cambio-global  | ✓ | ⏱: 17.82s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/es/medios-de-comunicacion-asociados          
+| ✓ | ⏱: 48.85s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/es/medios-de-comunicacion-asociados          
+| ✓ | ⏱: 2.90s 
+[COMPLETE] ● 
+https://sustainability-academy.org/es/medios-de-comunicacion-asociados          
+| ✓ | ⏱: 51.93s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/es/la-academi...obtiene-el-titulo-de-producto
+-sostenible-del-ano  | ✓ | ⏱: 52.86s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/es/la-academi...obtiene-el-titulo-de-producto
+-sostenible-del-ano  | ✓ | ⏱: 0.22s 
+[COMPLETE] ● 
+https://sustainability-academy.org/es/la-academi...obtiene-el-titulo-de-producto
+-sostenible-del-ano  | ✓ | ⏱: 53.20s 
+[FETCH]... ↓ https://sustainability-academy.org/es/personalice-su-curso         
+| ✓ | ⏱: 26.10s 
+[SCRAPE].. ◆ https://sustainability-academy.org/es/personalice-su-curso         
+| ✓ | ⏱: 0.96s 
+[COMPLETE] ● https://sustainability-academy.org/es/personalice-su-curso         
+| ✓ | ⏱: 27.20s 
+[FETCH]... ↓ https://sustainability-academy.org/es?add-to-cart=80               
+| ✓ | ⏱: 68.00s 
+[SCRAPE].. ◆ https://sustainability-academy.org/es?add-to-cart=80               
+| ✓ | ⏱: 0.49s 
+[COMPLETE] ● https://sustainability-academy.org/es?add-to-cart=80               
+| ✓ | ⏱: 68.53s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/conditions-generales         
+| ✓ | ⏱: 57.67s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/conditions-generales         
+| ✓ | ⏱: 0.07s 
+[COMPLETE] ● https://sustainability-academy.org/fr/conditions-generales         
+| ✓ | ⏱: 57.76s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/chariot                      
+| ✓ | ⏱: 57.94s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/chariot                      
+| ✓ | ⏱: 0.52s 
+[COMPLETE] ● https://sustainability-academy.org/fr/chariot                      
+| ✓ | ⏱: 58.50s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/es/reglamento-de-la-esg-puestos-de-trabajo   
+| ✓ | ⏱: 70.66s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/es/reglamento-de-la-esg-puestos-de-trabajo   
+| ✓ | ⏱: 0.40s 
+[COMPLETE] ● 
+https://sustainability-academy.org/es/reglamento-de-la-esg-puestos-de-trabajo   
+| ✓ | ⏱: 71.07s 
+[FETCH]... ↓ https://sustainability-academy.org/esg-market-shifts-global        
+| ✓ | ⏱: 61.02s 
+[SCRAPE].. ◆ https://sustainability-academy.org/esg-market-shifts-global        
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● https://sustainability-academy.org/esg-market-shifts-global        
+| ✓ | ⏱: 61.29s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/caisse                       
+| ✓ | ⏱: 59.35s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/caisse                       
+| ✓ | ⏱: 0.55s 
+[COMPLETE] ● https://sustainability-academy.org/fr/caisse                       
+| ✓ | ⏱: 59.93s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/a-propos-de-nous             
+| ✓ | ⏱: 59.92s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/a-propos-de-nous             
+| ✓ | ⏱: 1.03s 
+[COMPLETE] ● https://sustainability-academy.org/fr/a-propos-de-nous             
+| ✓ | ⏱: 61.03s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/es/producto/c...-linea-sobre-estrategia-de-re
+duccion-del-carbono  | ✓ | ⏱: 73.41s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/es/producto/c...-linea-sobre-estrategia-de-re
+duccion-del-carbono  | ✓ | ⏱: 0.49s 
+[COMPLETE] ● 
+https://sustainability-academy.org/es/producto/c...-linea-sobre-estrategia-de-re
+duccion-del-carbono  | ✓ | ⏱: 73.96s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/cours-collectifs-esg         
+| ✓ | ⏱: 61.73s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/cours-collectifs-esg         
+| ✓ | ⏱: 1.40s 
+[COMPLETE] ● https://sustainability-academy.org/fr/cours-collectifs-esg         
+| ✓ | ⏱: 63.24s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/es/producto/ai-para-empresas-aibiz           
+| ✓ | ⏱: 75.51s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/es/producto/ai-para-empresas-aibiz           
+| ✓ | ⏱: 0.10s 
+[COMPLETE] ● 
+https://sustainability-academy.org/es/producto/ai-para-empresas-aibiz           
+| ✓ | ⏱: 75.65s 
+[FETCH]... ↓ https://sustainability-academy.org/es/politica-de-privacidad       
+| ✓ | ⏱: 75.66s 
+[SCRAPE].. ◆ https://sustainability-academy.org/es/politica-de-privacidad       
+| ✓ | ⏱: 0.07s 
+[COMPLETE] ● https://sustainability-academy.org/es/politica-de-privacidad       
+| ✓ | ⏱: 75.73s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/blog                         
+| ✓ | ⏱: 63.57s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/blog                         
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://sustainability-academy.org/fr/blog                         
+| ✓ | ⏱: 63.68s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/es/producto/diploma-en-sostenibilidad-empresa
+rial-3               | ✓ | ⏱: 75.87s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/es/producto/diploma-en-sostenibilidad-empresa
+rial-3               | ✓ | ⏱: 0.17s 
+[COMPLETE] ● 
+https://sustainability-academy.org/es/producto/diploma-en-sostenibilidad-empresa
+rial-3               | ✓ | ⏱: 76.06s 
+[FETCH]... ↓ https://sustainability-academy.org/eu-sustainability-reporting     
+| ✓ | ⏱: 63.87s 
+[SCRAPE].. ◆ https://sustainability-academy.org/eu-sustainability-reporting     
+| ✓ | ⏱: 2.49s 
+[COMPLETE] ● https://sustainability-academy.org/eu-sustainability-reporting     
+| ✓ | ⏱: 68.19s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/es/producto/c...ara-la-elaboracion-de-memoria
+s-de-sostenibilidad  | ✓ | ⏱: 82.29s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/es/producto/c...ara-la-elaboracion-de-memoria
+s-de-sostenibilidad  | ✓ | ⏱: 0.36s 
+[COMPLETE] ● 
+https://sustainability-academy.org/es/producto/c...ara-la-elaboracion-de-memoria
+s-de-sostenibilidad  | ✓ | ⏱: 82.81s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/cours-desg-certifies         
+| ✓ | ⏱: 57.06s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/cours-desg-certifies         
+| ✓ | ⏱: 0.80s 
+[COMPLETE] ● https://sustainability-academy.org/fr/cours-desg-certifies         
+| ✓ | ⏱: 57.91s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/emplois-dans-le-domaine-de-la-reglementati
+on-de-lesg           | ✓ | ⏱: 54.74s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/emplois-dans-le-domaine-de-la-reglementati
+on-de-lesg           | ✓ | ⏱: 0.15s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/emplois-dans-le-domaine-de-la-reglementati
+on-de-lesg           | ✓ | ⏱: 54.91s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/etudes-de-cas                
+| ✓ | ⏱: 55.15s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/etudes-de-cas                
+| ✓ | ⏱: 0.15s 
+[COMPLETE] ● https://sustainability-academy.org/fr/etudes-de-cas                
+| ✓ | ⏱: 55.32s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/employeur-durable-reconnu-investir-dans-la
+-main-doeuvre        | ✓ | ⏱: 55.14s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/employeur-durable-reconnu-investir-dans-la
+-main-doeuvre        | ✓ | ⏱: 0.36s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/employeur-durable-reconnu-investir-dans-la
+-main-doeuvre        | ✓ | ⏱: 55.52s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/devenir-consultant-certifie-en-developpeme
+nt-durable           | ✓ | ⏱: 55.51s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/devenir-consultant-certifie-en-developpeme
+nt-durable           | ✓ | ⏱: 0.22s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/devenir-consultant-certifie-en-developpeme
+nt-durable           | ✓ | ⏱: 55.74s 
+[ERROR]... × https://sustainability-...g/fr/partenaires-medias  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sustainability-academy.org/fr/partenaires-medias", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[DEBUG]... ⋯ Body visibility info: True 
+[FETCH]... ↓ https://sustainability-academy.org/fr/etudes-de-cas/15613          
+| ✓ | ⏱: 43.19s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/etudes-de-cas/15613          
+| ✓ | ⏱: 0.18s 
+[COMPLETE] ● https://sustainability-academy.org/fr/etudes-de-cas/15613          
+| ✓ | ⏱: 43.40s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/etudes-de-cas/netgear        
+| ✓ | ⏱: 41.46s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/etudes-de-cas/netgear        
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://sustainability-academy.org/fr/etudes-de-cas/netgear        
+| ✓ | ⏱: 41.53s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/plateforme...e-pour-favoriser-le-changemen
+t-au-niveau-mondial  | ✓ | ⏱: 39.30s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/plateforme...e-pour-favoriser-le-changemen
+t-au-niveau-mondial  | ✓ | ⏱: 0.04s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/plateforme...e-pour-favoriser-le-changemen
+t-au-niveau-mondial  | ✓ | ⏱: 39.34s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/etudes-de-cas/journee-de-travail          
+| ✓ | ⏱: 41.56s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/etudes-de-cas/journee-de-travail          
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/etudes-de-cas/journee-de-travail          
+| ✓ | ⏱: 41.59s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/produit/certificat-en-ligne-csrd-esrs     
+| ✓ | ⏱: 39.38s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/produit/certificat-en-ligne-csrd-esrs     
+| ✓ | ⏱: 0.10s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/produit/certificat-en-ligne-csrd-esrs     
+| ✓ | ⏱: 39.49s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/nous-contacter               
+| ✓ | ⏱: 41.69s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/nous-contacter               
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://sustainability-academy.org/fr/nous-contacter               
+| ✓ | ⏱: 41.72s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/parrainez-et-gagnez          
+| ✓ | ⏱: 41.73s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/parrainez-et-gagnez          
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://sustainability-academy.org/fr/parrainez-et-gagnez          
+| ✓ | ⏱: 41.79s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/etudes-de-cas/mol            
+| ✓ | ⏱: 41.81s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/etudes-de-cas/mol            
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://sustainability-academy.org/fr/etudes-de-cas/mol            
+| ✓ | ⏱: 41.87s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/etudes-de-cas/oracle         
+| ✓ | ⏱: 41.87s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/etudes-de-cas/oracle         
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://sustainability-academy.org/fr/etudes-de-cas/oracle         
+| ✓ | ⏱: 41.92s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/etudes-de-cas/t-mobile       
+| ✓ | ⏱: 41.93s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/etudes-de-cas/t-mobile       
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://sustainability-academy.org/fr/etudes-de-cas/t-mobile       
+| ✓ | ⏱: 42.00s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/personnalisez-votre-cours    
+| ✓ | ⏱: 41.97s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/personnalisez-votre-cours    
+| ✓ | ⏱: 0.11s 
+[COMPLETE] ● https://sustainability-academy.org/fr/personnalisez-votre-cours    
+| ✓ | ⏱: 42.09s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/les-meilleurs-cours-sur-le-developpement-d
+urable-en-2026       | ✓ | ⏱: 42.11s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/les-meilleurs-cours-sur-le-developpement-d
+urable-en-2026       | ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/les-meilleurs-cours-sur-le-developpement-d
+urable-en-2026       | ✓ | ⏱: 42.23s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/etudes-de-cas/united-nations-federal-credi
+t-unions-unfcu       | ✓ | ⏱: 42.28s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/etudes-de-cas/united-nations-federal-credi
+t-unions-unfcu       | ✓ | ⏱: 0.05s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/etudes-de-cas/united-nations-federal-credi
+t-unions-unfcu       | ✓ | ⏱: 42.34s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/etudes-de-cas/confier        
+| ✓ | ⏱: 42.31s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/etudes-de-cas/confier        
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://sustainability-academy.org/fr/etudes-de-cas/confier        
+| ✓ | ⏱: 42.39s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/politique-de-confidentialite 
+| ✓ | ⏱: 40.18s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/politique-de-confidentialite 
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://sustainability-academy.org/fr/politique-de-confidentialite 
+| ✓ | ⏱: 40.25s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/faq                          
+| ✓ | ⏱: 42.47s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/faq                          
+| ✓ | ⏱: 0.07s 
+[COMPLETE] ● https://sustainability-academy.org/fr/faq                          
+| ✓ | ⏱: 42.55s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/produit/certificat-en-ligne-sur-le-rapport
+-sasb-tcfd           | ✓ | ⏱: 40.34s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/produit/certificat-en-ligne-sur-le-rapport
+-sasb-tcfd           | ✓ | ⏱: 0.13s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/produit/certificat-en-ligne-sur-le-rapport
+-sasb-tcfd           | ✓ | ⏱: 40.48s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/produit/ce...n-ligne-sur-le-developpement-
+durable-rapport-esg  | ✓ | ⏱: 40.48s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/produit/ce...n-ligne-sur-le-developpement-
+durable-rapport-esg  | ✓ | ⏱: 0.09s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/produit/ce...n-ligne-sur-le-developpement-
+durable-rapport-esg  | ✓ | ⏱: 40.58s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/produit/ce...n-ligne-sur-la-strategie-de-r
+eduction-du-carbone  | ✓ | ⏱: 40.58s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/produit/ce...n-ligne-sur-la-strategie-de-r
+eduction-du-carbone  | ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/produit/ce...n-ligne-sur-la-strategie-de-r
+eduction-du-carbone  | ✓ | ⏱: 40.71s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/produit/ce...-energies-renouvelables-la-vo
+ie-vers-le-net-zero  | ✓ | ⏱: 7.70s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/produit/ce...-energies-renouvelables-la-vo
+ie-vers-le-net-zero  | ✓ | ⏱: 0.09s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/produit/ce...-energies-renouvelables-la-vo
+ie-vers-le-net-zero  | ✓ | ⏱: 7.79s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/produit/co...ives-a-linformation-sur-le-de
+veloppement-durable  | ✓ | ⏱: 9.17s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/produit/co...ives-a-linformation-sur-le-de
+veloppement-durable  | ✓ | ⏱: 0.53s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/produit/co...ives-a-linformation-sur-le-de
+veloppement-durable  | ✓ | ⏱: 9.71s 
+[FETCH]... ↓ https://sustainability-academy.org/fr?add-to-cart=18659            
+| ✓ | ⏱: 32.94s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr?add-to-cart=18659            
+| ✓ | ⏱: 0.68s 
+[COMPLETE] ● https://sustainability-academy.org/fr?add-to-cart=18659            
+| ✓ | ⏱: 33.76s 
+[FETCH]... ↓ https://sustainability-academy.org/fr?add-to-cart=58               
+| ✓ | ⏱: 37.57s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr?add-to-cart=58               
+| ✓ | ⏱: 0.11s 
+[COMPLETE] ● https://sustainability-academy.org/fr?add-to-cart=58               
+| ✓ | ⏱: 37.70s 
+[FETCH]... ↓ https://sustainability-academy.org/fr?add-to-cart=17408            
+| ✓ | ⏱: 37.79s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr?add-to-cart=17408            
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● https://sustainability-academy.org/fr?add-to-cart=17408            
+| ✓ | ⏱: 38.05s 
+[FETCH]... ↓ https://sustainability-academy.org/fr?add-to-cart=18312            
+| ✓ | ⏱: 38.10s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr?add-to-cart=18312            
+| ✓ | ⏱: 0.21s 
+[COMPLETE] ● https://sustainability-academy.org/fr?add-to-cart=18312            
+| ✓ | ⏱: 38.32s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/strategies-pour-la-journee-mondiale-de-len
+vironnement-2026     | ✓ | ⏱: 38.42s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/strategies-pour-la-journee-mondiale-de-len
+vironnement-2026     | ✓ | ⏱: 0.09s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/strategies-pour-la-journee-mondiale-de-len
+vironnement-2026     | ✓ | ⏱: 38.52s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/sustainabi...orte-le-titre-de-produit-de-d
+urabilite-de-lannee  | ✓ | ⏱: 38.50s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/sustainabi...orte-le-titre-de-produit-de-d
+urabilite-de-lannee  | ✓ | ⏱: 0.04s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/sustainabi...orte-le-titre-de-produit-de-d
+urabilite-de-lannee  | ✓ | ⏱: 38.55s 
+[FETCH]... ↓ https://sustainability-academy.org/fr?add-to-cart=18317            
+| ✓ | ⏱: 38.79s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr?add-to-cart=18317            
+| ✓ | ⏱: 0.17s 
+[COMPLETE] ● https://sustainability-academy.org/fr?add-to-cart=18317            
+| ✓ | ⏱: 38.98s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/temoignages                  
+| ✓ | ⏱: 39.03s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/temoignages                  
+| ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://sustainability-academy.org/fr/temoignages                  
+| ✓ | ⏱: 39.13s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/reductions...ormations-de-groupe-sur-le-de
+veloppement-durable  | ✓ | ⏱: 39.11s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/reductions...ormations-de-groupe-sur-le-de
+veloppement-durable  | ✓ | ⏱: 0.07s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/reductions...ormations-de-groupe-sur-le-de
+veloppement-durable  | ✓ | ⏱: 39.19s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/temoignages-2/gm             
+| ✓ | ⏱: 39.21s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/temoignages-2/gm             
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://sustainability-academy.org/fr/temoignages-2/gm             
+| ✓ | ⏱: 39.25s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/temoignages-2/timperlant     
+| ✓ | ⏱: 39.24s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/temoignages-2/timperlant     
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://sustainability-academy.org/fr/temoignages-2/timperlant     
+| ✓ | ⏱: 39.27s 
+[FETCH]... ↓ https://sustainability-academy.org/fr?add-to-cart=72               
+| ✓ | ⏱: 36.60s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr?add-to-cart=72               
+| ✓ | ⏱: 0.09s 
+[COMPLETE] ● https://sustainability-academy.org/fr?add-to-cart=72               
+| ✓ | ⏱: 36.70s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/produit/lai-pour-les-entreprises-aibiz    
+| ✓ | ⏱: 39.36s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/produit/lai-pour-les-entreprises-aibiz    
+| ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/produit/lai-pour-les-entreprises-aibiz    
+| ✓ | ⏱: 39.49s 
+[FETCH]... ↓ https://sustainability-academy.org/fr?add-to-cart=17134            
+| ✓ | ⏱: 39.51s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr?add-to-cart=17134            
+| ✓ | ⏱: 0.16s 
+[COMPLETE] ● https://sustainability-academy.org/fr?add-to-cart=17134            
+| ✓ | ⏱: 39.68s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/produit/li...nce-artificielle-generative-p
+our-les-entreprises  | ✓ | ⏱: 39.67s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/produit/li...nce-artificielle-generative-p
+our-les-entreprises  | ✓ | ⏱: 1.45s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/produit/li...nce-artificielle-generative-p
+our-les-entreprises  | ✓ | ⏱: 41.16s 
+[FETCH]... ↓ https://sustainability-academy.org/fr/temoignages-2/coca-cola      
+| ✓ | ⏱: 41.32s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr/temoignages-2/coca-cola      
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://sustainability-academy.org/fr/temoignages-2/coca-cola      
+| ✓ | ⏱: 41.68s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/produit/diplome-en-sostenibilidad-empresar
+ial                  | ✓ | ⏱: 41.66s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/produit/diplome-en-sostenibilidad-empresar
+ial                  | ✓ | ⏱: 1.48s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/produit/diplome-en-sostenibilidad-empresar
+ial                  | ✓ | ⏱: 43.16s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/fr/produit/di...eloppement-durable-des-entrep
+rises-cours-de-base  | ✓ | ⏱: 43.19s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/fr/produit/di...eloppement-durable-des-entrep
+rises-cours-de-base  | ✓ | ⏱: 2.12s 
+[COMPLETE] ● 
+https://sustainability-academy.org/fr/produit/di...eloppement-durable-des-entrep
+rises-cours-de-base  | ✓ | ⏱: 46.03s 
+[FETCH]... ↓ https://sustainability-academy.org/fr?add-to-cart=78               
+| ✓ | ⏱: 40.48s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr?add-to-cart=78               
+| ✓ | ⏱: 2.37s 
+[COMPLETE] ● https://sustainability-academy.org/fr?add-to-cart=78               
+| ✓ | ⏱: 43.02s 
+[FETCH]... ↓ https://sustainability-academy.org/fr?add-to-cart=18152            
+| ✓ | ⏱: 50.29s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr?add-to-cart=18152            
+| ✓ | ⏱: 1.05s 
+[COMPLETE] ● https://sustainability-academy.org/fr?add-to-cart=18152            
+| ✓ | ⏱: 51.51s 
+[FETCH]... ↓ https://sustainability-academy.org/greenwashing-impact-on-csr      
+| ✓ | ⏱: 15.41s 
+[SCRAPE].. ◆ https://sustainability-academy.org/greenwashing-impact-on-csr      
+| ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://sustainability-academy.org/greenwashing-impact-on-csr      
+| ✓ | ⏱: 15.53s 
+[FETCH]... ↓ https://sustainability-academy.org/fr?add-to-cart=80               
+| ✓ | ⏱: 19.59s 
+[SCRAPE].. ◆ https://sustainability-academy.org/fr?add-to-cart=80               
+| ✓ | ⏱: 0.12s 
+[COMPLETE] ● https://sustainability-academy.org/fr?add-to-cart=80               
+| ✓ | ⏱: 19.72s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product-category/carbon-reduction-strategy   
+| ✓ | ⏱: 15.77s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product-category/carbon-reduction-strategy   
+| ✓ | ⏱: 1.87s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product-category/carbon-reduction-strategy   
+| ✓ | ⏱: 17.93s 
+[FETCH]... ↓ https://sustainability-academy.org/group-discount-packages         
+| ✓ | ⏱: 37.10s 
+[SCRAPE].. ◆ https://sustainability-academy.org/group-discount-packages         
+| ✓ | ⏱: 0.20s 
+[COMPLETE] ● https://sustainability-academy.org/group-discount-packages         
+| ✓ | ⏱: 37.36s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product/introduction-to-social-impact-assessm
+ent-and-sroi         | ✓ | ⏱: 28.40s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product/introduction-to-social-impact-assessm
+ent-and-sroi         | ✓ | ⏱: 0.08s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product/introduction-to-social-impact-assessm
+ent-and-sroi         | ✓ | ⏱: 28.49s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product/online-certificate-on-green-sustainab
+le-marketing         | ✓ | ⏱: 28.49s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product/online-certificate-on-green-sustainab
+le-marketing         | ✓ | ⏱: 0.06s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product/online-certificate-on-green-sustainab
+le-marketing         | ✓ | ⏱: 28.56s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product-category/sustainability-reporting    
+| ✓ | ⏱: 30.70s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product-category/sustainability-reporting    
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product-category/sustainability-reporting    
+| ✓ | ⏱: 30.74s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product/online-certificate-yachting          
+| ✓ | ⏱: 26.61s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product/online-certificate-yachting          
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product/online-certificate-yachting          
+| ✓ | ⏱: 26.67s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product/diplo...oppement-durable-des-entrepri
+ses-cours-de-base-2  | ✓ | ⏱: 30.88s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product/diplo...oppement-durable-des-entrepri
+ses-cours-de-base-2  | ✓ | ⏱: 0.08s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product/diplo...oppement-durable-des-entrepri
+ses-cours-de-base-2  | ✓ | ⏱: 30.97s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product/certified-circular-economy-profession
+al                   | ✓ | ⏱: 30.95s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product/certified-circular-economy-profession
+al                   | ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product/certified-circular-economy-profession
+al                   | ✓ | ⏱: 31.08s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product/esg-for-cfos-irs-and-fund-managers   
+| ✓ | ⏱: 28.90s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product/esg-for-cfos-irs-and-fund-managers   
+| ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product/esg-for-cfos-irs-and-fund-managers   
+| ✓ | ⏱: 29.02s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product/certificado-en-linea-sobre-informes-d
+e-sostenibilidad-esg | ✓ | ⏱: 31.24s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product/certificado-en-linea-sobre-informes-d
+e-sostenibilidad-esg | ✓ | ⏱: 0.09s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product/certificado-en-linea-sobre-informes-d
+e-sostenibilidad-esg | ✓ | ⏱: 31.34s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product-tag/carbon-reduction-certificate     
+| ✓ | ⏱: 31.30s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product-tag/carbon-reduction-certificate     
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product-tag/carbon-reduction-certificate     
+| ✓ | ⏱: 31.35s 
+[FETCH]... ↓ https://sustainability-academy.org/product-category/new-edition    
+| ✓ | ⏱: 35.00s 
+[SCRAPE].. ◆ https://sustainability-academy.org/product-category/new-edition    
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://sustainability-academy.org/product-category/new-edition    
+| ✓ | ⏱: 35.07s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product/online-diploma-on-social-entrepreneur
+ship                 | ✓ | ⏱: 27.26s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product/online-diploma-on-social-entrepreneur
+ship                 | ✓ | ⏱: 0.35s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product/online-diploma-on-social-entrepreneur
+ship                 | ✓ | ⏱: 27.62s 
+[FETCH]... ↓ https://sustainability-academy.org/product-category/best-seller    
+| ✓ | ⏱: 40.68s 
+[SCRAPE].. ◆ https://sustainability-academy.org/product-category/best-seller    
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://sustainability-academy.org/product-category/best-seller    
+| ✓ | ⏱: 40.72s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product/https...-org-product-certified-climat
+e-resilient-officer  | ✓ | ⏱: 29.67s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product/https...-org-product-certified-climat
+e-resilient-officer  | ✓ | ⏱: 0.09s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product/https...-org-product-certified-climat
+e-resilient-officer  | ✓ | ⏱: 29.77s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product-tag/net-zero-carbon-strategy         
+| ✓ | ⏱: 31.97s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product-tag/net-zero-carbon-strategy         
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product-tag/net-zero-carbon-strategy         
+| ✓ | ⏱: 32.03s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product/online-certificate-on-esg-ratings-and
+-investments         | ✓ | ⏱: 29.88s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product/online-certificate-on-esg-ratings-and
+-investments         | ✓ | ⏱: 0.06s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product/online-certificate-on-esg-ratings-and
+-investments         | ✓ | ⏱: 29.94s 
+[FETCH]... ↓ https://sustainability-academy.org/product-category/frontpage      
+| ✓ | ⏱: 39.09s 
+[SCRAPE].. ◆ https://sustainability-academy.org/product-category/frontpage      
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://sustainability-academy.org/product-category/frontpage      
+| ✓ | ⏱: 39.16s 
+[FETCH]... ↓ https://sustainability-academy.org/product-tag/cpd-certification   
+| ✓ | ⏱: 32.19s 
+[SCRAPE].. ◆ https://sustainability-academy.org/product-tag/cpd-certification   
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://sustainability-academy.org/product-tag/cpd-certification   
+| ✓ | ⏱: 32.23s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/product-tag/online-certificate-on-carbon-redu
+ction                | ✓ | ⏱: 32.26s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/product-tag/online-certificate-on-carbon-redu
+ction                | ✓ | ⏱: 0.03s 
+[COMPLETE] ● 
+https://sustainability-academy.org/product-tag/online-certificate-on-carbon-redu
+ction                | ✓ | ⏱: 32.29s 
+[FETCH]... ↓ https://sustainability-academy.org/shop/cart                       
+| ✓ | ⏱: 21.97s 
+[SCRAPE].. ◆ https://sustainability-academy.org/shop/cart                       
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://sustainability-academy.org/shop/cart                       
+| ✓ | ⏱: 22.02s 
+[FETCH]... ↓ https://sustainability-academy.org/shop/cart?add-to-cart=74,80     
+| ✓ | ⏱: 7.83s 
+[SCRAPE].. ◆ https://sustainability-academy.org/shop/cart?add-to-cart=74,80     
+| ✓ | ⏱: 0.31s 
+[COMPLETE] ● https://sustainability-academy.org/shop/cart?add-to-cart=74,80     
+| ✓ | ⏱: 8.24s 
+[FETCH]... ↓ https://sustainability-academy.org/testimonials/stjohn             
+| ✓ | ⏱: 19.83s 
+[SCRAPE].. ◆ https://sustainability-academy.org/testimonials/stjohn             
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● https://sustainability-academy.org/testimonials/stjohn             
+| ✓ | ⏱: 19.93s 
+[FETCH]... ↓ https://www.sustainability-academy.org                             
+| ✓ | ⏱: 21.10s 
+[SCRAPE].. ◆ https://www.sustainability-academy.org                             
+| ✓ | ⏱: 0.17s 
+[COMPLETE] ● https://www.sustainability-academy.org                             
+| ✓ | ⏱: 21.29s 
+[FETCH]... ↓ https://sustainability-academy.org/shop/cart?add-to-cart=80        
+| ✓ | ⏱: 21.46s 
+[SCRAPE].. ◆ https://sustainability-academy.org/shop/cart?add-to-cart=80        
+| ✓ | ⏱: 0.19s 
+[COMPLETE] ● https://sustainability-academy.org/shop/cart?add-to-cart=80        
+| ✓ | ⏱: 21.68s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/wp-content/uploads/2023/02/Basic-Level-Brochu
+re-updated.pdf       | ✓ | ⏱: 19.67s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/wp-content/uploads/2023/02/Basic-Level-Brochu
+re-updated.pdf       | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://sustainability-academy.org/wp-content/uploads/2023/02/Basic-Level-Brochu
+re-updated.pdf       | ✓ | ⏱: 19.76s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/wp-content/up...2023/02/Certified-Practitione
+r-Infographic-2.pdf  | ✓ | ⏱: 19.48s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/wp-content/up...2023/02/Certified-Practitione
+r-Infographic-2.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://sustainability-academy.org/wp-content/up...2023/02/Certified-Practitione
+r-Infographic-2.pdf  | ✓ | ⏱: 19.49s 
+[FETCH]... ↓ 
+https://sustainability-academy.org/sustainability-boosts-profitability          
+| ✓ | ⏱: 20.59s 
+[SCRAPE].. ◆ 
+https://sustainability-academy.org/sustainability-boosts-profitability          
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● 
+https://sustainability-academy.org/sustainability-boosts-profitability          
+| ✓ | ⏱: 20.89s 
+[FETCH]... ↓ https://sustainability-academy.org/tech-sustainability-innovation  
+| ✓ | ⏱: 20.95s 
+[SCRAPE].. ◆ https://sustainability-academy.org/tech-sustainability-innovation  
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://sustainability-academy.org/tech-sustainability-innovation  
+| ✓ | ⏱: 21.02s 
+[FETCH]... ↓ https://sustainability-academy.org/testimonials/unfcu              
+| ✓ | ⏱: 21.02s 
+[SCRAPE].. ◆ https://sustainability-academy.org/testimonials/unfcu              
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://sustainability-academy.org/testimonials/unfcu              
+| ✓ | ⏱: 21.07s 
+[FETCH]... ↓ https://sustainability-academy.org/sustainability-reporting-2025   
+| ✓ | ⏱: 21.08s 
+[SCRAPE].. ◆ https://sustainability-academy.org/sustainability-reporting-2025   
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://sustainability-academy.org/sustainability-reporting-2025   
+| ✓ | ⏱: 21.13s 
+[FETCH]... ↓ https://sustainability-academy.org/tutors/nikos-avlonas            
+| ✓ | ⏱: 20.42s 
+[SCRAPE].. ◆ https://sustainability-academy.org/tutors/nikos-avlonas            
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://sustainability-academy.org/tutors/nikos-avlonas            
+| ✓ | ⏱: 20.49s 
+[FETCH]... ↓ https://sustainability-academy.org/tutors/takeshi-shimotaya        
+| ✓ | ⏱: 20.39s 
+[SCRAPE].. ◆ https://sustainability-academy.org/tutors/takeshi-shimotaya        
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://sustainability-academy.org/tutors/takeshi-shimotaya        
+| ✓ | ⏱: 20.42s 
+[FETCH]... ↓ https://sustainability-academy.org/tutors/lena-mamidakis           
+| ✓ | ⏱: 20.30s 
+[SCRAPE].. ◆ https://sustainability-academy.org/tutors/lena-mamidakis           
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://sustainability-academy.org/tutors/lena-mamidakis           
+| ✓ | ⏱: 20.33s 
+[FETCH]... ↓ https://sustainability-academy.org/tutors/michael-sheridan         
+| ✓ | ⏱: 20.56s 
+[SCRAPE].. ◆ https://sustainability-academy.org/tutors/michael-sheridan         
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://sustainability-academy.org/tutors/michael-sheridan         
+| ✓ | ⏱: 20.59s 
+[FETCH]... ↓ https://sustainability-academy.org/tutors/marina-alonistioti       
+| ✓ | ⏱: 20.54s 
+[SCRAPE].. ◆ https://sustainability-academy.org/tutors/marina-alonistioti       
+| ✓ | ⏱: 0.02s 
+[COMPLETE] ● https://sustainability-academy.org/tutors/marina-alonistioti       
+| ✓ | ⏱: 20.57s 
+[FETCH]... ↓ https://sustainability-academy.org/tutors/rosalinda-sanquiche      
+| ✓ | ⏱: 20.38s 
+[SCRAPE].. ◆ https://sustainability-academy.org/tutors/rosalinda-sanquiche      
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://sustainability-academy.org/tutors/rosalinda-sanquiche      
+| ✓ | ⏱: 20.41s 
+[FETCH]... ↓ https://sustainability-academy.org/tutors/john-gremer              
+| ✓ | ⏱: 20.40s 
+[SCRAPE].. ◆ https://sustainability-academy.org/tutors/john-gremer              
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://sustainability-academy.org/tutors/john-gremer              
+| ✓ | ⏱: 20.43s 
+  Saved: 000_sustainability-academy.org.md (3055 words)
+  Saved: 001_sustainability-academy.org.md (3060 words)
+  SKIP (failed): https://sustainability-academy.org/case_studies/entrust
+  SKIP (failed): https://sustainability-academy.org/es
+  SKIP (failed): https://sustainability-academy.org/become-a-certified-sustainability-consultant
+  SKIP (failed): https://sustainability-academy.org/case_studies/t-mobile
+  SKIP (failed): https://sustainability-academy.org/certified-courses
+  SKIP (failed): https://sustainability-academy.org/case_studies/mol
+  SKIP (failed): https://sustainability-academy.org/case_studies/united-nations-federal-credit-unions-unfcu
+  SKIP (failed): https://sustainability-academy.org/cart
+  SKIP (failed): https://sustainability-academy.org/case_studies/oracle
+  Saved: 011_cse.sustainability-academy.org_index.md (198 words)
+  Saved: 012_sustainability-academy.org_customize-your-course.md (2059 words)
+  Saved: 013_sustainability-academy.org_certified-esg-courses.md (2964 words)
+  Saved: 014_sustainability-academy.org_case_studies_netgear.md (805 words)
+  Saved: 015_sustainability-academy.org_blog.md (919 words)
+  Saved: 016_sustainability-academy.org_about-us.md (1149 words)
+  Saved: 017_sustainability-academy.org_contact-us.md (645 words)
+  Saved: 018_sustainability-academy.org_case_studies_workday.md (780 words)
+  Saved: 019_sustainability-academy.org_case_studies.md (815 words)
+  Saved: 020_sustainability-academy.org_case_studies_15613.md (902 words)
+  SKIP (failed): https://sustainability-academy.org/product/diploma-on-corporate-sustainability-foundation-course
+  SKIP (failed): https://sustainability-academy.org/product/online-certificate-csrd-esrs
+  SKIP (failed): https://sustainability-academy.org/product/online-certificate-on-sasb-tcfd-reporting
+  SKIP (failed): https://sustainability-academy.org/product/online-certificate-on-sustainability-esg-reporting
+  SKIP (failed): https://sustainability-academy.org/refer-and-win
+  Saved: 026_sustainability-academy.org_privacy-policy.md (2802 words)
+  SKIP (failed): https://sustainability-academy.org/product/online-certificate-in-renewable-energy-fundamentals-the-path-to-net-zero
+  SKIP (failed): https://sustainability-academy.org/product/generative-ai-for-business
+  Saved: 029_sustainability-academy.org_product_ai-for-business-aibiz.md (2049 words)
+  Saved: 030_sustainability-academy.org_esg-group-courses.md (2007 words)
+  Saved: 031_sustainability-academy.org_esg-regulations-jobs.md (1568 words)
+  Saved: 032_sustainability-academy.org_group-online-courses.md (2004 words)
+  Saved: 033_sustainability-academy.org_media-partners.md (928 words)
+  Saved: 034_sustainability-academy.org_group-sustainability-training-discounts.md (1685 words)
+  Saved: 035_sustainability-academy.org_fr.md (3844 words)
+  Saved: 036_sustainability-academy.org_product_advanced-course-on-ifrs-s1-s2-sustainability-reporting-standards.md (2254 words)
+  Saved: 037_sustainability-academy.org_faq.md (2211 words)
+  Saved: 038_sustainability-academy.org_product_diploma-en-sostenibilidad-empresarial.md (2036 words)
+  SKIP (failed): https://sustainability-academy.org?add-to-cart=17408
+  SKIP (failed): https://sustainability-academy.org?add-to-cart=72
+  SKIP (failed): https://sustainability-academy.org?add-to-cart=18152
+  SKIP (failed): https://sustainability-academy.org?add-to-cart=17134
+  SKIP (failed): https://sustainability-academy.org/top-sustainability-courses-in-2026
+  SKIP (failed): https://sustainability-academy.org/testimonials/timperlant
+  SKIP (failed): https://sustainability-academy.org/world-environment-day-2026-strategies
+  SKIP (failed): https://sustainability-academy.org/testimonials/coca-cola
+  SKIP (failed): https://sustainability-academy.org/testimonials/gm
+  SKIP (failed): https://sustainability-academy.org/terms-and-conditions
+  SKIP (failed): https://sustainability-academy.org/testimonies
+  SKIP (failed): https://sustainability-academy.org?add-to-cart=18312
+  SKIP (failed): https://sustainability-academy.org?add-to-cart=18317
+  SKIP (failed): https://sustainability-academy.org?add-to-cart=18659
+  SKIP (failed): https://sustainability-academy.org?add-to-cart=78
+  SKIP (failed): https://sustainability-academy.org?add-to-cart=58
+  Saved: 055_sustainability-academy.org_recognized-sustainable-employer-invest-in-workforce.md (1949 words)
+  Saved: 056_sustainability-academy.org_product_online-certificate-on-carbon-reduction-strategy.md (2335 words)
+  Saved: 057_sustainability-academy.org_sustainability-academy-award-winning-digital-platform-empowering-global-change.md (1057 words)
+  Saved: 058_sustainability-academy.org_sustainability-academy-earns-the-title-of-sustainability-product-of-the-year.md (1156 words)
+  Saved: 059_sustainability-academy.org?add-to-cart=80.md (3037 words)
+  SKIP (failed): http://www.sustainability-academy.org/about-us
+  SKIP (failed): https://sustainability-academy.org/category/corporate-sustainability
+  SKIP (failed): https://sustainability-academy.org/category/sustainability-education
+  Saved: 063_cse.sustainability-academy.org.md (358 words)
+  Saved: 064_sustainability-academy.org_category_education.md (663 words)
+  Saved: 065_sustainability-academy.org_category_sustainability-educationpress-release.md (661 words)
+  Saved: 066_cse.sustainability-academy.org_catalog.md (280 words)
+  Saved: 067_sustainability-academy.org_best-online-sustainability-courses.md (1450 words)
+  Saved: 068_sustainability-academy.org_category_sustainability.md (658 words)
+  Saved: 069_sustainability-academy.org_category_esg-reporting.md (662 words)
+  Saved: 070_cse.sustainability-academy.org_index_sociallogin_service:linkedin,init:yes.md (210 words)
+  Saved: 071_cse.sustainability-academy.org_index_sociallogin_service:google.md (223 words)
+  Saved: 072_sustainability-academy.org_category_news.md (658 words)
+  Saved: 073_cse.sustainability-academy.org_unit_view_id:63728.md (28 words)
+  Saved: 074_cse.sustainability-academy.org_unit_view_id:63731.md (28 words)
+  Saved: 075_cse.sustainability-academy.org_unit_view_id:62612.md (28 words)
+  Saved: 076_cse.sustainability-academy.org_unit_view_id:63729.md (28 words)
+  Saved: 077_www.sustainability-academy.org.md (3055 words)
+  Saved: 078_cse.sustainability-academy.org_index_sociallogin_service:facebook.md (84 words)
+  Saved: 079_cse.sustainability-academy.org_unit_view_id:63726.md (28 words)
+  Saved: 080_sustainability-academy.org_category_sustainability-innovation.md (659 words)
+  Saved: 081_sustainability-academy.org_category_sustainability-jobssustainability-consulting.md (660 words)
+  Saved: 082_sustainability-academy.org_category_sustainability-reporting.md (656 words)
+  Saved: 083_sustainability-academy.org_category_sustainability-leadership.md (659 words)
+  Saved: 084_sustainability-academy.org_certified-esg-courses?add-to-cart=17151.md (2965 words)
+  Saved: 085_sustainability-academy.org_certified-esg-courses?add-to-cart=16230.md (2963 words)
+  Saved: 086_sustainability-academy.org_certified-esg-courses?add-to-cart=17269.md (2968 words)
+  Saved: 087_sustainability-academy.org_category_sustainable-economy.md (640 words)
+  Saved: 088_sustainability-academy.org_certified-esg-courses?add-to-cart=16974.md (2965 words)
+  Saved: 089_sustainability-academy.org_certified-esg-courses?add-to-cart=17134.md (2962 words)
+  Saved: 090_sustainability-academy.org_certified-esg-courses?add-to-cart=16306.md (2946 words)
+  Saved: 091_sustainability-academy.org_category_sustainability-training.md (659 words)
+  Saved: 092_sustainability-academy.org_certified-esg-courses?add-to-cart=17740.md (2964 words)
+  Saved: 093_sustainability-academy.org_certified-esg-courses?add-to-cart=17408.md (2964 words)
+  Saved: 094_sustainability-academy.org_certified-esg-courses?add-to-cart=18312.md (2964 words)
+  Saved: 095_sustainability-academy.org_certified-esg-courses?add-to-cart=18659.md (2970 words)
+  Saved: 096_sustainability-academy.org_certified-esg-courses?add-to-cart=64.md (2968 words)
+  Saved: 097_sustainability-academy.org_certified-esg-courses?add-to-cart=18317.md (2968 words)
+  Saved: 098_sustainability-academy.org_certified-esg-courses?add-to-cart=60.md (2970 words)
+  Saved: 099_sustainability-academy.org_certified-esg-courses?add-to-cart=58.md (2965 words)
+  Saved: 100_sustainability-academy.org_certified-esg-courses?add-to-cart=18152.md (2970 words)
+  Saved: 101_sustainability-academy.org_certified-esg-courses?add-to-cart=72.md (2965 words)
+  Saved: 102_sustainability-academy.org_certified-esg-courses?add-to-cart=76.md (2967 words)
+  Saved: 103_sustainability-academy.org_certified-esg-courses?add-to-cart=74.md (2968 words)
+  Saved: 104_sustainability-academy.org_certified-esg-courses?add-to-cart=78.md (2946 words)
+  Saved: 105_sustainability-academy.org_es_blog.md (1074 words)
+  Saved: 106_sustainability-academy.org_es_cursos-del-grupo-esg.md (2183 words)
+  Saved: 107_sustainability-academy.org_certified-esg-courses?add-to-cart=82.md (2968 words)
+  Saved: 108_sustainability-academy.org_certified-esg-courses?add-to-cart=80.md (2964 words)
+  Saved: 109_sustainability-academy.org_es_acerca-de-nosotros.md (1277 words)
+  Saved: 110_sustainability-academy.org_company-address-climate-risks.md (1649 words)
+  Saved: 111_sustainability-academy.org_certified-online-courses.md (2962 words)
+  Saved: 112_sustainability-academy.org_es_contacto.md (708 words)
+  Saved: 113_sustainability-academy.org_es_estudios_de_caso_netgear.md (889 words)
+  Saved: 114_sustainability-academy.org_es_estudios_de_caso.md (913 words)
+  Saved: 115_sustainability-academy.org_es_descuentos-para-grupos-en-formacion-sobre-sostenibilidad.md (1841 words)
+  Saved: 116_sustainability-academy.org_es_estudios_de_caso_jornada-laboral.md (900 words)
+  Saved: 117_sustainability-academy.org_es_empleador-sostenible-reconocido-invierte-en-mano-de-obra.md (2123 words)
+  Saved: 118_sustainability-academy.org_es_estudios_de_caso_15613.md (1023 words)
+  Saved: 119_sustainability-academy.org_es_cursos-esg-certificados.md (3740 words)
+  Saved: 120_sustainability-academy.org_es_case_studies_mol.md (1022 words)
+  Saved: 121_sustainability-academy.org_es_plataforma-digital-ganadora-del-premio-de-la-academia-de-sostenibilidad-que-impulsa-el-cam.md (1188 words)
+  Saved: 122_sustainability-academy.org_es_medios-de-comunicacion-asociados.md (1056 words)
+  Saved: 123_sustainability-academy.org_es_faq.md (2339 words)
+  Saved: 124_sustainability-academy.org_es_personalice-su-curso.md (2256 words)
+  Saved: 125_sustainability-academy.org_es_la-academia-de-sostenibilidad-obtiene-el-titulo-de-producto-sostenible-del-ano.md (1288 words)
+  Saved: 126_sustainability-academy.org_es_reglamento-de-la-esg-puestos-de-trabajo.md (2056 words)
+  Saved: 127_sustainability-academy.org_fr_cours-collectifs-esg.md (2232 words)
+  Saved: 128_sustainability-academy.org_fr_conditions-generales.md (1284 words)
+  Saved: 129_sustainability-academy.org_fr_a-propos-de-nous.md (1332 words)
+  Saved: 130_sustainability-academy.org_fr_caisse.md (1939 words)
+  Saved: 131_sustainability-academy.org_es?add-to-cart=80.md (3777 words)
+  Saved: 132_sustainability-academy.org_fr_chariot.md (1792 words)
+  Saved: 133_sustainability-academy.org_esg-market-shifts-global.md (1472 words)
+  Saved: 134_sustainability-academy.org_es_producto_certificado-en-linea-sobre-estrategia-de-reduccion-del-carbono.md (3007 words)
+  Saved: 135_sustainability-academy.org_es_producto_diploma-en-sostenibilidad-empresarial-3.md (2520 words)
+  Saved: 136_sustainability-academy.org_es_politica-de-privacidad.md (3006 words)
+  Saved: 137_sustainability-academy.org_eu-sustainability-reporting.md (1817 words)
+  Saved: 138_sustainability-academy.org_es_producto_ai-para-empresas-aibiz.md (2698 words)
+  Saved: 139_sustainability-academy.org_fr_blog.md (1047 words)
+  Saved: 140_sustainability-academy.org_fr_etudes-de-cas.md (859 words)
+  Saved: 141_sustainability-academy.org_fr_cours-desg-certifies.md (3741 words)
+  Saved: 142_sustainability-academy.org_es_producto_curso-avanzado-sobre-las-normas-ifrs-s1-s2-para-la-elaboracion-de-memorias-de-sos.md (2975 words)
+  Saved: 143_sustainability-academy.org_fr_employeur-durable-reconnu-investir-dans-la-main-doeuvre.md (2059 words)
+  Saved: 144_sustainability-academy.org_fr_emplois-dans-le-domaine-de-la-reglementation-de-lesg.md (2083 words)
+  Saved: 145_sustainability-academy.org_fr_devenir-consultant-certifie-en-developpement-durable.md (2269 words)
+  SKIP (failed): https://sustainability-academy.org/fr/partenaires-medias
+  Saved: 147_sustainability-academy.org_fr_etudes-de-cas_15613.md (969 words)
+  Saved: 148_sustainability-academy.org_fr_nous-contacter.md (651 words)
+  Saved: 149_sustainability-academy.org_fr_produit_certificat-en-ligne-csrd-esrs.md (2344 words)
+  Saved: 150_sustainability-academy.org_fr_etudes-de-cas_netgear.md (903 words)
+  Saved: 151_sustainability-academy.org_fr_etudes-de-cas_t-mobile.md (804 words)
+  Saved: 152_sustainability-academy.org_fr_etudes-de-cas_journee-de-travail.md (877 words)
+  Saved: 153_sustainability-academy.org_fr_parrainez-et-gagnez.md (1555 words)
+  Saved: 154_sustainability-academy.org_fr_produit_certificat-en-ligne-sur-la-strategie-de-reduction-du-carbone.md (2780 words)
+  Saved: 155_sustainability-academy.org_fr_etudes-de-cas_united-nations-federal-credit-unions-unfcu.md (930 words)
+  Saved: 156_sustainability-academy.org_fr_plateforme-numerique-recompensee-par-lacademie-du-developpement-durable-pour-favoriser-le-.md (1186 words)
+  Saved: 157_sustainability-academy.org_fr_etudes-de-cas_mol.md (999 words)
+  Saved: 158_sustainability-academy.org_fr_faq.md (2401 words)
+  Saved: 159_sustainability-academy.org_fr_produit_certificat-en-ligne-sur-le-developpement-durable-rapport-esg.md (2476 words)
+  Saved: 160_sustainability-academy.org_fr_produit_certificat-en-ligne-sur-le-rapport-sasb-tcfd.md (2485 words)
+  Saved: 161_sustainability-academy.org_fr_politique-de-confidentialite.md (3082 words)
+  Saved: 162_sustainability-academy.org_fr_etudes-de-cas_confier.md (827 words)
+  Saved: 163_sustainability-academy.org_fr_etudes-de-cas_oracle.md (821 words)
+  Saved: 164_sustainability-academy.org_fr_personnalisez-votre-cours.md (2237 words)
+  Saved: 165_sustainability-academy.org_fr_les-meilleurs-cours-sur-le-developpement-durable-en-2026.md (2519 words)
+  Saved: 166_sustainability-academy.org_fr_produit_certificat-en-ligne-sur-les-fondements-des-energies-renouvelables-la-voie-vers-le-.md (2684 words)
+  Saved: 167_sustainability-academy.org_fr_produit_cours-avance-sur-les-normes-ifrs-s1-s2-relatives-a-linformation-sur-le-developpeme.md (2701 words)
+  Saved: 168_sustainability-academy.org_fr?add-to-cart=18659.md (3782 words)
+  Saved: 169_sustainability-academy.org_fr?add-to-cart=58.md (3783 words)
+  Saved: 170_sustainability-academy.org_fr?add-to-cart=17408.md (3783 words)
+  Saved: 171_sustainability-academy.org_fr?add-to-cart=18312.md (3780 words)
+  Saved: 172_sustainability-academy.org_fr_strategies-pour-la-journee-mondiale-de-lenvironnement-2026.md (1765 words)
+  Saved: 173_sustainability-academy.org_fr_sustainability-academy-remporte-le-titre-de-produit-de-durabilite-de-lannee.md (1277 words)
+  Saved: 174_sustainability-academy.org_fr_temoignages-2_gm.md (699 words)
+  Saved: 175_sustainability-academy.org_fr_temoignages-2_timperlant.md (703 words)
+  Saved: 176_sustainability-academy.org_fr_reductions-pour-les-formations-de-groupe-sur-le-developpement-durable.md (1783 words)
+  Saved: 177_sustainability-academy.org_fr?add-to-cart=72.md (3772 words)
+  Saved: 178_sustainability-academy.org_fr?add-to-cart=18317.md (3769 words)
+  Saved: 179_sustainability-academy.org_fr_produit_lai-pour-les-entreprises-aibiz.md (2489 words)
+  Saved: 180_sustainability-academy.org_fr_produit_lintelligence-artificielle-generative-pour-les-entreprises.md (2858 words)
+  Saved: 181_sustainability-academy.org_fr?add-to-cart=17134.md (3779 words)
+  Saved: 182_sustainability-academy.org_fr_temoignages.md (2776 words)
+  Saved: 183_sustainability-academy.org_fr_produit_diplome-en-sostenibilidad-empresarial.md (2315 words)
+  Saved: 184_sustainability-academy.org_fr_produit_diplome-sur-le-developpement-durable-des-entreprises-cours-de-base.md (2511 words)
+  Saved: 185_sustainability-academy.org_fr_temoignages-2_coca-cola.md (696 words)
+  Saved: 186_sustainability-academy.org_fr?add-to-cart=18152.md (3775 words)
+  Saved: 187_sustainability-academy.org_fr?add-to-cart=78.md (3784 words)
+  Saved: 188_sustainability-academy.org_fr?add-to-cart=80.md (3773 words)
+  Saved: 189_sustainability-academy.org_greenwashing-impact-on-csr.md (1658 words)
+  Saved: 190_sustainability-academy.org_product-category_carbon-reduction-strategy.md (696 words)
+  Saved: 191_sustainability-academy.org_group-discount-packages.md (1634 words)
+  Saved: 192_sustainability-academy.org_product_diplome-sur-le-developpement-durable-des-entreprises-cours-de-base-2.md (2134 words)
+  Saved: 193_sustainability-academy.org_product_online-certificate-yachting.md (1932 words)
+  Saved: 194_sustainability-academy.org_product_certified-circular-economy-professional.md (1896 words)
+  Saved: 195_sustainability-academy.org_product_introduction-to-social-impact-assessment-and-sroi.md (1869 words)
+  Saved: 196_sustainability-academy.org_product_online-certificate-on-green-sustainable-marketing.md (1879 words)
+  Saved: 197_sustainability-academy.org_product-category_sustainability-reporting.md (1024 words)
+  Saved: 198_sustainability-academy.org_product_online-diploma-on-social-entrepreneurship.md (1819 words)
+  Saved: 199_sustainability-academy.org_product_online-certificate-on-esg-ratings-and-investments.md (1931 words)
+  Saved: 200_sustainability-academy.org_product-tag_net-zero-carbon-strategy.md (712 words)
+  Saved: 201_sustainability-academy.org_product-category_new-edition.md (1358 words)
+  Saved: 202_sustainability-academy.org_product-category_best-seller.md (1077 words)
+  Saved: 203_sustainability-academy.org_product_certificado-en-linea-sobre-informes-de-sostenibilidad-esg.md (2117 words)
+  Saved: 204_sustainability-academy.org_product_esg-for-cfos-irs-and-fund-managers.md (1886 words)
+  Saved: 205_sustainability-academy.org_product_https-sustainability-academy-org-product-certified-climate-resilient-officer.md (2091 words)
+  Saved: 206_sustainability-academy.org_product-tag_carbon-reduction-certificate.md (716 words)
+  Saved: 207_sustainability-academy.org_product-tag_cpd-certification.md (708 words)
+  Saved: 208_sustainability-academy.org_product-category_frontpage.md (1513 words)
+  Saved: 209_sustainability-academy.org_product-tag_online-certificate-on-carbon-reduction.md (717 words)
+  Saved: 210_sustainability-academy.org_shop_cart.md (1157 words)
+  Saved: 211_sustainability-academy.org_shop_cart?add-to-cart=74%2C80.md (1252 words)
+  Saved: 212_sustainability-academy.org_testimonials_stjohn.md (622 words)
+  Saved: 213_www.sustainability-academy.org.md (2985 words)
+  Saved: 214_sustainability-academy.org_shop_cart?add-to-cart=80.md (1277 words)
+  Saved: 217_sustainability-academy.org_sustainability-boosts-profitability.md (1517 words)
+  Saved: 218_sustainability-academy.org_tech-sustainability-innovation.md (1701 words)
+  Saved: 219_sustainability-academy.org_testimonials_unfcu.md (609 words)
+  Saved: 220_sustainability-academy.org_sustainability-reporting-2025.md (1454 words)
+  Saved: 221_sustainability-academy.org_tutors_nikos-avlonas.md (1038 words)
+  Saved: 222_sustainability-academy.org_tutors_takeshi-shimotaya.md (739 words)
+  Saved: 223_sustainability-academy.org_tutors_lena-mamidakis.md (759 words)
+  Saved: 224_sustainability-academy.org_tutors_michael-sheridan.md (736 words)
+  Saved: 225_sustainability-academy.org_tutors_marina-alonistioti.md (814 words)
+  Saved: 226_sustainability-academy.org_tutors_rosalinda-sanquiche.md (859 words)
+  Saved: 227_sustainability-academy.org_tutors_john-gremer.md (741 words)
+
+Done: 190 pages saved to /Users/knowprajjwal/LearningPlatform/Competitor Analysis/scripts/../content/sustainability-academy

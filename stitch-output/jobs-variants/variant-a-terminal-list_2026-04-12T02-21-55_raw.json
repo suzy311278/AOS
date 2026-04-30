@@ -1,0 +1,186 @@
+{
+  "outputComponents": [
+    {
+      "design": {
+        "screens": [
+          {
+            "designSystem": {
+              "designSystem": {
+                "displayName": "Greentryst Veridian",
+                "theme": {
+                  "bodyFont": "INTER",
+                  "colorMode": "LIGHT",
+                  "colorVariant": "FIDELITY",
+                  "customColor": "#2D6A4F",
+                  "designMd": "# Design System Specification: The Sovereign Ecosystem\n\n## 1. Overview & Creative North Star\n**Creative North Star: \"The Architectural Ledger\"**\n\nThis design system is built to transform complex sustainability data into an authoritative, editorial experience. We are moving away from the \"SaaS-standard\" look of playful roundedness and bright accents. Instead, we embrace a \"Bloomberg-esque\" gravity: dense, data-rich, and quietly confident.\n\nThe \"Architectural Ledger\" approach treats the screen like a high-end financial publication. We utilize intentional asymmetry, where metadata (using JetBrains Mono) acts as a structural anchor for the flowing Inter typography. By leaning into a monochromatic forest palette, we establish a sense of deep-rooted stability and professional environmental stewardship. This is not just a tool; it is a system of record.\n\n---\n\n## 2. Colors: Tonal Depth & The \"No-Line\" Rule\n\nThe color strategy relies on **Tonal Layering**. We do not use borders to separate ideas; we use the weight of the greens to define space.\n\n### Core Palette\n*   **Background (Surface):** `#D8F3DC` (Pale Green) – The foundation.\n*   **Primary Action:** `#2D6A4F` (Medium Green) – Used exclusively for high-intent CTAs.\n*   **Surface Lowest (Cards):** `#FFFFFF` (White) – Creating a crisp, elevated \"paper\" feel.\n*   **Deep Text:** `#081C15` – High-contrast, authoritative legibility.\n\n### The \"No-Line\" Rule\n**Explicit Instruction:** Do not use 1px solid borders for sectioning. \nBoundaries must be defined through background shifts. A `surface-container-low` section sitting on a `surface` background provides all the separation necessary. If a container needs to stand out, use a shift in tonal value rather than a mechanical line. \n\n### Surface Hierarchy & Nesting\nTreat the UI as stacked sheets of fine, heavy-stock paper.\n*   **Base:** `surface` (#D8F3DC)\n*   **Level 1 (Sections):** `surface-container-low` (#E2F9ED)\n*   **Level 2 (Active Cards):** `surface-container-lowest` (#FFFFFF)\n*   **Level 3 (Pop-overs):** `surface-bright` with 4% shadow.\n\n---\n\n## 3. Typography: The Editorial Balance\n\nWe pair the neutrality of **Inter** with the precision of **JetBrains Mono**. This contrast signals a marriage of human-centric policy and raw data integrity.\n\n### Typography Scale\n*   **Display (Inter, Tight Tracking):** `display-lg` (3.5rem) / `display-md` (2.75rem). Use for high-level sustainability scores.\n*   **Headings (Inter, Medium Weight):** `headline-sm` (1.5rem) to `title-lg` (1.375rem). Always `#081C15`.\n*   **Data & Metadata (JetBrains Mono):** Use for all numbers, timestamps, eyebrows, and technical labels. \n    *   *Example:* An \"Emissions Report\" eyebrow should be `label-sm` in JetBrains Mono, All Caps, +5% letter spacing.\n*   **Body (Inter):** `body-md` (0.875rem). Optimized for dense reading.\n\n---\n\n## 4. Elevation & Depth: Tonal Layering\n\nTraditional shadows and borders are replaced by **Ambient Elevation**.\n\n*   **The Layering Principle:** Depth is achieved by \"stacking\" tones. Place a `#FFFFFF` card on a `#D8F3DC` background to create a soft, natural lift.\n*   **Ambient Shadows:** For floating elements (modals/tooltips), use an extra-diffused shadow: `box-shadow: 0 12px 40px rgba(11, 61, 46, 0.08);`. The shadow color is a deep forest tint, not grey, ensuring it feels part of the environment.\n*   **The \"Ghost Border\" Fallback:** If a border is required for accessibility, use the `outline-variant` token (#BFC9C1) at **15% opacity**. It should be felt, not seen.\n*   **Glassmorphism:** For top navigation bars or sticky headers, use: `background: rgba(216, 243, 220, 0.8); backdrop-filter: blur(12px);`. This allows the data density of the page to peek through, maintaining context.\n\n---\n\n## 5. Components\n\n### Buttons\n*   **Primary:** Background `#2D6A4F`, Text `#FFFFFF`, 8px radius. No gradient.\n*   **Secondary:** Background `surface-container-high`, Text `primary`.\n*   **Tertiary:** No background. JetBrains Mono text with a Lucide icon. Use 8px padding for a \"hit state\" shift.\n\n### Cards & Data Lists\n*   **Cards:** 16px rounded corners. Background `#FFFFFF`. No borders.\n*   **List Separation:** **Forbid dividers.** Use 24px vertical white space or a subtle background toggle (Zebra striping with `#D8F3DC` at 50% opacity) to separate data rows.\n*   **Data Density:** Information should be \"Bloomberg-dense.\" Use `body-sm` for secondary data points to maximize the \"at-a-glance\" utility of the operating system.\n\n### Form Inputs\n*   **Fields:** Use `surface-container-lowest` (#FFFFFF) with an 8px radius. \n*   **Focus State:** A 2px solid stroke of `#40916C`. \n*   **Labels:** Always JetBrains Mono, `label-md`, positioned above the field to maintain the ledger aesthetic.\n\n### Status Indicators (Lucide Icons Only)\n*   Use Lucide icons at 1.25em. Use the `Leaf`, `BarChart3`, `ShieldCheck`, and `Globe` icons to emphasize the sustainability mission. Icons should always be the same color as the text they accompany (Primary or On-Surface).\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do\n*   **Do** use JetBrains Mono for any value that can be measured (percentages, dates, metric tons).\n*   **Do** embrace generous margins (32px+) between major sections while keeping content *within* those sections dense.\n*   **Do** use \"Deep Forest\" (#0B3D2E) for heavy-weight sidebar navigation to create a strong vertical anchor.\n\n### Don't\n*   **Don't** use 1px dividers to separate list items. Use white space.\n*   **Don't** use gradients. The authority of this system comes from its flat, matte, \"ink on paper\" quality.\n*   **Don't** use Serif fonts. We are a \"Modern Operating System,\" not a traditional newspaper.\n*   **Don't** use standard \"Drop Shadows.\" Only use the Ambient Shadow specification for floating layers.",
+                  "font": "INTER",
+                  "headlineFont": "INTER",
+                  "labelFont": "INTER",
+                  "namedColors": {
+                    "background": "#e7fff3",
+                    "error": "#ba1a1a",
+                    "error_container": "#ffdad6",
+                    "inverse_on_surface": "#dff6ea",
+                    "inverse_primary": "#95d4b3",
+                    "inverse_surface": "#21342c",
+                    "on_background": "#0b1f18",
+                    "on_error": "#ffffff",
+                    "on_error_container": "#93000a",
+                    "on_primary": "#ffffff",
+                    "on_primary_container": "#a8e7c5",
+                    "on_primary_fixed": "#002114",
+                    "on_primary_fixed_variant": "#0e5138",
+                    "on_secondary": "#ffffff",
+                    "on_secondary_container": "#436b58",
+                    "on_secondary_fixed": "#002114",
+                    "on_secondary_fixed_variant": "#274e3d",
+                    "on_surface": "#0b1f18",
+                    "on_surface_variant": "#404943",
+                    "on_tertiary": "#ffffff",
+                    "on_tertiary_container": "#98eabf",
+                    "on_tertiary_fixed": "#002113",
+                    "on_tertiary_fixed_variant": "#005236",
+                    "outline": "#707973",
+                    "outline_variant": "#bfc9c1",
+                    "primary": "#0f5238",
+                    "primary_container": "#2d6a4f",
+                    "primary_fixed": "#b1f0ce",
+                    "primary_fixed_dim": "#95d4b3",
+                    "secondary": "#3f6653",
+                    "secondary_container": "#beead1",
+                    "secondary_fixed": "#c1ecd4",
+                    "secondary_fixed_dim": "#a5d0b9",
+                    "surface": "#e7fff3",
+                    "surface_bright": "#e7fff3",
+                    "surface_container": "#dcf3e7",
+                    "surface_container_high": "#d6eee2",
+                    "surface_container_highest": "#d1e8dc",
+                    "surface_container_low": "#e2f9ed",
+                    "surface_container_lowest": "#ffffff",
+                    "surface_dim": "#c8dfd4",
+                    "surface_tint": "#2c694e",
+                    "surface_variant": "#d1e8dc",
+                    "tertiary": "#005236",
+                    "tertiary_container": "#116c4a",
+                    "tertiary_fixed": "#a1f4c8",
+                    "tertiary_fixed_dim": "#86d7ad"
+                  },
+                  "overrideNeutralColor": "#081C15",
+                  "overridePrimaryColor": "#2D6A4F",
+                  "overrideSecondaryColor": "#1B4332",
+                  "overrideTertiaryColor": "#40916C",
+                  "roundness": "ROUND_EIGHT",
+                  "spacingScale": 1
+                }
+              },
+              "name": "assets/841e807711d74299a963dc65414832ec",
+              "version": "1"
+            },
+            "deviceType": "DESKTOP",
+            "generatedBy": "figaro_agent",
+            "height": "3002",
+            "htmlCode": {
+              "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2RkNDNhOTJiZmI0NDQyZDJiOTdlNTEwNDg3YjZkMDQyEgsSBxD4gf-qtRAYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjQ1NzE5MDI4NDUwNTkyMTk0&filename=&opi=96797242",
+              "mimeType": "text/html",
+              "name": "projects/6245719028450592194/files/d853e84b40b541798308054870ac0452"
+            },
+            "id": "2631b31450d44dff8d06246f0680ff58",
+            "name": "projects/6245719028450592194/screens/2631b31450d44dff8d06246f0680ff58",
+            "prompt": "Layout A: BLOOMBERG TERMINAL LIST for Greentryst Sustainability Jobs Directory. \n- Desktop website, light background (#D8F3DC). \n- Header: Eyebrow 'CAREER DIRECTORY' in JetBrains Mono, Large heading 'Sustainability jobs, curated for practitioners.' in Inter (tight tracking), Stats row '1,482 jobs live · 340 companies · 28 countries · 420 remote' in JetBrains Mono.\n- Sticky Filter Bar: Pill buttons for roles (All Roles, Climate Risk, Sustainable Finance, EU Taxonomy, Carbon Markets, Clean Energy), search input, and dropdowns for Country, Company Type, Work Mode.\n- Job Table: Dense horizontal white cards (rounded-lg, hairline border). Each row: Expand chevron, Job Title (bold 14px), Company (muted text + building icon), Location (map pin icon), Category Pill (brand green mono uppercase), Relative Date (mono), and a brand-green 'Apply' button (#2D6A4F).\n- Expanded State: One row (e.g., Climate Risk Analyst at BlackRock) should be expanded to show Role Summary, Skills Required, and Domain Context sections with keyword highlighting (e.g., TCFD, Scenario Modeling, SQL).\n- Pagination: 'Page 1 of 12' with arrow buttons.\n- Styling: Inter for main text, JetBrains Mono for data/metadata. Brand green (#2D6A4F medium, #52B788 leaf, #0B3D2E deep). Lucide icons.\n- Job examples: 'Climate Risk Analyst' at 'BlackRock', 'ESG Data Manager' at 'Unilever', 'Carbon Market Specialist' at 'Shell', 'Sustainability Reporting Lead' at 'Standard Chartered', 'Green Finance Associate' at 'Deloitte', 'EU Taxonomy Analyst' at 'MSCI', 'Scope 3 Consultant' at 'Verra', 'Net Zero Strategy Director' at 'South Pole'.",
+            "screenMetadata": {
+              "agentType": "PRO_AGENT",
+              "status": "COMPLETE"
+            },
+            "screenType": "DESIGN",
+            "screenshot": {
+              "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0uh3npZN-qyQ25CxQiR-Nqw7DSEYvp12-m8aotproLuSZeva8xvW6dO3jqJPhd8hKq0HJvFxqKHpzTMVg2gviAndI2ipLu_Qicj_SU3uQ8um9XCgUc_J4IeoRIVehK-RDfN2VXf6gaondcIYL62xKSFstbDwNEfRELwpKKXe28ni87ZIFmk_EWsa1ldi4MSmref4VuD3p3RskJ5zo4KuuWiKuk0K5FZaav0ScgO7lcivNHjAM9dZNk1sz-4",
+              "name": "projects/6245719028450592194/files/aaaca94b39ff47699f4b613e5ab21cd6"
+            },
+            "theme": {
+              "bodyFont": "INTER",
+              "colorMode": "LIGHT",
+              "colorVariant": "FIDELITY",
+              "customColor": "#2D6A4F",
+              "designMd": "# Design System Specification: The Sovereign Ecosystem\n\n## 1. Overview & Creative North Star\n**Creative North Star: \"The Architectural Ledger\"**\n\nThis design system is built to transform complex sustainability data into an authoritative, editorial experience. We are moving away from the \"SaaS-standard\" look of playful roundedness and bright accents. Instead, we embrace a \"Bloomberg-esque\" gravity: dense, data-rich, and quietly confident.\n\nThe \"Architectural Ledger\" approach treats the screen like a high-end financial publication. We utilize intentional asymmetry, where metadata (using JetBrains Mono) acts as a structural anchor for the flowing Inter typography. By leaning into a monochromatic forest palette, we establish a sense of deep-rooted stability and professional environmental stewardship. This is not just a tool; it is a system of record.\n\n---\n\n## 2. Colors: Tonal Depth & The \"No-Line\" Rule\n\nThe color strategy relies on **Tonal Layering**. We do not use borders to separate ideas; we use the weight of the greens to define space.\n\n### Core Palette\n*   **Background (Surface):** `#D8F3DC` (Pale Green) – The foundation.\n*   **Primary Action:** `#2D6A4F` (Medium Green) – Used exclusively for high-intent CTAs.\n*   **Surface Lowest (Cards):** `#FFFFFF` (White) – Creating a crisp, elevated \"paper\" feel.\n*   **Deep Text:** `#081C15` – High-contrast, authoritative legibility.\n\n### The \"No-Line\" Rule\n**Explicit Instruction:** Do not use 1px solid borders for sectioning. \nBoundaries must be defined through background shifts. A `surface-container-low` section sitting on a `surface` background provides all the separation necessary. If a container needs to stand out, use a shift in tonal value rather than a mechanical line. \n\n### Surface Hierarchy & Nesting\nTreat the UI as stacked sheets of fine, heavy-stock paper.\n*   **Base:** `surface` (#D8F3DC)\n*   **Level 1 (Sections):** `surface-container-low` (#E2F9ED)\n*   **Level 2 (Active Cards):** `surface-container-lowest` (#FFFFFF)\n*   **Level 3 (Pop-overs):** `surface-bright` with 4% shadow.\n\n---\n\n## 3. Typography: The Editorial Balance\n\nWe pair the neutrality of **Inter** with the precision of **JetBrains Mono**. This contrast signals a marriage of human-centric policy and raw data integrity.\n\n### Typography Scale\n*   **Display (Inter, Tight Tracking):** `display-lg` (3.5rem) / `display-md` (2.75rem). Use for high-level sustainability scores.\n*   **Headings (Inter, Medium Weight):** `headline-sm` (1.5rem) to `title-lg` (1.375rem). Always `#081C15`.\n*   **Data & Metadata (JetBrains Mono):** Use for all numbers, timestamps, eyebrows, and technical labels. \n    *   *Example:* An \"Emissions Report\" eyebrow should be `label-sm` in JetBrains Mono, All Caps, +5% letter spacing.\n*   **Body (Inter):** `body-md` (0.875rem). Optimized for dense reading.\n\n---\n\n## 4. Elevation & Depth: Tonal Layering\n\nTraditional shadows and borders are replaced by **Ambient Elevation**.\n\n*   **The Layering Principle:** Depth is achieved by \"stacking\" tones. Place a `#FFFFFF` card on a `#D8F3DC` background to create a soft, natural lift.\n*   **Ambient Shadows:** For floating elements (modals/tooltips), use an extra-diffused shadow: `box-shadow: 0 12px 40px rgba(11, 61, 46, 0.08);`. The shadow color is a deep forest tint, not grey, ensuring it feels part of the environment.\n*   **The \"Ghost Border\" Fallback:** If a border is required for accessibility, use the `outline-variant` token (#BFC9C1) at **15% opacity**. It should be felt, not seen.\n*   **Glassmorphism:** For top navigation bars or sticky headers, use: `background: rgba(216, 243, 220, 0.8); backdrop-filter: blur(12px);`. This allows the data density of the page to peek through, maintaining context.\n\n---\n\n## 5. Components\n\n### Buttons\n*   **Primary:** Background `#2D6A4F`, Text `#FFFFFF`, 8px radius. No gradient.\n*   **Secondary:** Background `surface-container-high`, Text `primary`.\n*   **Tertiary:** No background. JetBrains Mono text with a Lucide icon. Use 8px padding for a \"hit state\" shift.\n\n### Cards & Data Lists\n*   **Cards:** 16px rounded corners. Background `#FFFFFF`. No borders.\n*   **List Separation:** **Forbid dividers.** Use 24px vertical white space or a subtle background toggle (Zebra striping with `#D8F3DC` at 50% opacity) to separate data rows.\n*   **Data Density:** Information should be \"Bloomberg-dense.\" Use `body-sm` for secondary data points to maximize the \"at-a-glance\" utility of the operating system.\n\n### Form Inputs\n*   **Fields:** Use `surface-container-lowest` (#FFFFFF) with an 8px radius. \n*   **Focus State:** A 2px solid stroke of `#40916C`. \n*   **Labels:** Always JetBrains Mono, `label-md`, positioned above the field to maintain the ledger aesthetic.\n\n### Status Indicators (Lucide Icons Only)\n*   Use Lucide icons at 1.25em. Use the `Leaf`, `BarChart3`, `ShieldCheck`, and `Globe` icons to emphasize the sustainability mission. Icons should always be the same color as the text they accompany (Primary or On-Surface).\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do\n*   **Do** use JetBrains Mono for any value that can be measured (percentages, dates, metric tons).\n*   **Do** embrace generous margins (32px+) between major sections while keeping content *within* those sections dense.\n*   **Do** use \"Deep Forest\" (#0B3D2E) for heavy-weight sidebar navigation to create a strong vertical anchor.\n\n### Don't\n*   **Don't** use 1px dividers to separate list items. Use white space.\n*   **Don't** use gradients. The authority of this system comes from its flat, matte, \"ink on paper\" quality.\n*   **Don't** use Serif fonts. We are a \"Modern Operating System,\" not a traditional newspaper.\n*   **Don't** use standard \"Drop Shadows.\" Only use the Ambient Shadow specification for floating layers.",
+              "font": "INTER",
+              "headlineFont": "INTER",
+              "labelFont": "INTER",
+              "namedColors": {
+                "background": "#e7fff3",
+                "error": "#ba1a1a",
+                "error_container": "#ffdad6",
+                "inverse_on_surface": "#dff6ea",
+                "inverse_primary": "#95d4b3",
+                "inverse_surface": "#21342c",
+                "on_background": "#0b1f18",
+                "on_error": "#ffffff",
+                "on_error_container": "#93000a",
+                "on_primary": "#ffffff",
+                "on_primary_container": "#a8e7c5",
+                "on_primary_fixed": "#002114",
+                "on_primary_fixed_variant": "#0e5138",
+                "on_secondary": "#ffffff",
+                "on_secondary_container": "#436b58",
+                "on_secondary_fixed": "#002114",
+                "on_secondary_fixed_variant": "#274e3d",
+                "on_surface": "#0b1f18",
+                "on_surface_variant": "#404943",
+                "on_tertiary": "#ffffff",
+                "on_tertiary_container": "#98eabf",
+                "on_tertiary_fixed": "#002113",
+                "on_tertiary_fixed_variant": "#005236",
+                "outline": "#707973",
+                "outline_variant": "#bfc9c1",
+                "primary": "#0f5238",
+                "primary_container": "#2d6a4f",
+                "primary_fixed": "#b1f0ce",
+                "primary_fixed_dim": "#95d4b3",
+                "secondary": "#3f6653",
+                "secondary_container": "#beead1",
+                "secondary_fixed": "#c1ecd4",
+                "secondary_fixed_dim": "#a5d0b9",
+                "surface": "#e7fff3",
+                "surface_bright": "#e7fff3",
+                "surface_container": "#dcf3e7",
+                "surface_container_high": "#d6eee2",
+                "surface_container_highest": "#d1e8dc",
+                "surface_container_low": "#e2f9ed",
+                "surface_container_lowest": "#ffffff",
+                "surface_dim": "#c8dfd4",
+                "surface_tint": "#2c694e",
+                "surface_variant": "#d1e8dc",
+                "tertiary": "#005236",
+                "tertiary_container": "#116c4a",
+                "tertiary_fixed": "#a1f4c8",
+                "tertiary_fixed_dim": "#86d7ad"
+              },
+              "overrideNeutralColor": "#081C15",
+              "overridePrimaryColor": "#2D6A4F",
+              "overrideSecondaryColor": "#1B4332",
+              "overrideTertiaryColor": "#40916C",
+              "roundness": "ROUND_EIGHT",
+              "spacingScale": 1
+            },
+            "title": "Jobs Directory - Bloomberg List",
+            "width": "2560"
+          }
+        ],
+        "theme": {}
+      }
+    },
+    {
+      "text": "I've created the 'Bloomberg Terminal List' layout for the Greentryst Jobs Directory. \n\nThis design emphasizes data density and professional utility:\n*   **The Sovereign Ledger Aesthetic:** Using Inter for readability and JetBrains Mono for a \"data-first\" feel.\n*   **Structured Hierarchy:** Clear sections for filtering and statistics, with a dense table that mimics a professional terminal.\n*   **Interactive Context:** I've shown an expanded row for the 'Climate Risk Analyst' role to demonstrate how the layout handles deeper information without losing its clean structure.\n*   **Brand Consistency:** Strictly adhered to the forest green palette and high-quality Lucide iconography.\n\nHow does this look for your practitioners? We can adjust the row density or explore a grid-based variant if you'd like."
+    },
+    {
+      "suggestion": "Show a grid-based variant"
+    },
+    {
+      "suggestion": "Adjust the row spacing to be even denser"
+    },
+    {
+      "suggestion": "Change the primary action color to a deeper forest green"
+    }
+  ],
+  "projectId": "6245719028450592194",
+  "sessionId": "8642531952536322663"
+}

@@ -1,0 +1,44 @@
+- question: "What must a sustainability risk integration policy published under Article 3 of SFDR address?"
+  options:
+    - "Only the firm's carbon footprint and net-zero commitment"
+    - "How sustainability risks are identified, assessed, integrated into investment decisions, and their likely impact on returns"
+    - "The minimum percentage of sustainable investments across all products"
+    - "The firm's compliance with EU Taxonomy technical screening criteria"
+  answer: 1
+  explanation: "An Article 3 sustainability risk integration policy must cover four elements: (1) how sustainability risks are identified, (2) how they are assessed, (3) how they are integrated into investment decisions, and (4) the likely impact of sustainability risks on investment returns."
+
+- question: "Where must the Article 3 sustainability risk integration policy be published?"
+  options:
+    - "Filed with the national competent authority"
+    - "Included in every fund prospectus"
+    - "On the firm's website, in an accessible location"
+    - "In the annual report submitted to investors"
+  answer: 2
+  explanation: "Article 3 requires the sustainability risk integration policy to be published on the firm's website. It must be easily findable, written in clear language, and kept up to date. ESMA Q&As confirm that firms without a website must create one."
+
+- question: "Under Article 3(2) of SFDR, when can a firm state that sustainability risks are 'not relevant'?"
+  options:
+    - "Never — sustainability risks must always be considered by entities in scope"
+    - "Only for funds with fewer than 10 holdings"
+    - "The firm may state this if it provides a clear explanation of why sustainability risks are not considered relevant — but this position is increasingly difficult to substantiate for diversified managers"
+    - "When the firm has fewer than 250 employees"
+  answer: 2
+  explanation: "Article 3(2) allows firms to state that sustainability risks are not relevant, provided they explain why. However, regulators have become increasingly sceptical of blanket 'not relevant' positions, and ESMA Q&A I.5 confirms that such a position cannot override sustainability risk obligations under other EU law such as AIFMD."
+
+- question: "How does Article 5 (remuneration) relate to Article 3 (sustainability risk policy)?"
+  options:
+    - "Article 5 requires firms to pay portfolio managers a bonus based on ESG performance"
+    - "Article 5 requires remuneration policies to be consistent with sustainability risk integration — the incentive structure should not undermine the sustainability risk approach described in Article 3"
+    - "Article 5 is only relevant for firms managing Article 9 products"
+    - "Article 5 replaces Article 3 for insurance undertakings"
+  answer: 1
+  explanation: "Article 5 requires firms to include in their remuneration policies information demonstrating consistency with sustainability risk integration. This ensures the incentive structure reinforces (rather than contradicts) the sustainability risk approach described in the Article 3 policy. A firm that claims robust ESG integration in Article 3 but pays bonuses purely on short-term financial returns has an inconsistency."
+
+- question: "Article 3 of SFDR is described as being about sustainability risks as a form of 'financial risk.' What does this mean?"
+  options:
+    - "Sustainability factors must be converted into financial ratios before they can be considered"
+    - "The policy focuses on how ESG events could cause material negative impacts on investment value — not on ethical or societal concerns as such"
+    - "The policy only needs to address climate-related financial risks"
+    - "Firms must provide financial estimates of the cost of each sustainability risk"
+  answer: 1
+  explanation: "Article 3 frames sustainability risks as ESG events or conditions that could cause material negative financial impacts on investment value (Article 2(22) definition). The policy is about financial risk management — how ESG factors affecting investee companies could affect portfolio returns — not primarily about ethical investment commitments."

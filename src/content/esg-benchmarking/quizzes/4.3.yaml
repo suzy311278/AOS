@@ -1,0 +1,26 @@
+- question: "What does the CEO pay ratio compare?"
+  options:
+    - "The chief executive's base salary to the average salary of the senior management team"
+    - "The chief executive's total annual compensation to the median total annual compensation of all employees"
+    - "The chief executive's variable pay to the chief executive's fixed pay"
+    - "The chief executive's pay to the average CEO pay across the industry peer group"
+  answer: 1
+  explanation: "The CEO pay ratio compares the total annual compensation of the chief executive to the median total annual compensation of all employees. GRI 2: General Disclosures 2021 requires disclosure of the annual total compensation ratio at Disclosure 2-21, defined as the ratio of the annual total compensation of the highest-paid individual to the median annual total compensation of all employees."
+
+- question: "Which MSCI key issue covers anti-bribery policies, whistleblower mechanisms, and the track record on corruption controversies?"
+  options:
+    - "Tax Transparency"
+    - "Accounting"
+    - "Ownership and Control"
+    - "Business Ethics"
+  answer: 3
+  explanation: "The Business Ethics key issue sits within the Corporate Behavior Theme of the MSCI Governance Pillar. It has the highest maximum points value of any individual governance key issue at 49 out of the Corporate Behavior maximum of 50. It covers policies, practices, and the track record of a company on anti-bribery, anti-corruption, conflicts of interest, and other ethical conduct matters."
+
+- question: "What does the Sustainalytics Stakeholder Governance Material ESG Issue assess?"
+  options:
+    - "The independence and composition of the company's board of directors"
+    - "The management of the company's relationships with various stakeholders to identify and mitigate reputational and financial risks"
+    - "The company's exposure to and management of supply chain human rights risks"
+    - "The transparency of the company's financial reporting and audit practices"
+  answer: 1
+  explanation: "Sustainalytics identifies Stakeholder Governance as a baseline MEI for all publicly traded companies. It considers the perspectives and interests of various stakeholders to identify and mitigate potential reputational and financial risks. Tax transparency and responsible tax practices fall within its scope. Corporate Governance is a separate baseline MEI that covers the board and ownership structures."

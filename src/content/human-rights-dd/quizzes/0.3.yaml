@@ -1,0 +1,26 @@
+- question: "How many countries adhere to the OECD Guidelines for Multinational Enterprises as of the most recent revision?"
+  options:
+  - "35"
+  - "50"
+  - "75"
+  - "193"
+  answer: 1
+  explanation: "50 countries adhere to the OECD Guidelines, comprising all OECD member states plus 13 other economies. These governments commit to promoting the Guidelines and establishing a National Contact Point. The Guidelines were most recently revised in 2023."
+
+- question: "What is the primary function of a National Contact Point (NCP) under the OECD Guidelines?"
+  options:
+  - "To impose financial penalties on companies that breach the Guidelines"
+  - "To certify companies as compliant with the OECD Guidelines"
+  - "To promote the Guidelines and handle specific instances (complaints) through mediation"
+  - "To conduct mandatory annual audits of multinational enterprises"
+  answer: 2
+  explanation: "NCPs promote the OECD Guidelines and offer mediation through specific instances, which are complaints filed by affected parties alleging that a company has failed to observe the Guidelines. NCPs cannot impose legal sanctions but their findings carry reputational and increasing legal weight."
+
+- question: "In the OECD six-step due diligence process, what is the correct order of the first three steps?"
+  options:
+  - "Identify impacts, embed policies, then prevent or mitigate"
+  - "Embed policies, identify impacts, then prevent or mitigate"
+  - "Identify impacts, communicate, then embed policies"
+  - "Track results, embed policies, then identify impacts"
+  answer: 1
+  explanation: "The OECD six-step process begins with Step 1 (embed responsible business conduct into policies and management systems), followed by Step 2 (identify and assess actual and potential adverse impacts), then Step 3 (cease, prevent, or mitigate adverse impacts). This logical sequence ensures policies are in place before assessment begins."

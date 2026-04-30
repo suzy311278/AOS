@@ -1,0 +1,26 @@
+- question: "What economic concept describes the gap between private cost and social cost that makes carbon pollution a market failure?"
+  options:
+    - "Comparative advantage"
+    - "Negative externality"
+    - "Moral hazard"
+    - "Tragedy of the commons"
+  answer: 1
+  explanation: "Carbon emissions are a classic negative externality: the emitter does not pay for the atmospheric harm caused, so the full social cost is not reflected in private decision-making. Arthur Pigou's framework prescribes a tax equal to that social cost to correct the market failure."
+
+- question: "Which of the following best describes the difference between a carbon tax and a cap-and-trade system?"
+  options:
+    - "A carbon tax sets a fixed price per tonne; cap-and-trade sets a fixed limit on total emissions"
+    - "A carbon tax is voluntary; cap-and-trade is mandatory"
+    - "A carbon tax applies only to industry; cap-and-trade applies only to consumers"
+    - "A carbon tax reduces emissions by subsidising renewables; cap-and-trade does not"
+  answer: 0
+  explanation: "A carbon tax provides price certainty but quantity uncertainty, meaning we know the cost per tonne but not precisely how much emissions will fall. Cap-and-trade provides quantity certainty (the cap) but price uncertainty, since the allowance price fluctuates with supply and demand."
+
+- question: "Why are voluntary carbon offsets particularly valuable for addressing emissions in the land sector and in developing countries?"
+  options:
+    - "They are cheaper to verify than compliance market credits"
+    - "They extend carbon pricing to sectors and geographies that formal regulatory systems cannot easily reach"
+    - "They guarantee a higher carbon price than government carbon taxes"
+    - "They do not require third-party verification, reducing transaction costs"
+  answer: 1
+  explanation: "Offsets allow capital to flow to emission reductions wherever they occur, including tropical forests, smallholder agriculture, and community energy projects in regions outside any compliance regime. This cross-border flexibility is the core advantage of voluntary carbon markets, though it requires robust standards to ensure environmental integrity."

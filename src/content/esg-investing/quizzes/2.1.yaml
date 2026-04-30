@@ -1,0 +1,44 @@
+- question: "Which of the following best describes a social megatrend?"
+  options:
+    - "A short-term consumer preference shift driven by marketing trends"
+    - "A long-term structural change that permanently affects governments, societies, and economies"
+    - "A government policy response to a specific social crisis"
+    - "A sector-specific labour market disruption lasting one to three years"
+  answer: 1
+  explanation: "Social megatrends are long-duration structural forces — not short cycles or policy responses — that reshape how societies are organised and how economies function over decades."
+
+- question: "An investor is analysing a logistics company with a large fleet of delivery vehicles. Which social megatrend is most directly relevant to assessing its future workforce risk?"
+  options:
+    - "Urbanisation"
+    - "Religion"
+    - "Automation and artificial intelligence"
+    - "Water scarcity"
+  answer: 2
+  explanation: "The rise of AI and autonomous vehicles directly threatens the role of human drivers. A logistics company that fails to plan for this workforce transition faces significant operational and reputational risk as automation matures."
+
+- question: "Income inequality is described as a social megatrend with investment implications. Which of the following is the most direct financial risk for a company operating in a highly unequal society?"
+  options:
+    - "Reduced access to renewable energy"
+    - "Weaker aggregate consumer demand and potential for regulatory pressure on wages and taxes"
+    - "Increased competition from state-owned enterprises"
+    - "Higher cost of raw material extraction"
+  answer: 1
+  explanation: "High inequality tends to suppress consumer spending power among the lower and middle classes, limiting economic growth. It also intensifies scrutiny of corporate wage practices and tax strategies, creating regulatory and reputational risk."
+
+- question: "Which of the following environmental megatrends is most closely associated with the concept of a 'just transition'?"
+  options:
+    - "Water scarcity affecting agricultural yields"
+    - "Mass migration caused by desertification"
+    - "The shift away from fossil fuels and its impact on workers in affected industries"
+    - "Urban heat islands caused by increasing urbanisation"
+  answer: 2
+  explanation: "The 'just transition' concept concerns ensuring that the shift to a low-carbon economy does not impose disproportionate economic and social costs on workers and communities in fossil-fuel-dependent sectors."
+
+- question: "A company generates most of its revenues from personalised digital advertising. Which social megatrend creates the most significant emerging regulatory risk for this business model?"
+  options:
+    - "Changing demographics and longevity"
+    - "Urbanisation and the growth of smart cities"
+    - "Digital disruption, social media, and the misuse of big data"
+    - "Globalisation and supply chain dependency"
+  answer: 2
+  explanation: "Personalised digital advertising relies heavily on the collection and processing of user data. Concerns about data misuse, manipulation, and privacy violations have driven major regulatory responses (including GDPR), creating direct compliance costs and potential restrictions on the advertising business model."

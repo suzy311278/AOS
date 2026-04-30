@@ -1,0 +1,26 @@
+- question: "Approximately what percentage of global cobalt production comes from the Democratic Republic of Congo, and what are the primary human rights concerns associated with its artisanal mining sector?"
+  options:
+  - "10% from the DRC; the primary concern is air pollution from smelters"
+  - "70% from the DRC; documented concerns include child labour, inadequate safety equipment, debt bondage, and mercury use in artisanal and small-scale mining"
+  - "35% from the DRC; the primary concern is government expropriation of mining assets without fair compensation"
+  - "90% from the DRC; the main concern is excessive taxation of mining revenues by the Congolese government"
+  answer: 1
+  explanation: "The Democratic Republic of Congo produces approximately 70% of global cobalt. Its artisanal and small-scale mining (ASM) sector in Katanga and Lualaba provinces has been documented by the ILO, UNICEF, and NGOs as involving child labour, inadequate safety equipment, debt bondage, and in some areas mercury use. The cobalt enters battery supply chains through traders and smelters primarily in China, creating significant traceability challenges."
+
+- question: "Why does lithium extraction in the Atacama Desert raise significant human rights concerns beyond standard environmental impacts?"
+  options:
+  - "Lithium mining emits high volumes of greenhouse gases, violating climate commitments of host countries"
+  - "Brine extraction uses vast quantities of water in one of the driest regions on earth, threatening water sources and livelihoods of indigenous Atacameno and Colla communities whose FPIC rights are implicated"
+  - "Lithium is classified as a conflict mineral under the US Dodd-Frank Act, triggering mandatory reporting requirements"
+  - "The Atacama is a UNESCO World Heritage Site, and mining activities violate international heritage preservation treaties"
+  answer: 1
+  explanation: "Lithium extraction from brine aquifers in the Atacama consumes enormous volumes of water in one of the world's driest environments. This threatens the water rights and agricultural livelihoods of indigenous Atacameno and Colla communities. Several projects have faced legal challenges and community protests invoking FPIC rights under UNDRIP and ILO Convention 169, which require free, prior, and informed consent for projects affecting indigenous peoples' territories."
+
+- question: "What is the Responsible Minerals Assurance Process (RMAP) operated by the Responsible Minerals Initiative, and for which minerals does it provide certification?"
+  options:
+  - "A voluntary insurance scheme for mining companies against political risk; covers all minerals"
+  - "An audit and certification programme for smelters and refiners demonstrating responsible sourcing; covers cobalt, tin, tungsten, tantalum, and gold"
+  - "A government-to-government treaty process for establishing bilateral mineral supply agreements; covers lithium and rare earths"
+  - "An academic rating system for country-level mineral governance; covers all commercially significant minerals"
+  answer: 1
+  explanation: "The Responsible Minerals Assurance Process (RMAP), operated by the Responsible Minerals Initiative, is an audit and certification programme for smelters and refiners. Certified facilities have demonstrated through third-party audits that they source responsibly. RMAP currently covers cobalt, tin, tungsten, tantalum, and gold - the latter four being the 3TG conflict minerals originally covered by the US Dodd-Frank Act Section 1502."

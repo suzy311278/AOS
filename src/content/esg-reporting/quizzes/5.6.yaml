@@ -1,0 +1,26 @@
+- question: "What is the recommended balance between narrative text and data elements (tables, charts, infographics) in a sustainability report?"
+  options:
+    - "80% narrative, 20% data - the story matters most"
+    - "20% narrative, 80% data - evidence is what readers want"
+    - "Approximately 50/50 - narrative provides context and data provides evidence"
+    - "100% data with no narrative - let the numbers speak for themselves"
+  answer: 2
+  explanation: "A fully narrative report feels like a brochure without evidence. A fully data-driven report is a spreadsheet without context. The ideal rhythm is narrative (context), data (evidence), interpretation (explanation) - roughly a 50/50 balance keeps readers engaged and informed."
+
+- question: "A sustainability report uses 'we reduced emissions' in the Environmental section and 'the company invested in renewables' in the same section. What is wrong?"
+  options:
+    - "Both phrases are too vague and need specific numbers"
+    - "The section switches between first person and third person, which reads as inconsistent and careless"
+    - "Active voice should never be used in an ESG report"
+    - "The Environmental section should only use passive voice"
+  answer: 1
+  explanation: "Language consistency requires committing to either first person ('we') or third person ('the company') within a section. Switching between them makes the report feel unprofessional and suggests different writers were not aligned."
+
+- question: "After the client inserts new sentences and removes paragraphs during the third round of revisions, what should the writer do before submitting the next version?"
+  options:
+    - "Accept all changes and submit immediately to keep the project on schedule"
+    - "Do a flow pass - read the revised chapter as a whole, fix broken transitions, restore language consistency, and rebalance narrative-to-data ratio"
+    - "Revert all client changes and explain why the original version was better"
+    - "Only check the new sentences for grammar and spelling"
+  answer: 1
+  explanation: "Each round of client revisions disrupts flow, transitions, and language consistency. A flow pass after every major revision round - reading the chapter as a whole and fixing what was broken - is what separates a professional report from one that reads like a patchwork document."

@@ -1,0 +1,26 @@
+- question: "An EU importer buys palm oil from a producer whose plantation was established before 31 December 2020. However, the plantation was developed on land claimed by an indigenous community that was never consulted. Is the importer EUDR-compliant?"
+  options:
+    - "Yes, because the deforestation condition (no clearing after 31 December 2020) is satisfied"
+    - "No, because the production violates the FPIC principle under international law, which is part of the legality requirement"
+    - "Yes, because FPIC only applies if the producing country has domestic FPIC legislation"
+    - "Depends on whether the EU importer knew about the indigenous community claim"
+  answer: 1
+  explanation: "The EUDR's legality requirement under Article 2(40) includes free, prior and informed consent (FPIC) as protected under international law. Production on indigenous or community lands without FPIC violates the legality condition regardless of whether the producing country's domestic law formally requires FPIC. Even though the deforestation condition is satisfied (no clearing after December 2020), the legality condition is not, making the product non-compliant."
+
+- question: "Which of the following is NOT included in the EUDR's definition of 'relevant legislation' that production must comply with?"
+  options:
+    - "Labour rights and minimum wage requirements of the country of production"
+    - "EU environmental law as applied in the producing country"
+    - "Tax, anti-corruption, trade and customs regulations of the country of production"
+    - "Free, prior and informed consent as recognised under international law"
+  answer: 1
+  explanation: "The EUDR's legality requirement refers to the relevant legislation of the country of production, not EU law. EU environmental law does not directly apply to production in Brazil, Indonesia, or other producer countries. The eight categories listed in Article 2(40) all refer to the laws, rights, and international principles applicable in the producing country, covering land use, environment, forest management, third-party rights, labour, human rights, FPIC, and tax/customs."
+
+- question: "For what purpose does the EUDR's risk assessment consider corruption indices and rule of law measures of the producing country?"
+  options:
+    - "To determine whether to exempt operators from compliance requirements in poorly governed countries"
+    - "To assess the likelihood that the legality requirement may not be met, requiring more intensive investigation by the operator"
+    - "To classify countries as low, standard, or high risk for deforestation purposes"
+    - "To set the level of fines applicable to non-compliant producers in that country"
+  answer: 1
+  explanation: "Rule of law and corruption indicators are considered in the risk assessment to evaluate the likelihood that the legality requirement may not be satisfied in the supply chain. A country with weak land tenure systems, high corruption, or poor indigenous rights enforcement presents elevated legality risk, requiring the operator to conduct more intensive investigation and obtain more extensive documentation from suppliers."

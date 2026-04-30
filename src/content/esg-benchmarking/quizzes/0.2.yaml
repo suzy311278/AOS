@@ -1,0 +1,26 @@
+- question: "What is the key conceptual difference between the MSCI ESG Rating and the Sustainalytics ESG Risk Rating?"
+  options:
+    - "MSCI covers more industries than Sustainalytics"
+    - "MSCI produces an industry-relative letter rating showing how well a company manages ESG risks vs. peers, while Sustainalytics produces an absolute numerical score measuring how much unmanaged ESG risk a company carries"
+    - "Sustainalytics uses letter grades while MSCI uses numerical scores"
+    - "MSCI focuses only on environmental issues while Sustainalytics covers all three ESG pillars"
+  answer: 1
+  explanation: "MSCI ratings are industry-relative measures on a AAA-CCC letter scale. Sustainalytics ratings are absolute unmanaged risk scores that allow cross-industry comparison. The core difference is relative vs. absolute measurement."
+
+- question: "How is the MSCI ESG Ratings model structured in terms of its hierarchy?"
+  options:
+    - "5 pillars, 15 themes, and 50 key issues"
+    - "2 pillars (environmental and social), 8 themes, and 27 key issues"
+    - "3 pillars, 10 themes, and 33 key issues"
+    - "3 pillars, 6 themes, and 22 key issues"
+  answer: 2
+  explanation: "The MSCI ESG Ratings hierarchy consists of 3 pillars (Environment, Social, Governance), 10 themes, and 33 ESG Key Issues, as shown in Exhibit 1 of the MSCI methodology."
+
+- question: "What are the three building blocks of the Sustainalytics ESG Risk Ratings?"
+  options:
+    - "Carbon Emissions, Human Capital, and Corporate Governance"
+    - "Material ESG Issues; Corporate Governance and Stakeholder Governance; Systemic ESG Issues and Idiosyncratic Issues"
+    - "Exposure, Management, and Controversy Scores"
+    - "Environmental Pillar, Social Pillar, and Governance Pillar"
+  answer: 1
+  explanation: "The Sustainalytics ESG Risk Ratings are composed of three building blocks: (1) Material ESG Issues, (2) the baseline issues of Corporate Governance and Stakeholder Governance, and (3) Systemic ESG Issues and Idiosyncratic Issues."

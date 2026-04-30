@@ -1,0 +1,26 @@
+- question: "The EU Deforestation Regulation (EUDR) requires companies to provide what specific evidence to demonstrate deforestation-free sourcing?"
+  options:
+  - "A signed declaration from the CEO that the company does not source from deforested land"
+  - "Third-party certification from any recognised sustainability scheme"
+  - "Precise geographic coordinates of the land parcels where commodities were produced"
+  - "Annual payments into a deforestation offset fund"
+  answer: 2
+  explanation: "The EUDR requires companies to collect precise geographic coordinates of the land parcels where specified commodities were produced and to conduct risk assessment against deforestation criteria. This GPS-level traceability requirement makes farm-level supply chain mapping essential for EU market access."
+
+- question: "Which of the following commodity supply chains is correctly matched to its primary deforestation risk geography?"
+  options:
+  - "Palm oil - West Africa (Cote d'Ivoire, Ghana)"
+  - "Soy - Southeast Asia (Indonesia, Malaysia)"
+  - "Cocoa - South America (Brazil, Argentina)"
+  - "Palm oil - Southeast Asia (Indonesia, Malaysia)"
+  answer: 3
+  explanation: "Palm oil's primary deforestation risk geographies are in Southeast Asia, particularly Indonesia, Malaysia, and Papua New Guinea, where tropical forests and peatlands have been cleared at large scale for plantations. Soy's primary risk is in South America (Amazon and Cerrado), while cocoa's primary risk is in West Africa."
+
+- question: "In the context of supply chain nature risk, the 'Scope 3 parallel' refers to which concept?"
+  options:
+  - "The idea that nature risk has three categories matching Scope 1, 2, and 3 emissions"
+  - "The observation that most companies' most material nature impacts and dependencies sit in their supply chains rather than in direct operations, mirroring how Scope 3 dominates most companies' GHG footprint"
+  - "A requirement to measure biodiversity impacts using the same methodology as Scope 3 emissions"
+  - "TNFD's collaboration with the GHG Protocol to develop a combined nature and climate reporting framework"
+  answer: 1
+  explanation: "Just as most companies' largest GHG footprint sits in Scope 3 (upstream purchased goods, downstream product use), most companies' most material nature impacts and dependencies sit in their upstream supply chains. TNFD explicitly draws on the Scope 3 disclosure model for thinking about and disclosing nature impacts across the full value chain."

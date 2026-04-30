@@ -1,0 +1,26 @@
+- question: "What are the five sections covered by GRI 2: General Disclosures 2021?"
+  options:
+    - "Environment, Social, Governance, Supply Chain, and Financial Performance"
+    - "The organization and its reporting practices; Activities and workers; Governance; Strategy, policies and practices; Stakeholder engagement"
+    - "Materiality assessment; Stakeholder identification; Impact measurement; Target setting; Reporting verification"
+    - "Organizational profile; Management approach; Topic standards; Sector standards; Assurance"
+  answer: 1
+  explanation: "GRI 2 is structured into five sections: (1) The organization and its reporting practices, (2) Activities and workers, (3) Governance, (4) Strategy, policies and practices, and (5) Stakeholder engagement. These five sections collectively provide a standardised profile of the reporting organisation."
+
+- question: "Which GRI 2 disclosure specifically requires organisations to describe how remuneration policies for the highest governance body and senior executives relate to the management of impacts on the economy, environment, and people?"
+  options:
+    - "Disclosure 2-9 (Governance structure and composition)"
+    - "Disclosure 2-14 (Role of the highest governance body in sustainability reporting)"
+    - "Disclosure 2-19 (Remuneration policies)"
+    - "Disclosure 2-22 (Statement on sustainable development strategy)"
+  answer: 2
+  explanation: "Disclosure 2-19 (Remuneration policies) requires organisations to describe how the remuneration policies for members of the highest governance body and senior executives relate to their objectives and performance in relation to the management of the organisation's impacts on the economy, environment, and people."
+
+- question: "Why do the governance disclosures in GRI 2 (Disclosures 2-9 to 2-21) provide a useful basis for peer benchmarking?"
+  options:
+    - "They are the only GRI disclosures that are mandatory; all others are optional"
+    - "They require all GRI-reporting organisations to provide comparable information on board structure, oversight roles, and remuneration, creating a standardised basis for comparison"
+    - "They are verified by an independent third party before publication, ensuring data accuracy"
+    - "They apply only to publicly listed companies, making peer groups more consistent"
+  answer: 1
+  explanation: "The thirteen governance disclosures in Section 3 of GRI 2 require every GRI-reporting organisation to disclose comparable information on governance structure, board composition, oversight of sustainability impacts, and remuneration. Because this structure is common to all reporting companies, it creates a standardised baseline that enables direct comparison across peers."

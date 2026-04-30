@@ -1,0 +1,44 @@
+- question: "What is the minimum number of measurement dates required for PAI indicator calculations during a reference period?"
+  options:
+    - "One (at year-end)"
+    - "Two (half-year and year-end)"
+    - "Four dates spread across the year"
+    - "Twelve (monthly)"
+  answer: 2
+  explanation: "The RTS requires PAI indicators to be measured at a minimum of four dates during the reference period. The annual indicator value is the arithmetic average of those four measurements. This prevents firms from reporting only favourable period-end positions."
+
+- question: "According to the ESMA Q&As, how should 'enterprise value' be defined for PAI calculations?"
+  options:
+    - "Revenue × Price-to-earnings multiple"
+    - "Market capitalisation of ordinary shares + market capitalisation of preferred shares + book value of total debt + non-controlling interests, at fiscal year-end, without deducting cash"
+    - "Net asset value of the investee company"
+    - "EBITDA × sector multiple"
+  answer: 1
+  explanation: "ESMA Q&A III.1 precisely defines enterprise value for PAI purposes as: market capitalisation of ordinary shares + market capitalisation of preferred shares + book value of total debt + non-controlling interests — at fiscal year-end, without deducting cash or cash equivalents. Using a different definition would produce non-compliant calculations."
+
+- question: "Which of the following is NOT a mandatory PAI indicator in Table 1 of Annex I (RTS 2022/1288) for investments in investee companies?"
+  options:
+    - "Carbon footprint"
+    - "Board gender diversity"
+    - "Exposure to conventional weapons (non-controversial)"
+    - "Unadjusted gender pay gap"
+  answer: 2
+  explanation: "Conventional weapons exposure is not a mandatory PAI indicator. The mandatory controversial weapons indicator (Indicator 14) covers anti-personnel mines, cluster munitions, chemical and biological weapons. Exposure to conventional defence industry weapons is not in the mandatory list. Carbon footprint, board gender diversity, and gender pay gap are all mandatory indicators."
+
+- question: "What must a firm publish if it chooses NOT to consider PAI at entity level (comply-or-explain, below 500 employees)?"
+  options:
+    - "Nothing — firms below the threshold have no SFDR obligations"
+    - "A clear statement on its website explaining why PAI are not considered and, where relevant, whether and when they intend to consider PAI"
+    - "A simplified version of the full PAI statement covering only environmental indicators"
+    - "A letter to investors explaining the decision to opt out"
+  answer: 1
+  explanation: "Under the comply-or-explain approach of Article 4, firms below the 500-employee threshold that choose not to consider PAI must publish a clear explanation on their website of why they do not consider PAI, and whether and when they plan to do so. This explanation must be substantive, not merely a boilerplate opt-out."
+
+- question: "A PAI statement must be provided in a summary format in at least how many languages?"
+  options:
+    - "Only the home Member State's official language"
+    - "At least one language customary in international finance (English) AND at least one official language of each Member State where the FMP's products are available"
+    - "All 24 official languages of the EU"
+    - "Two languages: the FMP's home language and one other EU language"
+  answer: 1
+  explanation: "The RTS requires the PAI statement summary to be provided in at least one language customary in international finance (English) and in at least one official language of each Member State where the FMP's financial products are made available. This multilingual requirement ensures investor accessibility across EU Member States."

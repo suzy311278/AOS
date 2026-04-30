@@ -1,0 +1,26 @@
+- question: "Which companies are in scope of France's Loi de Vigilance (2017)?"
+  options:
+  - "All French companies with more than 250 employees"
+  - "French companies with at least 5,000 employees in France, or at least 10,000 employees worldwide for two consecutive years"
+  - "French companies with more than EUR 100 million annual turnover anywhere in the world"
+  - "Any company listed on the Paris Stock Exchange regardless of size"
+  answer: 1
+  explanation: "The Loi de Vigilance applies to French companies with at least 5,000 employees in France OR at least 10,000 employees globally (including subsidiaries), for two consecutive years. This captures approximately 150-200 of the largest French multinationals."
+
+- question: "What enforcement mechanism does Germany's LkSG use, and which authority administers it?"
+  options:
+  - "Civil courts, supervised by the German Federal Court of Justice (BGH)"
+  - "The European Commission's Directorate-General for Justice"
+  - "Administrative enforcement by BAFA (Federal Office for Economic Affairs and Export Control), with fines up to 2% of global turnover"
+  - "Criminal prosecution by the German Federal Prosecutor's Office"
+  answer: 2
+  explanation: "The German LkSG uses an administrative enforcement model through BAFA (Bundesamt fur Wirtschaft und Ausfuhrkontrolle). BAFA can conduct audits, issue compliance orders, impose fines of up to EUR 8 million or 2% of global annual turnover for larger companies, and exclude serious violators from public procurement for up to three years."
+
+- question: "What is the key structural difference between the French Loi de Vigilance and the German LkSG in terms of civil liability for supply chain victims?"
+  options:
+  - "There is no difference - both laws create explicit civil liability for supply chain victims"
+  - "The LkSG creates explicit civil liability while the Loi de Vigilance relies on BAFA enforcement"
+  - "The Loi de Vigilance creates explicit civil liability for affected persons to sue for damages, while the LkSG has no equivalent private right of action"
+  - "Neither law creates any form of civil liability - both rely exclusively on government enforcement"
+  answer: 2
+  explanation: "The French Loi de Vigilance explicitly creates a private right of action: affected persons can give formal notice to a company and, after three months, take it to court to demand compliance or damages. The German LkSG has no equivalent private cause of action for supply chain victims, though general tort law remains available."

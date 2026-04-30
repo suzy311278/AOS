@@ -1,0 +1,26 @@
+- question: "What is the purpose of the Beta concept in the Sustainalytics ESG Risk Ratings?"
+  options:
+    - "It converts the overall ESG risk score into a letter grade for investor communication"
+    - "It adjusts a subindustry exposure score to reflect the degree to which a specific company's exposure deviates from the subindustry average"
+    - "It measures the volatility of a company's ESG score over time relative to its sector"
+    - "It standardises management scores so that all companies in the same subindustry have identical starting points"
+  answer: 1
+  explanation: "The Beta reflects the degree to which a company's exposure to a material ESG issue deviates from the average exposure to that issue within its subindustry. The subindustry exposure score is multiplied by the company's Issue Beta to arrive at the company-specific exposure score."
+
+- question: "What is the range of the final subindustry exposure score in the Sustainalytics framework, and at what threshold is an MEI considered immaterial?"
+  options:
+    - "0 to 100, with scores below 10 deemed immaterial"
+    - "1 to 10, with scores below 1 deemed immaterial"
+    - "2 to 10, with scores below 2 deemed immaterial"
+    - "0 to 50, with scores below 5 deemed immaterial"
+  answer: 2
+  explanation: "The final subindustry exposure score ranges from 2 (low exposure) to 10 (high exposure). Scores below 2 are deemed immaterial, meaning the MEI will not appear in the rating for that subindustry."
+
+- question: "Which of the following is NOT one of the five thematic areas used to calculate Beta Indicators in the Sustainalytics model?"
+  options:
+    - "Product and Production"
+    - "Financials"
+    - "Geographic"
+    - "Regulatory Environment"
+  answer: 3
+  explanation: "The five thematic areas of Beta Indicators are: Product and Production, Financials, Events, Geographic, and Governance. Regulatory Environment is not one of the five thematic areas listed in the methodology."

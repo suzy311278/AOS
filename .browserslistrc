@@ -1,0 +1,11 @@
+# Modern browsers only — drops legacy polyfills for Array.prototype.at,
+# Array.prototype.flat/flatMap, Object.fromEntries, Object.hasOwn,
+# String.prototype.trimStart/trimEnd, etc.
+# This saves ~12 KiB on every JS chunk as reported by PageSpeed Insights.
+
+> 0.5%
+last 2 versions
+not dead
+not op_mini all
+not kaios <= 2.5
+not android < 5

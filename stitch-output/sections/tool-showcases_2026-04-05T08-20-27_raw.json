@@ -1,0 +1,186 @@
+{
+  "outputComponents": [
+    {
+      "design": {
+        "screens": [
+          {
+            "designSystem": {
+              "designSystem": {
+                "displayName": "Greentryst Meridian",
+                "theme": {
+                  "bodyFont": "INTER",
+                  "colorMode": "LIGHT",
+                  "colorVariant": "FIDELITY",
+                  "customColor": "#005C55",
+                  "designMd": "# Design System Specification: Editorial Sustainability\n\n## 1. Overview & Creative North Star: \"The Sovereign Archive\"\nThis design system is not a template; it is a high-performance operating system for the sustainability sector. Our Creative North Star is **\"The Sovereign Archive.\"** We aim for the institutional authority of a Bloomberg Terminal distilled through a modern, premium lens. \n\nTo achieve this, we move beyond \"standard\" web layouts. We embrace intentional asymmetry, high-contrast surface transitions, and a rigorous commitment to \"No-Line\" architecture. The interface should feel like a physical desk—layers of high-quality paper and dark glass screens—where depth is communicated through tonal shifts rather than structural outlines.\n\n## 2. Color & Tonal Architecture\nThe palette is rooted in Deep Teal and Carbon, moving away from \"leaf green\" clichés toward a more executive, atmospheric environment.\n\n### Core Tones\n*   **Primary (The Executive Teal):** `#00433d` (Primary) / `#005c55` (Primary Container). Use this for high-impact actions and brand presence.\n*   **Neutral Surface (The Paper):** `#f8faf9` (Surface). This is your canvas. It should feel clean, bright, and expansive.\n*   **The Archive (The Product):** `#0a1a1a` (Background) / `#1a2e2e` (Surface Container). These deep darks are used for product UI cards sitting atop light surfaces to create \"The Bloomberg Effect.\"\n\n### The \"No-Line\" Rule\n**Standard 1px borders are strictly prohibited for sectioning.** \nBoundaries must be defined by background color shifts. To separate a section, transition from `surface` to `surface-container-low` (#f2f4f3). If a container needs focus, use tonal nesting.\n\n### Surface Hierarchy & Nesting\nTreat the UI as physical layers. Use the following hierarchy to define importance:\n1.  **Level 0 (Base):** `surface` (#f8faf9)\n2.  **Level 1 (Sections):** `surface-container-low` (#f2f4f3)\n3.  **Level 2 (In-Page Cards):** `surface-container-lowest` (#ffffff)\n4.  **Level 3 (Product Embeds):** `on-secondary-fixed` (#0a1f1f) — This creates the signature dark-on-light \"Dashboard\" look.\n\n### The \"Glass & Texture\" Rule\nFor floating navigation or overlays, use **Glassmorphism**:\n*   **Fill:** `surface` at 80% opacity.\n*   **Effect:** Backdrop blur (20px - 40px).\n*   **Signature Gradient:** For primary buttons and heroes, use a subtle linear gradient from `primary` (#00433d) to `primary_container` (#005c55) at a 135° angle. This adds \"soul\" and prevents the flatness of standard UI kits.\n\n## 3. Typography: The Editorial Scale\nWe use **Inter** for its neutral, Swiss-inspired precision and **JetBrains Mono** for data-heavy environments to signal technical accuracy.\n\n*   **Display (The Headline):** `display-lg` (56-64px), Weight 800, Letter-spacing -0.02em. This is for hero statements.\n*   **Headline (The Section):** `headline-lg` (32-42px), Weight 700, Letter-spacing -0.01em.\n*   **Title (The Card):** `title-lg` (20-24px), Weight 600.\n*   **Body (The Narrative):** `body-lg` (16-18px), Weight 400, Line-height 1.6. Ensure ample vertical rhythm.\n*   **Data (The Fact):** Use `JetBrains Mono` for all statistics, timestamps, and ESG metrics. This differentiates \"opinion\" from \"data.\"\n\n## 4. Elevation & Depth\nDepth is achieved through **Tonal Layering**, not drop shadows.\n\n*   **Layering Principle:** Place a `surface-container-lowest` (White) card on a `surface` (Off-white) background. This 2% shift in brightness is enough to signal elevation to the human eye without visual clutter.\n*   **Ambient Shadows:** If an element must \"float\" (e.g., a dropdown or modal), use a shadow color tinted with the primary hue: `rgba(0, 67, 61, 0.08)` with a 24px blur and 0px spread.\n*   **The Ghost Border Fallback:** If accessibility requires a border (e.g., in input fields), use `outline-variant` (#bec9c6) at 20% opacity. It should be felt, not seen.\n\n## 5. Components\n\n### Buttons\n*   **Primary:** Background: `primary_container` (#005c55); Text: `on_primary` (#ffffff); Radius: `DEFAULT` (8px). \n*   **Secondary (The Ghost):** No background. Border: `outline_variant` at 20%. Text: `primary`.\n*   **States:** On hover, shift background to `primary` (#00433d). No \"lift\" animations; use color transitions only for a more authoritative feel.\n\n### Cards & Product Modules\n*   **The Signature Card:** Use `on_secondary_fixed` (#0a1f1f) for the card background with `text_light` (#e0ebe8) for content. \n*   **Radius:** `xl` (24px) for major sections, `lg` (16px) for inner cards.\n*   **Spacing:** No dividers. Use 32px or 48px of vertical padding to separate content blocks.\n\n### Data Badges (Pills)\n*   **Status: Live:** `tertiary_fixed` (#6bfe9c) background with `on_tertiary_fixed` (#00210c) text.\n*   **Status: Coming Soon:** Background: Amber (#f59e0b) at 15% opacity; Text: Amber.\n*   **Shape:** `full` (rounded-pill).\n\n### Inputs & Forms\n*   **Field:** `surface_container_low` background. \n*   **Focus:** 1px border of `primary` (#00433d).\n*   **Label:** `label-md` using `secondary` (#4e6262).\n\n## 6. Do’s and Don’ts\n\n### Do\n*   **Do** use extreme white space. A 96px vertical gap between sections is the minimum requirement.\n*   **Do** mix Inter and JetBrains Mono in the same component (e.g., an Inter title with a JetBrains Mono stat).\n*   **Do** use \"nested containers\"—a dark card inside a light section—to highlight key software features.\n\n### Don’t\n*   **Don’t** use stock photography. Use abstract data visualizations, high-quality iconography, or macro-texture photography of sustainable materials (slate, recycled glass, mycelium).\n*   **Don’t** use 1px dividers to separate list items. Use 16px of vertical space and a change in text weight.\n*   **Don’t** use pure black (#000000). Use our `on_secondary_fixed` (#0a1f1f) for \"black\" elements to maintain the sophisticated teal undertone.",
+                  "font": "INTER",
+                  "headlineFont": "INTER",
+                  "labelFont": "INTER",
+                  "namedColors": {
+                    "background": "#f8faf9",
+                    "error": "#ba1a1a",
+                    "error_container": "#ffdad6",
+                    "inverse_on_surface": "#eff1f0",
+                    "inverse_primary": "#8cd4ca",
+                    "inverse_surface": "#2e3131",
+                    "on_background": "#191c1c",
+                    "on_error": "#ffffff",
+                    "on_error_container": "#93000a",
+                    "on_primary": "#ffffff",
+                    "on_primary_container": "#8ad2c8",
+                    "on_primary_fixed": "#00201d",
+                    "on_primary_fixed_variant": "#00504a",
+                    "on_secondary": "#ffffff",
+                    "on_secondary_container": "#546868",
+                    "on_secondary_fixed": "#0a1f1f",
+                    "on_secondary_fixed_variant": "#364a4a",
+                    "on_surface": "#191c1c",
+                    "on_surface_variant": "#3f4947",
+                    "on_tertiary": "#ffffff",
+                    "on_tertiary_container": "#48df82",
+                    "on_tertiary_fixed": "#00210c",
+                    "on_tertiary_fixed_variant": "#005228",
+                    "outline": "#6f7977",
+                    "outline_variant": "#bec9c6",
+                    "primary": "#00433d",
+                    "primary_container": "#005c55",
+                    "primary_fixed": "#a7f0e6",
+                    "primary_fixed_dim": "#8cd4ca",
+                    "secondary": "#4e6262",
+                    "secondary_container": "#d0e7e6",
+                    "secondary_fixed": "#d0e7e6",
+                    "secondary_fixed_dim": "#b5cbca",
+                    "surface": "#f8faf9",
+                    "surface_bright": "#f8faf9",
+                    "surface_container": "#eceeed",
+                    "surface_container_high": "#e6e9e8",
+                    "surface_container_highest": "#e1e3e2",
+                    "surface_container_low": "#f2f4f3",
+                    "surface_container_lowest": "#ffffff",
+                    "surface_dim": "#d8dada",
+                    "surface_tint": "#1a6962",
+                    "surface_variant": "#e1e3e2",
+                    "tertiary": "#004520",
+                    "tertiary_container": "#005f2f",
+                    "tertiary_fixed": "#6bfe9c",
+                    "tertiary_fixed_dim": "#4ae183"
+                  },
+                  "overrideNeutralColor": "#F8FAF9",
+                  "overridePrimaryColor": "#005C55",
+                  "overrideSecondaryColor": "#1A2E2E",
+                  "overrideTertiaryColor": "#2ECC71",
+                  "roundness": "ROUND_EIGHT",
+                  "spacingScale": 3
+                }
+              },
+              "name": "assets/23bd43dea2e746bb9325f30152d46057",
+              "version": "1"
+            },
+            "deviceType": "DESKTOP",
+            "generatedBy": "figaro_agent",
+            "height": "4948",
+            "htmlCode": {
+              "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzQyYTkyYjJkNzBiNzQwZWZhYWMwYWZkYzg2MGM1OGY3EgsSBxD4gf-qtRAYAZIBIwoKcHJvamVjdF9pZBIVQhM3NjYzNjc2MDcwMDM3NTI2MTcx&filename=&opi=96797242",
+              "mimeType": "text/html",
+              "name": "projects/7663676070037526171/files/84cfe7458be04197a0cb78b0b04c8f10"
+            },
+            "id": "86a12e30545f4402ab613bf2dea837ed",
+            "name": "projects/7663676070037526171/screens/86a12e30545f4402ab613bf2dea837ed",
+            "prompt": "Desktop website section: THREE TOOL SHOWCASES for Greentryst. \n- Background: #f8faf9 (Surface)\n- Layout: Editorial alternating left-right, 96px vertical padding.\n- Product UI Cards: Dark (#0e1e1e) with rounded-2xl corners and subtle shadows.\n\nSHOWCASE 1 (Text Left, UI Right): GHG INVENTORY CALCULATOR\n- Badge: Amber \"COMING SOON\" pill\n- Headline: \"GHG calculations with full audit trails.\"\n- Body: \"Scope 1, 2, and 3 emissions calculated with verified emission factors. Every factor links to its source publication, page, and year. Auto-generates calculation methodology notes for third-party assurance. Supports GHG Protocol, ISO 14064, and PCAF.\"\n- Detail line (Mono): \"Every emission factor sourced. Every calculation auditable.\"\n- UI Right: Dark card showing a GHG calculator. Tabs: Scope 1 | Scope 2 | Scope 3 (Active). Form with: Category \"Business Travel\", Activity \"142,500 km\", Mode \"Short-haul flight\", Emission Factor \"0.255 kgCO2e/km\" (verified badge). Source: \"DEFRA 2024, Table 4c, Row 12\". Result: \"36.34 tCO2e\" in large teal. Buttons: \"Export to PDF\", \"Add to Report\".\n\nSHOWCASE 2 (Text Right, UI Left): REPORT WRITING / DRAFTING\n- Badge: Amber \"COMING SOON\" pill\n- Headline: \"Disclosure reports that write themselves.\"\n- Body: \"Guided templates for GRI, TCFD, CSRD, and BRSR disclosures. Select your framework, answer the guided questions, and generate a draft report pre-populated with your data. Every section maps to the exact disclosure requirement it fulfills.\"\n- Detail (Mono): \"Supports GRI 2021, TCFD Recommendations, CSRD ESRS, BRSR Core + Comprehensive.\"\n- UI Left: Dark card showing a report builder. Framework selector with \"BRSR Comprehensive\" active. Sidebar outline with checkmarks for Section A and B, teal dot for Section C. Main area: \"Principle 6: Environment\" headline. Text area with draft content about energy consumption. Source: \"Data source: GHG Inventory Calculator, FY2025-26\".\n\nSHOWCASE 3 (Text Left, UI Right): COMPANY ESG SCREENER (BRSR)\n- Badge: Amber \"COMING SOON\" pill\n- Headline: \"Every listed company. One sustainability profile.\"\n- Body: \"Consolidated ESG performance view built from published BRSR filings, sustainability reports, and rating agency data. The tool that consultants currently spend days building manually for each client pitch, done in 5 minutes.\"\n- Detail (Mono): \"Top 1000 BSE-listed companies. BRSR Core + Comprehensive filings indexed.\"\n- UI Right: Dark card showing a screener dashboard. Search bar with \"Tata Steel Limited\". Profile: \"Tata Steel Limited\" (BSE: TATASTEEL). Overall Score: Circular gauge \"72/100\" in teal. Sub-scores: E: 68 | S: 74 | G: 76. Metrics: GHG Intensity, Water Intensity, Women in Workforce, Board Independence. Source: \"BRSR FY2024-25 Annual Filing, BSE\". Buttons: \"Compare with Peers\", \"Download Brief\".\n\nTypography: Inter for headings/body, JetBrains Mono for data. Colors: #005c55 (Teal), #0a1a1a (Dark), #f8faf9 (Surface). Professional, authoritative, institutional-grade feel.",
+            "screenMetadata": {
+              "agentType": "PRO_AGENT",
+              "status": "COMPLETE"
+            },
+            "screenType": "DESIGN",
+            "screenshot": {
+              "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0uhq9E4X374GtLQlcPKOoLEtUk-g87qnhNe0W70aieGQsMbGdaOc_KeezziDzlZDQhZyJQPxQgZzAQT7hZILGor1qwcXanwDycOFNb-n5SBmgFKeUs-E6pRHqlm7SA1eqCe63fVRFgD8D9XIcYs5Lrt_nH3FG4hTRzOwuCiqCSTfqj-U-47k6CXu4WFx0eAHh-RXDyCK7AH4Z0o6IldCSQEY1-bB1uymBGaG1dwYeL0hNPAg8_esG5fLxd8",
+              "name": "projects/7663676070037526171/files/e7cb1a900ffa4db79226e0639a7930ab"
+            },
+            "theme": {
+              "bodyFont": "INTER",
+              "colorMode": "LIGHT",
+              "colorVariant": "FIDELITY",
+              "customColor": "#005C55",
+              "designMd": "# Design System Specification: Editorial Sustainability\n\n## 1. Overview & Creative North Star: \"The Sovereign Archive\"\nThis design system is not a template; it is a high-performance operating system for the sustainability sector. Our Creative North Star is **\"The Sovereign Archive.\"** We aim for the institutional authority of a Bloomberg Terminal distilled through a modern, premium lens. \n\nTo achieve this, we move beyond \"standard\" web layouts. We embrace intentional asymmetry, high-contrast surface transitions, and a rigorous commitment to \"No-Line\" architecture. The interface should feel like a physical desk—layers of high-quality paper and dark glass screens—where depth is communicated through tonal shifts rather than structural outlines.\n\n## 2. Color & Tonal Architecture\nThe palette is rooted in Deep Teal and Carbon, moving away from \"leaf green\" clichés toward a more executive, atmospheric environment.\n\n### Core Tones\n*   **Primary (The Executive Teal):** `#00433d` (Primary) / `#005c55` (Primary Container). Use this for high-impact actions and brand presence.\n*   **Neutral Surface (The Paper):** `#f8faf9` (Surface). This is your canvas. It should feel clean, bright, and expansive.\n*   **The Archive (The Product):** `#0a1a1a` (Background) / `#1a2e2e` (Surface Container). These deep darks are used for product UI cards sitting atop light surfaces to create \"The Bloomberg Effect.\"\n\n### The \"No-Line\" Rule\n**Standard 1px borders are strictly prohibited for sectioning.** \nBoundaries must be defined by background color shifts. To separate a section, transition from `surface` to `surface-container-low` (#f2f4f3). If a container needs focus, use tonal nesting.\n\n### Surface Hierarchy & Nesting\nTreat the UI as physical layers. Use the following hierarchy to define importance:\n1.  **Level 0 (Base):** `surface` (#f8faf9)\n2.  **Level 1 (Sections):** `surface-container-low` (#f2f4f3)\n3.  **Level 2 (In-Page Cards):** `surface-container-lowest` (#ffffff)\n4.  **Level 3 (Product Embeds):** `on-secondary-fixed` (#0a1f1f) — This creates the signature dark-on-light \"Dashboard\" look.\n\n### The \"Glass & Texture\" Rule\nFor floating navigation or overlays, use **Glassmorphism**:\n*   **Fill:** `surface` at 80% opacity.\n*   **Effect:** Backdrop blur (20px - 40px).\n*   **Signature Gradient:** For primary buttons and heroes, use a subtle linear gradient from `primary` (#00433d) to `primary_container` (#005c55) at a 135° angle. This adds \"soul\" and prevents the flatness of standard UI kits.\n\n## 3. Typography: The Editorial Scale\nWe use **Inter** for its neutral, Swiss-inspired precision and **JetBrains Mono** for data-heavy environments to signal technical accuracy.\n\n*   **Display (The Headline):** `display-lg` (56-64px), Weight 800, Letter-spacing -0.02em. This is for hero statements.\n*   **Headline (The Section):** `headline-lg` (32-42px), Weight 700, Letter-spacing -0.01em.\n*   **Title (The Card):** `title-lg` (20-24px), Weight 600.\n*   **Body (The Narrative):** `body-lg` (16-18px), Weight 400, Line-height 1.6. Ensure ample vertical rhythm.\n*   **Data (The Fact):** Use `JetBrains Mono` for all statistics, timestamps, and ESG metrics. This differentiates \"opinion\" from \"data.\"\n\n## 4. Elevation & Depth\nDepth is achieved through **Tonal Layering**, not drop shadows.\n\n*   **Layering Principle:** Place a `surface-container-lowest` (White) card on a `surface` (Off-white) background. This 2% shift in brightness is enough to signal elevation to the human eye without visual clutter.\n*   **Ambient Shadows:** If an element must \"float\" (e.g., a dropdown or modal), use a shadow color tinted with the primary hue: `rgba(0, 67, 61, 0.08)` with a 24px blur and 0px spread.\n*   **The Ghost Border Fallback:** If accessibility requires a border (e.g., in input fields), use `outline-variant` (#bec9c6) at 20% opacity. It should be felt, not seen.\n\n## 5. Components\n\n### Buttons\n*   **Primary:** Background: `primary_container` (#005c55); Text: `on_primary` (#ffffff); Radius: `DEFAULT` (8px). \n*   **Secondary (The Ghost):** No background. Border: `outline_variant` at 20%. Text: `primary`.\n*   **States:** On hover, shift background to `primary` (#00433d). No \"lift\" animations; use color transitions only for a more authoritative feel.\n\n### Cards & Product Modules\n*   **The Signature Card:** Use `on_secondary_fixed` (#0a1f1f) for the card background with `text_light` (#e0ebe8) for content. \n*   **Radius:** `xl` (24px) for major sections, `lg` (16px) for inner cards.\n*   **Spacing:** No dividers. Use 32px or 48px of vertical padding to separate content blocks.\n\n### Data Badges (Pills)\n*   **Status: Live:** `tertiary_fixed` (#6bfe9c) background with `on_tertiary_fixed` (#00210c) text.\n*   **Status: Coming Soon:** Background: Amber (#f59e0b) at 15% opacity; Text: Amber.\n*   **Shape:** `full` (rounded-pill).\n\n### Inputs & Forms\n*   **Field:** `surface_container_low` background. \n*   **Focus:** 1px border of `primary` (#00433d).\n*   **Label:** `label-md` using `secondary` (#4e6262).\n\n## 6. Do’s and Don’ts\n\n### Do\n*   **Do** use extreme white space. A 96px vertical gap between sections is the minimum requirement.\n*   **Do** mix Inter and JetBrains Mono in the same component (e.g., an Inter title with a JetBrains Mono stat).\n*   **Do** use \"nested containers\"—a dark card inside a light section—to highlight key software features.\n\n### Don’t\n*   **Don’t** use stock photography. Use abstract data visualizations, high-quality iconography, or macro-texture photography of sustainable materials (slate, recycled glass, mycelium).\n*   **Don’t** use 1px dividers to separate list items. Use 16px of vertical space and a change in text weight.\n*   **Don’t** use pure black (#000000). Use our `on_secondary_fixed` (#0a1f1f) for \"black\" elements to maintain the sophisticated teal undertone.",
+              "font": "INTER",
+              "headlineFont": "INTER",
+              "labelFont": "INTER",
+              "namedColors": {
+                "background": "#f8faf9",
+                "error": "#ba1a1a",
+                "error_container": "#ffdad6",
+                "inverse_on_surface": "#eff1f0",
+                "inverse_primary": "#8cd4ca",
+                "inverse_surface": "#2e3131",
+                "on_background": "#191c1c",
+                "on_error": "#ffffff",
+                "on_error_container": "#93000a",
+                "on_primary": "#ffffff",
+                "on_primary_container": "#8ad2c8",
+                "on_primary_fixed": "#00201d",
+                "on_primary_fixed_variant": "#00504a",
+                "on_secondary": "#ffffff",
+                "on_secondary_container": "#546868",
+                "on_secondary_fixed": "#0a1f1f",
+                "on_secondary_fixed_variant": "#364a4a",
+                "on_surface": "#191c1c",
+                "on_surface_variant": "#3f4947",
+                "on_tertiary": "#ffffff",
+                "on_tertiary_container": "#48df82",
+                "on_tertiary_fixed": "#00210c",
+                "on_tertiary_fixed_variant": "#005228",
+                "outline": "#6f7977",
+                "outline_variant": "#bec9c6",
+                "primary": "#00433d",
+                "primary_container": "#005c55",
+                "primary_fixed": "#a7f0e6",
+                "primary_fixed_dim": "#8cd4ca",
+                "secondary": "#4e6262",
+                "secondary_container": "#d0e7e6",
+                "secondary_fixed": "#d0e7e6",
+                "secondary_fixed_dim": "#b5cbca",
+                "surface": "#f8faf9",
+                "surface_bright": "#f8faf9",
+                "surface_container": "#eceeed",
+                "surface_container_high": "#e6e9e8",
+                "surface_container_highest": "#e1e3e2",
+                "surface_container_low": "#f2f4f3",
+                "surface_container_lowest": "#ffffff",
+                "surface_dim": "#d8dada",
+                "surface_tint": "#1a6962",
+                "surface_variant": "#e1e3e2",
+                "tertiary": "#004520",
+                "tertiary_container": "#005f2f",
+                "tertiary_fixed": "#6bfe9c",
+                "tertiary_fixed_dim": "#4ae183"
+              },
+              "overrideNeutralColor": "#F8FAF9",
+              "overridePrimaryColor": "#005C55",
+              "overrideSecondaryColor": "#1A2E2E",
+              "overrideTertiaryColor": "#2ECC71",
+              "roundness": "ROUND_EIGHT",
+              "spacingScale": 3
+            },
+            "title": "Greentryst Tools Showcase",
+            "width": "2560"
+          }
+        ],
+        "theme": {}
+      }
+    },
+    {
+      "text": "I've designed the \"Three Tool Showcases\" for Greentryst, as you described. \n\nI followed your detailed design system and layout requirements, creating three distinct editorial sections with alternating text and product UI mockups for the GHG Inventory Calculator, Report Drafting, and ESG Screener. Each section includes an amber \"COMING SOON\" badge, a strong bold headline, a concise body description, and a realistic product UI card floating with a subtle shadow on the surface-colored background (#f8faf9).\n\nI've used **Inter** for the headers and body text, and **JetBrains Mono** for the detailed data points to maintain that \"Sovereign Archive\" aesthetic. The dark product UI cards (#0e1e1e) provide a professional, institutional-grade feel, accented with deep teal (#005c55) for key highlights and results.\n\nThe new version of the **Greentryst Tools Showcase** is now on the canvas for your review."
+    },
+    {
+      "suggestion": "Add a 'Get Started' CTA at the bottom of the section"
+    },
+    {
+      "suggestion": "Change the color of the coming soon badges to a softer yellow"
+    },
+    {
+      "suggestion": "Show the mobile version of these showcases"
+    }
+  ],
+  "projectId": "7663676070037526171",
+  "sessionId": "86090553566514791"
+}

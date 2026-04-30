@@ -1,0 +1,26 @@
+- question: "A company emits 2 tonnes of methane (CH4) from its operations. Using a GWP of 28, what should it report in its GHG inventory?"
+  options:
+    - "2 tonnes CO2e"
+    - "28 tonnes CO2e"
+    - "56 tonnes CO2e"
+    - "30 tonnes CO2e"
+  answer: 2
+  explanation: "Different greenhouse gases trap heat at different rates, so you cannot simply add kilograms of CH4 to kilograms of CO2. You convert using GWP: 2 tonnes CH4 x 28 GWP = 56 tonnes CO2e. This is why the common unit tCO2e exists - it makes different gases comparable."
+
+- question: "A manufacturing company wants its GHG inventory to serve internal cost management, public CDP disclosure, and a future emissions trading scheme. What is the best design approach?"
+  options:
+    - "Build three separate inventories, one for each purpose"
+    - "Start with the trading scheme requirements since those are the strictest"
+    - "Design data collection to be detailed and flexible from the start so one dataset serves all three goals"
+    - "Focus on CDP requirements first, then adapt later for trading"
+  answer: 2
+  explanation: "Most companies want their inventory to serve multiple goals. Designing data collection to be detailed and flexible from the start means the same dataset can feed internal management, public reporting, and regulatory compliance without rebuilding from scratch. Building separate inventories is wasteful and creates inconsistency risks."
+
+- question: "Which of these gases would NOT be included in a company's Scope 1 or Scope 2 totals under the GHG Protocol Corporate Standard?"
+  options:
+    - "Nitrous oxide (N2O) from agricultural operations"
+    - "HFCs from refrigeration equipment leaks"
+    - "CFCs from legacy air conditioning units"
+    - "SF6 from electrical switchgear"
+  answer: 2
+  explanation: "The GHG Protocol Corporate Standard covers six Kyoto Protocol gases: CO2, CH4, N2O, HFCs, PFCs, and SF6. CFCs and other ozone-depleting substances are regulated under the Montreal Protocol and fall outside the standard inventory. They can be reported separately as optional information but are not included in Scope 1 or 2 totals."

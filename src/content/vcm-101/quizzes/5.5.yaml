@@ -1,0 +1,26 @@
+- question: "What is the purpose of a 'corresponding adjustment' under Article 6.2 of the Paris Agreement?"
+  options:
+  - "To adjust the price of carbon credits for inflation when transferred between countries"
+  - "To ensure that when a host country's mitigation outcome is sold internationally, it is not also counted by the host country toward its own Nationally Determined Contribution, preventing double counting"
+  - "To increase the credit volume issued by a project by the regulatory overhead cost of international transfer"
+  - "To require that buyer countries invest an equivalent amount in the host country's domestic climate programs"
+  answer: 1
+  explanation: "Corresponding adjustments are the Paris Agreement's anti-double-counting mechanism for internationally transferred mitigation outcomes. When a host country authorises a credit for international transfer, it must increase its own reported emissions (or reduce its reported reductions) by the equivalent amount, so the mitigation outcome is counted only once globally: either by the host country toward its NDC, or by the international buyer, but not by both. This is fundamental to the environmental integrity of international carbon market cooperation under the Paris Agreement."
+
+- question: "Satellite-based remote sensing is changing MRV practices in forest carbon projects primarily by:"
+  options:
+  - "Replacing the need for third-party verification body audits entirely"
+  - "Providing continuous monitoring of entire project areas at low cost, reducing the over-crediting risk that field-sampling-only approaches historically carried"
+  - "Allowing project developers to self-certify credit volumes without independent review"
+  - "Enabling real-time credit issuance based on satellite data without registry involvement"
+  answer: 1
+  explanation: "Satellite remote sensing enables monitoring of entire project areas continuously at resolutions previously unavailable for most projects, dramatically improving on field sampling which historically covered only a small fraction of a project's total area. By detecting forest cover changes, biomass density, and fire events across the whole project, satellite MRV makes systematic over-crediting harder to sustain undetected. It does not replace independent verification (the role of accredited VVBs) but provides far richer data for that verification to operate on."
+
+- question: "What was the primary integrity concern that led Verra to suspend automatic 'bridging' of VCS credits onto blockchain platforms in 2022?"
+  options:
+  - "Blockchain technology was insufficiently secure to hold carbon credit data"
+  - "Bridging enabled bulk purchases and tokenization of older, lower-quality credits, concentrating low-integrity assets in DeFi protocols without adequate quality controls"
+  - "The UN's Supervisory Body under Article 6.4 prohibited private blockchain use for carbon credits"
+  - "Registry retirement of bridged credits created double-counting between Verra and blockchain records"
+  answer: 1
+  explanation: "The integrity concern was not about security but about quality. Early tokenization protocols (Toucan Protocol in particular) allowed any eligible VCS credit to be bridged onto blockchain by retiring the original registry credit. This inadvertently enabled bulk purchases of old, cheap, low-quality credits (sometimes called 'junk credits') that happened to meet minimum eligibility criteria, concentrating these assets in DeFi liquidity pools and associating blockchain innovation with questionable credit quality. Verra's suspension was a response to this quality dilution problem, not a general opposition to blockchain technology."

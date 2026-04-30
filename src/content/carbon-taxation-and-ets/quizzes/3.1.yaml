@@ -1,0 +1,35 @@
+- question: "What is an emissions cap in an ETS?"
+  options:
+    - "A limit on the carbon price"
+    - "The total quantity of emissions allowed across all covered entities"
+    - "A penalty for exceeding emissions"
+    - "The maximum number of participants"
+  answer: 1
+  explanation: "The cap is the total quantity of emissions allowed in the system, set by the number of allowances issued. This is what provides environmental certainty in an ETS."
+
+- question: "What is an allowance in an emissions trading system?"
+  options:
+    - "Permission to build a new facility"
+    - "A permit to emit one ton of CO2 equivalent"
+    - "A tax exemption certificate"
+    - "A renewable energy credit"
+  answer: 1
+  explanation: "An allowance is a permit allowing the holder to emit one ton of CO2 equivalent. Entities must surrender allowances equal to their emissions for compliance."
+
+- question: "How does trading work in an ETS?"
+  options:
+    - "Only the government can buy and sell allowances"
+    - "Entities with surplus allowances can sell to those who need them"
+    - "Trading is prohibited"
+    - "Allowances cannot change hands"
+  answer: 1
+  explanation: "In an ETS, entities that reduce emissions below their allocation can sell surplus allowances to entities that face higher abatement costs, creating a market that finds least-cost reductions."
+
+- question: "What makes an ETS economically efficient?"
+  options:
+    - "All entities pay the same total amount"
+    - "All entities face the same marginal cost of emissions (the allowance price)"
+    - "No one has to reduce emissions"
+    - "Only large entities participate"
+  answer: 1
+  explanation: "Economic efficiency comes from all entities facing the same carbon price (allowance price). This ensures reductions happen where they cost least, minimizing total abatement costs."

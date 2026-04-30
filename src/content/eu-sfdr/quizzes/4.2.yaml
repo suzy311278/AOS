@@ -1,0 +1,44 @@
+- question: "Which RTS Annex applies to an Article 8 UCITS fund that designates an ESG index as a reference benchmark consistent with its promoted E/S characteristics?"
+  options:
+    - "Annex II"
+    - "Annex III"
+    - "Annex IV"
+    - "Annex V"
+  answer: 0
+  explanation: "Annex II applies to Article 8 products that use a designated reference benchmark consistent with the promoted E/S characteristics. Annex III is for Article 8 products without a benchmark. Annexes IV and V are for Article 9 products (with and without benchmark, respectively)."
+
+- question: "In the Article 8 pre-contractual disclosure template (Annex III), what mandatory statement must be included regardless of whether the fund makes sustainable investments?"
+  options:
+    - "'This financial product complies with all applicable EU sustainability standards'"
+    - "'This financial product promotes environmental/social characteristics but does not have sustainable investment as its objective'"
+    - "'This financial product does not consider principal adverse impacts'"
+    - "'This financial product's sustainability indicators have been independently verified'"
+  answer: 1
+  explanation: "The Annex III template requires the mandatory statement: 'This financial product promotes environmental/social characteristics but does not have sustainable investment as its objective.' This statement is required even if the product makes some sustainable investments — it distinguishes Article 8 products from Article 9 products and prevents investor confusion about the product's sustainability ambition level."
+
+- question: "What must the 'asset allocation' section of an Article 8 pre-contractual template disclose?"
+  options:
+    - "The specific securities held and their weights at the most recent quarter-end"
+    - "A breakdown of investments into: those aligned with promoted E/S characteristics (including any sustainable investments), and 'other investments' with an explanation of why they are held"
+    - "The geographic allocation of investments by country and region"
+    - "The credit ratings of all fixed income holdings"
+  answer: 1
+  explanation: "The asset allocation section must show the portfolio breakdown between: investments contributing to or aligned with the promoted E/S characteristics (and, separately, sustainable investments within this category), and 'other investments' (cash, derivatives, investments not contributing to the characteristics). The 'other' category must be explained and must not undermine the promoted characteristics."
+
+- question: "What must be described in the 'good governance practices' section of an Article 8 pre-contractual template?"
+  options:
+    - "The FMP's own board composition and remuneration structure"
+    - "How the FMP assesses the good governance practices of investee companies — the criteria, data sources, and actions taken when governance concerns are identified"
+    - "The corporate governance codes of each country in the investment universe"
+    - "The FMP's internal code of conduct and ethics policy"
+  answer: 1
+  explanation: "The good governance section of the Article 8 pre-contractual template must describe how the FMP assesses the good governance practices of investee companies. This includes the specific criteria used (e.g., board independence, remuneration policies, audit quality, tax compliance), the data sources, and what action the FMP takes when governance concerns are identified (engagement, exclusion, etc.)."
+
+- question: "For an Article 8 pre-contractual disclosure, what must be disclosed about PAI consideration at the product level?"
+  options:
+    - "Nothing — PAI is only relevant for Article 9 products"
+    - "The product must either state that PAI are considered (with which indicators and how) OR explain why PAI are not considered at product level"
+    - "All 14 mandatory Table 1 PAI indicators must be reported in the pre-contractual document"
+    - "A full quantitative PAI statement must accompany every Article 8 pre-contractual document"
+  answer: 1
+  explanation: "The Article 8 pre-contractual template includes a disclosure section on whether PAI are considered at product level. If Yes, the product must identify which PAI indicators are considered and how they inform the investment process. If No, the product must explain why. This is a disclosure requirement — it does not mandate PAI consideration for Article 8 products, but it requires transparency about the product's approach."

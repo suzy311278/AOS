@@ -1,0 +1,26 @@
+- question: "What proportion of a product's environmental impacts are determined during the design phase, according to the CEAP?"
+  options:
+    - "Up to 30%"
+    - "Up to 50%"
+    - "Up to 80%"
+    - "Up to 95%"
+  answer: 2
+  explanation: "Up to 80% of a product's environmental impacts are determined during the design phase. This is why the CEAP centres on a Sustainable Product Policy Framework expanding Ecodesign principles to cover durability, repairability, recycled content, and end-of-life recovery."
+
+- question: "What proportion of EU GDP do public authorities control through their procurement decisions?"
+  options:
+    - "Around 5%"
+    - "Around 14%"
+    - "Around 25%"
+    - "Around 35%"
+  answer: 1
+  explanation: "Public authorities control 14% of EU GDP purchasing power. By making Green Public Procurement (GPP) criteria mandatory for priority product groups, the Commission can shift enormous demand toward circular products and services."
+
+- question: "Which of the following was NOT one of the 2020 CEAP's three main pillars?"
+  options:
+    - "Sustainable Product Policy Framework"
+    - "Key product value chain strategies"
+    - "Less waste and more value"
+    - "International trade and tariff reform"
+  answer: 3
+  explanation: "The 2020 CEAP's three pillars were: the Sustainable Product Policy Framework, key product value chain strategies (covering seven sectors), and 'Less Waste, More Value' covering waste reduction and secondary materials markets. International trade tariff reform was not one of the three pillars, though international engagement was addressed as a cross-cutting action."

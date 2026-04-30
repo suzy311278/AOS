@@ -1,0 +1,26 @@
+- question: "IFRS S2 paragraph 13(b) requires disclosure of where climate risks are concentrated. In what three areas must concentration be described?"
+  options:
+    - "Revenue streams, cost centres, and management teams"
+    - "Geographical areas, facilities, and asset types"
+    - "Scope 1, Scope 2, and Scope 3 emissions"
+    - "Short-term, medium-term, and long-term exposures"
+  answer: 1
+  explanation: "Paragraph 13(b) requires description of where climate risks and opportunities are concentrated: (1) geographical areas (e.g., flood-prone coastal locations), (2) specific facilities (e.g., a site accounting for 60% of production), and (3) asset types (e.g., coastal real estate, long-lived fossil fuel infrastructure)."
+
+- question: "Paragraph 14(c) of IFRS S2 requires disclosure of quantitative and qualitative progress on plans from prior periods. What is the primary purpose of this requirement?"
+  options:
+    - "To allow investors to verify the entity's carbon credits"
+    - "To create year-on-year accountability for climate commitments made in previous reports"
+    - "To provide data for the Scope 3 measurement framework"
+    - "To document changes in the risk management process"
+  answer: 1
+  explanation: "Para 14(c) creates temporal accountability — entities cannot announce new plans each year while quietly abandoning previous commitments. Annual progress reporting against prior-period plans allows investors to assess whether the entity is delivering on its stated strategy."
+
+- question: "A company describes how it is 'working with customers to help them reduce emissions from using its products.' Which Para 14 requirement does this address?"
+  options:
+    - "14(a)(i) — Changes to the business model"
+    - "14(a)(ii) — Direct mitigation and adaptation"
+    - "14(a)(iii) — Indirect mitigation and adaptation"
+    - "14(b) — Resourcing of climate activities"
+  answer: 2
+  explanation: "Working with customers (downstream value chain partners) to reduce emissions from product use is indirect mitigation — it influences emissions outside the entity's direct operations by engaging parties in its downstream value chain. This falls under Para 14(a)(iii)."

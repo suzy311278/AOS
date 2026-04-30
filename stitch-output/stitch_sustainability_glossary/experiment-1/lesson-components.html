@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quantifying Soil Health - Greentryst</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
+  <script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: { display: ['Manrope', 'sans-serif'], body: ['Inter', 'sans-serif'] },
+        colors: {
+          primary: { DEFAULT: '#00433d', light: '#005c55', container: '#006a63', fixed: '#a7f0e6', dim: '#8cd4ca' },
+          surface: { DEFAULT: '#f8faf9', dim: '#d8dada', container: '#eceeed', 'container-low': '#f2f4f3', 'container-high': '#e6e9e8', 'container-highest': '#e1e3e2', 'container-lowest': '#ffffff' },
+          on: { surface: '#191c1c', 'surface-variant': '#3f4947', primary: '#ffffff' },
+          outline: { DEFAULT: '#6f7977', variant: '#bec9c6' },
+        }
+      }
+    }
+  }
+  </script>
+  <style>
+  * { font-family: 'Inter', sans-serif; }
+  h1, h2, h3, h4, h5, h6, .font-display { font-family: 'Manrope', sans-serif; }
+  .vines-gradient { background: linear-gradient(135deg, #00433d 0%, #006a63 100%); }
+  .hero-gradient { background: linear-gradient(135deg, #00433d 0%, #005c55 40%, #006a63 100%); }
+  .glass-light { background: rgba(255,255,255,0.8); backdrop-filter: blur(20px); }
+  .glass { background: rgba(255,255,255,0.08); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.12); }
+  .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+  .sidebar-link { transition: all 0.15s ease; }
+  .sidebar-link:hover { background: #eceeed; }
+  .sidebar-link.active { background: #a7f0e6; color: #00433d; font-weight: 600; }
+  .bar-fill { transition: height 0.6s cubic-bezier(0.22, 1, 0.36, 1); }
+  .banner-wrap { z-index: 20; transition: height 0.35s ease, box-shadow 0.3s ease; }
+  .banner-wrap.stuck { position: fixed; top: 64px; left: 0; right: 0; height: 120px !important; box-shadow: 0 8px 32px rgba(0,67,61,0.15); }
+  @media (min-width: 1024px) { .banner-wrap.stuck { left: 288px; } }
+  .banner-spacer { display: none; }
+  .banner-spacer.active { display: block; height: 400px; margin-bottom: 3rem; }
+  .banner-wrap.stuck .banner-breadcrumb { opacity: 0; height: 0; overflow: hidden; margin: 0; }
+  .banner-wrap.stuck .banner-title-area { margin-top: 0 !important; }
+  .banner-wrap.stuck .banner-title-area h1 { font-size: 1.5rem; }
+  .banner-wrap.stuck .banner-meta { opacity: 0; height: 0; overflow: hidden; margin: 0; }
+  .banner-wrap.stuck .banner-inner { padding-top: 1rem; padding-bottom: 4rem; justify-content: center; }
+  .banner-wrap.stuck .audio-glass { transform: translateX(-50%) translateY(50%) scale(0.85); }
+  .banner-wrap .banner-breadcrumb, .banner-wrap .banner-title-area h1, .banner-wrap .banner-meta, .banner-wrap .audio-glass, .banner-wrap .banner-inner { transition: all 0.35s ease; }
+  </style>
+</head>
+<body class="bg-surface text-on-surface">
+
+  <!-- NAV -->
+  <header class="sticky top-0 z-50 glass-light border-b border-outline-variant/20">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3 group">
+        <div class="w-8 h-8 rounded-lg vines-gradient flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-white text-lg">eco</span></div>
+        <span class="font-display font-bold text-on-surface text-lg tracking-tight">Greentryst</span>
+      </a>
+      <div class="flex items-center gap-3">
+        <button onclick="document.getElementById('sidebar').classList.toggle('hidden');document.getElementById('sidebar').classList.toggle('lg:flex')" class="lg:hidden flex items-center justify-center w-8 h-8 rounded-full hover:bg-surface-container transition">
+          <span class="material-symbols-outlined text-on-surface-variant">menu</span>
+        </button>
+        <button onclick="document.getElementById('search-modal').classList.remove('hidden')" class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant text-sm hover:bg-surface-container transition"><span class="material-symbols-outlined text-lg">search</span><span class="hidden sm:inline text-xs text-outline">Cmd+K</span></button>
+        <div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary-fixed/20 text-primary text-xs font-semibold"><span class="material-symbols-outlined text-sm">star</span> 500 XP</div>
+        <div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 text-xs font-semibold"><span class="material-symbols-outlined text-sm">local_fire_department</span> 3 day streak</div>
+        <a href="lesson.html" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-semibold bg-primary text-on-primary px-4 py-2 rounded-full hover:bg-primary-light transition shadow-sm"><span class="material-symbols-outlined text-base">play_arrow</span> Continue</a>
+        <a href="dashboard.html" class="text-sm font-medium text-on-surface-variant hover:text-on-surface transition hidden sm:inline">Dashboard</a>
+        <div class="w-8 h-8 rounded-full bg-primary-dim flex items-center justify-center text-primary text-xs font-bold ring-2 ring-primary-fixed/30">PK</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Layout: Sidebar + Main -->
+  <div class="flex pt-0 min-h-screen">
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="fixed left-0 top-16 h-[calc(100vh-4rem)] w-72 bg-surface-container-lowest hidden lg:flex flex-col overflow-hidden z-10 border-r border-outline-variant/20">
+      <!-- Course header -->
+      <div class="p-5 border-b border-outline-variant/20">
+        <a href="course.html" class="flex items-center gap-2 text-xs text-on-surface-variant hover:text-on-surface transition mb-3">
+          <span class="material-symbols-outlined text-sm">arrow_back</span> Back to course
+        </a>
+        <h2 class="font-display font-bold text-on-surface text-sm leading-snug">Article 6 of the Paris Agreement</h2>
+        <div class="mt-2.5 w-full bg-surface-container rounded-full h-1.5">
+          <div class="bg-primary rounded-full h-1.5" style="width: 55%"></div>
+        </div>
+        <p class="text-xs text-on-surface-variant mt-1.5">55% complete</p>
+      </div>
+
+      <!-- Module nav -->
+      <nav class="flex-1 overflow-y-auto py-3">
+        <!-- Module 4: Soil Carbon -->
+        <div class="px-4 mb-1">
+          <p class="text-[10px] font-semibold text-on-surface-variant uppercase tracking-widest px-2 py-2">Module 4: Soil Carbon</p>
+        </div>
+
+        <div class="px-3 space-y-0.5">
+          <!-- Lesson 1 - completed -->
+          <a href="lesson.html" class="sidebar-link flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-on-surface-variant">
+            <span class="material-symbols-outlined text-primary text-base" style="font-variation-settings: 'FILL' 1">check_circle</span>
+            <span>Introduction to SOC</span>
+          </a>
+          <!-- Lesson 2 - current -->
+          <a href="#" class="sidebar-link active flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm">
+            <span class="material-symbols-outlined text-primary text-base">play_circle</span>
+            <span>Quantifying Soil Health</span>
+          </a>
+          <!-- Lesson 3 - completed -->
+          <a href="#" class="sidebar-link flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-on-surface-variant">
+            <span class="material-symbols-outlined text-primary text-base" style="font-variation-settings: 'FILL' 1">check_circle</span>
+            <span>Sampling Protocols</span>
+          </a>
+          <!-- Lesson 4 - current (highlighted) -->
+          <a href="#" class="sidebar-link flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-on-surface-variant">
+            <span class="material-symbols-outlined text-outline text-base">radio_button_unchecked</span>
+            <span>ITMOs and Reporting</span>
+          </a>
+        </div>
+
+        <!-- Previous module -->
+        <div class="px-4 mt-5 mb-1">
+          <p class="text-[10px] font-semibold text-on-surface-variant uppercase tracking-widest px-2 py-2">Module 3: Cooperative Approaches</p>
+        </div>
+        <div class="px-3 space-y-0.5">
+          <a href="#" class="sidebar-link flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-on-surface-variant">
+            <span class="material-symbols-outlined text-primary text-base" style="font-variation-settings: 'FILL' 1">check_circle</span>
+            <span>Bilateral Agreements</span>
+          </a>
+          <a href="#" class="sidebar-link flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-on-surface-variant">
+            <span class="material-symbols-outlined text-primary text-base" style="font-variation-settings: 'FILL' 1">check_circle</span>
+            <span>Infrastructure Requirements</span>
+          </a>
+          <a href="#" class="sidebar-link flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-on-surface-variant">
+            <span class="material-symbols-outlined text-primary text-base" style="font-variation-settings: 'FILL' 1">check_circle</span>
+            <span>Corresponding Adjustments</span>
+          </a>
+        </div>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="ml-0 lg:ml-72 flex-1 w-full flex justify-center pb-24">
+      <div class="w-full">
+
+      <!-- Banner Image Header -->
+      <div id="lesson-banner" class="banner-wrap relative w-full" style="height: 400px;">
+        <div class="absolute inset-0 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1600&q=85" alt="Agricultural soil sampling" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#00433d]/95 via-[#00433d]/60 to-[#00433d]/30"></div>
+        </div>
+        <div class="banner-inner relative z-10 flex flex-col justify-end h-full px-4 sm:px-8 lg:px-10 pb-12 sm:pb-16">
+          <!-- Breadcrumbs -->
+          <div class="banner-breadcrumb mb-4">
+            <nav class="flex items-center gap-1.5 text-xs text-white/70">
+              <a href="index.html" class="hover:text-white transition">Home</a>
+              <span class="material-symbols-outlined text-xs">chevron_right</span>
+              <a href="course.html" class="hover:text-white transition">Article 6</a>
+              <span class="material-symbols-outlined text-xs">chevron_right</span>
+              <a href="#" class="hover:text-white transition">Module 4</a>
+              <span class="material-symbols-outlined text-xs">chevron_right</span>
+              <span class="text-white">Quantifying Soil Health</span>
+            </nav>
+          </div>
+          <!-- Title Area -->
+          <div class="banner-title-area">
+            <div class="banner-meta flex flex-wrap items-center gap-3 mb-3">
+              <span class="text-white/70 text-sm font-medium">Module 4: Soil Carbon</span>
+              <span class="text-white/30 hidden sm:inline">|</span>
+              <span class="text-white/70 text-sm">Lesson 2 of 4</span>
+              <span class="text-white/30 hidden sm:inline">|</span>
+              <div class="flex items-center gap-1 text-white/70 text-sm">
+                <span class="material-symbols-outlined text-sm">schedule</span>
+                12 min read
+              </div>
+            </div>
+            <h1 class="font-display text-3xl sm:text-5xl font-extrabold text-white leading-tight">Quantifying Soil Health</h1>
+          </div>
+        </div>
+
+        <!-- Glass Audio Player overlapping bottom edge -->
+        <div class="audio-glass absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 z-30 glass rounded-2xl px-6 py-4 flex items-center gap-4 w-[calc(100%-2rem)] sm:w-full max-w-4xl shadow-xl">
+          <button class="w-11 h-11 rounded-full bg-white/15 hover:bg-white/25 flex items-center justify-center transition">
+            <span class="material-symbols-outlined text-white text-2xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+          </button>
+          <div class="flex items-end gap-[3px] h-8 flex-1">
+            <div class="w-[3px] rounded-full bg-white/80" style="height: 40%"></div>
+            <div class="w-[3px] rounded-full bg-white/80" style="height: 70%"></div>
+            <div class="w-[3px] rounded-full bg-white/80" style="height: 55%"></div>
+            <div class="w-[3px] rounded-full bg-white/80" style="height: 90%"></div>
+            <div class="w-[3px] rounded-full bg-white/80" style="height: 60%"></div>
+            <div class="w-[3px] rounded-full bg-white/80" style="height: 85%"></div>
+            <div class="w-[3px] rounded-full bg-white/80" style="height: 45%"></div>
+            <div class="w-[3px] rounded-full bg-white/80" style="height: 75%"></div>
+            <div class="w-[3px] rounded-full bg-white/80" style="height: 50%"></div>
+            <div class="w-[3px] rounded-full bg-white/80" style="height: 95%"></div>
+            <div class="w-[3px] rounded-full bg-white/80" style="height: 65%"></div>
+            <div class="w-[3px] rounded-full bg-white/80" style="height: 80%"></div>
+            <div class="w-[3px] rounded-full bg-white/30" style="height: 55%"></div>
+            <div class="w-[3px] rounded-full bg-white/30" style="height: 70%"></div>
+            <div class="w-[3px] rounded-full bg-white/30" style="height: 40%"></div>
+            <div class="w-[3px] rounded-full bg-white/30" style="height: 85%"></div>
+            <div class="w-[3px] rounded-full bg-white/30" style="height: 50%"></div>
+            <div class="w-[3px] rounded-full bg-white/30" style="height: 75%"></div>
+            <div class="w-[3px] rounded-full bg-white/30" style="height: 60%"></div>
+            <div class="w-[3px] rounded-full bg-white/30" style="height: 90%"></div>
+            <div class="w-[3px] rounded-full bg-white/30" style="height: 45%"></div>
+            <div class="w-[3px] rounded-full bg-white/30" style="height: 65%"></div>
+            <div class="w-[3px] rounded-full bg-white/30" style="height: 80%"></div>
+            <div class="w-[3px] rounded-full bg-white/30" style="height: 55%"></div>
+          </div>
+          <div class="flex flex-col items-end gap-1">
+            <span class="text-white/80 text-xs font-medium tabular-nums">0:00 / 18:20</span>
+            <button class="text-white/60 text-xs font-semibold hover:text-white transition px-2 py-0.5 rounded-full bg-white/10 hover:bg-white/15">1x Speed</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Banner Spacer -->
+      <div id="banner-spacer" class="banner-spacer"></div>
+
+      <!-- Article Body -->
+      <div class="max-w-4xl mx-auto px-4 sm:px-8 lg:px-12 pt-16 space-y-12">
+
+        <!-- 1. Header section -->
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-widest text-primary-container mb-3">Module 04: Soil Carbon Sequestration</p>
+          <h2 class="font-display text-4xl sm:text-5xl font-bold text-on-surface leading-tight mb-6">Quantifying Soil Health</h2>
+          <p class="text-on-surface-variant text-lg leading-relaxed">
+            Soil organic carbon (SOC) is the largest terrestrial carbon pool, storing roughly 1,500 gigatonnes of carbon in the top metre alone. Accurately quantifying SOC stocks is fundamental to any land-based carbon crediting methodology, because it determines both the baseline carbon inventory and the magnitude of sequestration that management changes can achieve.
+          </p>
+        </div>
+
+        <!-- 2. EquationBreakdown -->
+        <div class="bg-surface-container-low rounded-2xl p-8">
+          <h3 class="font-display font-bold text-on-surface text-lg mb-6">SOC Stock Equation</h3>
+
+          <!-- Equation row -->
+          <div class="flex flex-wrap items-center justify-center gap-3 mb-8">
+            <span class="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-800 font-semibold text-sm border border-blue-200">SOC<sub>stock</sub></span>
+            <span class="text-on-surface-variant font-bold text-lg">=</span>
+            <span class="inline-flex items-center px-4 py-2 rounded-full bg-green-100 text-green-800 font-semibold text-sm border border-green-200">SOC<sub>conc</sub></span>
+            <span class="text-on-surface-variant font-bold text-lg">&times;</span>
+            <span class="inline-flex items-center px-4 py-2 rounded-full bg-amber-100 text-amber-800 font-semibold text-sm border border-amber-200">BD</span>
+            <span class="text-on-surface-variant font-bold text-lg">&times;</span>
+            <span class="inline-flex items-center px-4 py-2 rounded-full bg-violet-100 text-violet-800 font-semibold text-sm border border-violet-200">D</span>
+            <span class="text-on-surface-variant font-bold text-lg">&times;</span>
+            <span class="inline-flex items-center px-4 py-2 rounded-full bg-rose-100 text-rose-800 font-semibold text-sm border border-rose-200">CF</span>
+          </div>
+
+          <!-- Explanation cards: 2x2 grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <!-- SOC concentration -->
+            <div class="bg-surface-container-lowest rounded-xl p-5 border-l-4 border-green-500">
+              <p class="font-display font-bold text-on-surface text-sm mb-1">SOC<sub>conc</sub> - SOC Concentration</p>
+              <p class="text-sm text-on-surface-variant leading-relaxed">The mass of organic carbon per unit mass of dry soil, typically measured in g/kg. Determined through laboratory analysis of soil samples via dry combustion or wet oxidation.</p>
+            </div>
+            <!-- Bulk Density -->
+            <div class="bg-surface-container-lowest rounded-xl p-5 border-l-4 border-amber-500">
+              <p class="font-display font-bold text-on-surface text-sm mb-1">BD - Bulk Density</p>
+              <p class="text-sm text-on-surface-variant leading-relaxed">The dry mass of soil per unit volume (g/cm&sup3;), reflecting soil compaction. Collected using a core sampling method to preserve the natural soil structure.</p>
+            </div>
+            <!-- Sampling Depth -->
+            <div class="bg-surface-container-lowest rounded-xl p-5 border-l-4 border-violet-500">
+              <p class="font-display font-bold text-on-surface text-sm mb-1">D - Sampling Depth</p>
+              <p class="text-sm text-on-surface-variant leading-relaxed">The vertical depth of the soil layer being measured, in centimetres. IPCC Tier 2 methods typically require sampling to at least 30 cm depth.</p>
+            </div>
+            <!-- Coarse Fragments -->
+            <div class="bg-surface-container-lowest rounded-xl p-5 border-l-4 border-rose-500">
+              <p class="font-display font-bold text-on-surface text-sm mb-1">CF - Coarse Fragment Factor</p>
+              <p class="text-sm text-on-surface-variant leading-relaxed">A correction factor (0 to 1) that accounts for the volume occupied by stones, gravel, and roots larger than 2 mm, which do not contain organic carbon.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. FormulaBox -->
+        <div class="bg-[#1a2e2b] p-10 rounded-2xl">
+          <p class="text-primary-fixed text-xs font-semibold uppercase tracking-widest mb-4">Worked Calculation</p>
+          <code class="text-white font-mono text-lg leading-relaxed block">
+            SOC<sub>stock</sub> = 18 g/kg &times; 1.35 g/cm&sup3; &times; 30 cm &times; 0.1 = <span class="text-primary-fixed font-bold">72.9 tC/ha</span>
+          </code>
+        </div>
+
+        <!-- 4. HighlightBox -->
+        <div class="border-l-4 border-green-500 bg-green-50 rounded-r-2xl p-6">
+          <div class="flex items-start gap-3">
+            <span class="material-symbols-outlined text-green-600 text-xl mt-0.5 shrink-0">lightbulb</span>
+            <div>
+              <p class="font-display font-bold text-green-900 text-sm mb-1.5">Key Takeaway</p>
+              <p class="text-sm text-green-800 leading-relaxed">The SOC stock calculation is the IPCC-standard method for converting field measurements into tonnes of carbon per hectare. All four input variables must be measured or estimated for each soil stratum; omitting the coarse fragment correction is a common error that overestimates carbon stocks by 5 to 30% in rocky soils.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. AnalogyBox -->
+        <div class="border-l-4 border-blue-500 bg-blue-50 rounded-r-2xl p-6">
+          <div class="flex items-start gap-3">
+            <span class="material-symbols-outlined text-blue-600 text-xl mt-0.5 shrink-0">compare</span>
+            <div>
+              <p class="font-display font-bold text-blue-900 text-sm mb-1.5">Analogy: The Sponge</p>
+              <p class="text-sm text-blue-800 leading-relaxed italic">Think of soil as a kitchen sponge. The SOC concentration is how much tea the sponge has absorbed per gram of sponge material. Bulk density is how tightly you squeeze the sponge: a compressed sponge holds less liquid per unit volume. Depth is how thick the sponge is. And the coarse fragment factor accounts for any marbles lodged inside the sponge that displace volume but absorb nothing.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. ExampleBox with nested FormulaBox -->
+        <div class="border-l-4 border-amber-500 bg-amber-50 rounded-r-2xl p-6">
+          <div class="flex items-start gap-3">
+            <span class="material-symbols-outlined text-amber-600 text-xl mt-0.5 shrink-0">science</span>
+            <div>
+              <p class="font-display font-bold text-amber-900 text-sm mb-1.5">Worked Example: Temperate Grassland</p>
+              <p class="text-sm text-amber-800 leading-relaxed mb-4">A temperate grassland site in southern France has an SOC concentration of 25 g/kg, bulk density of 1.2 g/cm&sup3;, sampling depth of 10 cm, and a coarse fragment correction of 0.1. Calculate the carbon stock for this stratum.</p>
+              <!-- Nested formula -->
+              <div class="bg-[#1a2e2b] p-6 rounded-xl">
+                <code class="text-white font-mono text-base leading-relaxed block">
+                  Stock = 25 &times; 1.2 &times; 10 &times; 0.1 = <span class="text-primary-fixed font-bold">30.0 tC/ha</span>
+                </code>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. DeepDive -->
+        <div>
+          <button id="deep-dive-btn" onclick="toggleDeepDive()" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary-fixed text-primary font-semibold text-sm hover:bg-primary-fixed/80 transition">
+            <span class="material-symbols-outlined text-base" id="deep-dive-icon">expand_more</span>
+            Deep Dive: Laboratory Combustion vs. Wet Chemistry
+          </button>
+          <div id="deep-dive-content" class="hidden mt-4 bg-surface-container-low rounded-2xl p-8">
+            <h4 class="font-display font-bold text-on-surface mb-3">Dry Combustion vs. Wet Oxidation</h4>
+            <p class="text-sm text-on-surface-variant leading-relaxed mb-4">
+              There are two primary laboratory methods for determining SOC concentration. <strong>Dry combustion</strong> (the Dumas method) heats the sample to 950 to 1050 degrees Celsius in a pure oxygen atmosphere and measures the CO2 released by infrared detection. It captures total carbon, so inorganic carbonates must be removed first (by acid pre-treatment) or measured separately.
+            </p>
+            <p class="text-sm text-on-surface-variant leading-relaxed mb-4">
+              <strong>Wet oxidation</strong> (the Walkley-Black method) uses potassium dichromate and concentrated sulfuric acid to oxidise organic carbon at lower temperatures. It is cheaper and faster but typically recovers only 76 to 77% of total organic carbon, requiring a correction factor of 1.3. The IPCC recommends dry combustion for Tier 2 and Tier 3 assessments because of its higher precision and completeness.
+            </p>
+            <p class="text-sm text-on-surface-variant leading-relaxed">
+              In practice, many national soil inventories still rely on Walkley-Black data for cost reasons, applying laboratory-specific recovery corrections. When comparing SOC stocks across studies, always verify which analytical method was used and whether a correction factor has been applied.
+            </p>
+          </div>
+        </div>
+
+        <!-- 8. CalculationExercise -->
+        <div class="bg-violet-50 border-l-4 border-violet-600 rounded-r-2xl p-8">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="material-symbols-outlined text-violet-600 text-xl">calculate</span>
+            <h3 class="font-display font-bold text-violet-900 text-lg">Test Your Knowledge</h3>
+          </div>
+          <p class="text-sm text-violet-800 leading-relaxed mb-6">
+            A soil sample from an arable field has an SOC concentration of <strong>15 g/kg</strong>, bulk density of <strong>1.4 g/cm&sup3;</strong>, sampling depth of <strong>30 cm</strong>, and a coarse fragment factor of <strong>0.1</strong>. What is the SOC stock in tC/ha?
+          </p>
+          <div class="flex flex-col sm:flex-row items-start sm:items-center gap-3 mb-4">
+            <input id="calc-input" type="number" step="any" placeholder="Enter your answer" class="w-full sm:w-40 px-4 py-2.5 rounded-xl border border-violet-200 bg-white text-on-surface text-sm focus:outline-none focus:ring-2 focus:ring-violet-400 transition" />
+            <span class="text-sm text-violet-600 font-medium">tC / ha</span>
+          </div>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <button onclick="showHint(1)" class="px-4 py-2 rounded-full bg-violet-100 text-violet-700 text-xs font-semibold hover:bg-violet-200 transition">View Hint 1</button>
+            <button onclick="showHint(2)" class="px-4 py-2 rounded-full bg-violet-100 text-violet-700 text-xs font-semibold hover:bg-violet-200 transition">View Hint 2</button>
+            <button onclick="checkAnswer()" class="px-5 py-2 rounded-full vines-gradient text-white text-xs font-semibold hover:opacity-90 transition shadow-sm">Check Answer</button>
+          </div>
+          <!-- Hints -->
+          <div id="hint-1" class="hidden mb-3 bg-violet-100 rounded-xl px-4 py-3">
+            <p class="text-xs text-violet-700"><strong>Hint 1:</strong> Multiply all four variables together: SOC<sub>conc</sub> &times; BD &times; D &times; CF.</p>
+          </div>
+          <div id="hint-2" class="hidden mb-3 bg-violet-100 rounded-xl px-4 py-3">
+            <p class="text-xs text-violet-700"><strong>Hint 2:</strong> 15 &times; 1.4 = 21. Then 21 &times; 30 = 630. Finally, 630 &times; 0.1 = ?</p>
+          </div>
+          <!-- Feedback -->
+          <div id="calc-feedback" class="hidden"></div>
+        </div>
+
+        <!-- 9. Chart -->
+        <div class="bg-surface-container-lowest rounded-2xl p-10 shadow-lg">
+          <h3 class="font-display font-bold text-on-surface text-lg mb-2">Carbon Sequestration Potential by Land Use</h3>
+          <p class="text-sm text-on-surface-variant mb-8">Relative potential based on IPCC AR6 data (Primary Stock as % of maximum observed)</p>
+
+          <!-- CSS Bar Chart -->
+          <div class="flex items-end justify-around gap-4 h-64 mb-6 px-4 overflow-x-auto min-w-0">
+            <!-- Tundra -->
+            <div class="flex flex-col items-center gap-2 flex-1">
+              <span class="text-xs font-semibold text-on-surface-variant">40%</span>
+              <div class="w-full max-w-[52px] bg-surface-container rounded-t-lg relative" style="height: 100%">
+                <div class="absolute bottom-0 left-0 right-0 rounded-t-lg vines-gradient bar-fill" style="height: 40%"></div>
+              </div>
+              <span class="text-xs text-on-surface-variant font-medium text-center">Tundra</span>
+            </div>
+            <!-- Desert -->
+            <div class="flex flex-col items-center gap-2 flex-1">
+              <span class="text-xs font-semibold text-on-surface-variant">65%</span>
+              <div class="w-full max-w-[52px] bg-surface-container rounded-t-lg relative" style="height: 100%">
+                <div class="absolute bottom-0 left-0 right-0 rounded-t-lg vines-gradient bar-fill" style="height: 65%"></div>
+              </div>
+              <span class="text-xs text-on-surface-variant font-medium text-center">Desert</span>
+            </div>
+            <!-- Pasture -->
+            <div class="flex flex-col items-center gap-2 flex-1">
+              <span class="text-xs font-semibold text-on-surface-variant">85%</span>
+              <div class="w-full max-w-[52px] bg-surface-container rounded-t-lg relative" style="height: 100%">
+                <div class="absolute bottom-0 left-0 right-0 rounded-t-lg vines-gradient bar-fill" style="height: 85%"></div>
+              </div>
+              <span class="text-xs text-on-surface-variant font-medium text-center">Pasture</span>
+            </div>
+            <!-- Old Forest -->
+            <div class="flex flex-col items-center gap-2 flex-1">
+              <span class="text-xs font-semibold text-on-surface-variant">100%</span>
+              <div class="w-full max-w-[52px] bg-surface-container rounded-t-lg relative" style="height: 100%">
+                <div class="absolute bottom-0 left-0 right-0 rounded-t-lg vines-gradient bar-fill" style="height: 100%"></div>
+              </div>
+              <span class="text-xs text-on-surface-variant font-medium text-center">Old Forest</span>
+            </div>
+            <!-- Wetland -->
+            <div class="flex flex-col items-center gap-2 flex-1">
+              <span class="text-xs font-semibold text-on-surface-variant">90%</span>
+              <div class="w-full max-w-[52px] bg-surface-container rounded-t-lg relative" style="height: 100%">
+                <div class="absolute bottom-0 left-0 right-0 rounded-t-lg vines-gradient bar-fill" style="height: 90%"></div>
+              </div>
+              <span class="text-xs text-on-surface-variant font-medium text-center">Wetland</span>
+            </div>
+          </div>
+
+          <!-- Legend -->
+          <div class="flex items-center justify-center gap-6">
+            <div class="flex items-center gap-2">
+              <div class="w-3 h-3 rounded-sm vines-gradient"></div>
+              <span class="text-xs text-on-surface-variant">Primary Stock</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="w-3 h-3 rounded-sm bg-surface-container"></div>
+              <span class="text-xs text-on-surface-variant">Potential Growth</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Data Table -->
+        <div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-lg">
+          <div class="px-8 pt-8 pb-4">
+            <h3 class="font-display font-bold text-on-surface text-lg mb-1">SOC Stocks by Ecotype</h3>
+            <p class="text-sm text-on-surface-variant">Mean values from the IPCC 2019 Refinement, 0-30 cm depth</p>
+          </div>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="border-b border-outline-variant/20">
+                  <th class="text-left px-8 py-3 font-display font-semibold text-on-surface text-xs uppercase tracking-wider">Ecotype</th>
+                  <th class="text-right px-8 py-3 font-display font-semibold text-on-surface text-xs uppercase tracking-wider">Mean Stock (tC/ha)</th>
+                  <th class="text-right px-8 py-3 font-display font-semibold text-on-surface text-xs uppercase tracking-wider">Resilience Index</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-outline-variant/10">
+                  <td class="px-8 py-4 text-on-surface font-medium">Tropical Forest</td>
+                  <td class="px-8 py-4 text-right text-on-surface-variant tabular-nums">120.5</td>
+                  <td class="px-8 py-4 text-right"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full bg-green-100 text-green-700 text-xs font-semibold">High</span></td>
+                </tr>
+                <tr class="border-b border-outline-variant/10 bg-surface-container-low/50">
+                  <td class="px-8 py-4 text-on-surface font-medium">Temperate Grassland</td>
+                  <td class="px-8 py-4 text-right text-on-surface-variant tabular-nums">85.2</td>
+                  <td class="px-8 py-4 text-right"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-700 text-xs font-semibold">Moderate</span></td>
+                </tr>
+                <tr class="border-b border-outline-variant/10">
+                  <td class="px-8 py-4 text-on-surface font-medium">Boreal Forest</td>
+                  <td class="px-8 py-4 text-right text-on-surface-variant tabular-nums">180.1</td>
+                  <td class="px-8 py-4 text-right"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-700 text-xs font-semibold">Extreme</span></td>
+                </tr>
+                <tr class="bg-surface-container-low/50">
+                  <td class="px-8 py-4 text-on-surface font-medium">Arable Land</td>
+                  <td class="px-8 py-4 text-right text-on-surface-variant tabular-nums">42.8</td>
+                  <td class="px-8 py-4 text-right"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full bg-red-100 text-red-700 text-xs font-semibold">Low</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 11. Navigation controls -->
+        <div class="space-y-6 pt-4">
+          <!-- Mark Complete -->
+          <button class="w-full py-3.5 rounded-full vines-gradient text-white font-semibold text-sm hover:opacity-90 transition shadow-lg flex items-center justify-center gap-2">
+            <span class="material-symbols-outlined text-base">check_circle</span>
+            Mark Lesson Complete
+          </button>
+
+          <!-- Prev / Next -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <!-- Previous -->
+            <a href="lesson.html" class="group bg-surface-container-lowest rounded-2xl p-5 border border-outline-variant/15 hover:border-primary/30 transition flex items-center gap-4">
+              <span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition">arrow_back</span>
+              <div>
+                <p class="text-xs text-on-surface-variant mb-0.5">Previous lesson</p>
+                <p class="font-display font-semibold text-on-surface text-sm">Introduction to SOC</p>
+              </div>
+            </a>
+            <!-- Next -->
+            <a href="#" class="group bg-surface-container-lowest rounded-2xl p-5 border border-outline-variant/15 hover:border-primary/30 transition flex items-center gap-4 justify-end text-right">
+              <div>
+                <p class="text-xs text-on-surface-variant mb-0.5">Next lesson</p>
+                <p class="font-display font-semibold text-on-surface text-sm">Sampling Protocols</p>
+              </div>
+              <span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition">arrow_forward</span>
+            </a>
+          </div>
+        </div>
+
+      </div><!-- end article body -->
+      </div><!-- end w-full wrapper -->
+    </main>
+  </div>
+
+  <!-- SEARCH MODAL -->
+  <div id="search-modal" class="hidden fixed inset-0 z-[100] flex items-start justify-center pt-[15vh]">
+    <div class="absolute inset-0 bg-black/40 backdrop-blur-sm" onclick="document.getElementById('search-modal').classList.add('hidden')"></div>
+    <div class="relative bg-surface-container-lowest rounded-2xl shadow-2xl w-full max-w-xl mx-4 overflow-hidden">
+      <div class="flex items-center gap-3 px-5 py-4 border-b border-outline-variant/20">
+        <span class="material-symbols-outlined text-on-surface-variant">search</span>
+        <input type="text" placeholder="Search courses, lessons, glossary..." class="flex-1 bg-transparent text-on-surface text-base outline-none placeholder:text-outline" autofocus />
+        <kbd class="text-xs text-outline bg-surface-container px-2 py-1 rounded">Esc</kbd>
+      </div>
+      <div class="p-4 space-y-1">
+        <a href="glossary.html" class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-surface-container-low transition">
+          <span class="material-symbols-outlined text-primary text-sm">menu_book</span>
+          <div><p class="text-sm font-semibold text-on-surface">Carbon Credit</p><p class="text-xs text-on-surface-variant">Glossary term</p></div>
+        </a>
+        <a href="lesson.html" class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-surface-container-low transition">
+          <span class="material-symbols-outlined text-primary text-sm">description</span>
+          <div><p class="text-sm font-semibold text-on-surface">The Glasgow Rulebook</p><p class="text-xs text-on-surface-variant">Article 6 - Module 1, Lesson 3</p></div>
+        </a>
+        <a href="course.html" class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-surface-container-low transition">
+          <span class="material-symbols-outlined text-primary text-sm">school</span>
+          <div><p class="text-sm font-semibold text-on-surface">Article 6 of the Paris Agreement</p><p class="text-xs text-on-surface-variant">Course - 16 lessons</p></div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  // Search modal: Cmd+K to open, Esc to close
+  document.addEventListener('keydown', e => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); document.getElementById('search-modal').classList.remove('hidden'); }
+    if (e.key === 'Escape') document.getElementById('search-modal').classList.add('hidden');
+  });
+
+  // DeepDive toggle
+  function toggleDeepDive() {
+    const content = document.getElementById('deep-dive-content');
+    const icon = document.getElementById('deep-dive-icon');
+    content.classList.toggle('hidden');
+    icon.textContent = content.classList.contains('hidden') ? 'expand_more' : 'expand_less';
+  }
+
+  // CalculationExercise
+  function showHint(n) {
+    document.getElementById('hint-' + n).classList.remove('hidden');
+  }
+
+  function checkAnswer() {
+    const input = document.getElementById('calc-input');
+    const feedback = document.getElementById('calc-feedback');
+    const value = parseFloat(input.value);
+    feedback.classList.remove('hidden');
+
+    if (isNaN(value)) {
+      feedback.innerHTML = '<div class="bg-red-50 rounded-xl px-4 py-3 border border-red-200"><p class="text-sm text-red-700">Please enter a numeric value.</p></div>';
+      return;
+    }
+
+    if (Math.abs(value - 63) < 0.5) {
+      feedback.innerHTML = '<div class="bg-green-50 rounded-xl px-4 py-3 border border-green-200"><div class="flex items-center gap-2 mb-1"><span class="material-symbols-outlined text-green-600 text-base" style="font-variation-settings: \'FILL\' 1">check_circle</span><p class="text-sm font-semibold text-green-800">Correct!</p></div><p class="text-sm text-green-700">15 g/kg &times; 1.4 g/cm&sup3; &times; 30 cm &times; 0.1 = 63.0 tC/ha. Well done.</p></div>';
+      input.classList.add('ring-2', 'ring-green-400', 'border-green-400');
+      input.classList.remove('ring-red-400', 'border-red-400');
+    } else {
+      feedback.innerHTML = '<div class="bg-red-50 rounded-xl px-4 py-3 border border-red-200"><div class="flex items-center gap-2 mb-1"><span class="material-symbols-outlined text-red-600 text-base">close</span><p class="text-sm font-semibold text-red-800">Not quite.</p></div><p class="text-sm text-red-700">Check your multiplication. Try using the hints above for guidance.</p></div>';
+      input.classList.add('ring-2', 'ring-red-400', 'border-red-400');
+      input.classList.remove('ring-green-400', 'border-green-400');
+    }
+  }
+
+  // Sticky banner collapse on scroll
+  (function() {
+    const banner = document.getElementById('lesson-banner');
+    const spacer = document.getElementById('banner-spacer');
+    if (!banner || !spacer) return;
+    const threshold = 200;
+    let stuck = false;
+    window.addEventListener('scroll', function() {
+      const shouldStick = window.scrollY > threshold;
+      if (shouldStick !== stuck) {
+        stuck = shouldStick;
+        banner.classList.toggle('stuck', stuck);
+        spacer.classList.toggle('active', stuck);
+      }
+    }, { passive: true });
+  })();
+  </script>
+
+</body>
+</html>

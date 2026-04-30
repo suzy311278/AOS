@@ -1,0 +1,35 @@
+- question: "How many IFC Performance Standards are there?"
+  options:
+    - "Six"
+    - "Eight"
+    - "Ten"
+    - "Twelve"
+  answer: 1
+  explanation: "There are eight IFC Performance Standards, covering topics from environmental and social management systems (PS 1) through cultural heritage (PS 8)."
+
+- question: "What does PS 1 require every project to establish?"
+  options:
+    - "A biodiversity offset plan"
+    - "A resettlement action plan"
+    - "An Environmental and Social Management System (ESMS)"
+    - "A community development fund"
+  answer: 2
+  explanation: "PS 1 requires every project to establish and maintain an Environmental and Social Management System (ESMS) - the organizational framework for managing E&S risks throughout the investment lifecycle."
+
+- question: "What are the Equator Principles?"
+  options:
+    - "A set of UN environmental treaties"
+    - "IFC's internal investment screening criteria"
+    - "A voluntary framework where signatory banks apply IFC Performance Standards to project finance"
+    - "EU regulations on sustainable finance taxonomy"
+  answer: 2
+  explanation: "The Equator Principles are a voluntary framework adopted by over 130 financial institutions that commit to applying the IFC Performance Standards to project finance deals above $10 million."
+
+- question: "What is the correct order of the mitigation hierarchy?"
+  options:
+    - "Compensate, minimize, avoid"
+    - "Minimize, avoid, offset"
+    - "Avoid, minimize, compensate/offset"
+    - "Offset, restore, minimize"
+  answer: 2
+  explanation: "The mitigation hierarchy follows a strict sequence: first avoid the impact, then minimize what cannot be avoided, then compensate or offset residual impacts. You must demonstrate each step before moving to the next."

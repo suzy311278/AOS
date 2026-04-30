@@ -1,0 +1,44 @@
+- question: "What is the purpose of maintaining a product classification register as part of an SFDR compliance framework?"
+  options:
+    - "To satisfy ESMA's quarterly reporting requirements on product sustainability levels"
+    - "To document all products' current SFDR classifications, the basis for each classification, and the date of last review — providing an auditable record of classification decisions and rationale"
+    - "To track the financial performance of Article 8 and Article 9 products versus Article 6 products"
+    - "To register products with the national competent authority before marketing"
+  answer: 1
+  explanation: "A product classification register serves as the auditable record of an FMP's SFDR classification decisions. It documents what classification each product has, why it has that classification (the specific binding criteria or sustainable investment methodology that supports it), and when it was last reviewed. This register is essential for demonstrating compliance to supervisors and for managing reclassification decisions."
+
+- question: "In an effective SFDR compliance framework, which function has primary responsibility for ensuring that binding investment criteria stated in Article 8 pre-contractual disclosures are actually applied in portfolio construction?"
+  options:
+    - "The marketing team, which creates the disclosures"
+    - "Portfolio managers and the investment process — the compliance function verifies, but first-line accountability rests with those making investment decisions"
+    - "The ESG data provider, who validates portfolio composition"
+    - "The NCA, which reviews all investment decisions against SFDR commitments"
+  answer: 1
+  explanation: "First-line accountability for implementing binding investment criteria rests with portfolio managers and the investment function. Compliance can design the framework, review disclosures, and conduct periodic checks — but if portfolio managers do not understand and apply the binding criteria in daily investment decisions, the framework fails. This is why effective SFDR compliance requires SFDR integration into the investment process itself, not just the document production function."
+
+- question: "What does a 'PAI data management calendar' help an FMP accomplish?"
+  options:
+    - "It schedules investor communications about PAI results"
+    - "It ensures PAI indicator measurements are taken at the required minimum four dates, PAI calculations are prepared on time, the PAI statement is reviewed and approved, and the statement is published by the 30 June deadline"
+    - "It tracks NCA inquiries about PAI disclosures"
+    - "It allocates responsibility for selecting optional PAI indicators for each product"
+  answer: 1
+  explanation: "A PAI data management calendar is an operational tool that schedules all activities in the PAI reporting cycle: the four (or more) quarterly measurement dates, the data collection and calculation process, the drafting and internal review of the PAI statement, governance approval, and publication by the 30 June deadline. Without a calendar, firms risk missing measurement dates, rushing preparations, or missing the deadline."
+
+- question: "Why is internal audit involvement in SFDR compliance important, given that there is no mandatory external assurance?"
+  options:
+    - "Internal audit files SFDR disclosures on behalf of the compliance team"
+    - "Internal audit provides independent assurance over the SFDR compliance framework — checking that disclosures are complete, data is accurate, PAI calculations are correct, and that marketing materials are consistent with formal disclosures"
+    - "Internal audit verifies that all ESG data providers' methodologies are EU-compliant"
+    - "Internal audit is only relevant for Article 9 products, not for entity-level obligations"
+  answer: 1
+  explanation: "In the absence of mandatory external assurance, internal audit serves as the primary independent check on SFDR compliance quality. An annual internal audit review covering disclosure completeness, classification adequacy, PAI data quality, three-way consistency (pre-contractual/website/periodic), and marketing consistency helps identify weaknesses before supervisory review and provides the board with assurance that SFDR obligations are being met."
+
+- question: "Why is building SFDR compliance into investment processes (rather than treating it as a documentation exercise) the best preparation for the potential outcomes of the ongoing SFDR review?"
+  options:
+    - "Because the SFDR review will eliminate all disclosure requirements"
+    - "Because if the review introduces minimum substantive criteria for Article 8 and 9 products, firms with compliance genuinely embedded in investment processes will adapt more easily than those whose SFDR compliance consists only of producing the right documents"
+    - "Because the SFDR review will require real-time reporting of all investment decisions to the NCA"
+    - "Because the review will mandate third-party audit of all SFDR disclosures, which requires extensive documentation"
+  answer: 1
+  explanation: "The SFDR review is considering whether to introduce minimum substantive criteria for product categories — moving beyond pure disclosure toward product labelling with minimum requirements. Firms that have already built SFDR criteria into binding investment rules, data infrastructure, and governance processes are better positioned to meet higher substantive standards when they are introduced. Documentation-only compliance will be insufficient if the review introduces mandatory performance or portfolio criteria."

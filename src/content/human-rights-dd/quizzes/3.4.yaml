@@ -1,0 +1,26 @@
+- question: "UNGP Principle 19 addresses a company's responsibilities when it is 'directly linked' to harm through a business relationship. What does the principle say a company should do when it lacks sufficient leverage to address the harm?"
+  options:
+  - "Immediately terminate the business relationship to avoid complicity"
+  - "Seek to increase its leverage, including through engagement with other actors, and consider whether continuation of the relationship is appropriate as a last resort"
+  - "Report the situation to the relevant government authority and take no further action"
+  - "Document the situation in the annual human rights report and continue the relationship unchanged"
+  answer: 1
+  explanation: "UNGP Principle 19 specifies that when a company lacks sufficient leverage, it should consider how to increase its leverage, including through engagement with other actors (such as MSIs, peer companies, or governments). Terminating the relationship is recognized as a last resort, not a first response - abrupt disengagement can leave workers and communities in worse situations than continued engagement with pressure."
+
+- question: "What distinguishes the International Accord on Health and Safety in the Textile and Garment Industry (formerly the Bangladesh Accord) from most multi-stakeholder initiatives?"
+  options:
+  - "It covers a wider range of human rights issues than any other MSI"
+  - "It is a legally binding agreement between brands and global trade unions with enforcement mechanisms including arbitration"
+  - "It is funded entirely by member governments rather than participating companies"
+  - "It applies only to factories that have achieved zero accidents in the previous three years"
+  answer: 1
+  explanation: "The Bangladesh Accord (now International Accord) is distinctive because it is legally binding between brands and global trade unions (IndustriALL and UNI Global Union), with enforcement through arbitration and national courts. Brands commit to maintaining purchasing relationships, funding inspections and remediation, and protecting worker safety complaints. This legally binding, worker-influenced model has achieved remediation of over 97% of identified hazards in covered factories."
+
+- question: "Which of the following is a legitimate critique of multi-stakeholder initiatives (MSIs) raised by labor rights organizations?"
+  options:
+  - "MSIs are too expensive for large companies to join alongside managing their own HRDD programs"
+  - "MSIs governed primarily by companies may reflect industry preferences rather than affected workers' interests, leading to standards at the level all members can meet rather than best practice"
+  - "MSIs create legal liability by documenting human rights risks that companies would prefer not to formally acknowledge"
+  - "MSIs are always less effective than unilateral company action because consensus is too slow"
+  answer: 1
+  explanation: "A significant critique of many MSIs is that governance structures dominated by companies may reflect industry preferences over worker interests, and that the need for industry consensus results in standards representing the lowest common denominator rather than genuine best practice. Without genuine worker and civil society representation with real decision-making power, MSIs can become certification exercises that confer reputational benefits without proportionate improvement in conditions."

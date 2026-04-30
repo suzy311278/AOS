@@ -1,0 +1,26 @@
+- question: "What is the maximum fine that Member States must ensure can be imposed on a non-compliant operator under the EUDR?"
+  options:
+    - "EUR 1 million flat fine"
+    - "At least 2% of annual turnover in the relevant Member State"
+    - "At least 4% of annual turnover in the relevant Member State"
+    - "At least 10% of annual global turnover"
+  answer: 2
+  explanation: "Article 25 requires Member States to provide for a maximum fine of at least 4% of the operator's total annual turnover in the relevant Member State. This minimum is modeled on GDPR data protection fines and is designed to create a significant deterrent effect."
+
+- question: "How long do competent authorities have to suspend market placement of potentially non-compliant perishable products?"
+  options:
+    - "24 hours"
+    - "72 hours"
+    - "5 working days"
+    - "30 days pending investigation"
+  answer: 1
+  explanation: "For perishable products, the interim suspension period is 72 hours. For other products, it is 3 working days. This swift timeline reflects the commercial reality that delays beyond these periods could render perishable commodities unsellable."
+
+- question: "Under Article 31, when third parties submit substantiated concerns about an operator to a competent authority, within what timeframe must the authority acknowledge receipt?"
+  options:
+    - "7 days"
+    - "14 days"
+    - "30 days"
+    - "60 days"
+  answer: 2
+  explanation: "Competent authorities must acknowledge receipt of substantiated concerns within 30 days, investigate with due diligence, and inform the complainant of the outcome. This formal complaint mechanism allows NGOs, civil society, and other operators to trigger mandatory enforcement investigations."

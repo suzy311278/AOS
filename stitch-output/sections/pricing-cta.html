@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pricing &amp; Story | Greentryst</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary": "#ffffff",
+                        "surface-bright": "#e7fefd",
+                        "on-primary-container": "#8ad2c8",
+                        "inverse-primary": "#8cd4ca",
+                        "on-secondary-container": "#007165",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-fixed": "#8df5e4",
+                        "error-container": "#ffdad6",
+                        "tertiary-fixed": "#ffddb8",
+                        "on-primary-fixed": "#00201d",
+                        "primary": "#00433d",
+                        "surface-variant": "#d0e7e6",
+                        "primary-container": "#005c55",
+                        "on-surface": "#0a1f1f",
+                        "on-error": "#ffffff",
+                        "outline-variant": "#bec9c6",
+                        "on-background": "#0a1f1f",
+                        "surface-dim": "#c8dede",
+                        "surface-container-low": "#e1f8f7",
+                        "inverse-on-surface": "#dff5f5",
+                        "on-secondary-fixed": "#00201c",
+                        "on-secondary-fixed-variant": "#005048",
+                        "tertiary": "#553300",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-fixed": "#2a1700",
+                        "on-tertiary-container": "#ffb759",
+                        "background": "#e7fefd",
+                        "primary-fixed": "#a7f0e6",
+                        "on-error-container": "#93000a",
+                        "outline": "#6f7977",
+                        "secondary-fixed-dim": "#70d8c8",
+                        "tertiary-container": "#744800",
+                        "surface-container-high": "#d6edec",
+                        "secondary-container": "#8df5e4",
+                        "on-primary-fixed-variant": "#00504a",
+                        "tertiary-fixed-dim": "#ffb95f",
+                        "primary-fixed-dim": "#8cd4ca",
+                        "surface-tint": "#1a6962",
+                        "surface-container-highest": "#d0e7e6",
+                        "surface": "#e7fefd",
+                        "inverse-surface": "#203434",
+                        "surface-container": "#dcf2f2",
+                        "secondary": "#006b5f",
+                        "error": "#ba1a1a",
+                        "on-tertiary-fixed-variant": "#653e00",
+                        "on-surface-variant": "#3f4947",
+                        "on-tertiary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "2xl": "2rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "label": ["Inter", "sans-serif"],
+                        "mono": ["JetBrains Mono", "monospace"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-shadow {
+            box-shadow: 0 10px 40px -10px rgba(10, 31, 31, 0.08);
+        }
+        .card-highlight-shadow {
+            box-shadow: 0 20px 50px -12px rgba(0, 67, 61, 0.15);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface">
+<!-- TopAppBar -->
+<nav class="bg-[#0a1a1a]/80 backdrop-blur-xl fixed top-0 w-full z-50 bg-gradient-to-b from-[#0a1a1a] to-transparent">
+<div class="flex justify-between items-center px-12 py-6 max-w-[1920px] mx-auto">
+<div class="font-['Inter'] font-black text-2xl tracking-tighter text-[#e7fefd]">Greentryst</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-['Inter'] font-extrabold tracking-tighter text-sm uppercase text-[#d0e7e6] hover:text-[#e7fefd] transition-colors" href="#">Platform</a>
+<a class="font-['Inter'] font-extrabold tracking-tighter text-sm uppercase text-[#d0e7e6] hover:text-[#e7fefd] transition-colors" href="#">Ledger</a>
+<a class="font-['Inter'] font-extrabold tracking-tighter text-sm uppercase text-[#d0e7e6] hover:text-[#e7fefd] transition-colors" href="#">Careers</a>
+<a class="font-['Inter'] font-extrabold tracking-tighter text-sm uppercase text-[#00897b] border-b-2 border-[#00897b] pb-1" href="#">Pricing</a>
+</div>
+<button class="bg-primary-container text-[#e7fefd] px-6 py-2 rounded-lg font-['Inter'] font-extrabold tracking-tighter text-sm uppercase hover:opacity-80 transition-all duration-300 active:scale-95">
+                Access Terminal
+            </button>
+</div>
+</nav>
+<main class="pt-32">
+<!-- PART 1: PRICING SECTION -->
+<section class="px-6 md:px-12 py-24 bg-[#f8faf9] flex flex-col items-center">
+<div class="text-center max-w-3xl mb-20">
+<span class="font-mono text-[11px] tracking-[0.2em] font-bold text-[#005c55] uppercase block mb-4">Pricing</span>
+<h1 class="font-headline font-bold text-[42px] leading-tight text-[#1a2e2e] tracking-tight mb-6">Professional tools at individual prices.</h1>
+<p class="font-body text-[18px] text-[#4a6a6a] leading-relaxed">
+                    Not enterprise software. Not a free course platform. The right tools at the right price for individual practitioners.
+                </p>
+</div>
+<!-- Pricing Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-7xl px-4">
+<!-- Card 1: Learn -->
+<div class="bg-white rounded-2xl p-8 editorial-shadow flex flex-col h-full hover:translate-y-[-4px] transition-transform duration-300">
+<div class="mb-8">
+<h3 class="font-headline font-bold text-xl text-[#1a2e2e] mb-2">Learn</h3>
+<div class="flex items-baseline gap-1">
+<span class="font-mono text-[48px] font-bold text-[#1a2e2e] tracking-tighter">$8</span>
+<span class="font-body text-[#4a6a6a]">/mo</span>
+</div>
+</div>
+<ul class="space-y-4 mb-10 flex-grow">
+<li class="flex items-center gap-3 text-sm text-[#1a2e2e]">
+<span class="material-symbols-outlined text-[#00897b] text-xl" data-icon="check_circle">check_circle</span>
+                            Fundamental ledger access
+                        </li>
+<li class="flex items-center gap-3 text-sm text-[#1a2e2e]">
+<span class="material-symbols-outlined text-[#00897b] text-xl" data-icon="check_circle">check_circle</span>
+                            Weekly impact reports
+                        </li>
+<li class="flex items-center gap-3 text-sm text-[#1a2e2e]">
+<span class="material-symbols-outlined text-[#00897b] text-xl" data-icon="check_circle">check_circle</span>
+                            Standard API limits
+                        </li>
+</ul>
+<button class="w-full border-2 border-[#00897b] text-[#00897b] font-headline font-bold py-4 rounded-xl hover:bg-[#00897b]/5 transition-colors">
+                        Start Learning
+                    </button>
+</div>
+<!-- Card 2: Career (Highlighted) -->
+<div class="bg-white rounded-2xl p-8 card-highlight-shadow flex flex-col h-full border-t-[3px] border-[#005c55] relative md:-mt-4 md:mb-4 hover:translate-y-[-4px] transition-transform duration-300">
+<div class="absolute top-0 right-8 -translate-y-1/2">
+<span class="bg-[#005c55] text-[#e7fefd] font-mono text-[10px] tracking-widest font-bold px-4 py-1.5 rounded-full uppercase">Most Popular</span>
+</div>
+<div class="mb-8">
+<h3 class="font-headline font-bold text-xl text-[#1a2e2e] mb-2">Career</h3>
+<div class="flex items-baseline gap-1">
+<span class="font-mono text-[48px] font-bold text-[#1a2e2e] tracking-tighter">$14</span>
+<span class="font-body text-[#4a6a6a]">/mo</span>
+</div>
+</div>
+<ul class="space-y-4 mb-10 flex-grow">
+<li class="flex items-center gap-3 text-sm text-[#1a2e2e]">
+<span class="material-symbols-outlined text-[#00897b] text-xl" data-icon="check_circle">check_circle</span>
+                            Full sovereign ledger toolset
+                        </li>
+<li class="flex items-center gap-3 text-sm text-[#1a2e2e]">
+<span class="material-symbols-outlined text-[#00897b] text-xl" data-icon="check_circle">check_circle</span>
+                            Unlimited data visualization
+                        </li>
+<li class="flex items-center gap-3 text-sm text-[#1a2e2e]">
+<span class="material-symbols-outlined text-[#00897b] text-xl" data-icon="check_circle">check_circle</span>
+                            Priority community support
+                        </li>
+<li class="flex items-center gap-3 text-sm text-[#1a2e2e]">
+<span class="material-symbols-outlined text-[#00897b] text-xl" data-icon="check_circle">check_circle</span>
+                            Career certification path
+                        </li>
+</ul>
+<button class="w-full bg-[#005c55] text-white font-headline font-bold py-4 rounded-xl hover:opacity-90 transition-opacity">
+                        Start Career
+                    </button>
+</div>
+<!-- Card 3: Pro -->
+<div class="bg-white rounded-2xl p-8 editorial-shadow flex flex-col h-full hover:translate-y-[-4px] transition-transform duration-300">
+<div class="mb-8">
+<h3 class="font-headline font-bold text-xl text-[#1a2e2e] mb-2">Pro</h3>
+<div class="flex items-baseline gap-1">
+<span class="font-mono text-[48px] font-bold text-[#1a2e2e] tracking-tighter">$25</span>
+<span class="font-body text-[#4a6a6a]">/mo</span>
+</div>
+</div>
+<ul class="space-y-4 mb-10 flex-grow">
+<li class="flex items-center gap-3 text-sm text-[#1a2e2e]">
+<span class="material-symbols-outlined text-[#00897b] text-xl" data-icon="check_circle">check_circle</span>
+                            Advanced audit capabilities
+                        </li>
+<li class="flex items-center gap-3 text-sm text-[#1a2e2e]">
+<span class="material-symbols-outlined text-[#00897b] text-xl" data-icon="check_circle">check_circle</span>
+                            API high-velocity access
+                        </li>
+<li class="flex items-center gap-3 text-sm text-[#1a2e2e]">
+<span class="material-symbols-outlined text-[#00897b] text-xl" data-icon="check_circle">check_circle</span>
+                            Custom reporting templates
+                        </li>
+</ul>
+<button class="w-full border-2 border-[#00897b] text-[#00897b] font-headline font-bold py-4 rounded-xl hover:bg-[#00897b]/5 transition-colors">
+                        Go Pro
+                    </button>
+</div>
+</div>
+<!-- Pricing Footer -->
+<div class="mt-16 text-center space-y-4">
+<p class="font-body text-[16px] text-[#1a2e2e] font-medium">Start with 3 free lessons. No credit card required.</p>
+<p class="font-body text-[14px] text-[#4a6a6a]">Annual billing saves 25%. Regional pricing available in select jurisdictions.</p>
+</div>
+</section>
+<!-- PART 2: STORY CTA -->
+<section class="w-full bg-[#0a1a1a] py-32 px-6 overflow-hidden relative">
+<!-- Decorative Subtle Texture Overlay -->
+<div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(#005c55 0.5px, transparent 0.5px); background-size: 24px 24px;"></div>
+<div class="max-w-[800px] mx-auto text-center relative z-10">
+<div class="flex justify-center mb-12">
+<span class="material-symbols-outlined text-[#00897b] text-5xl opacity-50" data-icon="format_quote">format_quote</span>
+</div>
+<h2 class="font-headline font-semibold text-[28px] md:text-[32px] text-white leading-tight mb-12 tracking-tight">
+                    "Priya never thought about whether she was learning or working. She was just doing her job, and Greentryst was the environment she did it in."
+                </h2>
+<button class="bg-[#005c55] text-white px-12 py-5 rounded-xl font-headline font-bold text-lg hover:bg-[#007165] transition-all transform hover:scale-[1.02] active:scale-[0.98] mb-12">
+                    Start Free
+                </button>
+<div class="flex flex-col items-center">
+<p class="font-mono text-[#005c55] text-[12px] uppercase tracking-widest">
+                        Join sustainability professionals who work smarter.
+                    </p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#0a1a1a] w-full border-t border-[#005c55]/20">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 w-full max-w-[1920px] mx-auto">
+<div class="mb-8 md:mb-0">
+<div class="font-['Inter'] font-bold text-[#e7fefd] mb-4">Greentryst OS</div>
+<div class="font-['JetBrains_Mono'] text-[11px] tracking-widest uppercase text-[#005c55]">
+                    © 2024 Greentryst OS. Sustainability Audited by Sovereign Ledger Group.
+                </div>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-['JetBrains_Mono'] text-[11px] tracking-widest uppercase text-[#d0e7e6]/60 hover:text-[#00897b] transition-colors duration-200" href="#">Environmental Impact</a>
+<a class="font-['JetBrains_Mono'] text-[11px] tracking-widest uppercase text-[#d0e7e6]/60 hover:text-[#00897b] transition-colors duration-200" href="#">Transparency Report</a>
+<a class="font-['JetBrains_Mono'] text-[11px] tracking-widest uppercase text-[#d0e7e6]/60 hover:text-[#00897b] transition-colors duration-200" href="#">Terms of Service</a>
+<a class="font-['JetBrains_Mono'] text-[11px] tracking-widest uppercase text-[#d0e7e6]/60 hover:text-[#00897b] transition-colors duration-200" href="#">API Documentation</a>
+</div>
+</div>
+</footer>
+</body></html>

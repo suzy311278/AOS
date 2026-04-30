@@ -1,0 +1,89 @@
+id: ghg-scope-1-2
+title: "Scope 1 & 2 GHG Emissions"
+subtitle: "Measuring and reporting direct and energy-related greenhouse gas emissions"
+description: "A practical course on Scope 1 and Scope 2 GHG accounting under the GHG Protocol Corporate Standard and Scope 2 Guidance. Covers accounting principles, boundary-setting, direct emissions from combustion and fugitive sources, the location-based and market-based methods for Scope 2, emission factors, inventory quality, reporting, verification, and target-setting - with worked examples, common mistakes, and real-world context throughout."
+icon: "🏭"
+color: teal
+status: published
+category: fundamentals
+estimatedHours: 3
+modules:
+  - id: 0
+    title: "GHG Accounting Foundations"
+    subtitle: "The GHG Protocol, principles, and boundary decisions"
+    icon: "📐"
+    color: teal
+    lessons:
+      - id: "0.1"
+        title: "What Is the GHG Protocol and Why It Matters"
+        duration: "15 min"
+        vmRef: "ghg-protocol-revised.pdf, Introduction (pp. 2-5); Chapter 2 (pp. 10-15)"
+      - id: "0.2"
+        title: "The Five Accounting Principles"
+        duration: "15 min"
+        vmRef: "ghg-protocol-revised.pdf, Chapter 1 (pp. 6-9)"
+      - id: "0.3"
+        title: "Setting Boundaries: Organisational and Operational"
+        duration: "18 min"
+        vmRef: "ghg-protocol-revised.pdf, Chapter 3 (pp. 16-23); Chapter 4 (pp. 24-33)"
+
+  - id: 1
+    title: "Scope 1: Direct Emissions"
+    subtitle: "Combustion, fugitives, and the data you actually collect"
+    icon: "🔥"
+    color: orange
+    lessons:
+      - id: "1.1"
+        title: "Stationary Combustion: Boilers, Furnaces & Fuel Bills"
+        duration: "18 min"
+        vmRef: "stationaryemissions.pdf, Sections 1-3"
+      - id: "1.2"
+        title: "Mobile Combustion & Fugitive Emissions"
+        duration: "18 min"
+        vmRef: "mobileemissions.pdf, Sections 1-4; fugitiveemissions.pdf, Sections 1-3"
+      - id: "1.3"
+        title: "Data Quality, Common Errors & Your Scope 1 Checklist"
+        duration: "15 min"
+        vmRef: "stationaryemissions.pdf, Sections 4-7; ghg-protocol-revised.pdf, Chapter 6 (pp. 40-47)"
+
+  - id: 2
+    title: "Scope 2: Purchased Energy"
+    subtitle: "Grid electricity, certificates, and the dual reporting rule"
+    icon: "⚡"
+    color: emerald
+    lessons:
+      - id: "2.1"
+        title: "Scope 2: What Counts & the Dual Reporting Rule"
+        duration: "18 min"
+        vmRef: "Scope 2 Guidance.pdf, Chapters 1-2 (pp. 4-19); Chapter 4 (pp. 24-31); Chapter 5 (pp. 32-41)"
+      - id: "2.2"
+        title: "Calculating Scope 2: Step by Step"
+        duration: "18 min"
+        vmRef: "Scope 2 Guidance.pdf, Chapter 6 (pp. 42-57); electricityemissions.pdf, Sections 1-3"
+      - id: "2.3"
+        title: "Certificates, Quality Criteria & What to Disclose"
+        duration: "15 min"
+        vmRef: "Scope 2 Guidance.pdf, Chapters 7-8 (pp. 58-73); Chapter 10 (pp. 78-87)"
+
+  - id: 3
+    title: "Putting It Together"
+    subtitle: "Base years, reporting, verification, targets, and the practitioner playbook"
+    icon: "✅"
+    color: indigo
+    lessons:
+      - id: "3.1"
+        title: "Base Year, Recalculation & Tracking Over Time"
+        duration: "15 min"
+        vmRef: "ghg-protocol-revised.pdf, Chapter 5 (pp. 34-39); Scope 2 Guidance.pdf, Chapter 9 (pp. 74-77)"
+      - id: "3.2"
+        title: "Inventory Quality, Reporting & Verification"
+        duration: "18 min"
+        vmRef: "ghg-protocol-revised.pdf, Chapters 7, 9, 10 (pp. 48-73)"
+      - id: "3.3"
+        title: "Setting Targets & the ISO 14064 Family"
+        duration: "15 min"
+        vmRef: "ghg-protocol-revised.pdf, Chapter 11 (pp. 74-85); ISO 14064-1:2018"
+      - id: "3.4"
+        title: "The Practitioner's Scope 1 & 2 Playbook"
+        duration: "18 min"
+        vmRef: "All sources"

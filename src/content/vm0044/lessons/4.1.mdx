@@ -1,0 +1,162 @@
+{/* source: VM0044 v1.2, Section 9.1 (Parameters Available at Validation) and Section 9.2 (Parameters Monitored) */}
+
+## Parameters at Validation and Parameters Monitored
+
+The monitoring section of VM0044 defines which data must be collected, when it must be collected, and how. There are two categories of parameters:
+
+1.  **Parameters available at validation**: these are set before the project starts or established at the beginning of the crediting period. They may use default values from scientific literature or require initial laboratory testing.
+2.  **Parameters monitored**: these are collected continuously or at regular intervals throughout the project crediting period.
+
+## Parameters Available at Validation (Section 9.1)
+
+### F_Cp,t,p: Organic Carbon Content of Biochar
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Unit</th>
+      <th>High Technology Source</th>
+      <th>Low Technology Default</th>
+      <th>Used In</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>F_Cp,t,p (organic carbon content)</td>
+      <td>% dry weight</td>
+      <td>Laboratory material analysis (IBI or EBC standards). No defaults allowed.</td>
+      <td>Table 4 defaults (IPCC 2019, based on feedstock type and temperature)</td>
+      <td>Equation 1 (production stage removals)</td>
+    </tr>
+    <tr>
+      <td>PR_de,k (permanence adjustment factor)</td>
+      <td>Dimensionless (fraction)</td>
+      <td>Table 3 of VM0044 (derived from IPCC 2019 and Woolf et al. 2021)</td>
+      <td>0.56 (used when production temperature is unknown)</td>
+      <td>Equation 1 (production stage removals)</td>
+    </tr>
+    <tr>
+      <td>GWP_CH4 (global warming potential of methane)</td>
+      <td>tCO2e per tonne CH4</td>
+      <td>28 (IPCC AR5, required by VCS Standard)</td>
+      <td>28 (same value applies to all facilities)</td>
+      <td>Equation 9 (low technology methane emissions)</td>
+    </tr>
+    <tr>
+      <td>F_e (methane emissions per tonne of biochar, low technology)</td>
+      <td>tCH4 per tonne of biochar</td>
+      <td>Not applicable (high technology facilities do not use this parameter)</td>
+      <td>0.049 tCH4/tonne (Cornelissen et al. 2016, traditional kilns). Kiln-specific values from Table 3 of Cornelissen et al. may be used if the kiln type is known.</td>
+      <td>Equation 9 (low technology methane emissions)</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+<HighlightBox>
+For high technology facilities, organic carbon content (F_Cp,t,p) must always come from laboratory material analysis. Default values from Table 4 are only permitted for low technology facilities where laboratory analysis is not feasible.
+</HighlightBox>
+
+### Biomass Categories and Quantities
+
+Before the project starts, the project proponent must document the biomass feedstock. This documentation must include:
+
+*   The feedstock category (for example: bagasse, rice husks, agricultural residues)
+*   The source of the feedstock
+*   The fate of the feedstock in the absence of the project (as defined in Appendix 2 of VM0044)
+*   Confirmation that the feedstock meets the sustainability criteria in Table 1 of VM0044
+
+This information is established at validation but must also be updated continuously as feedstock sources change during operations.
+
+## Parameters Monitored Continuously (Section 9.2)
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Unit</th>
+      <th>Measurement Method</th>
+      <th>Frequency</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>M_p,y (total dry mass of biochar at facility p in year y)</td>
+      <td>Tonnes (dry weight)</td>
+      <td>Weighing scales. Adjust raw measurements for moisture content to obtain dry weight.</td>
+      <td>Continuous; recorded at least monthly. Cross-checked with sales receipts and invoices annually.</td>
+    </tr>
+    <tr>
+      <td>M_t,k,p,y (mass of biochar by type t and application k at facility p in year y)</td>
+      <td>Tonnes (dry weight)</td>
+      <td>Same weighing scales as above. Each batch tracked separately by biochar type and application type.</td>
+      <td>Continuous; recorded at least monthly. Moisture content monitored per batch.</td>
+    </tr>
+    <tr>
+      <td>F_Cp,t,p (organic carbon content, monitored during operations)</td>
+      <td>% dry weight</td>
+      <td>Laboratory analysis following IBI Biochar Testing Guidelines or EBC Production Guidelines. Accredited laboratory required.</td>
+      <td>Annually, or after any material change in feedstock type, or after any material change in thermochemical production parameters, whichever is more frequent.</td>
+    </tr>
+    <tr>
+      <td>T_prod (average annual production temperature during pyrolysis)</td>
+      <td>Degrees Celsius</td>
+      <td>Thermocouple, thermoresistor, or other instrument capable of generating a recordable electronic signal.</td>
+      <td>Continuous; aggregated to annual averages. Calibrated periodically against a primary device from an accredited laboratory.</td>
+    </tr>
+    <tr>
+      <td>H:C_org (hydrogen to organic carbon ratio)</td>
+      <td>Dimensionless</td>
+      <td>Laboratory analysis per IBI Biochar Testing Guidelines or EBC Production Guidelines. Accredited laboratory required.</td>
+      <td>Each batch of biochar produced at the facility.</td>
+    </tr>
+    <tr>
+      <td>WS_p (fraction of total waste heat utilized at facility p)</td>
+      <td>Percent (%)</td>
+      <td>On-site records and estimated data from waste heat consumption. Calculated per CDM TOOL09.</td>
+      <td>Annual.</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+## Key Parameters Explained
+
+### Production Temperature (T_prod)
+
+Temperature monitoring serves two purposes. First, it determines which row of Table 3 applies when selecting the permanence adjustment factor (PR_de,k). Higher pyrolysis temperatures generally produce more stable biochar. Second, it is used to categorize the production facility as high technology or low technology.
+
+For low technology facilities where temperature measurement is not feasible, the default PR_de,k of 0.56 must be used.
+
+### Hydrogen to Organic Carbon Ratio (H:C_org)
+
+This ratio is a key indicator of biochar stability. Biochar with a lower H:Corg ratio has undergone more complete carbonization and is more resistant to decomposition.
+
+<HighlightBox>
+The H:Corg ratio must be measured for every batch of biochar produced at the facility. Biochar intended for soil applications must have an H:Corg of 0.7 or less. This is Applicability Condition 10b of VM0044. Any batch with H:Corg above 0.7 cannot be credited under soil application pathways.
+</HighlightBox>
+
+### Waste Heat Utilization (WS_p)
+
+High technology facilities must utilize at least 70% of the waste heat generated during biochar production. Monitoring WS_p each year ensures the facility continues to meet this requirement throughout the crediting period.
+
+### Weighing Scale QA/QC
+
+Weighing scales used to measure M_p,y and M_t,k,p,y must be calibrated according to manufacturer specifications or at least every three years, whichever is more frequent. Annual cross-checks against sales receipts and invoices provide an independent verification of total throughput.
+
+<DeepDive title="How does laboratory biochar analysis work? (IBI Biochar Testing Guidelines)">
+The IBI Biochar Testing Guidelines specify the procedures for characterizing biochar samples. Organic carbon content is measured using standard combustion analysis. To determine dry weight, samples are first dried to a constant weight at between 102 and 105 degrees C, following the method described in ASTM D1762-84 (Standard Test Method for Chemical Analysis of Wood Charcoal).
+
+This drying step is important because freshly produced biochar can contain significant moisture. Reporting carbon content on a dry weight basis removes the variability caused by moisture and allows accurate comparisons between batches and between facilities.
+
+Accredited laboratories must be approved by the relevant national accreditation agency. This ensures that measurements are traceable to international standards and can be relied upon by third-party verifiers.
+</DeepDive>
+
+## Summary
+
+The distinction between parameters available at validation and parameters monitored during operations matters for project design. Parameters set at validation establish the baseline characteristics of the biochar and feedstock. Parameters monitored during operations prove that the project is performing as expected throughout the crediting period. Together, they provide the data needed to calculate net annual carbon removals accurately and credibly.
+
+<KeyTakeaways items="F_Cp (organic carbon content) must come from lab analysis for high technology facilities - Table 4 defaults are only permitted for low technology ;; H:Corg ratio must be measured for every batch - any batch above 0.7 cannot be credited for soil applications ;; Production temperature (T_prod) must be measured continuously with electronic instruments and aggregated annually to determine the correct permanence factor ;; Biochar mass must be recorded on a dry weight basis, with weighing scales calibrated per manufacturer specs or at least every three years ;; Waste heat utilization (WS_p) must be monitored annually for high technology facilities to confirm the 70% threshold continues to be met ;; F_Cp must be re-tested annually or after any material change in feedstock type or production parameters, whichever is more frequent" />

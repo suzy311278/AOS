@@ -1,0 +1,26 @@
+- question: "IFRS S2 Para 25(b) requires disclosure of processes for climate-related OPPORTUNITIES. Why does IFRS S2 include opportunities alongside risks?"
+  options:
+    - "To comply with the Paris Agreement's requirement for opportunity disclosure"
+    - "Because climate change creates genuine commercial opportunities that must be included for a complete picture"
+    - "To ensure all seven cross-industry metric categories are covered"
+    - "Opportunity disclosure is only required if the entity has set revenue targets"
+  answer: 1
+  explanation: "IFRS S2 recognises that climate change creates genuine commercial opportunities — for renewable energy, green building, climate technology, and more. Including opportunity identification processes alongside risk processes ensures investors get a complete view of the entity's climate-related exposure, not just the downside."
+
+- question: "Para 25(c) requires disclosure of the 'extent of integration' of climate risk processes into overall risk management. Which integration level is considered most credible by investors?"
+  options:
+    - "Siloed — dedicated sustainability team with separate climate risk register"
+    - "Partially integrated — annual transfer of climate risks to the enterprise register"
+    - "Fully integrated — same frameworks, scoring criteria, and governance as other enterprise risks"
+    - "Externally outsourced — independent consultants manage climate risk"
+  answer: 2
+  explanation: "Fully integrated climate risk management — where climate risks are assessed, scored, monitored, and escalated using identical frameworks to financial, operational, and reputational risks — is considered the most credible. It ensures climate risks receive appropriate weight alongside other enterprise risks in management decision-making."
+
+- question: "Para 26 allows climate risk management disclosures to be provided on an integrated basis with other sustainability topics. What must integrated disclosures clearly indicate?"
+  options:
+    - "The total budget allocated to all sustainability risk management activities"
+    - "Which elements of the integrated disclosure specifically apply to climate"
+    - "The number of staff dedicated to climate vs other sustainability topics"
+    - "The exact paragraph of IFRS S1 being relied upon"
+  answer: 1
+  explanation: "Para 26 (mirroring Para 7 for governance) allows integration across sustainability topics to avoid duplication, but requires that the integrated description clearly indicates which elements apply to climate specifically. Simply describing overall ESG risk management without climate-specific clarity would not satisfy the requirement."

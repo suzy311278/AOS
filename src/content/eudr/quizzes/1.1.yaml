@@ -1,0 +1,26 @@
+- question: "Why does the EUDR cover derived products (like chocolate, leather bags, and furniture) in addition to raw commodities (like cocoa, cattle, and wood)?"
+  options:
+    - "To raise government revenue from processed goods at the point of retail sale"
+    - "To prevent value chain processing from breaking the compliance chain, ensuring traceability is maintained through to finished products"
+    - "Because processed products are more likely to be deforested than raw commodities"
+    - "Because the EU only imports processed goods, not raw commodities"
+  answer: 1
+  explanation: "If only raw commodities were covered, operators could import raw soy beans, process them in the EU, and sell soy meal and oil without any traceability to the original farm. By covering derived products in Annex I, the EUDR ensures that processing within or outside the EU does not break the traceability requirement."
+
+- question: "Which two countries together produce approximately 85% of global palm oil, making them the primary focus of palm oil-related EUDR compliance?"
+  options:
+    - "Brazil and Colombia"
+    - "Ghana and Cote d'Ivoire"
+    - "Indonesia and Malaysia"
+    - "Thailand and Vietnam"
+  answer: 2
+  explanation: "Indonesia and Malaysia together produce approximately 85% of global palm oil. Palm oil expansion has been the primary driver of deforestation in these countries, including the destruction of peatland forests that store enormous quantities of carbon per hectare."
+
+- question: "For wood products specifically, what does the EUDR require operators to demonstrate, beyond what the predecessor EU Timber Regulation required?"
+  options:
+    - "That the wood carries FSC or PEFC certification"
+    - "That the wood was harvested from plantations, not natural forests"
+    - "That harvesting did not induce forest degradation after 31 December 2020, not merely that it was legally harvested"
+    - "That the wood was grown in a country classified as low-risk by the Commission"
+  answer: 2
+  explanation: "The EU Timber Regulation required verification that timber was legally harvested. The EUDR raises the bar for wood: operators must demonstrate that wood was harvested without inducing forest degradation after 31 December 2020. Legal harvesting in a country that permits conversion of primary forests to plantation forests would not satisfy the EUDR's deforestation-free standard."

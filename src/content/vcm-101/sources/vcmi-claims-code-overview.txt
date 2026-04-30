@@ -1,0 +1,541 @@
+Source: https://vcmintegrity.org/vcmi-claims-code-of-practice/
+
+We value your privacy
+We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking "Accept All", you consent to our use of cookies.
+Customise Reject All Accept All
+Powered by [](https://www.cookieyes.com/product/cookie-consent/?ref=cypbcyb&utm_source=cookie-banner&utm_medium=fl-branding)
+Customise Consent Preferences ![](https://cdn-cookieyes.com/assets/images/close.svg)
+We use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below.
+The cookies that are categorised as "Necessary" are stored on your browser as they are essential for enabling the basic functionalities of the site. ... Show more
+NecessaryAlways Active
+Necessary cookies are required to enable the basic features of this site, such as providing secure log-in or adjusting your consent preferences. These cookies do not store any personally identifiable data.
+  * Cookie
+__cf_bm
+  * Duration
+1 hour
+  * Description
+This cookie, set by Cloudflare, is used to support Cloudflare Bot Management. 
+
+
+  * Cookie
+VISITOR_PRIVACY_METADATA
+  * Duration
+6 months
+  * Description
+YouTube sets this cookie to store the user's cookie consent state for the current domain. 
+
+
+  * Cookie
+_cfuvid
+  * Duration
+session
+  * Description
+Cloudflare sets this cookie to track users across sessions to optimize user experience by maintaining session consistency and providing personalized services
+
+
+  * Cookie
+rc::a
+  * Duration
+Never Expires
+  * Description
+This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks.
+
+
+  * Cookie
+rc::c
+  * Duration
+session
+  * Description
+This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks.
+
+
+  * Cookie
+cookietest
+  * Duration
+session
+  * Description
+The cookietest cookie is typically used to determine whether the user's browser accepts cookies, essential for website functionality and user experience.
+
+
+Functional
+Functional cookies help perform certain functionalities like sharing the content of the website on social media platforms, collecting feedback, and other third-party features.
+  * Cookie
+VISITOR_INFO1_LIVE
+  * Duration
+6 months
+  * Description
+A cookie set by YouTube to measure bandwidth that determines whether the user gets the new or old player interface.
+
+
+  * Cookie
+yt-remote-connected-devices
+  * Duration
+Never Expires
+  * Description
+YouTube sets this cookie to store the user's video preferences using embedded YouTube videos.
+
+
+  * Cookie
+ytidb::LAST_RESULT_ENTRY_KEY
+  * Duration
+Never Expires
+  * Description
+The cookie ytidb::LAST_RESULT_ENTRY_KEY is used by YouTube to store the last search result entry that was clicked by the user. This information is used to improve the user experience by providing more relevant search results in the future.
+
+
+  * Cookie
+yt-remote-device-id
+  * Duration
+Never Expires
+  * Description
+YouTube sets this cookie to store the user's video preferences using embedded YouTube videos.
+
+
+  * Cookie
+yt-remote-session-name
+  * Duration
+session
+  * Description
+The yt-remote-session-name cookie is used by YouTube to store the user's video player preferences using embedded YouTube video.
+
+
+  * Cookie
+yt-remote-fast-check-period
+  * Duration
+session
+  * Description
+The yt-remote-fast-check-period cookie is used by YouTube to store the user's video player preferences for embedded YouTube videos.
+
+
+  * Cookie
+yt-remote-session-app
+  * Duration
+session
+  * Description
+The yt-remote-session-app cookie is used by YouTube to store user preferences and information about the interface of the embedded YouTube video player.
+
+
+  * Cookie
+yt-remote-cast-available
+  * Duration
+session
+  * Description
+The yt-remote-cast-available cookie is used to store the user's preferences regarding whether casting is available on their YouTube video player.
+
+
+  * Cookie
+yt-remote-cast-installed
+  * Duration
+session
+  * Description
+The yt-remote-cast-installed cookie is used to store the user's video player preferences using embedded YouTube video.
+
+
+  * Cookie
+tableau_public_negotiated_locale
+  * Duration
+session
+  * Description
+Tableau sets this cookie in context with the language settings on the website. Facilitates the translation into the preferred language of the visitor.
+
+
+Analytics
+Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics such as the number of visitors, bounce rate, traffic source, etc.
+  * Cookie
+YSC
+  * Duration
+session
+  * Description
+YSC cookie is set by Youtube and is used to track the views of embedded videos on Youtube pages.
+
+
+  * Cookie
+_ga_*
+  * Duration
+1 year 1 month 4 days
+  * Description
+Google Analytics sets this cookie to store and count page views.
+
+
+  * Cookie
+_ga
+  * Duration
+1 year 1 month 4 days
+  * Description
+Google Analytics sets this cookie to calculate visitor, session and campaign data and track site usage for the site's analytics report. The cookie stores information anonymously and assigns a randomly generated number to recognise unique visitors.
+
+
+Performance
+Performance cookies are used to understand and analyse the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+No cookies to display.
+Advertisement
+Advertisement cookies are used to provide visitors with customised advertisements based on the pages you visited previously and to analyse the effectiveness of the ad campaigns.
+  * Cookie
+yt.innertube::nextId
+  * Duration
+Never Expires
+  * Description
+YouTube sets this cookie to register a unique ID to store data on what videos from YouTube the user has seen.
+
+
+  * Cookie
+yt.innertube::requests
+  * Duration
+Never Expires
+  * Description
+YouTube sets this cookie to register a unique ID to store data on what videos from YouTube the user has seen.
+
+
+Uncategorised
+Other uncategorised cookies are those that are being analysed and have not been classified into a category as yet.
+  * Cookie
+__Secure-ROLLOUT_TOKEN
+  * Duration
+6 months
+  * Description
+Description is currently not available.
+
+
+  * Cookie
+mcforms-242151098-sessionId
+  * Duration
+session
+  * Description
+Description is currently not available.
+
+
+  * Cookie
+__Secure-YEC
+  * Duration
+past
+  * Description
+Description is currently not available.
+
+
+  * Cookie
+tableau_locale
+  * Duration
+session
+  * Description
+No description available.
+
+
+Accept All Save My Preferences Reject All
+Powered by [](https://www.cookieyes.com/product/cookie-consent/?ref=cypbcyb&utm_source=cookie-banner&utm_medium=sl-branding)
+Maecenas sed diam eget risus varius blandit sit amet non magna?(Required)
+Quam Commodo
+Second Choice
+Third Choice
+Maecenas sed diam eget risus varius blandit sit amet non magna?
+Where did you hear about us?
+First Choice
+  * First Choice
+  * Second Choice
+  * Third Choice
+
+
+First Choice Second Choice Third Choice
+Name(Required)
+First Last
+Email
+Phone
+Consent
+By checking this box you are agree to our privacy policy
+Please complete this form if you would like to receive updates, news, and other information from VCMI.
+[Register](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+## Register for news and updates
+Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+Full name(Required)
+Position(Required)
+Email Address(Required)
+Organisation / Business name(Required)
+City / Country(Required)
+Language spoken(Required)
+Website (if applicable)
+Which categorization best represents your entity?(Required)
+Financial Entity
+Food and Agriculture Value Chain
+Government
+Knowledge and Implementation Partner
+Stakeholder Associations
+Consent
+By checking this box you are agree to our privacy policy.
+  * [About ](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+### About us
+    * [About VCMI](https://vcmintegrity.org/about/)
+    * [VCMI Timeline](https://vcmintegrity.org/timeline/)
+    * [FAQs](https://vcmintegrity.org/timeline/frequently-asked-questions/)
+    * [Testimonials & Case Studies](https://vcmintegrity.org/testimonials-and-case-studies/)
+### Team
+    * [People](https://vcmintegrity.org/people/)
+    * [Working at VCMI](https://vcmintegrity.org/working-at-vcmi/)
+    * [Contact](https://vcmintegrity.org/contact/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Stay in touch Keep up to date with the latest carbon markets news and events by subscribing to our newsletter. Sign up  ](https://vcmintegrity.org/newsletter/)
+  * [Our Work ](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+### For Companies
+    * [Claims Code of Practice](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+    * [Carbon Integrity Claims](https://vcmintegrity.org/carbon-integrity-claims/)
+    * [Carbon Integrity Claims Dashboard](https://vcmintegrity.org/claims-dashboard/)
+    * [Claims Readiness Check](https://vcmintegrity.org/claims-readiness-check/)
+    * [Scope 3 Action](https://vcmintegrity.org/scope-3-action/)
+### For Governments
+    * [Overview](https://vcmintegrity.org/for-governments-overview/)
+    * [Access Strategies Program](https://vcmintegrity.org/access-strategies-program/)
+    * [Carbon Markets Access Toolkit](https://vcmintegrity.org/carbon-markets-access-toolkit/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Claims Code of Practice Industry-leading guidance for companies to confidently use carbon credits as part of climate plans. Find out more  ](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Access Strategies Program Supporting governments in emerging markets and developing economies to engage effectively in high-integrity carbon markets. Read more  ](https://vcmintegrity.org/access-strategies-program/)
+  * [Resources & Insights ](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+    * [Insights](https://vcmintegrity.org/_type/insights/)
+    * [Webinars](https://vcmintegrity.org/webinars/)
+    * [Resource Library](https://vcmintegrity.org/library/)
+    * [Help Center](https://help.vcmintegrity.org/help)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) From Panama to Belém: How Latin America and the Caribbean is Unlocking High-Integrity Carbon Markets for Agriculture and Nature Read more  ](https://vcmintegrity.org/from-panama-to-belem-how-latin-america-and-the-caribbean-is-unlocking-high-integrity-carbon-markets-for-agriculture-and-nature/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Resource Library Reports, publications, policy briefs and infographics Read more  ](https://vcmintegrity.org/library/)
+  * [News & Events](https://vcmintegrity.org/news-events/)
+  * [Help Center](https://help.vcmintegrity.org/help-desk)
+
+
+[Coalition to Grow Carbon Markets ](https://coalitiontogrowcarbonmarkets.org/)
+[ ![](https://vcmintegrity.org/wp-content/themes/vcmi/assets/images/dist/logo.svg) ](https://vcmintegrity.org/ "VCMI")
+  * [About ](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+### About us
+    * [About VCMI](https://vcmintegrity.org/about/)
+    * [VCMI Timeline](https://vcmintegrity.org/timeline/)
+    * [FAQs](https://vcmintegrity.org/timeline/frequently-asked-questions/)
+    * [Testimonials & Case Studies](https://vcmintegrity.org/testimonials-and-case-studies/)
+### Team
+    * [People](https://vcmintegrity.org/people/)
+    * [Working at VCMI](https://vcmintegrity.org/working-at-vcmi/)
+    * [Contact](https://vcmintegrity.org/contact/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Stay in touch Keep up to date with the latest carbon markets news and events by subscribing to our newsletter. Sign up  ](https://vcmintegrity.org/newsletter/)
+  * [Our Work ](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+### For Companies
+    * [Claims Code of Practice](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+    * [Carbon Integrity Claims](https://vcmintegrity.org/carbon-integrity-claims/)
+    * [Carbon Integrity Claims Dashboard](https://vcmintegrity.org/claims-dashboard/)
+    * [Claims Readiness Check](https://vcmintegrity.org/claims-readiness-check/)
+    * [Scope 3 Action](https://vcmintegrity.org/scope-3-action/)
+### For Governments
+    * [Overview](https://vcmintegrity.org/for-governments-overview/)
+    * [Access Strategies Program](https://vcmintegrity.org/access-strategies-program/)
+    * [Carbon Markets Access Toolkit](https://vcmintegrity.org/carbon-markets-access-toolkit/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Claims Code of Practice Industry-leading guidance for companies to confidently use carbon credits as part of climate plans. Find out more  ](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Access Strategies Program Supporting governments in emerging markets and developing economies to engage effectively in high-integrity carbon markets. Read more  ](https://vcmintegrity.org/access-strategies-program/)
+  * [Resources & Insights ](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+    * [Insights](https://vcmintegrity.org/_type/insights/)
+    * [Webinars](https://vcmintegrity.org/webinars/)
+    * [Resource Library](https://vcmintegrity.org/library/)
+    * [Help Center](https://help.vcmintegrity.org/help)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) From Panama to Belém: How Latin America and the Caribbean is Unlocking High-Integrity Carbon Markets for Agriculture and Nature Read more  ](https://vcmintegrity.org/from-panama-to-belem-how-latin-america-and-the-caribbean-is-unlocking-high-integrity-carbon-markets-for-agriculture-and-nature/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Resource Library Reports, publications, policy briefs and infographics Read more  ](https://vcmintegrity.org/library/)
+  * [News & Events](https://vcmintegrity.org/news-events/)
+  * [Help Center](https://help.vcmintegrity.org/help-desk)
+
+
+[Coalition to Grow Carbon Markets ](https://coalitiontogrowcarbonmarkets.org/)
+For Companies
+#  Claims Code of Practice
+The VCMI Claims Code of Practice (Claims Code) will accelerate corporate engagement with voluntary carbon markets as part of net-zero pathways. It brings confidence and credibility to claims that involve the use of carbon credits.
+  * [Download Claims Code](https://vcmintegrity.org/vcmi-claims-code-of-practice/#download)
+  * [Download MRA Framework](https://vcmintegrity.org/vcmi-claims-code-of-practice/#download%20mra)
+  * [About](https://vcmintegrity.org/vcmi-claims-code-of-practice/#about%20)
+  * [Who should use it?](https://vcmintegrity.org/vcmi-claims-code-of-practice/#who%20should%20use%20it)
+  * [Carbon Integrity Claims](https://vcmintegrity.org/vcmi-claims-code-of-practice/#carbon%20integrity%20claims)
+  * [Changes to Foundational Criteria](https://vcmintegrity.org/vcmi-claims-code-of-practice/#changes%20to%20foundational%20criteria)
+
+
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+## Download the Claims Code of Practice
+The VCMI Claims Code of Practice is ready for use and companies can directly make claims against it. We encourage all businesses to show ambition, make a claim, and accelerate global net zero. Sign up to our [newsletter](https://vcmintegrity.org/newsletter/) to receive the latest information and updates.
+"*" indicates required fields
+First name
+Last name
+Email*
+Organisation
+Consent
+By downloading the Code you agree to receive updates, news and information from VCMI in accordance with our [Privacy Policy.](https://www.rockpa.org/privacy-policy/)
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+## Monitoring, Reporting & Assurance (MRA) Framework
+The VCMI Monitoring, Reporting and Assurance (MRA) Framework outlines specific reporting and assurance criteria for companies to meet in order to make VCMI Claims. This ensures that for each VCMI Claim issued, underlying information is appropriately evaluated, evidenced, and verified.
+"*" indicates required fields
+First name
+Last name
+Email*
+Organisation
+Consent
+By downloading the MRA Framework you agree to receive updates, news and information from VCMI in accordance with our [Privacy Policy.](https://www.rockpa.org/privacy-policy/)
+### Additional Guidance
+[](https://vcmintegrity.org/wp-content/uploads/2023/11/Claims-Code-Background-Document-November-2023.pdf)
+06 September 2024 [ARCHIVE] Background Document of the VCMI Claims Code of Practice
+[Publication](https://vcmintegrity.org/_type/publication/) | [Claims Code](https://vcmintegrity.org/topic/claims-code/) | Archive
+[](https://vcmintegrity.org/wp-content/uploads/2023/11/Claims-Code-Supplementary-Guidance-November-2023.pdf)
+01 November 2023 Supplementary Guide of the VCMI Claims Code of Practice
+[Publication](https://vcmintegrity.org/_type/publication/) | [Claims Code](https://vcmintegrity.org/topic/claims-code/) | Current
+[](https://vcmintegrity.org/wp-content/uploads/2023/11/Claims-Code-Explanatory-Notes-November-2023.pdf)
+01 November 2023 [ARCHIVE] Explanatory Notes of the VCMI Claims Code of Practice
+[Publication](https://vcmintegrity.org/_type/publication/) | [Claims Code](https://vcmintegrity.org/topic/claims-code/) | Archive
+### Previous versions of the Claims Code and MRA Framework
+[](https://vcmintegrity.org/wp-content/uploads/2025/04/VCMI-Claims-Code-of-Practice-April-2025-Version-3.0.pdf)
+30 April 2025 [ARCHIVE] VCMI Claims Code of Practice (April 2025, version 3.0)
+[Publication](https://vcmintegrity.org/_type/publication/) | [Claims Code](https://vcmintegrity.org/topic/claims-code/) | Archive
+[](https://vcmintegrity.org/wp-content/uploads/2025/04/VCMI-MRA-Framework_2025_v.1.3_April2025.pdf)
+30 April 2025 [ARCHIVE] Monitoring, Reporting & Assurance (MRA) Framework (April 2025, version 1.3)
+[Publication](https://vcmintegrity.org/_type/publication/) | [Claims Code](https://vcmintegrity.org/topic/claims-code/) | Archive
+[](https://vcmintegrity.org/wp-content/uploads/2024/10/VCMI-Claims-Code-v2.1.pdf)
+01 August 2024 [ARCHIVE] VCMI Claims Code of Practice (August 2024. version 2.1)
+[Publication](https://vcmintegrity.org/_type/publication/) | [Claims Code](https://vcmintegrity.org/topic/claims-code/) | Archive
+[](https://vcmintegrity.org/wp-content/uploads/2025/04/VCMI-MRA-Framework_2025_v.1.2_2_April2025.pdf)
+08 April 2025 [ARCHIVE] Monitoring, Reporting & Assurance (MRA) Framework (April 2025, version 1.2)
+[Publication](https://vcmintegrity.org/_type/publication/) | [Claims Code](https://vcmintegrity.org/topic/claims-code/) | Archive
+[](https://vcmintegrity.org/wp-content/uploads/2025/03/VCMI-Claims-Code-of-Practice-v.2-Nov-2023.pdf)
+01 November 2023 [ARCHIVE] VCMI Claims Code of Practice (November 2023. version 2)
+[Publication](https://vcmintegrity.org/_type/publication/) | [Claims Code](https://vcmintegrity.org/topic/claims-code/) | Archive
+[](https://vcmintegrity.org/wp-content/uploads/2025/03/VCMI-Claims-Code-of-Practice-v.1-June-2023.pdf)
+01 June 2023 [ARCHIVE] VCMI Claims Code of Practice (June 2023. version 1)
+[Publication](https://vcmintegrity.org/_type/publication/) | [Claims Code](https://vcmintegrity.org/topic/claims-code/) | Archive
+## About the Claims Code
+This VCMI Claims Code of Practice brings confidence and credibility to claims that involve the use of carbon credits. Under the Claims Code, companies can use carbon credits to make “Carbon Integrity” claims to accelerate global net zero, above and beyond science-aligned emissions cuts.
+The Claims Code is essential to ensure the integrity of voluntary carbon markets and therefore their ability to make a meaningful contribution to the goal of the Paris Agreement, while also at the same time contribute towards the United Nations Sustainable Development Goals (SDGs).
+Developed through a global, multi-stakeholder collaborative process, the Claims Code builds on the Provisional Claims Code released by VCMI in June 2022. It expands on requirements of other leading climate change initiatives, including the Carbon Pricing Leadership Coalition’s (CPLC) Report of the Task Force on Net Zero Goals and Carbon Pricing; the full suite of Science Based Target initiative’s (SBTi) target setting guidance and standard; Gold Standard’s Scope 3 Value Chain Interventions Guidance; The Oxford Principles for Net Zero Aligned Carbon Offsetting; the UNSG’s HLEG; and the GHG Protocol’s Corporate Value Chain (Scope 3) Accounting and Reporting Standard.
+The content of the Claims Code is driven by VCMI’s Principles for High Ambition and High Integrity Voluntary Climate Action by Companies.
+The Claims Code represents the collective judgement of VCMI’s Steering Committee, VCMI’s high-level decision-making body, and has been developed under the guidance and advice received from VCMI’s Expert Advisory Group, as well as inputs received from broad multi-stakeholder engagement.
+**The primary purpose of the VCMI Claims Code of Practice is:**
+  * To provide clear requirements, recommendations and supporting guidance to companies and other non-state actors (NSAs) on how they can credibly make voluntary use of carbon credits as part of their near-term emissions reduction objectives, and long-term net zero commitments
+  * To provide guidance on how they communicate their use of those credits
+
+
+## Need more support?
+[](https://help.vcmintegrity.org/help-desk)
+## Who should use the Claims Code?
+The Claims Code is for companies seeking to make credible voluntary use of carbon credits and receive recognition in the form of a VCMI Claim. VCMI also provides additional guidance on how companies can credibly structure other climate claims.
+All VCMI Claims made using the Claims Code require companies to set clear science-based near-term emission reduction targets, and publicly commit to reaching net zero emissions no later than 2050, supporting the goals of the Paris Agreement.
+In addition, companies must purchase high-quality carbon credits representing emissions reductions and / or removals from outside the value chain of the company. As such, companies making VCMI Claims demonstrate their contribution to the collective global effort to reach net zero.
+**Equally, the Claims Code will help the following groups as a point of reference:  
+**
+  * Individuals, businesses, and other buyers of goods and services seeking to make climate-friendly purchases;
+  * Investors and other stakeholders who want to judge the credibility of companies’ climate ambitions and actions, including use of carbon credits alongside broader decarbonization efforts;
+  * Governments and their regulatory agencies considering how to incentivize companies to use carbon credits credibly and structure claims to be truthful, clear and informative, through government-developed or endorsed corporate reporting requirements, advertising and consumer protection standards and other policies, measures, or guidance.
+
+
+## Carbon Integrity Claims
+Under VCMI’s Claims Code of Practice, companies can now make Carbon Integrity Claims that demonstrate their use of high-quality carbon credits to accelerate the global net zero transition, above and beyond science-aligned emissions cuts. 
+Each Carbon Integrity Claim requires the purchase and retirement of high-quality carbon credits proportionate to its remaining emissions once a company has met, or demonstrated progress towards meeting, its near-term emission reduction targets.
+Silver, Gold, and Platinum Carbon Integrity Claims recognize increasing levels of climate action.
+  * [](https://vcmintegrity.org/carbon-integrity-claims/)
+  * [](https://vcmintegrity.org/claims-readiness-check/)
+
+
+![](https://vcmintegrity.org/wp-content/uploads/2024/09/3968954258cfcadeb1fbde5380bbf484-1536x491-1.png)
+## Changes to Foundational Criteria
+VCMI has consulted with its Expert Advisory Group and Stakeholder Forum to determine some changes to its Claims Codes’ Foundational Criteria, designed to ensure VCMI is aligned with evolutions in best practice approaches to corporate climate action while providing solutions for corporates to deliver immediate, near-term action.
+The changes will be implemented alongside the Scope 3 Action Code of Practice at the end of April.
+The changes being made are:
+**Foundational Criterion 1 will be updated to reflect the fact that countries may use national GHG emissions inventory methodologies, which have been adapted from the Greenhouse Gas Protocol (GHGP).** This more inclusive approach is aligned with the GHGP.
+**Foundational Criterion 2 will be updated to reflect that near-term emissions reduction targets shall be consistent with reaching net-zero by 2050, but we will not require companies to make a public commitment.**
+Though target setting must be consistent with net zero no later than 2050, the requirement for a public commitment has been identified as a significant barrier to entry for companies that are focused on reducing emissions in the near-term. Ensuring companies have net zero aligned near-term targets is in line with VCMI’s high-integrity approach.
+**Commitment to long-term targets and setting long-term targets will become a recommendation,** reflecting the urgent need for more ambitious and rapid action immediately and in the next five to 10 years.
+**All near-term emission reduction targets must be established through a credible science-aligned framework and should be validated by a third party.**
+Instead of requiring the verification stage to be delivered according to SBTI’s process, we will broaden the scope to allow for verification through other target setting frameworks, if available and credible, and recommend it is done by a 3rd party organization, in line with best practice.
+“Congratulations to VCMI for the launch of the operable Claims Code of Practice – I would argue that operable is the operative word in the current, very stormy, emissions reduction landscape. At present, corporations that are pursuing climate actions find themselves in the crossfire between those who demand perfection overnight and accuse of greenwashing and those on the other side of the isle who attack the ESG and net-zero commitments – leading to intimidation and green hushing on the part of corporations. The path between the two is very difficult to forge. Increasing scrutiny has to be met with increasing credibility, especially in an unregulated market. Now, we all know that eventually the carbon market will have to become regulated. But in the meantime, it is heartening to see the seriousness with which integrity is being pursued by the VCMI.”
+Christiana Figueres Former Executive Secretary, UNFCCC
+“Kenya welcomes VCMI’s Claims Code of Practice and its clear guidance to organizations on credible use of high-quality carbon credits, towards net zero commitments. As we aim to lead in the supply of these quality units, high demand side integrity will accelerate the flow of carbon finance to all our local communities and foster green economic growth. Our upcoming carbon market regulations will inspire significant investments into impactful voluntary carbon market activities, whilst ensuring strong governance and transparency. We believe the claims code will build trust and contribute to international cooperation towards the 1.5 degree goal.”
+Ali D Mohamed Climate Change Envoy, Kenya
+“Ladies and gentlemen, I welcome today’s launch of the VCMI’s Claims Code of Practice and I believe that this code has some very key elements that we need in providing further guidance on the foundational criteria and clarity that we need on exactly how it is that we can use carbon credits and how we can ensure that they remain aligned to the Paris Agreement and to our long term climate goals.
+I think that this is very important that we understand exactly and build integrity in the market, because as we build integrity and quality in the market, we certainly will create a more energetic market that will have ripple effects towards the communities that are involved in building this carbon market that we are all hoping will not only be beneficial to the climate agenda, but to the sustainable development goals agenda. Thank you.”
+Hon. Bogolo Kenewendo Africa Director & Special Advisor, The Climate Change High-Level Champions
+“The VCMI is delivering much needed clarity for organizations around the world, so that they can use carbon credits in a meaningful way and build the trust needed for the market to succeed.
+Building on today’s launch of the Code of Practice, we will work closely with the VCMI, our international partners and the UK’s world-leading financial sector so we deliver a high integrity voluntary carbon market which accelerates the shift to net-zero on a global basis.”
+The Rt Hon. Graham Stuart Minister of State for Energy Security & Net Zero
+“This May the G7 leaders endorse the principles of high integrity carbon markets which guide supply, demand and market infrastructure, to improve confidence in carbon markets.
+We highly commend the VCMI Claims Code, which will operationalize the principles. Japan will support the development of high integrity carbon markets through the Article 6 implementation partnership.
+We look forward to working together with VCMI.”
+Hiroshi Ono Vice-Minister for Global Environmental Affairs, Ministry of the Environment, Japan
+“To meet our global climate and nature goals, we need companies to significantly increase investments outside of their value chains. VCMI’s Claims Code of Practice will begin to address this incentive gap. We hope that the coming years will see VCMI and others scale and direct necessary private sector finance towards activities that benefit people, nature, and climate.”
+Ani Dasgupta President and CEO of World Resources Institute
+"*" indicates required fields
+Keep up to date with news and events by subscribing to the VCMI newsletter.
+First name
+Last name
+Organisation
+Organisation Type:
+Organisation Type:
+  * Organisation Type:
+  * Large Corporation
+  * Policy & Government
+  * Business Network or Association
+  * Civil Society, Academia or Research
+  * Media
+  * NGO
+  * VCM-Related Body or Initiative
+  * Small-Medium Enterprise (SME)
+
+
+Organisation Type: Large Corporation Policy & Government Business Network or Association Civil Society, Academia or Research Media NGO VCM-Related Body or Initiative Small-Medium Enterprise (SME)
+Email*
+Industry
+Industry
+  * Industry
+  * Biotech, Healthcare & Pharmacy
+  * Carbon & Market Services
+  * Financial Services
+  * Food, Beverage & Agriculture
+  * Information & Communication Technology
+  * Manufacturing
+  * Materials & Infrastructure
+  * Mining
+  * Oil & Gas
+  * Professional Services
+  * Retail
+  * Transport
+  * Utilities
+
+
+Industry Biotech, Healthcare & Pharmacy Carbon & Market Services Financial Services Food, Beverage & Agriculture Information & Communication Technology Manufacturing Materials & Infrastructure Mining Oil & Gas Professional Services Retail Transport Utilities
+Consent*
+By signing up to receive our newsletters you agree to receive updates, news and information from VCMI in accordance with our [Privacy Policy](https://www.rockpa.org/privacy-policy/). You may unsubscribe from these services at any time.
+Driving integrity in voluntary carbon markets for climate resilience & a sustainable future
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://vcmintegrity.org/ "VCMI")
+"*" indicates required fields
+Sign up to our newsletter, a monthly digest of the latest news on voluntary carbon markets from VCMI
+Email address*
+Organisation
+By signing up to receive our newsletters you agree to receive updates, news and information from VCMI in accordance with our [Privacy Policy](https://www.rockpa.org/privacy-policy/). You may unsubscribe from these services at any time.
+  * About us
+    * [ About VCMI ](https://vcmintegrity.org/about/)
+    * [ VCMI Timeline ](https://vcmintegrity.org/timeline/)
+    * [ FAQs ](https://vcmintegrity.org/frequently-asked-questions/)
+    * [ Testimonials & Case Studies ](https://vcmintegrity.org/testimonials-and-case-studies/)
+  * Team
+    * [ People ](https://vcmintegrity.org/people/)
+    * [ Working at VCMI ](https://vcmintegrity.org/working-at-vcmi/)
+    * [ Contact ](https://vcmintegrity.org/contact/)
+  * For Companies
+    * [ VCMI Claims Code ](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+    * [ Carbon Integrity Claims ](https://vcmintegrity.org/carbon-integrity-claims/)
+    * [ Carbon Integrity Claims Dashboard ](https://vcmintegrity.org/claims-dashboard/)
+    * [ Claims Readiness Check ](https://vcmintegrity.org/claims-readiness-check/)
+    * [ Scope 3 Action ](https://vcmintegrity.org/scope-3-action/)
+  * For Governments
+    * [ Overview ](https://vcmintegrity.org/for-governments-overview/)
+    * [ Access Strategies Program ](https://vcmintegrity.org/access-strategies-program/)
+    * [ Carbon Markets Access Toolkit ](https://vcmintegrity.org/carbon-markets-access-toolkit/)
+  * Resources & Insights
+    * [ Insights ](https://vcmintegrity.org/_type/insights/)
+    * [ Guides & Tutorials ](https://vcmintegrity.org/guides-tutorials/)
+    * [ Resource Library ](https://vcmintegrity.org/library/)
+    * [ Webinars ](https://vcmintegrity.org/webinars/)
+    * [ Help center ](https://help.vcmintegrity.org/help)
+  * News & Events
+    * [ News & Events ](https://vcmintegrity.org/news-events/)
+[Reporting Platform ](https://claims.vcmintegrity.org/signin/)
+
+
+  * [](https://www.linkedin.com/company/wearevcmi/)
+
+© 2026 Voluntary Carbon Markets Integrity Initiative
+  * [ Privacy & Cookie Policy ](https://vcmintegrity.org/wp-content/uploads/2024/10/VCMI_Privacy-Policy_10_10_24.pdf)
+  * [ Image Credits ](https://vcmintegrity.org/image-credits/)
+  * Site by [Jory & Co](https://www.joryand.co/)
+
+
+Notifications

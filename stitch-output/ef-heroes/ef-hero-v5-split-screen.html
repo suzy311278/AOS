@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Greentryst | Emission Factors Library</title>
+<!-- Google Fonts: Inter & JetBrains Mono -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "inverse-on-surface": "#e2f4f4",
+                "on-primary-fixed": "#00201d",
+                "tertiary": "#004520",
+                "surface-tint": "#1a6962",
+                "on-surface": "#0e1e1e",
+                "on-secondary": "#ffffff",
+                "tertiary-container": "#005f2f",
+                "surface-container-high": "#daeceb",
+                "secondary": "#4e6262",
+                "background": "#ebfdfc",
+                "surface-variant": "#d4e6e5",
+                "on-surface-variant": "#3f4947",
+                "on-primary": "#ffffff",
+                "primary-fixed": "#a7f0e6",
+                "secondary-container": "#d0e7e6",
+                "on-tertiary-fixed-variant": "#005228",
+                "surface-container-highest": "#d4e6e5",
+                "on-error": "#ffffff",
+                "secondary-fixed-dim": "#b5cbca",
+                "error": "#ba1a1a",
+                "inverse-surface": "#233333",
+                "surface-dim": "#ccdedd",
+                "surface": "#ebfdfc",
+                "on-primary-fixed-variant": "#00504a",
+                "on-tertiary": "#ffffff",
+                "surface-container": "#e0f1f1",
+                "tertiary-fixed-dim": "#4ae183",
+                "surface-bright": "#ebfdfc",
+                "secondary-fixed": "#d0e7e6",
+                "on-background": "#0e1e1e",
+                "surface-container-lowest": "#ffffff",
+                "primary-container": "#005c55",
+                "error-container": "#ffdad6",
+                "on-secondary-container": "#546868",
+                "on-secondary-fixed": "#0a1f1f",
+                "on-primary-container": "#8ad2c8",
+                "outline-variant": "#bec9c6",
+                "outline": "#6f7977",
+                "primary": "#00433d",
+                "on-tertiary-fixed": "#00210c",
+                "tertiary-fixed": "#6bfe9c",
+                "on-error-container": "#93000a",
+                "inverse-primary": "#8cd4ca",
+                "on-tertiary-container": "#48df82",
+                "on-secondary-fixed-variant": "#364a4a",
+                "surface-container-low": "#e5f7f6",
+                "primary-fixed-dim": "#8cd4ca"
+            },
+            "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "2xl": "1rem",
+                "full": "9999px"
+            },
+            "fontFamily": {
+                "headline": ["Inter", "sans-serif"],
+                "body": ["Inter", "sans-serif"],
+                "mono": ["JetBrains Mono", "monospace"],
+                "label": ["Inter", "sans-serif"]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ebfdfc;
+        }
+        .mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+    </style>
+</head>
+<body class="antialiased overflow-x-hidden">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-teal-50/80 dark:bg-slate-950/80 backdrop-blur-xl shadow-[0_20px_40px_-12px_rgba(14,30,30,0.06)]">
+<div class="flex justify-between items-center px-12 py-6 max-w-[1920px] mx-auto">
+<!-- Brand Logo -->
+<div class="text-2xl font-black tracking-tighter text-teal-900 dark:text-teal-50">
+                Greentryst
+            </div>
+<!-- Navigation Links -->
+<div class="hidden md:flex items-center gap-8">
+<a class="font-['Inter'] font-bold tracking-tight uppercase text-sm text-teal-900 dark:text-teal-50 border-b-2 border-teal-900 dark:border-teal-50 pb-1 hover:text-teal-900 dark:hover:text-teal-50 transition-colors duration-300" href="#">Tools</a>
+<a class="font-['Inter'] font-bold tracking-tight uppercase text-sm text-teal-700/60 dark:text-teal-300/60 font-medium hover:text-teal-900 dark:hover:text-teal-50 transition-colors duration-300" href="#">Guides</a>
+<a class="font-['Inter'] font-bold tracking-tight uppercase text-sm text-teal-700/60 dark:text-teal-300/60 font-medium hover:text-teal-900 dark:hover:text-teal-50 transition-colors duration-300" href="#">Learn</a>
+<a class="font-['Inter'] font-bold tracking-tight uppercase text-sm text-teal-700/60 dark:text-teal-300/60 font-medium hover:text-teal-900 dark:hover:text-teal-50 transition-colors duration-300" href="#">Community</a>
+<a class="font-['Inter'] font-bold tracking-tight uppercase text-sm text-teal-700/60 dark:text-teal-300/60 font-medium hover:text-teal-900 dark:hover:text-teal-50 transition-colors duration-300" href="#">About</a>
+</div>
+<!-- Trailing Actions -->
+<div class="flex items-center gap-4">
+<button class="font-['Inter'] font-bold tracking-tight uppercase text-sm text-teal-900 dark:text-teal-50 hover:text-teal-900 dark:hover:text-teal-50 transition-colors duration-300">Ask AI</button>
+<button class="bg-primary-container text-on-primary font-['Inter'] font-bold tracking-tight uppercase text-sm px-6 py-2.5 rounded-full hover:scale-95 duration-200 ease-in-out">Sign in</button>
+</div>
+</div>
+</nav>
+<!-- Main Hero Container (Split Layout) -->
+<main class="flex flex-col md:flex-row min-h-screen pt-20">
+<!-- Left Dark Half -->
+<section class="w-full md:w-1/2 bg-[#0a1a1a] flex flex-col justify-center p-12 md:p-24 relative overflow-hidden">
+<div class="max-w-xl">
+<!-- Eyebrow -->
+<span class="block text-teal-100/30 text-xs font-bold tracking-[0.3em] uppercase mb-12">
+                    VOL.01 · EMISSION FACTORS
+                </span>
+<!-- Headline Cluster -->
+<h1 class="text-white text-6xl md:text-7xl font-[900] tracking-tighter mb-8 leading-[0.9]">
+                    Every emission factor.
+                </h1>
+<div class="space-y-4 mb-10">
+<div class="group inline-block">
+<span class="text-[#f4f9f7]/40 text-4xl md:text-5xl font-medium tracking-tight block">Sourced.</span>
+<div class="h-[2px] bg-teal-800/50 w-full mt-1"></div>
+</div>
+<br/>
+<div class="group inline-block">
+<span class="text-[#f4f9f7]/40 text-4xl md:text-5xl font-medium tracking-tight block">Dated.</span>
+<div class="h-[2px] bg-teal-800/50 w-full mt-1"></div>
+</div>
+<br/>
+<div class="group inline-block">
+<span class="text-[#f4f9f7]/40 text-4xl md:text-5xl font-medium tracking-tight block">Free.</span>
+<div class="h-[2px] bg-teal-800/50 w-full mt-1"></div>
+</div>
+</div>
+<!-- Paragraph -->
+<p class="text-white/60 text-sm font-medium leading-relaxed max-w-[320px] mb-16">
+                    A reference library of greenhouse gas emission factors, curated primary-source-first, in the open.
+                </p>
+<!-- Bottom Metadata -->
+<div class="mt-auto pt-12 border-t border-white/5 flex flex-wrap gap-x-6 gap-y-2">
+<span class="mono text-[11px] text-white/40 uppercase tracking-wider">Updated 2026-04-14</span>
+<span class="mono text-[11px] text-white/40 uppercase tracking-wider">211,651 records</span>
+<span class="mono text-[11px] text-white/40 uppercase tracking-wider">DEFRA, IPCC, US EPA, India CEA</span>
+</div>
+</div>
+</section>
+<!-- Right Light Half -->
+<section class="w-full md:w-1/2 bg-[#f4f9f7] flex flex-col justify-center p-12 md:p-24">
+<div class="w-full max-w-lg mx-auto">
+<!-- Eyebrow -->
+<label class="block text-primary/40 text-[10px] font-black tracking-widest uppercase mb-4" for="search">
+                    SEARCH THE LIBRARY
+                </label>
+<!-- Search Bar -->
+<div class="relative flex items-center mb-12">
+<div class="absolute left-5 text-primary/40">
+<span class="material-symbols-outlined">search</span>
+</div>
+<input class="w-full pl-14 pr-32 py-5 bg-white border-none rounded-2xl shadow-[0_10px_25px_-5px_rgba(0,0,0,0.05)] focus:ring-2 focus:ring-primary/10 text-on-surface placeholder-on-surface-variant/40" id="search" placeholder="Search 211,651 factors" type="text"/>
+<button class="absolute right-3 bg-primary text-white font-bold py-3 px-6 rounded-xl hover:bg-primary-container transition-all text-sm">
+                        Search
+                    </button>
+</div>
+<!-- Factor Previews (Stacked Cards) -->
+<div class="space-y-3">
+<!-- Row 1 -->
+<div class="bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition-shadow flex items-center justify-between">
+<div>
+<span class="mono text-[9px] font-bold px-2 py-1 bg-surface-container rounded uppercase tracking-tighter text-on-surface-variant mb-2 inline-block">DEFRA</span>
+<h4 class="text-sm font-semibold text-on-surface">Electricity: UK National Grid</h4>
+</div>
+<div class="text-right">
+<span class="mono text-xs font-bold text-primary">0.1524 <span class="text-[10px] opacity-60">KGCO2E / KWH</span></span>
+</div>
+</div>
+<!-- Row 2 -->
+<div class="bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition-shadow flex items-center justify-between">
+<div>
+<span class="mono text-[9px] font-bold px-2 py-1 bg-surface-container rounded uppercase tracking-tighter text-on-surface-variant mb-2 inline-block">US EPA</span>
+<h4 class="text-sm font-semibold text-on-surface">Passenger Car: Gasoline</h4>
+</div>
+<div class="text-right">
+<span class="mono text-xs font-bold text-primary">0.3412 <span class="text-[10px] opacity-60">KGCO2E / MILE</span></span>
+</div>
+</div>
+<!-- Row 3 -->
+<div class="bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition-shadow flex items-center justify-between">
+<div>
+<span class="mono text-[9px] font-bold px-2 py-1 bg-surface-container rounded uppercase tracking-tighter text-on-surface-variant mb-2 inline-block">IPCC</span>
+<h4 class="text-sm font-semibold text-on-surface">Natural Gas: Combustion</h4>
+</div>
+<div class="text-right">
+<span class="mono text-xs font-bold text-primary">2.0145 <span class="text-[10px] opacity-60">KGCO2E / M3</span></span>
+</div>
+</div>
+<!-- Row 4 -->
+<div class="bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition-shadow flex items-center justify-between">
+<div>
+<span class="mono text-[9px] font-bold px-2 py-1 bg-surface-container rounded uppercase tracking-tighter text-on-surface-variant mb-2 inline-block">INDIA CEA</span>
+<h4 class="text-sm font-semibold text-on-surface">Grid Emission: Northern Region</h4>
+</div>
+<div class="text-right">
+<span class="mono text-xs font-bold text-primary">0.8200 <span class="text-[10px] opacity-60">KGCO2E / KWH</span></span>
+</div>
+</div>
+<!-- Row 5 -->
+<div class="bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition-shadow flex items-center justify-between">
+<div>
+<span class="mono text-[9px] font-bold px-2 py-1 bg-surface-container rounded uppercase tracking-tighter text-on-surface-variant mb-2 inline-block">DEFRA</span>
+<h4 class="text-sm font-semibold text-on-surface">Long-haul Flight: Economy</h4>
+</div>
+<div class="text-right">
+<span class="mono text-xs font-bold text-primary">0.1468 <span class="text-[10px] opacity-60">KGCO2E / PKM</span></span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Bottom Stat Strip -->
+<footer class="fixed bottom-0 w-full bg-white/95 backdrop-blur border-t border-teal-50 py-6 px-12 z-50">
+<div class="max-w-[1920px] mx-auto flex flex-wrap justify-between items-center gap-8">
+<div class="flex items-baseline gap-2">
+<span class="mono text-primary font-bold text-lg">211,651</span>
+<span class="text-[10px] text-on-surface-variant/60 font-black tracking-widest uppercase">factors</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="mono text-primary font-bold text-lg">41</span>
+<span class="text-[10px] text-on-surface-variant/60 font-black tracking-widest uppercase">primary sources</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="mono text-primary font-bold text-lg">4</span>
+<span class="text-[10px] text-on-surface-variant/60 font-black tracking-widest uppercase">reporting frameworks</span>
+</div>
+<div class="flex items-baseline gap-2">
+<span class="mono text-primary font-bold text-lg">0</span>
+<span class="text-[10px] text-on-surface-variant/60 font-black tracking-widest uppercase">hallucinations</span>
+</div>
+<div class="hidden lg:block ml-auto">
+<span class="text-[10px] font-bold bg-primary/5 text-primary px-3 py-1.5 rounded-full uppercase tracking-tighter">Verified Library Archive</span>
+</div>
+</div>
+</footer>
+</body></html>

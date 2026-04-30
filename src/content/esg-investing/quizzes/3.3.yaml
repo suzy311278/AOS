@@ -1,0 +1,44 @@
+- question: "A two-tier board structure, as used in Germany, differs from a unitary board primarily because:"
+  options:
+    - "It requires the chair and CEO to be the same person"
+    - "It separates oversight and management into two distinct bodies — a supervisory board and a management board"
+    - "It requires at least two external auditors to sign off on the annual accounts"
+    - "It limits board membership to a maximum of seven directors"
+  answer: 1
+  explanation: "In a two-tier board structure (common in Germany, the Netherlands, and Scandinavia), the supervisory board — composed entirely of non-executives — provides strategic oversight and holds the management board to account, while the management board runs day-to-day operations. This compares to a unitary (single-tier) board where executive and non-executive directors sit together on one body."
+
+- question: "Under Germany's co-determination model, which of the following is true of the supervisory board?"
+  options:
+    - "All members are elected solely by shareholders at the AGM"
+    - "Half the members are elected by shareholders and half by the workforce"
+    - "It is composed entirely of former executives of the company"
+    - "It has no role in approving major strategic transactions"
+  answer: 1
+  explanation: "German co-determination law requires that half the members of the supervisory board represent the employees of the company, elected by the workforce. The other half are elected by shareholders. This structure gives workers a formal voice in corporate oversight and is credited with Germany's tradition of longer-term strategic decision-making — but it also means shareholders have influence over only half the supervisory board."
+
+- question: "Which of the following is the best description of how poor governance translates into investment risk?"
+  options:
+    - "Poor governance is primarily a reputational risk that affects a company's ability to attract customers, but has limited direct impact on financial performance"
+    - "Poor governance raises the probability of value-destructive outcomes — fraud, poor capital allocation, unmanaged risks — which can be reflected in higher discount rates applied to future earnings"
+    - "Poor governance only affects companies in regulated industries such as banking and utilities, where regulatory capital requirements are directly linked to governance quality"
+    - "Poor governance is mainly a concern for fixed income investors, since equity investors benefit from limited liability"
+  answer: 1
+  explanation: "Poor governance affects investment value through multiple channels: increased probability of fraud or financial misstatement, weakened capital allocation decisions, failure to manage key environmental and social risks, and reduced ability to attract and retain quality management. These risks are typically reflected in investment analysis either as a higher discount rate (risk premium) applied to forecast earnings, or as more conservative assumptions about long-term growth and sustainability of returns."
+
+- question: "The Italian voto di lista (slate voting) mechanism was developed primarily to:"
+  options:
+    - "Ensure that the chair and CEO roles are always separated at Italian public companies"
+    - "Require Italian companies to adopt a two-tier board structure aligned with Germany"
+    - "Give minority shareholders a guaranteed representation on the board, protecting them from dominant shareholders who might otherwise control all board appointments"
+    - "Limit the maximum tenure of any director to five years before re-election is required"
+  answer: 2
+  explanation: "Italian listed companies historically had dominant shareholders (families, the state, or major banks) who could control all board appointments. The voto di lista system reserves a portion of board seats (typically around 30%) for the second-most-voted slate of candidates — in practice, the slate put forward by minority investors. The Italian investor association Assogestioni coordinates minority slates annually, providing a practical mechanism for institutional investors to secure board representation."
+
+- question: "When incorporating governance into investment analysis using a discount rate adjustment, what is the logic behind adding a governance risk premium?"
+  options:
+    - "It reflects that well-governed companies always generate higher revenues than poorly-governed peers"
+    - "It compensates for the additional administrative cost of conducting governance due diligence"
+    - "It reflects the increased uncertainty about the future cash flows of a company where governance weaknesses raise the probability of value-destroying outcomes"
+    - "It is required by regulation in most major markets as part of ESG integration requirements"
+  answer: 2
+  explanation: "Adding a governance risk premium to the discount rate reflects the logic that uncertainty about future cash flows — arising from governance weaknesses such as weak board oversight, poor audit quality, or misaligned pay — should increase the required return. A higher discount rate reduces the present value of future earnings, which is consistent with the lower valuations at which poorly-governed companies typically trade. This approach treats governance quality as a direct input to the cost of capital."

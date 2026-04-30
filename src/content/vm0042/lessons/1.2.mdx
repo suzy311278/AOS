@@ -1,0 +1,61 @@
+{/* 1.2: Key Definitions */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/vm0042/1_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Key Definitions You Must Know
+<HighlightBox>
+  <p class="font-semibold text-green-800">Why definitions matter</p>
+  <p class="text-green-900 mt-1">VM0042 uses specific technical terms with precise meanings. Using the wrong term, or misunderstanding one, can lead to costly errors in project design, calculations, and audits. This lesson demystifies the most important ones.</p>
+</HighlightBox>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">🏫 Analogy: Classrooms and Test Scores</p>
+  <p class="mt-2 text-blue-900">Imagine you are a teacher with 120 students across 4 classrooms. Each classroom is a <strong>quantification unit</strong>, you measure scores within each room. Classrooms 1 & 2 have similar demographics, so you group them into <strong>Stratum A</strong>. Classrooms 3 & 4 are different, forming <strong>Stratum B</strong>. In VM0042, "classrooms" are land parcels and "test scores" are SOC measurements.</p>
+</AnalogyBox>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📍 Why Definitions Matter in Practice</p>
+  <p class="mt-2 text-sm">In 2022, a VVB auditing a soil carbon project in sub-Saharan Africa issued a corrective action request because the project developer had mixed up "Quantification Unit" and "Stratum", using stratum-level average SOC data to issue credits at the QU level, effectively claiming more precision than the sampling design justified. The misunderstanding cost three months and roughly $30,000 in rework. Getting these terms right from the start saves money and delays.</p>
+</ExampleBox>
+
+### Core Definitions Table
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th>Term</th><th>Plain English</th><th>Real-World Example</th></tr>
+  <tr><td><strong>Quantification Unit (QU)</strong></td><td>A contiguous chunk of land where you measure and calculate carbon changes</td><td>A 200-ha block within a project with the same soil type and climate</td></tr>
+  <tr><td><strong>Stratum</strong></td><td>A group of QUs that share similar characteristics</td><td>All sandy-loam QUs in a semi-arid zone grouped together</td></tr>
+  <tr><td><strong>Baseline Control Site</strong></td><td>A nearby piece of land that keeps farming the old way, for comparison</td><td>A neighbouring farm that continues conventional tillage while the project farm switches to no-till</td></tr>
+  <tr><td><strong>Historical Look-back Period</strong></td><td>The time window you examine to figure out pre-project practices</td><td>5 years of cropping records before the project start date</td></tr>
+  <tr><td><strong>Schedule of Activities</strong></td><td>A documented table of what farming practices were done before and what will change</td><td>"Before: conventional tillage, no cover crops. After: no-till, winter rye cover crop"</td></tr>
+  <tr><td><strong>Improved ALM Practice</strong></td><td>Any change in farming that is expected to increase SOC or reduce emissions</td><td>Switching from flood irrigation to deficit irrigation</td></tr>
+  <tr><td><strong>Project Domain</strong></td><td>The set of conditions (crop type, soil, climate) where a model has been validated</td><td>DayCent model validated for maize on clay soils in tropical humid climate</td></tr>
+  <tr><td><strong>Annual (crop)</strong></td><td>A plant species that completes its life cycle within one year</td><td>Wheat, maize, rice, soybean</td></tr>
+  <tr><td><strong>Perennial (crop)</strong></td><td>A plant species whose life cycle extends across multiple years</td><td>Alfalfa, perennial grasses, sugarcane</td></tr>
+  <tr><td><strong>Woody Perennials</strong></td><td>Trees and shrubs lasting more than two years</td><td>Coffee, cocoa, fruit trees in agroforestry systems</td></tr>
+</table>
+</ResponsiveTable>
+
+### Critical Distinction: QU vs. Stratum vs. Project Area
+<div class="bg-gray-50 border rounded p-4 mb-6">
+  <p class="font-medium text-gray-800 mb-2">Example: A 10,000 ha project in Kenya</p>
+  <ul class="space-y-2 text-sm text-gray-700">
+    <li>📦 <strong>Project area:</strong> All 10,000 ha, the total footprint of the project</li>
+    <li>🔲 <strong>Quantification units:</strong> 500 individual farm fields (avg. 20 ha each), each is measured separately</li>
+    <li>🎨 <strong>Strata:</strong> Fields grouped by soil type: Stratum A = 200 fields on clay soils, Stratum B = 300 fields on sandy loam soils</li>
+  </ul>
+  <p class="mt-3 text-sm text-gray-500">Stratification allows more efficient sampling, you need fewer samples per stratum because within-stratum variability is lower.</p>
+</div>
+
+### The Schedule of Activities, What It Must Include
+<p class="mb-3">For each quantification unit, the schedule documents ALM practices during the <strong>historical look-back period</strong> (minimum 3 years before project start). It must cover:</p>
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th>ALM Practice</th><th>Qualitative Info Needed</th><th>Quantitative Info Needed</th></tr>
+  <tr><td>Crop planting</td><td>Crop type(s)</td><td>Planting/harvest dates, crop yield</td></tr>
+  <tr><td>Nitrogen fertilizer</td><td>Synthetic? Manure? Compost?</td><td>Application rate (kg N/ha)</td></tr>
+  <tr><td>Tillage</td><td>Tilled? Residue removed?</td><td>Depth, frequency, % area disturbed</td></tr>
+  <tr><td>Water management</td><td>Irrigated? Flooded?</td><td>Irrigation rate (mm/year)</td></tr>
+  <tr><td>Grazing</td><td>Grazed? Animal type?</td><td>Stocking rate, frequency</td></tr>
+</table>
+</ResponsiveTable>
+<KeyTakeaways items="A Quantification Unit (QU) is a contiguous chunk of land where carbon changes are measured and calculated individually ;; Strata group QUs with similar characteristics (soil type, climate) to enable more efficient sampling with fewer samples per group ;; The Schedule of Activities documents ALM practices during the historical look-back period (minimum 3 years before project start) ;; Baseline Control Sites are nearby fields that continue pre-project farming practices, providing the counterfactual comparison ;; Confusing QU and Stratum is a common audit finding - getting definitions right from the start saves months and tens of thousands of dollars in rework" />

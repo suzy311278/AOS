@@ -1,0 +1,44 @@
+- question: "Under Article 8 of SFDR, what is the mandatory condition that must be met by ALL investee companies in an Article 8 product?"
+  options:
+    - "They must be aligned with EU Taxonomy environmental objectives"
+    - "They must have a science-based emissions target"
+    - "They must follow good governance practices (sound management structures, employee relations, remuneration, and tax compliance)"
+    - "They must disclose their Scope 3 GHG emissions"
+  answer: 2
+  explanation: "Article 8(1) requires that, for a product to qualify as promoting E/S characteristics, the companies in which investments are made must follow good governance practices — specifically regarding sound management structures, employee relations, remuneration of staff, and tax compliance. This is a mandatory condition for all Article 8 products."
+
+- question: "What is the key difference between an Article 8 product and an Article 9 product?"
+  options:
+    - "Article 8 products can only invest in European companies; Article 9 can invest globally"
+    - "Article 8 products PROMOTE environmental or social characteristics; Article 9 products have sustainable investment as their PRIMARY OBJECTIVE"
+    - "Article 8 products must track an ESG index; Article 9 products can be actively managed"
+    - "Article 8 products disclose PAI; Article 9 products do not"
+  answer: 1
+  explanation: "The core distinction is between 'promoting' E/S characteristics (Article 8) and 'having sustainable investment as the objective' (Article 9). This is a significant difference: promotion implies the investment strategy is oriented toward certain characteristics, while an objective implies the strategy's primary goal is sustainable investment. Article 9 requires near-100% sustainable investments with DNSH applied rigorously."
+
+- question: "Can an Article 8 product make sustainable investments (as defined in Article 2(17) SFDR)?"
+  options:
+    - "No — only Article 9 products may make sustainable investments"
+    - "Yes — Article 8 products can make sustainable investments and must disclose the minimum proportion committed to sustainable investments if they do"
+    - "Only up to 10% of the portfolio"
+    - "Yes, but only in social investments, not environmental"
+  answer: 1
+  explanation: "Article 8 products are explicitly permitted to make sustainable investments. If they do, the pre-contractual disclosure must state the minimum proportion committed to sustainable investments. However, even if an Article 8 product makes 100% sustainable investments, it must still include the mandatory statement that 'this financial product does not have sustainable investment as its objective.'"
+
+- question: "What does the RTS (Recital 11) say about the criteria used to promote E/S characteristics in an Article 8 product?"
+  options:
+    - "The criteria may be aspirational targets that the manager aims to achieve when market conditions allow"
+    - "Only criteria that are BINDING on the investment decision-making process count — criteria that can be overridden at the manager's discretion do not qualify"
+    - "At least 50% of criteria must be quantitative; qualitative criteria alone are insufficient"
+    - "The criteria must be independently audited by a third party before the product can be classified as Article 8"
+  answer: 1
+  explanation: "RTS Recital 11 is unequivocal: only criteria that are systematically applied and cannot be overridden at the manager's discretion qualify as binding elements that constitute 'promoting' E/S characteristics. Aspirational language ('aims to,' 'seeks to,' 'where possible') does not create binding constraints and therefore does not support Article 8 classification."
+
+- question: "Which RTS Annex should be used for the pre-contractual disclosure of an Article 8 UCITS fund that does NOT use a designated reference benchmark?"
+  options:
+    - "Annex II"
+    - "Annex III"
+    - "Annex IV"
+    - "Annex V"
+  answer: 1
+  explanation: "Annex II applies to Article 8 products WITH a reference benchmark. Annex III applies to Article 8 products WITHOUT a reference benchmark — which is the most common scenario. Annexes IV and V apply to Article 9 products (with and without benchmark, respectively)."

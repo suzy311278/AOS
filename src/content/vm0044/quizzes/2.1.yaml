@@ -1,0 +1,35 @@
+- question: "How many geographic locations does the VM0044 project boundary cover?"
+  options:
+    - "One: the production facility only"
+    - "Two: the sourcing site and the production facility"
+    - "Three: the sourcing site, the production facility, and the application site"
+    - "Four: the sourcing site, transport route, production facility, and application site"
+  answer: 2
+  explanation: "VM0044 Section 5 specifies three locations in the project boundary: (1) where waste biomass is initially sourced, (2) where biochar is produced via eligible thermochemical technologies, and (3) where the final application of biochar in soils or non-soils occurs. Transport routes are not defined as separate locations."
+
+- question: "What are baseline net GHG emissions at the waste biomass sourcing stage set to under VM0044?"
+  options:
+    - "The estimated methane that would have been released if the biomass had decomposed anaerobically"
+    - "Zero, as a conservative default"
+    - "The CO2 equivalent of open-field burning of the feedstock type"
+    - "A country-specific default value from IPCC tables"
+  answer: 1
+  explanation: "VM0044 sets default baseline net GHG emissions at the sourcing stage to zero. This is a conservative approach that avoids crediting projects for counterfactual scenarios that are difficult to verify. The methodology does not calculate what would have happened to the biomass through decay or burning."
+
+- question: "Which greenhouse gas from low technology pyrolysis is included as a project emission source in VM0044 Table 2?"
+  options:
+    - "CO2 only"
+    - "N2O only"
+    - "CH4 only"
+    - "All three: CO2, CH4, and N2O"
+  answer: 2
+  explanation: "For low technology pyrolysis and gasification, only CH4 is included as a project emission source. CO2 and N2O from low technology pyrolysis are excluded. A default emission factor from Cornelissen et al. (2016) is used to calculate the CH4 emissions."
+
+- question: "A VM0044 project transports biochar 180 km from the production facility to the soil application site. How are transport emissions treated?"
+  options:
+    - "CO2 from transport must be calculated and deducted from emission reductions"
+    - "All transport emissions are excluded regardless of distance"
+    - "Transport emissions are treated as de minimis and set to zero because the distance is less than 200 km"
+    - "A default transport emission factor must be applied per tonne-kilometre"
+  answer: 2
+  explanation: "VM0044 applies a 200 km threshold for biochar transport. If the round-trip distance between the production facility and the end-use destination is less than 200 km, transportation CO2 emissions are treated as de minimis and set to zero. At 180 km, this project qualifies for the de minimis treatment."

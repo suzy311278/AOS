@@ -1,0 +1,119 @@
+SOURCE URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1781
+DOCUMENT: Regulation (EU) 2024/1781 of the European Parliament and of the Council - Ecodesign for Sustainable Products Regulation (ESPR)
+DATE: June 13, 2024
+
+# Ecodesign for Sustainable Products Regulation (EU) 2024/1781
+
+## Overview
+Regulation (EU) 2024/1781, adopted June 13, 2024, establishes a comprehensive framework for setting ecodesign requirements applicable to physical goods placed on the EU market. It replaces Directive 2009/125/EC and extends ecodesign principles beyond energy-related products to cover broader sustainability aspects.
+
+## Core Scope
+
+The regulation applies to "all physical goods placed on the market or put into service," including components and intermediate products. Digital content integral to physical products falls within scope.
+
+Key exclusions:
+- Food and feed
+- Medicinal and veterinary products
+- Living organisms
+- Vehicles covered under existing sector-specific regulations
+
+## Primary Regulatory Tools
+
+Performance Requirements establish minimum/maximum performance levels or prohibit specific technical solutions. Examples include:
+- Energy consumption limits
+- Recycled content minimums
+- Restrictions on substances hindering circulability
+
+Information Requirements mandate disclosure of environmental performance data. These drive market transformation by enabling informed purchasing decisions and comparative product assessment.
+
+## Digital Product Passport (DPP)
+
+The regulation mandates digital product passports as a key information delivery mechanism. Essential features include:
+- Decentralized management by economic operators
+- Unique product identifiers linked to a centralized registry
+- Differentiated access rights for various stakeholders
+- Data carrier integration (QR codes, watermarks) on products
+- Backup copies maintained by independent service providers
+- Registry managed by the European Commission for enforcement purposes
+
+## Product Durability and Repairability
+
+Requirements address product longevity through:
+- Durability performance standards
+- Repairability scoring using harmonized methodologies
+- Spare parts availability obligations
+- Disassembly accessibility requirements
+- Repair information disclosure
+
+These measures combat "premature obsolescence practices" contributing to excessive waste generation.
+
+## Hazardous Substances Management
+
+The regulation enables restrictions on substances that hinder product reusability or recyclability. The Commission identifies problematic substances during impact assessments, considering:
+- Complications for product reuse or recycling
+- Negative effects on recycled material properties
+- Cross-product applicability patterns
+
+## Unsold Product Destruction Prevention
+
+The regulation prohibits economic operators from destroying unsold consumer apparel, clothing accessories, and footwear.
+- Medium-sized enterprises face six-year transition periods
+- Transparency obligations require disclosure of destroyed product quantities
+- Derogations may apply for health and safety concerns
+- Micro and small enterprises receive exemptions
+
+## Implementation Framework
+
+Working Plans: The Commission adopts multi-year working plans prioritizing product groups based on:
+- Climate impact potential
+- Environmental benefits
+- Cost proportionality
+
+Priority categories for initial implementation:
+- Iron, steel, aluminum
+- Textiles
+- Furniture
+- Tires
+- Detergents, paints, chemicals
+- Information technology products
+- Cement (delegated acts: December 31, 2028 to January 1, 2030)
+
+## Ecodesign Forum
+
+A stakeholder consultation body including:
+- Member State experts
+- Industry representatives (including SMEs)
+- Trade unions
+- Consumer organizations
+- Researchers
+
+## Enforcement and Governance
+
+- Customs authorities access DPP registry to verify product compliance at borders
+- Technical specifications through delegated acts
+- Alignment with international standards for interoperability
+- Member States provide SME support through guidance, training, and technical assistance
+
+## Relationship to Existing Law
+
+The regulation complements rather than replaces existing EU frameworks on:
+- Chemicals (REACH, CLP)
+- Food safety
+- Waste management
+- Energy labeling
+
+## Key Innovation: From Energy to Sustainability
+
+The original Ecodesign Directive 2009/125/EC focused only on energy-related products. ESPR 2024 transforms this into a broad sustainability framework covering:
+- Durability and reliability
+- Reusability
+- Upgradability
+- Repairability
+- Maintenance and refurbishment possibilities
+- Presence of hazardous substances
+- Energy and resource efficiency
+- Recycled content
+- Remanufacturing and recycling possibilities
+- Carbon and environmental footprints
+
+This shift represents the EU's commitment to making sustainable products the norm in the EU market.

@@ -1,0 +1,26 @@
+- question: "What is 'nutrient dilution' in the context of CO2 fertilization and food security?"
+  options:
+    - "A farming technique that reduces chemical fertiliser use by diluting it with water"
+    - "The reduction in protein and micronutrient content of staple crops like wheat and rice that occurs as atmospheric CO2 rises"
+    - "The process by which floods dilute and wash away soil nutrients, reducing agricultural productivity"
+    - "A climate model term for the reduction in plant growth rates when CO2 concentrations exceed 500 ppm"
+  answer: 1
+  explanation: "Nutrient dilution refers to the observed reduction in protein, iron, zinc, and other micronutrients in staple crops grown under elevated CO2 concentrations. While higher CO2 can boost plant growth under controlled conditions, it tends to produce food that is less nutritious per calorie. IPCC AR6 WGII identifies this as one reason why CO2 fertilization does not offset the negative food security consequences of warming at the global scale."
+
+- question: "According to IPCC AR6 WGII, which groups face disproportionate risk from heat-related mortality?"
+  options:
+    - "Skilled office workers and university students, who face psychological stress from heat"
+    - "Only athletes and outdoor recreational users, who are exposed to peak afternoon heat"
+    - "The elderly, outdoor workers, young children, and low-income urban residents without air conditioning"
+    - "Industrial workers in factories, because of combined heat from industrial processes and ambient temperature"
+  answer: 2
+  explanation: "IPCC AR6 WGII identifies the elderly, outdoor workers, young children, and low-income urban residents without access to cooling as the most vulnerable to heat-related illness and mortality. These groups face elevated physiological sensitivity to heat, greater exposure, or reduced capacity to adapt (such as inability to afford air conditioning or reduce outdoor work hours)."
+
+- question: "What does 'loss and damage' refer to in the context of climate change policy, as recognised at COP27 in 2022?"
+  options:
+    - "The total economic cost of natural disaster insurance claims globally each year"
+    - "The difference between what wealthy and developing countries spend on climate adaptation"
+    - "The adverse consequences of climate change that exceed what adaptation can address, including both economic losses and non-economic losses such as cultural heritage and identity"
+    - "Legal liability claims brought by small island states against major fossil fuel-producing countries"
+  answer: 2
+  explanation: "Loss and damage refers to the harms from climate change that go beyond what adaptation can prevent, either because adaptation options are exhausted (hard limits) or because impacts occur too fast for adaptation to succeed. This includes economic losses (property, agriculture) and non-economic losses (cultural heritage, identity, loss of homeland). COP27 established a dedicated Loss and Damage fund to address these irreversible harms, particularly for the most vulnerable nations."

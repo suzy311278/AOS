@@ -1,0 +1,37 @@
+- question: "Which of the following is an example of an ACUTE physical climate risk?"
+  options:
+    - "Sea level rise over 30 years"
+    - "Long-term shift in precipitation patterns"
+    - "A Category 5 hurricane destroying a coastal facility"
+    - "Declining soil productivity due to rising temperatures"
+  answer: 2
+  explanation: "Acute physical risks are event-driven and sudden — extreme weather events like hurricanes, floods, heatwaves, and wildfires. Chronic physical risks are longer-term shifts: sea level rise, changing precipitation patterns, soil degradation."
+
+- question: "A retailer faces reduced customer demand because consumers increasingly prefer low-carbon products. Which type of climate risk does this represent?"
+  options:
+    - "Acute physical risk"
+    - "Chronic physical risk"
+    - "Transition risk — market"
+    - "Transition risk — policy and legal"
+  answer: 2
+  explanation: "Changing consumer preferences toward low-carbon products is a market-type transition risk. It arises from the transition to a lower-carbon economy and changes in supply and demand patterns — not from physical climate effects or direct regulatory requirements."
+
+- question: "Which of the following is a climate-related OPPORTUNITY under IFRS S2?"
+  options:
+    - "Regulatory penalties for excess GHG emissions"
+    - "Increased insurance premiums due to physical risk exposure"
+    - "Revenue from selling certified low-carbon steel at premium prices"
+    - "Stranded costs from early retirement of fossil fuel assets"
+  answer: 2
+  explanation: "Revenue from low-carbon products at premium prices is a climate-related opportunity — a potential positive financial effect from the transition to a lower-carbon economy. Regulatory penalties, higher insurance premiums, and stranded costs are all risks, not opportunities."
+
+- question: "Which of the following are transition risk subcategories defined in IFRS S2 Appendix A? (Select all that apply)"
+  type: multi-select
+  options:
+    - "Policy and legal risks"
+    - "Sea level rise"
+    - "Technological risks"
+    - "Market risks"
+    - "Reputational risks"
+  answers: [0, 2, 3, 4]
+  explanation: "IFRS S2 Appendix A defines five transition risk subcategories: policy and legal, technological, market, and reputational risks. Sea level rise is a chronic physical risk, not a transition risk."

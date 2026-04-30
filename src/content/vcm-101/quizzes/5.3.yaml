@@ -1,0 +1,26 @@
+- question: "A consumer goods company has its largest supply chain risk in water availability across its agricultural sourcing regions. Which portfolio diversification principle should guide its co-benefit selection?"
+  options:
+  - "Maximise the number of different project types regardless of co-benefit relevance"
+  - "Focus exclusively on REDD+ credits because they have the strongest brand recognition"
+  - "Align co-benefit selection with material sustainability risks, prioritising credits from watershed protection or water security projects"
+  - "Select credits purely on price per tonne to maximise volume"
+  answer: 2
+  explanation: "Co-benefit alignment with a company's material sustainability risks creates authentic stakeholder narratives and reduces the risk that credit claims appear disconnected from actual business impacts. A company with significant water supply chain risk has a credible, natural connection to watershed protection projects, making the credit portfolio both more strategically coherent and more defensible to scrutiny from investors, NGOs, and customers who might question the link between credit purchases and the company's business context."
+
+- question: "What is the primary advantage of a long-term offtake partnership with a carbon project developer, compared with spot purchases on an exchange?"
+  options:
+  - "Spot purchases lock in the current market price, which is always lower than forward prices"
+  - "Long-term partnerships provide the developer with revenue certainty that enables commercial financing, while giving the buyer preferred access, project visibility, and often co-branding rights"
+  - "Exchange spot purchases allow the buyer to specify individual project details and co-benefit certifications"
+  - "Long-term partnerships eliminate all delivery risk because developers guarantee performance in all scenarios"
+  answer: 1
+  explanation: "Long-term offtake partnerships are characterised by a mutual benefit: the developer gains the revenue certainty needed to attract commercial lending and scale project operations, while the buyer gains preferred access to premium credit output, deep due diligence visibility, and often co-branding or direct engagement with the project community. Spot purchases offer no project-level specificity, and long-term contracts do not eliminate delivery risk - they typically include performance clauses and force majeure provisions specifically because delivery risk remains real."
+
+- question: "When conducting due diligence on a potential credit purchase from a project in a developing country, which of the following checks specifically addresses the risk that the same tonne of mitigation might be claimed by both the host country government and the corporate buyer?"
+  options:
+  - "Reviewing the project's most recent third-party verification report"
+  - "Confirming whether the project's host country has applied or announced corresponding adjustments under the Paris Agreement"
+  - "Checking the project's BeZero or Sylvera rating"
+  - "Verifying that the credits are listed on Verra or Gold Standard registry"
+  answer: 1
+  explanation: "Corresponding adjustments are the Paris Agreement mechanism that prevents double counting between host country NDCs and international credit buyers. If a host country has not applied a corresponding adjustment to project-level credits sold internationally, both parties could potentially claim the same mitigation outcome. Confirming corresponding adjustment status is therefore the specific due diligence step that addresses double-counting risk. Registry listing, third-party verification, and ratings address quality and additionality risks but not the cross-boundary double-counting risk."

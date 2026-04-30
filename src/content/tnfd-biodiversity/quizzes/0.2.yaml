@@ -1,0 +1,26 @@
+- question: "According to the IPBES Global Assessment (2019), which driver of biodiversity loss has the highest overall relative global impact on terrestrial ecosystems?"
+  options:
+  - "Climate change"
+  - "Invasive alien species"
+  - "Pollution"
+  - "Land and sea use change"
+  answer: 3
+  explanation: "Land and sea use change is ranked as the single most significant driver of terrestrial biodiversity loss globally. Over 75% of Earth's terrestrial environment has been significantly altered by human actions, primarily through conversion of natural habitats to agriculture, urban development, and infrastructure."
+
+- question: "Invasive alien species are implicated in approximately what percentage of all recorded animal extinctions since 1500?"
+  options:
+  - "5%"
+  - "20%"
+  - "40%"
+  - "70%"
+  answer: 2
+  explanation: "Invasive alien species are implicated in 40% of all recorded extinctions since 1500. They are the primary driver of documented animal extinctions globally, with island species being most vulnerable. The economic cost of invasive species was estimated at $1.28 trillion between 1970 and 2017 (Diagne et al., Nature 2021)."
+
+- question: "Why is climate change described as a 'threat multiplier' for biodiversity loss rather than simply a standalone driver?"
+  options:
+  - "Climate change only affects polar species, not tropical biodiversity"
+  - "Climate change reduces the effectiveness of protected areas, making them less relevant"
+  - "Climate change stresses species and ecosystems already weakened by other drivers, making the combined impact far greater than either alone"
+  - "Climate change is ranked first among all five drivers and therefore multiplies the number of species it affects"
+  answer: 2
+  explanation: "Climate change acts synergistically with other drivers: a reef already degraded by pollution and physical disturbance is far less capable of surviving a bleaching event than an intact reef. This threat multiplier effect means that climate and nature risks cannot be assessed independently, a key reason TNFD emphasises the 'climate-nature nexus' as one of its seven founding principles."

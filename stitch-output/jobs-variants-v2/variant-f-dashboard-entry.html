@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Career Directory | Greentryst</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary": "#005236",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary": "#ffffff",
+                        "primary": "#0f5238",
+                        "primary-container": "#2d6a4f",
+                        "surface-container-low": "#e2f9ed",
+                        "on-tertiary-container": "#89edba",
+                        "surface-container-highest": "#d1e8dc",
+                        "surface-container": "#dcf3e7",
+                        "tertiary-container": "#006d48",
+                        "on-secondary-fixed-variant": "#274e3d",
+                        "on-tertiary-fixed-variant": "#005235",
+                        "on-secondary-container": "#436b58",
+                        "error": "#ba1a1a",
+                        "inverse-primary": "#95d4b3",
+                        "on-primary-fixed": "#002114",
+                        "on-background": "#0b1f18",
+                        "surface-dim": "#c8dfd4",
+                        "secondary-fixed": "#c1ecd4",
+                        "on-error": "#ffffff",
+                        "surface-bright": "#e7fff3",
+                        "inverse-surface": "#21342c",
+                        "primary-fixed-dim": "#95d4b3",
+                        "outline-variant": "#bfc9c1",
+                        "surface-variant": "#d1e8dc",
+                        "outline": "#707973",
+                        "surface-container-high": "#d6eee2",
+                        "tertiary-fixed": "#92f7c3",
+                        "on-secondary": "#ffffff",
+                        "on-surface": "#0b1f18",
+                        "on-primary-container": "#a8e7c5",
+                        "secondary-container": "#beead1",
+                        "surface": "#e7fff3",
+                        "inverse-on-surface": "#dff6ea",
+                        "tertiary-fixed-dim": "#75daa8",
+                        "secondary": "#3f6653",
+                        "on-secondary-fixed": "#002114",
+                        "error-container": "#ffdad6",
+                        "on-primary-fixed-variant": "#0e5138",
+                        "surface-tint": "#2c694e",
+                        "on-surface-variant": "#404943",
+                        "on-error-container": "#93000a",
+                        "on-tertiary-fixed": "#002113",
+                        "on-tertiary": "#ffffff",
+                        "secondary-fixed-dim": "#a5d0b9",
+                        "primary-fixed": "#b1f0ce",
+                        "background": "#e7fff3"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter"],
+                        "body": ["Inter"],
+                        "label": ["JetBrains Mono"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        .mono-label { font-family: 'JetBrains Mono', monospace; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface antialiased">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#e7fff3]/80 dark:bg-[#0b1f18]/80 backdrop-blur-md">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="text-xl font-black tracking-tighter text-[#2d6a4f] dark:text-[#52b788]">
+                Greentryst
+            </div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-[#2d6a4f] dark:text-[#52b788] border-b-2 border-[#2d6a4f] pb-1 font-['Inter'] font-bold tracking-tight" href="#">Directory</a>
+<a class="text-[#404943] dark:text-[#c8dfd4] font-['JetBrains_Mono'] uppercase tracking-widest text-[11px] hover:text-[#0f5238] dark:hover:text-[#ffffff] transition-colors duration-200" href="#">Resources</a>
+<a class="text-[#404943] dark:text-[#c8dfd4] font-['JetBrains_Mono'] uppercase tracking-widest text-[11px] hover:text-[#0f5238] dark:hover:text-[#ffffff] transition-colors duration-200" href="#">Analytics</a>
+<a class="text-[#404943] dark:text-[#c8dfd4] font-['JetBrains_Mono'] uppercase tracking-widest text-[11px] hover:text-[#0f5238] dark:hover:text-[#ffffff] transition-colors duration-200" href="#">Policy</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="text-[#404943] font-['JetBrains_Mono'] uppercase tracking-widest text-[11px] hover:text-[#0f5238] transition-colors">Sign In</button>
+<button class="bg-primary-container text-on-primary px-5 py-2 rounded-lg font-bold text-sm transition-all hover:bg-primary">Post a Job</button>
+</div>
+</div>
+</nav>
+<!-- Main Content Area -->
+<main class="pt-32 pb-24 px-8 max-w-screen-2xl mx-auto bg-surface-container-lowest">
+<!-- Header Section -->
+<header class="flex flex-col items-center text-center mb-16">
+<div class="w-16 h-16 bg-[#0B3D2E] rounded-xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[32px] text-[#52B788]">work</span>
+</div>
+<p class="mono-label text-[11px] uppercase tracking-[0.2em] text-primary-container font-medium mb-4">
+                CAREER DIRECTORY
+            </p>
+<h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-on-surface mb-6 max-w-2xl leading-tight">
+                What kind of sustainability role are you looking for?
+            </h1>
+<p class="text-on-surface-variant max-w-xl text-lg leading-relaxed mb-10">
+                Every listing is categorized and matched against the skills you build on Greentryst. Pick your domain to start browsing.
+            </p>
+<!-- Stats Strip -->
+<div class="py-3 px-8 bg-surface-container rounded-full">
+<p class="mono-label text-[11px] uppercase tracking-[0.15em] text-on-surface-variant">
+                    1,482 jobs · 340 companies · 28 countries
+                </p>
+</div>
+</header>
+<!-- Domain Grid -->
+<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest border border-outline-variant/20 p-8 rounded-2xl hover:bg-surface-container transition-colors duration-200 cursor-pointer group">
+<div class="w-12 h-12 bg-[#0B3D2E] rounded-lg flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-white text-2xl">thermostat</span>
+</div>
+<div class="flex justify-between items-baseline mb-3">
+<h3 class="text-lg font-bold text-on-surface">Climate Risk</h3>
+<span class="mono-label text-[10px] text-on-surface-variant">312 ROLES</span>
+</div>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+                    Physical risk, transition risk, scenario analysis
+                </p>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest border border-outline-variant/20 p-8 rounded-2xl hover:bg-surface-container transition-colors duration-200 cursor-pointer group">
+<div class="w-12 h-12 bg-[#0B3D2E] rounded-lg flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-white text-2xl">account_balance</span>
+</div>
+<div class="flex justify-between items-baseline mb-3">
+<h3 class="text-lg font-bold text-on-surface">Sustainable Finance</h3>
+<span class="mono-label text-[10px] text-on-surface-variant">287 ROLES</span>
+</div>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+                    Green bonds, impact investing, taxonomy
+                </p>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest border border-outline-variant/20 p-8 rounded-2xl hover:bg-surface-container transition-colors duration-200 cursor-pointer group">
+<div class="w-12 h-12 bg-[#0B3D2E] rounded-lg flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-white text-2xl">payments</span>
+</div>
+<div class="flex justify-between items-baseline mb-3">
+<h3 class="text-lg font-bold text-on-surface">Carbon Markets</h3>
+<span class="mono-label text-[10px] text-on-surface-variant">198 ROLES</span>
+</div>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+                    VCM, compliance markets, methodology
+                </p>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-lowest border border-outline-variant/20 p-8 rounded-2xl hover:bg-surface-container transition-colors duration-200 cursor-pointer group">
+<div class="w-12 h-12 bg-[#0B3D2E] rounded-lg flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-white text-2xl">account_tree</span>
+</div>
+<div class="flex justify-between items-baseline mb-3">
+<h3 class="text-lg font-bold text-on-surface">EU Regulation</h3>
+<span class="mono-label text-[10px] text-on-surface-variant">156 ROLES</span>
+</div>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+                    CSRD, SFDR, CBAM, EU Taxonomy
+                </p>
+</div>
+<!-- Card 5 -->
+<div class="bg-surface-container-lowest border border-outline-variant/20 p-8 rounded-2xl hover:bg-surface-container transition-colors duration-200 cursor-pointer group">
+<div class="w-12 h-12 bg-[#0B3D2E] rounded-lg flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-white text-2xl">bolt</span>
+</div>
+<div class="flex justify-between items-baseline mb-3">
+<h3 class="text-lg font-bold text-on-surface">Clean Energy</h3>
+<span class="mono-label text-[10px] text-on-surface-variant">204 ROLES</span>
+</div>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+                    Renewables, grid transition, hydrogen
+                </p>
+</div>
+<!-- Card 6 -->
+<div class="bg-surface-container-lowest border border-outline-variant/20 p-8 rounded-2xl hover:bg-surface-container transition-colors duration-200 cursor-pointer group">
+<div class="w-12 h-12 bg-[#0B3D2E] rounded-lg flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-white text-2xl">description</span>
+</div>
+<div class="flex justify-between items-baseline mb-3">
+<h3 class="text-lg font-bold text-on-surface">ESG Reporting</h3>
+<span class="mono-label text-[10px] text-on-surface-variant">325 ROLES</span>
+</div>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+                    Disclosure standards, TCFD, SASB, GRI
+                </p>
+</div>
+</section>
+<!-- Search Bar Section -->
+<section class="flex flex-col items-center">
+<div class="w-full max-w-2xl relative">
+<input class="w-full pl-6 pr-32 py-5 bg-surface-container-highest border-none rounded-xl text-on-surface placeholder:text-on-surface-variant/60 focus:ring-2 focus:ring-primary-container outline-none transition-all" placeholder="Or search by title, company, or skill..." type="text"/>
+<button class="absolute right-3 top-3 bottom-3 px-6 bg-primary-container text-on-primary rounded-lg font-bold text-sm hover:bg-primary transition-colors">
+                    Search
+                </button>
+</div>
+<a class="mt-8 text-primary-container font-semibold hover:underline underline-offset-4 flex items-center gap-2" href="#">
+                Browse all 1,482 jobs
+                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 px-8 bg-[#e2f9ed] dark:bg-[#0b1f18]">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8 w-full max-w-screen-2xl mx-auto">
+<div class="font-['JetBrains_Mono'] text-[11px] uppercase tracking-[0.15em] text-[#404943] dark:text-[#c8dfd4]">
+                © 2024 Greentryst. All rights reserved.
+            </div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-['JetBrains_Mono'] text-[11px] uppercase tracking-[0.15em] text-[#404943] dark:text-[#c8dfd4] hover:text-[#2d6a4f] dark:hover:text-[#52b788] underline underline-offset-4 transition-all duration-200" href="#">Privacy Policy</a>
+<a class="font-['JetBrains_Mono'] text-[11px] uppercase tracking-[0.15em] text-[#404943] dark:text-[#c8dfd4] hover:text-[#2d6a4f] dark:hover:text-[#52b788] underline underline-offset-4 transition-all duration-200" href="#">Terms of Service</a>
+<a class="font-['JetBrains_Mono'] text-[11px] uppercase tracking-[0.15em] text-[#404943] dark:text-[#c8dfd4] hover:text-[#2d6a4f] dark:hover:text-[#52b788] underline underline-offset-4 transition-all duration-200" href="#">Carbon Disclosure</a>
+<a class="font-['JetBrains_Mono'] text-[11px] uppercase tracking-[0.15em] text-[#404943] dark:text-[#c8dfd4] hover:text-[#2d6a4f] dark:hover:text-[#52b788] underline underline-offset-4 transition-all duration-200" href="#">Contact</a>
+</div>
+</div>
+</footer>
+</body></html>

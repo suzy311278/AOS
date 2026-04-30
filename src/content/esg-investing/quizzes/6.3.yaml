@@ -1,0 +1,44 @@
+- question: "An investor evaluating two ESG ETFs that both describe themselves as 'ESG-screened global equity funds' notices they hold very different portfolios. What best explains this?"
+  options:
+    - "One fund has a longer track record, allowing more time to refine its holdings"
+    - "ESG index construction methodologies and underlying data providers vary significantly, so 'ESG-screened' covers a wide spectrum of approaches"
+    - "The funds are benchmarked against different parent indices, causing all differences in holdings"
+    - "One fund uses negative screening while the other uses active management"
+  answer: 1
+  explanation: "ESG index construction is highly individualistic. Different index providers use different ESG data sources, methodologies, weighting approaches, and screening criteria. Two funds both labelled as 'ESG-screened' can hold substantially different portfolios — one may exclude fossil fuels entirely, another may include them but tilt toward sector leaders. Investors must look beyond the label to the underlying methodology."
+
+- question: "Which ESG index construction approach is best described as: adjusting the weights of index constituents based on their ESG scores, without completely removing any company from the index?"
+  options:
+    - "Exclusion-based construction"
+    - "Best-in-class construction"
+    - "Tilted (ESG reweighting) construction"
+    - "Optimised construction"
+  answer: 2
+  explanation: "A tilted ESG index adjusts the portfolio weights of securities based on their ESG ratings — overweighting higher-rated companies and underweighting lower-rated ones — while maintaining all constituents. No company is completely excluded. This approach typically produces lower tracking error than exclusion-based indices because it preserves breadth while introducing an ESG tilt."
+
+- question: "What is the primary challenge of integrating ESG into passive investment strategies in terms of stewardship?"
+  options:
+    - "Passive investors are legally prohibited from engaging with company management"
+    - "The rules-based nature of passive strategies limits the depth of active engagement; stewardship is primarily expressed through proxy voting rather than bilateral management engagement"
+    - "Passive ESG strategies produce too high a tracking error to allow meaningful stewardship activity"
+    - "ESG ratings providers do not cover the companies held in passive portfolios"
+  answer: 1
+  explanation: "Passive investors hold every constituent in their index and cannot selectively engage or divest without departing from their benchmark. Their primary stewardship tool is proxy voting at general meetings. This is more limited than the focused, bilateral engagement that active ESG managers can conduct with concentrated holdings. Passive investing's scale does, however, give large index managers significant voting influence."
+
+- question: "Why do exclusions of sectors like fossil fuels or tobacco from a passive index tend to introduce unintended factor tilts?"
+  options:
+    - "These sectors are always underweighted in the parent index, so excluding them has little effect"
+    - "These sectors typically have characteristics (e.g., high dividend yield, stable cash flows, defensive positioning) that are removed from the portfolio when exclusions are applied, distorting factor exposures"
+    - "Exclusions cause all remaining sectors to have identical factor profiles"
+    - "Factor tilts only occur in active, not passive, investment strategies"
+  answer: 1
+  explanation: "Commonly excluded sectors — tobacco, fossil fuels, defence — tend to be mature industries with high dividend yields, stable cash flows, and defensive market characteristics (income and value factor exposure). Excluding them shifts the portfolio away from income/value and toward growth-oriented, capital-expenditure-driven sectors like technology and healthcare, creating systematic factor distortions that may not have been intended."
+
+- question: "What distinguishes an 'optimised' ESG index from a 'tilted' ESG index?"
+  options:
+    - "Optimised indices use exclusions while tilted indices use ESG scores"
+    - "Optimised indices use quantitative portfolio optimisation to explicitly manage the trade-off between ESG improvement and tracking error; tilted indices adjust weights by ESG score without formally solving this trade-off"
+    - "Tilted indices track only equities while optimised indices include all asset classes"
+    - "Optimised indices are constructed by active managers while tilted indices are passive"
+  answer: 1
+  explanation: "An optimised ESG index uses formal portfolio optimisation techniques to find the combination of holdings that achieves a target ESG outcome (e.g., highest ESG score, or minimum carbon intensity) while minimising the resulting tracking error. A tilted index simply reweights by ESG score without formally solving the optimisation problem — which means it achieves ESG improvement but does not explicitly manage the tracking error consequence."

@@ -1,0 +1,26 @@
+- question: "The December 2025 IFRS S2 amendments were effective from when, and could be applied earlier?"
+  options:
+    - "Effective 1 January 2026; earlier application not permitted"
+    - "Effective 1 January 2027; earlier application permitted"
+    - "Effective 1 January 2025; retroactive application required"
+    - "Effective 31 December 2025; applicable from that date"
+  answer: 1
+  explanation: "The December 2025 amendments to IFRS S2 (paragraphs 29A-29C and related changes) are effective for annual reporting periods beginning on or after 1 January 2027, with earlier application permitted. Entities applying the amendments early must disclose that fact."
+
+- question: "New paragraph 29C requires an entity that includes Category 15 in its Scope 3 to disclose what?"
+  options:
+    - "The total enterprise value of all investees in Category 15"
+    - "Total Category 15 GHG emissions AND the subtotal of financed emissions included within that total"
+    - "Category 15 emissions disaggregated by the 15 GHG Protocol sub-categories"
+    - "Only financed emissions — facilitated emissions may be excluded without disclosure"
+  answer: 1
+  explanation: "Para 29C requires entities including Category 15 to disclose: (1) the total Category 15 GHG emissions, and (2) the subtotal of financed emissions included in that total. This creates a clear, comparable presentation layer — investors can see the total Category 15 figure and how much of it is financed emissions specifically."
+
+- question: "The December 2025 amendment clarifying that the GHG Protocol jurisdictional relief applies 'in whole or in part' was motivated by which practical problem?"
+  options:
+    - "Most jurisdictions require a different GHG Protocol version than the 2004 standard"
+    - "Global entities with subsidiaries in jurisdictions requiring alternative national measurement methods faced ambiguity about which approach to use for the subsidiary"
+    - "The GHG Protocol 2004 standard was withdrawn and needed to be replaced"
+    - "European regulators objected to the GHG Protocol as a US-developed standard"
+  answer: 1
+  explanation: "The amendment addressed the practical problem faced by global entities where only part of their operations (e.g., a Japanese subsidiary) is required by a jurisdictional authority to use a national measurement method rather than the GHG Protocol. The amended wording now explicitly permits that part of the entity to use the alternative method while the rest uses the GHG Protocol."

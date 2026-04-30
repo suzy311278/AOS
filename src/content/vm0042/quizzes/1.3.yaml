@@ -1,0 +1,26 @@
+- question: "A project in Brazil proposes to claim credits for converting 1,000 ha of cerrado savanna (cleared 3 years ago) to conservation agriculture. Is this eligible under VM0042?"
+  options:
+  - "Yes — conservation agriculture is an eligible practice"
+  - "No — native ecosystem was cleared within the past 10 years"
+  - "Yes — but only if biochar is not involved"
+  - "No — Brazil is not covered by VM0042"
+  answer: 1
+  explanation: "Exclusion Condition 5 disqualifies any project where native ecosystems were cleared within 10 years before the project start date. 3 years ago is well within that window."
+
+- question: "Can biochar be used at all in a VM0042 project?"
+  options:
+  - "No — biochar is completely banned"
+  - "Yes — but only as a standalone practice"
+  - "Yes — it can be applied alongside other VM0042 practices, but its carbon content must be subtracted from the SOC claim"
+  - "Yes — with no restrictions"
+  answer: 2
+  explanation: "VM0042 excludes biochar as the SOLE practice (that's for VM0044). However, biochar can be applied as a soil amendment in a VM0042 project, provided the total organic carbon content of the biochar applied is subtracted from the SOC estimate."
+
+- question: "What is the minimum quantitative practice change required to count under Condition 1?"
+  options:
+  - "Any change, no matter how small"
+  - "More than 5% of the pre-existing value"
+  - "More than 10% of the pre-existing value"
+  - "At least 1 tonne CO₂e/ha/year"
+  answer: 1
+  explanation: "VM0042 Condition 1 specifies that quantitative adjustments (e.g., reducing fertilizer rate) must exceed 5% of the pre-existing value (calculated as the average over the historical look-back period) to constitute a practice change."

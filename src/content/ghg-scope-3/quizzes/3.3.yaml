@@ -1,0 +1,26 @@
+- question: "Category 11 (Use of Sold Products) typically represents the largest share of total Scope 3 emissions for which sector?"
+  options:
+    - "Professional services firms"
+    - "Retail clothing companies"
+    - "Automotive manufacturers"
+    - "Hospitality and tourism companies"
+  answer: 2
+  explanation: "For automotive manufacturers, the combustion of fuel in sold petrol and diesel vehicles (Category 11) accounts for 85–95% of total Scope 1+2+3 emissions, making it by far the dominant category in their Scope 3 inventory."
+
+- question: "Which three parameters determine the magnitude of Category 11 emissions for an energy-consuming product?"
+  options:
+    - "Purchase price, warranty length, and distribution distance"
+    - "Sales volume, product lifetime, and use-phase emission rate"
+    - "Market share, recycled content, and manufacturing cost"
+    - "Number of employees, carbon price, and R&D spending"
+  answer: 1
+  explanation: "Category 11 = Units Sold × Product Lifetime × Annual Use-Phase Emission Rate. Sales volume determines how many units generate emissions, product lifetime determines for how long, and the use-phase emission rate determines how much per unit per year."
+
+- question: "A company sells 1,000 electric heaters per year. Each heater consumes 2,000 kWh/year and has a 10-year lifetime. The grid emission factor is 0.207 tCO₂e/MWh. What are the Category 11 emissions for one year's heater sales over their full lifetime?"
+  options:
+    - "41.4 tCO₂e"
+    - "414 tCO₂e"
+    - "4,140 tCO₂e"
+    - "41,400 tCO₂e"
+  answer: 2
+  explanation: "Lifetime energy per heater = 2,000 kWh/yr × 10 yr = 20,000 kWh = 20 MWh. Emissions per heater = 20 MWh × 0.207 tCO₂e/MWh = 4.14 tCO₂e. Total for 1,000 heaters = 1,000 × 4.14 = 4,140 tCO₂e."

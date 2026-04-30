@@ -1,0 +1,184 @@
+{
+  "outputComponents": [
+    {
+      "design": {
+        "screens": [
+          {
+            "designSystem": {
+              "designSystem": {
+                "displayName": "Greentryst Meridian",
+                "theme": {
+                  "bodyFont": "INTER",
+                  "colorMode": "LIGHT",
+                  "colorVariant": "FIDELITY",
+                  "customColor": "#005C55",
+                  "designMd": "# Design System Document: The Curated Ecosystem\n\n## 1. Overview & Creative North Star\nThis design system is built to transform a functional operating system into a high-end editorial experience. We are moving away from the \"SaaS-standard\" look of generic grids and heavy borders, moving instead toward a **Creative North Star: The Scientific Atelier.**\n\nThe aesthetic combines the clinical precision of sustainability data with the sophisticated warmth of a premium architectural journal. We achieve this through **Intentional Asymmetry**—where layouts feel balanced but not perfectly mirrored—and **Atmospheric Depth**, utilizing a palette of deep teals and soft surfaces to create a workspace that feels like a physical, high-end studio rather than just a software tool.\n\n---\n\n## 2. Colors & Tonal Logic\nThe palette is rooted in the natural authority of deep forest teals and clean, mineral surfaces.\n\n### The \"No-Line\" Rule\nTo maintain a premium, editorial feel, **1px solid borders are prohibited for sectioning.** Boundaries must be defined solely through background color shifts or subtle tonal transitions. For example, a `surface-container-lowest` card (#ffffff) should sit on a `surface-container-low` background (#e5f7f6) to define its shape.\n\n### Surface Hierarchy & Nesting\nTreat the UI as a series of physical layers. We use the surface-container tiers to create \"nested\" depth:\n- **Surface (#ebfdfc):** The foundational base layer.\n- **Surface Container Low (#e5f7f6):** Secondary navigation or sidebar areas.\n- **Surface Container Lowest (#ffffff):** The \"Active Work Surface\"—reserved for primary cards and content modules.\n- **Surface Container Highest (#d4e6e5):** Elements that require immediate focus or \"pop,\" such as active input fields or hover states.\n\n### The \"Glass & Tonal\" Exception\nWhile the system is primarily flat, we introduce \"Visual Soul\" through:\n- **Tonal Depth:** Instead of traditional gradients, use a subtle shift from `primary` (#00433d) to `primary_container` (#005c55) on large action components to prevent a \"dead\" flat look.\n- **Glassmorphism:** For floating elements (modals, dropdowns), use `surface_container_low` at 80% opacity with a `backdrop-blur` of 12px. This integrates the element into the ecosystem rather than having it feel \"pasted on.\"\n\n---\n\n## 3. Typography: The Editorial Voice\nWe utilize a dual-font strategy to balance human authority with technical precision.\n\n- **Headings & Body (Inter):** Inter is our \"Voice of Authority.\" Use `headline-lg` (2rem) with tight letter-spacing (-0.02em) for an editorial, impactful look. Body text should maintain generous line-height (1.6) to ensure the \"Premium\" feeling of breathing room.\n- **Data & Metrics (JetBrains Mono):** For all sustainability metrics, code snippets, or technical timestamps, use JetBrains Mono. This provides a \"Scientific Lens\" that distinguishes raw data from the narrative body text.\n\n**Typography Hierarchy Example:**\n- **Display Large (3.5rem):** Hero metrics or section starters.\n- **Title Medium (1.125rem):** Card headers, always in Semi-Bold.\n- **Label Medium (0.75rem):** JetBrains Mono, All-Caps, used for \"Pill Badges\" or technical metadata.\n\n---\n\n## 4. Elevation & Depth\nHierarchy is achieved through **Tonal Layering** rather than structural shadows.\n\n- **The Layering Principle:** Depth is \"stacked.\" Place a `surface-container-lowest` (#ffffff) card on a `surface-container-low` (#e5f7f6) background. The 2% shift in brightness provides a soft, natural lift.\n- **Ambient Shadows:** When an element must float (e.g., a primary modal), use an ultra-diffused shadow: `box-shadow: 0 20px 40px rgba(14, 30, 30, 0.06)`. The shadow color must be a tinted version of `on_surface` (#0e1e1e), never pure black.\n- **The \"Ghost Border\" Fallback:** If a border is required for accessibility, use the `outline_variant` (#bec9c6) at **15% opacity**. A high-contrast border is a failure of the system's elegance.\n\n---\n\n## 5. Components\n\n### Buttons\n- **Primary:** `primary` (#00433d) background with `on_primary` (#ffffff) text. Use `rounded-lg` (1rem) for a modern, friendly touch.\n- **Secondary:** `secondary_container` (#8df5e4) background with `on_secondary_container` (#007165) text.\n- **State Logic:** On hover, do not change the color; instead, apply a 4px ambient shadow to \"lift\" the button toward the user.\n\n### Cards\n- **Construction:** No borders. Background `surface-container-lowest` (#ffffff).\n- **Padding:** Editorial-style padding (min 32px) to allow content to breathe.\n- **Interaction:** On hover, a card should shift background color to `surface_bright` (#ebfdfc) rather than growing in size.\n\n### Chips (Pill Badges)\n- Use `full` (9999px) rounding.\n- **Style:** Small caps, JetBrains Mono font.\n- **Color:** Background `primary_fixed` (#a7f0e6) with `on_primary_fixed` (#00201d) text for high-importance status.\n\n### Input Fields\n- **Style:** Flat `surface_container_highest` (#d4e6e5) background.\n- **Shape:** `md` (0.75rem) rounding.\n- **Focus:** No \"glow.\" Use a 2px \"Ghost Border\" of `primary` (#00433d) at 40% opacity.\n\n### Lists & Tables\n- **Forbid:** Horizontal divider lines.\n- **Execution:** Separate list items using 8px of vertical white space or a subtle alternating `surface_container_low` stripe. This creates a cleaner, more sophisticated data visualization.\n\n---\n\n## 6. Do's and Don'ts\n\n### Do\n- **Do** use negative space as a functional tool. If a screen feels cluttered, increase the padding, don't add a border.\n- **Do** mix Inter and JetBrains Mono in the same module to distinguish between \"Context\" and \"Data.\"\n- **Do** use the `tertiary` (#5f2c17) tones sparingly for \"Critical Warning\" or \"Organic Action\" items.\n\n### Don't\n- **Don't** use 100% black (#000000) for text. Always use `on_surface` (#0e1e1e).\n- **Don't** use standard 4px rounding. Use the `lg` (1rem) or `xl` (1.5rem) tokens to maintain the \"Professional but Accessible\" tone.\n- **Don't** use drop shadows on every card. Reserve elevation for elements that physically move or float over the main interface.",
+                  "font": "INTER",
+                  "headlineFont": "INTER",
+                  "labelFont": "INTER",
+                  "namedColors": {
+                    "background": "#ebfdfc",
+                    "error": "#ba1a1a",
+                    "error_container": "#ffdad6",
+                    "inverse_on_surface": "#e2f4f4",
+                    "inverse_primary": "#8cd4ca",
+                    "inverse_surface": "#233333",
+                    "on_background": "#0e1e1e",
+                    "on_error": "#ffffff",
+                    "on_error_container": "#93000a",
+                    "on_primary": "#ffffff",
+                    "on_primary_container": "#8ad2c8",
+                    "on_primary_fixed": "#00201d",
+                    "on_primary_fixed_variant": "#00504a",
+                    "on_secondary": "#ffffff",
+                    "on_secondary_container": "#007165",
+                    "on_secondary_fixed": "#00201c",
+                    "on_secondary_fixed_variant": "#005048",
+                    "on_surface": "#0e1e1e",
+                    "on_surface_variant": "#3f4947",
+                    "on_tertiary": "#ffffff",
+                    "on_tertiary_container": "#ffb295",
+                    "on_tertiary_fixed": "#370e00",
+                    "on_tertiary_fixed_variant": "#6e3822",
+                    "outline": "#6f7977",
+                    "outline_variant": "#bec9c6",
+                    "primary": "#00433d",
+                    "primary_container": "#005c55",
+                    "primary_fixed": "#a7f0e6",
+                    "primary_fixed_dim": "#8cd4ca",
+                    "secondary": "#006b5f",
+                    "secondary_container": "#8df5e4",
+                    "secondary_fixed": "#8df5e4",
+                    "secondary_fixed_dim": "#70d8c8",
+                    "surface": "#ebfdfc",
+                    "surface_bright": "#ebfdfc",
+                    "surface_container": "#e0f1f1",
+                    "surface_container_high": "#daeceb",
+                    "surface_container_highest": "#d4e6e5",
+                    "surface_container_low": "#e5f7f6",
+                    "surface_container_lowest": "#ffffff",
+                    "surface_dim": "#ccdedd",
+                    "surface_tint": "#1a6962",
+                    "surface_variant": "#d4e6e5",
+                    "tertiary": "#5f2c17",
+                    "tertiary_container": "#7b422b",
+                    "tertiary_fixed": "#ffdbce",
+                    "tertiary_fixed_dim": "#ffb599"
+                  },
+                  "overrideNeutralColor": "#0A1A1A",
+                  "overridePrimaryColor": "#005C55",
+                  "overrideSecondaryColor": "#00897B",
+                  "roundness": "ROUND_EIGHT",
+                  "spacingScale": 3
+                }
+              },
+              "name": "assets/4869d3d4e6ac46f1bcb17b0e236d13ea",
+              "version": "1"
+            },
+            "deviceType": "DESKTOP",
+            "generatedBy": "figaro_agent",
+            "height": "2382",
+            "htmlCode": {
+              "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2ZkMWVkYWUwNzc2ODQ0NDZiNDRkNzAxNmE5ODcyMWJkEgsSBxD4gf-qtRAYAZIBJAoKcHJvamVjdF9pZBIWQhQxNDg4MTM3NDE4NDU1MjE0MDA0Ng&filename=&opi=96797242",
+              "mimeType": "text/html",
+              "name": "projects/14881374184552140046/files/3ee681eb9b3c490b8ce0ef77ccb48407"
+            },
+            "id": "c81189cb86a04cb5920e4a214fcafc25",
+            "name": "projects/14881374184552140046/screens/c81189cb86a04cb5920e4a214fcafc25",
+            "prompt": "Create a desktop website hero for Greentryst Emission Factors with a code editor aesthetic.\n\nBackground: #07100f with a 2% opacity tiny dot grid.\n\nTOP NAV: Slim strip, Greentryst wordmark (JetBrains Mono, white, tiny teal cursor block). Links: Tools, Guides, Learn, API. Teal Sign in pill.\n\nHERO:\n- Eyebrow above editor: 'EMISSION FACTOR LIBRARY · DEVELOPER-GRADE REFERENCE' in small, muted JetBrains Mono.\n- CODE EDITOR Window: 1020px max-width, rounded-2xl, background #0d1917, soft shadow.\n  - Tab Bar: Tabs for 'uk-grid-electricity.json' (active), 'india-newne-grid.json', 'natural-gas-stationary.json'. Green-dot indicators. Breadcrumb trail to the right: 'greentryst / emission-factors / defra-2024 / uk-grid-electricity.json'.\n  - Sidebar: 220px width, darker than main editor, file tree showing 'emission-factors/' and 'defra-2024/' folders. Small search input at top 'Go to factor...'.\n  - Main Editor: Line numbers 01-24 in gutter. JSON content syntax-highlighted (keys warm-white, strings teal #8cd4ca, numbers pale green, punctuation white/40). Highlighted selection on line with \"value\": 0.207. Blinking teal caret at end of URL line.\n  - Status Bar: 24px teal stripe at bottom. Text: 'Greentryst Emission Factors · stable · v2026.1', 'JSON · UTF-8 · LF', '211,651 factors indexed · Ln 4, Col 18'.\n\nANNOTATION CARD: Floating to the right of editor, rounded-xl, #f4f9f7. Eyebrow 'WHAT YOU GET'. Bullets: 'Every value in source JSON', 'Never silently edited', 'Queryable, citable, portable'.\n\nPOST-HERO:\n- Links below editor: 'Browse all 211,651' and 'Read the schema' (14px teal Inter).\n- Stat Strip: 211,651 (Factors Indexed), 41 (Data Sources), 4 (Global Regions), 0 (Manual Edits) in JetBrains Mono.\n\nTypography: Inter for UI, JetBrains Mono for editor/stats. Use {{DATA:DESIGN_SYSTEM:DESIGN_SYSTEM_1}} for core styling rules.",
+            "screenMetadata": {
+              "agentType": "PRO_AGENT",
+              "status": "COMPLETE"
+            },
+            "screenType": "DESIGN",
+            "screenshot": {
+              "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0ujQKvBIGdehtuRUOJVF09HbbKOp9TJ48hpDs0VdeNP0TEroMHpkeZUaaxTaerKKYiztvFaCq3eNDiwDaagsUK58k3LJFN6szU8B8v9lbQfB-eIQb4mBofC_Cx2LxLgty8NKcH1xL1MCIy0Uig5KylIlDUPy4hXiWJh6Bez7cOwo5OwiwOce_vL_fqYsi_8UUNGcJSJP9ec0dH8wllujUHrgEyDSNWUtxrqQXrrk5fQguz55Nr3DNXJItxnb",
+              "name": "projects/14881374184552140046/files/c63e399c05394c9e8bdfe65e4434c7c3"
+            },
+            "theme": {
+              "bodyFont": "INTER",
+              "colorMode": "LIGHT",
+              "colorVariant": "FIDELITY",
+              "customColor": "#005C55",
+              "designMd": "# Design System Document: The Curated Ecosystem\n\n## 1. Overview & Creative North Star\nThis design system is built to transform a functional operating system into a high-end editorial experience. We are moving away from the \"SaaS-standard\" look of generic grids and heavy borders, moving instead toward a **Creative North Star: The Scientific Atelier.**\n\nThe aesthetic combines the clinical precision of sustainability data with the sophisticated warmth of a premium architectural journal. We achieve this through **Intentional Asymmetry**—where layouts feel balanced but not perfectly mirrored—and **Atmospheric Depth**, utilizing a palette of deep teals and soft surfaces to create a workspace that feels like a physical, high-end studio rather than just a software tool.\n\n---\n\n## 2. Colors & Tonal Logic\nThe palette is rooted in the natural authority of deep forest teals and clean, mineral surfaces.\n\n### The \"No-Line\" Rule\nTo maintain a premium, editorial feel, **1px solid borders are prohibited for sectioning.** Boundaries must be defined solely through background color shifts or subtle tonal transitions. For example, a `surface-container-lowest` card (#ffffff) should sit on a `surface-container-low` background (#e5f7f6) to define its shape.\n\n### Surface Hierarchy & Nesting\nTreat the UI as a series of physical layers. We use the surface-container tiers to create \"nested\" depth:\n- **Surface (#ebfdfc):** The foundational base layer.\n- **Surface Container Low (#e5f7f6):** Secondary navigation or sidebar areas.\n- **Surface Container Lowest (#ffffff):** The \"Active Work Surface\"—reserved for primary cards and content modules.\n- **Surface Container Highest (#d4e6e5):** Elements that require immediate focus or \"pop,\" such as active input fields or hover states.\n\n### The \"Glass & Tonal\" Exception\nWhile the system is primarily flat, we introduce \"Visual Soul\" through:\n- **Tonal Depth:** Instead of traditional gradients, use a subtle shift from `primary` (#00433d) to `primary_container` (#005c55) on large action components to prevent a \"dead\" flat look.\n- **Glassmorphism:** For floating elements (modals, dropdowns), use `surface_container_low` at 80% opacity with a `backdrop-blur` of 12px. This integrates the element into the ecosystem rather than having it feel \"pasted on.\"\n\n---\n\n## 3. Typography: The Editorial Voice\nWe utilize a dual-font strategy to balance human authority with technical precision.\n\n- **Headings & Body (Inter):** Inter is our \"Voice of Authority.\" Use `headline-lg` (2rem) with tight letter-spacing (-0.02em) for an editorial, impactful look. Body text should maintain generous line-height (1.6) to ensure the \"Premium\" feeling of breathing room.\n- **Data & Metrics (JetBrains Mono):** For all sustainability metrics, code snippets, or technical timestamps, use JetBrains Mono. This provides a \"Scientific Lens\" that distinguishes raw data from the narrative body text.\n\n**Typography Hierarchy Example:**\n- **Display Large (3.5rem):** Hero metrics or section starters.\n- **Title Medium (1.125rem):** Card headers, always in Semi-Bold.\n- **Label Medium (0.75rem):** JetBrains Mono, All-Caps, used for \"Pill Badges\" or technical metadata.\n\n---\n\n## 4. Elevation & Depth\nHierarchy is achieved through **Tonal Layering** rather than structural shadows.\n\n- **The Layering Principle:** Depth is \"stacked.\" Place a `surface-container-lowest` (#ffffff) card on a `surface-container-low` (#e5f7f6) background. The 2% shift in brightness provides a soft, natural lift.\n- **Ambient Shadows:** When an element must float (e.g., a primary modal), use an ultra-diffused shadow: `box-shadow: 0 20px 40px rgba(14, 30, 30, 0.06)`. The shadow color must be a tinted version of `on_surface` (#0e1e1e), never pure black.\n- **The \"Ghost Border\" Fallback:** If a border is required for accessibility, use the `outline_variant` (#bec9c6) at **15% opacity**. A high-contrast border is a failure of the system's elegance.\n\n---\n\n## 5. Components\n\n### Buttons\n- **Primary:** `primary` (#00433d) background with `on_primary` (#ffffff) text. Use `rounded-lg` (1rem) for a modern, friendly touch.\n- **Secondary:** `secondary_container` (#8df5e4) background with `on_secondary_container` (#007165) text.\n- **State Logic:** On hover, do not change the color; instead, apply a 4px ambient shadow to \"lift\" the button toward the user.\n\n### Cards\n- **Construction:** No borders. Background `surface-container-lowest` (#ffffff).\n- **Padding:** Editorial-style padding (min 32px) to allow content to breathe.\n- **Interaction:** On hover, a card should shift background color to `surface_bright` (#ebfdfc) rather than growing in size.\n\n### Chips (Pill Badges)\n- Use `full` (9999px) rounding.\n- **Style:** Small caps, JetBrains Mono font.\n- **Color:** Background `primary_fixed` (#a7f0e6) with `on_primary_fixed` (#00201d) text for high-importance status.\n\n### Input Fields\n- **Style:** Flat `surface_container_highest` (#d4e6e5) background.\n- **Shape:** `md` (0.75rem) rounding.\n- **Focus:** No \"glow.\" Use a 2px \"Ghost Border\" of `primary` (#00433d) at 40% opacity.\n\n### Lists & Tables\n- **Forbid:** Horizontal divider lines.\n- **Execution:** Separate list items using 8px of vertical white space or a subtle alternating `surface_container_low` stripe. This creates a cleaner, more sophisticated data visualization.\n\n---\n\n## 6. Do's and Don'ts\n\n### Do\n- **Do** use negative space as a functional tool. If a screen feels cluttered, increase the padding, don't add a border.\n- **Do** mix Inter and JetBrains Mono in the same module to distinguish between \"Context\" and \"Data.\"\n- **Do** use the `tertiary` (#5f2c17) tones sparingly for \"Critical Warning\" or \"Organic Action\" items.\n\n### Don't\n- **Don't** use 100% black (#000000) for text. Always use `on_surface` (#0e1e1e).\n- **Don't** use standard 4px rounding. Use the `lg` (1rem) or `xl` (1.5rem) tokens to maintain the \"Professional but Accessible\" tone.\n- **Don't** use drop shadows on every card. Reserve elevation for elements that physically move or float over the main interface.",
+              "font": "INTER",
+              "headlineFont": "INTER",
+              "labelFont": "INTER",
+              "namedColors": {
+                "background": "#ebfdfc",
+                "error": "#ba1a1a",
+                "error_container": "#ffdad6",
+                "inverse_on_surface": "#e2f4f4",
+                "inverse_primary": "#8cd4ca",
+                "inverse_surface": "#233333",
+                "on_background": "#0e1e1e",
+                "on_error": "#ffffff",
+                "on_error_container": "#93000a",
+                "on_primary": "#ffffff",
+                "on_primary_container": "#8ad2c8",
+                "on_primary_fixed": "#00201d",
+                "on_primary_fixed_variant": "#00504a",
+                "on_secondary": "#ffffff",
+                "on_secondary_container": "#007165",
+                "on_secondary_fixed": "#00201c",
+                "on_secondary_fixed_variant": "#005048",
+                "on_surface": "#0e1e1e",
+                "on_surface_variant": "#3f4947",
+                "on_tertiary": "#ffffff",
+                "on_tertiary_container": "#ffb295",
+                "on_tertiary_fixed": "#370e00",
+                "on_tertiary_fixed_variant": "#6e3822",
+                "outline": "#6f7977",
+                "outline_variant": "#bec9c6",
+                "primary": "#00433d",
+                "primary_container": "#005c55",
+                "primary_fixed": "#a7f0e6",
+                "primary_fixed_dim": "#8cd4ca",
+                "secondary": "#006b5f",
+                "secondary_container": "#8df5e4",
+                "secondary_fixed": "#8df5e4",
+                "secondary_fixed_dim": "#70d8c8",
+                "surface": "#ebfdfc",
+                "surface_bright": "#ebfdfc",
+                "surface_container": "#e0f1f1",
+                "surface_container_high": "#daeceb",
+                "surface_container_highest": "#d4e6e5",
+                "surface_container_low": "#e5f7f6",
+                "surface_container_lowest": "#ffffff",
+                "surface_dim": "#ccdedd",
+                "surface_tint": "#1a6962",
+                "surface_variant": "#d4e6e5",
+                "tertiary": "#5f2c17",
+                "tertiary_container": "#7b422b",
+                "tertiary_fixed": "#ffdbce",
+                "tertiary_fixed_dim": "#ffb599"
+              },
+              "overrideNeutralColor": "#0A1A1A",
+              "overridePrimaryColor": "#005C55",
+              "overrideSecondaryColor": "#00897B",
+              "roundness": "ROUND_EIGHT",
+              "spacingScale": 3
+            },
+            "title": "Greentryst Emission Factors Hero",
+            "width": "2560"
+          }
+        ],
+        "theme": {}
+      }
+    },
+    {
+      "text": "I've designed the Greentryst Emission Factors hero section with a high-fidelity developer aesthetic. \n\nKey features include:\n- **Code Editor Interface:** A meticulously detailed simulated editor window showing live JSON sustainability data, complete with syntax highlighting, a file tree sidebar, and a status bar.\n- **Thematic Consistency:** Using the Greentryst design system, I've blended technical precision (JetBrains Mono, dark editor themes) with an authoritative, professional tone (Inter typography, deep teal accents).\n- **Functional Details:** Added breadcrumbs, file tabs with status indicators, and a floating annotation card to highlight the platform's core value propositions.\n- **Data-Driven Hero:** The stat strip below the editor provides immediate scale and credibility for the library.\n\nDoes this capture the \"developer-grade\" feel you were looking for?"
+    },
+    {
+      "suggestion": "Change the JSON data to a different sector like transportation"
+    },
+    {
+      "suggestion": "Make the editor interactive with a hover state on the JSON keys"
+    },
+    {
+      "suggestion": "Add a search bar to the top navigation"
+    }
+  ],
+  "projectId": "14881374184552140046",
+  "sessionId": "15738829257585848953"
+}

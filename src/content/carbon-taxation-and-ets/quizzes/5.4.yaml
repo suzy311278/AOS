@@ -1,0 +1,35 @@
+- question: "What triggers price management mechanisms in most ETS systems?"
+  options:
+    - "Random selection"
+    - "Prices crossing pre-set thresholds or supply/demand indicators"
+    - "Political decisions each time"
+    - "International agreement"
+  answer: 1
+  explanation: "Most mechanisms have pre-set price triggers (e.g., activate CCR if price exceeds $X) or supply indicators (e.g., MSR based on allowance surplus) that automatically activate responses."
+
+- question: "What is a 'soft' price ceiling?"
+  options:
+    - "A ceiling that is not enforced"
+    - "A ceiling that adds supply (e.g., through CCR or offsets) rather than absolutely capping price"
+    - "A very low ceiling"
+    - "A ceiling that applies only to small emitters"
+  answer: 1
+  explanation: "A soft ceiling increases allowance supply when prices are high (through reserves or offsets) but does not absolutely cap the price. Prices can still go higher if demand is strong enough."
+
+- question: "Why might a jurisdiction choose NOT to have a price ceiling?"
+  options:
+    - "Ceilings are illegal"
+    - "To maintain full environmental certainty of the cap and allow prices to reflect true scarcity"
+    - "Ceilings are too expensive"
+    - "All jurisdictions must have ceilings"
+  answer: 1
+  explanation: "Some jurisdictions avoid ceilings to preserve the cap's environmental integrity. High prices reflect genuine scarcity and drive strong incentives for innovation and deep reductions."
+
+- question: "What is the primary purpose of price stabilization mechanisms?"
+  options:
+    - "To eliminate all price changes"
+    - "To moderate extreme volatility while preserving the carbon price signal"
+    - "To guarantee profits for traders"
+    - "To eliminate the need for emissions reductions"
+  answer: 1
+  explanation: "Price stabilization aims to prevent extreme spikes and crashes that undermine investment signals, while still allowing prices to move with fundamentals to guide efficient reductions."

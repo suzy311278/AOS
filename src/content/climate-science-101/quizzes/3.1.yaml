@@ -1,0 +1,26 @@
+- question: "How does the IPCC AR6 define a climate tipping point?"
+  options:
+    - "A year in which global average temperature exceeds 1.5°C above pre-industrial levels"
+    - "A critical threshold beyond which a system reorganises, often abruptly and/or irreversibly"
+    - "The moment at which carbon dioxide concentrations exceed 450 ppm"
+    - "A point of no return after which all climate projections become unreliable"
+  answer: 1
+  explanation: "IPCC AR6 defines a tipping point as 'a critical threshold beyond which a system reorganises, often abruptly and/or irreversibly.' The key features are threshold behaviour and self-reinforcing internal feedbacks that sustain change independently of external forcing."
+
+- question: "What makes the West Antarctic Ice Sheet particularly vulnerable to collapse compared to the Greenland Ice Sheet?"
+  options:
+    - "The West Antarctic Ice Sheet is thinner and located at lower altitude"
+    - "Much of the West Antarctic Ice Sheet rests on bedrock below sea level, making it vulnerable to warm ocean water through Marine Ice Sheet Instability"
+    - "The West Antarctic Ice Sheet has lower albedo (reflectivity) and absorbs more solar radiation"
+    - "The West Antarctic Ice Sheet contains less ice and therefore responds faster to temperature changes"
+  answer: 1
+  explanation: "Unlike Greenland, much of the West Antarctic Ice Sheet rests on bedrock below sea level. This makes it vulnerable to Marine Ice Sheet Instability (MISI): warm ocean water melts floating ice shelves, the grounding line retreats into deeper bedrock, and self-sustaining collapse can occur. The Thwaites Glacier is a key area of concern."
+
+- question: "What is the concept of a 'tipping cascade' in climate science?"
+  options:
+    - "A rapid fall in global temperatures following a volcanic eruption"
+    - "The sequential triggering of multiple tipping points, where crossing one tipping element increases the likelihood of crossing others"
+    - "A waterfall effect in which glacial melt accelerates sea level rise in a predictable, linear way"
+    - "The cascading economic costs of climate change across multiple sectors simultaneously"
+  answer: 1
+  explanation: "A tipping cascade refers to the systemic risk that crossing one tipping element may trigger others through interconnected climate system linkages. For example, AMOC weakening could dry out the Amazon, Amazon dieback could release carbon that accelerates permafrost thaw, and so on. This means cumulative risks may be greater than individual tipping points considered in isolation."

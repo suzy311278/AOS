@@ -1,0 +1,263 @@
+{
+  "outputComponents": [
+    {
+      "designSystem": {
+        "designSystem": {
+          "displayName": "Greentryst Terminal",
+          "theme": {
+            "bodyFont": "INTER",
+            "colorMode": "DARK",
+            "colorVariant": "FIDELITY",
+            "customColor": "#005c55",
+            "designMd": "# Design System Specification: The Architectural Operating System\n\n## 1. Overview & Creative North Star: \"The Sovereign Intelligence\"\nThis design system is not a website; it is a high-performance terminal for the sustainability era. Our Creative North Star is **The Sovereign Intelligence**. We move away from the \"friendly SaaS\" aesthetic of rounded softness and pastel safety, pivoting instead toward the authoritative, data-dense world of high-finance terminals (Bloomberg, Reuters). \n\nThe goal is to create a sense of permanent reliability. We achieve this through **Intentional Asymmetry**—where data density on one side is balanced by strategic negative space—and **Atmospheric Depth**, replacing traditional lines with tonal layering. Every pixel must feel calculated, professional, and definitive.\n\n---\n\n## 2. Color & Tonal Architecture\nThe palette is rooted in deep, obsidian-like teals and mineral grays. We use color to define structure rather than decoration.\n\n### The \"No-Line\" Rule\n**Prohibit 1px solid borders for sectioning.** Traditional borders create visual noise that distracts from the data. In this system, boundaries are defined exclusively through:\n1.  **Background Shifts:** Transitioning from `surface` to `surface-container-low`.\n2.  **Tonal Steps:** Using `surface-container` tiers to nest content.\n3.  **Negative Space:** Utilizing the 96px vertical padding scale to separate thoughts.\n\n### Surface Hierarchy & Nesting\nTreat the UI as a physical stack of mineral plates.\n*   **Base Layer:** `surface` (#061616) — The foundation.\n*   **Section Layer:** `surface-container-low` (#0e1e1e) — Broad content groupings.\n*   **Interactive Layer:** `surface-container-high` (#1d2d2d) — Elements the user engages with.\n\n### The \"Glass & Gradient\" Rule\nTo prevent a \"flat\" or \"cheap\" appearance, main CTAs and premium cards should utilize **Signature Textures**. \n*   **Subtle Gradients:** Transitioning from `primary` (#8cd4ca) to `primary_container` (#005c55) at a 135° angle adds \"soul\" and depth.\n*   **Glassmorphism:** For floating modals or navigation bars, use `surface-container` colors at 80% opacity with a `20px` backdrop-blur. This ensures the UI feels like a single cohesive environment rather than disconnected parts.\n\n---\n\n## 3. Typography: Editorial Authority\nTypography is our primary tool for establishing hierarchy. We pair the industrial precision of **Inter** with the technical rigor of **JetBrains Mono**.\n\n*   **Display & Headlines (Inter):** Set at weight 800 with tight tracking (-0.02em). This creates a \"blocky,\" authoritative look reminiscent of traditional broadsheet mastheads.\n*   **Data & Stats (JetBrains Mono):** All numerical data, timestamps, and coordinates must use JetBrains Mono. This signals to the user that the information is precise and system-generated.\n*   **Body (Inter):** Keep at weight 400 for long-form reading, increasing to 500 for emphasized instructional text.\n\n| Role | Font | Size | Weight | Tracking |\n| :--- | :--- | :--- | :--- | :--- |\n| **Display-LG** | Inter | 3.5rem (56px) | 800 | -0.02em |\n| **Headline-LG** | Inter | 2.0rem (32px) | 700 | -0.01em |\n| **Title-MD** | Inter | 1.125rem (18px) | 600 | 0 |\n| **Data-Stat** | JetBrains Mono | 1.0rem (16px) | 500 | 0 |\n| **Label-SM** | Inter | 0.6875rem (11px) | 700 | 0.05em (All Caps) |\n\n---\n\n## 4. Elevation & Depth: Tonal Layering\nWe reject the standard \"drop shadow.\" Instead, we use **Tonal Layering** and **Ambient Shadows** to create a premium, architectural feel.\n\n*   **The Layering Principle:** Place a `surface-container-lowest` (#021111) card on a `surface-container-low` (#0e1e1e) section. The slight shift in value creates a natural lift.\n*   **Ambient Shadows:** If an element must float (e.g., a dropdown), use a shadow with a 32px blur, 0px offset, and 6% opacity of the `on-surface` color (#d4e6e5). It should feel like a soft glow of light, not a shadow.\n*   **The \"Ghost Border\":** For high-density data tables where separation is critical, use the `outline-variant` (#3f4947) at **15% opacity**. It should be barely visible—a \"suggestion\" of a line rather than a hard boundary.\n\n---\n\n## 5. Components: The Industrial Toolkit\n\n### Cards & Data Containers\n*   **Style:** `Rounded-xl` (12px). No borders.\n*   **Rule:** Forbid divider lines within cards. Use `body-sm` labels and vertical spacing to separate content sections.\n*   **Background:** Use `surface-container` (#122222) to sit atop the base background.\n\n### Buttons (The Primary Action)\n*   **Primary:** Solid `primary` (#8cd4ca) with `on-primary` (#003733) text. `Rounded-lg` (8px). \n*   **Secondary:** Ghost style. No background, only the \"Ghost Border\" (outline-variant at 20%).\n*   **Hover State:** Transition to `primary_fixed` (#a7f0e6) for a subtle \"lit\" effect.\n\n### Status Indicators (The 'Live' System)\n*   **Live/Active:** A small 6px dot using `tertiary` (#4ae183) with a subtle pulse animation.\n*   **Coming Soon:** Text labels using `Accent Amber` (#f59e0b) set in `label-sm` (All Caps).\n\n### Technical Inputs\n*   **Style:** Flat, `surface-container-highest` (#283837) backgrounds. \n*   **Focus State:** A 2px solid `primary` (#8cd4ca) bottom-border only. This maintains the \"terminal\" aesthetic.\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do\n*   **Do** embrace data density. Practitioners need information, not white space for the sake of white space.\n*   **Do** use JetBrains Mono for any value that fluctuates (CO2 levels, percentages, dates).\n*   **Do** use high-contrast typography scales (e.g., a massive `Display-LG` header next to a tiny `Label-SM` category).\n\n### Don’t\n*   **Don’t** use stock photography. Use abstract data visualizations, satellite imagery (de-saturated), or high-fidelity technical diagrams.\n*   **Don’t** use standard blue for links. Use `primary` (#8cd4ca) or `secondary` (#70d8c8).\n*   **Don’t** use 100% black (#000000). Use the system’s `surface` (#061616) to maintain the \"Teal-Black\" depth.\n*   **Don’t** use rounded-full (pills) for anything other than status tags. It breaks the professional, geometric rigor of the system.",
+            "font": "INTER",
+            "headlineFont": "INTER",
+            "labelFont": "INTER",
+            "namedColors": {
+              "background": "#061616",
+              "error": "#ffb4ab",
+              "error_container": "#93000a",
+              "inverse_on_surface": "#233333",
+              "inverse_primary": "#1a6962",
+              "inverse_surface": "#d4e6e5",
+              "on_background": "#d4e6e5",
+              "on_error": "#690005",
+              "on_error_container": "#ffdad6",
+              "on_primary": "#003733",
+              "on_primary_container": "#8ad2c8",
+              "on_primary_fixed": "#00201d",
+              "on_primary_fixed_variant": "#00504a",
+              "on_secondary": "#003731",
+              "on_secondary_container": "#00302a",
+              "on_secondary_fixed": "#00201c",
+              "on_secondary_fixed_variant": "#005048",
+              "on_surface": "#d4e6e5",
+              "on_surface_variant": "#bec9c6",
+              "on_tertiary": "#003919",
+              "on_tertiary_container": "#48df82",
+              "on_tertiary_fixed": "#00210c",
+              "on_tertiary_fixed_variant": "#005228",
+              "outline": "#889391",
+              "outline_variant": "#3f4947",
+              "primary": "#8cd4ca",
+              "primary_container": "#005c55",
+              "primary_fixed": "#a7f0e6",
+              "primary_fixed_dim": "#8cd4ca",
+              "secondary": "#70d8c8",
+              "secondary_container": "#32a192",
+              "secondary_fixed": "#8df5e4",
+              "secondary_fixed_dim": "#70d8c8",
+              "surface": "#061616",
+              "surface_bright": "#2c3c3c",
+              "surface_container": "#122222",
+              "surface_container_high": "#1d2d2d",
+              "surface_container_highest": "#283837",
+              "surface_container_low": "#0e1e1e",
+              "surface_container_lowest": "#021111",
+              "surface_dim": "#061616",
+              "surface_tint": "#8cd4ca",
+              "surface_variant": "#283837",
+              "tertiary": "#4ae183",
+              "tertiary_container": "#005f2f",
+              "tertiary_fixed": "#6bfe9c",
+              "tertiary_fixed_dim": "#4ae183"
+            },
+            "overrideNeutralColor": "#0a1a1a",
+            "overridePrimaryColor": "#005c55",
+            "overrideSecondaryColor": "#00897b",
+            "overrideTertiaryColor": "#2ecc71",
+            "roundness": "ROUND_FOUR",
+            "spacingScale": 2
+          }
+        },
+        "name": "assets/e931f579f2d84da1a8297dfcd14654cf",
+        "version": "1"
+      }
+    },
+    {
+      "design": {
+        "screens": [
+          {
+            "designSystem": {
+              "designSystem": {
+                "displayName": "Greentryst Terminal",
+                "theme": {
+                  "bodyFont": "INTER",
+                  "colorMode": "DARK",
+                  "colorVariant": "FIDELITY",
+                  "customColor": "#005c55",
+                  "designMd": "# Design System Specification: The Architectural Operating System\n\n## 1. Overview & Creative North Star: \"The Sovereign Intelligence\"\nThis design system is not a website; it is a high-performance terminal for the sustainability era. Our Creative North Star is **The Sovereign Intelligence**. We move away from the \"friendly SaaS\" aesthetic of rounded softness and pastel safety, pivoting instead toward the authoritative, data-dense world of high-finance terminals (Bloomberg, Reuters). \n\nThe goal is to create a sense of permanent reliability. We achieve this through **Intentional Asymmetry**—where data density on one side is balanced by strategic negative space—and **Atmospheric Depth**, replacing traditional lines with tonal layering. Every pixel must feel calculated, professional, and definitive.\n\n---\n\n## 2. Color & Tonal Architecture\nThe palette is rooted in deep, obsidian-like teals and mineral grays. We use color to define structure rather than decoration.\n\n### The \"No-Line\" Rule\n**Prohibit 1px solid borders for sectioning.** Traditional borders create visual noise that distracts from the data. In this system, boundaries are defined exclusively through:\n1.  **Background Shifts:** Transitioning from `surface` to `surface-container-low`.\n2.  **Tonal Steps:** Using `surface-container` tiers to nest content.\n3.  **Negative Space:** Utilizing the 96px vertical padding scale to separate thoughts.\n\n### Surface Hierarchy & Nesting\nTreat the UI as a physical stack of mineral plates.\n*   **Base Layer:** `surface` (#061616) — The foundation.\n*   **Section Layer:** `surface-container-low` (#0e1e1e) — Broad content groupings.\n*   **Interactive Layer:** `surface-container-high` (#1d2d2d) — Elements the user engages with.\n\n### The \"Glass & Gradient\" Rule\nTo prevent a \"flat\" or \"cheap\" appearance, main CTAs and premium cards should utilize **Signature Textures**. \n*   **Subtle Gradients:** Transitioning from `primary` (#8cd4ca) to `primary_container` (#005c55) at a 135° angle adds \"soul\" and depth.\n*   **Glassmorphism:** For floating modals or navigation bars, use `surface-container` colors at 80% opacity with a `20px` backdrop-blur. This ensures the UI feels like a single cohesive environment rather than disconnected parts.\n\n---\n\n## 3. Typography: Editorial Authority\nTypography is our primary tool for establishing hierarchy. We pair the industrial precision of **Inter** with the technical rigor of **JetBrains Mono**.\n\n*   **Display & Headlines (Inter):** Set at weight 800 with tight tracking (-0.02em). This creates a \"blocky,\" authoritative look reminiscent of traditional broadsheet mastheads.\n*   **Data & Stats (JetBrains Mono):** All numerical data, timestamps, and coordinates must use JetBrains Mono. This signals to the user that the information is precise and system-generated.\n*   **Body (Inter):** Keep at weight 400 for long-form reading, increasing to 500 for emphasized instructional text.\n\n| Role | Font | Size | Weight | Tracking |\n| :--- | :--- | :--- | :--- | :--- |\n| **Display-LG** | Inter | 3.5rem (56px) | 800 | -0.02em |\n| **Headline-LG** | Inter | 2.0rem (32px) | 700 | -0.01em |\n| **Title-MD** | Inter | 1.125rem (18px) | 600 | 0 |\n| **Data-Stat** | JetBrains Mono | 1.0rem (16px) | 500 | 0 |\n| **Label-SM** | Inter | 0.6875rem (11px) | 700 | 0.05em (All Caps) |\n\n---\n\n## 4. Elevation & Depth: Tonal Layering\nWe reject the standard \"drop shadow.\" Instead, we use **Tonal Layering** and **Ambient Shadows** to create a premium, architectural feel.\n\n*   **The Layering Principle:** Place a `surface-container-lowest` (#021111) card on a `surface-container-low` (#0e1e1e) section. The slight shift in value creates a natural lift.\n*   **Ambient Shadows:** If an element must float (e.g., a dropdown), use a shadow with a 32px blur, 0px offset, and 6% opacity of the `on-surface` color (#d4e6e5). It should feel like a soft glow of light, not a shadow.\n*   **The \"Ghost Border\":** For high-density data tables where separation is critical, use the `outline-variant` (#3f4947) at **15% opacity**. It should be barely visible—a \"suggestion\" of a line rather than a hard boundary.\n\n---\n\n## 5. Components: The Industrial Toolkit\n\n### Cards & Data Containers\n*   **Style:** `Rounded-xl` (12px). No borders.\n*   **Rule:** Forbid divider lines within cards. Use `body-sm` labels and vertical spacing to separate content sections.\n*   **Background:** Use `surface-container` (#122222) to sit atop the base background.\n\n### Buttons (The Primary Action)\n*   **Primary:** Solid `primary` (#8cd4ca) with `on-primary` (#003733) text. `Rounded-lg` (8px). \n*   **Secondary:** Ghost style. No background, only the \"Ghost Border\" (outline-variant at 20%).\n*   **Hover State:** Transition to `primary_fixed` (#a7f0e6) for a subtle \"lit\" effect.\n\n### Status Indicators (The 'Live' System)\n*   **Live/Active:** A small 6px dot using `tertiary` (#4ae183) with a subtle pulse animation.\n*   **Coming Soon:** Text labels using `Accent Amber` (#f59e0b) set in `label-sm` (All Caps).\n\n### Technical Inputs\n*   **Style:** Flat, `surface-container-highest` (#283837) backgrounds. \n*   **Focus State:** A 2px solid `primary` (#8cd4ca) bottom-border only. This maintains the \"terminal\" aesthetic.\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do\n*   **Do** embrace data density. Practitioners need information, not white space for the sake of white space.\n*   **Do** use JetBrains Mono for any value that fluctuates (CO2 levels, percentages, dates).\n*   **Do** use high-contrast typography scales (e.g., a massive `Display-LG` header next to a tiny `Label-SM` category).\n\n### Don’t\n*   **Don’t** use stock photography. Use abstract data visualizations, satellite imagery (de-saturated), or high-fidelity technical diagrams.\n*   **Don’t** use standard blue for links. Use `primary` (#8cd4ca) or `secondary` (#70d8c8).\n*   **Don’t** use 100% black (#000000). Use the system’s `surface` (#061616) to maintain the \"Teal-Black\" depth.\n*   **Don’t** use rounded-full (pills) for anything other than status tags. It breaks the professional, geometric rigor of the system.",
+                  "font": "INTER",
+                  "headlineFont": "INTER",
+                  "labelFont": "INTER",
+                  "namedColors": {
+                    "background": "#061616",
+                    "error": "#ffb4ab",
+                    "error_container": "#93000a",
+                    "inverse_on_surface": "#233333",
+                    "inverse_primary": "#1a6962",
+                    "inverse_surface": "#d4e6e5",
+                    "on_background": "#d4e6e5",
+                    "on_error": "#690005",
+                    "on_error_container": "#ffdad6",
+                    "on_primary": "#003733",
+                    "on_primary_container": "#8ad2c8",
+                    "on_primary_fixed": "#00201d",
+                    "on_primary_fixed_variant": "#00504a",
+                    "on_secondary": "#003731",
+                    "on_secondary_container": "#00302a",
+                    "on_secondary_fixed": "#00201c",
+                    "on_secondary_fixed_variant": "#005048",
+                    "on_surface": "#d4e6e5",
+                    "on_surface_variant": "#bec9c6",
+                    "on_tertiary": "#003919",
+                    "on_tertiary_container": "#48df82",
+                    "on_tertiary_fixed": "#00210c",
+                    "on_tertiary_fixed_variant": "#005228",
+                    "outline": "#889391",
+                    "outline_variant": "#3f4947",
+                    "primary": "#8cd4ca",
+                    "primary_container": "#005c55",
+                    "primary_fixed": "#a7f0e6",
+                    "primary_fixed_dim": "#8cd4ca",
+                    "secondary": "#70d8c8",
+                    "secondary_container": "#32a192",
+                    "secondary_fixed": "#8df5e4",
+                    "secondary_fixed_dim": "#70d8c8",
+                    "surface": "#061616",
+                    "surface_bright": "#2c3c3c",
+                    "surface_container": "#122222",
+                    "surface_container_high": "#1d2d2d",
+                    "surface_container_highest": "#283837",
+                    "surface_container_low": "#0e1e1e",
+                    "surface_container_lowest": "#021111",
+                    "surface_dim": "#061616",
+                    "surface_tint": "#8cd4ca",
+                    "surface_variant": "#283837",
+                    "tertiary": "#4ae183",
+                    "tertiary_container": "#005f2f",
+                    "tertiary_fixed": "#6bfe9c",
+                    "tertiary_fixed_dim": "#4ae183"
+                  },
+                  "overrideNeutralColor": "#0a1a1a",
+                  "overridePrimaryColor": "#005c55",
+                  "overrideSecondaryColor": "#00897b",
+                  "overrideTertiaryColor": "#2ecc71",
+                  "roundness": "ROUND_FOUR",
+                  "spacingScale": 2
+                }
+              },
+              "name": "assets/e931f579f2d84da1a8297dfcd14654cf",
+              "version": "1"
+            },
+            "deviceType": "DESKTOP",
+            "generatedBy": "figaro_agent",
+            "height": "11592",
+            "htmlCode": {
+              "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzIwZGRhZjA2YjYxMjQwYjJiMTQyNDA3MDBkZmE2MDMzEgsSBxD4gf-qtRAYAZIBJAoKcHJvamVjdF9pZBIWQhQxNjM0MDc0NTMwMzI1MjcwMjkzNg&filename=&opi=96797242",
+              "mimeType": "text/html",
+              "name": "projects/16340745303252702936/files/629b163ee746465ebbaafea34f2ade18"
+            },
+            "id": "7c526ad747aa4b5183f9241c7e5ae2fe",
+            "name": "projects/16340745303252702936/screens/7c526ad747aa4b5183f9241c7e5ae2fe",
+            "prompt": "Desktop homepage for Greentryst, a professional 'Bloomberg-style' operating system for sustainability. \n\n- HERO: Dark bg (#0a1a1a). Headline 'The Professional Home for Sustainability'. Subheadline 'Learn new domains. Look up verified answers. Execute with professional tools. Stay oriented on what matters. One platform, every mode of work.' Primary teal button 'Start Free', secondary outline button 'See Pricing'. Background: subtle grid or topographic lines. Trust line: 'Every answer sourced. Every data point verifiable.'\n- STATS BAR: Deep teal bg (#005c55). '22+ Courses | 470+ Lessons | 80+ Source Documents | 100% Sourced & Verified'. Use mono font (JetBrains Mono) for numbers.\n- TRUST SECTION: Light bg (#f8faf9). Headline 'If it is on Greentryst, it can be traced back to the original source'. Two-column contrast: Left 'Generic AI' (plausible answers, no sources, hallucination risk) vs Right 'Greentryst' (defensible answers, full source citations, audit-ready). Clean iconography.\n- FOUR WORK MODES: Light bg (#f8faf9). Heading 'One platform, four modes of professional work'. Four cards: Deep Learn (book), Quick Lookup (search), Execute (calculator), Orient (compass). 12px rounded cards, subtle shadow.\n- PRODUCT LAYERS: Alternating bg (#f8faf9 and #eef3f1). Heading 'Everything a sustainability professional needs'. Six blocks with green 'LIVE' or amber 'COMING SOON' badges: Learn, SustainIQ, Career, Tools, Intelligence, Community. Alternating left-right layouts.\n- HOW IT CONNECTS: Dark bg (#0a1a1a). Heading 'Nothing is siloed. Everything feeds one professional identity.' Simple boxes and lines diagram: Courses -> Certificates -> Skills -> Profile -> Job Match. Tools and SustainIQ connected to Profile. No illustrations.\n- PRICING PREVIEW: Light bg (#f8faf9). Heading 'Professional-grade tools at individual pricing'. Three side-by-side cards: Learn ($8/mo), Career ($14/mo, highlighted), Pro ($25/mo). CTA 'Start with 3 free lessons. No credit card required.'\n- FOOTER: Dark bg (#0a1a1a). logo, column links, copyright 2026.\n\nSTYLING: Inter headings (weight 700-800) and body. Deep teal (#005c55) as primary. Flat and professional. No stock photos or cartoon illustrations. 12px rounded-xl cards with subtle shadow, no visible borders. 96px vertical section padding.",
+            "screenMetadata": {
+              "agentType": "PRO_AGENT",
+              "status": "COMPLETE"
+            },
+            "screenType": "DESIGN",
+            "screenshot": {
+              "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0ug91piNo_kk-UK9Ww8QAX2cD8hhLQcWfLwil6BY031eC9ItwQ7dzPEWQ5uFtFGm3P66xHEiOs_bc9i4wXwFQ7j9AEDJEBr1QjWF-7v_dLn9IARxUVkAr631C2C4wJ2zKgiN6FPpKVG_0zovp8zKw_Il03G1TRQNv-Vll8-KX2eTHxZ5at-uNCz-z7ReMUJakKohYMLY_dSINaV7y-vxBatgxoX4kN-5ohTUMiCPFbSEcEEsq6NG3B71Gu1Q",
+              "name": "projects/16340745303252702936/files/e4ae07d000934124b467bc62011d572c"
+            },
+            "theme": {
+              "bodyFont": "INTER",
+              "colorMode": "DARK",
+              "colorVariant": "FIDELITY",
+              "customColor": "#005c55",
+              "designMd": "# Design System Specification: The Architectural Operating System\n\n## 1. Overview & Creative North Star: \"The Sovereign Intelligence\"\nThis design system is not a website; it is a high-performance terminal for the sustainability era. Our Creative North Star is **The Sovereign Intelligence**. We move away from the \"friendly SaaS\" aesthetic of rounded softness and pastel safety, pivoting instead toward the authoritative, data-dense world of high-finance terminals (Bloomberg, Reuters). \n\nThe goal is to create a sense of permanent reliability. We achieve this through **Intentional Asymmetry**—where data density on one side is balanced by strategic negative space—and **Atmospheric Depth**, replacing traditional lines with tonal layering. Every pixel must feel calculated, professional, and definitive.\n\n---\n\n## 2. Color & Tonal Architecture\nThe palette is rooted in deep, obsidian-like teals and mineral grays. We use color to define structure rather than decoration.\n\n### The \"No-Line\" Rule\n**Prohibit 1px solid borders for sectioning.** Traditional borders create visual noise that distracts from the data. In this system, boundaries are defined exclusively through:\n1.  **Background Shifts:** Transitioning from `surface` to `surface-container-low`.\n2.  **Tonal Steps:** Using `surface-container` tiers to nest content.\n3.  **Negative Space:** Utilizing the 96px vertical padding scale to separate thoughts.\n\n### Surface Hierarchy & Nesting\nTreat the UI as a physical stack of mineral plates.\n*   **Base Layer:** `surface` (#061616) — The foundation.\n*   **Section Layer:** `surface-container-low` (#0e1e1e) — Broad content groupings.\n*   **Interactive Layer:** `surface-container-high` (#1d2d2d) — Elements the user engages with.\n\n### The \"Glass & Gradient\" Rule\nTo prevent a \"flat\" or \"cheap\" appearance, main CTAs and premium cards should utilize **Signature Textures**. \n*   **Subtle Gradients:** Transitioning from `primary` (#8cd4ca) to `primary_container` (#005c55) at a 135° angle adds \"soul\" and depth.\n*   **Glassmorphism:** For floating modals or navigation bars, use `surface-container` colors at 80% opacity with a `20px` backdrop-blur. This ensures the UI feels like a single cohesive environment rather than disconnected parts.\n\n---\n\n## 3. Typography: Editorial Authority\nTypography is our primary tool for establishing hierarchy. We pair the industrial precision of **Inter** with the technical rigor of **JetBrains Mono**.\n\n*   **Display & Headlines (Inter):** Set at weight 800 with tight tracking (-0.02em). This creates a \"blocky,\" authoritative look reminiscent of traditional broadsheet mastheads.\n*   **Data & Stats (JetBrains Mono):** All numerical data, timestamps, and coordinates must use JetBrains Mono. This signals to the user that the information is precise and system-generated.\n*   **Body (Inter):** Keep at weight 400 for long-form reading, increasing to 500 for emphasized instructional text.\n\n| Role | Font | Size | Weight | Tracking |\n| :--- | :--- | :--- | :--- | :--- |\n| **Display-LG** | Inter | 3.5rem (56px) | 800 | -0.02em |\n| **Headline-LG** | Inter | 2.0rem (32px) | 700 | -0.01em |\n| **Title-MD** | Inter | 1.125rem (18px) | 600 | 0 |\n| **Data-Stat** | JetBrains Mono | 1.0rem (16px) | 500 | 0 |\n| **Label-SM** | Inter | 0.6875rem (11px) | 700 | 0.05em (All Caps) |\n\n---\n\n## 4. Elevation & Depth: Tonal Layering\nWe reject the standard \"drop shadow.\" Instead, we use **Tonal Layering** and **Ambient Shadows** to create a premium, architectural feel.\n\n*   **The Layering Principle:** Place a `surface-container-lowest` (#021111) card on a `surface-container-low` (#0e1e1e) section. The slight shift in value creates a natural lift.\n*   **Ambient Shadows:** If an element must float (e.g., a dropdown), use a shadow with a 32px blur, 0px offset, and 6% opacity of the `on-surface` color (#d4e6e5). It should feel like a soft glow of light, not a shadow.\n*   **The \"Ghost Border\":** For high-density data tables where separation is critical, use the `outline-variant` (#3f4947) at **15% opacity**. It should be barely visible—a \"suggestion\" of a line rather than a hard boundary.\n\n---\n\n## 5. Components: The Industrial Toolkit\n\n### Cards & Data Containers\n*   **Style:** `Rounded-xl` (12px). No borders.\n*   **Rule:** Forbid divider lines within cards. Use `body-sm` labels and vertical spacing to separate content sections.\n*   **Background:** Use `surface-container` (#122222) to sit atop the base background.\n\n### Buttons (The Primary Action)\n*   **Primary:** Solid `primary` (#8cd4ca) with `on-primary` (#003733) text. `Rounded-lg` (8px). \n*   **Secondary:** Ghost style. No background, only the \"Ghost Border\" (outline-variant at 20%).\n*   **Hover State:** Transition to `primary_fixed` (#a7f0e6) for a subtle \"lit\" effect.\n\n### Status Indicators (The 'Live' System)\n*   **Live/Active:** A small 6px dot using `tertiary` (#4ae183) with a subtle pulse animation.\n*   **Coming Soon:** Text labels using `Accent Amber` (#f59e0b) set in `label-sm` (All Caps).\n\n### Technical Inputs\n*   **Style:** Flat, `surface-container-highest` (#283837) backgrounds. \n*   **Focus State:** A 2px solid `primary` (#8cd4ca) bottom-border only. This maintains the \"terminal\" aesthetic.\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do\n*   **Do** embrace data density. Practitioners need information, not white space for the sake of white space.\n*   **Do** use JetBrains Mono for any value that fluctuates (CO2 levels, percentages, dates).\n*   **Do** use high-contrast typography scales (e.g., a massive `Display-LG` header next to a tiny `Label-SM` category).\n\n### Don’t\n*   **Don’t** use stock photography. Use abstract data visualizations, satellite imagery (de-saturated), or high-fidelity technical diagrams.\n*   **Don’t** use standard blue for links. Use `primary` (#8cd4ca) or `secondary` (#70d8c8).\n*   **Don’t** use 100% black (#000000). Use the system’s `surface` (#061616) to maintain the \"Teal-Black\" depth.\n*   **Don’t** use rounded-full (pills) for anything other than status tags. It breaks the professional, geometric rigor of the system.",
+              "font": "INTER",
+              "headlineFont": "INTER",
+              "labelFont": "INTER",
+              "namedColors": {
+                "background": "#061616",
+                "error": "#ffb4ab",
+                "error_container": "#93000a",
+                "inverse_on_surface": "#233333",
+                "inverse_primary": "#1a6962",
+                "inverse_surface": "#d4e6e5",
+                "on_background": "#d4e6e5",
+                "on_error": "#690005",
+                "on_error_container": "#ffdad6",
+                "on_primary": "#003733",
+                "on_primary_container": "#8ad2c8",
+                "on_primary_fixed": "#00201d",
+                "on_primary_fixed_variant": "#00504a",
+                "on_secondary": "#003731",
+                "on_secondary_container": "#00302a",
+                "on_secondary_fixed": "#00201c",
+                "on_secondary_fixed_variant": "#005048",
+                "on_surface": "#d4e6e5",
+                "on_surface_variant": "#bec9c6",
+                "on_tertiary": "#003919",
+                "on_tertiary_container": "#48df82",
+                "on_tertiary_fixed": "#00210c",
+                "on_tertiary_fixed_variant": "#005228",
+                "outline": "#889391",
+                "outline_variant": "#3f4947",
+                "primary": "#8cd4ca",
+                "primary_container": "#005c55",
+                "primary_fixed": "#a7f0e6",
+                "primary_fixed_dim": "#8cd4ca",
+                "secondary": "#70d8c8",
+                "secondary_container": "#32a192",
+                "secondary_fixed": "#8df5e4",
+                "secondary_fixed_dim": "#70d8c8",
+                "surface": "#061616",
+                "surface_bright": "#2c3c3c",
+                "surface_container": "#122222",
+                "surface_container_high": "#1d2d2d",
+                "surface_container_highest": "#283837",
+                "surface_container_low": "#0e1e1e",
+                "surface_container_lowest": "#021111",
+                "surface_dim": "#061616",
+                "surface_tint": "#8cd4ca",
+                "surface_variant": "#283837",
+                "tertiary": "#4ae183",
+                "tertiary_container": "#005f2f",
+                "tertiary_fixed": "#6bfe9c",
+                "tertiary_fixed_dim": "#4ae183"
+              },
+              "overrideNeutralColor": "#0a1a1a",
+              "overridePrimaryColor": "#005c55",
+              "overrideSecondaryColor": "#00897b",
+              "overrideTertiaryColor": "#2ecc71",
+              "roundness": "ROUND_FOUR",
+              "spacingScale": 2
+            },
+            "title": "Greentryst Homepage",
+            "width": "2560"
+          }
+        ],
+        "theme": {}
+      }
+    },
+    {
+      "text": "I've designed the Greentryst homepage as a high-performance \"operating system\" for sustainability professionals. \n\nI've implemented a professional, authoritative aesthetic using the **Greentryst Terminal** design system, featuring:\n- **Hero Section:** A dark, grid-patterned background focusing on core value propositions.\n- **Stats Bar:** Key metrics highlighted with mono-spaced JetBrains font for a technical look.\n- **Trust & Work Modes:** Clear, high-contrast layouts explaining why Greentryst's sourced data is superior to general AI.\n- **Product Layers:** Alternating sections for \"Learn,\" \"SustainIQ,\" and \"Career,\" with status badges for features coming soon.\n- **Pricing:** Three-tier individual pricing model with a highlighted recommendation.\n- **Platform Architecture:** A clean, structural diagram showing how activity connects to a single professional identity.\n\nThe design adheres to your specifications: Inter for headings, deep teal accents, and a clean, borderless card style with 12px rounded corners."
+    },
+    {
+      "suggestion": "Add a detailed 'SustainIQ' search results page"
+    },
+    {
+      "suggestion": "Design the 'Career' job board interface"
+    },
+    {
+      "suggestion": "Create a dark mode version of the entire site"
+    },
+    {
+      "suggestion": "Update the pricing to include an enterprise tier"
+    }
+  ],
+  "projectId": "16340745303252702936",
+  "sessionId": "7578227681023161057"
+}

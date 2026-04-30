@@ -1,0 +1,115 @@
+SOURCE URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008L0098
+DOCUMENT: Directive 2008/98/EC of the European Parliament and of the Council on waste (Waste Framework Directive)
+DATE: November 19, 2008 (amended 2018, 2018, 2019)
+
+# EU Waste Framework Directive 2008/98/EC
+
+## Core Purpose
+The directive establishes measures to "protect the environment and human health by preventing or reducing the adverse impacts of the generation and management of waste and by reducing overall impacts of resource use and improving the efficiency of such use."
+
+## Key Definitions
+
+Waste: "any substance or object which the holder discards or intends or is required to discard"
+Hazardous waste: materials displaying hazardous properties listed in Annex III
+Bio-waste: "biodegradable garden and park waste, food and kitchen waste from households, restaurants, caterers and retail premises and comparable waste from food processing plants"
+Extended Producer Responsibility (EPR): economic operators bear financial or organisational responsibility for waste management
+
+## The Five-Step Waste Hierarchy
+
+Article 4 establishes priority order:
+1. Prevention (minimizing waste generation and hazardousness)
+2. Preparing for re-use (checking, cleaning, repairing waste into reusable products)
+3. Recycling (reprocessing into products, materials, or substances)
+4. Other recovery (including energy recovery)
+5. Disposal (final option, e.g., landfill)
+
+Member States must apply this hierarchy while considering lifecycle analysis for departures.
+
+## Mandatory Recycling Targets
+
+2020 Targets (Article 11):
+- 50% preparation for re-use and recycling of municipal waste (paper, metal, plastic, glass by weight)
+- 70% material recovery of non-hazardous construction and demolition waste by weight
+
+2025 Targets (amended 2018):
+- 55% preparation for re-use and recycling of municipal waste
+
+2030 Target:
+- 60% preparation for re-use and recycling of municipal waste
+
+2035 Target:
+- 65% preparation for re-use and recycling of municipal waste
+
+## Extended Producer Responsibility (EPR)
+
+Article 8 requires Member States to establish EPR schemes to:
+- Ensure economic operators bear responsibility for waste management
+- Contribute to sustainable product design
+- Encourage development of waste prevention and recovery activities
+- Support separate collection and sorting
+
+Minimum requirements for EPR schemes (2018 amendment):
+- Clear definition of responsibilities across producers/distributors
+- Reporting requirements on products and waste
+- Non-discriminatory market access
+- Mandatory data provision by producers to EPR scheme operators
+
+## Separate Collection Requirements
+
+Article 11a (2018 amendment):
+- By January 1, 2025: separate collection for textiles
+- By January 1, 2023: separate collection for bio-waste (or separate collection at source)
+- Paper, metal, plastic, glass: separate collection already required by 2015
+
+## Hazardous Waste
+
+- Cannot be mixed without permits and best available techniques
+- Producers must maintain records for minimum three years
+- Transport must be accompanied by identification documents
+
+## Waste Management Plans
+
+Every Member State must establish one or more waste management plans covering:
+- Current waste generation and management situation
+- Evaluation of need for new collection schemes, closures of existing installations
+- Information on closure criteria for landfills
+- Measures to address littering and illegal dumping
+- Policies for packaging waste
+
+## Waste Prevention Programs
+
+Member States must establish waste prevention programs with:
+- Measures aimed at breaking the link between economic growth and waste generation
+- Qualitative or quantitative benchmarks for waste prevention
+- Monitoring indicators
+
+## Landfill Diversion
+
+The directive supports diversion of waste from landfill through higher waste hierarchy priorities. The Landfill Directive (1999/31/EC) works in conjunction to restrict landfill use.
+
+## 2018 Amendments (Directive 2018/851/EC)
+
+Key changes introduced:
+- New and higher recycling targets (55/60/65% for 2025/2030/2035)
+- Separate collection for textiles by 2025
+- Bio-waste: separate collection or separate collection at source by 2023
+- Extended Producer Responsibility minimum requirements
+- Food waste reduction targets
+- Better calculation methodologies for recycling rates
+
+## Enforcement and Reporting
+
+Member States must:
+- Submit data on municipal waste management to the European Environment Agency
+- Report on reuse and recycling achievement rates
+- Implement quality controls for collected waste streams
+- Penalize violations of waste management provisions
+
+## Connection to Circular Economy
+
+The WFD is a cornerstone of EU circular economy policy, working alongside:
+- EU Circular Economy Action Plans (2015, 2020)
+- Packaging and Packaging Waste Directive
+- Ecodesign for Sustainable Products Regulation
+- EU Batteries Regulation
+- Construction Products Regulation

@@ -1,0 +1,26 @@
+- question: "Mehta Industries has 18 AC units across its facilities. Maintenance logs show 45 kg of R-410A refrigerant was topped up during the year. A junior analyst suggests excluding this because 45 kg seems negligible. Why is this wrong?"
+  options:
+    - "Because 45 kg of R-410A represents over 90 tCO2e due to its high GWP of 2,088"
+    - "Because the GHG Protocol requires reporting all six Kyoto gases regardless of quantity"
+    - "Because refrigerant emissions always exceed 5% of a typical company's inventory"
+    - "Because verifiers check AC maintenance logs as part of standard procedures"
+  answer: 0
+  explanation: "R-410A has a GWP of 2,088 (AR5), so 45 kg translates to roughly 94 tCO2e. The physical mass is small, but the CO2-equivalent impact is significant. This is precisely why high-GWP refrigerants must never be dismissed based on mass alone - always convert to CO2e before deciding whether a source is material."
+
+- question: "While collecting data for Mehta Industries, you find that the Nashik plant can only provide electricity costs in rupees - not kWh consumption. What is the correct approach?"
+  options:
+    - "Use the rupee amounts directly with a spend-based emission factor"
+    - "Exclude the Nashik plant's electricity from the inventory and document the exclusion"
+    - "Estimate kWh by dividing the rupee amount by the average unit electricity rate, and flag this as an estimation in the assumptions log"
+    - "Use the average consumption of the other two plants as a proxy for Nashik"
+  answer: 2
+  explanation: "Activity data should always be in physical units (kWh, litres, kg) because monetary amounts fluctuate with prices and cannot be reliably converted to emissions. When only cost data is available, the best approach is to work backwards using the average electricity rate to estimate kWh - but this must be documented as an estimation in the assumptions log. Excluding the site entirely would leave a gap in the inventory."
+
+- question: "Mehta Industries' Scope 2 emissions (6,274 tCO2e) represent 80% of its total Scope 1+2 inventory. The company wants to set a reduction target. Which action would have the largest impact?"
+  options:
+    - "Replace all 15 diesel delivery trucks with CNG vehicles"
+    - "Install more efficient AC systems to reduce refrigerant leakage across all sites"
+    - "Sign a renewable energy PPA or purchase I-RECs to address grid electricity consumption"
+    - "Switch backup generators from diesel to natural gas"
+  answer: 2
+  explanation: "Since Scope 2 (purchased electricity) accounts for 80% of Mehta's total emissions, addressing the electricity supply delivers the most impact per effort. A renewable energy PPA or I-REC purchase directly targets the dominant emission source. The truck fleet (9.8% of total), refrigerants (1.2%), and backup generators (a subset of 8.9%) are all important but much smaller contributors. Focus reduction efforts where the emissions are concentrated."

@@ -1,0 +1,44 @@
+- question: "According to the SBTi Corporate Net-Zero Standard, what are the two mandatory components of corporate net-zero?"
+  options:
+    - "Purchase carbon credits to offset 100% of emissions, and publicly disclose the amount spent"
+    - "Reduce emissions to a residual level consistent with 1.5C-aligned pathways, and permanently neutralise residual emissions"
+    - "Reach carbon neutrality by 2050, and publish an annual sustainability report"
+    - "Eliminate all Scope 1 and 2 emissions by 2030, and offset all Scope 3 emissions with avoidance credits"
+  answer: 1
+  explanation: "The Standard defines corporate net-zero as two simultaneous requirements: reducing Scope 1, 2, and 3 emissions to zero or a residual level consistent with 1.5C-aligned pathways, AND permanently neutralising any residual emissions at the net-zero target year and beyond. Neither condition alone constitutes net-zero."
+
+- question: "What is the minimum absolute reduction in Scope 1 and 2 emissions required before a company can claim to have met its long-term science-based target under the cross-sector pathway?"
+  options:
+    - "50%"
+    - "75%"
+    - "90%"
+    - "100%"
+  answer: 2
+  explanation: "The cross-sector pathway requires at least a 90% absolute reduction in Scope 1 and 2 emissions from the 2020 base year by the long-term target date (no later than 2050). Most sector-specific pathways also converge at or above 90% reduction, making this the effective threshold for most companies' long-term SBTs."
+
+- question: "Which of the following correctly describes the difference between 'carbon neutral' and 'net-zero' under the SBTi framework?"
+  options:
+    - "Carbon neutral requires deeper reductions than net-zero"
+    - "Carbon neutral and net-zero are equivalent terms used interchangeably in the Standard"
+    - "Carbon neutrality can be achieved by offsetting current emissions with avoidance credits; SBTi net-zero requires at least 90% genuine abatement before permanently neutralising residuals with removal"
+    - "Net-zero requires only Scope 1 and 2 reductions, while carbon neutral requires Scope 3 as well"
+  answer: 2
+  explanation: "Carbon neutrality is typically achieved by purchasing carbon credits (often avoidance-based) to offset a company's reported emissions with no required operational change. SBTi net-zero requires reducing emissions to a residual level (typically 90%+) through genuine abatement, and then permanently neutralising only the residual remainder using carbon removal -- not avoidance credits."
+
+- question: "Under the SBTi Standard, which of the following can be used to neutralise residual emissions at the net-zero target year?"
+  options:
+    - "Certified forest protection credits from a verified carbon standard"
+    - "Renewable energy certificates purchased from a third-party provider"
+    - "Direct air capture contracts with geological storage of captured CO2"
+    - "Methane avoidance credits from an agricultural project"
+  answer: 2
+  explanation: "Only permanent carbon removal qualifies for neutralisation of residual emissions. Direct air capture paired with geological storage is a high-durability removal approach that meets the Standard's permanence requirement. Forest protection, renewable energy certificates, and methane avoidance are all avoidance-based credits -- they prevent future emissions but do not remove CO2 from the atmosphere, and therefore cannot be used for neutralisation."
+
+- question: "Which of the four pillars of a corporate net-zero target under the SBTi Standard is described as strongly recommended but not formally required?"
+  options:
+    - "Near-term science-based target"
+    - "Long-term science-based target"
+    - "Neutralisation of residual emissions"
+    - "Beyond value chain mitigation (BVCM)"
+  answer: 3
+  explanation: "Beyond value chain mitigation (BVCM) -- action or investment outside the company's own value chain -- is strongly encouraged by the Standard but is not a formal requirement for a net-zero claim. The other three pillars (near-term SBT, long-term SBT, and neutralisation) are all required components of a compliant corporate net-zero target."

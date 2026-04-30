@@ -1,0 +1,26 @@
+- question: "In the Cerrado case study, the land was converted from native savanna 30+ years ago. Why is this important for eligibility?"
+  options:
+  - "It demonstrates the land is productive enough for the project"
+  - "It passes Exclusion Condition 5 — native ecosystem clearing must be more than 10 years ago"
+  - "It proves the land is degraded and eligible for restoration"
+  - "It establishes the historical look-back period"
+  answer: 1
+  explanation: "Exclusion Condition 5 disqualifies projects where native ecosystems were cleared within the 10-year period before project start. 30+ years ago is well outside this window, so the project passes this check."
+
+- question: "Why must N₂O from Stylosanthes (a nitrogen-fixing legume) be included in the project boundary?"
+  options:
+  - "Because it is a mandatory GHG source in all VM0042 projects"
+  - "Because nitrogen-fixing species release N from root nodules that triggers N₂O emissions — it's a project emission that must be counted"
+  - "Because legumes are a carbon-depleting crop"
+  - "Because it is required for Approach 1 model calibration"
+  answer: 1
+  explanation: "When nitrogen-fixing species are planted in the project scenario, the N₂O emissions from their biological nitrogen fixation must be included as project emissions. This prevents over-claiming by ignoring a genuine new emission source created by the project."
+
+- question: "The Cerrado project expects increased tractor use during the soybean cultivation phase. How should this be handled?"
+  options:
+  - "Ignore it — fossil fuel is always de minimis in agricultural projects"
+  - "Include it as a project emission — it will reduce the net credit claim"
+  - "It disqualifies the project because Condition 6 requires no productivity reduction"
+  - "Offset it against baseline grazing fuel use"
+  answer: 1
+  explanation: "Fossil fuel emissions from increased tractor use in the project scenario are a real project emission that must be included in the boundary and calculation. This will reduce the net carbon benefit — but that's correct, honest accounting."

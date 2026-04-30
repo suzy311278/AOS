@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Greentryst | Emission Factors Index</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-lowest": "#ffffff",
+                        "surface": "#f8faf9",
+                        "secondary-container": "#d0e7e6",
+                        "on-secondary": "#ffffff",
+                        "tertiary-container": "#005f2f",
+                        "on-primary-container": "#8ad2c8",
+                        "inverse-surface": "#2e3131",
+                        "primary-fixed": "#a7f0e6",
+                        "primary": "#00433d",
+                        "on-secondary-container": "#546868",
+                        "error-container": "#ffdad6",
+                        "outline-variant": "#bec9c6",
+                        "primary-fixed-dim": "#8cd4ca",
+                        "tertiary-fixed": "#6bfe9c",
+                        "outline": "#6f7977",
+                        "on-surface-variant": "#3f4947",
+                        "surface-container-low": "#f2f4f3",
+                        "secondary": "#4e6262",
+                        "on-tertiary-container": "#48df82",
+                        "surface-bright": "#f8faf9",
+                        "on-secondary-fixed-variant": "#364a4a",
+                        "surface-dim": "#d8dada",
+                        "on-primary-fixed-variant": "#00504a",
+                        "primary-container": "#005c55",
+                        "on-secondary-fixed": "#0a1f1f",
+                        "inverse-primary": "#8cd4ca",
+                        "surface-container-highest": "#e1e3e2",
+                        "secondary-fixed-dim": "#b5cbca",
+                        "inverse-on-surface": "#eff1f0",
+                        "on-error": "#ffffff",
+                        "on-background": "#191c1c",
+                        "tertiary-fixed-dim": "#4ae183",
+                        "on-primary-fixed": "#00201d",
+                        "surface-container": "#eceeed",
+                        "on-primary": "#ffffff",
+                        "tertiary": "#004520",
+                        "surface-variant": "#e1e3e2",
+                        "surface-container-high": "#e6e9e8",
+                        "on-tertiary-fixed-variant": "#005228",
+                        "on-tertiary-fixed": "#00210c",
+                        "on-tertiary": "#ffffff",
+                        "background": "#f8faf9",
+                        "on-error-container": "#93000a",
+                        "surface-tint": "#1a6962",
+                        "error": "#ba1a1a",
+                        "secondary-fixed": "#d0e7e6",
+                        "on-surface": "#191c1c"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "label": ["Inter", "sans-serif"],
+                        "mono": ["JetBrains Mono", "monospace"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .dot-grid {
+            background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 0);
+            background-size: 24px 24px;
+        }
+        .teal-glow {
+            background: radial-gradient(circle at center, rgba(140, 212, 202, 0.15) 0%, rgba(10, 26, 26, 0) 70%);
+        }
+        .caret-blink {
+            animation: blink 1s step-end infinite;
+        }
+        @keyframes blink {
+            from, to { opacity: 1; }
+            50% { opacity: 0; }
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body class="bg-[#0a1a1a] text-white font-body selection:bg-primary-fixed selection:text-primary overflow-x-hidden">
+<!-- Top Navigation Anchor -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-[#0a1a1a]/80 backdrop-blur-xl">
+<nav class="flex justify-between items-center w-full px-6 py-4 max-w-[1440px] mx-auto">
+<div class="flex items-center gap-4">
+<span class="text-[15px] font-bold tracking-tight text-white">Greentryst</span>
+<div class="h-4 w-px border-l border-dashed border-white/20"></div>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-[13px] text-white/60 hover:text-white transition-colors" href="#">Tools</a>
+<a class="text-[13px] text-white/60 hover:text-white transition-colors" href="#">Guides</a>
+<a class="text-[13px] text-white/60 hover:text-white transition-colors" href="#">Learn</a>
+<a class="text-[13px] text-white/60 hover:text-white transition-colors" href="#">Community</a>
+<a class="text-[13px] text-white/60 hover:text-white transition-colors" href="#">About</a>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex items-center gap-2 bg-white/10 px-2 py-1 rounded-md">
+<span class="font-mono text-[11px] text-white/70">Cmd+K</span>
+</div>
+<a class="text-[13px] text-white/70 hover:text-white transition-colors" href="#">Ask AI</a>
+<button class="bg-[#005c55] hover:bg-[#00433d] text-white text-[13px] font-semibold px-4 py-2 rounded-lg transition-all">
+                    Sign in
+                </button>
+</div>
+</nav>
+</header>
+<!-- Hero Section -->
+<main class="relative min-h-screen flex flex-col items-center justify-center pt-20 px-6 overflow-hidden">
+<!-- Background Elements -->
+<div class="absolute inset-0 dot-grid opacity-40"></div>
+<div class="absolute inset-0 teal-glow"></div>
+<!-- Hero Content -->
+<div class="relative z-10 w-full flex flex-col items-center">
+<!-- Command Palette Container -->
+<div class="w-full max-w-[760px] flex flex-col items-center">
+<span class="mb-6 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[11px] tracking-widest uppercase text-primary-fixed-dim font-semibold">
+                    Greentryst emission factors · live index
+                </span>
+<!-- The Command Palette Modal -->
+<div class="w-full bg-surface-container-lowest rounded-2xl shadow-[0px_40px_80px_rgba(0,0,0,0.5)] overflow-hidden text-on-surface">
+<!-- Search Header -->
+<div class="flex items-center justify-between px-6 py-5">
+<div class="flex items-center gap-4 flex-1">
+<span class="material-symbols-outlined text-outline">search</span>
+<div class="flex items-center font-headline text-lg">
+<span class="text-on-surface">uk grid electri</span>
+<div class="w-0.5 h-6 bg-[#005c55] caret-blink ml-0.5"></div>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="flex gap-1">
+<kbd class="px-1.5 py-0.5 bg-surface-container-high rounded border border-outline-variant text-[10px] font-mono">↑</kbd>
+<kbd class="px-1.5 py-0.5 bg-surface-container-high rounded border border-outline-variant text-[10px] font-mono">↓</kbd>
+</div>
+<kbd class="px-2 py-0.5 bg-surface-container-high rounded border border-outline-variant text-[10px] font-mono">⏎ open</kbd>
+<div class="flex items-center gap-1.5 ml-2">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="text-[10px] font-bold text-primary tracking-tighter uppercase">LIVE</span>
+</div>
+</div>
+</div>
+<!-- Tonal Divider -->
+<div class="h-[1px] bg-surface-container-low"></div>
+<!-- Results List -->
+<div class="p-2">
+<!-- Row 1: Active State -->
+<div class="group flex items-center justify-between px-4 py-3 bg-[#e6f7f3] rounded-xl cursor-pointer">
+<div class="flex items-center gap-4">
+<span class="px-2 py-0.5 bg-primary/10 text-primary font-mono text-[10px] font-bold rounded">DEFRA 2025</span>
+<span class="font-medium text-sm">UK grid electricity</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="font-mono text-[#005c55] text-sm">0.207 kgCO2e/kWh</span>
+<span class="material-symbols-outlined text-primary text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Row 2 -->
+<div class="group flex items-center justify-between px-4 py-3 hover:bg-surface-container-low rounded-xl cursor-pointer transition-colors">
+<div class="flex items-center gap-4">
+<span class="px-2 py-0.5 bg-surface-container-high text-on-surface-variant font-mono text-[10px] font-bold rounded">CEA 2024</span>
+<span class="font-medium text-sm">India NEWNE grid electricity</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="font-mono text-[#005c55] text-sm">0.710 kgCO2e/kWh</span>
+<span class="material-symbols-outlined text-outline text-sm opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span>
+</div>
+</div>
+<!-- Row 3 -->
+<div class="group flex items-center justify-between px-4 py-3 hover:bg-surface-container-low rounded-xl cursor-pointer transition-colors">
+<div class="flex items-center gap-4">
+<span class="px-2 py-0.5 bg-surface-container-high text-on-surface-variant font-mono text-[10px] font-bold rounded">US EPA 2025</span>
+<span class="font-medium text-sm">US National Average Electricity</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="font-mono text-[#005c55] text-sm">0.367 kgCO2e/kWh</span>
+<span class="material-symbols-outlined text-outline text-sm opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span>
+</div>
+</div>
+<!-- Row 4 -->
+<div class="group flex items-center justify-between px-4 py-3 hover:bg-surface-container-low rounded-xl cursor-pointer transition-colors">
+<div class="flex items-center gap-4">
+<span class="px-2 py-0.5 bg-surface-container-high text-on-surface-variant font-mono text-[10px] font-bold rounded">IPCC AR6</span>
+<span class="font-medium text-sm">Global Average Solar PV (Utility)</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="font-mono text-[#005c55] text-sm">0.048 kgCO2e/kWh</span>
+<span class="material-symbols-outlined text-outline text-sm opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span>
+</div>
+</div>
+<!-- Row 5 -->
+<div class="group flex items-center justify-between px-4 py-3 hover:bg-surface-container-low rounded-xl cursor-pointer transition-colors">
+<div class="flex items-center gap-4">
+<span class="px-2 py-0.5 bg-surface-container-high text-on-surface-variant font-mono text-[10px] font-bold rounded">MoRTH 2024</span>
+<span class="font-medium text-sm">Heavy Goods Vehicle (Diesel) - India</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="font-mono text-[#005c55] text-sm">2.680 kgCO2e/L</span>
+<span class="material-symbols-outlined text-outline text-sm opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Modal Footer -->
+<div class="px-6 py-4 bg-surface-container-low flex justify-between items-center text-[11px] text-on-surface-variant/70 font-medium">
+<div class="flex items-center gap-2">
+                            Showing <span class="text-on-surface font-mono">5</span> of <span class="text-on-surface font-mono">211,651</span> factors
+                        </div>
+<div class="flex items-center gap-1">
+                            Press <kbd class="px-1.5 py-0.5 bg-surface-container-highest rounded border border-outline-variant text-[9px] font-mono">/</kbd> to search across 41 sources
+                        </div>
+</div>
+</div>
+</div>
+<!-- Supporting Text -->
+<p class="mt-16 text-white/60 text-base font-medium tracking-wide">
+                Sourced. Dated. Free.
+            </p>
+</div>
+</main>
+<!-- Stat Strip Anchor -->
+<section class="bg-[#0a1a1a] pb-24 relative z-20">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="flex flex-wrap justify-center items-center gap-x-12 gap-y-6 py-12 border-t border-white/5">
+<div class="flex items-center gap-3">
+<span class="font-mono text-[#8cd4ca] text-lg">211,651</span>
+<span class="text-[10px] tracking-widest text-white/50 font-bold uppercase">factors</span>
+</div>
+<div class="h-4 w-px bg-white/10 hidden md:block"></div>
+<div class="flex items-center gap-3">
+<span class="font-mono text-[#8cd4ca] text-lg">41</span>
+<span class="text-[10px] tracking-widest text-white/50 font-bold uppercase">primary sources</span>
+</div>
+<div class="h-4 w-px bg-white/10 hidden md:block"></div>
+<div class="flex items-center gap-3">
+<span class="font-mono text-[#8cd4ca] text-lg">4</span>
+<span class="text-[10px] tracking-widest text-white/50 font-bold uppercase">reporting frameworks</span>
+</div>
+<div class="h-4 w-px bg-white/10 hidden md:block"></div>
+<div class="flex items-center gap-3">
+<span class="font-mono text-[#8cd4ca] text-lg">0</span>
+<span class="text-[10px] tracking-widest text-white/50 font-bold uppercase">hallucinations</span>
+</div>
+</div>
+</div>
+</section>
+</body></html>

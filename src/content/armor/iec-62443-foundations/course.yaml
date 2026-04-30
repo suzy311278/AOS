@@ -1,0 +1,195 @@
+id: iec-62443-foundations
+code: AI-CSP-FND
+title: "IEC 62443 Cybersecurity Fundamentals"
+shortTitle: "Fundamentals"
+subtitle: "ICS vs IT mindset, the Purdue model, threat actors, and the IEC 62443 series structure."
+tagline: "Start here. The mental map every other ArmorInnovate track drops onto."
+summary: >
+  Learn how OT differs from IT, why availability outranks confidentiality, and the
+  canonical industrial threat actors (Stuxnet, Industroyer, TRITON). End the course
+  with a working mental map of the IEC 62443 series so the rest of the program
+  drops cleanly into place.
+description: >
+  Foundations Specialist track for the IEC 62443 program. The course covers four
+  pillars - the OT mindset shift, the Purdue Reference Model, the threat-actor
+  bestiary, and the structure of the IEC 62443 series itself - and closes with a
+  guided hands-on capture of a live Modbus session. It is the prerequisite for
+  every other specialist track and for the Cybersecurity Expert capstone.
+track: foundations
+difficulty: intro
+status: available
+iecParts:
+  - "IEC 62443-1-1"
+  - "IEC 62443-2-1"
+isaLevels:
+  - SL1
+  - SL2
+hours: 30
+labHours: 6
+passingScore: 75
+tags:
+  - "iec-62443"
+  - "ics"
+  - "ot-security"
+  - "purdue"
+  - "fundamentals"
+outcomes:
+  - "Explain why an HMI freeze is more dangerous than a database leak."
+  - "Name the seven Foundational Requirements of IEC 62443-3-3."
+  - "Identify the Purdue level for any device on a brownfield network diagram."
+  - "Reconstruct a Stuxnet-style attack timeline from public IOCs."
+  - "Map a control-system asset inventory onto an IEC 62443 zone & conduit diagram."
+prereqs: []
+sources:
+  - label: "IEC 62443-1-1 (concepts and models)"
+    url: "https://webstore.iec.ch/publication/7029"
+  - label: "ISA/IEC 62443-2-1 (security program requirements)"
+    url: "https://webstore.iec.ch/publication/7030"
+  - label: "CISA ICS Recommended Practices"
+    url: "https://www.cisa.gov/ics/recommended-practices"
+seoTitle: "IEC 62443 Cybersecurity Fundamentals — Specialist Track"
+seoDescription: >-
+  Foundations Specialist track for the ArmorInnovate IEC 62443 program: ICS vs IT
+  mindset, the Purdue Reference Model, ICS threat actors, and the 62443 series.
+modules:
+  - id: "0"
+    title: "ICS vs IT mindset"
+    subtitle: "Why availability outranks confidentiality on the plant floor."
+    shortLabel: "Mindset"
+    lessons:
+      - id: "0.1"
+        title: "Why ICS security is its own discipline"
+        durationMin: 35
+        vmRef: "IEC 62443-1-1, §4 (Concepts)"
+      - id: "0.2"
+        title: "The CIA triad inverted: Availability, Integrity, Confidentiality"
+        durationMin: 30
+        vmRef: "IEC 62443-1-1, §5"
+      - id: "0.3"
+        title: "Process safety vs cybersecurity: shared vocabulary, different stakes"
+        durationMin: 35
+        vmRef: "IEC 61511, IEC 62443-1-1"
+      - id: "0.4"
+        title: "Failure modes that cost lives: real cases"
+        durationMin: 40
+        vmRef: "TRITON post-mortem; CISA ICS-CERT case files"
+
+  - id: "1"
+    title: "The Purdue Reference Model"
+    subtitle: "Levels 0 through 5 and the conduits between them."
+    shortLabel: "Purdue"
+    lessons:
+      - id: "1.1"
+        title: "The five levels and the demilitarised zone"
+        durationMin: 35
+        vmRef: "Purdue Enterprise Reference Architecture; IEC 62443-1-1 §6"
+      - id: "1.2"
+        title: "Level 0 / Level 1: sensors, actuators, controllers"
+        durationMin: 40
+        vmRef: "ISA-95"
+      - id: "1.3"
+        title: "Level 2: HMIs, SCADA, and historians"
+        durationMin: 35
+        vmRef: "ISA-95"
+      - id: "1.4"
+        title: "Level 3 and the IDMZ: the contested boundary"
+        durationMin: 40
+        vmRef: "Cisco/Rockwell CPwE reference architecture"
+      - id: "1.5"
+        title: "Mapping a brownfield network onto Purdue"
+        durationMin: 45
+        vmRef: "Practical exercise"
+
+  - id: "2"
+    title: "Threat actors & case studies"
+    subtitle: "Stuxnet, Industroyer, TRITON, and what we learned."
+    shortLabel: "Actors"
+    lessons:
+      - id: "2.1"
+        title: "Stuxnet: the precision strike that announced ICS as a target"
+        durationMin: 45
+        vmRef: "Symantec W32.Stuxnet Dossier; Langner reports"
+      - id: "2.2"
+        title: "Industroyer / CrashOverride: protocol-aware sabotage at scale"
+        durationMin: 40
+        vmRef: "ESET Industroyer report"
+      - id: "2.3"
+        title: "TRITON / TRISIS: when the safety system is the target"
+        durationMin: 45
+        vmRef: "Mandiant FireEye TRITON whitepaper"
+      - id: "2.4"
+        title: "Modern operators: Sandworm, Volt Typhoon, ransomware crews"
+        durationMin: 40
+        vmRef: "CISA cybersecurity advisories 2022-2025"
+
+  - id: "3"
+    title: "IEC 62443 series structure"
+    subtitle: "How the parts fit together and which one to reach for."
+    shortLabel: "Series map"
+    lessons:
+      - id: "3.1"
+        title: "1-1, 1-2, 1-3, 1-4: concepts, terminology, metrics, lifecycle"
+        durationMin: 35
+        vmRef: "IEC 62443-1-x"
+      - id: "3.2"
+        title: "2-1 to 2-4: program & service-provider requirements"
+        durationMin: 40
+        vmRef: "IEC 62443-2-x"
+      - id: "3.3"
+        title: "3-2 and 3-3: risk assessment and system requirements"
+        durationMin: 40
+        vmRef: "IEC 62443-3-x"
+      - id: "3.4"
+        title: "4-1 and 4-2: secure development and component requirements"
+        durationMin: 35
+        vmRef: "IEC 62443-4-x"
+
+  - id: "4"
+    title: "Hands-on: capture a Modbus session"
+    subtitle: "Boot the lab, run the capture, write the brief."
+    shortLabel: "Lab"
+    lessons:
+      - id: "4.1"
+        title: "Lab session: enumerate, capture, report"
+        durationMin: 90
+        vmRef: "ArmorInnovate Lab LAB-01"
+        lab: "modbus-pentest-101"
+
+lab:
+  slug: "modbus-pentest-101"
+  tag: "LAB-01"
+  title: "Modbus pentesting: enumeration and forced coil writes"
+  shortLabel: "Modbus pentesting"
+  runtime: "pymodbus-simulator"
+  protocol: "Modbus/TCP"
+  port: "502"
+  unit: "tcp"
+  difficulty: "intro"
+  status: "ready"
+  durationMin: 90
+  track: "ics-pentest"
+  isaLevels: [SL1, SL2]
+  objectives:
+    - "Enumerate registers and coils on a live Modbus/TCP slave."
+    - "Force-write a discrete output and observe the HMI response."
+    - "Detect the attack from a Wireshark capture."
+  toolkit:
+    - "nmap NSE (modbus-discover)"
+    - "mbtget"
+    - "pymodbus-cli"
+    - "wireshark"
+  scenario: >
+    You are auditing a small water-treatment skid. The integrator left Modbus/TCP
+    exposed on the engineering VLAN. Map the device, identify the holding registers
+    used for setpoints, and demonstrate impact without crashing the simulator.
+  successCriteria:
+    - "Submit a pcap showing register-read enumeration."
+    - "Submit the mbtget command that flipped coil 42."
+    - "Map findings to IEC 62443-3-3 SR 1.1 and SR 2.1 in a 200-word report."
+  relatedAdvisories:
+    - "ICSA-24-046-09"
+
+generated:
+  by: human
+  at: "2026-04-30T15:00:00Z"
+  pipelineVersion: "0.1.0"

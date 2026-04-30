@@ -1,0 +1,35 @@
+- question: "IFRS S2 paragraph 10 requires four pieces of information for each identified climate risk. Which of the following is NOT one of them?"
+  options:
+    - "Description of the specific risk"
+    - "Classification as physical or transition risk"
+    - "Estimated financial impact in dollars"
+    - "Specification of the time horizon (short/medium/long term)"
+  answer: 2
+  explanation: "Paragraph 10 requires: (a) description of the risk, (b) classification as physical or transition risk, (c) time horizon specification, and (d) definition of what short/medium/long term means for the entity. Financial impact estimates are covered separately in paragraphs 15-21."
+
+- question: "IFRS S2 paragraph 12 requires entities to refer to and consider industry-based guidance. What does this create?"
+  options:
+    - "A mandatory requirement to report all industry-based metrics"
+    - "A structured starting point for identifying sector-specific material risks"
+    - "An exemption from cross-industry metric requirements"
+    - "A separate disclosure section for sector-specific risks"
+  answer: 1
+  explanation: "The industry-based guidance provides sector-specific disclosure topics and metrics as a structured starting point for identifying material risks. Materiality still applies — entities consider which topics are relevant and explain why they are or are not material for their specific circumstances."
+
+- question: "An entity's strategy disclosure simply states: 'We face risks from climate change including regulatory risk and physical risk.' Is this compliant with IFRS S2?"
+  options:
+    - "Yes, as long as GHG emissions are also reported"
+    - "No — paragraph 10 requires specific descriptions of each risk, not generic categories"
+    - "Yes, for an entity's first year of applying IFRS S2"
+    - "Yes, if the risks are classified as physical or transition"
+  answer: 1
+  explanation: "IFRS S2 paragraph 10 requires description of *specific* climate-related risks and opportunities — not generic risk categories. 'We face regulatory risk' is insufficient; entities must describe what the specific regulation is, how it affects them, and what the time horizon is."
+
+- question: "Under IFRS S2, who defines what 'short term,' 'medium term,' and 'long term' mean?"
+  options:
+    - "The ISSB provides universal definitions in Appendix A"
+    - "The entity defines its own time horizons linked to its planning horizons"
+    - "Time horizons are standardised at 0–5 years (short), 5–20 years (medium), 20+ years (long)"
+    - "Jurisdictional regulators specify the definitions for each industry"
+  answer: 1
+  explanation: "IFRS S2 does not provide universal time horizon definitions. Each entity must define what short, medium, and long term mean for its specific circumstances, linked to its planning horizons and asset lifetimes. A mining company with 30-year assets will define 'long term' differently from a retail business."

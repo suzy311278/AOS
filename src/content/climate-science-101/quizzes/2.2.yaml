@@ -1,0 +1,26 @@
+- question: "What is the approximate 100-year Global Warming Potential (GWP100) of methane (CH4) according to IPCC AR6?"
+  options:
+    - "8 times CO2"
+    - "28 times CO2"
+    - "27-30 times CO2"
+    - "80 times CO2"
+  answer: 2
+  explanation: "IPCC AR6 updated the GWP100 of methane to approximately 27-30 times CO2. The value of 28 from AR5 is still widely used in inventories. The GWP20 is higher, around 80, reflecting methane's powerful near-term warming impact."
+
+- question: "Which human activity is the single largest driver of rising nitrous oxide (N2O) emissions globally?"
+  options:
+    - "Burning fossil fuels for electricity generation"
+    - "Industrial production of steel and cement"
+    - "Application of synthetic nitrogen fertilisers to agricultural soils"
+    - "Landfill decomposition of food waste"
+  answer: 2
+  explanation: "Synthetic nitrogen fertilisers applied to agricultural soils are the dominant source of anthropogenic N2O. Soil microbes convert a fraction of the applied nitrogen into N2O through nitrification and denitrification processes."
+
+- question: "Why were hydrofluorocarbons (HFCs) introduced, and why are they now a climate concern?"
+  options:
+    - "They were introduced to replace coal; they are now a concern because they react with water"
+    - "They were introduced to replace ozone-depleting CFCs; they are potent greenhouse gases with high GWPs"
+    - "They were developed for agricultural use; they now leach into groundwater and create runoff"
+    - "They were created to absorb CO2; they instead release CO2 when they decompose"
+  answer: 1
+  explanation: "HFCs were introduced as replacements for chlorofluorocarbons (CFCs) under the Montreal Protocol, since CFCs were depleting the ozone layer. While HFCs do not harm the ozone layer, many have GWPs thousands of times higher than CO2, making them significant greenhouse gases. The Kigali Amendment targets their phase-down."

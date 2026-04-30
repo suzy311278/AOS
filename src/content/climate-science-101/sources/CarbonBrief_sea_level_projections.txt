@@ -1,0 +1,37 @@
+Carbon Brief: The Challenges in Projecting Future Global Sea Levels
+Source: https://www.carbonbrief.org/guest-post-the-challenges-in-projecting-future-global-sea-levels/
+Authors: Dr Till Bruckner and Dr Tore Hattermann, iC3 Polar Research Hub
+Published: February 17, 2026
+Crawled: March 2026
+
+KEY POINTS:
+
+Global sea levels have risen at least 20cm since 1901, accelerating from approximately 1mm annually in the 20th century to 4mm yearly between 2006-2018. The IPCC projects sea levels will be "44-76cm higher by 2100" under medium-emissions scenarios, though uncertainty persists due to ice sheet dynamics.
+
+THREE DRIVERS OF SEA LEVEL RISE:
+
+1. Thermal expansion as oceans warm
+2. Melting of glaciers and ice sheets on land
+3. Changes in terrestrial water storage through rainfall, evaporation, and human activities
+
+Over the past century, thermal expansion and melting land ice contributed almost equally, though melting ice will likely dominate future rise.
+
+Antarctica contains 88% of Earth's remaining land ice, making its contribution critical to projections. Greenland accounts for almost all remaining ice, while mountain glaciers comprise less than 1%.
+
+KEY UNCERTAINTIES:
+
+Grounding Line Retreat: Antarctic glaciers push seaward across land then seafloor before detaching and floating. Where bedrock features create high points, they initially limit basal melting. If grounding lines retreat inland, warm water could accelerate ice loss through potential runaway effects. However, Antarctica's bedrock remains "not yet been precisely mapped in many places."
+
+Ice Shelf Stability: Floating ice shelves act as brakes on glacier flow. Their collapse depends on complex factors including thickness, pinning points, crack propagation, and surface meltwater processes like hydrofracturing. "There is currently no scientific consensus on how rapidly various ice shelves might collapse."
+
+Marine Ice Cliff Instability: Researchers continue debating whether exposed ice cliffs exceeding 100 meters could collapse catastrophically if shelves disintegrate.
+
+Ocean Dynamics: Predicting basal melting requires integrating large-scale ocean circulation with local turbulence - "a major modelling challenge" involving currents, winds, sea ice, and seasonal variations.
+
+REGIONAL COMPLICATIONS:
+
+Sea levels do not rise uniformly globally. Post-glacial rebound causes Scandinavia to rise gradually, while Jakarta sinks at "10cm per year" due to urbanization and groundwater extraction. These natural and anthropogenic factors complicate site-specific projections.
+
+RECOMMENDATIONS:
+
+Policy and engineering plans "should never be based on a single point estimate." Instead, planners should incorporate likely outcome ranges and contingency scenarios for rapid rise possibilities.

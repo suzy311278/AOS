@@ -1,0 +1,26 @@
+- question: "What are the two types of internal carbon price defined in IFRS S2 Appendix A?"
+  options:
+    - "Compliance price and voluntary market price"
+    - "Shadow price (notional) and internal fee or tax (actual charge)"
+    - "Scope 1 price and Scope 3 price"
+    - "Board-approved price and management-applied price"
+  answer: 1
+  explanation: "IFRS S2 Appendix A defines two types: (1) shadow price — a hypothetical price used in financial modelling and investment appraisal without actual cash movement; and (2) internal fee or tax — an actual monetary charge levied on business units for their emissions, collected into a fund for climate investments."
+
+- question: "A company applies a shadow carbon price of $80/tCO₂e to all capital investments above $5 million. In a capital allocation meeting, a gas-fired power plant project shows a positive NPV at $80/tonne carbon price, but a negative NPV at $120/tonne. What strategic decision might this support?"
+  options:
+    - "The project should proceed because it is currently positive NPV"
+    - "The project may be rejected or redesigned if management expects carbon prices to reach $120/tonne within the asset's lifetime"
+    - "The project should be approved only if Scope 3 emissions are below 10,000 tCO₂e"
+    - "The shadow price should be lowered to make the project appear more attractive"
+  answer: 1
+  explanation: "The strategic value of a shadow carbon price is exactly this: it reveals which investments become economically unviable as carbon prices rise. A project positive at $80/tonne but negative at $120/tonne is at risk if the entity expects future carbon pricing to reach that level. This analysis supports rejecting or redesigning the project to manage future transition risk."
+
+- question: "A company links 8% of its CEO's annual bonus to a Scope 1 emissions reduction target. How would this be characterised in terms of incentive strength?"
+  options:
+    - "Very strong — any remuneration linkage demonstrates climate commitment"
+    - "Moderate — short-term incentives with small weighting may encourage near-term focus without long-term climate alignment"
+    - "Insufficient — IFRS S2 requires minimum 20% linkage"
+    - "Strong — annual bonus targets create real-time accountability"
+  answer: 1
+  explanation: "An 8% weighting in a short-term (annual) bonus creates some incentive but is considered moderate. Short-term incentives may encourage gaming in a single year rather than structural change. Stronger signals include higher percentages in long-term incentive plans (e.g., 20-30% of LTIPs), which create multi-year financial stakes in sustained emissions reduction."

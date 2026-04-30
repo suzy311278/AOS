@@ -1,0 +1,26 @@
+- question: "What is the primary reason that free allocation of EU ETS allowances must be phased out as CBAM is phased in?"
+  options:
+  - "Free allocation is prohibited under WTO rules once a border adjustment mechanism is in place"
+  - "Having both instruments at full strength simultaneously would over-compensate EU producers, who would receive both a subsidy (free allowances) and protection from import competition (CBAM)"
+  - "The EU ETS cap must be reduced to zero by 2034, making free allocation mathematically impossible"
+  - "CBAM certificates are physically incompatible with the EU ETS registry and cannot coexist with free allocation records"
+  answer: 1
+  explanation: "If both free allocation and CBAM operated at full strength simultaneously, EU producers would receive double protection: their own carbon costs subsidised through free allowances, while import competitors face full CBAM costs. This over-compensation would be disproportionate and potentially incompatible with WTO non-discrimination principles. The CBAM Regulation therefore links the phase-out of free allocation to the phase-in of CBAM through the adjustment factor mechanism."
+
+- question: "How is the price of a CBAM certificate determined from 2027 onwards?"
+  options:
+  - "It is set annually by the European Parliament through the EU budget process"
+  - "It tracks the weekly average closing price of EU ETS allowances at the EU auction platform, published by the European Commission"
+  - "It is negotiated bilaterally between each EU member state and its major trading partners"
+  - "It equals the spot price of EU ETS allowances on the secondary market at the moment of import"
+  answer: 1
+  explanation: "From 2027, the CBAM certificate price is the weekly average closing price of EU ETS allowances on the common auction platform. The European Commission calculates and publishes this weekly average, which NCAs use as the purchase price for certificates. In 2026 (the first year of the definitive period), a quarterly average was used instead."
+
+- question: "Which of the following countries is fully exempt from CBAM obligations on goods traded with the EU?"
+  options:
+  - "United Kingdom"
+  - "Turkey"
+  - "Norway"
+  - "Canada"
+  answer: 2
+  explanation: "Norway is a member of the European Economic Area (EEA) and participates in the EU ETS. Because its producers already operate under the EU ETS carbon price, they are exempt from CBAM — their goods arrive at the EU border with an equivalent carbon cost already embedded. The UK has its own separate ETS and is not exempt; Turkey and Canada have no EEA relationship."

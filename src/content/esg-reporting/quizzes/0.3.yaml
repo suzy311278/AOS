@@ -1,0 +1,26 @@
+- question: "A first-time reporter with no organized sustainability data says they need their ESG report in four weeks for an upcoming AGM. What is the right response?"
+  options:
+    - "Accept the timeline and work overtime to deliver"
+    - "Propose a narrower scope (e.g., a summary ESG disclosure for the AGM) with a full report to follow later"
+    - "Decline the engagement entirely"
+    - "Start writing immediately without waiting for data"
+  answer: 1
+  explanation: "A first-time report with no data infrastructure cannot be completed in four weeks. Rather than accepting an impossible timeline or walking away, the practical solution is to negotiate scope: deliver something achievable for the AGM deadline while planning the comprehensive report on a realistic timeline. Saying yes to an impossible deadline sets you up to be blamed when reality hits."
+
+- question: "Why is it important to document the outcomes of the first client meeting in a follow-up email?"
+  options:
+    - "It satisfies a regulatory requirement for ESG engagements"
+    - "It serves as a reference point when stakeholders later dispute what was agreed"
+    - "It replaces the need for a formal scope document"
+    - "It is only necessary for external consultants, not in-house teams"
+  answer: 1
+  explanation: "Documentation from the first meeting becomes your reference for the entire engagement. When stakeholders later say 'that is not what we agreed,' you can point to the email. This is not bureaucracy - it is practical protection against the misaligned expectations that derail engagements."
+
+- question: "A client assures you that all departments will provide data quickly. How should you plan?"
+  options:
+    - "Trust their assessment and build a tight timeline"
+    - "Build buffer time for data collection delays regardless of what they promise"
+    - "Skip the data collection phase and use industry averages instead"
+    - "Ask each department head individually to confirm the timeline"
+  answer: 1
+  explanation: "Data collection is the number one reason ESG engagements take longer than planned. Clients almost always underestimate how scattered and incomplete their data is. Regardless of assurances, experienced practitioners build buffer into the timeline because delays are the norm, not the exception."

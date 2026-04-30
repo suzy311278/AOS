@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Living Archive | Premium Sustainability Learning</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-container-high": "#e7e8e9",
+                        "tertiary": "#401a0b",
+                        "on-surface": "#191c1d",
+                        "on-tertiary-fixed-variant": "#693a29",
+                        "surface-container": "#edeeef",
+                        "secondary-fixed-dim": "#8cd4ca",
+                        "on-secondary": "#ffffff",
+                        "on-background": "#191c1d",
+                        "surface-dim": "#d9dadb",
+                        "on-secondary-fixed-variant": "#00504a",
+                        "error": "#ba1a1a",
+                        "on-tertiary-container": "#d5967f",
+                        "on-tertiary": "#ffffff",
+                        "on-surface-variant": "#404947",
+                        "surface-container-highest": "#e1e3e4",
+                        "error-container": "#ffdad6",
+                        "outline": "#707977",
+                        "on-primary-fixed-variant": "#144f49",
+                        "primary-fixed-dim": "#99d1c8",
+                        "inverse-primary": "#99d1c8",
+                        "surface-variant": "#e1e3e4",
+                        "secondary-fixed": "#a7f0e6",
+                        "inverse-surface": "#2e3132",
+                        "surface": "#f8f9fa",
+                        "outline-variant": "#bfc8c6",
+                        "secondary-container": "#a7f0e6",
+                        "secondary": "#1a6962",
+                        "primary-fixed": "#b5eee4",
+                        "inverse-on-surface": "#f0f1f2",
+                        "tertiary-container": "#5b2f1e",
+                        "on-error-container": "#93000a",
+                        "on-primary": "#ffffff",
+                        "background": "#f8f9fa",
+                        "surface-container-low": "#f3f4f5",
+                        "on-primary-container": "#79afa7",
+                        "on-secondary-fixed": "#00201d",
+                        "surface-bright": "#f8f9fa",
+                        "tertiary-fixed-dim": "#fab79f",
+                        "primary": "#002b27",
+                        "on-primary-fixed": "#00201d",
+                        "primary-container": "#00433d",
+                        "surface-tint": "#306760",
+                        "on-tertiary-fixed": "#341104",
+                        "on-secondary-container": "#236f68",
+                        "on-error": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary-fixed": "#ffdbcf"
+                    },
+                    fontFamily: {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #f8f9fa;
+            color: #191c1d;
+            font-family: 'Inter', sans-serif;
+        }
+        .primary-gradient {
+            background: linear-gradient(135deg, #002b27 0%, #00433d 100%);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full rounded-full mt-4 mx-auto max-w-7xl px-6 bg-white/70 dark:bg-emerald-950/70 backdrop-blur-xl flex justify-between items-center h-16 z-50 shadow-[0px_24px_48px_-12px_rgba(0,43,61,0.08)]">
+<div class="font-manrope font-bold text-2xl tracking-tighter text-emerald-950 dark:text-emerald-50">
+            The Living Archive
+        </div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-emerald-950 dark:text-white border-b-2 border-emerald-900 dark:border-emerald-400 pb-1 font-manrope font-bold tracking-tight" href="#">Essays</a>
+<a class="text-emerald-800/60 dark:text-emerald-200/60 font-medium font-manrope tracking-tight hover:text-emerald-950 dark:hover:text-white transition-colors duration-300" href="#">Collections</a>
+<a class="text-emerald-800/60 dark:text-emerald-200/60 font-medium font-manrope tracking-tight hover:text-emerald-950 dark:hover:text-white transition-colors duration-300" href="#">Chronology</a>
+<a class="text-emerald-800/60 dark:text-emerald-200/60 font-medium font-manrope tracking-tight hover:text-emerald-950 dark:hover:text-white transition-colors duration-300" href="#">Archive</a>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-emerald-900 dark:text-emerald-50 cursor-pointer scale-95 active:scale-90 transition-transform">account_circle</span>
+</div>
+</nav>
+<main class="pt-32 pb-24 px-6">
+<!-- Lesson Content Canvas -->
+<div class="max-w-[750px] mx-auto space-y-12">
+<header class="mb-16">
+<span class="text-xs font-semibold tracking-widest uppercase text-primary-container mb-4 block">Module 04: Soil Carbon Sequestration</span>
+<h1 class="font-headline text-5xl md:text-6xl font-bold tracking-tight leading-[1.1] text-on-surface mb-6">Quantifying Soil Health</h1>
+<p class="font-body text-xl text-on-surface-variant leading-relaxed">Understanding the mathematical foundations of Soil Organic Carbon (SOC) stocks and their role in global sustainability metrics.</p>
+</header>
+<!-- 1. EQUATION BREAKDOWN -->
+<section class="space-y-8">
+<div class="flex flex-wrap items-center justify-center gap-3 p-8 bg-surface-container-low rounded-xl">
+<span class="px-6 py-2 rounded-full bg-blue-100 text-blue-800 font-bold text-lg">SOC stock</span>
+<span class="font-bold text-2xl">=</span>
+<span class="px-6 py-2 rounded-full bg-green-100 text-green-800 font-bold text-lg">SOC conc.</span>
+<span class="font-bold text-2xl">×</span>
+<span class="px-6 py-2 rounded-full bg-amber-100 text-amber-800 font-bold text-lg">Bulk Density</span>
+<span class="font-bold text-2xl">×</span>
+<span class="px-6 py-2 rounded-full bg-violet-100 text-violet-800 font-bold text-lg">Depth</span>
+<span class="font-bold text-2xl">×</span>
+<span class="px-6 py-2 rounded-full bg-rose-100 text-rose-800 font-bold text-lg">Coarse Frag.</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="p-6 bg-surface-container-lowest rounded-2xl border-l-8 border-green-500 shadow-sm">
+<p class="font-headline font-bold text-on-surface mb-2">SOC concentration</p>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">Measured as grams of carbon per kilogram of soil (g/kg). It indicates the organic richness of the sample.</p>
+</div>
+<div class="p-6 bg-surface-container-lowest rounded-2xl border-l-8 border-amber-500 shadow-sm">
+<p class="font-headline font-bold text-on-surface mb-2">Bulk Density</p>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">Dry weight of soil per unit volume (g/cm³). Essential for converting concentration to mass.</p>
+</div>
+<div class="p-6 bg-surface-container-lowest rounded-2xl border-l-8 border-violet-500 shadow-sm">
+<p class="font-headline font-bold text-on-surface mb-2">Sampling Depth</p>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">The vertical layer of soil being analyzed (cm), typically the top 30cm for agricultural standards.</p>
+</div>
+<div class="p-6 bg-surface-container-lowest rounded-2xl border-l-8 border-rose-500 shadow-sm">
+<p class="font-headline font-bold text-on-surface mb-2">Coarse Fragments</p>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">Adjustment for stones or gravel larger than 2mm, which do not store organic carbon.</p>
+</div>
+</div>
+</section>
+<!-- 2. FORMULA BOX -->
+<section>
+<div class="bg-[#1a2e2b] p-10 rounded-2xl shadow-xl flex items-center justify-center">
+<code class="text-white font-mono text-lg md:text-xl tracking-wide">SOC stock = 18 g/kg x 1.35 g/cm3 x 30 cm x 0.1 = 72.9 tC/ha</code>
+</div>
+</section>
+<!-- 3. HIGHLIGHT BOX -->
+<section>
+<div class="bg-emerald-50/30 border-l-4 border-emerald-900 rounded-2xl p-8 bg-surface-container-lowest shadow-sm">
+<h3 class="font-headline font-bold text-emerald-900 text-xl mb-3 flex items-center gap-2">
+<span class="material-symbols-outlined">lightbulb</span> Key Takeaway
+                    </h3>
+<p class="font-body text-on-surface leading-relaxed">SOC stock calculation is the standard metric used by the IPCC to report national greenhouse gas inventories. Without bulk density measurements, simple concentration data can be highly misleading about total carbon storage.</p>
+</div>
+</section>
+<!-- 4. ANALOGY BOX -->
+<section>
+<div class="bg-blue-50 border-l-4 border-blue-600 rounded-2xl p-8 shadow-sm">
+<h3 class="font-headline font-bold text-blue-600 text-xl mb-3 flex items-center gap-2">
+<span class="material-symbols-outlined">compare</span> Analogy: The Sponge
+                    </h3>
+<p class="font-body text-on-surface leading-relaxed italic">Think of SOC concentration as the flavor of a tea bag, and Bulk Density as how many tea bags you pack into a box. To know the total "flavor capacity" (SOC Stock) of the box, you must know both the strength of each bag and how tightly they are packed.</p>
+</div>
+</section>
+<!-- 5. EXAMPLE BOX -->
+<section>
+<div class="bg-amber-50 border-l-4 border-amber-500 rounded-2xl p-8 shadow-sm">
+<h3 class="font-headline font-bold text-amber-700 text-xl mb-4">Worked Example: Temperate Grassland</h3>
+<p class="font-body text-on-surface mb-6 leading-relaxed">A researcher samples a paddock and finds a SOC concentration of 25 g/kg. The bulk density is 1.2 g/cm³. Calculate the SOC stock for the first 10cm depth, assuming no coarse fragments (1.0 factor).</p>
+<div class="bg-[#1a2e2b] p-6 rounded-2xl">
+<code class="text-amber-200 font-mono">Stock = 25 x 1.2 x 10 x 0.1 = 30.0 tC/ha</code>
+</div>
+</div>
+</section>
+<!-- 6. DEEP DIVE (Collapsible) -->
+<section>
+<div class="space-y-4">
+<button class="w-full flex items-center justify-between p-6 bg-primary-fixed rounded-full hover:bg-primary-fixed-dim transition-colors group">
+<span class="font-headline font-bold text-on-primary-fixed text-lg ml-2">Deep Dive: Laboratory Combustion vs. Wet Chemistry</span>
+<div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-on-primary-fixed">expand_more</span>
+</div>
+</button>
+<div class="p-8 bg-surface-container-low rounded-2xl">
+<p class="font-body text-on-surface-variant leading-relaxed">While the Walkley-Black method was once the global standard, dry combustion (Dumas method) is now preferred for its precision. High-end spectral analysis (Mid-Infrared Spectroscopy) is emerging as a rapid, non-destructive alternative for large-scale archive data collection.</p>
+</div>
+</div>
+</section>
+<!-- 7. CALCULATION EXERCISE -->
+<section>
+<div class="bg-violet-50 border-l-4 border-violet-600 rounded-2xl p-8 shadow-sm">
+<h3 class="font-headline font-bold text-violet-800 text-xl mb-6">Test Your Knowledge</h3>
+<p class="font-body text-on-surface mb-8">Calculate the carbon stock if the concentration is 15 g/kg and density is 1.4 g/cm³ (Depth: 30cm).</p>
+<div class="flex flex-col md:flex-row gap-4 items-center mb-8">
+<div class="relative w-full md:w-48">
+<input class="w-full bg-surface-container-low border-none rounded-full px-6 py-4 focus:ring-2 focus:ring-violet-400 font-bold text-lg" placeholder="Value" type="number"/>
+</div>
+<span class="font-bold text-violet-800">tC / ha</span>
+</div>
+<div class="flex flex-wrap gap-4">
+<button class="px-6 py-3 rounded-full bg-white text-violet-800 font-semibold text-sm hover:shadow-md transition-shadow">View Hint 1</button>
+<button class="px-6 py-3 rounded-full bg-white text-violet-800 font-semibold text-sm hover:shadow-md transition-shadow">View Hint 2</button>
+<button class="ml-auto px-10 py-4 primary-gradient text-white rounded-full font-bold tracking-tight hover:shadow-xl transition-all active:scale-95">Check Answer</button>
+</div>
+</div>
+</section>
+<!-- 8. DATA CHART -->
+<section class="p-10 bg-surface-container-lowest rounded-2xl shadow-[0px_24px_48px_-12px_rgba(0,43,61,0.08)]">
+<h4 class="font-headline font-bold text-2xl text-on-surface mb-8">Carbon Sequestration Potential by Land Use</h4>
+<div class="relative h-[300px] w-full flex items-end gap-1 mb-8">
+<!-- Sketchy Bar Simulation -->
+<div class="flex-1 flex flex-col justify-end gap-1 h-full">
+<div class="w-full bg-emerald-900/10 rounded-t-xl h-[40%]" title="40%"></div>
+<span class="text-[10px] uppercase font-bold text-emerald-900/50 text-center">Tundra</span>
+</div>
+<div class="flex-1 flex flex-col justify-end gap-1 h-full">
+<div class="w-full bg-emerald-900/30 rounded-t-xl h-[65%]" title="65%"></div>
+<span class="text-[10px] uppercase font-bold text-emerald-900/50 text-center">Desert</span>
+</div>
+<div class="flex-1 flex flex-col justify-end gap-1 h-full">
+<div class="w-full bg-emerald-900/60 rounded-t-xl h-[85%]" title="85%"></div>
+<span class="text-[10px] uppercase font-bold text-emerald-900/50 text-center">Pasture</span>
+</div>
+<div class="flex-1 flex flex-col justify-end gap-1 h-full">
+<div class="w-full primary-gradient rounded-t-xl h-full" title="100%"></div>
+<span class="text-[10px] uppercase font-bold text-emerald-900 text-center">Old Forest</span>
+</div>
+<div class="flex-1 flex flex-col justify-end gap-1 h-full">
+<div class="w-full bg-emerald-900/80 rounded-t-xl h-[90%]" title="90%"></div>
+<span class="text-[10px] uppercase font-bold text-emerald-900/50 text-center">Wetland</span>
+</div>
+</div>
+<div class="flex justify-center gap-6 mt-4">
+<div class="flex items-center gap-2">
+<div class="w-3 h-3 rounded-full bg-emerald-900"></div>
+<span class="text-xs font-medium text-on-surface-variant">Primary Stock</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-3 h-3 rounded-full bg-emerald-900/30"></div>
+<span class="text-xs font-medium text-on-surface-variant">Potential Growth</span>
+</div>
+</div>
+</section>
+<!-- 9. DATA TABLE -->
+<section class="overflow-hidden bg-surface-container-lowest rounded-2xl shadow-sm">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-primary-fixed/20">
+<th class="px-6 py-4 font-headline font-bold text-emerald-950">Ecotype</th>
+<th class="px-6 py-4 font-headline font-bold text-emerald-950">Mean Stock (tC/ha)</th>
+<th class="px-6 py-4 font-headline font-bold text-emerald-950">Resilience Index</th>
+</tr>
+</thead>
+<tbody class="font-body text-sm">
+<tr class="bg-surface-container-lowest hover:bg-surface-container-low transition-colors">
+<td class="px-6 py-5 font-semibold">Tropical Forest</td>
+<td class="px-6 py-5">120.5</td>
+<td class="px-6 py-5 text-emerald-600 font-bold">High</td>
+</tr>
+<tr class="bg-surface-container-low hover:bg-surface-container-high transition-colors">
+<td class="px-6 py-5 font-semibold">Temperate Grassland</td>
+<td class="px-6 py-5">85.2</td>
+<td class="px-6 py-5 text-amber-600 font-bold">Moderate</td>
+</tr>
+<tr class="bg-surface-container-lowest hover:bg-surface-container-low transition-colors">
+<td class="px-6 py-5 font-semibold">Boreal Forest</td>
+<td class="px-6 py-5">180.1</td>
+<td class="px-6 py-5 text-emerald-600 font-bold">Extreme</td>
+</tr>
+<tr class="bg-surface-container-low hover:bg-surface-container-high transition-colors">
+<td class="px-6 py-5 font-semibold">Arable Land</td>
+<td class="px-6 py-5">42.8</td>
+<td class="px-6 py-5 text-rose-600 font-bold">Low</td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full pt-20 pb-10 bg-slate-100 dark:bg-emerald-950">
+<div class="max-w-[750px] mx-auto flex flex-col md:flex-row justify-between items-start px-8">
+<div class="mb-8 md:mb-0">
+<div class="font-manrope font-bold text-lg text-emerald-950 dark:text-emerald-50 mb-2">The Living Archive</div>
+<p class="font-inter text-sm leading-relaxed text-emerald-800/70 dark:text-emerald-300/70">© 2024 The Living Archive. All rights reserved.</p>
+</div>
+<div class="flex flex-col gap-3">
+<a class="font-inter text-sm text-emerald-800/70 dark:text-emerald-300/70 hover:underline decoration-emerald-500/30 underline-offset-4 opacity-80 hover:opacity-100 transition-opacity" href="#">Sustainability Manifesto</a>
+<a class="font-inter text-sm text-emerald-800/70 dark:text-emerald-300/70 hover:underline decoration-emerald-500/30 underline-offset-4 opacity-80 hover:opacity-100 transition-opacity" href="#">Editorial Standards</a>
+<a class="font-inter text-sm text-emerald-800/70 dark:text-emerald-300/70 hover:underline decoration-emerald-500/30 underline-offset-4 opacity-80 hover:opacity-100 transition-opacity" href="#">Privacy Policy</a>
+<a class="font-inter text-sm text-emerald-800/70 dark:text-emerald-300/70 hover:underline decoration-emerald-500/30 underline-offset-4 opacity-80 hover:opacity-100 transition-opacity" href="#">Institutional Access</a>
+</div>
+</div>
+</footer>
+</body></html>

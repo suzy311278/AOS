@@ -1,0 +1,83 @@
+{/* source: CBAM Regulation (EU) 2023/956, Annex III, Sections 2-3; CBAM Implementing Regulation (EU) 2023/1773, Annex II */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/eu-cbam/2_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Complex Goods and Precursor Materials
+
+<HighlightBox>
+  <p class="font-semibold text-green-800">What you will learn</p>
+  <p class="text-green-900 mt-1">Many CBAM-covered goods are produced using other CBAM-covered goods as inputs. Calculating the embedded emissions of a "complex" good requires you to account for the emissions of its component materials  -  without double-counting. This lesson explains how the precursor attribution methodology works and why it matters for accurate CBAM compliance.</p>
+</HighlightBox>
+
+### Simple Goods vs Complex Goods
+
+<p class="mb-3">Annex III of the CBAM Regulation distinguishes between two categories of goods for embedded emissions calculation purposes:</p>
+
+<ul class="list-disc ml-6 space-y-2 mb-4">
+  <li><strong>Simple goods:</strong> Produced using only fuels and raw materials (non-CBAM inputs), plus energy. Their embedded emissions are the sum of direct and (where applicable) indirect emissions from the production process itself. There are no CBAM-covered precursors to account for.</li>
+  <li><strong>Complex goods:</strong> Produced using other CBAM-covered goods as inputs (precursors). Their embedded emissions must include the emissions embedded in those precursor inputs, in addition to the direct and indirect emissions from the production process itself.</li>
+</ul>
+
+<p class="mb-4">This distinction has significant practical consequences. A producer of fertilisers uses ammonia as a key input. Ammonia is itself a CBAM-covered good with its own embedded emissions. The fertiliser's total embedded emissions must therefore include the emissions embedded in the ammonia, plus the emissions from converting that ammonia into the final fertiliser product (such as nitric acid and subsequent synthesis steps for ammonium nitrate). Failing to include the precursor emissions would understate the fertiliser's true carbon footprint by a large margin.</p>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">The Recipe Book Analogy</p>
+  <p class="mt-2 text-blue-900">Think of embedded emissions like the calorie count in a recipe. The total calories in a cake come from two sources: the calories already embedded in the ingredients (flour, eggs, butter  -  analogous to precursor emissions), plus the energy used in the baking process (the oven  -  analogous to direct production emissions). You cannot calculate the total carbon "cost" of the cake without accounting for both the ingredients' carbon content and the baking process emissions.</p>
+</AnalogyBox>
+
+### How Precursor Emissions Are Attributed
+
+<p class="mb-3">Section 3 of Annex III of the CBAM Regulation sets out the methodology for attributing precursor emissions to complex goods. The embedded emissions of a precursor that is used in producing a complex CBAM good are incorporated into the total embedded emissions of that complex good using the following principle:</p>
+
+<p class="mb-4">The quantity of precursor material used per tonne of complex good is multiplied by the specific embedded emissions of that precursor (either actual verified data or the applicable default value). This product gives the precursor-attributed emissions component, which is then added to the direct and indirect emissions of the production process itself.</p>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Worked Example: Ammonium Nitrate (AN) Fertiliser</p>
+  <p class="mt-2">Ammonium nitrate (AN) is produced by reacting ammonia (NH₃) with nitric acid (HNO₃). Nitric acid is produced by oxidising ammonia. Both ammonia and nitric acid are precursors for AN production.</p>
+  <p class="mt-2">Data for 1 tonne of ammonium nitrate:</p>
+  <ul class="mt-2 space-y-1 text-amber-900 list-disc ml-4">
+    <li>Ammonia input: 0.213 tonnes/tonne AN with embedded emissions of 1.8 tCO₂/tonne ammonia = <strong>0.383 tCO₂ from ammonia precursor</strong></li>
+    <li>Nitric acid input: 0.787 tonnes/tonne AN with embedded emissions of 0.3 tCO₂/tonne HNO₃ = <strong>0.236 tCO₂ from nitric acid precursor</strong></li>
+    <li>Direct N₂O emissions during synthesis: 0.15 tCO₂e/tonne AN</li>
+    <li>Indirect electricity emissions: 0.02 tCO₂e/tonne AN</li>
+  </ul>
+  <p class="mt-2 font-semibold">Total embedded emissions = 0.383 + 0.236 + 0.15 + 0.02 = <strong>0.789 tCO₂e per tonne of AN</strong></p>
+  <p class="mt-2 text-amber-700 text-sm">Note: precursor emissions account for over 78% of total embedded emissions in this example, illustrating why the precursor chain is critical to accurate CBAM calculation.</p>
+</ExampleBox>
+
+### Key Complex Goods in CBAM Annex I
+
+<p class="mb-3">Several goods in CBAM Annex I are classified as complex because they are produced using other CBAM goods as precursors:</p>
+
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th>Complex Good</th><th>Key CBAM Precursors Used</th><th>Additional Production Emissions</th></tr>
+  <tr><td>Ammonium nitrate (fertiliser)</td><td>Ammonia, Nitric acid</td><td>N₂O from NH₃ oxidation; electricity</td></tr>
+  <tr><td>Mixed nitrogen fertilisers (NPK)</td><td>Ammonia, Nitric acid, Urea</td><td>N₂O; blending energy</td></tr>
+  <tr><td>Sintered iron ore (agglomerates)</td><td>Iron ore fines (precursor)</td><td>Combustion emissions from sintering</td></tr>
+  <tr><td>Various downstream steel products</td><td>Pig iron, sponge iron (DRI)</td><td>Energy for rolling, forming</td></tr>
+  <tr><td>Aluminium alloys</td><td>Unwrought aluminium</td><td>Energy for alloying and casting</td></tr>
+</table>
+</ResponsiveTable>
+
+### The Data Chain Challenge
+
+<p class="mb-3">The precursor attribution methodology creates a data chain requirement: to calculate the embedded emissions of a complex good, the importer needs verified emission data not just from the installation that made the final good, but from the installations that made the precursors. This can span multiple countries and multiple production sites.</p>
+
+<p class="mb-4">In practice, this creates a contractual and information-management challenge for importers. Consider a fertiliser importer in Germany who buys ammonium nitrate produced in Egypt. The Egyptian AN producer uses ammonia from a Saudi Arabian petrochemical plant. The German importer needs emission data from both the Egyptian AN plant and the Saudi ammonia plant to calculate the full embedded emissions correctly. If either upstream supplier refuses to provide data, the importer must fall back on default values for that precursor  -  potentially increasing the CBAM liability significantly.</p>
+
+<p class="mb-3">This dynamic is driving commercial negotiations in supply chains: EU importers are increasingly embedding CBAM data-sharing requirements into supplier contracts, and suppliers who provide verified low-emission data gain a competitive advantage in EU markets.</p>
+
+### The Sub-Installation Concept
+
+<p class="mb-3">For installations that produce multiple goods  -  including both simple goods and precursors for complex goods  -  the Implementing Regulation introduces the concept of the <strong>sub-installation</strong>. A sub-installation is a defined part of the production process within an installation that produces a distinct good or group of goods with homogeneous emission characteristics.</p>
+
+<p class="mb-4">Where a single installation produces an intermediate material (say, hot metal in an integrated steel mill) as well as final products (steel plates), the embedded emissions must be allocated between the intermediate and final products in a defined way. The allocation rules are set out in Annex III of the CBAM Regulation and follow the same logic as the EU ETS benchmarking methodology for product benchmarks, ensuring methodological consistency.</p>
+
+<DeepDive title="Avoiding double-counting across supply chains">
+  <p class="mb-3">A concern often raised about precursor-based embedded emissions methodologies is the risk of double-counting: if both the ammonia and the ammonium nitrate made from it are separately imported into the EU, would the ammonia's emissions be counted twice?</p>
+  <p class="mb-3">CBAM addresses this through the system boundary principle. When ammonia is imported as a final good, its embedded emissions are attributed to the ammonia import. When ammonia is used as a precursor to produce ammonium nitrate, which is then separately imported, the ammonia's embedded emissions are part of the ammonium nitrate's total  -  but the ammonia import itself is a different customs transaction with its own CBAM declaration.</p>
+  <p>The key is that each customs transaction is treated independently. The importer of ammonia and the importer of ammonium nitrate are different declarants, and each declares only the embedded emissions of the goods they import  -  without seeing the other's declaration. No double-counting occurs in the aggregate CBAM system, because each good is declared once at the point of import.</p>
+</DeepDive>
+
+<KeyTakeaways items="Simple CBAM goods are produced without CBAM-covered precursor inputs; complex goods use other CBAM goods as inputs and must incorporate those precursors' embedded emissions in the total calculation ;; Precursor emissions are attributed by multiplying the quantity of precursor used per tonne of complex good by the specific embedded emissions of that precursor (actual or default) ;; In many cases, precursor-attributed emissions dominate the total: for ammonium nitrate fertiliser, precursor emissions from ammonia and nitric acid can represent 75-80% of total embedded emissions ;; The precursor data chain means importers may need verified emission data from multiple upstream installations across multiple countries  -  creating supply chain data obligations ;; Sub-installation methodology allocates emissions within a single installation that produces multiple goods, following EU ETS benchmark product logic to ensure methodological consistency" />

@@ -1,0 +1,26 @@
+- question: "For an asset manager, the IFRS S2 financed emissions formula attributes investee emissions based on:"
+  options:
+    - "The total enterprise value of all portfolio companies"
+    - "The entity's investment divided by the investee's total enterprise value, multiplied by the investee's total emissions"
+    - "The number of shares held divided by total shares outstanding"
+    - "The loan-to-value ratio of the investment"
+  answer: 1
+  explanation: "The portfolio share allocation method: Financed emissions from each investee = Investee's total Scope 1+2+3 emissions × (Entity's investment value ÷ Investee's total enterprise value). This proportional attribution reflects the asset manager's financial exposure to the investee's emissions."
+
+- question: "In Illustrative Example 4 (IE25-IE32), an asset manager disaggregates financed emissions by active vs passive investment strategy. The key decision factor is that:"
+  options:
+    - "Active strategies must always be separately disclosed under IFRS S2"
+    - "Active strategies have significantly different emission profiles and offer more ability to influence portfolio companies"
+    - "Passive strategies are excluded from financed emissions under the 2025 amendments"
+    - "The IEA requires separate disclosure for passive investment strategies"
+  answer: 1
+  explanation: "The illustrative guidance shows that disaggregating by strategy adds investor value when strategies have materially different emission profiles (active portfolios had much lower financed emissions per CU invested) and different engagement capacities (active managers can select and influence issuers; passive managers cannot)."
+
+- question: "Under the 2025 amendments (B62A, B63A), what replaced the mandatory requirement for commercial banks and insurers to use GICS for industry classification of financed emissions?"
+  options:
+    - "A requirement to use NACE European classification codes"
+    - "A principles-based requirement to select a classification system that provides useful transition risk information, with priority given to commonly used systems"
+    - "An entity-specific system approved by the entity's auditors"
+    - "No industry classification is now required for financed emissions"
+  answer: 1
+  explanation: "The 2025 amendments replaced the mandatory GICS requirement with a principles-based approach: entities select an industry classification system that enables classification of counterparties in a way that provides useful climate transition risk information, prioritising commonly used systems (e.g., GICS, or a system required by the jurisdiction), and disclosing their selection and rationale."

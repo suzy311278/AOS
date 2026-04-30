@@ -1,0 +1,111 @@
+{/* source: Scope3_Calculation_Guidance_0[1].pdf, Category 6 (pp. 81-86) */}
+
+**Category 6 — Business Travel** covers GHG emissions from the transportation of employees for business-related activities in vehicles **not owned or operated by the reporting company**. This includes flights, train journeys, bus and coach travel, taxi and ride-hailing services, rental cars, and hotel stays.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-3/2_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## What Is Included
+
+Category 6 covers all business-related travel by employees where the transport is not in company-owned or controlled vehicles:
+
+- **Air travel**: Domestic, short-haul, and long-haul flights (economy and business class)
+- **Rail travel**: Intercity trains, commuter rail used for business trips
+- **Rental cars and taxis**: Hired vehicles, taxis, and ride-hailing for business purposes
+- **Bus and coach**: Long-distance coach travel for business
+- **Hotel stays**: Energy used in hotel rooms during business travel (some frameworks include this as part of the overall business travel footprint)
+
+<HighlightBox>
+Category 6 does not include travel to and from work (employee commuting - Category 7) or travel in company-owned vehicles (Scope 1). The test is: is the vehicle owned or controlled by the reporting company? If yes, it's Scope 1. If no, it's Category 6.
+</HighlightBox>
+
+## Calculation Methods
+
+### Distance-Based Method (Recommended)
+Uses the distance travelled and an emission factor per passenger-km by transport mode. Data sources include airline booking systems, travel management companies (TMCs), and expense reporting.
+
+<EquationBreakdown
+  title="Category 6 - Business Travel Emissions (Distance-Based)"
+  result="E<sub>Cat6</sub> | Category 6 Emissions | Total emissions from employee business travel, in tCO₂e | blue"
+  inputs="D | Distance | Distance travelled per trip, in km | green ;; P | Passenger Count | Number of employees on the trip | amber ;; EF | Emission Factor | tCO₂e per passenger-km for the transport mode and cabin class | violet"
+/>
+
+### Spend-Based Method
+Applies EIO emission factors per unit of spend on travel and accommodation. Used when detailed trip data is unavailable.
+
+## Emission Factors by Transport Mode
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Mode</th>
+      <th>Class / Type</th>
+      <th>Emission Factor (kgCO₂e/passenger-km)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Short-haul flight (&lt;3,700 km)</td>
+      <td>Economy</td>
+      <td>0.151</td>
+    </tr>
+    <tr>
+      <td>Long-haul flight (&gt;3,700 km)</td>
+      <td>Economy</td>
+      <td>0.148</td>
+    </tr>
+    <tr>
+      <td>Long-haul flight (&gt;3,700 km)</td>
+      <td>Business</td>
+      <td>0.429</td>
+    </tr>
+    <tr>
+      <td>Rail (UK average)</td>
+      <td>-</td>
+      <td>0.035</td>
+    </tr>
+    <tr>
+      <td>Taxi (petrol, UK)</td>
+      <td>-</td>
+      <td>0.149</td>
+    </tr>
+    <tr>
+      <td>Rental car (medium petrol)</td>
+      <td>-</td>
+      <td>0.168</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+## Aviation Radiative Forcing
+
+An important technical consideration for air travel is **radiative forcing (RF)** - non-CO₂ warming effects from aviation including contrail formation, cirrus cloud enhancement, and NOx chemistry. These effects may increase the effective warming impact of aviation by a factor of 2-4x compared to CO₂ alone. The GHG Protocol allows but does not require companies to apply an RF uplift factor. However, many leading reporters and frameworks (including some SBTi guidance) recommend applying an uplift of approximately 2x for air travel to reflect the full climate impact.
+
+<CalculationExercise
+  question="An employee flies London to New York (5,570 km) in business class. The emission factor for long-haul business class is 0.429 kgCO₂e/passenger-km. What are the Category 6 emissions for the outbound flight?"
+  answer={2.39}
+  tolerance={0.02}
+  unit="tCO₂e"
+  hints={["Multiply distance by emission factor: 5,570 km × 0.429 kgCO₂e/km.", "Convert to tCO₂e: divide by 1,000.", "5,570 × 0.429 = 2,389.53 kgCO₂e ≈ 2.39 tCO₂e."]}
+  solution="5,570 km × 0.429 kgCO₂e/passenger-km = 2,389.5 kgCO₂e = 2.39 tCO₂e. Compare to the same trip in economy class: 5,570 × 0.148 = 824 kgCO₂e = 0.82 tCO₂e - business class emits nearly 3x as much because it occupies more floor space per seat."
+/>
+
+## Why Business Class Emits More
+
+Business class passengers occupy significantly more aircraft floor space per seat than economy class passengers. Since the aircraft's total fuel consumption is allocated by seat area (or seat count, depending on the method), business class passengers are allocated a larger share of total flight emissions. This is not merely a comfort premium - it reflects the physical reality of floor space consumed per passenger.
+
+## Reducing Category 6 Emissions
+
+Common reduction strategies include:
+- **Virtual meeting policies**: Substituting video conferencing for short-haul flights
+- **Train-first policies**: Mandating rail over air for journeys under 4-6 hours
+- **Cabin class restrictions**: Limiting business class to flights above a minimum duration (e.g., 6 hours)
+- **Offset programmes**: Requiring employees to offset travel emissions (though this should supplement, not replace, reduction)
+- **Travel budgets expressed in CO₂e**: Giving employees carbon budgets rather than solely cost budgets
+
+<DeepDive title="The post-COVID travel rebound and Scope 3 Category 6">
+Business travel fell sharply during the COVID-19 pandemic (2020-2021), causing many companies to report dramatically lower Category 6 emissions. As travel rebounded in 2022-2023, companies discovered that virtual alternatives had reduced (but not eliminated) the need for in-person meetings. Many companies now set Category 6 reduction targets based on 2019 (pre-pandemic) baselines rather than 2020-2021 anomalies, treating the pandemic period as a structural discontinuity requiring a base year restatement.
+</DeepDive>
+
+<KeyTakeaways items="Category 6 covers employee business travel in vehicles not owned by the company - flights, trains, taxis, rental cars, and hotel stays ;; The distance-based method using passenger-km and mode-specific emission factors is the recommended calculation approach ;; Business class flights emit roughly 3x more than economy class per passenger due to greater floor space per seat ;; Radiative forcing from aviation (contrails, NOx effects) may multiply the effective warming impact of flights by 2-4x beyond CO2 alone ;; Effective reduction strategies include virtual meeting policies, train-first mandates for short trips, and carbon budgets expressed in tCO2e rather than cost" />

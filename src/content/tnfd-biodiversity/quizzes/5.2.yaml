@@ -1,0 +1,26 @@
+- question: "What does 'nature-positive' mean in the context of the Kunming-Montreal Global Biodiversity Framework's 2030 mission?"
+  options:
+  - "That companies must have a net positive financial return from nature-related investments"
+  - "That by 2030, biodiversity is recovering rather than declining, with the rate of nature loss halted and reversed"
+  - "That all companies must protect at least 30% of their land holdings for nature"
+  - "That nature-based solutions must be used instead of carbon offsets"
+  answer: 1
+  explanation: "Nature-positive means that by 2030, nature is recovering rather than declining. The Kunming-Montreal GBF's 2030 mission is to halt and reverse biodiversity loss, creating the trajectory for the 2050 vision of living in harmony with nature."
+
+- question: "According to SBTN guidance, what is the first priority in any corporate nature-positive strategy?"
+  options:
+  - "Purchasing high-quality biodiversity offsets to compensate for impacts"
+  - "Funding restoration projects in high-biodiversity regions"
+  - "Reducing negative impacts on nature through operational changes, before considering restoration or compensation"
+  - "Achieving RSPO or FSC certification for all supply chains"
+  answer: 2
+  explanation: "SBTN guidance is explicit that the first priority is to reduce negative impacts on nature through operational changes (applying the avoid and minimize steps of the mitigation hierarchy). Restoration and compensation (offsetting) are secondary measures, not substitutes for primary impact reduction."
+
+- question: "The Nature Action 100 initiative engages companies with investor signatories representing approximately how much in assets?"
+  options:
+  - "USD 1 trillion"
+  - "USD 5 trillion"
+  - "USD 24 trillion"
+  - "USD 100 trillion"
+  answer: 2
+  explanation: "The Nature Action 100 initiative engages companies in sectors most responsible for and dependent on nature, with investor signatories representing over USD 24 trillion in assets pressing companies on biodiversity commitments and nature-positive strategies."

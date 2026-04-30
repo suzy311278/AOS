@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-surface": "#191c1c",
+              "secondary-container": "#c9e6e0",
+              "tertiary-fixed": "#ffdbce",
+              "tertiary-container": "#7b422b",
+              "on-primary-container": "#8ad2c8",
+              "surface-container": "#eceeed",
+              "surface-dim": "#d8dada",
+              "on-background": "#191c1c",
+              "background": "#f8faf9",
+              "on-tertiary-fixed-variant": "#6e3822",
+              "surface-container-highest": "#e1e3e2",
+              "on-surface-variant": "#3f4947",
+              "primary-container": "#005c55",
+              "error": "#ba1a1a",
+              "inverse-on-surface": "#eff1f0",
+              "on-secondary-fixed": "#05201d",
+              "on-secondary": "#ffffff",
+              "surface": "#f8faf9",
+              "surface-tint": "#1a6962",
+              "tertiary-fixed-dim": "#ffb599",
+              "surface-variant": "#e1e3e2",
+              "primary-fixed": "#a7f0e6",
+              "secondary-fixed-dim": "#b0ccc7",
+              "surface-container-lowest": "#ffffff",
+              "on-primary-fixed": "#00201d",
+              "primary": "#00433d",
+              "tertiary": "#5f2c17",
+              "secondary-fixed": "#cce8e3",
+              "on-secondary-container": "#4e6864",
+              "inverse-primary": "#8cd4ca",
+              "on-primary-fixed-variant": "#00504a",
+              "on-tertiary": "#ffffff",
+              "surface-container-low": "#f2f4f3",
+              "outline-variant": "#bec9c6",
+              "on-tertiary-container": "#ffb295",
+              "on-error": "#ffffff",
+              "on-primary": "#ffffff",
+              "on-secondary-fixed-variant": "#324b48",
+              "secondary": "#496360",
+              "on-tertiary-fixed": "#370e00",
+              "inverse-surface": "#2e3131",
+              "primary-fixed-dim": "#8cd4ca",
+              "surface-bright": "#f8faf9",
+              "on-error-container": "#93000a",
+              "outline": "#6f7977",
+              "surface-container-high": "#e6e9e8",
+              "error-container": "#ffdad6"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "1rem", "xl": "1.25rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .text-shadow-subtle { text-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .focused-canvas { max-width: 750px; margin-left: auto; margin-right: auto; }
+        .glass-nav { background: rgba(248, 250, 249, 0.85); backdrop-filter: blur(12px); }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-[#f8faf9]/85 dark:bg-[#191c1c]/85 backdrop-blur-xl">
+<div class="flex justify-between items-center h-16 px-8 max-w-[750px] mx-auto">
+<div class="text-xl font-extrabold text-[#00433d] dark:text-[#005c55] tracking-tighter font-headline">
+                Greentryst Academy
+            </div>
+<nav class="hidden md:flex gap-6 items-center">
+<a class="text-[#00433d] dark:text-[#005c55] border-b-2 border-[#00433d] pb-1 font-headline font-bold text-lg tracking-tight" href="#">Curriculum</a>
+<a class="text-[#4e6864] dark:text-[#bec9c6] hover:text-[#00433d] transition-colors duration-300 font-headline font-bold text-lg tracking-tight" href="#">Library</a>
+<a class="text-[#4e6864] dark:text-[#bec9c6] hover:text-[#00433d] transition-colors duration-300 font-headline font-bold text-lg tracking-tight" href="#">Resources</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-[#005c55] hover:scale-95 active:opacity-80 transition-all">notifications</button>
+<div class="w-8 h-8 rounded-full bg-surface-container-high overflow-hidden">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="Portrait of a professional man in a studio" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAL7dK9xT82ePbPqngbjHDVlDQfIzklxDtDzIuBRbzrhgAgF6nolwJpWnLx60HJ5CpaVU0YgcfVYoQOenrXKaQRl7PcSALHEK1dlKJye4TJqJa71oCJF9H4mdcreNGwf8CrwfLKR2_580J316xq-bUqiduMsWbzo4iOCe6DSFf0bGcJh76WyQemeOiN0HR7Bh029WIZYDqJeYcv7fa8gUzTN9btbjm6lsbjKW4UM1obNQp9sntom7prTceEUNrsX8MaIRGuVf09Ek5n"/>
+</div>
+</div>
+</div>
+</header>
+<main class="pt-24 pb-20 px-6">
+<div class="focused-canvas space-y-16">
+<!-- 1. QUIZ HEADER -->
+<section class="text-center space-y-4">
+<div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-secondary-fixed text-primary mb-2">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">quiz</span>
+</div>
+<h1 class="font-headline text-4xl font-extrabold tracking-tight text-primary">Knowledge Check</h1>
+<p class="text-on-surface-variant text-lg">Verify your understanding of this lesson</p>
+<div class="inline-block px-4 py-1.5 bg-surface-container-high rounded-full text-sm font-medium text-on-secondary-container">
+                    2 of 5 questions answered
+                </div>
+</section>
+<!-- 2. CORRECT QUESTION -->
+<section class="space-y-6">
+<div class="space-y-2">
+<span class="text-xs font-bold tracking-widest uppercase text-outline">Question 1</span>
+<h2 class="font-headline text-2xl font-bold leading-tight">Which COP adopted the Glasgow Rulebook?</h2>
+</div>
+<div class="grid gap-3">
+<div class="p-5 rounded-lg bg-surface-container-low text-on-surface-variant border-2 border-transparent">
+                        Option A: COP21 in Paris, 2015
+                    </div>
+<div class="p-5 rounded-lg bg-surface-container-low text-on-surface-variant border-2 border-transparent">
+                        Option B: COP25 in Madrid, 2019
+                    </div>
+<!-- Correct State -->
+<div class="p-5 rounded-lg bg-secondary-fixed text-on-secondary-fixed border-2 border-primary-container flex justify-between items-center shadow-sm">
+<span class="font-semibold">Option C: COP26 in Glasgow, 2021</span>
+<span class="material-symbols-outlined text-primary-container">check_circle</span>
+</div>
+<div class="p-5 rounded-lg bg-surface-container-low text-on-surface-variant border-2 border-transparent">
+                        Option D: COP27 in Sharm El-Sheikh, 2022
+                    </div>
+</div>
+<!-- Explanation Box -->
+<div class="p-6 bg-secondary-fixed/30 rounded-lg border-l-4 border-primary-container flex gap-4">
+<span class="material-symbols-outlined text-primary-container mt-0.5">info</span>
+<div>
+<p class="font-bold text-primary-container mb-1">Correct Explanation</p>
+<p class="text-on-surface-variant leading-relaxed">The Glasgow Climate Pact and the associated Article 6 Rulebook were finalized during COP26, providing the operational guidelines for international carbon markets.</p>
+</div>
+</div>
+</section>
+<!-- 3. UNANSWERED QUESTION -->
+<section class="space-y-6">
+<div class="space-y-2">
+<span class="text-xs font-bold tracking-widest uppercase text-outline">Question 2</span>
+<h2 class="font-headline text-2xl font-bold leading-tight">What reporting system did the Rulebook establish?</h2>
+</div>
+<div class="grid gap-3">
+<button class="text-left p-5 rounded-lg bg-surface-container-lowest border border-outline-variant hover:border-primary transition-colors">
+                        The Global Transparency Index
+                    </button>
+<button class="text-left p-5 rounded-lg bg-surface-container-lowest border border-outline-variant hover:border-primary transition-colors">
+                        Enhanced Transparency Framework (ETF)
+                    </button>
+<button class="text-left p-5 rounded-lg bg-surface-container-lowest border border-outline-variant hover:border-primary transition-colors">
+                        Mandatory Emissions Ledger
+                    </button>
+<button class="text-left p-5 rounded-lg bg-surface-container-lowest border border-outline-variant hover:border-primary transition-colors">
+                        Centralized Accounting Database
+                    </button>
+</div>
+<button class="w-full py-4 rounded-lg bg-gradient-to-br from-primary to-primary-container text-on-primary font-bold text-lg shadow-md hover:opacity-90 transition-all">
+                    Submit Answer
+                </button>
+</section>
+<!-- 4. TRUE/FALSE -->
+<section class="space-y-6">
+<div class="space-y-2">
+<span class="text-xs font-bold tracking-widest uppercase text-outline">Question 3</span>
+<h2 class="font-headline text-2xl font-bold leading-tight text-center italic">"Corresponding adjustments are optional under Article 6.2."</h2>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<button class="flex flex-col items-center justify-center p-8 rounded-lg bg-surface-container-low hover:bg-surface-container-high border border-transparent transition-all group">
+<span class="material-symbols-outlined text-4xl mb-3 text-outline group-hover:text-primary">check</span>
+<span class="font-bold text-xl">True</span>
+</button>
+<button class="flex flex-col items-center justify-center p-8 rounded-lg bg-surface-container-low hover:bg-surface-container-high border border-transparent transition-all group">
+<span class="material-symbols-outlined text-4xl mb-3 text-outline group-hover:text-error">close</span>
+<span class="font-bold text-xl">False</span>
+</button>
+</div>
+</section>
+<!-- 5. MULTI-SELECT -->
+<section class="space-y-6">
+<div class="space-y-2">
+<span class="text-xs font-bold tracking-widest uppercase text-outline">Question 4</span>
+<h2 class="font-headline text-2xl font-bold leading-tight">Select ALL that are valid ITMO transfer requirements.</h2>
+</div>
+<div class="grid gap-3">
+<label class="flex items-center gap-4 p-5 rounded-lg bg-surface-container-lowest border border-outline-variant cursor-pointer hover:bg-surface-container-low transition-colors">
+<input checked="" class="w-6 h-6 rounded text-primary-container focus:ring-primary" type="checkbox"/>
+<span class="text-on-surface">Authorization by participating parties</span>
+</label>
+<label class="flex items-center gap-4 p-5 rounded-lg bg-secondary-fixed/50 border-2 border-primary-container cursor-pointer transition-colors">
+<input checked="" class="w-6 h-6 rounded text-primary-container focus:ring-primary" type="checkbox"/>
+<span class="text-on-surface font-semibold">Avoidance of double counting</span>
+</label>
+<label class="flex items-center gap-4 p-5 rounded-lg bg-surface-container-lowest border border-outline-variant cursor-pointer hover:bg-surface-container-low transition-colors">
+<input class="w-6 h-6 rounded text-primary-container focus:ring-primary" type="checkbox"/>
+<span class="text-on-surface">Promotion of sustainable development</span>
+</label>
+<label class="flex items-center gap-4 p-5 rounded-lg bg-secondary-fixed/50 border-2 border-primary-container cursor-pointer transition-colors">
+<input checked="" class="w-6 h-6 rounded text-primary-container focus:ring-primary" type="checkbox"/>
+<span class="text-on-surface font-semibold">Real, verified emission reductions</span>
+</label>
+</div>
+</section>
+<!-- 6. MATCHING -->
+<section class="space-y-6">
+<div class="space-y-2">
+<span class="text-xs font-bold tracking-widest uppercase text-outline">Question 5</span>
+<h2 class="font-headline text-2xl font-bold leading-tight">Match each mechanism to its description.</h2>
+</div>
+<div class="relative grid grid-cols-[1fr_2fr] gap-x-12 gap-y-6 p-4">
+<!-- Left Column -->
+<div class="space-y-6">
+<div class="p-4 rounded-lg bg-surface-container-high text-center font-bold relative z-10">Art 6.2</div>
+<div class="p-4 rounded-lg bg-surface-container-high text-center font-bold relative z-10 border-2 border-primary shadow-sm">Art 6.4</div>
+<div class="p-4 rounded-lg bg-surface-container-high text-center font-bold relative z-10">Art 6.8</div>
+</div>
+<!-- Right Column -->
+<div class="space-y-6">
+<div class="p-4 rounded-lg bg-surface-container-lowest border border-outline-variant text-sm relative z-10">Non-market approaches for cooperation and mitigation.</div>
+<div class="p-4 rounded-lg bg-surface-container-lowest border-2 border-primary text-sm relative z-10 shadow-sm">Centralized mechanism for crediting emission reductions.</div>
+<div class="p-4 rounded-lg bg-surface-container-lowest border border-outline-variant text-sm relative z-10">Bilateral or multilateral cooperative approaches between countries.</div>
+</div>
+<!-- Connection Line (SVG) -->
+<svg class="absolute top-0 left-0 w-full h-full pointer-events-none opacity-40" xmlns="http://www.w3.org/2000/svg">
+<line stroke="#00433d" stroke-dasharray="8 4" stroke-width="3" x1="33%" x2="66%" y1="50%" y2="50%"></line>
+</svg>
+</div>
+</section>
+<!-- 7. NAVIGATION -->
+<section class="pt-8 border-t border-outline-variant/20 space-y-8">
+<button class="w-full py-4 rounded-lg bg-primary-container text-on-primary font-bold text-lg hover:shadow-lg transition-all flex items-center justify-center gap-2">
+                    Mark Complete and Continue
+                    <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<div class="grid grid-cols-2 gap-4">
+<a class="p-4 rounded-lg bg-surface-container-low flex items-center gap-3 group" href="#">
+<span class="material-symbols-outlined text-outline group-hover:text-primary">chevron_left</span>
+<div>
+<span class="block text-xs uppercase tracking-widest text-on-surface-variant font-bold">Previous</span>
+<span class="font-bold text-sm">Paris Agreement Overview</span>
+</div>
+</a>
+<a class="p-4 rounded-lg bg-surface-container-low flex items-center justify-end gap-3 group text-right" href="#">
+<div>
+<span class="block text-xs uppercase tracking-widest text-on-surface-variant font-bold">Next</span>
+<span class="font-bold text-sm">Article 6 Deep-Dive</span>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary">chevron_right</span>
+</a>
+</div>
+</section>
+<!-- 8. SUMMARY CARD -->
+<section class="p-10 rounded-xl bg-surface-container-low border border-outline-variant/30 flex flex-col items-center text-center space-y-6">
+<div class="relative w-32 h-32">
+<!-- Progress Ring -->
+<svg class="w-full h-full" viewbox="0 0 100 100">
+<circle class="text-surface-container-highest" cx="50" cy="50" fill="transparent" r="42" stroke="currentColor" stroke-width="8"></circle>
+<circle class="text-primary" cx="50" cy="50" fill="transparent" r="42" stroke="currentColor" stroke-dasharray="264" stroke-dashoffset="52.8" stroke-linecap="round" stroke-width="8" transform="rotate(-90 50 50)"></circle>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center">
+<span class="text-2xl font-black text-primary">80%</span>
+<span class="text-[10px] uppercase font-bold text-on-surface-variant">Score</span>
+</div>
+</div>
+<div class="space-y-2">
+<h3 class="font-headline text-3xl font-extrabold text-primary">Quiz Complete!</h3>
+<p class="text-on-surface-variant max-w-xs mx-auto">You've successfully demonstrated proficiency in the Glasgow Rulebook fundamentals.</p>
+</div>
+<div class="flex items-center gap-2 text-primary-container font-bold">
+<span class="material-symbols-outlined">check_circle</span>
+                    4/5 Correct
+                </div>
+<a class="text-sm font-bold text-on-surface-variant underline hover:text-primary transition-colors" href="#">Reset Quiz</a>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 mt-20 bg-[#f2f4f3] dark:bg-[#191c1c]">
+<div class="max-w-[750px] mx-auto flex flex-col items-center gap-4 px-6 text-center font-['Inter'] text-sm leading-relaxed">
+<p class="text-[#005c55] font-bold">© 2024 Greentryst Sustainability Academy. The Living Archive.</p>
+<div class="flex gap-6">
+<a class="text-[#4e6864] hover:text-[#00433d] transition-colors" href="#">Ethics</a>
+<a class="text-[#4e6864] hover:text-[#00433d] transition-colors" href="#">Privacy</a>
+<a class="text-[#4e6864] hover:text-[#00433d] transition-colors" href="#">Citations</a>
+</div>
+</div>
+</footer>
+</body></html>

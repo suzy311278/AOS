@@ -1,0 +1,26 @@
+- question: "ILO Convention No. 190 on Violence and Harassment (2019) is significant because it was the first international labour standard to do what?"
+  options:
+  - "Establish equal pay requirements for men and women across all sectors"
+  - "Require mandatory gender pay gap reporting for companies above a certain size"
+  - "Specifically address violence and harassment in the world of work, recognizing that GBVH disproportionately affects women"
+  - "Create a binding obligation for all companies to adopt a formal gender equality policy"
+  answer: 2
+  explanation: "ILO Convention 190 (2019) is the first international labour standard specifically addressing violence and harassment in the world of work. It defines violence and harassment broadly to include physical, psychological, and sexual forms, and explicitly recognizes that gender-based violence and harassment disproportionately affects women."
+
+- question: "What does 'intersectionality' mean in the context of supply chain gender risk assessment?"
+  options:
+  - "The way different human rights issues (forced labour, child labour, discrimination) interact with each other in the same facility"
+  - "The way gender interacts with other characteristics such as migration status, ethnicity, caste, and age to create compounded vulnerabilities for specific groups"
+  - "The method of cross-checking audit findings with worker survey data to verify consistency"
+  - "The requirement to assess both the upstream and downstream supply chain for gender risks"
+  answer: 1
+  explanation: "Intersectionality refers to how gender interacts with other characteristics - including migration status, ethnicity, caste, disability, and age - to create qualitatively different and often compounded vulnerabilities. A migrant woman worker faces a different set of risks than a local woman worker or a migrant man worker. Intersectional analysis identifies who specifically is most at risk and why."
+
+- question: "Which of the following is an example of a gender-responsive improvement to a supplier grievance mechanism?"
+  options:
+  - "Translating the grievance procedure document into the local language"
+  - "Ensuring grievance mechanisms include channels women trust, such as women-led confidential reporting lines, and deploying female auditors to conduct worker interviews with women"
+  - "Requiring suppliers to report the total number of grievances received by gender each year"
+  - "Including a question about gender discrimination in the standard supplier self-assessment questionnaire"
+  answer: 1
+  explanation: "Gender-responsive grievance mechanisms require structural changes, not just language translations. Women workers are more likely to disclose GBVH and other gender-related violations to female interviewers and through channels they trust - such as women-led confidential hotlines or partnerships with women-led NGOs - rather than through standard channels that may be controlled by supervisors who are the subject of complaints."

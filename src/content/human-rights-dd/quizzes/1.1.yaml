@@ -1,0 +1,26 @@
+- question: "According to UNGP Principle 17, which of the following is NOT a characteristic of human rights due diligence?"
+  options:
+  - "It should cover a business enterprise's own activities and its business relationships"
+  - "It should be an ongoing process rather than a one-time exercise"
+  - "It should address both actual and potential adverse impacts"
+  - "It should be limited to the enterprise's direct employees only"
+  answer: 3
+  explanation: "UNGP Principle 17 explicitly states that HRDD should cover a business enterprise's own activities AND its business relationships, including entities in its value chain such as suppliers, joint venture partners, and customers. Limiting due diligence to direct employees alone would leave the vast majority of supply chain risks unaddressed."
+
+- question: "What is the primary factor in determining whether a human rights issue is 'salient' for a business enterprise?"
+  options:
+  - "The likelihood that an impact will occur"
+  - "The cost of addressing the impact"
+  - "The severity of the potential impact, assessed by scale, scope, and remediability"
+  - "Whether the impact has been reported by a major news outlet"
+  answer: 2
+  explanation: "Severity is the primary determinant of salience. A human rights impact is severe if it is widespread in scale, grave in nature, or difficult or impossible to remedy. For potential impacts, likelihood is also considered, but severity takes precedence. This prioritisation ensures that due diligence resources focus on where harms to people would be most serious."
+
+- question: "Which of the following best describes the key difference between HRDD and legal or financial due diligence?"
+  options:
+  - "HRDD is only applicable to companies in high-risk sectors, while legal due diligence applies universally"
+  - "HRDD focuses on risks to people (rightsholders), is ongoing, and uses stakeholder engagement, whereas legal and financial due diligence is primarily one-time, transaction-driven, and focused on risks to the company"
+  - "HRDD is a statutory requirement under all national legal systems, while financial due diligence is voluntary"
+  - "There is no meaningful difference; HRDD is simply a type of legal due diligence"
+  answer: 1
+  explanation: "HRDD fundamentally differs from legal and financial due diligence in its primary focus (risks to people rather than risks to the company), its ongoing nature (continuous rather than transaction-based), and its methodology (stakeholder engagement, impact assessment, and international human rights standards rather than document review and financial analysis)."

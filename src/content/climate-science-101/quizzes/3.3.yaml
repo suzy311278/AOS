@@ -1,0 +1,26 @@
+- question: "According to IPCC AR6 WGI, by how much faster is the Arctic warming compared to the global average?"
+  options:
+    - "The Arctic is warming at the same rate as the global average"
+    - "The Arctic is warming about 1.5 times the global average rate"
+    - "The Arctic is warming more than twice the global average rate"
+    - "The Arctic is warming about five times the global average rate"
+  answer: 2
+  explanation: "IPCC AR6 WGI states with virtual certainty that the Arctic will continue to warm more than global surface temperature, with high confidence above two times the rate of global warming. This phenomenon is known as Arctic Amplification and is driven by feedbacks including sea ice loss, which replaces highly reflective ice with dark ocean water that absorbs more solar radiation."
+
+- question: "What is the primary near-term risk posed by Himalayan glacier retreat to South Asian populations, and what is the longer-term risk?"
+  options:
+    - "Near-term: less irrigation water; Longer-term: increased flooding from monsoon intensification"
+    - "Near-term: increased flooding and glacial lake outburst floods; Longer-term: reduced dry-season water availability for rivers fed by glacial melt"
+    - "Near-term: sea level rise; Longer-term: saltwater intrusion into delta farmland"
+    - "Near-term: permafrost thaw; Longer-term: methane release and accelerated warming"
+  answer: 1
+  explanation: "In the near term, accelerating glacier melt increases river flows and elevates flood risk, including glacial lake outburst floods (GLOFs). In the longer term, as glaciers shrink, the seasonal melt contribution to rivers during the dry season diminishes, threatening water availability for drinking, agriculture, and hydropower for hundreds of millions of people across South and Southeast Asia."
+
+- question: "Why do Small Island Developing States face 'hard adaptation limits' from sea level rise, according to IPCC AR6 WGII?"
+  options:
+    - "They lack the financial resources to build sea walls, but taller sea walls could protect them if funded"
+    - "Their coral reefs are dying, removing the natural coastal protection that previously buffered wave energy"
+    - "For some low-lying atolls, no adaptation measure can prevent unacceptable loss of land, freshwater, and ultimately the homeland itself as sea levels rise"
+    - "They have too small a population to organise effective government responses to climate risk"
+  answer: 2
+  explanation: "Hard adaptation limits are points at which no adaptive action can prevent intolerable risks. For low-lying Pacific atolls that sit only 1-2 metres above sea level, projected sea level rise combined with more intense storm surges means that even the most ambitious engineering interventions cannot prevent the eventual loss of land, freshwater supplies, and habitability. This represents a qualitatively different kind of risk from regions that face serious harm but retain the physical capacity to adapt."

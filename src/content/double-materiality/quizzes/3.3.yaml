@@ -1,0 +1,26 @@
+- question: "Under ESRS 1, how do the assessment criteria differ for actual negative impacts compared to potential negative impacts?"
+  options:
+    - "Both actual and potential negative impacts are assessed using severity and likelihood equally"
+    - "Actual negative impacts are assessed based on severity alone; potential negative impacts are assessed based on both severity and likelihood"
+    - "Actual negative impacts use only likelihood; potential negative impacts use only severity"
+    - "There is no difference; the same criteria apply to both"
+  answer: 1
+  explanation: "ESRS 1 paragraph 45 states that for actual negative impacts, materiality is based on the severity of the impact, while for potential negative impacts it is based on both the severity and likelihood of the impact."
+
+- question: "ESRS 1 paragraph 42 requires undertakings to apply appropriate thresholds when assessing materiality. Which statement best describes these thresholds?"
+  options:
+    - "ESRS 1 prescribes specific numerical thresholds that all undertakings must use"
+    - "Thresholds can be quantitative or qualitative and are set by the undertaking based on its specific facts and circumstances, using judgement"
+    - "Thresholds must be set by an external auditor and approved by regulators"
+    - "Only quantitative monetary thresholds may be used for financial materiality"
+  answer: 1
+  explanation: "ESRS 1 paragraph 42 states the undertaking applies criteria using appropriate quantitative and/or qualitative thresholds. EFRAG IG1 paragraph 27 confirms that ESRS 1 sets criteria but not specific thresholds, so the undertaking needs to set thresholds based on ESRS 1 criteria as well as its own specific facts and circumstances."
+
+- question: "EFRAG IG1 paragraph 26 addresses what happens when an undertaking has identified material IROs but has not yet taken any actions to address them. What does it require?"
+  options:
+    - "The undertaking may exclude those IROs from its report until actions are in place"
+    - "The undertaking must still include those material IROs in its report; the absence of actions is itself useful information that must be disclosed"
+    - "The undertaking is permitted to delay reporting those IROs for up to three years"
+    - "The undertaking must obtain regulatory approval before reporting unaddressed material IROs"
+  answer: 1
+  explanation: "EFRAG IG1 paragraph 26 states that the assessment should not exclude any material IROs, particularly when the undertaking has not addressed or fully addressed these material IROs through its policies, targets and action plans. This is useful information and shall be included irrespective of whether actions have been taken or are planned."

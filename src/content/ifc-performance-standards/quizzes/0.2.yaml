@@ -1,0 +1,35 @@
+- question: "What are the three parts of IFC's Sustainability Framework?"
+  options:
+    - "Performance Standards, Equator Principles, Green Bond Principles"
+    - "Policy on Environmental and Social Sustainability, Performance Standards, Access to Information Policy"
+    - "Environmental Guidelines, Social Guidelines, Governance Guidelines"
+    - "Risk Assessment Framework, Monitoring Protocol, Reporting Standards"
+  answer: 1
+  explanation: "IFC's Sustainability Framework has three parts: the Policy on Environmental and Social Sustainability (IFC's own commitments), the Performance Standards (client requirements), and the Access to Information Policy (disclosure rules)."
+
+- question: "What is the role of the EHS Guidelines in relation to the Performance Standards?"
+  options:
+    - "They replace the Performance Standards for industrial projects"
+    - "They provide technical reference on good international industry practice for specific sectors"
+    - "They are optional supplementary reading with no binding status"
+    - "They apply only to projects in developing countries"
+  answer: 1
+  explanation: "The Environmental, Health, and Safety (EHS) Guidelines provide detailed technical guidance on good international industry practice. PS 3 specifically requires clients to refer to the applicable EHS Guidelines for pollution prevention and control measures."
+
+- question: "Are IFC's Guidance Notes legally binding on clients?"
+  options:
+    - "Yes, they have the same binding status as the Performance Standards"
+    - "No, they provide non-binding guidance on how to meet the Performance Standards"
+    - "Only when referenced in the loan agreement"
+    - "Only for Category A projects"
+  answer: 1
+  explanation: "The Guidance Notes are non-binding. They provide guidance on how to meet the Performance Standards but do not create additional requirements. The Performance Standards themselves are the binding requirements for clients."
+
+- question: "When did the current version of the IFC Performance Standards take effect?"
+  options:
+    - "January 1, 2006"
+    - "January 1, 2012"
+    - "January 1, 2016"
+    - "January 1, 2020"
+  answer: 1
+  explanation: "The current version of the IFC Performance Standards took effect on January 1, 2012, replacing the 2006 version. They have remained in force since then."

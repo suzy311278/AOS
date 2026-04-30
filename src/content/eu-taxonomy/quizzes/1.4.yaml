@@ -1,0 +1,17 @@
+- question: "At what level are minimum safeguards assessed?"
+  options:
+    - "At the individual activity level"
+    - "At the product level"
+    - "At the company level"
+    - "At the country level"
+  answer: 2
+  explanation: "Minimum safeguards apply at the company level. A human rights violation in one part of the business affects the taxonomy alignment status of all activities."
+
+- question: "Which of the following is NOT one of the frameworks referenced by minimum safeguards?"
+  options:
+    - "OECD Guidelines for Multinational Enterprises"
+    - "UN Guiding Principles on Business and Human Rights"
+    - "Paris Agreement"
+    - "ILO Declaration on Fundamental Principles and Rights at Work"
+  answer: 2
+  explanation: "The Paris Agreement is referenced by the environmental objectives, not the minimum safeguards. Safeguards reference OECD Guidelines, UN Guiding Principles, ILO conventions, and the International Bill of Human Rights."

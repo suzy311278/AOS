@@ -1,0 +1,26 @@
+- question: "Which of the following is a compliance carbon market that specifically covers international aviation emissions?"
+  options:
+    - "EU ETS Phase IV"
+    - "CORSIA"
+    - "Gold Standard VER Program"
+    - "California-Quebec Cap-and-Trade"
+  answer: 1
+  explanation: "CORSIA (Carbon Offsetting and Reduction Scheme for International Aviation) is administered by ICAO and requires international airlines to offset emissions above their 2019 baseline levels. It accepts eligible offset credits from approved programs including Verra VCS and Gold Standard."
+
+- question: "What is a 'corresponding adjustment' under Article 6 of the Paris Agreement?"
+  options:
+    - "A price adjustment made by carbon credit buyers to account for exchange rate fluctuations"
+    - "An upward adjustment to a host country's emissions accounting when it transfers a mitigation outcome to another country"
+    - "A quality rating adjustment applied to credits that fail ICVCM verification"
+    - "A discount given to developing countries purchasing carbon credits from compliance markets"
+  answer: 1
+  explanation: "A corresponding adjustment ensures that when Country A uses an emission reduction achieved in Country B toward its own climate target, Country B adds that reduction back to its own emissions total. This prevents the same tonne of CO2 reduction from being counted by two countries simultaneously."
+
+- question: "What most distinguishes voluntary carbon markets from compliance markets?"
+  options:
+    - "Voluntary markets only accept nature-based credits; compliance markets accept all credit types"
+    - "Compliance markets are mandatory for regulated entities; voluntary markets are driven by corporate climate commitments and are optional"
+    - "Voluntary markets are regulated by the UNFCCC; compliance markets are regulated by national governments"
+    - "Compliance credits are cheaper than voluntary credits because they benefit from government subsidies"
+  answer: 1
+  explanation: "The defining distinction is participation: regulated entities in a compliance market must surrender allowances or offsets by law. Voluntary market participants choose to purchase credits to meet self-imposed climate goals such as net-zero commitments or carbon neutrality targets, with no legal obligation to do so."

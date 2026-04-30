@@ -1,0 +1,44 @@
+- question: "According to a rigorous approach to monitoring fund manager performance, which of the following is LEAST likely to be treated as a primary cause for concern?"
+  options:
+    - "Persistent failure to follow the agreed investment approach"
+    - "Short-term underperformance against the benchmark in a specific market environment"
+    - "A change in the fund manager's investment style that is inconsistent with the mandate"
+    - "Organisational instability or the departure of key investment personnel"
+  answer: 1
+  explanation: "Short-term underperformance in specific market conditions is explicitly identified as being of limited significance in evaluating a manager, provided the investment approach remains consistent with what was agreed. What matters far more is whether the manager is consistently following the investment process they were hired to deliver. Style drift, personnel changes, and organisational instability are much more concerning signals."
+
+- question: "Why do sophisticated asset owners prefer to identify specific ESG outlier holdings themselves — rather than letting the fund manager select the case studies for review meetings?"
+  options:
+    - "Because the client is legally required to select the holdings that are discussed in each review meeting"
+    - "Because allowing the manager to choose which cases are discussed may lead to a curated presentation that puts the manager's approach in the best light"
+    - "Because the client's investment team will always have better ESG data on individual holdings than the fund manager"
+    - "Because discussing specific holdings violates the confidentiality provisions of the investment management agreement"
+  answer: 1
+  explanation: "If the fund manager selects which investment cases to present, they will naturally choose examples where their ESG reasoning is most defensible. By identifying specific holdings that look questionable from an ESG perspective themselves — particularly companies with weak ESG profiles — clients can test whether the manager's ESG integration is genuinely robust or whether it has blind spots. This approach makes it much harder to conceal weaknesses in the investment process."
+
+- question: "Weighted Average Carbon Intensity (WACI) is a portfolio metric that measures:"
+  options:
+    - "The total tonnes of carbon dioxide equivalent emitted by all companies in the portfolio in a given year"
+    - "The portfolio's exposure to carbon pricing risk, measured as a percentage of portfolio value"
+    - "The portfolio's weighted share of investee companies' carbon emissions relative to their revenue, providing a carbon efficiency measure"
+    - "The number of high-carbon companies in the portfolio relative to the number in the benchmark"
+  answer: 2
+  explanation: "WACI measures the carbon intensity of a portfolio on a revenue-weighted basis. For each holding, carbon emissions are divided by revenue to produce a carbon intensity figure (tCO₂e per million dollars of revenue). These are then aggregated across the portfolio using portfolio weights. WACI allows comparison of carbon efficiency across portfolios of different sizes and compositions, and against a benchmark."
+
+- question: "According to the ICGN Model Mandate framework, what are the two specific ESG disclosures that fund managers should be required to produce?"
+  options:
+    - "An annual marketing report on the ESG profile of the portfolio and a quarterly fee disclosure showing ESG research costs"
+    - "The manager's assessment of ESG risks embedded in the portfolio, and a detailed disclosure of stewardship engagement and voting activity as separate elements"
+    - "A carbon footprint report for the portfolio and a report showing compliance with all applicable ESG regulations"
+    - "A list of all companies engaged during the year and a complete record of all proxy votes cast"
+  answer: 1
+  explanation: "The ICGN Model Mandate identifies two distinct ESG disclosure requirements: (1) the manager's own assessment of the ESG risks embedded in the portfolio — demonstrating genuine ESG investment credentials; and (2) a detailed disclosure of stewardship engagement and voting activity as separate elements. The ICGN explicitly notes that disclosure of voting activity alone does not satisfy the stewardship disclosure requirement — engagement must be separately and substantively reported."
+
+- question: "Why is attributing financial performance to a fund manager's engagement programme particularly challenging, compared to attributing performance to a screening exclusion?"
+  options:
+    - "Engagement meetings are conducted privately and cannot be publicly disclosed"
+    - "Fund managers are not permitted to engage with companies in which they hold equity"
+    - "Engagement effects are long-term, causation is very hard to isolate from other factors, and any changes ultimately result from board decisions rather than from investor pressure alone"
+    - "Portfolio analytics tools do not currently include engagement tracking functionality"
+  answer: 2
+  explanation: "Measuring the performance impact of screening exclusions is relatively tractable — you can compare returns with and without the excluded sector. Engagement attribution is far harder: outcomes typically take years to materialise; even when a company improves, the investor's specific causal contribution cannot be reliably separated from other influences (management strategy, market pressure, regulatory change); and ultimately it is the company's board that makes decisions, not the investor. Correlation between engagement objectives and company behaviour is not the same as causation."

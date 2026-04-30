@@ -1,0 +1,54 @@
+IPCC Special Report: Global Warming of 1.5°C
+Summary for Policymakers - Key Findings
+Approved: October 6, 2018
+Source: https://www.ipcc.ch/sr15/chapter/spm/
+
+DOCUMENT OVERVIEW:
+This is the Summary for Policymakers from the IPCC's Special Report on Global Warming of 1.5°C, approved October 6, 2018. The report assesses scientific literature on climate impacts at 1.5°C versus 2°C warming above pre-industrial levels.
+
+CURRENT WARMING STATUS:
+Human activities have caused approximately 1.0°C of warming above pre-industrial levels (likely range: 0.8-1.2°C). At current rates, the world will reach 1.5°C warming between 2030 and 2052.
+
+CLIMATE IMPACTS COMPARISON (1.5°C vs 2°C):
+
+Biodiversity risks: Of 105,000 species studied, 6% of insects, 8% of plants, and 4% of vertebrates face losing half their geographic range at 1.5°C, compared to 18%, 16%, and 8% respectively at 2°C.
+
+Sea level rise: By 2100, sea levels are projected 0.1 meter lower with 1.5°C warming versus 2°C, potentially reducing exposure for approximately 10 million people.
+
+Arctic sea ice: A sea ice-free Arctic summer occurs roughly once per century at 1.5°C, but at least once per decade at 2°C.
+
+Coral reefs: Projected to decline by 70-90% at 1.5°C, with losses exceeding 99% at 2°C.
+
+Health and Food Security: Lower heat-related mortality risks occur at 1.5°C compared to 2°C. Food yield reductions for maize, rice, and wheat are smaller at 1.5°C, particularly benefiting sub-Saharan Africa and Southeast Asia.
+
+EMISSION REDUCTION PATHWAYS:
+
+Required CO2 Reductions:
+Pathways limiting warming to 1.5°C with no overshoot require approximately 45% reduction in global CO2 emissions by 2030 (compared to 2010 levels), reaching net zero around 2050.
+
+Energy System Transformation:
+- Renewables projected to supply 70-85% of electricity by 2050
+- Coal use reduced to near 0% (0-2% range)
+- Gas generation limited to approximately 8% (3-11% range)
+
+Carbon Dioxide Removal (CDR):
+All 1.5°C pathways require CDR deployment of 100-1,000 GtCO2 over the 21st century to compensate for residual emissions.
+
+ECONOMIC CONSIDERATIONS:
+Annual energy-related investments needed for 2016-2050 period: approximately $830 billion USD (2010 values) (range: $150-1,700 billion) above baseline scenarios. This represents roughly 2.5% of global GDP. Marginal abatement costs are roughly 3-4 times higher than 2°C pathways.
+
+SUSTAINABLE DEVELOPMENT LINKS:
+
+Synergies: 1.5°C pathways show strong positive interactions with SDGs 3 (health), 7 (clean energy), 11 (sustainable cities), 12 (responsible consumption), and 14 (oceans).
+
+Trade-offs: Potential conflicts exist with SDGs 1 (poverty), 2 (hunger), 6 (water), and 7 (energy access) if mitigation measures are not carefully managed.
+
+ADAPTATION CHALLENGES:
+Adaptation needs are lower at 1.5°C than 2°C, but limits exist for some ecosystems and human systems even at 1.5°C warming. Vulnerable regions, including small island states and least developed countries, face substantial risks.
+
+SYSTEMIC TRANSITIONS REQUIRED:
+Limiting warming to 1.5°C demands "rapid and far-reaching transitions" in energy systems, land use, urban infrastructure, and industrial processes. These changes are "unprecedented in terms of scale," though comparable rates have occurred in specific sectors historically.
+
+Report Date: October 6, 2018
+Assessment Period: Literature accepted through May 15, 2018
+Confidence Levels: High, medium, or low confidence assessments accompany each key finding

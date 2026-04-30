@@ -1,0 +1,26 @@
+- question: "How many total ESG Key Issues does the MSCI model contain?"
+  options:
+    - "22"
+    - "27"
+    - "33"
+    - "50"
+  answer: 2
+  explanation: "The MSCI ESG Ratings model contains 33 ESG Key Issues in total, organised across 3 pillars and 10 themes, as shown in Exhibit 1 of the MSCI methodology."
+
+- question: "Which set of key issues is applied universally to all companies in all industries under the MSCI framework?"
+  options:
+    - "Carbon Emissions, Water Stress, and Health and Safety"
+    - "The six Governance Key Issues: Board, Pay, Ownership and Control, Accounting, Business Ethics, and Tax Transparency"
+    - "All 33 key issues, because MSCI applies the same framework to every company"
+    - "The Environmental Opportunities key issues, because all companies have clean energy opportunities"
+  answer: 1
+  explanation: "All companies in all industries are evaluated on the six Governance Key Issues across the Corporate Governance and Corporate Behavior themes. MSCI's view is that governance is universally important regardless of industry."
+
+- question: "Under which circumstances can a Company-Specific Key Issue be added to a company's MSCI analysis?"
+  options:
+    - "Only when a company voluntarily requests an additional key issue be assessed"
+    - "Never: key issues are fixed for each sub-industry and cannot be changed for individual companies"
+    - "In cases such as: the company derives significant revenue from a secondary industry, has a large footprint in a secondary industry, has a unique business model, or faces a severe controversy on a non-key issue"
+    - "Whenever a company's overall ESG Rating drops below BB"
+  answer: 2
+  explanation: "Company-Specific Key Issues can be added in four scenarios documented in Exhibit 7a of the MSCI methodology: the company sources significant revenue from a secondary industry, has a large footprint in a secondary industry, has a unique business model (requiring committee approval), or faces a severe or very severe controversy on a non-key issue."

@@ -1,0 +1,35 @@
+- question: "How many cross-industry metric categories does IFRS S2 require all entities to disclose?"
+  options:
+    - "3"
+    - "5"
+    - "7"
+    - "15"
+  answer: 2
+  explanation: "IFRS S2 paragraph 29 requires all entities to disclose seven cross-industry metric categories: (a) greenhouse gases, (b) transition risk exposure, (c) physical risk exposure, (d) climate-related opportunities, (e) capital deployment, (f) internal carbon prices, and (g) remuneration."
+
+- question: "Which of the following is NOT one of the seven greenhouse gases covered by IFRS S2?"
+  options:
+    - "Methane (CH₄)"
+    - "Sulphur hexafluoride (SF₆)"
+    - "Ozone (O₃)"
+    - "Nitrous oxide (N₂O)"
+  answer: 2
+  explanation: "IFRS S2 covers the seven Kyoto Protocol greenhouse gases: CO₂, CH₄, N₂O, HFCs, NF₃, PFCs, and SF₆. Ozone (O₃) is not one of the seven covered gases."
+
+- question: "What is the materiality threshold in IFRS S2 for deciding whether to disclose climate information?"
+  options:
+    - "Any climate risk that could affect more than 5% of revenue"
+    - "Information that, if omitted or misstated, could reasonably be expected to influence decisions by primary users"
+    - "Any climate risk that the board has discussed in the reporting period"
+    - "All Scope 1, 2, and 3 emissions regardless of materiality"
+  answer: 1
+  explanation: "IFRS S2 uses the same materiality concept as IFRS S1: information is material if omitting, misstating, or obscuring it could reasonably be expected to influence the decisions of primary users of general purpose financial reports."
+
+- question: "Which two IFRS S2 definitions together define an entity's total emissions footprint?"
+  options:
+    - "Physical risks and transition risks"
+    - "Scope 1, Scope 2, and Scope 3 GHG emissions"
+    - "Financed emissions and internal carbon price"
+    - "GWP and CO₂ equivalent"
+  answer: 1
+  explanation: "Scope 1 (direct emissions), Scope 2 (purchased energy), and Scope 3 (value chain) together define the complete GHG footprint of an entity under the GHG Protocol and IFRS S2."

@@ -1,0 +1,26 @@
+- question: "What is the correct sequence of steps in the mitigation hierarchy?"
+  options:
+  - "Restore, minimize, avoid, offset"
+  - "Avoid, minimize, restore, offset"
+  - "Offset, avoid, restore, minimize"
+  - "Minimize, avoid, offset, restore"
+  answer: 1
+  explanation: "The mitigation hierarchy must be applied in sequence: first Avoid impacts by choosing alternative sites or designs, then Minimize unavoidable impacts through design modifications, then Restore affected habitats, and only then Offset residual impacts. The steps cannot be skipped or reordered."
+
+- question: "Under IFC Performance Standard 6, which category of area carries the most stringent protection requirements?"
+  options:
+  - "Natural Habitats"
+  - "Cultural Heritage Sites"
+  - "Critical Habitats"
+  - "Buffer Zones"
+  answer: 2
+  explanation: "Critical Habitats, which include Key Biodiversity Areas and IUCN Category I-II protected areas, require no net loss of biodiversity values and may prohibit certain activities entirely. They carry the most stringent requirements under IFC PS6."
+
+- question: "The Brumadinho tailings dam collapse in Brazil (2019) resulted in Vale paying approximately how much in fines, compensation, and remediation?"
+  options:
+  - "USD 500 million"
+  - "USD 2 billion"
+  - "USD 7 billion"
+  - "USD 20 billion"
+  answer: 2
+  explanation: "The 2019 Brumadinho tailings dam collapse resulted in Vale paying over BRL 37 billion (approximately USD 7 billion) in fines, compensation, and remediation costs, illustrating the scale of financial liability that nature-related incidents can generate in the extractives sector."

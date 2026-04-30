@@ -1,0 +1,137 @@
+{/* source: PCAF Standard Part A (3rd Edition), Chapter 5 (all asset classes, Options 1-3) */}
+
+Across all ten asset classes in the PCAF Standard, financial institutions encounter a common set of data challenges. No financial institution starts its financed emissions journey with perfect, company-reported emissions for every borrower and investee. The standard is designed to accommodate this reality, providing a structured approach to estimation that encourages improvement over time.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/financed-emissions/4_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## The Three Core Data Challenges
+
+### 1. Unavailability of Company-Reported Emissions
+
+The majority of companies in most lending portfolios do not publicly report their GHG emissions. This is especially true for:
+
+- **Small and medium enterprises (SMEs)**: Private companies with fewer than 250 employees rarely have sustainability reporting programmes, even in developed markets
+- **Emerging market companies**: Corporate climate disclosure rates are significantly lower in Asia, Africa, Latin America, and the Middle East compared to Western Europe and North America
+- **Single-bank borrowers**: Companies that do not access public capital markets have no external pressure to disclose emissions
+
+For these borrowers, financial institutions must rely on Option 2 (physical activity data) or Option 3 (economic proxy estimates). The resulting data quality scores (3 to 5) reflect the uncertainty involved.
+
+### 2. Scope 3 Emissions of Borrowers and Investees
+
+Even for companies that publicly report their Scope 1 and 2 emissions, **Scope 3 reporting** (covering the upstream and downstream value chain emissions) is far less consistent. The GHG Protocol defines 15 categories of Scope 3 emissions, and most companies only report a subset of these.
+
+PCAF requires financial institutions to report the Scope 3 emissions of borrowers and investees starting with 2025 reports, but acknowledges that coverage will be partial for many portfolios. PCAF requires Scope 3 financed emissions to be disclosed separately from Scope 1 and 2 financed emissions to maintain transparency about the degree of coverage.
+
+### 3. Data Inconsistency Between Providers
+
+When financial institutions use third-party data providers (Bloomberg, MSCI, Sustainalytics, MSCI, S&P/Trucost, ISS ESG) for company-level emissions, they often find significant discrepancies between providers for the same company. These discrepancies arise from:
+
+- Different boundary definitions (which entities are included in the corporate boundary?)
+- Different estimation methodologies for non-reporting companies
+- Different Scope 3 category coverage
+- Different base years and data collection timelines
+
+<HighlightBox>
+PCAF recommends using the same data provider consistently over time to ensure year-on-year comparability. When switching providers (for example, because of better coverage), financial institutions should recalculate prior year financed emissions using the new provider's data and disclose the impact of this change on the time series.
+</HighlightBox>
+
+## The Estimation Framework in Practice
+
+The Options 1 to 3 framework creates a structured fallback hierarchy that financial institutions apply at the individual borrower/investee level:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Step</th>
+      <th>Question</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Has the company reported verified emissions (aligned with GHG Protocol)?</td>
+      <td>Use directly → Score 1a</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Has the company reported unverified emissions?</td>
+      <td>Use with disclosure of verification status → Score 1b</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Is primary physical activity data available (energy consumption, production volumes)?</td>
+      <td>Estimate using emission factors → Score 2</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Is company-specific financial data (revenue, assets) available?</td>
+      <td>Use sector emission factors per unit of revenue or assets → Score 3</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Is only sector affiliation and outstanding amount available?</td>
+      <td>Use sector-level asset intensity estimates → Score 4 or 5</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+## Proxy Methods and Sector-Level Estimates
+
+For Option 3, proxy methods derive emissions estimates from **economic activity data** combined with sector-level emission intensity coefficients from EEIO databases. The three sub-options offer different trade-offs:
+
+**Option 3a (Revenue-based, Score 3)**: Requires the company's revenue. This is the most company-specific of the three proxy methods and is generally preferred when revenue data is accessible.
+
+<EquationBreakdown
+  title="Option 3a - Revenue-Based Proxy (Score 3)"
+  result="E | Estimated Emissions | Proxy emissions estimate using company revenue and sector intensity, in tCO₂e | blue"
+  inputs="Rev<sub>co</sub> | Company Revenue | The specific company's total annual revenue | green ;; EI<sub>rev</sub> | Sector Emission Intensity | Sector GHG Emissions divided by Sector Revenue, from EEIO databases | amber"
+/>
+
+**Option 3b (Asset-based, Score 4)**: When revenue data is unavailable, this approach is less specific than 3a but captures the scale of the company's operations relative to its sector peers.
+
+<EquationBreakdown
+  title="Option 3b - Asset-Based Proxy (Score 4)"
+  result="E | Estimated Emissions | Proxy emissions estimate using outstanding amount and sector asset intensity, in tCO₂e | blue"
+  inputs="OA | Outstanding Amount | The FI's outstanding loan or investment amount | green ;; EI<sub>assets</sub> | Sector Asset Intensity | Sector GHG Emissions divided by Sector Total Assets, from EEIO databases | amber"
+/>
+
+**Option 3c (Asset-turnover-based, Score 4)**: Bridges between asset and revenue intensity:
+
+<EquationBreakdown
+  title="Option 3c - Asset-Turnover-Based Proxy (Score 4)"
+  result="E | Estimated Emissions | Proxy emissions estimate bridging asset and revenue intensity approaches, in tCO₂e | blue"
+  inputs="OA | Outstanding Amount | The FI's outstanding loan or investment amount | green ;; ATR | Asset Turnover Ratio | Sector average ratio of revenue to total assets | amber ;; EI<sub>rev</sub> | Sector Revenue Intensity | Sector GHG Emissions divided by Sector Revenue, from EEIO databases | violet"
+/>
+
+## Sampling Tests for Estimation Validation
+
+PCAF recommends that financial institutions conduct **sampling tests** to validate the accuracy of proxy-based estimates. A sampling test compares the proxy-estimated emissions for a sample of companies against any directly available data for those same companies. If significant discrepancies emerge, the institution should investigate the cause (wrong sector classification, outdated emission factors, etc.) and adjust its estimation methodology accordingly.
+
+<ExampleBox>
+**Sampling test in practice**
+
+A bank uses Option 3a (revenue-based estimates) for its entire SME portfolio. It then contacts 50 of its largest SME borrowers and requests actual energy bills. For those 50 borrowers, it calculates Option 2 estimates and compares:
+
+Average ratio of Option 3a estimate to Option 2 estimate: 1.35 (Option 3a overestimates by 35%)
+
+The bank applies a sector-specific adjustment factor of 0.74 to its Option 3a estimates going forward for similar borrowers, and discloses the adjustment process and its rationale.
+
+This kind of calibration exercise improves accuracy without requiring full primary data collection for the entire portfolio.
+</ExampleBox>
+
+## EEIO Database Selection and Regional Accuracy
+
+The accuracy of Option 3 estimates depends heavily on the quality and regional specificity of the EEIO database used. Key considerations include:
+
+- **Sector resolution**: A database with 200+ sectors will produce more accurate estimates than one with only 20 broad sectors, especially for companies in industrial or agricultural niches
+- **Regional specificity**: A South-East Asian manufacturing company will have a very different emission intensity from a Western European peer in the same sector. Global averages can introduce systematic bias
+- **Year of data**: EEIO tables are typically two to five years behind the current year. Financial institutions should use the most recent available edition and disclose the base year of the EEIO data used
+
+<AnalogyBox>
+Using a national EEIO average to estimate a specific company's emissions is like using the average height of all adults in a country to estimate the height of a specific individual. It will be a reasonable starting guess for a random person, but it can be very wrong for people at the extremes. The more granular your EEIO data (by sector, sub-sector, and region), the smaller the likely error.
+</AnalogyBox>
+
+<KeyTakeaways items="Most companies in typical lending portfolios do not report emissions - SMEs, emerging market firms, and single-bank borrowers are the biggest data gaps ;; Scope 3 data from borrowers is far less consistent than Scope 1 and 2, even among companies that do report ;; Different third-party data providers often produce significantly different emission estimates for the same company due to varying methodologies ;; Option 3a (revenue-based) is the preferred proxy method when company-specific financial data is available - Options 3b and 3c are less specific fallbacks ;; Conduct sampling tests to validate proxy estimates against actual company data and apply sector-specific adjustment factors where discrepancies are found" />

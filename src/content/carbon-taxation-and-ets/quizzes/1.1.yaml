@@ -1,0 +1,35 @@
+- question: "What is the tax base of a carbon tax?"
+  options:
+    - "Corporate income"
+    - "Carbon content of fuels or direct CO2 emissions"
+    - "Total energy consumption"
+    - "Renewable energy production"
+  answer: 1
+  explanation: "The tax base is what gets taxed. For carbon taxes, this is typically the carbon content of fossil fuels or measured CO2 emissions from facilities."
+
+- question: "Why is upstream regulation (taxing fuel suppliers) often preferred for carbon taxes?"
+  options:
+    - "Fuel suppliers are easier to lobby"
+    - "It covers fewer entities and is administratively simpler"
+    - "Downstream users pay lower prices"
+    - "It only applies to large emitters"
+  answer: 1
+  explanation: "Upstream regulation means taxing a small number of fuel suppliers rather than millions of end users, making administration much simpler while still covering the same emissions."
+
+- question: "Which greenhouse gas is most commonly covered by carbon taxes?"
+  options:
+    - "Methane only"
+    - "CO2 only"
+    - "All Kyoto Protocol gases"
+    - "Water vapor"
+  answer: 1
+  explanation: "Most carbon taxes focus on CO2 from fossil fuel combustion initially, as it is the largest source and easiest to measure. Some expand to other gases over time."
+
+- question: "What is the typical approach for converting non-CO2 greenhouse gases to a common metric?"
+  options:
+    - "They cannot be compared"
+    - "Using Global Warming Potential (GWP) to convert to CO2 equivalent"
+    - "Counting only their mass regardless of warming effect"
+    - "Excluding them entirely"
+  answer: 1
+  explanation: "Non-CO2 gases like methane are converted to CO2 equivalent (CO2e) using their Global Warming Potential, allowing a single carbon price to apply across all gases."

@@ -1,0 +1,35 @@
+- question: "In the VT0008 framework, in what order must the steps be applied?"
+  options:
+  - "Steps 2 and 3 first, then Step 1, then Step 4"
+  - "Step 1 always first, then EITHER Step 2 OR Step 3, then always Step 4"
+  - "All four steps must always be completed in any order"
+  - "Step 4 (common practice) must be done before Steps 2 and 3"
+  answer: 1
+  explanation: "Step 1 (identify alternatives) always comes first. Then the methodology specifies whether Step 2 (barrier) or Step 3 (investment) or both are required. Step 4 (common practice) always comes last."
+
+- question: "A project claims an 'information barrier' — farmers are unaware of the benefits of cover cropping. Which of VT0008's three barrier types is this?"
+  options:
+  - "Financial barrier — relates to capital access"
+  - "Institutional barrier — relates to misaligned incentives"
+  - "Information barrier — lack of awareness of benefits"
+  - "Regulatory barrier — lack of government support"
+  answer: 2
+  explanation: "VT0008 defines information barriers as lack of awareness of financial or non-financial benefits, or low acceptance of new practices due to lack of knowledge. Farmer unawareness of cover cropping benefits fits this category."
+
+- question: "In Step 2d, what must the project demonstrate about carbon credit revenues?"
+  options:
+  - "That carbon credits make the project somewhat more profitable"
+  - "That carbon credits are the only source of revenue for the project"
+  - "That carbon credit revenues are the decisive element in overcoming the identified barrier"
+  - "That carbon credits will be sold at a price above $20/tonne"
+  answer: 2
+  explanation: "VT0008 Step 2d requires demonstrating that carbon credit revenues are 'decisive' in overcoming the barrier — not just helpful. A typical example is a lender conditioning a loan on VCS registration."
+
+- question: "In a high-income country, a proposed alternative involves a practice that violates a local environmental regulation. What does VT0008 say about this alternative?"
+  options:
+  - "It must be retained and analyzed — the project proponent can demonstrate the regulation is not enforced"
+  - "It is eliminated from the analysis — in high-income countries all legal requirements are deemed enforced"
+  - "It can be kept if the project proponent can demonstrate the alternative is financially attractive"
+  - "It is retained only if the regulation was passed more than 5 years ago"
+  answer: 1
+  explanation: "In high-income countries, VT0008 deems all legal requirements to be enforced. Any alternative that violates mandatory laws must be eliminated from Step 1. Only in other countries can non-enforcement be demonstrated."

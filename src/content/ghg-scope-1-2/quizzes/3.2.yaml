@@ -1,0 +1,26 @@
+- question: "An error in a company's GHG inventory overstates Scope 1 emissions by 3% of the total inventory. A verifier reviewing the inventory would most likely classify this error as:"
+  options:
+    - "Material, since any known error must be corrected before the report is published"
+    - "Immaterial, since it falls below the 5% materiality threshold"
+    - "Material, because overstatements are treated more strictly than understatements"
+    - "Cannot be determined without knowing the absolute tCO2e value of the error"
+  answer: 1
+  explanation: "The practical materiality threshold is 5% of the total inventory. An error of 3% falls below this line, so it would be classified as immaterial from a verification standpoint. This does not mean the error should be ignored - it should still be corrected if possible - but it would not trigger a qualified verification opinion."
+
+- question: "A company reports Scope 1 of 25,000 tCO2e and has purchased 5,000 tonnes of carbon offsets. How should the Scope 1 figure appear in their GHG Protocol-conformant report?"
+  options:
+    - "20,000 tCO2e (net of offsets), with the offset purchase documented"
+    - "25,000 tCO2e (gross), with offsets disclosed in a separate section"
+    - "25,000 tCO2e (gross), minus offsets in a footnote showing 20,000 tCO2e net"
+    - "Either 20,000 or 25,000 tCO2e, at the company's discretion"
+  answer: 1
+  explanation: "The GHG Protocol requires that Scope 1 and Scope 2 be reported as gross figures, independent of any GHG trades or offsets. Offsets represent emission reductions happening elsewhere - they do not change what your operations actually emitted. The 5,000 tonnes of offsets are disclosed separately, outside the scope totals."
+
+- question: "A company is preparing for its first third-party GHG verification. Its consultant recommends limited assurance. What does a limited assurance opinion actually state?"
+  options:
+    - "The inventory is accurate and free from material misstatement"
+    - "Nothing has come to the verifier's attention suggesting the inventory is materially wrong"
+    - "The methodology is sound but the data has not been independently verified"
+    - "The inventory is provisionally accepted pending site visits and detailed data testing"
+  answer: 1
+  explanation: "Limited assurance (negative assurance) means the verifier conducted procedures - typically a desk review, methodology check, and data sampling - and found no evidence of material misstatement. It does not positively confirm accuracy the way reasonable assurance does. Most voluntary reporting starts with limited assurance because it is less expensive and less intensive than reasonable assurance."

@@ -1,0 +1,35 @@
+- question: "What does Article 5 of SFDR specifically require financial market participants to publish?"
+  options:
+    - "A standalone sustainability remuneration report filed with the NCA annually"
+    - "Information in their remuneration policies showing those policies are consistent with the integration of sustainability risks"
+    - "The exact bonus amounts paid to ESG-focused portfolio managers"
+    - "A commitment to pay all staff based on ESG performance metrics"
+  answer: 1
+  explanation: "Article 5 requires FMPs to include in their remuneration policies information demonstrating that those policies are consistent with the integration of sustainability risks. It does not require a separate SFDR remuneration report, nor does it mandate specific bonus structures — it requires consistency, not a prescribed approach."
+
+- question: "Article 5 builds on which other Article 3 concept to create a coherent entity-level framework?"
+  options:
+    - "The definition of a financial product"
+    - "The sustainability risk integration policy — Article 5 ensures the remuneration structure reinforces rather than undermines the Article 3 approach"
+    - "The PAI mandatory indicator framework"
+    - "The EU Taxonomy DNSH criteria"
+  answer: 1
+  explanation: "Article 5 is designed to ensure coherence with Article 3. If Article 3 describes robust sustainability risk integration, the Article 5 remuneration policy should reinforce this by ensuring individual incentives align with sustainability risk management, not undermine it through purely short-term financial performance metrics."
+
+- question: "Does Article 5 apply to firms that only manage Article 6 (mainstream) products with no specific ESG strategy?"
+  options:
+    - "No — Article 5 only applies to managers of Article 8 or Article 9 products"
+    - "Yes — Article 5 applies to all financial market participants and financial advisers in scope of SFDR, regardless of product classification"
+    - "Only if the firm has more than 500 employees"
+    - "Only to insurers and pension fund managers, not to investment managers"
+  answer: 1
+  explanation: "The EC FAQ confirms that Article 5 applies universally to all FMPs and financial advisers in scope of SFDR. It is an entity-level obligation — the requirement to ensure remuneration policies are consistent with sustainability risk integration applies to every firm in scope, even if none of their products have specific ESG features."
+
+- question: "Which of the following would represent a potential Article 5 compliance failure?"
+  options:
+    - "A firm that pays portfolio managers a bonus that includes both financial return and ESG criteria"
+    - "A firm whose Article 3 policy claims robust ESG integration, but whose portfolio manager bonus is based solely on short-term alpha generation with no sustainability risk component"
+    - "A firm that reviews its remuneration policy annually for consistency with sustainability risk integration"
+    - "A firm with a 'sustainability gateway' that must be passed before variable pay is awarded"
+  answer: 1
+  explanation: "Where a firm's Article 3 policy claims genuine sustainability risk integration but the remuneration structure provides no incentive to integrate sustainability risks (being purely short-term financial return focused), there is an inconsistency — a potential Article 5 violation. Article 5 requires the incentive structure to be consistent with the stated approach."

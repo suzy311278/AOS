@@ -1,0 +1,104 @@
+id: vm0044
+title: "VM0044 Biochar Carbon Projects"
+subtitle: "How to quantify and verify carbon removal from biochar under the VCS"
+description: "A practical course on Verra's VM0044 methodology for biochar utilization in soil and non-soil applications. Covers the full biochar value chain from waste biomass sourcing through pyrolysis production to final application, including eligibility requirements, GHG quantification equations, permanence and reversal risk, leakage, additionality, and the monitoring plan. Written for project developers, carbon analysts, and verifiers."
+icon: "🌱"
+color: teal
+status: published
+category: markets
+estimatedHours: 2
+modules:
+  - id: 0
+    title: "Foundations of Biochar Carbon Projects"
+    subtitle: "What biochar is, how it stores carbon, and how VM0044 works"
+    icon: "🔬"
+    color: teal
+    lessons:
+      - id: "0.1"
+        title: "What is Biochar and Why Does it Matter?"
+        duration: "30 min"
+        vmRef: "VM0044 v1.2 Section 1 (Summary Description); Section 3 (Definitions)"
+      - id: "0.2"
+        title: "Biochar Value Chain: Sourcing to Application"
+        duration: "30 min"
+        vmRef: "VM0044 v1.2 Section 1 (Summary Description); Section 5 (Project Boundary)"
+
+  - id: 1
+    title: "Eligibility: Who and What Qualifies"
+    subtitle: "Feedstocks, technologies and end-use applications that are in scope"
+    icon: "✅"
+    color: teal
+    lessons:
+      - id: "1.1"
+        title: "Eligible Feedstocks and Sustainability Criteria"
+        duration: "40 min"
+        vmRef: "VM0044 v1.2 Section 4 (Applicability Conditions) — Table 1; Appendix 2"
+      - id: "1.2"
+        title: "Eligible End-Use Applications: Soil and Non-Soil"
+        duration: "35 min"
+        vmRef: "VM0044 v1.2 Section 4 (Applicability Conditions 9-15)"
+        seoTitle: "VM0044 Biochar: Eligible Soil & Non-Soil End Uses"
+        seoDescription: "VM0044 eligible biochar end uses: agricultural soil amendment, animal feed additive, concrete admixture, water treatment, and other non-soil applications."
+      - id: "1.3"
+        title: "High Technology vs Low Technology Production Facilities"
+        duration: "35 min"
+        vmRef: "VM0044 v1.2 Section 3 (Definitions — High/Low Technology); Section 4"
+
+  - id: 2
+    title: "Project Boundary, Baseline and Additionality"
+    subtitle: "What is included in the project and how additionality is demonstrated"
+    icon: "📐"
+    color: teal
+    lessons:
+      - id: "2.1"
+        title: "Mapping the Project Boundary and GHG Sources"
+        duration: "35 min"
+        vmRef: "VM0044 v1.2 Section 5 (Project Boundary); Table 2"
+      - id: "2.2"
+        title: "Baseline Scenario and Demonstrating Additionality"
+        duration: "35 min"
+        vmRef: "VM0044 v1.2 Section 6 (Baseline Scenario); Section 7 (Additionality); Appendix 1"
+        seoTitle: "VM0044 Biochar: Baseline Scenario & Additionality"
+        seoDescription: "Verra VM0044 biochar methodology baseline and additionality: plausible baseline selection, regulatory surplus, financial and barrier analysis for biochar projects."
+
+  - id: 3
+    title: "Quantifying Carbon Removals"
+    subtitle: "The equations that turn biochar mass into verified tCO2e"
+    icon: "🧮"
+    color: teal
+    lessons:
+      - id: "3.1"
+        title: "Production Stage: High Technology Facilities"
+        duration: "40 min"
+        vmRef: "VM0044 v1.2 Section 8.2.2.1; Equations 1-5; Table 3"
+      - id: "3.2"
+        title: "Production Stage: Low Technology Facilities"
+        duration: "40 min"
+        vmRef: "VM0044 v1.2 Section 8.2.2.2; Equations 6-10; Table 4"
+        seoTitle: "VM0044 Biochar: Low Technology Production Accounting"
+        seoDescription: "VM0044 quantification for low-technology biochar production: flame curtain kilns, cookstoves, simplified methane/N2O accounting, and conservative defaults."
+      - id: "3.3"
+        title: "Application Stage Emissions and Leakage"
+        duration: "35 min"
+        vmRef: "VM0044 v1.2 Section 8.2.3; Section 8.3; Equations 11-13"
+      - id: "3.4"
+        title: "Reversal Risk, Net Removals and the Final Equation"
+        duration: "35 min"
+        vmRef: "VM0044 v1.2 Section 8.4; Section 8.5; Equations 14-15"
+
+  - id: 4
+    title: "Monitoring and Verification"
+    subtitle: "What to measure, how to measure it, and how to prove it"
+    icon: "📋"
+    color: teal
+    lessons:
+      - id: "4.1"
+        title: "Parameters at Validation and Parameters Monitored"
+        duration: "35 min"
+        vmRef: "VM0044 v1.2 Section 9.1 (Data at Validation); Section 9.2 (Data Monitored)"
+        seoTitle: "VM0044 Biochar: Parameters at Validation & Monitored"
+        seoDescription: "Verra VM0044 biochar methodology: which project parameters are fixed at validation vs monitored over time, data sources, and QA/QC requirements."
+      - id: "4.2"
+        title: "The Monitoring Plan, Chain of Custody and QA/QC"
+        duration: "35 min"
+        vmRef: "VM0044 v1.2 Section 9.3 (Monitoring Plan Description)"

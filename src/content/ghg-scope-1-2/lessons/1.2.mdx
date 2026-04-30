@@ -1,0 +1,228 @@
+{/* source: EPA Center for Corporate Climate Leadership, Direct Emissions from Mobile Combustion Sources (December 2023), Sections 1-5; Direct Fugitive Emissions from Refrigeration, Air Conditioning, Fire Suppression, and Industrial Gases (December 2023), Sections 1-3 */}
+
+Your client has a fleet of 50 delivery trucks, 20 company cars, a forklift in the warehouse, and air conditioning in every office. Two very different emission sources - combustion and leaks - but both land squarely in Scope 1. This lesson covers how to handle each.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-1-2/1_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Part 1: Mobile Combustion
+
+### The Ownership Test
+
+The single most important question for mobile emissions is not "what fuel does it burn?" but "who owns or controls it?" That answer determines the scope.
+
+<HighlightBox>
+**Scope 1:** Vehicles owned or controlled by the reporting organization - company cars, delivery trucks, forklifts, company aircraft, owned vessels.
+
+**Scope 3:** Vehicles the organization does not own or control - employee personal cars used for business travel (Category 6), employee commuting (Category 7), third-party logistics (Category 4).
+
+The test is operational control or ownership, not the purpose of the trip. A company truck delivering products is Scope 1. An employee driving their own car to a client meeting is Scope 3.
+</HighlightBox>
+
+This boundary catches people out constantly. If a company reimburses employees for mileage, those emissions are Scope 3 - not Scope 1. The reimbursement does not transfer ownership.
+
+<HighlightBox>
+**Practitioner Tip: The Real Scope 1 vs. Scope 3 Test for Vehicles**
+
+In practice, the classification comes down to who controls the day-to-day operation, not who holds the registration. If a third-party service provider handles everything - the vehicle, the driver, and the fuel - it is Scope 3. But if they have given you their vehicle and your drivers operate it, you fill the fuel, and they only maintain and service it, that goes into Scope 1. You operationally control it even though you don't own it.
+</HighlightBox>
+
+### What Data to Collect
+
+For a fleet of owned vehicles, you need:
+
+1. **Fuel consumption** (litres or gallons, by fuel type) - from fuel cards, on-site tank records, or purchase invoices. This is required for CO2 calculations.
+2. **Distance traveled** (km or miles, by vehicle type and model year) - from odometer readings or fleet management systems. This is needed for CH4 and N2O calculations on road vehicles.
+3. **Vehicle type and model year** - determines which CH4/N2O emission factor to apply.
+
+If fuel data is unavailable, you can estimate from distance and fuel economy - but this adds uncertainty. Direct fuel records are always preferred.
+
+<HighlightBox>
+**Practitioner Tip: When You Only Have Reimbursement Amounts**
+
+Fleet fuel bills often cover a messy mix: vehicles the company owns, vehicles it doesn't own but fills fuel for, and vehicles leased to employees who get fuel reimbursed. When actual fuel bills with litres are available, always use the original quantities. But when only reimbursement amounts exist (common for employee-leased vehicles), a practical workaround is to divide the total reimbursement amount by the average fuel rate for that year to estimate litres consumed. This is not a formal methodology, but it is commonly used in practice when no physical quantity data exists. Document the approach and the fuel rate assumption clearly for assurance.
+</HighlightBox>
+
+### Calculating CO2
+
+CO2 from mobile sources uses the same fuel-based equations as stationary combustion (Lesson 1.1). For most fleets, you will use Equation 1 with per-litre emission factors:
+
+- **Diesel:** 2.68 kg CO2/litre
+- **Petrol/Gasoline:** 2.35 kg CO2/litre
+- **CNG:** 2.09 kg CO2/kg
+
+The calculation is straightforward: total litres consumed multiplied by the emission factor.
+
+### CH4 and N2O from Vehicles
+
+For on-road vehicles, CH4 and N2O depend heavily on the vehicle's emission control technology (catalytic converter type), which correlates with model year. So the calculation uses distance-based factors rather than fuel-based ones.
+
+For non-road vehicles (forklifts, construction equipment, boats), fuel-based CH4/N2O factors are used instead, since distance data is less standardised for these sources.
+
+For modern vehicles (less than 20 years old), CH4 and N2O together are typically less than 1% of total emissions. For older vehicles or CNG buses, they can reach 5% or more.
+
+### Biofuel Blends
+
+Many transport fuels contain biofuel: E10 gasoline (10% ethanol) is standard in many countries, B20 diesel (20% biodiesel) is common for fleets. The same biomass CO2 rule applies - split out the biofuel CO2, report it separately, exclude it from the Scope 1 total. CH4 and N2O from biofuel combustion are included regardless.
+
+If the blend percentage is unknown and the vehicle uses gasoline, assume 10% ethanol (E10) as the default.
+
+<ExampleBox>
+**Example: Freight truck fleet**
+
+A logistics company operates 50 diesel trucks. Each truck consumes approximately 1,000 litres of diesel per year.
+
+Total diesel consumed: 50 trucks x 1,000 litres = 50,000 litres
+
+CO2 emissions (Equation 1):
+50,000 litres x 2.68 kg CO2/litre = 134,000 kg CO2 = **134 metric tonnes CO2**
+
+For CH4 and N2O, the company applies distance-based emission factors from the EPA GHG Emission Factors Hub, using total vehicle-kilometres and truck model year, then converts to CO2e using GWP values. For a modern diesel fleet, this typically adds 1-2 tonnes CO2e to the total.
+</ExampleBox>
+
+<CalculationExercise
+  question="A company's fleet of 20 petrol cars consumed a combined 40,000 litres of gasoline during the reporting year. Using a CO2 emission factor of 2.35 kg CO2/litre, what are the total CO2 emissions in metric tonnes?"
+  answer={94}
+  unit="tCO2"
+  hints={[
+    "Multiply total litres by the emission factor: 40,000 x 2.35 = total kg CO2.",
+    "Convert to metric tonnes by dividing by 1,000. So: 94,000 / 1,000 = ?"
+  ]}
+  solution="40,000 litres x 2.35 kg CO2/litre = 94,000 kg CO2 = 94 metric tonnes CO2."
+/>
+
+---
+
+## Part 2: Fugitive Emissions
+
+Fugitive emissions are gases that leak out rather than get burned. No combustion involved - just refrigerant escaping from an AC unit, SF6 seeping from switchgear, or a fire suppression system discharging. The quantities are tiny in kilograms, but the climate impact can be enormous.
+
+### Why Tiny Leaks Matter
+
+The gases involved - HFCs, PFCs, SF6 - have Global Warming Potentials that are orders of magnitude higher than CO2:
+
+<HighlightBox>
+**GWP values that should make you pay attention (AR5, 100-year):**
+- **SF6:** 23,500 - used in electrical switchgear. 1 kg leaked = 23.5 tonnes CO2e
+- **HFC-23:** 12,400 - used in fire suppression
+- **R-410A:** 2,088 - common in modern split AC systems
+- **HFC-134a:** 1,430 - common in older commercial refrigeration and car AC
+- **HFC-32:** 677 - newer AC refrigerant, lower GWP
+
+A single kilogram of SF6 released is climatically equivalent to burning about 885 litres of diesel. These are not rounding errors.
+</HighlightBox>
+
+### The Four Source Types
+
+1. **Refrigeration and air conditioning** - split ACs, chillers, cold storage, refrigerated transport, retail display cases
+2. **Fire suppression systems** - fixed building systems and portable extinguishers using HFC agents
+3. **Electrical switchgear** - SF6-insulated circuit breakers and switches (common in utilities and large industrial sites)
+4. **Industrial gases** - CO2, SF6, or HFCs purchased for welding, lab use, semiconductor fabrication, then released
+
+<ExampleBox>
+**Example: Why SF6 leaks matter**
+
+A utility company operates electrical switchgear containing 100 kg of SF6. A small leak releases just 2 kg during the reporting year - a 2% annual leak rate, barely noticeable physically.
+
+CO2-equivalent: 2 kg x 23,500 GWP = 47,000 kg CO2e = **47 metric tonnes CO2e**
+
+For comparison, you would need to burn about 17,500 litres of diesel to produce the same climate impact. A leak you cannot see or smell carries the carbon footprint of a small truck fleet.
+</ExampleBox>
+
+### Choosing Your Calculation Method
+
+There are four methods for quantifying fugitive emissions. Which one you use depends on how your client manages their refrigerants.
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Use When</th>
+      <th>Data You Need</th>
+      <th>Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Screening</strong></td>
+      <td>Initial check to see if fugitives are material; minimal refrigeration on-site</td>
+      <td>Equipment type, nameplate capacity, default leak rates</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td><strong>Purchased Gases</strong></td>
+      <td>Industrial gas users (SF6 for switchgear, CO2 for labs) who buy, use, and release gas</td>
+      <td>Purchase records by gas type</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td><strong>Material Balance</strong></td>
+      <td>Organizations that maintain their own refrigerant stock and service equipment in-house</td>
+      <td>Beginning/end inventory, purchases, sales, equipment capacity changes</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td><strong>Simplified Material Balance</strong></td>
+      <td>Organizations that rely on external contractors for all AC/refrigeration servicing</td>
+      <td>Contractor records of refrigerant charged and recovered</td>
+      <td>High</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+For most office-based or commercial organizations, the Simplified Material Balance is the right fit - your AC contractor has the data, you just need to ask for it.
+
+<HighlightBox>
+**Practitioner Tip: AMC Records Over Default Leak Rates**
+
+In practice, companies rarely use default leak rates (like 5%) for their final inventory. They rely on AMC (Annual Maintenance Contract) records showing actual refrigerant refill quantities - each top-up directly indicates the amount leaked. Default rates are useful only for initial screening when no service records exist. Also, pay attention to whether the refrigerant is an Ozone Depleting Substance (ODS). This matters beyond GHG accounting: ODS emissions must be reported separately under GRI disclosure requirements, and the GWP values between ODS and non-ODS refrigerants differ dramatically. Getting the classification wrong affects both your GHG inventory and your sustainability report.
+</HighlightBox>
+
+### The AC Audit: How to Actually Inventory Refrigerants
+
+Most organizations have no idea how much refrigerant sits in their buildings. Here is how to find out:
+
+<AnalogyBox>
+Think of a refrigerant audit like a building fire drill - you need to know what is in the building before you can plan for what might leak out. Walk the building with a clipboard (or a spreadsheet) and document every unit.
+</AnalogyBox>
+
+**Step 1: Walk the site.** Check rooftops, server rooms, basements, and mechanical rooms. Every split AC, VRF system, chiller, and refrigerator has a nameplate. Photograph the nameplate - it lists the refrigerant type (R-410A, R-32, R-134a) and the charge quantity in kg.
+
+**Step 2: Check maintenance logs.** Your AC contractor should have records of every service visit - how much refrigerant was topped up (this is your leak). Ask for annual summaries by unit.
+
+**Step 3: Do not forget fire suppression.** Walk the server room and electrical room. If you see a clean agent fire suppression system (not water sprinklers), check the cylinders for the agent type and weight. Common agents include HFC-227ea (GWP 3,220) and FK-5-1-12 (Novec 1230, GWP &lt;1).
+
+**Step 4: Check for SF6.** If the facility has medium or high-voltage switchgear (33 kV and above), it may contain SF6. Ask the electrical maintenance team.
+
+### Practice: Fugitive Emissions from AC Systems
+
+<CalculationExercise
+  question="An office building has 3 AC units, each charged with 5 kg of R-410A refrigerant. The annual leak rate is 5%. R-410A has a GWP of 2,088. Calculate the annual fugitive emissions in tonnes CO2e."
+  answer={1.566}
+  tolerance={0.01}
+  unit="tCO2e"
+  hints={[
+    "First calculate total refrigerant charge: 3 units x 5 kg = 15 kg. Then calculate annual leakage: 15 kg x 5% = 0.75 kg.",
+    "Convert to CO2e: 0.75 kg x 2,088 GWP = 1,566 kg CO2e. Now convert kg to tonnes."
+  ]}
+  solution="Total charge: 3 x 5 = 15 kg R-410A. Annual leak: 15 x 0.05 = 0.75 kg. CO2e: 0.75 x 2,088 = 1,566 kg = 1.566 tonnes CO2e. Three small AC units leaking at a normal rate produce over 1.5 tonnes CO2e - equivalent to burning about 580 litres of diesel."
+/>
+
+## Common Mistakes
+
+<HighlightBox>
+**Mistakes that trip up even experienced practitioners:**
+
+1. **Counting employee vehicles as Scope 1.** Mileage reimbursement does not equal ownership. Employee-owned cars are Scope 3, always.
+2. **Ignoring small AC units.** A building with 20 split ACs at 3 kg refrigerant each holds 60 kg of high-GWP gas. At a 5% leak rate with R-410A, that is over 6 tonnes CO2e - potentially more than the building's natural gas consumption.
+3. **Skipping fire suppression systems.** Server rooms and electrical rooms often have clean agent systems. One discharge event can release 50+ kg of HFC-227ea, which is 161 tonnes CO2e in a single event.
+4. **Not asking the AC contractor.** The data you need for the simplified material balance is sitting in your contractor's service records. If you do not ask, they will not volunteer it.
+5. **Forgetting forklifts.** Propane or diesel forklifts are owned mobile sources. They often get missed because they are managed by warehouse teams, not the fleet department.
+</HighlightBox>
+
+<DeepDive title="What about CFCs and HCFCs?">
+Older equipment may still contain ozone-depleting refrigerants like R-22 (an HCFC). These are being phased out under the Montreal Protocol and are excluded from most GHG inventories. They can be reported as memo items but do not contribute to the CO2e total. Their HFC replacements, however, are fully counted - so transitioning from R-22 to R-410A can actually increase your reported GHG inventory.
+</DeepDive>
+
+<KeyTakeaways items="Mobile combustion scope depends on ownership or control, not the purpose of the trip - company-owned vehicles are Scope 1, employee-owned vehicles are always Scope 3 ;; Fugitive emissions from refrigerant leaks can be massive in CO2e terms due to extremely high GWP values - 1 kg of SF6 equals 23.5 tonnes CO2e ;; For mobile sources, CO2 uses fuel-based emission factors while CH4 and N2O use distance-based factors tied to vehicle type and model year ;; Conduct a refrigerant audit by walking the site and photographing AC unit nameplates - then check maintenance logs for top-up quantities, which represent your leaks ;; The simplified material balance method works best for most commercial organizations - your AC contractor already has the data you need" />

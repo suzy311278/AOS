@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Greentryst | Emission Factors Library</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+        .animate-blink {
+            animation: blink 1.5s infinite;
+        }
+        .shimmer {
+            background: linear-gradient(90deg, transparent, rgba(112, 216, 200, 0.05), transparent);
+            background-size: 200% 100%;
+            animation: shimmer-anim 2s infinite linear;
+        }
+        @keyframes shimmer-anim {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
+        }
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #061616;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #283837;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-primary-container": "#6ed6c6",
+                      "surface-bright": "#2c3c3c",
+                      "secondary-fixed": "#d0e7e6",
+                      "primary-fixed": "#8df5e4",
+                      "on-tertiary-fixed": "#2a1700",
+                      "on-error": "#690005",
+                      "inverse-surface": "#d4e6e5",
+                      "on-secondary-fixed-variant": "#364a4a",
+                      "inverse-primary": "#006b5f",
+                      "surface-dim": "#061616",
+                      "on-tertiary": "#472a00",
+                      "on-tertiary-fixed-variant": "#653e00",
+                      "on-primary-fixed-variant": "#005048",
+                      "on-surface-variant": "#bec9c6",
+                      "surface-container-lowest": "#021111",
+                      "on-primary-fixed": "#00201c",
+                      "background": "#061616",
+                      "primary-fixed-dim": "#70d8c8",
+                      "secondary": "#b5cbca",
+                      "on-surface": "#d4e6e5",
+                      "surface": "#061616",
+                      "surface-variant": "#283837",
+                      "secondary-container": "#384d4d",
+                      "outline": "#889391",
+                      "error": "#ffb4ab",
+                      "surface-container-low": "#0e1e1e",
+                      "on-background": "#d4e6e5",
+                      "tertiary-container": "#744800",
+                      "tertiary-fixed-dim": "#ffb95f",
+                      "on-secondary": "#203434",
+                      "tertiary": "#ffb95f",
+                      "surface-tint": "#70d8c8",
+                      "error-container": "#93000a",
+                      "outline-variant": "#3f4947",
+                      "primary-container": "#005c52",
+                      "surface-container": "#122222",
+                      "on-secondary-fixed": "#0a1f1f",
+                      "on-secondary-container": "#a7bdbc",
+                      "surface-container-highest": "#283837",
+                      "primary": "#70d8c8",
+                      "on-tertiary-container": "#ffb759",
+                      "secondary-fixed-dim": "#b5cbca",
+                      "on-primary": "#003731",
+                      "surface-container-high": "#1d2d2d",
+                      "inverse-on-surface": "#233333",
+                      "on-error-container": "#ffdad6",
+                      "tertiary-fixed": "#ffddb8"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "fontFamily": {
+                      "headline": ["Inter", "sans-serif"],
+                      "body": ["Inter", "sans-serif"],
+                      "label": ["Inter", "sans-serif"],
+                      "mono": ["JetBrains Mono", "monospace"]
+              }
+            },
+          },
+        }
+      </script>
+</head>
+<body class="bg-background text-on-background font-body selection:bg-primary selection:text-on-primary">
+<!-- Top Navigation from Shared Components -->
+<nav class="bg-[#061616] dark:bg-[#061616] flex justify-between items-center w-full px-8 py-4 mx-auto fixed top-0 z-50">
+<div class="text-xl font-bold tracking-tight text-white">Greentryst</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-slate-400 font-medium hover:text-white transition-colors" href="#">Tools</a>
+<a class="text-slate-400 font-medium hover:text-white transition-colors" href="#">Guides</a>
+<a class="text-[#70d8c8] font-bold border-b-2 border-[#70d8c8] pb-1" href="#">Learn</a>
+<a class="text-slate-400 font-medium hover:text-white transition-colors" href="#">About</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="bg-primary text-on-primary px-4 py-2 rounded-lg font-bold text-sm scale-95 active:scale-90 transition-transform">Sign in</button>
+</div>
+</nav>
+<!-- Main Hero Section: Emission Factors Library -->
+<main class="min-h-screen pt-20 flex flex-col">
+<!-- Dashboard Header / Control Bar -->
+<div class="px-8 py-6 bg-surface-container flex flex-col md:flex-row justify-between items-end gap-4">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary animate-blink"></span>
+<span class="text-[11px] font-mono tracking-widest text-primary font-bold">LIVE LIBRARY · 211,651 FACTORS · 41 SOURCES · UPDATED 2026-04-14 07:12 GMT</span>
+</div>
+<h1 class="text-4xl md:text-5xl font-extrabold tracking-tighter text-white mt-1">EMISSION FACTORS</h1>
+</div>
+<div class="relative w-full max-w-md">
+<div class="bg-surface-container-highest/50 backdrop-blur-sm rounded-lg flex items-center px-4 py-2 shadow-2xl">
+<span class="material-symbols-outlined text-outline mr-3 text-lg">search</span>
+<input class="bg-transparent border-none text-white font-mono text-sm w-full focus:ring-0 placeholder:text-outline-variant" placeholder="FILTER 211,651 FACTORS..." type="text"/>
+<button class="bg-primary text-on-primary px-3 py-1 rounded font-bold text-[10px] tracking-widest hover:brightness-110 transition-all">GO</button>
+</div>
+</div>
+</div>
+<!-- The Board (Departure Board Layout) -->
+<div class="flex-grow overflow-x-auto bg-background">
+<div class="min-w-[1200px] w-full px-8 pt-4">
+<!-- Table Headers -->
+<div class="grid grid-cols-[120px_1fr_120px_120px_80px_100px_140px] gap-4 pb-2 border-b border-primary/20">
+<span class="text-[10px] font-semibold text-white/40 tracking-wide font-label">SOURCE</span>
+<span class="text-[10px] font-semibold text-white/40 tracking-wide font-label">ACTIVITY</span>
+<span class="text-[10px] font-semibold text-white/40 tracking-wide font-label">VALUE</span>
+<span class="text-[10px] font-semibold text-white/40 tracking-wide font-label">UNIT</span>
+<span class="text-[10px] font-semibold text-white/40 tracking-wide font-label">SCOPE</span>
+<span class="text-[10px] font-semibold text-white/40 tracking-wide font-label">VINTAGE</span>
+<span class="text-[10px] font-semibold text-white/40 tracking-wide font-label">METHODOLOGY</span>
+</div>
+<!-- Data Rows -->
+<div class="flex flex-col">
+<!-- Row 1 -->
+<div class="grid grid-cols-[120px_1fr_120px_120px_80px_100px_140px] gap-4 items-center h-[40px] bg-surface-container-low border-b border-white/5 px-2">
+<span class="font-mono text-[13px] text-white/50">DEFRA</span>
+<span class="font-mono text-[13px] text-white/85">Car: (average size) Petrol - 2025</span>
+<span class="font-mono text-[13px] text-primary font-semibold">0.17124</span>
+<span class="font-mono text-[13px] text-white/50">kgCO2e/km</span>
+<span class="font-mono text-[13px] text-white/50">Scope 1</span>
+<span class="font-mono text-[13px] text-white/50">2025</span>
+<span class="font-mono text-[13px] text-white/50">Direct Emission</span>
+</div>
+<!-- Row 2 -->
+<div class="grid grid-cols-[120px_1fr_120px_120px_80px_100px_140px] gap-4 items-center h-[40px] bg-background border-b border-white/5 px-2">
+<span class="font-mono text-[13px] text-white/50">EIA</span>
+<span class="font-mono text-[13px] text-white/85">Electricity - Grid Average (US-National)</span>
+<span class="font-mono text-[13px] text-primary font-semibold">0.38421</span>
+<span class="font-mono text-[13px] text-white/50">kgCO2e/kWh</span>
+<span class="font-mono text-[13px] text-white/50">Scope 2</span>
+<span class="font-mono text-[13px] text-white/50">2024</span>
+<span class="font-mono text-[13px] text-white/50">LCA Market-Based</span>
+</div>
+<!-- Row 3 -->
+<div class="grid grid-cols-[120px_1fr_120px_120px_80px_100px_140px] gap-4 items-center h-[40px] bg-surface-container-low border-b border-white/5 px-2">
+<span class="font-mono text-[13px] text-white/50">CLIMATIQ</span>
+<span class="font-mono text-[13px] text-white/85">Cloud Computing - AWS EC2 (Ireland)</span>
+<span class="font-mono text-[13px] text-primary font-semibold">0.02450</span>
+<span class="font-mono text-[13px] text-white/50">kgCO2e/hr</span>
+<span class="font-mono text-[13px] text-white/50">Scope 3</span>
+<span class="font-mono text-[13px] text-white/50">2024</span>
+<span class="font-mono text-[13px] text-white/50">Hardware Energy</span>
+</div>
+<!-- Row 4 -->
+<div class="grid grid-cols-[120px_1fr_120px_120px_80px_100px_140px] gap-4 items-center h-[40px] bg-background border-b border-white/5 px-2">
+<span class="font-mono text-[13px] text-white/50">GLEC</span>
+<span class="font-mono text-[13px] text-white/85">Heavy Duty Truck - Diesel (EU)</span>
+<span class="font-mono text-[13px] text-primary font-semibold">1.14930</span>
+<span class="font-mono text-[13px] text-white/50">kgCO2e/t-km</span>
+<span class="font-mono text-[13px] text-white/50">Scope 1</span>
+<span class="font-mono text-[13px] text-white/50">2023</span>
+<span class="font-mono text-[13px] text-white/50">TTW Framework</span>
+</div>
+<!-- Row 5 -->
+<div class="grid grid-cols-[120px_1fr_120px_120px_80px_100px_140px] gap-4 items-center h-[40px] bg-surface-container-low border-b border-white/5 px-2">
+<span class="font-mono text-[13px] text-white/50">ADEME</span>
+<span class="font-mono text-[13px] text-white/85">Natural Gas - Combustion (France)</span>
+<span class="font-mono text-[13px] text-primary font-semibold">0.20400</span>
+<span class="font-mono text-[13px] text-white/50">kgCO2e/kWh</span>
+<span class="font-mono text-[13px] text-white/50">Scope 1</span>
+<span class="font-mono text-[13px] text-white/50">2024</span>
+<span class="font-mono text-[13px] text-white/50">Base Empreinte</span>
+</div>
+<!-- Row 6 -->
+<div class="grid grid-cols-[120px_1fr_120px_120px_80px_100px_140px] gap-4 items-center h-[40px] bg-background border-b border-white/5 px-2">
+<span class="font-mono text-[13px] text-white/50">EPA</span>
+<span class="font-mono text-[13px] text-white/85">Methane Fugitive Emissions</span>
+<span class="font-mono text-[13px] text-primary font-semibold">28.00000</span>
+<span class="font-mono text-[13px] text-white/50">kgCO2e/kg</span>
+<span class="font-mono text-[13px] text-white/50">Scope 1</span>
+<span class="font-mono text-[13px] text-white/50">2024</span>
+<span class="font-mono text-[13px] text-white/50">GWP-100 AR5</span>
+</div>
+<!-- Row 7 (UPDATING SHIMMER ROW) -->
+<div class="grid grid-cols-[120px_1fr_120px_120px_80px_100px_140px] gap-4 items-center h-[40px] bg-primary/5 shimmer border-b border-primary/20 px-2 relative overflow-hidden">
+<span class="font-mono text-[13px] text-primary/80 italic">UPDATING...</span>
+<div class="flex items-center gap-2">
+<span class="font-mono text-[13px] text-white/85">Steel: Hot-rolled coil (China)</span>
+<span class="material-symbols-outlined text-primary text-sm">arrow_forward</span>
+</div>
+<span class="font-mono text-[13px] text-primary font-bold">2.41000</span>
+<span class="font-mono text-[13px] text-white/50 italic">REFRESHING</span>
+<span class="font-mono text-[13px] text-white/50">Scope 3</span>
+<span class="font-mono text-[13px] text-white/50">2025</span>
+<span class="font-mono text-[13px] text-white/50">Calculating...</span>
+</div>
+<!-- Row 8 -->
+<div class="grid grid-cols-[120px_1fr_120px_120px_80px_100px_140px] gap-4 items-center h-[40px] bg-background border-b border-white/5 px-2">
+<span class="font-mono text-[13px] text-white/50">IEA</span>
+<span class="font-mono text-[13px] text-white/85">Jet Fuel - Combustion (Kerosene)</span>
+<span class="font-mono text-[13px] text-primary font-semibold">3.15000</span>
+<span class="font-mono text-[13px] text-white/50">kgCO2e/kg</span>
+<span class="font-mono text-[13px] text-white/50">Scope 1</span>
+<span class="font-mono text-[13px] text-white/50">2023</span>
+<span class="font-mono text-[13px] text-white/50">World Balances</span>
+</div>
+<!-- Row 9 -->
+<div class="grid grid-cols-[120px_1fr_120px_120px_80px_100px_140px] gap-4 items-center h-[40px] bg-surface-container-low border-b border-white/5 px-2">
+<span class="font-mono text-[13px] text-white/50">EXIOBASE</span>
+<span class="font-mono text-[13px] text-white/85">Financial Services - Asset Mgmt</span>
+<span class="font-mono text-[13px] text-primary font-semibold">0.05120</span>
+<span class="font-mono text-[13px] text-white/50">kgCO2e/$</span>
+<span class="font-mono text-[13px] text-white/50">Scope 3</span>
+<span class="font-mono text-[13px] text-white/50">2024</span>
+<span class="font-mono text-[13px] text-white/50">MRIO v3.8</span>
+</div>
+<!-- Row 10 -->
+<div class="grid grid-cols-[120px_1fr_120px_120px_80px_100px_140px] gap-4 items-center h-[40px] bg-background border-b border-white/5 px-2">
+<span class="font-mono text-[13px] text-white/50">IPCC</span>
+<span class="font-mono text-[13px] text-white/85">Concrete: Ready-mix (Global Avg)</span>
+<span class="font-mono text-[13px] text-primary font-semibold">412.000</span>
+<span class="font-mono text-[13px] text-white/50">kgCO2e/m3</span>
+<span class="font-mono text-[13px] text-white/50">Scope 3</span>
+<span class="font-mono text-[13px] text-white/50">2024</span>
+<span class="font-mono text-[13px] text-white/50">GLAD Inventory</span>
+</div>
+<!-- Row 11 -->
+<div class="grid grid-cols-[120px_1fr_120px_120px_80px_100px_140px] gap-4 items-center h-[40px] bg-surface-container-low border-b border-white/5 px-2">
+<span class="font-mono text-[13px] text-white/50">Ecoinvent</span>
+<span class="font-mono text-[13px] text-white/85">Aluminium - Primary Ingots</span>
+<span class="font-mono text-[13px] text-primary font-semibold">12.5500</span>
+<span class="font-mono text-[13px] text-white/50">kgCO2e/kg</span>
+<span class="font-mono text-[13px] text-white/50">Scope 3</span>
+<span class="font-mono text-[13px] text-white/50">2024</span>
+<span class="font-mono text-[13px] text-white/50">Cradle-to-Gate</span>
+</div>
+<!-- Row 12 -->
+<div class="grid grid-cols-[120px_1fr_120px_120px_80px_100px_140px] gap-4 items-center h-[40px] bg-background border-b border-white/5 px-2">
+<span class="font-mono text-[13px] text-white/50">DEFRA</span>
+<span class="font-mono text-[13px] text-white/85">Waste to landfill (Mixed Municipal)</span>
+<span class="font-mono text-[13px] text-primary font-semibold">589.230</span>
+<span class="font-mono text-[13px] text-white/50">kgCO2e/t</span>
+<span class="font-mono text-[13px] text-white/50">Scope 3</span>
+<span class="font-mono text-[13px] text-white/50">2025</span>
+<span class="font-mono text-[13px] text-white/50">End-of-life</span>
+</div>
+<!-- Row 13 -->
+<div class="grid grid-cols-[120px_1fr_120px_120px_80px_100px_140px] gap-4 items-center h-[40px] bg-surface-container-low border-b border-white/5 px-2">
+<span class="font-mono text-[13px] text-white/50">STATCAN</span>
+<span class="font-mono text-[13px] text-white/85">Passenger Rail - Diesel (Canada)</span>
+<span class="font-mono text-[13px] text-primary font-semibold">0.04500</span>
+<span class="font-mono text-[13px] text-white/50">kgCO2e/p-km</span>
+<span class="font-mono text-[13px] text-white/50">Scope 3</span>
+<span class="font-mono text-[13px] text-white/50">2024</span>
+<span class="font-mono text-[13px] text-white/50">Activity Based</span>
+</div>
+<!-- Row 14 -->
+<div class="grid grid-cols-[120px_1fr_120px_120px_80px_100px_140px] gap-4 items-center h-[40px] bg-background border-b border-white/5 px-2">
+<span class="font-mono text-[13px] text-white/50">SEPA</span>
+<span class="font-mono text-[13px] text-white/85">Wood Waste - Recycling</span>
+<span class="font-mono text-[13px] text-primary font-semibold">21.00000</span>
+<span class="font-mono text-[13px] text-white/50">kgCO2e/t</span>
+<span class="font-mono text-[13px] text-white/50">Scope 3</span>
+<span class="font-mono text-[13px] text-white/50">2024</span>
+<span class="font-mono text-[13px] text-white/50">Avoided Impact</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Status Area -->
+<div class="px-8 py-3 bg-surface-container-low flex justify-between items-center border-t border-white/5">
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span class="text-[10px] font-mono text-on-surface-variant">All sources reachable · data fresh · last check 07:12 GMT</span>
+</div>
+<div class="text-[10px] font-mono text-on-surface-variant flex gap-6">
+<span>PAGE 1 OF 15,118</span>
+<span>SHOWING 14 OF 211,651</span>
+</div>
+</div>
+</main>
+<!-- Stat Strip Below Hero -->
+<section class="w-full bg-[#0c1c1c] py-12 px-8 flex flex-col md:flex-row justify-center items-center gap-12 border-y border-white/5">
+<div class="flex flex-col items-center">
+<span class="font-mono text-3xl text-white font-bold tracking-tight">211,651</span>
+<span class="text-[11px] uppercase tracking-[0.2em] text-outline mt-1 font-bold">Total Factors</span>
+</div>
+<div class="hidden md:block w-px h-8 bg-white/10"></div>
+<div class="flex flex-col items-center">
+<span class="font-mono text-3xl text-white font-bold tracking-tight">41</span>
+<span class="text-[11px] uppercase tracking-[0.2em] text-outline mt-1 font-bold">Primary Sources</span>
+</div>
+<div class="hidden md:block w-px h-8 bg-white/10"></div>
+<div class="flex flex-col items-center">
+<span class="font-mono text-3xl text-white font-bold tracking-tight">4</span>
+<span class="text-[11px] uppercase tracking-[0.2em] text-outline mt-1 font-bold">Reporting Frameworks</span>
+</div>
+<div class="hidden md:block w-px h-8 bg-white/10"></div>
+<div class="flex flex-col items-center">
+<span class="font-mono text-3xl text-primary font-bold tracking-tight">0</span>
+<span class="text-[11px] uppercase tracking-[0.2em] text-primary mt-1 font-bold">Hallucinations</span>
+</div>
+</section>
+<!-- Content Placeholder for dense UI -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-6 p-8 bg-background">
+<div class="bg-surface-container p-6 rounded-xl border-l-2 border-primary">
+<h3 class="text-sm font-bold text-white uppercase tracking-wider mb-4">Sovereign Data Integrity</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-4">Every factor in the Greentryst ledger is cryptographically verified against its primary source, ensuring zero-drift in your sustainability reporting.</p>
+<div class="font-mono text-[11px] text-primary/60">V.2.8.4_LEDGER_ACTIVE</div>
+</div>
+<div class="bg-surface-container p-6 rounded-xl">
+<h3 class="text-sm font-bold text-white uppercase tracking-wider mb-4">Real-Time Syncing</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-4">Global emission factors are dynamic. Our terminal monitors 41 statutory bodies 24/7 to push updates as they are published.</p>
+<div class="font-mono text-[11px] text-primary/60">LATENCY: 42MS</div>
+</div>
+<div class="bg-surface-container p-6 rounded-xl">
+<h3 class="text-sm font-bold text-white uppercase tracking-wider mb-4">Regulatory Compliance</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-4">Fully mapping to CSRD, SECR, and TCFD requirements. Our methodology is transparent, traceable, and audit-ready.</p>
+<div class="font-mono text-[11px] text-primary/60">STATUS: COMPLIANT_A1</div>
+</div>
+</section>
+<!-- Footer from Shared Components -->
+<footer class="bg-[#061616] dark:bg-[#061616] flex flex-col md:flex-row justify-between items-center w-full px-8 py-12 mt-auto border-t border-white/5">
+<div class="flex flex-col gap-2">
+<div class="text-lg font-bold text-white">Greentryst</div>
+<p class="text-slate-500 text-sm">© 2024 Greentryst. All rights reserved. Sovereign Ledger Execution.</p>
+</div>
+<div class="flex gap-6 mt-8 md:mt-0">
+<a class="text-slate-500 hover:text-slate-300 text-sm" href="#">Privacy Policy</a>
+<a class="text-slate-500 hover:text-slate-300 text-sm" href="#">Terms of Service</a>
+<a class="text-slate-500 hover:text-slate-300 text-sm" href="#">Compliance</a>
+<a class="text-slate-500 hover:text-slate-300 text-sm" href="#">Security</a>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,26 @@
+- question: "What is the fundamental structural difference between a traditional product sale and a Product-as-a-Service (PaaS) model?"
+  options:
+    - "PaaS products are always more expensive for customers than purchased products"
+    - "In PaaS, the manufacturer retains product ownership and earns revenue from performance or use rather than from sales"
+    - "PaaS models require government subsidies to be economically viable"
+    - "PaaS eliminates the need for product maintenance and repair"
+  answer: 1
+  explanation: "In PaaS, the manufacturer retains product ownership and earns revenue from the product's continued performance or use. This aligns commercial incentives with product longevity and efficient end-of-life recovery, since premature failure directly reduces manufacturer margins."
+
+- question: "Philips' 'Light as a Service' model at Schiphol Airport charges for illumination rather than fixtures. What circular economy benefit does this create for Philips?"
+  options:
+    - "It eliminates Philips' need to comply with EU ecodesign regulations"
+    - "It incentivises Philips to install the most energy-efficient, longest-lasting systems and recover them at end of life"
+    - "It reduces Philips' tax liability by removing product assets from its balance sheet"
+    - "It shifts environmental responsibility entirely to the airport operator"
+  answer: 1
+  explanation: "Retaining asset ownership gives Philips direct financial incentives to minimise energy consumption (which it pays for), maximise fixture lifespan (reducing replacement costs), and recover equipment at end of life (preserving component value). The business model rewards circular behaviour."
+
+- question: "Why is a shared car used 40% of the time more valuable to the circular economy than 10 privately owned cars each used 4% of the time?"
+  options:
+    - "Shared cars use better materials and are therefore easier to recycle"
+    - "Higher utilisation means fewer cars need to be manufactured to provide the same mobility service"
+    - "Shared cars are exempt from end-of-life vehicle regulations"
+    - "Sharing platforms always charge lower prices, reducing total economic output"
+  answer: 1
+  explanation: "If one shared car at 40% utilisation replaces 10 privately owned cars at 4% utilisation, ten times fewer vehicles need to be manufactured to deliver the same mobility service. This dramatically reduces material throughput and manufacturing emissions."

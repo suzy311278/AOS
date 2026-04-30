@@ -1,0 +1,35 @@
+- question: "What challenge arises when linking systems with different cap stringency?"
+  options:
+    - "No challenges"
+    - "Allowances flow from the loose system to the tight system, potentially diluting ambition"
+    - "Both systems improve automatically"
+    - "Linking becomes impossible"
+  answer: 1
+  explanation: "If one system has a loose cap (low price) and another has a tight cap (high price), allowances will flow from loose to tight, converging prices downward and potentially reducing overall environmental ambition."
+
+- question: "Why must price management mechanisms be harmonized for linking?"
+  options:
+    - "They do not need to be harmonized"
+    - "Different floors or ceilings can create discontinuities and prevent effective linking"
+    - "Harmonization is illegal"
+    - "Only for aesthetic reasons"
+  answer: 1
+  explanation: "If one system has a price floor and the other does not, or if floor/ceiling levels differ significantly, allowance flows may be disrupted and linking effectiveness reduced. Harmonization addresses this."
+
+- question: "What is a governance challenge for linked markets?"
+  options:
+    - "Too easy to manage"
+    - "Coordinating rule changes, resolving disputes, and managing exit provisions across jurisdictions"
+    - "No governance needed"
+    - "Only one party makes decisions"
+  answer: 1
+  explanation: "Linked systems require ongoing coordination mechanisms for rule changes, dispute resolution, information sharing, and managing potential unlinking, creating governance complexity."
+
+- question: "What role do offset rules play in linking considerations?"
+  options:
+    - "Offsets are irrelevant to linking"
+    - "Different offset quality standards can create arbitrage opportunities that undermine environmental integrity"
+    - "All offset rules are identical"
+    - "Offsets prevent linking"
+  answer: 1
+  explanation: "If linked systems have different offset quality standards or limits, entities can exploit the differences by acquiring cheap low-quality offsets in one system to use in another, undermining integrity."

@@ -1,0 +1,35 @@
+- question: "What is the correct sequence of the three additionality steps in VM0044?"
+  options:
+    - "Investment Analysis, then Positive List, then Regulatory Surplus"
+    - "Positive List, then Regulatory Surplus, then Investment Analysis"
+    - "Regulatory Surplus, then Positive List, then Investment Analysis"
+    - "Regulatory Surplus, then Investment Analysis, then Positive List"
+  answer: 2
+  explanation: "VM0044 requires three steps in order: Step 1 is Regulatory Surplus (the activity is not required by law), Step 2 is Positive List (the activity type qualifies as additional), and Step 3 is Investment Analysis (the project is not financially viable without carbon finance). All three must be passed in sequence."
+
+- question: "What is the approximate global activity penetration (APy) of biochar production calculated in VM0044 Appendix 1?"
+  options:
+    - "0.06%, well below the 5% threshold"
+    - "5.6%, slightly above the 5% threshold"
+    - "12%, indicating mainstream adoption"
+    - "0.6%, close to but below the 5% threshold"
+  answer: 0
+  explanation: "Appendix 1 of VM0044 calculates APy as approximately 773,787 tonnes of observed biochar production divided by approximately 1.37 billion tonnes of maximum adoption potential, multiplied by 100. The result is approximately 0.06%. This is far below the 5% threshold, confirming that biochar production from waste biomass is not yet mainstream."
+
+- question: "A project proponent claims that its rice straw feedstock would have decomposed anaerobically in flooded fields without the project. No formal records exist. What types of evidence does VM0044 accept to support this baseline scenario claim?"
+  options:
+    - "The proponent's engineering judgment alone is sufficient"
+    - "Only official government records are acceptable"
+    - "Existing literature, existing survey data from similar industries in the region, or a survey conducted by the proponent"
+    - "The baseline must be determined by the third-party validator, not the proponent"
+  answer: 2
+  explanation: "When formal records are unavailable, VM0044 accepts data from existing literature about the same type of waste biomass, existing survey data from similar industries in the same region, or a survey conducted by the proponent. The proponent bears the responsibility for providing credible evidence to support whatever baseline scenario is claimed."
+
+- question: "A biochar project passes Step 1 (Regulatory Surplus) but cannot demonstrate that its activity type meets the conditions of the Positive List in Step 2. What happens next?"
+  options:
+    - "The project proceeds to Step 3 (Investment Analysis) and can still qualify"
+    - "The project can apply for a waiver from Verra to bypass Step 2"
+    - "The project is not additional and is not eligible for VCS crediting"
+    - "The project reverts to a project-specific additionality demonstration"
+  answer: 2
+  explanation: "All three additionality steps must be passed. If a project fails Step 2 (Positive List), the assessment ends there. The project is not considered additional and cannot earn VCS credits under VM0044. There is no provision to skip or substitute a step."

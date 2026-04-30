@@ -1,0 +1,26 @@
+- question: "What does TRIR stand for in health and safety benchmarking?"
+  options:
+    - "Total Regulatory Incident Record"
+    - "Total Recordable Incident Rate"
+    - "Time-Relative Injury Ratio"
+    - "Tracked Risk Injury Register"
+  answer: 1
+  explanation: "TRIR stands for Total Recordable Incident Rate. It measures the number of work-related injuries and illnesses per 200,000 hours worked, which is the equivalent of 100 full-time workers for one year. It is the standard metric used across most industries to compare safety performance in peer benchmarking."
+
+- question: "Which MSCI key issue covers the risk arising from a company collecting, storing, or processing significant volumes of sensitive personal data?"
+  options:
+    - "Chemical Safety"
+    - "Consumer Financial Protection"
+    - "Privacy and Data Security"
+    - "Product Safety and Quality"
+  answer: 2
+  explanation: "The Privacy and Data Security key issue sits within the Product Liability Theme of the MSCI Social Pillar. It is relevant to companies where data intensity and data sensitivity are significant risk drivers, such as those in internet services, financial services, and healthcare."
+
+- question: "What does the Sustainalytics Human Capital Material ESG Issue cover?"
+  options:
+    - "Health and safety policies and injury rate performance"
+    - "Human rights practices in the company's supply chain"
+    - "Employee recruitment, development, diversity, engagement, and labour relations"
+    - "Product liability and the safety of goods sold to customers"
+  answer: 2
+  explanation: "Sustainalytics identifies Human Capital as an MEI whose common management thread is attracting and retaining qualified employees. It encompasses employee recruitment, development, diversity, engagement, and labour relations. Occupational Health and Safety is a separate MEI with a different management focus."

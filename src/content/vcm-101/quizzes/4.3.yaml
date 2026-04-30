@@ -1,0 +1,26 @@
+- question: "A corporate buyer wants to benchmark the price of a nature-based avoidance credit against the most relevant publicly available market reference. Which benchmark is most appropriate?"
+  options:
+  - "CBL GEO (Global Emissions Offset)"
+  - "CBL C-GEO (CORSIA-Eligible Global Emissions Offset)"
+  - "CBL N-GEO (Nature-Based Global Emissions Offset)"
+  - "S&P Global Platts CORSIA-eligible assessed price"
+  answer: 2
+  explanation: "The N-GEO (Nature-Based Global Emissions Offset) contract specifically tracks nature-based solutions credits, making it the most directly comparable benchmark for a nature-based avoidance credit. The GEO tracks a broader eligible universe (including non-NBS credits), the C-GEO tracks CORSIA-eligible credits for aviation compliance, and Platts CORSIA assessments are not specific to NBS credits."
+
+- question: "Which organisation publishes the annual 'State of the Voluntary Carbon Markets' report, providing the most comprehensive historical data on VCM transaction volumes and average prices by category?"
+  options:
+  - "The Integrity Council for the Voluntary Carbon Market (ICVCM)"
+  - "Ecosystem Marketplace (a Forest Trends initiative)"
+  - "The Taskforce on Scaling Voluntary Carbon Markets (TSVCM)"
+  - "S&P Global Commodity Insights (Platts)"
+  answer: 1
+  explanation: "Ecosystem Marketplace, a non-profit market transparency initiative run by Forest Trends, has published the State of the Voluntary Carbon Markets report annually since the mid-2000s. It is the definitive source for backward-looking market size, volume, and pricing data. The ICVCM focuses on quality standards, TSVCM produced its own reports as a policy taskforce, and Platts provides real-time daily assessed prices rather than annual survey data."
+
+- question: "A significant limitation of exchange-based carbon benchmarks such as the CBL GEO is that they:"
+  options:
+  - "Can only be used by companies with aviation compliance obligations"
+  - "Require mandatory trade reporting from all OTC participants"
+  - "Cannot capture the prices of premium OTC deals with project-level specificity, leaving the 'ceiling' of the market largely invisible to public benchmarking"
+  - "Are only updated monthly rather than in real time"
+  answer: 2
+  explanation: "Exchange benchmarks by design track credits that conform to standardised eligibility categories. Premium bespoke OTC deals, where a specific project with CCB certification, a top BeZero rating, and a particular vintage commands $35-60 per tonne, are private transactions not captured in exchange data. This means public benchmarks systematically understate the true ceiling of the market, creating an information asymmetry that disadvantages less experienced buyers negotiating premium OTC deals."

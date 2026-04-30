@@ -1,0 +1,26 @@
+- question: "Under what circumstances does PS 1 require Free, Prior, and Informed Consent (FPIC)?"
+  options:
+    - "For all Category A projects"
+    - "When projects affect Indigenous Peoples' lands, resources, or cultural heritage (as detailed in PS 7)"
+    - "Only when more than 100 people are affected"
+    - "FPIC is never required under the Performance Standards"
+  answer: 1
+  explanation: "FPIC is required under PS 7 (referenced by PS 1) when projects affect Indigenous Peoples' lands, natural resources, or cultural heritage; require relocation of indigenous communities; or have significant impacts on critical cultural heritage. PS 1's risk screening process identifies when PS 7 and its FPIC requirements are triggered."
+
+- question: "What must a project-level grievance mechanism provide?"
+  options:
+    - "Legal representation for all complainants"
+    - "Guaranteed financial compensation for every complaint"
+    - "An accessible, transparent process for receiving and resolving community concerns without retribution"
+    - "Direct access to IFC's Compliance Advisor Ombudsman"
+  answer: 2
+  explanation: "PS 1 requires the grievance mechanism to be accessible, culturally appropriate, transparent about the process, and free from retribution. It does not guarantee specific outcomes but must provide a fair process for raising and resolving concerns at the project level."
+
+- question: "What is Informed Consultation and Participation (ICP)?"
+  options:
+    - "A one-time public hearing held before construction begins"
+    - "A two-way process where affected communities can influence project decisions, with their input documented and considered"
+    - "Written consent from every individual in the affected community"
+    - "A government-led environmental review process"
+  answer: 1
+  explanation: "Informed Consultation and Participation (ICP) is a deeper form of engagement than basic consultation. It involves a two-way exchange where affected communities receive information, can express views, and have those views genuinely considered in project decision-making. It applies to projects with significant adverse impacts on affected communities."

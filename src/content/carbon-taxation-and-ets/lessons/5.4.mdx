@@ -1,0 +1,261 @@
+{/* source: ETS Handbook Step 6; Fig 6-4, 6-5 */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/carbon-pricing/5_4.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Price Floors and Ceilings
+
+Price floors and ceilings are the most direct forms of price stability mechanisms. They set explicit boundaries on carbon prices. This lesson examines how they work in practice and what happens when markets hit these boundaries.
+
+### How Price Floors Work
+
+A price floor prevents carbon prices from falling below a set level.
+
+**Implementation methods:**
+
+**1. Auction reserve price**
+
+Allowances are not sold at auction below a minimum price. If all bids are below the reserve, allowances go unsold.
+
+**2. Carbon tax complement**
+
+A minimum tax applies when the allowance price is below a certain level. The tax tops up the allowance price to reach the floor.
+
+**3. Government buyback**
+
+The government commits to buy allowances at the floor price, creating demand support.
+
+<ExampleBox>
+**Implementing a €30 floor with different methods:**
+
+**Auction reserve approach:**
+- Auctions will not clear below €30
+- If market demand yields only €25, allowances remain unsold
+- Supply tightens, future prices rise
+
+**Tax complement approach:**
+- If allowance price is €20, a €10 tax applies
+- Entities pay €20 for allowances plus €10 tax = €30 total carbon cost
+- Allowances still trade at market price, but effective cost is floored
+
+**Buyback approach:**
+- Government offers to buy any allowance for €30
+- No one sells below €30 (they would sell to government instead)
+- Creates a hard floor
+</ExampleBox>
+
+### Why Price Floors Matter
+
+**Investment signal**
+
+A floor guarantees a minimum carbon cost. Investors can plan knowing that carbon prices will not collapse below a certain level.
+
+**Revenue stability**
+
+Government auction revenue will not fall below floor × auction quantity.
+
+**Policy credibility**
+
+A rising floor signals commitment to increasing carbon costs over time.
+
+**Protects against external shocks**
+
+Economic recessions, pandemics, or other events that reduce demand will not crash prices to zero.
+
+<HighlightBox>
+A price floor transforms some of the uncertainty of an ETS into certainty. You know the minimum price you face. This is especially valuable for long-term investment decisions.
+</HighlightBox>
+
+### Price Floor Experiences
+
+**California**
+
+California's auction reserve price has functioned effectively as a price floor:
+- Started at $10 in 2013
+- Rises at 5% plus inflation annually
+- Has rarely been tested (market prices above floor)
+- Provides a safety net if demand collapses
+
+**UK after Brexit**
+
+When the UK left the EU ETS, there were concerns about low prices in the new UK ETS:
+- A temporary auction reserve price of £22 was set
+- Prevented potential price collapse during transition
+- Market prices quickly exceeded the floor
+
+**British Columbia (hybrid)**
+
+BC combines its carbon tax with the ETS. The carbon tax effectively creates a floor for all emissions, including those outside the trading system.
+
+### How Price Ceilings Work
+
+A price ceiling prevents carbon prices from rising above a set level.
+
+**Implementation methods:**
+
+**1. Unlimited supply at ceiling**
+
+Government commits to sell unlimited allowances at the ceiling price. Any buyer can purchase at this price.
+
+**2. Cost containment reserve (limited)**
+
+A reserve of allowances becomes available when prices exceed certain thresholds. Supply is limited.
+
+**3. Offsets trigger**
+
+Additional offset supply becomes eligible when prices exceed a threshold.
+
+<ExampleBox>
+**Implementing a €100 ceiling with different methods:**
+
+**Unlimited supply approach:**
+- Government sells as many allowances as demanded at €100
+- Price cannot exceed €100
+- Environmental outcome is uncertain (total emissions depend on demand at €100)
+
+**Cost containment reserve approach:**
+- 50 million allowances set aside
+- If market price exceeds €100, reserve allowances sold at €100
+- Once reserve is exhausted, prices can rise above €100
+
+**Offset trigger approach:**
+- Below €100: only domestic offsets eligible
+- Above €100: international offsets also become eligible
+- Increases supply, reduces price pressure
+</ExampleBox>
+
+### Ceiling Design Choices
+
+Several choices affect how ceilings function:
+
+**Hard vs soft**
+
+Hard ceiling: unlimited supply (price absolutely capped)
+Soft ceiling: limited reserve (price might exceed temporarily)
+
+**Single vs tiered**
+
+Single: One ceiling price
+Tiered: Multiple reserves at different prices (like California's system)
+
+**Reserve size**
+
+Larger reserves provide more protection but may compromise environmental integrity.
+
+<DeepDive title="California's tiered price containment">
+California uses a sophisticated tiered approach:
+
+**Tier 1 (lower reserve):**
+- Reserve of allowances available at ~$65/ton (2024)
+- Provides moderate cost protection
+
+**Tier 2 (upper reserve):**
+- Additional reserve at ~$72/ton
+- More protection if Tier 1 exhausted
+
+**Ceiling price:**
+- Hard ceiling at ~$72/ton
+- Effectively unlimited supply at this level
+
+**How it works:**
+1. If market prices rise toward $65, some buyers purchase from Tier 1 reserve
+2. This reduces price pressure
+3. If pressure continues, Tier 2 activates
+4. The ceiling provides ultimate cost protection
+
+**Why tiered?**
+- First tier tests whether high prices are temporary
+- Second tier confirms sustained high demand
+- Graduated response preserves more environmental integrity
+</DeepDive>
+
+### Why Price Ceilings Matter
+
+**Cost protection**
+
+Entities know the maximum they will pay. This caps compliance costs.
+
+**Political feasibility**
+
+Prevents price spikes that might trigger political backlash or emergency intervention.
+
+**Reduces volatility**
+
+Limits the upside of price swings.
+
+**Encourages participation**
+
+Entities more comfortable participating when they know worst-case costs.
+
+### Price Ceiling Concerns
+
+**Environmental integrity**
+
+If the ceiling is hit, more allowances enter circulation. Total emissions may exceed intended cap.
+
+**Reduced scarcity signal**
+
+If participants expect the ceiling to be hit, the price signal weakens. Why invest in abatement if prices will be capped?
+
+**Gaming**
+
+Entities might avoid abatement expecting to buy at the ceiling, creating a self-fulfilling prophecy.
+
+**Setting the level**
+
+Too low and it is hit frequently, undermining the cap. Too high and it provides no real protection.
+
+### The Price Corridor in Practice
+
+Most systems use both floors and ceilings, creating a "corridor" or "collar":
+
+<ResponsiveTable>
+| System | Floor (2024) | Ceiling/reserves | Width of corridor |
+|--------|--------------|-----------------|-------------------|
+| California | ~$22 | ~$72 | ~$50 |
+| RGGI | ~$15 | Cost containment at ~$21 | ~$6 |
+| UK ETS | ~£22 auction reserve | Cost containment at £147 | ~£125 |
+</ResponsiveTable>
+
+<AnalogyBox>
+The price corridor is like temperature controls in a building. The floor is like heating (prevents too cold). The ceiling is like air conditioning (prevents too hot). Within the corridor, the temperature (price) fluctuates naturally. Only at the extremes does the system intervene.
+</AnalogyBox>
+
+### Dynamic Corridors
+
+Some systems have corridors that change over time:
+
+**Rising floor**
+
+Many auction reserve prices increase each year (often inflation plus 5-7%). This signals increasing carbon costs.
+
+**Stable ceiling**
+
+Some ceilings are relatively stable, providing consistent cost protection.
+
+**Narrowing corridor**
+
+Some proposals have corridors that narrow over time, gradually approaching a fixed carbon price.
+
+**Responsive corridors**
+
+Some proposals link floor/ceiling levels to market conditions or external factors.
+
+### Interplay with Other Mechanisms
+
+Price floors and ceilings interact with other PSAMs:
+
+**With banking:**
+
+A low floor may be reached if entities have large banks. Floors prevent banked allowances from completely suppressing prices.
+
+**With MSR:**
+
+The EU combines a market stability reserve (quantity adjustment) with no explicit price floor or ceiling. This is a purely quantity-based approach to price stability.
+
+**With offsets:**
+
+Ceiling triggers that allow more offsets increase supply but may have environmental integrity implications.
+
+### Looking Ahead
+
+The most sophisticated quantity-based PSAM is the EU's Market Stability Reserve. The next lesson examines how the MSR works and what lessons it offers for other systems.

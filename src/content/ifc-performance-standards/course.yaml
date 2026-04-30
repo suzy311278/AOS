@@ -1,0 +1,112 @@
+id: ifc-performance-standards
+title: "IFC Performance Standards"
+subtitle: "Environmental and social sustainability requirements for project finance"
+description: "A practical guide to the eight IFC Performance Standards - the global benchmark for managing environmental and social risks in private sector investment projects."
+icon: "🏛️"
+color: blue
+status: published
+category: esg
+estimatedHours: 4
+modules:
+  - id: 0
+    title: "The Framework"
+    subtitle: "What the Performance Standards are and why they matter"
+    icon: "🌐"
+    color: blue
+    lessons:
+      - id: "0.1"
+        title: "What Are the IFC Performance Standards?"
+        duration: "12 min"
+        vmRef: "IFC PS Overview, paragraphs 1-8"
+      - id: "0.2"
+        title: "The Sustainability Framework"
+        duration: "10 min"
+        vmRef: "IFC PS Overview, paragraphs 1-8; EHS Guidelines"
+  - id: 1
+    title: "PS 1: Assessment & Management System"
+    subtitle: "The overarching standard that governs the entire ESMS"
+    icon: "📋"
+    color: blue
+    lessons:
+      - id: "1.1"
+        title: "The ESMS and Its Seven Elements"
+        duration: "15 min"
+        vmRef: "PS 1, paragraphs 1-24"
+      - id: "1.2"
+        title: "Stakeholder Engagement & Grievance Mechanisms"
+        duration: "12 min"
+        vmRef: "PS 1, paragraphs 25-36"
+  - id: 2
+    title: "PS 2: Labor and Working Conditions"
+    subtitle: "Protecting workers across the project lifecycle"
+    icon: "👷"
+    color: green
+    lessons:
+      - id: "2.1"
+        title: "Worker Rights and Protections"
+        duration: "12 min"
+        vmRef: "PS 2, paragraphs 1-29"
+  - id: 3
+    title: "PS 3: Resource Efficiency and Pollution Prevention"
+    subtitle: "Managing environmental footprint"
+    icon: "♻️"
+    color: emerald
+    lessons:
+      - id: "3.1"
+        title: "Resource Efficiency, GHG, and Pollution Controls"
+        duration: "12 min"
+        vmRef: "PS 3, paragraphs 1-17"
+  - id: 4
+    title: "PS 4: Community Health, Safety, and Security"
+    subtitle: "Protecting communities affected by projects"
+    icon: "🏘️"
+    color: orange
+    lessons:
+      - id: "4.1"
+        title: "Community Risks and Security Personnel"
+        duration: "12 min"
+        vmRef: "PS 4, paragraphs 1-14"
+  - id: 5
+    title: "PS 5: Land Acquisition and Involuntary Resettlement"
+    subtitle: "When projects displace people"
+    icon: "🏗️"
+    color: rose
+    lessons:
+      - id: "5.1"
+        title: "Displacement, Compensation, and Livelihood Restoration"
+        duration: "15 min"
+        vmRef: "PS 5, paragraphs 1-32"
+  - id: 6
+    title: "PS 6: Biodiversity and Living Natural Resources"
+    subtitle: "Protecting ecosystems and managing natural resources"
+    icon: "🌿"
+    color: green
+    lessons:
+      - id: "6.1"
+        title: "Habitats, Offsets, and Sustainable Management"
+        duration: "15 min"
+        vmRef: "PS 6, paragraphs 1-30"
+  - id: 7
+    title: "PS 7 & 8: Indigenous Peoples and Cultural Heritage"
+    subtitle: "Respecting rights, culture, and heritage"
+    icon: "🏛️"
+    color: violet
+    lessons:
+      - id: "7.1"
+        title: "Indigenous Peoples and FPIC"
+        duration: "12 min"
+        vmRef: "PS 7, paragraphs 1-22"
+      - id: "7.2"
+        title: "Cultural Heritage Protection"
+        duration: "10 min"
+        vmRef: "PS 8, paragraphs 1-16"
+  - id: 8
+    title: "Putting It All Together"
+    subtitle: "How the standards work in practice"
+    icon: "🔗"
+    color: blue
+    lessons:
+      - id: "8.1"
+        title: "How the Standards Connect"
+        duration: "10 min"
+        vmRef: "IFC PS Overview; Guidance Notes Introduction"

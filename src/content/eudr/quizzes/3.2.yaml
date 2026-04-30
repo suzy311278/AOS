@@ -1,0 +1,26 @@
+- question: "Which risk category is the default under the EUDR benchmarking system for countries that have not been positively designated?"
+  options:
+    - "Low risk"
+    - "Standard risk"
+    - "High risk"
+    - "Unclassified"
+  answer: 1
+  explanation: "Standard risk is the default classification. Countries must be positively designated as low risk or high risk; all others remain standard risk by default."
+
+- question: "Under simplified due diligence (for low-risk country origins), which obligation is still required from operators?"
+  options:
+    - "Conducting a full risk assessment"
+    - "Collecting geolocation data for all production plots"
+    - "Commissioning an independent audit of each supplier"
+    - "Submitting a risk mitigation plan to the competent authority"
+  answer: 1
+  explanation: "Even under simplified due diligence for low-risk countries, operators must still collect all required information including geolocation coordinates. What they are not required to do is conduct a full detailed risk assessment before concluding that products are deforestation-free."
+
+- question: "Can a product certified by RSPO (Roundtable on Sustainable Palm Oil) automatically receive simplified due diligence treatment under the EUDR?"
+  options:
+    - "Yes, RSPO certification grants automatic low-risk status"
+    - "Yes, but only for smallholder-sourced palm oil"
+    - "No, country risk classification is determined by the Commission, not by certification"
+    - "No, only FSC certification is recognized by the EUDR"
+  answer: 2
+  explanation: "No certification scheme confers automatic low-risk country status. Country risk classifications are determined by the Commission based on deforestation and governance data. Certification may be useful evidence within due diligence but does not replace or substitute for the Commission's benchmarking determination."

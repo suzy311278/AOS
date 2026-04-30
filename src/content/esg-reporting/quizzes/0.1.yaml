@@ -1,0 +1,26 @@
+- question: "A mid-size company says they want an ESG report because 'everyone else has one.' How should this motivation shape your approach?"
+  options:
+    - "Decline the engagement because peer pressure is not a valid reason"
+    - "Dig deeper to find a more specific business objective the report can serve"
+    - "Write a generic report that covers all ESG topics equally"
+    - "Focus the report entirely on rating agency criteria"
+  answer: 1
+  explanation: "Peer pressure is a common trigger, but it does not tell you what the report needs to accomplish. Your job is to help the client connect their motivation to a specific purpose - whether that is investor communication, regulatory compliance, or ratings improvement - because the 'why' determines emphasis, structure, and tone."
+
+- question: "Two institutional investors have written to a company asking about climate risk and Scope 1/2 emissions. What is the most effective way to structure the resulting ESG report?"
+  options:
+    - "Cover all ESG topics equally across a 120-page report"
+    - "Only include environmental data and skip social and governance sections"
+    - "Lead with a strong environmental section and climate risk coverage, while still including social and governance content"
+    - "Wait for more investor requests before deciding on the report structure"
+  answer: 2
+  explanation: "When the primary audience and their specific concerns are known, the report's center of gravity should shift toward those concerns. The social and governance sections still appear, but the environmental and climate risk sections get expanded treatment because that is what the actual audience asked about."
+
+- question: "Why does understanding the 'why' behind an ESG report lead to faster leadership approvals?"
+  options:
+    - "Leadership does not actually review ESG reports in detail"
+    - "It allows you to skip the review process entirely"
+    - "Leadership sees their own priorities reflected in the document, reducing rewrites"
+    - "It reduces the total number of pages in the report"
+  answer: 2
+  explanation: "When the report reflects the company's actual motivation and priorities, leadership recognizes their intent in the document. This alignment reduces the back-and-forth of 'this is not what we had in mind' feedback and leads to faster sign-off with fewer revision cycles."

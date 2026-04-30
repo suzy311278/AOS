@@ -1,0 +1,131 @@
+{/* source: PCAF Standard Part A (3rd Edition), Chapter 5.5 */}
+
+**Mortgages** are loans secured by residential property. This asset class is particularly significant for retail banks and building societies, where residential mortgage portfolios can represent trillions of dollars in outstanding exposures. Like commercial real estate, the emissions associated with mortgages come primarily from the energy consumed to heat, cool, and power the residential buildings financed rather than from the activities of the homeowners themselves.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/financed-emissions/2_5.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Asset Class Definition
+
+This asset class covers on-balance-sheet **mortgage loans secured by residential properties**, including:
+- Primary residences
+- Rental properties (buy-to-let)
+- Holiday homes
+- Mixed residential-commercial properties where the majority use is residential
+
+It does not cover commercial mortgages (which fall under Chapter 5.4) or development loans for residential construction (though PCAF provides guidance for in-development properties).
+
+## Emission Scopes Covered
+
+Financial institutions shall report:
+- **Scope 1 emissions**: On-site fuel combustion (gas heating, oil boilers, wood burning)
+- **Scope 2 emissions**: Purchased electricity and district heating or cooling consumed by the dwelling
+
+The same principle applies as in CRE: the focus is on the **building's energy consumption**, not the homeowner's lifestyle choices, vehicle use, or other personal emissions.
+
+## Attribution of Emissions
+
+The attribution denominator for mortgages is identical to CRE: the **property value at origination**, held constant over the life of the loan:
+
+<EquationBreakdown
+  title="Mortgage Attribution Factor"
+  result="AF | Attribution Factor | The bank's share of the residential property's emissions | blue"
+  inputs="Outstanding Mortgage | Outstanding Mortgage | Current outstanding mortgage balance after repayments | green ;; PV<sub>orig</sub> | Property Value at Origination | Appraised property value at the time the mortgage was made, held constant | amber"
+  operator="÷"
+/>
+
+This approach has the same rationale as CRE: freezing the denominator at origination prevents market price fluctuations from artificially changing the bank's reported financed emissions.
+
+<HighlightBox>
+Unlike corporate asset classes where the bank might be one of many lenders and therefore carries a small attribution factor, a residential mortgage often finances 70 to 95 percent of the property value. The resulting attribution factors for mortgages are therefore typically much higher than those for corporate lending, often ranging from 50% to 90%.
+</HighlightBox>
+
+<ExampleBox>
+**Attribution example: A residential mortgage**
+
+A bank provides a mortgage of £280,000 on a house appraised at £350,000 at origination. After 5 years, the outstanding balance is £240,000.
+
+Attribution factor (Year 5) = £240,000 / £350,000 = **68.6%**
+
+The house has an EPC rating of C, and based on its floor area of 110 m² and the EPC-derived energy intensity for C-rated homes in the UK (approx. 170 kWh/m²/year), estimated annual consumption is 18,700 kWh.
+
+Using a national grid emission factor of 0.233 tCO2e/MWh plus on-site gas heating estimated at 5,000 kWh (at 0.184 tCO2e/MWh):
+
+Building emissions = (18.7 MWh × 0.233) + (5.0 MWh × 0.184) = 4.36 + 0.92 = **5.28 tCO2e/year**
+
+Financed emissions = 68.6% × 5.28 = **3.62 tCO2e/year**
+</ExampleBox>
+
+## Data Quality Options for Mortgages
+
+The scoring structure is identical to CRE, based on the quality of energy consumption data:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Score</th>
+      <th>Option</th>
+      <th>Energy Consumption Basis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1</strong></td>
+      <td>1a</td>
+      <td>Primary data on actual building energy consumption; supplier-specific emission factors</td>
+    </tr>
+    <tr>
+      <td><strong>2</strong></td>
+      <td>1b</td>
+      <td>Primary data on actual building energy consumption; average emission factors per energy source</td>
+    </tr>
+    <tr>
+      <td><strong>3</strong></td>
+      <td>2a</td>
+      <td>Estimated consumption from official energy labels (EPC) and floor area financed</td>
+    </tr>
+    <tr>
+      <td><strong>4</strong></td>
+      <td>2b</td>
+      <td>Estimated consumption from building type and location-specific statistical data and floor area financed</td>
+    </tr>
+    <tr>
+      <td><strong>5</strong></td>
+      <td>3</td>
+      <td>Estimated consumption from statistical data and numbers of dwellings financed (no floor area data)</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+## The Role of Energy Performance Certificates
+
+EPC labels are particularly valuable for residential mortgage portfolios because:
+
+1. They are **mandatory** in many jurisdictions (required for property sale and rental in the EU, UK, and other countries)
+2. They are **centrally registered** and accessible through government databases in many countries
+3. They provide **standardised energy intensity ratings** that can be cross-walked to estimated energy consumption using floor area data
+4. **Banks hold property information** at origination that allows EPC data to be matched to the loan portfolio
+
+<DeepDive title="The Green Mortgage Opportunity">
+Mortgages sit at the intersection of financed emissions measurement and green product development. Once a bank knows the energy performance (and therefore the likely emissions profile) of its residential mortgage portfolio, it can:
+
+- Offer **green mortgages** with preferential interest rates for energy-efficient properties (EPC ratings A or B)
+- Provide **retrofit financing** for homeowners who want to upgrade insulation, install heat pumps, or fit solar panels
+- **Engage with borrowers** on energy improvements that would both reduce their bills and lower the bank's financed emissions
+- Report portfolio-level energy performance indicators to regulators (as required by PCAF's reporting chapter and increasingly by EU mortgage legislation)
+
+This creates a direct channel from financed emissions measurement to portfolio transformation.
+</DeepDive>
+
+## Aggregation Across Large Portfolios
+
+Retail banks with millions of residential mortgages typically cannot obtain actual energy consumption data for every property. The practical approach is to use **portfolio-level proxies**:
+
+1. Match loans to EPC ratings using property addresses (where national EPC registers are accessible)
+2. For unrated properties, use the national distribution of EPC ratings for the applicable building vintage and type
+3. Calculate average emissions per property category and multiply by the number of properties or total outstanding balance in each category
+
+This portfolio-level approach produces a Score 3 or 4 calculation, which is acceptable as a starting point. The goal over time is to increase the proportion of the portfolio with actual energy consumption data, improving the weighted average data quality score.
+
+<KeyTakeaways items="Mortgage attribution uses property value at origination as the denominator - the same approach as CRE, frozen to prevent market distortion ;; Mortgage attribution factors are typically much higher (50-90%) than corporate lending because the loan finances most of the property value ;; EPC labels are especially valuable for mortgages because they are mandatory in many jurisdictions and centrally registered ;; Green mortgages with preferential rates for energy-efficient homes create a direct link from financed emissions measurement to portfolio decarbonisation ;; For large portfolios, match loans to EPC ratings via property addresses and use national distributions for unrated properties as a starting proxy" />

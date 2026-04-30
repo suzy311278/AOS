@@ -1,0 +1,168 @@
+{/* 8.2: Bias Tests, Prediction Error & the MVR */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/vm0042/8_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## VMD0053: Bias Tests, Prediction Error & the Model Validation Report
+
+<HighlightBox>
+  <p class="font-semibold text-green-800">The core of model validation</p>
+  <p class="text-green-900 mt-1">Two statistical tests determine whether a biogeochemical model is credible enough to generate VCS carbon credits: the <strong>bias test</strong> (is the model systematically over- or under-estimating?) and the <strong>prediction error test</strong> (how precise are its estimates?). Both results feed directly into the credit deduction applied to the project.</p>
+</HighlightBox>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">Analogy: Testing a Rifle Scope</p>
+  <p class="mt-2 text-blue-900">A bias test is like checking whether a rifle consistently shoots left of target (systematic bias). A prediction error test checks how scattered the shots are around where they land (precision). A scope that always shoots left by 5 cm can be corrected, you know the offset. A scope with completely scattered shots is unusable because you cannot predict where the next shot lands. VMD0053's two tests mirror this: bias tells you the systematic offset; prediction error tells you the scatter.</p>
+</AnalogyBox>
+
+### The Bias Test (Section 5.2.4)
+<p class="mb-3 text-sm">Bias is the systematic tendency of a model to overestimate or underestimate effects. Even a biased model can still be used, but large biases produce large prediction errors, which result in larger credit deductions.</p>
+
+<EquationBreakdown
+  title="Equation 1 - Per-Study Bias"
+  result="bias | Per-Study Bias | The average difference between what the model predicted and what was actually observed across all observations in one study, in tCO₂e | blue"
+  inputs="P<sub>i</sub> | Predicted Value | The model's predicted value for observation i, in tCO₂e | green ;; O<sub>i</sub> | Observed Value | The actual measured value for observation i, in tCO₂e | amber ;; n | Number of Observations | Total count of paired observations in the study, used as the divisor | violet"
+  operator="-"
+/>
+
+<p class="text-sm text-slate-600 mb-4">Mean bias = unweighted mean of all per-study biases (unweighted so that one large study with many observations does not automatically dominate model acceptance).</p>
+
+<EquationBreakdown
+  title="Equation 2 - Pooled Measurement Uncertainty (PMU)"
+  result="σ<sub>meas</sub> | Pooled Measurement Uncertainty | The combined measurement uncertainty across all validation observations, used as the threshold for the bias test, in tCO₂e | blue"
+  inputs="σ<sub>j</sub> | Observation Standard Error | Standard error of the j-th observation from field measurements | green ;; n<sub>j</sub> | Replicate Count | Number of measurement replicates in the j-th observation | amber ;; k | Observation Count | Total number of observations across all validation studies | violet"
+/>
+
+<p class="text-sm text-slate-600 mb-4"><strong>Bias validity test:</strong> |mean bias| &le; PMU means the model PASSES the bias test.</p>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Worked Bias Calculation (from VMD0053 Figure 5)</p>
+  <p class="mt-2 text-sm">Three studies measuring the effect of reduced tillage on SOC change (values in tCO₂e):</p>
+  <ResponsiveTable>
+<table class="text-sm mt-2">
+    <tr><th>Study</th><th>Observations (modeled vs observed)</th><th>Per-study bias</th></tr>
+    <tr><td>Study 1</td><td>(1.1 vs 4.5) and (12.2 vs 3.1)</td><td>((1.1-4.5) + (12.2-3.1)) / 2 = +2.85</td></tr>
+    <tr><td>Study 2</td><td>(0.6 vs 1.2)</td><td>(0.6-1.2) / 1 = -0.60</td></tr>
+    <tr><td>Study 3</td><td>(-3.3 vs 3.5) and (4.5 vs 4.0)</td><td>((-3.3-3.5) + (4.5-4.0)) / 2 = -3.15</td></tr>
+  </table>
+</ResponsiveTable>
+  <p class="font-mono text-sm bg-slate-100 p-2 rounded mt-2">Mean bias = (2.85 + (-0.60) + (-3.15)) / 3 = (-0.90) / 3 = -0.30</p>
+  <p class="text-sm mt-2">PMU calculated from all study standard errors = <strong>1.6 tCO₂e</strong></p>
+  <p class="text-sm font-bold text-amber-800 mt-1">Bias test: |-0.30| = 0.30 &le; 1.6 (PMU) - Model PASSES bias test</p>
+</ExampleBox>
+
+<div class="bg-slate-50 border border-slate-200 rounded p-4 mb-6 text-sm">
+  <p class="font-semibold text-slate-800">The Perverse Effect of Bias on Credits</p>
+  <p class="mt-1 text-slate-700">Large model biases, whether positive (overestimation) or negative (underestimation), produce large residuals when computing prediction error. Large prediction error means fewer credits survive the uncertainty deduction. So even a positively biased model that overestimates benefits is <em>penalized through the credit deduction system</em>. There is no "free lunch" from inflating model outputs.</p>
+</div>
+
+### The Prediction Error Test (Section 5.2.5)
+<p class="mb-3 text-sm">Even an unbiased model may be imprecise, its predictions scatter widely around observed values. VMD0053 quantifies this as <strong>model prediction error</strong>, which is used to deduct credits under VM0042's uncertainty framework.</p>
+
+<EquationBreakdown
+  title="Model Prediction Error Variance"
+  result="σ²<sub>model</sub> | Prediction Error Variance | How widely the model's errors scatter around their own mean - larger values mean less precise predictions, in (tCO₂e)² | blue"
+  inputs="mod<sub>j</sub> | Modeled Value | The model's predicted value for observation j, in tCO₂e | green ;; obs<sub>j</sub> | Observed Value | The actual measured value for observation j, in tCO₂e | amber ;; μ<sub>(mod-obs)</sub> | Mean Residual | The average of all (modeled minus observed) differences across k observations | violet ;; k | Observation Count | Total number of paired modeled-observed observations across all studies | rose"
+  operator="-"
+/>
+
+<p class="text-sm text-slate-600 mb-4">σ<sub>model</sub> = the square root of σ²<sub>model</sub> (the standard deviation of prediction errors).</p>
+
+<EquationBreakdown
+  title="90% Prediction Interval (Frequentist Models)"
+  result="PI<sub>i</sub> | Prediction Interval | The range within which 90% of actual observations should fall if the model is valid, for observation i | blue"
+  inputs="μ<sub>i</sub> | Modeled Effect | The model's predicted effect of practice change for observation i, in tCO₂e | green ;; 1.64 | Z-Score | The z-score for 90% confidence under the standard normal distribution | amber ;; σ<sub>model</sub> | Prediction Error SD | Standard deviation of model prediction errors from the variance calculation above | violet"
+/>
+
+<p class="text-sm text-slate-600 mb-2"><strong>Confidence coverage test:</strong> At least 90% of observed validation data values must fall within these intervals for the model to PASS.</p>
+<p class="text-xs text-slate-500 mb-4"><em>Note: A prediction interval tells you where a future individual observation is expected to fall. A confidence interval tells you uncertainty in an estimated mean. VMD0053 uses prediction intervals, the harder test, because it is checking individual data points, not just the average.</em></p>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Prediction Error: Continuing the Worked Example</p>
+  <p class="mt-2 text-sm">From the five modeled-observed pairs in our earlier example, suppose:</p>
+  <p class="font-mono text-sm bg-slate-100 p-2 rounded mt-1">σ²_model = 35.2 - σ_model = √35.2 = 5.9 tCO₂e</p>
+  <p class="text-sm mt-2">For modeled value μ_i = 6.8: 90% PI = [6.8 - 1.64x5.9, 6.8 + 1.64x5.9] = [-2.9, 16.5]</p>
+  <p class="text-sm">For modeled value μ_i = -4.0: 90% PI = [-4.0 - 9.7, -4.0 + 9.7] = [-13.7, 5.7]</p>
+  <p class="text-sm mt-2">The test: Are all (or at least 90% of) observed values within their respective intervals?</p>
+  <p class="text-sm font-bold text-amber-800 mt-1">If yes - model PASSES confidence coverage test - σ_model is used in VM0042 credit deductions</p>
+</ExampleBox>
+
+<div class="bg-blue-50 border border-blue-200 rounded p-4 mb-6 text-sm">
+  <p class="font-semibold text-blue-800">How Model Prediction Error Flows into Credit Deductions</p>
+  <p class="mt-1 text-blue-900">VM0042 uses a probability-of-exceedance framework for uncertainty. The model prediction error (σ_model) becomes one of the uncertainty inputs to the 95% confidence lower-bound calculation. A larger σ_model means the lower-bound estimate of carbon benefits is further from the central estimate, and fewer VCUs are issued. This is why improving model precision directly increases project revenue.</p>
+</div>
+
+### Two Options for Calculating Prediction Error
+<ResponsiveTable>
+<table class="mb-6 text-sm">
+  <tr><th>Option</th><th>When Used</th><th>Method</th></tr>
+  <tr><td><strong>Option A: Analytical</strong></td><td>Sufficient field trial data available</td><td>Direct calculation of variance of (modeled - observed) differences</td></tr>
+  <tr><td><strong>Option B: Monte Carlo</strong></td><td>Models with parameter uncertainty (e.g., Bayesian)</td><td>Posterior predictive distributions (PPDs) resampled iteratively to estimate prediction error</td></tr>
+</table>
+</ResponsiveTable>
+
+### The Model Validation Report (MVR) and IME Review
+<p class="mb-3 text-sm">All validation work is documented in a <strong>Model Validation Report (MVR)</strong>, which must be reviewed by an <strong>Independent Modeling Expert (IME)</strong> contracted by the VVB.</p>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+  <div class="bg-slate-50 border border-slate-200 rounded p-4 text-sm">
+    #### What the MVR Must Contain
+    <ul class="space-y-1 text-slate-700">
+      <li>- Model version and calibration process description</li>
+      <li>- All internal model parameter sets with proof of climate-zone-level resolution</li>
+      <li>- Full citation of calibration and validation datasets</li>
+      <li>- Per-study bias and mean bias across all studies (ranked highest to lowest)</li>
+      <li>- All PMU values used for each PC/CFG/ES combination</li>
+      <li>- Graphs of measured vs modeled with 90% prediction interval coverage</li>
+      <li>- Scatterplot and histogram of residuals (modeled - observed)</li>
+      <li>- Mean squared error for each combination</li>
+    </ul>
+  </div>
+  <div class="bg-indigo-50 border border-indigo-200 rounded p-4 text-sm">
+    #### IME Assessment Steps
+    <ol class="list-decimal ml-4 space-y-1 text-indigo-900">
+      <li>Project proponent submits MVR to VVB</li>
+      <li>VVB selects and contracts an IME meeting Verra's minimum qualifications</li>
+      <li>IME assesses: model eligibility (Section 4), calibration procedures, bias and prediction error calculations, confidence coverage</li>
+      <li>IME issues an assessment report submitted to VVB</li>
+      <li>Both MVR and IME assessment report are made publicly available in the Verra registry</li>
+    </ol>
+  </div>
+</div>
+
+<div class="bg-amber-50 border border-amber-200 rounded p-4 mb-6 text-sm">
+  <p class="font-semibold text-amber-800">IME Minimum Qualifications</p>
+  <ul class="mt-1 space-y-1 text-amber-900">
+    <li>- ≥5 years relevant experience quantifying GHG fluxes from ALM using biogeochemical models</li>
+    <li>- Demonstrated use of the specific model type or conceptually similar models (peer-reviewed publications or project reports as evidence)</li>
+    <li>- Freedom from conflict of interest (organizational affiliations must be disclosed)</li>
+    <li>- Two references from researchers or academic staff</li>
+  </ul>
+</div>
+
+<div class="bg-amber-50 border border-amber-200 rounded p-3 mb-4 text-sm">
+  <p class="font-semibold text-amber-800">Peer-Reviewed Journal Alternative</p>
+  <p class="mt-1 text-amber-900">Instead of a standalone IME review, an MVR may be published in one of 30+ approved peer-reviewed journals listed in VMD0053 Table 3 (including <em>Geoderma, Global Biogeochemical Cycles, Soil Science Society of America Journal</em>, etc.) AND reviewed by an IME. The peer-reviewed publication must explicitly state its purpose as validating the model for VCS carbon credits under ISO 14064. <strong>Important:</strong> the project proponent must also submit a separate sub-report outlining how the MVR requirements have been met and clarifying any aspects of the peer-reviewed paper as it pertains to the overall requirements, the published paper alone is not sufficient.</p>
+</div>
+
+<div class="bg-blue-50 border border-blue-200 rounded p-4 mb-4 text-sm">
+  <p class="font-semibold text-blue-800">Petitions for Exception: When Tests Fail Due to Data Scarcity</p>
+  <p class="mt-1 text-blue-900">Failing the bias test or the 90% confidence coverage test is not always an automatic dead end. VMD0053 allows project proponents to <em>petition for validation approval</em> even when strict thresholds are not met, where data scarcity is the documented reason. For example:</p>
+  <ul class="list-disc ml-5 mt-1 space-y-1 text-blue-900">
+    <li>Bias &gt; PMU: petition allowed if the mean bias is demonstrably due to insufficient validation observations, subject to IME and VVB approval</li>
+    <li>Coverage below 90%: petition allowed for marginal failures (e.g., 6/7 or 7/8 observations covered) where global data gaps exist for the specific PC/CFG/ES combination</li>
+  </ul>
+  <p class="mt-1 text-blue-900">Petitions are evaluated case-by-case and require clear justification, they are not routine exceptions.</p>
+</div>
+
+<div class="bg-slate-50 border border-slate-200 rounded p-4 mb-6 text-sm">
+  <p class="font-semibold text-slate-800">Default PMU When Standard Errors Are Not Published</p>
+  <p class="mt-1 text-slate-700">Many legacy soil studies do not report standard errors for their measurements, making it impossible to compute PMU directly. In these cases, VMD0053 allows a <em>default replacement PMU value</em> based on typical measurement error for the specific measurement technique (e.g., the combined measurement error of the SOC content and bulk density measurement techniques used). PMU may also be defined as a function of cumulative sampling depth based on observed measurement uncertainty in validation datasets. These default values must be justified and are subject to IME approval and VVB review. The North American Proficiency Testing Program (NAPT) is suggested as a reference for instrument-specific measurement error rates.</p>
+</div>
+
+### When Must the MVR Be Updated?
+<ul class="list-disc ml-6 text-sm space-y-1 mb-4">
+  <li>Project area expands to include new PCs, CFGs, or emission sources not covered in the original MVR</li>
+  <li>Model is changed in a way that substantially affects model runs and estimated emission reductions/removals</li>
+  <li>The MVR must be submitted alongside each monitoring report, the existing MVR continues to apply as long as the project remains within the already validated domain</li>
+</ul>
+<KeyTakeaways items="The bias test checks if the model systematically over- or under-estimates: pass requires absolute mean bias to be less than or equal to pooled measurement uncertainty (PMU) ;; Prediction error variance quantifies model scatter - larger variance means bigger credit deductions through VM0042's uncertainty framework ;; The 90% confidence coverage test requires at least 90% of observed values to fall within their respective 90% prediction intervals ;; The Model Validation Report (MVR) must be reviewed by an Independent Modeling Expert (IME) with 5+ years of biogeochemical modeling experience and no conflict of interest ;; Petitions for exception are permitted when bias or coverage tests fail due to documented data scarcity, but require case-by-case IME and VVB approval ;; The MVR must be updated whenever the project expands to new practice categories, crop functional groups, or emission sources not covered in the original validation" />

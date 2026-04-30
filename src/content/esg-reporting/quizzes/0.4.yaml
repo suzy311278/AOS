@@ -1,0 +1,26 @@
+- question: "A company decides to include three overseas subsidiaries in their consolidated reporting boundary, but two of those subsidiaries have no system for tracking energy or waste data. What is the best course of action?"
+  options:
+    - "Include estimated data for the subsidiaries to maintain the consolidated boundary"
+    - "Report on a standalone basis this year and expand the boundary as subsidiaries build data systems"
+    - "Delay the entire report until all subsidiaries can provide complete data"
+    - "Include the subsidiaries but leave their data sections blank"
+  answer: 1
+  explanation: "Including entities without reliable data creates a painful choice between reporting gaps (which looks bad) and fabricating numbers (which is worse). A clean standalone report with a transparent note about future expansion is far more credible. Assess data readiness at each entity before setting the boundary."
+
+- question: "A company publishes both a sustainability report and a BRSR filing using the same reporting boundary. Their sustainability report shows Scope 1 emissions of 50,000 tCO2e but the BRSR shows 48,000 tCO2e. What is the consequence?"
+  options:
+    - "No issue - minor differences are expected between documents"
+    - "It destroys credibility because rating agencies, investors, and auditors will catch the inconsistency"
+    - "Only the BRSR number matters since it is the regulatory filing"
+    - "The higher number is always assumed to be correct"
+  answer: 1
+  explanation: "When two documents share the same reporting boundary, the data must match exactly. Inconsistencies between the sustainability report and BRSR are caught by rating agencies, investors, and auditors, and they undermine the credibility of both documents. This is one of the most common and serious errors in practice."
+
+- question: "After agreeing on scope, a client makes a series of small additions: 'Can we include our CSR foundation? Can we add a section on our green building? Can the CEO have an innovation section?' What is the correct approach?"
+  options:
+    - "Absorb each request quietly since they are small changes"
+    - "Evaluate each request against the agreed scope document - if it requires new data or extends the timeline, treat it as a formal scope change"
+    - "Reject all additions to protect the original timeline"
+    - "Add everything requested and extend the deadline automatically"
+  answer: 1
+  explanation: "Scope creep in ESG reporting comes as a series of individually reasonable requests that collectively expand the project beyond what was planned. The scope document is your defense - each new request should be evaluated for impact on data collection, boundary, and timeline. If it is a scope change, it needs formal agreement, not quiet absorption."

@@ -1,0 +1,44 @@
+- question: "Why is continuous improvement important for carbon pricing systems?"
+  options:
+    - "Carbon pricing is perfect from the start"
+    - "Circumstances change - science evolves, economy shifts, technology develops"
+    - "It is legally required"
+    - "Continuous improvement is not important"
+  answer: 1
+  explanation: "Carbon pricing operates in a dynamic environment with evolving climate science, changing economic conditions, developing technology, and shifting policy context, requiring ongoing adaptation."
+
+- question: "What dimensions should carbon pricing evaluation assess?"
+  options:
+    - "Only environmental effectiveness"
+    - "Environmental effectiveness, economic efficiency, distributional impacts, and administrative performance"
+    - "Only revenue generation"
+    - "Political popularity only"
+  answer: 1
+  explanation: "Comprehensive evaluation examines environmental outcomes (emissions trends), economic efficiency (cost-effectiveness), distributional fairness (who pays/benefits), and administrative functioning (compliance, costs)."
+
+- question: "What is the purpose of scheduled reviews in carbon pricing systems?"
+  options:
+    - "To eliminate carbon pricing"
+    - "To assess performance and adjust design based on evidence and changing circumstances"
+    - "Pure formality with no impact"
+    - "To delay action"
+  answer: 1
+  explanation: "Regular reviews (annual for operations, periodic comprehensive reviews every 3-5 years) assess whether the system is working as intended and identify needed design adjustments."
+
+- question: "What is one common reason for adjusting a carbon pricing system?"
+  options:
+    - "Random changes"
+    - "Prices too low to drive needed reductions, leakage concerns, or new climate targets"
+    - "No reason to adjust"
+    - "Adjustments are prohibited"
+  answer: 1
+  explanation: "Common adjustment triggers include prices consistently below effective levels, emerging competitiveness/leakage concerns, updated climate targets, or new information about costs and technologies."
+
+- question: "Why is transparency important in carbon pricing evaluation?"
+  options:
+    - "It is not important"
+    - "Public reporting builds trust, enables independent research, and maintains accountability"
+    - "To hide information"
+    - "Only for appearances"
+  answer: 1
+  explanation: "Transparent reporting of system performance, compliance data, and evaluation findings builds public trust, enables independent verification, and ensures democratic accountability for carbon pricing decisions."

@@ -1,0 +1,26 @@
+- question: "How many ESRS standards are listed in Annex I of the Delegated Regulation?"
+  options:
+    - "9"
+    - "10"
+    - "12"
+    - "15"
+  answer: 2
+  explanation: "Annex I lists 12 standards: ESRS 1, ESRS 2, ESRS E1-E5, ESRS S1-S4, and ESRS G1."
+
+- question: "Which of the following correctly describes the three categories of ESRS standards?"
+  options:
+    - "Mandatory standards, voluntary standards, and sector-specific standards"
+    - "Cross-cutting standards, topical standards, and sector-specific standards"
+    - "Environmental standards, social standards, and governance standards"
+    - "General standards, financial standards, and sustainability standards"
+  answer: 1
+  explanation: "ESRS are organised into three categories: cross-cutting standards (ESRS 1 and ESRS 2, applying to all companies across all sectors), topical standards (Environmental, Social, and Governance standards, also sector-agnostic), and sector-specific standards (applying to all companies within a given sector). (ESRS 1, paragraph 4)"
+
+- question: "Which ESRS disclosures must a company report regardless of the outcome of its materiality assessment?"
+  options:
+    - "Disclosures in the topical environmental standards (ESRS E1-E5)"
+    - "Disclosures in ESRS 2 General Disclosures"
+    - "Disclosures in all sector-specific standards relevant to the company's industry"
+    - "Only the Governance reporting area disclosures"
+  answer: 1
+  explanation: "Irrespective of the outcome of its materiality assessment, the company shall always disclose the information required by ESRS 2 General Disclosures, including all the Disclosure Requirements and datapoints specified in ESRS 2. (ESRS 1, paragraph 29)"

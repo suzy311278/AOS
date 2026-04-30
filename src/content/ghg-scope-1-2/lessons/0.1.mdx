@@ -1,0 +1,133 @@
+{/* source: ghg-protocol-revised.pdf, Introduction (pp. 2-5), Chapter 2 (pp. 10-15) */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-1-2/0_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## What Is the GHG Protocol?
+
+If you work in sustainability, you will build GHG inventories. And when you do, the framework you will use - almost certainly - is the **GHG Protocol Corporate Accounting and Reporting Standard**.
+
+It is the most widely adopted greenhouse gas accounting framework in the world. Developed jointly by the World Resources Institute (WRI) and the World Business Council for Sustainable Development (WBCSD), it gives companies a standardised way to measure, report, and manage their emissions. When a company says "our Scope 1 emissions are 50,000 tonnes" - that language, those categories, that methodology - all come from the GHG Protocol.
+
+There is also a separate GHG Protocol Project Quantification Standard for measuring reductions from specific mitigation projects (offsets and credits). That is a different document for a different purpose. This course covers the Corporate Standard only.
+
+<AnalogyBox>
+Think of the GHG Protocol like GAAP for carbon. Without a common accounting standard, every company would measure emissions differently and no one could compare numbers. The GHG Protocol does for emissions what financial accounting standards do for revenue and costs: it creates a shared language that investors, regulators, auditors, and managers can all use.
+</AnalogyBox>
+
+## The Six Greenhouse Gases
+
+The Corporate Standard covers six greenhouse gases regulated under the Kyoto Protocol. You will encounter all of them when building inventories, though CO2 from fossil fuel combustion dominates most corporate footprints.
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Gas</th>
+      <th>Formula</th>
+      <th>Key Sources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Carbon dioxide</td>
+      <td>CO2</td>
+      <td>Fossil fuel combustion, industrial processes</td>
+    </tr>
+    <tr>
+      <td>Methane</td>
+      <td>CH4</td>
+      <td>Landfills, coal mines, natural gas systems, livestock</td>
+    </tr>
+    <tr>
+      <td>Nitrous oxide</td>
+      <td>N2O</td>
+      <td>Agriculture, combustion, fertiliser production</td>
+    </tr>
+    <tr>
+      <td>Hydrofluorocarbons</td>
+      <td>HFCs</td>
+      <td>Refrigeration and air conditioning equipment</td>
+    </tr>
+    <tr>
+      <td>Perfluorocarbons</td>
+      <td>PFCs</td>
+      <td>Aluminium smelting, semiconductor manufacturing</td>
+    </tr>
+    <tr>
+      <td>Sulphur hexafluoride</td>
+      <td>SF6</td>
+      <td>Electrical switchgear, magnesium production</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+Because these gases trap heat at different rates, you cannot simply add kilograms of methane to kilograms of CO2. Instead, everything gets converted to a common unit: **tonnes of CO2 equivalent (tCO2e)**, using Global Warming Potential (GWP) values published by the IPCC. Methane, for example, has a GWP of 28 over 100 years - meaning one tonne of methane traps as much heat as 28 tonnes of CO2.
+
+<HighlightBox>
+Gases outside the Kyoto six - such as CFCs and NOx - are not included in your Scope 1 or 2 totals. You can report them separately as optional information, but they sit outside the standard inventory.
+</HighlightBox>
+
+## Why Companies Build GHG Inventories
+
+Nobody builds a GHG inventory for fun. Companies invest in emissions accounting because it serves real business needs. Understanding those needs upfront is critical because they shape how you design the entire inventory.
+
+There are five main reasons:
+
+**1. Managing risks and finding reduction opportunities.** You cannot manage what you do not measure. A GHG inventory tells you where your emissions come from, how big each source is, and where reductions are most cost-effective. This is increasingly a board-level concern as carbon pricing, regulation, and investor scrutiny grow.
+
+**2. Public reporting and voluntary programs.** Stakeholders - investors, customers, NGOs - want to see your numbers. A GHG Protocol-compliant inventory is compatible with GRI, CDP, and most voluntary disclosure frameworks.
+
+**3. Mandatory reporting.** Governments in Europe, North America, and elsewhere require large emitters to report annually. The Corporate Standard is designed to meet most regulatory requirements, though specific programs may add extra rules.
+
+**4. Carbon markets.** Cap-and-trade programs and carbon taxes require accurate emissions data. If you want to trade allowances or buy offsets, you need a credible, auditable inventory.
+
+**5. Early action credit.** A verified inventory documents voluntary reductions that may be recognised under future mandatory programs. Companies that can prove early action are better positioned when regulations arrive.
+
+<ExampleBox>
+**Tata Steel** uses its GHG inventory to track two key performance indicators: specific energy consumption (GCal per tonne of crude steel) and GHG intensity (tCO2e per tonne of crude steel). These metrics drive internal efficiency projects, support eligibility for trading schemes, and enable meaningful benchmarking against industry peers. The inventory is not a compliance exercise - it is a management tool.
+</ExampleBox>
+
+## How Business Goals Shape Inventory Design
+
+Here is something practitioners learn quickly: your inventory design depends on what you need the data for.
+
+A company focused on **internal cost management** might start with its largest facilities and expand coverage over time. A company preparing for an **emissions trading scheme** needs a complete, auditable inventory from day one, designed to meet the trading program's specific requirements. Same activity, very different approaches.
+
+Some practical implications:
+
+- **Mandatory reporting** programs often impose specific rules on boundaries, methods, and verification. Check the program requirements before you start.
+- **Trading programs** typically focus on direct emissions (Scope 1), sometimes with electricity (Scope 2). They require audit trails.
+- **Early action recognition** works best when reductions are documented and registered as they happen - retroactive recognition is harder to get.
+
+<HighlightBox>
+Most companies want their inventory to serve multiple goals. Design your data collection to be detailed and flexible from the start, so the same dataset can feed internal management, public reporting, and regulatory compliance without rebuilding from scratch.
+</HighlightBox>
+
+## In Practice: What a GHG Inventory Actually Looks Like
+
+If you have never seen a real corporate GHG inventory, here is what the process typically involves.
+
+**Who builds it?** In large companies, the sustainability or EHS (Environment, Health & Safety) team leads the effort. They coordinate with operations, procurement, facilities, and finance. In smaller companies, it might be one person wearing multiple hats. Consultancies often help with the first year, then hand off to an internal team.
+
+**What tools do they use?** Most companies start with spreadsheets - seriously. Excel remains the most common GHG accounting tool worldwide. As inventories mature, companies may adopt dedicated platforms like Persefoni, Watershed, or Sphera. But the logic is the same regardless of tool: collect activity data, apply emission factors, aggregate by scope and source.
+
+**What does the output look like?** A finished inventory is a structured dataset showing emissions by scope (1, 2, 3), by source category (stationary combustion, mobile combustion, process, fugitive), by gas, and by facility or business unit. This feeds into a public report, a regulatory filing, or both.
+
+**The typical timeline:** A first-year inventory takes 3-6 months depending on company size and data availability. Subsequent years go faster because the data collection systems are already in place.
+
+<DeepDive title="The seven steps of inventory design">
+Once you know your business goals, the practical process follows these steps:
+
+1. **Set organisational boundaries** - decide which entities to include (next lesson covers this)
+2. **Set operational boundaries** - categorise emissions into Scope 1, 2, and 3
+3. **Select a base year** and define your recalculation policy
+4. **Identify emission sources** within your boundary
+5. **Collect activity data** and apply emission factors
+6. **Aggregate** data to the corporate level
+7. **Report** in accordance with the standard's requirements
+
+Each step builds on the previous one. Get the boundaries wrong and everything downstream is compromised.
+</DeepDive>
+
+<KeyTakeaways items="The GHG Protocol Corporate Standard is the most widely adopted framework for measuring and reporting corporate greenhouse gas emissions ;; It covers six Kyoto Protocol gases, all converted to a common unit (tCO2e) using Global Warming Potentials published by the IPCC ;; Companies build GHG inventories to manage risks, meet regulatory requirements, support carbon trading, enable public disclosure, and document early action ;; Your inventory design should be driven by its intended use - internal management, trading compliance, and public reporting each have different requirements ;; Design data collection to be detailed and flexible from the start so the same dataset serves multiple goals without rebuilding" />

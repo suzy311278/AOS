@@ -1,0 +1,26 @@
+- question: "What is the 'supply chain laundering' problem specific to the cattle sector under the EUDR?"
+  options:
+    - "Processing facilities using false documentation to disguise the origin of leather products"
+    - "Cattle raised on deforested land being sold through intermediate compliant ranches, obscuring the deforestation link"
+    - "Mixing of cattle from different countries at EU ports of entry"
+    - "Falsification of animal health certificates to avoid customs checks"
+  answer: 1
+  explanation: "Supply chain laundering in cattle refers to the practice where animals born on ranches with deforested land are sold to intermediate compliant ranches before slaughter, making it difficult for the final exporter to trace back to the origin farm. EUDR compliance requires tracing cattle to their birth ranch, not just the immediate pre-slaughter ranch."
+
+- question: "Which of the seven EUDR commodity sectors had the most developed voluntary sustainability certification system before the regulation came into force?"
+  options:
+    - "Coffee, through the Rainforest Alliance certification"
+    - "Timber, through the FSC and PEFC schemes"
+    - "Palm oil, through RSPO and national schemes like ISPO and MSPO"
+    - "Cocoa, through Fairtrade certification"
+  answer: 2
+  explanation: "Palm oil had the most developed voluntary certification system, with the Roundtable on Sustainable Palm Oil (RSPO) supplemented by the Indonesian Sustainable Palm Oil (ISPO) and Malaysian Sustainable Palm Oil (MSPO) national standards. However, even with this infrastructure, certification alone is insufficient for EUDR compliance because geolocation requirements and the cut-off date standard must still be met."
+
+- question: "Why do processed and derivative products (such as chocolate, cosmetics with palm-derived ingredients, or soy lecithin) create particular EUDR compliance challenges?"
+  options:
+    - "Processed products are entirely exempt from the EUDR under Annex I"
+    - "Certification schemes cannot be used for processed products"
+    - "Operators must trace the agricultural commodity component back to its geographic origin even when it is a minor ingredient in a complex manufactured product"
+    - "Processed products require approval from the country of production's government before export"
+  answer: 2
+  explanation: "For derivative and processed products listed in Annex I, operators must trace the relevant commodity component (cocoa in chocolate, palm oil in cosmetics, soy lecithin in food) back to its geographic origin with plot-level geolocation data. This extends EUDR obligations to industries (automotive, publishing, cosmetics) that have not traditionally engaged with agricultural supply chain traceability."

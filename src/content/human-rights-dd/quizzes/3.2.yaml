@@ -1,0 +1,26 @@
+- question: "What distinguishes SMETA from SA8000 as supply chain audit tools?"
+  options:
+  - "SMETA is used only in Europe while SA8000 is used only in North America"
+  - "SMETA is a standardized audit format with shareable reports (via Sedex), while SA8000 is a certification standard with stronger worker representation requirements"
+  - "SMETA covers labour rights only, while SA8000 covers environmental issues as well"
+  - "SA8000 conducts unannounced audits only, while SMETA uses announced audits exclusively"
+  answer: 1
+  explanation: "SMETA (Sedex Members Ethical Trade Audit) is a standardized audit format whose results are shared on the Sedex platform, allowing multiple buyers to access a single factory's report and reducing audit duplication. SA8000 is a certification standard (not just an audit format) issued for three years with annual surveillance, and is distinctive in requiring worker representative involvement and stronger freedom of association provisions."
+
+- question: "Which of the following best describes 'audit fatigue' as a limitation of social auditing?"
+  options:
+  - "Auditors becoming less thorough over time as they conduct many similar audits"
+  - "Factory workers becoming unwilling to participate in worker interviews after repeated audits"
+  - "Suppliers receiving dozens of audits per year from different buyers, consuming resources without proportionate benefit and creating pressure to manufacture compliance"
+  - "Audit standards becoming outdated over time and failing to reflect emerging human rights risks"
+  answer: 2
+  explanation: "Audit fatigue refers to the situation where factories serving multiple buyers receive dozens of audits per year using different standards and formats. This consumes significant management resources without producing proportionate improvement, creates incentives to focus on passing audits rather than genuine compliance, and distracts from the operational work of actually implementing labour standards."
+
+- question: "The Ali Enterprises factory fire in Karachi (2012), which killed 258 workers, is significant in the history of social auditing because:"
+  options:
+  - "It was the first factory fire in Asia to attract international media attention"
+  - "The facility had received an SA8000 certification just weeks before the fire, despite having locked emergency exits and barred windows"
+  - "It led directly to the creation of the ILO Violence and Harassment Convention"
+  - "It demonstrated that unannounced audits are always more effective than announced audits"
+  answer: 1
+  explanation: "The Ali Enterprises fire is frequently cited because the facility had received SA8000 certification shortly before the disaster, yet post-incident investigations found emergency exits were locked, windows were barred, and there had been no fire safety training. This case, along with the Rana Plaza collapse, gave impetus to the 'beyond auditing' movement and highlighted the limitations of point-in-time compliance certification."

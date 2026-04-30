@@ -1,0 +1,203 @@
+{/* source: VM0044 v1.2, Section 8.2.2.2; Equations 6-10; Table 4 */}
+
+Low technology facilities are simpler production systems. They include traditional charcoal kilns, flame curtain kilns, and other small-scale pyrolysis equipment. These systems often lack precise temperature controls and continuous monitoring. They may also emit methane during pyrolysis, unlike high technology systems that incinerate or capture these gases.
+
+VM0044 provides a separate accounting pathway for low technology facilities. It uses conservative default values so that smallholder farmers and community-scale projects can still generate carbon credits, even without laboratory infrastructure or sophisticated measurement systems.
+
+## Step 1: Estimating Organic Carbon Content (Equation 6)
+
+The formula for organic carbon content is structurally the same as for high technology:
+
+CC_t,k,y = sum over p of (M_t,k,p,y x F_Cp,t,p x PR_de,k)
+
+The variables are the same as in Equation 2 from Lesson 3.1. However, there are two important differences in how the values for F_Cp,t,p and PR_de,k are determined.
+
+### Determining F_Cp,t,p for Low Technology
+
+For high technology facilities, F_Cp must come from laboratory analysis. For low technology facilities, laboratory analysis is still preferred where possible. But if laboratory analysis is not feasible, the project can use default values from Table 4.
+
+Table 4 default values are based on IPCC (2019) and cover the most common feedstock types used in small-scale biochar production. Where a project uses mixed feedstocks, the most conservative (lowest) value from Table 4 must be used.
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Feedstock Type</th>
+      <th>Pyrolysis (F_Cp)</th>
+      <th>Gasification (F_Cp)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Animal manure</td>
+      <td>0.38</td>
+      <td>0.09</td>
+    </tr>
+    <tr>
+      <td>Wood</td>
+      <td>0.77</td>
+      <td>0.52</td>
+    </tr>
+    <tr>
+      <td>Herbaceous biomass (grasses, forbs, leaves; excluding rice husks and rice straw)</td>
+      <td>0.65</td>
+      <td>0.28</td>
+    </tr>
+    <tr>
+      <td>Rice husks and rice straw</td>
+      <td>0.49</td>
+      <td>0.13</td>
+    </tr>
+    <tr>
+      <td>Nut shells, pits, and stones</td>
+      <td>0.74</td>
+      <td>0.40</td>
+    </tr>
+    <tr>
+      <td>Biosolids (paper sludge)</td>
+      <td>0.35</td>
+      <td>0.07</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+Wood produces the most carbon-rich biochar under pyrolysis (F_Cp = 0.77). This reflects its high lignin content, which converts efficiently to stable aromatic carbon structures. Animal manure and biosolids have much lower values because they contain more volatile compounds and less lignocellulosic material.
+
+The difference between pyrolysis and gasification values is also significant. Gasification operates at higher temperatures with a controlled supply of oxygen. This drives off more carbon as CO or CO2, leaving less carbon in the solid biochar.
+
+### Determining PR_de,k for Low Technology
+
+<HighlightBox>
+If the pyrolysis temperature is measured and recorded, use the Table 3 permanence factors from Lesson 3.1 (0.89 for above 600 degrees C, 0.80 for 450 to 600 degrees C, 0.65 for 350 to 450 degrees C). If the production temperature is not measured or recorded, use the default value of PR_de,k = 0.56. This default is conservative and represents conditions below 350 degrees C, where biochar is less stable over time.
+</HighlightBox>
+
+The default of 0.56 reflects the high uncertainty in low technology settings. If a project cannot demonstrate what temperature the biochar was produced at, the methodology assumes the worst reasonable case for permanence.
+
+## Step 2: Estimating Project Emissions (Equation 7)
+
+The overall project emissions formula is the same structure as for high technology:
+
+PE_PS,p,y = (PE_D,p,y + PE_P,p,y + PE_C,p,y) x (sum of M_t,k,p,y / M_p,y)
+
+The key difference is in how PE_P,p,y is calculated.
+
+### PE_D,p,y: Pre-Treatment Emissions (Equation 8)
+
+The pre-treatment emissions formula is identical to Equation 4 from high technology:
+
+PE_D,p,y = PE_DE,p,y + PE_DF,p,y
+
+Where PE_DE,p,y covers grid electricity (calculated using CDM TOOL05) and PE_DF,p,y covers fossil fuels (calculated using CDM TOOL03). If energy is renewable, PE_D,p,y = 0.
+
+### PE_P,p,y: Pyrolysis Process Emissions (Equation 9)
+
+This is where low technology accounting differs substantially from high technology. Low technology kilns release methane during pyrolysis. Methane (CH4) is a potent greenhouse gas with a global warming potential 28 times that of CO2 over 100 years (AR5 value). These emissions must be counted.
+
+<EquationBreakdown
+  title="Equation 9 - Pyrolysis Process Emissions (Low Technology)"
+  result="PE<sub>P,p,y</sub> | Pyrolysis Emissions | Total GHG emissions from the pyrolysis process at facility p in year y, in tCO2e | blue"
+  inputs="F<sub>e</sub> | Methane Emission Factor | Average CH4 released per tonne of biochar produced, in tCH4/tonne (default 0.049 for unknown kiln type) | green ;; GWP<sub>CH4</sub> | Methane GWP | Global warming potential of methane, currently 28 (IPCC AR5) | amber ;; M<sub>t,k,p,y</sub> | Biochar Mass | Dry weight of biochar type t for application k produced at facility p in year y, in tonnes | violet"
+/>
+
+The formula sums across all biochar types (t) and application types (k). Default F_e = 0.049 tCH4 per tonne of biochar, based on traditional kilns which are among the higher-emitting kiln types.
+
+To see why this matters in practice: a default F_e of 0.049 tCH4 per tonne, multiplied by a GWP of 28, gives 1.372 tCO2e of methane emissions per tonne of biochar produced. That is a substantial deduction from the gross carbon removal credits.
+
+<AnalogyBox>
+Imagine filling a bucket with water while it has a small hole at the bottom. The gross removal is how much water you pour in. The methane emissions are the water leaking out. High technology kilns seal the hole. Low technology kilns leave it open, so you lose some of what you put in.
+</AnalogyBox>
+
+### PE_C,p,y: Auxiliary Energy Emissions (Equation 10)
+
+The auxiliary energy formula is identical to Equation 5 from high technology:
+
+PE_C,p,y = PE_CE,p,y + PE_CF,p,y
+
+Where PE_CE,p,y covers grid electricity for reactor start-up or maintenance (CDM TOOL05) and PE_CF,p,y covers fossil fuels for the same purpose (CDM TOOL03). If auxiliary energy is renewable, PE_C,p,y = 0.
+
+## Comparing High Technology and Low Technology Accounting
+
+The table below summarises the key differences:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>High Technology</th>
+      <th>Low Technology</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>F_Cp determination</td>
+      <td>Laboratory analysis only</td>
+      <td>Lab analysis preferred; Table 4 defaults allowed</td>
+    </tr>
+    <tr>
+      <td>Default PR_de,k if temperature unknown</td>
+      <td>Not applicable (temperature must be monitored)</td>
+      <td>0.56</td>
+    </tr>
+    <tr>
+      <td>PE_P,p,y (pyrolysis process emissions)</td>
+      <td>0 (pollution controls required)</td>
+      <td>Calculated using F_e x GWP_CH4 x mass produced</td>
+    </tr>
+    <tr>
+      <td>Default F_e if kiln type unknown</td>
+      <td>Not applicable</td>
+      <td>0.049 tCH4 per tonne</td>
+    </tr>
+    <tr>
+      <td>Max available PR_de,k for soil use</td>
+      <td>0.89 (above 600 degrees C)</td>
+      <td>0.89 if temperature is measured and confirmed above 600 degrees C</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+<ExampleBox>
+**Worked Example: Comparing Rice Husk and Wood Biochar Under Low Technology**
+
+A smallholder uses a traditional kiln (unknown type) to produce 100 tonnes (dry weight) of biochar via pyrolysis. Production temperature is not measured. All biochar goes to soil application.
+
+**Scenario A: Rice husk feedstock**
+
+*   F_Cp (Table 4, rice husks, pyrolysis) = 0.49
+*   PR_de,k (unknown temperature) = 0.56
+*   CC = 100 x 0.49 x 0.56 = 27.44 tonnes of carbon
+*   Gross removal = 27.44 x 44/12 = 27.44 x 3.667 = 100.6 tCO2e
+*   Methane emissions (PE_P) = 100 x 0.049 x 28 = 137.2 tCO2e
+*   Net result: 100.6 - 137.2 = **-36.6 tCO2e (net positive emissions)**
+
+The project would not generate credits. The methane from the kiln outweighs the carbon stored in the biochar.
+
+**Scenario B: Wood feedstock**
+
+*   F_Cp (Table 4, wood, pyrolysis) = 0.77
+*   PR_de,k (unknown temperature) = 0.56
+*   CC = 100 x 0.77 x 0.56 = 43.12 tonnes of carbon
+*   Gross removal = 43.12 x 44/12 = 43.12 x 3.667 = 158.1 tCO2e
+*   Methane emissions (PE_P) = 100 x 0.049 x 28 = 137.2 tCO2e
+*   Net result: 158.1 - 137.2 = **20.9 tCO2e net removal**
+
+The wood biochar project generates a small but positive credit. This contrast illustrates two important points: feedstock choice matters significantly for low technology projects, and measuring production temperature to access a higher PR_de,k value can dramatically improve project viability.
+</ExampleBox>
+
+<CalculationExercise
+  question="A low technology facility produces 300 tonnes dry weight of wood pyrolysis biochar. The kiln type is unknown. Temperature is measured at 500 degrees C (medium temperature: PR_de = 0.80 from Table 3). F_Cp from lab = 0.77. Pre-treatment electricity emissions = 2 tCO2e. What are the methane emissions from pyrolysis (PE_P,p,y) in tCO2e?"
+  answer={412}
+  tolerance={5}
+  unit="tCO2e"
+  hints={[
+    "Use Equation 9: PE_P,p,y = F_e x GWP_CH4 x M_t,k,p,y",
+    "F_e default for unknown kiln type = 0.049 tCH4 per tonne of biochar",
+    "GWP_CH4 = 28 (AR5 value). Multiply: 300 x 0.049 x 28"
+  ]}
+  solution="PE_P,p,y = F_e x GWP_CH4 x M = 0.049 x 28 x 300 = 411.6 tCO2e, approximately 412 tCO2e. Note that the pre-treatment electricity (2 tCO2e) is a separate emission component (PE_D) and was not part of this question."
+/>
+
+<KeyTakeaways items="Low technology facilities can use Table 4 default values for carbon fraction (F_Cp) when lab analysis is not feasible - wood pyrolysis has the highest default at 0.77 ;; If production temperature is not measured, the permanence factor defaults to 0.56 - measuring temperature can dramatically improve project viability ;; Methane emissions from low technology kilns (default 0.049 tCH4/tonne x GWP of 28 = 1.372 tCO2e per tonne) are a substantial deduction from gross credits ;; Feedstock choice matters critically for low technology projects - rice husk biochar with unknown temperature can produce net positive emissions, while wood biochar remains viable ;; The same formula structure applies to both technology levels, but PE_P is the key differentiator - zero for high technology versus calculated methane for low technology" />

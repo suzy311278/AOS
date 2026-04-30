@@ -1,0 +1,189 @@
+{
+  "outputComponents": [
+    {
+      "design": {
+        "screens": [
+          {
+            "designSystem": {
+              "designSystem": {
+                "displayName": "Greentryst Meridian",
+                "theme": {
+                  "bodyFont": "INTER",
+                  "colorMode": "LIGHT",
+                  "colorVariant": "FIDELITY",
+                  "customColor": "#00433D",
+                  "designMd": "# Design System Strategy: The Organic Authority\n\n## 1. Overview & Creative North Star\nThis design system is built upon the \"Organic Authority\" North Star. For a sustainability academy, we must move beyond the \"crunchy\" or \"granola\" aesthetic and instead embrace a high-end editorial feel that suggests both prestige and planetary stewardship.\n\nThe system breaks the \"bootstrap template\" look by leveraging **Intentional Asymmetry** and **Tonal Depth**. We treat the screen not as a flat canvas, but as an environment of layered, eco-conscious materials. By utilizing massive typographic scales and overlapping glass elements, we create a digital experience that feels as curated as a premium architectural magazine.\n\n---\n\n## 2. Colors & Tonal Architecture\nOur palette is rooted in deep, botanical teals and clean, mineral surfaces. The goal is to create \"Atmospheric Breathing Room.\"\n\n### The \"No-Line\" Rule\n**1px solid borders are strictly prohibited for sectioning.** To define boundaries, you must use background color shifts.\n- To separate a header from a hero, transition from `surface` to `surface-container-low`.\n- To highlight a sidebar, use `surface-container` against a `surface` background.\n- Structural integrity comes from color weight, not outlines.\n\n### Surface Hierarchy & Nesting\nThink of the UI as stacked sheets of fine, recycled paper.\n- **Base Layer:** `surface` (#f8faf9)\n- **Secondary Content:** `surface-container-low` (#f2f4f3)\n- **Elevated Components:** `surface-container-high` (#e6e9e8)\n- **Deep Insets:** `surface-dim` (#d8dada)\n*Nesting Principle:* An inner card should always be \"higher\" (lighter) or \"lower\" (darker) than its parent container to create a natural, physical sense of place.\n\n### The Glass & Gradient Rule\nTo add \"visual soul,\" use the signature gradient: `linear-gradient(135deg, #00433d 0%, #006a63 100%)` for primary CTAs and hero section accents.\nFor floating elements (modals, navigation overlays), apply the **Glass Effect**: `rgba(255, 255, 255, 0.08)` with a `16px` backdrop-blur. This ensures the sustainability-themed photography bleeds through the UI, softening the overall experience.\n\n---\n\n## 3. Typography: Editorial Dominance\nWe pair the structural precision of **Manrope** with the high-utility legibility of **Inter**.\n\n- **Display & Headlines (Manrope 700-800):** These are your \"statements.\" Use `display-lg` (3.5rem) with tight letter-spacing (-0.02em) to create an authoritative, editorial impact. Headlines should feel \"heavy\" enough to anchor the page.\n- **Body & Labels (Inter 400-600):** Used for deep learning content. Inter provides a neutral, high-readability counter-balance to the aggressive headlines.\n- **Monospace (JetBrains Mono):** Use for technical data, course durations, or \"sustainability metrics\" to provide a scientific, precise secondary voice.\n\n---\n\n## 4. Elevation & Depth\nHierarchy is achieved through **Tonal Layering**, not structural scaffolding.\n\n- **The Layering Principle:** Place a `surface-container-lowest` card on a `surface-container-low` section. The contrast in lightness creates a \"soft lift\" that feels premium and intentional.\n- **Ambient Shadows:** When a shadow is necessary for floating elements (like the Top Bar), use an extra-diffused shadow: `0 4px 6px -1px rgba(0, 0, 0, 0.1)`. The color should be tinted with the `on-surface` value to prevent a \"dirty\" grey look.\n- **The \"Ghost Border\" Fallback:** If accessibility requires a border, use `outline-variant` (#bec9c6) at **15% opacity**. It should be felt, not seen.\n- **Glassmorphism:** Use for persistent navigation or high-level overlays to keep the user connected to the background context while providing a readable surface.\n\n---\n\n## 5. Components\n\n### Buttons\n- **Primary:** Pill-shaped (`9999px`), using the Signature Gradient. White text (`on-primary`).\n- **Secondary:** Pill-shaped, `surface-container-high` background with `primary` text. No border.\n- **Tertiary:** `ghost` style. No background, `primary` text, with a subtle `surface-container` hover state.\n\n### Input Fields\n- **Styling:** `12px` rounded corners. Background set to `surface-container-low`.\n- **States:** On focus, shift background to `surface-container-lowest` and add a subtle ambient shadow. Do not change the border color to a high-contrast hue; use tonal shift.\n\n### Cards & Lists\n- **The Divider Ban:** Never use horizontal lines to separate list items. Use **Vertical White Space** (Scale `6` or `8`) or alternating tonal shifts (`surface` to `surface-container-low`).\n- **Cards:** `16px` radius. Use a `surface-container-lowest` background to pop against a `surface` page background.\n\n### Academy-Specific Components\n- **The Progress Rail:** A thin, `surface-variant` track with a `primary-container` fill, used for course completion. \n- **The Impact Badge:** Use the `Accent Green` (#22c55e) or `Accent Amber` (#f59e0b) for sustainability certifications, always in a pill-shape with `10%` background opacity of the color itself.\n\n---\n\n## 6. Do's and Don'ts\n\n### Do\n- **Do** use asymmetrical layouts where text blocks are offset from images to create a \"magazine\" feel.\n- **Do** lean heavily on the spacing scale. When in doubt, add more whitespace (Scale `16` or `20`) between major sections.\n- **Do** use `JetBrains Mono` for small labels like \"ESTIMATED READING TIME\" to give a sense of data-driven credibility.\n\n### Don't\n- **Don't** use 1px solid lines. If you feel you need one, try a background color change first.\n- **Don't** use pure black (#000000). Always use `on-surface` (#191c1c) for text to maintain a soft, premium botanical feel.\n- **Don't** cram content. The \"Organic Authority\" requires room to breathe. If a screen feels \"busy,\" it has failed the system.",
+                  "font": "MANROPE",
+                  "headlineFont": "MANROPE",
+                  "labelFont": "INTER",
+                  "namedColors": {
+                    "background": "#f8faf9",
+                    "error": "#ba1a1a",
+                    "error_container": "#ffdad6",
+                    "inverse_on_surface": "#eff1f0",
+                    "inverse_primary": "#99d1c8",
+                    "inverse_surface": "#2e3131",
+                    "on_background": "#191c1c",
+                    "on_error": "#ffffff",
+                    "on_error_container": "#93000a",
+                    "on_primary": "#ffffff",
+                    "on_primary_container": "#79afa7",
+                    "on_primary_fixed": "#00201d",
+                    "on_primary_fixed_variant": "#144f49",
+                    "on_secondary": "#ffffff",
+                    "on_secondary_container": "#0c6f67",
+                    "on_secondary_fixed": "#00201d",
+                    "on_secondary_fixed_variant": "#00504a",
+                    "on_surface": "#191c1c",
+                    "on_surface_variant": "#404947",
+                    "on_tertiary": "#ffffff",
+                    "on_tertiary_container": "#11be58",
+                    "on_tertiary_fixed": "#002109",
+                    "on_tertiary_fixed_variant": "#005321",
+                    "outline": "#707977",
+                    "outline_variant": "#bfc8c6",
+                    "primary": "#002b27",
+                    "primary_container": "#00433d",
+                    "primary_fixed": "#b5eee4",
+                    "primary_fixed_dim": "#99d1c8",
+                    "secondary": "#006a63",
+                    "secondary_container": "#9deee5",
+                    "secondary_fixed": "#a0f1e8",
+                    "secondary_fixed_dim": "#84d5cc",
+                    "surface": "#f8faf9",
+                    "surface_bright": "#f8faf9",
+                    "surface_container": "#eceeed",
+                    "surface_container_high": "#e6e9e8",
+                    "surface_container_highest": "#e1e3e2",
+                    "surface_container_low": "#f2f4f3",
+                    "surface_container_lowest": "#ffffff",
+                    "surface_dim": "#d8dada",
+                    "surface_tint": "#306760",
+                    "surface_variant": "#e1e3e2",
+                    "tertiary": "#002c0f",
+                    "tertiary_container": "#00451b",
+                    "tertiary_fixed": "#6bff8f",
+                    "tertiary_fixed_dim": "#4ae176"
+                  },
+                  "overrideNeutralColor": "#F8FAF9",
+                  "overridePrimaryColor": "#00433D",
+                  "overrideSecondaryColor": "#006A63",
+                  "overrideTertiaryColor": "#22C55E",
+                  "roundness": "ROUND_FULL",
+                  "spacingScale": 2
+                }
+              },
+              "name": "assets/eb9a20a868ce4975963086fc4920b0d7",
+              "version": "1"
+            },
+            "deviceType": "DESKTOP",
+            "generatedBy": "figaro_agent",
+            "height": "4394",
+            "htmlCode": {
+              "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzgyNjgwNTVhZDQyYzQ0NWRhMDFlNTJjOTZiODU2NWE2EgsSBxD4gf-qtRAYAZIBIwoKcHJvamVjdF9pZBIVQhM0NjE2OTEwNjgxNTAyOTIwMjQ4&filename=&opi=96797242",
+              "mimeType": "text/html",
+              "name": "projects/4616910681502920248/files/122ba9e6e6ea4c958128f5d04c616417"
+            },
+            "id": "9f0a71000e174b4486341670da2ed257",
+            "name": "projects/4616910681502920248/screens/9f0a71000e174b4486341670da2ed257",
+            "prompt": "Desktop website pricing page for Sustainability Academy. \n\nPage title: 'Simple, transparent pricing' centered in Manrope font. \nBelow title: A toggle switch for Monthly/Annual billing, with 'Annual' selected and a 'Save 30%' badge in Accent Green (#22c55e).\n\nPricing Section (3 Columns on Surface #f8faf9):\n1. 'Free' Plan ($0): White card, teal outline, pill-shaped 'Get Started' button. Features: 3 lessons/month, Job board browsing, 5 emission factor lookups/mo, Lesson discussions (3/day).\n2. 'Pro' Plan ($5/mo or $39/yr): Highlighted with deep teal (#00433d) background, white text, 'Most Popular' badge (Amber #f59e0b). Pill-shaped 'Go Pro' button. Features: Everything in Free plus, Unlimited lessons, Cloud progress and streaks, Certificates, Unlimited discussions, Case studies and challenges, 5 resume match scores/mo, Unlimited emission factor search.\n3. 'Work' Plan ($29/mo or $249/yr): White card, teal outline, pill-shaped 'Contact Sales' button. Features: Everything in Pro plus, Unlimited resume matching, GHG Calculator with export, Full regulation dashboard, API access.\n\n'For Teams' Section: Below the cards, a dedicated section with corporate messaging: 'Train your ESG team with completion tracking, admin dashboards, and compliance reporting. Contact us for team pricing.' Includes a 'Contact Sales' button.\n\nFAQ Section: At the bottom, an accordion-style section with 5 common questions about the academy.\n\nDesign rules: Use border-radius 16px (rounded-2xl) for cards, fully rounded pill shapes for buttons. No 1px borders, use tonal layering and soft shadows. Use Outlined icon style. Max width 1200px.",
+            "screenMetadata": {
+              "agentType": "PRO_AGENT",
+              "status": "COMPLETE"
+            },
+            "screenType": "DESIGN",
+            "screenshot": {
+              "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0uhKgp4fsE4d-mDAkojlsFN9TzgC-kYDDqYwzEnRvZZATqU5Xr06tgawTA6tMgNSfdEvmGPSPQA7--FZ8Cbr11VgBVr-3QMa8vgZb6xQgg38oYiQfZRPIVFjYUsC-f1dqvb5F54rYTXKvki9_UJPfcdmmNn39afAMOOJK9lEPBHftTJsYRRWg-4SuYOuWfNNVCjvuLY_BaUGpwgcF0A7P04n7jXtGJT7J4J1DECBGvXmHAm7QcNhLfIfIA",
+              "name": "projects/4616910681502920248/files/29e6f67eb8d249899bceb7f6fbb4d643"
+            },
+            "theme": {
+              "bodyFont": "INTER",
+              "colorMode": "LIGHT",
+              "colorVariant": "FIDELITY",
+              "customColor": "#00433D",
+              "designMd": "# Design System Strategy: The Organic Authority\n\n## 1. Overview & Creative North Star\nThis design system is built upon the \"Organic Authority\" North Star. For a sustainability academy, we must move beyond the \"crunchy\" or \"granola\" aesthetic and instead embrace a high-end editorial feel that suggests both prestige and planetary stewardship.\n\nThe system breaks the \"bootstrap template\" look by leveraging **Intentional Asymmetry** and **Tonal Depth**. We treat the screen not as a flat canvas, but as an environment of layered, eco-conscious materials. By utilizing massive typographic scales and overlapping glass elements, we create a digital experience that feels as curated as a premium architectural magazine.\n\n---\n\n## 2. Colors & Tonal Architecture\nOur palette is rooted in deep, botanical teals and clean, mineral surfaces. The goal is to create \"Atmospheric Breathing Room.\"\n\n### The \"No-Line\" Rule\n**1px solid borders are strictly prohibited for sectioning.** To define boundaries, you must use background color shifts.\n- To separate a header from a hero, transition from `surface` to `surface-container-low`.\n- To highlight a sidebar, use `surface-container` against a `surface` background.\n- Structural integrity comes from color weight, not outlines.\n\n### Surface Hierarchy & Nesting\nThink of the UI as stacked sheets of fine, recycled paper.\n- **Base Layer:** `surface` (#f8faf9)\n- **Secondary Content:** `surface-container-low` (#f2f4f3)\n- **Elevated Components:** `surface-container-high` (#e6e9e8)\n- **Deep Insets:** `surface-dim` (#d8dada)\n*Nesting Principle:* An inner card should always be \"higher\" (lighter) or \"lower\" (darker) than its parent container to create a natural, physical sense of place.\n\n### The Glass & Gradient Rule\nTo add \"visual soul,\" use the signature gradient: `linear-gradient(135deg, #00433d 0%, #006a63 100%)` for primary CTAs and hero section accents.\nFor floating elements (modals, navigation overlays), apply the **Glass Effect**: `rgba(255, 255, 255, 0.08)` with a `16px` backdrop-blur. This ensures the sustainability-themed photography bleeds through the UI, softening the overall experience.\n\n---\n\n## 3. Typography: Editorial Dominance\nWe pair the structural precision of **Manrope** with the high-utility legibility of **Inter**.\n\n- **Display & Headlines (Manrope 700-800):** These are your \"statements.\" Use `display-lg` (3.5rem) with tight letter-spacing (-0.02em) to create an authoritative, editorial impact. Headlines should feel \"heavy\" enough to anchor the page.\n- **Body & Labels (Inter 400-600):** Used for deep learning content. Inter provides a neutral, high-readability counter-balance to the aggressive headlines.\n- **Monospace (JetBrains Mono):** Use for technical data, course durations, or \"sustainability metrics\" to provide a scientific, precise secondary voice.\n\n---\n\n## 4. Elevation & Depth\nHierarchy is achieved through **Tonal Layering**, not structural scaffolding.\n\n- **The Layering Principle:** Place a `surface-container-lowest` card on a `surface-container-low` section. The contrast in lightness creates a \"soft lift\" that feels premium and intentional.\n- **Ambient Shadows:** When a shadow is necessary for floating elements (like the Top Bar), use an extra-diffused shadow: `0 4px 6px -1px rgba(0, 0, 0, 0.1)`. The color should be tinted with the `on-surface` value to prevent a \"dirty\" grey look.\n- **The \"Ghost Border\" Fallback:** If accessibility requires a border, use `outline-variant` (#bec9c6) at **15% opacity**. It should be felt, not seen.\n- **Glassmorphism:** Use for persistent navigation or high-level overlays to keep the user connected to the background context while providing a readable surface.\n\n---\n\n## 5. Components\n\n### Buttons\n- **Primary:** Pill-shaped (`9999px`), using the Signature Gradient. White text (`on-primary`).\n- **Secondary:** Pill-shaped, `surface-container-high` background with `primary` text. No border.\n- **Tertiary:** `ghost` style. No background, `primary` text, with a subtle `surface-container` hover state.\n\n### Input Fields\n- **Styling:** `12px` rounded corners. Background set to `surface-container-low`.\n- **States:** On focus, shift background to `surface-container-lowest` and add a subtle ambient shadow. Do not change the border color to a high-contrast hue; use tonal shift.\n\n### Cards & Lists\n- **The Divider Ban:** Never use horizontal lines to separate list items. Use **Vertical White Space** (Scale `6` or `8`) or alternating tonal shifts (`surface` to `surface-container-low`).\n- **Cards:** `16px` radius. Use a `surface-container-lowest` background to pop against a `surface` page background.\n\n### Academy-Specific Components\n- **The Progress Rail:** A thin, `surface-variant` track with a `primary-container` fill, used for course completion. \n- **The Impact Badge:** Use the `Accent Green` (#22c55e) or `Accent Amber` (#f59e0b) for sustainability certifications, always in a pill-shape with `10%` background opacity of the color itself.\n\n---\n\n## 6. Do's and Don'ts\n\n### Do\n- **Do** use asymmetrical layouts where text blocks are offset from images to create a \"magazine\" feel.\n- **Do** lean heavily on the spacing scale. When in doubt, add more whitespace (Scale `16` or `20`) between major sections.\n- **Do** use `JetBrains Mono` for small labels like \"ESTIMATED READING TIME\" to give a sense of data-driven credibility.\n\n### Don't\n- **Don't** use 1px solid lines. If you feel you need one, try a background color change first.\n- **Don't** use pure black (#000000). Always use `on-surface` (#191c1c) for text to maintain a soft, premium botanical feel.\n- **Don't** cram content. The \"Organic Authority\" requires room to breathe. If a screen feels \"busy,\" it has failed the system.",
+              "font": "MANROPE",
+              "headlineFont": "MANROPE",
+              "labelFont": "INTER",
+              "namedColors": {
+                "background": "#f8faf9",
+                "error": "#ba1a1a",
+                "error_container": "#ffdad6",
+                "inverse_on_surface": "#eff1f0",
+                "inverse_primary": "#99d1c8",
+                "inverse_surface": "#2e3131",
+                "on_background": "#191c1c",
+                "on_error": "#ffffff",
+                "on_error_container": "#93000a",
+                "on_primary": "#ffffff",
+                "on_primary_container": "#79afa7",
+                "on_primary_fixed": "#00201d",
+                "on_primary_fixed_variant": "#144f49",
+                "on_secondary": "#ffffff",
+                "on_secondary_container": "#0c6f67",
+                "on_secondary_fixed": "#00201d",
+                "on_secondary_fixed_variant": "#00504a",
+                "on_surface": "#191c1c",
+                "on_surface_variant": "#404947",
+                "on_tertiary": "#ffffff",
+                "on_tertiary_container": "#11be58",
+                "on_tertiary_fixed": "#002109",
+                "on_tertiary_fixed_variant": "#005321",
+                "outline": "#707977",
+                "outline_variant": "#bfc8c6",
+                "primary": "#002b27",
+                "primary_container": "#00433d",
+                "primary_fixed": "#b5eee4",
+                "primary_fixed_dim": "#99d1c8",
+                "secondary": "#006a63",
+                "secondary_container": "#9deee5",
+                "secondary_fixed": "#a0f1e8",
+                "secondary_fixed_dim": "#84d5cc",
+                "surface": "#f8faf9",
+                "surface_bright": "#f8faf9",
+                "surface_container": "#eceeed",
+                "surface_container_high": "#e6e9e8",
+                "surface_container_highest": "#e1e3e2",
+                "surface_container_low": "#f2f4f3",
+                "surface_container_lowest": "#ffffff",
+                "surface_dim": "#d8dada",
+                "surface_tint": "#306760",
+                "surface_variant": "#e1e3e2",
+                "tertiary": "#002c0f",
+                "tertiary_container": "#00451b",
+                "tertiary_fixed": "#6bff8f",
+                "tertiary_fixed_dim": "#4ae176"
+              },
+              "overrideNeutralColor": "#F8FAF9",
+              "overridePrimaryColor": "#00433D",
+              "overrideSecondaryColor": "#006A63",
+              "overrideTertiaryColor": "#22C55E",
+              "roundness": "ROUND_FULL",
+              "spacingScale": 2
+            },
+            "title": "Pricing - Sustainability Academy",
+            "width": "2560"
+          }
+        ],
+        "theme": {}
+      }
+    },
+    {
+      "text": "I've created the pricing page for the Sustainability Academy. \n\nThe design follows the \"Greentryst Meridian\" system, featuring:\n- **Consistent Brand Identity:** The deep teal (#00433d) and rounded-pill buttons reflect the professional yet approachable nature of the academy.\n- **Clear Value Proposition:** The pricing section highlights the \"Pro\" plan as the most popular choice, using the primary brand color and an accent amber badge to draw attention.\n- **Thoughtful Details:** A functional monthly/annual toggle with a \"Save 30%\" badge and detailed feature lists for each tier make it easy for users to compare plans.\n- **Engagement Sections:** I've added a dedicated \"For Teams\" area and a comprehensive FAQ accordion to address common user questions and B2B inquiries.\n\nYou can see the result on the canvas now. How does this look to you?"
+    },
+    {
+      "suggestion": "Change the color of the Free plan card"
+    },
+    {
+      "suggestion": "Add more questions to the FAQ section"
+    },
+    {
+      "suggestion": "Make the Pro plan more prominent"
+    },
+    {
+      "suggestion": "Adjust the text on the Team pricing section"
+    }
+  ],
+  "projectId": "4616910681502920248",
+  "sessionId": "4254269902214048192"
+}

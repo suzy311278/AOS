@@ -1,0 +1,44 @@
+- question: "What is the formal name of the UN-supervised carbon market established under Article 6.4 of the Paris Agreement?"
+  options:
+    - "Clean Development Mechanism (CDM)"
+    - "Paris Agreement Crediting Mechanism (PACM)"
+    - "Internationally Transferred Mitigation Outcomes Market"
+    - "Kyoto Carbon Crediting Facility"
+  answer: 1
+  explanation: "The mechanism is formally known as the Paris Agreement Crediting Mechanism (PACM), though it is commonly referred to as the Article 6.4 mechanism or A6.4 mechanism. The CDM was the Kyoto-era predecessor. ITMOs are the units traded under Article 6.2, not 6.4."
+
+- question: "How many members sit on the Article 6.4 Supervisory Body, and which groups are guaranteed representation?"
+  options:
+    - "10 members; five UN regional groups only"
+    - "12 members; five UN regional groups plus LDCs and SIDS"
+    - "15 members; G20 countries plus LDCs"
+    - "8 members; developed and developing country blocs equally"
+  answer: 1
+  explanation: "The Supervisory Body has 12 members elected by the CMA. Representation is guaranteed for each of the five UN regional groups, one seat for Least Developed Countries (LDCs), and one for Small Island Developing States (SIDS). Members serve in their personal capacity as experts, not as government delegates."
+
+- question: "Which of the following is a key difference between the Article 6.4 mechanism and the Kyoto CDM?"
+  options:
+    - "The CDM required corresponding adjustments; Article 6.4 does not"
+    - "The CDM was open to all countries; Article 6.4 is only for developed nations"
+    - "Article 6.4 requires corresponding adjustments for authorised credits; the CDM did not"
+    - "Article 6.4 has no mandatory cancellation; the CDM cancelled 5% of credits"
+  answer: 2
+  explanation: "Article 6.4 requires corresponding adjustments (CAs) for authorised credits transferred across borders -- this is the primary mechanism preventing double counting with NDC targets. The CDM had no CA requirement because developing countries did not have binding national targets under Kyoto. The OMGE 2% mandatory cancellation is also new to A6.4; the CDM had no equivalent."
+
+- question: "What is the difference between an 'authorised A6.4ER' and a 'mitigation contribution A6.4ER'?"
+  options:
+    - "Authorised credits require OMGE cancellation; mitigation contribution credits do not"
+    - "Authorised credits can be used for NDC achievement internationally and require a corresponding adjustment; mitigation contribution credits cannot and do not"
+    - "Mitigation contribution credits are issued only to LDCs; authorised credits to all countries"
+    - "Authorised credits are issued by the Supervisory Body; mitigation contribution credits are issued by host governments"
+  answer: 1
+  explanation: "Authorised A6.4ERs are formally approved by the host country for international transfer and NDC use; they require a corresponding adjustment. Mitigation contribution A6.4ERs lack this authorisation, cannot be used for international NDC claims, and do not trigger a corresponding adjustment. Both types are issued by the Supervisory Body with the same verification rigour."
+
+- question: "At which stage of the A6.4 project cycle does a third-party Approved Designated Operating Entity (ADOE) first review the project?"
+  options:
+    - "At registration, before the Activity Design Document is submitted"
+    - "During monitoring, to oversee data collection"
+    - "During validation, reviewing the Activity Design Document before project registration"
+    - "During credit issuance, to confirm the Supervisory Body's calculation"
+  answer: 2
+  explanation: "Validation is the first independent audit step. An accredited ADOE reviews the Activity Design Document (ADD) before the project is submitted for registration. This confirms the project meets all applicable requirements -- additionality, baseline, monitoring plan -- before the Supervisory Body considers registering the activity. Verification comes later, at the end of each monitoring period."

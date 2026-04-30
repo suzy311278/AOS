@@ -1,0 +1,269 @@
+{/* source: ghg-protocol-revised.pdf Chapter 11 (pp. 74-85); ISO 14064-1:2018; ISO 14064-2:2019; ISO 14064-3:2019 */}
+
+You have built an inventory. You know your base year. Now comes the question every board eventually asks: "What are we actually committing to reduce, and how do we prove it?" This lesson covers GHG target-setting and the ISO 14064 family - the international standards that increasingly govern how inventories are verified.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-1-2/3_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Part 1: Setting GHG Targets
+
+### Absolute vs. Intensity Targets
+
+There are two types of corporate GHG targets, and the choice between them has real consequences.
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Absolute Target</th>
+      <th>Intensity Target</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>What it says</strong></td>
+      <td>"Reduce total emissions by X% from base year"</td>
+      <td>"Reduce emissions per unit of output by X% from base year"</td>
+    </tr>
+    <tr>
+      <td><strong>Example</strong></td>
+      <td>"Cut Scope 1+2 by 42% by 2030 from a 2020 base"</td>
+      <td>"Reduce tCO2e per tonne of clinker by 20% by 2030"</td>
+    </tr>
+    <tr>
+      <td><strong>Environmentally robust?</strong></td>
+      <td>Yes - commits to actual atmospheric reduction</td>
+      <td>Not guaranteed - total emissions may rise if output grows faster than intensity improves</td>
+    </tr>
+    <tr>
+      <td><strong>Suits growing companies?</strong></td>
+      <td>Harder if output is expanding organically</td>
+      <td>Shows efficiency improvement regardless of growth</td>
+    </tr>
+    <tr>
+      <td><strong>Base year recalculation?</strong></td>
+      <td>Required for significant structural changes</td>
+      <td>Usually not required</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+Many companies set both simultaneously. An absolute target satisfies investors and SBTi. An intensity target gives operational teams a metric they can actually control at the plant level.
+
+### The Practical Target-Setting Checklist
+
+The GHG Protocol outlines a 10-step process. In practice, here is what it boils down to:
+
+<HighlightBox>
+**Target-Setting Checklist:**
+
+1. Get senior management sign-off (without board commitment, nothing else works)
+2. Choose target type: absolute, intensity, or both
+3. Define the boundary: which gases, which scopes, which operations
+4. Align your target base year with your inventory base year
+5. Set the completion date (5-year targets are common for near-term; 10+ for long-term)
+6. Decide on single-year vs. multi-year commitment period
+7. State your policy on offsets (can they count toward the target?)
+8. Address double-counting if you participate in trading programs
+9. Set the reduction percentage based on feasibility analysis
+10. Establish annual tracking and public reporting cadence
+</HighlightBox>
+
+### The Cascading Target Problem
+
+One of the trickiest parts of target-setting is translating a corporate target into something each facility or business unit can act on.
+
+<ExampleBox>
+**Royal Dutch/Shell: Cascading targets through the organisation**
+
+Shell discovered that absolute emissions at any plant depend on three factors: quantity produced (a corporate decision), optimal energy use per tonne (a business-unit benchmark), and actual plant efficiency (a facility-level metric). The corporate absolute target could only be set at the top. Lower levels needed intensity or efficiency targets aligned to what they could actually control. A plant manager cannot decide how much product to make - but they can decide how efficiently to make it.
+</ExampleBox>
+
+### Science-Based Targets
+
+The Science Based Targets initiative (SBTi) has become the leading framework for ambitious corporate GHG targets. Unlike targets set solely on business feasibility, SBTs are derived by working backwards from a global carbon budget - the total CO2 the world can emit while keeping warming below 1.5C.
+
+SBTi validates corporate targets against sectoral decarbonisation pathways. If your company is in this course's target audience, you will likely encounter SBTi requirements from investors, customers, or regulators. The platform's dedicated SBTi course covers the methodology in detail.
+
+<CalculationExercise
+  question="A manufacturing company had base year (2020) Scope 1 and Scope 2 emissions of 120,000 tCO2e. It has set an absolute reduction target of 30% by 2030. What is its maximum allowable annual emissions figure in 2030?"
+  answer={84000}
+  unit="tCO2e"
+  hints={[
+    "A 30% reduction means the company must emit no more than 70% of its base year figure.",
+    "Multiply 120,000 by 0.70 to find the 2030 target level."
+  ]}
+  solution="120,000 tCO2e x (1 - 0.30) = 120,000 x 0.70 = 84,000 tCO2e. The company must keep its total Scope 1 and Scope 2 emissions at or below 84,000 tCO2e in 2030 to meet its target."
+/>
+
+## Part 2: The ISO 14064 Family
+
+### The Six Standards at a Glance
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Standard</th>
+      <th>Focus</th>
+      <th>In Plain English</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>ISO 14064-1</strong> (2018)</td>
+      <td>Organisation-level GHG inventories</td>
+      <td>How to design, develop, manage, and report a corporate GHG inventory</td>
+    </tr>
+    <tr>
+      <td><strong>ISO 14064-2</strong> (2019)</td>
+      <td>Project-level GHG quantification</td>
+      <td>How to quantify emission reductions from specific projects (e.g., carbon offset projects)</td>
+    </tr>
+    <tr>
+      <td><strong>ISO 14064-3</strong> (2019)</td>
+      <td>Verification and validation</td>
+      <td>How to verify historical GHG statements and validate forward-looking projections</td>
+    </tr>
+    <tr>
+      <td><strong>ISO 14065</strong></td>
+      <td>Verification bodies</td>
+      <td>Accreditation requirements for organisations that perform GHG verification</td>
+    </tr>
+    <tr>
+      <td><strong>ISO 14066</strong></td>
+      <td>Verification teams</td>
+      <td>Competence requirements for individual verifiers</td>
+    </tr>
+    <tr>
+      <td><strong>ISO 14067</strong></td>
+      <td>Product carbon footprints</td>
+      <td>How to quantify lifecycle GHG emissions of a product</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+### GHG Protocol vs. ISO 14064: Complementary, Not Competing
+
+<AnalogyBox>
+Think of the GHG Protocol as a detailed guidebook that teaches you *how* to build a GHG inventory from scratch, with worked examples and decision trees. ISO 14064-1 is the building code - it specifies the *requirements* your inventory must meet, but with less hand-holding on how to get there. Most practitioners use the GHG Protocol to build their inventory and ISO 14064 to get it verified.
+</AnalogyBox>
+
+The two frameworks share the same intellectual DNA and are designed to be compatible. Key differences in practice:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Aspect</th>
+      <th>GHG Protocol</th>
+      <th>ISO 14064-1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Nature</strong></td>
+      <td>Voluntary corporate standard</td>
+      <td>International standard (ISO)</td>
+    </tr>
+    <tr>
+      <td><strong>Indirect emissions</strong></td>
+      <td>Scope 2 + Scope 3 (15 categories)</td>
+      <td>5 indirect categories (b through f)</td>
+    </tr>
+    <tr>
+      <td><strong>Quality management</strong></td>
+      <td>Recommended</td>
+      <td>Required - including formal uncertainty assessment</td>
+    </tr>
+    <tr>
+      <td><strong>Verification</strong></td>
+      <td>Encouraged</td>
+      <td>Separate standard (ISO 14064-3) with detailed process</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+The main gap practitioners encounter: **ISO requires formal uncertainty assessment; the GHG Protocol only recommends it.** If you are preparing for ISO verification, you need to quantify uncertainty for each source category, not just acknowledge that uncertainty exists.
+
+### Do I Need ISO 14064?
+
+Use this decision guide:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Your Situation</th>
+      <th>Do You Need ISO?</th>
+      <th>Why</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Voluntary CDP/GRI reporting only</td>
+      <td>Not required</td>
+      <td>GHG Protocol conformance is sufficient for these frameworks</td>
+    </tr>
+    <tr>
+      <td>Subject to EU CSRD</td>
+      <td>Yes - for verification</td>
+      <td>CSRD mandates third-party assurance per ISO 14064-3 or ISAE 3410</td>
+    </tr>
+    <tr>
+      <td>Participating in emissions trading (EU ETS, California)</td>
+      <td>Yes - for verification</td>
+      <td>Most cap-and-trade programs require ISO 14064-3 compliant verification</td>
+    </tr>
+    <tr>
+      <td>Developing carbon offset projects</td>
+      <td>Yes - ISO 14064-2</td>
+      <td>Project-level quantification standard, used alongside Verra VCS or Gold Standard</td>
+    </tr>
+    <tr>
+      <td>Large buyer requesting supply chain verification</td>
+      <td>Likely yes</td>
+      <td>Multinationals increasingly require ISO-verified inventories from suppliers</td>
+    </tr>
+    <tr>
+      <td>Multinational operating across jurisdictions</td>
+      <td>Recommended</td>
+      <td>ISO is globally recognised; simplifies reporting across different regulatory regimes</td>
+    </tr>
+    <tr>
+      <td>Small company, internal tracking only</td>
+      <td>Not needed</td>
+      <td>GHG Protocol guidance is sufficient for internal management</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+<ExampleBox>
+**Practical scenario:** A European manufacturer reports Scope 1 and 2 under the GHG Protocol. When the CSRD requires third-party assurance, the verifier conducts the engagement per ISO 14064-3. The manufacturer does not need to redo its inventory - it just needs to ensure its GHG Protocol-based inventory also meets ISO 14064-1's documentation and quality management requirements. In practice, the main gaps are usually formal uncertainty assessment and written justification of methodological choices.
+</ExampleBox>
+
+### Verification vs. Validation: The ISO Distinction
+
+ISO 14064-3 makes a critical distinction that the GHG Protocol does not emphasise:
+
+- **Verification** looks backward: "Is this statement of historical emissions materially correct?"
+- **Validation** looks forward: "Are the assumptions behind this projected emission reduction reasonable?"
+
+A carbon offset project needs *validation* of its projected reductions and *verification* of its actual measured reductions. A corporate inventory only needs verification.
+
+<DeepDive title="ISO 14064-1's additional quality requirements">
+For organisations already following the GHG Protocol, ISO 14064-1 compliance mostly means formalising what may already be informal:
+
+- **Uncertainty assessment**: quantify uncertainty for each source category, not just at the aggregate level
+- **Document retention**: retain records sufficient for an independent party to reconstruct the inventory
+- **Internal audit**: conduct periodic internal audits of the GHG inventory process, separate from external verification
+- **Management review**: senior management reviews the inventory program at planned intervals
+
+These are not onerous additions if you built good documentation habits from the start. They become painful only when retrofitted before a verification deadline.
+</DeepDive>
+
+<KeyTakeaways items="Absolute targets commit to real atmospheric reductions; intensity targets show efficiency improvement but total emissions may still rise with growth - many companies set both ;; Cascade corporate targets into facility-level metrics that teams can actually control, such as energy intensity per tonne of output ;; The GHG Protocol and ISO 14064 are complementary - use the Protocol to build your inventory and ISO 14064 to get it verified ;; ISO 14064-1 requires formal uncertainty assessment and documented justification for every methodological choice, which the GHG Protocol only recommends ;; Verification looks backward at historical emissions; validation looks forward at projected reductions - corporate inventories need verification only ;; If subject to EU CSRD, emissions trading, or large buyer supply chain requirements, ISO 14064-3 compliant verification is likely required" />

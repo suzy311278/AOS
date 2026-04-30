@@ -1,0 +1,35 @@
+- question: "A biochar production facility recovers pyrolytic gases, uses 75% of the heat energy produced, has a thermal oxidizer meeting local emissions standards, but records temperatures manually in a paper logbook. How is this facility classified?"
+  options:
+    - "High technology, because it meets three of the four conditions"
+    - "Low technology, because it does not meet all four conditions"
+    - "High technology, because manual temperature records are acceptable"
+    - "Low technology, but only for the first crediting period"
+  answer: 1
+  explanation: "All four high technology conditions must be met. Condition 4 requires that production temperature be measured and recorded electronically. A manual paper logbook does not satisfy this requirement. Failing any single condition automatically classifies the facility as low technology."
+
+- question: "Which of the following thermochemical processes is NOT eligible under VM0044 Applicability Condition 1?"
+  options:
+    - "Pyrolysis"
+    - "Gasification"
+    - "Torrefaction"
+    - "Biomass boiler combustion"
+  answer: 2
+  explanation: "Torrefaction is excluded from VM0044 because it produces a solid product that is not significantly more persistent in soil than the original feedstock. Hydrothermal carbonization is also excluded for the same reason. Pyrolysis, gasification, and biomass boilers are all eligible."
+
+- question: "A smallholder farmer in Kenya uses a flame curtain kiln to produce biochar and wants to sell it as an ingredient in concrete blocks. Is this permitted under VM0044?"
+  options:
+    - "Yes, because VM0044 allows both technology types in all applications"
+    - "Yes, if the farmer obtains a special exemption from Verra"
+    - "No, because low technology biochar cannot be used in non-soil applications"
+    - "No, because flame curtain kilns are not eligible under VM0044 at all"
+  answer: 2
+  explanation: "VM0044 restricts non-soil applications to high technology biochar only. A flame curtain kiln is a low technology facility, so the biochar it produces can only be used in soil applications such as agricultural land. Non-soil applications like concrete are not available to low technology producers."
+
+- question: "A low technology project does not know the specific type of kiln being used at one of its aggregated production sites. What default emission factor must it apply for CH4 emissions from pyrolysis at that site?"
+  options:
+    - "0.0 tCH4 per tonne of biochar (de minimis)"
+    - "0.049 tCH4 per tonne of biochar"
+    - "0.49 tCH4 per tonne of biochar"
+    - "The project must determine the kiln type before any credits can be issued"
+  answer: 1
+  explanation: "When the kiln type at a low technology facility is unknown, VM0044 applies a default emission factor (Fe) of 0.049 tonnes of CH4 per tonne of biochar produced. This default is drawn from published literature (Cornelissen et al., 2016). The 0.0 de minimis value applies only to high technology facilities."

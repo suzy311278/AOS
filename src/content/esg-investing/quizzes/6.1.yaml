@@ -1,0 +1,44 @@
+- question: "Why is strategic asset allocation (SAA) considered particularly important for addressing climate risk compared to individual security selection?"
+  options:
+    - "SAA uses more sophisticated data sources than security-level analysis"
+    - "Climate risk is systemic and affects multiple asset classes simultaneously, requiring a top-down response"
+    - "SAA decisions are made more frequently, allowing faster adjustment to new ESG data"
+    - "Individual security selection cannot incorporate ESG factors at all"
+  answer: 1
+  explanation: "Climate risk is systemic — it can affect multiple asset classes and the broader economy simultaneously, and cannot be fully diversified away through careful stock selection. This makes it a top-down, asset allocation level problem rather than purely a bottom-up security selection issue."
+
+- question: "Which asset allocation model is considered particularly promising for ESG integration because it does not require precise return estimates for every asset class?"
+  options:
+    - "Mean-variance optimisation (MVO)"
+    - "Liability-driven investment (LDI)"
+    - "Black-Litterman model (BLM)"
+    - "Dynamic asset allocation (DAA)"
+  answer: 2
+  explanation: "The Black-Litterman model is anchored in global equilibrium market weights and allows analysts to overlay directional 'views' (such as 'carbon-intensive assets will underperform') without requiring precise return estimates for each asset class. This flexibility makes it more naturally suited to incorporating forward-looking ESG signals than MVO."
+
+- question: "What does the term 'stranded assets' refer to in the context of ESG and strategic asset allocation?"
+  options:
+    - "Assets held by investors in sanctioned countries"
+    - "Investments that lose economic value before their expected useful life ends, typically due to regulatory or technological change"
+    - "Fixed income assets with very long maturities that are illiquid"
+    - "Real assets that cannot be sold because they are physically immovable"
+  answer: 1
+  explanation: "Stranded assets are investments that become economically unviable before the end of their expected useful life — typically because of policy changes (such as carbon pricing), technology disruption, or shifts in consumer behaviour. Coal-fired power stations are the most frequently cited example."
+
+- question: "According to the TCFD framework, which two broad categories of climate risk must investors consider in their scenario analysis?"
+  options:
+    - "Regulatory risk and reputational risk"
+    - "Physical risk and transition risk"
+    - "Systemic risk and idiosyncratic risk"
+    - "Short-term risk and long-term risk"
+  answer: 1
+  explanation: "The TCFD framework defines physical risks (direct impacts of climate change on operations, assets and infrastructure) and transition risks (regulatory, technological, market and policy changes associated with the transition to a low-carbon economy). Both must be considered in climate scenario analysis."
+
+- question: "Which of the following statements best describes the challenge of integrating ESG into dynamic asset allocation (DAA) compared to strategic asset allocation (SAA)?"
+  options:
+    - "DAA provides more data inputs than SAA, making ESG integration more complex"
+    - "ESG factors are not material over the short time horizons that DAA operates on, reducing their relevance"
+    - "DAA's frequent rebalancing to maintain a target mix may systematically override long-term ESG signals with short-term market factors"
+    - "DAA requires more expensive ESG data sources than SAA"
+  answer: 2
+  explanation: "Dynamic asset allocation rebalances portfolios frequently based on changing market conditions and risk tolerance. Because ESG risks — particularly climate risks — are long-term and structural in nature, DAA's short-interval rebalancing may continuously override these signals, effectively reducing the value of ESG integration at the dynamic allocation level."

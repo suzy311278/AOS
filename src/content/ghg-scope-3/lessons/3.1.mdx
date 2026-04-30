@@ -1,0 +1,87 @@
+{/* source: Scope3_Calculation_Guidance_0[1].pdf, Category 9 (pp. 102-105) */}
+
+**Category 9 — Downstream Transportation and Distribution** covers GHG emissions from the transportation and distribution of products **sold** by the reporting company, from the company's point of sale (or factory gate) to the end consumer, in vehicles **not owned or controlled by the reporting company**. It also includes third-party warehousing and storage after the point of sale.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-3/3_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Boundary: Category 9 vs. Category 4
+
+The distinction between Category 4 (upstream) and Category 9 (downstream) transport is the **point of sale**:
+
+- **Category 4 (upstream)**: Transport of goods purchased by the company, moving **into** its operations (from suppliers to the company)
+- **Category 9 (downstream)**: Transport of goods sold by the company, moving **out** of its operations (from the company to end consumers)
+
+<HighlightBox>
+The dividing line is the reporting company's gate. Movements of goods before the company acquires them = Category 4. Movements of goods after the company sells them = Category 9. This prevents double-counting the same tonne-kilometre in both upstream and downstream categories.
+</HighlightBox>
+
+## What Is Included
+
+Category 9 covers all legs of product distribution after the point of sale:
+
+- Distribution from the company's facility to regional warehouses or distribution centres
+- Delivery from distribution centres to retailers or wholesalers
+- Last-mile delivery from retailer or warehouse to end consumer
+- Third-party warehousing and cold storage of the company's sold products
+- Retail display (energy used to store, refrigerate, or display products in stores)
+
+## What Is Not Included
+
+- Transportation in **company-owned or operated** vehicles (Scope 1)
+- Inbound logistics to the company's own facilities (Category 4)
+- Transport by customers in their own vehicles after purchase point - the standard treats customer travel to stores as part of Category 11 (use of sold products) or outside the company's boundary
+
+## Calculation Methods
+
+Category 9 uses the same methods as Category 4:
+
+### Distance-Based Method (Recommended)
+<EquationBreakdown
+  title="Category 9 - Distance-Based Method"
+  result="E<sub>Cat9</sub> | Category 9 Emissions | Total downstream transport emissions, in tCO₂e | blue"
+  inputs="m | Mass | Weight of products shipped, in tonnes | green ;; d | Distance | Distance travelled per shipment, in km | amber ;; EF | Emission Factor | Emissions per tonne-km for the transport mode, in tCO₂e/tonne-km | violet"
+/>
+
+### Fuel-Based Method
+<EquationBreakdown
+  title="Category 9 - Fuel-Based Method"
+  result="E<sub>Cat9</sub> | Category 9 Emissions | Total downstream transport emissions, in tCO₂e | blue"
+  inputs="FC | Fuel Consumed | Total fuel used for downstream transport, in litres or kg | green ;; EF<sub>fuel</sub> | Fuel Emission Factor | Emissions per unit of fuel burned, in tCO₂e/litre or kg | amber"
+/>
+
+### Spend-Based Method
+For initial screening using EIO factors per £/$/€ of logistics spend.
+
+## Worked Example
+
+<CalculationExercise
+  question="A consumer goods company ships 10,000 tonnes of products annually from its warehouse to retailers by truck (average distance 300 km). Emission factor: 0.082 kgCO₂e/tonne-km. What are annual Category 9 emissions in tCO₂e?"
+  answer={246}
+  unit="tCO₂e"
+  hints={["Total tonne-km = 10,000 t × 300 km = 3,000,000 tonne-km.", "Emissions = 3,000,000 × 0.082 kgCO₂e/tonne-km = 246,000 kgCO₂e.", "Convert: 246,000 ÷ 1,000 = 246 tCO₂e."]}
+  solution="10,000 t × 300 km × 0.082 kgCO₂e/tonne-km = 246,000 kgCO₂e = 246 tCO₂e."
+/>
+
+## Retailer and Distribution Channel Complexity
+
+For companies selling through multiple channels (direct, wholesale, retail, e-commerce), each channel has different logistics:
+
+- **Direct-to-consumer (D2C)**: High emissions per unit - individual parcels, last-mile by van
+- **Bulk wholesale to retailer**: Low emissions per unit - consolidated pallets by truck
+- **E-commerce with returns**: Returns logistics (reverse logistics) may be as significant as outbound
+
+The standard allows companies to estimate Category 9 at the channel level, using channel-specific emission factors rather than a single average for all distribution.
+
+## Connection to Consumer E-Commerce
+
+The rapid growth of e-commerce has shifted distribution toward higher-emission last-mile delivery (individual parcels by diesel or petrol van). For companies with significant online sales, Category 9 tracking can reveal whether the channel mix shift is increasing or decreasing per-unit logistics emissions.
+
+<AnalogyBox>
+Category 9 is the outbound logistics mirror of Category 4. If Category 4 is "what it costs the climate to bring ingredients into the kitchen," Category 9 is "what it costs the climate to deliver the meals to customers." Both depend on the same fundamental variables: how heavy the goods are, how far they travel, and what mode of transport is used.
+</AnalogyBox>
+
+<DeepDive title="Retailer scope for Category 9">
+An interesting boundary issue arises for companies that sell to retailers who then operate their own stores. The energy used to operate the retail store (lighting, heating, refrigeration for the company's products on the shelf) is technically part of the downstream distribution chain. The standard guidance allows, but does not require, companies to include retail store energy in Category 9. Most companies stop at delivery to the retail distribution centre rather than attempting to allocate individual store energy to specific products, given the complexity of such allocation.
+</DeepDive>
+
+<KeyTakeaways items="Category 9 is the downstream mirror of Category 4 - covering outbound transport of sold products from the company's gate to end consumers ;; The dividing line between Category 4 and Category 9 is the point of sale - inbound movements are Category 4, outbound movements are Category 9 ;; Different distribution channels have very different emission profiles - direct-to-consumer e-commerce has higher per-unit emissions than bulk wholesale ;; The distance-based method (mass x distance x tonne-km emission factor) is recommended and uses the same logic as Category 4 ;; Returns logistics from e-commerce can be as significant as outbound delivery - track reverse logistics separately when online sales are material" />

@@ -1,0 +1,62 @@
+{/* source: TSVCM Phase II Report, Section 8 */}
+
+## The Future of VCMs: Article 6, Digital MRV &amp; Tokenization
+
+<p class="mb-3">The voluntary carbon market of 2030 will likely look quite different from the market of 2024. Three forces are simultaneously reshaping the landscape: the implementation of Article 6 of the Paris Agreement, which creates new governance architecture for international carbon trading; the digitisation of monitoring, reporting, and verification (MRV) through satellite technology, IoT sensors, and artificial intelligence; and the emergence of blockchain-based tokenization as an infrastructure layer for credit issuance, trading, and retirement. Understanding these forces helps buyers and practitioners anticipate where the market is heading and how to position portfolios accordingly.</p>
+
+### Article 6 of the Paris Agreement
+
+<p class="mb-3">Article 6 is the Paris Agreement's framework for international carbon market cooperation. It comprises three mechanisms, of which Articles 6.2 and 6.4 are most directly relevant to the VCM.</p>
+
+<p class="mb-3"><strong>Article 6.2</strong> establishes the framework for bilateral country-to-country trading of Internationally Transferred Mitigation Outcomes (ITMOs). When a host country authorises a carbon project for use under Article 6.2 and the resulting credits are sold to a buyer in another country, the host country must apply a "corresponding adjustment" to its own nationally determined contribution (NDC): it increases its reported emissions (or reduces its reported reductions) by the amount transferred, ensuring the mitigation is only counted once globally. This prevents the same tonne from being counted by both the host country toward its NDC and the buyer toward its climate target, a critical piece of anti-double-counting architecture.</p>
+
+<p class="mb-3"><strong>Article 6.4</strong> creates a new UN-supervised crediting mechanism (sometimes called the "Paris mechanism" or "A6.4ER") governed by the UN's Supervisory Body. This mechanism is intended to provide a multilateral alternative to bilateral 6.2 deals, with standardised rules for project approval, credit issuance, and corresponding adjustments applied automatically. A6.4ER credits with corresponding adjustments will be usable by both governments toward NDCs and by private entities for claims, making them potentially compatible with the highest-integrity VCM claims frameworks.</p>
+
+<HighlightBox>
+<p class="font-semibold text-green-800">Why Corresponding Adjustments Matter for VCM Buyers</p>
+<p class="text-green-900 mt-1">As more host countries apply corresponding adjustments to project-level credits sold internationally, VCM credits without corresponding adjustments may no longer be accepted for the most rigorous corporate claims (particularly those aligned with VCMI Platinum tier or SBTi net zero neutralisation). This is because without a corresponding adjustment, both the host country and the corporate buyer could theoretically claim the same tonne of mitigation, violating the Paris Agreement's anti-double-counting rule. The transition to a corresponding-adjustment-required world will take years and will create a tiering within the VCM between "adjusted" (fully Paris-aligned) and "unadjusted" credits.</p>
+</HighlightBox>
+
+### Digital MRV: Satellite, IoT, and AI
+
+<p class="mb-3">Traditional carbon project MRV relies heavily on field measurements: foresters physically sampling biomass plots, auditors visiting project sites, and data submitted via spreadsheets to verification bodies. This approach is expensive, slow, and geographically constrained. For remote forest projects covering hundreds of thousands of hectares, field sampling can cover only a tiny fraction of the total area, leaving significant uncertainty about actual carbon stocks.</p>
+
+<p class="mb-3">Digital MRV technologies are beginning to change this calculus in three ways:</p>
+
+<p class="mb-3"><strong>Satellite remote sensing</strong> now provides continuous monitoring of forest cover, biomass density, fire events, and land-use change across entire project areas at resolutions of less than one metre in some commercial systems (Planet Labs, Maxar, Airbus Defence and Space). Companies such as Pachama and Terrasos use satellite data integrated with machine learning models to provide near-real-time forest carbon stock estimates and deforestation alerts, dramatically reducing the cost and increasing the frequency of performance monitoring compared with field-only approaches.</p>
+
+<p class="mb-3"><strong>IoT sensor networks</strong> are being deployed in engineered removal projects (biochar production facilities, enhanced weathering field trials) to provide continuous measurement of input quantities, process parameters, and output volumes. For cookstove projects, sensors embedded in devices can measure actual usage patterns rather than relying on household survey estimates, addressing a long-standing over-crediting concern in the cookstove methodology literature.</p>
+
+<p class="mb-3"><strong>AI and machine learning</strong> are being applied to improve baseline modelling (predicting what would have happened without the project), identify anomalies in credit issuance data that might signal over-crediting, and automate the review of project documentation for compliance with registry requirements. The ICVCM has indicated interest in digital MRV as a pathway to more rigorous and standardised quantification across methodologies.</p>
+
+<AnalogyBox>
+<p class="font-semibold text-blue-800">From Manual Audit to Continuous Monitoring</p>
+<p class="mt-2 text-blue-900">Traditional forest carbon MRV is like an annual company audit: a snapshot taken at one moment, by auditors visiting a sample of the whole. Digital MRV is like continuous accounting software: a real-time view of the entire operation, flagging anomalies instantly. The transition to digital MRV does not eliminate the need for professional judgement - it provides much richer data for that judgement to operate on, and makes systematic over-crediting far harder to sustain without detection.</p>
+</AnalogyBox>
+
+### Blockchain, Tokenization, and Market Infrastructure
+
+<p class="mb-3">Blockchain technology has attracted significant investment in the carbon market as a potential solution to several structural problems: the illiquidity of OTC markets, the opacity of registry-level tracking, and the complexity of transferring credits across registry systems. Tokenization refers to representing a carbon credit as a digital token on a blockchain, where it can be transferred instantly, its provenance traced immutably, and its retirement recorded transparently.</p>
+
+<p class="mb-3">Several tokenization platforms have launched since 2021, including Toucan Protocol, KlimaDAO, and Moss.Earth, each with distinct approaches to on-chain credit representation. Toucan introduced the concept of "bridging" Verra VCS credits onto the Polygon blockchain by retiring the original registry credits and issuing equivalent tokens. This approach initially attracted controversy because it enabled bulk purchases of older, lower-quality credits (sometimes called "junk credits") for tokenization, potentially concentrating low-integrity assets in DeFi protocols.</p>
+
+<p class="mb-3">In response to these concerns, Verra suspended automatic bridging in 2022 and began developing its own approach to digital infrastructure ("Verra Core"), which would maintain registry primacy while enabling interoperability with blockchain systems. The principle that has emerged is that the underlying registry, not the blockchain layer, should remain the authoritative record of credit status, with blockchain serving as a read-only transparency and liquidity layer rather than a parallel issuance system.</p>
+
+<ResponsiveTable>
+<table class="mb-6">
+<tr><th>Technology</th><th>Primary Application</th><th>Maturity</th><th>Key Risk</th></tr>
+<tr><td><strong>Satellite MRV</strong></td><td>Forest carbon stock monitoring</td><td>Commercial (Pachama, Terrasos)</td><td>Model accuracy validation</td></tr>
+<tr><td><strong>IoT sensors</strong></td><td>Cookstoves, biochar process monitoring</td><td>Pilot to commercial</td><td>Device reliability, tamper risk</td></tr>
+<tr><td><strong>AI baseline modelling</strong></td><td>Counterfactual deforestation prediction</td><td>Research to early commercial</td><td>Model validation, regulatory acceptance</td></tr>
+<tr><td><strong>Blockchain tokenization</strong></td><td>Liquidity, provenance, cross-registry transfer</td><td>Early commercial (contested)</td><td>Registry primacy, quality dilution</td></tr>
+<tr><td><strong>Article 6.4 mechanism</strong></td><td>UN-supervised multilateral crediting</td><td>Regulatory (in development)</td><td>Political delays, host country uptake</td></tr>
+</table>
+</ResponsiveTable>
+
+### Market Evolution: What to Expect
+
+<p class="mb-3">The VCM of 2030 is likely to be characterised by greater institutional participation (as Article 6 rules provide clearer governance), higher average credit quality (as CCP-Approved labelling becomes the expected norm and digital MRV reduces over-crediting risk), and greater price differentiation between corresponding-adjustment-applied credits and unadjusted credits. The tokenization debate will likely resolve toward blockchain serving as a transparency and liquidity layer atop established registries rather than replacing them.</p>
+
+<p class="mb-3">For corporate buyers, the practical implication of these trends is to begin now building the analytical capabilities to assess credits across new dimensions: corresponding adjustment status, digital MRV provenance, and Article 6.4 eligibility, in addition to the existing quality criteria of additionality, permanence, and co-benefits. The learning curve is real, but the structural direction of the market toward greater transparency and integrity provides a long-run foundation for confidence in well-constructed portfolios.</p>
+
+<KeyTakeaways items="Article 6.2 and 6.4 of the Paris Agreement create new governance for international carbon trading, with corresponding adjustments ensuring mitigation outcomes are counted only once, either by the host country or the buyer, not both ;; Digital MRV using satellite remote sensing, IoT sensors, and AI is reducing the cost and increasing the frequency of carbon project monitoring, making systematic over-crediting harder to sustain ;; Blockchain tokenization offers potential benefits for liquidity and provenance tracking, but the principle of registry primacy means blockchains should complement, not replace, established registries like Verra and Gold Standard ;; Corporate buyers should begin building competency in corresponding adjustment status, digital MRV provenance, and Article 6.4 eligibility as these dimensions become increasingly important quality signals in the market evolution toward 2030" />

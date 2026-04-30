@@ -1,0 +1,44 @@
+- question: "The SBTi is incorporated as which type of legal entity?"
+  options:
+    - "A United Nations agency"
+    - "A UK charity, with a subsidiary company (SBTi Services Limited) hosting validation services"
+    - "A private limited company jointly owned by CDP and WRI"
+    - "A public body established by the Paris Agreement"
+  answer: 1
+  explanation: "The SBTi is incorporated as a UK charity (charity number 1205768, company number 14960097). A wholly owned subsidiary, SBTi Services Limited (company number 15181058), hosts the target validation services. Together these are referred to as the SBTi Group. Partner organizations -- CDP, UNGC, We Mean Business Coalition, WRI, and WWF -- facilitated the SBTi's growth but do not own it."
+
+- question: "In the SBTi criteria notation, what does a 'C' preceding a number (e.g., C4) indicate, and what does 'shall' mean in that context?"
+  options:
+    - "C indicates a recommendation; 'shall' means best practice"
+    - "C indicates a criterion; 'shall' means it is required for validation conformance"
+    - "C indicates a case study; 'shall' means the company is encouraged to act"
+    - "C indicates a calculation step; 'shall' means the tool output must be used"
+  answer: 1
+  explanation: "The letter 'C' preceding a number indicates a criterion -- a requirement that companies must meet for their targets to be in conformance with the Corporate Net-Zero Standard. 'Shall' and 'must' are the terms used throughout the document to indicate what is required. By contrast, 'R' preceding a number indicates a recommendation, and 'should' indicates a recommendation that is not mandatory."
+
+- question: "Under the Corporate Net-Zero Standard, at what temperature ambition level must near-term scope 1 and 2 targets be aligned?"
+  options:
+    - "Well-below 2C"
+    - "2C"
+    - "1.5C"
+    - "1.8C"
+  answer: 2
+  explanation: "Since July 2022, the SBTi has required near-term scope 1 and 2 targets to be aligned with 1.5C pathways. For scope 3 near-term targets, the minimum ambition is well-below 2C -- a lower bar reflecting data complexity. Long-term targets for all scopes must align with 1.5C."
+
+- question: "A company is deciding between near-term and long-term target ambition requirements. Which statement correctly distinguishes the two?"
+  options:
+    - "Near-term targets are target year independent; long-term targets are target year dependent"
+    - "Near-term targets are target year dependent; long-term targets are target year independent"
+    - "Both near-term and long-term targets require the same percentage reduction regardless of the target year"
+    - "Near-term targets always require exactly 50% reduction; long-term targets require 90%"
+  answer: 1
+  explanation: "Near-term targets are target year dependent -- the required reduction percentage changes depending on the target year chosen, because the rate of reduction needed varies with how much time remains to achieve the carbon budget consistent with 1.5C. Long-term targets are target year independent -- the required overall reduction (e.g., 90% under the cross-sector pathway) does not change based on when the target year is set."
+
+- question: "What is the minimum scope 3 coverage required for a long-term (net-zero) science-based target under the Corporate Net-Zero Standard?"
+  options:
+    - "67% of total scope 3 emissions, but only if scope 3 exceeds 40% of total emissions"
+    - "50% of total scope 3 emissions for all companies"
+    - "90% of total scope 3 emissions for all companies"
+    - "100% of total scope 3 emissions for all companies"
+  answer: 2
+  explanation: "Long-term science-based targets must cover at least 90% of total scope 3 emissions, and this applies to all companies regardless of whether scope 3 exceeds the 40% threshold. This is a broader requirement than near-term targets, which only require 67% scope 3 coverage (and only when scope 3 exceeds 40% of total emissions). The Corporate Net-Zero Standard takes an 'expansive boundary' approach, increasing scope 3 coverage progressively from near-term to long-term."

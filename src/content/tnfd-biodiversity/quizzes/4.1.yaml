@@ -1,0 +1,26 @@
+- question: "According to the IPBES Global Assessment, what is the leading driver of terrestrial biodiversity loss?"
+  options:
+  - "Climate change"
+  - "Invasive species"
+  - "Land-use change driven by agricultural expansion"
+  - "Direct exploitation of species"
+  answer: 2
+  explanation: "The IPBES Global Assessment (2019) identifies land-use change, primarily driven by agricultural expansion, as the single greatest driver of terrestrial biodiversity loss worldwide."
+
+- question: "Which four commodities account for the majority of tropical deforestation linked to commercial supply chains?"
+  options:
+  - "Coffee, cocoa, cotton, rubber"
+  - "Soy, beef, palm oil, and wood products"
+  - "Wheat, corn, rice, and sugar"
+  - "Timber, fish, shrimp, and vanilla"
+  answer: 1
+  explanation: "Soy, beef, palm oil, and wood products are the four commodities most strongly associated with tropical deforestation in commercial supply chains, particularly in the Amazon, Cerrado, and Southeast Asian peatlands."
+
+- question: "What share of global freshwater withdrawals does agriculture account for?"
+  options:
+  - "Approximately 30%"
+  - "Approximately 50%"
+  - "Approximately 70%"
+  - "Approximately 90%"
+  answer: 2
+  explanation: "Agriculture accounts for approximately 70% of global freshwater withdrawals, making it the dominant user of freshwater resources and creating significant water-related nature risks in water-stressed basins."

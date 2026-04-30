@@ -1,0 +1,44 @@
+- question: "Which of the following would most typically cause an investor to question a board director's independence?"
+  options:
+    - "The director has served on the board for less than three years"
+    - "The director previously worked as a senior executive at the company and joined the board shortly after leaving"
+    - "The director holds a small personal shareholding in the company acquired at market price"
+    - "The director chairs the remuneration committee"
+  answer: 1
+  explanation: "Independence is compromised when a director has had close prior involvement with the company's management. A recently departed executive is likely to have personal relationships, prior decisions to defend, and ingrained perspectives that make genuine independence of judgment difficult. Most governance codes require a meaningful cooling-off period — typically two years or more — before a former executive can be considered independent as a non-executive director."
+
+- question: "The primary purpose of a long-term incentive plan (LTIP) in executive remuneration is to:"
+  options:
+    - "Compensate executives for the additional personal risk they take by investing in company shares"
+    - "Replace fixed salary for senior executives, reducing fixed costs"
+    - "Align the financial interests of management with the long-term performance interests of shareholders"
+    - "Ensure executives cannot sell their shares until the company reaches a specific size threshold"
+  answer: 2
+  explanation: "LTIPs — typically share-based awards vesting after a performance period of three or more years — are the primary tool for creating equity-linked alignment between executives and long-term shareholders. Performance is usually measured against metrics such as total shareholder return (TSR) and earnings per share (EPS), and shares must often be held for a further period after vesting, extending the overall time horizon to five years or more."
+
+- question: "Which of the following board elements is most critical when assessing whether a board can genuinely hold management to account?"
+  options:
+    - "The number of committees the board has established"
+    - "The proportion of independent non-executive directors, combined with the quality of the chair in enabling effective debate"
+    - "The length of the average board meeting"
+    - "The geographic diversity of board members' backgrounds"
+  answer: 1
+  explanation: "While all governance structures matter, the two most fundamental factors for genuine management accountability are the proportion of truly independent non-executives (who have no reason to defer to management) and the effectiveness of the board chair in creating a culture where challenge is welcomed and all directors contribute meaningfully. A board with strong formal independence but a weak or overbearing chair may be less effective than one with more modest formal independence but excellent boardroom culture."
+
+- question: "In the context of enhanced auditor reports, what does the 'performance materiality' threshold indicate to an investor?"
+  options:
+    - "The maximum value of transactions that the audit committee is permitted to approve without a full board vote"
+    - "The percentage of the company's revenues that will trigger an immediate audit qualification"
+    - "The level below the overall materiality threshold at which the auditor actually focuses its procedures — with a lower ratio suggesting less confidence in the company's internal financial controls"
+    - "The proportion of the audit work allocated to non-financial sustainability disclosures"
+  answer: 2
+  explanation: "Performance materiality is the internal threshold auditors use in their actual testing procedures — typically around 75% of overall materiality. When this ratio is materially lower (say, 50–60%), it suggests the auditor has lower confidence in the quality of the company's own internal controls and financial systems, and is therefore casting a wider net in its sampling. This is a useful signal for investors about the robustness of the company's financial control environment."
+
+- question: "A company's annual bonus KPIs include metrics for profitability (80%) and ESG performance (20%). Which element of executive pay is described here?"
+  options:
+    - "Fixed salary"
+    - "Long-term incentive plan"
+    - "Pension contribution"
+    - "Annual bonus"
+  answer: 3
+  explanation: "Annual bonuses are short-term variable pay calculated against key performance indicators (KPIs) set at the start of the year and paid at year-end (sometimes with partial deferral). KPIs are predominantly financial — typically profit-related — but around 20% may reflect personal performance objectives or non-financial metrics, including ESG factors. LTIPs by contrast use broad financial metrics (TSR, EPS) over a multi-year performance period."

@@ -1,0 +1,35 @@
+- question: "What are the criteria for choosing between carbon tax and ETS?"
+  options:
+    - "Random choice"
+    - "Consider priorities (price vs quantity certainty), institutional capacity, political context, and sectoral characteristics"
+    - "Always choose ETS"
+    - "Always choose tax"
+  answer: 1
+  explanation: "The choice depends on whether price or quantity certainty matters more, administrative capacity, political feasibility, revenue needs, and the characteristics of covered sectors."
+
+- question: "When might a carbon tax be preferred over an ETS?"
+  options:
+    - "When you want less certainty"
+    - "When simplicity, revenue predictability, and administrative ease are priorities"
+    - "When the system is very complex"
+    - "Never"
+  answer: 1
+  explanation: "Carbon taxes offer simplicity, predictable revenue, price certainty, and lower administrative burden, making them attractive when these factors are prioritized and institutional capacity is limited."
+
+- question: "When might an ETS be preferred over a carbon tax?"
+  options:
+    - "When environmental certainty of meeting a specific cap is the priority"
+    - "When simplicity is most important"
+    - "When administrative capacity is very limited"
+    - "Never"
+  answer: 0
+  explanation: "An ETS provides environmental certainty by guaranteeing the emissions outcome through the cap, making it attractive when meeting specific targets is the primary goal."
+
+- question: "What does context-specific design mean for carbon pricing?"
+  options:
+    - "All carbon pricing systems should be identical"
+    - "Systems should be adapted to each jurisdiction's circumstances, priorities, and capacity"
+    - "Only international standards matter"
+    - "Design does not matter"
+  answer: 1
+  explanation: "There is no one-size-fits-all carbon pricing design. The best approach depends on a jurisdiction's institutional capacity, political economy, economic structure, and climate goals."

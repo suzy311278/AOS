@@ -1,0 +1,26 @@
+- question: "What is the primary mechanism by which EPR incentivizes circular product design?"
+  options:
+    - "By providing government grants to producers who use recycled materials"
+    - "By making producers financially responsible for end-of-life management, so circular designs cost less to handle"
+    - "By setting mandatory recycled content requirements in legislation"
+    - "By prohibiting non-recyclable materials from the market"
+  answer: 1
+  explanation: "EPR's primary design incentive works by internalizing end-of-life costs. A producer who faces no cost for waste they generate has no incentive for circular design. When they must pay for collection and recycling, products that are easier to collect and recycle (circular designs) cost less to manage, creating a direct financial reward for circular design choices."
+
+- question: "What does 'eco-modulation' of EPR fees mean?"
+  options:
+    - "Setting EPR fees based on the carbon footprint of manufacturing"
+    - "Adjusting EPR fees based on product characteristics like recyclability, recycled content, and hazardous substances"
+    - "Modulating fees according to the economic cycle and market conditions"
+    - "Reducing EPR fees for products sold in eco-friendly packaging"
+  answer: 1
+  explanation: "Eco-modulation means differentiating EPR fees based on environmental product characteristics including durability, repairability, recyclability, recycled content, and presence of hazardous substances. Products designed for circularity pay lower fees; those with problematic characteristics pay higher fees, creating a direct financial incentive for circular design."
+
+- question: "Which 2018 amendment to the Waste Framework Directive established minimum requirements for all EU EPR schemes?"
+  options:
+    - "Article 4 (waste hierarchy)"
+    - "Article 6 (end-of-waste criteria)"
+    - "Article 8a (EPR minimum requirements)"
+    - "Article 11 (recycling targets)"
+  answer: 2
+  explanation: "Article 8a, added by the 2018 amendment (Directive 2018/851/EC), sets minimum requirements for all EU EPR schemes including clear definition of responsibilities, reporting requirements, non-discriminatory market access, mandatory data provision, and eco-modulation of fees."

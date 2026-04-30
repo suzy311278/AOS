@@ -1,0 +1,26 @@
+- question: "A company focused on digital transformation wants to use 'AI & Sustainability' as their report theme. What is the main risk with this choice?"
+  options:
+    - "AI is not relevant to sustainability reporting"
+    - "The theme is too broad and will dilute the report's focus"
+    - "The theme is too specific and will feel forced in the Social and Governance chapters"
+    - "Rating agencies do not accept themed reports"
+  answer: 2
+  explanation: "A good theme must flow naturally through all three pillars - Environmental, Social, and Governance. 'AI & Sustainability' works well for the Environmental chapter but becomes contrived when forced into Social (diversity, community) and Governance (board oversight, ethics) discussions."
+
+- question: "When a client does not know what theme they want for their report, what is the recommended approach?"
+  options:
+    - "Ask the client to brainstorm themes with their leadership team and get back to you"
+    - "Skip the theme entirely and write a disclosure-focused report"
+    - "Present two to three theme options with rationale and sketches of how the report structure would reflect each"
+    - "Use the same theme as the company's closest industry peer"
+  answer: 2
+  explanation: "Clients react much better to choosing between concrete options than to generating ideas from scratch. Presenting two to three options - each with a brief rationale and a sketch of how chapter titles would reflect the theme - gets a decision quickly and collaboratively."
+
+- question: "When should the report theme be finalized in the project timeline?"
+  options:
+    - "After the first draft of all chapters is complete"
+    - "During or right after the blueprint stage, before writing begins"
+    - "At the design phase, when visual elements are being decided"
+    - "After the client reviews the full first draft and provides feedback"
+  answer: 1
+  explanation: "The theme influences chapter titles, sub-headings, the CEO Message, and the narrative arc. Setting it after writing has started means retrofitting existing chapters to fit the theme. The ideal sequence is: ToC agreed, blueprint shared, theme selected, then writing begins."

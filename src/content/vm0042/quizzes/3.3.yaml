@@ -1,0 +1,26 @@
+- question: "A farm in the baseline scenario applies 2 tonnes/ha of calcitic limestone annually. The project stops all liming. Using EF = 0.12 tC/t limestone and the 44/12 conversion, what is the annual CO₂ reduction from liming?"
+  options:
+  - "0.24 tCO₂/ha/yr"
+  - "0.44 tCO₂/ha/yr"
+  - "0.88 tCO₂/ha/yr"
+  - "1.20 tCO₂/ha/yr"
+  answer: 2
+  explanation: "CO₂ emissions from baseline liming = 2 t/ha × 0.12 tC/t × (44/12) = 2 × 0.44 = 0.88 tCO₂/ha/yr. Project applies no lime → 0 tCO₂/ha/yr. Reduction = 0.88 tCO₂/ha/yr."
+
+- question: "A project introduces a legume cover crop that fixes nitrogen from the atmosphere. How does this affect the GHG accounting?"
+  options:
+  - "It reduces N₂O because less synthetic fertilizer is needed"
+  - "It creates new N₂O project emissions from biological N fixation that must be counted"
+  - "It has no effect because N-fixing crops are carbon neutral"
+  - "It increases CH₄ emissions from the soil"
+  answer: 1
+  explanation: "When nitrogen-fixing species are present in the project scenario, their biological nitrogen fixation creates N₂O emissions that must be included as PROJECT emissions (per Table 3 of VM0042). This partially offsets the benefit from reduced synthetic fertilizer."
+
+- question: "Which principle requires you to calculate emissions for BOTH baseline AND project scenarios — even if project emissions are higher for some sources?"
+  options:
+  - "The conservativeness principle"
+  - "The full boundary accounting principle"
+  - "The de minimis rule"
+  - "The additionality test"
+  answer: 1
+  explanation: "VM0042 requires full boundary accounting — you calculate all included emission sources for both scenarios. If the project increases emissions for a particular source (e.g., more irrigation pumping), that must be counted as a project emission, reducing the net credit claim."

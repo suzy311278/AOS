@@ -1,0 +1,26 @@
+- question: "Which four inputs drive the selection of GRI indicators for a specific company's sustainability report?"
+  options:
+    - "Company size, geographic location, industry sector, and reporting budget"
+    - "Peer benchmarking results, past reports, industry relevance, and materiality assessment results"
+    - "Regulatory requirements, investor requests, board preferences, and competitor strategy"
+    - "GRI recommendations, SASB requirements, CSRD mandates, and CDP questionnaire topics"
+  answer: 1
+  explanation: "Indicator selection is driven by four concrete inputs: what peers report (benchmarking), what the company has reported before (past reports), what matters for the industry (industry relevance), and what the materiality assessment identified as priority topics."
+
+- question: "A company reported on GRI 303 (Water) last year but you want to drop it this year because data collection is difficult. What is the correct approach?"
+  options:
+    - "Drop it silently since the report structure is flexible year to year"
+    - "Drop it but include a brief explanation of why the scope changed in the 'About the Report' section"
+    - "Keep it and report estimated data instead"
+    - "Replace it with a different environmental indicator to maintain the same count"
+  answer: 1
+  explanation: "Dropping indicators without explanation looks like the company is backtracking and raises suspicion. If you remove a previously reported indicator, always explain the change in scope - a brief note in the 'About the Report' section is sufficient."
+
+- question: "Why is it important to get formal client sign-off on the indicator list before starting data collection?"
+  options:
+    - "It is a regulatory requirement under GRI Standards"
+    - "It prevents the client from later claiming they never agreed to report on certain topics, avoiding weeks of rework"
+    - "It allows you to bill for the indicator selection phase separately"
+    - "It is required for the report to qualify for third-party assurance"
+  answer: 1
+  explanation: "Getting sign-off is a practical safeguard. Without it, you risk collecting data the client never approved, which leads to rework. Worse, departments may complain that they were asked for data on topics that were never agreed upon."

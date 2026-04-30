@@ -1,0 +1,44 @@
+- question: "A bank makes a commercial real estate loan of €20 million on a building appraised at €60 million at origination. Five years later the building's market value is €80 million and the outstanding loan is €15 million. What attribution factor should be used?"
+  options:
+    - "€15M / €80M = 18.75% (current market value)"
+    - "€20M / €60M = 33.3% (original loan / origination value)"
+    - "€15M / €60M = 25.0% (current balance / origination value)"
+    - "€20M / €80M = 25.0% (original loan / current value)"
+  answer: 2
+  explanation: "For commercial real estate and mortgages, PCAF uses the property value at origination as the denominator, not the current market value. This is held constant over the life of the loan. The numerator is the current outstanding balance (€15M), not the original loan amount. Therefore: €15M / €60M = 25.0%. Using the current market value (€80M) would allow rising real estate prices to mechanically reduce reported financed emissions without any actual decarbonisation."
+
+- question: "Why does PCAF focus on the building's energy consumption rather than the tenants' business activities when calculating commercial real estate emissions?"
+  options:
+    - "Tenant emissions are already captured under the business loans asset class"
+    - "The building shell's Scope 1 (on-site fuel combustion) and Scope 2 (purchased electricity, heating, cooling) emissions are the financial institution's primary attribution point for CRE lending"
+    - "Tenant emissions are always immaterial compared to building energy use"
+    - "PCAF only covers emissions from property construction, not ongoing operations"
+  answer: 1
+  explanation: "CRE financed emissions are attributed based on the building's energy consumption (Scope 1 from on-site fuel and Scope 2 from purchased electricity, district heating/cooling). This 'building shell' approach focuses on what the bank directly finances — the physical structure — rather than the business activities of the companies operating inside it. Tenant business emissions would be double-counted if included, as they are captured in the tenants' own corporate GHG inventories."
+
+- question: "Which data source for CRE energy consumption receives the highest PCAF data quality score?"
+  options:
+    - "Statistical average energy intensity for the building type in that country"
+    - "Energy Performance Certificate (EPC) label rating plus floor area"
+    - "Actual energy consumption data from the building's utility bills, with supplier-specific emission factors"
+    - "Building type and location-specific regional statistical data plus floor area"
+  answer: 2
+  explanation: "PCAF Score 1 for CRE requires primary data on actual building energy consumption (from utility meters or building management systems) combined with supplier-specific emission factors. This is the most accurate approach because it reflects the building's actual energy use in the reporting year, not a theoretical or rated value. Score 3 uses EPC labels, Score 4 uses statistical data with floor area, and Score 5 uses statistical averages without floor area."
+
+- question: "For hotel properties in a CRE portfolio, which of the following best describes the emissions boundary under PCAF?"
+  options:
+    - "Only the structural shell; kitchen and laundry energy are excluded"
+    - "The hotel's total energy consumption from all operations, including HVAC, lighting, kitchen, laundry, and guest services"
+    - "Only Scope 3 emissions from guest travel to and from the hotel"
+    - "An estimate based on the number of rooms multiplied by a standardised rooms-per-night emission factor"
+  answer: 1
+  explanation: "For hotels, PCAF recommends using the hotel's total actual energy consumption across all operations — HVAC, lighting, kitchen, laundry, and guest services — because these are all part of the building's energy footprint that the financial institution is indirectly financing. The focus is on whole-building actual energy use where possible. A per-room statistical approach would receive a lower data quality score."
+
+- question: "What is the key advantage of using EPC (Energy Performance Certificate) data for a CRE financed emissions calculation?"
+  options:
+    - "EPC data provides actual real-time energy consumption directly from smart meters"
+    - "EPC ratings are mandatory in many jurisdictions, centrally registered, and allow energy intensity estimates from standardised floor area data when actual meter data is unavailable"
+    - "EPC data automatically includes Scope 3 emissions from tenant supply chains"
+    - "EPC data is only available for new buildings, ensuring accuracy for modern assets"
+  answer: 1
+  explanation: "EPC labels are mandatory for property sales and rentals in the EU, UK, and many other jurisdictions, meaning financial institutions often have access to this data through their loan origination records. They are centrally registered in government databases, provide standardised energy ratings, and can be combined with floor area data to estimate energy consumption when actual utility bills are unavailable. They produce a Score 3 calculation — better than statistical averages but below actual meter data."

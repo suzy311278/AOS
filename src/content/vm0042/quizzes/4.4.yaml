@@ -1,0 +1,26 @@
+- question: "Why does project scale (hectares) significantly affect financial viability of a VM0042 project?"
+  options:
+  - "Larger projects have better soil carbon potential per hectare"
+  - "Fixed costs (development, validation, verification) remain roughly constant regardless of scale, so per-hectare costs drop as area increases"
+  - "Verra charges higher fees for smaller projects"
+  - "Larger projects qualify for a higher carbon price"
+  answer: 1
+  explanation: "Project development ($50K–$200K), validation ($30K–$60K), and verification ($30K–$60K) are largely fixed costs. On 100 ha, these might cost $300/ha; on 10,000 ha, less than $3/ha. This is why larger scale is so important for financial viability."
+
+- question: "Which project type tends to generate the most VCUs per hectare per year?"
+  options:
+  - "No-till + cover crops in the US Midwest"
+  - "Conservation agriculture in East Africa"
+  - "Rice Alternate Wetting and Drying (AWD) in Southeast Asia"
+  - "Fertilizer optimisation in South Asia"
+  answer: 2
+  explanation: "Rice AWD generates 2–5 tCO₂e/ha/yr — significantly higher than other practice types — because continuous flooding produces large CH₄ emissions that AWD directly eliminates. This makes it one of the highest-impact and financially attractive VM0042 project types."
+
+- question: "What strategy allows smallholder farmers (with only 1–5 ha each) to participate in VM0042 projects despite the scale challenge?"
+  options:
+  - "Use Approach 3 only (no soil sampling)"
+  - "Group projects that aggregate hundreds or thousands of smallholders under one project entity"
+  - "Apply for a methodology deviation to reduce monitoring requirements"
+  - "Limit the project to 1 year to minimize costs"
+  answer: 1
+  explanation: "VM0042 explicitly supports grouped projects, where an aggregator organises hundreds or thousands of smallholders under a single project. This spreads fixed development and monitoring costs across the total area, making per-hectare economics viable even for small individual farms."

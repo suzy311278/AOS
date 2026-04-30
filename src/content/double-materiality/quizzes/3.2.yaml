@@ -1,0 +1,26 @@
+- question: "What is the purpose of Step B in the EFRAG IG1 materiality assessment process?"
+  options:
+    - "To apply severity and likelihood criteria to determine which impacts are material"
+    - "To compile a comprehensive long list of all actual and potential IROs related to sustainability matters across own operations and value chain"
+    - "To prepare the ESRS 2 IRO-1 and SBM-3 disclosures"
+    - "To consolidate the results of impact and financial materiality assessments"
+  answer: 1
+  explanation: "EFRAG IG1 paragraph 73 states that in Step B, the undertaking identifies the actual and potential IROs relating to environmental, social and governance matters across its own operations and upstream and downstream value chain. The outcome is a long list for further assessment in subsequent steps."
+
+- question: "What are the two sources of the IRO universe identified in Step B?"
+  options:
+    - "The undertaking's financial statements and its prior year sustainability report"
+    - "The ESRS 1 AR16 list of sustainability matters, and entity-specific identification from internal processes and external sources"
+    - "External audit findings and management self-assessment"
+    - "Stakeholder surveys and competitor benchmarking only"
+  answer: 1
+  explanation: "EFRAG IG1 paragraph 74 states the undertaking should use the list of sustainability matters in ESRS 1 paragraph AR16 to ensure completeness, and paragraph 77 explains this is complemented with entity-specific matters from internal processes such as due diligence and risk management, or from external sources."
+
+- question: "Step B requires identifying risks and opportunities that do not derive from impacts. Which of the following is an example of such a risk given in EFRAG IG1?"
+  options:
+    - "Reputational damage from a product defect in the undertaking's own operations"
+    - "An organic agriculture undertaking facing financial risk because pollinators in the local area are declining due to pesticide use by other agricultural businesses"
+    - "Increased cost of goods sold due to wage inflation in the undertaking's own factories"
+    - "A risk from a customer dispute over product quality"
+  answer: 1
+  explanation: "EFRAG IG1 paragraph 38(a) gives this exact example: an undertaking active in organic agriculture depends on pollinators, and the number of pollinators is decreasing due to pesticide use by other agricultural entities locally. This is a dependency-based financial risk that arises independently of any impact the undertaking itself has."

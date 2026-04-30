@@ -1,0 +1,26 @@
+- question: "Which country launched a national ETS directly motivated in significant part by its exposure to EU CBAM costs in the steel and cement sectors?"
+  options:
+    - "Japan"
+    - "Brazil"
+    - "Turkey"
+    - "Indonesia"
+  answer: 2
+  explanation: "Turkey is one of the countries most directly exposed to CBAM given its large steel, aluminium, and cement export volumes to the EU. Turkey launched a national ETS in pilot phase, with the steel and cement sectors among the primary motivations being CBAM exposure. A Turkish ETS would allow Turkish exporters to claim the Article 9 deduction under CBAM, reducing their certificate surrender obligation for EU-bound exports."
+
+- question: "Why does the US not currently have a CBAM-equivalent measure, and what instruments has it used instead to address carbon competitiveness concerns?"
+  options:
+    - "The US has implemented a comprehensive federal carbon tax that eliminates the need for a border adjustment"
+    - "WTO membership prevents the US from implementing any form of carbon border measure"
+    - "The US lacks a federal carbon price and has used trade instruments such as Section 232 tariffs and IRA manufacturing incentives instead"
+    - "The US relies entirely on state-level carbon pricing in California and the RGGI states to address competitiveness"
+  answer: 2
+  explanation: "The US does not have a federal carbon price and therefore lacks the core justification for a border carbon adjustment (equalising the cost between domestic and imported goods). Congress has debated CBAM-style proposals (including the Clean Competition Act) but has not enacted them. Instead, the US has used Section 232 tariffs on steel and aluminium for national security reasons and the Inflation Reduction Act's clean manufacturing incentives to address related competitiveness concerns."
+
+- question: "What is the main risk of a proliferation of different national carbon border adjustment mechanisms without international coordination?"
+  options:
+    - "That carbon prices globally will fall because exporters shift to low-carbon production, reducing demand for CBAM certificates"
+    - "That companies with cross-jurisdictional supply chains will face incompatible compliance requirements, different sector coverages, different emission accounting methodologies, and different deduction rules"
+    - "That the EU will be required by the WTO to harmonise its CBAM with other countries' systems before 2030"
+    - "That non-EU countries will ban imports of EU goods in retaliation, eliminating CBAM's trade impact"
+  answer: 1
+  explanation: "The main fragmentation risk from multiple uncoordinated national CBAM-style measures is the compliance complexity imposed on companies operating across multiple markets. If the EU, UK, Canada, and potentially the US each design their own carbon border measures with different sector coverage, emission accounting rules, and deduction criteria, a single exporter shipping to multiple markets could face four separate, incompatible compliance regimes. This complexity could itself become a trade barrier beyond the intended carbon cost signal."

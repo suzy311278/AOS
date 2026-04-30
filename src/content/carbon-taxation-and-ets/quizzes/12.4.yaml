@@ -1,0 +1,44 @@
+- question: "What should a recommendation paper include?"
+  options:
+    - "Only background information"
+    - "Purpose, background, clear recommendation, analysis summary, stakeholder views, implementation plan, risks, and next steps"
+    - "Just the recommendation"
+    - "Everything the analyst knows"
+  answer: 1
+  explanation: "A good recommendation paper provides decision-makers with context, a clear recommendation, supporting analysis, stakeholder perspectives, implementation approach, risk assessment, and next steps."
+
+- question: "How should the recommendation be stated?"
+  options:
+    - "Vaguely and at the end"
+    - "Specifically, actionably, and early in the document"
+    - "Hidden in footnotes"
+    - "Implied but not stated"
+  answer: 1
+  explanation: "The recommendation should be specific (exactly what is proposed), actionable (what should be done), and stated early so decision-makers know immediately what is being asked."
+
+- question: "Why should opposing views be addressed in a recommendation paper?"
+  options:
+    - "They should be ignored"
+    - "Decision-makers will hear from opponents, so proactively addressing concerns builds credibility"
+    - "To make the paper longer"
+    - "Opposing views do not exist"
+  answer: 1
+  explanation: "Fairly presenting and responding to opposing views demonstrates thoroughness, builds credibility, and prepares decision-makers for the arguments they will hear from stakeholders."
+
+- question: "What is a common mistake in writing recommendation papers?"
+  options:
+    - "Being too clear"
+    - "Burying the recommendation after pages of background"
+    - "Including next steps"
+    - "Being concise"
+  answer: 1
+  explanation: "A common mistake is placing the recommendation at the end after extensive background. Decision-makers need to know the ask upfront, with supporting detail following."
+
+- question: "Why is an implementation section important?"
+  options:
+    - "Implementation is automatic"
+    - "Shows the recommendation is practical with a clear path forward"
+    - "To fill pages"
+    - "Implementation never matters"
+  answer: 1
+  explanation: "The implementation section demonstrates that the recommendation is realistic and achievable, outlining timeline, legal requirements, capacity needs, and key milestones."

@@ -1,0 +1,44 @@
+- question: "How many chapters and annexes does the SFDR RTS (Commission Delegated Regulation 2022/1288) contain?"
+  options:
+    - "3 chapters and 3 annexes"
+    - "7 chapters and 9 annexes"
+    - "5 chapters and 5 annexes"
+    - "10 chapters and 12 annexes"
+  answer: 1
+  explanation: "The RTS contains seven chapters (Definitions and General Provisions; Sustainability Risk Integration; PAI; Website Disclosures; Pre-Contractual Disclosures; Periodic Reports; Final Provisions) and nine annexes containing the standardised disclosure templates (Annex I: PAI indicator tables; Annexes II-V: pre-contractual templates; Annexes VI-IX: periodic report templates)."
+
+- question: "From which date did the RTS provisions (Level 2 requirements, including standardised disclosure templates) become mandatory?"
+  options:
+    - "10 March 2021"
+    - "25 July 2022"
+    - "1 January 2023"
+    - "30 June 2023"
+  answer: 2
+  explanation: "The RTS (Commission Delegated Regulation 2022/1288) applied from 1 January 2023. Before this date, firms had to comply with the high-level Level 1 SFDR obligations but could use their own formats for disclosures. From 1 January 2023, the standardised RTS Annex templates became mandatory for pre-contractual and periodic disclosures."
+
+- question: "What is defined in Article 1 of the RTS as 'enterprise value' for PAI indicator purposes?"
+  options:
+    - "Revenue multiplied by the sector price-to-earnings multiple"
+    - "Market capitalisation of ordinary shares + preferred shares + book value of total debt + non-controlling interests, at fiscal year-end, without deducting cash or cash equivalents"
+    - "Net asset value of the investee company's portfolio"
+    - "The investee company's market capitalisation alone"
+  answer: 1
+  explanation: "Article 1 of the RTS precisely defines enterprise value for PAI purposes as: market capitalisation of ordinary shares + market capitalisation of preferred shares + book value of total debt + non-controlling interests — measured at fiscal year-end, without deducting cash or cash equivalents. This definition is used in the denominator of several PAI indicator formulas."
+
+- question: "What is the three-layer disclosure architecture created by the RTS for Article 8 and 9 products?"
+  options:
+    - "Application form, investment mandate, annual report"
+    - "Pre-contractual document (concise), website disclosure (expanded), periodic report (actual results) — all mutually consistent"
+    - "Marketing material, legal prospectus, regulatory filing"
+    - "Entity-level statement, product-level statement, investor-specific report"
+  answer: 1
+  explanation: "The RTS creates a three-layer architecture: (1) pre-contractual document using standardised Annex templates — provided before the investment decision, concise; (2) website disclosure — expanded information on methodology, data sources, and strategy, linked via hyperlink from the pre-contractual document; (3) periodic report using standardised Annex templates — actual results vs commitments, provided annually. All three layers must be internally consistent."
+
+- question: "What does the RTS Article 2 general principle require for all website disclosures?"
+  options:
+    - "Website disclosures must be filed with the NCA and published simultaneously"
+    - "Website information must be accurate, fair, clear, not misleading, simple, and concise; revisions must clearly explain what changed and when"
+    - "Website disclosures must be translated into all EU languages within 30 days of publication"
+    - "Website disclosures for Article 9 products must be independently verified by an auditor"
+  answer: 1
+  explanation: "RTS Article 2 sets out the overarching quality principle for website disclosures: information must be accurate, fair, clear, not misleading, simple, and concise. Changes to website disclosures must be clearly explained, including the date of the change and a description of what was revised. This principle applies across all entity-level and product-level website disclosures."

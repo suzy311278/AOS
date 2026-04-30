@@ -1,0 +1,26 @@
+- question: "According to EFRAG IG1, where do material risks and opportunities for an undertaking generally come from?"
+  options:
+    - "Only from the undertaking's own operational decisions"
+    - "From impacts and dependencies"
+    - "Exclusively from changes in financial market conditions"
+    - "Only from regulatory requirements imposed by governments"
+  answer: 1
+  explanation: "EFRAG IG1 paragraph 35 states that material risks and opportunities generally derive from impacts and dependencies."
+
+- question: "ESRS 1 paragraph 40 requires an undertaking to consider its dependencies on natural, human, and social resources. What does this mean in practice?"
+  options:
+    - "The undertaking must only consider resources it directly owns or controls"
+    - "The undertaking considers how it is affected by those dependencies regardless of whether it has potential impacts on those resources"
+    - "The undertaking only considers dependencies if it has already caused damage to those resources"
+    - "The undertaking considers dependencies only when preparing financial statements"
+  answer: 1
+  explanation: "ESRS 1 paragraph 40 states that the undertaking shall consider how it is affected by its dependencies on the availability of natural, human and social resources at appropriate prices and quality, irrespective of its potential impacts on those resources."
+
+- question: "How is the materiality of risks and opportunities assessed under ESRS 1?"
+  options:
+    - "Based solely on whether the risk has already caused a financial loss"
+    - "Based on a combination of the likelihood of occurrence and the potential magnitude of financial effects"
+    - "Based only on expert opinion from the undertaking's auditors"
+    - "Based solely on the severity of related environmental impacts"
+  answer: 1
+  explanation: "ESRS 1 paragraph 51 states that the materiality of risks and opportunities is assessed based on a combination of the likelihood of occurrence and the potential magnitude of the financial effects."

@@ -1,0 +1,26 @@
+- question: "Which three factors determine the severity of a negative impact under ESRS 1?"
+  options:
+    - "Frequency, duration, and reversibility"
+    - "Scale, scope, and irremediable character"
+    - "Likelihood, magnitude, and timeframe"
+    - "Size, probability, and financial cost"
+  answer: 1
+  explanation: "Severity is based on three factors: scale (how grave the negative impact is), scope (how widespread the impacts are), and irremediable character (whether and to what extent the negative impact could be remediated). (ESRS 1 Appendix A, AR 10; EFRAG IG1, paragraph 115)"
+
+- question: "To which type of impact does the 'likelihood' criterion apply in the impact materiality assessment?"
+  options:
+    - "Actual impacts only"
+    - "Both actual and potential impacts equally"
+    - "Potential impacts only"
+    - "Positive impacts only"
+  answer: 2
+  explanation: "Likelihood applies only to potential impacts, not to actual ones. An actual impact is already occurring, so there is no probability to estimate. For potential impacts (both negative and positive), likelihood must be considered because the impact has not yet materialised. (ESRS 1, paragraphs 45-46)"
+
+- question: "Under ESRS 1, how is a potential negative human rights impact treated compared to other potential negative impacts?"
+  options:
+    - "It is treated the same as any other potential negative impact: both severity and likelihood are considered equally"
+    - "It requires a lower severity threshold than other impacts"
+    - "The severity of the impact takes precedence over its likelihood"
+    - "Human rights impacts are only assessed using the scope factor"
+  answer: 2
+  explanation: "In the case of a potential negative human rights impact, the severity of the impact takes precedence over its likelihood. This reflects the seriousness with which potential human rights harms must be treated, even when they are not yet certain to occur. (ESRS 1, paragraph 45; ESRS 1 Appendix A, AR 11)"

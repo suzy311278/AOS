@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Inclusive Career Hub | Greentryst Sustainability Academy</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style type="text/tailwindcss">
+        :root {--forest-green: #2d4f43;
+            --soft-green: #3d6b5b;
+            --pale-moss: #f2f5f1;
+            --earthy-grey: #6b7280;
+            --earthy-bg: #f9faf9;
+            --warm-grey-text: #4b5563;
+            --accent-green-light: #ecf3f0;
+        }
+        @layer base {
+            body {
+                @apply bg-[var(--earthy-bg)] text-[var(--warm-grey-text)] font-body antialiased;
+            }
+            h1, h2, h3, h4 {
+                @apply font-headline text-[var(--forest-green)];
+            }
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .wobbly-line {
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            fill: none;
+            stroke-width: 3;
+        }
+        .jobs-table tr {
+            @apply border-b border-gray-100 transition-all duration-200;
+        }
+        .jobs-table tr:hover {
+            @apply bg-[var(--accent-green-light)];
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2d4f43","primary-hover": "#3d6b5b",
+                        "secondary": "#6b7280","surface": "#ffffff",
+                        "background": "#f9faf9",
+                    },
+                    fontFamily: {
+                        "headline": ["Manrope", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "mono": ["JetBrains Mono", "monospace"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "0.75rem", "xl": "1rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="selection:bg-primary/10 selection:text-primary">
+<header class="bg-white/90 backdrop-blur-md border-b border-gray-100 sticky top-0 z-50">
+<div class="flex justify-between items-center px-6 py-5 max-w-[750px] mx-auto">
+<div class="text-xl font-extrabold tracking-tight text-primary">Greentryst Academy</div>
+<nav class="hidden md:flex items-center space-x-8">
+<a class="text-primary border-b-2 border-primary pb-1 font-semibold text-sm" href="#">Career Hub</a>
+<a class="text-secondary hover:text-primary transition-colors duration-200 text-sm font-medium" href="#">Mentorship</a>
+<a class="text-secondary hover:text-primary transition-colors duration-200 text-sm font-medium" href="#">Resources</a>
+</nav>
+<div class="flex items-center">
+<span class="material-symbols-outlined text-primary cursor-pointer hover:opacity-80" data-icon="account_circle">account_circle</span>
+</div>
+</div>
+</header>
+<main class="max-w-[750px] mx-auto px-6 py-12 space-y-16">
+<section class="space-y-6">
+<div class="space-y-2">
+<span class="text-xs font-bold uppercase tracking-widest text-secondary">Inclusive Career Hub</span>
+<h1 class="text-4xl font-extrabold tracking-tight leading-tight">SOC Stock Formula</h1>
+<p class="text-lg text-secondary/90 leading-relaxed">Mastering soil organic carbon calculations for environmental verification roles.</p>
+</div>
+<div class="flex flex-wrap items-center gap-3 p-8 bg-white rounded-2xl shadow-sm border border-gray-100 text-lg font-semibold">
+<span class="px-5 py-2 bg-blue-50 text-blue-700 rounded-full border border-blue-100/50">SOC Stock</span>
+<span class="text-gray-300">=</span>
+<span class="px-5 py-2 bg-emerald-50 text-emerald-700 rounded-full border border-emerald-100/50">OC</span>
+<span class="text-gray-300">×</span>
+<span class="px-5 py-2 bg-amber-50 text-amber-700 rounded-full border border-amber-100/50">BD</span>
+<span class="text-gray-300">×</span>
+<span class="px-5 py-2 bg-violet-50 text-violet-700 rounded-full border border-violet-100/50">D</span>
+<span class="text-gray-300">×</span>
+<span class="px-5 py-2 bg-rose-50 text-rose-700 rounded-full border border-rose-100/50">0.1</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+<div class="p-6 bg-white rounded-xl border border-gray-100 hover:border-emerald-200 transition-colors group">
+<div class="flex items-center gap-3 mb-3 text-emerald-800 font-bold">
+<span class="material-symbols-outlined text-emerald-500" data-icon="experiment">experiment</span>
+<span class="text-lg">OC (Organic Carbon)</span>
+</div>
+<p class="text-secondary text-sm leading-relaxed">The concentration of organic carbon in the soil sample, typically expressed in g/kg or percentage.</p>
+</div>
+<div class="p-6 bg-white rounded-xl border border-gray-100 hover:border-amber-200 transition-colors">
+<div class="flex items-center gap-3 mb-3 text-amber-800 font-bold">
+<span class="material-symbols-outlined text-amber-500" data-icon="layers">layers</span>
+<span class="text-lg">BD (Bulk Density)</span>
+</div>
+<p class="text-secondary text-sm leading-relaxed">The dry weight of soil per unit volume (g/cm³). Critical for converting concentration to mass.</p>
+</div>
+<div class="p-6 bg-white rounded-xl border border-gray-100 hover:border-violet-200 transition-colors">
+<div class="flex items-center gap-3 mb-3 text-violet-800 font-bold">
+<span class="material-symbols-outlined text-violet-500" data-icon="straighten">straighten</span>
+<span class="text-lg">D (Depth)</span>
+</div>
+<p class="text-secondary text-sm leading-relaxed">The thickness of the soil layer being measured (cm). Standard depths are 0-30cm or 0-100cm.</p>
+</div>
+<div class="p-6 bg-white rounded-xl border border-gray-100 hover:border-rose-200 transition-colors">
+<div class="flex items-center gap-3 mb-3 text-rose-800 font-bold">
+<span class="material-symbols-outlined text-rose-500" data-icon="calculate">calculate</span>
+<span class="text-lg">0.1 (Conversion)</span>
+</div>
+<p class="text-secondary text-sm leading-relaxed">A mathematical constant used to convert the final units into tonnes of Carbon per hectare (tC/ha).</p>
+</div>
+</div>
+</section>
+<section>
+<div class="bg-primary p-10 rounded-2xl shadow-lg overflow-x-auto border-4 border-white/10">
+<code class="font-mono text-white text-xl whitespace-nowrap block text-center">
+                SOC stock = 18 g/kg x 1.35 g/cm³ x 30 cm x 0.1 = <span class="text-emerald-300 font-bold underline decoration-emerald-500/30 underline-offset-8">72.9 tC/ha</span>
+</code>
+</div>
+</section>
+<section class="space-y-6">
+<h2 class="text-2xl font-bold">The Career Path Pipeline</h2>
+<div class="flex flex-col md:flex-row items-center justify-between gap-6 p-8 bg-white border border-gray-100 rounded-2xl shadow-sm">
+<div class="flex flex-col items-center text-center w-full md:w-1/4 group">
+<div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-4 border border-blue-100 transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-2xl" data-icon="grid_view">grid_view</span>
+</div>
+<div class="text-sm font-semibold text-primary">Collect Samples</div>
+</div>
+<div class="hidden md:block text-gray-200">
+<span class="material-symbols-outlined" data-icon="trending_flat">trending_flat</span>
+</div>
+<div class="flex flex-col items-center text-center w-full md:w-1/4 group">
+<div class="w-14 h-14 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center mb-4 border border-emerald-100 transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-2xl" data-icon="science">science</span>
+</div>
+<div class="text-sm font-semibold text-primary">Lab Analysis</div>
+</div>
+<div class="hidden md:block text-gray-200">
+<span class="material-symbols-outlined" data-icon="trending_flat">trending_flat</span>
+</div>
+<div class="flex flex-col items-center text-center w-full md:w-1/4 group">
+<div class="w-14 h-14 bg-amber-50 text-amber-600 rounded-2xl flex items-center justify-center mb-4 border border-amber-100 transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-2xl" data-icon="functions">functions</span>
+</div>
+<div class="text-sm font-semibold text-primary">Calculate Stock</div>
+</div>
+<div class="hidden md:block text-gray-200">
+<span class="material-symbols-outlined" data-icon="trending_flat">trending_flat</span>
+</div>
+<div class="flex flex-col items-center text-center w-full md:w-1/4 group">
+<div class="w-14 h-14 bg-violet-50 text-violet-600 rounded-2xl flex items-center justify-center mb-4 border border-violet-100 transition-transform group-hover:scale-105">
+<span class="material-symbols-outlined text-2xl" data-icon="percent">percent</span>
+</div>
+<div class="text-sm font-semibold text-primary">Apply Deductions</div>
+</div>
+</div>
+</section>
+<section class="space-y-6">
+<h2 class="text-2xl font-bold">Detailed Variable Directory</h2>
+<div class="overflow-hidden rounded-2xl bg-white border border-gray-100 shadow-sm">
+<table class="w-full text-left border-collapse jobs-table">
+<thead>
+<tr class="bg-[var(--pale-moss)] text-primary">
+<th class="px-8 py-5 font-bold text-sm uppercase tracking-wider">Variable</th>
+<th class="px-8 py-5 font-bold text-sm uppercase tracking-wider">Description</th>
+<th class="px-8 py-5 font-bold text-sm uppercase tracking-wider">Standard Method</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-gray-50">
+<tr>
+<td class="px-8 py-7">
+<span class="font-mono font-bold text-primary text-base px-3 py-1 bg-emerald-50 rounded">OC</span>
+</td>
+<td class="px-8 py-7">
+<div class="font-semibold text-primary text-lg">Organic Carbon Concentration</div>
+<div class="text-secondary text-sm mt-1">Core metric for soil health assessment</div>
+</td>
+<td class="px-8 py-7 text-sm italic text-secondary">Dry Combustion (Dumas) method</td>
+</tr>
+<tr>
+<td class="px-8 py-7">
+<span class="font-mono font-bold text-primary text-base px-3 py-1 bg-amber-50 rounded">BD</span>
+</td>
+<td class="px-8 py-7">
+<div class="font-semibold text-primary text-lg">Bulk Density</div>
+<div class="text-secondary text-sm mt-1">Required for mass conversion</div>
+</td>
+<td class="px-8 py-7 text-sm italic text-secondary">Cylindrical core sampling</td>
+</tr>
+<tr>
+<td class="px-8 py-7">
+<span class="font-mono font-bold text-primary text-base px-3 py-1 bg-violet-50 rounded">D</span>
+</td>
+<td class="px-8 py-7">
+<div class="font-semibold text-primary text-lg">Sampling Depth</div>
+<div class="text-secondary text-sm mt-1">Defines the vertical boundary</div>
+</td>
+<td class="px-8 py-7 text-sm italic text-secondary">Standardized soil auger</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<div class="space-y-8">
+<section class="p-8 bg-white border-l-4 border-emerald-600 rounded-r-2xl shadow-sm">
+<h3 class="font-headline text-xl font-bold text-emerald-900 mb-3 flex items-center gap-2">
+<span class="material-symbols-outlined text-emerald-600">tips_and_updates</span>
+                Key Takeaway
+            </h3>
+<p class="text-secondary leading-relaxed font-medium">
+                Small changes in Organic Carbon (OC) or Bulk Density (BD) can lead to massive differences in total carbon stocks when scaled to the hectare level. Accurate lab testing is non-negotiable for project verification.
+            </p>
+</section>
+<section class="p-8 bg-white border-l-4 border-blue-600 rounded-r-2xl shadow-sm">
+<h3 class="font-headline text-xl font-bold text-blue-900 mb-3 flex items-center gap-2">
+<span class="material-symbols-outlined text-blue-600">psychology</span>
+                Analogy: Roads to the same destination
+            </h3>
+<p class="text-secondary leading-relaxed font-medium">
+                Think of SOC stock as the total volume of traffic on a highway. The OC is the percentage of electric vehicles, while BD is the total number of lanes. You need both numbers to understand the true impact on emissions.
+            </p>
+</section>
+<section class="p-8 bg-white border-l-4 border-amber-600 rounded-r-2xl shadow-sm space-y-4">
+<h3 class="font-headline text-xl font-bold text-amber-900 mb-2 flex items-center gap-2">
+<span class="material-symbols-outlined text-amber-600">calculate</span>
+                Worked Example:
+            </h3>
+<div class="text-secondary space-y-4">
+<p class="font-medium">Imagine a degraded pasture in Brazil being restored through silvopasture:</p>
+<ul class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+<li class="bg-amber-50/30 p-3 rounded-lg border border-amber-100/50">
+<span class="block text-xs font-bold uppercase text-amber-800">Initial OC</span>
+<span class="text-lg font-bold">12 g/kg</span>
+</li>
+<li class="bg-amber-50/30 p-3 rounded-lg border border-amber-100/50">
+<span class="block text-xs font-bold uppercase text-amber-800">Bulk Density</span>
+<span class="text-lg font-bold">1.45 g/cm³</span>
+</li>
+<li class="bg-amber-50/30 p-3 rounded-lg border border-amber-100/50">
+<span class="block text-xs font-bold uppercase text-amber-800">Sampling Depth</span>
+<span class="text-lg font-bold">30 cm</span>
+</li>
+</ul>
+<div class="p-5 bg-primary/5 rounded-xl border border-primary/10">
+<p class="font-mono text-primary font-bold text-lg">Calculation: 12 x 1.45 x 30 x 0.1 = 52.2 tC/ha</p>
+</div>
+<p class="text-sm italic text-amber-800 font-medium">Note: After 5 years of restoration, if OC rises to 15 g/kg, the stock becomes 65.25 tC/ha.</p>
+</div>
+</section>
+</div>
+<section class="border border-gray-100 rounded-2xl overflow-hidden bg-white shadow-sm">
+<button class="w-full flex justify-between items-center p-8 text-left hover:bg-[var(--accent-green-light)] transition-colors group">
+<div class="flex items-center gap-4">
+<span class="w-10 h-10 bg-primary/10 text-primary rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined">help</span>
+</span>
+<span class="font-bold text-primary text-lg">Want to go deeper? Why stratified random sampling?</span>
+</div>
+<span class="material-symbols-outlined text-secondary group-hover:text-primary transition-transform duration-300" data-icon="expand_more">expand_more</span>
+</button>
+<div class="px-8 pb-10 pt-2 space-y-6">
+<p class="text-secondary leading-relaxed text-lg">Soil isn't uniform. Topography, vegetation, and history create "patches" of carbon. Stratified sampling ensures we don't overestimate based on one fertile spot.</p>
+<ol class="space-y-4">
+<li class="flex gap-4">
+<span class="flex-none w-8 h-8 rounded-full bg-primary/5 text-primary flex items-center justify-center font-bold">1</span>
+<p class="text-secondary font-medium">Divide the project area into "strata" based on soil type or land use.</p>
+</li>
+<li class="flex gap-4">
+<span class="flex-none w-8 h-8 rounded-full bg-primary/5 text-primary flex items-center justify-center font-bold">2</span>
+<p class="text-secondary font-medium">Assign a number of sample plots proportional to the area of each stratum.</p>
+</li>
+<li class="flex gap-4">
+<span class="flex-none w-8 h-8 rounded-full bg-primary/5 text-primary flex items-center justify-center font-bold">3</span>
+<p class="text-secondary font-medium">Randomly locate plots within each stratum to avoid bias.</p>
+</li>
+</ol>
+</div>
+</section>
+<section class="space-y-8 bg-white p-10 rounded-2xl border border-gray-100 shadow-sm">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+<h2 class="text-2xl font-bold">Projected Global Warming Under SSP Scenarios</h2>
+<div class="flex flex-wrap gap-4 text-xs font-bold uppercase tracking-widest text-secondary">
+<div class="flex items-center gap-2"><span class="w-3 h-3 bg-red-500 rounded-full"></span> SSP5-8.5</div>
+<div class="flex items-center gap-2"><span class="w-3 h-3 bg-emerald-500 rounded-full"></span> SSP1-1.9</div>
+</div>
+</div>
+<div class="aspect-[21/9] flex items-end relative overflow-hidden bg-gray-50/50 rounded-xl p-6">
+<svg class="w-full h-full" viewBox="0 0 800 400">
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="750" y1="350" y2="350"></line>
+<line stroke="#e5e7eb" stroke-width="1" x1="50" x2="50" y1="50" y2="350"></line>
+<text fill="#9ca3af" font-family="Inter" font-size="12" x="50" y="375">2020</text>
+<text fill="#9ca3af" font-family="Inter" font-size="12" text-anchor="end" x="750" y="375">2100</text>
+<text fill="#9ca3af" font-family="Inter" font-size="12" transform="rotate(-90, 25, 350)" x="25" y="350">1.1°C</text>
+<text fill="#9ca3af" font-family="Inter" font-size="12" transform="rotate(-90, 25, 50)" x="25" y="50">5.0°C</text>
+<path class="wobbly-line stroke-red-500" d="M 50 320 Q 200 300 350 200 T 750 50"></path>
+<path class="wobbly-line stroke-orange-500" d="M 50 320 Q 250 310 400 230 T 750 100"></path>
+<path class="wobbly-line stroke-yellow-500" d="M 50 320 Q 300 320 450 280 T 750 180"></path>
+<path class="wobbly-line stroke-blue-500" d="M 50 320 Q 350 340 500 330 T 750 250"></path>
+<path class="wobbly-line stroke-emerald-500" d="M 50 320 Q 400 350 550 345 T 750 330"></path>
+</svg>
+</div>
+<p class="text-sm text-secondary italic text-center">Hand-sketched projection of relative warming scenarios based on IPCC AR6 data.</p>
+</section>
+<section class="p-10 bg-violet-50/30 rounded-3xl border border-violet-100 shadow-sm space-y-8">
+<div class="flex items-center gap-4">
+<span class="w-12 h-12 bg-violet-600 text-white rounded-xl flex items-center justify-center shadow-lg shadow-violet-200">
+<span class="material-symbols-outlined text-2xl" data-icon="quiz">quiz</span>
+</span>
+<h3 class="text-2xl font-bold text-violet-900">Knowledge Check</h3>
+</div>
+<p class="text-violet-900 text-xl font-semibold leading-relaxed">A project avoids 10 tonnes of CH4. What is the CO2e equivalent?</p>
+<div class="space-y-6">
+<div class="relative max-w-sm">
+<input class="w-full bg-white border-violet-200 rounded-xl p-5 pr-24 text-2xl font-bold text-violet-900 focus:ring-4 focus:ring-violet-200 focus:border-violet-400 transition-all placeholder:text-violet-100" placeholder="0.0" type="number"/>
+<span class="absolute right-6 top-1/2 -translate-y-1/2 font-bold text-violet-300 text-lg uppercase tracking-wider">tCO2e</span>
+</div>
+<div class="flex flex-wrap gap-3">
+<button class="px-5 py-2.5 text-sm font-bold text-violet-700 bg-white border border-violet-100 hover:bg-violet-50 rounded-lg transition-colors">Hint 1: GWP of Methane</button>
+<button class="px-5 py-2.5 text-sm font-bold text-violet-700 bg-white border border-violet-100 hover:bg-violet-50 rounded-lg transition-colors">Hint 2: Multiply</button>
+</div>
+<button class="w-full md:w-auto px-16 py-5 bg-primary text-white font-extrabold text-lg rounded-xl hover:bg-primary-hover hover:-translate-y-0.5 transition-all shadow-lg active:translate-y-0 active:shadow-md">
+                Check Answer
+            </button>
+</div>
+</section>
+</main>
+<footer class="bg-white border-t border-gray-100 mt-20">
+<div class="flex flex-col md:flex-row justify-between items-center py-12 px-6 max-w-[750px] mx-auto space-y-6 md:space-y-0 text-sm">
+<div class="font-headline font-bold text-primary">Greentryst Academy</div>
+<div class="flex space-x-8">
+<a class="text-secondary hover:text-primary transition-colors font-medium" href="#">Privacy</a>
+<a class="text-secondary hover:text-primary transition-colors font-medium" href="#">Terms</a>
+<a class="text-secondary hover:text-primary transition-colors font-medium" href="#">Support</a>
+</div>
+<div class="text-secondary font-medium">© 2024 Greentryst Sustainability Academy</div>
+</div>
+</footer>
+
+</body></html>

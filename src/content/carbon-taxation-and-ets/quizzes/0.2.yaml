@@ -1,0 +1,35 @@
+- question: "What is the main advantage of a carbon tax in terms of price certainty?"
+  options:
+    - "Businesses know the carbon price in advance"
+    - "The government can change the rate daily"
+    - "Emissions are guaranteed to fall"
+    - "Revenue is completely predictable"
+  answer: 0
+  explanation: "A carbon tax provides price certainty because the tax rate is set in advance and known to businesses, helping them plan investments and operations."
+
+- question: "In an emissions trading system (ETS), what determines the carbon price?"
+  options:
+    - "The government sets the price administratively"
+    - "International carbon markets set a global price"
+    - "Supply and demand in the allowance market"
+    - "The average cost of renewable energy"
+  answer: 2
+  explanation: "In an ETS, the price is determined by market forces - the supply of allowances (set by the cap) and demand from entities that need to cover their emissions."
+
+- question: "What is 'environmental certainty' in the context of carbon pricing?"
+  options:
+    - "Knowing exactly when climate goals will be met"
+    - "Knowing the quantity of emissions that will result"
+    - "Guaranteeing no environmental disasters"
+    - "Ensuring all countries price carbon"
+  answer: 1
+  explanation: "Environmental certainty refers to knowing the emissions outcome. An ETS provides this by setting a firm cap, while a carbon tax provides price certainty but emissions depend on response."
+
+- question: "Which instrument provides better revenue predictability?"
+  options:
+    - "Carbon tax"
+    - "Emissions trading system"
+    - "Both provide equal predictability"
+    - "Neither provides predictable revenue"
+  answer: 0
+  explanation: "Carbon taxes provide more predictable revenue because the rate is known and emissions change gradually. ETS revenue depends on allowance prices, which can be volatile."

@@ -1,0 +1,26 @@
+- question: "According to Morningstar Sustainalytics projections, what is the expected proportion of EU AUM in non-categorized (Article 6a) status under SFDR 2.0?"
+  options:
+  - "Approximately 15%-25% of EU AUM"
+  - "Approximately 30%-40% of EU AUM"
+  - "Approximately 52%-70% of EU AUM"
+  - "Approximately 75%-85% of EU AUM"
+  answer: 2
+  explanation: "Sustainalytics projects that 52%-70% of EU AUM will end up non-categorized (Article 6a) under SFDR 2.0, a significant increase from the current approximately 41% in Article 6. This is driven by many current Article 8 funds being unable to meet the new 70% portfolio threshold or mandatory exclusion requirements. For context, current Article 8 funds hold approximately 56% of EU AUM but are expected to retain only 32%-41% under the new ESG Basics category."
+
+- question: "What is the key structural difference between EU SFDR 2.0 and UK Sustainability Disclosure Requirements (SDR) regarding how managers use the labels?"
+  options:
+  - "UK SDR uses a 60% portfolio threshold while SFDR 2.0 uses 70%"
+  - "SFDR 2.0 labels are mandatory for any sustainability-claiming fund; UK SDR labels are voluntary opt-in"
+  - "UK SDR covers all fund types including non-categorized products; SFDR 2.0 only covers labelled categories"
+  - "SFDR 2.0 has four labels while UK SDR has three"
+  answer: 1
+  explanation: "The most important structural difference is that SFDR 2.0 categories are mandatory for any EU fund wishing to make sustainability claims: a fund that cannot qualify must become non-categorized (Article 6a) with strict restrictions on sustainability terminology. UK SDR labels are voluntary: a UK fund can choose not to adopt any label while continuing to make sustainability-related claims (subject to the FCA's anti-greenwashing rule). Both frameworks use a 70% minimum portfolio threshold."
+
+- question: "Which category of fund is EXEMPT from SFDR 2.0 categorisation requirements?"
+  options:
+  - "All Article 9 funds that downgraded to Article 8 during 2022-2023"
+  - "Closed-ended funds that were both created and fully distributed before the SFDR 2.0 application date"
+  - "All existing Article 8 funds, which receive a two-year transition period"
+  - "UCITS funds with fewer than EUR 500 million in assets under management"
+  answer: 1
+  explanation: "Closed-ended funds that were both created AND fully distributed before the SFDR 2.0 application date are exempt from the new categorisation requirements and can continue using their current SFDR 1.0 classifications for their remaining life. Insurance-based investment products receive a 12-month transition period. All other open-ended funds must comply from the application date with no grace period - there is no general transition relief for existing Article 8 or Article 9 funds."

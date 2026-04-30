@@ -1,0 +1,266 @@
+{/* source: Carbon Tax Guide Ch 5.3, 9.3 */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/carbon-pricing/1_6.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Administration and MRV for Carbon Taxes
+
+A carbon tax is only as good as its administration. Even the best-designed tax fails if it cannot be collected, reported accurately, and enforced. This lesson covers the practical mechanics of running a carbon tax system.
+
+### The Administrative Advantage of Carbon Taxes
+
+One major advantage of carbon taxes is administrative simplicity. Unlike emissions trading systems (which require new market infrastructure), carbon taxes can often build on existing fuel tax systems.
+
+<HighlightBox>
+Most countries already tax fuels. A carbon tax can use the same collection points, reporting systems, and enforcement mechanisms. This significantly reduces implementation costs and time.
+</HighlightBox>
+
+### The MRV Triangle
+
+MRV stands for Monitoring, Reporting, and Verification. It is the foundation of any carbon pricing system.
+
+**Monitoring:** Tracking what is happening (fuel sales, emissions, compliance)
+
+**Reporting:** Requiring regulated entities to submit data
+
+**Verification:** Checking that reported data is accurate
+
+<AnalogyBox>
+Think of MRV like a tax audit system. The tax authority monitors economic activity, businesses report their income, and auditors verify the reports are accurate. Carbon tax MRV works the same way, just focused on emissions rather than money.
+</AnalogyBox>
+
+### Upstream Administration: The Simple Case
+
+For upstream carbon taxes, administration is relatively straightforward:
+
+**Step 1: Identify regulated entities**
+
+Who supplies fossil fuels into the economy? This typically includes:
+- Fuel importers
+- Oil refineries
+- Coal mines
+- Natural gas distributors
+
+In most countries, this is a manageable number (tens to hundreds of entities rather than thousands or millions).
+
+**Step 2: Register regulated entities**
+
+Create a registry of all entities that must pay the carbon tax. This may already exist for fuel excise taxes.
+
+**Step 3: Require regular reporting**
+
+Entities report fuel volumes sold or released into the economy, typically monthly or quarterly. Reports include:
+- Volume by fuel type
+- Carbon content (using standard emission factors)
+- Calculated emissions and tax due
+
+**Step 4: Collect payment**
+
+Entities pay the tax based on reported volumes. Payment schedules align with existing fuel tax payments.
+
+**Step 5: Audit and enforce**
+
+The tax authority audits a sample of reports, investigates discrepancies, and penalizes non-compliance.
+
+<ExampleBox>
+**How British Columbia administers its carbon tax:**
+
+1. **Entities covered:** About 100 fuel distributors
+2. **Reporting:** Monthly reports of fuel volumes sold
+3. **Collection:** Tax collected at the same time as provincial fuel tax
+4. **Administration:** Handled by the existing BC Ministry of Finance fuel tax unit
+5. **Cost:** Minimal incremental cost since it piggybacks on existing systems
+</ExampleBox>
+
+### Calculating Emissions from Fuel
+
+For upstream carbon taxes, you do not need to measure actual emissions. Instead, you calculate emissions from fuel volumes using emission factors.
+
+**Emission factors** are standard values that convert fuel quantities to CO2 emissions. These are published by organizations like the IPCC and are accepted internationally.
+
+<ResponsiveTable>
+| Fuel | Unit | Emission factor | CO2 at $50/ton |
+|------|------|-----------------|----------------|
+| Gasoline | Liter | 2.31 kg CO2 | $0.12 |
+| Diesel | Liter | 2.68 kg CO2 | $0.13 |
+| Natural gas | m³ | 2.75 kg CO2 | $0.14 |
+| Coal (bituminous) | kg | 2.42 kg CO2 | $0.12 |
+| Propane | Liter | 1.51 kg CO2 | $0.08 |
+</ResponsiveTable>
+
+**The calculation is simple:**
+
+Tax = Volume × Emission Factor × Tax Rate
+
+<ExampleBox>
+**Example:** A fuel distributor sells 10 million liters of diesel in a quarter.
+
+Emissions = 10,000,000 liters × 2.68 kg/liter = 26,800,000 kg = 26,800 tons CO2
+
+Tax at $50/ton = 26,800 × $50 = $1,340,000
+
+The distributor reports these figures and pays $1.34 million.
+</ExampleBox>
+
+### Downstream Administration: More Complex
+
+When carbon taxes apply downstream (directly to emitters), administration becomes more complex:
+
+**More entities to track**
+
+Instead of hundreds of fuel suppliers, you may have thousands or millions of individual emitters.
+
+**Direct emissions measurement may be needed**
+
+For large industrial facilities, you may want actual emissions measurements rather than fuel-based calculations. This requires continuous emissions monitoring systems (CEMS) or regular measurement protocols.
+
+**More sophisticated reporting**
+
+Emitters need systems to track their emissions and report accurately. This requires capacity building, especially for smaller entities.
+
+**Third-party verification**
+
+For downstream systems, independent verification of reported emissions becomes more important. This adds cost but improves accuracy.
+
+<DeepDive title="Continuous emissions monitoring systems (CEMS)">
+For large industrial facilities, actual emissions can be measured directly using CEMS:
+
+**What CEMS measures:**
+- Gas flow rates in stacks
+- Concentrations of CO2 (and other pollutants)
+- Temperature and pressure for corrections
+
+**How it works:**
+Sensors in the smokestack continuously sample exhaust gases. The system calculates total emissions based on flow rate and concentration.
+
+**Advantages:**
+- Accurate measurement of actual emissions
+- Can capture process emissions (not just fuel combustion)
+- Provides real-time data
+
+**Disadvantages:**
+- Expensive to install and maintain ($50,000-500,000 per stack)
+- Requires calibration and quality assurance
+- Only practical for large point sources
+
+**When it is used:**
+- Power plants
+- Large industrial facilities
+- Emissions trading systems covering major emitters
+
+For most carbon tax applications, fuel-based calculations are sufficient. CEMS is reserved for the largest emitters where precision matters most.
+</DeepDive>
+
+### Compliance and Enforcement
+
+Effective enforcement requires:
+
+**Clear obligations**
+
+Regulated entities must know exactly what they must do: register, report, pay, and retain records.
+
+**Meaningful penalties**
+
+Penalties for non-compliance must be high enough to deter cheating. If the penalty is lower than the tax, evasion pays.
+
+**Audit capacity**
+
+The tax authority needs staff and systems to check reports and investigate suspicious patterns.
+
+**Appeals process**
+
+Entities must have a way to contest assessments they believe are incorrect.
+
+<HighlightBox>
+Penalties should be substantially higher than the tax rate to create a strong incentive for compliance. Many carbon pricing systems set penalties at 2-4 times the tax rate or higher.
+</HighlightBox>
+
+### Building on Existing Systems
+
+Carbon taxes work best when they leverage existing administrative infrastructure:
+
+**Existing fuel tax systems**
+
+If fuels are already taxed, adding a carbon component is incremental. The same entities, forms, and collection processes can be used.
+
+**Existing customs systems**
+
+For imported fuels, the carbon tax can be collected at the border alongside customs duties.
+
+**Existing business registration**
+
+Rather than creating a new registry, use existing business identification systems.
+
+**Existing audit capacity**
+
+Tax authority auditors can add carbon tax compliance to their existing fuel tax audits.
+
+### Common Administrative Challenges
+
+**Data quality issues**
+
+Early reports often contain errors. Allow a transition period for entities to improve their data systems.
+
+**Exemption management**
+
+Every exemption creates an administrative burden. You must verify that claimed exemptions are legitimate and track exempted volumes separately.
+
+**Rebate administration**
+
+If certain users receive rebates (like farmers or exporters), you need systems to process these claims and prevent fraud.
+
+**Coordination across agencies**
+
+Carbon taxes may involve multiple agencies: environment, finance, customs, energy. Clear roles and data sharing are essential.
+
+<ExampleBox>
+**Chile's carbon tax administration:**
+
+Chile applies its carbon tax to power plants with thermal capacity above 50 MW. Administration involves:
+
+1. **Environment Ministry:** Sets emissions standards and oversees MRV
+2. **Energy Ministry:** Provides power plant data and coordinates with the sector
+3. **Internal Revenue Service:** Collects the tax and handles payments
+4. **Superintendency of the Environment:** Monitors compliance and audits
+
+This multi-agency approach requires clear coordination mechanisms to function smoothly.
+</ExampleBox>
+
+### Phased Implementation
+
+Many countries phase in carbon tax administration:
+
+**Phase 1: Prepare (1-2 years before launch)**
+- Identify and register regulated entities
+- Develop reporting templates and guidance
+- Build or adapt IT systems
+- Train staff
+
+**Phase 2: Pilot (6-12 months)**
+- Run shadow reporting (no actual payments)
+- Identify data quality issues
+- Test systems and processes
+- Refine guidance based on questions
+
+**Phase 3: Launch**
+- Begin actual tax collection
+- Maintain support for compliance questions
+- Monitor for issues
+
+**Phase 4: Optimize (ongoing)**
+- Improve data quality
+- Streamline processes
+- Expand coverage as capacity allows
+
+### The Cost of Administration
+
+A well-designed carbon tax has low administrative costs relative to revenue collected:
+
+**Government costs:** 0.5-2% of revenue for collection and enforcement
+
+**Compliance costs for business:** 0.5-1% of tax paid for reporting and record-keeping
+
+Compare this to income taxes, which typically cost 1-2% for collection and 10-20% of taxes paid in compliance costs. Carbon taxes, especially upstream ones, are among the most efficient taxes to collect.
+
+### Looking Ahead
+
+We have now covered the fundamentals of carbon tax design: how they work, what to tax, where to apply the tax, how to set rates, and how to administer the system. The next module explores what to do with the revenue, a question that often determines the political success or failure of a carbon tax.

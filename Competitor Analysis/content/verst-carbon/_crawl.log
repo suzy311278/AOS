@@ -1,0 +1,874 @@
+[INIT].... → Crawl4AI 0.8.0 
+[FETCH]... ↓ https://verst.earth/e-learning/                                    
+| ✓ | ⏱: 10.18s 
+[SCRAPE].. ◆ https://verst.earth/e-learning/                                    
+| ✓ | ⏱: 0.37s 
+[COMPLETE] ● https://verst.earth/e-learning/                                    
+| ✓ | ⏱: 10.59s 
+[ERROR]... × https://development.verst.earth                    | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://development.verst.earth/", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://verst.earth/book-a-demo                    | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://verst.earth/book-a-demo", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://verst.earth/africa-carbon-markets-101      | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://verst.earth/africa-carbon-markets-101", waiting until
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://verst.earth/afr...gregation-platform-abap  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://verst.earth/africa-biochar-aggregation-platform-abap", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://verst.earth/afr...-cooking-platform-aiccp  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://verst.earth/africa-institutional-clean-cooking-platform-aiccp", waiting
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://verst.earth/ai-pdd-tool                    | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://verst.earth/ai-pdd-tool", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://verst.earth/car...-cooking-for-households  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://verst.earth/carbon-credit-due-diligence-on-efficient-and-clean-cooking-
+for-households", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://verst.earth/africa-food-changemakers       | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://verst.earth/africa-food-changemakers", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://verst.earth/climate-advisory-services      | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://verst.earth/climate-advisory-services", waiting until
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://verst.earth/about-us                       | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://verst.earth/about-us", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://verst.earth/climate-smart-jobs             | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://verst.earth/climate-smart-jobs", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[DEBUG]... ⋯ Body visibility info: True 
+[FETCH]... ↓ https://verst.earth                                                
+| ✓ | ⏱: 68.65s 
+[SCRAPE].. ◆ https://verst.earth                                                
+| ✓ | ⏱: 3.91s 
+[COMPLETE] ● https://verst.earth                                                
+| ✓ | ⏱: 73.20s 
+[FETCH]... ↓ 
+https://verst.earth/carbon-credit-financing-for-productive-use-appliance-pua-mar
+kets                 | ✓ | ⏱: 73.41s 
+[SCRAPE].. ◆ 
+https://verst.earth/carbon-credit-financing-for-productive-use-appliance-pua-mar
+kets                 | ✓ | ⏱: 1.86s 
+[COMPLETE] ● 
+https://verst.earth/carbon-credit-financing-for-productive-use-appliance-pua-mar
+kets                 | ✓ | ⏱: 75.68s 
+[FETCH]... ↓ https://verst.earth/15billiontrees-initiative-capacity-building    
+| ✓ | ⏱: 81.83s 
+[SCRAPE].. ◆ https://verst.earth/15billiontrees-initiative-capacity-building    
+| ✓ | ⏱: 1.98s 
+[COMPLETE] ● https://verst.earth/15billiontrees-initiative-capacity-building    
+| ✓ | ⏱: 83.90s 
+[FETCH]... ↓ https://verst.earth/ai-pdd-generator                               
+| ✓ | ⏱: 84.38s 
+[SCRAPE].. ◆ https://verst.earth/ai-pdd-generator                               
+| ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://verst.earth/ai-pdd-generator                               
+| ✓ | ⏱: 84.50s 
+[FETCH]... ↓ https://verst.earth/bio-energy-for-agriculture-rural-livelihoods   
+| ✓ | ⏱: 84.18s 
+[SCRAPE].. ◆ https://verst.earth/bio-energy-for-agriculture-rural-livelihoods   
+| ✓ | ⏱: 0.20s 
+[COMPLETE] ● https://verst.earth/bio-energy-for-agriculture-rural-livelihoods   
+| ✓ | ⏱: 84.40s 
+[FETCH]... ↓ https://verst.earth/carbon-markets-activation-plan-platform-cmap   
+| ✓ | ⏱: 84.48s 
+[SCRAPE].. ◆ https://verst.earth/carbon-markets-activation-plan-platform-cmap   
+| ✓ | ⏱: 0.56s 
+[COMPLETE] ● https://verst.earth/carbon-markets-activation-plan-platform-cmap   
+| ✓ | ⏱: 85.52s 
+[FETCH]... ↓ https://verst.earth/carbon-project-development                     
+| ✓ | ⏱: 87.53s 
+[SCRAPE].. ◆ https://verst.earth/carbon-project-development                     
+| ✓ | ⏱: 1.97s 
+[COMPLETE] ● https://verst.earth/carbon-project-development                     
+| ✓ | ⏱: 90.09s 
+[FETCH]... ↓ https://verst.earth/carbon-markets-capacity-building               
+| ✓ | ⏱: 90.34s 
+[SCRAPE].. ◆ https://verst.earth/carbon-markets-capacity-building               
+| ✓ | ⏱: 1.04s 
+[COMPLETE] ● https://verst.earth/carbon-markets-capacity-building               
+| ✓ | ⏱: 91.65s 
+[FETCH]... ↓ 
+https://verst.earth/carbon-market-capacity-building-for-e-mobility-companies    
+| ✓ | ⏱: 93.54s 
+[SCRAPE].. ◆ 
+https://verst.earth/carbon-market-capacity-building-for-e-mobility-companies    
+| ✓ | ⏱: 0.98s 
+[COMPLETE] ● 
+https://verst.earth/carbon-market-capacity-building-for-e-mobility-companies    
+| ✓ | ⏱: 95.03s 
+[FETCH]... ↓ https://verst.earth/contact-us                                     
+| ✓ | ⏱: 61.78s 
+[SCRAPE].. ◆ https://verst.earth/contact-us                                     
+| ✓ | ⏱: 5.60s 
+[COMPLETE] ● https://verst.earth/contact-us                                     
+| ✓ | ⏱: 70.92s 
+[FETCH]... ↓ https://verst.earth/deib-sustainability-workshop                   
+| ✓ | ⏱: 68.75s 
+[SCRAPE].. ◆ https://verst.earth/deib-sustainability-workshop                   
+| ✓ | ⏱: 0.79s 
+[COMPLETE] ● https://verst.earth/deib-sustainability-workshop                   
+| ✓ | ⏱: 69.62s 
+[FETCH]... ↓ https://verst.earth/insights                                       
+| ✓ | ⏱: 69.48s 
+[SCRAPE].. ◆ https://verst.earth/insights                                       
+| ✓ | ⏱: 0.47s 
+[COMPLETE] ● https://verst.earth/insights                                       
+| ✓ | ⏱: 70.68s 
+[FETCH]... ↓ https://verst.earth/local-stakeholder-consultations-lsc            
+| ✓ | ⏱: 68.88s 
+[SCRAPE].. ◆ https://verst.earth/local-stakeholder-consultations-lsc            
+| ✓ | ⏱: 0.19s 
+[COMPLETE] ● https://verst.earth/local-stakeholder-consultations-lsc            
+| ✓ | ⏱: 69.18s 
+[FETCH]... ↓ 
+https://verst.earth/mass-transition-to-clean-coo...ustainable-school-feeding-thr
+ough-carbon-finance  | ✓ | ⏱: 70.49s 
+[SCRAPE].. ◆ 
+https://verst.earth/mass-transition-to-clean-coo...ustainable-school-feeding-thr
+ough-carbon-finance  | ✓ | ⏱: 0.39s 
+[COMPLETE] ● 
+https://verst.earth/mass-transition-to-clean-coo...ustainable-school-feeding-thr
+ough-carbon-finance  | ✓ | ⏱: 70.92s 
+[FETCH]... ↓ https://verst.earth/dmrv                                           
+| ✓ | ⏱: 71.17s 
+[SCRAPE].. ◆ https://verst.earth/dmrv                                           
+| ✓ | ⏱: 0.41s 
+[COMPLETE] ● https://verst.earth/dmrv                                           
+| ✓ | ⏱: 71.72s 
+[FETCH]... ↓ https://verst.earth/finance-project                                
+| ✓ | ⏱: 73.04s 
+[SCRAPE].. ◆ https://verst.earth/finance-project                                
+| ✓ | ⏱: 0.36s 
+[COMPLETE] ● https://verst.earth/finance-project                                
+| ✓ | ⏱: 73.43s 
+[FETCH]... ↓ https://verst.earth/media                                          
+| ✓ | ⏱: 72.59s 
+[SCRAPE].. ◆ https://verst.earth/media                                          
+| ✓ | ⏱: 0.12s 
+[COMPLETE] ● https://verst.earth/media                                          
+| ✓ | ⏱: 72.80s 
+[FETCH]... ↓ https://verst.earth/e-learning                                     
+| ✓ | ⏱: 73.06s 
+[SCRAPE].. ◆ https://verst.earth/e-learning                                     
+| ✓ | ⏱: 0.34s 
+[COMPLETE] ● https://verst.earth/e-learning                                     
+| ✓ | ⏱: 73.44s 
+[FETCH]... ↓ https://verst.earth/naconek-lsc                                    
+| ✓ | ⏱: 58.09s 
+[SCRAPE].. ◆ https://verst.earth/naconek-lsc                                    
+| ✓ | ⏱: 14.27s 
+[COMPLETE] ● https://verst.earth/naconek-lsc                                    
+| ✓ | ⏱: 72.72s 
+[FETCH]... ↓ https://verst.earth/national-carbon-registry                       
+| ✓ | ⏱: 70.08s 
+[SCRAPE].. ◆ https://verst.earth/national-carbon-registry                       
+| ✓ | ⏱: 0.90s 
+[COMPLETE] ● https://verst.earth/national-carbon-registry                       
+| ✓ | ⏱: 71.36s 
+[FETCH]... ↓ https://verst.earth/innovation-and-emerging-technology             
+| ✓ | ⏱: 91.65s 
+[SCRAPE].. ◆ https://verst.earth/innovation-and-emerging-technology             
+| ✓ | ⏱: 1.62s 
+[COMPLETE] ● https://verst.earth/innovation-and-emerging-technology             
+| ✓ | ⏱: 93.93s 
+[FETCH]... ↓ https://verst.earth/eoi-aggregating-projects                       
+| ✓ | ⏱: 94.71s 
+[SCRAPE].. ◆ https://verst.earth/eoi-aggregating-projects                       
+| ✓ | ⏱: 0.27s 
+[COMPLETE] ● https://verst.earth/eoi-aggregating-projects                       
+| ✓ | ⏱: 95.02s 
+[FETCH]... ↓ https://verst.earth/project-development-platform                   
+| ✓ | ⏱: 57.77s 
+[SCRAPE].. ◆ https://verst.earth/project-development-platform                   
+| ✓ | ⏱: 0.77s 
+[COMPLETE] ● https://verst.earth/project-development-platform                   
+| ✓ | ⏱: 58.70s 
+[FETCH]... ↓ 
+https://verst.earth/the-gold-standard-carbon-market-training-network            
+| ✓ | ⏱: 64.78s 
+[SCRAPE].. ◆ 
+https://verst.earth/the-gold-standard-carbon-market-training-network            
+| ✓ | ⏱: 0.68s 
+[COMPLETE] ● 
+https://verst.earth/the-gold-standard-carbon-market-training-network            
+| ✓ | ⏱: 65.95s 
+[FETCH]... ↓ https://verst.earth/paygo                                          
+| ✓ | ⏱: 69.59s 
+[SCRAPE].. ◆ https://verst.earth/paygo                                          
+| ✓ | ⏱: 1.23s 
+[COMPLETE] ● https://verst.earth/paygo                                          
+| ✓ | ⏱: 71.43s 
+[FETCH]... ↓ 
+https://verst.earth/navigating-the-carbon-market-opportunities-in-zimbabwes-agri
+cultural-communities | ✓ | ⏱: 87.39s 
+[SCRAPE].. ◆ 
+https://verst.earth/navigating-the-carbon-market-opportunities-in-zimbabwes-agri
+cultural-communities | ✓ | ⏱: 0.47s 
+[COMPLETE] ● 
+https://verst.earth/navigating-the-carbon-market-opportunities-in-zimbabwes-agri
+cultural-communities | ✓ | ⏱: 89.75s 
+[FETCH]... ↓ https://verst.earth/our-carbon-project-life-cycle                  
+| ✓ | ⏱: 84.51s 
+[SCRAPE].. ◆ https://verst.earth/our-carbon-project-life-cycle                  
+| ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://verst.earth/our-carbon-project-life-cycle                  
+| ✓ | ⏱: 84.69s 
+[FETCH]... ↓ https://verst.earth/the-team                                       
+| ✓ | ⏱: 56.06s 
+[SCRAPE].. ◆ https://verst.earth/the-team                                       
+| ✓ | ⏱: 0.30s 
+[COMPLETE] ● https://verst.earth/the-team                                       
+| ✓ | ⏱: 56.50s 
+[FETCH]... ↓ 
+https://verst.earth/strengthening-carbon-market-readiness-in-turkana-county     
+| ✓ | ⏱: 80.36s 
+[SCRAPE].. ◆ 
+https://verst.earth/strengthening-carbon-market-readiness-in-turkana-county     
+| ✓ | ⏱: 0.10s 
+[COMPLETE] ● 
+https://verst.earth/strengthening-carbon-market-readiness-in-turkana-county     
+| ✓ | ⏱: 80.50s 
+[FETCH]... ↓ https://verst.earth/pureplant-organics-lsc                         
+| ✓ | ⏱: 80.83s 
+[SCRAPE].. ◆ https://verst.earth/pureplant-organics-lsc                         
+| ✓ | ⏱: 0.16s 
+[COMPLETE] ● https://verst.earth/pureplant-organics-lsc                         
+| ✓ | ⏱: 81.03s 
+[FETCH]... ↓ https://verst.earth?page_id=5241                                   
+| ✓ | ⏱: 54.94s 
+[SCRAPE].. ◆ https://verst.earth?page_id=5241                                   
+| ✓ | ⏱: 2.61s 
+[COMPLETE] ● https://verst.earth?page_id=5241                                   
+| ✓ | ⏱: 58.15s 
+[FETCH]... ↓ https://verst.earth/transforming-cooking-transforming-lives        
+| ✓ | ⏱: 62.35s 
+[SCRAPE].. ◆ https://verst.earth/transforming-cooking-transforming-lives        
+| ✓ | ⏱: 0.66s 
+[COMPLETE] ● https://verst.earth/transforming-cooking-transforming-lives        
+| ✓ | ⏱: 63.10s 
+[FETCH]... ↓ 
+https://verst.earth/wp-content/uploads/2025/12/N...-Summary_-PurePlant-Organics-
+Biochar-Project.pdf  | ✓ | ⏱: 21.61s 
+[SCRAPE].. ◆ 
+https://verst.earth/wp-content/uploads/2025/12/N...-Summary_-PurePlant-Organics-
+Biochar-Project.pdf  | ✓ | ⏱: 0.80s 
+[COMPLETE] ● 
+https://verst.earth/wp-content/uploads/2025/12/N...-Summary_-PurePlant-Organics-
+Biochar-Project.pdf  | ✓ | ⏱: 23.76s 
+[FETCH]... ↓ https://verst.earth/author/verst-carbon                            
+| ✓ | ⏱: 23.83s 
+[SCRAPE].. ◆ https://verst.earth/author/verst-carbon                            
+| ✓ | ⏱: 0.93s 
+[COMPLETE] ● https://verst.earth/author/verst-carbon                            
+| ✓ | ⏱: 24.81s 
+[FETCH]... ↓ 
+https://verst.earth/verst-carbon-launches-its-in...on-project-development-suppor
+t-platform-at-cop28  | ✓ | ⏱: 24.86s 
+[SCRAPE].. ◆ 
+https://verst.earth/verst-carbon-launches-its-in...on-project-development-suppor
+t-platform-at-cop28  | ✓ | ⏱: 0.81s 
+[COMPLETE] ● 
+https://verst.earth/verst-carbon-launches-its-in...on-project-development-suppor
+t-platform-at-cop28  | ✓ | ⏱: 25.75s 
+[FETCH]... ↓ 
+https://verst.earth/kenya-officially-launches-na...engthenintegrity-and-global-m
+arket-participation  | ✓ | ⏱: 25.77s 
+[SCRAPE].. ◆ 
+https://verst.earth/kenya-officially-launches-na...engthenintegrity-and-global-m
+arket-participation  | ✓ | ⏱: 0.16s 
+[COMPLETE] ● 
+https://verst.earth/kenya-officially-launches-na...engthenintegrity-and-global-m
+arket-participation  | ✓ | ⏱: 25.93s 
+[FETCH]... ↓ 
+https://verst.earth/verst-carbon-partners-with-n...act-to-scale-clean-cooking-in
+-rural-kenya-part-1  | ✓ | ⏱: 26.09s 
+[SCRAPE].. ◆ 
+https://verst.earth/verst-carbon-partners-with-n...act-to-scale-clean-cooking-in
+-rural-kenya-part-1  | ✓ | ⏱: 0.15s 
+[COMPLETE] ● 
+https://verst.earth/verst-carbon-partners-with-n...act-to-scale-clean-cooking-in
+-rural-kenya-part-1  | ✓ | ⏱: 26.26s 
+[FETCH]... ↓ https://verst.earth/category/ai                                    
+| ✓ | ⏱: 26.18s 
+[SCRAPE].. ◆ https://verst.earth/category/ai                                    
+| ✓ | ⏱: 0.43s 
+[COMPLETE] ● https://verst.earth/category/ai                                    
+| ✓ | ⏱: 26.63s 
+[FETCH]... ↓ 
+https://verst.earth/building-resilient-african-carbon-markets-in-a-shifting-glob
+al-climate-order     | ✓ | ⏱: 27.67s 
+[SCRAPE].. ◆ 
+https://verst.earth/building-resilient-african-carbon-markets-in-a-shifting-glob
+al-climate-order     | ✓ | ⏱: 0.42s 
+[COMPLETE] ● 
+https://verst.earth/building-resilient-african-carbon-markets-in-a-shifting-glob
+al-climate-order     | ✓ | ⏱: 28.11s 
+[FETCH]... ↓ 
+https://verst.earth/biochar-as-evaporative-cooling-a-simple-idea-for-hot-dry-pla
+ces                  | ✓ | ⏱: 27.26s 
+[SCRAPE].. ◆ 
+https://verst.earth/biochar-as-evaporative-cooling-a-simple-idea-for-hot-dry-pla
+ces                  | ✓ | ⏱: 0.31s 
+[COMPLETE] ● 
+https://verst.earth/biochar-as-evaporative-cooling-a-simple-idea-for-hot-dry-pla
+ces                  | ✓ | ⏱: 27.57s 
+[FETCH]... ↓ https://verst.earth/author/antonysure                              
+| ✓ | ⏱: 32.95s 
+[SCRAPE].. ◆ https://verst.earth/author/antonysure                              
+| ✓ | ⏱: 0.23s 
+[COMPLETE] ● https://verst.earth/author/antonysure                              
+| ✓ | ⏱: 33.19s 
+[FETCH]... ↓ https://verst.earth/category/technology                            
+| ✓ | ⏱: 27.81s 
+[SCRAPE].. ◆ https://verst.earth/category/technology                            
+| ✓ | ⏱: 0.69s 
+[COMPLETE] ● https://verst.earth/category/technology                            
+| ✓ | ⏱: 28.52s 
+[FETCH]... ↓ https://verst.earth/category/waste-management                      
+| ✓ | ⏱: 29.10s 
+[SCRAPE].. ◆ https://verst.earth/category/waste-management                      
+| ✓ | ⏱: 1.14s 
+[COMPLETE] ● https://verst.earth/category/waste-management                      
+| ✓ | ⏱: 30.37s 
+[ERROR]... × https://development.ver...gin?returnto=/dashboard  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://development.verst.earth/login?returnto=%2Fdashboard",
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[FETCH]... ↓ https://verst.earth/𝐄𝐱𝐩𝐥𝐨𝐫𝐢𝐧𝐠-𝐒𝐮𝐬𝐭𝐚𝐢𝐧                              
+| ✓ | ⏱: 3.92s 
+[SCRAPE].. ◆ https://verst.earth/𝐄𝐱𝐩𝐥𝐨𝐫𝐢𝐧𝐠-𝐒𝐮𝐬𝐭𝐚𝐢𝐧                              
+| ✓ | ⏱: 0.14s 
+[COMPLETE] ● https://verst.earth/𝐄𝐱𝐩𝐥𝐨𝐫𝐢𝐧𝐠-𝐒𝐮𝐬𝐭𝐚𝐢𝐧                              
+| ✓ | ⏱: 4.07s 
+[FETCH]... ↓ https://verst.earth/category/technology/page/2                     
+| ✓ | ⏱: 54.83s 
+[SCRAPE].. ◆ https://verst.earth/category/technology/page/2                     
+| ✓ | ⏱: 3.12s 
+[COMPLETE] ● https://verst.earth/category/technology/page/2                     
+| ✓ | ⏱: 60.25s 
+[FETCH]... ↓ https://verst.earth/author/naima                                   
+| ✓ | ⏱: 63.84s 
+[SCRAPE].. ◆ https://verst.earth/author/naima                                   
+| ✓ | ⏱: 0.60s 
+[COMPLETE] ● https://verst.earth/author/naima                                   
+| ✓ | ⏱: 64.46s 
+[FETCH]... ↓ 
+https://verst.earth/kenyas-national-carbon-registry-what-it-is-why-it-matters-an
+d-what-comes-next    | ✓ | ⏱: 64.59s 
+[SCRAPE].. ◆ 
+https://verst.earth/kenyas-national-carbon-registry-what-it-is-why-it-matters-an
+d-what-comes-next    | ✓ | ⏱: 0.62s 
+[COMPLETE] ● 
+https://verst.earth/kenyas-national-carbon-registry-what-it-is-why-it-matters-an
+d-what-comes-next    | ✓ | ⏱: 65.24s 
+[FETCH]... ↓ 
+https://verst.earth/what-next-after-verras-consultation-with-blockchain-players 
+| ✓ | ⏱: 65.31s 
+[SCRAPE].. ◆ 
+https://verst.earth/what-next-after-verras-consultation-with-blockchain-players 
+| ✓ | ⏱: 1.09s 
+[COMPLETE] ● 
+https://verst.earth/what-next-after-verras-consultation-with-blockchain-players 
+| ✓ | ⏱: 66.43s 
+[FETCH]... ↓ https://verst.earth/building-a-carbon-smart-energy-future-in-kenya 
+| ✓ | ⏱: 67.22s 
+[SCRAPE].. ◆ https://verst.earth/building-a-carbon-smart-energy-future-in-kenya 
+| ✓ | ⏱: 0.11s 
+[COMPLETE] ● https://verst.earth/building-a-carbon-smart-energy-future-in-kenya 
+| ✓ | ⏱: 67.37s 
+[FETCH]... ↓ 
+https://verst.earth/kenyas-proposed-climate-change-bill-amendment-a-blueprint-fo
+r-african-countries  | ✓ | ⏱: 67.41s 
+[SCRAPE].. ◆ 
+https://verst.earth/kenyas-proposed-climate-change-bill-amendment-a-blueprint-fo
+r-african-countries  | ✓ | ⏱: 0.08s 
+[COMPLETE] ● 
+https://verst.earth/kenyas-proposed-climate-change-bill-amendment-a-blueprint-fo
+r-african-countries  | ✓ | ⏱: 67.50s 
+[FETCH]... ↓ 
+https://verst.earth/carbon-removal-in-africa-why-integrity-matters-more-than-sca
+le                   | ✓ | ⏱: 67.54s 
+[SCRAPE].. ◆ 
+https://verst.earth/carbon-removal-in-africa-why-integrity-matters-more-than-sca
+le                   | ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://verst.earth/carbon-removal-in-africa-why-integrity-matters-more-than-sca
+le                   | ✓ | ⏱: 67.67s 
+[FETCH]... ↓ 
+https://verst.earth/verst-carbon-pilots-dmrv-platform-for-transparent-impact-par
+t-2                  | ✓ | ⏱: 67.66s 
+[SCRAPE].. ◆ 
+https://verst.earth/verst-carbon-pilots-dmrv-platform-for-transparent-impact-par
+t-2                  | ✓ | ⏱: 0.06s 
+[COMPLETE] ● 
+https://verst.earth/verst-carbon-pilots-dmrv-platform-for-transparent-impact-par
+t-2                  | ✓ | ⏱: 67.73s 
+[FETCH]... ↓ 
+https://verst.earth/electrification-without-demand-flexibility-is-a-carbon-risk 
+| ✓ | ⏱: 67.69s 
+[SCRAPE].. ◆ 
+https://verst.earth/electrification-without-demand-flexibility-is-a-carbon-risk 
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● 
+https://verst.earth/electrification-without-demand-flexibility-is-a-carbon-risk 
+| ✓ | ⏱: 67.78s 
+[FETCH]... ↓ 
+https://verst.earth/advancing-solar-productive-use-appliances-with-carbon-financ
+e-in-kenya           | ✓ | ⏱: 67.78s 
+[SCRAPE].. ◆ 
+https://verst.earth/advancing-solar-productive-use-appliances-with-carbon-financ
+e-in-kenya           | ✓ | ⏱: 0.41s 
+[COMPLETE] ● 
+https://verst.earth/advancing-solar-productive-use-appliances-with-carbon-financ
+e-in-kenya           | ✓ | ⏱: 68.20s 
+[FETCH]... ↓ 
+https://verst.earth/verst-carbon-and-africa-e-mo...s-and-climate-financing-in-th
+e-e-mobility-sector  | ✓ | ⏱: 68.57s 
+[SCRAPE].. ◆ 
+https://verst.earth/verst-carbon-and-africa-e-mo...s-and-climate-financing-in-th
+e-e-mobility-sector  | ✓ | ⏱: 0.22s 
+[COMPLETE] ● 
+https://verst.earth/verst-carbon-and-africa-e-mo...s-and-climate-financing-in-th
+e-e-mobility-sector  | ✓ | ⏱: 68.80s 
+[FETCH]... ↓ https://verst.earth/category/finance                               
+| ✓ | ⏱: 68.61s 
+[SCRAPE].. ◆ https://verst.earth/category/finance                               
+| ✓ | ⏱: 0.18s 
+[COMPLETE] ● https://verst.earth/category/finance                               
+| ✓ | ⏱: 68.80s 
+[FETCH]... ↓ https://verst.earth/category/energy                                
+| ✓ | ⏱: 68.83s 
+[SCRAPE].. ◆ https://verst.earth/category/energy                                
+| ✓ | ⏱: 0.21s 
+[COMPLETE] ● https://verst.earth/category/energy                                
+| ✓ | ⏱: 69.05s 
+[FETCH]... ↓ 
+https://verst.earth/can-digital-mrv-boost-africas-participation-in-the-vcm      
+| ✓ | ⏱: 69.14s 
+[SCRAPE].. ◆ 
+https://verst.earth/can-digital-mrv-boost-africas-participation-in-the-vcm      
+| ✓ | ⏱: 0.63s 
+[COMPLETE] ● 
+https://verst.earth/can-digital-mrv-boost-africas-participation-in-the-vcm      
+| ✓ | ⏱: 69.83s 
+[FETCH]... ↓ 
+https://verst.earth/beyond-the-data-poor-narrati...igh-quality-carbon-project-de
+velopment-in-africa  | ✓ | ⏱: 69.86s 
+[SCRAPE].. ◆ 
+https://verst.earth/beyond-the-data-poor-narrati...igh-quality-carbon-project-de
+velopment-in-africa  | ✓ | ⏱: 0.24s 
+[COMPLETE] ● 
+https://verst.earth/beyond-the-data-poor-narrati...igh-quality-carbon-project-de
+velopment-in-africa  | ✓ | ⏱: 70.12s 
+[FETCH]... ↓ 
+https://verst.earth/beyond-offsets-what-africa-needs-to-build-trust-in-carbon-re
+moval-markets        | ✓ | ⏱: 70.15s 
+[SCRAPE].. ◆ 
+https://verst.earth/beyond-offsets-what-africa-needs-to-build-trust-in-carbon-re
+moval-markets        | ✓ | ⏱: 0.03s 
+[COMPLETE] ● 
+https://verst.earth/beyond-offsets-what-africa-needs-to-build-trust-in-carbon-re
+moval-markets        | ✓ | ⏱: 70.20s 
+[FETCH]... ↓ https://verst.earth/author/rfaiz                                   
+| ✓ | ⏱: 70.18s 
+[SCRAPE].. ◆ https://verst.earth/author/rfaiz                                   
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://verst.earth/author/rfaiz                                   
+| ✓ | ⏱: 70.24s 
+[FETCH]... ↓ 
+https://verst.earth/from-waste-to-wealth-how-bio...n-anchor-high-integrity-carbo
+n-removal-in-africa  | ✓ | ⏱: 70.26s 
+[SCRAPE].. ◆ 
+https://verst.earth/from-waste-to-wealth-how-bio...n-anchor-high-integrity-carbo
+n-removal-in-africa  | ✓ | ⏱: 0.03s 
+[COMPLETE] ● 
+https://verst.earth/from-waste-to-wealth-how-bio...n-anchor-high-integrity-carbo
+n-removal-in-africa  | ✓ | ⏱: 70.30s 
+[FETCH]... ↓ https://verst.earth/category/dmrv                                  
+| ✓ | ⏱: 70.31s 
+[SCRAPE].. ◆ https://verst.earth/category/dmrv                                  
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● https://verst.earth/category/dmrv                                  
+| ✓ | ⏱: 70.41s 
+  Saved: 000_verst.earth_e-learning.md (919 words)
+  SKIP (failed): https://development.verst.earth
+  SKIP (failed): https://verst.earth/book-a-demo
+  SKIP (failed): https://verst.earth/about-us
+  SKIP (failed): https://verst.earth/climate-advisory-services
+  SKIP (failed): https://verst.earth/africa-food-changemakers
+  SKIP (failed): https://verst.earth/africa-biochar-aggregation-platform-abap
+  SKIP (failed): https://verst.earth/ai-pdd-tool
+  SKIP (failed): https://verst.earth/climate-smart-jobs
+  SKIP (failed): https://verst.earth/africa-institutional-clean-cooking-platform-aiccp
+  SKIP (failed): https://verst.earth/carbon-credit-due-diligence-on-efficient-and-clean-cooking-for-households
+  SKIP (failed): https://verst.earth/africa-carbon-markets-101
+  Saved: 012_verst.earth.md (919 words)
+  Saved: 013_verst.earth_carbon-credit-financing-for-productive-use-appliance-pua-markets.md (1134 words)
+  Saved: 014_verst.earth_15billiontrees-initiative-capacity-building.md (1306 words)
+  Saved: 015_verst.earth_carbon-markets-activation-plan-platform-cmap.md (1095 words)
+  Saved: 016_verst.earth_ai-pdd-generator.md (982 words)
+  Saved: 017_verst.earth_bio-energy-for-agriculture-rural-livelihoods.md (1185 words)
+  Saved: 018_verst.earth_carbon-project-development.md (902 words)
+  Saved: 019_verst.earth_carbon-markets-capacity-building.md (1213 words)
+  Saved: 020_verst.earth_carbon-market-capacity-building-for-e-mobility-companies.md (861 words)
+  Saved: 021_verst.earth_deib-sustainability-workshop.md (790 words)
+  Saved: 022_verst.earth_contact-us.md (604 words)
+  Saved: 023_verst.earth_insights.md (943 words)
+  Saved: 024_verst.earth_local-stakeholder-consultations-lsc.md (536 words)
+  Saved: 025_verst.earth_mass-transition-to-clean-cooking-energy-for-sustainable-school-feeding-through-carbon-finance.md (1151 words)
+  Saved: 026_verst.earth_dmrv.md (898 words)
+  Saved: 027_verst.earth_finance-project.md (1908 words)
+  Saved: 028_verst.earth_media.md (593 words)
+  Saved: 029_verst.earth_e-learning.md (919 words)
+  Saved: 030_verst.earth_naconek-lsc.md (901 words)
+  Saved: 031_verst.earth_national-carbon-registry.md (930 words)
+  Saved: 032_verst.earth_innovation-and-emerging-technology.md (944 words)
+  Saved: 033_verst.earth_eoi-aggregating-projects.md (1107 words)
+  Saved: 034_verst.earth_project-development-platform.md (748 words)
+  Saved: 035_verst.earth_the-gold-standard-carbon-market-training-network.md (947 words)
+  Saved: 036_verst.earth_paygo.md (958 words)
+  Saved: 037_verst.earth_navigating-the-carbon-market-opportunities-in-zimbabwes-agricultural-communities.md (1190 words)
+  Saved: 038_verst.earth_our-carbon-project-life-cycle.md (873 words)
+  Saved: 039_verst.earth_the-team.md (1085 words)
+  Saved: 040_verst.earth_strengthening-carbon-market-readiness-in-turkana-county.md (1182 words)
+  Saved: 041_verst.earth_pureplant-organics-lsc.md (792 words)
+  Saved: 042_verst.earth?page_id=5241.md (547 words)
+  Saved: 043_verst.earth_transforming-cooking-transforming-lives.md (951 words)
+  Saved: 045_verst.earth_author_verst-carbon.md (755 words)
+  Saved: 046_verst.earth_verst-carbon-launches-its-innovative-carbon-project-development-support-platform-at-cop28.md (1480 words)
+  Saved: 047_verst.earth_kenya-officially-launches-national-carbon-registry-to-strengthenintegrity-and-global-market-participation.md (1419 words)
+  Saved: 048_verst.earth_verst-carbon-partners-with-nyalore-impact-to-scale-clean-cooking-in-rural-kenya-part-1.md (1513 words)
+  Saved: 049_verst.earth_category_ai.md (782 words)
+  Saved: 050_verst.earth_building-resilient-african-carbon-markets-in-a-shifting-global-climate-order.md (1585 words)
+  Saved: 051_verst.earth_biochar-as-evaporative-cooling-a-simple-idea-for-hot-dry-places.md (1352 words)
+  Saved: 052_verst.earth_author_antonysure.md (783 words)
+  Saved: 053_verst.earth_category_technology.md (1502 words)
+  Saved: 054_verst.earth_category_waste-management.md (719 words)
+  SKIP (failed): https://development.verst.earth/login?returnto=%2Fdashboard
+  Saved: 056_verst.earth_%f0%9d%90%84%f0%9d%90%b1%f0%9d%90%a9%f0%9d%90%a5%f0%9d%90%a8%f0%9d%90%ab%f0%9d%90%a2%f0%9d%90%a7%f0%9d%90%a0.md (841 words)
+  Saved: 057_verst.earth_category_technology_page_2.md (1243 words)
+  Saved: 058_verst.earth_author_naima.md (929 words)
+  Saved: 059_verst.earth_kenyas-national-carbon-registry-what-it-is-why-it-matters-and-what-comes-next.md (851 words)
+  Saved: 060_verst.earth_what-next-after-verras-consultation-with-blockchain-players.md (1584 words)
+  Saved: 061_verst.earth_building-a-carbon-smart-energy-future-in-kenya.md (1736 words)
+  Saved: 062_verst.earth_kenyas-proposed-climate-change-bill-amendment-a-blueprint-for-african-countries.md (1549 words)
+  Saved: 063_verst.earth_carbon-removal-in-africa-why-integrity-matters-more-than-scale.md (1184 words)
+  Saved: 064_verst.earth_verst-carbon-pilots-dmrv-platform-for-transparent-impact-part-2.md (1677 words)
+  Saved: 065_verst.earth_electrification-without-demand-flexibility-is-a-carbon-risk.md (1342 words)
+  Saved: 066_verst.earth_advancing-solar-productive-use-appliances-with-carbon-finance-in-kenya.md (832 words)
+  Saved: 067_verst.earth_verst-carbon-and-africa-e-mobility-alliance-facilitated-an-impactful-three-day-workshop-organized-by-siemens.md (915 words)
+  Saved: 068_verst.earth_category_finance.md (607 words)
+  Saved: 069_verst.earth_category_energy.md (902 words)
+  Saved: 070_verst.earth_can-digital-mrv-boost-africas-participation-in-the-vcm.md (1724 words)
+  Saved: 071_verst.earth_beyond-the-data-poor-narrative-unlocking-high-quality-carbon-project-development-in-africa.md (1428 words)
+  Saved: 072_verst.earth_beyond-offsets-what-africa-needs-to-build-trust-in-carbon-removal-markets.md (639 words)
+  Saved: 073_verst.earth_author_rfaiz.md (1356 words)
+  Saved: 074_verst.earth_from-waste-to-wealth-how-biochar-can-anchor-high-integrity-carbon-removal-in-africa.md (695 words)
+  Saved: 075_verst.earth_category_dmrv.md (1051 words)
+
+Done: 63 pages saved to /Users/knowprajjwal/LearningPlatform/Competitor Analysis/scripts/../content/verst-carbon

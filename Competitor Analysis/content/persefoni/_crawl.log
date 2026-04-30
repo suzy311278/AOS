@@ -1,0 +1,3316 @@
+[INIT].... → Crawl4AI 0.8.0 
+[FETCH]... ↓ https://www.persefoni.com/insights/persefoni-academy               
+| ✓ | ⏱: 2.14s 
+[SCRAPE].. ◆ https://www.persefoni.com/insights/persefoni-academy               
+| ✓ | ⏱: 0.13s 
+[COMPLETE] ● https://www.persefoni.com/insights/persefoni-academy               
+| ✓ | ⏱: 2.32s 
+[FETCH]... ↓ https://www.persefoni.com                                          
+| ✓ | ⏱: 85.72s 
+[SCRAPE].. ◆ https://www.persefoni.com                                          
+| ✓ | ⏱: 17.09s 
+[COMPLETE] ● https://www.persefoni.com                                          
+| ✓ | ⏱: 103.19s 
+[FETCH]... ↓ https://www.persefoni.com/customers/at-home                        
+| ✓ | ⏱: 110.05s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/at-home                        
+| ✓ | ⏱: 49.40s 
+[COMPLETE] ● https://www.persefoni.com/customers/at-home                        
+| ✓ | ⏱: 161.87s 
+[FETCH]... ↓ https://status.persefoni.com                                       
+| ✓ | ⏱: 164.14s 
+[SCRAPE].. ◆ https://status.persefoni.com                                       
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● https://status.persefoni.com                                       
+| ✓ | ⏱: 164.24s 
+[FETCH]... ↓ https://www.persefoni.com/business/scope-3-supplier-engagement     
+| ✓ | ⏱: 162.95s 
+[SCRAPE].. ◆ https://www.persefoni.com/business/scope-3-supplier-engagement     
+| ✓ | ⏱: 13.66s 
+[COMPLETE] ● https://www.persefoni.com/business/scope-3-supplier-engagement     
+| ✓ | ⏱: 177.78s 
+[FETCH]... ↓ https://www.persefoni.com/customers/caliber                        
+| ✓ | ⏱: 189.49s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/caliber                        
+| ✓ | ⏱: 6.81s 
+[COMPLETE] ● https://www.persefoni.com/customers/caliber                        
+| ✓ | ⏱: 197.45s 
+[FETCH]... ↓ https://www.persefoni.com/customers/cge-partners                   
+| ✓ | ⏱: 198.85s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/cge-partners                   
+| ✓ | ⏱: 7.12s 
+[COMPLETE] ● https://www.persefoni.com/customers/cge-partners                   
+| ✓ | ⏱: 206.88s 
+[FETCH]... ↓ https://www.persefoni.com/company/persefoni-annual-impact-report   
+| ✓ | ⏱: 210.41s 
+[SCRAPE].. ◆ https://www.persefoni.com/company/persefoni-annual-impact-report   
+| ✓ | ⏱: 14.62s 
+[COMPLETE] ● https://www.persefoni.com/company/persefoni-annual-impact-report   
+| ✓ | ⏱: 226.05s 
+[FETCH]... ↓ https://www.persefoni.com/customers                                
+| ✓ | ⏱: 227.36s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers                                
+| ✓ | ⏱: 3.12s 
+[COMPLETE] ● https://www.persefoni.com/customers                                
+| ✓ | ⏱: 230.59s 
+[FETCH]... ↓ https://platform.persefoni.com/api/auth/login                      
+| ✓ | ⏱: 233.01s 
+[SCRAPE].. ◆ https://platform.persefoni.com/api/auth/login                      
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://platform.persefoni.com/api/auth/login                      
+| ✓ | ⏱: 233.10s 
+[FETCH]... ↓ 
+https://www.persefoni.com/business/stakeholder-ghg-emissions-reporting          
+| ✓ | ⏱: 231.56s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/business/stakeholder-ghg-emissions-reporting          
+| ✓ | ⏱: 5.42s 
+[COMPLETE] ● 
+https://www.persefoni.com/business/stakeholder-ghg-emissions-reporting          
+| ✓ | ⏱: 237.30s 
+[FETCH]... ↓ https://www.persefoni.com/contact-us                               
+| ✓ | ⏱: 237.58s 
+[SCRAPE].. ◆ https://www.persefoni.com/contact-us                               
+| ✓ | ⏱: 6.65s 
+[COMPLETE] ● https://www.persefoni.com/contact-us                               
+| ✓ | ⏱: 246.04s 
+[FETCH]... ↓ https://www.persefoni.com/company/logos-and-brand-assets           
+| ✓ | ⏱: 247.23s 
+[SCRAPE].. ◆ https://www.persefoni.com/company/logos-and-brand-assets           
+| ✓ | ⏱: 25.36s 
+[COMPLETE] ● https://www.persefoni.com/company/logos-and-brand-assets           
+| ✓ | ⏱: 280.82s 
+[FETCH]... ↓ 
+https://www.persefoni.com/business/regulatory-ghg-emissions-reporting           
+| ✓ | ⏱: 295.29s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/business/regulatory-ghg-emissions-reporting           
+| ✓ | ⏱: 9.76s 
+[COMPLETE] ● 
+https://www.persefoni.com/business/regulatory-ghg-emissions-reporting           
+| ✓ | ⏱: 306.47s 
+[FETCH]... ↓ https://www.persefoni.com/company/careers                          
+| ✓ | ⏱: 306.76s 
+[SCRAPE].. ◆ https://www.persefoni.com/company/careers                          
+| ✓ | ⏱: 2.33s 
+[COMPLETE] ● https://www.persefoni.com/company/careers                          
+| ✓ | ⏱: 309.14s 
+[FETCH]... ↓ https://www.persefoni.com/company/sustainability-advisory-board    
+| ✓ | ⏱: 309.24s 
+[SCRAPE].. ◆ https://www.persefoni.com/company/sustainability-advisory-board    
+| ✓ | ⏱: 7.92s 
+[COMPLETE] ● https://www.persefoni.com/company/sustainability-advisory-board    
+| ✓ | ⏱: 317.24s 
+[FETCH]... ↓ https://www.persefoni.com/company/certifications                   
+| ✓ | ⏱: 317.29s 
+[SCRAPE].. ◆ https://www.persefoni.com/company/certifications                   
+| ✓ | ⏱: 14.31s 
+[COMPLETE] ● https://www.persefoni.com/company/certifications                   
+| ✓ | ⏱: 331.85s 
+[FETCH]... ↓ https://www.persefoni.com/company/people-and-leadership            
+| ✓ | ⏱: 332.36s 
+[SCRAPE].. ◆ https://www.persefoni.com/company/people-and-leadership            
+| ✓ | ⏱: 16.12s 
+[COMPLETE] ● https://www.persefoni.com/company/people-and-leadership            
+| ✓ | ⏱: 349.66s 
+[FETCH]... ↓ 
+https://www.persefoni.com/business/carbon-footprint-measurement-analytics       
+| ✓ | ⏱: 350.42s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/business/carbon-footprint-measurement-analytics       
+| ✓ | ⏱: 10.12s 
+[COMPLETE] ● 
+https://www.persefoni.com/business/carbon-footprint-measurement-analytics       
+| ✓ | ⏱: 362.48s 
+[FETCH]... ↓ https://www.persefoni.com/business/decarbonization-management      
+| ✓ | ⏱: 367.52s 
+[SCRAPE].. ◆ https://www.persefoni.com/business/decarbonization-management      
+| ✓ | ⏱: 1.70s 
+[COMPLETE] ● https://www.persefoni.com/business/decarbonization-management      
+| ✓ | ⏱: 369.79s 
+[FETCH]... ↓ https://www.persefoni.com/business                                 
+| ✓ | ⏱: 371.46s 
+[SCRAPE].. ◆ https://www.persefoni.com/business                                 
+| ✓ | ⏱: 5.42s 
+[COMPLETE] ● https://www.persefoni.com/business                                 
+| ✓ | ⏱: 376.96s 
+[FETCH]... ↓ 
+https://www.persefoni.com/financial-services/financed-emissions-accounting-analy
+tics                 | ✓ | ⏱: 34.21s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/financial-services/financed-emissions-accounting-analy
+tics                 | ✓ | ⏱: 10.83s 
+[COMPLETE] ● 
+https://www.persefoni.com/financial-services/financed-emissions-accounting-analy
+tics                 | ✓ | ⏱: 45.52s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/forrester-wave-report-2024        
+| ✓ | ⏱: 102.82s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/forrester-wave-report-2024        
+| ✓ | ⏱: 12.60s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/forrester-wave-report-2024        
+| ✓ | ⏱: 116.87s 
+[FETCH]... ↓ https://www.persefoni.com/customers/fm-conway                      
+| ✓ | ⏱: 324.53s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/fm-conway                      
+| ✓ | ⏱: 10.42s 
+[COMPLETE] ● https://www.persefoni.com/customers/fm-conway                      
+| ✓ | ⏱: 337.99s 
+[FETCH]... ↓ 
+https://www.persefoni.com/financial-services/portfolio-company-engagement       
+| ✓ | ⏱: 74.94s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/financial-services/portfolio-company-engagement       
+| ✓ | ⏱: 4.28s 
+[COMPLETE] ● 
+https://www.persefoni.com/financial-services/portfolio-company-engagement       
+| ✓ | ⏱: 79.95s 
+[FETCH]... ↓ https://www.persefoni.com/customers/xerox                          
+| ✓ | ⏱: 252.16s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/xerox                          
+| ✓ | ⏱: 3.06s 
+[COMPLETE] ● https://www.persefoni.com/customers/xerox                          
+| ✓ | ⏱: 255.46s 
+[FETCH]... ↓ https://www.persefoni.com/documents/security                       
+| ✓ | ⏱: 165.66s 
+[SCRAPE].. ◆ https://www.persefoni.com/documents/security                       
+| ✓ | ⏱: 6.73s 
+[COMPLETE] ● https://www.persefoni.com/documents/security                       
+| ✓ | ⏱: 172.95s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/controllers-guide-to-climate-esg-r
+eporting             | ✓ | ⏱: 156.66s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/controllers-guide-to-climate-esg-r
+eporting             | ✓ | ⏱: 2.13s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/controllers-guide-to-climate-esg-r
+eporting             | ✓ | ⏱: 158.95s 
+[FETCH]... ↓ https://www.persefoni.com/financial-services                       
+| ✓ | ⏱: 148.36s 
+[SCRAPE].. ◆ https://www.persefoni.com/financial-services                       
+| ✓ | ⏱: 1.58s 
+[COMPLETE] ● https://www.persefoni.com/financial-services                       
+| ✓ | ⏱: 149.99s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/benchmarking-sustainability-report
+ing-2024             | ✓ | ⏱: 174.05s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/benchmarking-sustainability-report
+ing-2024             | ✓ | ⏱: 0.89s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/benchmarking-sustainability-report
+ing-2024             | ✓ | ⏱: 174.96s 
+[FETCH]... ↓ 
+https://www.persefoni.com/financial-services/investor-ghg-emissions-reporting   
+| ✓ | ⏱: 101.83s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/financial-services/investor-ghg-emissions-reporting   
+| ✓ | ⏱: 6.83s 
+[COMPLETE] ● 
+https://www.persefoni.com/financial-services/investor-ghg-emissions-reporting   
+| ✓ | ⏱: 109.32s 
+[FETCH]... ↓ https://www.persefoni.com/customers/natera                         
+| ✓ | ⏱: 298.50s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/natera                         
+| ✓ | ⏱: 12.71s 
+[COMPLETE] ● https://www.persefoni.com/customers/natera                         
+| ✓ | ⏱: 312.15s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/insights/persefoni-academy         
+| ✓ | ⏱: 200.54s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/insights/persefoni-academy         
+| ✓ | ⏱: 4.53s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/insights/persefoni-academy         
+| ✓ | ⏱: 205.36s 
+[FETCH]... ↓ https://www.persefoni.com/de/insights/persefoni-academy            
+| ✓ | ⏱: 292.17s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/insights/persefoni-academy            
+| ✓ | ⏱: 3.09s 
+[COMPLETE] ● https://www.persefoni.com/de/insights/persefoni-academy            
+| ✓ | ⏱: 295.32s 
+[FETCH]... ↓ 
+https://www.persefoni.com/financial-services/decarbonization-management         
+| ✓ | ⏱: 152.80s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/financial-services/decarbonization-management         
+| ✓ | ⏱: 0.56s 
+[COMPLETE] ● 
+https://www.persefoni.com/financial-services/decarbonization-management         
+| ✓ | ⏱: 153.37s 
+[FETCH]... ↓ https://www.persefoni.com/documents/japan-commercial-disclosure    
+| ✓ | ⏱: 266.13s 
+[SCRAPE].. ◆ https://www.persefoni.com/documents/japan-commercial-disclosure    
+| ✓ | ⏱: 4.61s 
+[COMPLETE] ● https://www.persefoni.com/documents/japan-commercial-disclosure    
+| ✓ | ⏱: 270.81s 
+[FETCH]... ↓ https://www.persefoni.com/customers/pittsburgh-penguins            
+| ✓ | ⏱: 320.36s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/pittsburgh-penguins            
+| ✓ | ⏱: 7.49s 
+[COMPLETE] ● https://www.persefoni.com/customers/pittsburgh-penguins            
+| ✓ | ⏱: 327.94s 
+[FETCH]... ↓ https://www.persefoni.com/fr/insights/persefoni-academy            
+| ✓ | ⏱: 139.15s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/insights/persefoni-academy            
+| ✓ | ⏱: 10.71s 
+[COMPLETE] ● https://www.persefoni.com/fr/insights/persefoni-academy            
+| ✓ | ⏱: 149.99s 
+[FETCH]... ↓ https://www.persefoni.com/insights/blog                            
+| ✓ | ⏱: 150.81s 
+[SCRAPE].. ◆ https://www.persefoni.com/insights/blog                            
+| ✓ | ⏱: 6.00s 
+[COMPLETE] ● https://www.persefoni.com/insights/blog                            
+| ✓ | ⏱: 158.09s 
+[FETCH]... ↓ https://www.persefoni.com/documents/persefoni-privacy-policy       
+| ✓ | ⏱: 293.02s 
+[SCRAPE].. ◆ https://www.persefoni.com/documents/persefoni-privacy-policy       
+| ✓ | ⏱: 27.17s 
+[COMPLETE] ● https://www.persefoni.com/documents/persefoni-privacy-policy       
+| ✓ | ⏱: 322.63s 
+[FETCH]... ↓ https://www.persefoni.com/insights/events                          
+| ✓ | ⏱: 190.76s 
+[SCRAPE].. ◆ https://www.persefoni.com/insights/events                          
+| ✓ | ⏱: 5.93s 
+[COMPLETE] ● https://www.persefoni.com/insights/events                          
+| ✓ | ⏱: 196.77s 
+[FETCH]... ↓ https://www.persefoni.com/pricing-compliance-services              
+| ✓ | ⏱: 88.22s 
+[SCRAPE].. ◆ https://www.persefoni.com/pricing-compliance-services              
+| ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://www.persefoni.com/pricing-compliance-services              
+| ✓ | ⏱: 88.33s 
+[FETCH]... ↓ https://www.persefoni.com/persefoniai                              
+| ✓ | ⏱: 104.64s 
+[SCRAPE].. ◆ https://www.persefoni.com/persefoniai                              
+| ✓ | ⏱: 1.71s 
+[COMPLETE] ● https://www.persefoni.com/persefoniai                              
+| ✓ | ⏱: 106.38s 
+[FETCH]... ↓ https://www.persefoni.com/sign-up/carbon-accounting-essentials     
+| ✓ | ⏱: 79.35s 
+[SCRAPE].. ◆ https://www.persefoni.com/sign-up/carbon-accounting-essentials     
+| ✓ | ⏱: 6.82s 
+[COMPLETE] ● https://www.persefoni.com/sign-up/carbon-accounting-essentials     
+| ✓ | ⏱: 86.29s 
+[FETCH]... ↓ https://www.persefoni.com/partners                                 
+| ✓ | ⏱: 123.82s 
+[SCRAPE].. ◆ https://www.persefoni.com/partners                                 
+| ✓ | ⏱: 2.04s 
+[COMPLETE] ● https://www.persefoni.com/partners                                 
+| ✓ | ⏱: 125.90s 
+[FETCH]... ↓ https://www.persefoni.com/ja/insights/persefoni-academy            
+| ✓ | ⏱: 129.31s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/insights/persefoni-academy            
+| ✓ | ⏱: 0.97s 
+[COMPLETE] ● https://www.persefoni.com/ja/insights/persefoni-academy            
+| ✓ | ⏱: 130.39s 
+[FETCH]... ↓ https://www.persefoni.com/insights/expert-publications             
+| ✓ | ⏱: 166.01s 
+[SCRAPE].. ◆ https://www.persefoni.com/insights/expert-publications             
+| ✓ | ⏱: 0.50s 
+[COMPLETE] ● https://www.persefoni.com/insights/expert-publications             
+| ✓ | ⏱: 166.53s 
+[FETCH]... ↓ https://www.persefoni.com/sign-up/decarbonization-101              
+| ✓ | ⏱: 90.31s 
+[SCRAPE].. ◆ https://www.persefoni.com/sign-up/decarbonization-101              
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.persefoni.com/sign-up/decarbonization-101              
+| ✓ | ⏱: 90.64s 
+[FETCH]... ↓ https://www.persefoni.com/pricing                                  
+| ✓ | ⏱: 100.78s 
+[SCRAPE].. ◆ https://www.persefoni.com/pricing                                  
+| ✓ | ⏱: 14.38s 
+[COMPLETE] ● https://www.persefoni.com/pricing                                  
+| ✓ | ⏱: 115.26s 
+[FETCH]... ↓ https://www.persefoni.com/schedule-demo                            
+| ✓ | ⏱: 109.94s 
+[SCRAPE].. ◆ https://www.persefoni.com/schedule-demo                            
+| ✓ | ⏱: 10.71s 
+[COMPLETE] ● https://www.persefoni.com/schedule-demo                            
+| ✓ | ⏱: 122.24s 
+[FETCH]... ↓ https://www.persefoni.com/insights/persefoni-academy               
+| ✓ | ⏱: 172.39s 
+[SCRAPE].. ◆ https://www.persefoni.com/insights/persefoni-academy               
+| ✓ | ⏱: 6.84s 
+[COMPLETE] ● https://www.persefoni.com/insights/persefoni-academy               
+| ✓ | ⏱: 179.47s 
+[FETCH]... ↓ https://www.persefoni.com/solutions/sb-253                         
+| ✓ | ⏱: 121.64s 
+[SCRAPE].. ◆ https://www.persefoni.com/solutions/sb-253                         
+| ✓ | ⏱: 1.12s 
+[COMPLETE] ● https://www.persefoni.com/solutions/sb-253                         
+| ✓ | ⏱: 122.79s 
+[FETCH]... ↓ https://www.persefoni.com/sustainability-reporting                 
+| ✓ | ⏱: 103.96s 
+[SCRAPE].. ◆ https://www.persefoni.com/sustainability-reporting                 
+| ✓ | ⏱: 0.60s 
+[COMPLETE] ● https://www.persefoni.com/sustainability-reporting                 
+| ✓ | ⏱: 104.58s 
+[FETCH]... ↓ https://www.persefoni.com/sign-up/scope-3-101                      
+| ✓ | ⏱: 123.43s 
+[SCRAPE].. ◆ https://www.persefoni.com/sign-up/scope-3-101                      
+| ✓ | ⏱: 0.76s 
+[COMPLETE] ● https://www.persefoni.com/sign-up/scope-3-101                      
+| ✓ | ⏱: 124.19s 
+[FETCH]... ↓ https://www.persefoni.com/solutions/sb-261                         
+| ✓ | ⏱: 116.41s 
+[SCRAPE].. ◆ https://www.persefoni.com/solutions/sb-261                         
+| ✓ | ⏱: 0.38s 
+[COMPLETE] ● https://www.persefoni.com/solutions/sb-261                         
+| ✓ | ⏱: 116.81s 
+[FETCH]... ↓ 
+https://www.persefoni.com/sign-up/california-climate-disclosure-compliance      
+| ✓ | ⏱: 133.64s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/sign-up/california-climate-disclosure-compliance      
+| ✓ | ⏱: 3.08s 
+[COMPLETE] ● 
+https://www.persefoni.com/sign-up/california-climate-disclosure-compliance      
+| ✓ | ⏱: 136.77s 
+[FETCH]... ↓ https://www.persefoni.com/sign-up                                  
+| ✓ | ⏱: 136.90s 
+[SCRAPE].. ◆ https://www.persefoni.com/sign-up                                  
+| ✓ | ⏱: 0.39s 
+[COMPLETE] ● https://www.persefoni.com/sign-up                                  
+| ✓ | ⏱: 137.30s 
+[FETCH]... ↓ https://www.persefoni.com?r=0                                      
+| ✓ | ⏱: 108.17s 
+[SCRAPE].. ◆ https://www.persefoni.com?r=0                                      
+| ✓ | ⏱: 0.41s 
+[COMPLETE] ● https://www.persefoni.com?r=0                                      
+| ✓ | ⏱: 108.58s 
+[FETCH]... ↓ 
+https://persefoni.us.auth0.com/login?audience=ht...lk2SBwU3FMSmdzaFdrazVIVUpCVnV
+IWjlnN1FESk5hQjBZYg  | ✓ | ⏱: 1.87s 
+[SCRAPE].. ◆ 
+https://persefoni.us.auth0.com/login?audience=ht...lk2SBwU3FMSmdzaFdrazVIVUpCVnV
+IWjlnN1FESk5hQjBZYg  | ✓ | ⏱: 0.02s 
+[COMPLETE] ● 
+https://persefoni.us.auth0.com/login?audience=ht...lk2SBwU3FMSmdzaFdrazVIVUpCVnV
+IWjlnN1FESk5hQjBZYg  | ✓ | ⏱: 1.90s 
+[FETCH]... ↓ https://trust.persefoni.com                                        
+| ✓ | ⏱: 3.79s 
+[SCRAPE].. ◆ https://trust.persefoni.com                                        
+| ✓ | ⏱: 0.00s 
+[COMPLETE] ● https://trust.persefoni.com                                        
+| ✓ | ⏱: 3.79s 
+[FETCH]... ↓ https://persefoni.com                                              
+| ✓ | ⏱: 4.09s 
+[SCRAPE].. ◆ https://persefoni.com                                              
+| ✓ | ⏱: 4.50s 
+[COMPLETE] ● https://persefoni.com                                              
+| ✓ | ⏱: 8.80s 
+[FETCH]... ↓ https://persefoni.com/ja/legal/privacy                             
+| ✓ | ⏱: 8.30s 
+[SCRAPE].. ◆ https://persefoni.com/ja/legal/privacy                             
+| ✓ | ⏱: 9.57s 
+[COMPLETE] ● https://persefoni.com/ja/legal/privacy                             
+| ✓ | ⏱: 18.26s 
+[ERROR]... × https://vault.pactsafe....70ec112d0485f97ecec.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/6644d
+70ec112d0485f97ecec.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://vault.pactsafe....6dd982472a41a0e5f06.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/675a0
+6dd982472a41a0e5f06.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://vault.pactsafe....a3794f8c8da782c13ef.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/69010
+a3794f8c8da782c13ef.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[FETCH]... ↓ 
+https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/legal.html     
+| ✓ | ⏱: 22.48s 
+[SCRAPE].. ◆ 
+https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/legal.html     
+| ✓ | ⏱: 11.85s 
+[COMPLETE] ● 
+https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/legal.html     
+| ✓ | ⏱: 34.44s 
+[ERROR]... × https://vault.pactsafe....59ae419a803ea9f7862.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/6696b
+59ae419a803ea9f7862.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://vault.pactsafe....f48aff431db4a8f6c53.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/68386
+f48aff431db4a8f6c53.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://vault.pactsafe....9a58e6b17e9cfec3b36.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/65df5
+9a58e6b17e9cfec3b36.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://vault.pactsafe....51fa2ac0fdef9a17c68.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/694c1
+51fa2ac0fdef9a17c68.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://vault.pactsafe....e134bf3b5e7c7a8af5c.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/69655
+e134bf3b5e7c7a8af5c.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://vault.pactsafe....93518766f50197cdcae.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/69010
+93518766f50197cdcae.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://vault.pactsafe....66fb6bdb89c1c356b55.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/660bd
+66fb6bdb89c1c356b55.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://vault.pactsafe....e4973a4f4313d865e76.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/66966
+e4973a4f4313d865e76.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://vault.pactsafe....c92a63a61440f00c22c.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/65dfa
+c92a63a61440f00c22c.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[FETCH]... ↓ https://status.persefoni.com/history                               
+| ✓ | ⏱: 34.55s 
+[SCRAPE].. ◆ https://status.persefoni.com/history                               
+| ✓ | ⏱: 0.02s 
+[COMPLETE] ● https://status.persefoni.com/history                               
+| ✓ | ⏱: 34.57s 
+[ERROR]... × https://vault.pactsafe....8aeabeee3abe1ed75d9.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/69010
+8aeabeee3abe1ed75d9.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://vault.pactsafe....51fe983d8dbdd58ec4e.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/65e8f
+51fe983d8dbdd58ec4e.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://vault.pactsafe....786f6c02d620dbac35e.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/69656
+786f6c02d620dbac35e.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://vault.pactsafe....29b488924298f6e1680.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/69657
+29b488924298f6e1680.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://vault.pactsafe....47c58720219d0e9c0fe.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/698e2
+47c58720219d0e9c0fe.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://vault.pactsafe....4a2d9f8e8b7a5ee467e.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/698e2
+4a2d9f8e8b7a5ee467e.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[FETCH]... ↓ https://www.persefoni.com/blog/ace-your-ecovadis-assessment        
+| ✓ | ⏱: 1.10s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/ace-your-ecovadis-assessment        
+| ✓ | ⏱: 0.52s 
+[COMPLETE] ● https://www.persefoni.com/blog/ace-your-ecovadis-assessment        
+| ✓ | ⏱: 1.64s 
+[ERROR]... × https://vault.pactsafe....480e89d20442d0f2813.pdf  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to 
+"https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/699cc
+480e89d20442d0f2813.pdf", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[FETCH]... ↓ https://www.persefoni.com/blog/best-decarbonization-software       
+| ✓ | ⏱: 12.78s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/best-decarbonization-software       
+| ✓ | ⏱: 1.74s 
+[COMPLETE] ● https://www.persefoni.com/blog/best-decarbonization-software       
+| ✓ | ⏱: 14.55s 
+[FETCH]... ↓ 
+https://www.persefoni.com/blog/eu-carbon-border-adjustment-mechanism            
+| ✓ | ⏱: 14.88s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/blog/eu-carbon-border-adjustment-mechanism            
+| ✓ | ⏱: 0.78s 
+[COMPLETE] ● 
+https://www.persefoni.com/blog/eu-carbon-border-adjustment-mechanism            
+| ✓ | ⏱: 15.68s 
+[FETCH]... ↓ https://www.persefoni.com/blog/cdp-carbon-disclosure-project       
+| ✓ | ⏱: 15.75s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/cdp-carbon-disclosure-project       
+| ✓ | ⏱: 5.84s 
+[COMPLETE] ● https://www.persefoni.com/blog/cdp-carbon-disclosure-project       
+| ✓ | ⏱: 21.89s 
+[FETCH]... ↓ https://www.persefoni.com/blog/esg-software                        
+| ✓ | ⏱: 22.52s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/esg-software                        
+| ✓ | ⏱: 12.33s 
+[COMPLETE] ● https://www.persefoni.com/blog/esg-software                        
+| ✓ | ⏱: 35.03s 
+[FETCH]... ↓ 
+https://www.persefoni.com/blog/mexicos-issb-sustainability-reporting-standards  
+| ✓ | ⏱: 35.79s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/blog/mexicos-issb-sustainability-reporting-standards  
+| ✓ | ⏱: 3.18s 
+[COMPLETE] ● 
+https://www.persefoni.com/blog/mexicos-issb-sustainability-reporting-standards  
+| ✓ | ⏱: 39.09s 
+[FETCH]... ↓ https://www.persefoni.com/blog/best-scope-3-software               
+| ✓ | ⏱: 39.71s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/best-scope-3-software               
+| ✓ | ⏱: 1.57s 
+[COMPLETE] ● https://www.persefoni.com/blog/best-scope-3-software               
+| ✓ | ⏱: 41.32s 
+[FETCH]... ↓ https://www.persefoni.com/blog/emissions-management-software       
+| ✓ | ⏱: 41.34s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/emissions-management-software       
+| ✓ | ⏱: 0.61s 
+[COMPLETE] ● https://www.persefoni.com/blog/emissions-management-software       
+| ✓ | ⏱: 41.96s 
+[FETCH]... ↓ https://www.persefoni.com/blog/best-free-carbon-footprint-software 
+| ✓ | ⏱: 41.96s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/best-free-carbon-footprint-software 
+| ✓ | ⏱: 0.50s 
+[COMPLETE] ● https://www.persefoni.com/blog/best-free-carbon-footprint-software 
+| ✓ | ⏱: 42.47s 
+[FETCH]... ↓ https://www.persefoni.com/blog/california-sb253-sb261              
+| ✓ | ⏱: 42.51s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/california-sb253-sb261              
+| ✓ | ⏱: 0.41s 
+[COMPLETE] ● https://www.persefoni.com/blog/california-sb253-sb261              
+| ✓ | ⏱: 42.93s 
+[FETCH]... ↓ https://www.persefoni.com/blog/carbon-offset-programs              
+| ✓ | ⏱: 42.93s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/carbon-offset-programs              
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://www.persefoni.com/blog/carbon-offset-programs              
+| ✓ | ⏱: 42.99s 
+[FETCH]... ↓ https://www.persefoni.com/blog/inventory-management-plan           
+| ✓ | ⏱: 43.00s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/inventory-management-plan           
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://www.persefoni.com/blog/inventory-management-plan           
+| ✓ | ⏱: 43.03s 
+[FETCH]... ↓ https://www.persefoni.com/blog/science-based-targets-sbti          
+| ✓ | ⏱: 42.96s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/science-based-targets-sbti          
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://www.persefoni.com/blog/science-based-targets-sbti          
+| ✓ | ⏱: 43.00s 
+[FETCH]... ↓ https://www.persefoni.com/blog/asrs-australia-issb                 
+| ✓ | ⏱: 43.05s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/asrs-australia-issb                 
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://www.persefoni.com/blog/asrs-australia-issb                 
+| ✓ | ⏱: 43.09s 
+[FETCH]... ↓ https://www.persefoni.com/blog/issb-reporting-singapore            
+| ✓ | ⏱: 43.10s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/issb-reporting-singapore            
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● https://www.persefoni.com/blog/issb-reporting-singapore            
+| ✓ | ⏱: 43.36s 
+[FETCH]... ↓ https://www.persefoni.com/blog/issb-japan-ssbj-standards           
+| ✓ | ⏱: 43.36s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/issb-japan-ssbj-standards           
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://www.persefoni.com/blog/issb-japan-ssbj-standards           
+| ✓ | ⏱: 43.41s 
+[FETCH]... ↓ 
+https://www.persefoni.com/blog/canadian-sustainability-standards-csds           
+| ✓ | ⏱: 43.43s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/blog/canadian-sustainability-standards-csds           
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● 
+https://www.persefoni.com/blog/canadian-sustainability-standards-csds           
+| ✓ | ⏱: 43.47s 
+[FETCH]... ↓ https://www.persefoni.com/blog/sustainability-management-software  
+| ✓ | ⏱: 40.13s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/sustainability-management-software  
+| ✓ | ⏱: 0.33s 
+[COMPLETE] ● https://www.persefoni.com/blog/sustainability-management-software  
+| ✓ | ⏱: 40.47s 
+[FETCH]... ↓ https://www.persefoni.com/blog/ny-ghg-reporting-program            
+| ✓ | ⏱: 43.77s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/ny-ghg-reporting-program            
+| ✓ | ⏱: 2.65s 
+[COMPLETE] ● https://www.persefoni.com/blog/ny-ghg-reporting-program            
+| ✓ | ⏱: 46.42s 
+[FETCH]... ↓ https://www.persefoni.com/blog/best-carbon-accounting-software     
+| ✓ | ⏱: 46.51s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/best-carbon-accounting-software     
+| ✓ | ⏱: 7.09s 
+[COMPLETE] ● https://www.persefoni.com/blog/best-carbon-accounting-software     
+| ✓ | ⏱: 55.03s 
+[FETCH]... ↓ https://www.persefoni.com/blog/what-is-csrd                        
+| ✓ | ⏱: 46.52s 
+[SCRAPE].. ◆ https://www.persefoni.com/blog/what-is-csrd                        
+| ✓ | ⏱: 6.08s 
+[COMPLETE] ● https://www.persefoni.com/blog/what-is-csrd                        
+| ✓ | ⏱: 52.79s 
+[FETCH]... ↓ https://www.persefoni.com/category/company                         
+| ✓ | ⏱: 42.39s 
+[SCRAPE].. ◆ https://www.persefoni.com/category/company                         
+| ✓ | ⏱: 0.65s 
+[COMPLETE] ● https://www.persefoni.com/category/company                         
+| ✓ | ⏱: 43.05s 
+[FETCH]... ↓ https://www.persefoni.com/category/newsletters                     
+| ✓ | ⏱: 25.86s 
+[SCRAPE].. ◆ https://www.persefoni.com/category/newsletters                     
+| ✓ | ⏱: 0.34s 
+[COMPLETE] ● https://www.persefoni.com/category/newsletters                     
+| ✓ | ⏱: 26.22s 
+[FETCH]... ↓ https://www.persefoni.com/category/product                         
+| ✓ | ⏱: 24.34s 
+[SCRAPE].. ◆ https://www.persefoni.com/category/product                         
+| ✓ | ⏱: 0.58s 
+[COMPLETE] ● https://www.persefoni.com/category/product                         
+| ✓ | ⏱: 24.93s 
+[FETCH]... ↓ https://www.persefoni.com/category/insights                        
+| ✓ | ⏱: 30.97s 
+[SCRAPE].. ◆ https://www.persefoni.com/category/insights                        
+| ✓ | ⏱: 0.67s 
+[COMPLETE] ● https://www.persefoni.com/category/insights                        
+| ✓ | ⏱: 31.64s 
+[FETCH]... ↓ https://www.persefoni.com/company/employee-spotlights              
+| ✓ | ⏱: 11.71s 
+[SCRAPE].. ◆ https://www.persefoni.com/company/employee-spotlights              
+| ✓ | ⏱: 0.61s 
+[COMPLETE] ● https://www.persefoni.com/company/employee-spotlights              
+| ✓ | ⏱: 12.34s 
+[FETCH]... ↓ https://www.persefoni.com/climate-policy-library                   
+| ✓ | ⏱: 21.83s 
+[SCRAPE].. ◆ https://www.persefoni.com/climate-policy-library                   
+| ✓ | ⏱: 0.44s 
+[COMPLETE] ● https://www.persefoni.com/climate-policy-library                   
+| ✓ | ⏱: 22.28s 
+[FETCH]... ↓ https://www.persefoni.com/contact-form-ca-compliance               
+| ✓ | ⏱: 13.43s 
+[SCRAPE].. ◆ https://www.persefoni.com/contact-form-ca-compliance               
+| ✓ | ⏱: 0.38s 
+[COMPLETE] ● https://www.persefoni.com/contact-form-ca-compliance               
+| ✓ | ⏱: 13.82s 
+[FETCH]... ↓ https://www.persefoni.com/customers/artech                         
+| ✓ | ⏱: 5.58s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/artech                         
+| ✓ | ⏱: 2.13s 
+[COMPLETE] ● https://www.persefoni.com/customers/artech                         
+| ✓ | ⏱: 7.78s 
+[FETCH]... ↓ https://www.persefoni.com/customers/pleo                           
+| ✓ | ⏱: 7.96s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/pleo                           
+| ✓ | ⏱: 1.32s 
+[COMPLETE] ● https://www.persefoni.com/customers/pleo                           
+| ✓ | ⏱: 9.30s 
+[FETCH]... ↓ 
+https://www.persefoni.com/customers/gp-portfolio-companies-persefoni-pro        
+| ✓ | ⏱: 9.52s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/customers/gp-portfolio-companies-persefoni-pro        
+| ✓ | ⏱: 0.66s 
+[COMPLETE] ● 
+https://www.persefoni.com/customers/gp-portfolio-companies-persefoni-pro        
+| ✓ | ⏱: 10.19s 
+[FETCH]... ↓ https://www.persefoni.com/customers/multinational-investment-bank  
+| ✓ | ⏱: 10.18s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/multinational-investment-bank  
+| ✓ | ⏱: 0.34s 
+[COMPLETE] ● https://www.persefoni.com/customers/multinational-investment-bank  
+| ✓ | ⏱: 10.54s 
+[FETCH]... ↓ https://www.persefoni.com/customers/aichi-fg                       
+| ✓ | ⏱: 10.55s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/aichi-fg                       
+| ✓ | ⏱: 0.42s 
+[COMPLETE] ● https://www.persefoni.com/customers/aichi-fg                       
+| ✓ | ⏱: 10.97s 
+[FETCH]... ↓ https://www.persefoni.com/customers/global-private-equity-firm     
+| ✓ | ⏱: 10.98s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/global-private-equity-firm     
+| ✓ | ⏱: 0.40s 
+[COMPLETE] ● https://www.persefoni.com/customers/global-private-equity-firm     
+| ✓ | ⏱: 11.39s 
+[FETCH]... ↓ https://www.persefoni.com/customers/hoover-cs                      
+| ✓ | ⏱: 12.71s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/hoover-cs                      
+| ✓ | ⏱: 0.36s 
+[COMPLETE] ● https://www.persefoni.com/customers/hoover-cs                      
+| ✓ | ⏱: 13.08s 
+[FETCH]... ↓ https://www.persefoni.com/customers/sovereign-consulting           
+| ✓ | ⏱: 10.23s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/sovereign-consulting           
+| ✓ | ⏱: 0.48s 
+[COMPLETE] ● https://www.persefoni.com/customers/sovereign-consulting           
+| ✓ | ⏱: 10.72s 
+[FETCH]... ↓ https://www.persefoni.com/customers/petcurean                      
+| ✓ | ⏱: 13.62s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/petcurean                      
+| ✓ | ⏱: 0.55s 
+[COMPLETE] ● https://www.persefoni.com/customers/petcurean                      
+| ✓ | ⏱: 14.19s 
+[FETCH]... ↓ 
+https://www.persefoni.com/de/business/carbon-footprint-measurement-analytics    
+| ✓ | ⏱: 9.05s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/de/business/carbon-footprint-measurement-analytics    
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● 
+https://www.persefoni.com/de/business/carbon-footprint-measurement-analytics    
+| ✓ | ⏱: 9.35s 
+[FETCH]... ↓ https://www.persefoni.com/customers/brown-co                       
+| ✓ | ⏱: 14.48s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/brown-co                       
+| ✓ | ⏱: 0.35s 
+[COMPLETE] ● https://www.persefoni.com/customers/brown-co                       
+| ✓ | ⏱: 14.84s 
+[FETCH]... ↓ https://www.persefoni.com/customers/syracuse-university            
+| ✓ | ⏱: 9.73s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/syracuse-university            
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.persefoni.com/customers/syracuse-university            
+| ✓ | ⏱: 10.03s 
+[FETCH]... ↓ https://www.persefoni.com/customers/forbes-cloud-100-honoree       
+| ✓ | ⏱: 15.16s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/forbes-cloud-100-honoree       
+| ✓ | ⏱: 0.31s 
+[COMPLETE] ● https://www.persefoni.com/customers/forbes-cloud-100-honoree       
+| ✓ | ⏱: 15.47s 
+[FETCH]... ↓ https://www.persefoni.com/customers/oak-hill-advisors              
+| ✓ | ⏱: 15.48s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/oak-hill-advisors              
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://www.persefoni.com/customers/oak-hill-advisors              
+| ✓ | ⏱: 15.51s 
+[FETCH]... ↓ https://www.persefoni.com/de/business                              
+| ✓ | ⏱: 10.39s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/business                              
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.persefoni.com/de/business                              
+| ✓ | ⏱: 10.68s 
+[FETCH]... ↓ https://www.persefoni.com/de                                       
+| ✓ | ⏱: 10.68s 
+[SCRAPE].. ◆ https://www.persefoni.com/de                                       
+| ✓ | ⏱: 0.33s 
+[COMPLETE] ● https://www.persefoni.com/de                                       
+| ✓ | ⏱: 11.02s 
+[FETCH]... ↓ https://www.persefoni.com/customers/us-regional-bank               
+| ✓ | ⏱: 11.03s 
+[SCRAPE].. ◆ https://www.persefoni.com/customers/us-regional-bank               
+| ✓ | ⏱: 0.41s 
+[COMPLETE] ● https://www.persefoni.com/customers/us-regional-bank               
+| ✓ | ⏱: 11.45s 
+[FETCH]... ↓ https://www.persefoni.com/de/business/scope-3-supplier-engagement  
+| ✓ | ⏱: 8.84s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/business/scope-3-supplier-engagement  
+| ✓ | ⏱: 0.85s 
+[COMPLETE] ● https://www.persefoni.com/de/business/scope-3-supplier-engagement  
+| ✓ | ⏱: 9.71s 
+[FETCH]... ↓ 
+https://www.persefoni.com/de/business/regulatory-ghg-emissions-reporting        
+| ✓ | ⏱: 9.87s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/de/business/regulatory-ghg-emissions-reporting        
+| ✓ | ⏱: 0.94s 
+[COMPLETE] ● 
+https://www.persefoni.com/de/business/regulatory-ghg-emissions-reporting        
+| ✓ | ⏱: 10.82s 
+[FETCH]... ↓ https://www.persefoni.com/de/business/decarbonization-management   
+| ✓ | ⏱: 10.83s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/business/decarbonization-management   
+| ✓ | ⏱: 0.58s 
+[COMPLETE] ● https://www.persefoni.com/de/business/decarbonization-management   
+| ✓ | ⏱: 11.44s 
+[FETCH]... ↓ 
+https://www.persefoni.com/de/business/stakeholder-ghg-emissions-reporting       
+| ✓ | ⏱: 9.30s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/de/business/stakeholder-ghg-emissions-reporting       
+| ✓ | ⏱: 0.54s 
+[COMPLETE] ● 
+https://www.persefoni.com/de/business/stakeholder-ghg-emissions-reporting       
+| ✓ | ⏱: 9.84s 
+[FETCH]... ↓ https://www.persefoni.com/de/company/sustainability-advisory-board 
+| ✓ | ⏱: 4.03s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/company/sustainability-advisory-board 
+| ✓ | ⏱: 2.20s 
+[COMPLETE] ● https://www.persefoni.com/de/company/sustainability-advisory-board 
+| ✓ | ⏱: 6.32s 
+[FETCH]... ↓ https://www.persefoni.com/de/company/people-and-leadership         
+| ✓ | ⏱: 9.92s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/company/people-and-leadership         
+| ✓ | ⏱: 1.04s 
+[COMPLETE] ● https://www.persefoni.com/de/company/people-and-leadership         
+| ✓ | ⏱: 10.98s 
+[FETCH]... ↓ https://www.persefoni.com/de/company/careers                       
+| ✓ | ⏱: 10.99s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/company/careers                       
+| ✓ | ⏱: 0.54s 
+[COMPLETE] ● https://www.persefoni.com/de/company/careers                       
+| ✓ | ⏱: 11.54s 
+[FETCH]... ↓ https://www.persefoni.com/de/company/logos-and-brand-assets        
+| ✓ | ⏱: 11.73s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/company/logos-and-brand-assets        
+| ✓ | ⏱: 0.56s 
+[COMPLETE] ● https://www.persefoni.com/de/company/logos-and-brand-assets        
+| ✓ | ⏱: 12.30s 
+[FETCH]... ↓ https://www.persefoni.com/de/company/certifications                
+| ✓ | ⏱: 12.31s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/company/certifications                
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.persefoni.com/de/company/certifications                
+| ✓ | ⏱: 12.63s 
+[FETCH]... ↓ https://www.persefoni.com/de/company/persefoni-annual-impact-report
+| ✓ | ⏱: 12.63s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/company/persefoni-annual-impact-report
+| ✓ | ⏱: 0.71s 
+[COMPLETE] ● https://www.persefoni.com/de/company/persefoni-annual-impact-report
+| ✓ | ⏱: 13.37s 
+[FETCH]... ↓ https://www.persefoni.com/de/customers/cge-partners                
+| ✓ | ⏱: 9.51s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/customers/cge-partners                
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://www.persefoni.com/de/customers/cge-partners                
+| ✓ | ⏱: 9.77s 
+[FETCH]... ↓ https://www.persefoni.com/de/documents/japan-commercial-disclosure 
+| ✓ | ⏱: 9.79s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/documents/japan-commercial-disclosure 
+| ✓ | ⏱: 0.37s 
+[COMPLETE] ● https://www.persefoni.com/de/documents/japan-commercial-disclosure 
+| ✓ | ⏱: 10.17s 
+[FETCH]... ↓ https://www.persefoni.com/de/financial-services                    
+| ✓ | ⏱: 7.56s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/financial-services                    
+| ✓ | ⏱: 0.49s 
+[COMPLETE] ● https://www.persefoni.com/de/financial-services                    
+| ✓ | ⏱: 8.06s 
+[FETCH]... ↓ https://www.persefoni.com/de/customers/xerox                       
+| ✓ | ⏱: 10.68s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/customers/xerox                       
+| ✓ | ⏱: 0.52s 
+[COMPLETE] ● https://www.persefoni.com/de/customers/xerox                       
+| ✓ | ⏱: 11.20s 
+[FETCH]... ↓ https://www.persefoni.com/de/documents/security                    
+| ✓ | ⏱: 11.22s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/documents/security                    
+| ✓ | ⏱: 0.39s 
+[COMPLETE] ● https://www.persefoni.com/de/documents/security                    
+| ✓ | ⏱: 11.62s 
+[FETCH]... ↓ 
+https://www.persefoni.com/de/expert-publications/forrester-wave-report-2024     
+| ✓ | ⏱: 9.00s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/de/expert-publications/forrester-wave-report-2024     
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● 
+https://www.persefoni.com/de/expert-publications/forrester-wave-report-2024     
+| ✓ | ⏱: 9.26s 
+[FETCH]... ↓ 
+https://www.persefoni.com/de/expert-publications/controllers-guide-to-climate-es
+g-reporting          | ✓ | ⏱: 9.27s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/de/expert-publications/controllers-guide-to-climate-es
+g-reporting          | ✓ | ⏱: 0.30s 
+[COMPLETE] ● 
+https://www.persefoni.com/de/expert-publications/controllers-guide-to-climate-es
+g-reporting          | ✓ | ⏱: 9.58s 
+[FETCH]... ↓ https://www.persefoni.com/de/contact-us                            
+| ✓ | ⏱: 12.17s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/contact-us                            
+| ✓ | ⏱: 0.40s 
+[COMPLETE] ● https://www.persefoni.com/de/contact-us                            
+| ✓ | ⏱: 12.59s 
+[FETCH]... ↓ https://www.persefoni.com/de/customers/at-home                     
+| ✓ | ⏱: 12.60s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/customers/at-home                     
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.persefoni.com/de/customers/at-home                     
+| ✓ | ⏱: 12.90s 
+[FETCH]... ↓ https://www.persefoni.com/de/customers                             
+| ✓ | ⏱: 12.89s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/customers                             
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.persefoni.com/de/customers                             
+| ✓ | ⏱: 13.15s 
+[FETCH]... ↓ https://www.persefoni.com/de/customers/pittsburgh-penguins         
+| ✓ | ⏱: 13.16s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/customers/pittsburgh-penguins         
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.persefoni.com/de/customers/pittsburgh-penguins         
+| ✓ | ⏱: 13.41s 
+[FETCH]... ↓ 
+https://www.persefoni.com/de/expert-publications/benchmarking-sustainability-rep
+orting-2024          | ✓ | ⏱: 13.41s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/de/expert-publications/benchmarking-sustainability-rep
+orting-2024          | ✓ | ⏱: 0.26s 
+[COMPLETE] ● 
+https://www.persefoni.com/de/expert-publications/benchmarking-sustainability-rep
+orting-2024          | ✓ | ⏱: 13.67s 
+[FETCH]... ↓ https://www.persefoni.com/de/customers/natera                      
+| ✓ | ⏱: 13.69s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/customers/natera                      
+| ✓ | ⏱: 0.31s 
+[COMPLETE] ● https://www.persefoni.com/de/customers/natera                      
+| ✓ | ⏱: 14.01s 
+[FETCH]... ↓ 
+https://www.persefoni.com/de/financial-services/decarbonization-management      
+| ✓ | ⏱: 8.75s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/de/financial-services/decarbonization-management      
+| ✓ | ⏱: 0.40s 
+[COMPLETE] ● 
+https://www.persefoni.com/de/financial-services/decarbonization-management      
+| ✓ | ⏱: 9.16s 
+[FETCH]... ↓ 
+https://www.persefoni.com/de/financial-services/financed-emissions-accounting-an
+alytics              | ✓ | ⏱: 5.64s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/de/financial-services/financed-emissions-accounting-an
+alytics              | ✓ | ⏱: 0.31s 
+[COMPLETE] ● 
+https://www.persefoni.com/de/financial-services/financed-emissions-accounting-an
+alytics              | ✓ | ⏱: 5.96s 
+[FETCH]... ↓ https://www.persefoni.com/de/insights/events                       
+| ✓ | ⏱: 8.42s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/insights/events                       
+| ✓ | ⏱: 3.05s 
+[COMPLETE] ● https://www.persefoni.com/de/insights/events                       
+| ✓ | ⏱: 11.49s 
+[FETCH]... ↓ 
+https://www.persefoni.com/de/financial-services/investor-ghg-emissions-reporting
+| ✓ | ⏱: 12.22s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/de/financial-services/investor-ghg-emissions-reporting
+| ✓ | ⏱: 0.70s 
+[COMPLETE] ● 
+https://www.persefoni.com/de/financial-services/investor-ghg-emissions-reporting
+| ✓ | ⏱: 12.94s 
+[FETCH]... ↓ https://www.persefoni.com/de/insights/expert-publications          
+| ✓ | ⏱: 12.97s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/insights/expert-publications          
+| ✓ | ⏱: 0.58s 
+[COMPLETE] ● https://www.persefoni.com/de/insights/expert-publications          
+| ✓ | ⏱: 13.61s 
+[FETCH]... ↓ 
+https://www.persefoni.com/de/financial-services/portfolio-company-engagement    
+| ✓ | ⏱: 13.68s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/de/financial-services/portfolio-company-engagement    
+| ✓ | ⏱: 0.33s 
+[COMPLETE] ● 
+https://www.persefoni.com/de/financial-services/portfolio-company-engagement    
+| ✓ | ⏱: 14.01s 
+[FETCH]... ↓ https://www.persefoni.com/de/partners                              
+| ✓ | ⏱: 10.81s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/partners                              
+| ✓ | ⏱: 0.90s 
+[COMPLETE] ● https://www.persefoni.com/de/partners                              
+| ✓ | ⏱: 11.73s 
+[FETCH]... ↓ https://www.persefoni.com/de/insights/blog                         
+| ✓ | ⏱: 15.32s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/insights/blog                         
+| ✓ | ⏱: 0.46s 
+[COMPLETE] ● https://www.persefoni.com/de/insights/blog                         
+| ✓ | ⏱: 15.78s 
+[FETCH]... ↓ https://www.persefoni.com/de/schedule-demo                         
+| ✓ | ⏱: 10.62s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/schedule-demo                         
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.persefoni.com/de/schedule-demo                         
+| ✓ | ⏱: 10.92s 
+[FETCH]... ↓ https://www.persefoni.com/de/sign-up/carbon-accounting-essentials  
+| ✓ | ⏱: 10.96s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/sign-up/carbon-accounting-essentials  
+| ✓ | ⏱: 0.40s 
+[COMPLETE] ● https://www.persefoni.com/de/sign-up/carbon-accounting-essentials  
+| ✓ | ⏱: 11.36s 
+[FETCH]... ↓ https://www.persefoni.com/de/sign-up                               
+| ✓ | ⏱: 11.36s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/sign-up                               
+| ✓ | ⏱: 0.33s 
+[COMPLETE] ● https://www.persefoni.com/de/sign-up                               
+| ✓ | ⏱: 11.70s 
+[FETCH]... ↓ https://www.persefoni.com/de/persefoniai                           
+| ✓ | ⏱: 11.53s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/persefoniai                           
+| ✓ | ⏱: 0.38s 
+[COMPLETE] ● https://www.persefoni.com/de/persefoniai                           
+| ✓ | ⏱: 11.91s 
+[FETCH]... ↓ https://www.persefoni.com/documents/japan-cookie-declaration       
+| ✓ | ⏱: 12.47s 
+[SCRAPE].. ◆ https://www.persefoni.com/documents/japan-cookie-declaration       
+| ✓ | ⏱: 0.38s 
+[COMPLETE] ● https://www.persefoni.com/documents/japan-cookie-declaration       
+| ✓ | ⏱: 12.85s 
+[FETCH]... ↓ https://www.persefoni.com/documents/cookie-declaration             
+| ✓ | ⏱: 12.48s 
+[SCRAPE].. ◆ https://www.persefoni.com/documents/cookie-declaration             
+| ✓ | ⏱: 0.52s 
+[COMPLETE] ● https://www.persefoni.com/documents/cookie-declaration             
+| ✓ | ⏱: 13.01s 
+[FETCH]... ↓ 
+https://www.persefoni.com/de/sign-up/california-climate-disclosure-compliance   
+| ✓ | ⏱: 12.88s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/de/sign-up/california-climate-disclosure-compliance   
+| ✓ | ⏱: 0.33s 
+[COMPLETE] ● 
+https://www.persefoni.com/de/sign-up/california-climate-disclosure-compliance   
+| ✓ | ⏱: 13.23s 
+[FETCH]... ↓ https://www.persefoni.com/de/sign-up/decarbonization-101           
+| ✓ | ⏱: 13.25s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/sign-up/decarbonization-101           
+| ✓ | ⏱: 0.38s 
+[COMPLETE] ● https://www.persefoni.com/de/sign-up/decarbonization-101           
+| ✓ | ⏱: 13.64s 
+[FETCH]... ↓ https://www.persefoni.com/de/solutions/sb-253                      
+| ✓ | ⏱: 13.77s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/solutions/sb-253                      
+| ✓ | ⏱: 0.36s 
+[COMPLETE] ● https://www.persefoni.com/de/solutions/sb-253                      
+| ✓ | ⏱: 14.14s 
+[FETCH]... ↓ https://www.persefoni.com/de/sustainability-reporting              
+| ✓ | ⏱: 13.97s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/sustainability-reporting              
+| ✓ | ⏱: 0.36s 
+[COMPLETE] ● https://www.persefoni.com/de/sustainability-reporting              
+| ✓ | ⏱: 14.34s 
+[FETCH]... ↓ https://www.persefoni.com/de/pricing-compliance-services           
+| ✓ | ⏱: 14.35s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/pricing-compliance-services           
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.persefoni.com/de/pricing-compliance-services           
+| ✓ | ⏱: 14.65s 
+[FETCH]... ↓ https://www.persefoni.com/de/sign-up/scope-3-101                   
+| ✓ | ⏱: 14.64s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/sign-up/scope-3-101                   
+| ✓ | ⏱: 0.48s 
+[COMPLETE] ● https://www.persefoni.com/de/sign-up/scope-3-101                   
+| ✓ | ⏱: 15.13s 
+[FETCH]... ↓ https://www.persefoni.com/de/solutions/sb-261                      
+| ✓ | ⏱: 15.30s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/solutions/sb-261                      
+| ✓ | ⏱: 0.43s 
+[COMPLETE] ● https://www.persefoni.com/de/solutions/sb-261                      
+| ✓ | ⏱: 15.74s 
+[FETCH]... ↓ https://www.persefoni.com/de/pricing                               
+| ✓ | ⏱: 15.65s 
+[SCRAPE].. ◆ https://www.persefoni.com/de/pricing                               
+| ✓ | ⏱: 0.42s 
+[COMPLETE] ● https://www.persefoni.com/de/pricing                               
+| ✓ | ⏱: 16.08s 
+[FETCH]... ↓ https://www.persefoni.com/documents/software-subscription-agreement
+| ✓ | ⏱: 7.71s 
+[SCRAPE].. ◆ https://www.persefoni.com/documents/software-subscription-agreement
+| ✓ | ⏱: 1.30s 
+[COMPLETE] ● https://www.persefoni.com/documents/software-subscription-agreement
+| ✓ | ⏱: 9.02s 
+[FETCH]... ↓ https://www.persefoni.com/documents/supplier-code-of-conduct       
+| ✓ | ⏱: 7.23s 
+[SCRAPE].. ◆ https://www.persefoni.com/documents/supplier-code-of-conduct       
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.persefoni.com/documents/supplier-code-of-conduct       
+| ✓ | ⏱: 7.56s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/business                           
+| ✓ | ⏱: 2.33s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/business                           
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/business                           
+| ✓ | ⏱: 2.60s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb                                    
+| ✓ | ⏱: 7.84s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb                                    
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● https://www.persefoni.com/en-gb                                    
+| ✓ | ⏱: 8.10s 
+[FETCH]... ↓ 
+https://www.persefoni.com/documents/software-subscription-agreement-jp          
+| ✓ | ⏱: 8.11s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/documents/software-subscription-agreement-jp          
+| ✓ | ⏱: 0.27s 
+[COMPLETE] ● 
+https://www.persefoni.com/documents/software-subscription-agreement-jp          
+| ✓ | ⏱: 8.38s 
+[FETCH]... ↓ 
+https://www.persefoni.com/documents/software-subscription-agreement-fr          
+| ✓ | ⏱: 8.78s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/documents/software-subscription-agreement-fr          
+| ✓ | ⏱: 0.39s 
+[COMPLETE] ● 
+https://www.persefoni.com/documents/software-subscription-agreement-fr          
+| ✓ | ⏱: 9.18s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/business/stakeholder-ghg-emissions-reporting    
+| ✓ | ⏱: 3.96s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/business/stakeholder-ghg-emissions-reporting    
+| ✓ | ⏱: 0.69s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/business/stakeholder-ghg-emissions-reporting    
+| ✓ | ⏱: 4.73s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/business/carbon-footprint-measurement-analytics 
+| ✓ | ⏱: 4.80s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/business/carbon-footprint-measurement-analytics 
+| ✓ | ⏱: 0.55s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/business/carbon-footprint-measurement-analytics 
+| ✓ | ⏱: 5.36s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/company/careers                    
+| ✓ | ⏱: 5.37s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/company/careers                    
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/company/careers                    
+| ✓ | ⏱: 5.69s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/customers                          
+| ✓ | ⏱: 5.70s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/customers                          
+| ✓ | ⏱: 0.36s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/customers                          
+| ✓ | ⏱: 6.07s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/contact-us                         
+| ✓ | ⏱: 6.17s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/contact-us                         
+| ✓ | ⏱: 0.45s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/contact-us                         
+| ✓ | ⏱: 6.62s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/company/sustainability-advisory-board           
+| ✓ | ⏱: 6.64s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/company/sustainability-advisory-board           
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/company/sustainability-advisory-board           
+| ✓ | ⏱: 6.94s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/company/people-and-leadership      
+| ✓ | ⏱: 7.00s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/company/people-and-leadership      
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/company/people-and-leadership      
+| ✓ | ⏱: 7.29s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/business/scope-3-supplier-engagement            
+| ✓ | ⏱: 7.31s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/business/scope-3-supplier-engagement            
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/business/scope-3-supplier-engagement            
+| ✓ | ⏱: 7.56s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/company/logos-and-brand-assets     
+| ✓ | ⏱: 7.56s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/company/logos-and-brand-assets     
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/company/logos-and-brand-assets     
+| ✓ | ⏱: 7.85s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/customers/at-home                  
+| ✓ | ⏱: 8.68s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/customers/at-home                  
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/customers/at-home                  
+| ✓ | ⏱: 8.93s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/climate-policy-library             
+| ✓ | ⏱: 8.12s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/climate-policy-library             
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/climate-policy-library             
+| ✓ | ⏱: 8.37s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/company/certifications             
+| ✓ | ⏱: 8.44s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/company/certifications             
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/company/certifications             
+| ✓ | ⏱: 8.74s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/business/regulatory-ghg-emissions-reporting     
+| ✓ | ⏱: 8.74s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/business/regulatory-ghg-emissions-reporting     
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/business/regulatory-ghg-emissions-reporting     
+| ✓ | ⏱: 9.06s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/company/persefoni-annual-impact-report          
+| ✓ | ⏱: 9.07s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/company/persefoni-annual-impact-report          
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/company/persefoni-annual-impact-report          
+| ✓ | ⏱: 9.33s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/business/decarbonization-management
+| ✓ | ⏱: 9.34s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/business/decarbonization-management
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/business/decarbonization-management
+| ✓ | ⏱: 9.59s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/customers/xerox                    
+| ✓ | ⏱: 7.84s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/customers/xerox                    
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/customers/xerox                    
+| ✓ | ⏱: 8.10s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/customers/cge-partners             
+| ✓ | ⏱: 8.10s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/customers/cge-partners             
+| ✓ | ⏱: 0.37s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/customers/cge-partners             
+| ✓ | ⏱: 8.48s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/customers/pittsburgh-penguins      
+| ✓ | ⏱: 8.50s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/customers/pittsburgh-penguins      
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/customers/pittsburgh-penguins      
+| ✓ | ⏱: 8.79s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/documents/japan-commercial-disclosure           
+| ✓ | ⏱: 8.61s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/documents/japan-commercial-disclosure           
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/documents/japan-commercial-disclosure           
+| ✓ | ⏱: 8.91s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/customers/natera                   
+| ✓ | ⏱: 9.09s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/customers/natera                   
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/customers/natera                   
+| ✓ | ⏱: 9.38s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/documents/security                 
+| ✓ | ⏱: 4.43s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/documents/security                 
+| ✓ | ⏱: 0.33s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/documents/security                 
+| ✓ | ⏱: 4.77s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/financial-services                 
+| ✓ | ⏱: 2.54s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/financial-services                 
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/financial-services                 
+| ✓ | ⏱: 2.88s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/pricing                            
+| ✓ | ⏱: 3.78s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/pricing                            
+| ✓ | ⏱: 0.59s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/pricing                            
+| ✓ | ⏱: 4.40s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/partners/workiva                   
+| ✓ | ⏱: 4.46s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/partners/workiva                   
+| ✓ | ⏱: 0.40s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/partners/workiva                   
+| ✓ | ⏱: 4.88s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/financial-services/decarbonization-management   
+| ✓ | ⏱: 6.95s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/financial-services/decarbonization-management   
+| ✓ | ⏱: 0.46s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/financial-services/decarbonization-management   
+| ✓ | ⏱: 7.41s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/partners/am                        
+| ✓ | ⏱: 5.36s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/partners/am                        
+| ✓ | ⏱: 0.40s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/partners/am                        
+| ✓ | ⏱: 5.77s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/persefoniai                        
+| ✓ | ⏱: 5.78s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/persefoniai                        
+| ✓ | ⏱: 0.34s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/persefoniai                        
+| ✓ | ⏱: 6.13s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/expert-publications/benchmarking-sustainability-
+reporting-2024       | ✓ | ⏱: 8.39s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/expert-publications/benchmarking-sustainability-
+reporting-2024       | ✓ | ⏱: 0.39s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/expert-publications/benchmarking-sustainability-
+reporting-2024       | ✓ | ⏱: 8.79s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/partners                           
+| ✓ | ⏱: 6.74s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/partners                           
+| ✓ | ⏱: 0.36s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/partners                           
+| ✓ | ⏱: 7.10s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/financial-services/financed-emissions-accounting
+-analytics           | ✓ | ⏱: 7.11s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/financial-services/financed-emissions-accounting
+-analytics           | ✓ | ⏱: 0.26s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/financial-services/financed-emissions-accounting
+-analytics           | ✓ | ⏱: 7.37s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/financial-services/portfolio-company-engagement 
+| ✓ | ⏱: 7.38s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/financial-services/portfolio-company-engagement 
+| ✓ | ⏱: 0.27s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/financial-services/portfolio-company-engagement 
+| ✓ | ⏱: 7.66s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/partners/bain-and-company          
+| ✓ | ⏱: 7.66s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/partners/bain-and-company          
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/partners/bain-and-company          
+| ✓ | ⏱: 7.94s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/insights/blog                      
+| ✓ | ⏱: 7.94s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/insights/blog                      
+| ✓ | ⏱: 0.35s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/insights/blog                      
+| ✓ | ⏱: 8.30s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/expert-publications/forrester-wave-report-2024  
+| ✓ | ⏱: 10.36s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/expert-publications/forrester-wave-report-2024  
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/expert-publications/forrester-wave-report-2024  
+| ✓ | ⏱: 10.40s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/partners/connor-group              
+| ✓ | ⏱: 8.34s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/partners/connor-group              
+| ✓ | ⏱: 0.35s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/partners/connor-group              
+| ✓ | ⏱: 8.70s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/financial-services/investor-ghg-emissions-report
+ing                  | ✓ | ⏱: 8.72s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/financial-services/investor-ghg-emissions-report
+ing                  | ✓ | ⏱: 0.48s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/financial-services/investor-ghg-emissions-report
+ing                  | ✓ | ⏱: 9.21s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/expert-publications/controllers-guide-to-climate
+-esg-reporting       | ✓ | ⏱: 11.27s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/expert-publications/controllers-guide-to-climate
+-esg-reporting       | ✓ | ⏱: 0.34s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/expert-publications/controllers-guide-to-climate
+-esg-reporting       | ✓ | ⏱: 11.62s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/partners/patch                     
+| ✓ | ⏱: 9.61s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/partners/patch                     
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/partners/patch                     
+| ✓ | ⏱: 9.86s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/insights/events                    
+| ✓ | ⏱: 9.87s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/insights/events                    
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/insights/events                    
+| ✓ | ⏱: 10.14s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/partners/aws                       
+| ✓ | ⏱: 10.14s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/partners/aws                       
+| ✓ | ⏱: 0.36s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/partners/aws                       
+| ✓ | ⏱: 10.51s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/insights/expert-publications       
+| ✓ | ⏱: 10.50s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/insights/expert-publications       
+| ✓ | ⏱: 0.41s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/insights/expert-publications       
+| ✓ | ⏱: 10.92s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/pricing-compliance-services        
+| ✓ | ⏱: 8.47s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/pricing-compliance-services        
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/pricing-compliance-services        
+| ✓ | ⏱: 8.76s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/schedule-demo                      
+| ✓ | ⏱: 5.20s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/schedule-demo                      
+| ✓ | ⏱: 0.35s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/schedule-demo                      
+| ✓ | ⏱: 5.57s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/sign-up                            
+| ✓ | ⏱: 3.07s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/sign-up                            
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/sign-up                            
+| ✓ | ⏱: 3.41s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/sign-up/carbon-accounting-essentials            
+| ✓ | ⏱: 3.41s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/sign-up/carbon-accounting-essentials            
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/sign-up/carbon-accounting-essentials            
+| ✓ | ⏱: 3.71s 
+[FETCH]... ↓ 
+https://www.persefoni.com/en-gb/sign-up/california-climate-disclosure-compliance
+| ✓ | ⏱: 3.73s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/en-gb/sign-up/california-climate-disclosure-compliance
+| ✓ | ⏱: 0.30s 
+[COMPLETE] ● 
+https://www.persefoni.com/en-gb/sign-up/california-climate-disclosure-compliance
+| ✓ | ⏱: 4.03s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/sign-up/decarbonization-101        
+| ✓ | ⏱: 4.20s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/sign-up/decarbonization-101        
+| ✓ | ⏱: 0.46s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/sign-up/decarbonization-101        
+| ✓ | ⏱: 4.68s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/sustainability-reporting           
+| ✓ | ⏱: 2.51s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/sustainability-reporting           
+| ✓ | ⏱: 0.75s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/sustainability-reporting           
+| ✓ | ⏱: 3.27s 
+[FETCH]... ↓ 
+https://www.persefoni.com/events/ca-climate-laws-corporate-perspective          
+| ✓ | ⏱: 3.27s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/events/ca-climate-laws-corporate-perspective          
+| ✓ | ⏱: 1.28s 
+[COMPLETE] ● 
+https://www.persefoni.com/events/ca-climate-laws-corporate-perspective          
+| ✓ | ⏱: 4.56s 
+[FETCH]... ↓ https://www.persefoni.com/events/decarbonization-in-private-markets
+| ✓ | ⏱: 5.29s 
+[SCRAPE].. ◆ https://www.persefoni.com/events/decarbonization-in-private-markets
+| ✓ | ⏱: 0.84s 
+[COMPLETE] ● https://www.persefoni.com/events/decarbonization-in-private-markets
+| ✓ | ⏱: 6.15s 
+[FETCH]... ↓ https://www.persefoni.com/events/esg-controller                    
+| ✓ | ⏱: 6.70s 
+[SCRAPE].. ◆ https://www.persefoni.com/events/esg-controller                    
+| ✓ | ⏱: 0.33s 
+[COMPLETE] ● https://www.persefoni.com/events/esg-controller                    
+| ✓ | ⏱: 7.04s 
+[FETCH]... ↓ 
+https://www.persefoni.com/events/from-disclosure-to-decarbonization-a-path-to-va
+lue-creation         | ✓ | ⏱: 7.03s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/events/from-disclosure-to-decarbonization-a-path-to-va
+lue-creation         | ✓ | ⏱: 0.28s 
+[COMPLETE] ● 
+https://www.persefoni.com/events/from-disclosure-to-decarbonization-a-path-to-va
+lue-creation         | ✓ | ⏱: 7.31s 
+[FETCH]... ↓ https://www.persefoni.com/events/preparing-for-2024-cdp-reporting  
+| ✓ | ⏱: 5.84s 
+[SCRAPE].. ◆ https://www.persefoni.com/events/preparing-for-2024-cdp-reporting  
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://www.persefoni.com/events/preparing-for-2024-cdp-reporting  
+| ✓ | ⏱: 5.89s 
+[FETCH]... ↓ 
+https://www.persefoni.com/events/driving-enterprise-wide-value-through-sustainab
+ility                | ✓ | ⏱: 7.39s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/events/driving-enterprise-wide-value-through-sustainab
+ility                | ✓ | ⏱: 0.31s 
+[COMPLETE] ● 
+https://www.persefoni.com/events/driving-enterprise-wide-value-through-sustainab
+ility                | ✓ | ⏱: 7.70s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/solutions/sb-261                   
+| ✓ | ⏱: 7.71s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/solutions/sb-261                   
+| ✓ | ⏱: 0.30s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/solutions/sb-261                   
+| ✓ | ⏱: 8.01s 
+[FETCH]... ↓ https://www.persefoni.com/events/getting-started-with-persefoni-pro
+| ✓ | ⏱: 5.90s 
+[SCRAPE].. ◆ https://www.persefoni.com/events/getting-started-with-persefoni-pro
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.persefoni.com/events/getting-started-with-persefoni-pro
+| ✓ | ⏱: 6.19s 
+[FETCH]... ↓ https://www.persefoni.com/events/california-sb253-assurance        
+| ✓ | ⏱: 8.30s 
+[SCRAPE].. ◆ https://www.persefoni.com/events/california-sb253-assurance        
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://www.persefoni.com/events/california-sb253-assurance        
+| ✓ | ⏱: 8.56s 
+[FETCH]... ↓ 
+https://www.persefoni.com/events/building-confidence-financed-emissions         
+| ✓ | ⏱: 8.58s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/events/building-confidence-financed-emissions         
+| ✓ | ⏱: 0.30s 
+[COMPLETE] ● 
+https://www.persefoni.com/events/building-confidence-financed-emissions         
+| ✓ | ⏱: 8.88s 
+[FETCH]... ↓ https://www.persefoni.com/events/responding-to-cdp-requests        
+| ✓ | ⏱: 7.38s 
+[SCRAPE].. ◆ https://www.persefoni.com/events/responding-to-cdp-requests        
+| ✓ | ⏱: 0.31s 
+[COMPLETE] ● https://www.persefoni.com/events/responding-to-cdp-requests        
+| ✓ | ⏱: 7.70s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/sign-up/scope-3-101                
+| ✓ | ⏱: 9.19s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/sign-up/scope-3-101                
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/sign-up/scope-3-101                
+| ✓ | ⏱: 9.43s 
+[FETCH]... ↓ https://www.persefoni.com/events/california-climate-updates        
+| ✓ | ⏱: 9.44s 
+[SCRAPE].. ◆ https://www.persefoni.com/events/california-climate-updates        
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.persefoni.com/events/california-climate-updates        
+| ✓ | ⏱: 9.68s 
+[FETCH]... ↓ 
+https://www.persefoni.com/events/building-effective-climate-transition-plans    
+| ✓ | ⏱: 9.70s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/events/building-effective-climate-transition-plans    
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● 
+https://www.persefoni.com/events/building-effective-climate-transition-plans    
+| ✓ | ⏱: 9.96s 
+[FETCH]... ↓ https://www.persefoni.com/events/audit-ready-climate-disclosures   
+| ✓ | ⏱: 9.96s 
+[SCRAPE].. ◆ https://www.persefoni.com/events/audit-ready-climate-disclosures   
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.persefoni.com/events/audit-ready-climate-disclosures   
+| ✓ | ⏱: 10.21s 
+[FETCH]... ↓ https://www.persefoni.com/en-gb/solutions/sb-253                   
+| ✓ | ⏱: 10.20s 
+[SCRAPE].. ◆ https://www.persefoni.com/en-gb/solutions/sb-253                   
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://www.persefoni.com/en-gb/solutions/sb-253                   
+| ✓ | ⏱: 10.46s 
+[FETCH]... ↓ https://www.persefoni.com/events/advanced-csrd-blueprint           
+| ✓ | ⏱: 10.46s 
+[SCRAPE].. ◆ https://www.persefoni.com/events/advanced-csrd-blueprint           
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.persefoni.com/events/advanced-csrd-blueprint           
+| ✓ | ⏱: 10.70s 
+[FETCH]... ↓ 
+https://www.persefoni.com/events/navigating-climate-disclosure-rules-what-cfos-n
+eed-to-know          | ✓ | ⏱: 9.22s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/events/navigating-climate-disclosure-rules-what-cfos-n
+eed-to-know          | ✓ | ⏱: 0.26s 
+[COMPLETE] ● 
+https://www.persefoni.com/events/navigating-climate-disclosure-rules-what-cfos-n
+eed-to-know          | ✓ | ⏱: 9.49s 
+[FETCH]... ↓ https://www.persefoni.com/events/sb-261-compliance-roadmap         
+| ✓ | ⏱: 6.61s 
+[SCRAPE].. ◆ https://www.persefoni.com/events/sb-261-compliance-roadmap         
+| ✓ | ⏱: 0.35s 
+[COMPLETE] ● https://www.persefoni.com/events/sb-261-compliance-roadmap         
+| ✓ | ⏱: 6.97s 
+[FETCH]... ↓ https://www.persefoni.com/events/sustainability-reporting          
+| ✓ | ⏱: 5.15s 
+[SCRAPE].. ◆ https://www.persefoni.com/events/sustainability-reporting          
+| ✓ | ⏱: 0.31s 
+[COMPLETE] ● https://www.persefoni.com/events/sustainability-reporting          
+| ✓ | ⏱: 5.46s 
+[FETCH]... ↓ 
+https://www.persefoni.com/events/tech-enabled-climate-data-collection           
+| ✓ | ⏱: 1.10s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/events/tech-enabled-climate-data-collection           
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● 
+https://www.persefoni.com/events/tech-enabled-climate-data-collection           
+| ✓ | ⏱: 1.36s 
+[FETCH]... ↓ 
+https://www.persefoni.com/events/scope-3-measure...ating-the-complexities-from-e
+stimates-to-actuals  | ✓ | ⏱: 5.05s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/events/scope-3-measure...ating-the-complexities-from-e
+stimates-to-actuals  | ✓ | ⏱: 0.23s 
+[COMPLETE] ● 
+https://www.persefoni.com/events/scope-3-measure...ating-the-complexities-from-e
+stimates-to-actuals  | ✓ | ⏱: 5.29s 
+[FETCH]... ↓ https://www.persefoni.com/events/sb261-in-focus                    
+| ✓ | ⏱: 5.86s 
+[SCRAPE].. ◆ https://www.persefoni.com/events/sb261-in-focus                    
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.persefoni.com/events/sb261-in-focus                    
+| ✓ | ⏱: 6.16s 
+[FETCH]... ↓ https://www.persefoni.com/fr                                       
+| ✓ | ⏱: 1.02s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr                                       
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.persefoni.com/fr                                       
+| ✓ | ⏱: 1.26s 
+[FETCH]... ↓ https://www.persefoni.com/fr/business                              
+| ✓ | ⏱: 3.00s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/business                              
+| ✓ | ⏱: 0.77s 
+[COMPLETE] ● https://www.persefoni.com/fr/business                              
+| ✓ | ⏱: 3.77s 
+[FETCH]... ↓ https://www.persefoni.com/expert-publications/emerging-trends-2023 
+| ✓ | ⏱: 2.81s 
+[SCRAPE].. ◆ https://www.persefoni.com/expert-publications/emerging-trends-2023 
+| ✓ | ⏱: 0.93s 
+[COMPLETE] ● https://www.persefoni.com/expert-publications/emerging-trends-2023 
+| ✓ | ⏱: 3.75s 
+[FETCH]... ↓ https://www.persefoni.com/expert-publications/value-chain-emissions
+| ✓ | ⏱: 4.47s 
+[SCRAPE].. ◆ https://www.persefoni.com/expert-publications/value-chain-emissions
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.persefoni.com/expert-publications/value-chain-emissions
+| ✓ | ⏱: 4.80s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/climate-disclosure-trends-in-inves
+tor-relations        | ✓ | ⏱: 4.80s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/climate-disclosure-trends-in-inves
+tor-relations        | ✓ | ⏱: 0.31s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/climate-disclosure-trends-in-inves
+tor-relations        | ✓ | ⏱: 5.12s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/evolution-of-sustainability-disclo
+sure                 | ✓ | ⏱: 5.13s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/evolution-of-sustainability-disclo
+sure                 | ✓ | ⏱: 0.28s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/evolution-of-sustainability-disclo
+sure                 | ✓ | ⏱: 5.41s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/forrester-new-wave-report         
+| ✓ | ⏱: 5.42s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/forrester-new-wave-report         
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/forrester-new-wave-report         
+| ✓ | ⏱: 5.67s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/the-sustainability-talent-gap-in-f
+inance               | ✓ | ⏱: 5.68s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/the-sustainability-talent-gap-in-f
+inance               | ✓ | ⏱: 0.27s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/the-sustainability-talent-gap-in-f
+inance               | ✓ | ⏱: 5.95s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/costs-of-climate-disclosure       
+| ✓ | ⏱: 5.97s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/costs-of-climate-disclosure       
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/costs-of-climate-disclosure       
+| ✓ | ⏱: 6.22s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/financed-emissions-in-banking     
+| ✓ | ⏱: 6.22s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/financed-emissions-in-banking     
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/financed-emissions-in-banking     
+| ✓ | ⏱: 6.48s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/climate-disclosure-starter-guide  
+| ✓ | ⏱: 6.48s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/climate-disclosure-starter-guide  
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/climate-disclosure-starter-guide  
+| ✓ | ⏱: 6.78s 
+[FETCH]... ↓ 
+https://www.persefoni.com/fr/business/carbon-footprint-measurement-analytics    
+| ✓ | ⏱: 6.61s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/fr/business/carbon-footprint-measurement-analytics    
+| ✓ | ⏱: 0.30s 
+[COMPLETE] ● 
+https://www.persefoni.com/fr/business/carbon-footprint-measurement-analytics    
+| ✓ | ⏱: 6.92s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/directors-guide-carbon-accounting 
+| ✓ | ⏱: 7.10s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/directors-guide-carbon-accounting 
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/directors-guide-carbon-accounting 
+| ✓ | ⏱: 7.39s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/carbon-disclosure-mandates-are-com
+ing                  | ✓ | ⏱: 7.40s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/carbon-disclosure-mandates-are-com
+ing                  | ✓ | ⏱: 0.30s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/carbon-disclosure-mandates-are-com
+ing                  | ✓ | ⏱: 7.70s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/making-sense-of-climate-disclosure
+| ✓ | ⏱: 7.71s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/making-sense-of-climate-disclosure
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/making-sense-of-climate-disclosure
+| ✓ | ⏱: 8.04s 
+[FETCH]... ↓ https://www.persefoni.com/fr/business/decarbonization-management   
+| ✓ | ⏱: 7.99s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/business/decarbonization-management   
+| ✓ | ⏱: 0.27s 
+[COMPLETE] ● https://www.persefoni.com/fr/business/decarbonization-management   
+| ✓ | ⏱: 8.27s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/corporate-finance-preparing-climat
+e-disclosures        | ✓ | ⏱: 8.44s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/corporate-finance-preparing-climat
+e-disclosures        | ✓ | ⏱: 0.23s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/corporate-finance-preparing-climat
+e-disclosures        | ✓ | ⏱: 8.68s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/everest-group-emission-management-
+trailblazers         | ✓ | ⏱: 8.68s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/everest-group-emission-management-
+trailblazers         | ✓ | ⏱: 0.25s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/everest-group-emission-management-
+trailblazers         | ✓ | ⏱: 8.94s 
+[FETCH]... ↓ 
+https://www.persefoni.com/expert-publications/the-state-of-climate-disclosure-an
+d-governance-2023    | ✓ | ⏱: 8.93s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/expert-publications/the-state-of-climate-disclosure-an
+d-governance-2023    | ✓ | ⏱: 0.30s 
+[COMPLETE] ● 
+https://www.persefoni.com/expert-publications/the-state-of-climate-disclosure-an
+d-governance-2023    | ✓ | ⏱: 9.25s 
+[FETCH]... ↓ 
+https://www.persefoni.com/fr/business/regulatory-ghg-emissions-reporting        
+| ✓ | ⏱: 8.77s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/fr/business/regulatory-ghg-emissions-reporting        
+| ✓ | ⏱: 0.48s 
+[COMPLETE] ● 
+https://www.persefoni.com/fr/business/regulatory-ghg-emissions-reporting        
+| ✓ | ⏱: 9.27s 
+[FETCH]... ↓ https://www.persefoni.com/fr/business/scope-3-supplier-engagement  
+| ✓ | ⏱: 7.28s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/business/scope-3-supplier-engagement  
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://www.persefoni.com/fr/business/scope-3-supplier-engagement  
+| ✓ | ⏱: 7.54s 
+[FETCH]... ↓ https://www.persefoni.com/fr/company/careers                       
+| ✓ | ⏱: 5.75s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/company/careers                       
+| ✓ | ⏱: 0.55s 
+[COMPLETE] ● https://www.persefoni.com/fr/company/careers                       
+| ✓ | ⏱: 6.31s 
+[FETCH]... ↓ 
+https://www.persefoni.com/fr/business/stakeholder-ghg-emissions-reporting       
+| ✓ | ⏱: 5.69s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/fr/business/stakeholder-ghg-emissions-reporting       
+| ✓ | ⏱: 0.56s 
+[COMPLETE] ● 
+https://www.persefoni.com/fr/business/stakeholder-ghg-emissions-reporting       
+| ✓ | ⏱: 6.26s 
+[FETCH]... ↓ https://www.persefoni.com/fr/company/persefoni-annual-impact-report
+| ✓ | ⏱: 2.49s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/company/persefoni-annual-impact-report
+| ✓ | ⏱: 0.53s 
+[COMPLETE] ● https://www.persefoni.com/fr/company/persefoni-annual-impact-report
+| ✓ | ⏱: 3.03s 
+[FETCH]... ↓ https://www.persefoni.com/fr/company/sustainability-advisory-board 
+| ✓ | ⏱: 3.06s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/company/sustainability-advisory-board 
+| ✓ | ⏱: 1.03s 
+[COMPLETE] ● https://www.persefoni.com/fr/company/sustainability-advisory-board 
+| ✓ | ⏱: 4.10s 
+[FETCH]... ↓ https://www.persefoni.com/fr/customers/xerox                       
+| ✓ | ⏱: 4.11s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/customers/xerox                       
+| ✓ | ⏱: 0.45s 
+[COMPLETE] ● https://www.persefoni.com/fr/customers/xerox                       
+| ✓ | ⏱: 4.57s 
+[FETCH]... ↓ https://www.persefoni.com/fr/company/people-and-leadership         
+| ✓ | ⏱: 4.57s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/company/people-and-leadership         
+| ✓ | ⏱: 0.31s 
+[COMPLETE] ● https://www.persefoni.com/fr/company/people-and-leadership         
+| ✓ | ⏱: 4.89s 
+[FETCH]... ↓ https://www.persefoni.com/fr/company/certifications                
+| ✓ | ⏱: 6.09s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/company/certifications                
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://www.persefoni.com/fr/company/certifications                
+| ✓ | ⏱: 6.36s 
+[FETCH]... ↓ 
+https://www.persefoni.com/fr/expert-publications/controllers-guide-to-climate-es
+g-reporting          | ✓ | ⏱: 4.54s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/fr/expert-publications/controllers-guide-to-climate-es
+g-reporting          | ✓ | ⏱: 0.35s 
+[COMPLETE] ● 
+https://www.persefoni.com/fr/expert-publications/controllers-guide-to-climate-es
+g-reporting          | ✓ | ⏱: 4.90s 
+[FETCH]... ↓ https://www.persefoni.com/fr/documents/security                    
+| ✓ | ⏱: 4.91s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/documents/security                    
+| ✓ | ⏱: 0.34s 
+[COMPLETE] ● https://www.persefoni.com/fr/documents/security                    
+| ✓ | ⏱: 5.27s 
+[FETCH]... ↓ 
+https://www.persefoni.com/fr/expert-publications/forrester-wave-report-2024     
+| ✓ | ⏱: 5.28s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/fr/expert-publications/forrester-wave-report-2024     
+| ✓ | ⏱: 0.34s 
+[COMPLETE] ● 
+https://www.persefoni.com/fr/expert-publications/forrester-wave-report-2024     
+| ✓ | ⏱: 5.62s 
+[FETCH]... ↓ https://www.persefoni.com/fr/company/logos-and-brand-assets        
+| ✓ | ⏱: 7.16s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/company/logos-and-brand-assets        
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.persefoni.com/fr/company/logos-and-brand-assets        
+| ✓ | ⏱: 7.41s 
+[FETCH]... ↓ https://www.persefoni.com/fr/documents/japan-commercial-disclosure 
+| ✓ | ⏱: 5.87s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/documents/japan-commercial-disclosure 
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.persefoni.com/fr/documents/japan-commercial-disclosure 
+| ✓ | ⏱: 6.11s 
+[FETCH]... ↓ https://www.persefoni.com/fr/customers/natera                      
+| ✓ | ⏱: 7.67s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/customers/natera                      
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.persefoni.com/fr/customers/natera                      
+| ✓ | ⏱: 7.96s 
+[FETCH]... ↓ 
+https://www.persefoni.com/fr/expert-publications/climate-disclosure-trends-in-in
+vestor-relations     | ✓ | ⏱: 6.44s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/fr/expert-publications/climate-disclosure-trends-in-in
+vestor-relations     | ✓ | ⏱: 0.29s 
+[COMPLETE] ● 
+https://www.persefoni.com/fr/expert-publications/climate-disclosure-trends-in-in
+vestor-relations     | ✓ | ⏱: 6.74s 
+[FETCH]... ↓ https://www.persefoni.com/fr/customers/pittsburgh-penguins         
+| ✓ | ⏱: 8.27s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/customers/pittsburgh-penguins         
+| ✓ | ⏱: 0.30s 
+[COMPLETE] ● https://www.persefoni.com/fr/customers/pittsburgh-penguins         
+| ✓ | ⏱: 8.58s 
+[FETCH]... ↓ https://www.persefoni.com/fr/customers                             
+| ✓ | ⏱: 8.58s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/customers                             
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.persefoni.com/fr/customers                             
+| ✓ | ⏱: 8.87s 
+[FETCH]... ↓ https://www.persefoni.com/fr/contact-us                            
+| ✓ | ⏱: 8.89s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/contact-us                            
+| ✓ | ⏱: 0.30s 
+[COMPLETE] ● https://www.persefoni.com/fr/contact-us                            
+| ✓ | ⏱: 9.20s 
+[FETCH]... ↓ https://www.persefoni.com/fr/customers/cge-partners                
+| ✓ | ⏱: 9.21s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/customers/cge-partners                
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.persefoni.com/fr/customers/cge-partners                
+| ✓ | ⏱: 9.49s 
+[FETCH]... ↓ https://www.persefoni.com/fr/customers/at-home                     
+| ✓ | ⏱: 9.49s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/customers/at-home                     
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.persefoni.com/fr/customers/at-home                     
+| ✓ | ⏱: 9.78s 
+[FETCH]... ↓ 
+https://www.persefoni.com/fr/expert-publications/benchmarking-sustainability-rep
+orting-2024          | ✓ | ⏱: 8.40s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/fr/expert-publications/benchmarking-sustainability-rep
+orting-2024          | ✓ | ⏱: 0.32s 
+[COMPLETE] ● 
+https://www.persefoni.com/fr/expert-publications/benchmarking-sustainability-rep
+orting-2024          | ✓ | ⏱: 8.73s 
+[FETCH]... ↓ 
+https://www.persefoni.com/fr/financial-services/financed-emissions-accounting-an
+alytics              | ✓ | ⏱: 5.13s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/fr/financial-services/financed-emissions-accounting-an
+alytics              | ✓ | ⏱: 0.26s 
+[COMPLETE] ● 
+https://www.persefoni.com/fr/financial-services/financed-emissions-accounting-an
+alytics              | ✓ | ⏱: 5.40s 
+[FETCH]... ↓ https://www.persefoni.com/fr/financial-services                    
+| ✓ | ⏱: 7.56s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/financial-services                    
+| ✓ | ⏱: 0.30s 
+[COMPLETE] ● https://www.persefoni.com/fr/financial-services                    
+| ✓ | ⏱: 7.87s 
+[FETCH]... ↓ 
+https://www.persefoni.com/fr/financial-services/decarbonization-management      
+| ✓ | ⏱: 7.88s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/fr/financial-services/decarbonization-management      
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● 
+https://www.persefoni.com/fr/financial-services/decarbonization-management      
+| ✓ | ⏱: 8.18s 
+[FETCH]... ↓ https://www.persefoni.com/fr/insights/events                       
+| ✓ | ⏱: 5.37s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/insights/events                       
+| ✓ | ⏱: 0.62s 
+[COMPLETE] ● https://www.persefoni.com/fr/insights/events                       
+| ✓ | ⏱: 6.00s 
+[FETCH]... ↓ 
+https://www.persefoni.com/fr/financial-services/investor-ghg-emissions-reporting
+| ✓ | ⏱: 7.15s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/fr/financial-services/investor-ghg-emissions-reporting
+| ✓ | ⏱: 0.67s 
+[COMPLETE] ● 
+https://www.persefoni.com/fr/financial-services/investor-ghg-emissions-reporting
+| ✓ | ⏱: 7.83s 
+[FETCH]... ↓ https://www.persefoni.com/fr/insights/expert-publications          
+| ✓ | ⏱: 4.89s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/insights/expert-publications          
+| ✓ | ⏱: 1.16s 
+[COMPLETE] ● https://www.persefoni.com/fr/insights/expert-publications          
+| ✓ | ⏱: 6.06s 
+[FETCH]... ↓ https://www.persefoni.com/ja                                       
+| ✓ | ⏱: 5.12s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja                                       
+| ✓ | ⏱: 0.95s 
+[COMPLETE] ● https://www.persefoni.com/ja                                       
+| ✓ | ⏱: 6.08s 
+[FETCH]... ↓ https://www.persefoni.com/ja/business                              
+| ✓ | ⏱: 6.12s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/business                              
+| ✓ | ⏱: 0.36s 
+[COMPLETE] ● https://www.persefoni.com/ja/business                              
+| ✓ | ⏱: 6.49s 
+[FETCH]... ↓ https://www.persefoni.com/fr/insights/blog                         
+| ✓ | ⏱: 11.34s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/insights/blog                         
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://www.persefoni.com/fr/insights/blog                         
+| ✓ | ⏱: 11.38s 
+[FETCH]... ↓ 
+https://www.persefoni.com/fr/financial-services/portfolio-company-engagement    
+| ✓ | ⏱: 11.38s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/fr/financial-services/portfolio-company-engagement    
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● 
+https://www.persefoni.com/fr/financial-services/portfolio-company-engagement    
+| ✓ | ⏱: 11.41s 
+[FETCH]... ↓ https://www.persefoni.com/fr/sustainability-reporting              
+| ✓ | ⏱: 6.71s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/sustainability-reporting              
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.persefoni.com/fr/sustainability-reporting              
+| ✓ | ⏱: 7.04s 
+[FETCH]... ↓ https://www.persefoni.com/fr/pricing                               
+| ✓ | ⏱: 5.88s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/pricing                               
+| ✓ | ⏱: 0.34s 
+[COMPLETE] ● https://www.persefoni.com/fr/pricing                               
+| ✓ | ⏱: 6.23s 
+[FETCH]... ↓ https://www.persefoni.com/fr/sign-up/scope-3-101                   
+| ✓ | ⏱: 6.51s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/sign-up/scope-3-101                   
+| ✓ | ⏱: 0.02s 
+[COMPLETE] ● https://www.persefoni.com/fr/sign-up/scope-3-101                   
+| ✓ | ⏱: 6.54s 
+[FETCH]... ↓ https://www.persefoni.com/fr/sign-up                               
+| ✓ | ⏱: 6.58s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/sign-up                               
+| ✓ | ⏱: 0.22s 
+[COMPLETE] ● https://www.persefoni.com/fr/sign-up                               
+| ✓ | ⏱: 6.81s 
+[FETCH]... ↓ https://www.persefoni.com/fr/pricing-compliance-services           
+| ✓ | ⏱: 6.81s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/pricing-compliance-services           
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://www.persefoni.com/fr/pricing-compliance-services           
+| ✓ | ⏱: 7.07s 
+[FETCH]... ↓ https://www.persefoni.com/fr/solutions/sb-253                      
+| ✓ | ⏱: 7.07s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/solutions/sb-253                      
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.persefoni.com/fr/solutions/sb-253                      
+| ✓ | ⏱: 7.37s 
+[FETCH]... ↓ https://www.persefoni.com/fr/persefoniai                           
+| ✓ | ⏱: 7.38s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/persefoniai                           
+| ✓ | ⏱: 0.37s 
+[COMPLETE] ● https://www.persefoni.com/fr/persefoniai                           
+| ✓ | ⏱: 7.76s 
+[FETCH]... ↓ 
+https://www.persefoni.com/fr/sign-up/california-climate-disclosure-compliance   
+| ✓ | ⏱: 7.76s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/fr/sign-up/california-climate-disclosure-compliance   
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● 
+https://www.persefoni.com/fr/sign-up/california-climate-disclosure-compliance   
+| ✓ | ⏱: 8.05s 
+[FETCH]... ↓ https://www.persefoni.com/fr/sign-up/carbon-accounting-essentials  
+| ✓ | ⏱: 8.05s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/sign-up/carbon-accounting-essentials  
+| ✓ | ⏱: 0.36s 
+[COMPLETE] ● https://www.persefoni.com/fr/sign-up/carbon-accounting-essentials  
+| ✓ | ⏱: 8.42s 
+[FETCH]... ↓ https://www.persefoni.com/fr/partners                              
+| ✓ | ⏱: 8.43s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/partners                              
+| ✓ | ⏱: 0.34s 
+[COMPLETE] ● https://www.persefoni.com/fr/partners                              
+| ✓ | ⏱: 8.78s 
+[FETCH]... ↓ https://www.persefoni.com/fr/schedule-demo                         
+| ✓ | ⏱: 8.79s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/schedule-demo                         
+| ✓ | ⏱: 0.30s 
+[COMPLETE] ● https://www.persefoni.com/fr/schedule-demo                         
+| ✓ | ⏱: 9.10s 
+[FETCH]... ↓ https://www.persefoni.com/fr/solutions/sb-261                      
+| ✓ | ⏱: 10.05s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/solutions/sb-261                      
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.persefoni.com/fr/solutions/sb-261                      
+| ✓ | ⏱: 10.33s 
+[FETCH]... ↓ https://www.persefoni.com/fr/sign-up/decarbonization-101           
+| ✓ | ⏱: 9.39s 
+[SCRAPE].. ◆ https://www.persefoni.com/fr/sign-up/decarbonization-101           
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.persefoni.com/fr/sign-up/decarbonization-101           
+| ✓ | ⏱: 9.64s 
+[FETCH]... ↓ 
+https://www.persefoni.com/ja/business/carbon-footprint-measurement-analytics    
+| ✓ | ⏱: 6.60s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/ja/business/carbon-footprint-measurement-analytics    
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● 
+https://www.persefoni.com/ja/business/carbon-footprint-measurement-analytics    
+| ✓ | ⏱: 6.87s 
+[FETCH]... ↓ https://www.persefoni.com/ja/business/decarbonization-management   
+| ✓ | ⏱: 4.92s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/business/decarbonization-management   
+| ✓ | ⏱: 0.33s 
+[COMPLETE] ● https://www.persefoni.com/ja/business/decarbonization-management   
+| ✓ | ⏱: 5.26s 
+[FETCH]... ↓ 
+https://www.persefoni.com/ja/business/regulatory-ghg-emissions-reporting        
+| ✓ | ⏱: 5.27s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/ja/business/regulatory-ghg-emissions-reporting        
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● 
+https://www.persefoni.com/ja/business/regulatory-ghg-emissions-reporting        
+| ✓ | ⏱: 5.54s 
+[FETCH]... ↓ https://www.persefoni.com/ja/company/careers                       
+| ✓ | ⏱: 2.68s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/company/careers                       
+| ✓ | ⏱: 0.42s 
+[COMPLETE] ● https://www.persefoni.com/ja/company/careers                       
+| ✓ | ⏱: 3.15s 
+[FETCH]... ↓ https://www.persefoni.com/ja/company/people-and-leadership         
+| ✓ | ⏱: 3.54s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/company/people-and-leadership         
+| ✓ | ⏱: 0.54s 
+[COMPLETE] ● https://www.persefoni.com/ja/company/people-and-leadership         
+| ✓ | ⏱: 4.09s 
+[FETCH]... ↓ 
+https://www.persefoni.com/ja/business/stakeholder-ghg-emissions-reporting       
+| ✓ | ⏱: 5.16s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/ja/business/stakeholder-ghg-emissions-reporting       
+| ✓ | ⏱: 1.40s 
+[COMPLETE] ● 
+https://www.persefoni.com/ja/business/stakeholder-ghg-emissions-reporting       
+| ✓ | ⏱: 6.57s 
+[FETCH]... ↓ https://www.persefoni.com/ja/company/certifications                
+| ✓ | ⏱: 6.62s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/company/certifications                
+| ✓ | ⏱: 0.61s 
+[COMPLETE] ● https://www.persefoni.com/ja/company/certifications                
+| ✓ | ⏱: 7.24s 
+[FETCH]... ↓ https://www.persefoni.com/ja/company/logos-and-brand-assets        
+| ✓ | ⏱: 7.69s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/company/logos-and-brand-assets        
+| ✓ | ⏱: 0.42s 
+[COMPLETE] ● https://www.persefoni.com/ja/company/logos-and-brand-assets        
+| ✓ | ⏱: 8.12s 
+[FETCH]... ↓ 
+https://www.persefoni.com/ja/expert-publications/controllers-guide-to-climate-es
+g-reporting          | ✓ | ⏱: 5.14s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/ja/expert-publications/controllers-guide-to-climate-es
+g-reporting          | ✓ | ⏱: 0.31s 
+[COMPLETE] ● 
+https://www.persefoni.com/ja/expert-publications/controllers-guide-to-climate-es
+g-reporting          | ✓ | ⏱: 5.46s 
+[FETCH]... ↓ https://www.persefoni.com/ja/company/sustainability-advisory-board 
+| ✓ | ⏱: 5.45s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/company/sustainability-advisory-board 
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.persefoni.com/ja/company/sustainability-advisory-board 
+| ✓ | ⏱: 5.75s 
+[FETCH]... ↓ https://www.persefoni.com/ja/business/scope-3-supplier-engagement  
+| ✓ | ⏱: 8.93s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/business/scope-3-supplier-engagement  
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.persefoni.com/ja/business/scope-3-supplier-engagement  
+| ✓ | ⏱: 9.25s 
+[FETCH]... ↓ https://www.persefoni.com/ja/documents/security                    
+| ✓ | ⏱: 6.10s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/documents/security                    
+| ✓ | ⏱: 0.27s 
+[COMPLETE] ● https://www.persefoni.com/ja/documents/security                    
+| ✓ | ⏱: 6.37s 
+[FETCH]... ↓ https://www.persefoni.com/ja/financial-services                    
+| ✓ | ⏱: 7.00s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/financial-services                    
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.persefoni.com/ja/financial-services                    
+| ✓ | ⏱: 7.28s 
+[FETCH]... ↓ https://www.persefoni.com/ja/customers                             
+| ✓ | ⏱: 6.66s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/customers                             
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.persefoni.com/ja/customers                             
+| ✓ | ⏱: 6.98s 
+[FETCH]... ↓ https://www.persefoni.com/ja/customers/at-home                     
+| ✓ | ⏱: 6.99s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/customers/at-home                     
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.persefoni.com/ja/customers/at-home                     
+| ✓ | ⏱: 7.28s 
+[FETCH]... ↓ 
+https://www.persefoni.com/ja/expert-publications/benchmarking-sustainability-rep
+orting-2024          | ✓ | ⏱: 7.28s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/ja/expert-publications/benchmarking-sustainability-rep
+orting-2024          | ✓ | ⏱: 0.28s 
+[COMPLETE] ● 
+https://www.persefoni.com/ja/expert-publications/benchmarking-sustainability-rep
+orting-2024          | ✓ | ⏱: 7.57s 
+[FETCH]... ↓ https://www.persefoni.com/ja/documents/japan-commercial-disclosure 
+| ✓ | ⏱: 7.58s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/documents/japan-commercial-disclosure 
+| ✓ | ⏱: 0.33s 
+[COMPLETE] ● https://www.persefoni.com/ja/documents/japan-commercial-disclosure 
+| ✓ | ⏱: 7.91s 
+[FETCH]... ↓ 
+https://www.persefoni.com/ja/expert-publications/forrester-wave-report-2024     
+| ✓ | ⏱: 7.91s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/ja/expert-publications/forrester-wave-report-2024     
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● 
+https://www.persefoni.com/ja/expert-publications/forrester-wave-report-2024     
+| ✓ | ⏱: 8.20s 
+[FETCH]... ↓ 
+https://www.persefoni.com/ja/financial-services/decarbonization-management      
+| ✓ | ⏱: 7.26s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/ja/financial-services/decarbonization-management      
+| ✓ | ⏱: 0.27s 
+[COMPLETE] ● 
+https://www.persefoni.com/ja/financial-services/decarbonization-management      
+| ✓ | ⏱: 7.54s 
+[FETCH]... ↓ https://www.persefoni.com/ja/customers/xerox                       
+| ✓ | ⏱: 8.49s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/customers/xerox                       
+| ✓ | ⏱: 0.27s 
+[COMPLETE] ● https://www.persefoni.com/ja/customers/xerox                       
+| ✓ | ⏱: 8.77s 
+[FETCH]... ↓ https://www.persefoni.com/ja/company/persefoni-annual-impact-report
+| ✓ | ⏱: 8.75s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/company/persefoni-annual-impact-report
+| ✓ | ⏱: 0.27s 
+[COMPLETE] ● https://www.persefoni.com/ja/company/persefoni-annual-impact-report
+| ✓ | ⏱: 9.03s 
+[FETCH]... ↓ https://www.persefoni.com/ja/contact-us                            
+| ✓ | ⏱: 9.04s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/contact-us                            
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.persefoni.com/ja/contact-us                            
+| ✓ | ⏱: 9.37s 
+[FETCH]... ↓ https://www.persefoni.com/ja/customers/natera                      
+| ✓ | ⏱: 9.38s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/customers/natera                      
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.persefoni.com/ja/customers/natera                      
+| ✓ | ⏱: 9.67s 
+[FETCH]... ↓ 
+https://www.persefoni.com/ja/financial-services/financed-emissions-accounting-an
+alytics              | ✓ | ⏱: 6.53s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/ja/financial-services/financed-emissions-accounting-an
+alytics              | ✓ | ⏱: 0.41s 
+[COMPLETE] ● 
+https://www.persefoni.com/ja/financial-services/financed-emissions-accounting-an
+alytics              | ✓ | ⏱: 6.94s 
+[FETCH]... ↓ 
+https://www.persefoni.com/ja/financial-services/investor-ghg-emissions-reporting
+| ✓ | ⏱: 6.95s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/ja/financial-services/investor-ghg-emissions-reporting
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● 
+https://www.persefoni.com/ja/financial-services/investor-ghg-emissions-reporting
+| ✓ | ⏱: 7.21s 
+[FETCH]... ↓ https://www.persefoni.com/ja/insights/blog                         
+| ✓ | ⏱: 5.80s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/insights/blog                         
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://www.persefoni.com/ja/insights/blog                         
+| ✓ | ⏱: 6.06s 
+[FETCH]... ↓ https://www.persefoni.com/ja/insights/expert-publications          
+| ✓ | ⏱: 1.72s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/insights/expert-publications          
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://www.persefoni.com/ja/insights/expert-publications          
+| ✓ | ⏱: 1.98s 
+[FETCH]... ↓ https://www.persefoni.com/ja/insights/events                       
+| ✓ | ⏱: 7.80s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/insights/events                       
+| ✓ | ⏱: 1.06s 
+[COMPLETE] ● https://www.persefoni.com/ja/insights/events                       
+| ✓ | ⏱: 8.91s 
+[FETCH]... ↓ 
+https://www.persefoni.com/ja/financial-services/portfolio-company-engagement    
+| ✓ | ⏱: 10.12s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/ja/financial-services/portfolio-company-engagement    
+| ✓ | ⏱: 0.83s 
+[COMPLETE] ● 
+https://www.persefoni.com/ja/financial-services/portfolio-company-engagement    
+| ✓ | ⏱: 10.98s 
+[FETCH]... ↓ https://www.persefoni.com/ja/persefoniai                           
+| ✓ | ⏱: 4.44s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/persefoniai                           
+| ✓ | ⏱: 0.45s 
+[COMPLETE] ● https://www.persefoni.com/ja/persefoniai                           
+| ✓ | ⏱: 4.90s 
+[FETCH]... ↓ https://www.persefoni.com/ja/sign-up                               
+| ✓ | ⏱: 4.91s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/sign-up                               
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.persefoni.com/ja/sign-up                               
+| ✓ | ⏱: 5.15s 
+[FETCH]... ↓ https://www.persefoni.com/ja/solutions/sb-261                      
+| ✓ | ⏱: 5.16s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/solutions/sb-261                      
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://www.persefoni.com/ja/solutions/sb-261                      
+| ✓ | ⏱: 5.21s 
+[FETCH]... ↓ https://www.persefoni.com/ja/pricing-compliance-services           
+| ✓ | ⏱: 5.31s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/pricing-compliance-services           
+| ✓ | ⏱: 0.41s 
+[COMPLETE] ● https://www.persefoni.com/ja/pricing-compliance-services           
+| ✓ | ⏱: 5.73s 
+[FETCH]... ↓ https://www.persefoni.com/learn/supplier-engagement-guide          
+| ✓ | ⏱: 6.31s 
+[SCRAPE].. ◆ https://www.persefoni.com/learn/supplier-engagement-guide          
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.persefoni.com/learn/supplier-engagement-guide          
+| ✓ | ⏱: 6.60s 
+[FETCH]... ↓ https://www.persefoni.com/ja/schedule-demo                         
+| ✓ | ⏱: 6.60s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/schedule-demo                         
+| ✓ | ⏱: 0.27s 
+[COMPLETE] ● https://www.persefoni.com/ja/schedule-demo                         
+| ✓ | ⏱: 6.87s 
+[FETCH]... ↓ https://www.persefoni.com/ja/sign-up/scope-3-101                   
+| ✓ | ⏱: 6.88s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/sign-up/scope-3-101                   
+| ✓ | ⏱: 0.23s 
+[COMPLETE] ● https://www.persefoni.com/ja/sign-up/scope-3-101                   
+| ✓ | ⏱: 7.12s 
+[FETCH]... ↓ https://www.persefoni.com/ja/pricing                               
+| ✓ | ⏱: 7.12s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/pricing                               
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.persefoni.com/ja/pricing                               
+| ✓ | ⏱: 7.41s 
+[FETCH]... ↓ 
+https://www.persefoni.com/ja/sign-up/california-climate-disclosure-compliance   
+| ✓ | ⏱: 7.41s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/ja/sign-up/california-climate-disclosure-compliance   
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● 
+https://www.persefoni.com/ja/sign-up/california-climate-disclosure-compliance   
+| ✓ | ⏱: 7.67s 
+[FETCH]... ↓ https://www.persefoni.com/ja/partners                              
+| ✓ | ⏱: 7.67s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/partners                              
+| ✓ | ⏱: 0.38s 
+[COMPLETE] ● https://www.persefoni.com/ja/partners                              
+| ✓ | ⏱: 8.06s 
+[FETCH]... ↓ https://www.persefoni.com/ja/sign-up/decarbonization-101           
+| ✓ | ⏱: 8.08s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/sign-up/decarbonization-101           
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.persefoni.com/ja/sign-up/decarbonization-101           
+| ✓ | ⏱: 8.41s 
+[FETCH]... ↓ https://www.persefoni.com/newsletter-sign-up                       
+| ✓ | ⏱: 7.67s 
+[SCRAPE].. ◆ https://www.persefoni.com/newsletter-sign-up                       
+| ✓ | ⏱: 0.23s 
+[COMPLETE] ● https://www.persefoni.com/newsletter-sign-up                       
+| ✓ | ⏱: 7.90s 
+[FETCH]... ↓ https://www.persefoni.com/ja/solutions/sb-253                      
+| ✓ | ⏱: 8.64s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/solutions/sb-253                      
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.persefoni.com/ja/solutions/sb-253                      
+| ✓ | ⏱: 8.93s 
+[FETCH]... ↓ https://www.persefoni.com/legal                                    
+| ✓ | ⏱: 9.50s 
+[SCRAPE].. ◆ https://www.persefoni.com/legal                                    
+| ✓ | ⏱: 0.79s 
+[COMPLETE] ● https://www.persefoni.com/legal                                    
+| ✓ | ⏱: 10.31s 
+[FETCH]... ↓ https://www.persefoni.com/ja/sign-up/carbon-accounting-essentials  
+| ✓ | ⏱: 9.75s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/sign-up/carbon-accounting-essentials  
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://www.persefoni.com/ja/sign-up/carbon-accounting-essentials  
+| ✓ | ⏱: 10.02s 
+[FETCH]... ↓ https://www.persefoni.com/legal-documents/persefoni-privacy-policy 
+| ✓ | ⏱: 10.59s 
+[SCRAPE].. ◆ https://www.persefoni.com/legal-documents/persefoni-privacy-policy 
+| ✓ | ⏱: 0.76s 
+[COMPLETE] ● https://www.persefoni.com/legal-documents/persefoni-privacy-policy 
+| ✓ | ⏱: 11.36s 
+[FETCH]... ↓ https://www.persefoni.com/ja/sustainability-reporting              
+| ✓ | ⏱: 10.80s 
+[SCRAPE].. ◆ https://www.persefoni.com/ja/sustainability-reporting              
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.persefoni.com/ja/sustainability-reporting              
+| ✓ | ⏱: 11.05s 
+[FETCH]... ↓ https://www.persefoni.com/partner-referral                         
+| ✓ | ⏱: 8.65s 
+[SCRAPE].. ◆ https://www.persefoni.com/partner-referral                         
+| ✓ | ⏱: 0.72s 
+[COMPLETE] ● https://www.persefoni.com/partner-referral                         
+| ✓ | ⏱: 9.39s 
+[FETCH]... ↓ https://www.persefoni.com/partners/aws                             
+| ✓ | ⏱: 7.05s 
+[SCRAPE].. ◆ https://www.persefoni.com/partners/aws                             
+| ✓ | ⏱: 0.34s 
+[COMPLETE] ● https://www.persefoni.com/partners/aws                             
+| ✓ | ⏱: 7.40s 
+[FETCH]... ↓ https://www.persefoni.com/partners/am                              
+| ✓ | ⏱: 6.70s 
+[SCRAPE].. ◆ https://www.persefoni.com/partners/am                              
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● https://www.persefoni.com/partners/am                              
+| ✓ | ⏱: 6.96s 
+[FETCH]... ↓ https://www.persefoni.com/security-privacy                         
+| ✓ | ⏱: 2.12s 
+[SCRAPE].. ◆ https://www.persefoni.com/security-privacy                         
+| ✓ | ⏱: 0.27s 
+[COMPLETE] ● https://www.persefoni.com/security-privacy                         
+| ✓ | ⏱: 2.40s 
+[FETCH]... ↓ https://www.persefoni.com/partners/workiva                         
+| ✓ | ⏱: 6.06s 
+[SCRAPE].. ◆ https://www.persefoni.com/partners/workiva                         
+| ✓ | ⏱: 0.30s 
+[COMPLETE] ● https://www.persefoni.com/partners/workiva                         
+| ✓ | ⏱: 6.36s 
+[FETCH]... ↓ https://www.persefoni.com/product/integration-hub                  
+| ✓ | ⏱: 5.71s 
+[SCRAPE].. ◆ https://www.persefoni.com/product/integration-hub                  
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.persefoni.com/product/integration-hub                  
+| ✓ | ⏱: 6.03s 
+[FETCH]... ↓ https://www.persefoni.com/purchase-sb-253-reporting-service        
+| ✓ | ⏱: 4.08s 
+[SCRAPE].. ◆ https://www.persefoni.com/purchase-sb-253-reporting-service        
+| ✓ | ⏱: 0.23s 
+[COMPLETE] ● https://www.persefoni.com/purchase-sb-253-reporting-service        
+| ✓ | ⏱: 4.32s 
+[FETCH]... ↓ https://www.persefoni.com/partners/bain-and-company                
+| ✓ | ⏱: 6.27s 
+[SCRAPE].. ◆ https://www.persefoni.com/partners/bain-and-company                
+| ✓ | ⏱: 0.23s 
+[COMPLETE] ● https://www.persefoni.com/partners/bain-and-company                
+| ✓ | ⏱: 6.51s 
+[FETCH]... ↓ https://www.persefoni.com/partners/connor-group                    
+| ✓ | ⏱: 6.52s 
+[SCRAPE].. ◆ https://www.persefoni.com/partners/connor-group                    
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● https://www.persefoni.com/partners/connor-group                    
+| ✓ | ⏱: 6.78s 
+[FETCH]... ↓ 
+https://www.persefoni.com/thank-you/sustainability-reporting-preview            
+| ✓ | ⏱: 3.79s 
+[SCRAPE].. ◆ 
+https://www.persefoni.com/thank-you/sustainability-reporting-preview            
+| ✓ | ⏱: 0.23s 
+[COMPLETE] ● 
+https://www.persefoni.com/thank-you/sustainability-reporting-preview            
+| ✓ | ⏱: 4.03s 
+[FETCH]... ↓ https://www.persefoni.com/pro-concierge-support                    
+| ✓ | ⏱: 7.84s 
+[SCRAPE].. ◆ https://www.persefoni.com/pro-concierge-support                    
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.persefoni.com/pro-concierge-support                    
+| ✓ | ⏱: 8.09s 
+[FETCH]... ↓ https://www.persefoni.com/partners/patch                           
+| ✓ | ⏱: 8.38s 
+[SCRAPE].. ◆ https://www.persefoni.com/partners/patch                           
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.persefoni.com/partners/patch                           
+| ✓ | ⏱: 8.63s 
+  Saved: 000_www.persefoni.com_insights_persefoni-academy.md (588 words)
+  Saved: 001_www.persefoni.com.md (13102 words)
+  Saved: 002_www.persefoni.com_customers_at-home.md (14052 words)
+  Saved: 003_www.persefoni.com_business_scope-3-supplier-engagement.md (12816 words)
+  Saved: 004_status.persefoni.com.md (214 words)
+  Saved: 005_www.persefoni.com_customers_caliber.md (14085 words)
+  Saved: 006_www.persefoni.com_company_persefoni-annual-impact-report.md (15366 words)
+  Saved: 007_www.persefoni.com_customers_cge-partners.md (13824 words)
+  Saved: 008_www.persefoni.com_customers.md (13449 words)
+  Saved: 009_platform.persefoni.com_api_auth_login.md (20 words)
+  Saved: 010_www.persefoni.com_business_stakeholder-ghg-emissions-reporting.md (12828 words)
+  Saved: 011_www.persefoni.com_contact-us.md (13597 words)
+  Saved: 012_www.persefoni.com_company_logos-and-brand-assets.md (12764 words)
+  Saved: 013_www.persefoni.com_business_regulatory-ghg-emissions-reporting.md (12810 words)
+  Saved: 014_www.persefoni.com_company_certifications.md (13187 words)
+  Saved: 015_www.persefoni.com_company_careers.md (13154 words)
+  Saved: 016_www.persefoni.com_company_sustainability-advisory-board.md (14115 words)
+  Saved: 017_www.persefoni.com_company_people-and-leadership.md (12973 words)
+  Saved: 018_www.persefoni.com_business_decarbonization-management.md (12757 words)
+  Saved: 019_www.persefoni.com_business_carbon-footprint-measurement-analytics.md (12965 words)
+  Saved: 020_www.persefoni.com_business.md (12796 words)
+  Saved: 021_www.persefoni.com_financial-services_financed-emissions-accounting-analytics.md (12731 words)
+  Saved: 022_www.persefoni.com_expert-publications_forrester-wave-report-2024.md (12782 words)
+  Saved: 023_www.persefoni.com_customers_fm-conway.md (13989 words)
+  Saved: 024_www.persefoni.com_financial-services_portfolio-company-engagement.md (12816 words)
+  Saved: 025_www.persefoni.com_customers_xerox.md (14308 words)
+  Saved: 026_www.persefoni.com_expert-publications_controllers-guide-to-climate-esg-reporting.md (12872 words)
+  Saved: 027_www.persefoni.com_documents_security.md (14096 words)
+  Saved: 028_www.persefoni.com_financial-services.md (12803 words)
+  Saved: 029_www.persefoni.com_expert-publications_benchmarking-sustainability-reporting-2024.md (12901 words)
+  Saved: 030_www.persefoni.com_financial-services_investor-ghg-emissions-reporting.md (12760 words)
+  Saved: 031_www.persefoni.com_en-gb_insights_persefoni-academy.md (12822 words)
+  Saved: 032_www.persefoni.com_customers_natera.md (13865 words)
+  Saved: 033_www.persefoni.com_de_insights_persefoni-academy.md (11024 words)
+  Saved: 034_www.persefoni.com_financial-services_decarbonization-management.md (12699 words)
+  Saved: 035_www.persefoni.com_documents_japan-commercial-disclosure.md (13180 words)
+  Saved: 036_www.persefoni.com_customers_pittsburgh-penguins.md (13517 words)
+  Saved: 037_www.persefoni.com_fr_insights_persefoni-academy.md (15075 words)
+  Saved: 038_www.persefoni.com_insights_blog.md (13156 words)
+  Saved: 039_www.persefoni.com_documents_persefoni-privacy-policy.md (214939 words)
+  Saved: 040_www.persefoni.com_insights_events.md (12968 words)
+  Saved: 041_www.persefoni.com_pricing-compliance-services.md (958 words)
+  Saved: 042_www.persefoni.com_persefoniai.md (12772 words)
+  Saved: 043_www.persefoni.com_sign-up_carbon-accounting-essentials.md (12794 words)
+  Saved: 044_www.persefoni.com_partners.md (12881 words)
+  Saved: 045_www.persefoni.com_ja_insights_persefoni-academy.md (10341 words)
+  Saved: 046_www.persefoni.com_insights_expert-publications.md (13405 words)
+  Saved: 047_www.persefoni.com_sign-up_decarbonization-101.md (12757 words)
+  Saved: 048_www.persefoni.com_pricing.md (14496 words)
+  Saved: 049_www.persefoni.com_schedule-demo.md (13567 words)
+  Saved: 050_www.persefoni.com_insights_persefoni-academy.md (12872 words)
+  Saved: 051_www.persefoni.com_solutions_sb-253.md (13612 words)
+  Saved: 052_www.persefoni.com_sustainability-reporting.md (13236 words)
+  Saved: 053_www.persefoni.com_sign-up_scope-3-101.md (12797 words)
+  Saved: 054_www.persefoni.com_solutions_sb-261.md (13348 words)
+  Saved: 055_www.persefoni.com_sign-up_california-climate-disclosure-compliance.md (12786 words)
+  Saved: 056_www.persefoni.com_sign-up.md (12340 words)
+  Saved: 057_www.persefoni.com?r=0.md (13104 words)
+  Saved: 058_persefoni.us.auth0.com_login?audience=https%3A%2F%2Fapi-core.persefoni.com%2F&client=pSqLJgshWkk5HUJBVuHZ9g7QDJNaB0Yb&co.md (3 words)
+  Saved: 060_persefoni.com.md (13102 words)
+  Saved: 061_persefoni.com_ja_legal_privacy.md (10139 words)
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/675a06dd982472a41a0e5f06.pdf
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/6696b59ae419a803ea9f7862.pdf
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/6644d70ec112d0485f97ecec.pdf
+  Saved: 065_vault.pactsafe.io_s_e6a31fd3-3c2a-4061-97c5-8f70751f4404_legal.html.md (214939 words)
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/69010a3794f8c8da782c13ef.pdf
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/69655e134bf3b5e7c7a8af5c.pdf
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/69656786f6c02d620dbac35e.pdf
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/690108aeabeee3abe1ed75d9.pdf
+  Saved: 070_status.persefoni.com_history.md (99 words)
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/65e8f51fe983d8dbdd58ec4e.pdf
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/65dfac92a63a61440f00c22c.pdf
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/698e247c58720219d0e9c0fe.pdf
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/6965729b488924298f6e1680.pdf
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/694c151fa2ac0fdef9a17c68.pdf
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/65df59a58e6b17e9cfec3b36.pdf
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/6901093518766f50197cdcae.pdf
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/66966e4973a4f4313d865e76.pdf
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/68386f48aff431db4a8f6c53.pdf
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/660bd66fb6bdb89c1c356b55.pdf
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/698e24a2d9f8e8b7a5ee467e.pdf
+  Saved: 082_www.persefoni.com_blog_ace-your-ecovadis-assessment.md (14156 words)
+  SKIP (failed): https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/versions/699cc480e89d20442d0f2813.pdf
+  Saved: 084_www.persefoni.com_blog_best-decarbonization-software.md (13917 words)
+  Saved: 085_www.persefoni.com_blog_eu-carbon-border-adjustment-mechanism.md (14596 words)
+  Saved: 086_www.persefoni.com_blog_cdp-carbon-disclosure-project.md (15468 words)
+  Saved: 087_www.persefoni.com_blog_esg-software.md (14627 words)
+  Saved: 088_www.persefoni.com_blog_best-scope-3-software.md (14279 words)
+  Saved: 089_www.persefoni.com_blog_mexicos-issb-sustainability-reporting-standards.md (14563 words)
+  Saved: 090_www.persefoni.com_blog_carbon-offset-programs.md (3168 words)
+  Saved: 091_www.persefoni.com_blog_issb-reporting-singapore.md (14713 words)
+  Saved: 092_www.persefoni.com_blog_science-based-targets-sbti.md (2529 words)
+  Saved: 093_www.persefoni.com_blog_emissions-management-software.md (14308 words)
+  Saved: 094_www.persefoni.com_blog_inventory-management-plan.md (2101 words)
+  Saved: 095_www.persefoni.com_blog_best-free-carbon-footprint-software.md (14890 words)
+  Saved: 096_www.persefoni.com_blog_california-sb253-sb261.md (15764 words)
+  Saved: 097_www.persefoni.com_blog_issb-japan-ssbj-standards.md (2912 words)
+  Saved: 098_www.persefoni.com_blog_canadian-sustainability-standards-csds.md (1828 words)
+  Saved: 099_www.persefoni.com_blog_ny-ghg-reporting-program.md (14428 words)
+  Saved: 100_www.persefoni.com_blog_sustainability-management-software.md (14282 words)
+  Saved: 101_www.persefoni.com_blog_asrs-australia-issb.md (3103 words)
+  Saved: 102_www.persefoni.com_blog_best-carbon-accounting-software.md (15591 words)
+  Saved: 103_www.persefoni.com_blog_what-is-csrd.md (15312 words)
+  Saved: 104_www.persefoni.com_category_product.md (13101 words)
+  Saved: 105_www.persefoni.com_category_company.md (13082 words)
+  Saved: 106_www.persefoni.com_category_insights.md (13170 words)
+  Saved: 107_www.persefoni.com_category_newsletters.md (13172 words)
+  Saved: 108_www.persefoni.com_company_employee-spotlights.md (12671 words)
+  Saved: 109_www.persefoni.com_climate-policy-library.md (13018 words)
+  Saved: 110_www.persefoni.com_contact-form-ca-compliance.md (13571 words)
+  Saved: 111_www.persefoni.com_customers_artech.md (13752 words)
+  Saved: 112_www.persefoni.com_customers_pleo.md (14034 words)
+  Saved: 113_www.persefoni.com_customers_multinational-investment-bank.md (13598 words)
+  Saved: 114_www.persefoni.com_customers_aichi-fg.md (14248 words)
+  Saved: 115_www.persefoni.com_customers_global-private-equity-firm.md (13613 words)
+  Saved: 116_www.persefoni.com_customers_gp-portfolio-companies-persefoni-pro.md (13964 words)
+  Saved: 117_www.persefoni.com_customers_hoover-cs.md (13750 words)
+  Saved: 118_www.persefoni.com_de_business_carbon-footprint-measurement-analytics.md (11142 words)
+  Saved: 119_www.persefoni.com_customers_brown-co.md (14021 words)
+  Saved: 120_www.persefoni.com_de_business.md (11013 words)
+  Saved: 121_www.persefoni.com_customers_forbes-cloud-100-honoree.md (13510 words)
+  Saved: 122_www.persefoni.com_customers_oak-hill-advisors.md (1126 words)
+  Saved: 123_www.persefoni.com_customers_us-regional-bank.md (13769 words)
+  Saved: 124_www.persefoni.com_customers_syracuse-university.md (13433 words)
+  Saved: 125_www.persefoni.com_de.md (11302 words)
+  Saved: 126_www.persefoni.com_customers_sovereign-consulting.md (14070 words)
+  Saved: 127_www.persefoni.com_customers_petcurean.md (14582 words)
+  Saved: 128_www.persefoni.com_de_business_scope-3-supplier-engagement.md (11030 words)
+  Saved: 129_www.persefoni.com_de_business_regulatory-ghg-emissions-reporting.md (11026 words)
+  Saved: 130_www.persefoni.com_de_business_decarbonization-management.md (10973 words)
+  Saved: 131_www.persefoni.com_de_business_stakeholder-ghg-emissions-reporting.md (11042 words)
+  Saved: 132_www.persefoni.com_de_company_people-and-leadership.md (11177 words)
+  Saved: 133_www.persefoni.com_de_company_careers.md (11355 words)
+  Saved: 134_www.persefoni.com_de_company_sustainability-advisory-board.md (12313 words)
+  Saved: 135_www.persefoni.com_de_company_certifications.md (11347 words)
+  Saved: 136_www.persefoni.com_de_company_persefoni-annual-impact-report.md (13567 words)
+  Saved: 137_www.persefoni.com_de_company_logos-and-brand-assets.md (10966 words)
+  Saved: 138_www.persefoni.com_de_documents_security.md (12297 words)
+  Saved: 139_www.persefoni.com_de_customers_at-home.md (12009 words)
+  Saved: 140_www.persefoni.com_de_customers_natera.md (11822 words)
+  Saved: 141_www.persefoni.com_de_expert-publications_benchmarking-sustainability-reporting-2024.md (11103 words)
+  Saved: 142_www.persefoni.com_de_customers_cge-partners.md (11781 words)
+  Saved: 143_www.persefoni.com_de_expert-publications_controllers-guide-to-climate-esg-reporting.md (11074 words)
+  Saved: 144_www.persefoni.com_de_customers_pittsburgh-penguins.md (11474 words)
+  Saved: 145_www.persefoni.com_de_expert-publications_forrester-wave-report-2024.md (10984 words)
+  Saved: 146_www.persefoni.com_de_customers.md (11283 words)
+  Saved: 147_www.persefoni.com_de_documents_japan-commercial-disclosure.md (11381 words)
+  Saved: 148_www.persefoni.com_de_financial-services.md (11001 words)
+  Saved: 149_www.persefoni.com_de_contact-us.md (11798 words)
+  Saved: 150_www.persefoni.com_de_financial-services_decarbonization-management.md (10902 words)
+  Saved: 151_www.persefoni.com_de_customers_xerox.md (12284 words)
+  Saved: 152_www.persefoni.com_de_financial-services_financed-emissions-accounting-analytics.md (10924 words)
+  Saved: 153_www.persefoni.com_de_insights_events.md (11173 words)
+  Saved: 154_www.persefoni.com_de_financial-services_portfolio-company-engagement.md (11016 words)
+  Saved: 155_www.persefoni.com_de_financial-services_investor-ghg-emissions-reporting.md (10982 words)
+  Saved: 156_www.persefoni.com_de_insights_expert-publications.md (11609 words)
+  Saved: 157_www.persefoni.com_de_partners.md (11083 words)
+  Saved: 158_www.persefoni.com_de_insights_blog.md (11368 words)
+  Saved: 159_www.persefoni.com_de_sign-up_decarbonization-101.md (10958 words)
+  Saved: 160_www.persefoni.com_de_schedule-demo.md (11774 words)
+  Saved: 161_www.persefoni.com_de_sign-up_scope-3-101.md (10998 words)
+  Saved: 162_www.persefoni.com_de_sign-up.md (10545 words)
+  Saved: 163_www.persefoni.com_documents_cookie-declaration.md (24744 words)
+  Saved: 164_www.persefoni.com_de_solutions_sb-261.md (11548 words)
+  Saved: 165_www.persefoni.com_de_pricing.md (12636 words)
+  Saved: 166_www.persefoni.com_documents_japan-cookie-declaration.md (13535 words)
+  Saved: 167_www.persefoni.com_de_sign-up_california-climate-disclosure-compliance.md (10987 words)
+  Saved: 168_www.persefoni.com_de_sustainability-reporting.md (11414 words)
+  Saved: 169_www.persefoni.com_de_persefoniai.md (10977 words)
+  Saved: 170_www.persefoni.com_de_pricing-compliance-services.md (11359 words)
+  Saved: 171_www.persefoni.com_de_solutions_sb-253.md (11812 words)
+  Saved: 172_www.persefoni.com_de_sign-up_carbon-accounting-essentials.md (10995 words)
+  Saved: 173_www.persefoni.com_documents_software-subscription-agreement.md (19414 words)
+  Saved: 174_www.persefoni.com_documents_software-subscription-agreement-jp.md (12628 words)
+  Saved: 175_www.persefoni.com_en-gb_business.md (12798 words)
+  Saved: 176_www.persefoni.com_documents_supplier-code-of-conduct.md (12628 words)
+  Saved: 177_www.persefoni.com_en-gb.md (13102 words)
+  Saved: 178_www.persefoni.com_documents_software-subscription-agreement-fr.md (12619 words)
+  Saved: 179_www.persefoni.com_en-gb_business_stakeholder-ghg-emissions-reporting.md (12818 words)
+  Saved: 180_www.persefoni.com_en-gb_company_careers.md (13154 words)
+  Saved: 181_www.persefoni.com_en-gb_business_carbon-footprint-measurement-analytics.md (12964 words)
+  Saved: 182_www.persefoni.com_en-gb_customers.md (13126 words)
+  Saved: 183_www.persefoni.com_en-gb_company_sustainability-advisory-board.md (14123 words)
+  Saved: 184_www.persefoni.com_en-gb_contact-us.md (13597 words)
+  Saved: 185_www.persefoni.com_en-gb_business_scope-3-supplier-engagement.md (12816 words)
+  Saved: 186_www.persefoni.com_en-gb_company_people-and-leadership.md (12973 words)
+  Saved: 187_www.persefoni.com_en-gb_customers_at-home.md (13808 words)
+  Saved: 188_www.persefoni.com_en-gb_company_logos-and-brand-assets.md (12764 words)
+  Saved: 189_www.persefoni.com_en-gb_climate-policy-library.md (13018 words)
+  Saved: 190_www.persefoni.com_en-gb_company_persefoni-annual-impact-report.md (15366 words)
+  Saved: 191_www.persefoni.com_en-gb_customers_xerox.md (14083 words)
+  Saved: 192_www.persefoni.com_en-gb_customers_natera.md (13621 words)
+  Saved: 193_www.persefoni.com_en-gb_customers_cge-partners.md (13580 words)
+  Saved: 194_www.persefoni.com_en-gb_company_certifications.md (13187 words)
+  Saved: 195_www.persefoni.com_en-gb_business_decarbonization-management.md (12755 words)
+  Saved: 196_www.persefoni.com_en-gb_customers_pittsburgh-penguins.md (13273 words)
+  Saved: 197_www.persefoni.com_en-gb_business_regulatory-ghg-emissions-reporting.md (12810 words)
+  Saved: 198_www.persefoni.com_en-gb_documents_japan-commercial-disclosure.md (13180 words)
+  Saved: 199_www.persefoni.com_en-gb_documents_security.md (14096 words)
+  Saved: 200_www.persefoni.com_en-gb_financial-services.md (12803 words)
+  Saved: 201_www.persefoni.com_en-gb_partners_workiva.md (13164 words)
+  Saved: 202_www.persefoni.com_en-gb_financial-services_decarbonization-management.md (12699 words)
+  Saved: 203_www.persefoni.com_en-gb_persefoniai.md (12772 words)
+  Saved: 204_www.persefoni.com_en-gb_partners_am.md (12955 words)
+  Saved: 205_www.persefoni.com_en-gb_pricing.md (14434 words)
+  Saved: 206_www.persefoni.com_en-gb_partners_connor-group.md (12911 words)
+  Saved: 207_www.persefoni.com_en-gb_partners_bain-and-company.md (13200 words)
+  Saved: 208_www.persefoni.com_en-gb_financial-services_investor-ghg-emissions-reporting.md (12775 words)
+  Saved: 209_www.persefoni.com_en-gb_expert-publications_benchmarking-sustainability-reporting-2024.md (12901 words)
+  Saved: 210_www.persefoni.com_en-gb_financial-services_financed-emissions-accounting-analytics.md (12731 words)
+  Saved: 211_www.persefoni.com_en-gb_financial-services_portfolio-company-engagement.md (12816 words)
+  Saved: 212_www.persefoni.com_en-gb_expert-publications_controllers-guide-to-climate-esg-reporting.md (12872 words)
+  Saved: 213_www.persefoni.com_en-gb_insights_events.md (12969 words)
+  Saved: 214_www.persefoni.com_en-gb_partners_aws.md (13056 words)
+  Saved: 215_www.persefoni.com_en-gb_partners_patch.md (12901 words)
+  Saved: 216_www.persefoni.com_en-gb_insights_expert-publications.md (13405 words)
+  Saved: 217_www.persefoni.com_en-gb_insights_blog.md (13131 words)
+  Saved: 218_www.persefoni.com_en-gb_partners.md (12881 words)
+  Saved: 219_www.persefoni.com_en-gb_expert-publications_forrester-wave-report-2024.md (526 words)
+  Saved: 220_www.persefoni.com_en-gb_pricing-compliance-services.md (13209 words)
+  Saved: 221_www.persefoni.com_en-gb_schedule-demo.md (13566 words)
+  Saved: 222_www.persefoni.com_en-gb_sign-up.md (12335 words)
+  Saved: 223_www.persefoni.com_en-gb_sign-up_california-climate-disclosure-compliance.md (12786 words)
+  Saved: 224_www.persefoni.com_en-gb_sign-up_carbon-accounting-essentials.md (12794 words)
+  Saved: 225_www.persefoni.com_en-gb_sign-up_decarbonization-101.md (12757 words)
+  Saved: 226_www.persefoni.com_en-gb_sustainability-reporting.md (13199 words)
+  Saved: 227_www.persefoni.com_events_ca-climate-laws-corporate-perspective.md (13061 words)
+  Saved: 228_www.persefoni.com_events_decarbonization-in-private-markets.md (12959 words)
+  Saved: 229_www.persefoni.com_events_audit-ready-climate-disclosures.md (13134 words)
+  Saved: 230_www.persefoni.com_events_responding-to-cdp-requests.md (12946 words)
+  Saved: 231_www.persefoni.com_events_building-confidence-financed-emissions.md (13120 words)
+  Saved: 232_www.persefoni.com_en-gb_solutions_sb-261.md (13347 words)
+  Saved: 233_www.persefoni.com_en-gb_solutions_sb-253.md (13611 words)
+  Saved: 234_www.persefoni.com_events_esg-controller.md (13286 words)
+  Saved: 235_www.persefoni.com_events_california-climate-updates.md (13304 words)
+  Saved: 236_www.persefoni.com_events_navigating-climate-disclosure-rules-what-cfos-need-to-know.md (12825 words)
+  Saved: 237_www.persefoni.com_events_driving-enterprise-wide-value-through-sustainability.md (13281 words)
+  Saved: 238_www.persefoni.com_events_building-effective-climate-transition-plans.md (13167 words)
+  Saved: 239_www.persefoni.com_en-gb_sign-up_scope-3-101.md (12797 words)
+  Saved: 240_www.persefoni.com_events_from-disclosure-to-decarbonization-a-path-to-value-creation.md (13199 words)
+  Saved: 241_www.persefoni.com_events_advanced-csrd-blueprint.md (13274 words)
+  Saved: 242_www.persefoni.com_events_california-sb253-assurance.md (13036 words)
+  Saved: 243_www.persefoni.com_events_getting-started-with-persefoni-pro.md (13173 words)
+  Saved: 244_www.persefoni.com_events_preparing-for-2024-cdp-reporting.md (868 words)
+  Saved: 245_www.persefoni.com_events_sb-261-compliance-roadmap.md (12989 words)
+  Saved: 246_www.persefoni.com_events_sustainability-reporting.md (13192 words)
+  Saved: 247_www.persefoni.com_events_tech-enabled-climate-data-collection.md (13003 words)
+  Saved: 248_www.persefoni.com_events_scope-3-measurement-navigating-the-complexities-from-estimates-to-actuals.md (13177 words)
+  Saved: 249_www.persefoni.com_events_sb261-in-focus.md (12868 words)
+  Saved: 250_www.persefoni.com_fr.md (15369 words)
+  Saved: 251_www.persefoni.com_fr_business.md (15027 words)
+  Saved: 252_www.persefoni.com_expert-publications_emerging-trends-2023.md (12818 words)
+  Saved: 253_www.persefoni.com_expert-publications_costs-of-climate-disclosure.md (12883 words)
+  Saved: 254_www.persefoni.com_expert-publications_carbon-disclosure-mandates-are-coming.md (13148 words)
+  Saved: 255_www.persefoni.com_expert-publications_the-sustainability-talent-gap-in-finance.md (12866 words)
+  Saved: 256_www.persefoni.com_expert-publications_forrester-new-wave-report.md (12782 words)
+  Saved: 257_www.persefoni.com_expert-publications_directors-guide-carbon-accounting.md (12878 words)
+  Saved: 258_www.persefoni.com_expert-publications_value-chain-emissions.md (12960 words)
+  Saved: 259_www.persefoni.com_expert-publications_evolution-of-sustainability-disclosure.md (13473 words)
+  Saved: 260_www.persefoni.com_fr_business_carbon-footprint-measurement-analytics.md (15225 words)
+  Saved: 261_www.persefoni.com_expert-publications_climate-disclosure-starter-guide.md (13125 words)
+  Saved: 262_www.persefoni.com_expert-publications_climate-disclosure-trends-in-investor-relations.md (12841 words)
+  Saved: 263_www.persefoni.com_expert-publications_financed-emissions-in-banking.md (13381 words)
+  Saved: 264_www.persefoni.com_expert-publications_making-sense-of-climate-disclosure.md (13306 words)
+  Saved: 265_www.persefoni.com_fr_business_decarbonization-management.md (15035 words)
+  Saved: 266_www.persefoni.com_fr_business_regulatory-ghg-emissions-reporting.md (15081 words)
+  Saved: 267_www.persefoni.com_expert-publications_everest-group-emission-management-trailblazers.md (12836 words)
+  Saved: 268_www.persefoni.com_fr_business_scope-3-supplier-engagement.md (15080 words)
+  Saved: 269_www.persefoni.com_expert-publications_corporate-finance-preparing-climate-disclosures.md (12870 words)
+  Saved: 270_www.persefoni.com_expert-publications_the-state-of-climate-disclosure-and-governance-2023.md (12861 words)
+  Saved: 271_www.persefoni.com_fr_company_careers.md (15478 words)
+  Saved: 272_www.persefoni.com_fr_business_stakeholder-ghg-emissions-reporting.md (15081 words)
+  Saved: 273_www.persefoni.com_fr_company_people-and-leadership.md (15270 words)
+  Saved: 274_www.persefoni.com_fr_company_persefoni-annual-impact-report.md (18398 words)
+  Saved: 275_www.persefoni.com_fr_company_sustainability-advisory-board.md (16361 words)
+  Saved: 276_www.persefoni.com_fr_customers_xerox.md (16426 words)
+  Saved: 277_www.persefoni.com_fr_company_certifications.md (15530 words)
+  Saved: 278_www.persefoni.com_fr_expert-publications_controllers-guide-to-climate-esg-reporting.md (15104 words)
+  Saved: 279_www.persefoni.com_fr_customers_at-home.md (16249 words)
+  Saved: 280_www.persefoni.com_fr_company_logos-and-brand-assets.md (14986 words)
+  Saved: 281_www.persefoni.com_fr_expert-publications_forrester-wave-report-2024.md (15037 words)
+  Saved: 282_www.persefoni.com_fr_customers_pittsburgh-penguins.md (15612 words)
+  Saved: 283_www.persefoni.com_fr_documents_japan-commercial-disclosure.md (14838 words)
+  Saved: 284_www.persefoni.com_fr_contact-us.md (15826 words)
+  Saved: 285_www.persefoni.com_fr_customers_natera.md (16056 words)
+  Saved: 286_www.persefoni.com_fr_documents_security.md (16315 words)
+  Saved: 287_www.persefoni.com_fr_expert-publications_climate-disclosure-trends-in-investor-relations.md (15140 words)
+  Saved: 288_www.persefoni.com_fr_customers.md (15401 words)
+  Saved: 289_www.persefoni.com_fr_customers_cge-partners.md (16001 words)
+  Saved: 290_www.persefoni.com_fr_expert-publications_benchmarking-sustainability-reporting-2024.md (15204 words)
+  Saved: 291_www.persefoni.com_fr_financial-services_financed-emissions-accounting-analytics.md (14965 words)
+  Saved: 292_www.persefoni.com_fr_financial-services_decarbonization-management.md (14947 words)
+  Saved: 293_www.persefoni.com_fr_financial-services.md (15043 words)
+  Saved: 294_www.persefoni.com_fr_insights_events.md (15278 words)
+  Saved: 295_www.persefoni.com_fr_financial-services_investor-ghg-emissions-reporting.md (14994 words)
+  Saved: 296_www.persefoni.com_fr_insights_expert-publications.md (15843 words)
+  Saved: 297_www.persefoni.com_ja.md (10541 words)
+  Saved: 298_www.persefoni.com_ja_business.md (10356 words)
+  Saved: 299_www.persefoni.com_fr_financial-services_portfolio-company-engagement.md (679 words)
+  Saved: 300_www.persefoni.com_fr_insights_blog.md (1004 words)
+  Saved: 301_www.persefoni.com_fr_sustainability-reporting.md (15479 words)
+  Saved: 302_www.persefoni.com_fr_pricing.md (17105 words)
+  Saved: 303_www.persefoni.com_fr_sign-up_scope-3-101.md (608 words)
+  Saved: 304_www.persefoni.com_fr_sign-up.md (14487 words)
+  Saved: 305_www.persefoni.com_fr_solutions_sb-253.md (15825 words)
+  Saved: 306_www.persefoni.com_fr_partners.md (15154 words)
+  Saved: 307_www.persefoni.com_fr_sign-up_decarbonization-101.md (15029 words)
+  Saved: 308_www.persefoni.com_fr_pricing-compliance-services.md (15418 words)
+  Saved: 309_www.persefoni.com_fr_persefoniai.md (15032 words)
+  Saved: 310_www.persefoni.com_fr_sign-up_california-climate-disclosure-compliance.md (15000 words)
+  Saved: 311_www.persefoni.com_fr_sign-up_carbon-accounting-essentials.md (15062 words)
+  Saved: 312_www.persefoni.com_ja_business_carbon-footprint-measurement-analytics.md (10343 words)
+  Saved: 313_www.persefoni.com_fr_schedule-demo.md (15790 words)
+  Saved: 314_www.persefoni.com_fr_solutions_sb-261.md (15783 words)
+  Saved: 315_www.persefoni.com_ja_business_decarbonization-management.md (10266 words)
+  Saved: 316_www.persefoni.com_ja_business_regulatory-ghg-emissions-reporting.md (10310 words)
+  Saved: 317_www.persefoni.com_ja_company_careers.md (10791 words)
+  Saved: 318_www.persefoni.com_ja_company_people-and-leadership.md (10301 words)
+  Saved: 319_www.persefoni.com_ja_business_stakeholder-ghg-emissions-reporting.md (10322 words)
+  Saved: 320_www.persefoni.com_ja_company_certifications.md (10335 words)
+  Saved: 321_www.persefoni.com_ja_company_logos-and-brand-assets.md (10401 words)
+  Saved: 322_www.persefoni.com_ja_expert-publications_controllers-guide-to-climate-esg-reporting.md (10504 words)
+  Saved: 323_www.persefoni.com_ja_financial-services_decarbonization-management.md (10261 words)
+  Saved: 324_www.persefoni.com_ja_expert-publications_forrester-wave-report-2024.md (10376 words)
+  Saved: 325_www.persefoni.com_ja_customers_xerox.md (11496 words)
+  Saved: 326_www.persefoni.com_ja_company_persefoni-annual-impact-report.md (13003 words)
+  Saved: 327_www.persefoni.com_ja_documents_japan-commercial-disclosure.md (10817 words)
+  Saved: 328_www.persefoni.com_ja_company_sustainability-advisory-board.md (10389 words)
+  Saved: 329_www.persefoni.com_ja_business_scope-3-supplier-engagement.md (10320 words)
+  Saved: 330_www.persefoni.com_ja_contact-us.md (11234 words)
+  Saved: 331_www.persefoni.com_ja_customers_at-home.md (10736 words)
+  Saved: 332_www.persefoni.com_ja_customers.md (10446 words)
+  Saved: 333_www.persefoni.com_ja_financial-services.md (10354 words)
+  Saved: 334_www.persefoni.com_ja_documents_security.md (10387 words)
+  Saved: 335_www.persefoni.com_ja_expert-publications_benchmarking-sustainability-reporting-2024.md (10533 words)
+  Saved: 336_www.persefoni.com_ja_customers_natera.md (11054 words)
+  Saved: 337_www.persefoni.com_ja_financial-services_financed-emissions-accounting-analytics.md (10304 words)
+  Saved: 338_www.persefoni.com_ja_financial-services_investor-ghg-emissions-reporting.md (10325 words)
+  Saved: 339_www.persefoni.com_ja_insights_blog.md (10668 words)
+  Saved: 340_www.persefoni.com_ja_insights_expert-publications.md (10957 words)
+  Saved: 341_www.persefoni.com_ja_insights_events.md (10513 words)
+  Saved: 342_www.persefoni.com_ja_financial-services_portfolio-company-engagement.md (10283 words)
+  Saved: 343_www.persefoni.com_ja_persefoniai.md (10325 words)
+  Saved: 344_www.persefoni.com_ja_sign-up.md (10115 words)
+  Saved: 345_www.persefoni.com_ja_solutions_sb-261.md (1001 words)
+  Saved: 346_www.persefoni.com_ja_pricing-compliance-services.md (10645 words)
+  Saved: 347_www.persefoni.com_learn_supplier-engagement-guide.md (14750 words)
+  Saved: 348_www.persefoni.com_ja_schedule-demo.md (11148 words)
+  Saved: 349_www.persefoni.com_ja_sign-up_scope-3-101.md (10434 words)
+  Saved: 350_www.persefoni.com_ja_pricing.md (11271 words)
+  Saved: 351_www.persefoni.com_ja_sign-up_california-climate-disclosure-compliance.md (10423 words)
+  Saved: 352_www.persefoni.com_ja_partners.md (10515 words)
+  Saved: 353_www.persefoni.com_ja_sign-up_decarbonization-101.md (10394 words)
+  Saved: 354_www.persefoni.com_newsletter-sign-up.md (12864 words)
+  Saved: 355_www.persefoni.com_ja_solutions_sb-253.md (11248 words)
+  Saved: 356_www.persefoni.com_legal.md (214939 words)
+  Saved: 357_www.persefoni.com_ja_sign-up_carbon-accounting-essentials.md (10263 words)
+  Saved: 358_www.persefoni.com_legal-documents_persefoni-privacy-policy.md (214939 words)
+  Saved: 359_www.persefoni.com_ja_sustainability-reporting.md (10864 words)
+  Saved: 360_www.persefoni.com_partner-referral.md (12688 words)
+  Saved: 361_www.persefoni.com_partners_aws.md (13056 words)
+  Saved: 362_www.persefoni.com_partners_am.md (12959 words)
+  Saved: 363_www.persefoni.com_security-privacy.md (12612 words)
+  Saved: 364_www.persefoni.com_partners_workiva.md (13164 words)
+  Saved: 365_www.persefoni.com_product_integration-hub.md (13139 words)
+  Saved: 366_www.persefoni.com_purchase-sb-253-reporting-service.md (12340 words)
+  Saved: 367_www.persefoni.com_partners_bain-and-company.md (13198 words)
+  Saved: 368_www.persefoni.com_partners_connor-group.md (12920 words)
+  Saved: 369_www.persefoni.com_thank-you_sustainability-reporting-preview.md (12969 words)
+  Saved: 370_www.persefoni.com_pro-concierge-support.md (13043 words)
+  Saved: 371_www.persefoni.com_partners_patch.md (12903 words)
+
+Done: 352 pages saved to /Users/knowprajjwal/LearningPlatform/Competitor Analysis/scripts/../content/persefoni

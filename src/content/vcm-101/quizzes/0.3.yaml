@@ -1,0 +1,26 @@
+- question: "What does one Verified Carbon Unit (VCU) issued under the Verra VCS Program represent?"
+  options:
+    - "One kilogram of carbon dioxide equivalent reduced or removed"
+    - "One metric tonne of carbon dioxide equivalent reduced or removed"
+    - "One hectare of forest protected from deforestation"
+    - "One megawatt-hour of renewable energy generated"
+  answer: 1
+  explanation: "One VCU represents exactly one metric tonne of carbon dioxide equivalent (tCO2e) reduced or removed from the atmosphere. Different greenhouse gases are converted to CO2e using GWP values from the IPCC Fifth Assessment Report (AR5), with methane (CH4) having a GWP of approximately 28 and nitrous oxide (N2O) approximately 265."
+
+- question: "A REDD+ project protects a section of rainforest. Which of the following best describes the 'baseline' for calculating emission reductions?"
+  options:
+    - "The total stock of carbon stored in the forest at the project start date"
+    - "The emissions that would have occurred if the forest had been deforested at the historical or projected rate in the absence of the project"
+    - "The average emissions of all other REDD+ projects in the same country"
+    - "The maximum possible emissions from burning the entire forest"
+  answer: 1
+  explanation: "The baseline is the counterfactual scenario, what would have happened in the absence of the project. For REDD+, this means modelling the rate at which the forest would have been deforested and the resulting emissions. The credit is the difference between this counterfactual and actual emissions under the project."
+
+- question: "Why do nature-based carbon projects typically require deposits into a 'buffer account' under the VCS Program?"
+  options:
+    - "To pay Verra's administrative fees for registry management"
+    - "To compensate for potential reversals, such as when a protected forest burns or is cleared, releasing previously credited carbon"
+    - "To fund community development benefits required for CCBS certification"
+    - "To finance the cost of third-party validation and verification audits"
+  answer: 1
+  explanation: "Nature-based projects face reversal risk: stored carbon can be released through wildfires, drought, or illegal logging. The VCS buffer account is a pooled reserve of credits. If a reversal occurs, credits are cancelled from the buffer to maintain the environmental integrity of all issued credits. Higher-risk projects contribute a larger proportion of credits to the buffer."

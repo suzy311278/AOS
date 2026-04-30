@@ -1,0 +1,35 @@
+- question: "Which calculation method for Category 1 provides the highest data quality?"
+  options:
+    - "Spend-based method"
+    - "Average-data method"
+    - "Hybrid method"
+    - "Supplier-specific method"
+  answer: 3
+  explanation: "The supplier-specific method uses actual GHG inventory data from individual suppliers, reflecting the real emission intensity of the specific supplier rather than an industry average. It is the highest-quality method but requires the most supplier engagement effort."
+
+- question: "What does 'cradle-to-gate' mean in the context of Category 1?"
+  options:
+    - "From the company's factory to the end consumer"
+    - "From natural resource extraction to delivery at the reporting company's facility"
+    - "From the supplier's factory to the distribution centre"
+    - "From the end consumer back to recycling facilities"
+  answer: 1
+  explanation: "Cradle-to-gate means all emissions from natural resource extraction, through processing and manufacturing, up to delivery at the reporting company's facility (its gate). It does not include the reporting company's own processing or downstream use."
+
+- question: "A company purchases 200 tonnes of steel with an average-data emission factor of 1.85 tCO₂e/tonne. What are the Category 1 emissions?"
+  options:
+    - "185 tCO₂e"
+    - "370 tCO₂e"
+    - "1,850 tCO₂e"
+    - "920 tCO₂e"
+  answer: 1
+  explanation: "200 tonnes × 1.85 tCO₂e/tonne = 370 tCO₂e."
+
+- question: "The spend-based method is most appropriate for which purpose?"
+  options:
+    - "Precise calculation for regulatory reporting"
+    - "Supplier-level carbon footprinting"
+    - "Initial screening to identify high-emission categories"
+    - "Science-based target progress tracking"
+  answer: 2
+  explanation: "The spend-based method uses EIO emission factors per unit of monetary spend — it is fast and covers all purchased goods at once, making it ideal for initial screening to identify which categories and suppliers to prioritise for higher-quality data."

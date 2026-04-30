@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-primary-container": "#a8e7c5",
+                        "inverse-primary": "#95d4b3",
+                        "outline-variant": "#bfc9c1",
+                        "tertiary-fixed": "#92f7c3",
+                        "on-background": "#0b1f18",
+                        "on-surface": "#0b1f18",
+                        "on-secondary-fixed": "#002114",
+                        "secondary-fixed-dim": "#a5d0b9",
+                        "on-secondary-fixed-variant": "#274e3d",
+                        "on-primary": "#ffffff",
+                        "on-secondary-container": "#436b58",
+                        "primary-container": "#2d6a4f",
+                        "surface-variant": "#d1e8dc",
+                        "secondary": "#3f6653",
+                        "inverse-surface": "#21342c",
+                        "surface": "#e7fff3",
+                        "surface-container-lowest": "#ffffff",
+                        "on-tertiary": "#ffffff",
+                        "secondary-fixed": "#c1ecd4",
+                        "on-tertiary-container": "#89edba",
+                        "tertiary-fixed-dim": "#75daa8",
+                        "on-error-container": "#93000a",
+                        "on-surface-variant": "#404943",
+                        "primary-fixed-dim": "#95d4b3",
+                        "on-error": "#ffffff",
+                        "background": "#e7fff3",
+                        "inverse-on-surface": "#dff6ea",
+                        "surface-tint": "#2c694e",
+                        "surface-bright": "#e7fff3",
+                        "on-primary-fixed-variant": "#0e5138",
+                        "tertiary": "#005236",
+                        "surface-container-highest": "#d1e8dc",
+                        "primary-fixed": "#b1f0ce",
+                        "error": "#ba1a1a",
+                        "outline": "#707973",
+                        "tertiary-container": "#006d48",
+                        "secondary-container": "#beead1",
+                        "on-secondary": "#ffffff",
+                        "surface-container-high": "#d6eee2",
+                        "primary": "#0f5238",
+                        "on-primary-fixed": "#002114",
+                        "surface-dim": "#c8dfd4",
+                        "surface-container-low": "#e2f9ed",
+                        "error-container": "#ffdad6",
+                        "surface-container": "#dcf3e7",
+                        "on-tertiary-fixed-variant": "#005235",
+                        "on-tertiary-fixed": "#002113"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "label": ["Inter", "sans-serif"],
+                        "mono": ["JetBrains Mono", "monospace"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+            font-size: 1.25rem;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        .mono-text { font-family: 'JetBrains Mono', monospace; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface antialiased overflow-hidden h-screen flex flex-col">
+<!-- Top Navigation Anchor -->
+<header class="bg-[#E7FFF3] flex justify-between items-center w-full px-6 py-4 z-50">
+<div class="flex items-center gap-8">
+<span class="font-mono font-bold tracking-tighter text-[#0F5238] text-2xl">Greentryst</span>
+<nav class="hidden md:flex gap-6 items-center">
+<a class="text-[#707973] hover:text-[#0F5238] text-sm font-medium transition-colors" href="#">Network</a>
+<a class="text-[#0F5238] border-b-2 border-[#0F5238] pb-1 text-sm font-medium" href="#">Opportunities</a>
+<a class="text-[#707973] hover:text-[#0F5238] text-sm font-medium transition-colors" href="#">Insights</a>
+<a class="text-[#707973] hover:text-[#0F5238] text-sm font-medium transition-colors" href="#">Vault</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="bg-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary-container transition-all active:scale-95">Post Role</button>
+<div class="flex gap-2">
+<button class="p-2 text-outline hover:bg-surface-variant rounded-full transition-colors">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="p-2 text-outline hover:bg-surface-variant rounded-full transition-colors">
+<span class="material-symbols-outlined" data-icon="account_circle">account_circle</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-1 flex flex-col min-h-0">
+<!-- Sub-Header: Career Directory Header -->
+<div class="px-8 py-6 bg-surface-container-low">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<span class="mono-text text-[11px] uppercase tracking-widest text-outline block mb-1">CAREER DIRECTORY</span>
+<h1 class="text-3xl font-bold tracking-tight text-on-background">Sustainability Opportunities</h1>
+</div>
+<div class="flex gap-6">
+<div class="flex flex-col">
+<span class="mono-text text-[10px] uppercase text-outline">Active Roles</span>
+<span class="mono-text text-xl font-bold text-primary">482</span>
+</div>
+<div class="flex flex-col">
+<span class="mono-text text-[10px] uppercase text-outline">New Today</span>
+<span class="mono-text text-xl font-bold text-primary">12</span>
+</div>
+<div class="flex flex-col">
+<span class="mono-text text-[10px] uppercase text-outline">Avg. Salary</span>
+<span class="mono-text text-xl font-bold text-primary">€124k</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Two-Panel Split Layout -->
+<div class="flex-1 flex min-h-0 bg-surface">
+<!-- LEFT PANEL: Search & Vertical List -->
+<aside class="w-[380px] flex flex-col border-r border-outline-variant/10 bg-surface-container-low min-h-0">
+<!-- Filters and Search -->
+<div class="p-4 space-y-4 border-b border-outline-variant/10">
+<div class="flex gap-2 overflow-x-auto pb-1 no-scrollbar">
+<button class="px-3 py-1 bg-primary-container text-white text-xs rounded-full whitespace-nowrap">All Roles</button>
+<button class="px-3 py-1 bg-surface-container-highest text-on-surface-variant text-xs rounded-full whitespace-nowrap hover:bg-surface-variant transition-colors">Strategy</button>
+<button class="px-3 py-1 bg-surface-container-highest text-on-surface-variant text-xs rounded-full whitespace-nowrap hover:bg-surface-variant transition-colors">Finance</button>
+<button class="px-3 py-1 bg-surface-container-highest text-on-surface-variant text-xs rounded-full whitespace-nowrap hover:bg-surface-variant transition-colors">Supply Chain</button>
+</div>
+<div class="relative group">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-lg" data-icon="search">search</span>
+<input class="w-full bg-surface-container-lowest border-none ring-1 ring-outline-variant/30 focus:ring-2 focus:ring-primary rounded-xl pl-10 pr-4 py-2.5 text-sm transition-all outline-none" placeholder="Search opportunities..." type="text"/>
+</div>
+</div>
+<!-- Job List -->
+<div class="flex-1 overflow-y-auto space-y-1 p-2">
+<!-- Selected Job Card -->
+<div class="bg-surface-variant border-l-4 border-primary p-4 rounded-xl cursor-pointer group transition-all translate-x-1 shadow-sm">
+<div class="flex justify-between items-start mb-1">
+<h3 class="font-bold text-sm text-on-background group-hover:text-primary transition-colors">Lead ESG Disclosures Analyst</h3>
+<span class="mono-text text-[10px] text-outline">2H AGO</span>
+</div>
+<p class="text-xs text-on-surface-variant mb-3 font-medium">Ecosphere Solutions</p>
+<div class="flex items-center gap-3 text-outline mb-3">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-xs" data-icon="location_on">location_on</span>
+<span class="text-[11px]">Berlin, DE</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-xs" data-icon="euro">euro</span>
+<span class="mono-text text-[11px]">110k - 145k</span>
+</div>
+</div>
+<div class="flex gap-2">
+<span class="bg-surface-container-highest px-2 py-0.5 rounded-sm text-[9px] uppercase mono-text font-bold text-secondary">REGULATORY</span>
+<span class="bg-surface-container-highest px-2 py-0.5 rounded-sm text-[9px] uppercase mono-text font-bold text-secondary">SENIOR</span>
+</div>
+</div>
+<!-- Other Job Card -->
+<div class="hover:bg-surface-container-highest p-4 rounded-xl cursor-pointer group transition-all border-l-4 border-transparent">
+<div class="flex justify-between items-start mb-1">
+<h3 class="font-bold text-sm text-on-background group-hover:text-primary transition-colors">Director of Circularity</h3>
+<span class="mono-text text-[10px] text-outline">5H AGO</span>
+</div>
+<p class="text-xs text-on-surface-variant mb-3 font-medium">Loom Textiles Int.</p>
+<div class="flex items-center gap-3 text-outline mb-3">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-xs" data-icon="location_on">location_on</span>
+<span class="text-[11px]">Paris, FR</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-xs" data-icon="euro">euro</span>
+<span class="mono-text text-[11px]">130k - 160k</span>
+</div>
+</div>
+<div class="flex gap-2">
+<span class="bg-surface-container-highest px-2 py-0.5 rounded-sm text-[9px] uppercase mono-text font-bold text-secondary">OPERATIONS</span>
+<span class="bg-surface-container-highest px-2 py-0.5 rounded-sm text-[9px] uppercase mono-text font-bold text-secondary">EXECUTIVE</span>
+</div>
+</div>
+<!-- Other Job Card -->
+<div class="hover:bg-surface-container-highest p-4 rounded-xl cursor-pointer group transition-all border-l-4 border-transparent">
+<div class="flex justify-between items-start mb-1">
+<h3 class="font-bold text-sm text-on-background group-hover:text-primary transition-colors">Head of Decarbonization Strategy</h3>
+<span class="mono-text text-[10px] text-outline">1D AGO</span>
+</div>
+<p class="text-xs text-on-surface-variant mb-3 font-medium">Terraform Energy</p>
+<div class="flex items-center gap-3 text-outline mb-3">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-xs" data-icon="location_on">location_on</span>
+<span class="text-[11px]">Amsterdam, NL</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-xs" data-icon="euro">euro</span>
+<span class="mono-text text-[11px]">140k - 180k</span>
+</div>
+</div>
+<div class="flex gap-2">
+<span class="bg-surface-container-highest px-2 py-0.5 rounded-sm text-[9px] uppercase mono-text font-bold text-secondary">ENERGY</span>
+<span class="bg-surface-container-highest px-2 py-0.5 rounded-sm text-[9px] uppercase mono-text font-bold text-secondary">SENIOR</span>
+</div>
+</div>
+</div>
+</aside>
+<!-- RIGHT PANEL: Full Detail View -->
+<section class="flex-1 overflow-y-auto bg-surface-container-lowest flex flex-col">
+<div class="p-8 max-w-4xl mx-auto w-full">
+<!-- Top Section -->
+<div class="flex justify-between items-start mb-8">
+<div>
+<div class="flex gap-2 mb-4">
+<span class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-sm text-[11px] uppercase mono-text font-bold">Reporting &amp; Disclosure</span>
+<span class="bg-surface-container-highest text-on-surface-variant px-3 py-1 rounded-sm text-[11px] uppercase mono-text font-bold">Ref: GS-88421</span>
+</div>
+<h2 class="text-4xl font-extrabold text-on-background tracking-tight mb-2">Lead ESG Disclosures Analyst</h2>
+<div class="flex flex-wrap items-center gap-y-2 gap-x-6 text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary" data-icon="corporate_fare">corporate_fare</span>
+<span class="font-semibold">Ecosphere Solutions</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary" data-icon="location_on">location_on</span>
+<span>Berlin, DE (Hybrid)</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary" data-icon="schedule">schedule</span>
+<span>Posted 2 hours ago</span>
+</div>
+</div>
+</div>
+<div class="flex gap-2">
+<button class="p-3 border border-outline-variant/30 rounded-xl hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined" data-icon="bookmark">bookmark</span>
+</button>
+<button class="p-3 border border-outline-variant/30 rounded-xl hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined" data-icon="share">share</span>
+</button>
+</div>
+</div>
+<!-- Meta Strip -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-6 bg-surface-container-low rounded-xl mb-10 border border-outline-variant/10">
+<div>
+<span class="mono-text text-[10px] uppercase text-outline block mb-1">Contract</span>
+<span class="font-bold text-on-background">Full-time</span>
+</div>
+<div>
+<span class="mono-text text-[10px] uppercase text-outline block mb-1">Seniority</span>
+<span class="font-bold text-on-background">Senior / Lead</span>
+</div>
+<div>
+<span class="mono-text text-[10px] uppercase text-outline block mb-1">Experience</span>
+<span class="font-bold text-on-background">5-8 Years</span>
+</div>
+<div>
+<span class="mono-text text-[10px] uppercase text-outline block mb-1">Remuneration</span>
+<span class="font-bold text-primary mono-text">€110k - €145k</span>
+</div>
+</div>
+<!-- Role Content -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="md:col-span-2 space-y-10">
+<section>
+<h4 class="text-xl font-bold mb-4 text-on-background">Role Summary</h4>
+<div class="text-on-surface-variant leading-relaxed space-y-4">
+<p>Ecosphere Solutions is seeking an experienced ESG Disclosures Lead to spearhead our sustainability reporting transition. As the primary custodian of our environmental data, you will navigate the evolving regulatory landscape of the EU, ensuring our disclosures remain not just compliant, but industry-leading.</p>
+<p>The successful candidate will manage cross-functional data collection processes, translate complex climate metrics into board-ready narratives, and act as a bridge between operational teams and external auditors.</p>
+</div>
+</section>
+<section>
+<h4 class="text-xl font-bold mb-4 text-on-background">Skills Required</h4>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="text-on-surface-variant">Advanced understanding of Double Materiality assessment frameworks.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="text-on-surface-variant">Expertise in GHG Protocol (Scope 1, 2, and 3) calculation and verification.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="text-on-surface-variant">Proven track record with external audit firms for ESG assurance.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="text-on-surface-variant">Data synthesis and visualization skills using PowerBI or Tableau.</span>
+</li>
+</ul>
+</section>
+</div>
+<!-- Side Metadata -->
+<div class="space-y-8">
+<div>
+<h4 class="mono-text text-[11px] uppercase tracking-widest text-outline mb-4">Domain Context</h4>
+<div class="flex flex-wrap gap-2">
+<span class="px-2 py-1 bg-surface-container-high border border-outline-variant/20 mono-text text-[11px] text-primary">TCFD</span>
+<span class="px-2 py-1 bg-surface-container-high border border-outline-variant/20 mono-text text-[11px] text-primary">CSRD</span>
+<span class="px-2 py-1 bg-surface-container-high border border-outline-variant/20 mono-text text-[11px] text-primary">SBTI</span>
+<span class="px-2 py-1 bg-surface-container-high border border-outline-variant/20 mono-text text-[11px] text-primary">GRI</span>
+<span class="px-2 py-1 bg-surface-container-high border border-outline-variant/20 mono-text text-[11px] text-primary">EU TAXONOMY</span>
+</div>
+</div>
+<div class="bg-surface-container-low p-6 rounded-xl border border-outline-variant/10">
+<h4 class="mono-text text-[11px] uppercase tracking-widest text-outline mb-4">About the Company</h4>
+<img class="w-full h-32 object-cover rounded-lg mb-4" data-alt="Modern sustainable office interior with vertical green plant walls and sleek timber accents in a bright atrium" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrfKvROnaTT-P2RqZYAZY51UuXG9IFHyRoqYyV9miNZH3dHSffJ8eBz_KuK4G02xuqhLWbFsMvCoMPPWWcJdwbmndjLenJxcd8xaYe165zhe1Nle-nw6QOkuHxGY-ZPlx5Tv3XIAI9v8QG9hsn26T3p2VGM7Aflqli1oA9Hi1WZPQtjIZrEyWed_r3T3wlLOcoRfn96Zxuge3evJYIu0BNusWauJ7yRXAdX7MbJwqj0_k7RVnQJSwFVZfE6OVm1qM6EqlJCshWXtUd"/>
+<p class="text-xs text-on-surface-variant leading-relaxed mb-4">Ecosphere Solutions is a Tier-1 environmental consultancy focused on heavy industry decarbonization. Headquartered in Berlin with 14 global offices.</p>
+<a class="text-xs font-bold text-primary flex items-center gap-1 hover:underline" href="#">
+                                    Company Profile
+                                    <span class="material-symbols-outlined text-xs" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Action Bar -->
+<div class="mt-auto border-t border-outline-variant/10 bg-surface-container-low/50 p-6 flex justify-center items-center sticky bottom-0 backdrop-blur-md">
+<button class="bg-primary text-white px-12 py-4 rounded-xl font-bold text-lg hover:bg-primary-container transition-all active:scale-95 shadow-xl shadow-primary/10">
+                        Apply on company website
+                    </button>
+</div>
+</section>
+</div>
+</main>
+<!-- Side Navigation Logic -->
+<div class="fixed left-0 top-0 h-screen flex flex-col p-4 z-40 bg-[#E2F9ED] w-[280px] -translate-x-full lg:hidden">
+<div class="flex flex-col h-full">
+<div class="mb-8">
+<h3 class="text-[#0F5238] font-bold text-xl">Greentryst</h3>
+<p class="text-[#707973] text-[11px] uppercase tracking-widest mono-text">Sovereign Archive</p>
+</div>
+<nav class="flex-1 space-y-2">
+<div class="flex items-center gap-3 px-4 py-3 text-[#707973] hover:bg-[#D1E8DC] transition-all rounded-md cursor-pointer">
+<span class="material-symbols-outlined" data-icon="terminal">terminal</span>
+<span class="mono-text text-[11px] uppercase tracking-widest">Terminal</span>
+</div>
+<div class="flex items-center gap-3 px-4 py-3 bg-white text-[#0F5238] shadow-sm rounded-md cursor-pointer translate-x-1">
+<span class="material-symbols-outlined" data-icon="work">work</span>
+<span class="mono-text text-[11px] uppercase tracking-widest">Opportunities</span>
+</div>
+<div class="flex items-center gap-3 px-4 py-3 text-[#707973] hover:bg-[#D1E8DC] transition-all rounded-md cursor-pointer">
+<span class="material-symbols-outlined" data-icon="groups">groups</span>
+<span class="mono-text text-[11px] uppercase tracking-widest">Talent</span>
+</div>
+<div class="flex items-center gap-3 px-4 py-3 text-[#707973] hover:bg-[#D1E8DC] transition-all rounded-md cursor-pointer">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span>
+<span class="mono-text text-[11px] uppercase tracking-widest">Indices</span>
+</div>
+<div class="flex items-center gap-3 px-4 py-3 text-[#707973] hover:bg-[#D1E8DC] transition-all rounded-md cursor-pointer">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span class="mono-text text-[11px] uppercase tracking-widest">Settings</span>
+</div>
+</nav>
+<div class="border-t border-outline-variant/10 pt-4 space-y-2">
+<div class="flex items-center gap-3 px-4 py-3 text-[#707973] hover:bg-[#D1E8DC] transition-all rounded-md cursor-pointer">
+<span class="material-symbols-outlined" data-icon="help">help</span>
+<span class="mono-text text-[11px] uppercase tracking-widest">Support</span>
+</div>
+<button class="w-full bg-primary-container text-white py-3 rounded-md mono-text text-[11px] uppercase tracking-widest font-bold">Upgrade Access</button>
+</div>
+</div>
+</div>
+</body></html>

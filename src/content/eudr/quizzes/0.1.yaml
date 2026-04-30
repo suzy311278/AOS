@@ -1,0 +1,26 @@
+- question: "According to the FAO Global Forest Resources Assessment, approximately how much forest has the world lost since 1990?"
+  options:
+    - "120 million hectares"
+    - "420 million hectares"
+    - "840 million hectares"
+    - "4.06 billion hectares"
+  answer: 1
+  explanation: "The FAO reports that approximately 420 million hectares of forest have been lost since 1990 through conversion to other land uses, an area roughly equivalent to the entire land area of the European Union."
+
+- question: "Which sector is responsible for approximately 73% of all tropical deforestation globally?"
+  options:
+    - "Infrastructure and road-building"
+    - "Urbanisation and housing"
+    - "Agricultural expansion"
+    - "Mining and resource extraction"
+  answer: 2
+  explanation: "Agricultural expansion, combining large-scale commercial agriculture (around 40%) and local subsistence farming (around 33%), accounts for approximately 73% of all tropical deforestation. This is the primary reason the EUDR focuses on agricultural commodities."
+
+- question: "What does the FAO's definition of a 'forest' require regarding canopy cover?"
+  options:
+    - "More than 25% canopy cover"
+    - "More than 10% canopy cover"
+    - "More than 50% canopy cover"
+    - "More than 30% canopy cover"
+  answer: 1
+  explanation: "Under the FAO definition (which the EUDR adopts), a forest is land spanning more than 0.5 hectares with trees taller than 5 metres and a canopy cover of more than 10%, or trees capable of reaching those thresholds. This is the threshold used to determine what counts as forest for EUDR compliance purposes."

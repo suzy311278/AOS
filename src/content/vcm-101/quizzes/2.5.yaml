@@ -1,0 +1,26 @@
+- question: "In a cookstove carbon credit calculation, what does the 'non-renewable biomass fraction (fNRB)' represent, and why is it important?"
+  options:
+  - "The fraction of biomass that cannot be used as fuel, which must be deducted from the baseline"
+  - "The proportion of biomass consumed that comes from unsustainably harvested sources; only this fraction counts as a carbon credit because sustainably regrown biomass is carbon-neutral"
+  - "The proportion of the project budget spent on non-renewable fuel subsidies to households"
+  - "The fraction of CO2 emissions from cookstoves that does not have a global warming effect"
+  answer: 1
+  explanation: "The fNRB represents the share of biomass that is consumed unsustainably - taken from forests that are not regrowing to replace what was removed. Only this fraction generates a carbon credit because if the wood would have regrown anyway (renewable biomass), burning it is carbon-neutral over a reasonable time horizon. In highly deforested regions, fNRB may be close to 1.0; in well-managed forests with sustainably harvested fuel, fNRB may be much lower. This variable has the largest single impact on the total credit volume a cookstove project generates."
+
+- question: "Which of the following is a key concern raised by critics about early-generation cookstove carbon projects?"
+  options:
+  - "Cookstove projects generate far too many credits and have over-supplied the market"
+  - "Improved cookstoves do not actually reduce household fuel consumption compared to traditional three-stone fires"
+  - "Usage rate assumptions in early methodologies were too optimistic, overstating how often improved stoves were actually used by households"
+  - "Gold Standard did not require any monitoring of cookstove projects before 2022"
+  answer: 2
+  explanation: "A primary criticism of early cookstove projects is that they applied optimistic usage rate assumptions - estimating that distributed stoves would be used for a high proportion of cooking without robust monitoring to confirm actual usage. Stove abandonment (households reverting to traditional methods) is common due to device failures, fuel compatibility issues, or changed household circumstances. Early methodologies relied heavily on periodic surveys rather than continuous monitoring, which tends to capture aspirational rather than actual usage patterns."
+
+- question: "Gold Standard requires cookstove projects to report on their contributions to which framework, beyond pure greenhouse gas accounting?"
+  options:
+  - "The ICVCM Core Carbon Principles framework"
+  - "The VCMI Claims Code of Practice"
+  - "The United Nations Sustainable Development Goals (SDGs)"
+  - "The Oxford Offsetting Principles hierarchy"
+  answer: 2
+  explanation: "Gold Standard has embedded SDG impact reporting into its certification requirements since its founding. Cookstove projects typically document contributions across multiple SDGs including SDG 3 (Good Health), SDG 5 (Gender Equality, through reduced women's time burden), SDG 7 (Clean Energy), SDG 13 (Climate Action), and SDG 15 (Life on Land). This multi-benefit reporting is a core part of Gold Standard's market positioning and is a primary reason buyers interested in sustainable development impact prefer Gold Standard-certified cookstove credits."

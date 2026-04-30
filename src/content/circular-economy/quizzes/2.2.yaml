@@ -1,0 +1,26 @@
+- question: "Why does repairing a product preserve significantly more value than recycling its materials?"
+  options:
+    - "Repair always generates higher revenue than selling recycled materials"
+    - "Repairing preserves the embedded manufacturing energy, precision engineering, and materials; recycling recovers only the raw material content at lower quality"
+    - "Recycled materials are always of lower quality than virgin materials"
+    - "Repair is mandated by EU law as preferable to recycling in all circumstances"
+  answer: 1
+  explanation: "Repair preserves all the value embedded in a product's manufacturing: energy, skilled labour, precision assembly, and material processing. Recycling destroys all of this, recovering only the basic raw material content, typically at degraded quality."
+
+- question: "Caterpillar's 'Cat Reman' remanufacturing programme uses what percentage less energy compared to manufacturing new equivalent components?"
+  options:
+    - "25%"
+    - "50%"
+    - "65%"
+    - "85%"
+  answer: 3
+  explanation: "Caterpillar's Cat Reman programme uses 85% less energy, 85% less material, and generates 85% less waste compared to manufacturing new components, while delivering products at 40-70% of the cost of new equivalents with full warranty."
+
+- question: "The EU Right to Repair Directive (2024) primarily addresses which R-strategy in the circular economy hierarchy?"
+  options:
+    - "R8 - Recycle"
+    - "R4 - Repair"
+    - "R0 - Refuse"
+    - "R9 - Recover energy"
+  answer: 1
+  explanation: "The Right to Repair Directive directly enables R4 (Repair) by compelling manufacturers to make spare parts and repair information available to independent repairers for up to 10 years, removing the commercial and technical barriers that made repair economically unviable."

@@ -1,0 +1,17 @@
+- question: "What does DNSH stand for?"
+  options:
+    - "Do Not Significantly Harm"
+    - "Detailed National Sustainability Handbook"
+    - "Direct Net Sustainability Handling"
+    - "Due No Significant Hazard"
+  answer: 0
+  explanation: "DNSH requires that an activity contributing to one environmental objective does not significantly harm any of the other five."
+
+- question: "Which DNSH requirement is cited as one of the most common compliance challenges?"
+  options:
+    - "Water efficiency assessment"
+    - "Climate risk assessment for adaptation (Appendix A)"
+    - "Waste management plan"
+    - "Biodiversity impact assessment"
+  answer: 1
+  explanation: "The Appendix A climate risk assessment requires a forward-looking analysis of physical climate risks over the activity's expected lifetime, which many companies find challenging."

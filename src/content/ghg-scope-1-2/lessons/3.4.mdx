@@ -1,0 +1,434 @@
+{/* source: GHG Protocol Corporate Standard; IPCC 2006 Guidelines; CEA CO2 Baseline Database; India GHG Program */}
+
+Everything you have learned in this course comes together here. We are going to walk through a realistic end-to-end GHG inventory for a mid-size Indian manufacturer - from blank spreadsheet to final numbers. This is what the work actually looks like.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-1-2/3_4.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Meet Mehta Industries
+
+Mehta Industries manufactures auto parts in western India. Here is what they look like:
+
+- **3 manufacturing plants** (Pune, Nashik, Aurangabad)
+- **2 offices** (Mumbai headquarters, Pune regional office)
+- **500 employees** across all sites
+- **15 delivery trucks** running on diesel
+- **No prior GHG inventory** - this is year one
+
+The CFO has been asked by two major European OEM customers to disclose Scope 1 and Scope 2 emissions. She wants the numbers done right the first time.
+
+## Step 1: Set the Boundary
+
+Mehta Industries owns and operates everything - all three plants, both offices, the truck fleet. No joint ventures, no franchises. The choice is straightforward: **operational control**.
+
+All five sites are included. No exclusions. The reporting period is FY 2024-25 (April 2024 to March 2025).
+
+## Step 2: Identify Emission Sources
+
+You walk through each site with the plant manager and the facility team. Here is what you find:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Site</th>
+      <th>Source</th>
+      <th>Scope</th>
+      <th>Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pune Plant</td>
+      <td>Diesel backup generator (250 kVA)</td>
+      <td>Scope 1</td>
+      <td>Stationary combustion</td>
+    </tr>
+    <tr>
+      <td>Pune Plant</td>
+      <td>Furnace oil for heat treatment</td>
+      <td>Scope 1</td>
+      <td>Stationary combustion</td>
+    </tr>
+    <tr>
+      <td>Pune Plant</td>
+      <td>Grid electricity</td>
+      <td>Scope 2</td>
+      <td>Purchased electricity</td>
+    </tr>
+    <tr>
+      <td>Pune Plant</td>
+      <td>4 AC units with R-410A</td>
+      <td>Scope 1</td>
+      <td>Fugitive</td>
+    </tr>
+    <tr>
+      <td>Nashik Plant</td>
+      <td>Diesel backup generator (200 kVA)</td>
+      <td>Scope 1</td>
+      <td>Stationary combustion</td>
+    </tr>
+    <tr>
+      <td>Nashik Plant</td>
+      <td>LPG for canteen and process heating</td>
+      <td>Scope 1</td>
+      <td>Stationary combustion</td>
+    </tr>
+    <tr>
+      <td>Nashik Plant</td>
+      <td>Grid electricity</td>
+      <td>Scope 2</td>
+      <td>Purchased electricity</td>
+    </tr>
+    <tr>
+      <td>Nashik Plant</td>
+      <td>4 AC units with R-410A</td>
+      <td>Scope 1</td>
+      <td>Fugitive</td>
+    </tr>
+    <tr>
+      <td>Aurangabad Plant</td>
+      <td>Diesel backup generator (200 kVA)</td>
+      <td>Scope 1</td>
+      <td>Stationary combustion</td>
+    </tr>
+    <tr>
+      <td>Aurangabad Plant</td>
+      <td>Furnace oil for forging furnace</td>
+      <td>Scope 1</td>
+      <td>Stationary combustion</td>
+    </tr>
+    <tr>
+      <td>Aurangabad Plant</td>
+      <td>Grid electricity</td>
+      <td>Scope 2</td>
+      <td>Purchased electricity</td>
+    </tr>
+    <tr>
+      <td>Aurangabad Plant</td>
+      <td>4 AC units with R-410A</td>
+      <td>Scope 1</td>
+      <td>Fugitive</td>
+    </tr>
+    <tr>
+      <td>Mumbai Office</td>
+      <td>Grid electricity</td>
+      <td>Scope 2</td>
+      <td>Purchased electricity</td>
+    </tr>
+    <tr>
+      <td>Mumbai Office</td>
+      <td>4 AC units with R-410A (split ACs)</td>
+      <td>Scope 1</td>
+      <td>Fugitive</td>
+    </tr>
+    <tr>
+      <td>Pune Office</td>
+      <td>Grid electricity</td>
+      <td>Scope 2</td>
+      <td>Purchased electricity</td>
+    </tr>
+    <tr>
+      <td>Pune Office</td>
+      <td>2 AC units with R-410A (split ACs)</td>
+      <td>Scope 1</td>
+      <td>Fugitive</td>
+    </tr>
+    <tr>
+      <td>All sites</td>
+      <td>15 delivery trucks (diesel)</td>
+      <td>Scope 1</td>
+      <td>Mobile combustion</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+Notice what is **not** on this list: employee commuting (Scope 3), business travel by air (Scope 3), upstream freight by third-party carriers (Scope 3). These matter, but they are outside Scope 1 and 2.
+
+## Step 3: Collect the Data
+
+Here is what you request from each site - and the specific documents to ask for:
+
+- **Electricity**: Monthly MSEDCL/MSEB bills showing kWh consumed (not the amount billed - you need kWh)
+- **Diesel (generators)**: Purchase invoices from the fuel supplier showing litres delivered, cross-checked with the generator logbook
+- **Furnace oil**: Purchase invoices (litres or kg) from the supplier
+- **LPG**: Purchase receipts from the gas distributor (kg)
+- **Refrigerant**: AC maintenance logs showing refrigerant top-ups during the year (kg of R-410A added)
+- **Fleet diesel**: Fuel card statements or pump receipts for each truck (litres)
+
+<HighlightBox>
+Always collect data in physical units (kWh, litres, kg) - not in rupees. You cannot convert monetary amounts to emissions accurately because prices fluctuate. If a site can only give you rupee amounts, work backwards using average unit prices, but flag this as an estimation in your assumptions log.
+</HighlightBox>
+
+## Step 4: Calculate
+
+Here are the actual numbers for Mehta Industries FY 2024-25.
+
+### Scope 1 - Stationary Combustion
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Quantity</th>
+      <th>Emission Factor</th>
+      <th>tCO2e</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Diesel generators (all 3 plants)</td>
+      <td>42,000 litres</td>
+      <td>2.68 kgCO2e/litre</td>
+      <td>112.6</td>
+    </tr>
+    <tr>
+      <td>Furnace oil (Pune + Aurangabad)</td>
+      <td>180,000 litres</td>
+      <td>3.17 kgCO2e/litre</td>
+      <td>570.6</td>
+    </tr>
+    <tr>
+      <td>LPG (Nashik)</td>
+      <td>4,500 kg</td>
+      <td>2.98 kgCO2e/kg</td>
+      <td>13.4</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+**Scope 1 stationary total: 696.6 tCO2e**
+
+<CalculationExercise
+  question="Mehta Industries' three diesel generators consumed a combined 42,000 litres of diesel during the year. Using an emission factor of 2.68 kgCO2e per litre, what are the total emissions from diesel generators in tCO2e?"
+  answer={112.56}
+  tolerance={1}
+  unit="tCO2e"
+  hints={[
+    "Multiply total litres by the emission factor: 42,000 x 2.68 kgCO2e/litre.",
+    "Convert kg to tonnes by dividing by 1,000."
+  ]}
+  solution="42,000 litres x 2.68 kgCO2e/litre = 112,560 kgCO2e = 112.56 tCO2e. Diesel generators are often a small but easily overlooked source - especially backup generators that only run during power outages."
+/>
+
+### Scope 1 - Mobile Combustion
+
+The 15 delivery trucks consumed a total of 285,000 litres of diesel during the year.
+
+285,000 litres x 2.68 kgCO2e/litre = 763,800 kgCO2e = **763.8 tCO2e**
+
+### Scope 1 - Fugitive Emissions
+
+AC maintenance logs show a total of 45 kg of R-410A refrigerant was topped up across all 18 AC units during the year. Each top-up represents gas that leaked out - this is your fugitive emission.
+
+R-410A has a GWP of 2,088 (AR5 values).
+
+45 kg x 2,088 = 93,960 kgCO2e = **94.0 tCO2e**
+
+This often surprises people. Forty-five kilograms of refrigerant - barely enough to fill a small cylinder - produces almost 94 tonnes of CO2 equivalent. This is why you never ignore "small" refrigerant systems.
+
+### Scope 1 Total
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>tCO2e</th>
+      <th>% of Scope 1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Stationary combustion</td>
+      <td>696.6</td>
+      <td>44.8%</td>
+    </tr>
+    <tr>
+      <td>Mobile combustion</td>
+      <td>763.8</td>
+      <td>49.1%</td>
+    </tr>
+    <tr>
+      <td>Fugitive emissions</td>
+      <td>94.0</td>
+      <td>6.1%</td>
+    </tr>
+    <tr>
+      <td><strong>Scope 1 Total</strong></td>
+      <td><strong>1,554.4</strong></td>
+      <td><strong>100%</strong></td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+### Scope 2 - Purchased Electricity (Location-Based)
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Site</th>
+      <th>Consumption (MWh)</th>
+      <th>EF (tCO2e/MWh)</th>
+      <th>tCO2e</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pune Plant</td>
+      <td>3,200</td>
+      <td>0.713</td>
+      <td>2,281.6</td>
+    </tr>
+    <tr>
+      <td>Nashik Plant</td>
+      <td>2,800</td>
+      <td>0.713</td>
+      <td>1,996.4</td>
+    </tr>
+    <tr>
+      <td>Aurangabad Plant</td>
+      <td>2,500</td>
+      <td>0.713</td>
+      <td>1,782.5</td>
+    </tr>
+    <tr>
+      <td>Mumbai Office</td>
+      <td>180</td>
+      <td>0.713</td>
+      <td>128.3</td>
+    </tr>
+    <tr>
+      <td>Pune Office</td>
+      <td>120</td>
+      <td>0.713</td>
+      <td>85.6</td>
+    </tr>
+    <tr>
+      <td><strong>Scope 2 Total</strong></td>
+      <td><strong>8,800</strong></td>
+      <td></td>
+      <td><strong>6,274.4</strong></td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+The emission factor of 0.713 tCO2e/MWh comes from the Central Electricity Authority (CEA) CO2 Baseline Database for the Indian power sector. Since Mehta Industries has no PPAs or renewable energy certificates, the market-based Scope 2 equals the location-based figure.
+
+### The Complete Picture
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Scope</th>
+      <th>tCO2e</th>
+      <th>% of Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Scope 1 - Stationary</td>
+      <td>696.6</td>
+      <td>8.9%</td>
+    </tr>
+    <tr>
+      <td>Scope 1 - Mobile</td>
+      <td>763.8</td>
+      <td>9.8%</td>
+    </tr>
+    <tr>
+      <td>Scope 1 - Fugitive</td>
+      <td>94.0</td>
+      <td>1.2%</td>
+    </tr>
+    <tr>
+      <td>Scope 2 - Electricity (location-based)</td>
+      <td>6,274.4</td>
+      <td>80.1%</td>
+    </tr>
+    <tr>
+      <td><strong>Total Scope 1 + 2</strong></td>
+      <td><strong>7,828.8</strong></td>
+      <td><strong>100%</strong></td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+<CalculationExercise
+  question="Mehta Industries' total electricity consumption across all five sites is 8,800 MWh. Using the CEA grid emission factor of 0.713 tCO2e/MWh, what is the total Scope 2 emissions?"
+  answer={6274.4}
+  tolerance={5}
+  unit="tCO2e"
+  hints={[
+    "Multiply total consumption by the emission factor: 8,800 MWh x 0.713 tCO2e/MWh.",
+    "8,800 x 0.713 = ?"
+  ]}
+  solution="8,800 MWh x 0.713 tCO2e/MWh = 6,274.4 tCO2e. Scope 2 dominates Mehta's inventory at 80% of total emissions - this is typical for grid-dependent Indian manufacturers who do not rely heavily on on-site fossil fuel combustion."
+/>
+
+## Step 5: Sanity Check
+
+Does this profile make sense for a mid-size Indian auto parts manufacturer?
+
+**Scope 2 dominates at 80%.** This is expected. Mehta's plants run primarily on grid electricity for machining, CNC operations, and compressed air. The generators only run during outages (maybe 200-300 hours per year). If Scope 1 were dominant, you would expect heavy on-site combustion - a foundry, a kiln, or extensive diesel-powered equipment.
+
+**Mobile combustion is the largest Scope 1 source.** Fifteen trucks running daily routes consume significant diesel. This is common for companies with their own distribution fleet.
+
+**Fugitive emissions are small but material.** At 94 tCO2e, refrigerant leaks are only 1.2% of the total. But if Mehta ignored them, a verifier would flag the omission - especially since 45 kg of refrigerant top-ups across 18 units is well within the range of discoverable data.
+
+**Total intensity: ~15.7 tCO2e per employee.** For an Indian manufacturer of this size, this is within a reasonable range. A software company would be closer to 2-3 tCO2e per employee. A steel plant would be 50+.
+
+## The 10 Most Common Mistakes
+
+After walking through hundreds of inventories, these are the errors that come up again and again:
+
+1. **Missing backup generators.** "We barely use them" is not a reason to exclude them. If they burned fuel, they emitted CO2. Log the hours and fuel consumed.
+
+2. **Using the wrong emission factor source.** India has the CEA factor. The US has eGRID. The UK has DEFRA. Using a global average when a country-specific factor exists is a common and avoidable error.
+
+3. **Mixing financial year and calendar year data.** If your reporting period is April-March but your electricity bills run January-December, you need to pro-rate. Do not just use whatever 12-month period is convenient.
+
+4. **Forgetting to separate biomass CO2.** If any of your fuel is bio-blended (e.g., ethanol-blended petrol), the biogenic CO2 must be reported separately from scopes - not mixed into Scope 1.
+
+5. **Counting employee commute as Scope 1.** Employees driving their own cars to work is Scope 3, Category 7. Only company-owned or company-controlled vehicles are Scope 1.
+
+6. **Using net metering data instead of gross consumption for Scope 2.** If you have rooftop solar and export to the grid, your electricity bill may show net consumption. For GHG accounting, you need gross purchases from the grid.
+
+7. **Not reporting both location-based and market-based Scope 2.** If contractual instruments (RECs, I-RECs, PPAs) exist in your market, you must report both methods. In India, I-RECs are available - so dual reporting applies.
+
+8. **Unit conversion errors.** GJ vs. MWh, litres vs. kg, US gallons vs. imperial gallons. One wrong conversion can throw off an entire source category. Always document and double-check unit conversions.
+
+9. **Ignoring small refrigerant systems.** Split ACs in offices, small cold storage units, water coolers with refrigerant circuits. Individually small, but across 50 or 100 units, they add up. And they use high-GWP gases.
+
+10. **Not documenting assumptions and data sources.** You estimated generator runtime from logbook entries because fuel purchase records were incomplete. That is fine - but write it down. Every estimation, every proxy, every judgment call goes in the assumptions log. Your future self (and your verifier) will thank you.
+
+## How This Feeds Into Reporting
+
+Mehta's inventory does not exist in a vacuum. Here is where these numbers go:
+
+**BRSR (Business Responsibility and Sustainability Report) - Principle 6:** SEBI requires top-1000 listed companies (and their value chain partners increasingly) to disclose Scope 1 and Scope 2 emissions. Mehta's European OEM customers are likely asking because they need this data for their own Scope 3 reporting.
+
+**CDP Climate Change Questionnaire:** If Mehta's customers respond to CDP, they will request Scope 1 and Scope 2 data from key suppliers. Having a verified inventory ready makes responding straightforward.
+
+**Sustainability reports and ESG ratings:** Whether for DJSI, MSCI, or Sustainalytics, the same Scope 1 and Scope 2 numbers feed into ESG assessments. Consistency across disclosures is essential - you want one set of numbers, not three different versions.
+
+**Internal target-setting:** With a baseline established, Mehta can now set reduction targets. The obvious lever? Scope 2 at 80% of total. A 50 MW open-access solar PPA could cut Scope 2 significantly. That is the power of having clear numbers - they tell you where to act.
+
+<HighlightBox>
+Your first GHG inventory is always the hardest. Data collection processes do not exist yet, site teams are unfamiliar with the requests, and assumptions are everywhere. By year two, you have templates, trained contacts at each site, and a baseline to compare against. The effort drops by half; the quality doubles.
+</HighlightBox>
+
+<HighlightBox>
+**Practitioner Tip: Traceability Is Everything**
+
+If there is one habit that will save you the most pain across the entire inventory process, it is this: make every number traceable to its source. Link emission factors to their publication and year. Hyperlink fuel quantities to invoices or delivery challans right in the Excel sheet. Document every assumption in a notes column. Break calculations into clear, visible steps rather than hiding them in nested formulas. And follow the same spreadsheet format year on year - consistency in structure makes year-over-year comparison trivial, handovers painless, and assurance straightforward. The goal is simple: anyone - a verifier, a new team member, your future self - should be able to trace any reported number back to its original source within seconds.
+</HighlightBox>
+
+<KeyTakeaways items="Start every inventory by setting boundaries and walking each site to identify all emission sources - backup generators, small AC units, and canteen LPG cylinders are commonly missed ;; Always collect activity data in physical units (kWh, litres, kg), never in monetary amounts - price fluctuations make cost-based estimates unreliable ;; For Indian companies, use the CEA CO2 Baseline Database grid emission factor for location-based Scope 2 - it is updated annually ;; Scope 2 typically dominates for grid-dependent Indian manufacturers (around 80% of total), making renewable energy procurement the highest-impact reduction lever ;; Document every estimation, proxy, and data gap in an assumptions log from day one - your verifier and your future self will need it ;; The same Scope 1 and 2 numbers feed BRSR, CDP, ESG ratings, and customer requests - build one credible dataset that serves all disclosures" />

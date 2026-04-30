@@ -1,0 +1,44 @@
+- question: "For a listed company, which denominator does PCAF prescribe for the attribution factor in the Listed Equity and Corporate Bonds asset class?"
+  options:
+    - "Total equity plus total debt from the balance sheet"
+    - "Market capitalisation of ordinary shares only"
+    - "EVIC (Enterprise Value Including Cash)"
+    - "Net asset value (total assets minus total liabilities)"
+  answer: 2
+  explanation: "PCAF prescribes EVIC (Enterprise Value Including Cash) as the denominator for listed equity and corporate bonds. EVIC includes market cap of ordinary shares, market cap of preferred shares, book value of total debt, and minorities' interests, with no deductions for cash. Using EVIC (rather than equity alone) ensures that both equity and debt providers are attributed their proportional share of the company's emissions."
+
+- question: "An asset manager holds a €300 million bond position in a listed company with an EVIC of €10 billion. The company's Scope 1 and 2 emissions are 12,000,000 tCO2e. What are the financed emissions from this bond?"
+  options:
+    - "360,000 tCO2e"
+    - "120,000 tCO2e"
+    - "36,000 tCO2e"
+    - "1,200,000 tCO2e"
+  answer: 2
+  explanation: "Attribution factor = €300M / €10,000M = 3.0%. Financed emissions = 3.0% × 12,000,000 = 360,000 tCO2e. Note that the same EVIC denominator is used whether the exposure is in equity or bonds — the PCAF methodology does not distinguish between the debt and equity attribution factor calculation formula for listed companies. The outstanding amount (numerator) changes based on the instrument type."
+
+- question: "How should a financial institution treat emission removals reported by companies in its portfolio?"
+  options:
+    - "Subtract attributed emission removals directly from the absolute financed emissions total"
+    - "Ignore emission removals; only gross absolute emissions are relevant under PCAF"
+    - "Report attributed emission removals separately from absolute emissions using the same attribution factor, without netting"
+    - "Convert emission removals to carbon credits and report them as offsets"
+  answer: 2
+  explanation: "PCAF requires attributed emission removals to be reported separately from absolute financed emissions. The same attribution factor is applied: Attributed Removals = Attribution Factor × Company's Reported Emission Removals. These must never be netted against absolute emissions in the main financed emissions total. This maintains the integrity of the absolute emissions figure while still capturing the removal information."
+
+- question: "When a listed company's share price rises significantly, what happens to the attribution factor and why does PCAF require disclosure of uncorrected absolute financed emissions?"
+  options:
+    - "The attribution factor rises, so PCAF requires adjustment for share price inflation"
+    - "The attribution factor falls (because EVIC rises), but PCAF still requires uncorrected absolute emissions as the primary metric to prevent gaming"
+    - "Share price changes have no effect because EVIC uses book value for equity"
+    - "The attribution factor stays constant; market value fluctuations are only relevant for bonds"
+  answer: 1
+  explanation: "When a company's market cap rises, its EVIC increases, which makes the attribution factor (outstanding amount / EVIC) smaller, automatically reducing the financial institution's reported financed emissions — even if the company's actual physical GHG emissions are unchanged. PCAF addresses this by requiring uncorrected absolute financed emissions as the mandatory baseline. Market-adjusted estimates may optionally be reported separately with full transparency on the methodology."
+
+- question: "Which of the following corporate bond types is NOT included in the Listed Equity and Corporate Bonds asset class?"
+  options:
+    - "Sustainability-linked bonds"
+    - "Green bonds with a specified use of proceeds"
+    - "Standard corporate medium-term notes"
+    - "High-yield corporate bonds"
+  answer: 1
+  explanation: "Green bonds with a specified use of proceeds fall under the Use of Proceeds Structures asset class (Chapter 5.7), not Listed Equity and Corporate Bonds (Chapter 5.1). The distinction is whether the use of proceeds is contractually designated for specific activities. Standard corporate bonds, sustainability-linked bonds (where the link is to company-level sustainability targets rather than specific assets), and medium-term notes are included in Chapter 5.1."

@@ -1,0 +1,26 @@
+- question: "Holland Industries owns 33.3% of Kahuna Chemicals but operates the plant. Under the operational control approach, what percentage of Kahuna's emissions does Holland report?"
+  options:
+    - "0% - Holland only owns a minority stake"
+    - "33.3% - matching their equity share"
+    - "100% - Holland operates the plant"
+    - "66.7% - shared with the other partners"
+  answer: 2
+  explanation: "Under the operational control approach, it is all or nothing: if you operate the facility (hold the operating licence, introduce and implement operating policies), you report 100% of its emissions regardless of your equity stake. Holland operates Kahuna, so it reports 100%. Under equity share, it would only report 33.3%."
+
+- question: "A company owns a power plant on its factory premises that generates electricity for its own production lines. How should these emissions be classified?"
+  options:
+    - "Scope 2 - it is electricity generation"
+    - "Scope 1 - the company owns and controls the generation source"
+    - "Scope 3 - energy generation is an upstream activity"
+    - "Split between Scope 1 and Scope 2"
+  answer: 1
+  explanation: "Scope 2 covers purchased electricity from sources outside your organisational boundary. A captive power plant that you own and control is within your boundary - so its emissions are Scope 1 (direct). This is a common mistake: people see 'electricity' and assume Scope 2, but the test is ownership/control of the generation source, not the type of energy."
+
+- question: "DHL Express Nordic found that 98% of its emissions in Sweden came from outsourced partner transportation. If DHL uses the operational control approach, where do those partner transport emissions fall?"
+  options:
+    - "Scope 1 - DHL pays for the transport"
+    - "Scope 2 - it is purchased energy for transport"
+    - "Scope 3 - DHL does not own or control the partner vehicles"
+    - "They should be excluded entirely"
+  answer: 2
+  explanation: "Under operational control, you report 100% of emissions from operations you control and 0% from operations you do not. DHL does not own or control the partner firms' vehicles - they are third-party logistics providers. Their emissions fall into DHL's Scope 3 (Category 4: upstream transportation). This example shows why Scope 3 matters: ignoring it meant ignoring 98% of DHL's actual footprint."

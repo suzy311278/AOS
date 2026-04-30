@@ -1,0 +1,44 @@
+- question: "EU SFDR Articles 8 and 9 require product-level PAI disclosures. Which PCAF-derived metric most directly satisfies the requirement to report PAI indicator 2 (Carbon Footprint)?"
+  options:
+    - "Absolute financed emissions in tCO2e"
+    - "PCAF-derived total Scope 1+2 financed emissions of investees, divided by total portfolio value (in tCO2e per million invested)"
+    - "WACI — tCO2e per million of investee revenue"
+    - "Percentage of portfolio invested in fossil fuel companies"
+  answer: 1
+  explanation: "SFDR PAI indicator 2 (Carbon Footprint) is defined as total GHG emissions of investee companies divided by total portfolio value in EUR millions. This directly corresponds to PCAF's portfolio carbon footprint metric = Σ(Attribution Factor_i × Emissions_i) / Total Portfolio Value. This metric is distinct from WACI (which uses revenue as the denominator, corresponding to PAI indicator 3 — GHG Intensity)."
+
+- question: "The EBA Pillar 3 Template 5 requires financed emissions to be reported by NACE sector. Why does PCAF's asset-class methodology support this specific regulatory requirement?"
+  options:
+    - "PCAF uses NACE codes as the primary classification system for all asset classes"
+    - "PCAF's requirement to disaggregate by emission-intensive sectors aligns with sector-level breakdowns, and PCAF encourages NACE-compatible taxonomies in portfolio management systems"
+    - "PCAF's Template 5 and EBA's Template 5 are identical documents"
+    - "PCAF calculation is only mandatory for EU banks subject to Pillar 3"
+  answer: 1
+  explanation: "PCAF requires financed emissions to be disaggregated by emission-intensive sectors (energy, steel, cement, power, etc.) — the same sectors that EBA Pillar 3 Template 5 requires to be separately reported using NACE categorisation. Financial institutions that configure their portfolio management systems to tag exposures with NACE codes and measure PCAF-aligned financed emissions by sector can directly satisfy Template 5 without building a separate data pipeline."
+
+- question: "IFRS S2 requires disclosure of Scope 3 Category 15 emissions 'when material.' For which financial institutions is Category 15 almost always material?"
+  options:
+    - "Only those with assets over $100 billion"
+    - "All financial institutions — since their primary business is allocating capital to income-generating assets, Scope 3 Category 15 emissions virtually always dominate their total GHG footprint"
+    - "Only listed financial institutions subject to securities regulations"
+    - "Only banks; insurance companies and asset managers are exempt from IFRS S2"
+  answer: 1
+  explanation: "For financial institutions, the GHG footprint of their lending and investment portfolio (Category 15) is typically hundreds of times larger than their operational Scope 1 and 2 emissions. Because the primary business of a bank, insurer, or asset manager is capital allocation, Category 15 is inherently material — making the IFRS S2 Scope 3 Category 15 disclosure requirement effectively mandatory for virtually all financial institutions in IFRS S2-adopting jurisdictions."
+
+- question: "Which statement best describes the relationship between PCAF and the multiple regulatory frameworks (TCFD, IFRS S2, SFDR, Pillar 3)?"
+  options:
+    - "PCAF competes with these frameworks; financial institutions must choose one"
+    - "PCAF is the measurement methodology underlying all these frameworks; implementing PCAF provides the data infrastructure to satisfy multiple regulatory requirements from a single dataset"
+    - "PCAF is only relevant for SFDR disclosures; other frameworks use separate methodologies"
+    - "Regulatory frameworks replace PCAF once adopted into national law"
+  answer: 1
+  explanation: "PCAF is the foundational measurement layer — analogous to a company's accounting system — that generates the climate data needed across multiple reporting frameworks. TCFD's Metrics pillar, IFRS S2's Category 15 requirement, SFDR's PAI indicators 1-3, and EBA's Pillar 3 Template 5 all draw on the same underlying financed emissions data. A single, robust PCAF implementation satisfies all of these simultaneously, making PCAF not one choice among many but the essential measurement infrastructure enabling compliance with all."
+
+- question: "Which jurisdictions have adopted IFRS S2 (or equivalent) as mandatory climate disclosure standards as of December 2025?"
+  options:
+    - "Only the United Kingdom and Switzerland"
+    - "All G20 nations simultaneously from 2025"
+    - "A growing set including Canada, Australia, Singapore, Japan, Nigeria, and the UK, with EU equivalents through CSRD/ESRS"
+    - "Only developing nations; major economies are still in the voluntary phase"
+  answer: 2
+  explanation: "By December 2025, IFRS S2 or equivalent mandatory climate disclosure regimes had been adopted by Canada, Australia, Singapore, Japan, Nigeria, the UK, and several other jurisdictions. The EU is implementing substantively equivalent requirements through CSRD and the ESRS (European Sustainability Reporting Standards). Major economies such as the US (SEC climate rule) and China are at various stages of adoption. The trend is clearly toward mandatory, rather than voluntary, regime adoption globally."

@@ -1,0 +1,26 @@
+- question: "Why is the Governance section typically the easiest section to write in a sustainability report?"
+  options:
+    - "Because governance topics are less important to rating agencies"
+    - "Because governance information already exists in the annual report, corporate policies, and board charters"
+    - "Because the Governance section is always the shortest section"
+    - "Because governance data does not require verification"
+  answer: 1
+  explanation: "Unlike Environmental or Social data that may need to be collected from scratch, governance information is already well-documented in the annual report, corporate policies, board charters, and company secretarial records. The task is to reorganize and reframe it through a sustainability lens."
+
+- question: "Which three emerging governance areas differentiate a comprehensive Governance section from one that only covers the basics?"
+  options:
+    - "Marketing strategy, product development, and customer satisfaction"
+    - "Tax governance, IT/data governance, and board skill sets and competencies"
+    - "Financial audit results, stock performance, and market share"
+    - "Supply chain management, logistics, and procurement policies"
+  answer: 1
+  explanation: "Tax governance (GRI 207), IT and data governance (cybersecurity, data privacy), and board competencies (IFRS S1/S2 requirements) are emerging areas that add depth and forward-looking substance to the Governance section beyond traditional topics like board composition and ethics."
+
+- question: "The annual report states: 'The Risk Management Committee meets quarterly to review the company's risk register.' How should this be reframed for the sustainability report?"
+  options:
+    - "Copy the statement directly to maintain consistency between documents"
+    - "Remove the statement because risk management belongs only in the annual report"
+    - "Add a sustainability lens - describe how the committee has integrated climate-related and social risks into its framework"
+    - "Replace it with a general statement about the company's commitment to risk management"
+  answer: 2
+  explanation: "The sustainability report should complement, not duplicate, the annual report. Adding the sustainability governance lens - such as noting that the committee has integrated ESG risks and reviewed specific sustainability-related topics - provides unique value for the sustainability report's audience."

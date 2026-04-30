@@ -1,0 +1,26 @@
+- question: "What is the key difference between impact materiality and financial materiality?"
+  options:
+    - "Impact materiality focuses on investor returns, while financial materiality focuses on environmental damage"
+    - "Impact materiality asks how the company affects people and planet, while financial materiality asks how sustainability issues affect the company's bottom line"
+    - "Impact materiality is required by ISSB, while financial materiality is required by GRI"
+    - "Impact materiality only applies to environmental topics, while financial materiality covers all ESG topics"
+  answer: 1
+  explanation: "Impact materiality looks outward - how does the company impact the world? Financial materiality looks inward - how do environmental and social changes impact the company financially? Double materiality combines both directions."
+
+- question: "A company conducted a materiality assessment three years ago and has not updated it. What is the most appropriate course of action?"
+  options:
+    - "Reuse it as-is since materiality results rarely change"
+    - "Discard it entirely and start from scratch"
+    - "Have a frank conversation about whether to refresh it, since regulations, stakeholder expectations, and risks may have changed"
+    - "Use it but relabel it as a current-year assessment"
+  answer: 2
+  explanation: "A three-year-old assessment falls into the 'grey zone' - the material topics may still be relevant, but the world has changed. You need to discuss whether a refresh is warranted rather than blindly reusing outdated results or starting over unnecessarily."
+
+- question: "When writing the materiality chapter for a company that conducted a lightweight internal assessment with limited external stakeholder input, you should:"
+  options:
+    - "Describe it as a comprehensive multi-stakeholder engagement to strengthen credibility"
+    - "Omit the materiality chapter entirely since the process was not rigorous enough"
+    - "Be accurate about what was actually done - assurance providers and rating analysts can tell the difference"
+    - "Copy the materiality methodology description from a peer's report"
+  answer: 2
+  explanation: "Honesty about the process is essential. Overselling a lightweight assessment as comprehensive will backfire when assurance providers or ratings analysts scrutinize the report. Accurately describing what was done protects credibility."

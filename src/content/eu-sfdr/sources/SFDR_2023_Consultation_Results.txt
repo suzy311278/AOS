@@ -1,0 +1,150 @@
+EUROPEAN COMMISSION 2023 SFDR CONSULTATION - KEY FINDINGS
+==========================================================
+Title: Open and Targeted Consultations on the SFDR Assessment
+Launch date: 14 September 2023
+Close date: 22 December 2023
+Summary report published: 3 May 2024
+Administering department: DG FISMA (Financial Stability, Financial Services and Capital Markets Union)
+
+Official consultation page:
+https://finance.ec.europa.eu/regulation-and-supervision/consultations/finance-2023-sfdr-implementation_en
+
+Official consultation document (targeted):
+https://finance.ec.europa.eu/system/files/2023-09/2023-sfdr-implementation-targeted-consultation-document_en.pdf
+
+Summary of responses:
+https://finance.ec.europa.eu/document/download/0f2cfde1-12b0-4860-b548-0393ac5b592b_en?filename=2023-sfdr-implementation-summary-of-respons
+
+BACKGROUND
+----------
+Commissioner Mairead McGuinness announced in December 2022 that the Commission would conduct a comprehensive review of the SFDR, examining:
+- Legal certainty and clarity of key concepts
+- Useability of the regulation for investors and financial market participants
+- The SFDR's ability to combat greenwashing
+
+The Commission ran two parallel consultations:
+1. Open (public) consultation: Targeting the general public, individual investors, and non-specialized stakeholders
+2. Targeted consultation: Targeting public bodies, financial market participants, professional investors, NGOs, national regulators, and entities with specialized knowledge of SFDR and sustainable finance
+
+SCOPE OF THE CONSULTATION
+--------------------------
+The consultations covered:
+- Current SFDR disclosure requirements and their effectiveness
+- Interaction of SFDR with other sustainable finance legislation (EU Taxonomy, CSRD, MiFID II, IDD, PRIIPs, AIFMD, UCITS)
+- Potential changes to disclosure requirements for financial market participants at entity level
+- Potential changes to product-level disclosure requirements
+- Potential establishment of a product categorization system
+- Interaction with national sustainable finance frameworks
+
+KEY QUANTITATIVE FINDINGS FROM THE SUMMARY REPORT (MAY 2024)
+-------------------------------------------------------------
+296 respondents answered the section on SFDR interactions with other sustainable finance regulations.
+
+On relevance of SFDR objectives:
+- 89% considered that the objective of strengthening transparency through sustainability-related disclosures is STILL RELEVANT
+- 94% agreed that an EU-level disclosure framework is MORE EFFECTIVE than national measures
+
+On problems with current SFDR:
+- 77% highlighted key limitations including:
+  - Lack of legal clarity regarding key concepts (especially "sustainable investment" definition)
+  - Limited relevance of certain disclosure requirements
+  - Data availability issues (especially for PAI indicators)
+
+On Articles 8 and 9 as de facto labels:
+- Stakeholders overwhelmingly confirmed that Articles 8 and 9 have become informal product labels in the market
+- Strong consensus that this was unintended by the original SFDR but has created significant greenwashing risks
+- Majority supported introducing a formal product categorization system to replace the informal labeling
+
+On PAI disclosures:
+- Entity-level PAI statements were criticized as burdensome and duplicative with emerging CSRD requirements
+- Product-level PAI templates were considered too technical and data-heavy for retail investors
+- Many stakeholders called for alignment of SFDR data requirements with CSRD reporting to reduce duplication
+
+On disclosure templates:
+- Current templates were widely considered too long, too technical, and not investor-friendly
+- Strong support for shorter, more targeted disclosures focused on a smaller number of key indicators
+- Support for standardized, comparable formats enabling investor comparison across products
+
+On the "sustainable investment" definition:
+- Near-universal criticism of the lack of clear thresholds and prescriptive criteria
+- Major market participants had developed widely divergent methodologies for determining what qualifies as a "sustainable investment"
+- Strong support for either abolishing the definition or replacing it with prescriptive, comparable standards
+
+On interaction with EU Taxonomy:
+- Requiring Article 8 and 9 funds to disclose Taxonomy alignment percentages was seen as problematic
+- Reporting "0%" alignment frustrated investors and created misleading impressions
+- Many called for mandatory Taxonomy reporting only where Taxonomy criteria are genuinely used in the investment strategy
+
+On costs:
+- Financial market participants reported significant compliance costs from the SFDR Level 2 RTS templates
+- Entity-level PAI statements in particular were called out as resource-intensive with limited investor value
+- Industry groups cited annual compliance costs in the hundreds of millions of euros across the EU fund industry
+
+INDUSTRY POSITIONS AT TIME OF CONSULTATION (SEPTEMBER-DECEMBER 2023)
+-----------------------------------------------------------------------
+Asset management associations (EFAMA, ICMA, etc.):
+- Generally supportive of product categorization to replace de facto Article 8/9 labels
+- Pushed for clear, prescriptive criteria that could be applied consistently across fund types
+- Concerns about data availability, particularly for non-listed assets and alternative investments
+- Requested adequate transition periods and regulatory certainty
+
+NGOs and civil society (WWF, ShareAction, ClientEarth, etc.):
+- Supported ambitious categorization standards to prevent greenwashing
+- Called for meaningful minimum sustainability thresholds for each category
+- Concerned about the risk of a broad "middle" category becoming a new greenwashing vehicle
+- Pushed for mandatory exclusion of fossil fuels from all sustainability categories
+
+National regulators (AMF, BaFin, etc.):
+- Mixed views on scope changes (some wanted to retain financial advisers in scope)
+- Generally supportive of harmonized standards to prevent regulatory fragmentation
+- Some member states (notably France, Luxembourg) had developed national frameworks they wanted preserved
+
+Retail investor advocates:
+- Strong support for simplified, comparable disclosures accessible to non-expert investors
+- Support for a clear labeling regime similar to EU energy performance certificates
+- Concern that the current SFDR provides little meaningful information to retail investors
+
+CONTEXT: HOW THE 2023 CONSULTATION LED TO SFDR 2.0
+---------------------------------------------------
+The consultation results formed the evidence base for the Commission's formal legislative proposal of November 2025. Key consultation conclusions that were directly translated into the SFDR 2.0 proposal:
+
+1. Consultation finding: Articles 8/9 are de facto labels and a formal categorization system is needed
+   => SFDR 2.0 response: Three mandatory product categories (Articles 7, 8, 9)
+
+2. Consultation finding: The "sustainable investment" definition lacks clarity and allows inconsistent application
+   => SFDR 2.0 response: Concept entirely removed and replaced with category-specific criteria
+
+3. Consultation finding: Entity-level PAI disclosures overlap with CSRD and should be rationalized
+   => SFDR 2.0 response: Entity-level PAI statements abolished
+
+4. Consultation finding: Disclosure templates are too long and complex
+   => SFDR 2.0 response: Two-page maximum for pre-contractual disclosures
+
+5. Consultation finding: Mandatory Taxonomy reporting creates confusion when funds report "0%" alignment
+   => SFDR 2.0 response: Taxonomy reporting only required where Taxonomy pathways are used
+
+6. Consultation finding: Financial advisers should potentially be removed from scope
+   => SFDR 2.0 response: Financial advisers and portfolio managers removed from SFDR scope
+
+7. Consultation finding: Naming and marketing restrictions needed for non-sustainability products
+   => SFDR 2.0 response: Strict naming and marketing restrictions for non-categorized products
+
+SOURCES FOR THIS SUMMARY
+--------------------------
+1. European Commission SFDR consultation page
+   https://finance.ec.europa.eu/regulation-and-supervision/consultations/finance-2023-sfdr-implementation_en
+
+2. Summary Report of Responses (published 3 May 2024)
+   https://finance.ec.europa.eu/document/download/0f2cfde1-12b0-4860-b548-0393ac5b592b_en
+
+3. A&O Shearman - "SFDR Consultation and Review by European Commission"
+   https://www.aoshearman.com/en/insights/sfdr-consultation-and-review-by-european-commission-a-first-step-towards-sfdr-2-0
+
+4. KPMG - "The European Commission's review of SFDR"
+   https://kpmg.com/xx/en/our-insights/regulatory-insights/investment-management-regulatory-insights-fs/the-european-commissions-review-of-sfdr.html
+
+5. Sidley Austin - "Five Key Takeaways From EC's Consultation on SFDR" (September 2023)
+   https://www.sidley.com/en/insights/newsupdates/2023/09/five-key-takeaways-from-the-european-commission-s-sustainable-finance-disclosures
+
+6. EC Press Release (14 September 2023)
+   https://finance.ec.europa.eu/news/financial-markets-commission-consults-sustainable-finance-disclosures-2023-09-14_en

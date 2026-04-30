@@ -1,0 +1,26 @@
+- question: "Which of the following correctly describes the three levels at which biodiversity is organised?"
+  options:
+  - "Genetic diversity, species diversity, and ecosystem diversity"
+  - "Plant diversity, animal diversity, and microbial diversity"
+  - "Terrestrial diversity, marine diversity, and freshwater diversity"
+  - "Rare species, common species, and extinct species"
+  answer: 0
+  explanation: "Biodiversity operates across three interconnected levels: genetic diversity (variation within species), species diversity (variety of species in an area), and ecosystem diversity (variety of habitats and ecological communities). The CBD definition explicitly encompasses all three levels."
+
+- question: "The IPBES Global Assessment (2019) estimated that approximately how many plant and animal species are currently threatened with extinction?"
+  options:
+  - "100,000 species"
+  - "500,000 species"
+  - "1 million species"
+  - "5 million species"
+  answer: 2
+  explanation: "The IPBES Global Assessment (2019) found that approximately 1 million plant and animal species are currently threatened with extinction, many within decades. This represents a rate 10 to 100 times higher than the natural background extinction rate averaged over the past 10 million years."
+
+- question: "Why does genetic diversity within a species matter for businesses that depend on agricultural commodities?"
+  options:
+  - "Higher genetic diversity always increases crop yield per hectare"
+  - "Genetic diversity acts as a biological insurance policy, enabling populations to adapt to new diseases, pests, and climate conditions"
+  - "Genetic diversity is required by the EU Deforestation Regulation"
+  - "Genetic diversity reduces the need for fertiliser inputs in farming"
+  answer: 1
+  explanation: "Genetic diversity is the raw material for adaptation. Populations with high genetic diversity contain individuals with varying tolerance to stressors, meaning a new pathogen or climate shift cannot eliminate the entire population at once. The Irish potato famine, caused by dependence on a single genetically narrow potato variety, illustrates the catastrophic business and humanitarian risk of genetic monocultures."

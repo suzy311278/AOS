@@ -1,0 +1,44 @@
+- question: "An asset manager holds a 15% tranche in a $400 million auto loan ABS. The underlying pool of auto loans has a total vehicle origination value of $600 million. What is the attribution factor for the asset manager?"
+  options:
+    - "15% of $400M = $60M / $400M = 15.0%"
+    - "$60M / $600M = 10.0%"
+    - "$400M / $600M = 66.7%"
+    - "15% × $600M / $400M = 22.5%"
+  answer: 1
+  explanation: "The look-through attribution for securitizations works by dividing the institution's holding by the total underlying asset value at origination (not the nominal securitization value). The institution holds 15% of a $400M ABS = $60M. The total underlying vehicle origination value is $600M. Attribution factor = $60M / $600M = 10.0%. This ensures attribution is grounded in the actual asset base that generates the emissions, not the market value of the securitization tranche."
+
+- question: "What is the primary data challenge unique to securitizations that makes financed emissions calculation more difficult than for direct loans?"
+  options:
+    - "Securitization vehicles always have higher emissions than the underlying loans"
+    - "Pool opacity — older securitizations may only provide aggregate statistics rather than loan-level data"
+    - "Securitization tranches must be reported in a different currency than the national statistics"
+    - "PCAF does not yet have guidance for securitizations; they cannot be reported"
+  answer: 1
+  explanation: "A major challenge for securitizations is pool opacity. Older or less transparent ABS/MBS structures may not provide loan-level data (borrower identity, property address, vehicle make/model), forcing the financial institution to use aggregate pool statistics (geographic distribution, average collateral type, vintage) for estimation. This produces lower data quality scores than are achievable with loan-level transparency."
+
+- question: "For a CLO (Collateralised Loan Obligation) investing in a pool of corporate loans, which PCAF chapter's methodology applies at the underlying asset level?"
+  options:
+    - "Chapter 5.5 — Mortgages"
+    - "Chapter 5.2 — Business Loans and Unlisted Equity (for each underlying corporate loan)"
+    - "Chapter 5.9 — Sovereign Debt"
+    - "Chapter 5.7 — Use of Proceeds Structures"
+  answer: 1
+  explanation: "A CLO is backed by a pool of corporate loans to companies (typically leveraged buyout loans or other corporate debt). The look-through for a CLO therefore reaches corporate borrowers, and the applicable methodology for each underlying corporate loan is Chapter 5.2 (Business Loans and Unlisted Equity) for private companies, or Chapter 5.1 for listed corporate borrowers included in the pool."
+
+- question: "How does the emissions attribution for a securitization differ from the attribution for a directly held bond under PCAF?"
+  options:
+    - "It does not differ; both use EVIC of the ultimate corporate borrower"
+    - "Securitizations require look-through to the pool of underlying assets, with attribution based on the total underlying asset origination value; direct bonds use EVIC of the single issuer"
+    - "Securitizations are always attributed at 100% (no share-based attribution)"
+    - "Securitizations are excluded from PCAF reporting requirements"
+  answer: 1
+  explanation: "A directly held corporate bond uses the single issuer's EVIC as the denominator. A securitization requires looking through to the entire underlying asset pool and using the aggregate origination value of those assets as the denominator. The numerator in both cases is the financial institution's holding (market value for bonds, tranche value for ABS). The fundamental principle is the same, but the denominator construction differs significantly."
+
+- question: "For a revolving-pool ABS where underlying loans are continuously added and removed, how does PCAF address the measurement challenge?"
+  options:
+    - "Revolving-pool ABS are excluded from financed emissions calculations"
+    - "Only the initial pool composition at issuance date is used for all future years"
+    - "Financial institutions should use the pool composition at fiscal year-end and disclose the revolving nature of the pool, with further PCAF guidance anticipated"
+    - "A 3-year average pool composition is required to smooth out revolving effects"
+  answer: 2
+  explanation: "PCAF acknowledges that revolving pools present measurement challenges since the underlying asset pool changes throughout the year. The current approach is to use the pool composition at the fiscal year-end reporting date and to disclose the revolving nature of the pool. PCAF has flagged this as an area requiring further methodological development, similar to its treatment of revolving corporate credit facilities."

@@ -1,0 +1,26 @@
+- question: "What makes biodiversity credits fundamentally different from carbon credits in terms of fungibility?"
+  options:
+  - "Biodiversity credits can only be purchased by companies in the same country as the project"
+  - "Unlike CO2 equivalence (a universal metric for carbon), biodiversity lacks a universal metric, making credits location-specific and not interchangeable across different ecosystems or methodologies"
+  - "Biodiversity credits are only issued by governments, while carbon credits are issued by private standards"
+  - "Biodiversity credits expire after five years while carbon credits are permanent"
+  answer: 1
+  explanation: "Carbon credits use a universal metric (tonnes of CO2 equivalent) making them globally fungible: one tonne from a Brazilian forest offsets the same warming as one tonne from an Indonesian peatland. Biodiversity has no such universal metric - it is multidimensional and location-specific, meaning credits from different ecosystems and methodologies cannot be treated as interchangeable."
+
+- question: "The UK's Biodiversity Net Gain (BNG) requirement, mandatory from February 2024, requires developers to demonstrate what minimum net gain in biodiversity?"
+  options:
+  - "5% net gain"
+  - "10% net gain"
+  - "20% net gain"
+  - "No net loss (zero net gain)"
+  answer: 1
+  explanation: "UK Biodiversity Net Gain requires developers to demonstrate a 10% net gain in biodiversity, measured using a standardised biodiversity metric, before planning permission is granted. It is the world's first mandatory national biodiversity credit market."
+
+- question: "Which of the six High Integrity Nature Market Principles ensures that biodiversity credits deliver benefits beyond what would have occurred without the intervention?"
+  options:
+  - "Permanence"
+  - "Equity and benefit sharing"
+  - "Additionality"
+  - "Transparency and traceability"
+  answer: 2
+  explanation: "Additionality requires that biodiversity credits deliver benefits beyond the baseline - the situation that would have occurred without the intervention. Without additionality, payments are made for conservation outcomes that would have happened anyway, delivering no incremental benefit to nature."

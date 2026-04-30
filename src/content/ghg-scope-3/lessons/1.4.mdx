@@ -1,0 +1,122 @@
+{/* source: Scope3_Calculation_Guidance_0[1].pdf, Category 4 (pp. 49-71) */}
+
+**Category 4 — Upstream Transportation and Distribution** covers GHG emissions from the transportation and distribution of products purchased by the company in the reporting year - specifically, movements in vehicles and facilities **not owned or operated by the reporting company**. It also includes third-party warehousing and storage of purchased inputs.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-3/1_4.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Scope of Category 4
+
+Category 4 captures the logistics between the company's **suppliers** and the company's own **facilities**. This includes:
+
+- Road transport (trucks and vans operated by third-party logistics providers)
+- Rail freight
+- Air freight
+- Ocean freight (container ships, bulk carriers, tankers)
+- Inland waterway transport
+- Third-party warehousing and cold storage
+
+<HighlightBox>
+Category 4 covers upstream logistics only - the movement of goods coming **into** the company. The movement of finished goods going **out** to customers is Category 9 (Downstream Transportation and Distribution). This boundary prevents double-counting.
+</HighlightBox>
+
+## What Is Not Included
+
+Category 4 does not include:
+- Transport in vehicles **owned or operated** by the reporting company (those are Scope 1)
+- Transport of goods between the company's own facilities if in company-owned vehicles (Scope 1)
+- Transport of employees (Category 6: Business Travel; Category 7: Employee Commuting)
+
+## Calculation Methods
+
+The standard provides four methods for Category 4, reflecting the range of data availability:
+
+### Method 1: Fuel-Based Method (Most Accurate)
+Requires data on actual fuel consumed by third-party carriers for the company's shipments. Rarely available directly - logistics providers seldom track fuel by individual customer.
+
+<EquationBreakdown
+  title="Category 4 - Fuel-Based Method"
+  result="E<sub>fuel</sub> | Fuel-Based Emissions | Total transport emissions calculated from actual fuel consumed, in tCO₂e | blue"
+  inputs="FC | Fuel Consumed | Volume or mass of fuel burned by third-party carriers for the company's shipments (litres or kg) | green ;; EF<sub>fuel</sub> | Fuel Emission Factor | tCO₂e per litre or kg of fuel burned | amber"
+/>
+
+### Method 2: Distance-Based Method (Common)
+Uses distance shipped and freight mass, combined with vehicle-type emission factors (tCO₂e per tonne-kilometre). This is the most widely used method because companies can typically obtain shipment weights and distances from logistics bills.
+
+<EquationBreakdown
+  title="Category 4 - Distance-Based Method"
+  result="E<sub>dist</sub> | Distance-Based Emissions | Total transport emissions calculated from shipment mass and distance, in tCO₂e | blue"
+  inputs="M | Mass | Weight of goods shipped, in tonnes | green ;; D | Distance | Distance shipped, in km | amber ;; EF<sub>tkm</sub> | Emission Factor | tCO₂e per tonne-km for the transport mode and vehicle type | violet"
+/>
+
+Emission factors vary by transport mode and vehicle type:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Transport Mode</th>
+      <th>Typical Emission Factor (kgCO₂e/tonne-km)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Large ocean container ship</td>
+      <td>0.010-0.016</td>
+    </tr>
+    <tr>
+      <td>Rail freight</td>
+      <td>0.022-0.030</td>
+    </tr>
+    <tr>
+      <td>Heavy-duty truck (&gt;32 tonnes)</td>
+      <td>0.062-0.098</td>
+    </tr>
+    <tr>
+      <td>Medium truck (7.5-17 tonnes)</td>
+      <td>0.098-0.160</td>
+    </tr>
+    <tr>
+      <td>Air freight (long-haul)</td>
+      <td>0.600-1.020</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+### Method 3: Spend-Based Method (Screening)
+Applies EIO emission factors per unit of spend on logistics and freight services. Less accurate but useful for initial estimates when shipment data is unavailable.
+
+### Method 4: Average-Data Method
+Uses emission factors per unit of product shipped (e.g., tCO₂e per tonne of product shipped), derived from industry-average logistics studies.
+
+<CalculationExercise
+  question="A company ships 200 tonnes of components from a supplier 1,500 km away by heavy-duty truck. The emission factor for heavy trucks is 0.082 kgCO₂e per tonne-km. What are the Category 4 emissions from this shipment in tCO₂e?"
+  answer={24.6}
+  unit="tCO₂e"
+  hints={["Calculate total tonne-kilometres: 200 t × 1,500 km = 300,000 tonne-km.", "Apply emission factor: 300,000 tonne-km × 0.082 kgCO₂e/tonne-km = 24,600 kgCO₂e.", "Convert: 24,600 kgCO₂e ÷ 1,000 = 24.6 tCO₂e."]}
+  solution="200 t × 1,500 km × 0.082 kgCO₂e/tonne-km = 24,600 kgCO₂e = 24.6 tCO₂e"
+/>
+
+## Including Third-Party Warehousing
+
+Warehousing and storage emissions are calculated based on floor space occupied and duration, multiplied by an energy use and emission factor for the facility type (refrigerated vs. ambient).
+
+<EquationBreakdown
+  title="Category 4 - Warehousing Emissions"
+  result="E<sub>wh</sub> | Warehousing Emissions | Total emissions from third-party storage of purchased goods, in tCO₂e | blue"
+  inputs="A | Floor Space | Area occupied in the warehouse, in m² | green ;; T | Time | Duration of storage, in days | amber ;; EI | Energy Intensity | Energy consumed per unit area per day, in kWh/m²/day | violet ;; EF<sub>grid</sub> | Grid Emission Factor | tCO₂e per kWh of electricity consumed | rose"
+/>
+
+## Reducing Category 4 Emissions
+
+Once measured, Category 4 data supports decisions on:
+- **Mode shift**: Switching from air to ocean freight can reduce per-tonne-km emissions by 50-100x
+- **Supplier nearshoring**: Reducing distances by qualifying regional suppliers
+- **Load optimisation**: Consolidating shipments to improve vehicle fill rates
+- **Route planning**: Minimising empty return legs through load-matching platforms
+
+<DeepDive title="The IMO's shipping decarbonisation targets and Category 4">
+Ocean freight accounts for roughly 2.5% of global GHG emissions. The International Maritime Organization (IMO) adopted a revised strategy in 2023 to reach net-zero by or around 2050, with interim targets of 30% reduction by 2030 and 80% by 2040 (vs. 2008 baseline). For companies with significant ocean freight in Category 4, the emissions intensity of shipping will improve substantially if IMO targets are met - but companies relying on current emission factors for long-term scenario analysis should account for this trajectory by using sector-specific shipping decarbonisation pathways in their projections.
+</DeepDive>
+
+<KeyTakeaways items="Category 4 covers upstream logistics - transport of purchased goods from suppliers to the company in vehicles not owned by the company ;; The distance-based method (mass x distance x emission factor per tonne-km) is the most widely used approach, using data from logistics bills ;; Air freight emits 50-100x more per tonne-km than ocean shipping - mode selection is the most powerful Category 4 reduction lever ;; Third-party warehousing emissions are also included, calculated from floor space, storage duration, and facility energy intensity ;; Practical reductions come from mode shifts, supplier nearshoring, load consolidation, and route optimisation to minimise empty return legs" />

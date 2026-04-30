@@ -1,0 +1,26 @@
+- question: "A government regulation passed 2 years ago requires all rice farmers to implement Alternate Wetting and Drying (AWD). Can a new VM0042 project claim credits for implementing AWD in that region?"
+  options:
+  - "Yes — AWD is an eligible VM0042 practice"
+  - "No — the project fails the Regulatory Surplus test because AWD is legally mandated"
+  - "Yes — as long as no-till is also implemented"
+  - "No — rice projects are excluded from VM0042"
+  answer: 1
+  explanation: "Step 1 (Regulatory Surplus) requires that project activities not be required by law. If AWD is mandated by regulation, a project implementing it would have happened regardless of carbon finance — it fails additionality."
+
+- question: "The common practice threshold in VM0042 is set at what adoption rate?"
+  options:
+  - "10%"
+  - "15%"
+  - "20%"
+  - "25%"
+  answer: 2
+  explanation: "VM0042 (following CDM methodology tool TOOL24) defines common practice as greater than 20% adoption. Projects where the practice is used on less than 20% of comparable agricultural area can demonstrate non-common practice."
+
+- question: "Which types of barriers are relevant for the Barrier Analysis (Step 2)?"
+  options:
+  - "Only financial barriers"
+  - "Financial, technological, institutional, and social/cultural barriers"
+  - "Only institutional and regulatory barriers"
+  - "Only barriers in developing countries"
+  answer: 1
+  explanation: "Step 2 recognises multiple types of barriers: investment/financial (high upfront costs), technological (lack of knowledge or equipment), institutional (absence of extension services), and social/cultural (community norms or traditions that resist change)."

@@ -1,0 +1,26 @@
+- question: "According to the IPCC Special Report on Global Warming of 1.5°C, what happens to coral reefs at 2°C of warming compared to 1.5°C?"
+  options:
+    - "Coral reefs recover significantly because warmer water boosts photosynthesis"
+    - "Losses increase from 70-90% at 1.5°C to more than 99% at 2°C"
+    - "The difference between 1.5°C and 2°C is negligible for coral reef survival"
+    - "Losses decrease from 70-90% at 1.5°C to around 50% at 2°C due to coral adaptation"
+  answer: 1
+  explanation: "The IPCC SR1.5 found that coral reefs are projected to decline by 70-90% at 1.5°C, but face losses exceeding 99% at 2°C. This stark difference illustrates why even 0.5°C of additional warming has profound consequences for entire ecosystems and the millions of people who depend on them for food security and coastal protection."
+
+- question: "What is the pre-industrial baseline used when referring to 1.5°C or 2°C of global warming?"
+  options:
+    - "Average global temperatures during the year 1900"
+    - "Average global temperatures during the period 1961-1990"
+    - "Average global temperatures during the period 1850-1900"
+    - "Average global temperatures during the last ice age"
+  answer: 2
+  explanation: "The pre-industrial baseline is conventionally defined as the 1850-1900 period, which represents the earliest period of sufficiently globally complete observations. When the IPCC refers to 1.1°C of current warming, it means the increase in global average surface temperature above this 1850-1900 baseline."
+
+- question: "Which of the following best describes how compound risks escalate with higher warming?"
+  options:
+    - "Compound risks decrease at higher warming because populations adapt over time"
+    - "Compound risks only affect wealthy nations because they have more infrastructure to damage"
+    - "Multiple hazards combine and amplify each other, concentrated in regions that contributed least to emissions"
+    - "Compound risks are confined to coastal areas and have no effect on inland regions"
+  answer: 2
+  explanation: "IPCC AR6 WGII identifies compound and cascading risks as one of the most serious features of higher warming scenarios. Hazards such as drought, heatwave, and flooding interact and amplify each other. These risks are disproportionately concentrated in Sub-Saharan Africa, South and Southeast Asia, Small Island Developing States, and the Arctic, where populations are most vulnerable and have contributed least to historical emissions."

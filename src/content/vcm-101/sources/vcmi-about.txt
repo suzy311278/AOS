@@ -1,0 +1,495 @@
+Source: https://vcmintegrity.org/about/
+
+We value your privacy
+We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking "Accept All", you consent to our use of cookies.
+Customise Reject All Accept All
+Powered by [](https://www.cookieyes.com/product/cookie-consent/?ref=cypbcyb&utm_source=cookie-banner&utm_medium=fl-branding)
+Customise Consent Preferences ![](https://cdn-cookieyes.com/assets/images/close.svg)
+We use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below.
+The cookies that are categorised as "Necessary" are stored on your browser as they are essential for enabling the basic functionalities of the site. ... Show more
+NecessaryAlways Active
+Necessary cookies are required to enable the basic features of this site, such as providing secure log-in or adjusting your consent preferences. These cookies do not store any personally identifiable data.
+  * Cookie
+__cf_bm
+  * Duration
+1 hour
+  * Description
+This cookie, set by Cloudflare, is used to support Cloudflare Bot Management. 
+
+
+  * Cookie
+VISITOR_PRIVACY_METADATA
+  * Duration
+6 months
+  * Description
+YouTube sets this cookie to store the user's cookie consent state for the current domain. 
+
+
+  * Cookie
+_cfuvid
+  * Duration
+session
+  * Description
+Cloudflare sets this cookie to track users across sessions to optimize user experience by maintaining session consistency and providing personalized services
+
+
+  * Cookie
+rc::a
+  * Duration
+Never Expires
+  * Description
+This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks.
+
+
+  * Cookie
+rc::c
+  * Duration
+session
+  * Description
+This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks.
+
+
+  * Cookie
+cookietest
+  * Duration
+session
+  * Description
+The cookietest cookie is typically used to determine whether the user's browser accepts cookies, essential for website functionality and user experience.
+
+
+Functional
+Functional cookies help perform certain functionalities like sharing the content of the website on social media platforms, collecting feedback, and other third-party features.
+  * Cookie
+VISITOR_INFO1_LIVE
+  * Duration
+6 months
+  * Description
+A cookie set by YouTube to measure bandwidth that determines whether the user gets the new or old player interface.
+
+
+  * Cookie
+yt-remote-connected-devices
+  * Duration
+Never Expires
+  * Description
+YouTube sets this cookie to store the user's video preferences using embedded YouTube videos.
+
+
+  * Cookie
+ytidb::LAST_RESULT_ENTRY_KEY
+  * Duration
+Never Expires
+  * Description
+The cookie ytidb::LAST_RESULT_ENTRY_KEY is used by YouTube to store the last search result entry that was clicked by the user. This information is used to improve the user experience by providing more relevant search results in the future.
+
+
+  * Cookie
+yt-remote-device-id
+  * Duration
+Never Expires
+  * Description
+YouTube sets this cookie to store the user's video preferences using embedded YouTube videos.
+
+
+  * Cookie
+yt-remote-session-name
+  * Duration
+session
+  * Description
+The yt-remote-session-name cookie is used by YouTube to store the user's video player preferences using embedded YouTube video.
+
+
+  * Cookie
+yt-remote-fast-check-period
+  * Duration
+session
+  * Description
+The yt-remote-fast-check-period cookie is used by YouTube to store the user's video player preferences for embedded YouTube videos.
+
+
+  * Cookie
+yt-remote-session-app
+  * Duration
+session
+  * Description
+The yt-remote-session-app cookie is used by YouTube to store user preferences and information about the interface of the embedded YouTube video player.
+
+
+  * Cookie
+yt-remote-cast-available
+  * Duration
+session
+  * Description
+The yt-remote-cast-available cookie is used to store the user's preferences regarding whether casting is available on their YouTube video player.
+
+
+  * Cookie
+yt-remote-cast-installed
+  * Duration
+session
+  * Description
+The yt-remote-cast-installed cookie is used to store the user's video player preferences using embedded YouTube video.
+
+
+  * Cookie
+tableau_public_negotiated_locale
+  * Duration
+session
+  * Description
+Tableau sets this cookie in context with the language settings on the website. Facilitates the translation into the preferred language of the visitor.
+
+
+Analytics
+Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics such as the number of visitors, bounce rate, traffic source, etc.
+  * Cookie
+YSC
+  * Duration
+session
+  * Description
+YSC cookie is set by Youtube and is used to track the views of embedded videos on Youtube pages.
+
+
+  * Cookie
+_ga_*
+  * Duration
+1 year 1 month 4 days
+  * Description
+Google Analytics sets this cookie to store and count page views.
+
+
+  * Cookie
+_ga
+  * Duration
+1 year 1 month 4 days
+  * Description
+Google Analytics sets this cookie to calculate visitor, session and campaign data and track site usage for the site's analytics report. The cookie stores information anonymously and assigns a randomly generated number to recognise unique visitors.
+
+
+Performance
+Performance cookies are used to understand and analyse the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+No cookies to display.
+Advertisement
+Advertisement cookies are used to provide visitors with customised advertisements based on the pages you visited previously and to analyse the effectiveness of the ad campaigns.
+  * Cookie
+yt.innertube::nextId
+  * Duration
+Never Expires
+  * Description
+YouTube sets this cookie to register a unique ID to store data on what videos from YouTube the user has seen.
+
+
+  * Cookie
+yt.innertube::requests
+  * Duration
+Never Expires
+  * Description
+YouTube sets this cookie to register a unique ID to store data on what videos from YouTube the user has seen.
+
+
+Uncategorised
+Other uncategorised cookies are those that are being analysed and have not been classified into a category as yet.
+  * Cookie
+__Secure-ROLLOUT_TOKEN
+  * Duration
+6 months
+  * Description
+Description is currently not available.
+
+
+  * Cookie
+mcforms-242151098-sessionId
+  * Duration
+session
+  * Description
+Description is currently not available.
+
+
+  * Cookie
+__Secure-YEC
+  * Duration
+past
+  * Description
+Description is currently not available.
+
+
+  * Cookie
+tableau_locale
+  * Duration
+session
+  * Description
+No description available.
+
+
+Accept All Save My Preferences Reject All
+Powered by [](https://www.cookieyes.com/product/cookie-consent/?ref=cypbcyb&utm_source=cookie-banner&utm_medium=sl-branding)
+Maecenas sed diam eget risus varius blandit sit amet non magna?(Required)
+Quam Commodo
+Second Choice
+Third Choice
+Maecenas sed diam eget risus varius blandit sit amet non magna?
+Where did you hear about us?
+First Choice
+  * First Choice
+  * Second Choice
+  * Third Choice
+
+
+First Choice Second Choice Third Choice
+Name(Required)
+First Last
+Email
+Phone
+Consent
+By checking this box you are agree to our privacy policy
+Please complete this form if you would like to receive updates, news, and other information from VCMI.
+[Register](https://vcmintegrity.org/about/)
+## Register for news and updates
+Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+Full name(Required)
+Position(Required)
+Email Address(Required)
+Organisation / Business name(Required)
+City / Country(Required)
+Language spoken(Required)
+Website (if applicable)
+Which categorization best represents your entity?(Required)
+Financial Entity
+Food and Agriculture Value Chain
+Government
+Knowledge and Implementation Partner
+Stakeholder Associations
+Consent
+By checking this box you are agree to our privacy policy.
+  * [About ](https://vcmintegrity.org/about/)
+### About us
+    * [About VCMI](https://vcmintegrity.org/about/)
+    * [VCMI Timeline](https://vcmintegrity.org/timeline/)
+    * [FAQs](https://vcmintegrity.org/timeline/frequently-asked-questions/)
+    * [Testimonials & Case Studies](https://vcmintegrity.org/testimonials-and-case-studies/)
+### Team
+    * [People](https://vcmintegrity.org/people/)
+    * [Working at VCMI](https://vcmintegrity.org/working-at-vcmi/)
+    * [Contact](https://vcmintegrity.org/contact/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Stay in touch Keep up to date with the latest carbon markets news and events by subscribing to our newsletter. Sign up  ](https://vcmintegrity.org/newsletter/)
+  * [Our Work ](https://vcmintegrity.org/about/)
+### For Companies
+    * [Claims Code of Practice](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+    * [Carbon Integrity Claims](https://vcmintegrity.org/carbon-integrity-claims/)
+    * [Carbon Integrity Claims Dashboard](https://vcmintegrity.org/claims-dashboard/)
+    * [Claims Readiness Check](https://vcmintegrity.org/claims-readiness-check/)
+    * [Scope 3 Action](https://vcmintegrity.org/scope-3-action/)
+### For Governments
+    * [Overview](https://vcmintegrity.org/for-governments-overview/)
+    * [Access Strategies Program](https://vcmintegrity.org/access-strategies-program/)
+    * [Carbon Markets Access Toolkit](https://vcmintegrity.org/carbon-markets-access-toolkit/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Claims Code of Practice Industry-leading guidance for companies to confidently use carbon credits as part of climate plans. Find out more  ](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Access Strategies Program Supporting governments in emerging markets and developing economies to engage effectively in high-integrity carbon markets. Read more  ](https://vcmintegrity.org/access-strategies-program/)
+  * [Resources & Insights ](https://vcmintegrity.org/about/)
+    * [Insights](https://vcmintegrity.org/_type/insights/)
+    * [Webinars](https://vcmintegrity.org/webinars/)
+    * [Resource Library](https://vcmintegrity.org/library/)
+    * [Help Center](https://help.vcmintegrity.org/help)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) From Panama to Belém: How Latin America and the Caribbean is Unlocking High-Integrity Carbon Markets for Agriculture and Nature Read more  ](https://vcmintegrity.org/from-panama-to-belem-how-latin-america-and-the-caribbean-is-unlocking-high-integrity-carbon-markets-for-agriculture-and-nature/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Resource Library Reports, publications, policy briefs and infographics Read more  ](https://vcmintegrity.org/library/)
+  * [News & Events](https://vcmintegrity.org/news-events/)
+  * [Help Center](https://help.vcmintegrity.org/help-desk)
+
+
+[Coalition to Grow Carbon Markets ](https://coalitiontogrowcarbonmarkets.org/)
+[ ![](https://vcmintegrity.org/wp-content/themes/vcmi/assets/images/dist/logo.svg) ](https://vcmintegrity.org/ "VCMI")
+  * [About ](https://vcmintegrity.org/about/)
+### About us
+    * [About VCMI](https://vcmintegrity.org/about/)
+    * [VCMI Timeline](https://vcmintegrity.org/timeline/)
+    * [FAQs](https://vcmintegrity.org/timeline/frequently-asked-questions/)
+    * [Testimonials & Case Studies](https://vcmintegrity.org/testimonials-and-case-studies/)
+### Team
+    * [People](https://vcmintegrity.org/people/)
+    * [Working at VCMI](https://vcmintegrity.org/working-at-vcmi/)
+    * [Contact](https://vcmintegrity.org/contact/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Stay in touch Keep up to date with the latest carbon markets news and events by subscribing to our newsletter. Sign up  ](https://vcmintegrity.org/newsletter/)
+  * [Our Work ](https://vcmintegrity.org/about/)
+### For Companies
+    * [Claims Code of Practice](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+    * [Carbon Integrity Claims](https://vcmintegrity.org/carbon-integrity-claims/)
+    * [Carbon Integrity Claims Dashboard](https://vcmintegrity.org/claims-dashboard/)
+    * [Claims Readiness Check](https://vcmintegrity.org/claims-readiness-check/)
+    * [Scope 3 Action](https://vcmintegrity.org/scope-3-action/)
+### For Governments
+    * [Overview](https://vcmintegrity.org/for-governments-overview/)
+    * [Access Strategies Program](https://vcmintegrity.org/access-strategies-program/)
+    * [Carbon Markets Access Toolkit](https://vcmintegrity.org/carbon-markets-access-toolkit/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Claims Code of Practice Industry-leading guidance for companies to confidently use carbon credits as part of climate plans. Find out more  ](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Access Strategies Program Supporting governments in emerging markets and developing economies to engage effectively in high-integrity carbon markets. Read more  ](https://vcmintegrity.org/access-strategies-program/)
+  * [Resources & Insights ](https://vcmintegrity.org/about/)
+    * [Insights](https://vcmintegrity.org/_type/insights/)
+    * [Webinars](https://vcmintegrity.org/webinars/)
+    * [Resource Library](https://vcmintegrity.org/library/)
+    * [Help Center](https://help.vcmintegrity.org/help)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) From Panama to Belém: How Latin America and the Caribbean is Unlocking High-Integrity Carbon Markets for Agriculture and Nature Read more  ](https://vcmintegrity.org/from-panama-to-belem-how-latin-america-and-the-caribbean-is-unlocking-high-integrity-carbon-markets-for-agriculture-and-nature/)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) Resource Library Reports, publications, policy briefs and infographics Read more  ](https://vcmintegrity.org/library/)
+  * [News & Events](https://vcmintegrity.org/news-events/)
+  * [Help Center](https://help.vcmintegrity.org/help-desk)
+
+
+[Coalition to Grow Carbon Markets ](https://coalitiontogrowcarbonmarkets.org/)
+#  About
+The Voluntary Carbon Markets Integrity Initiative (VCMI) enables high-integrity voluntary carbon markets which contribute to the goal of the Paris Agreement, bringing benefits for people and the planet.
+  * [VCMI Mission](https://vcmintegrity.org/about/#vcmi-mission)
+  * [What we do](https://vcmintegrity.org/about/#what-we-do)
+  * [Annual report](https://vcmintegrity.org/about/#report)
+  * [Foundations & Funders](https://vcmintegrity.org/about/#foundations-and-funders)
+  * [Governance](https://vcmintegrity.org/about/#governance)
+  * [Code of Conduct](https://vcmintegrity.org/about/#code-of-conduct)
+
+
+## VCMI Mission
+The Voluntary Carbon Markets Integrity Initiative (VCMI) is an international non-profit organization with a mission to enable high-integrity voluntary carbon markets (VCMs) that deliver real and additional benefits to the atmosphere, help protect nature, and accelerate the transition to ambitious, economy-wide climate policies and regulation.
+The organization is fully aligned with the goals of the Paris Agreement and is committed to a world on track to 1.5 degrees and net zero emissions by mid-century, achieved through a just transition that enhances equality and sustainable development for all.
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+## What we do
+VCMI collaborates with stakeholders from civil society, the private sector, Indigenous Peoples, local communities, and governments, to realize the full potential of high-integrity voluntary carbon markets.
+It works to foster a shared vision for high-integrity VCMs to make a meaningful contribution to climate action while also supporting the achievement of the UN SDGs. VCMI connects and aligns with, and amplifies, initiatives that share this vision.
+On the demand-side, the VCMI [Claims Code of Practice](https://vcmintegrity.org/vcmi-claims-code-of-practice/) provides guidance on how companies can make voluntary use of carbon credits as part of credible, science-aligned net-zero decarbonization pathways. It builds trust and confidence in how companies engage with VCMs, assisting them in making credible climate claims.
+[Carbon Integrity Claims](https://vcmintegrity.org/carbon-integrity-claims/) recognize ambitious climate leadership above and beyond science-aligned emissions cuts. Released in April 2025, the [Scope 3 Action Code of Practice](https://vcmintegrity.org/scope-3-action/) provides companies with a high-integrity, practical solution to close the scope 3 emissions gap. 
+On the supply-side, VCMI’s [Access Strategies Program](https://vcmintegrity.org/access-strategies/) provides guidance for countries to engage in high-integrity VCMs in support of national climate and economic prosperity.
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+## 2024 Annual Report
+This report showcases VCMI’s work throughout 2024 to advance our goal of establishing high-integrity voluntary carbon markets that accelerate and deepen greenhouse gas (GHG) mitigation and maximize positive environmental and social impacts, focusing on Policy Engagement, Access Strategies for Capacity Building, and Corporate Engagement.
+## Download the report
+[](https://vcmintegrity.org/wp-content/uploads/2025/08/VCMI_Annualreport2024_v.1.9.pdf)
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+## VCMI’s foundations and funders
+VCMI is an independent non-profit organization housed in Rockefeller Philanthropy Advisors. VCMI was announced by COP26 President-Designate Alok Sharma on 31 March 2021, and has received funding from the Children’s Investment Fund Foundation, Ballmer Group, the Bezos Earth Fund, Google LLC, the Packard Foundation and the UK Department for Business, Energy and Industrial Strategy (BEIS).
+For more information about its previous and upcoming work, please see the following timeline:
+[](https://vcmintegrity.org/timeline/)
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+## Governance
+The VCMI governance structure exists to ensure that it incorporates a diverse range of stakeholders from the Global North and the Global South. This includes participation from civil society, academia, government, business and other relevant initiatives focused on high-integrity VCMs. The VCMI governance framework includes:
+  * **Secretariat** – providing a central coordination and programme management function for the VCMI
+  * **Steering Committee** – the high-level decision-making body of VCMI
+  * **Expert Advisory Group** – channeling the technical and legal advice from a diverse array of subject matter experts to the VCMI Steering Committee
+  * **Country Contact Group** – a forum for governments representing both demand and supply-side perspectives, providing insights on VCMI work areas and processes, helping actively shape VCMI’s strategic objectives and outcomes
+  * **VCMI Stakeholder Forum** – a market sounding board capturing views and perspectives from a broad range of VCM participants
+
+
+Click here for more information about the remit of each group, and a list of staff/members.
+  * [](https://vcmintegrity.org/people/)
+
+
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+“Voluntary carbon markets can increase finance flows. I am pleased the UK Government is supporting the Voluntary Carbon Market Integrity Initiative to help ensure they deliver the greatest benefits for climate, for people and nature.”
+![Alok Sharma profile picture](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+Alok Sharma President for COP26
+“Without clarification — and real enforcement — net zero will become an empty slogan that governments, corporations and investors can use to greenwash emissions as usual.”
+![Rachel Kyte profile picture](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+Rachel Kyte Dean of the Fletcher School, Tufts University
+“Carbon markets hold immense potential for helping the world tackle the climate crisis and accelerate progress across the 2030 Agenda. A robust carbon market relies on climate-credible demand as well as stable and high-integrity supply of carbon credits. Governments are essential partners and can catalyze the generation of real and measurable greenhouse gas emission reductions and removals. UNDP is proud to be partnering with VCMI and Climate Focus on a Toolkit that provides a starting point for policymakers to consider how they engage with voluntary carbon markets as a source of much needed finance to deliver their climate targets.”
+![Usha Rao-Monari profile picture](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)
+Usha Rao-Monari Associate Administrator, UNDP
+## Code of Conduct
+### VCMI Code of Conduct (Ethics and Conflict of Interest Policy and Reporting)
+This policy statement sets forth the expectations and standards of conduct for Voluntary Carbon Markets Integrity Initiative (VCMI) staff, the Steering Committee, the Expert Advisory Group and any other VCMI working group members, and contractors with decision-making authority related to the work of VCMI. The integrity of the guidance and recommendations developed by and through VCMI depends on adherence to these ethical standards and related procedures to ensure transparency and avoid any actual or perceived conflicts of interest.
+Accordingly, VCMI staff, committee and working group members, and contractors will:
+  * Conduct themselves in an honest and ethical manner, including the handling of actual or apparent conflict of interest.
+  * Ensure, to the best of their ability, that their work and actions comply with applicable government laws, rules, and regulations.
+  * Proactively promote ethical behavior among subordinates and peers and encourage a culture where everyone is expected to act responsibly, with due care, without misrepresenting or omitting material facts or allowing independent judgment to be compromised.
+  * Promptly report violations of this Code to the VCMI Secretariat. Confidentiality of individuals reporting violations of these standards will be maintained whenever possible. Retaliation against individuals reporting a violation or a potential violation of this policy will not be tolerated.
+
+
+VCMI staff, committee and working group members, and contractors shall be considered to have a conflict of interest if such an individual (or organization which they represent) has existing or potential financial or other interests which might impair, or reasonably appear to impair, the individual’s independent, unbiased judgment in discharge of his or her responsibilities to VCMI.
+All individuals shall disclose to the VCMI Secretariat any possible conflict of interest at the earliest practicable time and recuse themselves from relevant decision-making if the Secretariat determines there is an actual conflict of interest, or the integrity of the process would be best served by recusal. The Secretariat will maintain a registry of identified and reported conflicts to help prevent conflicts and ensure transparency in VCMI’s work.
+"*" indicates required fields
+Keep up to date with news and events by subscribing to the VCMI newsletter.
+First name
+Last name
+Organisation
+Organisation Type:
+Organisation Type:
+  * Organisation Type:
+  * Large Corporation
+  * Policy & Government
+  * Business Network or Association
+  * Civil Society, Academia or Research
+  * Media
+  * NGO
+  * VCM-Related Body or Initiative
+  * Small-Medium Enterprise (SME)
+
+
+Organisation Type: Large Corporation Policy & Government Business Network or Association Civil Society, Academia or Research Media NGO VCM-Related Body or Initiative Small-Medium Enterprise (SME)
+Email*
+Industry
+Industry
+  * Industry
+  * Biotech, Healthcare & Pharmacy
+  * Carbon & Market Services
+  * Financial Services
+  * Food, Beverage & Agriculture
+  * Information & Communication Technology
+  * Manufacturing
+  * Materials & Infrastructure
+  * Mining
+  * Oil & Gas
+  * Professional Services
+  * Retail
+  * Transport
+  * Utilities
+
+
+Industry Biotech, Healthcare & Pharmacy Carbon & Market Services Financial Services Food, Beverage & Agriculture Information & Communication Technology Manufacturing Materials & Infrastructure Mining Oil & Gas Professional Services Retail Transport Utilities
+Consent*
+By signing up to receive our newsletters you agree to receive updates, news and information from VCMI in accordance with our [Privacy Policy](https://www.rockpa.org/privacy-policy/). You may unsubscribe from these services at any time.
+Driving integrity in voluntary carbon markets for climate resilience & a sustainable future
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://vcmintegrity.org/ "VCMI")
+"*" indicates required fields
+Sign up to our newsletter, a monthly digest of the latest news on voluntary carbon markets from VCMI
+Email address*
+Organisation
+By signing up to receive our newsletters you agree to receive updates, news and information from VCMI in accordance with our [Privacy Policy](https://www.rockpa.org/privacy-policy/). You may unsubscribe from these services at any time.
+  * About us
+    * [ About VCMI ](https://vcmintegrity.org/about/)
+    * [ VCMI Timeline ](https://vcmintegrity.org/timeline/)
+    * [ FAQs ](https://vcmintegrity.org/frequently-asked-questions/)
+    * [ Testimonials & Case Studies ](https://vcmintegrity.org/testimonials-and-case-studies/)
+  * Team
+    * [ People ](https://vcmintegrity.org/people/)
+    * [ Working at VCMI ](https://vcmintegrity.org/working-at-vcmi/)
+    * [ Contact ](https://vcmintegrity.org/contact/)
+  * For Companies
+    * [ VCMI Claims Code ](https://vcmintegrity.org/vcmi-claims-code-of-practice/)
+    * [ Carbon Integrity Claims ](https://vcmintegrity.org/carbon-integrity-claims/)
+    * [ Carbon Integrity Claims Dashboard ](https://vcmintegrity.org/claims-dashboard/)
+    * [ Claims Readiness Check ](https://vcmintegrity.org/claims-readiness-check/)
+    * [ Scope 3 Action ](https://vcmintegrity.org/scope-3-action/)
+  * For Governments
+    * [ Overview ](https://vcmintegrity.org/for-governments-overview/)
+    * [ Access Strategies Program ](https://vcmintegrity.org/access-strategies-program/)
+    * [ Carbon Markets Access Toolkit ](https://vcmintegrity.org/carbon-markets-access-toolkit/)
+  * Resources & Insights
+    * [ Insights ](https://vcmintegrity.org/_type/insights/)
+    * [ Guides & Tutorials ](https://vcmintegrity.org/guides-tutorials/)
+    * [ Resource Library ](https://vcmintegrity.org/library/)
+    * [ Webinars ](https://vcmintegrity.org/webinars/)
+    * [ Help center ](https://help.vcmintegrity.org/help)
+  * News & Events
+    * [ News & Events ](https://vcmintegrity.org/news-events/)
+[Reporting Platform ](https://claims.vcmintegrity.org/signin/)
+
+
+  * [](https://www.linkedin.com/company/wearevcmi/)
+
+© 2026 Voluntary Carbon Markets Integrity Initiative
+  * [ Privacy & Cookie Policy ](https://vcmintegrity.org/wp-content/uploads/2024/10/VCMI_Privacy-Policy_10_10_24.pdf)
+  * [ Image Credits ](https://vcmintegrity.org/image-credits/)
+  * Site by [Jory & Co](https://www.joryand.co/)
+
+
+Notifications

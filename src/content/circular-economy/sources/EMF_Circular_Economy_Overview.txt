@@ -1,0 +1,104 @@
+SOURCE URL: https://ellenmacarthurfoundation.org/circular-economy/what-is-the-circular-economy
+DOCUMENT: Ellen MacArthur Foundation - What is the Circular Economy
+
+# Ellen MacArthur Foundation: Circular Economy Overview
+
+## What is the Circular Economy?
+
+The circular economy is a system where materials never become waste and nature is regenerated. In a circular economy, products and materials are kept in circulation through processes like maintenance, reuse, refurbishment, remanufacture, recycling, and composting. The circular economy tackles climate change and other global challenges, like biodiversity loss, waste, and pollution, by decoupling economic activity from the consumption of finite resources.
+
+## Origins and Definition
+
+The Ellen MacArthur Foundation defines the circular economy as based on three principles, driven by design:
+
+### Principle 1: Eliminate Waste and Pollution
+In our current economy, waste and pollution are the result of design decisions and economic choices. The circular economy identifies waste as a failure of design. Products and materials can be redesigned so they can be used again.
+
+### Principle 2: Circulate Products and Materials (at their highest value)
+This means keeping materials in use, either as a product or, when that's no longer possible, as components or raw materials. Nothing becomes waste.
+
+Technical cycle: Products and components are designed to be used again, remanufactured, or recycled.
+Biological cycle: Food and other biological materials are designed to cycle back into the environment through processes like composting and anaerobic digestion.
+
+### Principle 3: Regenerate Nature
+The circular economy avoids the use of non-renewable resources and preserves or enhances renewable ones. By returning valuable nutrients to the soil, for example, or using renewable energy rather than relying on fossil fuels, the circular economy creates the conditions for nature to rebuild.
+
+## The Butterfly Diagram
+
+The butterfly diagram is the definitive visualization of the circular economy, created by the Ellen MacArthur Foundation. It shows the flows of materials in a circular economy through two distinct cycles:
+
+Technical Cycle:
+- Maintenance
+- Reuse/Redistribute
+- Refurbish/Remanufacture  
+- Recycle
+
+Biological Cycle:
+- Anaerobic Digestion/Composting
+- Biochemical Feedstock
+- Cascades (e.g. wood)
+- Regeneration
+
+The diagram represents how, in a circular economy, materials are continuously used and regenerated, maintaining value at the highest possible level.
+
+## The ReSOLVE Framework
+
+ReSOLVE is a business model framework developed by the Ellen MacArthur Foundation that outlines six value-creating circular strategies:
+
+R - Regenerate
+- Shift to renewable energy and materials
+- Reclaim, retain, and restore health of ecosystems
+- Return recovered biological resources to the biosphere
+
+E - Share
+- Keep product loop speed low and maximize utilization of products
+- Reuse/secondhand, extend lifespan through maintenance, design for durability
+- Share platforms for underutilized assets
+
+S - Optimize
+- Increase performance/efficiency of product, remove waste in production and supply chain
+- Leverage big data, automation, remote sensing and steering
+
+O - Loop
+- Keep components and materials in closed loops and prioritize inner loops
+- Remanufacturing, recycling
+- Anaerobic digestion of biological materials
+
+L - Virtualize
+- Dematerialize directly (books, CDs, DVDs to online)
+- Dematerialize indirectly (Uber/Lyft replaces car ownership)
+
+V - Exchange
+- Replace old with advanced non-renewable materials
+- Apply new technologies (3D printing, autonomous transportation)
+- Choose new products and services (multimodal transport)
+
+E - Exchange (second E sometimes denoted separately for Extend)
+
+## Business Models for Circular Economy
+
+### Product as a Service
+Instead of selling products, businesses retain ownership and charge customers for performance or use. This incentivizes durable, easily maintainable design.
+
+### Sharing Platforms  
+Enable higher utilization of products by enabling their use by multiple owners or users through access-based models.
+
+### Product Life Extension
+Extend the working lifecycle of products and components through repair, remanufacture, and upgrades.
+
+### Resource Recovery
+Recovering useful resources or energy from products, components, and materials at end of use.
+
+## Why the Circular Economy Matters
+
+The linear economy's "take-make-waste" approach is unsustainable:
+- We use 1.7 planets worth of resources annually
+- 91% of materials used are not cycled back
+- 45% of GHG emissions come from how we make and use products and food
+- By 2050, demand for resources could triple
+- Food production uses 34% of the world's land area and 70% of freshwater
+
+Circular solutions can address:
+- 45% of global greenhouse gas emissions through better products and food
+- Nature degradation through regenerative land management
+- Inequality through new business models and jobs

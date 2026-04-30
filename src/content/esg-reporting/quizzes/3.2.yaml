@@ -1,0 +1,26 @@
+- question: "Which department's data is typically the easiest to collect during an ESG reporting engagement, and why?"
+  options:
+    - "HR, because employee data is already digitized in HRIS systems"
+    - "Operations, because environmental metrics are well-standardized"
+    - "Finance, because most of the required data already exists in audited financial statements and annual reports"
+    - "Supply chain, because procurement systems track vendor data automatically"
+  answer: 2
+  explanation: "Finance is almost always the most cooperative and fastest data source because they already track economic performance, tax, procurement spend, and governance data for regulatory compliance. You are asking them to share existing data in a different format, not create new data."
+
+- question: "You ask operations for total energy consumption in GJ across all facilities. You receive electricity bills in kWh from one site, diesel invoices in litres from another, and a verbal estimate from a third. What does this situation illustrate?"
+  options:
+    - "The operations team is being uncooperative and needs escalation"
+    - "The data does not exist and should be reported as a gap"
+    - "Different departments use different systems and formats - your job is to standardize everything into a consistent format"
+    - "The data template was poorly designed and needs to be revised"
+  answer: 2
+  explanation: "This is normal in ESG data collection. The data exists but in fragmented formats across different systems. The consultant's job is to funnel all of it into a standardized template, handle unit conversions, and follow up on missing sites."
+
+- question: "Training hours per employee and supply chain labor practices are consistently the hardest social data categories to collect. What is the primary reason?"
+  options:
+    - "Companies deliberately withhold this data to avoid negative disclosures"
+    - "GRI Standards for these topics are more complex than other social indicators"
+    - "Most companies do not systematically track this data in a structured form - it often does not exist in their systems"
+    - "HR departments lack the technical skills to extract data from their systems"
+  answer: 2
+  explanation: "The core challenge is that most companies have never been asked to compile this data before. Training records may only cover mandatory safety training, and supply chain labor practices are rarely tracked in structured form. The data frequently does not exist, not because companies are hiding it, but because they never needed it."

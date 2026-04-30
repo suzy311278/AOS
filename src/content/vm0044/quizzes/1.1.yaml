@@ -1,0 +1,26 @@
+- question: "Which of the following is NOT one of the four core feedstock eligibility conditions under VM0044 Condition 4?"
+  options:
+    - "The biomass must be purely biogenic waste, not purpose-grown"
+    - "The biomass must have been otherwise left to decay or combusted without energy production in the baseline"
+    - "The biomass must be sourced domestically and not imported from other countries"
+    - "The biomass must have a hydrogen to organic carbon ratio below 0.7"
+  answer: 3
+  explanation: "The H:Corg ratio below 0.7 is a quality requirement for biochar at the point of soil application (Condition 10), not a feedstock eligibility condition. The four core feedstock conditions under Condition 4 are: biogenic waste (not purpose-grown), would have decayed or been burned without energy recovery, not imported from other countries, and meets Table 1 sustainability criteria."
+
+- question: "If an agricultural waste biomass project lacks documentation proving that residue removal will not reduce soil carbon, what is the maximum percentage of total residues that can be collected?"
+  options:
+    - "25%"
+    - "50%"
+    - "75%"
+    - "100%"
+  answer: 1
+  explanation: "Without documentation proving that residue removal will not reduce soil carbon stocks or crop productivity, VM0044 caps collection at 50% of total available residues. This precautionary cap protects soil health when data is unavailable to confirm higher removal rates are safe."
+
+- question: "Under VM0044, what is the maximum percentage of annual waste biomass throughput that high-carbon fly ash from biomass (HCFA) can represent?"
+  options:
+    - "1%"
+    - "5%"
+    - "10%"
+    - "25%"
+  answer: 1
+  explanation: "HCFA must represent no more than 5% of the total annual waste biomass throughput from the bioenergy facility. Additionally, an affirmative technology must be used to capture the biochar before complete combustion, and no fossil fuel may have been used to replace lost caloric value from the diverted biomass."

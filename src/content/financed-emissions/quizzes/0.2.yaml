@@ -1,0 +1,44 @@
+- question: "The GHG Protocol organises corporate emissions into three scopes. Which scope covers a bank's financed emissions?"
+  options:
+    - "Scope 1 — direct emissions from sources owned or controlled by the bank"
+    - "Scope 2 — indirect emissions from purchased electricity, steam, heating, or cooling"
+    - "Scope 3 — all other indirect emissions in the bank's value chain"
+    - "Scope 4 — avoided emissions from green financial products"
+  answer: 2
+  explanation: "Financed emissions fall under Scope 3 of the GHG Protocol. Scope 1 covers direct emissions (e.g., the bank's own gas-fired boilers), and Scope 2 covers purchased energy (e.g., electricity for branch offices). Scope 4 is not part of the GHG Protocol. Scope 3, specifically Category 15 (Investments), is the appropriate category for financed emissions."
+
+- question: "Why was PCAF created if the GHG Protocol already had a Scope 3 Category 15 for investments?"
+  options:
+    - "Because the GHG Protocol does not permit financial institutions to report Scope 3 emissions"
+    - "Because the GHG Protocol's guidance lacked asset-class-specific attribution methodologies, making comparability across financial institutions impossible"
+    - "Because PCAF is a replacement for the GHG Protocol, not a supplement to it"
+    - "Because regulators required a separate financial-sector standard independent of the GHG Protocol"
+  answer: 1
+  explanation: "The GHG Protocol's Scope 3 Standard and Technical Guidance provided only high-level direction for Category 15. Without prescribed denominators, attribution formulas, and data quality standards for each asset class, two banks holding the same loan could report financed emissions that differed by a factor of 2.5 or more. PCAF was created to resolve this comparability problem."
+
+- question: "How many greenhouse gases are covered by both the GHG Protocol and the PCAF Standard?"
+  options:
+    - "Three (CO2, CH4, N2O)"
+    - "Five (CO2, CH4, N2O, HFCs, PFCs)"
+    - "Seven (all gases mandated under the Kyoto Protocol)"
+    - "One — only CO2 is counted in financed emissions"
+  answer: 2
+  explanation: "Both the GHG Protocol and PCAF require accounting for all seven greenhouse gases of the Kyoto Protocol: CO2, CH4, N2O, HFCs, PFCs, SF6, and NF3. All gases are converted to CO2 equivalents (CO2e) using their respective Global Warming Potentials over a 100-year timeframe, which is the standard convention."
+
+- question: "Which of the following correctly describes the relationship between PCAF and the GHG Protocol?"
+  options:
+    - "PCAF replaces the GHG Protocol for financial institutions"
+    - "PCAF is a competitor to the GHG Protocol, with different accounting principles"
+    - "PCAF is a supplement to the GHG Protocol, providing asset-class-specific methodologies for Scope 3 Category 15"
+    - "PCAF only applies to banks; the GHG Protocol applies to all other industries"
+  answer: 2
+  explanation: "PCAF is explicitly a supplement to the GHG Protocol, not a replacement. Financial institutions that follow PCAF are, by extension, compliant with the GHG Protocol's requirements for Scope 3 Category 15. PCAF's five core requirements are derived directly from the GHG Protocol's five accounting principles."
+
+- question: "What is CO2e and why is it used in financed emissions reporting?"
+  options:
+    - "CO2e is the emissions from carbon capture equipment; it is used to report avoided emissions"
+    - "CO2e stands for 'carbon-dioxide exempt' and refers to gases that are excluded from Scope 3"
+    - "CO2e is a universal unit that converts all greenhouse gases to a comparable scale using their Global Warming Potentials"
+    - "CO2e is only used for Scope 1 reporting; Scope 3 uses raw unweighted gas quantities"
+  answer: 2
+  explanation: "CO2 equivalent (CO2e) converts different greenhouse gases to a common unit by multiplying each gas's quantity by its Global Warming Potential (GWP) over 100 years. For example, methane has a 100-year GWP of approximately 28, so 1 tonne of methane = 28 tCO2e. This allows all GHG emissions to be expressed in a single, comparable metric — tonnes of CO2 equivalent."

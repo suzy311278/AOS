@@ -1,0 +1,35 @@
+- question: "What is baseline-and-credit trading?"
+  options:
+    - "Trading historical emissions data"
+    - "Setting entity-specific baselines and allowing entities that beat them to sell credits"
+    - "Trading government bonds"
+    - "A pure carbon tax"
+  answer: 1
+  explanation: "Baseline-and-credit sets emissions baselines for each entity. Those who reduce below their baseline earn credits to sell; those above must buy credits. It combines elements of both taxes and cap-and-trade."
+
+- question: "How does baseline-and-credit differ from cap-and-trade?"
+  options:
+    - "No difference"
+    - "No absolute cap exists; emissions depend on how entities perform against baselines"
+    - "Baseline-and-credit has a cap"
+    - "Cap-and-trade has no cap"
+  answer: 1
+  explanation: "Unlike cap-and-trade with its fixed cap, baseline-and-credit lacks an absolute emissions limit. Total emissions depend on aggregate performance against baselines, offering less environmental certainty."
+
+- question: "What is one advantage of baseline-and-credit over cap-and-trade?"
+  options:
+    - "Better environmental certainty"
+    - "May be easier politically as it avoids setting an absolute cap"
+    - "Always cheaper to administer"
+    - "No advantages"
+  answer: 1
+  explanation: "Politically, baseline-and-credit can be easier to accept because it does not impose an absolute cap, framing the system as rewarding improvement rather than capping total emissions."
+
+- question: "What is the main environmental weakness of baseline-and-credit?"
+  options:
+    - "It is too strict"
+    - "Lack of an absolute cap means total emissions are uncertain"
+    - "It reduces emissions too fast"
+    - "It has no weaknesses"
+  answer: 1
+  explanation: "Without an absolute cap, total emissions depend on how entities collectively perform against baselines. If baselines are loose or many entities grow, overall emissions could rise even with trading."

@@ -1,0 +1,26 @@
+- question: "Category 5 covers waste generated in operations. Which of the following is EXCLUDED from Category 5?"
+  options:
+    - "Food waste sent to a third-party composting facility"
+    - "Plastic waste incinerated at a third-party facility"
+    - "Emissions from treating wastewater inside the company's own facility"
+    - "Paper waste sent to a third-party recycling processor"
+  answer: 2
+  explanation: "Emissions from treating wastewater inside the company's own facility boundary are Scope 1 (direct emissions from company-owned or controlled processes). Category 5 covers only emissions occurring at third-party disposal and treatment facilities."
+
+- question: "Which end-of-life treatment method typically produces the highest GHG emissions per tonne for organic waste?"
+  options:
+    - "Anaerobic digestion with biogas capture"
+    - "Composting"
+    - "Landfill"
+    - "Recycling"
+  answer: 2
+  explanation: "Landfill generates methane (CH₄) as organic matter slowly decomposes anaerobically over many years, and methane has a GWP of 28 over 100 years. Unless the landfill captures and uses the biogas, landfill produces the highest per-tonne emissions for organic waste."
+
+- question: "A factory sends 80 tonnes of mixed waste to landfill with an emission factor of 0.50 tCO₂e/tonne. What are the Category 5 emissions?"
+  options:
+    - "40 tCO₂e"
+    - "400 tCO₂e"
+    - "4 tCO₂e"
+    - "160 tCO₂e"
+  answer: 0
+  explanation: "80 tonnes × 0.50 tCO₂e/tonne = 40 tCO₂e."

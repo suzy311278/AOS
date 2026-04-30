@@ -1,0 +1,35 @@
+- question: "Category 15 (Investments) is calculated using which core principle?"
+  options:
+    - "Subsidiaries must be excluded to avoid double counting"
+    - "Proportional ownership — the investor claims the fraction of investee emissions equal to their financial stake"
+    - "All investee emissions are counted in full regardless of ownership stake"
+    - "Emissions are attributed based on the geographic location of investee operations"
+  answer: 1
+  explanation: "Category 15 uses proportional attribution — the investor claims the fraction of the investee's total emissions proportional to their equity share or loan-to-enterprise-value ratio. This prevents a single investee's emissions from being claimed in full by multiple investors."
+
+- question: "A bank has a £5 million loan to a company with total equity+debt of £50 million. The company's annual Scope 1+2 emissions are 10,000 tCO₂e. What are the bank's Category 15 financed emissions?"
+  options:
+    - "100 tCO₂e"
+    - "1,000 tCO₂e"
+    - "5,000 tCO₂e"
+    - "10,000 tCO₂e"
+  answer: 1
+  explanation: "Attribution factor = £5m / £50m = 10%. Financed emissions = 10% × 10,000 = 1,000 tCO₂e."
+
+- question: "PCAF (Partnership for Carbon Accounting Financials) extends the GHG Protocol Category 15 guidance primarily for which type of organisation?"
+  options:
+    - "Manufacturing companies with large Scope 1 inventories"
+    - "Financial institutions measuring financed emissions across asset classes"
+    - "Real estate companies with downstream leased assets"
+    - "Technology companies with large product use emissions"
+  answer: 1
+  explanation: "PCAF provides asset-class-specific methodologies for banks, insurance companies, asset managers, and other financial institutions to measure and disclose their Category 15 financed emissions. Over 500 financial institutions representing more than $70 trillion in assets had adopted PCAF as of 2024."
+
+- question: "Which of the following net-zero commitment frameworks relies entirely on Category 15 measurement for financial institutions?"
+  options:
+    - "RE100"
+    - "The Science Based Targets initiative (SBTi) Corporate Net-Zero Standard"
+    - "GFANZ (Glasgow Financial Alliance for Net Zero)"
+    - "The UN Global Compact"
+  answer: 2
+  explanation: "GFANZ (the Glasgow Financial Alliance for Net Zero) is the primary net-zero framework for financial institutions. Its member commitments — to align lending and investment portfolios with 1.5°C pathways — are based entirely on measuring and reducing Category 15 financed emissions."

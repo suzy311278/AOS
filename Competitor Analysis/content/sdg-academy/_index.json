@@ -1,0 +1,444 @@
+{
+  "start_url": "https://sdgacademy.org/",
+  "pages_crawled": 73,
+  "pages": [
+    {
+      "url": "https://sdgacademy.org/",
+      "title": "SDG Academy - Free Education for Sustainable Development",
+      "word_count": 670,
+      "file": "000_sdgacademy.org.md"
+    },
+    {
+      "url": "https://sdgacademy.org",
+      "title": "SDG Academy - Free Education for Sustainable Development",
+      "word_count": 670,
+      "file": "001_sdgacademy.org.md"
+    },
+    {
+      "url": "https://sdgacademy.org/course/monitoring-evaluation-and-learning-nap",
+      "title": "Monitoring, Evaluation, and Learning (MEL) for National Adaptation Plan (NAP) Processes - SDG Academy",
+      "word_count": 1034,
+      "file": "016_sdgacademy.org_course_monitoring-evaluation-and-learning-nap.md"
+    },
+    {
+      "url": "https://sdgacademy.org/course/teaching-and-learning-about-violent-pasts",
+      "title": "Teaching and Learning about Violent Pasts - SDG Academy",
+      "word_count": 1117,
+      "file": "017_sdgacademy.org_course_teaching-and-learning-about-violent-pasts.md"
+    },
+    {
+      "url": "https://sdgacademy.org/masters-pathway-in-foundations-of-sustainable-development",
+      "title": "Master\u2019s Pathway in Foundations of Sustainable Development - SDG Academy",
+      "word_count": 815,
+      "file": "018_sdgacademy.org_masters-pathway-in-foundations-of-sustainable-development.md"
+    },
+    {
+      "url": "https://sdgacademy.org/users/password/new",
+      "title": "Page not found - SDG Academy",
+      "word_count": 243,
+      "file": "019_sdgacademy.org_users_password_new.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faqs",
+      "title": "Frequently Asked Questions - SDG Academy",
+      "word_count": 1724,
+      "file": "020_sdgacademy.org_faqs.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1603,
+      "file": "021_sdgacademy.org_faculties.md"
+    },
+    {
+      "url": "https://sdgacademy.org/sij",
+      "title": "Special Issue Journals - SDG Academy",
+      "word_count": 2639,
+      "file": "022_sdgacademy.org_sij.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=103",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1756,
+      "file": "023_sdgacademy.org_faculties?c=103.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=121",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1839,
+      "file": "024_sdgacademy.org_faculties?c=121.md"
+    },
+    {
+      "url": "https://sdgacademy.org/course/monitoring-evaluation-and-learning-nap/courses@sdgacademy.com",
+      "title": "Page not found - SDG Academy",
+      "word_count": 243,
+      "file": "025_sdgacademy.org_course_monitoring-evaluation-and-learning-nap_courses@sdgacademy.com.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=122",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1706,
+      "file": "026_sdgacademy.org_faculties?c=122.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=105",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1801,
+      "file": "027_sdgacademy.org_faculties?c=105.md"
+    },
+    {
+      "url": "https://sdgacademy.org/course/teaching-and-learning-about-violent-pasts/courses@sdgacademy.org",
+      "title": "Page not found - SDG Academy",
+      "word_count": 243,
+      "file": "028_sdgacademy.org_course_teaching-and-learning-about-violent-pasts_courses@sdgacademy.org.md"
+    },
+    {
+      "url": "https://sdgacademy.org/course/ethics-in-action",
+      "title": "Ethics in Action - SDG Academy",
+      "word_count": 1361,
+      "file": "029_sdgacademy.org_course_ethics-in-action.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=119",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1925,
+      "file": "030_sdgacademy.org_faculties?c=119.md"
+    },
+    {
+      "url": "https://sdgacademy.org/course/climate-change-the-science-and-global-impact",
+      "title": "Climate Change: The Science and Global Impact - SDG Academy",
+      "word_count": 811,
+      "file": "031_sdgacademy.org_course_climate-change-the-science-and-global-impact.md"
+    },
+    {
+      "url": "https://sdgacademy.org/course/the-best-start-in-life-early-childhood-development",
+      "title": "The Best Start in Life: Early Childhood Development for Sustainable Development - SDG Academy",
+      "word_count": 1014,
+      "file": "032_sdgacademy.org_course_the-best-start-in-life-early-childhood-development.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=114",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1632,
+      "file": "033_sdgacademy.org_faculties?c=114.md"
+    },
+    {
+      "url": "https://sdgacademy.org/course/nature-based-solutions-for-disaster-and-climate-resilience",
+      "title": "Nature-based Solutions for Disaster and Climate Resilience - SDG Academy",
+      "word_count": 1428,
+      "file": "034_sdgacademy.org_course_nature-based-solutions-for-disaster-and-climate-resilience.md"
+    },
+    {
+      "url": "https://sdgacademy.org/course/ecosystem-based-adaptation",
+      "title": "Ecosystem-based Adaptation: Working with nature to adapt to a changing climate - SDG Academy",
+      "word_count": 1284,
+      "file": "035_sdgacademy.org_course_ecosystem-based-adaptation.md"
+    },
+    {
+      "url": "https://sdgacademy.org/course/living-heritage-and-sustainable-development",
+      "title": "Living Heritage and Sustainable Development - SDG Academy",
+      "word_count": 1390,
+      "file": "036_sdgacademy.org_course_living-heritage-and-sustainable-development.md"
+    },
+    {
+      "url": "https://sdgacademy.org/course/measuring-sustainable-development",
+      "title": "Measuring Sustainable Development - SDG Academy",
+      "word_count": 923,
+      "file": "037_sdgacademy.org_course_measuring-sustainable-development.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=115",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1777,
+      "file": "038_sdgacademy.org_faculties?c=115.md"
+    },
+    {
+      "url": "https://sdgacademy.org/course/equity-and-inclusion-in-education",
+      "title": "Equity and Inclusion in Education - SDG Academy",
+      "word_count": 1394,
+      "file": "039_sdgacademy.org_course_equity-and-inclusion-in-education.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=110",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1930,
+      "file": "040_sdgacademy.org_faculties?c=110.md"
+    },
+    {
+      "url": "https://sdgacademy.org/course/transformative-approaches-to-climate-adaptation-in-europe",
+      "title": "From Commitments to Action: Transformative Approaches to Climate Adaptation in Europe - SDG Academy",
+      "word_count": 1457,
+      "file": "041_sdgacademy.org_course_transformative-approaches-to-climate-adaptation-in-europe.md"
+    },
+    {
+      "url": "https://sdgacademy.org/course/becoming-global-citizens-for-a-sustainable-society",
+      "title": "Becoming Global Citizens for a Sustainable Society - SDG Academy",
+      "word_count": 769,
+      "file": "042_sdgacademy.org_course_becoming-global-citizens-for-a-sustainable-society.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=158",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1724,
+      "file": "043_sdgacademy.org_faculties?c=158.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=130",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1781,
+      "file": "044_sdgacademy.org_faculties?c=130.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=148",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1739,
+      "file": "045_sdgacademy.org_faculties?c=148.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=166",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1604,
+      "file": "046_sdgacademy.org_faculties?c=166.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=131",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1783,
+      "file": "047_sdgacademy.org_faculties?c=131.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=140",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1629,
+      "file": "048_sdgacademy.org_faculties?c=140.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=145",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1603,
+      "file": "049_sdgacademy.org_faculties?c=145.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=178",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1696,
+      "file": "050_sdgacademy.org_faculties?c=178.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=185",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 2328,
+      "file": "051_sdgacademy.org_faculties?c=185.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=173",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1979,
+      "file": "052_sdgacademy.org_faculties?c=173.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=157",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1753,
+      "file": "053_sdgacademy.org_faculties?c=157.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=126",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 2040,
+      "file": "054_sdgacademy.org_faculties?c=126.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=170",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1806,
+      "file": "055_sdgacademy.org_faculties?c=170.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=168",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1849,
+      "file": "056_sdgacademy.org_faculties?c=168.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=135",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1603,
+      "file": "057_sdgacademy.org_faculties?c=135.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=199",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1602,
+      "file": "058_sdgacademy.org_faculties?c=199.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=197",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1817,
+      "file": "059_sdgacademy.org_faculties?c=197.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=200",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1605,
+      "file": "060_sdgacademy.org_faculties?c=200.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=198",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1742,
+      "file": "061_sdgacademy.org_faculties?c=198.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=196",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 2144,
+      "file": "062_sdgacademy.org_faculties?c=196.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=233",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1796,
+      "file": "063_sdgacademy.org_faculties?c=233.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=262",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1604,
+      "file": "064_sdgacademy.org_faculties?c=262.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=492",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1602,
+      "file": "065_sdgacademy.org_faculties?c=492.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=390",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1603,
+      "file": "066_sdgacademy.org_faculties?c=390.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=355",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1732,
+      "file": "067_sdgacademy.org_faculties?c=355.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=354",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1727,
+      "file": "068_sdgacademy.org_faculties?c=354.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=397",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1853,
+      "file": "069_sdgacademy.org_faculties?c=397.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=66",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1852,
+      "file": "070_sdgacademy.org_faculties?c=66.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=60",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1874,
+      "file": "071_sdgacademy.org_faculties?c=60.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=65",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1736,
+      "file": "072_sdgacademy.org_faculties?c=65.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=321",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1746,
+      "file": "073_sdgacademy.org_faculties?c=321.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=496",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1722,
+      "file": "074_sdgacademy.org_faculties?c=496.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=202",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1849,
+      "file": "075_sdgacademy.org_faculties?c=202.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=372",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1783,
+      "file": "076_sdgacademy.org_faculties?c=372.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=69",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1838,
+      "file": "077_sdgacademy.org_faculties?c=69.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=72",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1630,
+      "file": "078_sdgacademy.org_faculties?c=72.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=84",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1629,
+      "file": "079_sdgacademy.org_faculties?c=84.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=76",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1753,
+      "file": "080_sdgacademy.org_faculties?c=76.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=91",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1888,
+      "file": "088_sdgacademy.org_faculties?c=91.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=98",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 2098,
+      "file": "089_sdgacademy.org_faculties?c=98.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=99",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1628,
+      "file": "091_sdgacademy.org_faculties?c=99.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=79",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1630,
+      "file": "092_sdgacademy.org_faculties?c=79.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=96",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 1641,
+      "file": "094_sdgacademy.org_faculties?c=96.md"
+    },
+    {
+      "url": "https://sdgacademy.org/faculties?c=83",
+      "title": "Our Faculty - SDG Academy",
+      "word_count": 2337,
+      "file": "095_sdgacademy.org_faculties?c=83.md"
+    }
+  ]
+}

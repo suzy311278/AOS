@@ -1,0 +1,26 @@
+- question: "What is the difference between a quantification unit and a stratum?"
+  options:
+  - "They are the same thing"
+  - "A QU is a contiguous land parcel; a stratum is a group of QUs with similar characteristics"
+  - "A stratum is larger than a QU in all cases"
+  - "A QU is used for emissions; a stratum is used for removals"
+  answer: 1
+  explanation: "A Quantification Unit (QU) is a specific, contiguous piece of land where carbon is calculated. A stratum is a grouping of multiple QUs that share similar characteristics (soil, climate, practices) to enable more efficient sampling."
+
+- question: "What is a Baseline Control Site used for?"
+  options:
+  - "To grow experimental crops for carbon measurement"
+  - "To provide the counterfactual — showing what SOC change would have occurred without the project"
+  - "To store soil samples before lab analysis"
+  - "To demonstrate regulatory compliance"
+  answer: 1
+  explanation: "Baseline control sites are managed under pre-project (baseline) practices while the project implements improved practices. Comparing the two shows what additional carbon benefit the project delivers."
+
+- question: "The historical look-back period must cover a minimum of how many years?"
+  options:
+  - "1 year"
+  - "2 years"
+  - "3 years (and at least one complete crop rotation)"
+  - "5 years"
+  answer: 2
+  explanation: "VM0042 requires a minimum 3-year historical look-back period that includes at least one complete crop rotation. This ensures the baseline schedule of activities represents typical farming practices, not a single unusual year."

@@ -1,0 +1,109 @@
+{/* source: PCAF Standard Part A (3rd Edition), Chapter 5.1 */}
+
+**Listed equity and corporate bonds** represent the first and most widely discussed asset class in the PCAF Standard. This covers shares in publicly listed companies and debt instruments (bonds, notes) issued by corporations and traded on public markets. For many large banks and asset managers, this asset class represents a substantial portion of their total financed emissions.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/financed-emissions/2_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Asset Class Definition
+
+This asset class includes:
+- **Listed equity**: Shares in companies that are publicly traded on a stock exchange
+- **Corporate bonds**: Debt instruments issued by corporations and traded in public markets, including corporate medium-term notes and sustainability-linked bonds (except green bonds with known use of proceeds, which fall under Chapter 5.7)
+
+The key characteristic distinguishing this asset class from business loans is that the investee company has a **publicly observable market capitalisation**, which enables the use of EVIC as the denominator.
+
+## Emission Scopes Covered
+
+Financial institutions shall report **Scope 1, Scope 2, and Scope 3** emissions of borrowers and investees across all sectors. Starting with reports published in 2025, this encompasses all three scopes.
+
+Scope 3 emissions of borrowers and investees shall be disclosed **separately** from Scope 1 and 2 emissions. PCAF acknowledges that this may lead to double counting (particularly when investing in other financial institutions), and recommends disclosing financed emissions to the financial sector separately for transparency.
+
+## Attribution of Emissions: The EVIC Formula
+
+For listed equity and corporate bonds, the attribution factor uses **EVIC (Enterprise Value Including Cash)** as the denominator:
+
+<EquationBreakdown
+  title="Listed Equity and Corporate Bonds - Attribution Factor"
+  result="AF | Attribution Factor | The financial institution's share of the investee company's emissions | blue"
+  inputs="Outstanding Amount | Outstanding Amount | Market value of equity holding or book value of bond position at fiscal year end | green ;; EVIC | Enterprise Value Including Cash | Market cap (ordinary + preferred shares) + book value of total debt + minority interests | amber"
+  operator="÷"
+/>
+
+**EVIC is defined as the sum of:**
+- Market capitalisation of ordinary shares at fiscal year end
+- Market capitalisation of preferred shares at fiscal year end
+- Book value of total debt (current and long-term)
+- Minorities' interests
+
+No deductions of cash or cash equivalents are made, to avoid negative enterprise values.
+
+<HighlightBox>
+PCAF aligns its EVIC definition with the EU Technical Expert Group (EU TEG) and Commission Delegated Regulation (EU) 2020/1818 on climate benchmarks. This ensures maximum comparability across financial institutions and alignment with European regulatory requirements.
+</HighlightBox>
+
+**For equity**: The outstanding amount is the market value of the equity holding at fiscal year end.
+**For bonds**: The outstanding amount is the book value of the bond position at fiscal year end.
+
+The financed emissions formula aggregates across all investees:
+
+<EquationBreakdown
+  title="Financed Emissions - Listed Equity Aggregation"
+  result="FE | Financed Emissions | Total financed emissions across all investees, summed using Σ, in tCO₂e | blue"
+  inputs="AF<sub>c</sub> | Attribution Factor | Outstanding Amount / EVIC for each investee company c | green ;; E<sub>c</sub> | Company Emissions | Annual GHG emissions of investee company c, in tCO₂e | amber"
+/>
+
+<ExampleBox>
+**Worked example: Listed equity**
+
+An asset manager holds a €200 million equity position in an energy company. The company's EVIC is €5,000 million. The company reports annual Scope 1 and 2 emissions of 8,000,000 tCO2e.
+
+Attribution factor = €200M / €5,000M = **4.0%**
+
+Financed emissions (Scope 1+2) = 4.0% × 8,000,000 = **320,000 tCO2e**
+
+The same manager also holds a €100 million bond in the same company.
+
+Attribution factor (bond) = €100M / €5,000M = **2.0%**
+
+Financed emissions (bond, Scope 1+2) = 2.0% × 8,000,000 = **160,000 tCO2e**
+</ExampleBox>
+
+## Data Quality Options
+
+PCAF provides three options for obtaining company emissions data for this asset class:
+
+- **Option 1 (Scores 1 and 2)**: Use reported emissions from sustainability reports, CDP disclosures, or third-party data providers (Bloomberg, MSCI, Sustainalytics, S&P/Trucost, ISS ESG)
+- **Option 2 (Score 2)**: Estimate from primary physical activity data (energy consumption or production volumes)
+- **Option 3 (Scores 3 to 5)**: Estimate from economic activity data using sector-average emission factors from EEIO databases
+
+For listed companies, third-party data providers (CDP, Bloomberg, MSCI) typically make Scope 1 and 2 emissions data available. PCAF advises using the same provider consistently to minimise variability between reporting periods.
+
+## Emission Removals and Carbon Credits
+
+Companies in a financial institution's portfolio may report **emission removals** (nature-based or technology-based CO2 removal from the atmosphere). FIs must account for and report attributed emission removals **separately** from absolute emissions, using the same attribution factor:
+
+<EquationBreakdown
+  title="Attributed Emission Removals"
+  result="AER | Attributed Emission Removals | The financial institution's share of a company's emission removals, reported separately, in tCO₂e | blue"
+  inputs="AF | Attribution Factor | Outstanding Amount / EVIC for the investee | green ;; ER | Company Emission Removals | Total emission removals reported by the investee company (nature-based or technology-based), in tCO₂e | amber"
+/>
+
+Companies may also generate or retire **carbon credits**. Carbon credits retired may optionally be reported; carbon credits generated should be reported. These figures provide context but do not offset the absolute emissions reported under the PCAF Standard.
+
+## Key Limitations
+
+### Market Value Fluctuations
+
+When using EVIC as the denominator, the attribution factor moves inversely with the company's market capitalisation. If a company's share price rises significantly, the EVIC increases and the attribution factor falls, automatically reducing the financial institution's reported financed emissions — even if the company's actual physical emissions are unchanged.
+
+PCAF requires all financial institutions to report their **uncorrected absolute financed emissions** as the minimum. Adjustments for market price fluctuations may optionally be reported separately with full transparency on the methodology applied.
+
+### Consistency Requirement
+
+The date (calendar year-end or fiscal year-end) for both the outstanding amount and the EVIC must be consistent. Financial institutions must also use the most recent available emissions data, clearly disclosing any lag between the financial year and the emissions data year.
+
+<HighlightBox>
+The EVIC-based attribution ensures that all providers of capital (both equity and debt) are attributed their proportional share of the investee's emissions. If only equity were considered, debt providers would bear no attribution responsibility, even though their capital equally enables the company's operations.
+</HighlightBox>
+
+<KeyTakeaways items="Listed equity and corporate bonds use EVIC as the denominator, ensuring both equity and debt holders are attributed their proportional share of emissions ;; EVIC is aligned with the EU TEG definition: market cap of ordinary and preferred shares plus book value of total debt plus minority interests, with no cash deduction ;; All three scopes of borrower/investee emissions must be reported starting 2025, with Scope 3 disclosed separately ;; Emission removals and carbon credits are reported separately using the same attribution factor - they never offset absolute emissions ;; Market value fluctuations can mechanically change financed emissions without any change in physical emissions - report uncorrected absolute figures as the minimum" />

@@ -1,0 +1,26 @@
+- question: "Which target in the Kunming-Montreal Global Biodiversity Framework (GBF) most directly calls on governments to encourage business to assess and disclose nature-related risks and dependencies?"
+  options:
+  - "Target 3 (30x30: protect 30% of land and oceans by 2030)"
+  - "Target 7 (reduce pollution from all sources by at least half)"
+  - "Target 15 (regularly monitor, assess, and disclose risks, dependencies and impacts on biodiversity)"
+  - "Target 19 (mobilise $200 billion per year for biodiversity)"
+  answer: 2
+  explanation: "GBF Target 15 calls on governments to 'take legal, administrative or policy measures to encourage and enable business to regularly monitor, assess and transparently disclose their risks, dependencies and impacts on biodiversity.' TNFD is explicitly cited in the GBF monitoring framework as the relevant private sector disclosure standard for implementing Target 15, creating a direct link between international treaty obligations and corporate reporting."
+
+- question: "What is the primary functional difference between TNFD and SBTN in the nature-related corporate action landscape?"
+  options:
+  - "TNFD applies to listed companies while SBTN applies to private companies"
+  - "TNFD focuses on risk disclosure for financial audiences, while SBTN provides methodologies for setting science-based targets that define how much improvement is needed"
+  - "TNFD covers biodiversity while SBTN covers climate"
+  - "TNFD is mandatory while SBTN is voluntary"
+  answer: 1
+  explanation: "TNFD and SBTN serve complementary but distinct functions. TNFD's LEAP Approach identifies and assesses nature-related risks and generates disclosures for investors (the 'what and where' question). SBTN provides target-setting methodology that defines how far a company needs to go to align with scientific thresholds for nature (the 'how far' question). Completing LEAP also generates much of the data needed for SBTN's Step 1 Assess methodology, making the two frameworks practically integrated."
+
+- question: "A company that completes TNFD disclosures will find that it has also satisfied significant requirements of which other reporting standard, due to TNFD-GRI formal interoperability mapping?"
+  options:
+  - "ISO 14001 (Environmental Management Systems)"
+  - "GRI 304: Biodiversity"
+  - "SASB (Sustainability Accounting Standards Board)"
+  - "UN Global Compact"
+  answer: 1
+  explanation: "TNFD and GRI published a formal interoperability mapping in 2023. GRI 304 (Biodiversity) disclosures including GRI 304-1 (sites in/near protected areas), 304-3 (habitats protected or restored), and 304-4 (Red List species affected) align directly with TNFD S4, MT3, and core biodiversity metrics respectively. Organisations completing robust TNFD disclosures will largely satisfy GRI 304 requirements as a byproduct, though GRI's broader stakeholder and double materiality scope means some additional disclosure may be needed."

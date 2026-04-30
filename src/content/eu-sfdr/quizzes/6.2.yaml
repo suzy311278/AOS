@@ -1,0 +1,26 @@
+- question: "Under SFDR 2.0, which of the following mandatory exclusions applies to Article 8 (ESG Basics) but NOT to Article 7 (Transition)?"
+  options:
+  - "Controversial weapons manufacturers"
+  - "Companies developing new fossil fuel exploration or extraction projects"
+  - "Companies deriving 1% or more revenue from hard coal and lignite"
+  - "None - Article 8 has a less strict exclusion list than Article 7"
+  answer: 3
+  explanation: "Article 8 (ESG Basics) actually has a LESS strict exclusion list than Article 7 (Transition). The key difference is that Article 7 additionally excludes companies developing new fossil fuel exploration, extraction, or distribution projects - a restriction that does not apply to Article 8. Both categories share the CTB-level base exclusions (controversial weapons, tobacco, UNGC/OECD violators, 1%+ coal revenue)."
+
+- question: "What is the minimum investment threshold required for all three sustainability categories (Articles 7, 8, and 9) under SFDR 2.0?"
+  options:
+  - "50% of the portfolio"
+  - "70% of the portfolio"
+  - "80% of the portfolio"
+  - "There is no fixed threshold - managers must justify their approach"
+  answer: 1
+  explanation: "SFDR 2.0 requires a minimum 70% portfolio threshold for all three categories (Transition, ESG Basics, and Sustainable). This is a fundamental change from SFDR 1.0, which specified no minimum percentage for Article 8 and had no fixed threshold for Article 9. Both Articles 7 and 9 also offer an alternative 15% Taxonomy-alignment 'deemed compliance' pathway."
+
+- question: "Which of the following concepts from SFDR 1.0 is entirely removed under SFDR 2.0?"
+  options:
+  - "The requirement to disclose PAI at the product level for high-category funds"
+  - "The mandatory exclusion of controversial weapons from all sustainability products"
+  - "The 'sustainable investment' definition from Article 2(17)"
+  - "The requirement to publish pre-contractual sustainability disclosures"
+  answer: 2
+  explanation: "The Article 2(17) 'sustainable investment' definition is entirely removed under SFDR 2.0. The definition was widely criticised because its three-part test (contribution, DNSH, good governance) had no standardised thresholds, leading different managers to report wildly different percentages of 'sustainable investments' from identical portfolios. SFDR 2.0 replaces the universal definition with specific, category-level criteria."

@@ -1,0 +1,26 @@
+- question: "In the TNFD framework, what is the key distinction between 'dependencies' and 'impacts'?"
+  options:
+  - "Dependencies refer to risks, while impacts refer to opportunities"
+  - "Dependencies are upstream issues and impacts are downstream issues"
+  - "Dependencies describe how a business relies on ecosystem services; impacts describe how business activities alter the state of nature"
+  - "Dependencies are measurable in financial terms; impacts can only be expressed qualitatively"
+  answer: 2
+  explanation: "TNFD makes a clear distinction: dependencies are the ways in which an organisation relies on ecosystem services for continued operations, while impacts are the ways in which an organisation's activities alter the state of nature. Both directions of the relationship must be understood for complete nature risk assessment."
+
+- question: "ENCORE (Exploring Natural Capital Opportunities, Risks and Exposure) covers how many business sub-sectors and ecosystem services respectively?"
+  options:
+  - "25 sub-sectors and 10 ecosystem services"
+  - "100 sub-sectors and 15 ecosystem services"
+  - "167 sub-sectors and 21 ecosystem services"
+  - "250 sub-sectors and 30 ecosystem services"
+  answer: 2
+  explanation: "ENCORE maps 167 business sub-sectors to 21 ecosystem services across four categories: provisioning, regulating and maintenance, cultural, and supporting (habitat) services. This comprehensive coverage makes it the foundation of the TNFD's Evaluate phase guidance."
+
+- question: "Which of the five direct drivers of biodiversity loss identified by IPBES is most directly associated with pesticide and fertiliser runoff from farms?"
+  options:
+  - "Land and sea use change"
+  - "Overexploitation"
+  - "Climate change"
+  - "Pollution"
+  answer: 3
+  explanation: "Pollution, including the discharge of synthetic chemicals, excess nutrients (nitrogen and phosphorus from fertilisers), and pesticides into air, water, and soil, is recognised by IPBES as one of the five direct drivers of biodiversity loss. Nutrient pollution causing aquatic dead zones is a major example of this impact pathway."

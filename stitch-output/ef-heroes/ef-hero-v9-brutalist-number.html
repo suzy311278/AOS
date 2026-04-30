@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #061616;
+            color: #d4e6e5;
+        }
+        .jetbrains-mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .tight-tracking {
+            letter-spacing: -0.04em;
+        }
+        .wide-tracking {
+            letter-spacing: 0.15em;
+        }
+        /* Hide scrollbar but keep functionality */
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        body {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "error": "#ffb4ab",
+                      "inverse-surface": "#d4e6e5",
+                      "on-secondary-fixed-variant": "#364a4a",
+                      "on-secondary-fixed": "#0a1f1f",
+                      "secondary-fixed": "#d0e7e6",
+                      "surface-tint": "#8cd4ca",
+                      "surface-container-lowest": "#021111",
+                      "on-tertiary-fixed": "#00210c",
+                      "on-tertiary": "#003919",
+                      "on-secondary": "#203434",
+                      "on-primary": "#003733",
+                      "surface-bright": "#2c3c3c",
+                      "surface-dim": "#061616",
+                      "on-background": "#d4e6e5",
+                      "primary": "#8cd4ca",
+                      "surface-container": "#122222",
+                      "secondary-container": "#384d4d",
+                      "on-error-container": "#ffdad6",
+                      "surface-container-low": "#0e1e1e",
+                      "on-primary-fixed": "#00201d",
+                      "outline": "#889391",
+                      "primary-container": "#005c55",
+                      "on-tertiary-container": "#48df82",
+                      "on-surface-variant": "#bec9c6",
+                      "inverse-primary": "#1a6962",
+                      "inverse-on-surface": "#233333",
+                      "tertiary": "#4ae183",
+                      "on-error": "#690005",
+                      "primary-fixed-dim": "#8cd4ca",
+                      "background": "#061616",
+                      "secondary-fixed-dim": "#b5cbca",
+                      "on-surface": "#d4e6e5",
+                      "surface-container-highest": "#283837",
+                      "error-container": "#93000a",
+                      "on-tertiary-fixed-variant": "#005228",
+                      "tertiary-container": "#005f2f",
+                      "primary-fixed": "#a7f0e6",
+                      "secondary": "#b5cbca",
+                      "surface": "#061616",
+                      "on-primary-container": "#8ad2c8",
+                      "surface-container-high": "#1d2d2d",
+                      "surface-variant": "#283837",
+                      "tertiary-fixed": "#6bfe9c",
+                      "on-secondary-container": "#a7bdbc",
+                      "outline-variant": "#3f4947",
+                      "on-primary-fixed-variant": "#00504a"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0px",
+                      "lg": "0px",
+                      "xl": "0px",
+                      "full": "9999px"
+              },
+              "fontFamily": {
+                      "headline": ["Inter"],
+                      "body": ["Inter"],
+                      "label": ["Inter"]
+              }
+            },
+          }
+        }
+      </script>
+</head>
+<body class="bg-[#061616] text-[#d4e6e5] antialiased">
+<!-- TopNavBar -->
+<nav class="flex justify-between items-center w-full px-12 py-6 bg-[#061616]">
+<div class="text-xl font-extrabold text-white tracking-tighter">Greentryst</div>
+<div class="flex items-center space-x-12">
+<div class="flex items-center space-x-8">
+<a class="font-['Inter'] font-normal text-white/60 tracking-tight hover:text-white transition-colors duration-200" href="#">Tools</a>
+<a class="font-['Inter'] font-normal text-white/60 tracking-tight hover:text-white transition-colors duration-200" href="#">Guides</a>
+<a class="font-['Inter'] font-normal text-white/60 tracking-tight hover:text-white transition-colors duration-200" href="#">Learn</a>
+<a class="font-['Inter'] font-normal text-white/60 tracking-tight hover:text-white transition-colors duration-200" href="#">About</a>
+</div>
+<button class="bg-primary-container text-on-primary-container px-6 py-2 rounded-full text-sm font-bold hover:bg-[#8cd4ca] hover:text-[#003733] transition-all duration-200">Sign In</button>
+</div>
+</nav>
+<!-- Hero Content -->
+<main class="relative pt-24 pb-32">
+<div class="px-12">
+<!-- Eyebrow -->
+<div class="text-[11px] text-white/40 wide-tracking uppercase font-bold mb-12">
+                EMISSION FACTOR · TODAY
+            </div>
+<!-- Big Number Section -->
+<div class="flex items-center justify-center -mt-12">
+<div class="flex items-baseline">
+<span class="jetbrains-mono text-[220px] font-semibold text-[#8cd4ca] leading-none">0.207</span>
+<div class="ml-10 flex flex-col space-y-1 mb-8">
+<span class="jetbrains-mono text-[16px] text-white/70">kgCO₂e / kWh</span>
+<span class="text-[16px] text-white/70 font-medium">UK grid electricity</span>
+<span class="text-[14px] text-white/50">DEFRA · 2024 · Scope 2</span>
+<span class="text-[14px] text-white/50">Location-based</span>
+</div>
+</div>
+</div>
+<!-- Rule -->
+<div class="mt-20 border-t border-[#8cd4ca]/30 w-full"></div>
+<!-- Below Rule Grid -->
+<div class="flex justify-between items-start mt-8">
+<!-- Search Side -->
+<div class="w-full max-w-xl">
+<div class="text-[11px] text-white/50 wide-tracking uppercase font-bold mb-4">SEARCH</div>
+<div class="flex items-center space-x-4 border-b border-[#8cd4ca] pb-2 group">
+<input class="bg-transparent border-none p-0 w-full text-lg text-white/80 placeholder:text-white/30 focus:ring-0 focus:outline-none" placeholder="0.207 kgCO₂e/kWh is DEFRA. What do you need?" type="text"/>
+<span class="jetbrains-mono text-white/40 text-xl group-hover:text-[#8cd4ca] transition-colors">⏎</span>
+</div>
+</div>
+<!-- Metadata Side -->
+<div class="text-right">
+<div class="jetbrains-mono text-[11px] text-white/40 uppercase wide-tracking mt-6">
+                        211,651 records / 41 sources / updated 14-04-26
+                    </div>
+</div>
+</div>
+</div>
+<!-- Verified Stamp (Bottom Left Decorative) -->
+<div class="fixed bottom-12 left-12">
+<div class="flex items-center space-x-2 px-3 py-1.5 border border-white/10 text-[9px] wide-tracking text-white/40 uppercase">
+<span class="material-symbols-outlined text-[12px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span>VERIFIED · DUAL-EDITOR · 2026-04-10</span>
+</div>
+</div>
+</main>
+<!-- Stat Strip -->
+<section class="bg-[#0e1e1e] py-20 px-12 mt-12">
+<div class="flex justify-between items-end border-b border-outline-variant/20 pb-16">
+<div class="flex flex-col">
+<span class="jetbrains-mono text-[42px] font-medium text-[#8cd4ca] leading-none mb-2">211,651</span>
+<span class="text-[10px] text-white/50 uppercase wide-tracking font-bold">Factors</span>
+</div>
+<div class="h-12 border-l border-outline-variant/20"></div>
+<div class="flex flex-col">
+<span class="jetbrains-mono text-[42px] font-medium text-[#8cd4ca] leading-none mb-2">41</span>
+<span class="text-[10px] text-white/50 uppercase wide-tracking font-bold">Primary Sources</span>
+</div>
+<div class="h-12 border-l border-outline-variant/20"></div>
+<div class="flex flex-col">
+<span class="jetbrains-mono text-[42px] font-medium text-[#8cd4ca] leading-none mb-2">4</span>
+<span class="text-[10px] text-white/50 uppercase wide-tracking font-bold">Reporting Frameworks</span>
+</div>
+<div class="h-12 border-l border-outline-variant/20"></div>
+<div class="flex flex-col">
+<span class="jetbrains-mono text-[42px] font-medium text-[#8cd4ca] leading-none mb-2">0</span>
+<span class="text-[10px] text-white/50 uppercase wide-tracking font-bold">Hallucinations</span>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#0e1e1e] flex flex-col md:flex-row justify-between items-center w-full px-12 py-16">
+<div class="font-['JetBrains_Mono'] text-[10px] uppercase tracking-widest text-[#d4e6e5]/40 mb-4 md:mb-0">
+            © 2024 <span class="font-bold text-[#8cd4ca]">GREENTRYST</span>. SOVEREIGN DATA LEDGER.
+        </div>
+<div class="flex space-x-8">
+<a class="font-['JetBrains_Mono'] text-[10px] uppercase tracking-widest text-[#d4e6e5]/40 hover:text-[#8cd4ca] transition-colors" href="#">TERMINAL</a>
+<a class="font-['JetBrains_Mono'] text-[10px] uppercase tracking-widest text-[#d4e6e5]/40 hover:text-[#8cd4ca] transition-colors" href="#">INDEX</a>
+<a class="font-['JetBrains_Mono'] text-[10px] uppercase tracking-widest text-[#d4e6e5]/40 hover:text-[#8cd4ca] transition-colors" href="#">PRIVACY</a>
+<a class="font-['JetBrains_Mono'] text-[10px] uppercase tracking-widest text-[#d4e6e5]/40 hover:text-[#8cd4ca] transition-colors" href="#">PROTOCOL</a>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,96 @@
+id: article-6
+title: "Article 6 of the Paris Agreement"
+subtitle: "International carbon markets, ITMOs, and cooperative climate action"
+description: "A comprehensive course on Article 6 of the Paris Agreement -- the international framework for carbon trading, covering the bilateral ITMO mechanism (6.2), the UN-supervised carbon market (6.4), non-market cooperation (6.8), corresponding adjustments, NDC accounting, and the Glasgow Rulebook."
+icon: "🌐"
+color: blue
+status: published
+category: markets
+estimatedHours: 1
+modules:
+  - id: 0
+    title: "Foundations of Article 6"
+    subtitle: "Why Article 6 exists and what it tries to solve"
+    icon: "📜"
+    color: blue
+    lessons:
+      - id: "0.1"
+        title: "The Paris Agreement and Carbon Markets"
+        duration: "35 min"
+        vmRef: "Paris Agreement, Article 6; UNFCCC Background Documentation"
+      - id: "0.2"
+        title: "The Three Tracks: 6.2, 6.4, and 6.8"
+        duration: "30 min"
+        vmRef: "Paris Agreement Article 6.2, 6.4, 6.8; CATF Overview 2024"
+      - id: "0.3"
+        title: "Nationally Determined Contributions and NDC Accounting"
+        duration: "35 min"
+        vmRef: "Paris Agreement Article 4; Article 6.2 Reference Manual"
+
+  - id: 1
+    title: "Article 6.2 -- Bilateral Cooperation"
+    subtitle: "ITMOs, corresponding adjustments, and bilateral deals"
+    icon: "🤝"
+    color: teal
+    lessons:
+      - id: "1.1"
+        title: "Internationally Transferred Mitigation Outcomes (ITMOs)"
+        duration: "40 min"
+        vmRef: "Paris Agreement Article 6.2; Article 6.2 Reference Manual; Glasgow Decision 2/CMA.3"
+      - id: "1.2"
+        title: "Corresponding Adjustments and Double-Counting Prevention"
+        duration: "45 min"
+        vmRef: "Article 6.2 Reference Manual; Decision 2/CMA.3 Annex"
+      - id: "1.3"
+        title: "The Glasgow Rulebook for Article 6.2"
+        duration: "40 min"
+        vmRef: "Decision 2/CMA.3 (Glasgow); Decision 6/CMA.4 (Sharm el-Sheikh)"
+
+  - id: 2
+    title: "Article 6.4 -- The UN Carbon Market"
+    subtitle: "The Paris Agreement Crediting Mechanism and A6.4ERs"
+    icon: "🏛️"
+    color: indigo
+    lessons:
+      - id: "2.1"
+        title: "The Article 6.4 Mechanism -- Structure and Governance"
+        duration: "40 min"
+        vmRef: "Paris Agreement Article 6.4; Decision 3/CMA.3; Supervisory Body documentation"
+      - id: "2.2"
+        title: "A6.4ERs -- Credit Types, Methodologies, and Standards"
+        duration: "45 min"
+        vmRef: "Decision 3/CMA.3; Article 6.4 Supervisory Body Standards 2024; COP29 outcomes"
+      - id: "2.3"
+        title: "Share of Proceeds, OMGE, and the Adaptation Fund"
+        duration: "35 min"
+        vmRef: "Paris Agreement Article 6.4(6); Decision 3/CMA.3"
+
+  - id: 3
+    title: "Article 6.8 and Non-Market Approaches"
+    subtitle: "Cooperation without credit transfers"
+    icon: "🌿"
+    color: green
+    lessons:
+      - id: "3.1"
+        title: "Article 6.8 -- Non-Market Cooperation Framework"
+        duration: "30 min"
+        vmRef: "Paris Agreement Article 6.8; Decision 4/CMA.3"
+
+  - id: 4
+    title: "Market Integrity and Practical Application"
+    subtitle: "Quality standards, COP29 outcomes, and using Article 6 credits"
+    icon: "✅"
+    color: emerald
+    lessons:
+      - id: "4.1"
+        title: "Environmental Integrity and Credit Quality"
+        duration: "40 min"
+        vmRef: "Article 6.2 Reference Manual; Article 6.4 Supervisory Body Standards"
+      - id: "4.2"
+        title: "COP29 Outcomes and the Road Ahead"
+        duration: "35 min"
+        vmRef: "COP29 Decisions (Baku, November 2024); CATF and Carbon Market Watch analysis"
+      - id: "4.3"
+        title: "Article 6 vs Voluntary Carbon Markets"
+        duration: "35 min"
+        vmRef: "CATF Overview; FSR EUI Analysis; CEEZER Insights 2024"

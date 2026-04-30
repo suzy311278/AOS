@@ -1,0 +1,44 @@
+- question: "What is the 'follow the risk' principle in PCAF Part C (Insurance-Associated Emissions)?"
+  options:
+    - "Insurers must fund climate risk management research for each insured company"
+    - "The insurer's attribution of emissions is linked to the proportion of an insured's risk it accepts, represented by the premium-to-revenue or premium-to-TCO ratio"
+    - "Insurers follow their reinsurers' emissions accounting approach"
+    - "Physical climate risks are tracked through the insurer's loss reserves"
+  answer: 1
+  explanation: "PCAF Part C introduces the 'follow the risk' principle as Insurance-Associated Emissions' equivalent of Part A's 'follow the money.' The insurer's premium represents the price of accepting a share of the insured's risk. The ratio of that premium to the insured's total risk exposure (revenue for commercial lines or TCO for personal motor) determines the insurer's proportional attribution of the insured's emissions."
+
+- question: "For commercial lines of insurance, which attribution factor formula does PCAF use under Part C?"
+  options:
+    - "Gross written premium / EVIC of the insured company"
+    - "Gross written premium / Annual revenue of the insured company"
+    - "Gross written premium / Total insured value (sum insured)"
+    - "Gross written premium / Total assets of the insured company"
+  answer: 1
+  explanation: "For commercial lines, PCAF uses gross written premium divided by the insured company's annual revenue as the attribution factor. Revenue represents the economic scale of the company's operations that the insurer is (partially) underwriting. This ratio produces the insurer's proportional share of the insured company's GHG emissions. The gross written premium is used before any reinsurance cessions."
+
+- question: "An insurer collects a $3 million gross written premium from a chemical manufacturer with $600 million in annual revenue. The manufacturer's annual Scope 1 and 2 emissions are 900,000 tCO2e. What are the insurance-associated emissions?"
+  options:
+    - "4,500 tCO2e"
+    - "5,000 tCO2e"
+    - "45,000 tCO2e"
+    - "9,000 tCO2e"
+  answer: 0
+  explanation: "Attribution factor = $3M / $600M = 0.5%. Insurance-associated emissions = 0.5% × 900,000 = 4,500 tCO2e. The calculation follows the same structure as other PCAF asset classes: (share of the entity's financing/risk) × (entity's annual emissions). For commercial lines, the 'share of financing/risk' is represented by the premium-to-revenue ratio."
+
+- question: "For personal motor insurance, the PCAF TCO study found a global weighted average premium-to-TCO ratio of 6.99%. What does this ratio represent?"
+  options:
+    - "6.99% of vehicle owners file insurance claims each year"
+    - "Insurance premiums represent approximately 6.99% of the total lifetime cost of owning and operating a vehicle"
+    - "6.99% of motor vehicle emissions are attributable to the insurance industry"
+    - "An insurer must hold 6.99% of vehicle value as a capital buffer"
+  answer: 1
+  explanation: "The premium-to-TCO ratio (6.99% globally) means that the annual insurance premium for a typical personal vehicle represents about 7% of the total cost of ownership over the vehicle's lifetime — which includes the purchase price, fuel, maintenance, insurance, registration, and depreciation. This ratio becomes the attribution factor for personal motor insurance-associated emissions: the insurer is attributed 6.99% of the vehicle's annual operational emissions."
+
+- question: "How must insurance-associated emissions (IAE) be reported in relation to financed emissions?"
+  options:
+    - "IAE is added to financed emissions to calculate total Scope 3 Category 15 emissions"
+    - "IAE is reported as a separate supplementary accounting note within Scope 3 Category 15, independently from financed emissions and facilitated emissions"
+    - "IAE replaces financed emissions for insurance companies that do not have investment portfolios"
+    - "IAE is reported under Scope 1 as part of underwriting operational risk"
+  answer: 1
+  explanation: "Like facilitated emissions (Part B), insurance-associated emissions (Part C) are reported as a separate supplementary accounting note within Scope 3 Category 15. They must not be combined with financed emissions. A financial group with both an investment portfolio and an insurance book reports three separate figures: financed emissions, facilitated emissions (if applicable), and insurance-associated emissions. These are never netted, combined, or used to offset each other."

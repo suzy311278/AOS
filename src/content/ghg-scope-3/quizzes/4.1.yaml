@@ -1,0 +1,26 @@
+- question: "Category 13 (Downstream Leased Assets) applies to which role?"
+  options:
+    - "A company leasing assets from another party (lessee)"
+    - "A company leasing assets to another party (lessor)"
+    - "A company that both leases in and out simultaneously"
+    - "A company that owns all its assets outright"
+  answer: 1
+  explanation: "Category 13 covers the reporting company as the LESSOR — it owns assets and leases them out to others. The lessee's operations generate the Category 13 emissions for the lessor. Category 8 (Upstream Leased Assets) is the mirror image, where the company is the lessee."
+
+- question: "A real estate company owns a 5,000 m² warehouse it leases to a tenant. Average energy intensity = 150 kWh/m²/year. Grid emission factor = 0.25 tCO₂e/MWh. What are Category 13 emissions?"
+  options:
+    - "18.75 tCO₂e"
+    - "187.5 tCO₂e"
+    - "1,875 tCO₂e"
+    - "18,750 tCO₂e"
+  answer: 1
+  explanation: "5,000 m² × 150 kWh/m²/yr = 750,000 kWh = 750 MWh. Emissions = 750 × 0.25 = 187.5 tCO₂e."
+
+- question: "What is a 'green lease' and how does it help with Category 13 reporting?"
+  options:
+    - "A lease for green-certified buildings that automatically qualifies as zero-emission"
+    - "A contractual arrangement where tenants share energy consumption data with landlords and cooperate on efficiency improvements"
+    - "A government subsidy scheme for sustainable property development"
+    - "A lease priced according to the carbon intensity of the building"
+  answer: 1
+  explanation: "A green lease includes contractual obligations for tenants to share energy data with landlords and to cooperate on efficiency measures. This enables landlords to collect the actual energy consumption data needed for accurate Category 13 reporting, rather than relying on building average estimates."

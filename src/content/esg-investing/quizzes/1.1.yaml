@@ -1,0 +1,44 @@
+- question: "Which greenhouse gas has the highest global warming potential over a 100-year horizon, relative to CO₂?"
+  options:
+    - "Carbon dioxide (CO₂)"
+    - "Methane (CH₄)"
+    - "Sulphur hexafluoride (SF₆)"
+    - "Nitrous oxide (N₂O)"
+  answer: 2
+  explanation: "Sulphur hexafluoride has a global warming potential over 23,000 times that of CO₂ on a 100-year basis, making it the most potent GHG listed here, though it is emitted in much smaller quantities than CO₂ or methane."
+
+- question: "According to the IPCC, approximately how much global warming above pre-industrial levels had already occurred by 2018?"
+  options:
+    - "0.5°C"
+    - "1.0°C"
+    - "1.5°C"
+    - "2.0°C"
+  answer: 1
+  explanation: "The IPCC's 2018 Special Report found that human activities had caused approximately 1°C of warming above pre-industrial levels, with 1.5°C likely to be reached between 2030 and 2052 at the current rate of emissions."
+
+- question: "What is an emission trading system (ETS)?"
+  options:
+    - "A government tax levied directly on each tonne of CO₂ emitted"
+    - "A system where companies exchange carbon offsets from forestry projects"
+    - "A cap-and-trade mechanism where actors buy and sell permits to emit GHGs within a fixed overall limit"
+    - "A voluntary framework for companies to disclose their Scope 3 emissions"
+  answer: 2
+  explanation: "An ETS fixes the total quantity of emissions allowed across covered sectors and lets market participants trade emission permits. Those who can reduce emissions cheaply do so and sell surplus permits; those who cannot, buy them. This creates economic incentives for emissions reductions to occur where they are cheapest."
+
+- question: "Which of the following best describes a climate 'tipping point'?"
+  options:
+    - "The temperature threshold at which renewable energy becomes cheaper than fossil fuels"
+    - "A point at which a small change in warming triggers abrupt, potentially irreversible shifts in Earth systems"
+    - "The maximum carbon price at which an emission trading system becomes effective"
+    - "A country's threshold for updating its Nationally Determined Contributions"
+  answer: 1
+  explanation: "Tipping points are thresholds in Earth systems — such as permafrost thaw, Amazon dieback, or Arctic ice loss — beyond which relatively small additional warming can trigger self-reinforcing changes that may be irreversible. They represent a major source of tail risk for investors."
+
+- question: "Which of the following is an example of climate change adaptation rather than mitigation?"
+  options:
+    - "Installing solar panels on a factory roof to reduce electricity emissions"
+    - "Implementing a carbon tax to discourage fossil fuel use"
+    - "Designing coastal infrastructure to withstand higher sea levels"
+    - "Planting trees to absorb CO₂ from the atmosphere"
+  answer: 2
+  explanation: "Adaptation means adjusting to climate changes that are already occurring or expected. Designing coastal infrastructure for higher sea levels is adaptation. The other options — solar panels, carbon taxes, and tree planting — are all mitigation measures aimed at reducing or offsetting GHG emissions."

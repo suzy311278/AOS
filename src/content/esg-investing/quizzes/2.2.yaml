@@ -1,0 +1,44 @@
+- question: "Which of the following correctly distinguishes internal from external social factors?"
+  options:
+    - "Internal: product liability and consumer protection; External: health and safety"
+    - "Internal: health and safety and human capital development; External: stakeholder opposition and product liability"
+    - "Internal: animal welfare; External: labour rights and freedom of association"
+    - "Internal: social opportunities; External: living wage and forced labour"
+  answer: 1
+  explanation: "Internal social factors relate primarily to a company's own workforce (health and safety, human capital development, labour rights, forced labour, living wage). External factors concern the company's relationship with customers, communities, and broader society (product liability, stakeholder opposition, social opportunities, animal welfare)."
+
+- question: "The Rana Plaza disaster in 2013 is most directly illustrative of which social factor?"
+  options:
+    - "Digital disruption and data privacy"
+    - "Stakeholder opposition and controversial sourcing"
+    - "Working conditions, health, and safety failures in supply chains"
+    - "Antimicrobial resistance in the food sector"
+  answer: 2
+  explanation: "Rana Plaza involved the collapse of a garment factory building in Bangladesh, killing over 1,100 workers. It exposed systemic failures in building safety and supply chain labour standards at factories supplying major international clothing brands — a direct illustration of health and safety failures in supply chains."
+
+- question: "A company operating in the mining sector wants to develop a new site on land traditionally used by an indigenous community. Which mechanism should it employ before beginning operations?"
+  options:
+    - "A product liability assessment"
+    - "Free Prior Informed Consent (FPIC)"
+    - "A living wage audit"
+    - "Corporate Human Rights Benchmark registration"
+  answer: 1
+  explanation: "Free Prior Informed Consent (FPIC) is the standard process for obtaining legitimate consent from indigenous communities before any activities begin on their ancestral land. 'Free' means no coercion, 'Prior' means before activities start, and 'Informed' means the community receives full, comprehensible information about the project."
+
+- question: "The UN Guiding Principles on Business and Human Rights are built around three pillars. Which of the following correctly identifies all three?"
+  options:
+    - "Prevent, Mitigate, Remediate"
+    - "The state's duty to protect; the corporate responsibility to respect; access to remedy for victims"
+    - "Disclose, Engage, Report"
+    - "Identify, Assess, Monitor"
+  answer: 1
+  explanation: "The UNGPs implement the 'Protect, Respect and Remedy' framework: (1) states have a duty to protect human rights; (2) corporations have a responsibility to respect human rights; and (3) those harmed by business activities must have access to effective remedy."
+
+- question: "Why is a living wage considered distinct from a minimum wage in investment analysis?"
+  options:
+    - "A living wage is set by government and is therefore legally enforceable, while a minimum wage is voluntary"
+    - "A living wage reflects what workers need to cover basic necessities without excessive overtime, while a minimum wage is the legal floor which may fall well short of this"
+    - "A living wage applies only to permanent employees, while a minimum wage applies to contractors"
+    - "A living wage is relevant only in emerging markets where minimum wage legislation is absent"
+  answer: 1
+  explanation: "A minimum wage is the legally required floor — which in many sectors and geographies is insufficient for workers to meet basic living costs without extreme overtime. A living wage reflects the actual cost of meeting basic needs. Investors who focus only on minimum wage compliance may miss significant risks around worker welfare, productivity, and regulatory pressure to raise pay."

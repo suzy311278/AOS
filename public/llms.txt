@@ -1,0 +1,66 @@
+# Greentryst
+
+> Professional operating system for sustainability practitioners. Learning, AI-sourced answers, and tools covering GHG accounting, ESG frameworks, carbon markets, and 120+ regulations across 14+ geographies. Built by a team of consultants from top consulting firms with 10+ years of experience across Finance, Environmental Science, Energy Efficiency, and Renewable Energy.
+
+## Core
+
+- [Greentryst homepage](https://greentryst.com): Platform overview and entry points.
+- [About Greentryst](https://greentryst.com/about): Mission, values, and team context.
+- [Pricing](https://greentryst.com/pricing): Free, Individual, and Pro tiers.
+- [Sitemap](https://greentryst.com/sitemap.xml): Full indexable URL set.
+
+## Guides (definitive reference pages)
+
+- [CBAM 2026: The Definitive Regime Explained](https://greentryst.com/guides/cbam-2026-definitive-regime): EU Carbon Border Adjustment Mechanism definitive regime starting 2026, including certificate surrender, deadlines, pricing, and worked examples.
+- [How to Calculate Financed Emissions](https://greentryst.com/guides/how-to-calculate-financed-emissions): PCAF methodology walkthrough for Scope 3 Category 15 financed emissions.
+
+## Courses (23 courses, 552+ lessons)
+
+- [All courses](https://greentryst.com/courses): Catalogue of structured curricula across climate, carbon, ESG, and sustainable finance.
+- [Climate Science 101](https://greentryst.com/courses/climate-science-101): Foundational climate science grounded in IPCC AR6.
+- [GHG Scope 1 & 2](https://greentryst.com/courses/ghg-scope-1-2): Direct emissions and purchased energy, GHG Protocol Corporate Standard.
+- [GHG Scope 3](https://greentryst.com/courses/ghg-scope-3): Value-chain emissions across 15 categories.
+- [EU CBAM](https://greentryst.com/courses/eu-cbam): Carbon Border Adjustment Mechanism in full.
+- [EU SFDR](https://greentryst.com/courses/eu-sfdr): Sustainable Finance Disclosure Regulation and PAI indicators.
+- [EU Taxonomy](https://greentryst.com/courses/eu-taxonomy): Taxonomy-eligibility and -alignment assessment.
+- [EUDR](https://greentryst.com/courses/eudr): EU Deforestation Regulation compliance.
+- [IFRS S2](https://greentryst.com/courses/ifrs-s2): Climate-related disclosures under ISSB.
+- [SBTi](https://greentryst.com/courses/sbti): Science-based target setting and certification.
+- [TNFD Biodiversity](https://greentryst.com/courses/tnfd-biodiversity): Nature-related financial disclosures.
+- [VCM 101](https://greentryst.com/courses/vcm-101): Voluntary carbon market fundamentals.
+- [Article 6](https://greentryst.com/courses/article-6): Paris Agreement Article 6 carbon markets.
+- [Financed Emissions](https://greentryst.com/courses/financed-emissions): PCAF-aligned methodology.
+- [Double Materiality](https://greentryst.com/courses/double-materiality): Financial and impact materiality assessment.
+- [ESG Reporting](https://greentryst.com/courses/esg-reporting): GRI, SASB, CDP, integrated reporting.
+- [ESG Investing](https://greentryst.com/courses/esg-investing): Integration, screening, and impact approaches.
+- [ESG Benchmarking](https://greentryst.com/courses/esg-benchmarking): Rating agencies and scoring methodologies.
+- [Carbon Taxation and ETS](https://greentryst.com/courses/carbon-taxation-and-ets): ETS, carbon taxes, internal carbon pricing.
+- [Circular Economy](https://greentryst.com/courses/circular-economy): Design, materials, end-of-life strategy.
+- [Human Rights Due Diligence](https://greentryst.com/courses/human-rights-dd): OECD and UNGP frameworks.
+- [IFC Performance Standards](https://greentryst.com/courses/ifc-performance-standards): Eight standards for environmental and social risk.
+- [VM0042](https://greentryst.com/courses/vm0042): Verra agricultural land management methodology.
+- [VM0044](https://greentryst.com/courses/vm0044): Verra biochar methodology.
+
+## Tools
+
+- [Emission Factor Database](https://greentryst.com/emission-factors): Searchable library of GHG emission factors with full provenance, citations, and vintage tracking. Covers DEFRA, US EPA, India CEA, IPCC and more.
+- [Emission Factor search](https://greentryst.com/emission-factors/search): Query interface.
+- [Emission Factor sources](https://greentryst.com/emission-factors/sources): Primary source documents.
+- [Carbon Market Intelligence](https://greentryst.com/carbon/market): Voluntary carbon market price points and volumes across registries.
+- [Carbon Retirement Leaderboard](https://greentryst.com/carbon/retirements): Who retired the most credits across Verra, Gold Standard, ACR, CAR, and 11+ registries.
+- [Prompt Library](https://greentryst.com/prompt-library): Curated prompts for sustainability practitioner workflows.
+- [SustainIQ](https://greentryst.com/ask): AI Q&A with citations to primary regulatory sources.
+
+## Reference
+
+- [Glossary](https://greentryst.com/glossary): 196 definitions across carbon markets, GHG accounting, ESG, climate science, climate finance, EU Taxonomy, reporting standards, biodiversity, and social safeguards.
+- [Guides index](https://greentryst.com/guides): All guides.
+
+## Optional
+
+- [Services](https://greentryst.com/services): Advisory and custom work.
+- [Disclaimer](https://greentryst.com/disclaimer)
+- [Fair use](https://greentryst.com/fair-use)
+
+Contact: hello@greentryst.com, business@greentryst.com
+LinkedIn: https://www.linkedin.com/company/green-tryst/

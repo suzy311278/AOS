@@ -1,0 +1,44 @@
+- question: "What does ITMO stand for, and what does an ITMO represent?"
+  options:
+    - "International Treaty for Mitigation Obligations -- a binding emissions target for developing countries"
+    - "Internationally Transferred Mitigation Outcome -- a verified emission reduction or removal transferred between countries"
+    - "Integrated Trading and Monitoring Operation -- a UNFCCC registry tracking unit"
+    - "International Transition Market Offset -- a credit used only in the voluntary carbon market"
+  answer: 1
+  explanation: "ITMO stands for Internationally Transferred Mitigation Outcome. It is a unit representing a verified reduction in greenhouse gas emissions or an enhancement of removals that is transferred between two countries under Article 6.2 of the Paris Agreement. ITMOs are measured primarily in tCO2e and can be used for NDC achievement, CORSIA aviation offsetting, or the voluntary carbon market."
+
+- question: "Which of the following can an AUTHORISED ITMO be used for?"
+  options:
+    - "Only for voluntary cancellation by private companies -- authorised ITMOs cannot be used for government NDC accounting"
+    - "NDC achievement, CORSIA aviation offsetting, and compliance carbon markets"
+    - "Kyoto Protocol compliance under the Clean Development Mechanism"
+    - "Replacing a country's entire NDC commitment without any corresponding adjustment"
+  answer: 1
+  explanation: "Authorised ITMOs -- those for which the host country's Designated National Authority has issued a formal authorisation -- can be used for three purposes: (1) achieving the acquiring country's Nationally Determined Contribution, (2) meeting aviation offsetting obligations under the CORSIA scheme, and (3) use in compliance carbon markets. Non-authorised ITMOs, by contrast, cannot be used for NDC achievement and are limited to voluntary market transactions."
+
+- question: "What is the role of a Designated National Authority (DNA) in the Article 6.2 framework?"
+  options:
+    - "A DNA is the UNFCCC body that validates all Article 6.2 transactions at the international level"
+    - "A DNA is a private sector entity that certifies project-level emission reductions"
+    - "A DNA is the national government body with legal authority to authorise ITMO exports and maintain registry records"
+    - "A DNA is the acquiring country's ministry responsible for applying corresponding adjustments"
+  answer: 2
+  explanation: "A Designated National Authority is a government body established by the host country to act as the gatekeeper for Article 6.2 participation. It reviews proposed ITMO transactions, issues authorisation letters, ensures quality standards are met, maintains registry records, and reports transactions to the UNFCCC. Without a functioning DNA, a country cannot formally authorise ITMOs for export."
+
+- question: "In the Switzerland-Thailand bilateral ITMO deal, what type of project generated the underlying emission reductions?"
+  options:
+    - "Offshore wind turbines installed in the Gulf of Thailand"
+    - "Clean cooking projects in rural Thailand"
+    - "Solar panel installations on Swiss factories"
+    - "Afforestation projects in the Swiss Alps"
+  answer: 1
+  explanation: "The Switzerland-Thailand agreement, which became the first operational bilateral ITMO deal under the Glasgow Rulebook framework in 2024, was based on clean cooking projects in rural Thailand. These projects distribute efficient cookstoves that burn less wood and charcoal than traditional stoves, reducing CO2 and methane emissions. Switzerland purchased the resulting ITMOs to help meet its own NDC, which has ambitious targets but relatively high domestic abatement costs."
+
+- question: "What is 'vintage' in the context of ITMOs, and why does it matter?"
+  options:
+    - "Vintage refers to the quality certification standard applied to an ITMO, such as Verra or Gold Standard"
+    - "Vintage refers to the year or period in which the underlying emission reduction occurred, which determines which NDC cycle the ITMO can count toward"
+    - "Vintage is the age of the bilateral agreement between the host and acquiring countries"
+    - "Vintage refers to the financial instrument used to fund the underlying emission reduction project"
+  answer: 1
+  explanation: "Vintage refers to the year or time period in which the emission reduction actually occurred. It matters because NDC cycles cover defined time periods -- most countries' first NDC commitments run from roughly 2020 to 2030. An ITMO generated in 2025 can only be applied toward a target covering 2025. Using old-vintage credits to meet current targets (known as temporal mismatch) is recognised as a risk to environmental integrity, because it means emission reductions from the past are being presented as substitutes for action in the current period."

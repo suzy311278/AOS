@@ -1,0 +1,35 @@
+- question: "IFRS S2 Para 33 requires eight elements to be disclosed for each climate-related target. Which of the following is one of them?"
+  options:
+    - "Third-party validation by an approved certification body"
+    - "The base period against which progress is measured"
+    - "Quarterly progress updates to investors"
+    - "Assurance from an external auditor on target achievability"
+  answer: 1
+  explanation: "Para 33(e) requires disclosure of the base period for each target. This allows investors to calculate progress: how emissions (or other metrics) compare to the baseline value. The base period is essential context for understanding whether a stated percentage reduction is ambitious or modest."
+
+- question: "An entity sets a target to be 'net-zero by 2040' but plans to achieve this by purchasing carbon credits for 40% of its remaining 2040 emissions. What additional disclosure does IFRS S2 require?"
+  options:
+    - "The entity must also disclose a gross emissions reduction target that does not rely on offsets"
+    - "No additional disclosure is required if the carbon credits are from an approved scheme"
+    - "The entity must convert its net target to a Scope 3 intensity target"
+    - "Net-zero targets are not permitted under IFRS S2"
+  answer: 0
+  explanation: "Para 36(c) requires that if a net GHG target is disclosed, the associated gross target must also be disclosed. Para 36(e) further requires disclosure of the planned use of carbon credits including extent of reliance, scheme used, type of credit, and integrity factors. A net-zero commitment cannot obscure the gross emissions trajectory."
+
+- question: "Para 35 requires performance against each target to be disclosed annually. What type of information is required?"
+  options:
+    - "Only the current year's emissions — no trend analysis required"
+    - "Current performance, analysis of trends, and explanation of changes relative to prior periods"
+    - "Comparison with industry peers and best-in-class benchmarks"
+    - "Third-party verification of each year's progress"
+  answer: 1
+  explanation: "Para 35 requires: current performance against each target, analysis of trends (is the entity on track, ahead, or behind?), and explanation of changes relative to prior periods. This creates a performance accountability framework — investors can track year-on-year whether the entity is delivering on its commitments."
+
+- question: "Under Para 36(e), which of the following must be disclosed about planned carbon credit use?"
+  options:
+    - "The price paid for each carbon credit in the current period"
+    - "The extent of reliance, which scheme verifies the credits, type (nature-based vs technological; reduction vs removal), and credibility/integrity factors"
+    - "The total volume of carbon credits purchased to date"
+    - "The name of the carbon broker used for credit purchases"
+  answer: 1
+  explanation: "Para 36(e) requires: (i) extent to which the net target relies on carbon credits, (ii) which third-party scheme will verify the credits, (iii) type of credit (nature-based vs technological; reduction vs removal), and (iv) credibility and integrity factors including permanence assumptions. This detail allows investors to evaluate the quality and reliability of the offset strategy."

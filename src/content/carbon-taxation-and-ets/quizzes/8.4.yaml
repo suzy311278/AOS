@@ -1,0 +1,35 @@
+- question: "Why are agriculture and forestry sectors often sources of offset credits?"
+  options:
+    - "They are easy to regulate directly"
+    - "They offer large, cost-effective reduction opportunities but are often excluded from direct regulation due to measurement challenges"
+    - "They emit no greenhouse gases"
+    - "International law requires it"
+  answer: 1
+  explanation: "Agriculture and forestry have significant mitigation potential but are typically excluded from direct carbon pricing due to measurement difficulties and large numbers of small emitters. Offsets can tap this potential."
+
+- question: "What is a nature-based offset project?"
+  options:
+    - "Any environmental project"
+    - "Projects that sequester carbon or avoid emissions through ecosystem conservation or restoration"
+    - "Only wildlife protection"
+    - "Industrial projects"
+  answer: 1
+  explanation: "Nature-based offsets include reforestation, avoided deforestation, soil carbon sequestration, wetland restoration, and similar projects that use ecosystems for carbon benefits."
+
+- question: "What challenge is specific to forestry offset projects?"
+  options:
+    - "Trees produce oxygen"
+    - "Permanence risk from fires, disease, or logging reversing sequestration"
+    - "They are too expensive"
+    - "Measurement is perfect"
+  answer: 1
+  explanation: "Forestry projects face permanence risk: stored carbon can be released by natural disturbances (fire, disease) or human activities (logging). Buffer pools or insurance mechanisms address this risk."
+
+- question: "What is avoided deforestation in offset crediting?"
+  options:
+    - "Planting new forests"
+    - "Preventing forest loss that would otherwise occur, maintaining carbon storage"
+    - "Cutting down forests slowly"
+    - "Moving forests to new locations"
+  answer: 1
+  explanation: "Avoided deforestation (REDD+) credits reductions achieved by preventing forest loss that would have occurred under the baseline scenario, keeping carbon stored in standing forests."

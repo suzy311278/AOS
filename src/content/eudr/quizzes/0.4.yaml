@@ -1,0 +1,26 @@
+- question: "Under Article 3 of the EUDR, which combination of conditions must be satisfied before a relevant product can be placed on the EU market?"
+  options:
+    - "Deforestation-free and covered by a third-party certification scheme"
+    - "Legally produced and accompanied by a country-of-origin certificate"
+    - "Deforestation-free, legally produced, and covered by a due diligence statement"
+    - "Deforestation-free and submitted to a competent authority for pre-approval"
+  answer: 2
+  explanation: "Article 3 establishes three cumulative conditions: (i) the product must be deforestation-free, (ii) it must have been produced in accordance with the relevant legislation of the country of production, and (iii) it must be covered by a due diligence statement submitted through the EUDR Information System. All three must be satisfied simultaneously."
+
+- question: "Does the EUDR apply to products made from EU-grown commodities, such as timber harvested in German forests?"
+  options:
+    - "No, the EUDR only applies to imported products from outside the EU"
+    - "Yes, the EUDR applies to EU domestic production as well as imports and exports"
+    - "Only if the products are subsequently exported from the EU"
+    - "Only for wood products; agricultural commodities are exempt if produced in the EU"
+  answer: 1
+  explanation: "The EUDR applies to any relevant product placed on the EU market or exported from the EU, regardless of where it was produced. This includes EU domestic production. A German furniture manufacturer using German timber must comply just as a Brazilian timber exporter must, making the regulation non-discriminatory under WTO principles."
+
+- question: "Which of the following is explicitly excluded from the EUDR's scope?"
+  options:
+    - "Palm oil used in cosmetics manufactured in the EU"
+    - "Rubber tyres imported from Southeast Asia"
+    - "Commodities and products made from recycled materials at end of lifecycle"
+    - "Coffee beans from low-risk countries"
+  answer: 2
+  explanation: "Recycled materials are explicitly excluded from EUDR scope because the regulation aims to address production-phase deforestation. Products that have completed their lifecycle and would otherwise be disposed of as waste do not require due diligence, as requiring it would impose costs without environmental benefit. Coffee from low-risk countries still requires due diligence, though simplified procedures may apply."

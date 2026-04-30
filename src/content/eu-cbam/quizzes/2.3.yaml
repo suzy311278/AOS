@@ -1,0 +1,26 @@
+- question: "An EU importer buys ammonium nitrate (AN) fertiliser from an Egyptian producer. The Egyptian AN producer uses ammonia sourced from a Saudi plant. What data does the EU importer need to calculate actual embedded emissions for the AN?"
+  options:
+  - "Only the Egyptian AN plant's own direct and indirect emission data — precursor emissions from the Saudi ammonia are considered a separate import transaction and are not included"
+  - "The Egyptian AN plant's direct and indirect production emissions, plus the embedded emissions of the ammonia input (from the Saudi plant), and the embedded emissions of the nitric acid input — all verified by accredited verifiers"
+  - "Only the global industry default value for ammonium nitrate — actual data is not required for fertilisers because they are classified as simple goods"
+  - "The Egyptian AN plant's total energy consumption, multiplied by the global average emission factor for the fertiliser sector"
+  answer: 1
+  explanation: "Ammonium nitrate is a complex CBAM good produced using ammonia and nitric acid as precursors. The total embedded emissions must include: (1) the Egyptian AN plant's own direct emissions (e.g., N₂O from synthesis) and indirect emissions (electricity); (2) the embedded emissions of the ammonia input, calculated at the Saudi plant level; and (3) the embedded emissions of the nitric acid input. If the Saudi ammonia plant cannot provide verified data, the applicable default for ammonia must be used for that precursor component."
+
+- question: "What is the 'sub-installation' concept in CBAM embedded emissions methodology?"
+  options:
+  - "A smaller auxiliary facility operated by the same company as the main production site but at a different location"
+  - "A defined part of a single production installation that produces a distinct good or group of goods, used to allocate total installation emissions appropriately between different outputs"
+  - "A conceptual unit representing the minimum scale at which CBAM monitoring obligations apply"
+  - "A pilot installation operating under an EU-approved experimental carbon capture and storage programme"
+  answer: 1
+  explanation: "The sub-installation concept is used where a single facility produces multiple CBAM goods or both CBAM goods and precursors. It represents a defined portion of the production process with homogeneous emission characteristics, used to allocate the installation's total emissions appropriately between its different products. This follows the same logic as the EU ETS benchmark product methodology, ensuring consistent allocation of emissions across complex multi-product facilities."
+
+- question: "Why does the CBAM precursor methodology NOT result in double-counting, even though the same emissions may appear to be counted both in a precursor import declaration and in a complex good import declaration?"
+  options:
+  - "Because the CBAM registry automatically detects and cancels duplicate emission entries across different import declarations"
+  - "Because each customs transaction is treated independently — the importer of the precursor declares only that precursor's emissions, while the importer of the complex good made from that precursor declares the complex good's total embedded emissions (which includes precursor emissions), but these are separate declarations by separate declarants"
+  - "Because CBAM applies a 50% discount factor to precursor embedded emissions to avoid double-counting in supply chains"
+  - "Because precursor emissions are fully excluded from complex good calculations and counted only in the precursor's own import declaration"
+  answer: 1
+  explanation: "Each CBAM import transaction is a separate declaration by a separate authorised declarant. The declarant importing ammonia declares the ammonia's embedded emissions; the declarant importing ammonium nitrate made from that ammonia declares the ammonium nitrate's total embedded emissions (which includes the ammonia's contribution). These are different trade flows, different goods, and different declarations. No individual good's emissions are counted twice in the aggregate system — each good is declared once, at the point of its own importation."

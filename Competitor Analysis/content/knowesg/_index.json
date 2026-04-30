@@ -1,0 +1,414 @@
+{
+  "start_url": "https://knowesg.com/courses",
+  "pages_crawled": 68,
+  "pages": [
+    {
+      "url": "https://knowesg.com/courses",
+      "title": "Best ESG Courses 2025 | Compare 146+ Programs | KnowESG | KnowESG",
+      "word_count": 3074,
+      "file": "000_knowesg.com_courses.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/business-sustainability-in-the-circular-economy",
+      "title": "Business Sustainability in the Circular Economy | KnowESG",
+      "word_count": 635,
+      "file": "012_knowesg.com_courses_business-sustainability-in-the-circular-economy.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/Climate-Change-and-Sustainable-Investing-Course",
+      "title": "Climate Change and Sustainable Investing Course | KnowESG",
+      "word_count": 879,
+      "file": "013_knowesg.com_courses_Climate-Change-and-Sustainable-Investing-Course.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/certification-of-professional-achievement-in-sustainable-finance",
+      "title": "The Certification of Professional Achievement (CPA) Course | KnowESG",
+      "word_count": 691,
+      "file": "014_knowesg.com_courses_certification-of-professional-achievement-in-sustainable-finance.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/21st-century-energy-transition-how-do-we-make-it-work",
+      "title": "Energy Transition Course | Coursera | KnowESG",
+      "word_count": 631,
+      "file": "015_knowesg.com_courses_21st-century-energy-transition-how-do-we-make-it-work.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/esg-data-and-accountability",
+      "title": "ESG Data and Accountability Course | Coursera | KnowESG",
+      "word_count": 583,
+      "file": "016_knowesg.com_courses_esg-data-and-accountability.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/energy-justice-fostering-more-equitable-energy-futures",
+      "title": "Energy Justice: Fostering More Equitable Energy Futures | KnowESG",
+      "word_count": 786,
+      "file": "017_knowesg.com_courses_energy-justice-fostering-more-equitable-energy-futures.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/esg-and-climate-change",
+      "title": "ESG and Climate Change Course | Coursera | KnowESG",
+      "word_count": 627,
+      "file": "018_knowesg.com_courses_esg-and-climate-change.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/climate-change-and-sustainable-investing-specialization",
+      "title": "Climate Change and Sustainable Investing Specialization | KnowESG",
+      "word_count": 679,
+      "file": "019_knowesg.com_courses_climate-change-and-sustainable-investing-specialization.md"
+    },
+    {
+      "url": "https://knowesg.com/courses",
+      "title": "Best ESG Courses 2025 | Compare 146+ Programs | KnowESG | KnowESG",
+      "word_count": 3074,
+      "file": "020_knowesg.com_courses.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/esg-investing-industry-impacts-and-transformations",
+      "title": "ESG Investing: Industry Impacts & Transformations | KnowESG",
+      "word_count": 621,
+      "file": "021_knowesg.com_courses_esg-investing-industry-impacts-and-transformations.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/esg-risks-and-opportunities",
+      "title": "ESG Risks and Opportunities Course | Coursera | KnowESG",
+      "word_count": 631,
+      "file": "022_knowesg.com_courses_esg-risks-and-opportunities.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/healthy-and-sustainable-foods",
+      "title": "Healthy Sustainable Foods Course | KnowESG",
+      "word_count": 620,
+      "file": "023_knowesg.com_courses_healthy-and-sustainable-foods.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/financing-and-investing-in-infrastructure",
+      "title": "Financing and Investing in Infrastructure | KnowESG",
+      "word_count": 591,
+      "file": "024_knowesg.com_courses_financing-and-investing-in-infrastructure.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/how-do-we-manage-climate-change",
+      "title": "Managing Climate Change | Coursera | KnowESG",
+      "word_count": 613,
+      "file": "025_knowesg.com_courses_how-do-we-manage-climate-change.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/esg-investing-setting-standards-and-conducting-analysis",
+      "title": "ESG Investing Standards & Analysis | KnowESG",
+      "word_count": 619,
+      "file": "026_knowesg.com_courses_esg-investing-setting-standards-and-conducting-analysis.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/management-of-international-development-towards-agenda-2030",
+      "title": "Towards Agenda 2030 | Coursera Course | KnowESG",
+      "word_count": 613,
+      "file": "027_knowesg.com_courses_management-of-international-development-towards-agenda-2030.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/global-warming-i-the-science-and-modeling-of-climate-change",
+      "title": "Global Warming Course | KnowESG",
+      "word_count": 534,
+      "file": "028_knowesg.com_courses_global-warming-i-the-science-and-modeling-of-climate-change.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/global-energy-and-climate-policy",
+      "title": "Energy & Climate Policy | Coursera | KnowESG",
+      "word_count": 647,
+      "file": "029_knowesg.com_courses_global-energy-and-climate-policy.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/global-health-security-solidarity-and-sustainability-through-the",
+      "title": "Global Health Security, Solidarity and Sustainability through the International Health Regulations | KnowESG",
+      "word_count": 782,
+      "file": "030_knowesg.com_courses_global-health-security-solidarity-and-sustainability-through-the.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/global-environmental-management",
+      "title": "Global Environmental Management | Coursera | KnowESG",
+      "word_count": 508,
+      "file": "031_knowesg.com_courses_global-environmental-management.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/science-and-engineering-of-climate-change",
+      "title": "Science and Engineering of Climate Change | KnowESG",
+      "word_count": 772,
+      "file": "032_knowesg.com_courses_science-and-engineering-of-climate-change.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/impact-measurement-and-management-for-the-sdgs",
+      "title": "Impact for SDGs Course | Coursera | KnowESG",
+      "word_count": 875,
+      "file": "033_knowesg.com_courses_impact-measurement-and-management-for-the-sdgs.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/foundations-of-diversity-and-inclusion-at-work-teachout",
+      "title": "Diversity & Inclusion at Work | Coursera | KnowESG",
+      "word_count": 569,
+      "file": "034_knowesg.com_courses_foundations-of-diversity-and-inclusion-at-work-teachout.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/leading-sustainable-community-transformation-specialization",
+      "title": "Sustainable Transformation Specialization | KnowESG",
+      "word_count": 595,
+      "file": "035_knowesg.com_courses_leading-sustainable-community-transformation-specialization.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/more-on-change-and-sustainability",
+      "title": "Business Case for Sustainability | KnowESG",
+      "word_count": 545,
+      "file": "036_knowesg.com_courses_more-on-change-and-sustainability.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/renewable-energy-futures",
+      "title": "Renewable Energy Futures | KnowESG",
+      "word_count": 649,
+      "file": "037_knowesg.com_courses_renewable-energy-futures.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/public-health-perspectives-on-sustainable-diets",
+      "title": "Sustainable Diets Course | Coursera | KnowESG",
+      "word_count": 562,
+      "file": "038_knowesg.com_courses_public-health-perspectives-on-sustainable-diets.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/strategy-and-sustainability",
+      "title": "Sustainability Strategy Course | KnowESG",
+      "word_count": 651,
+      "file": "039_knowesg.com_courses_strategy-and-sustainability.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/renewable-power-and-electricity-systems",
+      "title": "Renewable Power Systems | Coursera | KnowESG",
+      "word_count": 630,
+      "file": "040_knowesg.com_courses_renewable-power-and-electricity-systems.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/sustainability-challenges-for-the-planet-and-employers",
+      "title": "Sustainability Challenges for Planet & Employers | KnowESG",
+      "word_count": 648,
+      "file": "041_knowesg.com_courses_sustainability-challenges-for-the-planet-and-employers.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/the-finance-of-climate-change",
+      "title": "The Finance of Climate Change | KnowESG",
+      "word_count": 772,
+      "file": "042_knowesg.com_courses_the-finance-of-climate-change.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/sustainability-of-social-ecological-systems-the-nexus-between-water-energy",
+      "title": "Sustainability of Social-Ecological Systems: the Nexus between Water, Energy and Food | KnowESG",
+      "word_count": 731,
+      "file": "043_knowesg.com_courses_sustainability-of-social-ecological-systems-the-nexus-between-water-energy.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/sustainable-urban-regeneration",
+      "title": "Sustainable Urban Regeneration | KnowESG",
+      "word_count": 558,
+      "file": "044_knowesg.com_courses_sustainable-urban-regeneration.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/sustainable-urban-water-systems",
+      "title": "Sustainable Urban Water Systems | KnowESG",
+      "word_count": 514,
+      "file": "045_knowesg.com_courses_sustainable-urban-water-systems.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/the-great-sustainability-transition-global-challenges-local-actions",
+      "title": "The Great Sustainability Transition: Global challenges, Local actions | KnowESG",
+      "word_count": 817,
+      "file": "046_knowesg.com_courses_the-great-sustainability-transition-global-challenges-local-actions.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/the-age-of-sustainable-development",
+      "title": "Sustainable Development Course | Coursera | KnowESG",
+      "word_count": 485,
+      "file": "047_knowesg.com_courses_the-age-of-sustainable-development.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/sustainable-fashion",
+      "title": "Sustainable Fashion Course | Coursera | KnowESG",
+      "word_count": 727,
+      "file": "048_knowesg.com_courses_sustainable-fashion.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/sustainable-digital-innovation",
+      "title": "Sustainable Digital Innovation | KnowESG",
+      "word_count": 1175,
+      "file": "049_knowesg.com_courses_sustainable-digital-innovation.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/sustainable-business-big-issues-big-changes",
+      "title": "Sustainable Business Changes | Coursera | KnowESG",
+      "word_count": 606,
+      "file": "050_knowesg.com_courses_sustainable-business-big-issues-big-changes.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/sustainable-transportation-networks-and-streetscapes",
+      "title": "Sustainable Transportation Networks | Coursera | KnowESG",
+      "word_count": 589,
+      "file": "051_knowesg.com_courses_sustainable-transportation-networks-and-streetscapes.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/the-materiality-of-esg-factors-specialization",
+      "title": "Materiality and ESG Factors | Coursera Specialization | KnowESG",
+      "word_count": 618,
+      "file": "052_knowesg.com_courses_the-materiality-of-esg-factors-specialization.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/the-sustainable-development-goals-a-global-transdisciplinary-vision-for-the",
+      "title": "The Sustainable Development Goals \u2013 A global, transdisciplinary vision for the future | KnowESG",
+      "word_count": 633,
+      "file": "053_knowesg.com_courses_the-sustainable-development-goals-a-global-transdisciplinary-vision-for-the.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/urban-climate-governance-towards-1-5-celsius-alignment",
+      "title": "Urban Climate Governance: Towards 1.5\u00b0 Celsius Alignment | KnowESG",
+      "word_count": 680,
+      "file": "054_knowesg.com_courses_urban-climate-governance-towards-1-5-celsius-alignment.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/women-in-environmental-biology",
+      "title": "Women in Environmental Biology Course | KnowESG",
+      "word_count": 826,
+      "file": "055_knowesg.com_courses_women-in-environmental-biology.md"
+    },
+    {
+      "url": "https://knowesg.com/esg-ratings",
+      "title": "Search 1,000+ Company ESG Ratings | Free Database | KnowESG | KnowESG",
+      "word_count": 974,
+      "file": "056_knowesg.com_esg-ratings.md"
+    },
+    {
+      "url": "https://knowesg.com/courses/working-for-a-sustainable-future-concepts-and-approaches",
+      "title": "Sustainable Future Course | Coursera | KnowESG",
+      "word_count": 707,
+      "file": "057_knowesg.com_courses_working-for-a-sustainable-future-concepts-and-approaches.md"
+    },
+    {
+      "url": "https://knowesg.com/events",
+      "title": "ESG Events Calendar 2025: Conferences & Webinars | KnowESG | KnowESG",
+      "word_count": 1746,
+      "file": "058_knowesg.com_events.md"
+    },
+    {
+      "url": "https://knowesg.com/solutions",
+      "title": "ESG & Sustainability Solutions Directory 2026 | 850+ Providers | KnowESG",
+      "word_count": 1344,
+      "file": "059_knowesg.com_solutions.md"
+    },
+    {
+      "url": "https://knowesg.com/events/ev-charging-summit-and-expo-2025",
+      "title": "EV Charging Summit & Expo 2026 - United States | KnowESG",
+      "word_count": 513,
+      "file": "078_knowesg.com_events_ev-charging-summit-and-expo-2025.md"
+    },
+    {
+      "url": "https://knowesg.com/esg-ratings/abb-ltd",
+      "title": "ABB Ltd ESG Ratings: MSCI AA, Refinitiv 95/100 | KnowESG",
+      "word_count": 1526,
+      "file": "079_knowesg.com_esg-ratings_abb-ltd.md"
+    },
+    {
+      "url": "https://knowesg.com/events/green-transformation-week-2025",
+      "title": "Green Transformation Week 2026 - Japan | KnowESG",
+      "word_count": 513,
+      "file": "080_knowesg.com_events_green-transformation-week-2025.md"
+    },
+    {
+      "url": "https://knowesg.com/solutions/esg-data-analytics",
+      "title": "Search ESG & Sustainability Providers | KnowESG",
+      "word_count": 1803,
+      "file": "081_knowesg.com_solutions_esg-data-analytics.md"
+    },
+    {
+      "url": "https://knowesg.com/solutions/carbon-climate-solutions",
+      "title": "Search ESG & Sustainability Providers | KnowESG",
+      "word_count": 2750,
+      "file": "082_knowesg.com_solutions_carbon-climate-solutions.md"
+    },
+    {
+      "url": "https://knowesg.com/events/international-battery-seminar-and-exhibit-2025",
+      "title": "International Battery Seminar & Exhibit 2026 - United States | KnowESG",
+      "word_count": 530,
+      "file": "083_knowesg.com_events_international-battery-seminar-and-exhibit-2025.md"
+    },
+    {
+      "url": "https://knowesg.com/solutions/consumer-sustainability-apps",
+      "title": "Search ESG & Sustainability Providers | KnowESG",
+      "word_count": 1360,
+      "file": "084_knowesg.com_solutions_consumer-sustainability-apps.md"
+    },
+    {
+      "url": "https://knowesg.com/solutions/energy-efficiency-renewables",
+      "title": "Search ESG & Sustainability Providers | KnowESG",
+      "word_count": 2140,
+      "file": "085_knowesg.com_solutions_energy-efficiency-renewables.md"
+    },
+    {
+      "url": "https://knowesg.com/events/impact-investment-summit-asia-pacific-2025",
+      "title": "Impact Investment Summit Asia Pacific 2026 | KnowESG",
+      "word_count": 540,
+      "file": "086_knowesg.com_events_impact-investment-summit-asia-pacific-2025.md"
+    },
+    {
+      "url": "https://knowesg.com/solutions/green-it-technology",
+      "title": "Search ESG & Sustainability Providers | KnowESG",
+      "word_count": 1347,
+      "file": "087_knowesg.com_solutions_green-it-technology.md"
+    },
+    {
+      "url": "https://knowesg.com/events/international-conference-on-future-environment-and-energy-2026",
+      "title": "International Conference on Future Environment and Ener... | KnowESG",
+      "word_count": 519,
+      "file": "088_knowesg.com_events_international-conference-on-future-environment-and-energy-2026.md"
+    },
+    {
+      "url": "https://knowesg.com/solutions/sustainable-finance-investment",
+      "title": "Search ESG & Sustainability Providers | KnowESG",
+      "word_count": 1852,
+      "file": "089_knowesg.com_solutions_sustainable-finance-investment.md"
+    },
+    {
+      "url": "https://knowesg.com/solutions/nature-biodiversity",
+      "title": "Search ESG & Sustainability Providers | KnowESG",
+      "word_count": 1662,
+      "file": "090_knowesg.com_solutions_nature-biodiversity.md"
+    },
+    {
+      "url": "https://knowesg.com/solutions/circular-economy-waste",
+      "title": "Search ESG & Sustainability Providers | KnowESG",
+      "word_count": 2028,
+      "file": "091_knowesg.com_solutions_circular-economy-waste.md"
+    },
+    {
+      "url": "https://knowesg.com/solutions/supply-chain-management",
+      "title": "Search ESG & Sustainability Providers | KnowESG",
+      "word_count": 1767,
+      "file": "092_knowesg.com_solutions_supply-chain-management.md"
+    },
+    {
+      "url": "https://knowesg.com/events/international-lng-congress-2025",
+      "title": "International LNG Congress 2026 - Spain | KnowESG",
+      "word_count": 482,
+      "file": "093_knowesg.com_events_international-lng-congress-2025.md"
+    },
+    {
+      "url": "https://knowesg.com/events/lisbon-energy-summit-and-exhibition-2025",
+      "title": "Lisbon Energy Summit & Exhibition 2026 - Other | KnowESG",
+      "word_count": 513,
+      "file": "094_knowesg.com_events_lisbon-energy-summit-and-exhibition-2025.md"
+    },
+    {
+      "url": "https://knowesg.com/solutions/esg-reporting-compliance",
+      "title": "Search ESG & Sustainability Providers | KnowESG",
+      "word_count": 2642,
+      "file": "095_knowesg.com_solutions_esg-reporting-compliance.md"
+    },
+    {
+      "url": "https://knowesg.com/solutions/social-impact-governance",
+      "title": "Search ESG & Sustainability Providers | KnowESG",
+      "word_count": 1679,
+      "file": "096_knowesg.com_solutions_social-impact-governance.md"
+    }
+  ]
+}

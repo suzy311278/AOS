@@ -1,0 +1,44 @@
+- question: "On which date did the Level 1 provisions of SFDR become applicable (requiring website and pre-contractual disclosures)?"
+  options:
+    - "29 December 2019"
+    - "10 March 2021"
+    - "1 January 2023"
+    - "30 June 2023"
+  answer: 1
+  explanation: "SFDR Level 1 provisions (Articles 3–7 and 10–12) became applicable on 10 March 2021. SFDR itself entered into force on 29 December 2019, but this was the entry-into-force date, not the application date. The RTS (Level 2) applied from 1 January 2023."
+
+- question: "By what date must financial market participants publish their annual PAI statement?"
+  options:
+    - "31 March of the following year"
+    - "30 June of the following year"
+    - "31 December of the reference year"
+    - "30 September of the following year"
+  answer: 1
+  explanation: "The PAI statement covering the reference period (1 January to 31 December of the preceding year) must be published by 30 June of the following year. The first mandatory PAI statement (covering 2022) was due by 30 June 2023."
+
+- question: "Which document formally adopted the SFDR Regulatory Technical Standards (RTS) specifying disclosure templates and PAI indicator methodologies?"
+  options:
+    - "Regulation (EU) 2019/2088 (SFDR itself)"
+    - "Commission Delegated Regulation (EU) 2022/1288 of 6 April 2022"
+    - "ESMA Consolidated Q&As JC 2023 18"
+    - "Commission Delegated Regulation (EU) 2020/852 (Taxonomy Regulation)"
+  answer: 1
+  explanation: "The SFDR RTS was adopted as Commission Delegated Regulation (EU) 2022/1288 of 6 April 2022. It was published in the Official Journal on 25 July 2022 and a corrigendum was published on 27 December 2022. It applies from 1 January 2023."
+
+- question: "What is the primary purpose of Delegated Regulation (EU) 2023/363?"
+  options:
+    - "It introduced SFDR for the first time as a replacement for voluntary ESG reporting"
+    - "It amended the original RTS (2022/1288), making technical corrections and clarifying rules for multi-option products"
+    - "It established the 500-employee threshold for mandatory PAI consideration"
+    - "It defined the EU Taxonomy technical screening criteria for climate change mitigation"
+  answer: 1
+  explanation: "Delegated Regulation (EU) 2023/363, which entered into force on 20 March 2023, amended the original RTS (2022/1288). It made technical corrections, clarified the treatment of multi-option products (MOPs), and adjusted certain template requirements."
+
+- question: "What significant market event occurred in late 2022 and early 2023 related to SFDR product classification?"
+  options:
+    - "A wave of products being upgraded from Article 6 to Article 8"
+    - "A large number of products being downgraded from Article 9 to Article 8 as managers reassessed compliance with the emerging 100% sustainable investment expectation"
+    - "The introduction of mandatory Article 10 product categories"
+    - "All SFDR disclosures were suspended pending the SFDR review"
+  answer: 1
+  explanation: "As the RTS came into force in January 2023 and supervisory expectations around Article 9 (near-100% sustainable investments, rigorous DNSH) crystallised, many asset managers downgraded their funds from Article 9 to Article 8. This highlighted that many Article 9 classifications had been made without adequate methodology to support the highest sustainability ambition level."

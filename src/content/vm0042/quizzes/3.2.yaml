@@ -1,0 +1,26 @@
+- question: "A soil has 2.5% OC concentration, bulk density of 1.2 g/cm³, sampled to 30 cm depth. What is the SOC stock in tC/ha?"
+  options:
+  - "25 tC/ha"
+  - "72 tC/ha"
+  - "90 tC/ha"
+  - "120 tC/ha"
+  answer: 2
+  explanation: "SOC stock = (2.5/100) × 1.2 × 30 × 10,000 = ... or simplified: 25 g/kg × 1.2 g/cm³ × 30 cm × 0.1 = 90 tC/ha. (Note: 2.5% = 25 g/kg. Formula: OC(g/kg) × BD(g/cm³) × depth(cm) × 0.1 = tC/ha)."
+
+- question: "Why is the Equivalent Soil Mass (ESM) method required for comparing SOC stocks over time?"
+  options:
+  - "To correct for differences in soil moisture between sampling events"
+  - "To account for bulk density changes over time — ensuring you compare the same soil mass, not just the same depth"
+  - "To standardise results across different laboratories"
+  - "To eliminate the need for bulk density measurements"
+  answer: 1
+  explanation: "Improved management (e.g., no-till) often changes bulk density. If you compare SOC at the same depth before and after, you're comparing different soil masses. ESM ensures the comparison is fair by referencing a fixed soil mass rather than a fixed depth."
+
+- question: "What is the minimum recommended depth for SOC sampling to report stock changes under VM0042?"
+  options:
+  - "10 cm"
+  - "15 cm"
+  - "30 cm"
+  - "60 cm"
+  answer: 2
+  explanation: "VM0042 requires SOC stocks and stock changes to be reported to a minimum depth of 30 cm (or to bedrock/hardpan if shallower). Sampling deeper (e.g., 50 cm) is recommended to capture subsoil changes and support ESM calculations."

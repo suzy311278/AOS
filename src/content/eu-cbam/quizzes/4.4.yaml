@@ -1,0 +1,26 @@
+- question: "What does Article 30 of the CBAM Regulation mandate the European Commission to do?"
+  options:
+    - "Publish weekly CBAM certificate prices based on EU ETS auction results"
+    - "Conduct a comprehensive review of CBAM's functioning and scope, including potential expansion to additional sectors and the treatment of exports"
+    - "Establish bilateral carbon price recognition agreements with all G20 countries by 2027"
+    - "Reduce the CBAM certificate surrender rate by 5% each year between 2026 and 2034"
+  answer: 1
+  explanation: "Article 30 of Regulation (EU) 2023/956 mandates a Commission review of CBAM by 31 December 2025 and periodically thereafter. The review must assess potential scope expansion to additional EU ETS sectors, whether CBAM should extend to EU exports, refinements to the third-country carbon price deduction mechanism, indirect emissions coverage, and impacts on developing countries. This review is the primary mechanism by which CBAM's scope and design can evolve."
+
+- question: "What is the 'export problem' in the context of CBAM, and why did the Commission announce plans to address it in July 2025?"
+  options:
+    - "CBAM applies to goods leaving the EU as well as entering it, creating a double compliance burden for EU exporters"
+    - "EU producers in CBAM sectors pay full EU ETS costs but face no equivalent carbon cost when competing with lower-cost producers in non-EU export markets, disadvantaging them internationally"
+    - "EU exporters of CBAM goods must obtain a separate export certificate from the national competent authority"
+    - "The export problem refers to difficulties EU businesses face in claiming VAT refunds on CBAM certificate purchases"
+  answer: 1
+  explanation: "The export problem is the structural asymmetry in CBAM's design: it ensures that goods entering the EU face an equivalent carbon cost to domestic production, but it does nothing for EU producers competing in export markets where no carbon price applies. A German steelmaker paying full EU ETS costs competes against a Turkish steelmaker paying no carbon cost when both sell into the US market. In July 2025, the Commission announced plans to introduce a new measure to mitigate this carbon leakage risk for EU exporters in CBAM sectors."
+
+- question: "By what year is CBAM expected to reach full phase-in, meaning 100% of embedded emissions must be covered by certificates with zero EU ETS free allowances remaining in CBAM sectors?"
+  options:
+    - "2028"
+    - "2030"
+    - "2034"
+    - "2040"
+  answer: 2
+  explanation: "CBAM's certificate obligation ramps up in lockstep with the phase-out of EU ETS free allowances in CBAM sectors. Free allowances are progressively eliminated from 2026, with the adjustment factor published annually by the Commission. By 2034, free allowances in CBAM sectors reach zero, meaning declarants must surrender CBAM certificates covering 100% of embedded emissions with no offset from residual free allowances. What happens after 2034 is subject to future legislative review."

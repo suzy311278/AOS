@@ -1,0 +1,26 @@
+- question: "Which of the following engineered removal technologies stores carbon in the most permanent form?"
+  options:
+  - "Biochar applied to agricultural soils (mean residence time: hundreds to thousands of years)"
+  - "Direct Air Carbon Capture and Storage (DACCS) with geological injection (effectively permanent)"
+  - "Enhanced weathering (bicarbonate dissolved in ocean water)"
+  - "Afforestation with long-rotation species (storage for decades)"
+  answer: 1
+  explanation: "DACCS with geological injection stores CO2 in stable rock formations where it mineralises over decades into carbonate minerals, giving effectively permanent storage that IPCC literature rates at over 10,000 years of certainty in well-selected geological sites. Biochar is very stable but not geologically permanent. Enhanced weathering produces bicarbonate that is stable in ocean chemistry but theoretically reversible over very long timescales. Afforestation is vulnerable to reversal from fire, disease, or harvest."
+
+- question: "What is the primary MRV challenge specific to enhanced weathering that distinguishes it from biochar or DACCS?"
+  options:
+  - "Enhanced weathering produces too few credits to justify the monitoring costs"
+  - "The geochemical CO2 capture reaction occurs gradually in soils and water, making it technically difficult to quantify exactly how much CO2 has been captured"
+  - "Enhanced weathering requires exotic rock types that are rarely available near agricultural land"
+  - "Enhanced weathering produces toxic by-products that must be monitored under environmental regulations"
+  answer: 1
+  explanation: "Enhanced weathering's core MRV challenge is quantifying the actual CO2 capture. Unlike DACCS where the captured CO2 volume is measured directly before injection, or biochar where the carbon content is measured in the charcoal before application, enhanced weathering's CO2 capture occurs through a diffuse geochemical reaction in soils and waterways over years to decades. Measuring cation release rates, soil geochemistry, and watershed alkalinity provides indirect evidence, but significant uncertainty remains in translating these measurements into precise credit volumes."
+
+- question: "The Frontier coalition, which includes Stripe, Alphabet, Shopify, and others, committed $925 million in 2022 to purchase engineered carbon removal credits between 2022 and 2030. What is the primary rationale for paying premium prices for these credits today?"
+  options:
+  - "These are the only credits that qualify under ICVCM Core Carbon Principles"
+  - "Premium purchases signal demand, build the supplier base, and help drive cost reduction through learning curves"
+  - "The VCMI Claims Code requires Platinum-tier companies to purchase only engineered removal credits"
+  - "Engineered removal credits carry tax advantages unavailable to nature-based credit buyers"
+  answer: 1
+  explanation: "The Frontier coalition's advance market commitment is explicitly structured as market development finance, not primarily as least-cost offsetting. By committing to purchase at current high prices, these early buyers signal sustained demand to the supplier market, enabling project developers to invest in capacity expansion and technology improvement. This mirrors how early policy support for solar and wind enabled learning-curve cost reductions. The expectation is that today's premium purchases help drive engineered removal costs to levels where they can scale to gigatonne significance."

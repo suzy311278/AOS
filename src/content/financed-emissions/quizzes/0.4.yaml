@@ -1,0 +1,44 @@
+- question: "Which framework's Metrics and Targets pillar explicitly recommends that banks, asset managers, and insurers disclose weighted average carbon intensity (WACI) and total portfolio carbon emissions?"
+  options:
+    - "EU SFDR (Sustainable Finance Disclosure Regulation)"
+    - "Basel Pillar 3 ESG disclosures"
+    - "TCFD (Task Force on Climate-related Financial Disclosures)"
+    - "ISSB (International Sustainability Standards Board)"
+  answer: 2
+  explanation: "The TCFD recommendations, under the Metrics and Targets pillar, explicitly call on financial institutions to disclose WACI, total portfolio carbon emissions, and exposure to carbon-related assets. PCAF's financed emissions methodology directly produces these metrics. Note that the ISSB has now absorbed the TCFD framework, but the TCFD's Metrics pillar was the original source of these requirements."
+
+- question: "IFRS S2 (published June 2023) is significant for financial institutions primarily because it:"
+  options:
+    - "Bans financial institutions from investing in fossil fuel companies"
+    - "Establishes a global baseline standard requiring disclosure of Scope 3 Category 15 (investment) emissions when material"
+    - "Requires all financial institutions to adopt the SBTi temperature rating methodology"
+    - "Replaces PCAF as the primary standard for financed emissions measurement"
+  answer: 1
+  explanation: "IFRS S2 Climate-related Disclosures, published by the ISSB, establishes the global baseline for climate-related financial disclosures. For financial institutions, Scope 3 Category 15 is virtually always material, making financed emissions disclosure effectively mandatory in jurisdictions that adopt IFRS S2 (which include Canada, Australia, Singapore, Japan, the UK, and others)."
+
+- question: "Under EU SFDR, which Principal Adverse Impact (PAI) indicator most directly corresponds to PCAF's financed emissions measurement?"
+  options:
+    - "PAI 1: GHG emissions of investee companies"
+    - "PAI 10: Violations of UN Global Compact principles"
+    - "PAI 14: Involvement in the weapons sector"
+    - "PAI 4: Exposure to fossil fuel companies"
+  answer: 0
+  explanation: "PAI 1 (GHG emissions: Scope 1, 2, and 3 of investee companies) is the indicator most directly aligned with PCAF's financed emissions measurement. PAI 2 (carbon footprint) and PAI 3 (GHG intensity) are also closely related. PCAF's financed emissions dataset provides the data needed to calculate all three of these PAI indicators."
+
+- question: "What is the role of SBTi in relation to financed emissions?"
+  options:
+    - "SBTi provides the measurement methodology that replaces PCAF for banks"
+    - "SBTi validates and approves science-based emissions reduction targets set using financed emissions data as the baseline"
+    - "SBTi is the regulatory body responsible for publishing PCAF's annual standard updates"
+    - "SBTi requires financial institutions to report financed emissions quarterly"
+  answer: 1
+  explanation: "The Science Based Targets initiative (SBTi) enables financial institutions to set emissions reduction targets aligned with climate science. It uses PCAF financed emissions measurements as the baseline for target setting. SBTi validates targets but does not provide the measurement methodology — that remains PCAF's role. The two frameworks are complementary: PCAF measures, SBTi targets."
+
+- question: "The EBA's Pillar 3 ESG disclosure requirements include a template specifically for financed emissions. Which template is it?"
+  options:
+    - "Template 1: Qualitative ESG risk management"
+    - "Template 3: Taxonomy-aligned green asset ratio"
+    - "Template 5: Financed emissions by NACE sector"
+    - "Template 9: Physical climate risk scenario analysis"
+  answer: 2
+  explanation: "EBA Pillar 3 Annex I Template 5 requires EU banks to disclose financed emissions disaggregated by NACE (European) sector code, with separate columns for Scope 1, Scope 2, and Scope 3 of the borrower/investee. PCAF's asset-class and sector-level disaggregation requirements directly enable the data needed for this template."

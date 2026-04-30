@@ -1,0 +1,26 @@
+- question: "Which of the following credit attributes is most likely to command the highest price premium in the voluntary carbon market?"
+  options:
+  - "A 2010 vintage renewable energy credit from a large wind farm"
+  - "A 2022 vintage REDD+ credit with CCB certification and a BeZero rating of A"
+  - "An unrated 2019 landfill methane avoidance credit"
+  - "A 2021 cookstove credit with no co-benefit certification"
+  answer: 1
+  explanation: "Newer vintages, nature-based project types with co-benefit certification (CCB), and high third-party ratings (BeZero A) each command independent premiums. Combining all three attributes maximises the price premium. Old renewable energy credits, by contrast, trade near the market floor because additionality is often contested and they carry no co-benefit story."
+
+- question: "A company finds that a REDD+ credit from 2021 and a direct air capture credit from 2023 both represent one tonne of CO2e. If the REDD+ credit costs $12 and the DAC credit costs $450, what is the primary reason for this price difference?"
+  options:
+  - "The DAC credit comes from a smaller registry with less liquidity"
+  - "The REDD+ credit has a more recent vintage"
+  - "The DAC credit provides durable geological-equivalent storage, while REDD+ represents a biological avoidance credit with reversal risk"
+  - "The REDD+ credit is ICVCM CCP-Approved and the DAC credit is not"
+  answer: 2
+  explanation: "The primary driver of the price difference between nature-based avoidance credits and engineered removal credits is the durability of carbon storage. DAC captures CO2 and stores it in geological formations or durable materials with negligible reversal risk. REDD+ forests, while valuable, are vulnerable to fire, drought, and land-use change. Buyers paying for permanent net zero neutralisation must use durable removals, driving their premium."
+
+- question: "According to the concept of the 'two-tier market' in VCMs, which of the following best describes the premium tier?"
+  options:
+  - "Credits trading above $100 per tonne, regardless of project type"
+  - "Rigorously certified, recent-vintage credits with co-benefit verification and often ICVCM CCP-Approved status"
+  - "Credits listed on the CBL GEO exchange contract"
+  - "Credits from projects in high-income countries with strong regulatory systems"
+  answer: 1
+  explanation: "The premium tier is defined by quality attributes, not simply by price level or geography. These credits feature recent vintages, rigorous certification (VCS plus CCB, or Gold Standard SDG), ICVCM CCP-Approved status where available, and often third-party ratings from BeZero, Calyx, or Sylvera. Geography is one quality signal but not the defining feature of premium tier membership."

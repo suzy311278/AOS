@@ -1,0 +1,102 @@
+id: double-materiality
+title: "Double Materiality"
+subtitle: "How companies identify and report what matters under CSRD and ESRS"
+description: "A practical course on the double materiality principle under the EU Corporate Sustainability Reporting Directive. Covers impact materiality, financial materiality, the IRO framework, the EFRAG four-step assessment process, stakeholder engagement, threshold-setting, value chain scope, and how to connect the assessment output to ESRS disclosures."
+icon: "⚖️"
+color: violet
+status: published
+category: esg
+estimatedHours: 1
+modules:
+  - id: 0
+    title: "Foundations"
+    subtitle: "What double materiality is and why it exists"
+    icon: "📋"
+    color: violet
+    lessons:
+      - id: "0.1"
+        title: "What is Double Materiality?"
+        duration: "35 min"
+        vmRef: "ESRS 1 Section 3; EFRAG IG1 Chapter 2"
+      - id: "0.2"
+        title: "The ESRS Architecture and Reporting Obligations"
+        duration: "35 min"
+        vmRef: "ESRS 1 Sections 1-2; EFRAG IG1 Introduction"
+
+  - id: 1
+    title: "Impact Materiality"
+    subtitle: "The inside-out view: how the company affects the world"
+    icon: "🌍"
+    color: violet
+    lessons:
+      - id: "1.1"
+        title: "Understanding Impact Materiality"
+        duration: "40 min"
+        vmRef: "ESRS 1 Section 3.4; EFRAG IG1 Section 2.1"
+      - id: "1.2"
+        title: "Assessing Severity, Likelihood and Scale"
+        duration: "40 min"
+        vmRef: "ESRS 1 Sections 3.4, 3.6; EFRAG IG1 Section 3.6"
+        seoTitle: "Double Materiality: Severity, Likelihood & Scale"
+        seoDescription: "Double materiality impact assessment: how to score severity (scale, scope, irremediability), likelihood, and scale of sustainability impacts per ESRS 1."
+      - id: "1.3"
+        title: "Stakeholders and the Impact Materiality Process"
+        duration: "35 min"
+        vmRef: "ESRS 1 Section 3.1; EFRAG IG1 Section 3.5"
+
+  - id: 2
+    title: "Financial Materiality"
+    subtitle: "The outside-in view: how sustainability affects the company"
+    icon: "💰"
+    color: violet
+    lessons:
+      - id: "2.1"
+        title: "Understanding Financial Materiality"
+        duration: "40 min"
+        vmRef: "ESRS 1 Section 3.5; EFRAG IG1 Sections 2.1, 3.3"
+      - id: "2.2"
+        title: "Risks, Opportunities and Dependencies"
+        duration: "35 min"
+        vmRef: "ESRS 1 Sections 3.5, 3.6; EFRAG IG1 Section 3.7"
+
+  - id: 3
+    title: "Running the Materiality Assessment"
+    subtitle: "The EFRAG four-step process from context to reporting"
+    icon: "🔎"
+    color: violet
+    lessons:
+      - id: "3.1"
+        title: "Step A: Understanding Your Context"
+        duration: "35 min"
+        vmRef: "EFRAG IG1 Section 3.1"
+      - id: "3.2"
+        title: "Step B: Identifying Impacts, Risks and Opportunities"
+        duration: "40 min"
+        vmRef: "EFRAG IG1 Section 3.2; ESRS 1 Sections 3.3-3.5"
+      - id: "3.3"
+        title: "Step C: Assessing and Determining Material IROs"
+        duration: "40 min"
+        vmRef: "EFRAG IG1 Section 3.3; ESRS 1 Section 3.2"
+      - id: "3.4"
+        title: "Step D: Reporting the Outcome"
+        duration: "35 min"
+        vmRef: "EFRAG IG1 Section 3.4; ESRS 1 Sections 7-8"
+
+  - id: 4
+    title: "Practical Application"
+    subtitle: "Scope, thresholds, and connecting to other frameworks"
+    icon: "🛠️"
+    color: violet
+    lessons:
+      - id: "4.1"
+        title: "Setting Materiality Thresholds"
+        duration: "35 min"
+        vmRef: "EFRAG IG1 Sections 3.6, 3.7; ESRS 1 Section 3.3"
+      - id: "4.2"
+        title: "Value Chain Scope and Data Challenges"
+        duration: "35 min"
+        vmRef: "ESRS 1 Sections 5.1, 5.2; EFRAG IG1 Section 2.6"
+      - id: "4.3"
+        title: "Leveraging GRI, ISSB and Other Frameworks"
+        duration: "30 min"
+        vmRef: "EFRAG IG1 Chapter 4; GRI 1 Foundation 2021"

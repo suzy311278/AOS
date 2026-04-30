@@ -1,0 +1,159 @@
+{/* source: ghg-protocol-revised.pdf Chapter 5 (pp. 34-39); GHG Protocol Scope 2 Guidance Chapter 9 (pp. 74-77), Chapter 11 (pp. 88-92) */}
+
+Your client wants to set a 30% reduction target. The first question any verifier, investor, or framework will ask: "Reduction from what?" That is the base year - and getting it right is one of the most consequential decisions in a GHG inventory.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-1-2/3_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## What a Base Year Is and Why It Matters
+
+A base year is a fixed historical reference point against which all future emissions are compared. It answers: "How much were we emitting before we started trying to reduce?"
+
+Without a stable base year, year-on-year comparisons fall apart. If a company reports 45,000 tCO2e this year and 50,000 last year, that looks like progress. But what if they sold a factory in between? The drop is not a real reduction - it is an accounting artefact. The base year exists to prevent exactly this confusion.
+
+<AnalogyBox>
+Think of a base year like your starting weight in a fitness program. If you lose 5 kg but then gain a limb (through a merger, so to speak), you need to adjust your starting weight to reflect the new "you" - otherwise the comparison is meaningless.
+</AnalogyBox>
+
+## How to Choose a Base Year
+
+The rule is straightforward: pick the **earliest year for which you have verifiable data**. Not the year that makes your trend look best. Not the year your competitor chose. The year where you can actually defend the numbers if a verifier asks to see the receipts.
+
+Some organisations use 1990 to align with the Kyoto Protocol, but getting reliable data from the early 1990s is nearly impossible for most companies. A more practical choice is usually the first year you conducted a proper inventory.
+
+You can also use a **multi-year average** (say, 2019-2021) if a single year would be unrepresentative - perhaps due to an unusual shutdown, a pandemic, or a production anomaly. The UK Emissions Trading Scheme used a 1998-2000 average for exactly this reason.
+
+<HighlightBox>
+**Practitioner Tip: Have 2-3 Years of Data Before Choosing a Base Year**
+
+In practice, companies should have emissions calculated for at least two to three years before locking in a base year. A single year's data can be anomalous - multiple years give you perspective on what "normal" emissions look like. Also, it is rare for operations to remain constant across three years. Companies are always expanding or contracting, which means absolute emission figures shift with scale rather than efficiency. This is why most companies rely on **intensity metrics** - emissions per unit of production, per unit of revenue, or per employee - for practical decision-making. Intensity metrics normalize for growth or contraction and reveal genuine efficiency improvements. While absolute targets are required by frameworks like SBTi, intensity metrics are often what actually drives reduction actions on the ground.
+</HighlightBox>
+
+<HighlightBox>
+For Scope 2, your base year must include both location-based and market-based data where applicable. If you only have location-based data for a historical base year, you can use it as a proxy for the market-based figure - but you must disclose this clearly.
+</HighlightBox>
+
+## The Critical Distinction: Structural vs. Operational Changes
+
+This is where most practitioners get tripped up. The question is simple: **when do you recalculate the base year, and when do you leave it alone?**
+
+### Structural changes - MUST recalculate
+
+A structural change transfers ownership or control of emission sources between companies. The emissions did not appear or disappear from the atmosphere - they just moved from one company's books to another's.
+
+Examples: mergers, acquisitions, divestments, outsourcing or insourcing of emitting activities.
+
+When a structural change is significant, you go back and adjust the base year as if the current structure had always existed. This keeps you comparing like with like.
+
+### Operational changes - do NOT recalculate
+
+An operational change alters production output, product mix, or capacity at facilities the company already owns or controls. These represent real changes in emissions to the atmosphere.
+
+Examples: opening a new production line, ramping up output, shutting down a facility you own, switching fuels.
+
+These changes are genuine performance shifts. Recording them as increases or decreases against the original base year is exactly how the system is designed to work.
+
+<ExampleBox>
+**ENDESA: Recalculation after divestiture**
+
+ENDESA, a Spanish power company, sold its 87.5% stake in Viesgo to Italian utility ENEL in January 2002. This was a structural change - existing emission sources moved from ENDESA's control to ENEL's. ENDESA removed the historical emissions from Viesgo's six power plants from its base year. Without this recalculation, ENDESA would have appeared to reduce emissions simply by selling assets - not by actually emitting less.
+</ExampleBox>
+
+## The Significance Threshold
+
+Not every tiny structural change triggers a full recalculation. Companies set a **significance threshold** - a minimum size of change that warrants adjustment.
+
+The GHG Protocol does not prescribe a specific number, but programs do. California's Climate Action Registry uses **10% of base year emissions**, applied cumulatively. So if you make three small acquisitions that each add 4% to your base year, the third one pushes you over 10% and triggers recalculation for all three.
+
+Your recalculation policy must apply the threshold consistently in both directions - for increases and decreases in emissions.
+
+## Three Other Recalculation Triggers
+
+Beyond structural changes, base year recalculation is also required when:
+
+1. **Changes in calculation methodology** significantly affect the base year figure (e.g., switching from spend-based to activity-based emission factors)
+2. **Improvements in data accuracy** that significantly change historical figures (e.g., discovering that meters at a major facility were miscalibrated)
+3. **Discovery of significant errors** - or cumulative small errors that together are significant
+
+However, routine emission factor updates (like a new eGRID release) are **not** a recalculation trigger. Use the newest factors for the current year only.
+
+## When You Do NOT Recalculate
+
+Two common scenarios where you leave the base year alone:
+
+1. **Acquiring operations that did not exist in the base year.** If you acquire a company founded in 2023 and your base year is 2020, there is nothing to add to 2020.
+
+2. **Outsourcing activities already captured in your Scope 2 or Scope 3.** If you outsource electricity generation but already report Scope 2, no recalculation is needed - the emissions are still in your inventory under a different scope.
+
+## Scope 2 and Supply Transformation
+
+For Scope 2 reduction targets, it matters how you achieve the reduction - not just for optics, but for the quality of the claim.
+
+**Long-term PPAs** with new renewable energy projects represent genuine supply transformation. When a company signs a 15-year PPA for a solar farm not yet built, it provides the revenue certainty that makes the project financeable. This directly contributes to changing the grid's generation mix.
+
+**Spot certificate purchases** from existing facilities allocate existing renewable attributes but do not necessarily drive new capacity. They reduce the market-based Scope 2 total legitimately, but the link to actual grid decarbonisation is weaker.
+
+Both are valid for accounting purposes. But if your client asks "are we actually changing anything?" - the answer depends on which approach they are using.
+
+## Common Mistakes
+
+These come up in almost every first-time inventory:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Mistake</th>
+      <th>Why It Is Wrong</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Not recalculating base year after an acquisition</td>
+      <td>Makes it look like emissions increased due to poor performance, when it was actually a structural change</td>
+    </tr>
+    <tr>
+      <td>Recalculating base year for production increases</td>
+      <td>Organic growth is a real change - that is genuine performance data, not an accounting adjustment</td>
+    </tr>
+    <tr>
+      <td>Using different emission factor vintages for base year vs. current year</td>
+      <td>Creates an apples-to-oranges comparison. Use the factor appropriate for each reporting year</td>
+    </tr>
+    <tr>
+      <td>Setting the base year to the highest-emission year</td>
+      <td>Verifiers will flag this. Choose based on data quality, not strategic advantage</td>
+    </tr>
+    <tr>
+      <td>Forgetting to include both Scope 2 methods in the base year</td>
+      <td>If you report dual Scope 2 now, you need both methods for the base year - otherwise you cannot track market-based progress</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+## Putting It Into Practice
+
+<CalculationExercise
+  question="A company's base year (2020) Scope 1+2 emissions were 50,000 tCO2e. In 2022, they acquired a subsidiary whose operations added 8,000 tCO2e annually (and had been operating since 2018). What should the recalculated base year total be?"
+  answer={58000}
+  unit="tCO2e"
+  hints={[
+    "This is a structural change - existing emissions transferred from one company to another.",
+    "You need to add the subsidiary's emissions to the base year as if it had always been part of the company.",
+    "50,000 + 8,000 = ?"
+  ]}
+  solution="The acquisition is a structural change, so the base year must be recalculated. Add the subsidiary's annual emissions to the original base year: 50,000 + 8,000 = 58,000 tCO2e. Now all future comparisons reflect the company's current structure."
+/>
+
+<CalculationExercise
+  question="Using the recalculated base year of 58,000 tCO2e, the company sets a 30% absolute reduction target by 2030. What is the maximum allowable emissions figure in 2030?"
+  answer={40600}
+  unit="tCO2e"
+  hints={[
+    "A 30% reduction means the company can emit at most 70% of the recalculated base year.",
+    "58,000 x 0.70 = ?"
+  ]}
+  solution="58,000 tCO2e x (1 - 0.30) = 58,000 x 0.70 = 40,600 tCO2e. The target is measured against the recalculated base year, not the original one - this is why getting recalculation right matters so much for target credibility."
+/>
+
+<KeyTakeaways items="A base year is the fixed reference point against which all future emissions are compared - choose the earliest year with verifiable data, not the year that flatters your trend ;; Structural changes (mergers, acquisitions, divestments) require base year recalculation; operational changes (production increases, new lines) do not ;; Set a significance threshold for recalculation triggers and apply it consistently in both directions - California uses 10% of base year emissions as a benchmark ;; For Scope 2, your base year must include both location-based and market-based data where applicable ;; Long-term PPAs with new renewable projects represent genuine supply transformation, while spot certificate purchases allocate existing attributes without necessarily driving new capacity" />

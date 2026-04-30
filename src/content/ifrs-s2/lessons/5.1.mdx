@@ -1,0 +1,140 @@
+{/* source: IFRS S2 Paragraph 29(a), Application Guidance B19-B31 */}
+
+<HighlightBox>
+GHG emissions are the anchor metric of IFRS S2. Every entity, regardless of sector, must disclose its absolute gross emissions in Scope 1, 2, and 3. This lesson covers the mandatory GHG Protocol basis, the specific requirements for Scope 1 and Scope 2, and the technical details of measurement and aggregation.
+</HighlightBox>
+
+## The Core Requirement: Absolute Gross GHG Emissions
+
+Paragraph 29(a) of IFRS S2 requires entities to disclose **absolute gross greenhouse gas emissions** in metric tonnes of CO2 equivalent (tCO2e), disaggregated into:
+
+- **(1) Scope 1:** Direct GHG emissions from sources the entity owns or controls
+- **(2) Scope 2:** Indirect GHG emissions from purchased or acquired electricity, steam, heating, or cooling
+- **(3) Scope 3:** All other indirect GHG emissions in the entity's value chain
+
+The word **"absolute"** means the total quantity of emissions, not normalised by revenue, output, or any other activity metric. The word **"gross"** means before any removal or offset. Emissions reductions from carbon credits or carbon sinks are not deducted from the disclosed figure.
+
+## The Seven Greenhouse Gases
+
+IFRS S2 covers the seven greenhouse gases listed in the Kyoto Protocol:
+
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th>Gas</th><th>Symbol</th><th>Primary Sources</th><th>100-Year GWP (AR6)</th></tr>
+  <tr><td>Carbon dioxide</td><td>CO2</td><td>Fossil fuel combustion, deforestation</td><td>1</td></tr>
+  <tr><td>Methane</td><td>CH4</td><td>Agriculture, natural gas systems, waste</td><td>29.8</td></tr>
+  <tr><td>Nitrous oxide</td><td>N2O</td><td>Agriculture, fossil fuel combustion</td><td>273</td></tr>
+  <tr><td>Hydrofluorocarbons</td><td>HFCs</td><td>Refrigerants, air conditioning</td><td>Varies (up to 14,800)</td></tr>
+  <tr><td>Perfluorocarbons</td><td>PFCs</td><td>Aluminium production, semiconductors</td><td>Varies (up to 11,100)</td></tr>
+  <tr><td>Sulphur hexafluoride</td><td>SF6</td><td>Electrical equipment, magnesium smelting</td><td>25,200</td></tr>
+  <tr><td>Nitrogen trifluoride</td><td>NF3</td><td>Electronics manufacturing</td><td>17,400</td></tr>
+</table>
+</ResponsiveTable>
+
+## Converting to CO2 Equivalent (B20 to B22)
+
+All seven gases must be aggregated into a single metric, **CO2 equivalent (CO2e)**, using their **100-year global warming potential (GWP)** values.
+
+<EquationBreakdown
+  title="CO₂ Equivalent Conversion"
+  result="CO₂e | CO₂ Equivalent | Total warming impact expressed in tonnes of CO₂ equivalent | blue"
+  inputs="Q | Gas Quantity | Mass of the greenhouse gas in tonnes | green ;; GWP | Global Warming Potential | 100-year warming multiplier relative to CO₂, from the latest IPCC assessment report | amber"
+/>
+
+<ExampleBox>
+**Example:** 10 tonnes of CH₄ x 29.8 (GWP₁₀₀, IPCC AR6) = 298 tCO₂e
+</ExampleBox>
+
+Application Guidance B21 specifies that entities must use GWP values based on a **100-year time horizon** from the **latest IPCC assessment report**, currently IPCC Sixth Assessment Report (AR6, 2021). The 2025 amendments provide relief for entities in jurisdictions that require different GWP values (covered in Module 6).
+
+## The GHG Protocol: The Mandatory Basis (B23 to B25)
+
+IFRS S2 requires entities to apply the **GHG Protocol Corporate Accounting and Reporting Standard (2004)** as the basis for measuring and reporting GHG emissions, unless a jurisdictional authority or exchange requires a different method (B24).
+
+Two key choices under the GHG Protocol:
+
+**Consolidation approach (B27):** The entity must choose between:
+
+- **Equity share approach:** Report GHG emissions proportional to the entity's equity share in each operation
+- **Control approach:** Report 100% of GHG emissions from operations over which the entity has financial or operational control
+
+The entity must disclose which approach it uses and why.
+
+**Disaggregation by consolidated group vs other investees (Para 29(a)(iv)):** Scope 1 and Scope 2 emissions must be disaggregated between:
+
+- Emissions from the **consolidated accounting group** (subsidiaries included in financial consolidation)
+- Emissions from **other investees** excluded from the consolidated group (associates, joint ventures, unconsolidated subsidiaries)
+
+This disaggregation aligns GHG reporting with financial reporting boundaries, enabling investors to connect emissions data to financial statements.
+
+## Scope 1: Direct Emissions
+
+**Scope 1** covers direct GHG emissions from sources that the entity owns or controls:
+
+- Combustion of fossil fuels in owned buildings, vehicles, and machinery
+- Fugitive emissions (for example, methane leaks from gas infrastructure)
+- Process emissions (for example, CO2 from cement production, N2O from chemical manufacturing)
+- Agricultural emissions
+
+## Scope 2: Purchased Energy (B30 to B31)
+
+**Scope 2** covers indirect emissions from **purchased or acquired** electricity, steam, heat, or cooling. The entity does not generate these itself but is responsible for the emissions generated on its behalf at power stations or heat plants.
+
+IFRS S2 requires two specific disclosures for Scope 2:
+
+- **(a) Location-based emissions:** Calculated using average emission factors for the electricity grid(s) where the entity operates. This reflects the actual carbon intensity of the regional grid.
+- **(b) Information about contractual instruments:** If the entity holds renewable energy certificates (RECs), power purchase agreements (PPAs), or other instruments that allow it to claim lower-emission electricity, it must disclose the existence and nature of these instruments.
+
+Note: IFRS S2 requires the location-based figure as the primary disclosure. A market-based figure (using emission factors from contractual instruments) may be provided as additional information but is not required.
+
+<AnalogyBox>
+The location-based vs market-based distinction for Scope 2 is like the difference between the fuel economy of your car and the fuel economy of your particular driving habits. The location-based figure tells you the actual carbon intensity of the electricity you consumed. The market-based figure adjusts for any renewable energy contracts you hold, but those contracts do not physically change the electrons on the grid.
+</AnalogyBox>
+
+## Emission Factors and Measurement Approach (B26 to B29)
+
+Entities must disclose the **emission factors** used in their GHG calculations and the reasoning for their selection. B29 requires entities to use emission factors that best represent their specific activities, for example, using country-specific electricity grid emission factors rather than a global average.
+
+<ExampleBox>
+**Example disclosure excerpt:** "We measure Scope 1 emissions using the operational control approach under the GHG Protocol Corporate Standard. Direct combustion emissions are calculated using IPCC Tier 2 default emission factors; fugitive methane emissions are measured using continuous monitoring equipment at our production sites. For Scope 2, we apply location-based emission factors from the IEA Emissions Factors database for each country where we purchase electricity."
+</ExampleBox>
+
+## Presenting GHG Emissions in Practice
+
+In practice, companies present their Scope 1 and 2 emissions in structured tables that show the breakdown by scope, the split between the consolidated group and other investees, and comparisons to the prior year. The following illustrative table demonstrates a common presentation format.
+
+<ExampleBox>
+**Illustrative GHG emissions table:**
+
+| Scope of GHG Emissions | 2025 (tCO2e) | 2023 (Base Year, tCO2e) |
+|------------------------|-------------|------------------------|
+| **Scope 1** | **38,932** | **46,651** |
+| Consolidated group | 37,374 | 45,063 |
+| Other investees | 1,558 | 1,588 |
+| **Scope 2 (location-based)** | **93,944** | **95,823** |
+| Consolidated group | 90,186 | 91,990 |
+| Other investees | 3,758 | 3,833 |
+
+This is the first year of reporting under IFRS S1 and IFRS S2. The company has applied the transition relief to omit comparative information.
+
+**Scope 1 calculation methodology:** Scope 1 emissions cover all direct emissions from facilities and owned vehicles. Direct emissions from facilities, warehouses, and vehicles were calculated using activity data such as refrigerant top-up volumes and consumption of natural gas and fuel, multiplied by a suitable emission factor.
+
+**Scope 2 calculation methodology:** Scope 2 emissions were calculated using the location-based method covering indirect emissions from purchased electricity and heating. Emissions were calculated using supplier invoices multiplied by the respective emission factor. Where supplier invoices do not align exactly with the reporting year, the usage has been prorated.
+</ExampleBox>
+
+## Scope 2: Contractual Instruments
+
+To support decarbonisation objectives, some companies purchase energy attribute certificates (EACs) to cover a portion of their electricity consumption. When disclosing information about contractual instruments, companies may choose to disclose market-based Scope 2 emissions in addition to the mandatory location-based figure. This approach helps users understand the relationship between contractual instruments and the reduction of Scope 2 emissions.
+
+<ExampleBox>
+**Illustrative contractual instruments disclosure:**
+
+| Scope 2 | 2025 (tCO2e) | 2023 (Base Year) |
+|---------|-------------|-----------------|
+| Location-based | 93,944 | 95,823 |
+| Market-based | 28,183 | 28,747 |
+
+In 2025, the market-based Scope 2 emissions were net of 50,000 MWh of renewable energy purchased via Renewable Energy Guarantees of Origin (REGOs), Power Purchase Agreements (PPAs), and other contractual instruments. All contractual instruments comply with recognised certification schemes and are retired in official registries to prevent double counting. Geographic and temporal matching is applied to maintain integrity.
+</ExampleBox>
+
+<KeyTakeaways items="Absolute gross GHG emissions in tCO2e are required - 'absolute' means total quantity (not normalised), 'gross' means before any offsets or removals ;; The GHG Protocol Corporate Standard is the mandatory measurement basis unless a jurisdictional authority requires a different method ;; Scope 2 requires location-based emissions as the primary figure, with information about contractual instruments (RECs, PPAs) disclosed separately ;; Entities must choose and disclose either the equity share or operational/financial control consolidation approach under the GHG Protocol ;; Scope 1 and 2 must be disaggregated between the consolidated accounting group and other investees (associates, joint ventures) to align GHG reporting with financial reporting boundaries" />

@@ -1,0 +1,87 @@
+{/* source: CBAM Regulation (EU) 2023/956, Art. 14-15; CBAM Implementing Regulation (EU) 2023/1773, Art. 16-17 */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/eu-cbam/3_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## The CBAM Registry and IT Systems
+
+<HighlightBox>
+  <p class="font-semibold text-green-800">The digital backbone of CBAM</p>
+  <p class="text-green-900 mt-1">The CBAM Registry is the central IT platform that makes the entire mechanism operational. It is where declarants register, purchase certificates, submit declarations, and surrender certificates. Understanding how to navigate this system, and how it connects to national customs infrastructure, is a practical requirement for every compliance professional working with CBAM goods.</p>
+</HighlightBox>
+
+### Architecture of the CBAM Registry
+<p class="mb-3">Articles 14 and 15 of CBAM Regulation (EU) 2023/956 mandate the European Commission to establish and maintain a CBAM Registry. The Registry is a centralised electronic database, operated at EU level, through which all CBAM-related transactions are conducted. It is distinct from the EU ETS Registry and from national customs systems, though it is fully integrated with both.</p>
+<p class="mb-4">The Registry became operational in a transitional form on 1 October 2023 for report submission. Its full definitive functionality, including certificate purchasing and surrender, went live on 1 January 2026. The January 2026 launch was described by the Commission as a "seamlessly interconnected" deployment, integrating in real time with national customs import systems, TARIC, and the EU Customs Single Window.</p>
+
+### Key Modules of the CBAM Registry
+<p class="mb-4">The CBAM Registry is structured around several functional modules, each serving a distinct role in the compliance lifecycle:</p>
+
+<ResponsiveTable>
+<table class="mb-6">
+  <tr>
+    <th>Module</th>
+    <th>Function</th>
+    <th>Who Uses It</th>
+  </tr>
+  <tr>
+    <td><strong>Authorisation Management Module (AMM)</strong></td>
+    <td>Handles applications for authorised declarant status, including review by NCAs, status updates, and revocations</td>
+    <td>Importers, NCAs</td>
+  </tr>
+  <tr>
+    <td><strong>Certificate Management</strong></td>
+    <td>Enables purchase of CBAM certificates at the applicable price, tracking of certificate holdings, and repurchase requests</td>
+    <td>Authorised declarants</td>
+  </tr>
+  <tr>
+    <td><strong>Declaration and Surrender</strong></td>
+    <td>Supports submission of annual CBAM declarations and records the corresponding certificate surrenders against declared embedded emissions</td>
+    <td>Authorised declarants</td>
+  </tr>
+  <tr>
+    <td><strong>Data Reconciliation for Monitoring and Control (DRMC)</strong></td>
+    <td>Cross-references customs import data with CBAM declarations to identify discrepancies, potential circumvention, and data quality issues</td>
+    <td>Commission, NCAs</td>
+  </tr>
+  <tr>
+    <td><strong>Transitional Reporting Module</strong></td>
+    <td>Hosted the quarterly transitional reports submitted from October 2023 to December 2025 (now closed to new submissions)</td>
+    <td>Importers, indirect customs representatives</td>
+  </tr>
+</table>
+</ResponsiveTable>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">Analogy: A digital passport and bank account combined</p>
+  <p class="mt-2 text-blue-900">Think of a declarant's CBAM Registry account as a combination of a passport and a bank account. The passport (AMM) establishes your identity and authorisation to operate in the CBAM system. The bank account (Certificate Management) holds the certificates you purchase, like a balance of carbon credits. When you surrender certificates in the Declaration module, you are making a withdrawal to pay a verified carbon debt. The DRMC module is the auditor cross-checking that your declared balance matches what customs records say you actually imported.</p>
+</AnalogyBox>
+
+### Becoming an Authorised Declarant
+<p class="mb-3">From 1 January 2026, only <strong>authorised CBAM declarants</strong> may import CBAM goods (above the 50-tonne threshold) into the EU. The authorisation must be obtained from the NCA in the country where the importer or indirect customs representative is established.</p>
+<p class="mb-4">The application process requires the declarant to provide:</p>
+<ul class="list-disc ml-6 space-y-2 mb-4">
+  <li>Company registration details and VAT identification number</li>
+  <li>A declaration that the applicant has not been convicted of serious criminal or tax offences in the five years preceding the application</li>
+  <li>Evidence of financial capacity to fulfil CBAM obligations (typically demonstrated through standard credit or financial standing checks)</li>
+  <li>Acceptance of the terms of use of the CBAM Registry</li>
+</ul>
+<p class="mb-4">The NCA may grant authorisation or reject the application. Authorisation may be revoked if the declarant ceases to meet the conditions, is found to have committed fraud, or repeatedly fails to comply with CBAM obligations. The Commission publishes a list of authorised declarants, making the registry publicly accessible for verification purposes.</p>
+
+### Integration with Customs Systems
+<p class="mb-3">One of the most technically significant aspects of the CBAM Registry is its real-time integration with national customs import systems. When a shipment of CBAM goods arrives at an EU border, the customs declaration triggers an automated check against the CBAM Registry to verify that the declarant holds a valid authorisation. If no valid authorisation is found, the goods cannot be released into free circulation.</p>
+<p class="mb-4">This integration covers all 27 EU Member States' customs authorities and operates through the EU Customs Single Window. The connection ensures that CBAM enforcement is seamlessly embedded in the existing import workflow rather than operating as a separate, parallel process.</p>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Example: What happens at the border</p>
+  <p class="mt-2">A Dutch trading company imports a container of steel tubes from India. When the customs agent submits the import declaration at Rotterdam, the system automatically queries the CBAM Registry. The Registry confirms the Dutch company holds an active authorised declarant number. The import is cleared to proceed. The import data (commodity, quantity, country of origin) is simultaneously logged in the DRMC module for later reconciliation against the annual CBAM declaration due by 31 May the following year.</p>
+</ExampleBox>
+
+### The Common Central Platform
+<p class="mb-3">As of early 2026, the Commission was developing a <strong>Common Central Platform (CCP)</strong> for CBAM, which will eventually provide a single interface for all stakeholders across different aspects of CBAM compliance. A Call for Tenders for the CCP was issued in early 2026, with submission deadlines extended into April 2026. The CCP is expected to consolidate functionalities across the Registry modules and improve user experience for declarants across all Member States.</p>
+
+<DeepDive title="National Competent Authorities: who are they and what do they do?">
+  <p class="mb-3">Each EU Member State designates one or more NCAs responsible for CBAM administration at national level. The NCA processes declarant authorisation applications, enforces compliance with transitional reporting obligations, applies penalties for non-compliance, and liaises with the Commission on CBAM policy matters. A regularly updated list of NCAs is published by the Commission and is available in the CBAM Registry.</p>
+  <p>NCAs also handle the financial side of certificate transactions. Declarants purchase certificates through the NCA of their establishment, meaning that the revenue from CBAM certificate sales flows to the Member State where the declarant is registered. These revenues accrue to EU own resources from 2026 onwards, contributing to the EU budget.</p>
+</DeepDive>
+
+<KeyTakeaways items="The CBAM Registry is the centralised EU digital platform for all CBAM transactions, integrating with national customs systems, TARIC, and the EU Customs Single Window ;; Key Registry modules include the Authorisation Management Module (AMM), Certificate Management, Declaration and Surrender, and Data Reconciliation for Monitoring and Control (DRMC) ;; Only authorised CBAM declarants (approved by the national NCA) may import CBAM goods above the 50-tonne threshold from January 2026 ;; Real-time integration with customs systems means that any shipment without a valid declarant authorisation is automatically blocked at the border ;; A Common Central Platform (CCP) is under development to further consolidate CBAM IT infrastructure" />

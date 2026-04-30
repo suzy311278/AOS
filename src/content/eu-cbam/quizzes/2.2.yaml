@@ -1,0 +1,26 @@
+- question: "Why are default values under CBAM deliberately set at a conservative (high) level rather than at the average emission intensity for the relevant sector and country?"
+  options:
+  - "To ensure CBAM generates sufficient revenue to fund EU climate programmes, regardless of actual emission levels in third countries"
+  - "To create a strong financial incentive for importers and their foreign suppliers to invest in actual monitoring and verification systems, since using actual low-carbon data yields a substantially lower CBAM liability"
+  - "Because EU law prohibits the use of below-average emission values for import declarations"
+  - "Because conservative defaults protect the EU ETS price from being undermined by artificially low embedded emission claims"
+  answer: 1
+  explanation: "Default values are set high to incentivise the adoption of actual monitoring. A producer with genuinely low-carbon production has a strong financial incentive to incur the cost of setting up a CBAM-compliant monitoring system and obtaining third-party verification — because the resulting actual emission data will yield a much lower CBAM certificate obligation than the conservative default. The financial gap between actual data and defaults can be very large (as demonstrated by the electric arc furnace steel example, where defaults may be 5-6 times higher than actual emissions)."
+
+- question: "From 1 January 2026, what approaches are permitted for calculating embedded emissions in CBAM declarations?"
+  options:
+  - "Only the full EU methodology with actual verified data — no defaults or equivalent methods are permitted in the definitive period"
+  - "Actual verified data using the CBAM methodology, or published default values from the European Commission — the transitional 'equivalent method' options no longer apply"
+  - "Any nationally or internationally recognised GHG monitoring standard, provided the importer can document the methodology used"
+  - "Either the full EU methodology or a carbon footprint calculated using GHG Protocol standards, verified by any ISO-accredited body"
+  answer: 1
+  explanation: "From 2026, only two approaches are valid: actual embedded emissions data verified by an accredited CBAM verifier using the CBAM methodology, or the default values published by the European Commission. The three transitional equivalent method options (national emission factors, national ETS-based methods, CDP-framework-based methods) that were permitted until end-2025 no longer apply in the definitive period."
+
+- question: "What must a third-country installation operate in order for its emission data to be accepted as 'actual' embedded emissions under the definitive CBAM regime?"
+  options:
+  - "An ISO 14001 environmental management system certified by an internationally accredited body"
+  - "An approved monitoring plan consistent with CBAM Implementing Regulation Annex VI requirements, describing the monitoring methodology, activity data sources, emission factors, and uncertainty management approach"
+  - "A continuous emissions monitoring system (CEMS) on all main emission stacks, providing real-time measurement data"
+  - "A GHG inventory prepared in accordance with ISO 14064-1 and verified by a local environmental regulator"
+  answer: 1
+  explanation: "To use actual emission data, the installation must operate according to an approved monitoring plan consistent with Annex VI of the CBAM Implementing Regulation. This document describes the monitoring methodology (calculation-based or measurement-based), activity data sources, emission factor references, and uncertainty management. An ISO 14001 system is good general practice but is not sufficient for CBAM purposes. CEMS is one valid monitoring approach but is not the only option."

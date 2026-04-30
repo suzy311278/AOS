@@ -1,0 +1,35 @@
+- question: "Which type of Scope 3 reduction target directly reflects actual tonnes of GHGs avoided, regardless of business growth?"
+  options:
+    - "Intensity reduction target"
+    - "Supplier engagement target"
+    - "Absolute reduction target"
+    - "Procurement decarbonisation target"
+  answer: 2
+  explanation: "Absolute reduction targets commit to reducing total tCO₂e by a fixed amount or percentage. They reflect actual tonnes avoided — if the business grows, absolute emissions must still fall to meet the target. Intensity targets allow for absolute growth as long as emissions per unit improve."
+
+- question: "Why do many companies use 2019 as their Scope 3 base year rather than 2020 or 2021?"
+  options:
+    - "2019 was a particularly high-emission year, making future reductions appear larger"
+    - "COVID-19 caused anomalous drops in many Scope 3 categories in 2020–2021, making those years unrepresentative of normal operations"
+    - "The GHG Protocol mandates 2019 as the base year for all Scope 3 inventories"
+    - "2019 data quality was higher due to improved emission factor databases"
+  answer: 1
+  explanation: "The COVID-19 pandemic caused significant anomalies in 2020–2021 — near-zero business travel, reduced production, disrupted supply chains. These years are not representative of normal operations. A 2019 base year reflects a more typical business year for setting meaningful long-term targets."
+
+- question: "Which event requires a Scope 3 base year recalculation?"
+  options:
+    - "A company changing its logo and brand name"
+    - "A 3% increase in total Scope 3 emissions from normal business growth"
+    - "An acquisition that adds a new business unit with significant GHG emissions"
+    - "A change in the CEO responsible for sustainability reporting"
+  answer: 2
+  explanation: "A major acquisition that materially changes the company's boundary is a structural change that requires base year recalculation to maintain comparability. The current year inventory now includes a business unit that was not in the base year, making direct comparison meaningless without recalculation."
+
+- question: "Under the SBTi Corporate Net-Zero Standard, carbon credits (offsets) can be used to:"
+  options:
+    - "Substitute for near-term Scope 3 abatement to meet 2030 targets"
+    - "Neutralise residual emissions only after maximum feasible reductions have been made"
+    - "Fully offset all Scope 3 emissions without any additional reduction effort"
+    - "Replace Scope 3 targets entirely if the company buys enough high-quality credits"
+  answer: 1
+  explanation: "SBTi restricts carbon credits to neutralising residual emissions after achieving maximum feasible GHG reductions. Credits cannot substitute for near-term abatement. The priority must be actual emissions reduction within the value chain, not purchasing offsets."

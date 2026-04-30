@@ -1,0 +1,44 @@
+- question: "The Paris Agreement was adopted at which conference, and in which year?"
+  options:
+    - "COP15 in Copenhagen, 2009"
+    - "COP17 in Durban, 2011"
+    - "COP21 in Paris, 2015"
+    - "COP26 in Glasgow, 2021"
+  answer: 2
+  explanation: "The Paris Agreement was adopted at COP21 in Paris in December 2015. It entered into force the following year and replaced the Kyoto Protocol as the central instrument of international climate policy."
+
+- question: "Which of the following best describes the 'double counting' problem that Article 6 was specifically designed to solve?"
+  options:
+    - "The risk that a country submits two different NDCs with conflicting targets"
+    - "The risk that the same tonne of CO2 reduction is counted toward both the host country's and the buyer country's emissions targets simultaneously"
+    - "The risk that a carbon credit is sold twice on the same exchange"
+    - "The risk that two different auditors produce different emissions estimates for the same project"
+  answer: 1
+  explanation: "Double counting occurs when a single tonne of CO2 reduction is claimed by both the country where the reduction took place (the host) and the country that purchased the credit (the buyer). Under Kyoto, this was possible because developing countries had no binding targets. Under Paris, where nearly every country has an NDC, it would corrupt global climate accounting. Article 6 addresses it through the corresponding adjustment mechanism."
+
+- question: "The Clean Development Mechanism (CDM) under the Kyoto Protocol allowed which type of transaction?"
+  options:
+    - "Developed countries trading emission allowances with each other"
+    - "Developing countries setting their own binding reduction targets for trading purposes"
+    - "Developed countries funding emission-reduction projects in developing countries in exchange for Certified Emission Reductions"
+    - "The UN issuing credits directly to companies that voluntarily reduced their emissions"
+  answer: 2
+  explanation: "The CDM allowed Annex I (developed) countries to fund emission-reduction projects in non-Annex I (developing) countries and receive Certified Emission Reductions (CERs) that could count against their Kyoto commitments. It was a pioneering mechanism but suffered from additionality failures, perverse incentives, and geographic concentration."
+
+- question: "According to economic analysis, what is the primary argument for allowing international carbon trading under Article 6 rather than requiring every country to meet its NDC entirely through domestic action?"
+  options:
+    - "Carbon markets generate tax revenue that can fund the Adaptation Fund"
+    - "International trading allows reductions to be made where they are cheapest, reducing the total cost of meeting global climate goals"
+    - "Domestic emissions reductions are technically impossible in most developing countries without international technology transfers"
+    - "The Paris Agreement's temperature goals cannot be achieved without allowing developing countries to import credits from developed nations"
+  answer: 1
+  explanation: "The cost-effectiveness argument for carbon markets is that the marginal abatement cost varies enormously across countries and sectors. By allowing reductions to be made where they are cheapest and transferring financial benefit to the host country, international carbon trading can achieve the same atmospheric outcome at significantly lower total cost. Economic models suggest this could reduce the cost of meeting Paris goals by hundreds of billions of dollars per year."
+
+- question: "Which of the following was identified as a key structural flaw of the Kyoto CDM that informed the design of Article 6?"
+  options:
+    - "The CDM only allowed projects in Annex I countries, excluding the developing world"
+    - "Credits issued under the CDM could only be used for voluntary purposes, not for compliance"
+    - "Some CDM credits were issued for projects that would have happened anyway, meaning no real additional emissions reduction occurred"
+    - "The CDM required corresponding adjustments, making it too administratively burdensome for most countries"
+  answer: 2
+  explanation: "Additionality failure -- issuing credits for projects that would have proceeded without CDM incentives -- was one of the most significant criticisms of the CDM. Large hydro projects and industrial gas destruction projects in particular attracted scrutiny. Article 6.4 attempts to address this with more rigorous and standardised additionality assessment under the Supervisory Body."

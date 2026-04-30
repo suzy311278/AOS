@@ -1,0 +1,26 @@
+- question: "What does the principle of double materiality require a company to assess?"
+  options:
+    - "Only the financial risks and opportunities that sustainability matters create for the company"
+    - "Only the impacts the company has on people and the environment"
+    - "Both the company's impacts on people and the environment, and the financial effects of sustainability matters on the company"
+    - "The social and governance aspects of the company's business model only"
+  answer: 2
+  explanation: "Double materiality has two dimensions: impact materiality (the company's impacts on people or the environment) and financial materiality (how sustainability matters trigger financial effects on the company). A matter is material if it meets the criteria for either dimension or both. (ESRS 1, paragraph 37)"
+
+- question: "Which of the following best describes 'financial materiality' under ESRS 1?"
+  options:
+    - "Information that is relevant to understanding the company's impacts on the environment"
+    - "A sustainability matter that triggers or could reasonably be expected to trigger material financial effects on the company"
+    - "The disclosure of financial statements prepared under IFRS"
+    - "A matter that is material only if it affects more than 5% of annual revenue"
+  answer: 1
+  explanation: "Financial materiality under ESRS 1 covers sustainability matters that generate risks or opportunities with a material influence on the company's development, financial position, financial performance, cash flows, access to finance, or cost of capital over the short, medium, or long term. (ESRS 1, paragraph 49)"
+
+- question: "What does the abbreviation 'IROs' stand for in the context of ESRS?"
+  options:
+    - "Internal reporting obligations"
+    - "Impacts, risks and opportunities"
+    - "Indicators, reporting and oversight"
+    - "Issues, regulations and objectives"
+  answer: 1
+  explanation: "IROs stands for impacts, risks and opportunities. Impacts refer to the positive and negative sustainability-related impacts connected with the company's business, identified through impact materiality. Risks and opportunities refer to sustainability-related financial risks and opportunities, identified through financial materiality. (ESRS 1, paragraph 14)"

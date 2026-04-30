@@ -1,0 +1,75 @@
+{/* source: EUDR Regulation (EU) 2023/1115, Art. 9(1)(d); EC Implementing Regulation on geolocation */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/eudr/2_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Geolocation Requirements
+
+<HighlightBox>
+  <p class="font-semibold text-green-800">The most operationally challenging requirement</p>
+  <p class="text-green-900 mt-1">The EUDR's geolocation requirement is widely regarded as the most technically demanding aspect of compliance. Every relevant commodity must be traceable to the <strong>specific plots of land</strong> where it was produced, identified by GPS coordinates. This is a fundamental departure from previous supply chain standards, which typically required only country or region of origin.</p>
+</HighlightBox>
+
+### What the Regulation Requires
+<p class="mb-3">Article 9(1)(d) of the EUDR requires operators to collect, as part of the information step of due diligence, the <strong>geolocation coordinates of all plots of land where the relevant commodities were produced</strong>. The regulation distinguishes between two types of coordinate data based on plot size:</p>
+<ul class="list-disc ml-6 space-y-2 mb-4">
+  <li><strong>Plots larger than 4 hectares:</strong> A <strong>polygon</strong> is required. A polygon is a set of GPS latitude/longitude coordinate pairs that define the perimeter of the production area. The polygon must be sufficiently precise to enable satellite-based verification of land use status at the cut-off date.</li>
+  <li><strong>Plots of 4 hectares or less:</strong> A <strong>single point coordinate</strong> is sufficient. This accommodation recognises that very small plots, such as many smallholder farms, may be practically difficult to polygon-map and that a central point coordinate provides a workable starting point for satellite verification.</li>
+</ul>
+
+### Why Geolocation Is Transformative
+<p class="mb-3">To understand why the geolocation requirement is significant, consider what supply chain traceability looked like before the EUDR. A commodity trader importing soy from Brazil might know the name of the exporter and the state in which the soy was produced. It would rarely know the specific farms, and almost never have GPS coordinates for the production plots.</p>
+<p class="mb-4">The EUDR's geolocation requirement changes this fundamentally. GPS coordinates for production plots enable a third party, whether a competent authority, an auditor, or an automated monitoring system, to cross-reference those coordinates with satellite imagery datasets like those provided by Global Forest Watch or the EU Observatory on Deforestation. If satellite imagery shows that the coordinate falls within an area that was forest on 31 December 2020 and agricultural land today, the commodity fails the deforestation-free test. This shift from self-declaration to verifiable spatial data is what gives the EUDR genuine enforcement bite.</p>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">From a country address to a precise house number</p>
+  <p class="mt-2 text-blue-900">Before the EUDR, traceability was like knowing only the country where a product came from. The geolocation requirement is like requiring the specific street address, or more precisely, the GPS-registered boundary of every field where the raw material was grown. Just as a postal address enables a letter to be delivered to an exact location, a GPS polygon enables a satellite image to be matched to an exact farm and its forest history checked against a global reference layer.</p>
+</AnalogyBox>
+
+### How Geolocation Data Is Collected in Practice
+<p class="mb-3">The practical mechanisms for geolocation data collection vary significantly by commodity, supply chain structure, and producing region:</p>
+
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th>Context</th><th>Typical Collection Method</th><th>Challenge Level</th></tr>
+  <tr><td>Large plantations (palm oil, rubber)</td><td>In-house GIS mapping, drone surveys</td><td>Low: plantations typically already have spatial data</td></tr>
+  <tr><td>Organised farmer cooperatives (coffee, cocoa)</td><td>Cooperative-level GPS collection programs</td><td>Medium: requires systematic field data collection</td></tr>
+  <tr><td>Individual smallholders (cocoa, coffee)</td><td>Mobile phone apps, field agent GPS collection</td><td>High: scale and logistics create significant costs</td></tr>
+  <tr><td>Cattle supply chains (Brazil)</td><td>Rural Environmental Registry (CAR) polygon data</td><td>Medium: CAR data available but may have quality issues</td></tr>
+  <tr><td>Multi-origin commodity pools (soy, timber)</td><td>Traceability software linking batches to source plots</td><td>Very high: segregation requirements increase costs</td></tr>
+</table>
+</ResponsiveTable>
+
+### Brazil's Rural Environmental Registry (CAR): A Case Study
+<p class="mb-3">One of the most useful existing geolocation data systems for EUDR compliance is Brazil's <strong>Rural Environmental Registry (CAR, Cadastro Ambiental Rural)</strong>. Brazilian legislation requires all rural properties to register their boundaries in the CAR, providing polygon data for tens of millions of hectares of Brazilian farmland. This data includes the spatial boundaries of farms, the location of legal reserve areas, and information about existing vegetation.</p>
+<p class="mb-4">For cattle and soy supply chains in Brazil, CAR data provides a foundation for EUDR geolocation compliance. However, it has limitations: some farms are not registered or have incomplete registrations, registration quality varies, and CAR data alone does not prove deforestation-free status because it does not include time-stamped vegetation histories. Operators must still cross-reference CAR polygon data with satellite imagery to verify the deforestation-free condition.</p>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Collecting geolocation data for 5,000 smallholder cocoa farmers</p>
+  <p class="mt-2">A Dutch chocolate manufacturer sources cocoa through an aggregator in Cote d'Ivoire that works with approximately 5,000 smallholder farmers. The average farm size is 2 hectares (under the 4-hectare threshold), so point coordinates suffice for each plot. The aggregator trains field agents to collect GPS points using a smartphone app for each farmer's plot, combined with a farmer registration form and a self-declaration of deforestation-free production. The data is uploaded to a traceability platform, where it is cross-referenced against satellite imagery layers from the EU Observatory. Farmers whose plot coordinates fall in areas flagged for deforestation after 2020 are temporarily excluded from the supply chain pending verification. The entire system costs approximately EUR 8 per farmer per year to maintain, which is funded partly by the chocolate manufacturer and partly by an industry scheme.</p>
+</ExampleBox>
+
+### Geolocation and the EU Observatory
+<p class="mb-3">The EU has established the <strong>EU Observatory on Deforestation and Forest Degradation</strong> (forest-observatory.ec.europa.eu) to support operators in their compliance efforts. The Observatory provides:</p>
+<ul class="list-disc ml-6 space-y-2 mb-4">
+  <li>Country-level deforestation data and trend maps.</li>
+  <li>A global forest cover monitoring tool that operators can use to check whether a given set of GPS coordinates falls within areas of documented forest loss.</li>
+  <li>Country-specific risk information to support risk assessment.</li>
+  <li>Guides and tools for satellite-based deforestation monitoring.</li>
+</ul>
+<p class="mb-4">The Observatory does not make compliance decisions for operators; it provides data that operators can use to support their own risk assessments. The final responsibility for determining whether a specific production plot is deforestation-free rests with the operator, informed by the best available data from the Observatory and other sources including Global Forest Watch, national land registry systems, and third-party audit reports.</p>
+
+### Geolocation and Confidentiality
+<p class="mb-3">A frequently raised concern from smallholders and farmers' organisations is that sharing GPS coordinates of production plots with large EU companies, and through them with competent authorities, creates risks around data privacy and commercial exploitation of location information. The EUDR Recitals acknowledge this concern and note that geolocation data must be handled in accordance with EU data protection law (GDPR).</p>
+<p class="mb-4">Operators must treat geolocation data as potentially sensitive business and personal information. The data must be kept for five years for compliance purposes but should not be used for purposes beyond EUDR compliance. In practice, many traceability systems encrypt GPS data or use aggregated polygon data at the cooperative level rather than individual farm level where point coordinates are collected, providing some protection while maintaining sufficient precision for compliance verification.</p>
+
+<DeepDive title="Can operators use satellite monitoring instead of GPS coordinates from producers?">
+  <p>Some operators have explored using satellite imagery analysis as an alternative to collecting GPS coordinates from upstream producers, in effect determining plot boundaries remotely rather than collecting them at farm level. This approach has some practical merit for large plantations with clearly visible boundaries in satellite imagery, but it has significant limitations:</p>
+  <ul class="list-disc ml-4 mt-2 space-y-1">
+    <li>Smallholder plots are often too small to be precisely identified from satellite imagery without ground-truthing.</li>
+    <li>Attribution of specific commodity production to specific plots requires farm-level records, not just spatial boundaries.</li>
+    <li>The EUDR requires operator-collected geolocation data as part of the information step, not merely a satellite-derived overlay.</li>
+  </ul>
+  <p class="mt-2">Satellite monitoring is therefore most useful as a verification tool layered on top of GPS data collected from producers, not as a replacement for it. The EU Observatory's satellite-based deforestation detection tools complement producer-level GPS collection rather than substituting for it.</p>
+</DeepDive>
+
+<KeyTakeaways items="The EUDR requires GPS coordinates for all production plots: polygons for plots larger than 4 hectares and point coordinates for plots of 4 hectares or less ;; Geolocation is transformative because it enables cross-referencing of production plot coordinates with satellite imagery, allowing verification of whether specific land was forested at the cut-off date and subsequently cleared ;; Practical collection methods vary by context: large plantations typically have existing spatial data, while smallholder supply chains require systematic field data collection programs using GPS-enabled mobile devices ;; Brazil's Rural Environmental Registry (CAR) provides polygon data for many Brazilian farms, offering a partial foundation for cattle and soy supply chain compliance, though it must be supplemented with satellite imagery verification ;; The EU Observatory on Deforestation provides monitoring tools and country risk data to support operators' geolocation-based risk assessments, though responsibility for compliance determination rests with the operator" />

@@ -1,0 +1,26 @@
+- question: "Why is the circular economy described as an 'information problem' as much as a material problem?"
+  options:
+    - "Most circular economy decisions require government data that is not publicly available"
+    - "Without information on material composition, service history, and disassembly instructions, repairers, recyclers, and secondhand buyers cannot make optimal circular decisions"
+    - "Digital technology companies are the primary investors in circular economy infrastructure"
+    - "Information asymmetry primarily affects consumer willingness to pay for circular products"
+  answer: 1
+  explanation: "Circular loops fail when repairers don't know how to access components, recyclers can't identify materials, or secondhand buyers can't assess condition. Digital technologies including the DPP eliminate this information asymmetry, making circular pathways viable and competitive."
+
+- question: "What is the primary purpose of the Digital Product Passport's 'differentiated access rights' architecture?"
+  options:
+    - "To protect all product data from competitors under commercial confidentiality rules"
+    - "To provide different stakeholders with the specific information they need while protecting commercially sensitive data"
+    - "To ensure only government authorities can access product composition information"
+    - "To limit consumer access to simplify the user experience"
+  answer: 1
+  explanation: "Differentiated access allows consumers to see repairability scores, repairers to access disassembly instructions, recyclers to see material composition, and customs authorities to verify compliance - each getting what they need, while commercially sensitive manufacturing data remains protected."
+
+- question: "AMP Robotics' AI-powered waste sorting systems have achieved what improvement in material recovery rates compared to manual sorting?"
+  options:
+    - "5% improvement"
+    - "15% improvement"
+    - "35% improvement"
+    - "75% improvement"
+  answer: 2
+  explanation: "AMP Robotics' AI sorting systems have increased material recovery rates by 35% at facilities where deployed, while also reducing labour costs by 60%. The systems can identify over 80 material categories at speeds exceeding 160 picks per minute."

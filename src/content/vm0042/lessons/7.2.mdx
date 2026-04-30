@@ -1,0 +1,151 @@
+{/* 7.2: Investment Analysis & Common Practice (Steps 3-4) */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/vm0042/7_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## VT0008 Steps 3 & 4: Investment Analysis & Common Practice
+
+<HighlightBox>
+  <p class="font-semibold text-green-800">This lesson covers</p>
+  <p class="text-green-900 mt-1">When barrier analysis (Step 2) is not applicable or fails, <strong>investment analysis (Step 3)</strong> provides a quantitative financial route to demonstrating additionality. After either Step 2 or 3 passes, <strong>common practice analysis (Step 4)</strong> checks whether the project activity has already spread so widely it no longer needs carbon credits.</p>
+</HighlightBox>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">Analogy: Getting a Mortgage for a Green Home</p>
+  <p class="mt-2 text-blue-900">Investment analysis is like applying for a mortgage. The bank (VVB) needs to see that without a special green subsidy (carbon revenue), the project (green home) would not be financially viable on its own. You show your projected income and costs (IRR calculation), demonstrate that the return falls below what any rational investor would accept (below WACC), and then show that carbon revenue lifts it to an acceptable return. The bank accepts the application, the project is additional.</p>
+</AnalogyBox>
+
+### Step 3: Investment Analysis, Two Options
+<p class="mb-4">The objective is to demonstrate that without carbon credit revenues, the project activity is financially unattractive compared to alternatives.</p>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+  <div class="bg-blue-50 border border-blue-200 rounded p-4 text-sm">
+    #### Option A: Investment Comparison Analysis
+    <p class="text-blue-900 mb-2">Compare a financial indicator (IRR, NPV, cost-benefit ratio, or levelized cost) across ALL alternatives. Show the project is the <em>least financially attractive</em> option without carbon credits.</p>
+    <p class="font-semibold text-blue-800 mt-2">Steps:</p>
+    <ol class="list-decimal ml-4 space-y-1 text-blue-900 mt-1">
+      <li>Choose a financial indicator appropriate to the project type</li>
+      <li>Calculate the indicator for all alternatives</li>
+      <li>Rank alternatives, project must be lowest</li>
+      <li>Sensitivity analysis on key assumptions</li>
+    </ol>
+  </div>
+  <div class="bg-emerald-50 border border-emerald-200 rounded p-4 text-sm">
+    #### Option B: Benchmark Analysis (IRR only)
+    <p class="text-emerald-900 mb-2">Calculate the project's IRR and show it falls below a required financial benchmark (WACC or cost of equity). Carbon credits must raise the IRR to or above the benchmark.</p>
+    <p class="font-semibold text-emerald-800 mt-2">Three conditions:</p>
+    <ol class="list-decimal ml-4 space-y-1 text-emerald-900 mt-1">
+      <li>Project IRR without carbon credits &lt; benchmark</li>
+      <li>Carbon credit revenues raise IRR decisively</li>
+      <li>Project IRR with carbon credits ≥ benchmark</li>
+    </ol>
+    <p class="mt-2 text-emerald-800 text-xs">If only condition 1 is met (IRR below benchmark without credits, but credits don't raise it to benchmark), the project passes additionality but may NOT receive CCP label.</p>
+  </div>
+</div>
+
+### Calculating the Benchmark: WACC and Cost of Equity
+
+<EquationBreakdown
+  title="WACC - Weighted Average Cost of Capital"
+  result="WACC | WACC | The minimum return a project must earn to satisfy both equity investors and debt holders - used as the IRR benchmark, in % | blue"
+  inputs="r<sub>e</sub> x W<sub>e</sub> | Equity Cost Component | Cost of equity (r_e) multiplied by the equity fraction (W_e) of total financing | green ;; r<sub>d</sub> x (1 - T<sub>c</sub>) x W<sub>d</sub> | Debt Cost Component | Cost of debt (r_d) multiplied by (1 minus corporate tax rate T_c) and the debt fraction (W_d) - tax shield reduces effective debt cost | amber"
+  operator="+"
+/>
+
+<EquationBreakdown
+  title="Cost of Equity via CAPM"
+  result="r<sub>e</sub> | Cost of Equity | The return equity investors require to invest in this type of project, in % | blue"
+  inputs="r<sub>f</sub> | Risk-Free Rate | Return on a safe government bond (sovereign debt yield), the baseline return with zero risk | green ;; β | Sector Beta | How volatile this sector is relative to the overall market - higher beta means more risk and higher required return | amber ;; (r<sub>m</sub> - r<sub>f</sub>) | Equity Risk Premium | The extra return investors demand for investing in the stock market instead of risk-free bonds | violet"
+  operator="+"
+/>
+
+<p class="text-xs text-slate-500 mb-4">CAPM requires: stock exchange >10 years, market cap/GDP >20%, turnover ratio >20%, ≥3 domestic "pure player" companies with ≥3 years data.</p>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Benchmark Calculation: Vietnam Rice AWD Project</p>
+  <p class="mt-2 text-sm">A rice co-op in Vietnam's Mekong Delta adopts Alternate Wetting and Drying (AWD) under VM0042. Using Appendix 2 default values for Vietnam:</p>
+  <ResponsiveTable>
+<table class="text-sm mt-3 mb-3">
+    <tr><th>Parameter</th><th>Value</th><th>Source</th></tr>
+    <tr><td>Risk-free rate (r_f)</td><td>3.1%</td><td>VT0008 default (real terms)</td></tr>
+    <tr><td>Equity risk premium</td><td>2.7%</td><td>VT0008 default (Credit Suisse 2023)</td></tr>
+    <tr><td>Country risk premium (Vietnam)</td><td>4.07%</td><td>VT0008 Table 1, Group 3 (AFOLU, -0.5pp adjustment)</td></tr>
+    <tr><td>Cost of equity (r_e)</td><td>9.87%</td><td>3.1 + 2.7 + 4.07 = 9.87% (Group 3 AFOLU rate per Table 1)</td></tr>
+  </table>
+</ResponsiveTable>
+  <div class="bg-blue-50 border border-blue-200 rounded p-2 mb-2 text-xs text-blue-800">Note: VT0008 Table 1 lists 10.37% for Vietnam Group 1 (energy/waste sectors). AFOLU projects are Group 3, which receives a -0.5 percentage point sector adjustment - 9.87%.</div>
+  <p class="text-sm">With 60% debt financing at 8% interest and 30% corporate tax:</p>
+  <p class="font-mono text-sm bg-slate-100 p-2 rounded mt-2">WACC = 9.87% x 0.40 + 8% x (1 - 0.30) x 0.60 = 3.95% + 3.36% = <strong>7.31%</strong></p>
+  <p class="text-sm mt-2">Project IRR without carbon credits = <strong>5.2%</strong> (below WACC of 7.31% - fails benchmark)</p>
+  <p class="text-sm">Project IRR with carbon credits at $18/tCO₂e = <strong>9.3%</strong> (above WACC - passes)</p>
+  <p class="text-sm font-bold text-amber-800 mt-2">Conclusion: Investment analysis passes - Proceed to Step 4</p>
+</ExampleBox>
+
+### Investment Analysis: What Must Go in the Excel Spreadsheet
+<p class="mb-3 text-sm">VT0008 Appendix 2 requires a transparent Excel model published alongside the project description on the Verra website. Commercially sensitive information may be protected where justified under the VCS Standard. Key requirements:</p>
+<ul class="list-disc ml-6 text-sm space-y-1 mb-4">
+  <li>All formulas readable and all relevant cells viewable and unprotected (except where commercially sensitive, must be justified to Verra's satisfaction)</li>
+  <li>Assessment period = expected project lifetime (minimum 10 years)</li>
+  <li>ALL relevant cash flows: investment costs, O&amp;M, revenues (including subsidies/incentives), end-of-period fair value of assets; <strong>depreciation and other non-cash items are NOT cash flows, they are added back when calculating financial indicators</strong></li>
+  <li>Post-tax cash flows (WACC and cost of equity are post-tax benchmarks)</li>
+  <li>Sunk costs excluded (expenditures before investment decision date)</li>
+  <li>Sensitivity analysis on all variables constituting >20% of total costs or revenues, variations of at least +/-10%</li>
+  <li>Spreadsheet published on Verra website alongside the project description</li>
+</ul>
+
+<div class="bg-red-50 border border-red-200 rounded p-3 mb-6 text-sm">
+  <p class="font-semibold text-red-800">Common Rejection Causes</p>
+  <ul class="mt-1 space-y-1 text-red-900">
+    <li>- Protected cells that hide formulas from VVB review</li>
+    <li>- Using pre-tax cash flows with post-tax benchmark</li>
+    <li>- Excluding unfavorable revenue assumptions from sensitivity analysis</li>
+    <li>- Using a debt/equity split inconsistent with sector norms</li>
+  </ul>
+</div>
+
+### Step 4: Common Practice Analysis
+<p class="mb-3">Even if Steps 2 or 3 are passed, additionality fails if the project activity has already become <strong>common practice</strong>, i.e., it has spread so widely in the applicable geographic area that carbon credits are no longer needed to drive adoption.</p>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+  <div class="bg-slate-50 border border-slate-200 rounded p-4 text-sm">
+    #### Step 4b, For Listed Measure Types
+    <p class="text-slate-700 mb-2">Applied to: fuel/feedstock switch, technology switch, methane destruction, methane avoidance, CCS.</p>
+    <p class="text-slate-700"><strong>Process:</strong> Define a +/-50% capacity/output range; identify all similar projects (both VCS and non-VCS) that started commercial operation before the project; exclude those under VCS, then define N_all. Identify those with essential distinctions as N_diff; calculate Factor F.</p>
+    <p class="font-mono text-sm bg-white p-2 rounded mt-2">F = 1 - N_diff / N_all</p>
+    <p class="font-bold text-red-700 mt-2">Common practice if: F &gt; 20% AND (N_all - N_diff) &gt; 3</p>
+  </div>
+  <div class="bg-green-50 border border-green-200 rounded p-4 text-sm">
+    #### Step 4c, For All Other Measures (incl. ALM)
+    <p class="text-green-900 mb-2">Applied to all ALM projects under VM0042.</p>
+    <p class="text-green-900"><strong>Process:</strong> Identify similar activities in the geographic area (N_all); identify those with essential distinctions (N_diff); calculate F.</p>
+    <p class="font-mono text-sm bg-white p-2 rounded mt-2">F = 1 - N_diff / N_all</p>
+    <p class="font-bold text-red-700 mt-2">Same threshold: F &gt; 20% AND (N_all - N_diff) &gt; 3 = common practice</p>
+  </div>
+</div>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Common Practice: India Cover Crop Example</p>
+  <p class="mt-2 text-sm">A VM0042 project introduces cover crops in Madhya Pradesh. Survey of similar-scale farms in the state:</p>
+  <ul class="list-disc ml-6 text-sm space-y-1 mt-1">
+    <li>N_all = 12 farms using cover crops without VCS registration</li>
+    <li>N_diff = 10 of these have essential distinctions (different soil type, access to irrigation-based water management, or costs >20% lower due to contract farming arrangements)</li>
+    <li>N_all - N_diff = 2 (similar farms without essential distinction)</li>
+    <li>F = 1 - 10/12 = 1 - 0.83 = <strong>0.17 (17%)</strong></li>
+  </ul>
+  <p class="mt-2 text-sm"><strong>Assessment:</strong> F = 17% (below 20% threshold) AND N_all - N_diff = 2 (&le; 3)</p>
+  <p class="text-sm font-bold text-amber-800 mt-1">Conclusion: NOT common practice - Project IS ADDITIONAL</p>
+</ExampleBox>
+
+<div class="bg-amber-50 border border-amber-200 rounded p-4 mb-6 text-sm">
+  <p class="font-semibold text-amber-800">Essential Distinctions for ALM Projects (Step 4c)</p>
+  <p class="mt-1 text-amber-900">When comparing similar ALM activities, essential distinctions may include differences in:</p>
+  <ul class="list-disc ml-6 mt-1 space-y-1 text-amber-900">
+    <li>Access to resources and input prices (fertilizer, seed, water)</li>
+    <li>Market conditions and output prices</li>
+    <li>Economic conditions, subsidies, government incentives</li>
+    <li>Infrastructure and accessibility</li>
+    <li>Labor force skills and expertise</li>
+    <li>Climatic, topographic, or geological differences</li>
+    <li>Cropland suitability (soil type, crop type)</li>
+  </ul>
+</div>
+<KeyTakeaways items="Investment analysis (Step 3) demonstrates the project IRR falls below WACC or cost of equity without carbon credits, then rises above with them ;; WACC combines equity cost (via CAPM) and debt cost, with VT0008 providing default values for risk-free rate and equity risk premium by country ;; The investment analysis Excel spreadsheet must be published on the Verra website with all formulas readable and unprotected ;; Common practice (Step 4) uses Factor F = 1 - N_diff/N_all - the project is common practice if F > 20% AND (N_all - N_diff) > 3 ;; A project is additional only if it passes Step 1, then either Step 2 or Step 3, and always Step 4 - failure at any required step blocks VCU issuance" />

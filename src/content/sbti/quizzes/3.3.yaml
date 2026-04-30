@@ -1,0 +1,44 @@
+- question: "Which of the following near-term target statements is compliant with SBTi requirements?"
+  options:
+    - "'We will significantly reduce our carbon footprint by 2030.'"
+    - "'Our emissions will be net-zero by 2040 through offsets and efficiency improvements.'"
+    - "'TechCorp commits to reduce absolute Scope 1 and Scope 2 GHG emissions 46.2% by 2030 from a 2019 base year.'"
+    - "'Our emissions intensity will improve year-on-year throughout the 2020s.'"
+  answer: 2
+  explanation: "A compliant SBTi target statement must include all four required components: base year (2019), target year (2030), scope coverage (Scope 1 and Scope 2), and percentage reduction (46.2%). Option A lacks all specifics. Option B conflates net-zero with near-term and provides no base year or scope definition. Option D lacks a base year, target year, scope definition, and quantified reduction percentage."
+
+- question: "Criterion C25 of the Near-Term Criteria requires companies with approved SBTi targets to:"
+  options:
+    - "Publish a full Scope 3 value chain audit every three years"
+    - "Annually disclose their GHG inventory and progress against each approved target in a publicly available format"
+    - "Submit updated target calculations to the SBTi for re-validation every two years"
+    - "Have their GHG inventory independently assured by a third party before each annual disclosure"
+  answer: 1
+  explanation: "C25 requires annual public disclosure of the GHG inventory and progress against each approved target. The disclosure must be publicly accessible -- not merely available internally. While third-party assurance is best practice and recommended by the SBTi, it is not a mandatory component of C25. Re-validation with the SBTi occurs as part of the five-year review cycle, not annually."
+
+- question: "Under Criterion C28, once the SBTi has approved a company's targets, the company must publicly announce those targets within how many months?"
+  options:
+    - "1 month"
+    - "3 months"
+    - "6 months"
+    - "12 months"
+  answer: 2
+  explanation: "Criterion C28 requires that companies publicly announce their approved targets within 6 months of receiving validation approval from the SBTi. This prevents companies from obtaining validated targets but delaying public disclosure indefinitely. Missing the 6-month window is a breach of C28 and can result in the target being delisted from the SBTi's public registry."
+
+- question: "The SBTi's Corporate Net-Zero Standard requires that before a company can neutralise residual emissions to claim net-zero, it must first achieve at least what level of absolute reduction across all scopes?"
+  options:
+    - "50% reduction from the base year"
+    - "70% reduction from the base year"
+    - "80% reduction from the base year"
+    - "90% reduction from the base year"
+  answer: 3
+  explanation: "The Corporate Net-Zero Standard requires a minimum 90% absolute reduction across all scopes (Scope 1, 2, and 3) before a company may neutralise residual emissions to claim net-zero. The residual emissions -- limited to a maximum of 10% of base year emissions -- must be neutralised through permanent carbon removals, not avoided-emission offsets. A company that relies heavily on offsetting without deep prior reductions does not meet SBTi's net-zero definition."
+
+- question: "Criterion C26 mandates that companies with approved SBTi targets must conduct a formal review of those targets at what frequency?"
+  options:
+    - "Every year, coinciding with the annual GHG inventory"
+    - "Every two years"
+    - "Every five years"
+    - "Only when a recalculation trigger (C27) event occurs"
+  answer: 2
+  explanation: "C26 requires a mandatory five-year review of all approved targets. This scheduled review ensures that targets remain current as the company's business evolves, as new SBTi criteria versions are published, and as Scope 3 inventories are updated to reflect material categories that may have grown in significance since original validation. Companies approved in 2020 or earlier were required to complete their first five-year review by 2025."

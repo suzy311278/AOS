@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;family=Space+Grotesk:wght@400;500;600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-highest": "#283837",
+                        "tertiary-fixed-dim": "#ffb599",
+                        "on-surface": "#d4e6e5",
+                        "inverse-on-surface": "#233333",
+                        "on-tertiary-fixed-variant": "#6e3822",
+                        "secondary-fixed": "#cce8e3",
+                        "on-secondary-container": "#a2beb9",
+                        "surface-bright": "#2c3c3c",
+                        "inverse-primary": "#1a6962",
+                        "surface": "#061616",
+                        "tertiary-fixed": "#ffdbce",
+                        "on-secondary-fixed": "#05201d",
+                        "on-error-container": "#ffdad6",
+                        "tertiary": "#ffb599",
+                        "surface-container-high": "#1d2d2d",
+                        "on-tertiary": "#52220e",
+                        "surface-container": "#122222",
+                        "secondary-fixed-dim": "#b0ccc7",
+                        "on-primary-container": "#8ad2c8",
+                        "outline": "#889391",
+                        "inverse-surface": "#d4e6e5",
+                        "surface-dim": "#061616",
+                        "primary-fixed": "#a7f0e6",
+                        "surface-tint": "#8cd4ca",
+                        "primary-fixed-dim": "#8cd4ca",
+                        "surface-container-low": "#0e1e1e",
+                        "on-tertiary-container": "#ffb295",
+                        "on-secondary-fixed-variant": "#324b48",
+                        "outline-variant": "#3f4947",
+                        "on-error": "#690005",
+                        "secondary-container": "#344e4a",
+                        "surface-container-lowest": "#021111",
+                        "on-secondary": "#1b3532",
+                        "surface-variant": "#283837",
+                        "on-surface-variant": "#bec9c6",
+                        "on-primary-fixed": "#00201d",
+                        "secondary": "#b0ccc7",
+                        "on-primary-fixed-variant": "#00504a",
+                        "on-tertiary-fixed": "#370e00",
+                        "error-container": "#93000a",
+                        "on-background": "#d4e6e5",
+                        "primary": "#8cd4ca",
+                        "error": "#ffb4ab",
+                        "primary-container": "#005c55",
+                        "on-primary": "#003733",
+                        "tertiary-container": "#7b422b",
+                        "background": "#061616"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0px",
+                        "lg": "0px",
+                        "xl": "0px",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter"],
+                        "body": ["Inter"],
+                        "label": ["Space Grotesk"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .dot-grid {
+            background-image: radial-gradient(#1a2e2e 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .text-glow {
+            text-shadow: 0 0 20px rgba(140, 212, 202, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 rounded-none bg-[#061616]/80 backdrop-blur-md flex justify-between items-center px-8 py-4 w-full max-w-full">
+<div class="font-['Inter'] font-bold text-xl tracking-tighter text-[#8cd4ca]">Greentryst</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-['Inter'] font-semibold tracking-tight text-sm text-[#8cd4ca] border-b-2 border-[#005c55] pb-1" href="#">Learn</a>
+<a class="font-['Inter'] font-semibold tracking-tight text-sm text-[#d4e6e5] opacity-80 hover:opacity-100 transition-colors duration-150" href="#">SustainIQ</a>
+<a class="font-['Inter'] font-semibold tracking-tight text-sm text-[#d4e6e5] opacity-80 hover:opacity-100 transition-colors duration-150" href="#">Career</a>
+<a class="font-['Inter'] font-semibold tracking-tight text-sm text-[#d4e6e5] opacity-80 hover:opacity-100 transition-colors duration-150" href="#">Tools</a>
+<a class="font-['Inter'] font-semibold tracking-tight text-sm text-[#d4e6e5] opacity-80 hover:opacity-100 transition-colors duration-150" href="#">Pricing</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="font-['Inter'] font-semibold tracking-tight text-sm text-[#d4e6e5] opacity-80 hover:opacity-100 transition-colors duration-150">Sign In</button>
+<button class="bg-primary-container text-on-primary-container px-5 py-2 font-['Inter'] font-semibold tracking-tight text-sm hover:bg-primary transition-colors duration-150">Get Started</button>
+</div>
+</nav>
+<!-- Main Content -->
+<main class="relative min-h-screen pt-20 overflow-hidden dot-grid">
+<div class="absolute inset-0 bg-gradient-to-b from-transparent to-surface pointer-events-none"></div>
+<section class="relative z-10 max-w-[1440px] mx-auto px-8 md:px-16 pt-24 pb-32 flex flex-col lg:flex-row min-h-[calc(100vh-80px)]">
+<!-- Left Side: Content (45%) -->
+<div class="w-full lg:w-[45%] flex flex-col justify-center pr-0 lg:pr-12">
+<div class="inline-flex items-center px-3 py-1 mb-8 bg-surface-container-high text-primary font-label text-[10px] tracking-widest uppercase font-bold border-l-2 border-primary">
+                    Platform v1.0
+                </div>
+<h1 class="text-[56px] lg:text-[72px] leading-[1.05] font-extrabold text-on-surface tracking-tighter mb-8">
+                    Learn the framework.<br/>
+                    Verify the answer.<br/>
+                    Execute the work.
+                </h1>
+<p class="text-lg lg:text-xl text-on-surface-variant max-w-lg mb-10 leading-relaxed opacity-80">
+                    The integrated terminal for sustainability professionals. Master ESG protocols, automate verification, and accelerate your climate career with high-precision data.
+                </p>
+<div class="flex flex-wrap items-center gap-8 mb-12">
+<button class="bg-primary-container hover:bg-primary text-on-primary-container px-8 py-4 font-bold text-base transition-all duration-150">
+                        Start Free
+                    </button>
+<a class="flex items-center gap-2 font-bold text-on-surface hover:text-primary transition-colors duration-150 group" href="#">
+                        See how it works
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<div class="font-label text-xs tracking-widest text-outline uppercase font-medium">
+                    No credit card required. <span class="text-on-surface">3 lessons free.</span>
+</div>
+</div>
+<!-- Right Side: Visual Composition (55%) -->
+<div class="w-full lg:w-[55%] relative mt-24 lg:mt-0 flex items-center justify-center">
+<!-- Ambient Glow -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary-container/20 rounded-full blur-[120px] pointer-events-none"></div>
+<!-- Stacked UI Panels -->
+<div class="relative w-full max-w-[600px] h-[500px] flex items-center justify-center">
+<!-- Back Card: Career -->
+<div class="absolute transform -translate-x-12 -translate-y-20 -rotate-6 w-full max-w-[400px] bg-surface-container-low p-6 shadow-2xl border border-outline-variant/15">
+<div class="flex justify-between items-start mb-6">
+<div>
+<h3 class="font-bold text-on-surface text-lg">Senior ESG Analyst</h3>
+<p class="font-label text-xs text-outline uppercase tracking-wider">London — Deloitte</p>
+</div>
+<div class="bg-primary-container/30 text-primary-fixed px-2 py-1 font-label text-[10px] font-bold">87% MATCH</div>
+</div>
+<div class="space-y-3">
+<div class="h-2 w-full bg-surface-container-highest"></div>
+<div class="h-2 w-3/4 bg-surface-container-highest"></div>
+<div class="h-2 w-5/6 bg-surface-container-highest"></div>
+</div>
+</div>
+<!-- Middle Card: SustainIQ Query -->
+<div class="absolute transform translate-x-4 -translate-y-4 -rotate-2 w-full max-w-[440px] bg-surface-container p-8 shadow-2xl border border-outline-variant/20 z-10">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-primary text-sm">terminal</span>
+<span class="font-label text-xs tracking-widest text-outline uppercase">SustainIQ Query</span>
+</div>
+<p class="font-label text-sm text-on-surface-variant mb-6 leading-relaxed">
+                            What is the GWP of methane under AR6?
+                        </p>
+<div class="bg-surface-container-lowest p-5 border-l-2 border-primary mb-4">
+<div class="flex justify-between items-center mb-2">
+<span class="font-label text-[10px] text-primary font-bold uppercase tracking-widest">Calculated Result</span>
+<span class="material-symbols-outlined text-primary text-xs" data-weight="fill">verified</span>
+</div>
+<p class="font-label text-xl text-primary font-bold">27.9</p>
+<p class="font-label text-[10px] text-outline mt-1 uppercase tracking-tighter">(AR6, Table 7.15, p.1017)</p>
+</div>
+<div class="flex items-center gap-2">
+<div class="bg-primary h-1.5 w-1.5"></div>
+<span class="font-label text-[10px] text-outline uppercase tracking-widest">Source Verified</span>
+</div>
+</div>
+<!-- Front Card: Lesson -->
+<div class="absolute transform translate-x-16 translate-y-24 rotate-3 w-full max-w-[420px] bg-surface-container-high p-8 shadow-[0_40px_60px_-15px_rgba(0,0,0,0.6)] border border-outline-variant/30 z-20">
+<div class="flex justify-between items-center mb-6">
+<h4 class="font-bold text-on-surface text-base">Understanding Scope 3 Categories</h4>
+<span class="material-symbols-outlined text-on-surface-variant">school</span>
+</div>
+<div class="mb-8">
+<div class="flex justify-between items-center mb-2 font-label text-[10px] text-outline uppercase font-bold tracking-widest">
+<span>Current Progress</span>
+<span class="text-on-surface">60%</span>
+</div>
+<div class="h-1.5 w-full bg-surface-container-lowest overflow-hidden">
+<div class="h-full bg-primary w-[60%]"></div>
+</div>
+</div>
+<div class="pt-4 border-t border-outline-variant/20">
+<p class="font-label text-[10px] text-outline italic leading-tight">
+                                Citation: GHG Protocol Corporate Value Chain (Scope 3) Standard, Chapter 5.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Logo Cloud / Technical Stack -->
+<section class="max-w-[1440px] mx-auto px-16 pb-24 border-t border-outline-variant/15 pt-12 flex flex-col items-center">
+<span class="font-label text-[10px] text-outline uppercase tracking-[0.3em] font-bold mb-12">Built to ISO and SASB Engineering Standards</span>
+<div class="flex flex-wrap justify-center items-center gap-16 opacity-40 grayscale hover:grayscale-0 transition-all duration-500">
+<div class="font-['Inter'] font-black text-2xl tracking-tighter">TCFD</div>
+<div class="font-['Inter'] font-black text-2xl tracking-tighter">ISSB</div>
+<div class="font-['Inter'] font-black text-2xl tracking-tighter">GRI</div>
+<div class="font-['Inter'] font-black text-2xl tracking-tighter">PCAF</div>
+<div class="font-['Inter'] font-black text-2xl tracking-tighter">EFRAG</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full rounded-none border-t border-[#3f4947]/15 bg-[#061616] dark:bg-[#061616] flex flex-col md:flex-row justify-between items-center px-8 py-12 w-full">
+<div class="flex flex-col items-center md:items-start gap-4">
+<div class="font-['Inter'] font-bold text-lg text-[#8cd4ca]">Greentryst</div>
+<p class="font-['Space_Grotesk'] text-xs uppercase tracking-widest text-[#d4e6e5]/60 text-center md:text-left max-w-md">
+                © 2024 Greentryst. Orthogonal Precision for Sustainability Professionals.
+            </p>
+</div>
+<div class="flex gap-8 mt-8 md:mt-0">
+<a class="font-['Space_Grotesk'] text-xs uppercase tracking-widest text-[#d4e6e5]/60 hover:text-[#8cd4ca] transition-colors duration-150" href="#">Documentation</a>
+<a class="font-['Space_Grotesk'] text-xs uppercase tracking-widest text-[#d4e6e5]/60 hover:text-[#8cd4ca] transition-colors duration-150" href="#">Privacy</a>
+<a class="font-['Space_Grotesk'] text-xs uppercase tracking-widest text-[#d4e6e5]/60 hover:text-[#8cd4ca] transition-colors duration-150" href="#">Terms</a>
+<a class="font-['Space_Grotesk'] text-xs uppercase tracking-widest text-[#d4e6e5]/60 hover:text-[#8cd4ca] transition-colors duration-150" href="#">API Status</a>
+<a class="font-['Space_Grotesk'] text-xs uppercase tracking-widest text-[#d4e6e5]/60 hover:text-[#8cd4ca] transition-colors duration-150" href="#">Security</a>
+</div>
+</footer>
+</body></html>

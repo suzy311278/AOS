@@ -1,0 +1,26 @@
+- question: "Which carbon pool is ALWAYS mandatory in every VM0042 project?"
+  options:
+  - "Aboveground woody biomass"
+  - "Soil Organic Carbon (SOC)"
+  - "Dead wood and litter"
+  - "Belowground non-woody biomass"
+  answer: 1
+  explanation: "SOC is explicitly mandatory in VM0042 — it cannot be deemed de minimis and excluded. It is the core carbon pool that the methodology is designed to track."
+
+- question: "A grazing project reduces cattle stocking rates. Which two GHG sources become relevant that wouldn't apply to a cropland-only project?"
+  options:
+  - "Fossil fuel and liming"
+  - "Enteric fermentation and manure deposition"
+  - "Biomass burning and soil methanogenesis"
+  - "N₂O from fertilizers and CO₂ from SOC"
+  answer: 1
+  explanation: "When livestock are present, both enteric fermentation (CH₄ from cattle digestion) and manure deposition (CH₄ + N₂O from manure on pastures) must be included in the project boundary."
+
+- question: "The de minimis rule allows you to exclude a GHG source from the project boundary. When does this apply?"
+  options:
+  - "When the source is from a developing country"
+  - "When the sum of omitted increases in GHG emissions is less than 5% of total GHG benefit"
+  - "When the source is natural rather than human-caused"
+  - "When the project developer certifies it is not significant"
+  answer: 1
+  explanation: "The de minimis rule allows exclusion when the combined omitted GHG sources together amount to less than 5% of the total net GHG benefit. This must be demonstrated using the CDM significance testing tool."

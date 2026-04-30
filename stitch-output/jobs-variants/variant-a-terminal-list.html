@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Greentryst Terminal | Sustainability Jobs</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "tertiary-fixed-dim": "#86d7ad",
+                        "surface": "#e7fff3",
+                        "secondary-fixed-dim": "#a5d0b9",
+                        "error-container": "#ffdad6",
+                        "primary-fixed": "#b1f0ce",
+                        "secondary": "#3f6653",
+                        "secondary-fixed": "#c1ecd4",
+                        "background": "#e7fff3",
+                        "surface-container-low": "#e2f9ed",
+                        "inverse-surface": "#21342c",
+                        "on-surface": "#0b1f18",
+                        "primary": "#0f5238",
+                        "on-tertiary-fixed-variant": "#005236",
+                        "secondary-container": "#beead1",
+                        "on-surface-variant": "#404943",
+                        "tertiary": "#005236",
+                        "surface-dim": "#c8dfd4",
+                        "on-tertiary-container": "#98eabf",
+                        "on-error": "#ffffff",
+                        "surface-tint": "#2c694e",
+                        "tertiary-container": "#116c4a",
+                        "outline": "#707973",
+                        "on-background": "#0b1f18",
+                        "on-error-container": "#93000a",
+                        "error": "#ba1a1a",
+                        "on-secondary-fixed-variant": "#274e3d",
+                        "surface-variant": "#d1e8dc",
+                        "surface-bright": "#e7fff3",
+                        "on-primary-fixed-variant": "#0e5138",
+                        "surface-container-high": "#d6eee2",
+                        "on-tertiary": "#ffffff",
+                        "inverse-on-surface": "#dff6ea",
+                        "on-secondary-fixed": "#002114",
+                        "on-secondary-container": "#436b58",
+                        "on-primary-container": "#a8e7c5",
+                        "on-tertiary-fixed": "#002113",
+                        "on-primary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed-dim": "#95d4b3",
+                        "tertiary-fixed": "#a1f4c8",
+                        "primary-container": "#2d6a4f",
+                        "on-primary-fixed": "#002114",
+                        "surface-container-highest": "#d1e8dc",
+                        "outline-variant": "#bfc9c1",
+                        "surface-container": "#dcf3e7",
+                        "on-secondary": "#ffffff",
+                        "inverse-primary": "#95d4b3"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    fontFamily: {
+                        "headline": ["Inter"],
+                        "body": ["Inter"],
+                        "label": ["Inter"],
+                        "mono": ["JetBrains Mono"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+            font-size: 1.25rem;
+        }
+        body {
+            background-color: #D8F3DC;
+            color: #081C15;
+            font-family: 'Inter', sans-serif;
+        }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+    </style>
+</head>
+<body class="min-h-screen">
+<!-- TopNavBar (Shared Component) -->
+<header class="fixed top-0 w-full z-50 bg-[#D8F3DC]/80 dark:bg-[#081C15]/80 backdrop-blur-md shadow-sm dark:shadow-none flex justify-between items-center px-6 h-14 w-full">
+<div class="flex items-center gap-8">
+<span class="text-xl font-bold tracking-tighter text-[#081C15] dark:text-[#D8F3DC]">Greentryst</span>
+<nav class="hidden md:flex gap-6">
+<a class="text-[#2D6A4F]/70 dark:text-[#D8F3DC]/60 hover:bg-[#E2F9ED] dark:hover:bg-[#1B4332] transition-colors duration-200 ease-in-out font-['Inter'] tracking-tight" href="#">Market</a>
+<a class="text-[#2D6A4F]/70 dark:text-[#D8F3DC]/60 hover:bg-[#E2F9ED] dark:hover:bg-[#1B4332] transition-colors duration-200 ease-in-out font-['Inter'] tracking-tight" href="#">Indices</a>
+<a class="text-[#2D6A4F]/70 dark:text-[#D8F3DC]/60 hover:bg-[#E2F9ED] dark:hover:bg-[#1B4332] transition-colors duration-200 ease-in-out font-['Inter'] tracking-tight" href="#">Policy</a>
+<a class="text-[#081C15] dark:text-[#FFFFFF] border-b-2 border-[#2D6A4F] font-['Inter'] tracking-tight" href="#">Terminal</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-[#2D6A4F]">notifications</button>
+<button class="material-symbols-outlined text-[#2D6A4F]">settings</button>
+<img alt="Analyst profile" class="w-8 h-8 rounded-full bg-surface-container" data-alt="Close-up portrait of a professional female sustainability analyst in a minimalist office setting with soft natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClgXNNGjhwPsYUV7LqXvjLFD8yeDd3Op4x3lq4fNwLGm4Ag3PG9KojFEMnvNTHhHybN-gQ3p0EbTZEwTzrVcC4s_zf7jvf9fSkyI1kDSr_yS7sj9eEKvbm8JWB9DuYSkYvWD-qVosXRW6HEY8IjbBKgIN1aR_H05mnjLWoBI53pebjbJnu7Kxqx5EagmX4lR_7FlQd1TExQ6uqa1UTlyWR62NjPD32UWjeBCqoDM4llkxqL06hJsWSlYQDdRlN9OFKFQ1or_jwOp0"/>
+</div>
+</header>
+<!-- SideNavBar (Shared Component) -->
+<aside class="fixed left-0 top-0 h-full w-64 z-40 bg-[#0B3D2E] dark:bg-[#040D0A] flex flex-col p-4 space-y-2 shadow-xl pt-20">
+<div class="mb-8 px-2">
+<div class="flex items-center gap-3">
+<img alt="Greentryst Logo" class="w-8 h-8" data-alt="Minimalist abstract vector logo representing a stylized green leaf inside a hexagonal grid structure" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9KjDgUDXgEl6fdY-ifx2dV5ufOhFVnMZoaWShlBuPC2zoj5ZD1ldYwrgxfYrfclGkltf5bxuP4gG_18ExULG9mVKprZ2xqpVs5EO1cR7JcuEd7Z-regK8izs34qRMwE6gT9a8qnpOFOIiUPyqO2KBH0W3tlZ2vyYa9yDUnrbiCloUo7vSoPHwuuBQjOq6qVnuAoXHhoSy4ThV3TR2aSetC4PHofwDC6GL4EqNLXG8JlEPJJpghrSFK0DEIBiYHFiVPnYvEVvzHdU"/>
+<div>
+<p class="text-white font-black font-['JetBrains_Mono'] uppercase tracking-widest text-[10px]">Terminal v2.4</p>
+<p class="text-[#D8F3DC]/50 text-[9px] uppercase font-mono">Analyst Access</p>
+</div>
+</div>
+</div>
+<nav class="flex-1 space-y-1">
+<a class="flex items-center gap-3 p-3 text-[#D8F3DC]/50 hover:text-white hover:bg-[#1B4332] transition-all duration-150 rounded-md" href="#">
+<span class="material-symbols-outlined">grid_view</span>
+<span class="font-['JetBrains_Mono'] uppercase tracking-widest text-[10px]">Dashboard</span>
+</a>
+<a class="flex items-center gap-3 p-3 bg-[#2D6A4F] text-white rounded-md transition-all duration-150" href="#">
+<span class="material-symbols-outlined">work</span>
+<span class="font-['JetBrains_Mono'] uppercase tracking-widest text-[10px]">Open Roles</span>
+</a>
+<a class="flex items-center gap-3 p-3 text-[#D8F3DC]/50 hover:text-white hover:bg-[#1B4332] transition-all duration-150 rounded-md" href="#">
+<span class="material-symbols-outlined">domain</span>
+<span class="font-['JetBrains_Mono'] uppercase tracking-widest text-[10px]">Company Database</span>
+</a>
+<a class="flex items-center gap-3 p-3 text-[#D8F3DC]/50 hover:text-white hover:bg-[#1B4332] transition-all duration-150 rounded-md" href="#">
+<span class="material-symbols-outlined">bar_chart_4_bars</span>
+<span class="font-['JetBrains_Mono'] uppercase tracking-widest text-[10px]">ESG Analytics</span>
+</a>
+<a class="flex items-center gap-3 p-3 text-[#D8F3DC]/50 hover:text-white hover:bg-[#1B4332] transition-all duration-150 rounded-md" href="#">
+<span class="material-symbols-outlined">description</span>
+<span class="font-['JetBrains_Mono'] uppercase tracking-widest text-[10px]">Reports</span>
+</a>
+</nav>
+<div class="pt-4 mt-auto border-t border-white/10 space-y-1">
+<button class="w-full mb-4 bg-white text-[#0B3D2E] py-2 rounded-md font-mono text-[10px] uppercase font-bold hover:bg-[#D8F3DC] transition-colors">Post New Listing</button>
+<a class="flex items-center gap-3 p-2 text-[#D8F3DC]/50 hover:text-white transition-all duration-150" href="#">
+<span class="material-symbols-outlined">help_center</span>
+<span class="font-['JetBrains_Mono'] uppercase tracking-widest text-[10px]">Help Desk</span>
+</a>
+<a class="flex items-center gap-3 p-2 text-[#D8F3DC]/50 hover:text-white transition-all duration-150" href="#">
+<span class="material-symbols-outlined">logout</span>
+<span class="font-['JetBrains_Mono'] uppercase tracking-widest text-[10px]">Logout</span>
+</a>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="ml-64 pt-14 px-8 pb-12">
+<!-- Page Header -->
+<div class="mt-12 mb-10">
+<p class="mono text-primary font-bold tracking-widest text-xs uppercase mb-3">CAREER DIRECTORY</p>
+<h1 class="text-5xl font-extrabold text-[#081C15] tracking-tighter max-w-2xl mb-6">Sustainability jobs, curated for practitioners.</h1>
+<div class="flex flex-wrap gap-x-8 gap-y-2 mono text-sm text-[#2D6A4F]/80">
+<span>1,482 jobs live</span>
+<span>·</span>
+<span>340 companies</span>
+<span>·</span>
+<span>28 countries</span>
+<span>·</span>
+<span>420 remote</span>
+</div>
+</div>
+<!-- Sticky Filter Bar -->
+<div class="sticky top-14 z-30 bg-[#D8F3DC]/95 backdrop-blur-sm py-4 -mx-8 px-8 mb-6">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-hide">
+<button class="px-4 py-1.5 rounded-full bg-primary text-white text-xs font-semibold whitespace-nowrap">All Roles</button>
+<button class="px-4 py-1.5 rounded-full bg-white text-[#2D6A4F] text-xs font-semibold whitespace-nowrap hover:bg-[#E2F9ED]">Climate Risk</button>
+<button class="px-4 py-1.5 rounded-full bg-white text-[#2D6A4F] text-xs font-semibold whitespace-nowrap hover:bg-[#E2F9ED]">Sustainable Finance</button>
+<button class="px-4 py-1.5 rounded-full bg-white text-[#2D6A4F] text-xs font-semibold whitespace-nowrap hover:bg-[#E2F9ED]">EU Taxonomy</button>
+<button class="px-4 py-1.5 rounded-full bg-white text-[#2D6A4F] text-xs font-semibold whitespace-nowrap hover:bg-[#E2F9ED]">Carbon Markets</button>
+<button class="px-4 py-1.5 rounded-full bg-white text-[#2D6A4F] text-xs font-semibold whitespace-nowrap hover:bg-[#E2F9ED]">Clean Energy</button>
+</div>
+<div class="flex flex-wrap items-center gap-3">
+<div class="relative flex-1 min-w-[300px]">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-[#2D6A4F]/50">search</span>
+<input class="w-full pl-10 pr-4 py-2 bg-white border-none rounded-lg text-sm focus:ring-2 focus:ring-[#2D6A4F]/20" placeholder="Search by job title or company..." type="text"/>
+</div>
+<select class="bg-white border-none rounded-lg text-xs font-mono py-2 pl-3 pr-8 focus:ring-2 focus:ring-[#2D6A4F]/20">
+<option>Country</option>
+<option>United Kingdom</option>
+<option>United States</option>
+<option>Germany</option>
+</select>
+<select class="bg-white border-none rounded-lg text-xs font-mono py-2 pl-3 pr-8 focus:ring-2 focus:ring-[#2D6A4F]/20">
+<option>Company Type</option>
+<option>Financial Services</option>
+<option>Consulting</option>
+<option>Enterprise</option>
+</select>
+<select class="bg-white border-none rounded-lg text-xs font-mono py-2 pl-3 pr-8 focus:ring-2 focus:ring-[#2D6A4F]/20">
+<option>Work Mode</option>
+<option>Remote</option>
+<option>Hybrid</option>
+<option>On-site</option>
+</select>
+</div>
+</div>
+</div>
+<!-- Job Table -->
+<div class="space-y-3">
+<!-- Expanded Row -->
+<div class="bg-white rounded-lg shadow-sm overflow-hidden outline outline-1 outline-primary/10">
+<div class="flex items-center px-6 py-4 cursor-pointer hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[#2D6A4F] mr-4 rotate-180 transition-transform">expand_more</span>
+<div class="grid grid-cols-12 w-full items-center gap-4">
+<div class="col-span-4">
+<h3 class="font-bold text-sm text-[#081C15]">Climate Risk Analyst</h3>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">corporate_fare</span>
+<span class="text-xs text-[#2D6A4F]/70">BlackRock</span>
+</div>
+</div>
+<div class="col-span-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">location_on</span>
+<span class="text-xs text-[#2D6A4F]/70">New York, NY</span>
+</div>
+</div>
+<div class="col-span-2">
+<span class="mono text-[10px] bg-[#E2F9ED] text-[#2D6A4F] px-2 py-0.5 rounded font-bold">CLIMATE RISK</span>
+</div>
+<div class="col-span-2 text-right">
+<span class="mono text-[10px] text-[#2D6A4F]/60">2h ago</span>
+</div>
+<div class="col-span-2 flex justify-end">
+<button class="bg-[#2D6A4F] text-white px-4 py-1.5 rounded-md text-xs font-bold hover:bg-[#1B4332] transition-colors">Apply</button>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low px-14 py-8 border-t border-primary/5">
+<div class="grid grid-cols-3 gap-12">
+<div>
+<h4 class="mono text-[11px] font-bold text-primary mb-4 uppercase tracking-widest">Role Summary</h4>
+<p class="text-sm leading-relaxed text-[#081C15]/80">
+                                Leading the integration of quantitative physical and transition risk assessments into portfolio management. You will work across global asset classes to ensure alignment with Net Zero 2050 commitments.
+                            </p>
+</div>
+<div>
+<h4 class="mono text-[11px] font-bold text-primary mb-4 uppercase tracking-widest">Skills Required</h4>
+<div class="flex flex-wrap gap-2">
+<span class="text-[11px] bg-white border border-primary/10 px-2 py-1 rounded mono text-[#2D6A4F]">TCFD</span>
+<span class="text-[11px] bg-white border border-primary/10 px-2 py-1 rounded mono text-[#2D6A4F]">Scenario Modeling</span>
+<span class="text-[11px] bg-white border border-primary/10 px-2 py-1 rounded mono text-[#2D6A4F]">SQL</span>
+<span class="text-[11px] bg-white border border-primary/10 px-2 py-1 rounded mono text-[#2D6A4F]">Python</span>
+<span class="text-[11px] bg-white border border-primary/10 px-2 py-1 rounded mono text-[#2D6A4F]">RCM8</span>
+</div>
+</div>
+<div>
+<h4 class="mono text-[11px] font-bold text-primary mb-4 uppercase tracking-widest">Domain Context</h4>
+<p class="text-sm leading-relaxed text-[#081C15]/80">
+                                Deep expertise in <strong class="text-primary">ISSB standards</strong> and <strong class="text-primary">EFRAG</strong> requirements is essential for this cycle's reporting. Focus on materiality analysis for APAC region.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Standard Rows -->
+<div class="bg-white rounded-lg shadow-sm border border-primary/5 hover:border-primary/20 transition-all">
+<div class="flex items-center px-6 py-4 cursor-pointer hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[#2D6A4F]/40 mr-4">expand_more</span>
+<div class="grid grid-cols-12 w-full items-center gap-4">
+<div class="col-span-4">
+<h3 class="font-bold text-sm text-[#081C15]">ESG Data Manager</h3>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">corporate_fare</span>
+<span class="text-xs text-[#2D6A4F]/70">Unilever</span>
+</div>
+</div>
+<div class="col-span-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">location_on</span>
+<span class="text-xs text-[#2D6A4F]/70">London, UK</span>
+</div>
+</div>
+<div class="col-span-2">
+<span class="mono text-[10px] bg-[#E2F9ED] text-[#2D6A4F] px-2 py-0.5 rounded font-bold">REPORTING</span>
+</div>
+<div class="col-span-2 text-right">
+<span class="mono text-[10px] text-[#2D6A4F]/60">5h ago</span>
+</div>
+<div class="col-span-2 flex justify-end">
+<button class="bg-[#2D6A4F] text-white px-4 py-1.5 rounded-md text-xs font-bold hover:bg-[#1B4332] transition-colors">Apply</button>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm border border-primary/5 hover:border-primary/20 transition-all">
+<div class="flex items-center px-6 py-4 cursor-pointer hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[#2D6A4F]/40 mr-4">expand_more</span>
+<div class="grid grid-cols-12 w-full items-center gap-4">
+<div class="col-span-4">
+<h3 class="font-bold text-sm text-[#081C15]">Carbon Market Specialist</h3>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">corporate_fare</span>
+<span class="text-xs text-[#2D6A4F]/70">Shell</span>
+</div>
+</div>
+<div class="col-span-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">location_on</span>
+<span class="text-xs text-[#2D6A4F]/70">Amsterdam, NL</span>
+</div>
+</div>
+<div class="col-span-2">
+<span class="mono text-[10px] bg-[#E2F9ED] text-[#2D6A4F] px-2 py-0.5 rounded font-bold">CARBON MARKETS</span>
+</div>
+<div class="col-span-2 text-right">
+<span class="mono text-[10px] text-[#2D6A4F]/60">1d ago</span>
+</div>
+<div class="col-span-2 flex justify-end">
+<button class="bg-[#2D6A4F] text-white px-4 py-1.5 rounded-md text-xs font-bold hover:bg-[#1B4332] transition-colors">Apply</button>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm border border-primary/5 hover:border-primary/20 transition-all">
+<div class="flex items-center px-6 py-4 cursor-pointer hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[#2D6A4F]/40 mr-4">expand_more</span>
+<div class="grid grid-cols-12 w-full items-center gap-4">
+<div class="col-span-4">
+<h3 class="font-bold text-sm text-[#081C15]">Sustainability Reporting Lead</h3>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">corporate_fare</span>
+<span class="text-xs text-[#2D6A4F]/70">Standard Chartered</span>
+</div>
+</div>
+<div class="col-span-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">public</span>
+<span class="text-xs text-[#2D6A4F]/70">Remote</span>
+</div>
+</div>
+<div class="col-span-2">
+<span class="mono text-[10px] bg-[#E2F9ED] text-[#2D6A4F] px-2 py-0.5 rounded font-bold">STRATEGY</span>
+</div>
+<div class="col-span-2 text-right">
+<span class="mono text-[10px] text-[#2D6A4F]/60">1d ago</span>
+</div>
+<div class="col-span-2 flex justify-end">
+<button class="bg-[#2D6A4F] text-white px-4 py-1.5 rounded-md text-xs font-bold hover:bg-[#1B4332] transition-colors">Apply</button>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm border border-primary/5 hover:border-primary/20 transition-all">
+<div class="flex items-center px-6 py-4 cursor-pointer hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[#2D6A4F]/40 mr-4">expand_more</span>
+<div class="grid grid-cols-12 w-full items-center gap-4">
+<div class="col-span-4">
+<h3 class="font-bold text-sm text-[#081C15]">Green Finance Associate</h3>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">corporate_fare</span>
+<span class="text-xs text-[#2D6A4F]/70">Deloitte</span>
+</div>
+</div>
+<div class="col-span-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">location_on</span>
+<span class="text-xs text-[#2D6A4F]/70">Paris, FR</span>
+</div>
+</div>
+<div class="col-span-2">
+<span class="mono text-[10px] bg-[#E2F9ED] text-[#2D6A4F] px-2 py-0.5 rounded font-bold">FINANCE</span>
+</div>
+<div class="col-span-2 text-right">
+<span class="mono text-[10px] text-[#2D6A4F]/60">2d ago</span>
+</div>
+<div class="col-span-2 flex justify-end">
+<button class="bg-[#2D6A4F] text-white px-4 py-1.5 rounded-md text-xs font-bold hover:bg-[#1B4332] transition-colors">Apply</button>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm border border-primary/5 hover:border-primary/20 transition-all">
+<div class="flex items-center px-6 py-4 cursor-pointer hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[#2D6A4F]/40 mr-4">expand_more</span>
+<div class="grid grid-cols-12 w-full items-center gap-4">
+<div class="col-span-4">
+<h3 class="font-bold text-sm text-[#081C15]">EU Taxonomy Analyst</h3>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">corporate_fare</span>
+<span class="text-xs text-[#2D6A4F]/70">MSCI</span>
+</div>
+</div>
+<div class="col-span-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">location_on</span>
+<span class="text-xs text-[#2D6A4F]/70">Frankfurt, DE</span>
+</div>
+</div>
+<div class="col-span-2">
+<span class="mono text-[10px] bg-[#E2F9ED] text-[#2D6A4F] px-2 py-0.5 rounded font-bold">EU TAXONOMY</span>
+</div>
+<div class="col-span-2 text-right">
+<span class="mono text-[10px] text-[#2D6A4F]/60">2d ago</span>
+</div>
+<div class="col-span-2 flex justify-end">
+<button class="bg-[#2D6A4F] text-white px-4 py-1.5 rounded-md text-xs font-bold hover:bg-[#1B4332] transition-colors">Apply</button>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm border border-primary/5 hover:border-primary/20 transition-all">
+<div class="flex items-center px-6 py-4 cursor-pointer hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[#2D6A4F]/40 mr-4">expand_more</span>
+<div class="grid grid-cols-12 w-full items-center gap-4">
+<div class="col-span-4">
+<h3 class="font-bold text-sm text-[#081C15]">Scope 3 Consultant</h3>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">corporate_fare</span>
+<span class="text-xs text-[#2D6A4F]/70">Verra</span>
+</div>
+</div>
+<div class="col-span-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">location_on</span>
+<span class="text-xs text-[#2D6A4F]/70">Washington, DC</span>
+</div>
+</div>
+<div class="col-span-2">
+<span class="mono text-[10px] bg-[#E2F9ED] text-[#2D6A4F] px-2 py-0.5 rounded font-bold">CONSULTING</span>
+</div>
+<div class="col-span-2 text-right">
+<span class="mono text-[10px] text-[#2D6A4F]/60">3d ago</span>
+</div>
+<div class="col-span-2 flex justify-end">
+<button class="bg-[#2D6A4F] text-white px-4 py-1.5 rounded-md text-xs font-bold hover:bg-[#1B4332] transition-colors">Apply</button>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg shadow-sm border border-primary/5 hover:border-primary/20 transition-all">
+<div class="flex items-center px-6 py-4 cursor-pointer hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[#2D6A4F]/40 mr-4">expand_more</span>
+<div class="grid grid-cols-12 w-full items-center gap-4">
+<div class="col-span-4">
+<h3 class="font-bold text-sm text-[#081C15]">Net Zero Strategy Director</h3>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">corporate_fare</span>
+<span class="text-xs text-[#2D6A4F]/70">South Pole</span>
+</div>
+</div>
+<div class="col-span-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-xs text-[#2D6A4F]/60">location_on</span>
+<span class="text-xs text-[#2D6A4F]/70">Zurich, CH</span>
+</div>
+</div>
+<div class="col-span-2">
+<span class="mono text-[10px] bg-[#E2F9ED] text-[#2D6A4F] px-2 py-0.5 rounded font-bold">DIRECTOR</span>
+</div>
+<div class="col-span-2 text-right">
+<span class="mono text-[10px] text-[#2D6A4F]/60">3d ago</span>
+</div>
+<div class="col-span-2 flex justify-end">
+<button class="bg-[#2D6A4F] text-white px-4 py-1.5 rounded-md text-xs font-bold hover:bg-[#1B4332] transition-colors">Apply</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Pagination -->
+<div class="mt-10 flex items-center justify-between px-2">
+<span class="mono text-xs text-[#2D6A4F]/60 uppercase font-bold">Page 1 of 12</span>
+<div class="flex gap-2">
+<button class="p-2 bg-white rounded border border-primary/10 hover:bg-[#E2F9ED] text-primary disabled:opacity-30" disabled="">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="p-2 bg-white rounded border border-primary/10 hover:bg-[#E2F9ED] text-primary">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+</main>
+<!-- BottomNavBar (Mobile Only suppression logic implied) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full bg-[#D8F3DC] border-t border-primary/5 flex justify-around p-3 z-50">
+<span class="material-symbols-outlined text-primary">grid_view</span>
+<span class="material-symbols-outlined text-primary font-variation-settings-'FILL' 1">work</span>
+<span class="material-symbols-outlined text-primary">bar_chart_4_bars</span>
+<span class="material-symbols-outlined text-primary">description</span>
+</nav>
+</body></html>

@@ -1,0 +1,8 @@
+- question: "What proportion of bond proceeds must be taxonomy-aligned to use the European Green Bond label?"
+  options:
+    - "At least 50%"
+    - "At least 70%"
+    - "At least 85%"
+    - "100%"
+  answer: 2
+  explanation: "At least 85% of EuGB proceeds must go to taxonomy-aligned activities. The remaining 15% can go to green purposes where no taxonomy criteria exist yet."

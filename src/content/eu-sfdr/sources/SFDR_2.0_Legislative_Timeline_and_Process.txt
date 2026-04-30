@@ -1,0 +1,245 @@
+SFDR 2.0: LEGISLATIVE TIMELINE, PROCESS, AND IMPLEMENTATION
+=============================================================
+Compiled from official sources and law firm analysis
+Research date: March 2026
+
+PART 1: COMPLETE LEGISLATIVE TIMELINE
+=======================================
+
+SFDR 1.0 HISTORY (CONTEXT)
+-----------------------------
+January 2020: SFDR Regulation (EU) 2019/2088 published in Official Journal
+March 10, 2021: SFDR Level 1 (entity-level and product-level disclosure framework) enters application
+August 2022: Level 2 RTS (Delegated Regulation (EU) 2022/1288) published
+January 1, 2023: Full SFDR Level 2 disclosure templates (pre-contractual and periodic) become applicable
+November 2022: First wave of Article 8/9 mass reclassifications as managers grapple with "sustainable investment" definition
+
+SFDR REVIEW PROCESS (2022-2025)
+---------------------------------
+December 2022: Commissioner Mairead McGuinness announces formal SFDR review
+September 14, 2023: European Commission launches open and targeted consultations on SFDR assessment
+September 14, 2023: Targeted consultation document published
+   URL: https://finance.ec.europa.eu/system/files/2023-09/2023-sfdr-implementation-targeted-consultation-document_en.pdf
+December 22, 2023: Consultation closes
+January 22, 2024: Consultation responses published
+May 3, 2024: Summary Report of consultations published
+June 18, 2024: Joint ESAs Opinion on SFDR assessment published (JC 2024 06)
+   - ESAs propose replacing Articles 8/9 with two categories (Sustainability + Transition) and/or sustainability indicators
+   - ESAs recommend abolishing entity-level PAI statements
+   - Marks the formal expert recommendation phase
+September 2025: ESAs publish Report on PAI disclosures (JC 2025 26)
+   URL: https://www.esma.europa.eu/sites/default/files/2025-09/JC_2025_26_Report_on_PAI_disclosures_under_Article_18_SFDR.pdf
+November 20, 2025: European Commission publishes formal SFDR 2.0 legislative proposal
+   Document: COM(2025) 841 final
+   URL: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52025PC0841
+   This is the formal start of the EU legislative (co-decision) procedure
+
+CURRENT LEGISLATIVE STAGE (AS OF MARCH 2026)
+----------------------------------------------
+The SFDR 2.0 proposal is currently before the European Parliament and the Council of the EU for the "ordinary legislative procedure" (co-decision):
+
+Step 1: Commission proposal (DONE - November 20, 2025)
+Step 2: European Parliament first reading
+   - Relevant Committee: Committee on Economic and Monetary Affairs (ECON)
+   - Rapporteur assignment: To be confirmed
+   - Expected timeline: 12-18 months for first reading position
+   - Parliamentary position expected: 2027
+
+Step 3: Council of the EU position (first reading)
+   - Working Party on Financial Services examining the proposal
+   - Member states must reach a common position (qualified majority voting)
+   - Expected timeline: Parallel with Parliament, likely 2027
+
+Step 4: Trilogue negotiations
+   - Parliament and Council negotiate to agree a final text
+   - Commission facilitates
+   - Informal trilogue meetings typically 3-6 months
+
+Step 5: Formal adoption by Parliament and Council
+   - Expected: 2027
+
+Step 6: Publication in Official Journal
+   - Enters force 20 days after publication
+   - Expected: Late 2027
+
+Step 7: Application period (18 months after entry into force)
+   - Application date: Expected late 2028 to early 2029
+   - This is when financial market participants must comply
+
+DELEGATED ACTS (LEVEL 2) TIMELINE
+------------------------------------
+After the Level 1 regulation is adopted, the Commission must develop delegated acts (Level 2 RTS) to specify:
+- Exact PAI indicators required for product-level disclosure (Articles 7 and 9)
+- List of sustainability-related indicators available for voluntary use
+- Standardized two-page disclosure templates
+- Methodology for 70% threshold calculations
+- Details of mandatory exclusion criteria
+
+Expected timeline for Level 2:
+- Commission mandates ESAs to draft RTS: Shortly after Level 1 adoption (2027)
+- ESA consultation on draft RTS: 2027-2028
+- ESA submission of draft RTS to Commission: 2028
+- Commission review and adoption: 2028-2029
+- Application: Concurrent with or shortly after Level 1 application date
+
+KEY UNCERTAINTY: The 18-month application period for Level 1 may not provide enough time for Level 2 RTS to be finalized before Level 1 applies. This creates the risk of a gap where Level 1 obligations apply but detailed specifications in Level 2 are not yet available (similar to the SFDR 1.0 problem where Level 1 applied from March 2021 but Level 2 templates only applied from January 2023).
+
+PART 2: COMPARISON WITH PARALLEL REGULATORY PROCESSES
+=======================================================
+
+EU OMNIBUS PACKAGE (2025)
+--------------------------
+On February 26, 2025, the European Commission published its "Omnibus" legislative package aimed at simplifying EU sustainability reporting requirements. This package proposed significant changes to:
+- CSRD (Corporate Sustainability Reporting Directive): Proposed to narrow scope, delay application for some companies
+- CS3D (Corporate Sustainability Due Diligence Directive): Proposed to delay and modify
+- EU Taxonomy Regulation: Proposed modifications to safe harbour rules
+
+RELATIONSHIP BETWEEN OMNIBUS AND SFDR 2.0:
+The SFDR 2.0 proposal was developed partly in anticipation of the Omnibus changes. Key interdependencies:
+- SFDR 2.0 removes entity-level PAI obligations partly because CSRD was expected to cover this — but CSRD narrowing under Omnibus may reduce the number of companies reporting under CSRD
+- The 15% Taxonomy "deemed compliance" pathway in SFDR 2.0 relies on the EU Taxonomy framework, which is also being reviewed
+- If CSRD is narrowed significantly, the data available for SFDR product-level disclosures may be reduced
+- Industry groups have noted that the coherence between SFDR 2.0 and the Omnibus changes needs to be carefully monitored
+
+ESMA FUND NAMES GUIDELINES (2024)
+-----------------------------------
+In May 2024, ESMA published final guidelines on fund names using ESG or sustainability-related terms (ESMA34-1983095321-916).
+- These guidelines establish minimum thresholds for using sustainability-related terms in fund names
+- They apply from November 2024 for new funds and from May 2025 for existing funds
+- SFDR 2.0 will ultimately supersede these guidelines once it enters application
+- During the transition period (2024-2028), the ESMA guidelines continue to apply
+
+Key ESMA guidelines requirements:
+- Funds using "ESG" or sustainability terms must have at least 80% of investments meeting ESG characteristics
+- Funds using "sustainable" or similar terms have higher thresholds
+- "Transition" terminology requires investing in companies demonstrating transition pathways
+- These mirror some of the SFDR 2.0 category criteria but are applied through naming rules, not a formal categorization regime
+
+PART 3: IMPLEMENTATION CONSIDERATIONS FOR FINANCIAL MARKET PARTICIPANTS
+========================================================================
+
+CLOSED-ENDED FUND EXEMPTION
+-----------------------------
+Products that are:
+- Closed-ended (not accepting new subscriptions)
+- Created AND fully distributed before the SFDR 2.0 application date
+...are exempt from the new categorization requirements.
+
+Practical implications:
+- These funds can continue using their current SFDR 1.0 classification and disclosures for their remaining life
+- They do NOT need to be reclassified under the new Article 7/8/9 categories
+- They do NOT need to meet the 70% thresholds
+- They DO retain their contractual reporting obligations to existing investors (unless investors agree to modification)
+
+Managers should identify which of their products qualify for this exemption and document the basis for exemption.
+
+OPEN-ENDED AND NEW FUND CONSIDERATIONS
+----------------------------------------
+For all open-ended funds and any new funds launched after the application date:
+- No grace period or transition relief
+- Must comply with SFDR 2.0 from day one of application
+- Existing Article 8/9 classifications simply cease to exist
+- Managers face a binary choice: qualify for a new category or become non-categorized (Article 6a)
+
+CONTRACTUAL OBLIGATIONS
+------------------------
+A notable point from several law firm analyses:
+- Existing investor-facing documents (prospectuses, KIDs, fund rules) make commitments under current SFDR framework
+- When SFDR 2.0 replaces SFDR 1.0, existing contractual reporting obligations (e.g., Article 11 periodic reports with Article 9 template format) continue unless:
+  - The relevant SFDR obligation itself ceases (which it does for Article 8/9 framework)
+  - Or parties mutually agree to modify contractual arrangements
+- This creates a transitional complexity: managers may need to communicate with investors about the change in regulatory framework and how fund strategies will be reclassified
+
+REGULATORY INTERACTION SUMMARY
+--------------------------------
+SFDR 2.0 interacts with these other frameworks:
+
+EU Taxonomy Regulation:
+- "Deemed compliance" pathways in Articles 7 and 9 rely on Taxonomy alignment
+- Taxonomy alignment is no longer universally required to disclose (only when relied upon)
+- The social taxonomy (still incomplete) would expand the scope of qualifying investments for Article 9
+
+CSRD (Corporate Sustainability Reporting Directive):
+- Main source of primary sustainability data for institutional investors
+- SFDR 2.0 product-level disclosures rely on data produced by CSRD-reporting companies
+- CSRD data (available through ESAP - European Single Access Point) should align with SFDR indicator requirements
+- Omnibus Package proposed narrowing CSRD scope, which could reduce available data
+
+MiFID II / IDD:
+- Suitability requirements for financial advisers remain; sustainability preferences of clients must be assessed
+- Financial advisers and portfolio managers are removed from SFDR but not from sustainability-related obligations under MiFID II/IDD
+- The category names (Transition, ESG Basics, Sustainable) may be referenced in MiFID suitability assessments
+
+PRIIPs (Packaged Retail and Insurance-based Investment Products):
+- Two-page SFDR 2.0 disclosure template and PRIIPs Key Information Document have some overlap
+- Commission has stated intent to improve consistency between the two frameworks
+
+AIFMD and UCITS:
+- Alternative Investment Fund Managers and UCITS management companies remain in SFDR scope
+- Product categorization rules apply to AIFs and UCITS products equally
+
+PART 4: KEY POLICY DEBATES STILL UNRESOLVED (AS OF MARCH 2026)
+================================================================
+
+1. ESG BASICS (ARTICLE 8) FOSSIL FUEL EXCLUSIONS
+   - The ESG Basics category does NOT exclude companies developing new fossil fuel projects
+   - NGOs and climate groups argue this creates a "greenwashing" loophole
+   - Parliament may push to tighten exclusions for all three categories during trilogue
+   - Watch point: Whether Parliament will insert PAB or CTB exclusions into Article 8
+
+2. STEWARDSHIP AND ENGAGEMENT
+   - The proposal does not specifically require active ownership or engagement strategies
+   - IIGCC and some institutional investors want mandatory stewardship requirements as part of category criteria
+   - Debate: Whether engagement should be a qualifying strategy for the 70% threshold in Article 7 (Transition)
+
+3. MANDATORY VS. OPTIONAL CATEGORIZATION
+   - Currently: Categories are mandatory for any fund making sustainability claims
+   - Some argue the system should be voluntary (opt-in) to give managers more flexibility
+   - Counter-argument: Voluntary systems create inconsistency and reduce comparability
+
+4. IMPACT CATEGORY CRITERIA
+   - The "impact" sub-category for Articles 7 and 9 is supported by the proposal but specifics are left to delegated acts
+   - Industry wants clear criteria for what qualifies as "pre-defined, positive, measurable impact"
+   - Risk: Vague criteria could undermine the impact label's credibility
+
+5. PRIVATE MARKETS DATA
+   - No special provisions for private equity, venture capital, infrastructure, or real estate
+   - These asset classes often cannot access the same quality of ESG data as listed equities
+   - Industry pushing for specific delegated act guidance on alternative asset classes
+
+6. SMALL AND MEDIUM-SIZED ASSET MANAGERS
+   - While entity-level PAI obligations are removed, product-level obligations for categorized products remain complex
+   - Smaller managers may face disproportionate compliance burden relative to resources
+   - Push for simplified compliance pathways for smaller FMPs
+
+SOURCES FOR THIS SECTION
+--------------------------
+1. European Commission COM(2025) 841 final
+   https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52025PC0841
+
+2. Global Financial Regulatory Blog
+   https://www.globalfinregblog.com/2025/11/european-commission-proposes-to-revise-the-sfdr-pivoting-towards-a-labelling-regime/
+
+3. Morgan Lewis analysis
+   https://www.morganlewis.com/pubs/2025/12/sfdr-2-0-eu-commission-proposes-overhaul-of-sfdr-regime
+
+4. Morrison Foerster analysis
+   https://www.mofo.com/resources/insights/251202-eu-sustainable-finance-commission-proposes
+
+5. Hogan Lovells - "EU SFDR 2.0 - what changes are on the horizon?"
+   https://www.hoganlovells.com/en/publications/eu-sfdr-20-sustainable-finance-disclosure-regulation-review-what-changes-are-on-the-horizon
+
+6. Ropes & Gray
+   https://www.ropesgray.com/en/insights/viewpoints/102lvo7/sfdr-2-0-the-impact-for-asset-managers
+
+7. STB Law
+   https://www.stblaw.com/about-us/publications/view/2025/11/21/sfdr-2.0---significant-overhaul-of-the-eu-s-rules-for-sustainability-related-disclosures-proposed-by-the-european-commission
+
+8. ESMA Fund Names Guidelines (May 2024)
+   ESMA34-1983095321-916
+
+9. IIGCC Position Paper (February 2026)
+   https://www.iigcc.org/resources/iigcc-position-paper-sustainable-finance-disclosure-regulation-sfdr-2.0
+
+10. Projective Group - "SFDR 2.0: what to do with grey and green?"
+    https://www.projectivegroup.com/sfdr-2-0-what-to-do-with-grey-and-green/

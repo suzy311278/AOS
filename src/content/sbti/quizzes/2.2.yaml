@@ -1,0 +1,44 @@
+- question: "Under C7, if the SBTi publishes a revised version of an approved calculation tool, how long do companies have to still submit targets modeled using the previous version?"
+  options:
+    - "3 months from the publication of the revised tool"
+    - "6 months from the publication of the revised tool"
+    - "12 months from the publication of the revised tool"
+    - "There is no grace period -- the new version must be used immediately"
+  answer: 1
+  explanation: "C7 allows targets modeled using previous tool versions to be submitted within 6 months of the publication of the revised method or sector-specific tools. After this 6-month window closes, all new submissions must use the latest approved version. This gives companies in mid-process a reasonable transition period without allowing indefinite use of outdated methods."
+
+- question: "A company sets its scope 2 baseline using the market-based approach at 60,000 tCO2e, targeting a 40% reduction by 2030. In 2027, it finds that its location-based scope 2 figure has fallen faster than its market-based figure. Under C8, what must the company do?"
+  options:
+    - "Switch to the location-based approach since it shows better progress"
+    - "Continue tracking progress using the market-based approach for both baseline and progress reporting"
+    - "Use whichever approach shows greater reduction in each reporting year"
+    - "Report both approaches and use the average as its progress metric"
+  answer: 1
+  explanation: "C8 requires that a single and consistent approach be used for both setting and tracking progress against a science-based target. If the company set its target using the market-based approach, all progress tracking must also use the market-based approach. Switching mid-target to whichever approach is more favorable would undermine the integrity of the target."
+
+- question: "Which of the following correctly describes what C11 permits companies to use carbon credits for?"
+  options:
+    - "Counting carbon credits as scope 1 emission reductions to demonstrate near-term SBT progress"
+    - "Counting carbon credits as scope 3 emission reductions toward the 67% coverage threshold"
+    - "Neutralizing residual emissions at the net-zero stage, and financing Beyond Value Chain Mitigation (BVCM)"
+    - "Replacing the need for scope 3 emission reduction targets if high-quality credits are purchased"
+  answer: 2
+  explanation: "C11 is unambiguous: carbon credits cannot be counted as emission reductions toward the progress of near-term science-based targets. They may only be used for two purposes: neutralizing residual emissions at the net-zero stage (per C28 of the Net-Zero Standard), or financing additional climate mitigation beyond the SBT -- known as Beyond Value Chain Mitigation (BVCM, per R9 of the Net-Zero Standard)."
+
+- question: "Under C10, a company using bioenergy must include which upstream emissions in its main GHG inventory?"
+  options:
+    - "Only the direct combustion CO2 from burning the biomass"
+    - "Only the CO2 from direct land use change (LUC)"
+    - "CO2e from direct LUC, non-LUC N2O and CH4 from land management, and CO2e from processing and distribution"
+    - "Only net biogenic CO2 after accounting for the carbon absorbed during plant growth"
+  answer: 2
+  explanation: "C10 requires reporting all upstream CO2e emissions from bioenergy and biogenic feedstocks. These must include: CO2e from direct land use change (LUC), non-LUC emissions including N2O and CH4 from land management, and CO2e from processing and distribution. Reporting emissions from indirect LUC is optional. The direct combustion CO2 is not carbon-neutral in this framework -- net biogenic CO2 must be included in the target boundary."
+
+- question: "C12 states that avoided emissions fall under a separate accounting system from corporate inventories. What does this mean for a company that manufactures highly efficient heat pumps that reduce customers' heating emissions?"
+  options:
+    - "The emission reductions from customer use of the heat pumps can be counted against the company's scope 3 category 11 target"
+    - "The avoided emissions may be reported separately as a climate contribution metric but cannot count toward the company's own near-term SBT progress"
+    - "The company is exempt from setting scope 3 targets because its products provide avoided emissions"
+    - "Avoided emissions can be used in place of carbon credits to neutralize residual emissions at the net-zero stage"
+  answer: 1
+  explanation: "C12 clarifies that avoided emissions -- emission reductions occurring outside a company's value chain due to its products -- use a separate accounting system and do not count toward near-term SBT progress. The heat pump manufacturer can publicize and report avoided emissions as a separate climate contribution, but this does not reduce the scope 3 category 11 (use of sold products) emissions in its own inventory, and cannot substitute for actual target progress."

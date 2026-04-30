@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-secondary-fixed": "#0a1f1f",
+                      "surface-variant": "#e1e3e2",
+                      "surface-tint": "#1a6962",
+                      "surface-container-low": "#f2f4f3",
+                      "on-primary-fixed": "#00201d",
+                      "on-error": "#ffffff",
+                      "error": "#ba1a1a",
+                      "primary-container": "#005c55",
+                      "on-primary": "#ffffff",
+                      "outline-variant": "#bec9c6",
+                      "inverse-on-surface": "#eff1f0",
+                      "surface-container-high": "#e6e9e8",
+                      "primary": "#00433d",
+                      "outline": "#6f7977",
+                      "tertiary-fixed": "#6bfe9c",
+                      "surface-container-highest": "#e1e3e2",
+                      "on-secondary-container": "#546868",
+                      "on-primary-fixed-variant": "#00504a",
+                      "on-secondary": "#ffffff",
+                      "surface-container-lowest": "#ffffff",
+                      "on-surface": "#191c1c",
+                      "inverse-primary": "#8cd4ca",
+                      "error-container": "#ffdad6",
+                      "secondary": "#4e6262",
+                      "tertiary": "#004520",
+                      "secondary-container": "#d0e7e6",
+                      "secondary-fixed": "#d0e7e6",
+                      "on-tertiary": "#ffffff",
+                      "on-secondary-fixed-variant": "#364a4a",
+                      "surface-container": "#eceeed",
+                      "inverse-surface": "#2e3131",
+                      "surface-bright": "#f8faf9",
+                      "primary-fixed-dim": "#8cd4ca",
+                      "primary-fixed": "#a7f0e6",
+                      "surface-dim": "#d8dada",
+                      "on-tertiary-fixed-variant": "#005228",
+                      "surface": "#f8faf9",
+                      "on-background": "#191c1c",
+                      "tertiary-container": "#005f2f",
+                      "on-tertiary-container": "#48df82",
+                      "on-primary-container": "#8ad2c8",
+                      "background": "#f8faf9",
+                      "secondary-fixed-dim": "#b5cbca",
+                      "on-error-container": "#93000a",
+                      "on-surface-variant": "#3f4947",
+                      "on-tertiary-fixed": "#00210c",
+                      "tertiary-fixed-dim": "#4ae183"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "fontFamily": {
+                      "headline": ["Inter"],
+                      "body": ["Inter"],
+                      "label": ["Inter"],
+                      "mono": ["JetBrains Mono"]
+              }
+            },
+          }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-spacing {
+            padding-top: 96px;
+            padding-bottom: 96px;
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopNavBar -->
+<nav class="bg-white/80 dark:bg-[#0a1a1a]/80 backdrop-blur-xl docked full-width top-0 sticky z-50 shadow-[0_24px_48px_-12px_rgba(0,67,61,0.08)]">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-[1440px] mx-auto">
+<div class="flex items-center gap-12">
+<span class="text-2xl font-extrabold text-[#00433d] dark:text-[#005c55] tracking-tighter">Greentryst</span>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-['Inter'] font-semibold tracking-tight text-[#4e6262] dark:text-[#bec9c6] hover:text-[#00433d] dark:hover:text-[#005c55] transition-colors" href="#">Inventory</a>
+<a class="font-['Inter'] font-semibold tracking-tight text-[#4e6262] dark:text-[#bec9c6] hover:text-[#00433d] dark:hover:text-[#005c55] transition-colors" href="#">Reporting</a>
+<a class="font-['Inter'] font-semibold tracking-tight text-[#4e6262] dark:text-[#bec9c6] hover:text-[#00433d] dark:hover:text-[#005c55] transition-colors" href="#">Screener</a>
+<a class="font-['Inter'] font-semibold tracking-tight text-[#4e6262] dark:text-[#bec9c6] hover:text-[#00433d] dark:hover:text-[#005c55] transition-colors" href="#">Insights</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined p-2 text-[#4e6262] hover:bg-[#f2f4f3] rounded-lg transition-all">account_circle</button>
+<button class="bg-[#005c55] text-white px-5 py-2 rounded-lg font-semibold active:scale-[0.98] transition-transform">Get Started</button>
+</div>
+</div>
+<div class="bg-[#f2f4f3] dark:bg-[#1a2e2e] h-[1px] w-full"></div>
+</nav>
+<main class="max-w-[1440px] mx-auto">
+<!-- Showcase 1: GHG INVENTORY CALCULATOR -->
+<section class="editorial-spacing px-8 lg:px-24 grid lg:grid-cols-2 gap-20 items-center">
+<div class="space-y-8 order-1 lg:order-1">
+<span class="bg-amber-100 text-amber-700 px-4 py-1 rounded-full text-xs font-bold tracking-widest uppercase">COMING SOON</span>
+<h2 class="text-4xl lg:text-5xl font-extrabold tracking-tighter text-primary leading-tight">GHG calculations with full audit trails.</h2>
+<p class="text-lg text-secondary leading-relaxed max-w-xl">
+                    Scope 1, 2, and 3 emissions calculated with verified emission factors. Every factor links to its source publication, page, and year. Auto-generates calculation methodology notes for third-party assurance. Supports GHG Protocol, ISO 14064, and PCAF.
+                </p>
+<div class="pt-4 border-t border-outline-variant/20">
+<p class="font-mono text-xs uppercase tracking-widest text-primary-container font-semibold">Every emission factor sourced. Every calculation auditable.</p>
+</div>
+</div>
+<div class="order-2 lg:order-2">
+<div class="bg-[#0a1f1f] rounded-[24px] shadow-2xl p-8 text-surface-container-low min-h-[480px] relative overflow-hidden border border-white/5">
+<!-- UI Mockup -->
+<div class="flex gap-4 mb-8 border-b border-white/10 pb-4">
+<span class="text-xs font-mono opacity-50 uppercase">Scope 1</span>
+<span class="text-xs font-mono opacity-50 uppercase">Scope 2</span>
+<span class="text-xs font-mono uppercase text-tertiary-fixed border-b-2 border-tertiary-fixed pb-4 -mb-4">Scope 3</span>
+</div>
+<div class="space-y-6">
+<div class="grid grid-cols-2 gap-6">
+<div>
+<label class="block text-[10px] uppercase tracking-widest opacity-40 mb-2 font-mono">Category</label>
+<div class="bg-white/5 p-3 rounded-lg border border-white/10 text-sm">Business Travel</div>
+</div>
+<div>
+<label class="block text-[10px] uppercase tracking-widest opacity-40 mb-2 font-mono">Activity</label>
+<div class="bg-white/5 p-3 rounded-lg border border-white/10 text-sm">142,500 km</div>
+</div>
+</div>
+<div>
+<label class="block text-[10px] uppercase tracking-widest opacity-40 mb-2 font-mono">Mode / Segment</label>
+<div class="bg-white/5 p-3 rounded-lg border border-white/10 text-sm">Short-haul flight</div>
+</div>
+<div class="bg-primary/20 p-4 rounded-xl border border-primary-container/30">
+<div class="flex justify-between items-center mb-1">
+<label class="text-[10px] uppercase tracking-widest opacity-60 font-mono">Emission Factor</label>
+<span class="flex items-center gap-1 text-[10px] bg-tertiary-fixed/20 text-tertiary-fixed px-2 py-0.5 rounded-full">
+<span class="material-symbols-outlined text-[12px]" style="font-variation-settings: 'FILL' 1;">verified</span> VERIFIED
+                                </span>
+</div>
+<div class="text-xl font-bold">0.255 <span class="text-xs font-normal opacity-60">kgCO2e/km</span></div>
+<div class="mt-2 text-[10px] font-mono opacity-50">Source: DEFRA 2024, Table 4c, Row 12</div>
+</div>
+<div class="pt-4 flex items-end justify-between">
+<div>
+<span class="block text-[10px] uppercase tracking-widest opacity-40 mb-1 font-mono">Total Result</span>
+<div class="text-5xl font-black text-tertiary-fixed tracking-tighter leading-none">36.34 <span class="text-lg">tCO2e</span></div>
+</div>
+<div class="flex gap-2">
+<button class="p-2 bg-white/10 rounded-lg hover:bg-white/20 transition-all"><span class="material-symbols-outlined text-sm">picture_as_pdf</span></button>
+<button class="px-4 py-2 bg-primary-container text-white rounded-lg text-xs font-bold uppercase tracking-wider">Add to Report</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Showcase 2: REPORT WRITING / DRAFTING -->
+<section class="editorial-spacing px-8 lg:px-24 grid lg:grid-cols-2 gap-20 items-center bg-surface-container-low">
+<div class="order-2 lg:order-1">
+<div class="bg-[#0a1f1f] rounded-[24px] shadow-2xl overflow-hidden flex h-[480px] border border-white/5">
+<!-- Sidebar UI -->
+<div class="w-1/3 border-r border-white/10 p-6 flex flex-col gap-6">
+<div class="bg-white/5 p-2 rounded-lg border border-white/10">
+<span class="text-[10px] uppercase font-mono opacity-40 block mb-1">Framework</span>
+<span class="text-xs font-bold text-white block">BRSR Comprehensive</span>
+</div>
+<div class="space-y-4">
+<div class="flex items-center gap-3 opacity-100">
+<span class="material-symbols-outlined text-tertiary-fixed text-sm" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="text-xs font-medium text-white/80">Section A</span>
+</div>
+<div class="flex items-center gap-3 opacity-100">
+<span class="material-symbols-outlined text-tertiary-fixed text-sm" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="text-xs font-medium text-white/80">Section B</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="w-3.5 h-3.5 rounded-full border-2 border-primary-container flex items-center justify-center">
+<span class="w-1.5 h-1.5 bg-primary-container rounded-full"></span>
+</span>
+<span class="text-xs font-bold text-white">Section C</span>
+</div>
+</div>
+</div>
+<!-- Editor UI -->
+<div class="flex-1 p-8 flex flex-col gap-4">
+<div class="flex justify-between items-center">
+<h4 class="text-white text-sm font-bold uppercase tracking-wider opacity-60">Principle 6: Environment</h4>
+<span class="bg-white/10 px-2 py-1 rounded text-[10px] font-mono">DRAFT v2.1</span>
+</div>
+<div class="flex-1 bg-white/5 rounded-lg border border-white/10 p-4 relative">
+<p class="text-xs leading-relaxed text-white/70 italic">
+                                "During the reporting period FY2025-26, the company successfully optimized its thermal energy footprint through strategic electrification of processes. Total energy consumption saw a reduction of..."
+                            </p>
+<div class="absolute bottom-4 left-4 right-4 bg-[#0a433d]/40 border border-primary-container/30 p-2 rounded flex items-center gap-3">
+<span class="material-symbols-outlined text-sm text-tertiary-fixed">database</span>
+<span class="text-[10px] font-mono text-tertiary-fixed">Data source: GHG Inventory Calculator, FY2025-26</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="space-y-8 order-1 lg:order-2">
+<span class="bg-amber-100 text-amber-700 px-4 py-1 rounded-full text-xs font-bold tracking-widest uppercase">COMING SOON</span>
+<h2 class="text-4xl lg:text-5xl font-extrabold tracking-tighter text-primary leading-tight">Disclosure reports that write themselves.</h2>
+<p class="text-lg text-secondary leading-relaxed max-w-xl">
+                    Guided templates for GRI, TCFD, CSRD, and BRSR disclosures. Select your framework, answer the guided questions, and generate a draft report pre-populated with your data. Every section maps to the exact disclosure requirement it fulfills.
+                </p>
+<div class="pt-4 border-t border-outline-variant/20">
+<p class="font-mono text-xs uppercase tracking-widest text-primary-container font-semibold">Supports GRI 2021, TCFD Recommendations, CSRD ESRS, BRSR Core + Comprehensive.</p>
+</div>
+</div>
+</section>
+<!-- Showcase 3: COMPANY ESG SCREENER (BRSR) -->
+<section class="editorial-spacing px-8 lg:px-24 grid lg:grid-cols-2 gap-20 items-center">
+<div class="space-y-8 order-1 lg:order-1">
+<span class="bg-amber-100 text-amber-700 px-4 py-1 rounded-full text-xs font-bold tracking-widest uppercase">COMING SOON</span>
+<h2 class="text-4xl lg:text-5xl font-extrabold tracking-tighter text-primary leading-tight">Every listed company. One sustainability profile.</h2>
+<p class="text-lg text-secondary leading-relaxed max-w-xl">
+                    Consolidated ESG performance view built from published BRSR filings, sustainability reports, and rating agency data. The tool that consultants currently spend days building manually for each client pitch, done in 5 minutes.
+                </p>
+<div class="pt-4 border-t border-outline-variant/20">
+<p class="font-mono text-xs uppercase tracking-widest text-primary-container font-semibold">Top 1000 BSE-listed companies. BRSR Core + Comprehensive filings indexed.</p>
+</div>
+</div>
+<div class="order-2 lg:order-2">
+<div class="bg-[#0a1f1f] rounded-[24px] shadow-2xl p-8 text-surface-container-low min-h-[480px] border border-white/5">
+<!-- Search Bar -->
+<div class="relative mb-8">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 opacity-40">search</span>
+<div class="bg-white/5 border border-white/10 rounded-xl py-3 pl-10 pr-4 text-sm font-medium">Tata Steel Limited</div>
+</div>
+<div class="flex items-start justify-between mb-10">
+<div>
+<h3 class="text-2xl font-bold text-white tracking-tight">Tata Steel Limited</h3>
+<span class="text-xs font-mono opacity-50 uppercase tracking-widest">BSE: TATASTEEL | INDUSTRIAL METALS</span>
+</div>
+<div class="relative w-20 h-20 flex items-center justify-center">
+<svg class="absolute inset-0 w-full h-full -rotate-90">
+<circle class="text-white/5" cx="40" cy="40" fill="none" r="36" stroke="currentColor" stroke-width="6"></circle>
+<circle class="text-tertiary-fixed" cx="40" cy="40" fill="none" r="36" stroke="currentColor" stroke-dasharray="226" stroke-dashoffset="63" stroke-width="6"></circle>
+</svg>
+<div class="text-center">
+<div class="text-xl font-bold text-white leading-none">72</div>
+<div class="text-[8px] opacity-40 font-mono">/100</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-3 gap-4 mb-8">
+<div class="bg-white/5 p-4 rounded-xl text-center border border-white/10">
+<div class="text-[10px] font-mono opacity-40 mb-1 uppercase">Environment</div>
+<div class="text-xl font-bold text-white">68</div>
+</div>
+<div class="bg-white/5 p-4 rounded-xl text-center border border-white/10">
+<div class="text-[10px] font-mono opacity-40 mb-1 uppercase">Social</div>
+<div class="text-xl font-bold text-white">74</div>
+</div>
+<div class="bg-white/5 p-4 rounded-xl text-center border border-white/10">
+<div class="text-[10px] font-mono opacity-40 mb-1 uppercase">Governance</div>
+<div class="text-xl font-bold text-white">76</div>
+</div>
+</div>
+<div class="space-y-4 mb-10">
+<div class="flex justify-between items-center text-[10px] font-mono opacity-60">
+<span>Key Metric</span>
+<span>Performance</span>
+</div>
+<div class="flex justify-between items-center p-2 border-b border-white/5">
+<span class="text-xs font-medium">GHG Intensity</span>
+<span class="text-xs text-tertiary-fixed font-bold">Top 15%</span>
+</div>
+<div class="flex justify-between items-center p-2 border-b border-white/5">
+<span class="text-xs font-medium">Water Intensity</span>
+<span class="text-xs text-amber-400 font-bold">Laggard</span>
+</div>
+<div class="flex justify-between items-center p-2 border-b border-white/5">
+<span class="text-xs font-medium">Women in Workforce</span>
+<span class="text-xs text-white/80 font-bold">12.4%</span>
+</div>
+</div>
+<div class="flex gap-3">
+<button class="flex-1 py-3 bg-white/5 rounded-lg text-xs font-bold uppercase tracking-wider hover:bg-white/10 transition-all border border-white/10">Compare with Peers</button>
+<button class="flex-1 py-3 bg-primary-container rounded-lg text-xs font-bold uppercase tracking-wider hover:bg-primary transition-all">Download Brief</button>
+</div>
+<div class="mt-4 text-center">
+<span class="text-[9px] font-mono opacity-30">Source: BRSR FY2024-25 Annual Filing, BSE</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#f8faf9] dark:bg-[#0a1a1a] w-full border-t border-[#bec9c6]/20">
+<div class="flex flex-col md:flex-row justify-between items-center w-full px-8 py-12 gap-6 max-w-[1440px] mx-auto">
+<div class="flex flex-col gap-2">
+<span class="font-bold text-[#00433d] dark:text-[#005c55] text-lg tracking-tighter">Greentryst</span>
+<p class="font-['JetBrains_Mono'] text-xs uppercase tracking-widest text-[#4e6262] dark:text-[#bec9c6]">© 2024 Greentryst. Institutional Grade ESG Intelligence.</p>
+</div>
+<div class="flex gap-8">
+<a class="font-['JetBrains_Mono'] text-xs uppercase tracking-widest text-[#4e6262] dark:text-[#bec9c6] hover:underline decoration-[#005c55] underline-offset-4 opacity-80 hover:opacity-100 transition-opacity" href="#">Privacy</a>
+<a class="font-['JetBrains_Mono'] text-xs uppercase tracking-widest text-[#4e6262] dark:text-[#bec9c6] hover:underline decoration-[#005c55] underline-offset-4 opacity-80 hover:opacity-100 transition-opacity" href="#">Terms</a>
+<a class="font-['JetBrains_Mono'] text-xs uppercase tracking-widest text-[#4e6262] dark:text-[#bec9c6] hover:underline decoration-[#005c55] underline-offset-4 opacity-80 hover:opacity-100 transition-opacity" href="#">Methodology</a>
+</div>
+</div>
+</footer>
+</body></html>

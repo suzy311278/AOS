@@ -1,0 +1,44 @@
+- question: "Which of the following is the most effective long-term strategy for improving data quality across a large SME lending portfolio?"
+  options:
+    - "Switching from one EEIO database to another with more sector coverage"
+    - "Excluding SMEs from financed emissions calculations until better data is available"
+    - "Embedding annual emissions data requests into the loan review process and progressively engaging SME borrowers to self-report their GHG footprint"
+    - "Using satellite data to directly measure SME emissions remotely"
+  answer: 2
+  explanation: "Embedding emissions data requests into the annual loan review process creates a scalable, systematic pathway to collecting company-specific data. Over time, as more borrowers self-report (even unverified), the weighted average data quality score improves without requiring a complete overhaul of the bank's systems. This approach is endorsed by PCAF as one of the core improvement strategies, alongside partnering with third-party data providers."
+
+- question: "The PCAF Disclosure Checklist (DCL) review conducted by the PCAF Secretariat is best described as:"
+  options:
+    - "A mandatory external audit that determines whether a financial institution remains a PCAF signatory"
+    - "A lightweight compliance checkup that verifies whether required disclosure criteria are met, providing constructive feedback rather than enforcing penalties"
+    - "An independent verification of the accuracy of reported financed emissions figures"
+    - "A public ranking of financial institutions by data quality score"
+  answer: 1
+  explanation: "The PCAF DCL review is a compliance-style checkup, not an independent audit. The PCAF Secretariat reviews whether the financial institution has disclosed the required information (absolute emissions, coverage, data quality score, etc.) and provides written feedback on areas for improvement. It does not independently verify the accuracy of the underlying emissions calculations and does not result in removal from the signatory list."
+
+- question: "A financial institution publishes its first PCAF-aligned financed emissions report. Its weighted average data quality score across the portfolio is 4.1. This is:"
+  options:
+    - "Unacceptable; PCAF requires a minimum weighted average score of 3.0 for disclosure"
+    - "Acceptable for a first-year reporter, provided the institution publishes an improvement roadmap demonstrating a credible trajectory toward better data quality"
+    - "Automatically flagged as a greenwashing risk by PCAF's review team"
+    - "Only acceptable if the institution covers more than 90% of its portfolio"
+  answer: 1
+  explanation: "PCAF does not set a minimum data quality score requirement for signatories. A score of 4.1 is acceptable for a first-year reporter, particularly one with large SME or emerging-market exposures. However, PCAF expects the institution to demonstrate year-over-year improvement and to publish an improvement roadmap. A persistently high score (4+) in subsequent years without visible progress may attract feedback from PCAF's review team."
+
+- question: "Which of these is NOT one of the conditions that triggers a base year recalculation under PCAF?"
+  options:
+    - "A significant change in accounting methodology (e.g., switching from Option 3 to Option 1 for a major sector)"
+    - "A structural change in the portfolio such as a major acquisition or disposal"
+    - "A significant correction of an error discovered in prior-year data"
+    - "A year-on-year change in a borrower's reported emissions due to their own decarbonisation efforts"
+  answer: 3
+  explanation: "A change in a borrower's actual reported emissions (driven by their own decarbonisation, efficiency improvements, or business mix changes) is intentional data movement that should be reflected in the reported trend — this is exactly the type of change that financed emissions tracking is designed to capture. It does not trigger a base year recalculation. Recalculations are triggered by methodological changes, structural portfolio changes, and error corrections — not by normal year-on-year fluctuations in underlying emissions."
+
+- question: "Which approach to data quality improvement involves subscribing to Bloomberg, MSCI, Sustainalytics, or similar services to automatically populate emission data for listed company exposures?"
+  options:
+    - "Direct borrower engagement"
+    - "Sampling and calibration testing"
+    - "Sector-specific deep dives"
+    - "Partnering with third-party data providers"
+  answer: 3
+  explanation: "Third-party data providers (Bloomberg, MSCI, Sustainalytics, S&P/Trucost, ISS ESG, CDP) aggregate Scope 1 and 2 emission data for thousands of listed companies globally. Subscribing and integrating their data into portfolio management systems is the most scalable way to improve data quality for listed equity and corporate bond asset classes. PCAF recommends selecting a provider that uses standardised CDP-framework data and maintaining consistency with the same provider over time."

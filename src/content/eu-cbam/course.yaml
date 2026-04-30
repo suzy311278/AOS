@@ -1,0 +1,151 @@
+id: eu-cbam
+title: EU Carbon Border Adjustment Mechanism (CBAM)
+subtitle: Understanding carbon border tariffs and their global impact
+description: A comprehensive course on the EU's Carbon Border Adjustment Mechanism (CBAM), covering its design, scope, implementation
+  timeline, reporting obligations, calculation methodologies, and implications for global trade and climate policy.
+icon: 🏗️
+color: orange
+status: published
+category: markets
+estimatedHours: 6
+modules:
+- id: 0
+  title: Why CBAM Exists
+  subtitle: Carbon Leakage and Border Carbon Adjustments
+  icon: 🌍
+  color: orange
+  lessons:
+  - id: '0.1'
+    title: 'Carbon Leakage: The Problem CBAM Solves'
+    duration: 35 min
+    vmRef: CBAM Regulation (EU) 2023/956, Recitals 1-12; EU ETS Directive 2003/87/EC, Art. 10a
+  - id: '0.2'
+    title: 'Border Carbon Adjustments: Theory and Design'
+    duration: 40 min
+    vmRef: CBAM Regulation (EU) 2023/956, Recitals 13-24; WTO GATT Article XX
+    seoTitle: 'Border Carbon Adjustments: Theory & Design Principles'
+    seoDescription: 'Border carbon adjustment theory: carbon leakage, competitiveness vs environmental goals, WTO compatibility,
+      and the design choices that shaped CBAM.'
+  - id: '0.3'
+    title: The EU ETS and CBAM Connection
+    duration: 35 min
+    vmRef: CBAM Regulation (EU) 2023/956, Art. 1, Art. 21-22; EU ETS Directive 2003/87/EC, Art. 10a
+  - id: '0.4'
+    title: Global Carbon Pricing Landscape
+    duration: 30 min
+    vmRef: World Bank State and Trends of Carbon Pricing (2024)
+- id: 1
+  title: CBAM Regulation Deep Dive
+  subtitle: Scope, Products, and Obligations
+  icon: 📋
+  color: indigo
+  lessons:
+  - id: '1.1'
+    title: 'Scope: Which Products Are Covered'
+    duration: 40 min
+    vmRef: CBAM Regulation (EU) 2023/956, Art. 2, Annex I; CBAM Implementing Regulation (EU) 2023/1773, Art. 1-2
+  - id: '1.2'
+    title: 'Who Must Comply: Importers and Declarants'
+    duration: 35 min
+    vmRef: CBAM Regulation (EU) 2023/956, Art. 4-8; CBAM Implementing Regulation (EU) 2023/1773, Art. 3-5
+  - id: '1.3'
+    title: 'CBAM Certificates: Pricing and Surrender'
+    duration: 40 min
+    vmRef: CBAM Regulation (EU) 2023/956, Art. 21-28; EC CBAM Guidance Documents (2023-2025)
+    seoTitle: CBAM Certificate Price, Purchase & Annual Surrender
+    seoDescription: How EU CBAM certificates are priced, purchased from the NCA, and surrendered annually. Q1 2026 price €75.36/tCO2e,
+      first surrender deadline 31 May 2027.
+  - id: '1.4'
+    title: Interaction with EU ETS Free Allowances
+    duration: 35 min
+    vmRef: CBAM Regulation (EU) 2023/956, Art. 31; EU ETS Directive 2003/87/EC, Art. 10a(1a)
+- id: 2
+  title: Calculating Embedded Emissions
+  subtitle: Measurement, Reporting, and Verification
+  icon: 🔬
+  color: teal
+  lessons:
+  - id: '2.1'
+    title: Direct and Indirect Embedded Emissions
+    duration: 45 min
+    vmRef: CBAM Regulation (EU) 2023/956, Art. 3, Annex III; CBAM Implementing Regulation (EU) 2023/1773, Annex II
+  - id: '2.2'
+    title: Actual Emissions vs Default Values
+    duration: 40 min
+    vmRef: CBAM Implementing Regulation (EU) 2023/1773, Art. 4-6, Annex III; EC CBAM Guidance Documents (2023-2025)
+    seoTitle: CBAM Actual Emissions vs Default Values Explained
+    seoDescription: Installation-level emissions data vs Commission default reference values for CBAM. When defaults apply,
+      why they are conservative, and swap rules.
+  - id: '2.3'
+    title: Complex Goods and Precursor Materials
+    duration: 40 min
+    vmRef: CBAM Regulation (EU) 2023/956, Annex III, Sections 2-3; CBAM Implementing Regulation (EU) 2023/1773, Annex II
+    seoTitle: 'CBAM Complex Goods & Precursor Materials: Aggregation Rules'
+    seoDescription: 'How CBAM handles complex goods and precursor materials: upstream emissions aggregation for steel, aluminium,
+      and fertiliser inputs, and precursor data requirements.'
+  - id: '2.4'
+    title: Verification Requirements
+    duration: 35 min
+    vmRef: CBAM Regulation (EU) 2023/956, Art. 10; CBAM Implementing Regulation (EU) 2023/1773, Art. 7-8
+    seoTitle: 'CBAM Verification: Accredited Verifier & Article 10'
+    seoDescription: How CBAM accredited verifiers audit embedded emissions under Article 10. Scope, ISO 14065 QMS, site visits,
+      2% materiality threshold, verification opinions.
+- id: 3
+  title: Implementation and Compliance
+  subtitle: Timeline, Reporting, and Practical Steps
+  icon: ⚙️
+  color: green
+  lessons:
+  - id: '3.1'
+    title: 'Transitional Period: October 2023 to December 2025'
+    duration: 40 min
+    vmRef: CBAM Regulation (EU) 2023/956, Art. 32-37; CBAM Implementing Regulation (EU) 2023/1773, Art. 9-15
+    seoTitle: 'CBAM Transitional Phase: Oct 2023–Dec 2025 & Registry'
+    seoDescription: 'CBAM transitional phase dates Oct 2023–Dec 2025: quarterly reports, three calculation pathways, default
+      values, the Transitional Registry, and transitional penalties.'
+  - id: '3.2'
+    title: 'Definitive Period: From January 2026'
+    duration: 40 min
+    vmRef: CBAM Regulation (EU) 2023/956, Art. 6, Art. 22; EC CBAM Guidance Documents (2023-2025)
+    seoTitle: 'CBAM Definitive Regime: 1 Jan 2026 Start & Annual Declaration'
+    seoDescription: CBAM definitive regime started 1 January 2026. Annual declaration deadline 31 May, quarterly 80% holding
+      rule, surrender of certificates, and the first CBAM payment.
+  - id: '3.3'
+    title: The CBAM Registry and IT Systems
+    duration: 30 min
+    vmRef: CBAM Regulation (EU) 2023/956, Art. 14-15; CBAM Implementing Regulation (EU) 2023/1773, Art. 16-17
+    seoTitle: 'CBAM Registry: Registration, Login & Customs Integration'
+    seoDescription: 'The CBAM Registry in depth: how to register as a declarant, NCA login, AMM/Certificate/Declaration modules,
+      and real-time integration with TARIC and customs.'
+  - id: '3.4'
+    title: Third-Country Carbon Price Deductions
+    duration: 35 min
+    vmRef: CBAM Regulation (EU) 2023/956, Art. 9, Annex III Section 5; EC CBAM Guidance Documents (2023-2025)
+- id: 4
+  title: Trade, Geopolitics, and Future Outlook
+  subtitle: Global Implications of CBAM
+  icon: 🌐
+  color: blue
+  lessons:
+  - id: '4.1'
+    title: Impact on Trading Partners and Exporters
+    duration: 40 min
+    vmRef: World Bank State and Trends of Carbon Pricing (2024); EC Impact Assessment SWD(2021) 643
+    seoTitle: CBAM Impact on Exporters & Non-EU Trading Partners
+    seoDescription: 'How CBAM affects exporters in non-EU countries: impact on India, Turkey, China, Brazil; competitiveness,
+      trade diversion, and adaptation strategies.'
+  - id: '4.2'
+    title: WTO Compatibility and Legal Challenges
+    duration: 35 min
+    vmRef: CBAM Regulation (EU) 2023/956, Recitals 21-24; WTO GATT Article XX; EC FAQ on CBAM
+  - id: '4.3'
+    title: Other Countries' Carbon Border Measures
+    duration: 35 min
+    vmRef: World Bank State and Trends of Carbon Pricing (2024); EC FAQ on CBAM
+  - id: '4.4'
+    title: Future Scope Expansion and Evolution
+    duration: 30 min
+    vmRef: CBAM Regulation (EU) 2023/956, Art. 30; EC FAQ on CBAM; World Bank State and Trends of Carbon Pricing (2024)
+    seoTitle: 'CBAM Future Scope: New Sectors & Indirect Emissions'
+    seoDescription: 'CBAM future scope: potential expansion to chemicals, polymers and refined oil products, Scope 3 embedded
+      emissions, and downstream processed goods.'

@@ -1,0 +1,23 @@
+- question: "What does NIR/MIR spectroscopy measure to predict SOC?"
+  options:
+  - "Soil moisture levels"
+  - "The spectral reflectance pattern of soil samples"
+  - "Greenhouse gas flux above the canopy"
+  - "GPS coordinates of sampling plots"
+  answer: 1
+
+- question: "What is the main advantage of eddy covariance flux towers?"
+  options:
+  - "They are inexpensive to install"
+  - "They measure carbon flux continuously over large footprints"
+  - "They replace all other monitoring methods"
+  - "They work only in tropical regions"
+  answer: 1
+
+- question: "Why can't digital MRV platforms fully replace lab analysis under current VM0042?"
+  options:
+  - "They are too expensive"
+  - "Lab analysis is required for VM0042 applicability"
+  - "New methods must be validated against wet chemistry before direct crediting"
+  - "Digital platforms don't work in developing countries"
+  answer: 2

@@ -1,0 +1,74 @@
+---
+title: "Why ICS security is its own discipline"
+duration: "35 min"
+---
+
+## Two worlds, one wire
+
+You can run an enterprise IT incident response on a five-day clock. You cannot
+do the same to a furnace. **Industrial Control Systems** (ICS) are physical
+processes wrapped in software. The software is replaceable; the process is not.
+A misconfigured firewall in the corporate office costs you a Slack outage. A
+misconfigured firewall on a Level 2 conduit costs you a city's drinking water.
+
+This lesson grounds the rest of the program in **why** the rules differ from
+classical IT, before the next lesson covers **what** those rules look like.
+
+## Three irreducible differences
+
+### 1. The "system" is the plant, not the server
+
+In IT, the value chain ends at the data. In OT (Operational Technology), the
+data is in service of a **physical** outcome — pressure, flow, temperature,
+torque. A successful denial-of-service against an HMI doesn't just lose
+visibility; it loses the operator's ability to shut the process down safely.
+
+> "If you take down a webshop for two hours, you lose two hours of revenue.
+> If you take down a refinery for two hours, you may lose two hours plus
+> two weeks of restart, plus a relief-valve event the regulator will write
+> a 200-page report about."
+> — practitioner aphorism, repeated in IEC 62443-1-1.
+
+### 2. Determinism over throughput
+
+A modern PLC's job is to do the same thing **at exactly the same moment**, every
+20 ms, for fifteen years. IT optimises for throughput and convenience; OT
+optimises for **determinism** and **mean time between failures**. A patch that
+adds 2 ms of latency to a control loop can destabilise a feedback control that
+the integrator tuned a decade ago. This is why the first answer to "have you
+patched?" on a plant floor is almost always "no, and here's the change-control
+form for why."
+
+### 3. Lifecycle measured in decades
+
+The HVAC controllers in many hospital pharmacies were commissioned in 1998.
+They will be there in 2034. The web frontend at your bank was rewritten three
+times in the last five years. ArmorInnovate's threat models, supply-chain
+controls, and patch policies must respect that **the device on the bench
+predates Windows 7** — and will outlast its successor.
+
+## What this means for the rest of the program
+
+Every IEC 62443 part you study has these three differences in its DNA:
+
+- **62443-1-1** explicitly inverts the IT CIA triad to **AIC** (Availability,
+  Integrity, Confidentiality). You will see this in lesson `0.2`.
+- **62443-2-1** treats patch management as a **process safety event**, not a
+  Tuesday afternoon Windows update.
+- **62443-3-3** separates control-system requirements (CRs) from system
+  requirements (SRs) precisely because the **system is the plant**, not the
+  network.
+
+Hold these three differences in mind as you progress. They are the lens through
+which every Foundational Requirement, Security Level, and zone diagram in the
+program makes sense.
+
+## Quick check
+
+Before you take the lesson quiz, try to answer this in plain language:
+
+> Your CFO asks why you can't just "run the corporate antivirus on the PLCs."
+> Give her three reasons in two sentences each.
+
+If you can do it without notes, you're ready for the quiz. If not, re-read the
+"Three irreducible differences" section and try again.

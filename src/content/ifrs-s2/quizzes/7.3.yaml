@@ -1,0 +1,35 @@
+- question: "The IFRS S2 industry-based guidance is described as 'non-mandatory.' What does IFRS S2 actually require entities to do with it?"
+  options:
+    - "Nothing — it is entirely optional reference material"
+    - "Refer to and consider the applicable guidance when preparing disclosures (paragraphs 12 and 32)"
+    - "Report all metrics in the industry guidance for their sector"
+    - "Apply the industry guidance only if the entity is listed on a stock exchange"
+  answer: 1
+  explanation: "IFRS S2 paragraphs 12 and 32 require entities to refer to and consider the industry-based guidance. It is not mandatory in the sense that all metrics must be reported — materiality still applies. But entities must engage with the guidance, consider which topics are relevant, and disclose if material."
+
+- question: "The industry-based guidance is organised using which classification system?"
+  options:
+    - "GICS (Global Industry Classification Standard)"
+    - "NACE (European Classification of Economic Activities)"
+    - "SICS (Sustainable Industry Classification System)"
+    - "ISIC (International Standard Industrial Classification)"
+  answer: 2
+  explanation: "The industry-based guidance uses the Sustainable Industry Classification System (SICS), originally developed by SASB. Entities identify their primary industry within SICS to find the applicable volume(s). Multi-industry entities may need to apply guidance from multiple volumes."
+
+- question: "An automobile company considers the 'Fuel Economy and Use-phase Emissions' disclosure topic from the industry guidance. It concludes the topic is relevant as a transition risk because stricter EU emissions regulations threaten its ICE vehicle lineup. How does this connect to IFRS S2's main requirements?"
+  options:
+    - "This topic would appear in Scope 2 emissions disclosure"
+    - "This topic fulfils the Para 10 requirement to identify specific climate-related risks, supporting the strategy section"
+    - "This is only relevant for the governance section (Para 6)"
+    - "Industry-based guidance topics replace cross-industry metric category requirements"
+  answer: 1
+  explanation: "The industry guidance helps entities identify specific climate-related risks — directly supporting Para 10's requirement to describe specific, classified risks with time horizons. The EU emissions regulatory risk identified through the industry guidance becomes a specific transition risk (policy/legal) to be described in the strategy section."
+
+- question: "How many industry volumes accompany IFRS S2 as industry-based guidance?"
+  options:
+    - "11 (one per SICS sector)"
+    - "44"
+    - "68"
+    - "120"
+  answer: 2
+  explanation: "There are 68 industry volumes covering specific industries across 11 SICS sectors. Not all conceivable industries have volumes — some (e.g., tobacco, advertising) were determined not to require specific climate guidance."

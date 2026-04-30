@@ -1,0 +1,26 @@
+- question: "Which EU satellite system provides the primary monitoring data for the EU Observatory on Deforestation and Forest Degradation?"
+  options:
+    - "The Galileo navigation satellite system"
+    - "The Copernicus Sentinel satellites"
+    - "The Meteosat weather satellites"
+    - "The SPOT commercial satellite constellation"
+  answer: 1
+  explanation: "The Copernicus programme's Sentinel satellites (Sentinel-1 SAR and Sentinel-2 optical) provide the primary EU monitoring data. Sentinel-2 delivers 10-meter resolution optical imagery with a 5-day revisit time; Sentinel-1 provides cloud-penetrating radar imagery."
+
+- question: "Why is 'tree cover loss' not the same as 'deforestation' under the EUDR?"
+  options:
+    - "The EUDR only counts tree loss on land with more than 50% canopy cover"
+    - "Tree cover loss includes temporary losses (fire, selective logging, disease) that may not represent permanent conversion to agricultural use"
+    - "Tree cover loss data is collected annually while the EUDR requires monthly monitoring"
+    - "The EUDR excludes fire-driven forest loss from its deforestation definition"
+  answer: 1
+  explanation: "Tree cover loss in satellite datasets includes temporary disturbances from fire, selective logging, or plantation harvesting followed by regrowth. EUDR deforestation refers specifically to permanent conversion of forest to agricultural use after 31 December 2020. Operators must interpret satellite data carefully to distinguish permanent conversion from temporary loss."
+
+- question: "Which of the following is a key limitation of optical satellite monitoring in tropical regions?"
+  options:
+    - "Optical satellites cannot detect forests with canopy cover below 90%"
+    - "Persistent cloud cover can limit the frequency of usable optical imagery"
+    - "Optical satellites only detect deforestation events larger than 100 hectares"
+    - "Optical satellite data is not freely available to EU operators"
+  answer: 1
+  explanation: "Persistent cloud cover in tropical regions is a significant limitation for optical satellites because they cannot see through clouds. This is why radar satellites (like Sentinel-1) that penetrate cloud cover are valuable complements to optical data in tropical forest monitoring."

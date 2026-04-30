@@ -1,0 +1,26 @@
+- question: "An EU importer declares 1,000 tCO₂ of embedded emissions in steel imports for the 2029 reporting year. The CBAM adjustment factor published by the Commission for steel in 2029 is 0.25. How many CBAM certificates must the importer surrender?"
+  options:
+  - "1,000 certificates — the full embedded emissions with no adjustment"
+  - "250 certificates — equal to 1,000 tCO₂ multiplied by the 0.25 adjustment factor"
+  - "750 certificates — representing the portion of emissions covered by EU producers' residual free allocation"
+  - "500 certificates — the adjustment factor is always 50% during the transition period"
+  answer: 1
+  explanation: "The CBAM adjustment factor is applied by multiplying total embedded emissions by the factor: 1,000 tCO₂ × 0.25 = 250 certificates to surrender. The adjustment factor of 0.25 means that comparable EU producers in 2029 still receive approximately 75% of their benchmark-based allowances as free allocation, so importers only need to cover the remaining 25% through CBAM certificates. As free allocation falls in subsequent years, the adjustment factor and surrender obligation will rise."
+
+- question: "Why does the CBAM Regulation require that the number of CBAM certificates surrendered be reduced by the CBAM adjustment factor, rather than requiring full surrender from day one of the definitive period?"
+  options:
+  - "Because CBAM certificate production infrastructure is not yet able to supply enough certificates for full surrender from 2026"
+  - "Because immediate full CBAM surrender while EU producers still receive substantial free allocation would over-compensate EU producers, distorting competition in their favour"
+  - "Because the EU ETS price must first reach a minimum threshold before full CBAM can be justified under WTO rules"
+  - "Because the adjustment factor allows the CBAM registry to gradually scale up its processing capacity over the transition period"
+  answer: 1
+  explanation: "If imports faced full CBAM costs while EU producers simultaneously received substantial free allocation subsidies, EU producers would be double-protected: their own costs subsidised and their import competitors charged more than a comparable EU producer pays. The adjustment factor ensures that CBAM and free allocation always sum to 100% protection — no more, no less — maintaining competitive neutrality during the transition."
+
+- question: "Approximately when is the free allocation phase-out for CBAM-covered sectors expected to be complete, with importers facing 100% of their CBAM certificate obligation?"
+  options:
+  - "2026"
+  - "2030"
+  - "2034"
+  - "2040"
+  answer: 2
+  explanation: "The free allocation phase-out for CBAM-covered sectors runs from 2026 through to approximately 2034, when free allocation is scheduled to reach zero. From 2034, importers face 100% of their calculated CBAM certificate obligation (with no adjustment factor reduction), and EU producers must purchase all their ETS allowances at auction. This represents the completion of the transition from free-allocation-based leakage protection to CBAM-based leakage protection."

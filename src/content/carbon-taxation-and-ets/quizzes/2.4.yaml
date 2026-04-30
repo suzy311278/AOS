@@ -1,0 +1,44 @@
+- question: "What does GDP modeling of carbon pricing typically show about economic costs?"
+  options:
+    - "Carbon pricing always causes severe recessions"
+    - "Costs are typically modest (often under 1% of GDP) when well-designed"
+    - "There are no economic costs"
+    - "GDP always increases with carbon pricing"
+  answer: 1
+  explanation: "Economic modeling typically shows that well-designed carbon pricing has modest GDP impacts, often less than 1%, especially when revenue is recycled efficiently and complementary policies support transition."
+
+- question: "What employment transition pattern do carbon pricing studies typically find?"
+  options:
+    - "Mass unemployment across all sectors"
+    - "Job losses in carbon-intensive sectors, job creation in clean sectors, with net employment often neutral or slightly positive"
+    - "No job losses anywhere"
+    - "Only government jobs are affected"
+  answer: 1
+  explanation: "Carbon pricing causes job shifts rather than net job loss. Some jobs are lost in fossil fuel industries, but others are created in clean energy, efficiency, and other growing sectors."
+
+- question: "What is a 'just transition' fund?"
+  options:
+    - "Money paid to environmental groups"
+    - "Resources dedicated to supporting workers and communities affected by the shift away from fossil fuels"
+    - "A fund that makes carbon pricing slower"
+    - "Emergency disaster relief"
+  answer: 1
+  explanation: "Just transition funds support retraining, income support, economic diversification, and community investment in regions that depend on fossil fuel industries."
+
+- question: "Why do some economic models show positive GDP effects from carbon pricing?"
+  options:
+    - "All models are wrong"
+    - "When revenue is used to reduce distortionary taxes or fund productive investments"
+    - "Carbon pricing creates money out of thin air"
+    - "Only theoretical, never observed"
+  answer: 1
+  explanation: "When revenue is used to cut economically distortionary taxes (like corporate income taxes) or fund productivity-enhancing investments, the efficiency gains can offset or exceed the direct costs of carbon pricing."
+
+- question: "What co-benefit of carbon pricing is often significant but not captured in GDP?"
+  options:
+    - "Political popularity"
+    - "Reduced air pollution and associated health benefits"
+    - "International prestige"
+    - "Tourism increases"
+  answer: 1
+  explanation: "Reducing fossil fuel use also cuts local air pollutants (PM2.5, NOx, SO2), delivering major health benefits. Studies show air quality co-benefits often equal or exceed the direct climate benefits."

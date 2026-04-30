@@ -1,0 +1,26 @@
+- question: "Which of the following best describes the Ellen MacArthur Foundation's definition of a circular economy?"
+  options:
+    - "An economy where all materials are recycled at end of life"
+    - "A system where materials never become waste and nature is regenerated"
+    - "An economy that uses only renewable energy sources"
+    - "A system where consumption is reduced to sustainable levels"
+  answer: 1
+  explanation: "The Ellen MacArthur Foundation defines the circular economy as a system where materials never become waste and nature is regenerated - achieved through maintenance, reuse, refurbishment, remanufacture, recycling, and composting."
+
+- question: "In the butterfly diagram, the 'technical cycle' prioritises which sequence of strategies?"
+  options:
+    - "Recycle, remanufacture, reuse, maintain"
+    - "Maintain, reuse, refurbish, remanufacture, recycle"
+    - "Compost, biodegrade, recycle, recover energy"
+    - "Reduce, reuse, recycle"
+  answer: 1
+  explanation: "The technical cycle prioritises strategies from highest to lowest value preservation: maintain, reuse/redistribute, refurbish/remanufacture, and finally recycle. Each step down preserves less of the product's embedded value."
+
+- question: "What portion of global greenhouse gas emissions can be addressed by transitioning to renewable energy, according to the Ellen MacArthur Foundation?"
+  options:
+    - "25%"
+    - "45%"
+    - "55%"
+    - "75%"
+  answer: 2
+  explanation: "The Ellen MacArthur Foundation's 'Completing the Picture' (2019) with Material Economics found that renewable energy transition can address approximately 55% of global GHG emissions. The remaining 45% requires circular economy strategies."

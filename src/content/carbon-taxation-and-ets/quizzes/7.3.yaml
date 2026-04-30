@@ -1,0 +1,35 @@
+- question: "What institutional capacity is needed to implement carbon pricing?"
+  options:
+    - "Only a tax collection agency"
+    - "MRV systems, registries, enforcement mechanisms, market oversight, and analytical capacity"
+    - "No special capacity required"
+    - "Just political will"
+  answer: 1
+  explanation: "Implementing carbon pricing requires substantial institutional infrastructure including emissions monitoring systems, allowance registries, enforcement capabilities, market administration, and analytical capacity for ongoing management."
+
+- question: "Why do many developing countries start with simpler carbon pricing designs?"
+  options:
+    - "They are not serious about climate"
+    - "To match institutional capacity to administrative demands while building expertise"
+    - "Complex systems are illegal"
+    - "Simple systems are more effective"
+  answer: 1
+  explanation: "Starting with simpler approaches (like upstream carbon taxes on fewer fuels) allows capacity to be built gradually, avoiding administrative overload while establishing the foundation for more sophisticated systems later."
+
+- question: "What role can international organizations play in building carbon pricing capacity?"
+  options:
+    - "They implement the system for countries"
+    - "They provide technical assistance, knowledge sharing, and sometimes financial support"
+    - "They have no role"
+    - "They only criticize"
+  answer: 1
+  explanation: "Organizations like the World Bank, PMR/PMI, and bilateral development agencies provide technical assistance, peer learning opportunities, and sometimes financial support for capacity building."
+
+- question: "What is the typical timeline for developing full carbon pricing capacity?"
+  options:
+    - "One month"
+    - "Several years of planning, piloting, and institutional development"
+    - "One week"
+    - "Capacity is not needed"
+  answer: 1
+  explanation: "Building MRV systems, training verifiers, establishing registries, and developing enforcement capacity typically takes several years. Many systems use pilot phases to build capacity before full implementation."

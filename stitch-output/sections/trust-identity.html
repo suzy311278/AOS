@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary": "#004520",
+                    "surface-bright": "#e7fefd",
+                    "inverse-primary": "#8cd4ca",
+                    "surface": "#e7fefd",
+                    "tertiary-fixed": "#6bfe9c",
+                    "on-secondary-fixed": "#0a1f1f",
+                    "on-error-container": "#93000a",
+                    "on-surface": "#0a1f1f",
+                    "inverse-on-surface": "#dff5f5",
+                    "on-tertiary-fixed-variant": "#005228",
+                    "on-secondary-container": "#546868",
+                    "secondary-fixed": "#d0e7e6",
+                    "surface-container-highest": "#d0e7e6",
+                    "tertiary-fixed-dim": "#4ae183",
+                    "outline": "#6f7977",
+                    "inverse-surface": "#203434",
+                    "surface-dim": "#c8dede",
+                    "on-tertiary": "#ffffff",
+                    "surface-container": "#dcf2f2",
+                    "secondary-fixed-dim": "#b5cbca",
+                    "on-primary-container": "#8ad2c8",
+                    "surface-container-high": "#d6edec",
+                    "on-error": "#ffffff",
+                    "secondary-container": "#d0e7e6",
+                    "surface-container-lowest": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "primary-fixed-dim": "#8cd4ca",
+                    "surface-container-low": "#e1f8f7",
+                    "on-tertiary-container": "#48df82",
+                    "on-secondary-fixed-variant": "#364a4a",
+                    "outline-variant": "#bec9c6",
+                    "primary-fixed": "#a7f0e6",
+                    "surface-tint": "#1a6962",
+                    "tertiary-container": "#005f2f",
+                    "background": "#e7fefd",
+                    "primary": "#00433d",
+                    "error": "#ba1a1a",
+                    "primary-container": "#005c55",
+                    "on-primary": "#ffffff",
+                    "on-tertiary-fixed": "#00210c",
+                    "error-container": "#ffdad6",
+                    "on-background": "#0a1f1f",
+                    "surface-variant": "#d0e7e6",
+                    "on-surface-variant": "#3f4947",
+                    "on-primary-fixed": "#00201d",
+                    "secondary": "#4e6262",
+                    "on-primary-fixed-variant": "#00504a"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Inter"],
+                    "body": ["Inter"],
+                    "label": ["JetBrains Mono"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .verified-fill {
+            font-variation-settings: 'FILL' 1;
+        }
+        /* Custom rotation for the cascade effect */
+        .card-cascade-1 { transform: rotate(-4deg) translateX(40px); z-index: 10; }
+        .card-cascade-2 { transform: rotate(0deg) translateY(-20px); z-index: 20; }
+        .card-cascade-3 { transform: rotate(4deg) translateX(-40px); z-index: 10; }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopNavBar (Shared Component) -->
+<nav class="bg-[#e7fefd] dark:bg-[#0a1f1f] text-[#00433d] dark:text-[#e7fefd] docked w-full top-0 sticky z-50">
+<div class="flex justify-between items-center w-full px-12 py-6 max-w-[1440px] mx-auto">
+<div class="text-2xl font-['Inter'] font-extrabold tracking-[-0.02em] leading-tight text-[#00433d] dark:text-[#e7fefd]">
+                Greentryst
+            </div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-[#00433d] dark:text-[#e7fefd] border-b-2 border-[#00433d] dark:border-[#e7fefd] pb-1 font-extrabold tracking-[-0.02em] leading-tight" href="#">Portfolio</a>
+<a class="text-[#0a1f1f] opacity-70 dark:text-[#d0e7e6] hover:text-[#00897b] transition-colors duration-200 font-extrabold tracking-[-0.02em] leading-tight" href="#">Ledger</a>
+<a class="text-[#0a1f1f] opacity-70 dark:text-[#d0e7e6] hover:text-[#00897b] transition-colors duration-200 font-extrabold tracking-[-0.02em] leading-tight" href="#">Impact</a>
+<a class="text-[#0a1f1f] opacity-70 dark:text-[#d0e7e6] hover:text-[#00897b] transition-colors duration-200 font-extrabold tracking-[-0.02em] leading-tight" href="#">Reports</a>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-2xl scale-95 active:opacity-80 transition-all cursor-pointer" data-icon="account_circle">account_circle</span>
+</div>
+</div>
+</nav>
+<main class="min-h-screen">
+<!-- THE TRUST IDENTITY SECTION -->
+<section class="bg-[#f8faf9] py-24 px-12 overflow-hidden">
+<div class="max-w-[1440px] mx-auto flex flex-col gap-24">
+<!-- Top Section: Bold Statement -->
+<div class="w-full lg:w-2/3 flex flex-col gap-6">
+<h2 class="text-[40px] font-extrabold text-on-surface leading-[1.1] tracking-[-0.02em]">
+                        Every answer on this platform can be traced back to its original source document, page number, and publication year.
+                    </h2>
+<div class="w-20 h-0.5 bg-primary"></div>
+<p class="text-lg text-on-surface-variant max-w-2xl leading-relaxed opacity-80">
+                        In a profession where work must be verified, audited, and defended, this is not a feature. It is the foundation.
+                    </p>
+</div>
+<!-- Bottom Section: Cascade Layout -->
+<div class="relative flex flex-col md:flex-row items-center justify-center gap-8 md:gap-0 mt-12 pb-12">
+<!-- Card 1: SustainIQ Answer -->
+<div class="card-cascade-1 bg-[#0e1e1e] text-white p-8 rounded-xl w-full max-w-md shadow-2xl transition-transform hover:scale-105 duration-500">
+<div class="flex flex-col h-full gap-8">
+<div class="flex justify-between items-start">
+<span class="text-[10px] uppercase tracking-widest text-primary-fixed-dim font-bold">SustainIQ Answer</span>
+<span class="material-symbols-outlined text-tertiary-fixed verified-fill" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<div class="space-y-4">
+<p class="text-sm opacity-60 font-medium">What is the baseline period for VM0042?</p>
+<p class="text-2xl font-bold leading-tight">10 years prior to the project start date</p>
+</div>
+<div class="mt-auto pt-8 border-t border-white/10">
+<p class="font-['JetBrains_Mono'] text-xs text-primary-fixed-dim">VM0042 v2.2, Section 3.1.2, p.14</p>
+</div>
+</div>
+</div>
+<!-- Card 2: Lesson Citation -->
+<div class="card-cascade-2 bg-[#0e1e1e] text-white p-8 rounded-xl w-full max-w-md shadow-2xl transition-transform hover:scale-105 duration-500">
+<div class="flex flex-col h-full gap-8">
+<div class="flex justify-between items-start">
+<span class="text-[10px] uppercase tracking-widest text-primary-fixed-dim font-bold">Lesson Citation</span>
+<span class="material-symbols-outlined text-tertiary-fixed verified-fill" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<div class="space-y-4">
+<p class="text-xl font-bold leading-tight">Scope 3 Category 6: Business Travel</p>
+<p class="text-sm opacity-70 leading-relaxed">Mandatory reporting including air, rail, and bus transport for business purposes under operational control.</p>
+</div>
+<div class="mt-auto pt-8 border-t border-white/10">
+<p class="font-['JetBrains_Mono'] text-[10px] text-primary-fixed-dim leading-snug">Source: GHG Protocol Corporate Value Chain Standard, Chapter 7, Table 7.1</p>
+</div>
+</div>
+</div>
+<!-- Card 3: Emission Factor -->
+<div class="card-cascade-3 bg-[#0e1e1e] text-white p-8 rounded-xl w-full max-w-md shadow-2xl transition-transform hover:scale-105 duration-500">
+<div class="flex flex-col h-full gap-8">
+<div class="flex justify-between items-start">
+<span class="text-[10px] uppercase tracking-widest text-primary-fixed-dim font-bold">Emission Factor</span>
+<span class="material-symbols-outlined text-tertiary-fixed verified-fill" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<div class="space-y-4">
+<p class="text-sm opacity-60 font-medium italic">Grid Emission Factor - India (CEA 2024)</p>
+<p class="text-4xl font-['JetBrains_Mono'] font-bold text-tertiary-fixed">0.716 <span class="text-sm font-normal text-white/60">tCO2/MWh</span></p>
+</div>
+<div class="mt-auto pt-8 border-t border-white/10">
+<p class="font-['JetBrains_Mono'] text-[10px] text-primary-fixed-dim">Central Electricity Authority, CO2 Baseline Database v19, 2024</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contextual Section to show white-space and editorial feel -->
+<section class="bg-surface py-32 px-12">
+<div class="max-w-[1440px] mx-auto grid grid-cols-12 gap-12">
+<div class="col-span-12 md:col-span-4 space-y-6">
+<h3 class="text-2xl font-bold tracking-tight">The Ledger of Proof</h3>
+<p class="text-on-surface-variant leading-relaxed">
+                        Greentryst is built for the era of high-integrity sustainability. We replace ambiguity with explicit citation, ensuring that every data point used in your reports is defensible during third-party assurance.
+                    </p>
+</div>
+<div class="col-span-12 md:col-span-8 flex justify-end">
+<div class="w-full bg-surface-container-low p-12 rounded-xl flex flex-col gap-8">
+<div class="grid grid-cols-2 gap-12">
+<div class="space-y-2">
+<span class="font-['JetBrains_Mono'] text-3xl font-bold text-primary">100%</span>
+<p class="text-xs uppercase tracking-widest font-bold opacity-60">Traceable Metrics</p>
+</div>
+<div class="space-y-2">
+<span class="font-['JetBrains_Mono'] text-3xl font-bold text-primary">Zero</span>
+<p class="text-xs uppercase tracking-widest font-bold opacity-60">Hallucination Guarantee</p>
+</div>
+</div>
+<div class="h-px bg-outline-variant/20"></div>
+<div class="flex items-center gap-4 text-primary font-bold group cursor-pointer">
+<span class="border-b-2 border-primary pb-1">Read the technical whitepaper</span>
+<span class="material-symbols-outlined group-hover:translate-x-2 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- SideNavBar (Shared Component - Conditional Visibility logic) -->
+<!-- Hidden by default on landing pages, but structure kept for design consistency -->
+<aside class="hidden lg:hidden bg-[#e1f8f7] dark:bg-[#203434] text-[#00433d] dark:text-[#e7fefd] h-screen w-72 left-0 top-0 fixed shadow-[24px_0_24px_-4px_rgba(10,31,31,0.06)] z-40">
+<div class="flex flex-col py-12 gap-8 h-full">
+<div class="px-8 flex flex-col gap-2">
+<span class="font-['JetBrains_Mono'] font-bold text-2xl text-[#00433d] dark:text-[#e7fefd]">The Ledger</span>
+<span class="text-xs opacity-60">Sustainability Audit v2.4</span>
+</div>
+<nav class="flex flex-col font-['Inter'] font-semibold text-sm tracking-normal">
+<a class="flex items-center gap-4 py-3 text-[#00433d] dark:text-[#e7fefd] font-bold border-l-4 border-[#00433d] pl-4 hover:bg-[#d0e7e6] dark:hover:bg-[#0a1f1f] transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span> Overview
+                </a>
+<a class="flex items-center gap-4 py-3 text-[#0a1f1f] dark:text-[#d0e7e6] pl-5 opacity-60 hover:bg-[#d0e7e6] dark:hover:bg-[#0a1f1f] transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined" data-icon="inventory">inventory</span> Source Provenance
+                </a>
+<a class="flex items-center gap-4 py-3 text-[#0a1f1f] dark:text-[#d0e7e6] pl-5 opacity-60 hover:bg-[#d0e7e6] dark:hover:bg-[#0a1f1f] transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span> Emission Metrics
+                </a>
+<a class="flex items-center gap-4 py-3 text-[#0a1f1f] dark:text-[#d0e7e6] pl-5 opacity-60 hover:bg-[#d0e7e6] dark:hover:bg-[#0a1f1f] transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined" data-icon="history">history</span> Audit Trail
+                </a>
+<a class="flex items-center gap-4 py-3 text-[#0a1f1f] dark:text-[#d0e7e6] pl-5 opacity-60 hover:bg-[#d0e7e6] dark:hover:bg-[#0a1f1f] transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined" data-icon="public">public</span> Climate Strategy
+                </a>
+</nav>
+</div>
+</aside>
+<footer class="bg-surface-container-highest py-12 px-12">
+<div class="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8 border-t border-outline-variant/20 pt-12">
+<div class="flex flex-col gap-2">
+<span class="font-headline font-extrabold text-xl tracking-tight">Greentryst</span>
+<span class="text-xs text-on-surface-variant">© 2024 Greentryst Systems. All rights reserved.</span>
+</div>
+<div class="flex gap-12 font-label text-[10px] uppercase tracking-widest font-bold">
+<a class="hover:text-primary transition-colors" href="#">Privacy Protocol</a>
+<a class="hover:text-primary transition-colors" href="#">Audit Standards</a>
+<a class="hover:text-primary transition-colors" href="#">API Documentation</a>
+</div>
+</div>
+</footer>
+</body></html>

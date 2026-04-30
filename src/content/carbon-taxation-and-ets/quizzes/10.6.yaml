@@ -1,0 +1,35 @@
+- question: "What distinguishes developing country carbon pricing systems?"
+  options:
+    - "They are identical to developed country systems"
+    - "Often simpler designs, narrower coverage, and phased implementation to match capacity"
+    - "They are all voluntary"
+    - "No developing countries have carbon pricing"
+  answer: 1
+  explanation: "Developing countries often adapt carbon pricing to their circumstances with simpler initial designs, narrower sectoral coverage, pilot phases for capacity building, and integration with climate finance opportunities."
+
+- question: "What is Colombia's carbon pricing innovation?"
+  options:
+    - "No carbon pricing"
+    - "Allowing carbon tax liability to be met with domestic offsets, supporting forest conservation"
+    - "Highest carbon price globally"
+    - "Pure ETS only"
+  answer: 1
+  explanation: "Colombia allows taxpayers to offset their carbon tax liability with credits from domestic offset projects, particularly forest conservation, linking carbon pricing with forest protection goals."
+
+- question: "What is South Africa's carbon tax design feature?"
+  options:
+    - "Pure carbon tax with no exemptions"
+    - "Extensive allowances that reduce the effective rate significantly below the headline rate"
+    - "No carbon tax"
+    - "Applies only to imports"
+  answer: 1
+  explanation: "South Africa's carbon tax has a headline rate but extensive allowances (for trade exposure, process emissions, performance, etc.) that reduce the effective rate to 10-40% of the headline, addressing competitiveness concerns."
+
+- question: "How is the EU CBAM affecting developing country carbon pricing decisions?"
+  options:
+    - "No effect"
+    - "Accelerating carbon pricing plans to retain carbon revenue domestically rather than paying at EU border"
+    - "Eliminating all carbon pricing"
+    - "Only affecting developed countries"
+  answer: 1
+  explanation: "Developing countries that export to the EU face incentives to implement domestic carbon pricing so that carbon revenue stays home rather than being collected by the EU CBAM, accelerating some carbon pricing timelines."

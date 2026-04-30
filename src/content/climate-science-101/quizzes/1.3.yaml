@@ -1,0 +1,26 @@
+- question: "By how much has Arctic summer sea ice extent declined per decade since satellite measurements began in 1979, according to NOAA data?"
+  options:
+    - "About 3% per decade"
+    - "About 6% per decade"
+    - "About 12% per decade"
+    - "About 20% per decade"
+  answer: 2
+  explanation: "Between 1979 and 2024, Arctic summer sea ice cover declined by approximately 12.1% per decade relative to the 1981–2010 average — translating to roughly 78,000 square kilometres of annual loss, comparable to the area of South Carolina. Multiyear ice (the thick ice that survives multiple summers) has collapsed from about one-third of winter ice cover in the mid-1980s to just 5% today."
+
+- question: "What caused global mean sea level to rise 20 cm between 1901 and 2018, and why has the rate accelerated?"
+  options:
+    - "Only glacier melt has contributed; the acceleration reflects faster glacier retreat in recent decades"
+    - "Only thermal expansion of warming ocean water has contributed; ice loss is not yet significant at the global scale"
+    - "Both thermal expansion of the warming ocean and meltwater from glaciers and ice sheets contribute; the rate has accelerated because ice sheet losses from Greenland and Antarctica have grown dramatically"
+    - "Sea level rise is caused by changes in Earth's gravitational field as ice redistributes, not by any addition of water to the ocean"
+  answer: 2
+  explanation: "Sea level rise has two main drivers: thermal expansion (warm water occupies more volume) and meltwater addition from glaciers and ice sheets. From 1970 onwards these contributed roughly equally, but ice sheet losses have accelerated dramatically — Greenland's loss rate increased sevenfold and Antarctica's nearly quadrupled between 1992–2001 and 2012–2016. The rate of rise tripled from 1.3 mm/yr in the early 20th century to 3.7 mm/yr in 2006–2018."
+
+- question: "Ocean acidification has increased by approximately 30% since industrialization. What does this mean in chemical terms, and what is the primary cause?"
+  options:
+    - "The average ocean temperature has increased by 30%, causing chemical changes; the primary cause is absorption of heat from the atmosphere"
+    - "The concentration of hydrogen ions (acidity) has increased by approximately 30% as dissolved CO₂ forms carbonic acid; the primary cause is human-caused CO₂ emissions"
+    - "The salt concentration of the ocean has decreased by 30% due to freshwater from melting ice; the primary cause is glacier and ice sheet melt"
+    - "Ocean oxygen levels have declined by 30% due to warming; the primary cause is increased microbial activity in warmer water"
+  answer: 1
+  explanation: "Ocean acidification refers to the decline in ocean pH caused by the ocean absorbing atmospheric CO₂, which reacts with seawater to form carbonic acid. Surface ocean pH has declined from approximately 8.21 to 8.10 since industrialization — a 0.11 unit change that, on the logarithmic pH scale, represents roughly a 30% increase in hydrogen ion concentration (acidity). The IPCC AR6 states with virtually certain confidence that human CO₂ emissions are the main driver."

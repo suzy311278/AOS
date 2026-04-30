@@ -1,0 +1,35 @@
+- question: "What legal framework is typically needed for carbon pricing?"
+  options:
+    - "No legal framework necessary"
+    - "Legislation or regulation providing authority to price carbon, set rates/caps, collect revenue, and enforce compliance"
+    - "Only international treaties"
+    - "Just executive orders"
+  answer: 1
+  explanation: "Carbon pricing requires clear legal authority to impose the price, set rates or caps, establish compliance obligations, collect revenue, enforce penalties, and administer the system."
+
+- question: "What is enabling legislation?"
+  options:
+    - "Laws that enable companies to pollute"
+    - "Primary legislation that establishes the carbon pricing system and delegates authority for detailed rules"
+    - "International agreements"
+    - "Voluntary guidelines"
+  answer: 1
+  explanation: "Enabling legislation creates the carbon pricing system at the primary law level and typically delegates authority to regulators to develop detailed implementation rules."
+
+- question: "Why might regulations be preferred over legislation for some design details?"
+  options:
+    - "Regulations are stronger than laws"
+    - "Regulations can be updated more quickly as circumstances change without requiring new parliamentary votes"
+    - "Legislation is illegal"
+    - "Regulations generate more revenue"
+  answer: 1
+  explanation: "While major policy decisions should be in legislation, delegating technical details to regulations allows faster updates (like benchmark adjustments or offset protocols) without requiring full legislative processes."
+
+- question: "What legal considerations exist for ETS allowances?"
+  options:
+    - "Allowances have no legal status"
+    - "Legal clarity on allowance property rights, transferability, and registry primacy"
+    - "Allowances must be physical certificates"
+    - "Legal status does not matter"
+  answer: 1
+  explanation: "Clear legal definition of allowances (what they represent, who owns them, how they transfer, registry as definitive record) is essential for market confidence and preventing disputes."

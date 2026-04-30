@@ -1,0 +1,26 @@
+- question: "A manufacturing company reduced its emission intensity from 0.8 tCO2e per tonne of product to 0.6 tCO2e per tonne - a 25% intensity improvement. However, production volume doubled in the same period. What happened to its absolute emissions?"
+  options:
+    - "Absolute emissions decreased by 25%, matching the intensity improvement"
+    - "Absolute emissions stayed roughly the same"
+    - "Absolute emissions increased by 50%"
+    - "Cannot be determined without knowing the base year absolute total"
+  answer: 2
+  explanation: "If intensity dropped from 0.8 to 0.6 (a 25% reduction) but output doubled, then absolute emissions went from (0.8 x X) to (0.6 x 2X) = 1.2X - a 50% increase in absolute terms. This illustrates why intensity targets alone do not guarantee atmospheric benefit. A company can meet its intensity target while its total emissions rise."
+
+- question: "A company already reports its GHG inventory using the GHG Protocol Corporate Standard. It now needs ISO 14064-3 compliant verification for EU CSRD. What is the most likely gap it will need to address?"
+  options:
+    - "Completely redo the inventory using ISO methodology instead of the GHG Protocol"
+    - "Add formal uncertainty assessment and strengthen documentation of methodological choices"
+    - "Switch from operational control to equity share consolidation approach"
+    - "Report all emissions in six separate indirect categories instead of Scope 2 and Scope 3"
+  answer: 1
+  explanation: "The GHG Protocol and ISO 14064-1 are designed to be compatible - there is no need to redo the inventory. However, ISO requires formal uncertainty assessment (quantified per source category, not just acknowledged) and written justification of methodological choices. These are the most common gaps when a GHG Protocol-based inventory faces ISO verification."
+
+- question: "A carbon offset project needs ISO 14064 compliance. Which parts of the standard apply?"
+  options:
+    - "ISO 14064-1 for the project inventory and ISO 14064-3 for verification"
+    - "ISO 14064-2 for quantifying emission reductions and ISO 14064-3 for both validation and verification"
+    - "Only ISO 14064-2 - project-level standards do not require separate verification"
+    - "ISO 14064-1 for the baseline and ISO 14064-2 for the project scenario"
+  answer: 1
+  explanation: "ISO 14064-2 covers project-level GHG quantification - how to measure the emission reductions a project achieves. ISO 14064-3 covers both validation (are the projected reductions reasonable?) and verification (are the actual measured reductions correct?). A carbon offset project needs validation of its forward-looking projections and verification of its historical results - both fall under ISO 14064-3."

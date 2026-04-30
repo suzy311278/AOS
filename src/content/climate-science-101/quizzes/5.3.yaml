@@ -1,0 +1,26 @@
+- question: "What is the fundamental difference between a carbon tax and an emissions trading scheme (ETS)?"
+  options:
+    - "Carbon taxes apply only to large industrial emitters; ETS applies to all sectors of the economy"
+    - "A carbon tax provides price certainty with variable emissions quantity; an ETS provides quantity certainty with variable price"
+    - "Carbon taxes are market-based instruments; ETS is a regulatory standard that sets emissions limits"
+    - "A carbon tax generates government revenue while an ETS does not involve any financial transactions"
+  answer: 1
+  explanation: "A carbon tax sets a fixed price per tonne of CO₂ and lets the market determine how much emissions are reduced (price certainty, variable quantity). An emissions trading scheme sets a cap on total emissions (quantity certainty) and lets the market determine the price through trading of permits. Both create economic incentives to reduce emissions but differ in whether they control the price or the volume of emissions."
+
+- question: "What does the Science Based Targets initiative (SBTi) require for corporate net-zero targets under its Corporate Net-Zero Standard?"
+  options:
+    - "Companies must reach net zero by 2030 with reductions of at least 50% in Scope 1 emissions only"
+    - "Companies must reduce Scope 1, 2, and 3 emissions by at least 90% by a target year no later than 2050, with interim 2030 targets"
+    - "Companies must offset all their current emissions immediately and maintain this offset indefinitely"
+    - "Companies must publish a transition plan but are not required to set specific percentage reduction targets"
+  answer: 1
+  explanation: "SBTi's Corporate Net-Zero Standard requires companies to reduce Scope 1, 2, and 3 emissions by at least 90% by a target year no later than 2050, with interim targets for 2030. The remaining up to 10% of residual emissions should be neutralized through permanent carbon removal. This standard is grounded in the science of carbon budgets and aims to align corporate action with 1.5°C pathways."
+
+- question: "According to IPCC AR6 WGIII, what share of global CO₂ emissions can be attributed to urban areas on a consumption basis?"
+  options:
+    - "Approximately 25-30%"
+    - "Approximately 40-50%"
+    - "Approximately 67-72%"
+    - "Approximately 85-90%"
+  answer: 2
+  explanation: "IPCC AR6 WGIII reports that urban areas account for approximately 67-72% of global CO₂ emissions from energy and industry on a consumption basis (including both direct emissions within cities and indirect emissions from goods and services consumed in cities). This concentration of emissions in urban areas makes transforming urban energy systems, mobility, and buildings one of the highest-leverage mitigation opportunities available."

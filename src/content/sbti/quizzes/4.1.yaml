@@ -1,0 +1,44 @@
+- question: "Criterion C24 of the SBTi Near-Term Criteria states that when sector-specific guidance is published, companies operating in that sector must align their targets with the guidance within what timeframe?"
+  options:
+    - "12 months of publication"
+    - "6 months of publication"
+    - "At the time of their next annual disclosure"
+    - "At the time of their five-year review"
+  answer: 1
+  explanation: "C24 requires companies to align with applicable sector-specific guidance within 6 months of that guidance's publication date. For companies submitting new targets after sector guidance has been published, alignment is required from the outset. This 6-month window applies to companies with existing validated targets as well -- they must revise and resubmit if their current targets are inconsistent with the new sector guidance."
+
+- question: "Criterion C22 requires that fossil fuel sellers set a Scope 3 Category 11 target regardless of what factor?"
+  options:
+    - "The absolute volume of fossil fuels sold"
+    - "The percentage of total company revenue attributable to fossil fuel sales"
+    - "Whether the company has already set a Scope 1 and 2 absolute target"
+    - "The geographic markets in which the fossil fuels are sold"
+  answer: 1
+  explanation: "C22 triggers the Scope 3 Category 11 requirement based on the activity of selling fossil fuels -- not the revenue share from that activity. A company that derives only 20% of its revenue from fossil fuel distribution but still sells significant volumes of fossil fuels must set a Category 11 target covering the combustion emissions of those fuels. The criterion is designed to prevent companies from ignoring their dominant downstream emission source by characterising fossil fuel sales as a minor business activity."
+
+- question: "Under Criterion C23, which of the following company types is currently ineligible to set SBTi targets through the standard process?"
+  options:
+    - "Companies with more than 50% of revenue from renewable energy generation"
+    - "Companies with more than 50% of revenue from fossil fuel distribution"
+    - "Companies with Scope 3 emissions exceeding 70% of their total footprint"
+    - "Companies operating in more than one country simultaneously"
+  answer: 1
+  explanation: "C23 excludes two categories from the standard SBTi process: fossil fuel producers (primary extraction and production of coal, oil, or gas) and companies deriving more than 50% of revenue from fossil fuel distribution. These exclusions reflect the absence of dedicated sector guidance that would define how such companies could credibly commit to a science-based pathway. The SBTi intends to develop this guidance, but until it is published, these companies cannot obtain validated targets."
+
+- question: "The Sectoral Decarbonization Approach (SDA) for the steel sector uses which physical intensity metric?"
+  options:
+    - "tCO2e per tonne of iron ore processed"
+    - "tCO2e per tonne of steel produced"
+    - "tCO2e per unit of steel revenue"
+    - "tCO2e per employee in the steel division"
+  answer: 1
+  explanation: "The SDA for steel uses tCO2e per tonne of steel produced as the physical intensity metric. Using a physical output metric (rather than a revenue metric) ensures that improvements reflect genuine operational efficiency rather than simply price increases for steel. All steel companies using the SDA method must converge toward the same intensity benchmark defined in the steel sector pathway, regardless of their starting point."
+
+- question: "A company discovers that sector-specific SBTi guidance applicable to its operations was published 8 months ago, but it has not yet updated its validated targets to reflect the guidance requirements. Under C24, what is the situation?"
+  options:
+    - "The company is compliant because it has 12 months from publication to align"
+    - "The company is in breach of C24 and must immediately begin the process of revising and resubmitting its targets"
+    - "The company has a further 6 months before action is required because the 6-month window restarts annually"
+    - "The company only needs to align if the sector guidance changes its target by more than 10%"
+  answer: 1
+  explanation: "C24's 6-month alignment window began when the sector guidance was published. Since 8 months have elapsed without alignment, the company is already in breach of C24. There is no automatic extension of the window, and there is no threshold below which non-alignment is permitted. The company must begin the process of revising its targets to comply with the sector guidance and resubmit to the SBTi as soon as possible."

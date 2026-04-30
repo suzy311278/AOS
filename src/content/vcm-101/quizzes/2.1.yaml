@@ -1,0 +1,26 @@
+- question: "What is the fundamental difference between an avoidance credit and a removal credit?"
+  options:
+  - "Avoidance credits are cheaper; removal credits are more expensive"
+  - "Avoidance credits prevent emissions from being released; removal credits actively pull CO2 out of the atmosphere"
+  - "Avoidance credits come from nature-based projects; removal credits come from technology projects"
+  - "Avoidance credits are temporary; removal credits are always permanent"
+  answer: 1
+  explanation: "The core distinction is mechanistic: avoidance credits represent a tonne of CO2 that was not emitted because of a project's intervention, while removal credits represent a tonne that was actively extracted from the atmosphere and stored. This is the foundational distinction the Oxford Principles and ICVCM use to differentiate credit types."
+
+- question: "According to the Oxford Offsetting Principles (revised 2024), what should organisations do with their credit portfolios as they approach their net zero target dates?"
+  options:
+  - "Purchase more avoidance credits because they are cheaper and available at greater scale"
+  - "Eliminate all carbon credit purchases and rely solely on internal emissions reductions"
+  - "Progressively shift toward durable carbon removals with low risk of reversal"
+  - "Maintain a fixed 50/50 split between avoidance and removal credits"
+  answer: 2
+  explanation: "The revised Oxford Offsetting Principles explicitly call for organisations to transition to carbon removal offsetting for residual emissions by their net zero target date, and to shift specifically toward removals with durable storage (low risk of reversal). The hierarchy moves from broad climate contribution toward increasingly permanent and verifiable storage."
+
+- question: "Within the removal category, which type of storage carries the lowest risk of reversal?"
+  options:
+  - "Forest biomass, because trees are visible and easy to monitor"
+  - "Agricultural soil carbon, because soils cover large areas"
+  - "Geological storage (as in DACCS), because carbon is mineralised into rock"
+  - "Biochar in soils, because it resists microbial decomposition for centuries"
+  answer: 2
+  explanation: "Geological storage in suitable rock formations carries negligible reversal risk over human timescales - the carbon mineralises into stable carbonate minerals and cannot be re-released by natural processes under normal conditions. Forest biomass, soil carbon, and biochar are all vulnerable to some degree of reversal from fire, tillage, oxidation, or land use change, though biochar is significantly more stable than most biological stores."

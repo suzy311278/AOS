@@ -1,0 +1,35 @@
+- question: "What is Article 6 of the Paris Agreement?"
+  options:
+    - "A carbon tax requirement"
+    - "Framework for international cooperation on carbon markets and emissions reductions"
+    - "A ban on carbon pricing"
+    - "Agricultural policy"
+  answer: 1
+  explanation: "Article 6 creates frameworks for countries to cooperate on emissions reductions through market mechanisms (Article 6.2 and 6.4) and non-market approaches (Article 6.8)."
+
+- question: "What are Internationally Transferred Mitigation Outcomes (ITMOs)?"
+  options:
+    - "International carbon taxes"
+    - "Emissions reductions transferred between countries under Article 6.2"
+    - "Renewable energy certificates"
+    - "Climate finance"
+  answer: 1
+  explanation: "ITMOs are emissions reductions that can be transferred between countries under Article 6.2, allowing bilateral cooperation on mitigation with appropriate accounting to prevent double counting."
+
+- question: "What is a corresponding adjustment under Article 6?"
+  options:
+    - "Adjusting carbon prices internationally"
+    - "Accounting adjustment to prevent double counting when ITMOs are transferred"
+    - "Border adjustment"
+    - "Price adjustment"
+  answer: 1
+  explanation: "Corresponding adjustments ensure that when Country A transfers an ITMO to Country B, Country A adds the emissions to its account and B subtracts them, preventing double counting of the reduction."
+
+- question: "What is Article 6.4 mechanism?"
+  options:
+    - "A carbon tax framework"
+    - "A centralized crediting mechanism supervised by a UN body, replacing the CDM"
+    - "A bilateral trade agreement"
+    - "A technology transfer program"
+  answer: 1
+  explanation: "Article 6.4 creates a centralized, UN-supervised mechanism for generating carbon credits from projects, improving on the CDM with stronger rules and automatic corresponding adjustments."

@@ -1,0 +1,26 @@
+- question: "After completing Step 2 (risk assessment), an operator concludes that there is non-negligible risk that a coffee shipment does not comply with the EUDR. What should the operator do next?"
+  options:
+    - "Submit a due diligence statement declaring the risk found and proceed with placing the product on the market"
+    - "Take proportionate risk mitigation measures (additional documentation, independent audits) and reassess; if risk cannot be reduced to negligible, do not place the product on the market"
+    - "Immediately notify the competent authority and await instructions before proceeding"
+    - "Apply for a temporary exemption from the due diligence statement requirement"
+  answer: 1
+  explanation: "Under Article 10, when risk assessment identifies non-negligible risk, the operator must take proportionate mitigation steps such as requesting additional information, commissioning independent audits, or restructuring the supply chain. If mitigation reduces risk to negligible, the operator may submit a due diligence statement and proceed. If risk cannot be reduced to negligible, the product must not be placed on the market."
+
+- question: "For a production plot larger than 4 hectares, what type of geolocation data does the EUDR require?"
+  options:
+    - "The GPS coordinates of the nearest official village or town"
+    - "A polygon defined by GPS coordinates that outlines the boundary of the plot"
+    - "A single GPS point coordinate at the centre of the plot"
+    - "The administrative region code where the plot is located"
+  answer: 1
+  explanation: "For production areas larger than 4 hectares, the EUDR requires a polygon: a set of GPS coordinates that define the boundary of the plot. For plots of 4 hectares or less, a single GPS point coordinate may be sufficient. The polygon requirement enables satellite-based verification of whether the specific production area was forested and whether it was deforested after 31 December 2020."
+
+- question: "An operator's risk assessment for a soy shipment from Brazil considers the supply chain complexity. Why is supply chain complexity a relevant risk factor?"
+  options:
+    - "More complex supply chains are always non-compliant under the EUDR"
+    - "Greater complexity (more intermediaries between farm and operator) reduces the operator's ability to verify geolocation and deforestation-free status at farm level"
+    - "Complex supply chains automatically qualify for SME trader simplified procedures"
+    - "Supply chain complexity determines which country risk category applies"
+  answer: 1
+  explanation: "Supply chain complexity is a risk factor because more intermediaries between the farm level and the EU operator reduce the operator's direct visibility into production practices. In a simple supply chain (farmer sells directly to importer), verification is straightforward. In a complex chain with multiple aggregators, processors, and traders, the operator has less direct information about the actual production plots, increasing the risk that non-compliant material enters the supply."

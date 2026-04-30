@@ -1,0 +1,26 @@
+- question: "Which article of Regulation (EU) 2023/1115 establishes the country risk benchmarking system?"
+  options:
+    - "Article 3"
+    - "Article 9"
+    - "Article 29"
+    - "Article 14"
+  answer: 2
+  explanation: "Article 29 of the EUDR establishes the country risk classification (benchmarking) system, assigning countries to low, standard, or high risk tiers."
+
+- question: "What is the minimum enforcement check rate for operators and products from high-risk countries?"
+  options:
+    - "1%"
+    - "3%"
+    - "5%"
+    - "9%"
+  answer: 3
+  explanation: "Competent authorities must check at least 9% of operators and relevant products from high-risk countries, compared to 3% for standard-risk and 1% for low-risk countries."
+
+- question: "Which of the following is NOT among the criteria used by the Commission to benchmark countries under the EUDR?"
+  options:
+    - "Deforestation rates and trends"
+    - "Forest governance quality"
+    - "The country's GDP per capita"
+    - "Ongoing reform processes"
+  answer: 2
+  explanation: "GDP per capita is not a benchmarking criterion. The benchmarking methodology considers deforestation rates, forest governance quality, forest protection status, international agreements, commodity production links, ongoing reform processes, and third-party information."

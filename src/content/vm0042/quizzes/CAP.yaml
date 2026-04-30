@@ -1,0 +1,23 @@
+- question: "In the capstone scenario, what is the common practice penetration rate for zero tillage in the district?"
+  options:
+  - "Less than 5%"
+  - "About 8%"
+  - "Around 15%"
+  - "Over 20%"
+  answer: 1
+
+- question: "Using the provided assumptions, what are the approximate gross ERRs in Year 1?"
+  options:
+  - "~5,000 tCO2e/yr"
+  - "~8,000 tCO2e/yr"
+  - "~10,550 tCO2e/yr"
+  - "~15,000 tCO2e/yr"
+  answer: 2
+
+- question: "The two soil strata in the capstone project are based on:"
+  options:
+  - "Crop type (wheat vs. soybean)"
+  - "Soil type (Vertisols vs. Alfisols)"
+  - "Rainfall zone"
+  - "Farm size"
+  answer: 1

@@ -1,0 +1,44 @@
+- question: "What do Computable General Equilibrium (CGE) models show for carbon pricing?"
+  options:
+    - "Only emissions reductions"
+    - "Economy-wide interactions, sectoral shifts, price changes, and GDP impacts"
+    - "Only government revenue"
+    - "Political feasibility"
+  answer: 1
+  explanation: "CGE models show how carbon pricing affects production, consumption, prices, trade, and employment across the economy, capturing ripple effects through supply chains and factor markets."
+
+- question: "What is the main advantage of energy system models?"
+  options:
+    - "They model the entire economy"
+    - "Detailed technology representation showing energy sector transition pathways"
+    - "They are simplest"
+    - "They require no data"
+  answer: 1
+  explanation: "Energy system models provide detailed representation of energy technologies, showing which technologies become competitive at different carbon prices and how the energy mix evolves over time."
+
+- question: "Why do model results depend heavily on price elasticities?"
+  options:
+    - "They do not"
+    - "Elasticities determine how responsive emissions are to carbon prices"
+    - "Elasticities are always accurate"
+    - "Models ignore elasticities"
+  answer: 1
+  explanation: "Price elasticities measure how emissions respond to carbon prices. Higher elasticities mean greater response and emissions reductions; lower elasticities mean less response, fundamentally affecting model projections."
+
+- question: "What is revenue base erosion in carbon pricing modeling?"
+  options:
+    - "Revenue is constant forever"
+    - "As emissions fall, the tax base shrinks, causing revenue to eventually decline even if rates rise"
+    - "Revenue always increases"
+    - "Revenue is irrelevant"
+  answer: 1
+  explanation: "As carbon pricing drives emissions reductions, the tax base (tons emitted) shrinks. Revenue may initially rise with rate increases but eventually plateaus and declines as deep decarbonization occurs."
+
+- question: "Why should model assumptions and limitations be transparent?"
+  options:
+    - "Transparency is not needed"
+    - "Decision-makers need to understand uncertainty and model limitations to interpret results appropriately"
+    - "To hide weaknesses"
+    - "Models are perfect"
+  answer: 1
+  explanation: "Transparency about assumptions, parameter values, and model limitations helps decision-makers understand the uncertainty and strengths/weaknesses of projections, enabling better-informed decisions."

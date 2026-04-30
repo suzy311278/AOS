@@ -1,0 +1,26 @@
+- question: "What is the Weighted Average Key Issue Score (WAKIS) in the MSCI methodology?"
+  options:
+    - "The average of a company's three Pillar Scores, weighted equally"
+    - "The weighted average of all individual Environmental and Social Key Issue Scores plus the Governance Pillar Score, where weights reflect the importance of each key issue for the company's industry"
+    - "The industry-adjusted score that is mapped directly to the letter rating"
+    - "The sum of all deductions applied to the Governance Pillar starting from a score of 10"
+  answer: 1
+  explanation: "The WAKIS is calculated for each company as the weighted average of all the individual Environmental and Social Key Issue Scores contributing to the rating, plus the Governance Pillar Score. Each key issue typically comprises 5% to 30% of the total, with weights set per GICS sub-industry."
+
+- question: "How does the scoring of the Governance Pillar differ from the Environmental and Social Pillars in the MSCI model?"
+  options:
+    - "The Governance Pillar uses an exposure-management framework identical to the Environmental Pillar"
+    - "The Governance Pillar starts from a score of 10 and applies deductions based on the gap between best practice and the company's actual governance practices"
+    - "The Governance Pillar is scored on a separate 0-100 scale that is not included in the WAKIS"
+    - "The Governance Pillar score is optional and only included when a company has significant governance controversies"
+  answer: 1
+  explanation: "The Governance Pillar uses a deduction-based model. Starting from 10, deductions are applied based on Key Metrics in the Corporate Governance and Corporate Behavior themes. This is different from the E and S pillars, which use exposure and management scores. The Governance weight is also floored at a minimum of 33%."
+
+- question: "What is the score range that maps to the MSCI 'Leaders' category, covering both AAA and AA ratings?"
+  options:
+    - "6.0 to 10.0 on the Industry-Adjusted Company Score scale"
+    - "7.143 to 10.0 on the Industry-Adjusted Company Score scale"
+    - "8.0 to 10.0 on the Industry-Adjusted Company Score scale"
+    - "5.714 to 10.0 on the Industry-Adjusted Company Score scale"
+  answer: 1
+  explanation: "According to Exhibit 2 of the MSCI methodology, AAA (Leader) covers scores from 8.571 to 10.0, and AA (Leader) covers scores from 7.143 to 8.571. Together, the Leaders category spans scores from 7.143 to 10.0 on the Industry-Adjusted Company Score scale."

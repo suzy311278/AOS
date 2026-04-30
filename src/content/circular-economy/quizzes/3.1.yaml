@@ -1,0 +1,26 @@
+- question: "Approximately what percentage of all plastic ever produced has been recycled globally?"
+  options:
+    - "Less than 10%"
+    - "Around 25%"
+    - "Around 40%"
+    - "More than 50%"
+  answer: 0
+  explanation: "Globally, only around 9% of all plastic ever manufactured has been recycled. Roughly 12% has been incinerated, and 79% has accumulated in landfills, soil, or aquatic environments."
+
+- question: "What is the correct order of the three core circular actions for plastics identified by the Ellen MacArthur Foundation?"
+  options:
+    - "Innovate, Eliminate, Circulate"
+    - "Eliminate, Innovate, Circulate"
+    - "Circulate, Eliminate, Innovate"
+    - "Eliminate, Circulate, Innovate"
+  answer: 1
+  explanation: "The three core actions are: Eliminate all problematic and unnecessary plastic items, Innovate to ensure remaining plastics are reusable, recyclable, or compostable, and Circulate all plastic items by keeping them in the economy and out of the environment."
+
+- question: "Germany's Pfand deposit return system achieves which collection rate for plastic bottles?"
+  options:
+    - "Around 50%"
+    - "Around 70%"
+    - "Around 85%"
+    - "Above 98%"
+  answer: 3
+  explanation: "Germany's Pfand deposit return system achieves collection rates above 98% by placing a monetary deposit on each bottle, creating a financial incentive for consumers to return bottles and generating high-quality feedstock for recycled content."

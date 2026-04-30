@@ -1,0 +1,87 @@
+{/* source: Scope3_Calculation_Guidance_0[1].pdf, Category 13 (pp. 128-129) */}
+
+**Category 13 — Downstream Leased Assets** covers GHG emissions from the operation of assets **owned by the reporting company** and **leased to other entities**, not already included in Scope 1 and Scope 2. The reporting company here is the **lessor** - the party that owns the asset and rents it out.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-3/4_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## The Lessor/Lessee Framework
+
+Category 13 and Category 8 are mirror images:
+
+| Category | Role | Direction | Description |
+|----------|------|-----------|-------------|
+| Category 8 | Lessee | Upstream | Company leases assets **from** others; emissions not in Scope 1/2 |
+| Category 13 | Lessor | Downstream | Company leases assets **to** others; emissions from lessee's operations |
+
+<HighlightBox>
+Category 13 captures the operational emissions of the lessee - the tenant or operator who uses the reporting company's asset. These are "downstream" because they occur in the operations of other parties after the asset has been leased out, downstream from the lessor's own boundary.
+</HighlightBox>
+
+## Who Does Category 13 Apply To?
+
+Category 13 is most relevant for companies whose primary business is asset ownership and leasing:
+
+- **Commercial real estate companies**: Office buildings, retail properties, logistics warehouses leased to tenants
+- **Industrial equipment leasing companies**: Machinery, cranes, generators leased to manufacturers
+- **Vehicle leasing companies**: Cars, trucks, aircraft leased under operating leases
+- **Data centre operators**: Co-location facilities leased to technology companies
+- **Energy companies**: Pipelines, storage tanks, or processing facilities leased under operating agreements
+
+For companies that own and primarily operate their own assets, Category 13 will be zero or negligible, and this should be documented.
+
+## The Overlap Issue
+
+Similar to Category 8, whether a leased asset's emissions appear in Scope 1/2 or Category 13 depends on the **consolidation approach**:
+
+- If the company uses the **operational control** approach and the lessee operates the asset, the lessee has operational control - and the emissions are in the **lessee's** Scope 1/2, and in the **lessor's** Category 13.
+- If the company retains operational control even while leasing (e.g., a managed real estate service where the lessor controls energy procurement), the emissions may already be in the lessor's Scope 2. In that case, they must not be double-counted in Category 13.
+
+## Calculation Methods
+
+### Method 1: Asset-Specific Method (Most Accurate)
+Collects actual energy or fuel consumption data from lessees. This requires lessees to share their Scope 1 and 2 emissions data with the lessor. Increasingly common in green lease frameworks.
+
+<EquationBreakdown
+  title="Category 13 - Asset-Specific Method"
+  result="E<sub>Cat13</sub> | Category 13 Emissions | Total emissions from downstream leased assets, in tCO₂e | blue"
+  inputs="EC<sub>lessee</sub> | Lessee Energy Consumption | Electricity consumed by the lessee in the leased asset, in MWh | green ;; EF<sub>grid</sub> | Grid Emission Factor | Emissions per MWh of grid electricity, in tCO₂e/MWh | amber ;; FC<sub>lessee</sub> | Lessee Fuel Consumption | Fuel consumed by the lessee in the leased asset | violet ;; EF<sub>fuel</sub> | Fuel Emission Factor | Emissions per unit of fuel burned | rose"
+  operator="+"
+/>
+
+### Method 2: Average-Data Method
+Uses average energy intensity benchmarks for asset type and applies them to the total leased floor area or asset volume.
+
+<EquationBreakdown
+  title="Category 13 - Average-Data Method (Buildings)"
+  result="E<sub>Cat13</sub> | Category 13 Emissions | Total emissions from leased building operations, in tCO₂e | blue"
+  inputs="A | Leased Floor Area | Total floor area of leased buildings, in m² | green ;; EI | Energy Intensity | Average energy use per square metre per year, in kWh/m²/year | amber ;; EF<sub>grid</sub> | Grid Emission Factor | Emissions per MWh of grid electricity, in tCO₂e/MWh (divide by 1,000 to convert kWh to MWh) | violet"
+/>
+
+### Method 3: Spend-Based Method
+EIO factors per unit of leasing revenue. Used only for screening.
+
+<CalculationExercise
+  question="A real estate company owns an office building with 8,000 m² of leased space. The average energy intensity is 180 kWh/m²/year. The grid emission factor is 0.207 tCO₂e/MWh. What are the Category 13 emissions for this building?"
+  answer={297.8}
+  tolerance={1}
+  unit="tCO₂e"
+  hints={["Total energy = 8,000 m² × 180 kWh/m²/yr = 1,440,000 kWh = 1,440 MWh.", "Emissions = 1,440 MWh × 0.207 tCO₂e/MWh = ?", "1,440 × 0.207 = 298.1 tCO₂e."]}
+  solution="8,000 m² × 180 kWh/m²/yr = 1,440,000 kWh = 1,440 MWh × 0.207 tCO₂e/MWh = 298.1 tCO₂e."
+/>
+
+## Green Leases and Landlord-Tenant Collaboration
+
+Traditional "standard leases" do not provide landlords with access to tenants' energy consumption data, making Category 13 calculation difficult. **Green leases** change this by including contractual obligations for:
+
+- Tenants to share energy consumption data with the landlord
+- Both parties to cooperate on efficiency improvements
+- Minimum energy performance standards for tenant fit-outs
+- Joint commitments to renewable energy procurement
+
+Green leases are increasingly required by institutional investors and are being adopted across major commercial real estate markets as a mechanism to enable both lessor Scope 3 reporting and actual building decarbonisation.
+
+<DeepDive title="CRREM and science-based decarbonisation pathways for real estate">
+The Carbon Risk Real Estate Monitor (CRREM) tool provides science-based decarbonisation pathways for commercial buildings by asset type and geography - specifying how much energy intensity (kWh/m²/year) and carbon intensity (kgCO₂e/m²/year) a building must achieve in each year to align with Paris Agreement pathways. Real estate companies using CRREM can assess whether their Category 13 assets are on-track or face "stranded asset" risk (becoming non-compliant with future standards before the end of their economic life), enabling targeted investment in energy efficiency retrofits.
+</DeepDive>
+
+<KeyTakeaways items="Category 13 covers emissions from assets owned by the reporting company and leased to others - the company is the lessor ;; Most relevant for commercial real estate companies, equipment leasing firms, vehicle leasing companies, and data centre operators ;; Whether emissions fall in Scope 1/2 or Category 13 depends on who has operational control - if the lessee operates the asset, emissions are Category 13 for the lessor ;; Green leases contractually require tenants to share energy data, enabling accurate Category 13 calculation and joint decarbonisation ;; Use tools like CRREM to assess whether leased buildings are on a Paris-aligned decarbonisation pathway or face stranded asset risk" />

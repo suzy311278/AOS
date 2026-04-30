@@ -1,0 +1,26 @@
+- question: "An AI-generated draft for a water management section reads: 'The company has made significant strides in its water management practices, implementing innovative solutions to optimize water consumption.' What is the core problem?"
+  options:
+    - "The sentence is too long"
+    - "It uses passive voice"
+    - "It is generic and contains no specific information about what the company actually did"
+    - "It mentions water management, which should be in the Environmental section only"
+  answer: 2
+  explanation: "AI-generated content tends to generalize. This sentence could apply to any company in any industry. The fix is to replace it with specifics: actual consumption figures, the initiatives that drove changes, and measurable outcomes. Specificity is what separates useful reporting from AI slop."
+
+- question: "In the recommended workflow for using AI in ESG report writing, what should you do BEFORE prompting the AI to draft a section?"
+  options:
+    - "Set up the report's visual design template"
+    - "Gather your inputs - collect data, review past reports, read the annual report, and understand the company's story"
+    - "Get client approval on the final report structure"
+    - "Complete all other sections of the report first"
+  answer: 1
+  explanation: "You need to know what you want to say before you ask AI to help you say it. Collecting data, reviewing past reports, and understanding the company context ensures your AI prompt is specific enough to produce useful output rather than generic filler."
+
+- question: "Why is AI slop in ESG reports described as a credibility problem, not just a quality problem?"
+  options:
+    - "Because AI-generated reports cannot be legally published"
+    - "Because AI tools are too expensive for most consulting firms"
+    - "Because if the narrative sounds machine-generated, readers start questioning whether the data was verified by a human either"
+    - "Because rating agencies automatically reject reports that contain any AI-generated content"
+  answer: 2
+  explanation: "When readers detect generic AI language, their trust in the entire report erodes - not just the narrative quality. If the writing was not reviewed by a human, they wonder whether the data, targets, and claims were verified either. AI slop undermines the credibility of the company's ESG commitments."

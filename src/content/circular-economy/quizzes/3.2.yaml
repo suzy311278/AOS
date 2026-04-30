@@ -1,0 +1,26 @@
+- question: "What proportion of textiles globally is recycled into new textiles?"
+  options:
+    - "Less than 1%"
+    - "Around 10%"
+    - "Around 25%"
+    - "Around 40%"
+  answer: 0
+  explanation: "Less than 1% of textiles globally are recycled into new textiles. This is due to technological limitations and the complexity of blended fabrics, which defeat sorting and recycling processes."
+
+- question: "By what date must EU Member States establish separate collection for textiles under the revised Waste Framework Directive?"
+  options:
+    - "January 1, 2023"
+    - "January 1, 2025"
+    - "January 1, 2027"
+    - "January 1, 2030"
+  answer: 1
+  explanation: "EU Member States are required to establish separate textile collection by January 1, 2025 under the revised Waste Framework Directive (2018 amendment to Directive 2008/98/EC)."
+
+- question: "What was the primary design requirement for denim in the Ellen MacArthur Foundation's Jeans Redesign project?"
+  options:
+    - "100% recycled polyester content"
+    - "98% cotton fabric to facilitate recycling"
+    - "Minimum 50% organic cotton"
+    - "Zero synthetic dyes"
+  answer: 1
+  explanation: "The Jeans Redesign project required 98% cotton fabric as a key design criterion to facilitate recycling. Complex blends of cotton and synthetic fibres defeat sorting and recycling processes, so mono-material design is critical for circularity."

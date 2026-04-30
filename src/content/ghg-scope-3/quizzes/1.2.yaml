@@ -1,0 +1,26 @@
+- question: "How does Category 2 (Capital Goods) differ from Category 1 (Purchased Goods) in terms of GHG accounting?"
+  options:
+    - "Category 2 emissions are spread over the asset's depreciation period"
+    - "Category 2 full lifecycle emissions are assigned entirely to the year of acquisition"
+    - "Category 2 covers only the manufacturing stage, not transport"
+    - "Category 2 applies only to goods worth more than £100,000"
+  answer: 1
+  explanation: "Unlike financial depreciation, the Scope 3 Standard assigns the full cradle-to-gate emissions of a capital good to the year of acquisition. This means Category 2 emissions can spike in years of heavy capital investment."
+
+- question: "Which of the following is correctly classified as a Category 2 (Capital Goods) item?"
+  options:
+    - "Raw cotton purchased for textile production"
+    - "A truck purchased to be resold to customers"
+    - "A new assembly machine installed at the company's factory"
+    - "Packaging materials for finished goods"
+  answer: 2
+  explanation: "A new assembly machine used in the company's own operations is a capital good — it is used repeatedly over multiple years in the production process. Raw cotton and packaging materials are consumed in production (Category 1). A truck for resale is also Category 1 (purchased goods for sale)."
+
+- question: "Category 2 emissions are most material for which type of company?"
+  options:
+    - "Professional services firms with minimal capital expenditure"
+    - "Capital-intensive manufacturers with significant machinery and equipment purchases"
+    - "Retail companies primarily purchasing finished goods"
+    - "Software companies with no physical products"
+  answer: 1
+  explanation: "Capital-intensive industries such as manufacturing, mining, and energy regularly purchase large machinery, equipment, and facilities — making Category 2 a significant share of their Scope 3 inventory."

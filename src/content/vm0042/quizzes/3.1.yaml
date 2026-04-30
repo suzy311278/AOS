@@ -1,0 +1,26 @@
+- question: "Which approach ONLY covers SOC (CO₂) and cannot quantify methane or nitrous oxide changes?"
+  options:
+  - "Approach 1 — Measure and Model"
+  - "Approach 2 — Measure and Re-Measure"
+  - "Approach 3 — Default Factors"
+  - "All approaches cover all three gases"
+  answer: 1
+  explanation: "Approach 2 (Measure and Re-Measure) directly measures SOC stock changes only. For CH₄ and N₂O, projects using Approach 2 must use Approach 3 default factors for those gas sources."
+
+- question: "What is the 'model true-up' in Approach 1?"
+  options:
+  - "The initial calibration of the model before the project starts"
+  - "Periodic comparison of model predictions with actual soil measurements to recalibrate the model"
+  - "The final calculation of VCUs at the end of the project"
+  - "The process of validating the model against published peer-reviewed studies"
+  answer: 1
+  explanation: "Model true-up is the periodic (at least every 5 years) process of comparing actual soil measurements with model predictions. If the model over-predicted carbon gains, credits are adjusted downward — this prevents systematic over-crediting from model bias."
+
+- question: "Can two different quantification units within the same project use different quantification approaches?"
+  options:
+  - "No — the entire project must use one approach"
+  - "Yes — different QUs can use different approaches, but each QU must use the same approach for both baseline and project scenarios"
+  - "Yes — but only if approved by a special methodology deviation"
+  - "No — this would create conflicts in the net calculation"
+  answer: 1
+  explanation: "VM0042 allows different QUs to use different approaches. However, within a given QU, the same approach must be used for both the baseline and project scenarios to ensure a like-for-like comparison."

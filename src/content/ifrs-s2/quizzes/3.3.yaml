@@ -1,0 +1,26 @@
+- question: "IFRS S2 distinguishes between 'resilience assessment' and 'scenario analysis.' What is the key difference?"
+  options:
+    - "Resilience assessment is quantitative; scenario analysis is qualitative"
+    - "Resilience assessment is the conclusion disclosed annually; scenario analysis is the analytical process that may follow a multi-year cycle"
+    - "Resilience assessment covers physical risks; scenario analysis covers transition risks"
+    - "Scenario analysis is required; resilience assessment is optional"
+  answer: 1
+  explanation: "The resilience assessment (Para 22(a)) is management's conclusion about the entity's climate resilience — this must be updated and disclosed every year. Scenario analysis is the analytical exercise that informs this conclusion — it can follow a strategic planning cycle (e.g., every 3-5 years). The distinction means the analytical work need not be redone annually, but the resilience conclusions must be."
+
+- question: "Para 22(a)(iii) requires disclosure of the entity's 'capacity to adjust or adapt.' Which three dimensions must be addressed?"
+  options:
+    - "Regulatory compliance, operational continuity, and financial reserves"
+    - "Financial resource flexibility, asset adaptability, and effect of current investments in mitigation and adaptation"
+    - "Board expertise, management capability, and staff training"
+    - "Scope 1 reduction progress, Scope 3 category coverage, and carbon credit holdings"
+  answer: 1
+  explanation: "Para 22(a)(iii) requires three specific dimensions of adaptive capacity: (1) availability and flexibility of financial resources, (2) ability to redeploy, repurpose, upgrade, or decommission assets, and (3) the contribution of current and planned investments in mitigation, adaptation, and resilience."
+
+- question: "Application Guidance B4-B5 says the sophistication of scenario analysis should be commensurate with the entity's exposure. Which entity would be expected to conduct the most sophisticated analysis?"
+  options:
+    - "A software company with no physical assets in climate-vulnerable regions"
+    - "A regional restaurant chain with 50 locations"
+    - "A coastal oil refinery with long-lived assets and significant carbon pricing exposure"
+    - "A fashion retailer with 5% of goods sourced from water-stressed regions"
+  answer: 2
+  explanation: "Exposure level determines required sophistication. A coastal oil refinery has multiple compounding climate exposures: physical risk (coastal flooding, storms), transition risk (carbon pricing on fossil fuel operations), and long-lived assets that are difficult to redeploy. This high exposure level warrants sophisticated quantitative scenario analysis."

@@ -1,0 +1,1427 @@
+[INIT].... → Crawl4AI 0.8.0 
+[FETCH]... ↓ https://knowesg.com/courses                                        
+| ✓ | ⏱: 10.65s 
+[SCRAPE].. ◆ https://knowesg.com/courses                                        
+| ✓ | ⏱: 2.54s 
+[COMPLETE] ● https://knowesg.com/courses                                        
+| ✓ | ⏱: 13.50s 
+[ERROR]... × https://knowesg.com                                | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/cou...esg-and-social-activism  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/courses/esg-and-social-activism", waiting
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/cou...nies-and-climate-change  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/courses/companies-and-climate-change", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/cou...easuring-climate-change  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://knowesg.com/courses/doing-economics-measuring-climate-change", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/cou...nd-global-public-health  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://knowesg.com/courses/climate-change-sustainability-and-global-public-hea
+lth", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/cou...used-financial-products  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/courses/esg-focused-financial-products", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/cou...ntains-a-global-concern  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://knowesg.com/courses/climate-change-and-water-in-mountains-a-global-conc
+ern", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/cou...in-developing-countries  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://knowesg.com/courses/climate-change-mitigation-in-developing-countries",
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/cou...icies-of-climate-change  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://knowesg.com/courses/economics-and-policies-of-climate-change", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/cou...ct-investor-perspective  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/courses/esg-impact-investor-perspective",
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/cou...nable-development-goals  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://knowesg.com/courses/driving-business-towards-the-sustainable-developmen
+t-goals", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[DEBUG]... ⋯ Body visibility info: True 
+[FETCH]... ↓ 
+https://knowesg.com/courses/business-sustainability-in-the-circular-economy     
+| ✓ | ⏱: 77.88s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/business-sustainability-in-the-circular-economy     
+| ✓ | ⏱: 2.12s 
+[COMPLETE] ● 
+https://knowesg.com/courses/business-sustainability-in-the-circular-economy     
+| ✓ | ⏱: 80.12s 
+[FETCH]... ↓ https://knowesg.com/courses/esg-data-and-accountability            
+| ✓ | ⏱: 81.00s 
+[SCRAPE].. ◆ https://knowesg.com/courses/esg-data-and-accountability            
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://knowesg.com/courses/esg-data-and-accountability            
+| ✓ | ⏱: 81.06s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/energy-justice-fostering-more-equitable-energy-futur
+es                   | ✓ | ⏱: 81.23s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/energy-justice-fostering-more-equitable-energy-futur
+es                   | ✓ | ⏱: 0.06s 
+[COMPLETE] ● 
+https://knowesg.com/courses/energy-justice-fostering-more-equitable-energy-futur
+es                   | ✓ | ⏱: 81.31s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/21st-century-energy-transition-how-do-we-make-it-wor
+k                    | ✓ | ⏱: 80.56s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/21st-century-energy-transition-how-do-we-make-it-wor
+k                    | ✓ | ⏱: 0.10s 
+[COMPLETE] ● 
+https://knowesg.com/courses/21st-century-energy-transition-how-do-we-make-it-wor
+k                    | ✓ | ⏱: 80.75s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/certification-of-professional-achievement-in-sustain
+able-finance         | ✓ | ⏱: 81.75s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/certification-of-professional-achievement-in-sustain
+able-finance         | ✓ | ⏱: 1.58s 
+[COMPLETE] ● 
+https://knowesg.com/courses/certification-of-professional-achievement-in-sustain
+able-finance         | ✓ | ⏱: 83.57s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/Climate-Change-and-Sustainable-Investing-Course     
+| ✓ | ⏱: 83.96s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/Climate-Change-and-Sustainable-Investing-Course     
+| ✓ | ⏱: 1.60s 
+[COMPLETE] ● 
+https://knowesg.com/courses/Climate-Change-and-Sustainable-Investing-Course     
+| ✓ | ⏱: 85.88s 
+[FETCH]... ↓ https://knowesg.com/courses/esg-and-climate-change                 
+| ✓ | ⏱: 86.84s 
+[SCRAPE].. ◆ https://knowesg.com/courses/esg-and-climate-change                 
+| ✓ | ⏱: 0.16s 
+[COMPLETE] ● https://knowesg.com/courses/esg-and-climate-change                 
+| ✓ | ⏱: 87.04s 
+[FETCH]... ↓ https://knowesg.com/courses                                        
+| ✓ | ⏱: 86.06s 
+[SCRAPE].. ◆ https://knowesg.com/courses                                        
+| ✓ | ⏱: 3.48s 
+[COMPLETE] ● https://knowesg.com/courses                                        
+| ✓ | ⏱: 90.01s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/climate-change-and-sustainable-investing-specializat
+ion                  | ✓ | ⏱: 92.45s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/climate-change-and-sustainable-investing-specializat
+ion                  | ✓ | ⏱: 1.83s 
+[COMPLETE] ● 
+https://knowesg.com/courses/climate-change-and-sustainable-investing-specializat
+ion                  | ✓ | ⏱: 95.52s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/esg-investing-industry-impacts-and-transformations  
+| ✓ | ⏱: 66.82s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/esg-investing-industry-impacts-and-transformations  
+| ✓ | ⏱: 0.48s 
+[COMPLETE] ● 
+https://knowesg.com/courses/esg-investing-industry-impacts-and-transformations  
+| ✓ | ⏱: 67.70s 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[FETCH]... ↓ 
+https://knowesg.com/courses/management-of-international-development-towards-agen
+da-2030              | ✓ | ⏱: 39.32s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/management-of-international-development-towards-agen
+da-2030              | ✓ | ⏱: 0.28s 
+[COMPLETE] ● 
+https://knowesg.com/courses/management-of-international-development-towards-agen
+da-2030              | ✓ | ⏱: 39.64s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/esg-investing-setting-standards-and-conducting-analy
+sis                  | ✓ | ⏱: 67.47s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/esg-investing-setting-standards-and-conducting-analy
+sis                  | ✓ | ⏱: 0.69s 
+[COMPLETE] ● 
+https://knowesg.com/courses/esg-investing-setting-standards-and-conducting-analy
+sis                  | ✓ | ⏱: 68.29s 
+[FETCH]... ↓ https://knowesg.com/courses/how-do-we-manage-climate-change        
+| ✓ | ⏱: 69.38s 
+[SCRAPE].. ◆ https://knowesg.com/courses/how-do-we-manage-climate-change        
+| ✓ | ⏱: 0.43s 
+[COMPLETE] ● https://knowesg.com/courses/how-do-we-manage-climate-change        
+| ✓ | ⏱: 69.89s 
+[FETCH]... ↓ https://knowesg.com/courses/healthy-and-sustainable-foods          
+| ✓ | ⏱: 69.93s 
+[SCRAPE].. ◆ https://knowesg.com/courses/healthy-and-sustainable-foods          
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://knowesg.com/courses/healthy-and-sustainable-foods          
+| ✓ | ⏱: 70.49s 
+[FETCH]... ↓ https://knowesg.com/courses/esg-risks-and-opportunities            
+| ✓ | ⏱: 70.72s 
+[SCRAPE].. ◆ https://knowesg.com/courses/esg-risks-and-opportunities            
+| ✓ | ⏱: 0.47s 
+[COMPLETE] ● https://knowesg.com/courses/esg-risks-and-opportunities            
+| ✓ | ⏱: 71.98s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/financing-and-investing-in-infrastructure           
+| ✓ | ⏱: 72.85s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/financing-and-investing-in-infrastructure           
+| ✓ | ⏱: 0.78s 
+[COMPLETE] ● 
+https://knowesg.com/courses/financing-and-investing-in-infrastructure           
+| ✓ | ⏱: 74.74s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/global-health-security-solidarity-and-sustainability
+-through-the         | ✓ | ⏱: 75.41s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/global-health-security-solidarity-and-sustainability
+-through-the         | ✓ | ⏱: 0.40s 
+[COMPLETE] ● 
+https://knowesg.com/courses/global-health-security-solidarity-and-sustainability
+-through-the         | ✓ | ⏱: 76.10s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/global-warming-i-the-science-and-modeling-of-climate
+-change              | ✓ | ⏱: 76.17s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/global-warming-i-the-science-and-modeling-of-climate
+-change              | ✓ | ⏱: 0.18s 
+[COMPLETE] ● 
+https://knowesg.com/courses/global-warming-i-the-science-and-modeling-of-climate
+-change              | ✓ | ⏱: 76.38s 
+[FETCH]... ↓ https://knowesg.com/courses/global-environmental-management        
+| ✓ | ⏱: 76.39s 
+[SCRAPE].. ◆ https://knowesg.com/courses/global-environmental-management        
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● https://knowesg.com/courses/global-environmental-management        
+| ✓ | ⏱: 76.48s 
+[FETCH]... ↓ https://knowesg.com/courses/global-energy-and-climate-policy       
+| ✓ | ⏱: 76.51s 
+[SCRAPE].. ◆ https://knowesg.com/courses/global-energy-and-climate-policy       
+| ✓ | ⏱: 0.07s 
+[COMPLETE] ● https://knowesg.com/courses/global-energy-and-climate-policy       
+| ✓ | ⏱: 76.59s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/science-and-engineering-of-climate-change           
+| ✓ | ⏱: 64.14s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/science-and-engineering-of-climate-change           
+| ✓ | ⏱: 2.04s 
+[COMPLETE] ● 
+https://knowesg.com/courses/science-and-engineering-of-climate-change           
+| ✓ | ⏱: 66.65s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/impact-measurement-and-management-for-the-sdgs      
+| ✓ | ⏱: 86.46s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/impact-measurement-and-management-for-the-sdgs      
+| ✓ | ⏱: 0.31s 
+[COMPLETE] ● 
+https://knowesg.com/courses/impact-measurement-and-management-for-the-sdgs      
+| ✓ | ⏱: 86.97s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/foundations-of-diversity-and-inclusion-at-work-teach
+out                  | ✓ | ⏱: 102.45s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/foundations-of-diversity-and-inclusion-at-work-teach
+out                  | ✓ | ⏱: 0.21s 
+[COMPLETE] ● 
+https://knowesg.com/courses/foundations-of-diversity-and-inclusion-at-work-teach
+out                  | ✓ | ⏱: 102.69s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/leading-sustainable-community-transformation-special
+ization              | ✓ | ⏱: 78.45s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/leading-sustainable-community-transformation-special
+ization              | ✓ | ⏱: 41.28s 
+[COMPLETE] ● 
+https://knowesg.com/courses/leading-sustainable-community-transformation-special
+ization              | ✓ | ⏱: 119.79s 
+[FETCH]... ↓ https://knowesg.com/courses/more-on-change-and-sustainability      
+| ✓ | ⏱: 118.52s 
+[SCRAPE].. ◆ https://knowesg.com/courses/more-on-change-and-sustainability      
+| ✓ | ⏱: 0.22s 
+[COMPLETE] ● https://knowesg.com/courses/more-on-change-and-sustainability      
+| ✓ | ⏱: 118.75s 
+[FETCH]... ↓ https://knowesg.com/courses/renewable-energy-futures               
+| ✓ | ⏱: 118.79s 
+[SCRAPE].. ◆ https://knowesg.com/courses/renewable-energy-futures               
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://knowesg.com/courses/renewable-energy-futures               
+| ✓ | ⏱: 118.85s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/public-health-perspectives-on-sustainable-diets     
+| ✓ | ⏱: 118.87s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/public-health-perspectives-on-sustainable-diets     
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● 
+https://knowesg.com/courses/public-health-perspectives-on-sustainable-diets     
+| ✓ | ⏱: 118.91s 
+[FETCH]... ↓ https://knowesg.com/courses/strategy-and-sustainability            
+| ✓ | ⏱: 118.97s 
+[SCRAPE].. ◆ https://knowesg.com/courses/strategy-and-sustainability            
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://knowesg.com/courses/strategy-and-sustainability            
+| ✓ | ⏱: 119.31s 
+[FETCH]... ↓ https://knowesg.com/courses/renewable-power-and-electricity-systems
+| ✓ | ⏱: 119.28s 
+[SCRAPE].. ◆ https://knowesg.com/courses/renewable-power-and-electricity-systems
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://knowesg.com/courses/renewable-power-and-electricity-systems
+| ✓ | ⏱: 119.34s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/sustainability-challenges-for-the-planet-and-employe
+rs                   | ✓ | ⏱: 82.45s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/sustainability-challenges-for-the-planet-and-employe
+rs                   | ✓ | ⏱: 1.01s 
+[COMPLETE] ● 
+https://knowesg.com/courses/sustainability-challenges-for-the-planet-and-employe
+rs                   | ✓ | ⏱: 83.63s 
+[FETCH]... ↓ https://knowesg.com/courses/the-finance-of-climate-change          
+| ✓ | ⏱: 71.01s 
+[SCRAPE].. ◆ https://knowesg.com/courses/the-finance-of-climate-change          
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● https://knowesg.com/courses/the-finance-of-climate-change          
+| ✓ | ⏱: 71.11s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/sustainability-of-so...cological-systems-the-nexus-b
+etween-water-energy  | ✓ | ⏱: 73.71s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/sustainability-of-so...cological-systems-the-nexus-b
+etween-water-energy  | ✓ | ⏱: 0.04s 
+[COMPLETE] ● 
+https://knowesg.com/courses/sustainability-of-so...cological-systems-the-nexus-b
+etween-water-energy  | ✓ | ⏱: 73.76s 
+[FETCH]... ↓ https://knowesg.com/courses/sustainable-urban-regeneration         
+| ✓ | ⏱: 71.17s 
+[SCRAPE].. ◆ https://knowesg.com/courses/sustainable-urban-regeneration         
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://knowesg.com/courses/sustainable-urban-regeneration         
+| ✓ | ⏱: 71.21s 
+[FETCH]... ↓ https://knowesg.com/courses/sustainable-urban-water-systems        
+| ✓ | ⏱: 71.23s 
+[SCRAPE].. ◆ https://knowesg.com/courses/sustainable-urban-water-systems        
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://knowesg.com/courses/sustainable-urban-water-systems        
+| ✓ | ⏱: 71.27s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/the-great-sustainability-transition-global-challenge
+s-local-actions      | ✓ | ⏱: 71.30s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/the-great-sustainability-transition-global-challenge
+s-local-actions      | ✓ | ⏱: 0.06s 
+[COMPLETE] ● 
+https://knowesg.com/courses/the-great-sustainability-transition-global-challenge
+s-local-actions      | ✓ | ⏱: 71.38s 
+[FETCH]... ↓ https://knowesg.com/courses/the-age-of-sustainable-development     
+| ✓ | ⏱: 72.01s 
+[SCRAPE].. ◆ https://knowesg.com/courses/the-age-of-sustainable-development     
+| ✓ | ⏱: 0.22s 
+[COMPLETE] ● https://knowesg.com/courses/the-age-of-sustainable-development     
+| ✓ | ⏱: 72.31s 
+[FETCH]... ↓ https://knowesg.com/courses/sustainable-fashion                    
+| ✓ | ⏱: 71.82s 
+[SCRAPE].. ◆ https://knowesg.com/courses/sustainable-fashion                    
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://knowesg.com/courses/sustainable-fashion                    
+| ✓ | ⏱: 72.08s 
+[FETCH]... ↓ https://knowesg.com/courses/sustainable-digital-innovation         
+| ✓ | ⏱: 72.10s 
+[SCRAPE].. ◆ https://knowesg.com/courses/sustainable-digital-innovation         
+| ✓ | ⏱: 0.22s 
+[COMPLETE] ● https://knowesg.com/courses/sustainable-digital-innovation         
+| ✓ | ⏱: 72.33s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/sustainable-business-big-issues-big-changes         
+| ✓ | ⏱: 72.29s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/sustainable-business-big-issues-big-changes         
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● 
+https://knowesg.com/courses/sustainable-business-big-issues-big-changes         
+| ✓ | ⏱: 72.36s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/sustainable-transportation-networks-and-streetscapes
+| ✓ | ⏱: 72.44s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/sustainable-transportation-networks-and-streetscapes
+| ✓ | ⏱: 0.19s 
+[COMPLETE] ● 
+https://knowesg.com/courses/sustainable-transportation-networks-and-streetscapes
+| ✓ | ⏱: 72.64s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/the-materiality-of-esg-factors-specialization       
+| ✓ | ⏱: 49.82s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/the-materiality-of-esg-factors-specialization       
+| ✓ | ⏱: 0.42s 
+[COMPLETE] ● 
+https://knowesg.com/courses/the-materiality-of-esg-factors-specialization       
+| ✓ | ⏱: 50.25s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/the-sustainable-deve...-goals-a-global-transdiscipli
+nary-vision-for-the  | ✓ | ⏱: 7.90s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/the-sustainable-deve...-goals-a-global-transdiscipli
+nary-vision-for-the  | ✓ | ⏱: 0.43s 
+[COMPLETE] ● 
+https://knowesg.com/courses/the-sustainable-deve...-goals-a-global-transdiscipli
+nary-vision-for-the  | ✓ | ⏱: 8.35s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/urban-climate-governance-towards-1-5-celsius-alignme
+nt                   | ✓ | ⏱: 8.42s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/urban-climate-governance-towards-1-5-celsius-alignme
+nt                   | ✓ | ⏱: 0.06s 
+[COMPLETE] ● 
+https://knowesg.com/courses/urban-climate-governance-towards-1-5-celsius-alignme
+nt                   | ✓ | ⏱: 8.49s 
+[FETCH]... ↓ https://knowesg.com/courses/women-in-environmental-biology         
+| ✓ | ⏱: 6.70s 
+[SCRAPE].. ◆ https://knowesg.com/courses/women-in-environmental-biology         
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://knowesg.com/courses/women-in-environmental-biology         
+| ✓ | ⏱: 6.75s 
+[FETCH]... ↓ https://knowesg.com/esg-ratings                                    
+| ✓ | ⏱: 6.56s 
+[SCRAPE].. ◆ https://knowesg.com/esg-ratings                                    
+| ✓ | ⏱: 0.37s 
+[COMPLETE] ● https://knowesg.com/esg-ratings                                    
+| ✓ | ⏱: 6.96s 
+[FETCH]... ↓ 
+https://knowesg.com/courses/working-for-a-sustainable-future-concepts-and-approa
+ches                 | ✓ | ⏱: 6.94s 
+[SCRAPE].. ◆ 
+https://knowesg.com/courses/working-for-a-sustainable-future-concepts-and-approa
+ches                 | ✓ | ⏱: 0.14s 
+[COMPLETE] ● 
+https://knowesg.com/courses/working-for-a-sustainable-future-concepts-and-approa
+ches                 | ✓ | ⏱: 7.16s 
+[FETCH]... ↓ https://knowesg.com/events                                         
+| ✓ | ⏱: 7.28s 
+[SCRAPE].. ◆ https://knowesg.com/events                                         
+| ✓ | ⏱: 2.08s 
+[COMPLETE] ● https://knowesg.com/events                                         
+| ✓ | ⏱: 11.63s 
+[FETCH]... ↓ https://knowesg.com/solutions                                      
+| ✓ | ⏱: 11.33s 
+[SCRAPE].. ◆ https://knowesg.com/solutions                                      
+| ✓ | ⏱: 0.92s 
+[COMPLETE] ● https://knowesg.com/solutions                                      
+| ✓ | ⏱: 12.28s 
+[ERROR]... × https://knowesg.com/esg-ratings/amazon-com-inc     | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/esg-ratings/amazon-com-inc", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/esg.../unitedhealth-group-inc  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/esg-ratings/unitedhealth-group-inc", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/esg-ratings?q=all              | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/esg-ratings?q=all", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/esg-ratings/snam-s-p-a         | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/esg-ratings/snam-s-p-a", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/esg-ratings/owens-corning      | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/esg-ratings/owens-corning", waiting until
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/eve...-storage-australia-2025  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/events/energy-storage-australia-2025", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/eve...rgy-and-esg-europe-2025  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://knowesg.com/events/datacloud-energy-and-esg-europe-2025", waiting until
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/eve...ture-europe-summit-2025  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://knowesg.com/events/carbon-capture-europe-summit-2025", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/esg...s/microsoft-corporation  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/esg-ratings/microsoft-corporation", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/eve...ee-greentech-conference  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://knowesg.com/events/16th-annual-ieee-greentech-conference", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/esg-ratings/register           | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/esg-ratings/register", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/esg-ratings/tesla-inc          | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/esg-ratings/tesla-inc", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/eve...-transition-summit-2025  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://knowesg.com/events/future-of-utilities-energy-transition-summit-2025", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/esg.../mercedes-benz-group-ag  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/esg-ratings/mercedes-benz-group-ag", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/esg-ratings/bnp-paribas        | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/esg-ratings/bnp-paribas", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/esg-ratings/astrazeneca-plc    | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/esg-ratings/astrazeneca-plc", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/esg-ratings/directory          | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/esg-ratings/directory", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://knowesg.com/esg-ratings/apple-inc          | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://knowesg.com/esg-ratings/apple-inc", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[FETCH]... ↓ https://knowesg.com/events/ev-charging-summit-and-expo-2025        
+| ✓ | ⏱: 44.81s 
+[SCRAPE].. ◆ https://knowesg.com/events/ev-charging-summit-and-expo-2025        
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://knowesg.com/events/ev-charging-summit-and-expo-2025        
+| ✓ | ⏱: 44.91s 
+[FETCH]... ↓ https://knowesg.com/esg-ratings/abb-ltd                            
+| ✓ | ⏱: 51.25s 
+[SCRAPE].. ◆ https://knowesg.com/esg-ratings/abb-ltd                            
+| ✓ | ⏱: 0.61s 
+[COMPLETE] ● https://knowesg.com/esg-ratings/abb-ltd                            
+| ✓ | ⏱: 52.07s 
+[FETCH]... ↓ https://knowesg.com/events/green-transformation-week-2025          
+| ✓ | ⏱: 1.44s 
+[SCRAPE].. ◆ https://knowesg.com/events/green-transformation-week-2025          
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://knowesg.com/events/green-transformation-week-2025          
+| ✓ | ⏱: 1.48s 
+[FETCH]... ↓ https://knowesg.com/solutions/esg-data-analytics                   
+| ✓ | ⏱: 8.18s 
+[SCRAPE].. ◆ https://knowesg.com/solutions/esg-data-analytics                   
+| ✓ | ⏱: 0.91s 
+[COMPLETE] ● https://knowesg.com/solutions/esg-data-analytics                   
+| ✓ | ⏱: 9.75s 
+[FETCH]... ↓ https://knowesg.com/solutions/carbon-climate-solutions             
+| ✓ | ⏱: 21.03s 
+[SCRAPE].. ◆ https://knowesg.com/solutions/carbon-climate-solutions             
+| ✓ | ⏱: 2.30s 
+[COMPLETE] ● https://knowesg.com/solutions/carbon-climate-solutions             
+| ✓ | ⏱: 23.91s 
+[FETCH]... ↓ 
+https://knowesg.com/events/international-battery-seminar-and-exhibit-2025       
+| ✓ | ⏱: 35.21s 
+[SCRAPE].. ◆ 
+https://knowesg.com/events/international-battery-seminar-and-exhibit-2025       
+| ✓ | ⏱: 0.96s 
+[COMPLETE] ● 
+https://knowesg.com/events/international-battery-seminar-and-exhibit-2025       
+| ✓ | ⏱: 36.57s 
+[FETCH]... ↓ https://knowesg.com/solutions/consumer-sustainability-apps         
+| ✓ | ⏱: 37.17s 
+[SCRAPE].. ◆ https://knowesg.com/solutions/consumer-sustainability-apps         
+| ✓ | ⏱: 0.66s 
+[COMPLETE] ● https://knowesg.com/solutions/consumer-sustainability-apps         
+| ✓ | ⏱: 38.04s 
+[FETCH]... ↓ https://knowesg.com/solutions/energy-efficiency-renewables         
+| ✓ | ⏱: 38.45s 
+[SCRAPE].. ◆ https://knowesg.com/solutions/energy-efficiency-renewables         
+| ✓ | ⏱: 0.21s 
+[COMPLETE] ● https://knowesg.com/solutions/energy-efficiency-renewables         
+| ✓ | ⏱: 38.71s 
+[FETCH]... ↓ 
+https://knowesg.com/events/impact-investment-summit-asia-pacific-2025           
+| ✓ | ⏱: 38.73s 
+[SCRAPE].. ◆ 
+https://knowesg.com/events/impact-investment-summit-asia-pacific-2025           
+| ✓ | ⏱: 0.09s 
+[COMPLETE] ● 
+https://knowesg.com/events/impact-investment-summit-asia-pacific-2025           
+| ✓ | ⏱: 38.85s 
+[FETCH]... ↓ https://knowesg.com/solutions/green-it-technology                  
+| ✓ | ⏱: 39.29s 
+[SCRAPE].. ◆ https://knowesg.com/solutions/green-it-technology                  
+| ✓ | ⏱: 1.02s 
+[COMPLETE] ● https://knowesg.com/solutions/green-it-technology                  
+| ✓ | ⏱: 40.43s 
+[FETCH]... ↓ 
+https://knowesg.com/events/international-conference-on-future-environment-and-en
+ergy-2026            | ✓ | ⏱: 40.53s 
+[SCRAPE].. ◆ 
+https://knowesg.com/events/international-conference-on-future-environment-and-en
+ergy-2026            | ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://knowesg.com/events/international-conference-on-future-environment-and-en
+ergy-2026            | ✓ | ⏱: 40.78s 
+[FETCH]... ↓ https://knowesg.com/solutions/sustainable-finance-investment       
+| ✓ | ⏱: 41.11s 
+[SCRAPE].. ◆ https://knowesg.com/solutions/sustainable-finance-investment       
+| ✓ | ⏱: 6.72s 
+[COMPLETE] ● https://knowesg.com/solutions/sustainable-finance-investment       
+| ✓ | ⏱: 48.14s 
+[FETCH]... ↓ https://knowesg.com/solutions/nature-biodiversity                  
+| ✓ | ⏱: 48.53s 
+[SCRAPE].. ◆ https://knowesg.com/solutions/nature-biodiversity                  
+| ✓ | ⏱: 0.11s 
+[COMPLETE] ● https://knowesg.com/solutions/nature-biodiversity                  
+| ✓ | ⏱: 48.79s 
+[FETCH]... ↓ https://knowesg.com/solutions/circular-economy-waste               
+| ✓ | ⏱: 49.94s 
+[SCRAPE].. ◆ https://knowesg.com/solutions/circular-economy-waste               
+| ✓ | ⏱: 0.49s 
+[COMPLETE] ● https://knowesg.com/solutions/circular-economy-waste               
+| ✓ | ⏱: 50.57s 
+[FETCH]... ↓ https://knowesg.com/solutions/supply-chain-management              
+| ✓ | ⏱: 50.78s 
+[SCRAPE].. ◆ https://knowesg.com/solutions/supply-chain-management              
+| ✓ | ⏱: 0.18s 
+[COMPLETE] ● https://knowesg.com/solutions/supply-chain-management              
+| ✓ | ⏱: 51.02s 
+[FETCH]... ↓ https://knowesg.com/events/international-lng-congress-2025         
+| ✓ | ⏱: 51.12s 
+[SCRAPE].. ◆ https://knowesg.com/events/international-lng-congress-2025         
+| ✓ | ⏱: 0.11s 
+[COMPLETE] ● https://knowesg.com/events/international-lng-congress-2025         
+| ✓ | ⏱: 51.35s 
+[FETCH]... ↓ https://knowesg.com/events/lisbon-energy-summit-and-exhibition-2025
+| ✓ | ⏱: 51.53s 
+[SCRAPE].. ◆ https://knowesg.com/events/lisbon-energy-summit-and-exhibition-2025
+| ✓ | ⏱: 0.65s 
+[COMPLETE] ● https://knowesg.com/events/lisbon-energy-summit-and-exhibition-2025
+| ✓ | ⏱: 52.27s 
+[FETCH]... ↓ https://knowesg.com/solutions/esg-reporting-compliance             
+| ✓ | ⏱: 55.59s 
+[SCRAPE].. ◆ https://knowesg.com/solutions/esg-reporting-compliance             
+| ✓ | ⏱: 1.77s 
+[COMPLETE] ● https://knowesg.com/solutions/esg-reporting-compliance             
+| ✓ | ⏱: 58.01s 
+[FETCH]... ↓ https://knowesg.com/solutions/social-impact-governance             
+| ✓ | ⏱: 58.21s 
+[SCRAPE].. ◆ https://knowesg.com/solutions/social-impact-governance             
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● https://knowesg.com/solutions/social-impact-governance             
+| ✓ | ⏱: 58.35s 
+  Saved: 000_knowesg.com_courses.md (3074 words)
+  SKIP (failed): https://knowesg.com/courses/companies-and-climate-change
+  SKIP (failed): https://knowesg.com
+  SKIP (failed): https://knowesg.com/courses/doing-economics-measuring-climate-change
+  SKIP (failed): https://knowesg.com/courses/esg-and-social-activism
+  SKIP (failed): https://knowesg.com/courses/esg-focused-financial-products
+  SKIP (failed): https://knowesg.com/courses/climate-change-mitigation-in-developing-countries
+  SKIP (failed): https://knowesg.com/courses/economics-and-policies-of-climate-change
+  SKIP (failed): https://knowesg.com/courses/climate-change-and-water-in-mountains-a-global-concern
+  SKIP (failed): https://knowesg.com/courses/driving-business-towards-the-sustainable-development-goals
+  SKIP (failed): https://knowesg.com/courses/esg-impact-investor-perspective
+  SKIP (failed): https://knowesg.com/courses/climate-change-sustainability-and-global-public-health
+  Saved: 012_knowesg.com_courses_business-sustainability-in-the-circular-economy.md (635 words)
+  Saved: 013_knowesg.com_courses_Climate-Change-and-Sustainable-Investing-Course.md (879 words)
+  Saved: 014_knowesg.com_courses_certification-of-professional-achievement-in-sustainable-finance.md (691 words)
+  Saved: 015_knowesg.com_courses_21st-century-energy-transition-how-do-we-make-it-work.md (631 words)
+  Saved: 016_knowesg.com_courses_esg-data-and-accountability.md (583 words)
+  Saved: 017_knowesg.com_courses_energy-justice-fostering-more-equitable-energy-futures.md (786 words)
+  Saved: 018_knowesg.com_courses_esg-and-climate-change.md (627 words)
+  Saved: 019_knowesg.com_courses_climate-change-and-sustainable-investing-specialization.md (679 words)
+  Saved: 020_knowesg.com_courses.md (3074 words)
+  Saved: 021_knowesg.com_courses_esg-investing-industry-impacts-and-transformations.md (621 words)
+  Saved: 022_knowesg.com_courses_esg-risks-and-opportunities.md (631 words)
+  Saved: 023_knowesg.com_courses_healthy-and-sustainable-foods.md (620 words)
+  Saved: 024_knowesg.com_courses_financing-and-investing-in-infrastructure.md (591 words)
+  Saved: 025_knowesg.com_courses_how-do-we-manage-climate-change.md (613 words)
+  Saved: 026_knowesg.com_courses_esg-investing-setting-standards-and-conducting-analysis.md (619 words)
+  Saved: 027_knowesg.com_courses_management-of-international-development-towards-agenda-2030.md (613 words)
+  Saved: 028_knowesg.com_courses_global-warming-i-the-science-and-modeling-of-climate-change.md (534 words)
+  Saved: 029_knowesg.com_courses_global-energy-and-climate-policy.md (647 words)
+  Saved: 030_knowesg.com_courses_global-health-security-solidarity-and-sustainability-through-the.md (782 words)
+  Saved: 031_knowesg.com_courses_global-environmental-management.md (508 words)
+  Saved: 032_knowesg.com_courses_science-and-engineering-of-climate-change.md (772 words)
+  Saved: 033_knowesg.com_courses_impact-measurement-and-management-for-the-sdgs.md (875 words)
+  Saved: 034_knowesg.com_courses_foundations-of-diversity-and-inclusion-at-work-teachout.md (569 words)
+  Saved: 035_knowesg.com_courses_leading-sustainable-community-transformation-specialization.md (595 words)
+  Saved: 036_knowesg.com_courses_more-on-change-and-sustainability.md (545 words)
+  Saved: 037_knowesg.com_courses_renewable-energy-futures.md (649 words)
+  Saved: 038_knowesg.com_courses_public-health-perspectives-on-sustainable-diets.md (562 words)
+  Saved: 039_knowesg.com_courses_strategy-and-sustainability.md (651 words)
+  Saved: 040_knowesg.com_courses_renewable-power-and-electricity-systems.md (630 words)
+  Saved: 041_knowesg.com_courses_sustainability-challenges-for-the-planet-and-employers.md (648 words)
+  Saved: 042_knowesg.com_courses_the-finance-of-climate-change.md (772 words)
+  Saved: 043_knowesg.com_courses_sustainability-of-social-ecological-systems-the-nexus-between-water-energy.md (731 words)
+  Saved: 044_knowesg.com_courses_sustainable-urban-regeneration.md (558 words)
+  Saved: 045_knowesg.com_courses_sustainable-urban-water-systems.md (514 words)
+  Saved: 046_knowesg.com_courses_the-great-sustainability-transition-global-challenges-local-actions.md (817 words)
+  Saved: 047_knowesg.com_courses_the-age-of-sustainable-development.md (485 words)
+  Saved: 048_knowesg.com_courses_sustainable-fashion.md (727 words)
+  Saved: 049_knowesg.com_courses_sustainable-digital-innovation.md (1175 words)
+  Saved: 050_knowesg.com_courses_sustainable-business-big-issues-big-changes.md (606 words)
+  Saved: 051_knowesg.com_courses_sustainable-transportation-networks-and-streetscapes.md (589 words)
+  Saved: 052_knowesg.com_courses_the-materiality-of-esg-factors-specialization.md (618 words)
+  Saved: 053_knowesg.com_courses_the-sustainable-development-goals-a-global-transdisciplinary-vision-for-the.md (633 words)
+  Saved: 054_knowesg.com_courses_urban-climate-governance-towards-1-5-celsius-alignment.md (680 words)
+  Saved: 055_knowesg.com_courses_women-in-environmental-biology.md (826 words)
+  Saved: 056_knowesg.com_esg-ratings.md (974 words)
+  Saved: 057_knowesg.com_courses_working-for-a-sustainable-future-concepts-and-approaches.md (707 words)
+  Saved: 058_knowesg.com_events.md (1746 words)
+  Saved: 059_knowesg.com_solutions.md (1344 words)
+  SKIP (failed): https://knowesg.com/esg-ratings/amazon-com-inc
+  SKIP (failed): https://knowesg.com/events/carbon-capture-europe-summit-2025
+  SKIP (failed): https://knowesg.com/events/datacloud-energy-and-esg-europe-2025
+  SKIP (failed): https://knowesg.com/esg-ratings/mercedes-benz-group-ag
+  SKIP (failed): https://knowesg.com/esg-ratings/snam-s-p-a
+  SKIP (failed): https://knowesg.com/events/future-of-utilities-energy-transition-summit-2025
+  SKIP (failed): https://knowesg.com/events/16th-annual-ieee-greentech-conference
+  SKIP (failed): https://knowesg.com/esg-ratings/bnp-paribas
+  SKIP (failed): https://knowesg.com/esg-ratings/microsoft-corporation
+  SKIP (failed): https://knowesg.com/esg-ratings/owens-corning
+  SKIP (failed): https://knowesg.com/esg-ratings/unitedhealth-group-inc
+  SKIP (failed): https://knowesg.com/esg-ratings/directory
+  SKIP (failed): https://knowesg.com/esg-ratings?q=all
+  SKIP (failed): https://knowesg.com/esg-ratings/astrazeneca-plc
+  SKIP (failed): https://knowesg.com/events/energy-storage-australia-2025
+  SKIP (failed): https://knowesg.com/esg-ratings/register
+  SKIP (failed): https://knowesg.com/esg-ratings/apple-inc
+  SKIP (failed): https://knowesg.com/esg-ratings/tesla-inc
+  Saved: 078_knowesg.com_events_ev-charging-summit-and-expo-2025.md (513 words)
+  Saved: 079_knowesg.com_esg-ratings_abb-ltd.md (1526 words)
+  Saved: 080_knowesg.com_events_green-transformation-week-2025.md (513 words)
+  Saved: 081_knowesg.com_solutions_esg-data-analytics.md (1803 words)
+  Saved: 082_knowesg.com_solutions_carbon-climate-solutions.md (2750 words)
+  Saved: 083_knowesg.com_events_international-battery-seminar-and-exhibit-2025.md (530 words)
+  Saved: 084_knowesg.com_solutions_consumer-sustainability-apps.md (1360 words)
+  Saved: 085_knowesg.com_solutions_energy-efficiency-renewables.md (2140 words)
+  Saved: 086_knowesg.com_events_impact-investment-summit-asia-pacific-2025.md (540 words)
+  Saved: 087_knowesg.com_solutions_green-it-technology.md (1347 words)
+  Saved: 088_knowesg.com_events_international-conference-on-future-environment-and-energy-2026.md (519 words)
+  Saved: 089_knowesg.com_solutions_sustainable-finance-investment.md (1852 words)
+  Saved: 090_knowesg.com_solutions_nature-biodiversity.md (1662 words)
+  Saved: 091_knowesg.com_solutions_circular-economy-waste.md (2028 words)
+  Saved: 092_knowesg.com_solutions_supply-chain-management.md (1767 words)
+  Saved: 093_knowesg.com_events_international-lng-congress-2025.md (482 words)
+  Saved: 094_knowesg.com_events_lisbon-energy-summit-and-exhibition-2025.md (513 words)
+  Saved: 095_knowesg.com_solutions_esg-reporting-compliance.md (2642 words)
+  Saved: 096_knowesg.com_solutions_social-impact-governance.md (1679 words)
+
+Done: 68 pages saved to /Users/knowprajjwal/LearningPlatform/Competitor Analysis/scripts/../content/knowesg

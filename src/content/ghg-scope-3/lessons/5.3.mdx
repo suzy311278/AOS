@@ -1,0 +1,99 @@
+{/* source: Corporate-Value-Chain-Accounting-Reporing-Standard_041613_2.pdf, Chapter 8 (pp. 86-97) */}
+
+Allocation is the process of assigning a portion of a shared activity's emissions to a specific company, product, or business function. In Scope 3 accounting, allocation arises whenever a value chain activity serves multiple purposes or multiple parties simultaneously.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-3/5_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## When Allocation Is Needed
+
+Allocation becomes necessary in several common scenarios:
+
+**Multi-product facilities**: A supplier's factory produces three products for multiple customers. How much of the factory's total Scope 1 and 2 emissions should be attributed to Product A vs. Product B vs. Product C - and to Customer 1 vs. Customer 2?
+
+**Shared transport**: A truck delivers goods for three different companies in a single journey. How much of the journey's fuel consumption and emissions does each company claim in its Category 4 inventory?
+
+**Joint ventures and co-owned assets**: Two companies jointly own a processing facility. How are its emissions split between them?
+
+**Multi-use infrastructure**: A distribution centre serves both domestic and export customers. How are its storage and handling emissions allocated between product lines?
+
+<HighlightBox>
+The standard's general principle for allocation: avoid it where possible by subdividing activities, but apply systematic allocation based on physical or economic relationships when subdivision is not feasible. The allocation method should reflect the underlying causal relationship between the activity and the emissions.
+</HighlightBox>
+
+## The Allocation Hierarchy
+
+The standard recommends a hierarchy of allocation approaches, in order of preference:
+
+### 1. Subdivision (Preferred - Avoids Allocation)
+Where possible, physically separate or subdivide activities rather than allocating shared emissions. For example:
+- If a supplier has two dedicated production lines (one for Product A, one for Product B), attribute each line's metered energy to its product rather than allocating total factory energy.
+- If a logistics vehicle makes a dedicated run for one customer, assign all emissions to that customer rather than allocating across multiple customers.
+
+Subdivision eliminates allocation uncertainty by directly attributing emissions to the activity that caused them.
+
+### 2. Physical Allocation
+When subdivision is not feasible, allocate based on a **physical relationship** between the activity and the products or parties served:
+
+- **Mass**: Allocate by the weight of each product produced or transported (most common for manufacturing and freight)
+- **Volume**: Allocate by volume (appropriate for liquids and gases)
+- **Energy content**: Allocate by calorific value (appropriate for co-produced fuels)
+- **Number of units**: Allocate by unit count (appropriate for batch processes)
+
+<EquationBreakdown
+  title="Physical Allocation"
+  result="E<sub>A</sub> | Allocated Emissions | Emissions attributed to Product A, in tCO₂e | blue"
+  inputs="E<sub>total</sub> | Total Activity Emissions | Total emissions from the shared activity, in tCO₂e | green ;; Q<sub>A</sub> | Quantity of Product A | Physical quantity (mass, volume, or units) of Product A | amber ;; Q<sub>total</sub> | Total Quantity | Physical quantity of all products combined | violet"
+  operator="× (÷)"
+/>
+
+<CalculationExercise
+  question="A factory produces 600 tonnes of Product A and 400 tonnes of Product B in the same production run. Total facility Scope 1+2 emissions for the period are 500 tCO₂e. Allocate emissions to Product A by mass."
+  answer={300}
+  unit="tCO₂e"
+  hints={["Total mass = 600 + 400 = 1,000 tonnes.", "Product A share = 600 / 1,000 = 60%.", "Allocated emissions = 500 tCO₂e × 60% = 300 tCO₂e."]}
+  solution="Product A share = 600 / (600+400) = 60%. Allocated emissions = 500 × 0.60 = 300 tCO₂e."
+/>
+
+### 3. Economic Allocation
+When physical allocation is not meaningful - for example, when products have very different economic values per unit mass - the standard allows allocation by **economic value** (revenue or market price).
+
+<EquationBreakdown
+  title="Economic Allocation"
+  result="E<sub>A</sub> | Allocated Emissions | Emissions attributed to Product A, in tCO₂e | blue"
+  inputs="E<sub>total</sub> | Total Activity Emissions | Total emissions from the shared activity, in tCO₂e | green ;; R<sub>A</sub> | Revenue from Product A | Revenue earned from Product A | amber ;; R<sub>total</sub> | Total Revenue | Revenue from all products combined | violet"
+  operator="× (÷)"
+/>
+
+Economic allocation is particularly common in:
+- Multi-product chemical plants (where products have very different market values per kg)
+- Financial services (allocating overhead emissions by revenue line)
+- Joint venture reporting (allocating by equity stake or revenue share)
+
+## Co-Products and By-Products
+
+A specific challenge arises with co-products and by-products:
+
+- **Co-products**: Two or more intended main products from the same process (e.g., hydrogen and oxygen from electrolysis). Allocate by physical or economic value.
+- **By-products**: Minor outputs not intended as primary products (e.g., slag from steelmaking). The standard allows companies to allocate **zero** emissions to minor by-products if their economic or physical contribution is negligible relative to the main product.
+
+## Consistency Requirement
+
+The standard requires that allocation methods be applied **consistently**:
+- The same method used in a company's own production must be used when requesting allocated data from suppliers.
+- The allocation method must not change between the base year and subsequent reporting years without a base year restatement.
+
+<AnalogyBox>
+Think of allocation like splitting a shared restaurant bill. If four people order very different amounts, splitting equally (by headcount) is unfair - it doesn't reflect what each person caused. Splitting by what each person ordered (physical mass, like the weight of food) is fairer. Splitting by the price of what each person ordered (economic value) is fairer still if prices reflect the value received. The standard recommends starting with physical allocation because it is most directly tied to the production process, not the market.
+</AnalogyBox>
+
+## System Expansion as an Alternative
+
+For some by-product situations, the standard permits **system expansion** rather than allocation - expanding the boundary to include the avoided emissions from the by-product displacing an alternative product. For example, if a chemical process produces valuable hydrogen as a by-product that displaces fossil hydrogen, the avoided emissions from fossil hydrogen production can be credited against the chemical process's total emissions.
+
+System expansion is optional and complex; companies should document their rationale carefully when using it.
+
+<DeepDive title="Allocation in circular economy supply chains">
+Circular economy models - recycling, remanufacturing, industrial symbiosis - create particularly complex allocation challenges. When a manufacturer uses recycled aluminium (produced by melting down scrap), how much of the energy used in the recycling process should be allocated to the manufacturer's Category 1, versus being credited to the original consumer who sent the can to recycling? The standard provides guidance for end-of-life recycling allocation: companies can use the "cut-off" approach (no burden or credit for recycled content), the "end-of-life recycling" approach (credit for recycling potential), or allocate 50:50 between original manufacturer and recycler. Each approach produces different results; transparency about the method used is essential.
+</DeepDive>
+
+<KeyTakeaways items="Allocation assigns shared activity emissions to specific products or parties - needed for multi-product facilities, shared transport, and joint ventures ;; The allocation hierarchy prefers subdivision (direct attribution) first, then physical allocation (by mass, volume, or energy content), then economic allocation (by revenue) ;; Physical allocation is preferred over economic because it is directly tied to the production process rather than fluctuating market prices ;; Allocation methods must be applied consistently between base year and reporting years - changing methods triggers a base year recalculation ;; For co-products and by-products, the standard allows zero allocation to minor by-products if their contribution is negligible relative to the main product" />

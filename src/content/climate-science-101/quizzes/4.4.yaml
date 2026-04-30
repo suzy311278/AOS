@@ -1,0 +1,26 @@
+- question: "What is the key distinction between climate change mitigation and adaptation?"
+  options:
+    - "Mitigation addresses the consequences of climate change; adaptation addresses the causes"
+    - "Mitigation addresses the causes of climate change by reducing emissions; adaptation addresses the consequences by adjusting systems"
+    - "Mitigation applies only to governments; adaptation applies only to individuals and businesses"
+    - "Mitigation is voluntary; adaptation is legally required under the Paris Agreement"
+  answer: 1
+  explanation: "Mitigation and adaptation are complementary but distinct responses. Mitigation reduces GHG emissions and thus addresses the root cause of climate change. Adaptation adjusts natural or human systems in response to actual or expected climate impacts, aiming to moderate harm or exploit beneficial opportunities. Both are necessary because warming already locked in by past emissions makes some level of adaptation unavoidable regardless of future mitigation action."
+
+- question: "What does IPCC AR6 WGII mean by a 'hard limit' to adaptation?"
+  options:
+    - "A limit that is difficult to overcome but can be resolved with sufficient funding and political will"
+    - "An insurmountable barrier to adaptation that cannot be overcome regardless of available resources or technology"
+    - "A limit that only applies to physical infrastructure, not to social or institutional adaptation"
+    - "A government-imposed regulatory constraint on adaptation activities"
+  answer: 1
+  explanation: "IPCC AR6 WGII distinguishes between soft limits (which can be overcome through additional resources, technology, or policy) and hard limits (which are insurmountable given current or foreseeable capacity). Coral reefs at 2°C of warming represent a hard ecological limit: no adaptation measure can replace the biological function of reefs facing near-total bleaching. Some low-lying small island nations similarly face existential threats beyond any realistic engineering solution."
+
+- question: "What is 'maladaptation' as defined in the context of IPCC AR6 WGII?"
+  options:
+    - "Actions that have been poorly funded and therefore fail to reduce climate risk"
+    - "Adaptation measures taken by governments without consultation with affected communities"
+    - "Actions taken in the name of adaptation that increase vulnerability or shift burdens to other groups or ecosystems"
+    - "Adaptation measures that focus exclusively on physical infrastructure and ignore social dimensions"
+  answer: 2
+  explanation: "Maladaptation refers to actions taken in the name of adaptation that actually increase vulnerability rather than reducing it, or that transfer risks from one group or ecosystem to another. An example is building a sea wall that protects wealthy property while increasing erosion and flood risks in poorer downstream communities. Effective adaptation planning must consider the full system of impacts and the distribution of costs and benefits."

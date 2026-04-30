@@ -1,0 +1,74 @@
+{/* source: EUDR Regulation (EU) 2023/1115, Art. 21; Global Forest Watch data; EC EUDR Guidance Documents */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/eudr/4_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Satellite Monitoring and Remote Sensing
+
+<HighlightBox>
+  <p class="font-semibold text-green-800">Why this matters</p>
+  <p class="text-green-900 mt-1">Satellite monitoring is the technological backbone of the EUDR. It enables the Commission to benchmark countries, allows enforcement authorities to verify claims, and provides operators with the tools they need to check whether their sourcing plots have been deforested. Without satellite data, the regulation's promise to link products to their geographic origins would be unverifiable. Understanding how remote sensing works in the EUDR context makes the entire compliance system more legible.</p>
+</HighlightBox>
+
+### Why Satellites? The Case for Remote Sensing
+<p class="mb-3">Monitoring forests across thousands of hectares of remote tropical terrain using ground surveys alone would be impractical. A single soy farm in the Brazilian Cerrado may cover tens of thousands of hectares; a palm oil concession in Indonesian Borneo may be equally vast. Ground-based verification of every production plot by every importer would require armies of auditors and years of field time. Satellite monitoring solves this scalability problem by enabling continuous, consistent, and cost-effective observation of forest cover change across the entire planet.</p>
+<p class="mb-4">Article 21 of the EUDR explicitly establishes the role of the EU's monitoring system, centered on the EU Observatory on Deforestation and Forest Degradation, in supporting the regulation's implementation. The Observatory draws on Copernicus satellite data and integrates feeds from Global Forest Watch and other monitoring services to provide a globally consistent view of forest change.</p>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">Analogy: Satellite Monitoring as a Global CCTV Network</p>
+  <p class="mt-2 text-blue-900">Imagine a city-wide security camera network that records every street corner continuously. When a crime is reported, investigators can review historical footage to establish whether a location was affected. Satellite monitoring works similarly for forests: satellites pass over every point on Earth's surface on a regular schedule, recording the state of vegetation cover. When a due diligence statement claims that a plot was forested and deforestation-free on 31 December 2020, that claim can be checked against the historical satellite archive, which contains imagery dating back decades.</p>
+</AnalogyBox>
+
+### Key Satellite Data Sources
+<p class="mb-3">Several satellite systems and data products are used in the EUDR monitoring ecosystem:</p>
+
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th>Data Source</th><th>Satellites Used</th><th>Key Characteristics</th><th>EUDR Relevance</th></tr>
+  <tr><td>Copernicus (EU)</td><td>Sentinel-1 (SAR), Sentinel-2 (optical)</td><td>5-day revisit; 10m resolution; freely available</td><td>Primary EU monitoring backbone; used by EU Observatory</td></tr>
+  <tr><td>Global Forest Watch / Hansen</td><td>Landsat (NASA/USGS)</td><td>Annual tree cover loss; 30m resolution; 2000-present</td><td>Key reference for deforestation trends and country benchmarking</td></tr>
+  <tr><td>PRODES (Brazil)</td><td>Various</td><td>Annual Amazon deforestation mapping; official government data</td><td>Reference for Amazon deforestation verification</td></tr>
+  <tr><td>Planet Labs</td><td>Planet Dove constellation</td><td>Daily global coverage; 3-5m resolution</td><td>High-resolution verification for specific plots; commercial service</td></tr>
+  <tr><td>FIRMS (NASA)</td><td>MODIS, VIIRS</td><td>Near-real-time fire detection</td><td>Fire-driven deforestation monitoring</td></tr>
+</table>
+</ResponsiveTable>
+
+### How Deforestation Is Detected from Space
+<p class="mb-3">Remote sensing of forest cover relies on detecting changes in the spectral reflectance of Earth's surface. Forests reflect light differently from bare soil, crops, or grassland. When a forest is cleared, the characteristic spectral signature of closed canopy cover is replaced by the signature of exposed soil or young vegetation, a change that satellites can detect with high reliability.</p>
+<p class="mb-3">The key steps in satellite-based deforestation detection are:</p>
+<ol class="list-decimal ml-6 space-y-2 mb-4">
+  <li><strong>Image acquisition:</strong> Satellites capture multispectral images showing how different wavelengths of light are reflected from the surface. Key bands used for forest detection include near-infrared, shortwave infrared, and red bands.</li>
+  <li><strong>Classification:</strong> Machine learning algorithms classify each pixel in the image as forest, non-forest, or transitional cover based on its spectral characteristics. This classification is calibrated against training data from known forest and non-forest areas.</li>
+  <li><strong>Change detection:</strong> Classified images from different dates are compared to identify pixels that changed from forest to non-forest, indicating canopy loss events.</li>
+  <li><strong>Attribution:</strong> Change events are attributed to causes (agriculture, fire, logging, urban expansion) based on spatial context, other data layers, and temporal patterns.</li>
+</ol>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Example: Verifying a Soy Farm's Deforestation-Free Status</p>
+  <p class="mt-2 text-amber-900">An EU trader receives GPS polygon coordinates for a 500-hectare soy farm in Brazil's Mato Grosso state, along with a supplier declaration that the land was not deforested after 31 December 2020. To verify this claim, the trader's compliance team uploads the polygon coordinates to a geospatial analysis tool (such as Satelligence or Global Forest Watch Pro). The system overlays the polygon with the historical forest cover dataset and flags any areas within the polygon that show tree cover loss after the cut-off date. If the system finds no post-2020 deforestation within the polygon, this constitutes one element of evidence supporting the supplier's claim. If it finds deforestation events after 31 December 2020, the trader must investigate further and may be unable to place that product on the EU market.</p>
+</ExampleBox>
+
+### Limitations of Satellite Monitoring
+<p class="mb-3">Satellite monitoring is powerful but imperfect. Operators and enforcement authorities must understand its limitations when interpreting satellite-derived deforestation data:</p>
+<ul class="list-disc ml-6 space-y-2 mb-4">
+  <li><strong>Cloud cover:</strong> Optical satellites cannot see through clouds. In tropical regions, persistent cloud cover can limit the frequency of usable imagery, creating gaps in monitoring during rainy seasons. Radar satellites (like Sentinel-1) are cloud-penetrating but detect forest structure differently from optical sensors.</li>
+  <li><strong>Minimum detectable area:</strong> Most publicly available datasets detect forest loss at spatial resolutions of 10-30 meters per pixel. Very small clearing events below the detection threshold may be missed.</li>
+  <li><strong>Tree cover loss vs. deforestation:</strong> Not all tree cover loss constitutes deforestation under the EUDR definition. Temporary loss from selective logging, fire, or plantation harvesting followed by replanting may show up in satellite data as tree cover loss but may not represent the permanent conversion to agricultural use that the regulation prohibits.</li>
+  <li><strong>Forest degradation detection:</strong> Degradation (selective logging, edge effects, understory damage) is harder to detect from satellite than outright clearing. Some forest degradation that would violate the EUDR may not be visible in standard tree cover loss datasets.</li>
+  <li><strong>Attribution uncertainty:</strong> Determining whether a clearing event was caused by the commodity in question or by another land use activity requires additional information beyond the satellite image itself.</li>
+</ul>
+
+### The EU Observatory: A Centralized Resource
+<p class="mb-3">The EU Observatory on Deforestation and Forest Degradation, accessible at forest-observatory.ec.europa.eu, provides a publicly accessible interface for operators, competent authorities, and producer countries to access standardized deforestation monitoring data. Key functions relevant to EUDR compliance include:</p>
+<ul class="list-disc ml-6 space-y-2 mb-4">
+  <li>Country-level deforestation statistics and trend data supporting benchmarking assessments</li>
+  <li>Interactive maps showing forest cover change globally, including near-real-time alerts</li>
+  <li>Commodity supply chain data linking production regions to EU import flows</li>
+  <li>Tools for uploading and checking geolocation coordinates against forest cover datasets</li>
+  <li>Documentation of data sources and methodologies used in official monitoring</li>
+</ul>
+
+<DeepDive title="Sentinel Satellites and the Copernicus Programme">
+  The European Space Agency's Sentinel satellite constellation, developed under the EU's Copernicus Earth Observation Programme, forms the backbone of EU environmental monitoring including EUDR-relevant forest monitoring. Sentinel-2 optical satellites provide 10-meter resolution multispectral imagery every five days at the equator. Sentinel-1 SAR (Synthetic Aperture Radar) satellites provide cloud-penetrating radar imagery on a 6-12 day cycle. Together, these satellites enable dense time series of forest cover change detection across the entire planet, with all data freely available through the Copernicus Open Access Hub. For EUDR compliance, Sentinel data is particularly valuable for detecting clearing events at relatively small scales and for maintaining current monitoring in regions where other satellite archives have gaps. The European Commission's Joint Research Centre processes Sentinel data specifically for EUDR-relevant forest monitoring applications.
+</DeepDive>
+
+<KeyTakeaways items="Satellite monitoring enables the EUDR's promise of plot-level deforestation verification at global scale, solving the practical impossibility of ground-based auditing across millions of hectares ;; The EU's Copernicus Sentinel satellites (optical and radar) provide freely available, 10-meter resolution imagery covering the entire planet every 5-12 days ;; Deforestation detection works by comparing classified land cover images from different dates to identify pixels that changed from forest to non-forest cover ;; Key limitations include cloud cover gaps in tropical regions, minimum detection thresholds, and difficulty distinguishing temporary loss from permanent deforestation ;; The EU Observatory on Deforestation and Forest Degradation centralizes satellite data, country statistics, and geospatial tools for use by operators, authorities, and producer countries" />

@@ -1,0 +1,35 @@
+- question: "IFRS S2 paragraph 6(a) requires disclosure about the governance body's oversight. How many specific disclosure items does it list?"
+  options:
+    - "Two"
+    - "Three"
+    - "Five"
+    - "Seven"
+  answer: 2
+  explanation: "Paragraph 6(a) lists five specific disclosure items for governance body oversight: (i) how responsibilities are formalised, (ii) how skills and competencies are determined, (iii) how and how often the body is informed, (iv) how climate is considered in strategy and major decisions, and (v) how targets are set and monitored including remuneration linkage."
+
+- question: "A company states 'our board oversees climate risk.' Is this a sufficient governance disclosure under IFRS S2?"
+  options:
+    - "Yes, if the company also discloses its Scope 1 and 2 emissions"
+    - "No — IFRS S2 requires specific details about processes, frequency, skills, and remuneration linkage"
+    - "Yes, for companies applying IFRS S2 for the first time"
+    - "Yes, if the board is the highest governance body"
+  answer: 1
+  explanation: "Generic statements about board oversight are insufficient. IFRS S2 requires five specific types of information: how responsibilities are formalised in mandates, how skills are ensured, how often the board is informed, how climate is integrated in major decisions, and how targets are monitored including remuneration linkage."
+
+- question: "Under IFRS S2, if executive pay is linked to a climate-related metric, where must this be disclosed?"
+  options:
+    - "Only in the governance section (Para 6(a)(v))"
+    - "Only in the metrics section (Para 29(g))"
+    - "In both the governance section and the metrics section"
+    - "In the strategy section (Para 14)"
+  answer: 2
+  explanation: "Remuneration linkage appears in two places: Para 6(a)(v) describes how the governance body oversees target-setting and whether remuneration is linked; Para 29(g) provides the quantitative disclosure — the percentage of executive pay linked to climate considerations."
+
+- question: "Why does IFRS S2 require disclosure of how governance body skills and competencies are ensured?"
+  options:
+    - "To help investors recruit board members from climate-competent professionals"
+    - "To assess whether the governance body can meaningfully evaluate climate risk information"
+    - "To comply with SASB Standards for board diversity"
+    - "To reduce the need for external climate advisory services"
+  answer: 1
+  explanation: "Climate risk is technically complex — it requires understanding of physical science, carbon accounting, transition economics, and regulatory change. If a board lacks climate expertise, it may not be capable of meaningful oversight. IFRS S2 requires disclosure of how entities ensure competency — not prescribing a specific level, but enabling investors to assess whether governance is substantive."

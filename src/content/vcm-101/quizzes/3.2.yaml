@@ -1,0 +1,26 @@
+- question: "What is the difference between a program being 'CCP-Eligible' and having 'CCP-Approved' methodology categories?"
+  options:
+  - "CCP-Eligible and CCP-Approved mean the same thing; the terms are used interchangeably by ICVCM"
+  - "CCP-Eligible means the program's governance satisfies CCPs 1-4; CCP-Approved means specific methodology categories have also passed the emissions impact and sustainable impact CCPs (5-10)"
+  - "CCP-Eligible means the program is in the application process; CCP-Approved means it has been rejected"
+  - "CCP-Eligible applies to individual projects; CCP-Approved applies to entire programs"
+  answer: 1
+  explanation: "ICVCM uses a two-tier structure. Program-level eligibility (CCP-Eligible) is awarded when a carbon-crediting program satisfies the governance CCPs 1-4 covering effective governance, tracking, transparency, and independent validation/verification. Category-level approval (CCP-Approved) is then awarded to specific methodology categories within an eligible program when those categories also satisfy the emissions impact CCPs (5-8) and sustainable impact CCPs (9-10). Credits can only carry the CCP label when both the program and the specific methodology category have been assessed and approved."
+
+- question: "CCP 10 (Contribution Toward Net Zero Transition) is designed to prevent which specific type of project from receiving CCP approval?"
+  options:
+  - "Projects in developing countries that lack strong environmental regulation"
+  - "Projects that are too small in scale to have a measurable climate impact"
+  - "Projects that would extend the operational life of carbon-intensive technologies or lock in fossil fuel infrastructure incompatible with mid-century net zero"
+  - "Projects that generate avoidance credits rather than removal credits"
+  answer: 2
+  explanation: "CCP 10 addresses the concern that some carbon projects could inadvertently subsidise or extend the life of carbon-intensive infrastructure. For example, a carbon capture project at a coal-fired power plant that provided sufficient revenue to keep the plant operating longer than it otherwise would have, locking in decades more of carbon-intensive electricity generation, would face serious scrutiny under CCP 10. The principle requires that mitigation activities do not create path dependencies incompatible with the global net zero objective by mid-century."
+
+- question: "Under the ICVCM's CCP framework, which category of principles includes requirements for Free, Prior and Informed Consent (FPIC) for projects affecting Indigenous Peoples and local communities?"
+  options:
+  - "Category A: Governance (CCP 1-4)"
+  - "Category B: Emissions Impact (CCP 5-8)"
+  - "Category C: Sustainable Impact (CCP 9-10), specifically under CCP 9"
+  - "FPIC is not part of the CCP framework; it is addressed separately in the Verra VCS Standard"
+  answer: 2
+  explanation: "CCP 9 (Sustainable Development Benefits and Safeguards) requires that the carbon-crediting program have clear guidance, tools, and compliance procedures to ensure mitigation activities conform with widely established industry best practices on social and environmental safeguards. FPIC requirements for Indigenous Peoples and local communities are part of these safeguards. This reflects the ICVCM's recognition that genuine high-integrity credits must protect communities as well as the climate."

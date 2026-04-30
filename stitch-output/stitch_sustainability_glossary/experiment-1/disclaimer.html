@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Disclaimer | Greentryst Academy</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: { display: ['Manrope', 'sans-serif'], body: ['Inter', 'sans-serif'] },
+      colors: {
+        primary: { DEFAULT: '#00433d', light: '#005c55', container: '#006a63', fixed: '#a7f0e6', dim: '#8cd4ca' },
+        surface: { DEFAULT: '#f8faf9', dim: '#d8dada', container: '#eceeed', 'container-low': '#f2f4f3', 'container-high': '#e6e9e8', 'container-highest': '#e1e3e2', 'container-lowest': '#ffffff' },
+        on: { surface: '#191c1c', 'surface-variant': '#3f4947', primary: '#ffffff' },
+        outline: { DEFAULT: '#6f7977', variant: '#bec9c6' },
+      }
+    }
+  }
+}
+</script>
+<style>
+* { font-family: 'Inter', sans-serif; }
+h1, h2, h3, h4, h5, h6, .font-display { font-family: 'Manrope', sans-serif; }
+.vines-gradient { background: linear-gradient(135deg, #00433d 0%, #006a63 100%); }
+.hero-gradient { background: linear-gradient(135deg, #00433d 0%, #005c55 40%, #006a63 100%); }
+.glass-light { background: rgba(255,255,255,0.8); backdrop-filter: blur(20px); }
+.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+</style>
+</head>
+<body class="bg-surface min-h-screen">
+
+<header class="sticky top-0 z-50 glass-light border-b border-outline-variant/20">
+  <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-3 group">
+      <div class="w-8 h-8 rounded-lg vines-gradient flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-white text-lg">eco</span></div>
+      <span class="font-display font-bold text-on-surface text-lg tracking-tight">Greentryst</span>
+    </a>
+    <div class="flex items-center gap-3">
+      <button onclick="document.getElementById('search-modal').classList.remove('hidden')" class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant text-sm hover:bg-surface-container transition"><span class="material-symbols-outlined text-lg">search</span><span class="hidden sm:inline text-xs text-outline">Cmd+K</span></button>
+      <div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary-fixed/20 text-primary text-xs font-semibold"><span class="material-symbols-outlined text-sm">star</span> 500 XP</div>
+      <div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-orange-50 text-orange-600 text-xs font-semibold"><span class="material-symbols-outlined text-sm">local_fire_department</span> 3 day streak</div>
+      <a href="lesson.html" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-semibold bg-primary text-on-primary px-4 py-2 rounded-full hover:bg-primary-light transition shadow-sm"><span class="material-symbols-outlined text-base">play_arrow</span> Continue</a>
+      <a href="dashboard.html" class="text-sm font-medium text-on-surface-variant hover:text-on-surface transition hidden sm:inline">Dashboard</a>
+      <div class="w-8 h-8 rounded-full bg-primary-dim flex items-center justify-center text-primary text-xs font-bold ring-2 ring-primary-fixed/30">PK</div>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-3xl mx-auto px-6 pt-24 pb-16">
+  <div class="mb-10">
+    <h1 class="font-display text-4xl font-extrabold text-primary mb-3">Disclaimer</h1>
+    <p class="text-on-surface-variant text-lg leading-relaxed">Important information about the use of this platform and its content.</p>
+  </div>
+
+  <div class="bg-surface-container-lowest rounded-2xl p-10 shadow-sm space-y-10">
+    <section>
+      <h2 class="font-display text-xl font-bold text-primary mb-3">Educational Purpose</h2>
+      <p class="text-on-surface-variant text-sm leading-relaxed">The Greentryst Sustainability Academy is designed exclusively for educational purposes. All courses, lessons, quizzes, and supplementary materials are intended to help learners develop a foundational understanding of sustainability topics, including carbon markets, ESG reporting, climate science, and environmental methodologies. The platform does not provide certification, accreditation, or professional credentials of any kind.</p>
+    </section>
+
+    <section>
+      <h2 class="font-display text-xl font-bold text-primary mb-3">Content Accuracy</h2>
+      <p class="text-on-surface-variant text-sm leading-relaxed">We make every reasonable effort to ensure the accuracy, completeness, and currency of the information presented on this platform. However, sustainability standards, methodologies, and regulatory frameworks evolve frequently. We cannot guarantee that all content reflects the most recent versions of referenced standards or that it is free from errors or omissions. Users should verify critical information against the latest official publications from the relevant standard-setting bodies.</p>
+    </section>
+
+    <section>
+      <h2 class="font-display text-xl font-bold text-primary mb-3">No Professional Advice</h2>
+      <p class="text-on-surface-variant text-sm leading-relaxed">Nothing on this platform constitutes professional, legal, financial, or environmental consulting advice. The content should not be used as a substitute for qualified professional guidance when making decisions related to carbon credit projects, ESG disclosures, regulatory compliance, or investment strategies. Users who require specific advice should consult appropriately licensed professionals in the relevant jurisdiction.</p>
+    </section>
+
+    <section>
+      <h2 class="font-display text-xl font-bold text-primary mb-3">Third-Party Sources</h2>
+      <p class="text-on-surface-variant text-sm leading-relaxed">Much of the content on this platform is derived from publicly available methodology documents published by organizations such as Verra (VCS), the United Nations Framework Convention on Climate Change (UNFCCC), the Global Reporting Initiative (GRI), and other recognized bodies. We cite these sources for educational reference. The Greentryst Sustainability Academy is not affiliated with, endorsed by, or officially connected to any of these organizations. All trademarks and document titles remain the property of their respective owners.</p>
+    </section>
+
+    <section>
+      <h2 class="font-display text-xl font-bold text-primary mb-3">Limitation of Liability</h2>
+      <p class="text-on-surface-variant text-sm leading-relaxed">To the fullest extent permitted by applicable law, the Greentryst Sustainability Academy and its contributors shall not be held liable for any direct, indirect, incidental, consequential, or special damages arising from the use of, or reliance upon, any content provided on this platform. This includes, without limitation, any losses resulting from decisions made based on information presented in our courses, glossary entries, or supplementary materials.</p>
+    </section>
+  </div>
+
+  <div class="bg-primary-fixed/10 rounded-2xl p-8 mt-8 flex items-start gap-4">
+    <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+      <span class="material-symbols-outlined text-primary">info</span>
+    </div>
+    <div>
+      <p class="text-sm text-on-surface leading-relaxed">We recommend consulting qualified professionals for specific sustainability reporting, carbon credit, or compliance decisions.</p>
+    </div>
+  </div>
+
+  <p class="text-sm text-on-surface-variant mt-8">Last updated: March 2026</p>
+</main>
+
+<footer class="bg-[#0a2622] text-white/70">
+  <div class="max-w-6xl mx-auto px-6 py-16">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div>
+        <div class="flex items-center gap-2.5 mb-4">
+          <div class="w-7 h-7 rounded-lg vines-gradient flex items-center justify-center"><span class="material-symbols-outlined text-white text-base">eco</span></div>
+          <span class="font-display font-bold text-white text-sm">Greentryst</span>
+        </div>
+        <p class="text-xs text-white/40 mb-5 leading-relaxed">Open-source sustainability education for the modern practitioner.</p>
+        <div class="flex items-center gap-3">
+          <a href="#" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition"><span class="material-symbols-outlined text-sm">link</span></a>
+          <a href="#" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition"><span class="material-symbols-outlined text-sm">mail</span></a>
+        </div>
+      </div>
+      <div>
+        <p class="text-xs font-semibold text-white/40 uppercase tracking-wider mb-4">Learning</p>
+        <ul class="space-y-2.5 text-sm">
+          <li><a href="index.html" class="hover:text-white transition">All Courses</a></li>
+          <li><a href="course.html" class="hover:text-white transition">Article 6</a></li>
+          <li><a href="glossary.html" class="hover:text-white transition">Glossary</a></li>
+          <li><a href="dashboard.html" class="hover:text-white transition">Dashboard</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-xs font-semibold text-white/40 uppercase tracking-wider mb-4">Resources</p>
+        <ul class="space-y-2.5 text-sm">
+          <li><a href="glossary.html" class="hover:text-white transition">Glossary</a></li>
+          <li><a href="feedback.html" class="hover:text-white transition">Feedback</a></li>
+          <li><a href="disclaimer.html" class="hover:text-white transition">Disclaimer</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-xs font-semibold text-white/40 uppercase tracking-wider mb-4">Stay Updated</p>
+        <p class="text-sm text-white/50 mb-4 leading-relaxed">Get notified when new courses and lessons are published.</p>
+        <div class="flex gap-2">
+          <input type="email" placeholder="your@email.com" class="flex-1 px-4 py-2.5 rounded-full bg-white/10 border border-white/10 text-sm text-white placeholder:text-white/30 focus:outline-none focus:border-primary-dim/50 transition" />
+          <button class="px-4 py-2.5 rounded-full bg-primary-container text-white text-sm font-semibold hover:bg-primary-light transition"><span class="material-symbols-outlined text-base">send</span></button>
+        </div>
+      </div>
+    </div>
+    <div class="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+      <p class="text-xs text-white/30">&copy; 2026 Greentryst. Sustainability Academy.</p>
+      <div class="flex items-center gap-4 text-xs text-white/30">
+        <a href="disclaimer.html" class="hover:text-white/60 transition">Privacy Policy</a>
+        <a href="disclaimer.html" class="hover:text-white/60 transition">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div id="search-modal" class="hidden fixed inset-0 z-[100] flex items-start justify-center pt-[15vh]">
+  <div class="absolute inset-0 bg-black/40 backdrop-blur-sm" onclick="document.getElementById('search-modal').classList.add('hidden')"></div>
+  <div class="relative bg-surface-container-lowest rounded-2xl shadow-2xl w-full max-w-xl mx-4 overflow-hidden">
+    <div class="flex items-center gap-3 px-5 py-4 border-b border-outline-variant/20">
+      <span class="material-symbols-outlined text-on-surface-variant">search</span>
+      <input type="text" placeholder="Search courses, lessons, glossary..." class="flex-1 bg-transparent text-on-surface text-base outline-none placeholder:text-outline" autofocus />
+      <kbd class="text-xs text-outline bg-surface-container px-2 py-1 rounded">Esc</kbd>
+    </div>
+    <div class="p-4 space-y-1">
+      <a href="glossary.html" class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-surface-container-low transition"><span class="material-symbols-outlined text-primary text-sm">menu_book</span><div><p class="text-sm font-semibold text-on-surface">Carbon Credit</p><p class="text-xs text-on-surface-variant">Glossary term</p></div></a>
+      <a href="lesson.html" class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-surface-container-low transition"><span class="material-symbols-outlined text-primary text-sm">description</span><div><p class="text-sm font-semibold text-on-surface">The Glasgow Rulebook</p><p class="text-xs text-on-surface-variant">Article 6 - Module 1, Lesson 3</p></div></a>
+    </div>
+  </div>
+</div>
+<script>
+document.addEventListener('keydown', e => {
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); document.getElementById('search-modal').classList.remove('hidden'); }
+  if (e.key === 'Escape') document.getElementById('search-modal').classList.add('hidden');
+});
+</script>
+
+</body>
+</html>

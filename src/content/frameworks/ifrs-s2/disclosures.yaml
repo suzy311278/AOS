@@ -1,0 +1,3252 @@
+# IFRS S2 — disclosure requirements with verbatim text, plain-English
+# explanation, and "what good looks like" example.
+#
+# The `requirement_text` field is the verbatim language of the standard.
+# The `plain_english` and `example_disclosure` fields are original
+# Greentryst commentary written by the Climate Disclosure Desk and
+# reviewed by the Editorial Board. These fields can be empty on a
+# disclosure while it is in draft; the page renders the verbatim text
+# regardless.
+
+disclosures:
+  # ──────────────────────────────────────────────────────────────────
+  # Governance — paragraphs 6 and 7
+  # ──────────────────────────────────────────────────────────────────
+
+  - ref: "6(a)"
+    pillar: governance
+    section_full: Governance
+    parent: null
+    requirement_text: >
+      To achieve this objective, an entity shall disclose information
+      about the governance body(s) (which can include a board,
+      committee or equivalent body charged with governance) or
+      individual(s) responsible for oversight of climate-related risks
+      and opportunities. Specifically, the entity shall identify that
+      body(s) or individual(s) and disclose information about the
+      matters set out in paragraph 6(a)(i) through (v).
+    plain_english: >
+      IFRS S2 requires the entity to name the body or individual that
+      sits at the top of the climate governance chain. This is not a
+      rhetorical reference to "the board". The standard expects a
+      specific answer: the Board of Directors, a specific standing
+      committee, or a named executive role. The five sub-paragraphs
+      that follow ask how that body or person is mandated, informed,
+      equipped, and incentivised.
+    example_disclosure: >
+      "The Board of Directors
+      holds ultimate oversight of climate-related risks and
+      opportunities, discharged primarily through the Risk and
+      Sustainability Committee (RSC). The RSC reviews climate matters
+      at each of its four annual meetings and escalates issues of
+      strategic consequence to the full Board." The passage names the
+      body, specifies the delegated committee, and states the cadence.
+      Everything that follows in paragraphs 6(a)(i) to (v) refers back
+      to this anchor.
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "1.1"
+    related_tools: []
+
+  - ref: "6(a)(i)"
+    pillar: governance
+    section_full: Governance
+    parent: "6(a)"
+    requirement_text: >
+      How responsibilities for climate-related risks and opportunities
+      are reflected in the terms of reference, mandates, role
+      descriptions and other related policies applicable to that
+      body(s) or individual(s).
+    plain_english: >
+      The governance body's climate mandate must exist on paper, not
+      only in practice. The standard asks for a trace through the
+      documented governance architecture: committee charters,
+      delegation matrices, position descriptions, and board-reserved
+      matters lists. If a committee is said to oversee climate, the
+      charter should say so in terms that are specific and auditable.
+    example_disclosure: >
+      "The terms of reference of
+      the Risk and Sustainability Committee, approved by the Board in
+      March 2024, expressly list 'oversight of climate-related
+      financial risks and opportunities, including the transition
+      plan' among the Committee's standing responsibilities. The
+      Chief Executive Officer's position description and short-term
+      incentive plan incorporate delivery against the approved
+      transition plan as a measurable objective." The disclosure names
+      the document, cites the approval date, and quotes the operative
+      language.
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "1.1"
+    related_tools: []
+
+  - ref: "6(a)(ii)"
+    pillar: governance
+    section_full: Governance
+    parent: "6(a)"
+    requirement_text: >
+      How the body(s) or individual(s) determines whether appropriate
+      skills and competencies are available or will be developed to
+      oversee strategies designed to respond to climate-related risks
+      and opportunities.
+    plain_english: >
+      The standard tests whether the people in the oversight seat
+      actually know what they are overseeing. Disclosures should
+      describe the mechanism used to assess climate competency on the
+      board or in the delegated committee, the gaps identified, and
+      the steps taken to close them. Skills matrices, director-level
+      training programmes, and the recruitment of new members with
+      climate or energy-transition credentials are all valid evidence.
+    example_disclosure: >
+      "The Board completes an
+      annual skills and capability audit. The 2024 audit identified a
+      gap in physical-risk and scenario-analysis expertise, which was
+      addressed through the appointment of a new non-executive
+      director in September 2024 with a background in climate
+      adaptation for the insurance sector, and through an external
+      climate scenario workshop delivered to all directors in November
+      2024." The disclosure references the process, the finding, and
+      two distinct remediations.
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "1.2"
+    related_tools: []
+
+  - ref: "6(a)(iii)"
+    pillar: governance
+    section_full: Governance
+    parent: "6(a)"
+    requirement_text: >
+      How and how often the body(s) or individual(s) is informed about
+      climate-related risks and opportunities.
+    plain_english: >
+      Two questions, not one. "How" asks about the channel: standing
+      agenda items, dedicated updates, quarterly risk dashboards,
+      deep-dive workshops, external briefings. "How often" asks for
+      the cadence: meeting frequency, escalation triggers, and what
+      counts as a material update that warrants interrupting the
+      regular flow.
+    example_disclosure: >
+      "Climate-related risks and
+      opportunities are a standing agenda item at every Risk and
+      Sustainability Committee meeting (four per year). The Chief
+      Sustainability Officer prepares a climate dashboard reviewed at
+      each meeting; the dashboard includes progress against
+      decarbonisation targets, physical-risk exposure indicators, and
+      regulatory horizon scanning. Material deviations trigger an
+      out-of-cycle report to the Committee Chair within ten business
+      days."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "1.2"
+    related_tools: []
+
+  - ref: "6(a)(iv)"
+    pillar: governance
+    section_full: Governance
+    parent: "6(a)"
+    requirement_text: >
+      How the body(s) or individual(s) takes into account
+      climate-related risks and opportunities when overseeing the
+      entity's strategy, its decisions on major transactions and its
+      risk management processes and related policies, including
+      whether the body(s) or individual(s) has considered trade-offs
+      associated with those risks and opportunities.
+    plain_english: >
+      This is the decision-integration test. The standard wants
+      evidence that climate is not a parallel conversation but an
+      input to the decisions the board actually makes: strategy
+      approvals, capital allocation, acquisitions and divestments, and
+      risk appetite. The explicit reference to trade-offs is
+      deliberate: if every climate decision is a win on every
+      dimension, the disclosure is too thin to be credible.
+    example_disclosure: >
+      "The Board's capital
+      allocation framework, revised in 2024, requires every capital
+      proposal above £25 million to include a transition-plan
+      alignment assessment and a physical-risk screen. In its 2024
+      decision on the proposed acquisition of Company X, the Board
+      weighed the opportunity to accelerate low-carbon product
+      offerings against the acquired entity's elevated Scope 3
+      intensity. The acquisition proceeded with a conditional
+      integration milestone requiring the acquired entity's Scope 1
+      and 2 emissions to be reported on the Group basis from
+      completion and aligned with the Group's 2030 reduction target."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "1.2"
+    related_tools: []
+
+  - ref: "6(a)(v)"
+    pillar: governance
+    section_full: Governance
+    parent: "6(a)"
+    requirement_text: >
+      How the body(s) or individual(s) oversees the setting of targets
+      related to climate-related risks and opportunities, and monitors
+      progress towards those targets (see paragraphs 33 to 36),
+      including whether and how related performance metrics are
+      included in remuneration policies (see paragraph 29(g)).
+    plain_english: >
+      Three things rolled into one: target-setting, monitoring, and
+      pay. The standard asks whether the governance body actively
+      approved the climate targets, how frequently progress is
+      reviewed, and whether any portion of executive remuneration is
+      contingent on climate performance. If targets are set without
+      board ownership or tracked without remuneration linkage, the
+      disclosure should say so and explain the rationale.
+    example_disclosure: >
+      "Climate targets are
+      approved by the full Board on recommendation from the Risk and
+      Sustainability Committee. Progress is reviewed at every
+      quarterly Committee meeting and reported in full in the
+      half-year and annual results cycles. From the 2024 performance
+      year, twenty per cent of the Chief Executive's short-term
+      incentive and fifteen per cent of the Long-Term Incentive Plan
+      vest on measured progress against the absolute Scope 1 and 2
+      reduction target."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "1.3"
+    related_tools: []
+
+  - ref: "6(b)"
+    pillar: governance
+    section_full: Governance
+    parent: null
+    requirement_text: >
+      Management's role in the governance processes, controls and
+      procedures used to monitor, manage and oversee climate-related
+      risks and opportunities, including information about the matters
+      set out in paragraph 6(b)(i) and (ii).
+    plain_english: >
+      Paragraph 6(a) covered the top of the house. Paragraph 6(b)
+      covers the running of the plumbing: who inside management owns
+      climate risk day to day, how responsibility is delegated, and
+      what controls management has put in place to give the
+      governance body something credible to oversee.
+    example_disclosure: >
+      "Day-to-day management of
+      climate-related risks and opportunities is led by the Chief
+      Sustainability Officer, who chairs the monthly Climate Risk
+      Working Group. The Working Group draws members from Finance,
+      Operations, Procurement, Treasury, and Internal Audit. It
+      reports quarterly to the Group Executive Committee and escalates
+      through the Risk and Sustainability Committee to the Board."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "1.3"
+    related_tools: []
+
+  - ref: "6(b)(i)"
+    pillar: governance
+    section_full: Governance
+    parent: "6(b)"
+    requirement_text: >
+      Whether the role is delegated to a specific management-level
+      position or management-level committee and how oversight is
+      exercised over that position or committee.
+    plain_english: >
+      The question has two halves. The first is structural: is there a
+      named executive or committee on the hook, or is the
+      responsibility diffuse? The second is supervisory: who holds
+      that person or committee accountable, and through what
+      mechanism? A credible disclosure answers both.
+    example_disclosure: >
+      "The Chief Sustainability
+      Officer, reporting directly to the Chief Executive, is the named
+      executive responsible for climate-related risks and
+      opportunities. The Chief Executive reviews the Chief
+      Sustainability Officer's delivery against agreed objectives
+      quarterly, and the Chief Sustainability Officer's remit and
+      performance contract are re-confirmed annually by the Risk and
+      Sustainability Committee."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "1.3"
+    related_tools: []
+
+  - ref: "6(b)(ii)"
+    pillar: governance
+    section_full: Governance
+    parent: "6(b)"
+    requirement_text: >
+      Whether management uses controls and procedures to support the
+      oversight of climate-related risks and opportunities and, if so,
+      how these controls and procedures are integrated with other
+      internal functions.
+    plain_english: >
+      The integration test. Climate oversight is weak if it runs in
+      parallel to, rather than inside of, the control environment
+      already used for financial and operational risk. The disclosure
+      should describe how climate risk is picked up by the enterprise
+      risk framework, the internal audit plan, and the SOX-style
+      internal control over reporting (where applicable), not merely
+      state that controls exist.
+    example_disclosure: >
+      "Climate-related risks are
+      logged in the Group's enterprise risk register using the same
+      likelihood and impact taxonomy applied to other principal risks.
+      Climate-related disclosures are within the scope of Internal
+      Audit's three-year rolling assurance plan; the 2024 plan
+      included a targeted review of Scope 2 data flows from the
+      facilities system to the Group GHG inventory. Controls over
+      climate data are tested as part of the internal control over
+      sustainability reporting programme, governed by the Group's
+      Disclosure Committee."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "1.3"
+    related_tools: []
+
+  - ref: "7"
+    pillar: governance
+    section_full: Governance
+    parent: null
+    requirement_text: >
+      In preparing disclosures to fulfil the requirements in paragraph
+      6, an entity shall avoid unnecessary duplication in accordance
+      with IFRS S1 General Requirements for Disclosure of
+      Sustainability-related Financial Information (IFRS S1) (see
+      paragraph B42(b) of IFRS S1). For example, although an entity
+      shall provide the information required by paragraph 6, if
+      oversight of sustainability-related risks and opportunities is
+      managed on an integrated basis, the entity would avoid
+      duplication by providing integrated governance disclosures
+      instead of separate disclosures for each sustainability-related
+      risk and opportunity.
+    plain_english: >
+      A practical concession. If the same board committee oversees
+      climate alongside nature, human rights, and other
+      sustainability matters, and the same management structure
+      executes, IFRS S2 does not require a separate set of governance
+      disclosures for climate. The entity can write the governance
+      section once, mapped across the sustainability disclosures that
+      apply.
+    example_disclosure: >
+      "The Risk and
+      Sustainability Committee oversees all sustainability-related
+      financial risks and opportunities on an integrated basis,
+      including climate, nature, and human capital. The governance
+      disclosures in this report therefore apply in common to all
+      sustainability-related disclosures. Matters specific to climate
+      are cross-referenced below where relevant." The disclosure
+      signals the integrated approach once, then avoids repeating it
+      under every topical disclosure.
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "1.3"
+    related_tools: []
+
+  # ──────────────────────────────────────────────────────────────────
+  # Strategy — paragraphs 9 through 23
+  # ──────────────────────────────────────────────────────────────────
+
+  - ref: "9(a)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      Specifically, an entity shall disclose information to enable
+      users of general purpose financial reports to understand the
+      climate-related risks and opportunities that could reasonably be
+      expected to affect the entity's prospects (see paragraphs 10 to
+      12).
+    plain_english: >
+      This opening requirement sets the scope of everything that
+      follows in the Strategy pillar. The entity must identify the
+      climate-related risks and opportunities reasonably expected to
+      affect its prospects, meaning its financial position,
+      performance, and cash flows over the short, medium, and long
+      term. Paragraphs 10 through 12 set out how to do it: describe
+      each risk and opportunity, classify physical versus transition,
+      and place each on a time horizon.
+    example_disclosure: >
+      "We have identified six
+      principal climate-related risks and four principal
+      opportunities, grouped by transition and physical categories
+      and mapped to our three-horizon planning cycle. Each is
+      supported by a short description, the business units most
+      exposed, and the time horizon over which we expect the effect
+      to crystallise. Full detail follows in the tables accompanying
+      this section."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.1"
+    related_tools: []
+
+  - ref: "9(b)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      The current and anticipated effects of those climate-related
+      risks and opportunities on the entity's business model and value
+      chain (see paragraph 13).
+    plain_english: >
+      Having identified the risks and opportunities under 9(a), the
+      entity must trace them into its business model and value chain.
+      "Current" effects are those observed in the reporting period;
+      "anticipated" effects are those the entity expects to occur
+      within its planning horizons. Paragraph 13 expands on the
+      mechanics.
+    example_disclosure: >
+      "The transition risks
+      identified in 9(a) are already reshaping procurement: steel
+      inputs subject to the EU CBAM have added 4.2 per cent to
+      landed cost on affected SKUs in 2024. We anticipate a further
+      12 to 18 per cent increase by 2028 under our central transition
+      scenario, concentrated in three product families manufactured
+      at our two European plants."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.2"
+    related_tools: []
+
+  - ref: "9(c)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      The effects of those climate-related risks and opportunities on
+      the entity's strategy and decision-making, including information
+      about its climate-related transition plan (see paragraph 14).
+    plain_english: >
+      The test is whether climate information is changing decisions,
+      not merely being tracked. The entity describes how risks and
+      opportunities flow into strategy reviews, capital allocation,
+      acquisitions and divestments, and product design, and it
+      summarises its transition plan if one exists. Paragraph 14
+      prescribes the detail.
+    example_disclosure: >
+      "Climate inputs are now
+      incorporated into our annual strategy review and into every
+      capital proposal above £25 million. Our transition plan,
+      approved by the Board in June 2024, sets out how we intend to
+      reach 2030 interim emissions targets through a combination of
+      asset retirement, renewable power procurement, and low-carbon
+      product redesign."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.3"
+    related_tools: []
+
+  - ref: "9(d)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      The effects of those climate-related risks and opportunities on
+      the entity's financial position, financial performance and cash
+      flows for the reporting period, and their anticipated effects on
+      the entity's financial position, financial performance and cash
+      flows over the short, medium and long term, taking into
+      consideration how those climate-related risks and opportunities
+      have been factored into the entity's financial planning (see
+      paragraphs 15 to 21).
+    plain_english: >
+      Climate is not disclosed in isolation from the numbers. The
+      entity must explain how the risks and opportunities have already
+      affected this year's financial statements and how they are
+      expected to affect future periods. Paragraphs 15 through 21
+      prescribe the quantitative and qualitative expectations and
+      provide relief where quantification is not feasible.
+    example_disclosure: >
+      "Physical damage from the
+      Q3 2024 flood at our Rotterdam facility reduced EBIT by £14m,
+      recognised within cost of sales. Over our five-year plan we
+      expect between £40m and £90m of additional operating costs from
+      the two plants in hydrologically exposed catchments, and between
+      £25m and £60m of revenue upside from low-carbon product lines.
+      The ranges reflect the spread of outcomes across our two central
+      transition scenarios."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.1"
+    related_tools: []
+
+  - ref: "9(e)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      The climate resilience of the entity's strategy and its business
+      model to climate-related changes, developments and
+      uncertainties, taking into consideration the entity's identified
+      climate-related risks and opportunities (see paragraph 22).
+    plain_english: >
+      Resilience is tested using climate-related scenario analysis.
+      The entity must describe how its strategy and business model
+      hold up under a set of plausible but divergent climate futures,
+      and must be explicit about what would have to change to remain
+      viable in each. Paragraph 22 sets out the depth of disclosure
+      expected.
+    example_disclosure: >
+      "Under our high-warming
+      physical scenario, two of our six production sites become
+      operationally uneconomic before 2040 without material
+      adaptation investment. Under our fast-transition scenario, our
+      internal combustion product family loses roughly 35 per cent of
+      addressable market by 2035. The transition plan and capital
+      allocation framework described in 9(c) are designed to respond
+      to both sets of conditions."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "10(a)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      An entity shall disclose information that enables users of
+      general purpose financial reports to understand the
+      climate-related risks and opportunities that could reasonably be
+      expected to affect the entity's prospects. Specifically, the
+      entity shall describe climate-related risks and opportunities
+      that could reasonably be expected to affect the entity's
+      prospects.
+    plain_english: >
+      The entity lists and describes each climate-related risk and
+      opportunity by name. Generic categories are not enough; the
+      description should be specific enough that a reader can
+      understand what exposure it refers to, what causes it, and where
+      it sits in the business.
+    example_disclosure: >
+      "Risk P2: Chronic water
+      stress at our Gujarat and Andalucía sites. Driver: declining
+      annual precipitation and rising competing demand from
+      agriculture. Potential impact: production curtailment during
+      summer months, forced withdrawals to tankered supply. Business
+      units affected: Industrial Coatings and Specialty Chemicals."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.1"
+    related_tools: []
+
+  - ref: "10(b)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      An entity shall explain, for each climate-related risk the
+      entity has identified, whether the entity considers the risk to
+      be a climate-related physical risk or climate-related transition
+      risk.
+    plain_english: >
+      Every risk described under 10(a) is tagged as physical or
+      transition. Physical risks are driven by the changing climate
+      itself (acute events, chronic shifts). Transition risks are
+      driven by the response to climate change (policy, technology,
+      market, reputation). Some risks present as both; the disclosure
+      should say so and split the exposure where possible.
+    example_disclosure: >
+      "Of the six identified
+      principal risks, four are physical (two acute, two chronic) and
+      two are transition (policy and market). Risk T1, regulatory
+      cost of carbon, is treated primarily as a transition risk but
+      has a secondary physical element where carbon-price-driven
+      demand shifts expose us to stranded assets."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.1"
+    related_tools: []
+
+  - ref: "10(c)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      An entity shall specify, for each climate-related risk and
+      opportunity the entity has identified, over which time horizons,
+      short, medium or long term, the effects of each climate-related
+      risk and opportunity could reasonably be expected to occur.
+    plain_english: >
+      Each risk and opportunity is placed on a time horizon. The
+      standard does not fix the boundaries; the entity chooses but
+      must explain its choice under 10(d). The same risk can span
+      multiple horizons; disclosures typically show the primary
+      horizon and note any spillover.
+    example_disclosure: >
+      "Risk T1 (regulatory cost
+      of carbon) crystallises in the medium term, driven by the EU
+      CBAM ramp to 2034. Risk P3 (acute heat stress at the Chennai
+      site) is already present (short term) and intensifies in the
+      long term. Opportunity O2 (low-carbon steel premium) emerges
+      medium term and scales long term."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.1"
+    related_tools: []
+
+  - ref: "10(d)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      An entity shall explain how the entity defines 'short term',
+      'medium term' and 'long term' and how these definitions are
+      linked to the planning horizons used by the entity for strategic
+      decision-making.
+    plain_english: >
+      The entity tells the reader how to interpret its time labels.
+      The key discipline is consistency: the short, medium, and long
+      term windows used for climate should be the same windows used
+      in strategic planning, capital allocation, and enterprise risk
+      management. Any deviation should be explained.
+    example_disclosure: >
+      "We define short term as up
+      to three years, medium term as three to ten years, and long
+      term as ten to thirty years. These windows align with our
+      annual operating plan (short), our five-year strategic review
+      cycle extended for climate (medium), and our long-lived asset
+      replacement horizon (long). The same definitions are applied in
+      our principal-risk reporting."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.1"
+    related_tools: []
+
+  - ref: "11"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      In identifying the climate-related risks and opportunities that
+      could reasonably be expected to affect an entity's prospects,
+      the entity shall use all reasonable and supportable information
+      that is available to the entity at the reporting date without
+      undue cost or effort, including information about past events,
+      current conditions and forecasts of future conditions.
+    plain_english: >
+      This is the effort test. The entity is expected to use
+      information it has, information it could reasonably obtain, and
+      information it is capable of forecasting. "Without undue cost
+      or effort" is not a license to ignore: the threshold is set
+      against the entity's size, sophistication, and the materiality
+      of the matter.
+    example_disclosure: >
+      "Our identification process
+      drew on ten years of internal loss data, two independent
+      physical-risk datasets (Jupiter Intelligence and an internal
+      catchment model), policy horizon scans prepared by our
+      regulatory affairs team, and three externally sourced
+      transition scenarios. The process is described in more detail
+      under Risk Management in this report."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.4"
+    related_tools: []
+
+  - ref: "12"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      In identifying the climate-related risks and opportunities that
+      could reasonably be expected to affect an entity's prospects,
+      the entity shall refer to and consider the applicability of the
+      industry-based disclosure topics defined in the Industry-based
+      Guidance on Implementing IFRS S2.
+    plain_english: >
+      The ISSB inherited SASB's industry-based guidance. The entity
+      is required to consider the disclosure topics listed for its
+      industry and explain what applies. The entity may conclude that
+      a topic is not material and should say so, but it cannot ignore
+      the guidance silently.
+    example_disclosure: >
+      "As an Electric Utilities
+      & Power Generators issuer, we have reviewed the IFRS S2
+      industry-based topics. We consider all topics applicable except
+      'Nuclear Safety and Emergency Management', which is not
+      relevant to our generation mix. Our material industry topics
+      are disclosed alongside the cross-industry disclosures in the
+      Metrics and Targets section."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.4"
+    related_tools: []
+
+  - ref: "13(a)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      An entity shall disclose a description of the current and
+      anticipated effects of climate-related risks and opportunities
+      on the entity's business model and value chain.
+    plain_english: >
+      The entity describes, in narrative form, how climate-related
+      risks and opportunities are reshaping inputs, operations,
+      outputs, and customer relationships. The description is
+      forward-looking where the entity has a view and
+      backward-looking where effects have already landed.
+    example_disclosure: >
+      "Climate-related transition
+      pressure has shifted our procurement toward certified low-carbon
+      raw materials, now representing 34 per cent of purchased volume
+      in 2024 against 11 per cent in 2020. We anticipate this share
+      rising to above 60 per cent by 2028 under our central
+      transition scenario."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.2"
+    related_tools: []
+
+  - ref: "13(b)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      An entity shall disclose a description of where in the entity's
+      business model and value chain climate-related risks and
+      opportunities are concentrated (for example, geographical areas,
+      facilities and types of assets).
+    plain_english: >
+      Aggregate numbers hide risk. The entity must pinpoint where
+      exposures are concentrated: specific geographies, named sites,
+      asset classes, supply-chain nodes. The level of specificity
+      should be enough for a reader to understand where failure would
+      hurt most.
+    example_disclosure: >
+      "Physical risk is
+      concentrated at four sites accounting for 38 per cent of Group
+      revenue: two in the Gulf of Mexico (storm surge), one in
+      Gujarat (water stress), and one in Queensland (bushfire).
+      Transition risk is concentrated in our carbon-intensive
+      downstream product line, which represented 22 per cent of
+      revenue in 2024."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.2"
+    related_tools: []
+
+  - ref: "14(a)(i)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "14(a)"
+    requirement_text: >
+      An entity shall disclose information about current and
+      anticipated changes to the entity's business model, including
+      its resource allocation, to address climate-related risks and
+      opportunities (for example, these changes could include plans
+      to manage or decommission carbon-, energy- or water-intensive
+      operations; resource allocations resulting from demand or
+      supply-chain changes; resource allocations arising from
+      business development through capital expenditure or additional
+      expenditure on research and development; and acquisitions or
+      divestments).
+    plain_english: >
+      The entity describes how its business model is being reshaped
+      by its climate response. Decommissioning plans, capital
+      reallocation, acquisitions and divestments, and R&D pivots are
+      all in scope. Vague aspirations are insufficient; the
+      disclosure should name the moves.
+    example_disclosure: >
+      "We have accelerated the
+      decommissioning of our two coal-fired assets to 2028 and 2031
+      (previously 2035 and 2038), released approximately £340m of
+      capital from the coal-linked trading business, and reallocated
+      £280m of it to the low-carbon hydrogen development pipeline.
+      The remaining £60m funds adaptation investments at our two
+      water-stressed sites."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.3"
+    related_tools: []
+
+  - ref: "14(a)(ii)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "14(a)"
+    requirement_text: >
+      An entity shall disclose information about current and
+      anticipated direct mitigation and adaptation efforts (for
+      example, through changes in production processes or equipment,
+      relocation of facilities, workforce adjustments, and changes in
+      product specifications).
+    plain_english: >
+      "Direct" means effects within the entity's own operations. The
+      disclosure covers process and equipment upgrades, facility
+      moves, workforce transition, and product redesign. The standard
+      wants concrete examples, not a general commitment to reduce
+      emissions.
+    example_disclosure: >
+      "We installed electric
+      boilers at our Rotterdam and Antwerp plants in 2024, retiring
+      4.2 MW of gas-fired steam capacity. We relocated a processing
+      line out of our flood-exposed Chennai facility to a lower-risk
+      inland site. We re-specified our flagship coating product to
+      meet a 30 per cent embodied-carbon reduction by 2025, with
+      qualification complete in Q2 2024."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.3"
+    related_tools: []
+
+  - ref: "14(a)(iii)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "14(a)"
+    requirement_text: >
+      An entity shall disclose information about current and
+      anticipated indirect mitigation and adaptation efforts (for
+      example, through working with customers and supply chains).
+    plain_english: >
+      "Indirect" means effects beyond the entity's operational
+      boundary: supplier engagement, customer enablement, co-investment.
+      The disclosure should describe the mechanisms (programmes,
+      contracts, incentives) and the expected reach.
+    example_disclosure: >
+      "Our Top 50 Supplier
+      Engagement Programme, launched in 2023, has now seen 42
+      suppliers set SBTi-validated targets covering 68 per cent of
+      our Purchased Goods and Services spend. On the customer side,
+      we launched an embodied-carbon advisory service in 2024 which
+      has supported 280 customer product specifications toward
+      lower-carbon alternatives."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.3"
+    related_tools: []
+
+  - ref: "14(a)(iv)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "14(a)"
+    requirement_text: >
+      An entity shall disclose information about any climate-related
+      transition plan the entity has, including information about key
+      assumptions used in developing its transition plan, and
+      dependencies on which the entity's transition plan relies.
+    plain_english: >
+      A transition plan is disclosable when it exists. The standard
+      asks for the underlying assumptions (policy path, carbon price,
+      technology availability) and the external dependencies (grid
+      decarbonisation, public infrastructure, supplier capability)
+      that the plan relies on. Fragile dependencies must be named.
+    example_disclosure: >
+      "Our transition plan
+      assumes a 4 per cent per year decarbonisation of the Indian
+      electricity grid between 2024 and 2035, a carbon price reaching
+      €120/t in the EU by 2030, and commercial availability of
+      direct-reduction iron using hydrogen by 2032. A slower grid
+      decarbonisation path would materially reduce our 2030 Scope 2
+      reduction by up to 8 percentage points."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.3"
+    related_tools: []
+
+  - ref: "14(a)(v)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "14(a)"
+    requirement_text: >
+      An entity shall disclose information about how the entity plans
+      to achieve any climate-related targets, including any greenhouse
+      gas emissions targets, described in accordance with paragraphs
+      33 to 36.
+    plain_english: >
+      Targets without pathways are not credible. The entity must link
+      each target to the levers that deliver it and provide enough
+      visibility that a reader can see how the arithmetic adds up.
+    example_disclosure: >
+      "Our 2030 Scope 1 and 2
+      absolute reduction target of 42 per cent vs 2020 is delivered
+      through four named levers: coal-to-renewable-electricity switch
+      (22 percentage points), process electrification (11 points),
+      energy efficiency (6 points), and early retirement of two
+      legacy assets (3 points). Each lever has an owner, a capital
+      budget, and a milestone schedule tracked quarterly."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.3"
+    related_tools: []
+
+  - ref: "14(b)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      An entity shall disclose information about how the entity is
+      resourcing, and plans to resource, the activities disclosed in
+      accordance with paragraph 14(a).
+    plain_english: >
+      Plans need money, people, and time. The entity discloses how it
+      is funding the activities above and what capability it is
+      building. This is where a transition plan stops being aspiration
+      and starts being a capital and operating commitment.
+    example_disclosure: >
+      "The transition plan is
+      resourced through a ring-fenced capital envelope of £1.2bn
+      over 2024 to 2030, approved by the Board. Operating capability
+      sits in the 34-person Decarbonisation Programme Office reporting
+      to the Chief Sustainability Officer. Supplier engagement is
+      funded through a dedicated £18m annual budget within the
+      Procurement function."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.3"
+    related_tools: []
+
+  - ref: "14(c)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      An entity shall disclose quantitative and qualitative
+      information about the progress of plans disclosed in previous
+      reporting periods in accordance with paragraph 14(a).
+    plain_english: >
+      A year-over-year accountability line. The entity reports
+      against what it said last year: what was delivered, what
+      slipped, and why. This is how IFRS S2 prevents transition plans
+      from resetting every year.
+    example_disclosure: >
+      "Of the nine 2024 transition
+      plan milestones set in the 2023 disclosure, six were delivered
+      on time, two delivered late (electric boiler commissioning at
+      Antwerp, delayed 4 months by grid connection; supplier
+      engagement enrolment, now at 42 against target 50), and one was
+      re-baselined (hydrogen pilot deferred 12 months pending
+      technology readiness)."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "2.3"
+    related_tools: []
+
+  - ref: "15(a)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      An entity shall disclose information that enables users of
+      general purpose financial reports to understand the effects of
+      climate-related risks and opportunities on the entity's
+      financial position, financial performance and cash flows for the
+      reporting period (current financial effects).
+    plain_english: >
+      Current-period financial effects must be surfaced. These are
+      the effects that have already landed in this year's numbers,
+      whether as asset impairments, higher operating costs, revenue
+      changes, or capital spend. The entity points the reader to the
+      line items where the effects sit.
+    example_disclosure: >
+      "Climate-related current
+      financial effects in 2024 were £68m, comprising: £41m of
+      accelerated depreciation on the two coal assets being
+      decommissioned early; £14m of flood-related loss at the
+      Rotterdam facility within cost of sales; £9m of increased
+      CBAM-linked raw material cost; and £4m of one-off EU ETS
+      allowance purchases."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.1"
+    related_tools: []
+
+  - ref: "15(b)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      An entity shall disclose information that enables users of
+      general purpose financial reports to understand the anticipated
+      effects of climate-related risks and opportunities on the
+      entity's financial position, financial performance and cash
+      flows over the short, medium and long term, taking into
+      consideration how climate-related risks and opportunities are
+      included in the entity's financial planning (anticipated
+      financial effects).
+    plain_english: >
+      Forward-looking financial effects are required in quantitative
+      or qualitative form. The entity explains how its financial plan
+      incorporates climate assumptions, what range of outcomes this
+      produces, and where material effects concentrate.
+    example_disclosure: >
+      "Our five-year financial
+      plan includes a central transition scenario that adds approximately
+      £180m to cumulative operating cost through 2029 and approximately
+      £240m of additional capital expenditure. A sensitivity to a
+      faster transition path adds a further £90m to operating cost and
+      accelerates £150m of capital expenditure into 2026 to 2027."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.1"
+    related_tools: []
+
+  - ref: "16(a)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      Specifically, an entity shall disclose quantitative and
+      qualitative information about how climate-related risks and
+      opportunities have affected its financial position, financial
+      performance and cash flows for the reporting period.
+    plain_english: >
+      A closer-grained version of 15(a): the entity explains not only
+      that climate effects have landed in the numbers but how they
+      flowed through specific captions. Asset write-downs, provisions,
+      revenue variance, operating cost, and capital expenditure are
+      the usual vectors.
+    example_disclosure: >
+      "The coal-asset
+      decommissioning acceleration led to £41m of accelerated
+      depreciation recognised in cost of sales, and a £12m impairment
+      charge on related decommissioning infrastructure recognised as
+      a non-operating item. The £14m Rotterdam flood loss is net of
+      £22m of insurance recoveries recognised within other operating
+      income."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.1"
+    related_tools: []
+
+  - ref: "16(b)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      The climate-related risks and opportunities identified in
+      paragraph 16(a) for which there is a significant risk of a
+      material adjustment within the next annual reporting period to
+      the carrying amounts of assets and liabilities reported in the
+      related financial statements.
+    plain_english: >
+      The twelve-month outlook. The entity flags the climate-related
+      matters most likely to move the balance sheet in the next
+      reporting period: impairment triggers, provision updates,
+      asset-retirement obligation re-measurements.
+    example_disclosure: >
+      "We consider there to be a
+      significant risk of a material adjustment in the next reporting
+      period to: (a) the carrying value of the Gujarat facility,
+      subject to ongoing water-availability monitoring that may
+      trigger an impairment review in H1 2026; and (b) the asset
+      retirement obligation for the two coal plants, where
+      decommissioning cost assumptions are being refreshed in Q4 2025."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.2"
+    related_tools: []
+
+  - ref: "16(c)(i)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "16(c)"
+    requirement_text: >
+      An entity shall disclose quantitative and qualitative information
+      about how the entity expects its financial position to change
+      over the short, medium and long term, given its strategy to
+      manage climate-related risks and opportunities, taking into
+      consideration its investment and disposal plans (for example,
+      plans for capital expenditure, major acquisitions and
+      divestments, joint ventures, business transformation,
+      innovation, new business areas, and asset retirements),
+      including plans the entity is not contractually committed to.
+    plain_english: >
+      The entity ties its climate strategy to movements on the balance
+      sheet: what will be bought, built, retired, or divested over
+      the coming planning horizons. Non-committed plans count;
+      investors read them as strategic intent.
+    example_disclosure: >
+      "Over the next five years
+      we plan approximately £1.2bn of climate-related capital
+      expenditure, concentrated in low-carbon process equipment at
+      European sites; we expect to divest our coal-linked trading
+      subsidiary by end 2026, with a carrying value of approximately
+      £220m; and we will complete the retirement of two coal assets
+      by 2031, removing £340m of property, plant, and equipment from
+      the balance sheet."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.2"
+    related_tools: []
+
+  - ref: "16(c)(ii)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "16(c)"
+    requirement_text: >
+      An entity shall disclose quantitative and qualitative information
+      about how the entity expects its financial position to change
+      over the short, medium and long term, given its strategy to
+      manage climate-related risks and opportunities, taking into
+      consideration its planned sources of funding to implement its
+      strategy.
+    plain_english: >
+      The entity explains how the climate strategy will be funded:
+      operating cash flow, debt, equity, sustainability-linked
+      instruments, green bonds, divestment proceeds. If sustainable
+      finance is used, the instrument terms and key performance
+      conditions should be described.
+    example_disclosure: >
+      "The £1.2bn transition
+      capital programme is funded approximately 55 per cent from
+      operating cash flow, 30 per cent from two sustainability-linked
+      loans issued in 2023 and 2024 (total facility £650m,
+      step-up/step-down linked to Scope 1+2 intensity), and 15 per
+      cent from divestment proceeds from the planned coal-linked
+      trading exit."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.2"
+    related_tools: []
+
+  - ref: "16(d)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      An entity shall disclose quantitative and qualitative information
+      about how the entity expects its financial performance and cash
+      flows to change over the short, medium and long term, given its
+      strategy to manage climate-related risks and opportunities (for
+      example, increased revenue from products and services aligned
+      with a lower-carbon economy; costs arising from physical damage
+      to assets from climate events; and expenses associated with
+      climate adaptation or mitigation).
+    plain_english: >
+      Bridges to the income statement and cash flow. The disclosure
+      names the revenue opportunities, cost exposures, and mitigation
+      expense associated with climate strategy, and ties them to the
+      same time horizons used elsewhere.
+    example_disclosure: >
+      "We expect our low-carbon
+      product families to add between £150m and £300m of annual
+      revenue by 2028, and between £350m and £700m by 2033. Physical
+      damage cost is expected to average £10m to £20m per year over
+      the next five years, net of insurance. Adaptation operating
+      expense is expected to be £25m to £40m per year, largely at the
+      two water-stressed sites."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.2"
+    related_tools: []
+
+  - ref: "18(a)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      In preparing disclosures about the anticipated financial effects
+      of a climate-related risk or opportunity, an entity shall use
+      all reasonable and supportable information that is available to
+      the entity at the reporting date without undue cost or effort.
+    plain_english: >
+      Mirror of paragraph 11 applied to financial effects. The entity
+      is expected to use the information it has and the information
+      it could reasonably obtain. The standard does not require new
+      analytical methods the entity does not possess; it does require
+      genuine effort against the information that exists.
+    example_disclosure: >
+      "Anticipated financial
+      effects in this disclosure are prepared using our existing
+      five-year financial planning model extended for climate inputs:
+      internal carbon price, expected physical-loss frequency from
+      the two external datasets referenced under paragraph 11, and
+      product-mix assumptions from Strategy. Beyond the five-year
+      window, disclosures are qualitative."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.3"
+    related_tools: []
+
+  - ref: "18(b)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      In preparing disclosures about the anticipated financial effects
+      of a climate-related risk or opportunity, an entity shall use an
+      approach that is commensurate with the skills, capabilities and
+      resources that are available to the entity for preparing those
+      disclosures.
+    plain_english: >
+      The proportionality principle. A small entity is not expected
+      to run the same quantitative modelling a large insurer would.
+      But the entity must be explicit about the approach it used and
+      the capability constraints it faced.
+    example_disclosure: >
+      "We have applied a
+      bottom-up site-level model for physical effects given our
+      in-house modelling team and data access. For transition
+      effects, we have used externally sourced scenarios and
+      supplier-level price and volume effects because we do not
+      maintain an in-house macroeconomic capability. Methods are
+      described further below."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.3"
+    related_tools: []
+
+  - ref: "21(a)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      If an entity determines that it need not provide quantitative
+      information about the current or anticipated financial effects
+      of a climate-related risk or opportunity applying the criteria
+      set out in paragraphs 19 to 20, the entity shall explain why it
+      has not provided quantitative information.
+    plain_english: >
+      The standard allows qualitative-only disclosure in specific
+      circumstances (paragraphs 19 and 20) but requires the entity
+      to say why. The explanation should identify which criterion
+      applied (data availability, skills, measurement uncertainty)
+      and be specific to the exposure in question.
+    example_disclosure: >
+      "For the supply-chain
+      disruption risk identified under 10(a), we have not provided
+      quantitative current or anticipated financial effects. Our
+      Tier-2 supplier emissions and location data are not yet
+      sufficient to support a defensible monetary estimate. We expect
+      to move to a quantitative estimate for 2026 reporting as our
+      supplier engagement programme delivers improved input data."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.3"
+    related_tools: []
+
+  - ref: "21(b)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      If an entity determines that it need not provide quantitative
+      information about the current or anticipated financial effects
+      of a climate-related risk or opportunity applying the criteria
+      set out in paragraphs 19 to 20, the entity shall provide
+      qualitative information about those financial effects, including
+      identifying line items, totals and subtotals within the related
+      financial statements that are likely to be affected, or have
+      been affected, by that climate-related risk or opportunity.
+    plain_english: >
+      Qualitative does not mean vague. The entity still points the
+      reader to the specific financial-statement line items where
+      the effect lands or is expected to land: which revenue stream,
+      which cost caption, which asset class.
+    example_disclosure: >
+      "For the supply-chain
+      disruption risk, we expect financial effects to flow primarily
+      through cost of sales (input-price pass-through) and inventory
+      (working-capital build for critical components), with a
+      secondary effect on revenue in the two product families most
+      dependent on single-source inputs."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.3"
+    related_tools: []
+
+  - ref: "21(c)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      If an entity determines that it need not provide quantitative
+      information about the current or anticipated financial effects
+      of a climate-related risk or opportunity applying the criteria
+      set out in paragraphs 19 to 20, the entity shall provide
+      quantitative information about the combined financial effects of
+      that climate-related risk or opportunity with other
+      climate-related risks or opportunities and other factors unless
+      the entity determines that quantitative information about the
+      combined financial effects would not be useful.
+    plain_english: >
+      Where a single exposure cannot be quantified, the standard
+      still invites the entity to provide a combined quantitative
+      view if doing so is informative. The exception clause
+      ("unless... not useful") should be applied sparingly.
+    example_disclosure: >
+      "Although we have not
+      quantified the supply-chain disruption risk individually, it
+      is incorporated into the combined stress scenario described
+      under paragraph 22, which estimates aggregate operating-cost
+      pressure of £120m to £230m under our fast-transition case
+      through 2030."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.3"
+    related_tools: []
+
+  - ref: "22(a)(i)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(a)"
+    requirement_text: >
+      An entity shall disclose the entity's assessment of its climate
+      resilience as at the reporting date, which shall enable users
+      of general purpose financial reports to understand the
+      implications, if any, of the entity's assessment for its
+      strategy and business model, including how the entity would
+      need to respond to the effects identified in the climate-related
+      scenario analysis.
+    plain_english: >
+      The resilience headline. The entity states what the scenario
+      analysis tells it about the viability of its current strategy
+      and business model, and names the responses that would be
+      needed if a given scenario materialised.
+    example_disclosure: >
+      "Under our fast-transition
+      scenario, two downstream product lines representing 22 per cent
+      of Group revenue would require redesign or retirement by 2030;
+      the transition plan addresses this through the low-carbon
+      product programme. Under our high-warming physical scenario,
+      adaptation investment of approximately £180m would be required
+      at three sites by 2035 to maintain operations at historic
+      throughput."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(a)(ii)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(a)"
+    requirement_text: >
+      An entity shall disclose the significant areas of uncertainty
+      considered in the entity's assessment of its climate resilience.
+    plain_english: >
+      The entity is explicit about what it does not know. Policy
+      timing, technology readiness, physical-climate sensitivity, and
+      macro-economic response are the usual suspects. Naming the
+      uncertainties is evidence of rigour, not weakness.
+    example_disclosure: >
+      "The three most significant
+      areas of uncertainty in our assessment are: the pace of grid
+      decarbonisation in our two largest Asian markets; the
+      commercial readiness of green hydrogen for our primary process
+      heat needs; and the regional distribution of extreme
+      precipitation events around our South American operations."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(a)(iii)(1)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(a)(iii)"
+    requirement_text: >
+      The entity's capacity to adjust or adapt its strategy and
+      business model to climate change over the short, medium and
+      long term, including the availability of, and flexibility in,
+      the entity's existing financial resources to respond to the
+      effects identified in the climate-related scenario analysis,
+      including to address climate-related risks and to take advantage
+      of climate-related opportunities.
+    plain_english: >
+      Can the balance sheet absorb what the scenarios describe? The
+      entity assesses its liquidity, leverage headroom, and funding
+      options against the capital demands implied by each scenario.
+    example_disclosure: >
+      "Our current £2.8bn of
+      undrawn committed credit facilities plus our five-year
+      operating cash flow forecast provide approximately £5bn of
+      deployable capacity, against a peak scenario capital need of
+      £1.8bn in the fast-transition case. Headroom is adequate under
+      all three modelled scenarios."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(a)(iii)(2)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(a)(iii)"
+    requirement_text: >
+      The entity's ability to redeploy, repurpose, upgrade or
+      decommission existing assets.
+    plain_english: >
+      Physical and capital flexibility. The disclosure assesses
+      whether the asset base can be repositioned in time and at
+      acceptable cost. Long-lived, location-specific assets are
+      usually the binding constraint.
+    example_disclosure: >
+      "Of the six production
+      sites, three are capable of process retrofit within existing
+      permits and lease windows; two require significant rebuild
+      (estimated £140m each); and one would require site
+      reconfiguration or partial retirement under the fast-transition
+      case. The two coal-linked sites are on a contracted
+      decommissioning pathway independent of scenario choice."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(a)(iii)(3)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(a)(iii)"
+    requirement_text: >
+      The effect of the entity's current and planned investments in
+      climate-related mitigation, adaptation and opportunities for
+      climate resilience.
+    plain_english: >
+      Investments are already shaping resilience. The entity
+      quantifies how current and planned mitigation, adaptation, and
+      opportunity investments reduce exposure or unlock upside under
+      each scenario.
+    example_disclosure: >
+      "Current and planned
+      investments reduce our fast-transition-scenario operating cost
+      impact by approximately £180m per year by 2030 and add
+      approximately £220m of annual revenue from low-carbon product
+      lines in the same year. Adaptation investments at the two
+      water-stressed sites reduce expected production curtailment
+      losses by approximately 65 per cent in the high-warming case."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(b)(i)(1)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(b)(i)"
+    requirement_text: >
+      Which climate-related scenarios the entity used for the analysis
+      and the sources of those scenarios.
+    plain_english: >
+      Name the scenarios and say where they came from. Published
+      scenarios (IEA, NGFS, IPCC-derived) are usual; internally built
+      scenarios are acceptable if the entity documents methodology.
+    example_disclosure: >
+      "We used three scenarios:
+      the NGFS Net Zero 2050 (ambitious transition), the IEA Stated
+      Policies Scenario (policy-lagged transition), and an internal
+      high-warming physical scenario (RCP 8.5 calibrated to NGFS
+      Current Policies for the economic layer). The internal
+      scenario methodology is documented in our Climate Scenario
+      Technical Note available on request."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(b)(i)(2)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(b)(i)"
+    requirement_text: >
+      Whether the analysis included a diverse range of climate-related
+      scenarios.
+    plain_english: >
+      A single scenario is not resilience analysis. The standard
+      wants diversity across the plausible outcome space: at
+      minimum, a fast-transition case, a slower-transition or
+      lagged-policy case, and a high-warming physical case.
+    example_disclosure: >
+      "Our three scenarios
+      span a diverse range: the NGFS Net Zero 2050 represents an
+      ambitious orderly transition; the IEA Stated Policies Scenario
+      represents a partial, policy-lagged transition; and our
+      internal high-warming scenario represents a delayed-action
+      future with elevated physical risk. Expected warming outcomes
+      range from 1.4°C to above 3°C by 2100."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(b)(i)(3)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(b)(i)"
+    requirement_text: >
+      Whether the climate-related scenarios used for the analysis are
+      associated with climate-related transition risks or
+      climate-related physical risks.
+    plain_english: >
+      For each scenario, the entity declares whether it is primarily
+      a transition-risk scenario, a physical-risk scenario, or both.
+      This prevents readers from mismatching scenarios and exposures.
+    example_disclosure: >
+      "The NGFS Net Zero 2050
+      and IEA Stated Policies scenarios are primarily transition
+      scenarios, with a limited physical overlay. Our internal
+      high-warming scenario is primarily a physical-risk scenario
+      with a lagged-transition economic layer."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(b)(i)(4)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(b)(i)"
+    requirement_text: >
+      Whether the entity used, among its scenarios, a climate-related
+      scenario aligned with the latest international agreement on
+      climate change.
+    plain_english: >
+      At least one scenario must be Paris-aligned. "Latest
+      international agreement on climate change" is the Paris
+      Agreement; a scenario consistent with limiting warming to 1.5°C
+      (or the 2°C upper bound) satisfies the test.
+    example_disclosure: >
+      "The NGFS Net Zero 2050
+      scenario is consistent with limiting warming to 1.5°C with
+      limited overshoot and is used as our Paris-aligned reference
+      case, in accordance with paragraph 22(b)(i)(4)."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(b)(i)(5)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(b)(i)"
+    requirement_text: >
+      Why the entity decided that its chosen climate-related scenarios
+      are relevant to assessing its resilience to climate-related
+      changes, developments or uncertainties.
+    plain_english: >
+      Relevance is not self-evident. The entity explains why each
+      chosen scenario materially stresses the exposures the entity
+      actually has: sectoral profile, geographic footprint, policy
+      environments, customer base.
+    example_disclosure: >
+      "The NGFS Net Zero 2050
+      is the most stressing transition scenario for our
+      carbon-intensive downstream product line. The IEA Stated
+      Policies scenario tests policy-lag exposure, relevant because
+      three of our largest markets have made slower climate
+      commitments. The internal high-warming scenario tests physical
+      exposure at our four concentrated-risk sites."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(b)(i)(6)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(b)(i)"
+    requirement_text: >
+      The time horizons the entity used in the analysis.
+    plain_english: >
+      The disclosure states the model horizons for each scenario.
+      Transition scenarios typically extend to 2050; physical
+      scenarios often extend to 2100 to capture chronic effects.
+    example_disclosure: >
+      "Transition scenarios are
+      modelled to 2050 with five-year milestones. The internal
+      physical-risk scenario is modelled to 2100 with output
+      snapshots at 2030, 2050, and 2100 to capture chronic and
+      episodic effects."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(b)(i)(7)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(b)(i)"
+    requirement_text: >
+      What scope of operations the entity used in the analysis (for
+      example, the operating locations and business units used in the
+      analysis).
+    plain_english: >
+      Coverage transparency. The entity states which parts of the
+      business were inside the scenario analysis and which were
+      excluded. Partial coverage is acceptable but must be disclosed.
+    example_disclosure: >
+      "The scenario analysis
+      covers all owned and operated production sites (six plants,
+      representing approximately 94 per cent of Scope 1 and 2
+      emissions) and the three revenue-largest product families
+      (representing approximately 81 per cent of Group revenue).
+      Joint-venture operations in Brazil and Mexico are covered
+      qualitatively only."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(b)(ii)(1)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(b)(ii)"
+    requirement_text: >
+      The key assumptions the entity made in the analysis, including
+      assumptions about climate-related policies in the jurisdictions
+      in which the entity operates.
+    plain_english: >
+      The entity names the policy assumptions driving the scenarios:
+      carbon pricing, sectoral mandates, subsidy regimes, border
+      adjustments. Where scenarios disagree with current policy
+      direction, the entity says so.
+    example_disclosure: >
+      "We assume the EU carbon
+      price reaches €120/t by 2030 and €200/t by 2040 in the
+      Net-Zero case; the CBAM ramp to 2034 as legislated; and a
+      Section 45X-style incentive for low-carbon manufacturing in
+      our two US states through 2033 under the Stated Policies case."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(b)(ii)(2)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(b)(ii)"
+    requirement_text: >
+      The key assumptions the entity made in the analysis, including
+      assumptions about macroeconomic trends.
+    plain_english: >
+      GDP growth, inflation, discount rates, labour market, and
+      commodity-price paths are all scenario-sensitive. The entity
+      discloses the key macro inputs, ideally aligned with the
+      underlying scenario source to avoid inconsistency.
+    example_disclosure: >
+      "We use the macroeconomic
+      outputs bundled with the NGFS scenarios: global GDP growth of
+      2.4 per cent per year to 2030 in Net-Zero, 2.7 per cent in
+      Stated Policies, with inflation converging to 2 per cent in
+      both cases. Discount rates are aligned with our Group
+      weighted-average cost of capital held constant at 8.2 per cent
+      across scenarios."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(b)(ii)(3)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(b)(ii)"
+    requirement_text: >
+      The key assumptions the entity made in the analysis, including
+      assumptions about national- or regional-level variables (for
+      example, local weather patterns, demographics, land use,
+      infrastructure and availability of natural resources).
+    plain_english: >
+      Physical risk lives at the country and catchment level. The
+      entity discloses the regional variables most relevant to its
+      sites: precipitation patterns, sea-level projections, water
+      availability, grid infrastructure, labour migration.
+    example_disclosure: >
+      "For the Chennai site we
+      assume a 12 to 18 per cent reduction in JJAS rainfall by 2050
+      (CMIP6 ensemble median) and a 30 per cent increase in extreme
+      rainfall frequency. For the Gulf of Mexico sites we assume a
+      45cm sea-level rise by 2050 and an intensification of Category
+      3+ hurricanes consistent with NCA5."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(b)(ii)(4)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(b)(ii)"
+    requirement_text: >
+      The key assumptions the entity made in the analysis, including
+      assumptions about energy usage and mix.
+    plain_english: >
+      The entity discloses assumed changes in its own energy demand
+      and the assumed composition of energy supply (grid mix,
+      contracted renewables, on-site generation, fuel switching).
+    example_disclosure: >
+      "Under the Net-Zero case
+      we assume our on-site electricity demand grows 18 per cent by
+      2035 from electrification of heat, sourced 95 per cent from
+      contracted renewable power by that date. Under Stated Policies
+      we assume 72 per cent renewable sourcing by 2035. Fuel gas
+      demand declines to below 10 per cent of current volume in
+      Net-Zero and 45 per cent in Stated Policies."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(b)(ii)(5)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(b)(ii)"
+    requirement_text: >
+      The key assumptions the entity made in the analysis, including
+      assumptions about developments in technology.
+    plain_english: >
+      Technology paths can make or break a transition plan. The
+      entity names the technology assumptions most material to its
+      strategy: storage costs, electrolyser capex, direct reduction
+      availability, CCUS readiness.
+    example_disclosure: >
+      "Our Net-Zero scenario
+      assumes commercial green hydrogen at below €3/kg landed by
+      2030 and direct-reduction iron via hydrogen ready for
+      deployment by 2032. Our Stated Policies case delays both by
+      five years. Our internal physical scenario makes no strong
+      technology assumptions beyond current commercial availability."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "22(b)(iii)"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: "22(b)"
+    requirement_text: >
+      The reporting period in which the climate-related scenario
+      analysis was carried out (see paragraph B18).
+    plain_english: >
+      The entity states when the scenario analysis was last run.
+      Scenario outputs age quickly; the reader needs to know whether
+      the numbers rest on a current run or a prior-year exercise.
+    example_disclosure: >
+      "The transition scenario
+      analysis presented in this report was refreshed during the
+      2024 financial year using NGFS Phase V (released September
+      2024). The physical-risk analysis was last fully refreshed in
+      2023 and updated in 2024 for the two newly acquired sites;
+      the next full refresh is scheduled for the 2026 cycle."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "3.4"
+    related_tools: []
+
+  - ref: "23"
+    pillar: strategy
+    section_full: "Strategy"
+    parent: null
+    requirement_text: >
+      In preparing disclosures to meet the requirements in paragraphs
+      13 to 22, an entity shall refer to and consider the
+      applicability of cross-industry metric categories, as described
+      in paragraph 29, and industry-based metrics associated with
+      disclosure topics defined in the Industry-based Guidance on
+      Implementing IFRS S2 as described in paragraph 32.
+    plain_english: >
+      The Strategy pillar is not metric-free. Where the entity
+      quantifies, it should use the cross-industry metric categories
+      from paragraph 29 (GHG emissions, transition risk exposure,
+      physical risk exposure, opportunities, capital deployment,
+      internal carbon price, remuneration) and any applicable
+      industry-based metrics.
+    example_disclosure: >
+      "Quantitative Strategy
+      disclosures in this section use the cross-industry metric
+      categories in paragraph 29: our reported transition risk
+      exposure, physical risk exposure, capital deployed against
+      climate opportunities, and applicable internal carbon price.
+      Industry-based metrics relevant to our sector are integrated
+      where applicable."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.1"
+    related_tools: []
+
+  # ──────────────────────────────────────────────────────────────────
+  # Risk Management — paragraphs 25 and 26
+  # ──────────────────────────────────────────────────────────────────
+
+  - ref: "25(a)(i)"
+    pillar: risk-management
+    section_full: "Risk management"
+    parent: "25(a)"
+    requirement_text: >
+      To achieve this objective, an entity shall disclose information
+      about the processes and related policies the entity uses to
+      identify, assess, prioritise and monitor climate-related risks,
+      including information about the inputs and parameters the entity
+      uses (for example, information about data sources and the scope
+      of operations covered in the processes).
+    plain_english: >
+      The entity describes the raw materials of its risk process:
+      which data sources feed identification and assessment, which
+      operational perimeter they cover, and which parameters (loss
+      thresholds, probability bands, impact categories) calibrate
+      the process. Readers should be able to tell whether the
+      process is designed to catch the risks that matter to the
+      business.
+    example_disclosure: >
+      "Risk identification draws
+      on three primary inputs: ten years of internal loss data
+      covering all operated sites; two external physical-risk
+      datasets providing catchment-level hazard projections to 2100;
+      and a quarterly policy horizon scan covering the fourteen
+      jurisdictions where we operate. Process coverage spans all
+      wholly owned operations and Tier 1 suppliers representing
+      above 60 per cent of directly contracted procurement spend."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "4.1"
+    related_tools: []
+
+  - ref: "25(a)(ii)"
+    pillar: risk-management
+    section_full: "Risk management"
+    parent: "25(a)"
+    requirement_text: >
+      Whether and how the entity uses climate-related scenario
+      analysis to inform its identification of climate-related risks.
+    plain_english: >
+      Scenario analysis can sit in Strategy (resilience, paragraph 22)
+      and also in Risk Management (identification). The entity
+      describes which scenarios inform risk identification, which
+      outputs are used, and how scenario results feed the corporate
+      risk register.
+    example_disclosure: >
+      "Scenario outputs from the
+      three scenarios described under paragraph 22 directly inform
+      risk identification. Sites whose modelled 2030 physical-loss
+      exceeds £10m in the high-warming case are automatically
+      flagged as principal-risk candidates. Transition-scenario
+      outputs on carbon pricing and product demand feed the
+      horizon-scan process that generates new transition risk
+      candidates."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "4.1"
+    related_tools: []
+
+  - ref: "25(a)(iii)"
+    pillar: risk-management
+    section_full: "Risk management"
+    parent: "25(a)"
+    requirement_text: >
+      How the entity assesses the nature, likelihood and magnitude of
+      the effects of those risks (for example, whether the entity
+      considers qualitative factors, quantitative thresholds or other
+      criteria).
+    plain_english: >
+      The assessment method. The entity describes the taxonomy used
+      (likelihood bands, impact categories), whether measurement is
+      qualitative, quantitative, or mixed, and what counts as a
+      material risk under that measurement scheme.
+    example_disclosure: >
+      "We apply the Group risk
+      taxonomy, which assesses each risk on a five-point likelihood
+      scale and a five-point impact scale, where the impact scale is
+      anchored to financial-loss equivalents. A risk rated at or
+      above 'High' on either dimension, or rated 'Medium-High' on
+      both, is a principal risk. Climate-specific risks are assessed
+      on the same scale to preserve comparability."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "4.1"
+    related_tools: []
+
+  - ref: "25(a)(iv)"
+    pillar: risk-management
+    section_full: "Risk management"
+    parent: "25(a)"
+    requirement_text: >
+      Whether and how the entity prioritises climate-related risks
+      relative to other types of risk.
+    plain_english: >
+      Prioritisation relative to non-climate risks. Some firms have a
+      single enterprise risk register; others run parallel
+      registers. The standard asks whether climate risks are ranked
+      alongside market, operational, and cyber risks and how the
+      ranking is agreed.
+    example_disclosure: >
+      "Climate-related risks are
+      recorded in the same enterprise risk register as all other
+      principal risks, ranked on the same likelihood-impact scale,
+      and reviewed by the Group Risk Committee against the same
+      prioritisation criteria. Two climate-related risks (regulatory
+      cost of carbon and acute physical risk at named sites) sit in
+      the Group's top ten principal risks in 2024."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "4.2"
+    related_tools: []
+
+  - ref: "25(a)(v)"
+    pillar: risk-management
+    section_full: "Risk management"
+    parent: "25(a)"
+    requirement_text: >
+      How the entity monitors climate-related risks.
+    plain_english: >
+      Ongoing monitoring means indicators, thresholds, and triggers.
+      The entity describes the key risk indicators tracked, the
+      review cadence, and the escalation path when a threshold is
+      breached.
+    example_disclosure: >
+      "Each principal climate
+      risk has a defined set of key risk indicators. For regulatory
+      cost of carbon we track EU and UK carbon-price spot and
+      forward curves, legislative horizon-scan scores, and
+      CBAM-related landed-cost data. Indicators are reviewed
+      quarterly at the Climate Risk Working Group and escalated to
+      the Group Risk Committee when a threshold breach persists for
+      two consecutive reviews."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "4.2"
+    related_tools: []
+
+  - ref: "25(a)(vi)"
+    pillar: risk-management
+    section_full: "Risk management"
+    parent: "25(a)"
+    requirement_text: >
+      Whether and how the entity has changed the processes it uses
+      compared with the previous reporting period.
+    plain_english: >
+      A change log for the risk process itself. The entity discloses
+      what moved in the methodology or coverage since last year:
+      new data sources, revised thresholds, expanded perimeter.
+    example_disclosure: >
+      "Three changes were made
+      to the process in 2024: (i) physical-risk coverage was
+      expanded from operated sites only to include Tier 1 suppliers
+      representing above 60 per cent of procurement spend; (ii)
+      scenario analysis inputs were refreshed from NGFS Phase IV to
+      Phase V; (iii) the principal-risk materiality threshold was
+      lowered from £15m to £10m following a review of Group
+      financial sensitivity."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "4.2"
+    related_tools: []
+
+  - ref: "25(b)"
+    pillar: risk-management
+    section_full: "Risk management"
+    parent: null
+    requirement_text: >
+      The processes the entity uses to identify, assess, prioritise
+      and monitor climate-related opportunities, including
+      information about whether and how the entity uses
+      climate-related scenario analysis to inform its identification
+      of climate-related opportunities.
+    plain_english: >
+      Opportunities deserve their own process, not a parenthetical
+      line in the risk process. The entity describes how new
+      climate-related markets, products, and capabilities are
+      screened, tested, and monitored.
+    example_disclosure: >
+      "Climate opportunities are
+      identified through an annual market-scan run by Strategy,
+      validated through the same scenario analysis used for risk
+      identification, and scored on adjacency, addressable-market,
+      and expected-margin criteria. Four opportunities are currently
+      on the active portfolio: low-carbon product lines,
+      embodied-carbon advisory services, hydrogen-readiness
+      engineering, and carbon-credit portfolio management."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "4.3"
+    related_tools: []
+
+  - ref: "25(c)"
+    pillar: risk-management
+    section_full: "Risk management"
+    parent: null
+    requirement_text: >
+      The extent to which, and how, the processes for identifying,
+      assessing, prioritising and monitoring climate-related risks
+      and opportunities are integrated into and inform the entity's
+      overall risk management process.
+    plain_english: >
+      The integration question, answered plainly. The test is whether
+      climate risk lives inside the enterprise risk framework or
+      alongside it.
+    example_disclosure: >
+      "Climate risk identification,
+      assessment, prioritisation, and monitoring are fully integrated
+      into the Group risk management process. Climate risks use the
+      same register, the same taxonomy, the same escalation
+      thresholds, and are reviewed at the same Group Risk Committee
+      meetings as other principal risks. The Group Chief Risk Officer
+      is accountable for the framework, with the Chief Sustainability
+      Officer supporting for climate-specific content."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "4.3"
+    related_tools: []
+
+  - ref: "26"
+    pillar: risk-management
+    section_full: "Risk management"
+    parent: null
+    requirement_text: >
+      In preparing disclosures to fulfil the requirements in paragraph
+      25, an entity shall avoid unnecessary duplication in accordance
+      with IFRS S1 (see paragraph B42(b) of IFRS S1). For example,
+      although an entity shall provide the information required by
+      paragraph 25, if oversight of sustainability-related risks and
+      opportunities is managed on an integrated basis, the entity
+      would avoid duplication by providing integrated risk management
+      disclosures instead of separate disclosures for each
+      sustainability-related risk and opportunity.
+    plain_english: >
+      Mirror of paragraph 7 for Risk Management. If the enterprise
+      risk process covers climate alongside other sustainability
+      matters on the same architecture, the entity writes the risk
+      process disclosure once and maps across.
+    example_disclosure: >
+      "The Group risk management
+      process described above applies in common to climate-related,
+      nature-related, and other sustainability-related risks and
+      opportunities. The disclosure in this section therefore serves
+      all sustainability-related disclosures, with climate-specific
+      details noted where the process diverges."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "4.3"
+    related_tools: []
+
+  # ──────────────────────────────────────────────────────────────────
+  # Metrics and Targets — paragraphs 28 through 37
+  # ──────────────────────────────────────────────────────────────────
+
+  - ref: "28(a)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: null
+    requirement_text: >
+      To achieve this objective, an entity shall disclose information
+      relevant to the cross-industry metric categories (see paragraphs
+      29 to 31).
+    plain_english: >
+      The cross-industry metric categories are the baseline every
+      preparer addresses: greenhouse gas emissions, climate-related
+      transition risk exposure, physical risk exposure, climate
+      opportunities, capital deployment, internal carbon price, and
+      remuneration. The entity discloses each in turn.
+    example_disclosure: >
+      "We disclose information
+      relevant to all seven cross-industry metric categories. Scope 1,
+      2, and 3 greenhouse gas emissions are reported in accordance
+      with the GHG Protocol Corporate Standard and the Scope 3
+      Standard. Transition and physical risk exposures are reported
+      at asset and revenue-share level. Climate opportunities, capital
+      deployment, internal carbon price, and remuneration linkage are
+      disclosed later in this section."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "5.1"
+    related_tools: []
+
+  - ref: "28(b)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: null
+    requirement_text: >
+      Industry-based metrics that are associated with particular
+      business models, activities or other common features that
+      characterise participation in an industry (see paragraph 32).
+    plain_english: >
+      Beyond the cross-industry metrics, each entity applies the
+      metrics associated with its industry. IFRS S2 industry-based
+      guidance draws on the SASB industry standards. The entity
+      identifies its industry and reports the relevant metrics, or
+      explains why specific metrics are not applicable.
+    example_disclosure: >
+      "We are classified under
+      the Industrials sector, Chemicals industry. The applicable
+      IFRS S2 industry-based metrics on GHG emissions, air quality,
+      energy management, water management, workforce health and
+      safety, and product safety are reported in the Industry Metrics
+      table. The metric on Community Relations is not reported
+      separately as the relevant content is covered by our human
+      rights disclosure."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.4"
+    related_tools: []
+
+  - ref: "28(c)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: null
+    requirement_text: >
+      Targets set by the entity, and any targets it is required to
+      meet by law or regulation, to mitigate or adapt to
+      climate-related risks or take advantage of climate-related
+      opportunities, including metrics used by the governance body or
+      management to measure progress towards these targets (see
+      paragraphs 33 to 37).
+    plain_english: >
+      Targets are a mandatory disclosure, not an optional one. The
+      entity lists voluntary targets (including SBTi, net-zero,
+      intensity targets) and any legally mandated ones, with the
+      metric used to track progress against each.
+    example_disclosure: >
+      "We disclose four climate
+      targets: an absolute Scope 1 and 2 reduction of 42 per cent by
+      2030 vs 2020 (SBTi-validated); a Scope 3 intensity reduction of
+      25 per cent by 2030 vs 2020 for Purchased Goods and Services
+      and Use of Sold Products; a 2050 net-zero target; and the
+      statutory UK Streamlined Energy and Carbon Reporting (SECR)
+      metric. Progress metrics for each are described under
+      paragraphs 33 to 36 below."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.1"
+    related_tools: []
+
+  - ref: "29(a)(i)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "29(a)"
+    requirement_text: >
+      An entity shall disclose its absolute gross greenhouse gas
+      emissions generated during the reporting period, expressed as
+      metric tonnes of CO2 equivalent (see paragraphs B19 to B22),
+      classified as Scope 1 greenhouse gas emissions, Scope 2
+      greenhouse gas emissions, and Scope 3 greenhouse gas emissions.
+    plain_english: >
+      The core GHG disclosure. The entity reports absolute gross
+      emissions (that is, before the use of carbon credits or other
+      offsets) across Scope 1, 2, and 3, in metric tonnes of carbon
+      dioxide equivalent. Scope 3 reporting is mandatory under
+      IFRS S2, which is one of the most significant differences
+      from TCFD.
+    example_disclosure: >
+      "Absolute gross greenhouse
+      gas emissions for the reporting period (tCO2e): Scope 1,
+      1,240,000; Scope 2 (market-based), 380,000; Scope 2
+      (location-based), 520,000; Scope 3, 8,950,000. Detailed
+      breakdowns by category and methodology notes follow."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "5.1"
+    related_tools:
+      - /emission-factors
+
+  - ref: "29(a)(ii)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "29(a)"
+    requirement_text: >
+      The entity shall measure its greenhouse gas emissions in
+      accordance with the Greenhouse Gas Protocol: A Corporate
+      Accounting and Reporting Standard (2004) unless required by a
+      jurisdictional authority or an exchange on which the entity is
+      listed to use a different method for measuring its greenhouse
+      gas emissions (see paragraphs B23 to B25).
+    plain_english: >
+      Methodology is prescribed. The GHG Protocol Corporate Standard
+      is the default; jurisdictional or exchange-mandated methods
+      (for example, the UK SECR or specific regulator methods)
+      override only when required.
+    example_disclosure: >
+      "Emissions are measured in
+      accordance with the GHG Protocol Corporate Accounting and
+      Reporting Standard (revised edition, 2004), the Scope 2
+      Guidance (2015), and the Corporate Value Chain (Scope 3)
+      Standard (2011). UK-operated assets apply SECR methodology
+      where it diverges; differences are disclosed in the Methodology
+      Notes."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "5.2"
+    related_tools: []
+
+  - ref: "29(a)(iii)(1)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "29(a)(iii)"
+    requirement_text: >
+      The entity shall disclose the measurement approach, inputs and
+      assumptions the entity uses to measure its greenhouse gas
+      emissions.
+    plain_english: >
+      Numbers without methodology are not auditable. The entity
+      discloses the measurement approach at a level that lets a
+      reader understand how the headline came together: activity-
+      versus-spend data, primary versus secondary data, emission
+      factors used, global warming potentials, organisational
+      boundary.
+    example_disclosure: >
+      "Scope 1 emissions are
+      calculated from metered site fuel consumption multiplied by
+      DEFRA 2024 emission factors, with IPCC AR6 100-year GWPs.
+      Scope 2 market-based emissions use contracted renewable
+      certificates where available and supplier-specific or residual
+      grid factors otherwise. Scope 3 Category 1 uses supplier
+      primary data for 58 per cent of spend and EEIO secondary data
+      (Exiobase 3.8) for the remainder."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "5.2"
+    related_tools:
+      - /emission-factors
+
+  - ref: "29(a)(iii)(2)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "29(a)(iii)"
+    requirement_text: >
+      The entity shall disclose the reason why the entity has chosen
+      the measurement approach, inputs and assumptions it uses to
+      measure its greenhouse gas emissions.
+    plain_english: >
+      The method choices must be justified. Why supplier-specific
+      over industry-average data? Why location-based over
+      market-based Scope 2 (or both)? Why this set of emission
+      factors? The entity says.
+    example_disclosure: >
+      "We apply the market-based
+      Scope 2 method because it reflects contractual decarbonisation
+      of our electricity supply. We disclose the location-based
+      figure alongside to preserve comparability, as recommended by
+      the Scope 2 Guidance. Supplier-specific Scope 3 Category 1
+      data is prioritised for the Top 50 suppliers because they
+      account for 71 per cent of procurement spend and have
+      emissions materially different from industry averages."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "5.2"
+    related_tools: []
+
+  - ref: "29(a)(iii)(3)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "29(a)(iii)"
+    requirement_text: >
+      The entity shall disclose any changes the entity made to the
+      measurement approach, inputs and assumptions during the
+      reporting period and the reasons for those changes.
+    plain_english: >
+      Methodology changes can materially move the number. The entity
+      lists every change since the prior period, the reason for the
+      change, and (where material) the restated prior-year figure.
+    example_disclosure: >
+      "Two methodology changes
+      in 2024. Scope 3 Category 11 (Use of Sold Products) moved
+      from a simplified lifetime assumption of 10 years to a
+      product-family-specific assumption averaging 14 years, which
+      increased 2024 Category 11 emissions by approximately 22 per
+      cent. Category 6 (Business Travel) moved from spend-based
+      EEIO factors to DEFRA distance-based factors, reducing that
+      category by 8 per cent. Prior-year comparatives are restated."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "5.2"
+    related_tools: []
+
+  - ref: "29(a)(iv)(1)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "29(a)(iv)"
+    requirement_text: >
+      For Scope 1 and Scope 2 greenhouse gas emissions disclosed in
+      accordance with paragraph 29(a)(i)(1) to (2), disaggregate
+      emissions between the consolidated accounting group (for
+      example, for an entity applying IFRS Accounting Standards, this
+      group would comprise the parent and its consolidated
+      subsidiaries).
+    plain_english: >
+      The entity splits Scope 1 and 2 into the consolidation group
+      (parent plus consolidated subsidiaries) and the rest. This
+      ties the GHG inventory to the financial statements on the
+      same boundary.
+    example_disclosure: >
+      "Scope 1 and 2 emissions
+      of the consolidated accounting group (parent plus consolidated
+      subsidiaries): Scope 1 1,180,000 tCO2e; Scope 2 market-based
+      350,000 tCO2e; Scope 2 location-based 490,000 tCO2e. This
+      represents 95 per cent of Group Scope 1 and 92 per cent of
+      Scope 2 reported under paragraph 29(a)(i)."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "5.3"
+    related_tools: []
+
+  - ref: "29(a)(iv)(2)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "29(a)(iv)"
+    requirement_text: >
+      For Scope 1 and Scope 2 greenhouse gas emissions disclosed in
+      accordance with paragraph 29(a)(i)(1) to (2), disaggregate
+      emissions between other investees excluded from paragraph
+      29(a)(iv)(1) (for example, for an entity applying IFRS
+      Accounting Standards, these investees would include associates,
+      joint ventures and unconsolidated subsidiaries).
+    plain_english: >
+      The residual, showing associates, joint ventures, and
+      unconsolidated subsidiaries separately. These are not in the
+      accounting group but are material to the emissions footprint
+      under the operational-control or equity-share boundaries used
+      in GHG accounting.
+    example_disclosure: >
+      "Emissions from associates,
+      joint ventures, and unconsolidated subsidiaries included under
+      paragraph 29(a)(i)(1) to (2): Scope 1 60,000 tCO2e; Scope 2
+      market-based 30,000 tCO2e; Scope 2 location-based 30,000 tCO2e.
+      Attribution basis is the equity share for each investee, ranging
+      from 20 to 49 per cent. An entity-level table follows."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "5.3"
+    related_tools: []
+
+  - ref: "29(a)(v)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "29(a)"
+    requirement_text: >
+      For Scope 2 greenhouse gas emissions disclosed in accordance
+      with paragraph 29(a)(i)(2), disclose its location-based Scope 2
+      greenhouse gas emissions, and provide information about any
+      contractual instruments that is necessary to inform users'
+      understanding of the entity's Scope 2 greenhouse gas emissions
+      (see paragraphs B30 to B31).
+    plain_english: >
+      Entities using the market-based Scope 2 method must also
+      disclose the location-based figure, plus information on the
+      contractual instruments (renewable energy certificates, PPAs,
+      GOs) that drove the difference. This prevents
+      contract-shopping from obscuring the underlying grid exposure.
+    example_disclosure: >
+      "Scope 2 location-based
+      emissions: 520,000 tCO2e. Scope 2 market-based emissions:
+      380,000 tCO2e. The 140,000 tCO2e reduction reflects two
+      long-term power purchase agreements (660 GWh per year combined,
+      Texas wind and Spanish solar) plus bundled energy-attribute
+      certificates covering a further 140 GWh. The full register of
+      contractual instruments, with issuance dates and
+      geographical-matching basis, follows."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "5.3"
+    related_tools: []
+
+  - ref: "29(a)(vi)(1)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "29(a)(vi)"
+    requirement_text: >
+      For Scope 3 greenhouse gas emissions disclosed in accordance
+      with paragraph 29(a)(i)(3), and with reference to paragraphs
+      B32 to B57, disclose the categories included within the
+      entity's measure of Scope 3 greenhouse gas emissions, in
+      accordance with the Scope 3 categories described in the
+      Greenhouse Gas Protocol Corporate Value Chain (Scope 3)
+      Accounting and Reporting Standard (2011).
+    plain_english: >
+      A list of the 15 Scope 3 categories, marking which are
+      reported, which are excluded, and why. Completeness and
+      transparency matter as much as the total.
+    example_disclosure: >
+      "We report against all 15
+      Scope 3 categories. Categories 1, 4, 11, and 12 together
+      account for 88 per cent of total Scope 3 emissions. Category 14
+      (Franchises) is reported as nil (we have no franchise
+      arrangements). Prior-year comparatives are restated in line
+      with the Category 11 methodology change noted under
+      paragraph 29(a)(iii)(3)."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "5.3"
+    related_tools:
+      - /emission-factors
+
+  - ref: "29(a)(vi)(2)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "29(a)(vi)"
+    requirement_text: >
+      For Scope 3 greenhouse gas emissions disclosed in accordance
+      with paragraph 29(a)(i)(3), and with reference to paragraphs
+      B32 to B57, disclose additional information about the entity's
+      Category 15 greenhouse gas emissions or those associated with
+      its investments (financed emissions), if the entity's
+      activities include asset management, commercial banking or
+      insurance (see paragraphs B58 to B63).
+    plain_english: >
+      Financial institutions have a second layer of Scope 3
+      reporting. Category 15 (Investments) covers financed emissions
+      from lending, investing, and insurance underwriting. PCAF
+      methodology is the de facto baseline.
+    example_disclosure: >
+      "Category 15 (Investments)
+      is reported using the PCAF Global GHG Accounting and Reporting
+      Standard for the Financial Industry. We disclose absolute
+      financed emissions by asset class (listed equity and corporate
+      bonds, corporate loans, project finance, commercial real
+      estate), PCAF data quality scores for each, and the percentage
+      of each asset class for which financed emissions are covered."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "6.1"
+    related_tools: []
+
+  - ref: "29(b)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: null
+    requirement_text: >
+      An entity shall disclose information relevant to the
+      cross-industry metric categories of climate-related transition
+      risks, the amount and percentage of assets or business
+      activities vulnerable to climate-related transition risks.
+    plain_english: >
+      Transition risk exposure is reported in both absolute (assets
+      or revenue) and percentage terms. The entity defines what
+      counts as "vulnerable" and applies the definition
+      transparently.
+    example_disclosure: >
+      "Assets vulnerable to
+      climate-related transition risk: £1.8bn (21 per cent of Group
+      total assets). Revenue vulnerable: £3.2bn (26 per cent of
+      Group revenue). Vulnerability is defined as exposure to sectors
+      on our climate transition watchlist (coal, carbon-intensive
+      cement, internal-combustion transport) plus any asset located
+      in jurisdictions with announced carbon-price paths exceeding
+      €100/t by 2030."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.1"
+    related_tools: []
+
+  - ref: "29(c)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: null
+    requirement_text: >
+      An entity shall disclose information relevant to the
+      cross-industry metric categories of climate-related physical
+      risks, the amount and percentage of assets or business
+      activities vulnerable to climate-related physical risks.
+    plain_english: >
+      The same logic applied to physical risk. The entity reports
+      asset and business-activity exposure to acute and chronic
+      physical risk, with a clear definition of what triggers
+      inclusion.
+    example_disclosure: >
+      "Assets vulnerable to
+      climate-related physical risk: £2.4bn (28 per cent of Group
+      total assets). Revenue vulnerable: £2.0bn (16 per cent of
+      Group revenue). Vulnerability is defined as exposure located
+      in areas rated 'High' or 'Very High' for acute or chronic
+      physical risk by our external physical-risk provider (Jupiter
+      Intelligence) under our internal high-warming scenario out to
+      2050."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.1"
+    related_tools: []
+
+  - ref: "29(d)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: null
+    requirement_text: >
+      An entity shall disclose information relevant to the
+      cross-industry metric categories of climate-related
+      opportunities, the amount and percentage of assets or business
+      activities aligned with climate-related opportunities.
+    plain_english: >
+      The opportunity side of the ledger. Assets and revenue aligned
+      with low-carbon transition are reported using a defined
+      taxonomy. The EU Taxonomy and the TNFD-related alignment
+      taxonomies provide precedents, but the entity may use its own
+      if it documents the criteria.
+    example_disclosure: >
+      "Assets aligned with
+      climate-related opportunities: £1.1bn (13 per cent of Group
+      total assets). Revenue aligned: £2.9bn (24 per cent of Group
+      revenue). Alignment is defined per our internal Climate
+      Alignment Taxonomy, which draws from the EU Taxonomy climate
+      mitigation criteria and extends to two adjacent activities
+      (low-carbon industrial equipment services; embodied-carbon
+      consulting) where EU Taxonomy criteria are not yet set."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.1"
+    related_tools: []
+
+  - ref: "29(e)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: null
+    requirement_text: >
+      An entity shall disclose information relevant to the
+      cross-industry metric categories of capital deployment, the
+      amount of capital expenditure, financing or investment deployed
+      towards climate-related risks and opportunities.
+    plain_english: >
+      Capital flow as a disclosure. Capital expenditure, financing,
+      and investment that address climate risks or pursue climate
+      opportunities are reported in monetary terms, with the
+      classification rules made visible.
+    example_disclosure: >
+      "Capital deployed towards
+      climate-related matters in 2024: capital expenditure £280m
+      (mitigation £210m, adaptation £70m); sustainability-linked
+      loan drawdowns £180m (aligned to transition plan milestones);
+      R&D investment £55m on low-carbon product and process
+      development. Classification rules and the capital-deployment
+      register follow."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.1"
+    related_tools: []
+
+  - ref: "29(f)(i)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "29(f)"
+    requirement_text: >
+      An entity shall disclose information relevant to the
+      cross-industry metric categories of internal carbon prices, an
+      explanation of whether and how the entity is applying a carbon
+      price in decision-making (for example, investment decisions,
+      transfer pricing and scenario analysis).
+    plain_english: >
+      Whether the entity applies an internal carbon price, and where.
+      Typical use cases are investment-decision hurdle rates,
+      transfer pricing, scenario testing, and incentive design. A
+      nil disclosure is acceptable if the entity explains why.
+    example_disclosure: >
+      "We apply an internal
+      carbon price in three decision contexts: investment appraisal
+      (all capital proposals above £10m include a shadow-price
+      sensitivity); scenario analysis (informing our three-scenario
+      resilience framework); and performance management (a feeder
+      input to the executive incentive plan's climate-linked metric)."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.2"
+    related_tools: []
+
+  - ref: "29(f)(ii)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "29(f)"
+    requirement_text: >
+      An entity shall disclose information relevant to the
+      cross-industry metric categories of internal carbon prices, the
+      price for each metric tonne of greenhouse gas emissions the
+      entity uses to assess the costs of its greenhouse gas emissions.
+    plain_english: >
+      The actual number. Entities often use several carbon prices
+      for different decisions; all material ones are disclosed.
+    example_disclosure: >
+      "We apply two internal
+      carbon prices: a shadow price of £90/tCO2e for capital
+      investment appraisal, calibrated to our central transition
+      scenario's 2030 EU carbon price; and a scenario-specific
+      price used in resilience analysis ranging from £30/tCO2e
+      under Stated Policies to £200/tCO2e under Net-Zero in 2040.
+      The shadow price is reviewed annually by the Risk and
+      Sustainability Committee."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.2"
+    related_tools: []
+
+  - ref: "29(g)(i)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "29(g)"
+    requirement_text: >
+      An entity shall disclose information relevant to the
+      cross-industry metric categories of remuneration, a description
+      of whether and how climate-related considerations are factored
+      into executive remuneration (see also paragraph 6(a)(v)).
+    plain_english: >
+      The remuneration link. Is there one, is it meaningful, and how
+      is it measured? Vague or aspirational links (for example,
+      "the Board considers sustainability") do not satisfy the
+      requirement.
+    example_disclosure: >
+      "Executive remuneration
+      incorporates climate-related considerations through two
+      mechanisms: a 20 per cent weight on absolute Scope 1 and 2
+      reduction progress within the Chief Executive's annual
+      short-term incentive, and a 15 per cent weight on the same
+      metric within the three-year Long-Term Incentive Plan. Both
+      are linked to the SBTi-validated 2030 pathway."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.2"
+    related_tools: []
+
+  - ref: "29(g)(ii)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "29(g)"
+    requirement_text: >
+      An entity shall disclose information relevant to the
+      cross-industry metric categories of remuneration, the
+      percentage of executive management remuneration recognised in
+      the current period that is linked to climate-related
+      considerations.
+    plain_english: >
+      A single number. Of the total executive remuneration recognised
+      in the period, what percentage was driven by climate-related
+      performance metrics?
+    example_disclosure: >
+      "The percentage of 2024
+      executive management remuneration recognised that was linked
+      to climate-related considerations was 8.4 per cent at the
+      Chief Executive level and 6.9 per cent weighted average across
+      the Group Executive Committee."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.2"
+    related_tools: []
+
+  - ref: "30"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: null
+    requirement_text: >
+      In preparing disclosures to meet the requirements in paragraph
+      29(b) to (d), an entity shall use all reasonable and
+      supportable information that is available to the entity at the
+      reporting date without undue cost or effort.
+    plain_english: >
+      The effort test again, this time for transition-risk,
+      physical-risk, and opportunity metrics. The entity uses the
+      information it has and what it can reasonably get. Boundary
+      and method must be disclosed.
+    example_disclosure: >
+      "Transition and physical
+      risk exposure metrics draw on our asset register, the two
+      physical-risk datasets referenced earlier, and our scenario
+      analysis outputs. Opportunity metrics draw on the internal
+      Climate Alignment Taxonomy, which builds on the EU Taxonomy
+      where criteria are published and extends with documented
+      internal criteria elsewhere. Method notes are included with
+      each metric."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.3"
+    related_tools: []
+
+  - ref: "31"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: null
+    requirement_text: >
+      In preparing disclosures to meet the requirements in paragraph
+      29(b) to (g), an entity shall refer to paragraphs B64 to B65.
+    plain_english: >
+      A procedural reference. Paragraphs B64 and B65 give detailed
+      guidance on preparing the cross-industry metric disclosures.
+      The effect is to direct the preparer to that detail rather
+      than add new substance here.
+    example_disclosure: >
+      "In preparing the
+      cross-industry metric disclosures under paragraphs 29(b) to
+      (g), we have applied the guidance in paragraphs B64 to B65,
+      including the definitions, disaggregation, and
+      measurement-basis considerations set out therein."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.3"
+    related_tools: []
+
+  - ref: "32"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: null
+    requirement_text: >
+      An entity shall disclose industry-based metrics that are
+      associated with one or more particular business models,
+      activities or other common features that characterise
+      participation in an industry. In determining the industry-based
+      metrics that the entity discloses, the entity shall refer to
+      and consider the applicability of the industry-based metrics
+      associated with disclosure topics described in the
+      Industry-based Guidance on Implementing IFRS S2.
+    plain_english: >
+      The SASB-derived industry metrics. The entity identifies its
+      industry, reports the relevant metrics, and explains any
+      non-applicability. These metrics are where the sector-specific
+      story lives.
+    example_disclosure: >
+      "As a Chemicals industry
+      issuer under the IFRS S2 industry-based guidance, we report
+      the following industry metrics: GHG emissions intensity per
+      tonne of product; scope of operations subject to greenhouse
+      gas emission regulations; air emissions of selected pollutants;
+      energy consumed and percentage grid electricity; and water
+      withdrawn and consumed in regions with High or Extremely High
+      Baseline Water Stress. Detail tables follow."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.4"
+    related_tools: []
+
+  - ref: "33(a)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "33"
+    requirement_text: >
+      For each climate-related target, an entity shall disclose the
+      metric used to set the target (see paragraphs B66 to B67).
+    plain_english: >
+      Targets are expressed in a specific metric. Absolute tCO2e,
+      intensity per unit of revenue, intensity per unit of output,
+      percentage reduction: the entity states which applies.
+    example_disclosure: >
+      "The 2030 target is
+      expressed as absolute Scope 1 and 2 emissions in tCO2e
+      (market-based for Scope 2). The Scope 3 target is expressed
+      as emissions intensity in tCO2e per £m of revenue for two
+      Scope 3 categories. The 2050 target is expressed as net-zero
+      absolute emissions (Scopes 1, 2, and 3)."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.1"
+    related_tools: []
+
+  - ref: "33(b)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "33"
+    requirement_text: >
+      For each climate-related target, an entity shall disclose the
+      objective of the target (for example, mitigation, adaptation or
+      conformance with science-based initiatives).
+    plain_english: >
+      Targets have purposes. Mitigation (emissions reduction),
+      adaptation (exposure reduction), and science-based alignment
+      are the common three. The entity states which applies to each
+      target.
+    example_disclosure: >
+      "The 2030 and 2050 targets
+      are mitigation targets, aligned with the SBTi 1.5°C pathway
+      for Scope 1 and 2 and the SBTi 'well-below 2°C' pathway for
+      Scope 3 Categories 1 and 11. The adaptation target on the two
+      water-stressed sites is a physical-risk-reduction target, not
+      aligned with an external science-based initiative."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.1"
+    related_tools: []
+
+  - ref: "33(c)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "33"
+    requirement_text: >
+      For each climate-related target, an entity shall disclose the
+      part of the entity to which the target applies (for example,
+      whether the target applies to the entity in its entirety or
+      only a part of the entity, such as a specific business unit or
+      specific geographical region).
+    plain_english: >
+      Coverage of the target. Is it Group-wide? A region? A single
+      asset? A subset of Scope 3 categories? Clear scope statements
+      prevent targets from appearing more ambitious than they are.
+    example_disclosure: >
+      "The 2030 Scope 1 and 2
+      target applies Group-wide. The 2030 Scope 3 intensity target
+      applies to Category 1 (Purchased Goods and Services) and
+      Category 11 (Use of Sold Products). The adaptation target
+      applies specifically to the Gujarat and Andalucía sites."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.1"
+    related_tools: []
+
+  - ref: "33(d)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "33"
+    requirement_text: >
+      For each climate-related target, an entity shall disclose the
+      period over which the target applies.
+    plain_english: >
+      The target's time window. The standard is looking for a start
+      and an end; rolling targets should also state their rolling
+      basis.
+    example_disclosure: >
+      "The Scope 1 and 2
+      absolute target runs from a 2020 base year to a 2030 target
+      year. The Scope 3 intensity target runs from a 2020 base year
+      to a 2030 target year. The net-zero target has no explicit
+      start year beyond 2020 and targets 2050 as the year of
+      achievement."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.1"
+    related_tools: []
+
+  - ref: "33(e)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "33"
+    requirement_text: >
+      For each climate-related target, an entity shall disclose the
+      base period from which progress is measured.
+    plain_english: >
+      Targets are measured from a base year (or base period). The
+      base year should be representative, and the standard implies
+      that choice be justified if it materially affects the
+      apparent ambition of the target.
+    example_disclosure: >
+      "The base year for the
+      Scope 1, 2, and 3 targets is 2020. 2020 was selected because
+      it is the first year for which we have company-wide primary-data
+      Scope 3 coverage above the 90 per cent threshold. The 2020
+      inventory is subject to annual recalculation under our base
+      year policy following material organisational or methodology
+      changes."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.1"
+    related_tools: []
+
+  - ref: "33(f)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "33"
+    requirement_text: >
+      For each climate-related target, an entity shall disclose any
+      milestones and interim targets.
+    plain_english: >
+      Interim checkpoints. A 2050 net-zero target is not credible
+      without a 2030 milestone (and usually a 2035 or 2040 step).
+      The entity lists the milestones and the metric for each.
+    example_disclosure: >
+      "Interim milestones: 2025
+      Scope 1+2 reduction of 21 per cent vs 2020; 2030 Scope 1+2
+      reduction of 42 per cent vs 2020 (primary interim target);
+      2040 Scope 1+2 reduction of 75 per cent vs 2020. Scope 3
+      intensity milestones: 2025 reduction of 10 per cent; 2030
+      reduction of 25 per cent. Each milestone is reviewed and
+      reported on annually."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.1"
+    related_tools: []
+
+  - ref: "33(g)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "33"
+    requirement_text: >
+      For each climate-related target, an entity shall disclose, if
+      the target is quantitative, whether it is an absolute target or
+      an intensity target.
+    plain_english: >
+      Absolute targets fix the total. Intensity targets fix the ratio
+      (per unit of output, revenue, or other denominator). Both are
+      valid; the entity must state which.
+    example_disclosure: >
+      "The 2030 Scope 1 and 2
+      target is absolute. The 2030 Scope 3 target is an intensity
+      target, defined as tCO2e per £m of revenue. The 2050 net-zero
+      target is absolute, consistent with the SBTi Corporate
+      Net-Zero Standard."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.1"
+    related_tools: []
+
+  - ref: "33(h)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "33"
+    requirement_text: >
+      For each climate-related target, an entity shall disclose how
+      the latest international agreement on climate change, including
+      jurisdictional commitments that arise from that agreement, has
+      informed the target.
+    plain_english: >
+      The entity ties its target back to the Paris Agreement and the
+      domestic commitments that flow from it. This is about
+      alignment, not citation: the standard wants to see that the
+      target was set against the international framework rather than
+      in isolation.
+    example_disclosure: >
+      "Our Scope 1 and 2 target
+      aligns with the 1.5°C pathway under the Paris Agreement, as
+      validated by the SBTi. Our Scope 3 target aligns with the
+      well-below 2°C pathway for Scope 3 under SBTi guidance. The
+      2050 net-zero target is aligned with the UK's domestic net-zero
+      commitment and the broader Paris long-term goal."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.1"
+    related_tools: []
+
+  - ref: "34(a)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "34"
+    requirement_text: >
+      An entity shall disclose whether the target and the methodology
+      for setting the target has been validated by a third party.
+    plain_english: >
+      External validation is not required but is disclosed if it
+      exists. SBTi validation is the most common in practice;
+      others include ACT, CDP, or TPI assessment.
+    example_disclosure: >
+      "The 2030 Scope 1, 2, and
+      Scope 3 intensity targets have been validated by the SBTi
+      under the Corporate Near-Term Target-Setting Criteria
+      (validation May 2024). The 2050 net-zero target is
+      self-declared using the SBTi Corporate Net-Zero Standard as a
+      reference framework; it is not externally validated because
+      the target year exceeds the SBTi near-term window."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.3"
+    related_tools: []
+
+  - ref: "34(b)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "34"
+    requirement_text: >
+      An entity shall disclose the entity's processes for reviewing
+      the target.
+    plain_english: >
+      Targets should not live forever unchallenged. The entity
+      describes how often each target is reviewed, by whom, and
+      what would trigger a revision.
+    example_disclosure: >
+      "Targets are reviewed
+      annually by the Risk and Sustainability Committee and
+      formally approved by the Board. A revision is triggered by a
+      material change to the base year inventory, a change in SBTi
+      validation criteria, or a material change to the Group's
+      organisational boundary. The next scheduled full review is in
+      H1 2026."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.3"
+    related_tools: []
+
+  - ref: "34(c)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "34"
+    requirement_text: >
+      An entity shall disclose the metrics used to monitor progress
+      towards reaching the target.
+    plain_english: >
+      The monitoring metrics may be the same as the target metric or
+      may include supplementary indicators (percentage of abatement
+      by named lever, milestones delivered, capital deployed). The
+      entity names them.
+    example_disclosure: >
+      "Progress is monitored
+      using the target metric (absolute Scope 1+2 tCO2e,
+      market-based) as the primary indicator, supplemented by four
+      lever-level metrics: percentage of electricity covered by
+      contracted renewables; tonnes of coal capacity retired against
+      plan; cumulative low-carbon capex deployed against plan;
+      energy intensity reduction at our five most energy-intensive
+      sites."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.3"
+    related_tools: []
+
+  - ref: "34(d)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "34"
+    requirement_text: >
+      An entity shall disclose any revisions to the target and an
+      explanation for those revisions.
+    plain_english: >
+      If a target was moved, explain why. Base-year recalculations,
+      scope changes, or ambition revisions are all disclosable.
+      Silent revisions destroy credibility.
+    example_disclosure: >
+      "No revisions to target
+      values were made in 2024. The 2020 base-year inventory was
+      recalculated following the Category 11 methodology change
+      described under 29(a)(iii)(3); the target percentage was
+      recalculated against the restated base year, maintaining the
+      target absolute endpoint."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.3"
+    related_tools: []
+
+  - ref: "35"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: null
+    requirement_text: >
+      An entity shall disclose information about its performance
+      against each climate-related target and an analysis of trends
+      or changes in the entity's performance.
+    plain_english: >
+      Progress is not optional. The entity reports the current-year
+      value of the target metric, compares it against the target
+      trajectory, and comments on why the gap is what it is.
+    example_disclosure: >
+      "2024 absolute Scope 1 and
+      2 emissions (market-based) were 1,620,000 tCO2e, a 19 per cent
+      reduction against the 2020 base of 2,000,000 tCO2e. Our 2025
+      milestone is a 21 per cent reduction; we are on a credible
+      trajectory, supported by three lever-level milestones delivered
+      on schedule. Scope 3 intensity (Categories 1 and 11) has
+      reduced 11 per cent against a 2020 base, slightly ahead of the
+      2025 milestone of 10 per cent."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.3"
+    related_tools: []
+
+  - ref: "36(a)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "36"
+    requirement_text: >
+      For each greenhouse gas emissions target disclosed in accordance
+      with paragraphs 33 to 35, an entity shall disclose which
+      greenhouse gases are covered by the target.
+    plain_english: >
+      The gases themselves. Most targets cover all Kyoto gases
+      expressed in CO2e; some cover CO2 only. Scope 3 targets often
+      carry narrower coverage, which should be explicit.
+    example_disclosure: >
+      "All climate-related
+      targets cover the seven Kyoto greenhouse gases: CO2, CH4, N2O,
+      HFCs, PFCs, SF6, and NF3, expressed in tonnes of CO2 equivalent
+      using 100-year global warming potentials from the IPCC Sixth
+      Assessment Report."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.3"
+    related_tools: []
+
+  - ref: "36(b)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "36"
+    requirement_text: >
+      For each greenhouse gas emissions target disclosed in accordance
+      with paragraphs 33 to 35, an entity shall disclose whether
+      Scope 1, Scope 2 or Scope 3 greenhouse gas emissions are
+      covered by the target.
+    plain_english: >
+      Scope coverage. The entity states which scopes each target
+      covers and, for Scope 3 targets, which categories are in or
+      out.
+    example_disclosure: >
+      "The 2030 absolute target
+      covers Scope 1 and Scope 2 (market-based). The 2030 intensity
+      target covers Scope 3 Categories 1 (Purchased Goods and
+      Services) and 11 (Use of Sold Products). The 2050 net-zero
+      target covers Scopes 1, 2, and all 15 Scope 3 categories."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.3"
+    related_tools: []
+
+  - ref: "36(c)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "36"
+    requirement_text: >
+      For each greenhouse gas emissions target disclosed in accordance
+      with paragraphs 33 to 35, an entity shall disclose whether the
+      target is a gross greenhouse gas emissions target or net
+      greenhouse gas emissions target. If the entity discloses a net
+      greenhouse gas emissions target, the entity is also required
+      to separately disclose its associated gross greenhouse gas
+      emissions target (see paragraphs B68 to B69).
+    plain_english: >
+      Gross versus net matters because net targets can rely on
+      offsets. A net target must be accompanied by the underlying
+      gross target.
+    example_disclosure: >
+      "The 2030 Scope 1 and 2
+      target is a gross target. The 2050 net-zero target is a net
+      target, supported by a separately disclosed gross Scope 1, 2,
+      and 3 reduction target of 90 per cent vs 2020. Residual
+      emissions are expected to be neutralised through
+      high-integrity carbon removals, as described below."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.3"
+    related_tools:
+      - /carbon/retirements
+
+  - ref: "36(d)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "36"
+    requirement_text: >
+      For each greenhouse gas emissions target disclosed in accordance
+      with paragraphs 33 to 35, an entity shall disclose whether the
+      target was derived using a sectoral decarbonisation approach.
+    plain_english: >
+      A sectoral decarbonisation approach derives the target from a
+      sector-specific pathway aligned with a global budget. The
+      entity states whether the target was set this way, or through
+      an absolute contraction or economic-intensity contraction
+      method.
+    example_disclosure: >
+      "The 2030 Scope 1 and 2
+      target was set using the SBTi Cross-Sector Absolute Contraction
+      Approach. The 2030 Scope 3 intensity target was set using the
+      sectoral decarbonisation approach applied to our
+      chemicals-manufacturing product families, using the SBTi
+      Chemicals sector guidance issued in 2023."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.3"
+    related_tools: []
+
+  - ref: "36(e)(i)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "36(e)"
+    requirement_text: >
+      For each greenhouse gas emissions target disclosed in accordance
+      with paragraphs 33 to 35, an entity shall disclose the entity's
+      planned use of carbon credits to offset greenhouse gas emissions
+      to achieve any net greenhouse gas emissions target. In
+      explaining its planned use of carbon credits the entity shall
+      disclose the extent to which, and how, achieving any net
+      greenhouse gas emissions target relies on the use of carbon
+      credits.
+    plain_english: >
+      If a net target relies on credits, the entity says how much and
+      why. Transparency here protects readers from treating net
+      commitments as gross commitments.
+    example_disclosure: >
+      "Our 2050 net-zero target
+      is supported by a maximum of 10 per cent credit-based
+      neutralisation of residual emissions after a gross reduction
+      of 90 per cent. Credits are intended to address
+      hard-to-abate residuals from specific industrial processes for
+      which commercial abatement is not expected by 2050 under any
+      of our scenarios."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.3"
+    related_tools:
+      - /carbon/retirements
+
+  - ref: "36(e)(ii)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "36(e)"
+    requirement_text: >
+      For each greenhouse gas emissions target disclosed in accordance
+      with paragraphs 33 to 35, an entity shall disclose which
+      third-party scheme(s) will verify or certify the carbon credits.
+    plain_english: >
+      Integrity labels. The entity names the registry or standard
+      that will verify the credits it plans to retire against the
+      target (Verra VCS, Gold Standard, ACR, Puro.earth, Isometric,
+      etc.).
+    example_disclosure: >
+      "Credits retired against
+      the 2050 net-zero target will be drawn exclusively from
+      schemes meeting the ICVCM Core Carbon Principles. Our
+      preferred pathway uses Verra VCS with CCP-label methodologies,
+      Puro.earth and Isometric for engineered carbon removals, and
+      Gold Standard for selected nature-based removals with a
+      demonstrated permanence mechanism."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.3"
+    related_tools:
+      - /carbon/retirements
+
+  - ref: "36(e)(iii)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "36(e)"
+    requirement_text: >
+      For each greenhouse gas emissions target disclosed in accordance
+      with paragraphs 33 to 35, an entity shall disclose the type of
+      carbon credit, including whether the underlying offset will be
+      nature-based or based on technological carbon removals, and
+      whether the underlying offset is achieved through carbon
+      reduction or removal.
+    plain_english: >
+      Two axes, cross-tabulated: nature-based versus technological,
+      and reduction versus removal. The standard implicitly
+      advantages removals and nature-based with strong permanence
+      and monitoring, but the entity chooses and discloses.
+    example_disclosure: >
+      "The portfolio will be
+      weighted 60 per cent technological carbon removals (biochar,
+      engineered direct-air-capture, enhanced weathering) and 40
+      per cent nature-based removals (high-permanence reforestation
+      and blue-carbon). We are not planning to use reduction
+      credits against the net-zero target."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.3"
+    related_tools: []
+
+  - ref: "36(e)(iv)"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: "36(e)"
+    requirement_text: >
+      For each greenhouse gas emissions target disclosed in accordance
+      with paragraphs 33 to 35, an entity shall disclose any other
+      factors necessary for users of general purpose financial
+      reports to understand the credibility and integrity of the
+      carbon credits the entity plans to use (for example,
+      assumptions regarding the permanence of the carbon offset).
+    plain_english: >
+      The integrity backstop. Permanence, additionality, leakage,
+      measurement uncertainty, and social safeguards all qualify.
+      The entity should name its standards and say how it monitors
+      adherence.
+    example_disclosure: >
+      "Permanence: removal
+      credits must carry a contracted permanence of at least 100
+      years, with legal and financial buffer arrangements in place
+      in the event of reversal. Additionality is assessed using the
+      ICVCM CCP methodology-level assessments and an internal
+      project-level review. Leakage is addressed through
+      methodology-specific mitigation factors. Social safeguards
+      require alignment with the IFC Performance Standards for
+      nature-based projects."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.3"
+    related_tools: []
+
+  - ref: "37"
+    pillar: metrics-and-targets
+    section_full: "Metrics and targets"
+    parent: null
+    requirement_text: >
+      In identifying and disclosing the metrics used to set and
+      monitor progress towards reaching a target described in
+      paragraphs 33 to 34, an entity shall refer to and consider the
+      applicability of cross-industry metrics (see paragraph 29) and
+      industry-based metrics (see paragraph 32), including those
+      described in an applicable IFRS Sustainability Disclosure
+      Standard, or metrics that otherwise satisfy the requirements in
+      IFRS S1.
+    plain_english: >
+      Target metrics should not be invented when existing metrics
+      fit. The entity checks the cross-industry and industry-based
+      metric sets first; only if nothing fits does it propose a
+      bespoke metric, and it justifies the choice.
+    example_disclosure: >
+      "The target metrics used
+      for the 2030 Scope 1 and 2 target and for the 2030 Scope 3
+      intensity target are drawn from the cross-industry metric
+      category in paragraph 29(a). The Chemicals industry emissions
+      intensity metric from paragraph 32 is used as a supplementary
+      monitoring metric. No bespoke metrics have been introduced
+      for this reporting period."
+    related_lessons:
+      - course: ifrs-s2
+        lesson: "7.4"
+    related_tools: []

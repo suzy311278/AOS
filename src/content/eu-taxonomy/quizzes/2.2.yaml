@@ -1,0 +1,17 @@
+- question: "When did the Environmental Delegated Act start applying?"
+  options:
+    - "January 2022"
+    - "January 2023"
+    - "January 2024"
+    - "January 2025"
+  answer: 2
+  explanation: "The Environmental Delegated Act was published in November 2023 and applies from January 2024, covering water, circular economy, pollution, and biodiversity."
+
+- question: "Which sectors gained taxonomy criteria for the first time through the Environmental Delegated Act?"
+  options:
+    - "Energy and transport"
+    - "Water utilities, waste management, and nature-based solutions"
+    - "Construction and real estate"
+    - "Manufacturing and ICT"
+  answer: 1
+  explanation: "Before the Environmental Delegated Act, these sectors had no taxonomy criteria to assess against. The act brought in activities for water, circular economy, pollution, and biodiversity."

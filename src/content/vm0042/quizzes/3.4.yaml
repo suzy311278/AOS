@@ -1,0 +1,26 @@
+- question: "A project imports compost from a regional waste facility — compost that was previously spread on farmland elsewhere. Is leakage likely to apply?"
+  options:
+  - "No — compost is a waste product, so there's no opportunity cost"
+  - "Yes — the farmland that previously received that compost may now lose SOC (organic amendment diversion leakage)"
+  - "No — only manure triggers organic amendment leakage, not compost"
+  - "Yes — but only if the compost crosses a national border"
+  answer: 1
+  explanation: "Type 1 leakage (organic amendment diversion) applies when organic amendments imported into the project were previously used as soil amendments elsewhere. The fields that no longer receive that compost may experience SOC loss — a genuine leakage."
+
+- question: "A rotational grazing project reduces stocking from 800 to 600 cattle. The 200 removed cattle are sold for slaughter (no relocation). Does livestock displacement leakage apply?"
+  options:
+  - "Yes — any reduction in stocking triggers leakage"
+  - "No — if cattle are slaughtered and not relocated, the project can demonstrate no displacement leakage"
+  - "Yes — enteric fermentation leakage always applies"
+  - "Only applies if the stocking rate reduction exceeds 30%"
+  answer: 1
+  explanation: "VM0042 allows projects to demonstrate no livestock displacement leakage if the project scenario commodity production (e.g., meat) didn't decrease — meaning cattle were slaughtered rather than displaced. In that case, LK_disp = 0."
+
+- question: "Can leakage sources that are less than 5% of total project GHG benefit be excluded?"
+  options:
+  - "Yes — they can be deemed de minimis and excluded, but this must be demonstrated using the CDM significance testing tool"
+  - "No — all four leakage types must always be quantified"
+  - "Yes — the project developer can certify this without further documentation"
+  - "Only for Type 3 and Type 4 leakage"
+  answer: 0
+  explanation: "The de minimis rule applies to leakage sources too. Where the sum of increases in GHG emissions from any leakage source is less than 5% of total net project benefit, those sources may be excluded. This must be demonstrated using the CDM significance test."

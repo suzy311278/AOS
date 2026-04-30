@@ -1,0 +1,44 @@
+- question: "What are carbon offsets in the context of compliance systems?"
+  options:
+    - "Reductions from projects outside the regulated system that can be used for compliance"
+    - "Tax deductions for carbon costs"
+    - "Renewable energy certificates"
+    - "Free allowances"
+  answer: 0
+  explanation: "Offsets represent emissions reductions from projects outside the capped or taxed sectors that can be used by regulated entities in place of allowances or to reduce tax liability."
+
+- question: "What is additionality in offset crediting?"
+  options:
+    - "Extra credits issued as bonuses"
+    - "The requirement that reductions would not have occurred without the offset project"
+    - "Additional revenue for the government"
+    - "More than one credit per ton reduced"
+  answer: 1
+  explanation: "Additionality means the reduction is additional to what would have happened anyway (the baseline). Without additionality, credits represent reductions that would have occurred regardless, undermining environmental integrity."
+
+- question: "What is leakage in the context of offset projects?"
+  options:
+    - "Emissions that escape from storage"
+    - "Emissions increasing elsewhere as a result of the project"
+    - "Revenue leaking to other countries"
+    - "Information leaks"
+  answer: 1
+  explanation: "Leakage occurs when an offset project causes emissions to increase elsewhere. For example, protecting one forest may shift logging to another forest, reducing the net benefit."
+
+- question: "What is permanence in offset crediting?"
+  options:
+    - "Credits that last forever"
+    - "Assurance that reductions are maintained over time, not reversed"
+    - "Permanent funding"
+    - "Unchanging prices"
+  answer: 1
+  explanation: "Permanence addresses the risk that reductions are later reversed, particularly for biological sequestration projects. A protected forest that later burns releases its stored carbon, reversing the benefit."
+
+- question: "Why do ETS systems typically limit offset use?"
+  options:
+    - "Offsets are too expensive"
+    - "Unlimited offsets could allow regulated sectors to avoid reducing their own emissions"
+    - "Offsets are illegal"
+    - "To eliminate international cooperation"
+  answer: 1
+  explanation: "Quantitative limits on offset use ensure that most reductions occur within the capped sectors. Unlimited offsets could undermine the cap's environmental certainty if quality is uncertain."

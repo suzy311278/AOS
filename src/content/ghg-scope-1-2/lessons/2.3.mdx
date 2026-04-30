@@ -1,0 +1,210 @@
+{/* source: GHG Protocol Scope 2 Guidance, Chapters 7-8 (pp. 58-73), Chapter 10 (pp. 78-87) */}
+
+If your client has bought RECs or I-RECs, or signed a solar PPA, you need to understand certificates. If they have not, you still need to know the disclosure rules - because every Scope 2 report has required elements that auditors will check.
+
+This lesson covers three things practitioners need: what energy attribute certificates actually are, what quality criteria they must meet, and exactly what your Scope 2 disclosure must contain.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-1-2/2_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## What Energy Attribute Certificates Are
+
+Grid electricity is physically fungible. Once generated and fed into the grid, electricity from a solar panel is indistinguishable from electricity from a coal plant. You cannot trace which electrons reach your office. This creates a problem: how does a company claim it "uses" renewable energy?
+
+Energy attribute certificates solve this by separating the non-physical attributes of generation - the technology type, the emission rate, the location - from the physical electricity flow. These attributes are tracked, transferred, and retired independently of the electrons.
+
+<AnalogyBox>
+Think of certificates like title deeds in property markets. The physical land and the legal title to it are separate things. You can stand on a piece of land, but you only own it if you hold the title. Similarly, a company can consume electricity, but it can only claim the generation attributes of a specific power plant if it holds and retires the certificate representing those attributes. The physical electricity and its non-physical attributes travel through different systems.
+</AnalogyBox>
+
+Once a generator's attributes are separated into a certificate, the remaining electricity becomes "null power" - it has no traceable attributes. Consumers of null power cannot claim to be using renewable energy. Instead, null power is assigned the residual mix emission rate for market-based Scope 2 purposes.
+
+## Three Certificate Systems You Need to Know
+
+Different markets have developed different certificate systems. As a practitioner, you will encounter three main types:
+
+<ResponsiveTable>
+<table>
+<thead>
+<tr>
+<th>Certificate Type</th>
+<th>Where It Operates</th>
+<th>Primary Purpose</th>
+<th>Key Feature</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>REC (Renewable Energy Certificate)</td>
+<td>US, Canada, Australia</td>
+<td>RPS compliance + voluntary claims</td>
+<td>Fully aggregated - one REC carries ALL environmental attributes for that MWh</td>
+</tr>
+<tr>
+<td>GO (Guarantee of Origin)</td>
+<td>EU and European Economic Area</td>
+<td>Supplier fuel mix disclosure + voluntary claims</td>
+<td>Relationship to subsidies varies by country - check local rules</td>
+</tr>
+<tr>
+<td>I-REC (International REC)</td>
+<td>Emerging markets (India, Brazil, Turkey, South Africa, etc.)</td>
+<td>Voluntary corporate disclosure</td>
+<td>Standardized tracking for markets without established national systems</td>
+</tr>
+</tbody>
+</table>
+</ResponsiveTable>
+
+All three can be used for market-based Scope 2, provided they meet the Scope 2 Quality Criteria. The certificate can be obtained unbundled (purchased separately from your electricity), bundled with a green tariff, or conveyed through a PPA.
+
+## I-RECs in India
+
+India has a growing I-REC market, and understanding it is increasingly important for consultants working with Indian corporates.
+
+**How it works:** Renewable energy generators in India register their projects with the I-REC Standard. For every MWh of renewable electricity they generate and feed into the grid, they receive one I-REC. Companies purchase these I-RECs and retire them in the I-REC registry to claim the renewable attributes for their Scope 2 market-based calculation.
+
+**Why companies buy them:** Indian companies pursuing RE100 targets, SBTi commitments, or ESG ratings need a mechanism to claim renewable energy use. I-RECs provide that mechanism. They are also significantly cheaper than building captive solar or signing long-term open-access PPAs, making them attractive for companies that want to start decarbonizing Scope 2 immediately.
+
+**What to watch out for:** I-REC prices in India have historically been low (sometimes under $1/MWh), which raises questions about whether the purchase drives new renewable capacity. For companies facing stakeholder scrutiny on additionality, pairing I-RECs with a direct PPA or captive solar investment tells a stronger story. Also verify that the I-RECs match your reporting period vintage and are sourced from the Indian market - cross-border I-RECs do not meet the market boundary criterion.
+
+## The 8 Scope 2 Quality Criteria
+
+Not every piece of paper claiming to be a "green certificate" qualifies for your market-based Scope 2 calculation. The GHG Protocol established eight quality criteria that contractual instruments must meet. Think of this as your checklist before accepting any instrument:
+
+<ResponsiveTable>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Criterion</th>
+<th>What to Check</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Conveys GHG emission rate</td>
+<td>Does the instrument carry the direct GHG emission rate of the generation source?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Unique claim</td>
+<td>Is this the only instrument claiming the GHG attributes for that MWh? No competing claims?</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Tracked and retired</td>
+<td>Has the instrument been retired in a recognized registry on behalf of the reporting entity?</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Vintage matching</td>
+<td>Was the energy generated within (or close to) the reporting period? Ideally same year, up to 6 months before or 3 months after.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Same market boundary</td>
+<td>Is the certificate from the same market where your electricity-consuming operations are located?</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Supplier EF based on delivered electricity</td>
+<td>If using a supplier emission factor, does it reflect full delivered electricity including certificate retirements?</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Verified sole ownership</td>
+<td>Where certificates do not exist, is the contract verified to convey a sole right to claim the GHG emission rate?</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Residual mix available</td>
+<td>Is a residual mix factor published for this market? If not, have you disclosed its absence?</td>
+</tr>
+</tbody>
+</table>
+</ResponsiveTable>
+
+If an instrument fails any criterion, you cannot use it for market-based Scope 2. Fall back to the next available factor in the emission factor hierarchy (supplier rate, residual mix, or grid average).
+
+## Offsets Are Not Certificates
+
+One paragraph, because this confusion persists: Carbon offsets and energy attribute certificates are completely different instruments. An offset represents avoided emissions elsewhere in the world, measured in tonnes of CO2e. A certificate represents the generation attributes of a specific MWh of electricity. Offsets cannot be used to reduce your Scope 2 total. If your company buys offsets, report them separately, outside the scopes. A single MWh of renewable generation generally cannot produce both a certificate and an offset - the same attributes cannot serve two purposes.
+
+## What Your Scope 2 Disclosure Must Contain
+
+The GHG Protocol sets clear requirements for what goes into a Scope 2 report. Here is the mandatory list:
+
+**If you operate only in markets without contractual instruments:**
+- One Scope 2 total (location-based method), in metric tonnes CO2e
+
+**If you operate in any market with contractual instruments (most companies):**
+- Location-based Scope 2 total, in metric tonnes CO2e
+- Market-based Scope 2 total, in metric tonnes CO2e
+- Each result clearly labelled by method
+- The category of instruments used (certificates, contracts, supplier rates, residual mix)
+- Base year and base-year methodology
+- Which method is used for goal-setting
+- Total electricity consumption (recommended, in MWh)
+- Biogenic CO2 reported separately (if applicable)
+
+<ExampleBox>
+**What good Scope 2 disclosure actually looks like**
+
+"In FY2024, TechCorp consumed 12,400 MWh of electricity across 8 offices in India, the UK, and the US. Our location-based Scope 2 emissions totaled 5,830 tCO2e, calculated using CEA combined margin factors for India (0.713 tCO2/MWh), Defra 2024 factors for the UK (0.207 tCO2/MWh), and EPA eGRID subregional factors for the US (0.31-0.42 tCO2/MWh depending on subregion).
+
+Our market-based Scope 2 emissions totaled 2,150 tCO2e. This reflects the retirement of 5,000 I-RECs (India, solar, vintage 2024) covering our Mumbai and Bangalore offices, and a Green-e certified wind REC purchase covering our US operations. Our UK office uses a GO-backed 100% renewable tariff from its supplier. Our Delhi and Hyderabad offices have no contractual instruments and use the CEA grid factor for market-based reporting.
+
+Our SBTi target is tracked against the market-based total. Base year is FY2022, calculated using the same methodology."
+
+This disclosure hits every required element: both totals, instrument types, emission factor sources, base year, and goal-setting method.
+</ExampleBox>
+
+## Instrument Feature Disclosure
+
+Beyond the required elements, the guidance recommends disclosing features of the instruments you claim. This matters because a REC from a 30-year-old hydro plant carries different implications than one from a newly built wind farm.
+
+Useful features to disclose:
+
+- **Certification label** - Green-e Energy, EKOenergy, or other third-party certification
+- **Energy resource type** - wind, solar, hydro, biomass, or "mix"
+- **Facility location** - country, state, or grid region
+- **Facility age** - year the generation facility was commissioned or repowered
+- **Relationship to regulatory requirements** - is this purchase above the supplier's quota obligations?
+
+<ExampleBox>
+**Example: Good instrument feature disclosure**
+
+A company purchases 50,000 MWh of RECs annually to match its US operations. Its disclosure states: the certificates are Green-e Energy certified; they represent wind generation from a facility commissioned in 2022; the facility is located in ERCOT (Texas); the purchase is surplus to any state RPS obligation; no emissions allowances have been retired alongside the certificates. This tells stakeholders far more than simply reporting a zero market-based emission factor.
+</ExampleBox>
+
+<DeepDive title="How policy context affects certificate value">
+The environmental significance of a certificate depends on the policy context where the generator operates. Three interactions matter:
+
+**Supplier quotas (RPS/renewable targets):** If a government already requires your supplier to deliver a percentage of renewable electricity, buying that same renewable product as a "voluntary" purchase does not create incremental demand. Voluntary purchases that are surplus to quota obligations carry more weight.
+
+**Subsidy receipt:** In some countries (notably Germany under feed-in tariffs), renewable generators receiving public subsidies must have their attributes allocated as a public benefit. The attributes are not available for individual voluntary claims. Check whether the generator behind your certificate receives subsidies that restrict attribute transfer.
+
+**Emissions trading schemes:** In capped power sectors (EU ETS), whether voluntary renewable procurement reduces overall sector emissions depends on whether allowances are retired alongside certificates. Without allowance retirement, the cap may allow the saved emissions to be emitted elsewhere.
+
+These interactions mean that identical certificates in different jurisdictions can carry very different real-world significance. Transparent disclosure lets stakeholders make that assessment.
+</DeepDive>
+
+## Your Scope 2 Reporting Checklist
+
+Before you finalize any Scope 2 section of a GHG inventory, run through this list:
+
+1. Have you reported total electricity consumption in MWh?
+2. Have you calculated a location-based total using grid average emission factors?
+3. If contractual instruments exist in any market you operate in, have you also calculated a market-based total?
+4. Are both totals clearly labelled by method?
+5. Have you disclosed which instruments you used and their key features?
+6. Have you specified which method your reduction target is based on?
+7. Have you disclosed your base year and base-year calculation methodology?
+8. If certificates do not cover all consumption, have you used the correct fallback factors?
+9. Have you confirmed that all certificates meet the 8 Quality Criteria?
+10. Are offsets reported separately, outside the scopes?
+
+Get these right, and your Scope 2 disclosure will withstand third-party verification. Get them wrong, and you will be fielding questions from auditors.
+
+<KeyTakeaways items="Energy attribute certificates (RECs, GOs, I-RECs) separate the non-physical attributes of electricity generation from the physical flow - the certificate holder gets the claim ;; All certificates used for market-based Scope 2 must pass the 8 Scope 2 Quality Criteria - including unique claim, registry tracking, vintage matching, and same market boundary ;; Carbon offsets and energy attribute certificates are completely different instruments - offsets cannot reduce your Scope 2 total ;; Scope 2 disclosure must include both location-based and market-based totals, instrument categories used, emission factor sources, base year, and which method tracks your target ;; Disclose certificate features (resource type, facility age, certification label) to help stakeholders assess the quality and significance of your renewable energy claims" />

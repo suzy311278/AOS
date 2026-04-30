@@ -1,0 +1,700 @@
+import { NextRequest } from "next/server";
+import fs from "fs";
+import path from "path";
+import Groq from "groq-sdk";
+import { getAvailableKey, recordUsage, markRateLimited } from "@/lib/groq-keys";
+import { hybridSearch, hasEmbeddings, type SearchResult } from "@/lib/hybrid-search";
+
+// ---------------------------------------------------------------------------
+// Types
+// ---------------------------------------------------------------------------
+
+interface CatalogEntry {
+  id: string;
+  file: string;
+  title: string;
+  description: string;
+  course: string;
+  total_pages: number;
+  topics: string[];
+}
+
+interface TreeNode {
+  node_id: string;
+  title: string;
+  level: number;
+  start_page: number;
+  end_page: number;
+  summary: string;
+  technical_index?: string;
+  text?: string;
+  children: TreeNode[];
+}
+
+interface TreeIndex {
+  title: string;
+  description: string;
+  total_pages: number;
+  children: TreeNode[];
+}
+
+// ---------------------------------------------------------------------------
+// Load indexes
+// ---------------------------------------------------------------------------
+
+const INDEX_DIR = path.join(process.cwd(), "data/page-indexes");
+const CATALOG_PATH = path.join(INDEX_DIR, "catalog.json");
+
+function loadCatalog(): CatalogEntry[] {
+  if (!fs.existsSync(CATALOG_PATH)) return [];
+  return JSON.parse(fs.readFileSync(CATALOG_PATH, "utf-8")).documents || [];
+}
+
+function loadLightTree(entry: CatalogEntry): TreeIndex | null {
+  const p = path.join(INDEX_DIR, entry.file.replace(".json", "_light.json"));
+  if (!fs.existsSync(p)) return null;
+  return JSON.parse(fs.readFileSync(p, "utf-8"));
+}
+
+function loadFullTree(entry: CatalogEntry): TreeIndex | null {
+  const p = path.join(INDEX_DIR, entry.file);
+  if (!fs.existsSync(p)) return null;
+  return JSON.parse(fs.readFileSync(p, "utf-8"));
+}
+
+function loadFullTree2(filePath: string): TreeIndex | null {
+  if (!fs.existsSync(filePath)) return null;
+  return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+}
+
+// ---------------------------------------------------------------------------
+// Groq call with key rotation (no SDK retries, we handle it)
+// ---------------------------------------------------------------------------
+
+type Msg = { role: "system" | "user" | "assistant"; content: string };
+
+async function groqComplete(messages: Msg[], maxTokens: number): Promise<{ text: string; tokens: number }> {
+  for (let i = 0; i < 6; i++) {
+    const apiKey = getAvailableKey();
+    if (!apiKey) throw new Error("All API keys are rate-limited. Try again in a minute.");
+
+    try {
+      const groq = new Groq({ apiKey, timeout: 20_000, maxRetries: 0 });
+      const res = await groq.chat.completions.create({
+        model: "llama-3.3-70b-versatile",
+        messages,
+        temperature: 0,
+        max_tokens: maxTokens,
+      });
+      const text = res.choices[0]?.message?.content || "";
+      const tokens = (res.usage?.prompt_tokens || 0) + (res.usage?.completion_tokens || 0);
+      recordUsage(apiKey, tokens);
+      return { text, tokens };
+    } catch (err: unknown) {
+      const status = (err as { status?: number }).status;
+      const msg = (err as { message?: string }).message || "";
+      if (status === 429 || msg.includes("rate") || msg.includes("timeout")) {
+        markRateLimited(apiKey);
+        continue;
+      }
+      throw err;
+    }
+  }
+  throw new Error("All retries exhausted");
+}
+
+async function groqStream(messages: Msg[]) {
+  for (let i = 0; i < 6; i++) {
+    const apiKey = getAvailableKey();
+    if (!apiKey) throw new Error("All API keys are rate-limited. Try again in a minute.");
+
+    try {
+      const groq = new Groq({ apiKey, timeout: 20_000, maxRetries: 0 });
+      const stream = await groq.chat.completions.create({
+        model: "llama-3.3-70b-versatile",
+        messages,
+        temperature: 0.3,
+        max_tokens: 2000,
+        stream: true,
+      });
+      return { stream, apiKey };
+    } catch (err: unknown) {
+      const status = (err as { status?: number }).status;
+      const msg = (err as { message?: string }).message || "";
+      if (status === 429 || msg.includes("rate") || msg.includes("timeout")) {
+        markRateLimited(apiKey);
+        continue;
+      }
+      throw err;
+    }
+  }
+  throw new Error("All retries exhausted");
+}
+
+// ---------------------------------------------------------------------------
+// Step 1: Route query to relevant documents (no LLM, keyword scoring)
+// ---------------------------------------------------------------------------
+
+function routeQuery(query: string, catalog: CatalogEntry[]): CatalogEntry[] {
+  const q = query.toLowerCase();
+  const scored = catalog.map(entry => {
+    let score = 0;
+    for (const topic of entry.topics) {
+      if (q.includes(topic.toLowerCase())) score += 3;
+      for (const word of topic.toLowerCase().split(/\s+/)) {
+        if (word.length > 3 && q.includes(word)) score += 1;
+      }
+    }
+    for (const word of entry.title.toLowerCase().split(/\s+/)) {
+      if (word.length > 3 && q.includes(word)) score += 2;
+    }
+    return { entry, score };
+  });
+  scored.sort((a, b) => b.score - a.score);
+  const top = scored.filter(s => s.score > 0).slice(0, 3);
+  return top.length > 0 ? top.map(r => r.entry) : catalog.slice(0, 3);
+}
+
+// ---------------------------------------------------------------------------
+// Step 2: Build a numbered section list + ask LLM to pick numbers
+//
+// This is the key design: we assign simple integer IDs (1, 2, 3...) to each
+// leaf node, send a compact list to the LLM, and parse back integers.
+// No JSON parsing of titles needed. Robust across any number of documents.
+// ---------------------------------------------------------------------------
+
+interface NumberedSection {
+  num: number;
+  entry: CatalogEntry;
+  node: TreeNode;
+}
+
+function buildNumberedSectionList(entries: CatalogEntry[]): { listText: string; sections: NumberedSection[] } {
+  const sections: NumberedSection[] = [];
+  let lines: string[] = [];
+  let num = 1;
+
+  for (const entry of entries) {
+    const tree = loadLightTree(entry);
+    if (!tree) continue;
+
+    lines.push(`\nDocument: ${tree.title}`);
+
+    function addNode(node: TreeNode, indent: string) {
+      const isLeaf = !node.children || node.children.length === 0;
+      if (isLeaf) {
+        // Only number leaf nodes (these are the retrievable units)
+        // Prefer technical_index (equations, tables, params) over generic summary
+        const descriptor = node.technical_index
+          || (node.summary ? (node.summary.length > 150 ? node.summary.slice(0, 150) + "..." : node.summary) : "");
+        lines.push(`${indent}[${num}] ${node.title} (pp. ${node.start_page}-${node.end_page}) | ${descriptor}`);
+        sections.push({ num, entry, node });
+        num++;
+      } else {
+        // Parent node: show title but no number
+        lines.push(`${indent}${node.title} (pp. ${node.start_page}-${node.end_page})`);
+        for (const child of node.children) {
+          addNode(child, indent + "  ");
+        }
+      }
+    }
+
+    for (const child of tree.children) {
+      addNode(child, "  ");
+    }
+  }
+
+  return { listText: lines.join("\n"), sections };
+}
+
+async function findRelevantSections(
+  query: string,
+  entries: CatalogEntry[]
+): Promise<{ entry: CatalogEntry; node: TreeNode }[]> {
+  const { listText, sections } = buildNumberedSectionList(entries);
+
+  if (sections.length === 0) return [];
+
+  const messages: Msg[] = [
+    {
+      role: "system",
+      content: `You select the most relevant document sections to answer a question.
+You will see a numbered list of sections with summaries.
+Reply with ONLY the section numbers (comma-separated) that are most likely to contain the answer.
+Pick 2-4 sections. Example reply: 3, 7, 12`,
+    },
+    {
+      role: "user",
+      content: `Question: ${query}\n\nSections:\n${listText}`,
+    },
+  ];
+
+  const { text } = await groqComplete(messages, 100);
+
+  // Parse integers from response (extremely robust - just find all numbers)
+  const nums = (text.match(/\d+/g) || []).map(Number);
+  const maxNum = sections.length;
+  const validNums = [...new Set(nums)].filter(n => n >= 1 && n <= maxNum).slice(0, 5);
+
+  if (validNums.length > 0) {
+    return validNums.map(n => {
+      const s = sections[n - 1];
+      return { entry: s.entry, node: s.node };
+    });
+  }
+
+  // Fallback: return first 2 leaf sections
+  return sections.slice(0, 2).map(s => ({ entry: s.entry, node: s.node }));
+}
+
+// ---------------------------------------------------------------------------
+// Step 3: Extract text from the full tree for selected nodes
+// ---------------------------------------------------------------------------
+
+function extractNodeText(fullTree: TreeIndex, nodeId: string): string | null {
+  function walk(node: TreeNode): string | null {
+    if (node.node_id === nodeId) return node.text || null;
+    for (const child of node.children) {
+      const found = walk(child);
+      if (found) return found;
+    }
+    return null;
+  }
+  for (const child of fullTree.children) {
+    const found = walk(child);
+    if (found) return found;
+  }
+  return null;
+}
+
+// ---------------------------------------------------------------------------
+// Step 4: Synthesize (streaming)
+// ---------------------------------------------------------------------------
+
+interface SourceRef {
+  document: string;
+  section: string;
+  pages: string;
+  course: string;
+}
+
+interface LessonLink {
+  courseId: string;
+  courseTitle: string;
+  lessonId: string;
+  lessonTitle: string;
+  url: string;
+}
+
+// ---------------------------------------------------------------------------
+// Find related lessons from course content
+// ---------------------------------------------------------------------------
+
+interface CourseYaml {
+  id: string;
+  title: string;
+  modules: { id: number; title: string; lessons: { id: string; title: string; vmRef?: string }[] }[];
+}
+
+const courseYamlCache = new Map<string, CourseYaml | null>();
+
+function loadCourseYaml(courseId: string): CourseYaml | null {
+  if (courseYamlCache.has(courseId)) return courseYamlCache.get(courseId)!;
+  const p = path.join(process.cwd(), `src/content/${courseId}/course.yaml`);
+  if (!fs.existsSync(p)) {
+    courseYamlCache.set(courseId, null);
+    return null;
+  }
+  try {
+    // Simple YAML parse for course.yaml (structured enough for basic parsing)
+    const yaml = require("js-yaml");
+    const data = yaml.load(fs.readFileSync(p, "utf-8")) as CourseYaml;
+    courseYamlCache.set(courseId, data);
+    return data;
+  } catch {
+    courseYamlCache.set(courseId, null);
+    return null;
+  }
+}
+
+function findRelatedLessons(query: string, sources: SourceRef[]): LessonLink[] {
+  const queryWords = query.toLowerCase().split(/\s+/).filter(w => w.length > 3);
+  const sectionTitles = sources.map(s => s.section.toLowerCase());
+  const lessons: LessonLink[] = [];
+  const seen = new Set<string>();
+
+  // Get unique courses from sources
+  const courseIds = [...new Set(sources.map(s => s.course))];
+
+  for (const courseId of courseIds) {
+    const course = loadCourseYaml(courseId);
+    if (!course) continue;
+
+    for (const mod of course.modules) {
+      for (const lesson of mod.lessons) {
+        const key = `${courseId}/${lesson.id}`;
+        if (seen.has(key)) continue;
+
+        const lessonText = (lesson.title + " " + (lesson.vmRef || "")).toLowerCase();
+        let score = 0;
+
+        // Match query words against lesson title/vmRef
+        for (const w of queryWords) {
+          if (lessonText.includes(w)) score += 3;
+        }
+
+        // Match source section titles against lesson title/vmRef
+        for (const secTitle of sectionTitles) {
+          const secWords = secTitle.split(/\s+/).filter(w => w.length > 3);
+          for (const w of secWords) {
+            if (lessonText.includes(w)) score += 1;
+          }
+        }
+
+        if (score >= 4) {
+          seen.add(key);
+          const urlLessonId = lesson.id.replace(/\./g, "_");
+          lessons.push({
+            courseId,
+            courseTitle: course.title,
+            lessonId: lesson.id,
+            lessonTitle: lesson.title,
+            url: `/courses/${courseId}/${urlLessonId}`,
+          });
+        }
+      }
+    }
+  }
+
+  // Sort by score (implicit in order) and cap at 3
+  return lessons.slice(0, 3);
+}
+
+function buildSynthesisMessages(
+  query: string,
+  contexts: { docTitle: string; section: string; pages: string; text: string }[]
+): Msg[] {
+  let contextText = "";
+  let totalChars = 0;
+  const MAX_CHARS = 16000;
+
+  // Collect unique document names for the citation instruction
+  const docNames = [...new Set(contexts.map(c => c.docTitle))];
+
+  for (const ctx of contexts) {
+    const chunk = `\n--- ${ctx.docTitle}, ${ctx.section} (${ctx.pages}) ---\n${ctx.text}\n`;
+    if (totalChars + chunk.length > MAX_CHARS) {
+      const remaining = MAX_CHARS - totalChars;
+      if (remaining > 500) contextText += chunk.slice(0, remaining) + "\n[truncated]";
+      break;
+    }
+    contextText += chunk;
+    totalChars += chunk.length;
+  }
+
+  // Build natural, searchable citation names from document titles
+  const citableName = (name: string) => {
+    // Clean up overly long regulatory titles to a searchable but natural form
+    let clean = name
+      // Remove "REGULATION (EU) 2024/1781 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of..."
+      // → keep "EU Regulation 2024/1781" or the descriptive part
+      .replace(/^(COMMISSION\s+)?(IMPLEMENTING\s+)?/i, '')
+      .replace(/\s+OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL.*/i, '')
+      .replace(/\s+of\s+\d{1,2}\s+\w+\s+\d{4}\s*/i, ' ')  // remove "of 30 May 2018"
+      .replace(/\s+amending\s+.*/i, '')  // remove "amending Directive..."
+      .trim();
+
+    // Cap at ~80 chars for readability
+    if (clean.length > 80) {
+      clean = clean.slice(0, 77).replace(/\s+\S*$/, '') + '...';
+    }
+    return clean || name.slice(0, 60);
+  };
+
+  const docCiteNames = [...new Set(docNames.map(n => citableName(n)))];
+  const citationExample = `CITATION FORMAT: Use the full, natural document title so readers can find the original source. Example: (${docCiteNames[0] || 'Document Title'}, p. 12) or (${docCiteNames[0] || 'Document Title'}, pp. 12-15). Every citation MUST include a page number. Use the document titles exactly as they appear in the context headers.`;
+
+  return [
+    {
+      role: "system",
+      content: `You are a senior sustainability advisor with deep expertise across regulatory frameworks. Think carefully before responding.
+
+THINKING PROCESS (do this silently, never show it):
+1. What is the user really asking? Reframe the question to its core.
+2. What in the context directly answers it? What offers useful adjacent insight?
+3. Where do sources agree, contradict, or leave gaps?
+4. What is the non-obvious insight or practical takeaway?
+
+WRITING RULES:
+- Lead with the answer or core insight in the first sentence. No preamble, no "Introduction to X" headers.
+- Never write a "Conclusion" section that restates what you already said.
+- When comparing frameworks or concepts, use direct side-by-side contrast ("X requires A, while Y requires B"), not separate descriptions.
+- Be specific: cite actual thresholds, percentages, category numbers, article numbers from the context. Vague statements like "promotes sustainability" add nothing.
+- Every paragraph must earn its place. Cut filler ("it is essential to understand", "in conclusion", "as we can see"). If a sentence restates the previous one in different words, delete it.
+- When the context reveals a practical consequence (cost, compliance burden, strategic advantage), call it out explicitly.
+- STAY ON TOPIC. Every sentence must directly help answer the question asked. Do not pad with tangentially related content (e.g. SDGs, indigenous rights, gender equality) unless the user specifically asked about it. If the direct answer is short, that's fine. A focused 3-paragraph answer beats a wandering 6-paragraph one.
+- HONESTY ABOUT GAPS: If the retrieved context does not contain the specific data needed to answer the question, say so clearly and directly: "The sources I have access to don't cover [X]." Do NOT construct an answer by stitching together loosely related content from other topics. A confident "I don't have this" is far more useful than a fabricated answer from wrong sources.
+- For formulas, present them with clear variable definitions.
+
+FORMAT:
+- Use 2-4 short headings (##) to structure the answer. Never use "Introduction to X" or "Conclusion" as headings. Use headings that convey insight, like "Why the buffer matters" or "SFDR vs IFRS S2: who discloses what".
+- Use bullets for lists of 3+ items. Use short paragraphs (2-4 sentences max) otherwise.
+- Bold key terms, thresholds, or takeaways for scannability.
+
+${citationExample}
+CRITICAL CITATION RULE: Every factual claim must have a parenthetical citation with the full document title and page number, like (VM0042: Improved Agricultural Land Management, p. 84). Do NOT just mention the document name in the sentence without a (Title, p. XX) citation. The parenthetical format is essential because the UI renders these as clickable reference pills.`,
+    },
+    {
+      role: "user",
+      content: `Question: ${query}\n\nContext:\n${contextText}`,
+    },
+  ];
+}
+
+// ---------------------------------------------------------------------------
+// Handler
+// ---------------------------------------------------------------------------
+
+export async function POST(request: NextRequest) {
+  try {
+    const body = await request.json();
+    const query = body.query?.trim();
+    const history: { role: string; content: string }[] = body.history || [];
+
+    if (!query) {
+      return Response.json({ error: "query is required" }, { status: 400 });
+    }
+
+    // Build context-aware search query by incorporating conversation history
+    // If user asks "Where does uncertainty come from?" after discussing VM0042,
+    // expand the query to include that context
+    let searchQuery = query;
+    if (history.length > 0) {
+      const recentContext = history
+        .slice(-4) // last 2 exchanges
+        .filter(m => m.content)
+        .map(m => m.content.slice(0, 200))
+        .join(" ");
+      // Extract key terms from recent context (document names, section refs, technical terms)
+      const contextTerms = recentContext
+        .match(/\b(?:VM\d+|SBTi|IFRS|GHG|PCAF|SFDR|CBAM|Scope\s*[123]|SOC|N2O|CH4|CO2|ALM|TNFD|ESRS|CSRD|equation\s*\d+|section\s*[\d.]+)\b/gi) || [];
+      const unique = [...new Set(contextTerms.map(t => t.trim()))];
+      if (unique.length > 0) {
+        searchQuery = `${query} (context: ${unique.join(", ")})`;
+      }
+    }
+
+    if (!getAvailableKey()) {
+      return Response.json(
+        { error: "All API keys are rate-limited. Please try again in a minute." },
+        { status: 429 }
+      );
+    }
+
+    const catalog = loadCatalog();
+    if (catalog.length === 0) {
+      return Response.json({ error: "No documents indexed yet." }, { status: 503 });
+    }
+
+    // Retrieval: hybrid search (vector + keyword, 0 Groq tokens)
+    if (!hasEmbeddings()) {
+      return Response.json(
+        { error: "Search index is being built. Please try again in a few minutes." },
+        { status: 503 }
+      );
+    }
+
+    // ---- Hop 1: Primary retrieval ----
+    const hop1Results = await hybridSearch(searchQuery, 4);
+
+    const contexts: { docTitle: string; section: string; pages: string; text: string }[] = [];
+    const sources: SourceRef[] = [];
+    const seenKeys = new Set<string>();
+    const MAX_TEXT = 6000;
+
+    function addResults(results: typeof hop1Results) {
+      for (const result of results) {
+        const dedupeKey = `${result.full_tree_path}::${result.node_id}`;
+        if (seenKeys.has(dedupeKey)) continue;
+        seenKeys.add(dedupeKey);
+
+        const fullTree = loadFullTree2(result.full_tree_path);
+        if (!fullTree) continue;
+
+        let text = extractNodeText(fullTree, result.node_id);
+        if (!text) continue;
+        if (text.length > MAX_TEXT) text = text.slice(0, MAX_TEXT);
+
+        const pages = result.start_page === result.end_page
+          ? `p. ${result.start_page}`
+          : `pp. ${result.start_page}-${result.end_page}`;
+
+        contexts.push({ docTitle: result.doc_title, section: result.section_title, pages, text });
+        sources.push({ document: result.doc_title, section: result.section_title, pages, course: result.course });
+      }
+    }
+
+    addResults(hop1Results);
+
+    // ---- Hop 2: Dynamic cross-reference retrieval ----
+    // Extract key terms from hop 1 text, score all catalog entries,
+    // and search for top-scoring docs not already in hop 1.
+    // No hardcoded framework lists - adapts as new docs are indexed.
+
+    const hop1DocIds = new Set(hop1Results.map(r => `${r.course}/${r.doc_title}`));
+
+    // Extract meaningful terms from hop 1 context (3+ char words, skip common words)
+    const STOP_WORDS = new Set([
+      "the", "and", "for", "that", "this", "with", "from", "are", "was", "were",
+      "been", "have", "has", "had", "will", "would", "could", "should", "shall",
+      "may", "can", "not", "but", "its", "their", "they", "which", "when", "where",
+      "how", "what", "who", "all", "each", "any", "such", "than", "into", "also",
+      "more", "other", "been", "between", "about", "under", "over", "after", "before",
+      "through", "these", "those", "being", "does", "did", "must", "including",
+      "based", "related", "relevant", "ensure", "provide", "include", "use", "used",
+      "using", "accordance", "accordance", "pursuant", "article", "section", "page",
+      "document", "information", "requirements", "respect", "regard", "order",
+    ]);
+
+    const hop1Text = contexts.map(c => c.text.slice(0, 2000)).join(" ");
+    const termFreq = new Map<string, number>();
+    const words = (query + " " + hop1Text).toLowerCase().split(/[^a-zA-Z0-9]+/);
+    for (const w of words) {
+      if (w.length >= 3 && !STOP_WORDS.has(w) && !/^\d+$/.test(w)) {
+        termFreq.set(w, (termFreq.get(w) || 0) + 1);
+      }
+    }
+
+    // Score catalog entries by term overlap (same logic as routeQuery but on extracted terms)
+    const scoredCatalog = catalog.map(entry => {
+      const entryText = (entry.title + " " + entry.description + " " + entry.topics.join(" ")).toLowerCase();
+      let score = 0;
+      for (const [term, freq] of termFreq) {
+        if (entryText.includes(term)) {
+          score += Math.min(freq, 3); // cap per-term contribution
+        }
+      }
+      // Bonus for topic matches
+      for (const topic of entry.topics) {
+        const topicLower = topic.toLowerCase();
+        if (query.toLowerCase().includes(topicLower)) score += 5;
+        if (hop1Text.toLowerCase().includes(topicLower)) score += 2;
+      }
+      return { entry, score };
+    });
+
+    scoredCatalog.sort((a, b) => b.score - a.score);
+
+    // Pick top catalog entries NOT already in hop 1
+    const hop2CatalogEntries = scoredCatalog
+      .filter(s => s.score > 5 && !hop1DocIds.has(`${s.entry.course}/${s.entry.title}`))
+      .slice(0, 3);
+
+    if (hop2CatalogEntries.length > 0) {
+      // For each cross-referenced doc, find its best section by keyword-matching
+      // the query against its tree index (no embedding needed, fast)
+      for (const { entry } of hop2CatalogEntries.slice(0, 2)) {
+        const tree = loadLightTree(entry);
+        if (!tree) continue;
+
+        const queryWords = query.toLowerCase().split(/\s+/).filter((w: string) => w.length > 3);
+
+        // Score each leaf section by keyword overlap with the query
+        function scoreLeaves(node: TreeNode, parentTitle: string): { node: TreeNode; score: number; parentTitle: string }[] {
+          const results: { node: TreeNode; score: number; parentTitle: string }[] = [];
+          if (!node.children || node.children.length === 0) {
+            const searchable = (node.title + " " + (node.summary || "") + " " + (node.technical_index || "")).toLowerCase();
+            let score = 0;
+            for (const w of queryWords) {
+              if (searchable.includes(w)) score += 2;
+            }
+            if (score > 0) results.push({ node, score, parentTitle });
+          } else {
+            for (const child of node.children) {
+              results.push(...scoreLeaves(child, node.title));
+            }
+          }
+          return results;
+        }
+
+        const allLeaves: { node: TreeNode; score: number; parentTitle: string }[] = [];
+        for (const child of tree.children) {
+          allLeaves.push(...scoreLeaves(child, tree.title));
+        }
+        allLeaves.sort((a, b) => b.score - a.score);
+
+        const best = allLeaves[0];
+        if (best && best.score > 0) {
+          // Load the full text for this section
+          const fullTree = loadFullTree(entry);
+          if (!fullTree) continue;
+
+          let text = extractNodeText(fullTree, best.node.node_id);
+          if (!text) continue;
+          if (text.length > MAX_TEXT) text = text.slice(0, MAX_TEXT);
+
+          const dedupeKey2 = `${entry.file}::${best.node.node_id}`;
+          if (seenKeys.has(dedupeKey2)) continue;
+          seenKeys.add(dedupeKey2);
+
+          const pages = best.node.start_page === best.node.end_page
+            ? `p. ${best.node.start_page}`
+            : `pp. ${best.node.start_page}-${best.node.end_page}`;
+
+          contexts.push({ docTitle: entry.title, section: best.node.title, pages, text });
+          sources.push({ document: entry.title, section: best.node.title, pages, course: entry.course });
+        }
+      }
+    }
+
+    if (contexts.length === 0) {
+      return Response.json({ error: "Could not find relevant content." }, { status: 404 });
+    }
+
+    // Step 4: Synthesize (streaming)
+    const messages = buildSynthesisMessages(query.trim(), contexts);
+    const { stream, apiKey } = await groqStream(messages);
+
+    const encoder = new TextEncoder();
+    let totalTokens = 0;
+
+    const readable = new ReadableStream({
+      async start(controller) {
+        try {
+          for await (const chunk of stream) {
+            const delta = chunk.choices[0]?.delta?.content || "";
+            if (delta) {
+              controller.enqueue(encoder.encode(`data: ${JSON.stringify({ type: "text", content: delta })}\n\n`));
+            }
+            if (chunk.x_groq?.usage) {
+              totalTokens = (chunk.x_groq.usage as { total_tokens?: number }).total_tokens || 0;
+            }
+          }
+          controller.enqueue(encoder.encode(`data: ${JSON.stringify({ type: "sources", sources })}\n\n`));
+          // Find and send related lessons
+          const relatedLessons = findRelatedLessons(query, sources);
+          if (relatedLessons.length > 0) {
+            controller.enqueue(encoder.encode(`data: ${JSON.stringify({ type: "lessons", lessons: relatedLessons })}\n\n`));
+          }
+          controller.enqueue(encoder.encode("data: [DONE]\n\n"));
+          controller.close();
+          recordUsage(apiKey, totalTokens || 2000);
+        } catch {
+          controller.enqueue(encoder.encode(`data: ${JSON.stringify({ type: "error", content: "Stream interrupted. Try again." })}\n\n`));
+          controller.close();
+        }
+      },
+    });
+
+    return new Response(readable, {
+      headers: { "Content-Type": "text/event-stream", "Cache-Control": "no-cache", Connection: "keep-alive" },
+    });
+  } catch (err) {
+    const msg = (err as Error).message || "Internal error";
+    if (msg.includes("rate-limited")) {
+      return Response.json({ error: msg }, { status: 429 });
+    }
+    console.error("Ask API error:", err);
+    return Response.json({ error: `Server error: ${msg}` }, { status: 500 });
+  }
+}

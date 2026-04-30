@@ -1,0 +1,44 @@
+- question: "What is the primary purpose of monitoring, reporting, and verification (MRV) in carbon pricing?"
+  options:
+    - "To punish companies"
+    - "To ensure accurate measurement of emissions and compliance"
+    - "To create jobs for auditors"
+    - "To delay implementation"
+  answer: 1
+  explanation: "MRV ensures that emissions are accurately measured, reported by covered entities, and verified by independent third parties, which is essential for the integrity of any carbon pricing system."
+
+- question: "What are the three components of MRV?"
+  options:
+    - "Measure, Report, Verify"
+    - "Monitor, Report, Verify"
+    - "Monitor, Regulate, Verify"
+    - "Measure, Reduce, Verify"
+  answer: 1
+  explanation: "MRV stands for Monitor (track emissions), Report (entities submit data), and Verify (independent third-party checks). Together these ensure data quality."
+
+- question: "Why is third-party verification important in carbon pricing MRV?"
+  options:
+    - "It provides independent assurance that reported emissions are accurate"
+    - "It is required by international law"
+    - "Third parties work for free"
+    - "It eliminates all measurement error"
+  answer: 0
+  explanation: "Third-party verification provides independent assurance that emissions reports are accurate and complete, reducing the risk of under-reporting and building credibility in the system."
+
+- question: "What is continuous emissions monitoring (CEMS)?"
+  options:
+    - "Annual emissions reporting"
+    - "Real-time measurement of emissions from smokestacks"
+    - "Satellite-based emissions tracking"
+    - "Quarterly audits"
+  answer: 1
+  explanation: "CEMS involves installing equipment that continuously measures emissions from facility smokestacks in real-time, providing highly accurate data for large point sources like power plants."
+
+- question: "What administrative infrastructure is needed to support carbon tax compliance?"
+  options:
+    - "Only a tax collection agency"
+    - "Registries, reporting systems, verification bodies, and enforcement mechanisms"
+    - "No infrastructure, it is self-enforcing"
+    - "Just a website"
+  answer: 1
+  explanation: "Carbon pricing requires substantial infrastructure including emissions registries, reporting platforms, accredited verifiers, and enforcement systems to ensure compliance."

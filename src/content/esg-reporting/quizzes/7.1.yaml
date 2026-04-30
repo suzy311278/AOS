@@ -1,0 +1,26 @@
+- question: "What is the single most important design decision for an ESG report?"
+  options:
+    - "Choosing a bold, original visual style that stands out from competitors"
+    - "Using the company's existing design agency so the report matches their established brand language"
+    - "Hiring the most award-winning designer available regardless of brand familiarity"
+    - "Using a standardized ESG report template provided by GRI"
+  answer: 1
+  explanation: "Using the company's existing design agency ensures the ESG report looks like it belongs with their annual report and other corporate publications. Visual consistency signals organizational maturity. A new designer - however talented - will create something that clashes with the established brand, leading to costly revision rounds."
+
+- question: "What three elements must work in balance for a well-designed ESG report?"
+  options:
+    - "Cover design, typography, and color palette"
+    - "Framework references, stakeholder quotes, and executive messages"
+    - "Visuals (charts, infographics), narrative (written content), and data (tables, KPIs)"
+    - "Photography, illustrations, and icons"
+  answer: 2
+  explanation: "The reports that stand out manage the interplay of visuals, narrative, and data. None of the three dominates - they work together on every spread. A report that is all infographics with no substance, or all dense text with no visuals, fails to engage readers effectively."
+
+- question: "During the design review, the designer converts your data table into a bar chart. What is your most critical responsibility?"
+  options:
+    - "Ensure the chart uses the company's brand colors"
+    - "Verify that every number in the chart matches the source data, since transposed numbers or misleading axes are common design-stage errors"
+    - "Check that the chart has a title and legend"
+    - "Confirm the chart is large enough to fill the page"
+  answer: 1
+  explanation: "Designers can transpose numbers, use truncated axes that exaggerate trends, or introduce other data errors when converting tables to visuals. If an investor finds a discrepancy between a chart and the GRI Content Index, no amount of good design can fix the resulting credibility problem. Always verify numbers in every visual element."

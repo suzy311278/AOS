@@ -1,0 +1,78 @@
+{/* source: Scope3_Calculation_Guidance_0[1].pdf, Category 3 (pp. 38-48) */}
+
+**Category 3 — Fuel- and Energy-Related Activities** covers GHG emissions that are related to the company's purchased energy but are **not already included in Scope 1 or Scope 2**. This category captures the upstream supply chain of energy - the emissions that occur before the energy reaches the company's meter.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-3/1_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Why Category 3 Exists
+
+Scope 1 covers direct combustion of purchased fuels. Scope 2 covers emissions from electricity generation. But neither scope captures the full lifecycle of the energy system. Before a litre of natural gas is burned (Scope 1), it must be extracted from the ground, processed, and transported through pipelines - all of which emit GHGs. Before a kilowatt-hour of electricity reaches the company (Scope 2), it must be generated and then transmitted and distributed through the grid - with losses along the way. Category 3 captures this upstream and transmission/distribution slice.
+
+<HighlightBox>
+Category 3 prevents a critical gap in the value chain inventory. Without it, a company that switches from coal to natural gas might undercount the full lifecycle impact of its energy supply, because the upstream extraction and processing emissions of natural gas (including methane leakage) are not captured in Scope 1 or 2 alone.
+</HighlightBox>
+
+## The Four Sub-Categories
+
+Category 3 is divided into four distinct sub-activities:
+
+### Sub-Category 3a: Upstream Emissions of Purchased Fuels
+Covers extraction, production, and transportation of fuels **before** they are combusted at the company's facility. Includes:
+- Methane leakage during natural gas extraction and pipeline transport
+- Emissions from crude oil extraction and refining before the fuel is delivered
+- Emissions from coal mining before the coal is burned
+
+### Sub-Category 3b: Upstream Emissions of Purchased Electricity
+Covers extraction, production, and transportation of fuels used by power plants to generate the electricity purchased by the company. For example, if the company buys coal-fired electricity, Category 3b captures the mining and transport of the coal used by the power plant - not the electricity generation itself (that's Scope 2).
+
+### Sub-Category 3c: Transmission and Distribution (T&D) Losses
+Covers emissions from the generation of electricity that is **lost** in the T&D network before reaching the company's meter. Grids lose 5-15% of electricity through resistance in transmission lines, transformer inefficiencies, and distribution network losses. The emissions from generating this "lost" electricity are a real impact of electricity consumption, captured here.
+
+### Sub-Category 3d: Generation of Electricity That Is Sold to the Grid (for generators only)
+This sub-category applies only to companies that generate and sell electricity. It covers the upstream supply chain of fuels used to generate electricity sold to external parties - the counterpart to 3b.
+
+## Calculation Methods
+
+<EquationBreakdown
+  title="Category 3 - T&D Loss Emissions"
+  result="E<sub>T&D</sub> | T&D Loss Emissions | Emissions from electricity lost during transmission and distribution, in tCO₂e | blue"
+  inputs="Elec | Purchased Electricity | Total electricity purchased from the grid, in MWh | green ;; L | T&D Loss Rate | Fraction of electricity lost in the grid (typically 0.05-0.15) | amber ;; EF<sub>grid</sub> | Grid Emission Factor | tCO₂e per MWh of grid electricity generated | violet"
+/>
+
+<EquationBreakdown
+  title="Category 3 - Upstream Fuel Emissions"
+  result="E<sub>upstream</sub> | Upstream Fuel Emissions | Emissions from extraction, processing, and transport of purchased fuels, in tCO₂e | blue"
+  inputs="FC | Fuel Consumed | Quantity of fuel consumed in the reporting year (litres, kg, or m³) | green ;; EF<sub>up</sub> | Upstream Emission Factor | tCO₂e per unit of fuel for upstream activities (extraction, refining, transport) | rose"
+/>
+
+T&D loss rates are typically published by national grid operators or the International Energy Agency. Grid emission factors are the same as used for Scope 2 location-based calculations.
+
+<CalculationExercise
+  question="A company purchases 10,000 MWh of electricity from the UK grid. The UK average T&D loss rate is 8% and the UK grid emission factor is 0.207 tCO₂e/MWh. What are the Category 3 T&D loss emissions?"
+  answer={165.6}
+  unit="tCO₂e"
+  hints={["T&D loss electricity = 10,000 MWh × 8% = 800 MWh lost in the grid.", "Emissions = 800 MWh × 0.207 tCO₂e/MWh = ?", "800 × 0.207 = 165.6 tCO₂e."]}
+  solution="10,000 MWh × 0.08 T&D loss rate × 0.207 tCO₂e/MWh = 165.6 tCO₂e. These are the emissions from electricity generated to supply the grid but never reaching the company's meter."
+/>
+
+## The Relationship Between Scope 2 Market-Based and Category 3
+
+An important interaction exists between the Scope 2 market-based method and Category 3. When a company purchases renewable energy certificates (RECs) or enters a power purchase agreement (PPA):
+
+- **Scope 2 market-based** may be zero if 100% matched with RECs
+- **Category 3 T&D losses** must still be reported, typically using the residual mix emission factor for T&D losses (since the actual grid mix carries losses regardless of the certificate purchased)
+
+This interaction means a company cannot claim zero Category 3 emissions simply by purchasing RECs - the physical grid T&D losses remain.
+
+## Materiality
+
+Category 3 is material whenever a company has significant purchased fuel or electricity consumption. It is particularly relevant for:
+- Energy-intensive industries (steel, cement, chemicals, data centres)
+- Companies with large vehicle fleets consuming purchased fuel
+- Companies located in countries with high T&D loss rates (developing economies can have loss rates of 15-25%)
+
+<DeepDive title="Methane leakage and the upstream natural gas problem">
+Sub-category 3a is increasingly important for companies with high natural gas consumption. Natural gas upstream emission factors include methane (CH₄) leakage during extraction (especially for shale gas) and pipeline transport. Methane has a GWP of 28-36 over 100 years, so even small leak rates translate into substantial CO₂e. Some independent studies estimate total upstream methane leakage from US shale gas operations at 2-3% of production, which, when expressed as CO₂e using a 20-year GWP (GWP₂₀ = 80-87), can partially offset the Scope 2 benefits of switching from coal to gas. This is why Category 3 data quality matters for companies making fuel-switching decisions.
+</DeepDive>
+
+<KeyTakeaways items="Category 3 captures upstream energy supply chain emissions not included in Scope 1 or 2 - filling a critical gap in the full lifecycle of purchased energy ;; Four sub-categories cover upstream fuel emissions (3a), upstream electricity emissions (3b), transmission and distribution losses (3c), and electricity sold to the grid (3d) ;; T&D losses (typically 5-15% of purchased electricity) represent real emissions that persist even when companies purchase renewable energy certificates ;; Methane leakage during natural gas extraction and transport can significantly affect the true climate benefit of switching from coal to gas ;; Category 3 is particularly material for energy-intensive industries, large vehicle fleets, and companies in countries with high grid T&D loss rates" />

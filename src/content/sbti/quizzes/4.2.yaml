@@ -1,0 +1,44 @@
+- question: "Under Criterion C27, what is the significance threshold that triggers a mandatory base year recalculation?"
+  options:
+    - "Any structural change, regardless of size, triggers recalculation"
+    - "A cumulative change affecting more than 5% of base year emissions"
+    - "A change affecting more than 10% of base year emissions in a single year"
+    - "A change affecting more than 15% of target year emissions"
+  answer: 1
+  explanation: "C27 uses a 5% threshold applied to base year emissions. Importantly, this threshold is cumulative -- multiple smaller changes that individually fall below 5% must be tracked together. If their combined effect on base year emissions exceeds 5%, recalculation is required. This prevents companies from avoiding recalculation by structuring a series of small acquisitions or methodology changes that together would warrant it."
+
+- question: "A company with validated SBTi targets acquires a new subsidiary. The subsidiary's Scope 1+2 emissions represent 4% of the acquiring company's base year emissions. A separate consolidation approach change made the same year affects another 2.5% of base year emissions. Is recalculation required under C27?"
+  options:
+    - "No, because neither individual change exceeds 5%"
+    - "Yes, because the cumulative effect of both changes (6.5%) exceeds the 5% threshold"
+    - "No, because a consolidation approach change and an acquisition are different trigger types and are assessed separately"
+    - "Yes, but only for the portion of the inventory affected by the acquisition, not the consolidation change"
+  answer: 1
+  explanation: "The 5% threshold under C27 is assessed cumulatively, not per-event. The acquisition (4%) and the consolidation change (2.5%) together affect 6.5% of base year emissions, which exceeds the 5% threshold. Recalculation is therefore mandatory. Both changes must be reflected in the revised base year, and the revised base year must be disclosed along with the calculation showing the impact of each change."
+
+- question: "Criterion C25 requires annual public disclosure of GHG inventory and target progress. Which of the following disclosure channels is specifically recommended by the SBTi under Recommendation R12?"
+  options:
+    - "The company's internal sustainability database"
+    - "A private data room accessible only to institutional investors"
+    - "CDP (formerly the Carbon Disclosure Project)"
+    - "The company's quarterly earnings press release"
+  answer: 2
+  explanation: "R12 identifies CDP as the SBTi's primary recommended disclosure channel for annual GHG inventory and target progress data. CDP's questionnaire includes dedicated SBTi fields, and CDP responses are publicly searchable, making them the most visible and verifiable form of compliance with C25. Annual reports and sustainability reports are also acceptable channels. Internal databases and investor-only data rooms do not satisfy the public availability requirement."
+
+- question: "The mandatory five-year review under Criterion C26 requires companies to assess whether their targets remain compliant with current SBTi criteria. Why is this important even if no structural changes or recalculation triggers have occurred?"
+  options:
+    - "Because the SBTi charges a lower validation fee for companies that review on schedule"
+    - "Because SBTi criteria are periodically updated, and a target compliant with an earlier version may not meet the requirements of the current version"
+    - "Because Scope 2 emission factors are reset every five years by the GHG Protocol, requiring all targets to be recalculated"
+    - "Because net-zero targets automatically expire after five years and must be reapplied for"
+  answer: 1
+  explanation: "The SBTi periodically updates its criteria (for example, the Near-Term Criteria have been revised across multiple versions). A target validated under criteria version 4.0, for instance, may not fully meet the requirements of version 5.3. The five-year review creates a structured opportunity to assess whether the approved targets still satisfy the current criteria, and to update them where they fall short -- ensuring that the target remains genuinely current and science-aligned."
+
+- question: "Under C28, what specific obligation does a company face after receiving formal approval of its targets from the SBTi?"
+  options:
+    - "File the approved targets with the relevant national environmental regulator within 30 days"
+    - "Publicly announce the approved targets within 6 months of approval"
+    - "Begin annual CDP reporting within 12 months of approval"
+    - "Have the approved targets independently audited by an external assurance provider within 6 months"
+  answer: 1
+  explanation: "C28 requires that companies publicly announce their SBTi-approved targets within 6 months of receiving approval. This obligation ensures there is no extended gap between a target being validated and it being visible to external stakeholders such as investors, customers, and civil society. Failing to meet the 6-month window is a breach of C28 and can result in the target being removed from the SBTi's public registry. External audit is best practice but is not mandated by C28."

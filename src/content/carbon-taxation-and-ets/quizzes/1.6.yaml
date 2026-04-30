@@ -1,0 +1,44 @@
+- question: "Which country implemented one of the first national carbon taxes in 1990?"
+  options:
+    - "United States"
+    - "Finland"
+    - "China"
+    - "Brazil"
+  answer: 1
+  explanation: "Finland implemented one of the world's first carbon taxes in 1990, followed by other Nordic countries, pioneering the carbon tax approach."
+
+- question: "How does British Columbia use its carbon tax revenue?"
+  options:
+    - "All revenue goes to renewable energy subsidies"
+    - "Revenue is returned through income and business tax cuts (revenue-neutral approach)"
+    - "Revenue funds general government spending"
+    - "Revenue is donated to other countries"
+  answer: 1
+  explanation: "British Columbia's carbon tax is revenue-neutral, with all revenue returned through reductions in income taxes and business taxes, demonstrating that carbon pricing need not increase overall tax burden."
+
+- question: "What makes Sweden's carbon tax rate notable?"
+  options:
+    - "It is the lowest in the world"
+    - "It is one of the highest in the world, exceeding $100 per ton"
+    - "It changes daily"
+    - "It only applies to imports"
+  answer: 1
+  explanation: "Sweden has one of the world's highest carbon tax rates, exceeding $100 per ton, demonstrating that high carbon prices are economically feasible in a competitive economy."
+
+- question: "What approach does Canada's federal carbon pricing system use?"
+  options:
+    - "A single federal carbon tax on all emissions"
+    - "A federal backstop that applies only where provinces lack equivalent systems"
+    - "No federal system, entirely provincial"
+    - "A purely voluntary system"
+  answer: 1
+  explanation: "Canada uses a federal backstop approach where provinces can implement their own systems (tax or ETS), and the federal system applies only in provinces without equivalent pricing."
+
+- question: "What challenge has France's carbon tax faced?"
+  options:
+    - "It was never implemented"
+    - "Yellow vest protests led to suspension of planned increases due to distributional concerns"
+    - "It raised no revenue"
+    - "It was ruled unconstitutional"
+  answer: 1
+  explanation: "France's planned fuel tax increases (part of carbon pricing strategy) faced massive yellow vest protests in 2018, highlighting the importance of addressing distributional impacts and ensuring revenue use is seen as fair."

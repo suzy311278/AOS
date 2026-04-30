@@ -1,0 +1,44 @@
+- question: "Which of the following is an example of a climate 'transition risk' rather than a 'physical risk'?"
+  options:
+    - "A coastal factory that floods due to rising sea levels"
+    - "A utility company facing stranded assets as carbon pricing makes its coal plants uneconomic"
+    - "An agricultural business whose crop yields decline due to prolonged drought"
+    - "An insurer facing higher claims from extreme weather events"
+  answer: 1
+  explanation: "Transition risks arise from the policy, technology, and market changes associated with the shift to a low-carbon economy. A utility facing stranded coal assets due to carbon pricing is a classic transition risk. The other options all involve direct physical impacts of climate change — floods, drought, and extreme weather — which are physical risks."
+
+- question: "In the GHG Protocol framework, which Scope covers a company's purchased electricity?"
+  options:
+    - "Scope 1"
+    - "Scope 2"
+    - "Scope 3"
+    - "Scope 4 (avoided emissions)"
+  answer: 1
+  explanation: "Scope 2 covers indirect emissions from the generation of purchased electricity, heat, or steam. Scope 1 covers direct emissions from owned or controlled sources. Scope 3 covers all other indirect emissions across the value chain, including purchased goods, employee commuting, and use of sold products."
+
+- question: "The SASB materiality map is primarily useful for investors because it:"
+  options:
+    - "Provides standardised emission reduction targets for companies across all industries"
+    - "Identifies which sustainability issues are financially material across 77 different industries"
+    - "Ranks companies by their overall ESG score relative to sector peers"
+    - "Sets mandatory disclosure requirements for listed companies in SASB signatory countries"
+  answer: 1
+  explanation: "SASB has developed standards identifying which sustainability topics — including environmental ones — are likely to be financially material for companies in each of 77 industries. This industry-specific approach is more useful than generic ESG scoring because materiality varies enormously by sector: GHG emissions are highly material for oil companies but less so for software firms."
+
+- question: "What does the TCFD's 'weighted average carbon intensity' metric measure?"
+  options:
+    - "The total absolute greenhouse gas emissions of all companies in a portfolio, weighted by market capitalisation"
+    - "The carbon emissions per unit of revenue for portfolio companies, weighted by the portfolio's investment allocation"
+    - "The proportion of a portfolio's assets invested in companies with science-based emissions targets"
+    - "The temperature trajectory implied by a portfolio's current emissions, measured in degrees Celsius"
+  answer: 1
+  explanation: "Weighted average carbon intensity normalises emissions by revenue — measuring emissions per US$m of revenue — and then weights each company's intensity by its share of the portfolio value. This allows comparisons between companies and portfolios of different sizes, and accounts for the fact that high absolute emissions are not always a good proxy for high climate risk."
+
+- question: "Climate scenario analysis is recommended by the TCFD. Which of the following best describes its purpose in investment analysis?"
+  options:
+    - "To calculate the exact future financial losses a company will face from climate change"
+    - "To assess how a company or portfolio might perform across different plausible future climate and policy environments"
+    - "To identify which companies should be excluded from a portfolio on ethical grounds"
+    - "To compare a company's emissions against the Kyoto Protocol's sector-specific targets"
+  answer: 1
+  explanation: "Scenario analysis is a forward-looking technique for understanding how organisations, portfolios, or sectors might perform under different future conditions — including both high-ambition policy (transition risk scenario) and high-physical-impact (insufficient policy) scenarios. It does not produce precise predictions, but it helps investors identify key vulnerabilities and sources of resilience."

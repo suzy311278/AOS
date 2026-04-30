@@ -1,0 +1,26 @@
+- question: "The TNFD Prepare phase encompasses four interconnected components. Which of the following is NOT one of them?"
+  options:
+  - "Developing or refining business strategy to address material nature-related risks and opportunities"
+  - "Commissioning an independent third-party audit of all supplier nature performance"
+  - "Setting targets and goals for nature performance"
+  - "Selecting appropriate metrics to measure progress"
+  answer: 1
+  explanation: "The four components of the Prepare phase are: (1) strategy development, (2) target setting, (3) metric selection, and (4) assembling disclosure information for all four TNFD pillars. Third-party auditing of suppliers may be a useful practice but is not one of the four core Prepare phase components defined in TNFD guidance."
+
+- question: "Which initiative provides the methodology for setting science-based nature targets that TNFD explicitly encourages in the Prepare phase?"
+  options:
+  - "CDP (Carbon Disclosure Project)"
+  - "GRI (Global Reporting Initiative)"
+  - "SBTN (Science Based Targets Network)"
+  - "TCFD (Task Force on Climate-related Financial Disclosures)"
+  answer: 2
+  explanation: "The Science Based Targets Network (SBTN) provides the methodology for setting targets that are scientifically grounded, verifiable, and aligned with global biodiversity policy goals. TNFD and SBTN have published joint guidance for corporates, and TNFD's Prepare phase explicitly encourages SBTN-aligned target setting for material nature issues."
+
+- question: "TNFD structures its disclosure recommendations around four pillars. Which sequence correctly names these pillars?"
+  options:
+  - "Governance, Strategy, Risk and Impact Management, Metrics and Targets"
+  - "Identify, Assess, Respond, Report"
+  - "Locate, Evaluate, Assess, Prepare"
+  - "Material Issues, Priority Locations, Impact Pathways, Disclosure"
+  answer: 0
+  explanation: "TNFD's four disclosure pillars are Governance, Strategy, Risk and Impact Management, and Metrics and Targets - inherited from the TCFD structure but adapted for nature. LEAP (Locate, Evaluate, Assess, Prepare) is the assessment process that generates the information disclosed across these four pillars."

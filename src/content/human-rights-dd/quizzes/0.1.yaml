@@ -1,0 +1,26 @@
+- question: "Which document, adopted in 1948, provides the foundational catalogue of human rights that businesses are expected to respect?"
+  options:
+  - "International Covenant on Civil and Political Rights (ICCPR)"
+  - "Universal Declaration of Human Rights (UDHR)"
+  - "ILO Declaration on Fundamental Principles and Rights at Work"
+  - "UN Guiding Principles on Business and Human Rights"
+  answer: 1
+  explanation: "The UDHR, adopted by the UN General Assembly on 10 December 1948, articulates 30 articles covering rights that belong to every person by virtue of their humanity. It is the foundational reference for the corporate responsibility to respect human rights under the UNGPs."
+
+- question: "In 2022, the ILO added a fifth category of fundamental rights to its Declaration on Fundamental Principles and Rights at Work. What is this new category?"
+  options:
+  - "The right to a living wage"
+  - "The right to paid parental leave"
+  - "A safe and healthy working environment"
+  - "The right to social security"
+  answer: 2
+  explanation: "In 2022, the ILO added 'a safe and healthy working environment' as the fifth fundamental category, reflected in Conventions 155 and 187. The previous four categories covered freedom of association and collective bargaining, elimination of forced labour, abolition of child labour, and elimination of discrimination."
+
+- question: "A company that respects fair wages but tolerates excessive and compulsory overtime is violating which characteristic of human rights?"
+  options:
+  - "Universality"
+  - "Legality"
+  - "Indivisibility"
+  - "Proportionality"
+  answer: 2
+  explanation: "Indivisibility means that all human rights, including civil, political, economic, social, and cultural rights, are equally important. Selectively respecting some rights while disregarding others violates this principle. In this case, the right to fair wages is respected but the right to reasonable working hours (Article 24 of the UDHR) is not."

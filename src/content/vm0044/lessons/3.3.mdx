@@ -1,0 +1,145 @@
+{/* source: VM0044 v1.2, Section 8.2.3; Section 8.3; Equations 11-13 */}
+
+Once biochar leaves the production facility, the project is not necessarily done generating emissions. The application stage covers everything that happens between production and final use. There may also be emissions outside the project boundary that the project causes indirectly. These are called leakage emissions. Both must be accounted for before calculating the final net GHG removal.
+
+## Application Stage Project Emissions (Equation 11)
+
+The total GHG emissions at the application stage are:
+
+<EquationBreakdown
+  title="Equation 11 - Application Stage Project Emissions"
+  result="PE<sub>AS,y</sub> | Application Stage Emissions | Total GHG emissions at the application stage in year y, in tCO2e | blue"
+  inputs="E<sub>P,t,k,y</sub> | Processing Emissions | Emissions from processing biochar type t for application k in year y, in tCO2e | green ;; E<sub>ap,t,k,y</sub> | Utilization Emissions | Emissions from applying/incorporating biochar type t for application k in year y, in tCO2e (typically zero) | amber"
+  operator="+"
+/>
+
+The formula sums across all biochar types (t) and application types (k).
+
+### E_P,t,k,y: Processing Emissions (Equation 12)
+
+After production, biochar may need further preparation before it can be used. This can include sizing, grinding, or sifting to achieve the right particle size for the intended application. If any of this processing uses grid electricity or fossil fuels, those emissions must be counted.
+
+E_P,k,y = P_EPE,k,y + P_EPF,k,y
+
+Where:
+*   P_EPE,k,y = emissions from grid-connected electricity for biochar processing. Calculated using CDM TOOL05.
+*   P_EPF,k,y = emissions from fossil fuels for biochar processing. Calculated using CDM TOOL03.
+
+There are two important boundary conditions for this calculation:
+
+First, if the energy source for processing is entirely renewable, E_P,k,y = 0.
+
+Second, this emission component only covers processing of the biochar itself. It does NOT include emissions from producing any material that the biochar is mixed into, such as cement, asphalt, or fertilizer pellets. Those materials are considered outside the project boundary.
+
+Third, where there is no processing of biochar (for example, biochar is applied directly to soil in its original form), E_P,k,y = 0.
+
+### E_ap,t,k,y: Utilization Emissions
+
+The utilization emissions component accounts for GHG emissions that occur when biochar is actually applied or incorporated into its end use. For all application types under VM0044:
+
+**E_ap,t,k,y = 0**
+
+GHG emissions from fossil fuel combustion during mixing of biochar with fertilizer products or similar activities are considered negligible. This is consistent with the approach taken in CDM methodology AR-ACM0003.
+
+## Leakage Emissions (Section 8.3, Equation 13)
+
+Leakage refers to GHG emissions that occur outside the project boundary as a direct result of the project's activities. A well-designed methodology must account for these to ensure credits represent real, net climate benefit.
+
+<AnalogyBox>
+Leakage in carbon projects works like spillover effects in economics. If a city imposes congestion charges in the downtown area, drivers may shift to surrounding roads, creating more traffic and emissions there. The city reduced emissions within its boundary, but caused emissions outside it. Carbon project leakage works the same way: an activity you avoided inside your project may simply happen somewhere else.
+</AnalogyBox>
+
+VM0044 defines four leakage components:
+
+<EquationBreakdown
+  title="Equation 13 - Total Leakage"
+  result="LE<sub>y</sub> | Total Leakage | Total leakage emissions in year y, in tCO2e | blue"
+  inputs="LE<sub>as,y</sub> | Activity Shift Leakage | Emissions from activities displaced to other locations (always zero under VM0044) | green ;; LE<sub>bd,y</sub> | Biomass Diversion Leakage | Emissions from diverting biomass away from existing uses (zero - waste biomass only) | amber ;; LE<sub>ts,y</sub> | Sourcing Transport Leakage | Emissions from transporting waste biomass to production facility (zero if round-trip under 200 km) | violet ;; LE<sub>tap,y</sub> | Application Transport Leakage | Emissions from transporting biochar to the application site (zero if round-trip under 200 km) | rose"
+  operator="+"
+/>
+
+### LE_as,y: Activity Shift Leakage
+
+Activity shift leakage occurs when a project reduces an activity in one location and that activity simply moves to another location, causing emissions there instead.
+
+**LE_as,y = 0**
+
+VM0044 only permits waste biomass as feedstock. No purposely grown biomass is eligible (Condition 4a). Because the project is not diverting biomass from any productive land use, there is no mechanism by which the project could cause agricultural or forestry activity to shift elsewhere.
+
+### LE_bd,y: Biomass Diversion Leakage
+
+Biomass diversion leakage occurs when biomass that was previously being put to a useful purpose gets diverted into the project instead, causing someone else to find a replacement and generating emissions in the process.
+
+**LE_bd,y = 0 (negligible)**
+
+VM0044 only permits biomass that would have otherwise been combusted without energy recovery or left to decay. If a waste product was not being used productively, diverting it to biochar production does not displace any existing use. No replacement emissions occur.
+
+### LE_ts,y: Transport Leakage from Sourcing to Production
+
+Transportation of waste biomass from the collection or sourcing site to the biochar production facility generates emissions from fuel combustion. These emissions are assessed as potential leakage.
+
+<HighlightBox>
+If the round-trip transportation distance from the biomass sourcing site to the production facility is less than 200 km, LE_ts,y = 0. Transportation emissions below this threshold are treated as de minimis. If the round-trip distance exceeds 200 km, calculate LE_ts,y using CDM TOOL12 (Project and Leakage Emissions from Transportation of Freight). Only CO2 from transport is included, in accordance with CDM TOOL16 and TOOL12 provisions.
+</HighlightBox>
+
+### LE_tap,y: Transport Leakage from Production to Application
+
+Transportation of biochar from the production facility to the final application site also generates emissions. This component may involve more than one transport leg depending on the supply chain.
+
+Three possible transport routes must be considered:
+
+1.  Transport from the biochar production facility to a processing facility, AND transport from the processing facility to the final end-use site.
+2.  Alternatively, direct transport from the biochar production facility to the final end-use site (where no intermediate processing facility is used).
+
+For each route:
+
+*   If the round-trip distance for that route is less than 200 km: the leakage for that route = 0.
+*   If the round-trip distance exceeds 200 km: calculate using CDM TOOL12.
+
+<DeepDive title="How CDM TOOL12 calculates transport emissions">
+CDM TOOL12 is a standardised tool for estimating GHG emissions from the transportation of freight. The basic calculation multiplies three values together:
+
+*   The mass of cargo being transported (in tonnes)
+*   The distance travelled (in km)
+*   An emission factor for the specific vehicle type (in tCO2e per tonne-km)
+
+Emission factors vary by transport mode. Road freight (diesel trucks) typically has higher emission factors per tonne-km than rail or sea freight. If a project uses rail or river transport for long distances, this can significantly reduce the leakage calculation compared to road-only transport.
+
+The round-trip distance is used (not one way) because the vehicle must return. However, if the return trip carries other cargo, only the loaded leg may be counted. TOOL12 provides detailed guidance on these adjustments.
+
+Only CO2 emissions from transport are included in VM0044 leakage calculations. Other combustion-related pollutants (such as NOx) are outside scope.
+</DeepDive>
+
+## Summary: Leakage in Practice
+
+For most small and medium-scale biochar projects, the four leakage components simplify considerably:
+
+*   LE_as,y = 0 (always, by design of eligibility criteria)
+*   LE_bd,y = 0 (always, by design of eligibility criteria)
+*   LE_ts,y = 0 if sourcing is within 200 km (common for local waste streams)
+*   LE_tap,y = 0 if application is within 200 km of production (common for regional projects)
+
+When sourcing, production, and application all happen within a 200 km radius, total leakage is zero. The methodology's design actively encourages local biochar supply chains. The prohibition on importing feedstock from other countries (Condition 4c) reinforces this.
+
+<ExampleBox>
+**Worked Example: A Local Project with Zero Leakage**
+
+A project sources rice husks from local farms 50 km from the production facility. The production facility is 30 km from the farms. Biochar is transported 120 km to farmland for soil application. No processing of the biochar is required before application.
+
+*   Distance from sourcing to production (round-trip): 2 x 50 = 100 km. This is under 200 km. LE_ts,y = 0.
+*   Distance from production to application (round-trip): 2 x 120 = 240 km. This exceeds 200 km.
+
+Wait: the question is whether the one-way or round-trip distance is compared against the 200 km threshold. VM0044 specifies round-trip distance. So 240 km round-trip exceeds the threshold. LE_tap,y must be calculated using CDM TOOL12.
+
+However, if the biochar were applied at a site only 90 km from the production facility (round-trip = 180 km), then LE_tap,y = 0 as well, and total leakage = 0.
+
+Application stage processing emissions: E_P = 0 (no processing required). Utilization emissions: E_ap = 0 (always). Total PE_AS,y = 0.
+
+This example shows that project design choices about where to source feedstock and where to apply biochar have a direct effect on how leakage is calculated.
+</ExampleBox>
+
+<HighlightBox>
+Transportation leakage is only counted if the round-trip distance exceeds 200 km. This threshold applies separately to (1) the sourcing-to-production route and (2) the production-to-application route. Distances below 200 km round-trip are treated as de minimis and set to zero.
+</HighlightBox>
+
+<KeyTakeaways items="Application stage utilization emissions (E_ap) are always zero under VM0044 - only processing emissions from grinding or sizing biochar count ;; Activity shift and biomass diversion leakage are both zero by design because VM0044 only permits waste biomass that had no prior productive use ;; Transportation leakage uses the 200 km round-trip threshold - below it, emissions are de minimis; above it, calculate using CDM TOOL12 ;; Project design choices about sourcing and application locations directly affect leakage calculations - keeping all stages within 200 km eliminates transport leakage entirely ;; Processing emissions only cover biochar preparation, NOT emissions from producing the material biochar is mixed into (e.g., cement or asphalt)" />

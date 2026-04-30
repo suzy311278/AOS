@@ -1,0 +1,44 @@
+- question: "Which of the following best describes the concept of a 'universal owner' and its relevance to ESG investing?"
+  options:
+    - "A fund that invests exclusively in companies with perfect ESG scores across all three pillars"
+    - "An investor so large and diversified that it effectively owns a slice of the whole economy and cannot diversify away from systemic risks like climate change"
+    - "A global index fund that replicates every listed equity market without ESG screens"
+    - "An asset manager that operates across all asset classes including private equity and infrastructure"
+  answer: 1
+  explanation: "Universal owners are investors — typically very large pension funds and sovereign wealth funds — whose portfolios are so broad and large that systemic risks like climate change, pandemics, and social instability directly affect their overall returns. They cannot diversify away from these risks, giving them a strong financial incentive to support a more stable, sustainable economy."
+
+- question: "The EU Taxonomy Regulation (2020) establishes a framework that:"
+  options:
+    - "Requires all companies above €500m in revenue to publish annual ESG reports under IFRS standards"
+    - "States conditions under which an economic activity can be considered environmentally sustainable, based on six environmental objectives"
+    - "Prohibits investment in companies with high carbon emissions across the EU single market"
+    - "Mandates that all EU pension funds allocate at least 30% of assets to green bonds"
+  answer: 1
+  explanation: "The EU Taxonomy Regulation establishes a classification framework — not a prohibition or mandate — that defines conditions for an economic activity to be considered environmentally sustainable. It is based on six objectives: climate mitigation, climate adaptation, water and marine resources, circular economy, pollution prevention, and biodiversity. SFDR handles disclosure requirements."
+
+- question: "What is greenwashing, and why does it pose a challenge to ESG investing?"
+  options:
+    - "A regulatory strategy that artificially inflates ESG scores to attract institutional capital"
+    - "The practice of overstating or misrepresenting the ESG credentials of an investment product, undermining investor trust and the integrity of the ESG market"
+    - "A data methodology that excludes negative ESG events from historical company scores"
+    - "A form of impact investing where environmental outcomes are measured but social outcomes are ignored"
+  answer: 1
+  explanation: "Greenwashing refers to overstating or misrepresenting the sustainability credentials of an investment product. It is a significant challenge because it makes it difficult for investors to distinguish genuinely responsible investments from those using ESG language primarily for marketing. Regulatory initiatives like SFDR are designed to reduce greenwashing through mandatory disclosure."
+
+- question: "The Task Force on Climate-related Financial Disclosures (TCFD) released its recommendations in 2017. These recommendations centre on disclosures in four areas. Which of the following correctly lists those four areas?"
+  options:
+    - "Environment, Social, Governance, and Impact"
+    - "Governance, Strategy, Risk Management, and Metrics and Targets"
+    - "Carbon Footprint, Water Usage, Supply Chain, and Board Diversity"
+    - "Transition Risk, Physical Risk, Litigation Risk, and Regulatory Risk"
+  answer: 1
+  explanation: "The TCFD recommendations centre on climate-related disclosures in four areas: Governance (how the organisation oversees climate risks and opportunities), Strategy (actual and potential climate impacts on business), Risk Management (processes for identifying and managing climate risks), and Metrics and Targets (data used to assess and manage climate risks)."
+
+- question: "Which of the following is identified as a key challenge for asset managers integrating ESG into their investment processes?"
+  options:
+    - "Excessive regulatory clarity that limits investment discretion"
+    - "Overabundance of standardised, comparable ESG data from all major markets"
+    - "Insufficient clear signals from asset owners, narrow interpretations of investment objectives, and resource constraints"
+    - "Mandatory requirements to divest from all fossil fuel holdings within three years"
+  answer: 2
+  explanation: "Key challenges for asset managers integrating ESG include: lack of clear signals from asset owners about their ESG appetite; consultants and advisers who interpret investment objectives narrowly; and resource constraints — particularly for smaller managers who may view ESG as a separate compliance function rather than part of core investment analysis. Overly standardised data is not currently a challenge — data inconsistency is."

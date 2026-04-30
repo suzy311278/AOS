@@ -1,0 +1,26 @@
+- question: "Which of the following correctly defines impact materiality under ESRS 1?"
+  options:
+    - "A sustainability matter is material from an impact perspective when it generates financial risks for the company"
+    - "A sustainability matter is material from an impact perspective when it pertains to the company's actual or potential, positive or negative impacts on people or the environment"
+    - "Impact materiality applies only to negative environmental impacts in the company's own operations"
+    - "A sustainability matter is material when it is reported by more than half of competitors in the same sector"
+  answer: 1
+  explanation: "Under ESRS 1 paragraph 43, a sustainability matter is material from an impact perspective when it pertains to the company's material actual or potential, positive or negative impacts on people or the environment over the short, medium, or long term."
+
+- question: "What is the scope of impacts that must be considered in the impact materiality assessment?"
+  options:
+    - "Only impacts occurring within the company's own operations and facilities"
+    - "Only impacts on the natural environment, not on people"
+    - "Impacts connected with the company's own operations and upstream and downstream value chain, including through business relationships"
+    - "Impacts in the company's home country only"
+  answer: 2
+  explanation: "The scope of impact materiality is broad. Impacts include those connected with the company's own operations and upstream and downstream value chain, including through its products and services and through its business relationships. Business relationships are not limited to direct contractual relationships. (ESRS 1, paragraph 43)"
+
+- question: "For an actual negative impact that is already occurring, on what basis is materiality assessed?"
+  options:
+    - "Severity and likelihood"
+    - "Severity only"
+    - "Likelihood only"
+    - "Scale only"
+  answer: 1
+  explanation: "For actual negative impacts, materiality is based on the severity of the impact alone. Likelihood is only relevant for potential impacts, not for actual ones that are already occurring. (ESRS 1, paragraph 45)"

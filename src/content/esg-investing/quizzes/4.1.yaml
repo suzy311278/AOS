@@ -1,0 +1,44 @@
+- question: "Which of the following best describes the relationship between stewardship and fiduciary duty?"
+  options:
+    - "Stewardship is an alternative to fiduciary duty, applying only to ESG-focused funds"
+    - "Stewardship is one of the most important ways institutional investors fulfil their fiduciary duty to clients and beneficiaries"
+    - "Fiduciary duty applies only to pension funds, while stewardship applies to all asset managers"
+    - "Stewardship replaces fiduciary duty when an investor signs the PRI Principles"
+  answer: 1
+  explanation: "Stewardship — the active, responsible exercise of ownership rights to preserve and enhance long-term asset value — is a direct expression of fiduciary duty. Institutional investors manage assets on behalf of others, and their obligation to act in those beneficiaries' interests makes responsible ownership a requirement, not an option."
+
+- question: "What is the key distinction between a monitoring dialogue and an engagement dialogue?"
+  options:
+    - "Monitoring dialogues occur at AGMs; engagement dialogues occur at bilateral meetings"
+    - "Monitoring is conducted by stewardship teams; engagement by portfolio managers"
+    - "Monitoring is primarily one-way information-gathering to inform investment decisions; engagement is two-way dialogue aimed at changing company behaviour"
+    - "Monitoring focuses on ESG issues; engagement focuses on governance issues only"
+  answer: 2
+  explanation: "Monitoring dialogues are primarily information-seeking conversations that inform buy, sell, or hold decisions. Engagement dialogues are two-way: the investor expresses a view, communicates specific concerns, and seeks concrete change in company behaviour — with a pre-defined objective set from the outset."
+
+- question: "What was the most significant change introduced by the UK Stewardship Code 2020 compared to earlier versions?"
+  options:
+    - "It expanded the number of principles from seven to twelve"
+    - "It shifted the focus from publishing statements of intent to demonstrating concrete outcomes from stewardship activity"
+    - "It made stewardship codes legally binding for the first time"
+    - "It required all asset owners to carry out stewardship activities directly, without delegating to fund managers"
+  answer: 1
+  explanation: "While the 2020 Code did expand to twelve principles, the most significant change was the shift from intent to outcomes. Signatories can no longer satisfy the Code by publishing ambitious policy statements — they must report annually on what they actually did and provide concrete evidence of what changed for clients and beneficiaries as a result."
+
+- question: "According to research on engagement effectiveness, which of the following statements is most accurate?"
+  options:
+    - "Engagement generally fails to produce measurable financial returns and is pursued primarily for reputational reasons"
+    - "Engagement produces the highest returns when conducted aggressively and publicly from the outset"
+    - "Successful engagement, focused on material issues and pursued persistently, has been associated with positive abnormal financial returns"
+    - "The financial benefits of engagement are limited to governance-related issues and do not extend to environmental or social matters"
+  answer: 2
+  explanation: "Studies of engagement funds and stewardship programmes have found that successful engagement — focused on material issues and pursued with consistency — is associated with positive abnormal financial returns. Climate change engagements showed excess returns exceeding 10% in the year following success, and ESG engagements showed meaningful abnormal returns on average. Importantly, unsuccessful engagements showed no adverse financial response."
+
+- question: "Under the PRI framework, engagement falls primarily under which Principle?"
+  options:
+    - "Principle 1 — incorporating ESG issues into investment analysis and decision-making"
+    - "Principle 2 — being active owners and incorporating ESG into ownership policies and practices"
+    - "Principle 3 — seeking appropriate disclosure on ESG issues by investee entities"
+    - "Principle 6 — reporting on activities and progress toward implementing the Principles"
+  answer: 1
+  explanation: "Principle 2 is the 'engagement principle' of the PRI, committing signatories to be active owners and to incorporate ESG considerations into their ownership policies and practices. It is the foundation for all stewardship and engagement activity carried out by PRI signatories."

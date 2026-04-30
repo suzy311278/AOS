@@ -1,0 +1,26 @@
+- question: "Which European Sustainability Reporting Standard (ESRS) specifically addresses resource use and circular economy?"
+  options:
+    - "ESRS E1 (Climate Change)"
+    - "ESRS E3 (Water and Marine Resources)"
+    - "ESRS E4 (Biodiversity and Ecosystems)"
+    - "ESRS E5 (Resource Use and Circular Economy)"
+  answer: 3
+  explanation: "ESRS E5 specifically addresses Resource Use and Circular Economy. It requires disclosure of resource inflows (including recycled/renewable fraction), resource outflows (including products designed for circularity), waste data (by type and disposal route), and the company's circular economy strategy, targets, and governance."
+
+- question: "What does 'double materiality' under CSRD mean for circular economy topics?"
+  options:
+    - "Companies must report circular economy data in both financial and sustainability reports"
+    - "Circular economy topics must pass two separate materiality thresholds before being reported"
+    - "Companies must assess both financial materiality (CE risks to the company) and impact materiality (company's environmental impact through resource use)"
+    - "Large and small companies face different materiality thresholds for the same topics"
+  answer: 2
+  explanation: "Double materiality means assessing both financial materiality (how circular economy issues affect the company's financial performance, such as virgin material dependency as a supply risk) and impact materiality (how the company affects the environment through waste generation and resource consumption). Both dimensions must be reported if material."
+
+- question: "How does circular economy performance relate to investor financial risk assessment?"
+  options:
+    - "Circular economy performance is only relevant to impact investors, not mainstream financial analysis"
+    - "Virgin material dependency and high waste generation create transition and regulatory risks that circular models reduce"
+    - "Circular business models always have higher costs and are therefore riskier for investors"
+    - "Circular economy is exclusively a regulatory compliance issue with no financial risk dimension"
+  answer: 1
+  explanation: "Investors recognise that virgin material dependency creates transition risk (as resource prices rise, regulations tighten, and carbon costs enter supply chains), while high waste generation creates regulatory risk as EPR obligations expand and landfill restrictions tighten. Circular business models reduce these risks, making circular economy performance a proxy for long-term business resilience."

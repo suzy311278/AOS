@@ -1,0 +1,26 @@
+- question: "What are the three core objectives of the Paris Agreement as set out in Article 2?"
+  options:
+    - "Emissions reductions, technology transfer, and carbon markets"
+    - "Temperature goals (mitigation), adaptation, and finance flows consistent with low-carbon development"
+    - "National climate plans, global stocktake, and loss and damage compensation"
+    - "Renewable energy targets, fossil fuel phase-out, and carbon pricing"
+  answer: 1
+  explanation: "Article 2 of the Paris Agreement establishes three pillars: (1) holding warming to well below 2°C while pursuing 1.5°C (mitigation); (2) increasing the ability to adapt and fostering climate resilience; and (3) making finance flows consistent with low GHG emissions and climate-resilient development. These three pillars reflect the demands of both developed and developing nations in the negotiation process."
+
+- question: "What is the legal character of Nationally Determined Contributions (NDCs) under the Paris Agreement?"
+  options:
+    - "NDC content (the level of ambition and specific policies) is internationally enforceable by an international court"
+    - "The obligation to submit and update NDCs is procedurally binding, but the ambition level of NDC content is not internationally enforceable"
+    - "NDCs are entirely voluntary with no binding legal character whatsoever"
+    - "NDCs are binding at the domestic level in all signatory countries, enforced by national courts"
+  answer: 1
+  explanation: "Under the Paris Agreement, all Parties are legally obligated to prepare, communicate, and maintain successive NDCs that represent progression in ambition. However, the level of ambition itself is nationally determined and not internationally enforceable: no international body can compel a country to strengthen its NDC target. This design secured broad participation but at the cost of guaranteed ambition levels."
+
+- question: "What is the purpose of the Global Stocktake conducted every five years under the Paris Agreement?"
+  options:
+    - "To penalize countries that fail to meet their NDC commitments through trade sanctions"
+    - "To negotiate new NDC targets for each country based on a formula for equitable burden-sharing"
+    - "To assess collective progress toward the Agreement's goals and inform the next round of NDC submissions with higher ambition"
+    - "To verify that carbon offset credits generated under Article 6 are additional and permanent"
+  answer: 2
+  explanation: "The Global Stocktake (GST) assesses the aggregate progress of all Parties toward the Paris Agreement's temperature, adaptation, and finance goals. It is not a mechanism for punishing individual countries. The first GST (completed at COP28 in 2023) found that current NDC commitments point toward approximately 2.5-3°C of warming, well above the 1.5°C target, and its findings are intended to spur higher ambition in the 2025 round of NDC submissions."

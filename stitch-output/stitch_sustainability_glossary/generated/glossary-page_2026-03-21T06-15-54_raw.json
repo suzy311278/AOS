@@ -1,0 +1,180 @@
+{
+  "outputComponents": [
+    {
+      "design": {
+        "screens": [
+          {
+            "designSystem": {
+              "designSystem": {
+                "displayName": "Greentryst Meridian",
+                "theme": {
+                  "bodyFont": "INTER",
+                  "colorMode": "LIGHT",
+                  "colorVariant": "FIDELITY",
+                  "customColor": "#005C55",
+                  "designMd": "# Design System Document\n\n## 1. Overview & Creative North Star: \"The Living Archive\"\nThis design system is built upon the concept of **The Living Archive**. It rejects the sterile, boxy nature of traditional Learning Management Systems in favor of a high-end editorial experience. We bridge the gap between \"Academic Authority\" and \"Modern Sustainability.\"\n\nThe \"Living Archive\" aesthetic is defined by **Tonal Architecture**. Instead of using lines to box in knowledge, we use light, depth, and generous whitespace to let ideas breathe. The interface should feel like a series of premium paper stocks layered atop one another—substantial, tactile, and impeccably organized.\n\n### Key Tenets\n*   **Intentional Asymmetry:** Break the rigid 12-column grid by using offset headlines and staggered card layouts to create a rhythmic, editorial flow.\n*   **Atmospheric Depth:** Use background shifts to define hierarchy. If everything is contained in a border, nothing is important.\n*   **The Power of Pause:** Use the spacing scale aggressively. \"Generous whitespace\" is not empty—it is a tool for focus.\n\n---\n\n## 2. Color & Surface Philosophy\nThe palette is rooted in the Deep Teal of our primary brand, supported by a sophisticated range of \"Earthy Neutrals\" that move away from cold greys.\n\n### The \"No-Line\" Rule\n**1px solid borders are strictly prohibited for sectioning or containment.** To separate a sidebar from a main feed, or a card from a background, you must use a tonal shift.\n*   **Surface (Base):** `#f7faf8`\n*   **Surface Container (Low):** `#f2f4f2`\n*   **Surface Container (High):** `#e6e9e7`\n\n### Surface Hierarchy & Nesting\nTreat the UI as a physical stack. \n1.  **Level 0 (The Desk):** `surface` (`#f7faf8`) — The primary background.\n2.  **Level 1 (The Folder):** `surface_container_low` (`#f2f4f2`) — Large content areas or sidebars.\n3.  **Level 2 (The Sheet):** `surface_container_lowest` (`#ffffff`) — High-priority interactive cards or \"hero\" modules.\n\n### The Glass & Gradient Rule\nTo add \"soul\" to the academy experience:\n*   **Hero Textures:** Use a subtle linear gradient from `primary` (#00433d) to `primary_container` (#005c55) at a 135-degree angle.\n*   **Floating Elements:** For navigation bars or modals, use `surface_container_lowest` at 80% opacity with a **24px Backdrop Blur**. This creates a \"frosted glass\" effect that keeps the user grounded in their previous context.\n\n---\n\n## 3. Typography: The Intellectual Voice\nWe pair the geometric precision of **Manrope** with the high-utility legibility of **Inter**.\n\n*   **Headlines (Manrope):** Use `display-lg` (3.5rem) and `headline-lg` (2.0rem) for editorial impact. Manrope should always be set with a slightly tighter letter-spacing (-0.02em) to maintain a \"locked-in\" professional look.\n*   **Body (Inter):** All long-form reading—course descriptions, articles, and feedback—must use `body-lg` (1.0rem) or `body-md` (0.875rem). Set line-height to 1.6 for maximum readability.\n*   **Labels (Inter):** Small caps or bold `label-md` tags should be used for metadata (e.g., \"30 MIN COURSE\") to provide a clear functional contrast to the academic headlines.\n\n---\n\n## 4. Elevation & Depth\nIn this system, depth is a whisper, not a shout.\n\n*   **The Layering Principle:** A `surface_container_highest` (#e0e3e1) element should only be placed on a `surface` or `surface_low` background to create a \"recessed\" or \"elevated\" feel without lines.\n*   **Ambient Shadows:** For \"floating\" items (like a course player control), use a custom shadow: `0px 20px 40px rgba(25, 28, 28, 0.06)`. Note the extremely low opacity—it should feel like a natural light shadow, not a digital effect.\n*   **The Ghost Border Fallback:** If accessibility requirements demand a container edge (e.g., high-contrast mode), use `outline_variant` (#bec9c6) at **15% opacity**. Never 100%.\n\n---\n\n## 5. Signature Components\n\n### Buttons (The \"Pill\" Interaction)\n*   **Primary:** Filled with `primary` (#00433d), text in `on_primary` (#ffffff). Shape: `full` (9999px).\n*   **Secondary:** Filled with `secondary_container` (#c9e6e0), text in `on_secondary_container` (#4e6864).\n*   **Tertiary:** No background. Use `primary` text with an underline that only appears on hover.\n\n### Course Cards\n*   **Style:** Background of `surface_container_lowest` (#ffffff). \n*   **Corners:** `xl` (1.5rem) for the outer container.\n*   **Separation:** Use a vertical spacing of `8` (2.75rem) between cards instead of dividers.\n\n### Input Fields\n*   **Style:** A soft `surface_container_high` (#e6e9e7) fill.\n*   **Interaction:** On focus, the background shifts to `surface_container_lowest` (#ffffff) with a 2px `surface_tint` (#1a6962) \"glow\" (not a sharp border).\n\n### Progress Indicators (The Academy Specialty)\n*   Use a \"Tonal Bar\": A background of `primary_fixed` (#a7f0e6) with the progress fill in `primary` (#00433d). No rounded ends on the bar itself—keep them \"Editorial Square\" or `sm` (0.25rem) to differentiate from buttons.\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do\n*   **Do** use `16` (5.5rem) or `20` (7rem) spacing between major sections to let the \"Academic\" feel resonate.\n*   **Do** use `tertiary` (#5f2c17) as an accent color for \"Warning\" or \"Special Insight\" callouts to break the sea of teal.\n*   **Do** use \"Floating Labels\" for inputs to keep the form layouts clean and professional.\n\n### Don't\n*   **Don't** use 1px dividers between list items. Use a `0.5` (0.175rem) vertical gap and a subtle background hover state.\n*   **Don't** use pure black (#000000) for text. Always use `on_surface` (#191c1c) to maintain the soft, premium feel.\n*   **Don't** use \"drop shadows\" on every card. Reserve them only for elements that physically move or float over other content.\n\n---\n\n## 7. Spacing & Rhythm\nConsistency is maintained through the specific Spacing Scale. Always favor \"roomy\" layouts.\n*   **Page Margins:** Desktop should use `12` (4rem) or `16` (5.5rem).\n*   **Content Gaps:** Use `6` (2rem) for related items; use `10` (3.5rem) for new conceptual sections.",
+                  "font": "MANROPE",
+                  "headlineFont": "MANROPE",
+                  "labelFont": "INTER",
+                  "namedColors": {
+                    "background": "#f7faf8",
+                    "error": "#ba1a1a",
+                    "error_container": "#ffdad6",
+                    "inverse_on_surface": "#eff1f0",
+                    "inverse_primary": "#8cd4ca",
+                    "inverse_surface": "#2d3130",
+                    "on_background": "#191c1c",
+                    "on_error": "#ffffff",
+                    "on_error_container": "#93000a",
+                    "on_primary": "#ffffff",
+                    "on_primary_container": "#8ad2c8",
+                    "on_primary_fixed": "#00201d",
+                    "on_primary_fixed_variant": "#00504a",
+                    "on_secondary": "#ffffff",
+                    "on_secondary_container": "#4e6864",
+                    "on_secondary_fixed": "#05201d",
+                    "on_secondary_fixed_variant": "#324b48",
+                    "on_surface": "#191c1c",
+                    "on_surface_variant": "#3f4947",
+                    "on_tertiary": "#ffffff",
+                    "on_tertiary_container": "#ffb295",
+                    "on_tertiary_fixed": "#370e00",
+                    "on_tertiary_fixed_variant": "#6e3822",
+                    "outline": "#6f7977",
+                    "outline_variant": "#bec9c6",
+                    "primary": "#00433d",
+                    "primary_container": "#005c55",
+                    "primary_fixed": "#a7f0e6",
+                    "primary_fixed_dim": "#8cd4ca",
+                    "secondary": "#496360",
+                    "secondary_container": "#c9e6e0",
+                    "secondary_fixed": "#cce8e3",
+                    "secondary_fixed_dim": "#b0ccc7",
+                    "surface": "#f7faf8",
+                    "surface_bright": "#f7faf8",
+                    "surface_container": "#eceeed",
+                    "surface_container_high": "#e6e9e7",
+                    "surface_container_highest": "#e0e3e1",
+                    "surface_container_low": "#f2f4f2",
+                    "surface_container_lowest": "#ffffff",
+                    "surface_dim": "#d8dbd9",
+                    "surface_tint": "#1a6962",
+                    "surface_variant": "#e0e3e1",
+                    "tertiary": "#5f2c17",
+                    "tertiary_container": "#7b422b",
+                    "tertiary_fixed": "#ffdbce",
+                    "tertiary_fixed_dim": "#ffb599"
+                  },
+                  "overridePrimaryColor": "#005C55",
+                  "roundness": "ROUND_EIGHT",
+                  "spacingScale": 3
+                }
+              },
+              "name": "assets/2703e3653c894b388cd205a89a54f36b",
+              "version": "1"
+            },
+            "deviceType": "DESKTOP",
+            "generatedBy": "figaro_agent",
+            "height": "6878",
+            "htmlCode": {
+              "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzU4MDUyODRlNzI3YTQ2NzVhMzYwMDFlMjJkODMxZTU1EgsSBxD4gf-qtRAYAZIBJAoKcHJvamVjdF9pZBIWQhQxMjE0MzIyNDExNjMwNjAzMjU5OQ&filename=&opi=96797242",
+              "mimeType": "text/html",
+              "name": "projects/12143224116306032599/files/d4539a58bac74d068cbac0e0d870f35d"
+            },
+            "id": "3cfbf51cff814b1182a956e8a3ee10e7",
+            "name": "projects/12143224116306032599/screens/3cfbf51cff814b1182a956e8a3ee10e7",
+            "prompt": "A high-end, editorial-style Sustainability Glossary page for Greentryst Academy. \n\nHeader: 'Sustainability Glossary' in Manrope 3xl bold (#00433d). Subtitle: '190+ terms across climate science, carbon markets, ESG, and green finance.' in Inter body-lg. \nSearch: Large, centered, rounded-full input field using surface-container-low background, with a search icon and placeholder 'Search terms...'.\n\nCategory Filter: A horizontal row of rounded-full pills for filtering: 'All' (active, primary bg), 'Climate Science' (green dot), 'Carbon Markets' (blue dot), 'ESG' (violet dot), 'Green Finance' (amber dot), 'GHG Protocol' (teal dot).\n\nMain Content (Centered, Max-W-6xl):\nAlphabetical sections (e.g., 'A', 'B', 'C') as bold Manrope headlines with a subtle spacing gap.\nTerm Cards (2-column grid): Rounded-2xl cards, surface-container-lowest background, no borders. \n- Content: Term name (bold, primary #005c55), small rounded-full category pill, 2-3 line definition in Inter, and 'Related: ...' links in primary color at the bottom. \n- Terms to include: 'Carbon Credit', 'Corresponding Adjustment', 'ITMO', 'NDC', 'Scope 1 Emissions', 'Additionality'.\n- Hover state: Subtle lift from surface-container-low to surface-container-lowest with a very soft ambient shadow.\n\nStyling: No 1px borders. Use background shifts (surface to surface-container-low) for sectioning. Extensive whitespace (Breathable Grid) to maintain an architectural journal aesthetic. Gradient primary #00433d to #005c55 for the main header if possible.",
+            "screenMetadata": {
+              "agentType": "HATTER_AGENT",
+              "status": "COMPLETE"
+            },
+            "screenType": "DESIGN",
+            "screenshot": {
+              "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0uiQRc9rWWRAhD9iouNLBtIuuMeu0ZaTw1ddCvWhNfhsprx3gflNjKOKMPmHSjgS5tLr_G1KoV3hQy1P_ZW6-fBLjymICMmwKonEgfm6iWghHQMTQCMNRH1Kacir-Kw6IAq630XfNgx1kgKrj0SFhF12EsKVIqpkDzyz44mA6OEf0owtI9zb72m8GNfNGA6Nn-OTU9VaH69RJjReIg1s87pathtbKXQl3Nu059lSK3D3jum0T00itNXM7hA",
+              "name": "projects/12143224116306032599/files/8c771b4757b84a09a39a040165e9c93d"
+            },
+            "theme": {
+              "bodyFont": "INTER",
+              "colorMode": "LIGHT",
+              "colorVariant": "FIDELITY",
+              "customColor": "#005C55",
+              "designMd": "# Design System Document\n\n## 1. Overview & Creative North Star: \"The Living Archive\"\nThis design system is built upon the concept of **The Living Archive**. It rejects the sterile, boxy nature of traditional Learning Management Systems in favor of a high-end editorial experience. We bridge the gap between \"Academic Authority\" and \"Modern Sustainability.\"\n\nThe \"Living Archive\" aesthetic is defined by **Tonal Architecture**. Instead of using lines to box in knowledge, we use light, depth, and generous whitespace to let ideas breathe. The interface should feel like a series of premium paper stocks layered atop one another—substantial, tactile, and impeccably organized.\n\n### Key Tenets\n*   **Intentional Asymmetry:** Break the rigid 12-column grid by using offset headlines and staggered card layouts to create a rhythmic, editorial flow.\n*   **Atmospheric Depth:** Use background shifts to define hierarchy. If everything is contained in a border, nothing is important.\n*   **The Power of Pause:** Use the spacing scale aggressively. \"Generous whitespace\" is not empty—it is a tool for focus.\n\n---\n\n## 2. Color & Surface Philosophy\nThe palette is rooted in the Deep Teal of our primary brand, supported by a sophisticated range of \"Earthy Neutrals\" that move away from cold greys.\n\n### The \"No-Line\" Rule\n**1px solid borders are strictly prohibited for sectioning or containment.** To separate a sidebar from a main feed, or a card from a background, you must use a tonal shift.\n*   **Surface (Base):** `#f7faf8`\n*   **Surface Container (Low):** `#f2f4f2`\n*   **Surface Container (High):** `#e6e9e7`\n\n### Surface Hierarchy & Nesting\nTreat the UI as a physical stack. \n1.  **Level 0 (The Desk):** `surface` (`#f7faf8`) — The primary background.\n2.  **Level 1 (The Folder):** `surface_container_low` (`#f2f4f2`) — Large content areas or sidebars.\n3.  **Level 2 (The Sheet):** `surface_container_lowest` (`#ffffff`) — High-priority interactive cards or \"hero\" modules.\n\n### The Glass & Gradient Rule\nTo add \"soul\" to the academy experience:\n*   **Hero Textures:** Use a subtle linear gradient from `primary` (#00433d) to `primary_container` (#005c55) at a 135-degree angle.\n*   **Floating Elements:** For navigation bars or modals, use `surface_container_lowest` at 80% opacity with a **24px Backdrop Blur**. This creates a \"frosted glass\" effect that keeps the user grounded in their previous context.\n\n---\n\n## 3. Typography: The Intellectual Voice\nWe pair the geometric precision of **Manrope** with the high-utility legibility of **Inter**.\n\n*   **Headlines (Manrope):** Use `display-lg` (3.5rem) and `headline-lg` (2.0rem) for editorial impact. Manrope should always be set with a slightly tighter letter-spacing (-0.02em) to maintain a \"locked-in\" professional look.\n*   **Body (Inter):** All long-form reading—course descriptions, articles, and feedback—must use `body-lg` (1.0rem) or `body-md` (0.875rem). Set line-height to 1.6 for maximum readability.\n*   **Labels (Inter):** Small caps or bold `label-md` tags should be used for metadata (e.g., \"30 MIN COURSE\") to provide a clear functional contrast to the academic headlines.\n\n---\n\n## 4. Elevation & Depth\nIn this system, depth is a whisper, not a shout.\n\n*   **The Layering Principle:** A `surface_container_highest` (#e0e3e1) element should only be placed on a `surface` or `surface_low` background to create a \"recessed\" or \"elevated\" feel without lines.\n*   **Ambient Shadows:** For \"floating\" items (like a course player control), use a custom shadow: `0px 20px 40px rgba(25, 28, 28, 0.06)`. Note the extremely low opacity—it should feel like a natural light shadow, not a digital effect.\n*   **The Ghost Border Fallback:** If accessibility requirements demand a container edge (e.g., high-contrast mode), use `outline_variant` (#bec9c6) at **15% opacity**. Never 100%.\n\n---\n\n## 5. Signature Components\n\n### Buttons (The \"Pill\" Interaction)\n*   **Primary:** Filled with `primary` (#00433d), text in `on_primary` (#ffffff). Shape: `full` (9999px).\n*   **Secondary:** Filled with `secondary_container` (#c9e6e0), text in `on_secondary_container` (#4e6864).\n*   **Tertiary:** No background. Use `primary` text with an underline that only appears on hover.\n\n### Course Cards\n*   **Style:** Background of `surface_container_lowest` (#ffffff). \n*   **Corners:** `xl` (1.5rem) for the outer container.\n*   **Separation:** Use a vertical spacing of `8` (2.75rem) between cards instead of dividers.\n\n### Input Fields\n*   **Style:** A soft `surface_container_high` (#e6e9e7) fill.\n*   **Interaction:** On focus, the background shifts to `surface_container_lowest` (#ffffff) with a 2px `surface_tint` (#1a6962) \"glow\" (not a sharp border).\n\n### Progress Indicators (The Academy Specialty)\n*   Use a \"Tonal Bar\": A background of `primary_fixed` (#a7f0e6) with the progress fill in `primary` (#00433d). No rounded ends on the bar itself—keep them \"Editorial Square\" or `sm` (0.25rem) to differentiate from buttons.\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do\n*   **Do** use `16` (5.5rem) or `20` (7rem) spacing between major sections to let the \"Academic\" feel resonate.\n*   **Do** use `tertiary` (#5f2c17) as an accent color for \"Warning\" or \"Special Insight\" callouts to break the sea of teal.\n*   **Do** use \"Floating Labels\" for inputs to keep the form layouts clean and professional.\n\n### Don't\n*   **Don't** use 1px dividers between list items. Use a `0.5` (0.175rem) vertical gap and a subtle background hover state.\n*   **Don't** use pure black (#000000) for text. Always use `on_surface` (#191c1c) to maintain the soft, premium feel.\n*   **Don't** use \"drop shadows\" on every card. Reserve them only for elements that physically move or float over other content.\n\n---\n\n## 7. Spacing & Rhythm\nConsistency is maintained through the specific Spacing Scale. Always favor \"roomy\" layouts.\n*   **Page Margins:** Desktop should use `12` (4rem) or `16` (5.5rem).\n*   **Content Gaps:** Use `6` (2rem) for related items; use `10` (3.5rem) for new conceptual sections.",
+              "font": "MANROPE",
+              "headlineFont": "MANROPE",
+              "labelFont": "INTER",
+              "namedColors": {
+                "background": "#f7faf8",
+                "error": "#ba1a1a",
+                "error_container": "#ffdad6",
+                "inverse_on_surface": "#eff1f0",
+                "inverse_primary": "#8cd4ca",
+                "inverse_surface": "#2d3130",
+                "on_background": "#191c1c",
+                "on_error": "#ffffff",
+                "on_error_container": "#93000a",
+                "on_primary": "#ffffff",
+                "on_primary_container": "#8ad2c8",
+                "on_primary_fixed": "#00201d",
+                "on_primary_fixed_variant": "#00504a",
+                "on_secondary": "#ffffff",
+                "on_secondary_container": "#4e6864",
+                "on_secondary_fixed": "#05201d",
+                "on_secondary_fixed_variant": "#324b48",
+                "on_surface": "#191c1c",
+                "on_surface_variant": "#3f4947",
+                "on_tertiary": "#ffffff",
+                "on_tertiary_container": "#ffb295",
+                "on_tertiary_fixed": "#370e00",
+                "on_tertiary_fixed_variant": "#6e3822",
+                "outline": "#6f7977",
+                "outline_variant": "#bec9c6",
+                "primary": "#00433d",
+                "primary_container": "#005c55",
+                "primary_fixed": "#a7f0e6",
+                "primary_fixed_dim": "#8cd4ca",
+                "secondary": "#496360",
+                "secondary_container": "#c9e6e0",
+                "secondary_fixed": "#cce8e3",
+                "secondary_fixed_dim": "#b0ccc7",
+                "surface": "#f7faf8",
+                "surface_bright": "#f7faf8",
+                "surface_container": "#eceeed",
+                "surface_container_high": "#e6e9e7",
+                "surface_container_highest": "#e0e3e1",
+                "surface_container_low": "#f2f4f2",
+                "surface_container_lowest": "#ffffff",
+                "surface_dim": "#d8dbd9",
+                "surface_tint": "#1a6962",
+                "surface_variant": "#e0e3e1",
+                "tertiary": "#5f2c17",
+                "tertiary_container": "#7b422b",
+                "tertiary_fixed": "#ffdbce",
+                "tertiary_fixed_dim": "#ffb599"
+              },
+              "overridePrimaryColor": "#005C55",
+              "roundness": "ROUND_EIGHT",
+              "spacingScale": 3
+            },
+            "title": "Sustainability Glossary",
+            "width": "2560"
+          }
+        ],
+        "theme": {}
+      }
+    },
+    {
+      "text": "I've designed the **Sustainability Glossary** for Greentryst Academy, adhering to the \"The Living Archive\" design system. \n\nKey design features include:\n- **Editorial Hierarchy:** Command-level headlines in **Manrope** (3xl bold) paired with precise, utility-focused body text in **Inter** for optimal readability.\n- **No-Line Philosophy:** Strict avoidance of 1px borders; structural boundaries are defined through background shifts between `surface` and `surface-container-low` for a seamless, horizon-like effect.\n- **Breathable Grid:** Extensive whitespace and 2-column term cards with a subtle \"lift\" on hover, capturing the tactile prestige of an architectural journal.\n- **Contextual Categorization:** A row of rounded-full filter pills with category-specific dots (Climate Science, Carbon Markets, ESG, etc.) to help navigate the 190+ sustainability concepts.\n\nThe glassmorphic top navigation and scholarly footer ensure the glossary feels like a premium, integrated part of the academy's body of knowledge."
+    },
+    {
+      "suggestion": "Add a term submission form"
+    },
+    {
+      "suggestion": "Change to a 3-column layout"
+    },
+    {
+      "suggestion": "Design the glossary for mobile"
+    }
+  ],
+  "projectId": "12143224116306032599",
+  "sessionId": "12031580995721667589"
+}

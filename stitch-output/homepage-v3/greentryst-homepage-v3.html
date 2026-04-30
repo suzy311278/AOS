@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Greentryst | The Sovereign Archive</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-variant": "#283837",
+                        "secondary": "#b5cbca",
+                        "on-surface-variant": "#bec9c6",
+                        "secondary-fixed": "#d0e7e6",
+                        "primary-fixed": "#a7f0e6",
+                        "on-error-container": "#ffdad6",
+                        "on-primary-fixed": "#00201d",
+                        "surface-container-high": "#1d2d2d",
+                        "surface-container-low": "#0e1e1e",
+                        "on-secondary-container": "#a7bdbc",
+                        "background": "#061616",
+                        "on-primary-fixed-variant": "#00504a",
+                        "surface": "#061616",
+                        "surface-container-highest": "#283837",
+                        "surface-bright": "#2c3c3c",
+                        "outline": "#889391",
+                        "on-tertiary-fixed-variant": "#005228",
+                        "primary-fixed-dim": "#8cd4ca",
+                        "on-tertiary-fixed": "#00210c",
+                        "inverse-on-surface": "#233333",
+                        "tertiary-container": "#005f2f",
+                        "secondary-container": "#384d4d",
+                        "outline-variant": "#3f4947",
+                        "on-tertiary-container": "#48df82",
+                        "on-secondary-fixed": "#0a1f1f",
+                        "on-primary-container": "#8ad2c8",
+                        "surface-container": "#122222",
+                        "inverse-primary": "#1a6962",
+                        "on-secondary": "#203434",
+                        "on-tertiary": "#003919",
+                        "tertiary-fixed": "#6bfe9c",
+                        "on-background": "#d4e6e5",
+                        "on-error": "#690005",
+                        "on-surface": "#d4e6e5",
+                        "error": "#ffb4ab",
+                        "on-primary": "#003733",
+                        "surface-dim": "#061616",
+                        "on-secondary-fixed-variant": "#364a4a",
+                        "tertiary": "#4ae183",
+                        "error-container": "#93000a",
+                        "primary": "#8cd4ca",
+                        "tertiary-fixed-dim": "#4ae183",
+                        "surface-tint": "#8cd4ca",
+                        "surface-container-lowest": "#021111",
+                        "primary-container": "#005c55",
+                        "secondary-fixed-dim": "#b5cbca",
+                        "inverse-surface": "#d4e6e5"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "1rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter"],
+                        "body": ["Inter"],
+                        "label": ["JetBrains Mono"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; background-color: #061616; color: #d4e6e5; }
+        .mono { font-family: 'JetBrains+Mono', monospace; }
+        .ticker-animation {
+            display: flex;
+            white-space: nowrap;
+            animation: scroll 40s linear infinite;
+        }
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="selection:bg-primary-container selection:text-white">
+<!-- Top Navigation Shell -->
+<nav class="fixed top-0 w-full z-50 bg-[#061616]/80 backdrop-blur-xl shadow-[0px_40px_40px_rgba(0,0,0,0.4)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-[1280px] mx-auto">
+<div class="text-xl font-bold tracking-tighter text-white">Greentryst</div>
+<div class="hidden md:flex gap-8">
+<a class="text-white border-b-2 border-[#005C55] pb-1 font-['Inter'] tracking-[-0.02em] text-sm font-semibold" href="#">Learn</a>
+<a class="text-gray-400 hover:text-white transition-colors font-['Inter'] tracking-[-0.02em] text-sm font-semibold" href="#">SustainIQ</a>
+<a class="text-gray-400 hover:text-white transition-colors font-['Inter'] tracking-[-0.02em] text-sm font-semibold" href="#">Career</a>
+<a class="text-gray-400 hover:text-white transition-colors font-['Inter'] tracking-[-0.02em] text-sm font-semibold" href="#">Tools</a>
+<a class="text-gray-400 hover:text-white transition-colors font-['Inter'] tracking-[-0.02em] text-sm font-semibold" href="#">Pricing</a>
+</div>
+<button class="bg-primary-container text-white px-5 py-2 rounded-lg font-semibold text-sm hover:bg-[#1d2d2d] transition-all duration-300 active:scale-[0.98]">Get Started</button>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="min-h-screen flex items-center pt-20 overflow-hidden bg-[#0a1a1a]">
+<div class="max-w-[1280px] mx-auto px-8 grid md:grid-cols-2 gap-12 items-center w-full">
+<div class="z-10">
+<h1 class="text-[80px] font-extrabold leading-[1.05] tracking-[-0.03em] text-white mb-6">
+                    Master the domain.<br/>Execute the work.<br/>Advance the career.
+                </h1>
+<p class="text-[1.25rem] text-[#9ab] max-w-lg mb-10 leading-relaxed">
+                    The sovereign archive for sustainability professionals. Accurate data, curated career paths, and technical execution frameworks.
+                </p>
+<div class="flex gap-4">
+<button class="bg-[#005c55] text-white px-8 py-4 rounded-xl font-bold text-lg hover:brightness-110 transition-all">Start Free</button>
+<button class="text-white border border-outline-variant px-8 py-4 rounded-xl font-bold text-lg hover:bg-surface-container-high transition-all">Watch Demo</button>
+</div>
+</div>
+<div class="relative">
+<div class="absolute inset-0 bg-[#005c55]/20 blur-[120px] rounded-full"></div>
+<div class="relative transform rotate-[-6deg] hover:rotate-0 transition-transform duration-700">
+<img class="w-full rounded-2xl shadow-2xl border border-white/5 bg-surface-container" data-alt="Modern dark UI dashboard interface showing complex carbon data analytics with minimalist graphs and high-contrast teal highlights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6EItFj4wHhe4P16rLRpsISI1ROktx0btCtmAvojAFk6MtCGh435U7hflsuA2vuV5828bIpHObB2Mt6Ro1okrdTmX07ogHz5jrDIFYrgDUh4vPCTXbQFULw1BKoKrKK9FmrpX34ULWz6K669kPqcfdjkt13ziOUmzqcPD41SBag64PVi1tEy06AJoa1QB0tMguRNUP0nEYsY7hF9O1WKFvJ1Naxs0_cekVlqnAJVd43S4rfSyWxX2UNnCpieOK9MMRXOfXHuNo0Rc"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Domain Ticker -->
+<div class="bg-[#005c55] py-4 overflow-hidden border-y border-white/10">
+<div class="ticker-animation font-['JetBrains_Mono'] text-sm font-bold text-white tracking-widest uppercase items-center">
+<span class="px-8">VM0042 · CSRD · EU Taxonomy · GRI Standards · PCAF · ISSB · TCFD · BRSR · Scope 3 · Gold Standard · Carbon Markets · ESG Ratings · Biodiversity · Circular Economy</span>
+<span class="px-8">VM0042 · CSRD · EU Taxonomy · GRI Standards · PCAF · ISSB · TCFD · BRSR · Scope 3 · Gold Standard · Carbon Markets · ESG Ratings · Biodiversity · Circular Economy</span>
+</div>
+</div>
+<!-- Numbers Section -->
+<section class="py-32 bg-[#f8faf9] text-surface">
+<div class="max-w-[1280px] mx-auto px-8">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-12 text-center md:text-left">
+<div>
+<div class="font-['JetBrains_Mono'] text-6xl font-bold tracking-tighter mb-2">22+</div>
+<div class="text-sm font-bold uppercase tracking-widest opacity-60">Courses</div>
+</div>
+<div>
+<div class="font-['JetBrains_Mono'] text-6xl font-bold tracking-tighter mb-2">470+</div>
+<div class="text-sm font-bold uppercase tracking-widest opacity-60">Lessons</div>
+</div>
+<div>
+<div class="font-['JetBrains_Mono'] text-6xl font-bold tracking-tighter mb-2">80+</div>
+<div class="text-sm font-bold uppercase tracking-widest opacity-60">Source Documents</div>
+</div>
+<div>
+<div class="font-['JetBrains_Mono'] text-6xl font-bold tracking-tighter mb-2">100%</div>
+<div class="text-sm font-bold uppercase tracking-widest opacity-60">Verified &amp; Sourced</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Trust Block -->
+<section class="py-32 bg-white text-surface">
+<div class="max-w-[1280px] mx-auto px-8">
+<div class="max-w-4xl mb-24">
+<h2 class="text-[36px] font-bold leading-tight tracking-tight text-surface mb-8">
+                    "If it is on Greentryst, it can be traced back to the original source."
+                </h2>
+<div class="h-1 w-24 bg-primary-container"></div>
+</div>
+<div class="grid md:grid-cols-2 gap-8">
+<div class="p-12 border-2 border-red-500/20 bg-red-50/50 rounded-xl relative overflow-hidden">
+<span class="absolute top-4 right-4 text-red-500 font-bold uppercase text-[10px] tracking-widest">Risk Level: High</span>
+<h3 class="text-2xl font-extrabold mb-4 text-surface">Generic AI</h3>
+<p class="text-surface/70 leading-relaxed mb-6">Hallucination risk. Opaque datasets. Outdated information that jeopardizes regulatory compliance and audit trails.</p>
+<div class="flex items-center gap-2 text-red-600 font-bold text-sm">
+<span class="material-symbols-outlined" data-icon="warning">warning</span>
+                        Not Audit-Ready
+                    </div>
+</div>
+<div class="p-12 border-2 border-[#005c55] bg-[#005c55]/5 rounded-xl relative overflow-hidden">
+<span class="absolute top-4 right-4 text-[#005c55] font-bold uppercase text-[10px] tracking-widest">Sovereign Standard</span>
+<h3 class="text-2xl font-extrabold mb-4 text-surface">Greentryst</h3>
+<p class="text-surface/70 leading-relaxed mb-6">Verified source mapping. Real-time regulatory sync. Technical frameworks built by industry practitioners.</p>
+<div class="flex items-center gap-2 text-[#005c55] font-bold text-sm">
+<span class="material-symbols-outlined" data-icon="verified_user">verified_user</span>
+                        Audit-Ready Baseline
+                    </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Work Modes -->
+<section class="py-32 bg-[#061616]">
+<div class="max-w-[1280px] mx-auto px-8">
+<h2 class="text-4xl font-extrabold mb-16 tracking-tighter">Four modes. One platform.</h2>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+<!-- Card 1 -->
+<div class="bg-[#1a2e2e] p-8 rounded-xl border-l-4 border-[#005c55] hover:bg-surface-container-high transition-all">
+<span class="material-symbols-outlined text-primary mb-6" data-icon="auto_stories">auto_stories</span>
+<h4 class="text-xl font-bold mb-2">Deep Learn</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Systematic mastery of frameworks from first principles.</p>
+</div>
+<!-- Card 2 -->
+<div class="bg-[#1a2e2e] p-8 rounded-xl border-l-4 border-[#005c55] hover:bg-surface-container-high transition-all">
+<span class="material-symbols-outlined text-primary mb-6" data-icon="search_insights">search_insights</span>
+<h4 class="text-xl font-bold mb-2">Quick Lookup</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Instant technical verification against current standards.</p>
+</div>
+<!-- Card 3 -->
+<div class="bg-[#1a2e2e] p-8 rounded-xl border-l-4 border-[#005c55] hover:bg-surface-container-high transition-all">
+<span class="material-symbols-outlined text-primary mb-6" data-icon="terminal">terminal</span>
+<h4 class="text-xl font-bold mb-2">Execute</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Step-by-step implementation tools for GHG and ESG reporting.</p>
+</div>
+<!-- Card 4 -->
+<div class="bg-[#1a2e2e] p-8 rounded-xl border-l-4 border-[#005c55] hover:bg-surface-container-high transition-all">
+<span class="material-symbols-outlined text-primary mb-6" data-icon="explore">explore</span>
+<h4 class="text-xl font-bold mb-2">Orient</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Map your professional trajectory in the green economy.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Product Showcases -->
+<section class="py-32 space-y-32">
+<!-- Section 1 -->
+<div class="max-w-[1280px] mx-auto px-8 grid md:grid-cols-2 gap-20 items-center">
+<div>
+<div class="inline-block bg-tertiary-container text-tertiary px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase mb-6">Live</div>
+<h3 class="text-5xl font-extrabold mb-6 tracking-tighter">22 courses. Zero fluff.</h3>
+<p class="text-xl text-on-surface-variant leading-relaxed">The curriculum designed by practitioners for practitioners. No broad generalizations, only technical execution.</p>
+</div>
+<img class="rounded-xl shadow-2xl border border-white/10 grayscale hover:grayscale-0 transition-all duration-700" data-alt="Technical learning interface showing video modules on carbon accounting with sidebar progress and integrated assessment tools" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6uXVJj4GweRVDNEjLT1qsEpH8j2LazsaoOIo3-IEQW9qTwhOVd3x0ffsfFOJAGp2f3l5XW0ikui_VNvS8TWysSJEmp5PyA2dyeK2OHtSj0Ry8gr5PKAaTxzQk0ImQoEbEEAYqaLRhsVYeqSUme5PTpuIaJvjSalMaGACHot1HObe6e71hN47HlNlMwA-VhmG609QP_ynsEqydTaamTG6HyO_MO1__7AXH5t0OnWChDOri8w4ATM2mmgoHIO3BH5ZaQphrRvYaXjo"/>
+</div>
+<!-- Section 2 -->
+<div class="max-w-[1280px] mx-auto px-8 grid md:grid-cols-2 gap-20 items-center">
+<img class="order-2 md:order-1 rounded-xl shadow-2xl border border-white/10 grayscale hover:grayscale-0 transition-all duration-700" data-alt="Sophisticated AI search interface displaying citation-backed answers for complex ESG regulation queries" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrag5LPzjbWtTqw4p7yp_LqF-cL6BG9bNzdMdEq2EY9NYTbLqRnLlahuFzNabX5mZDZcFMSQW6hpEX4nsA8mg0wMFUYD0Az2tcvAMMjXLAAtznBoS_aVgVop_qp772cVAdwmAL665Nh2E4z8YsOHsmQVSXBQC5JDNJFlSw-5ezzrhibRSsZQje6yU33RGdhr-GAJUNoGUnHjJ9VwzozV69cgtBzLQzCTat3DCdFqm3LwINaTNnFM-KHSTGsG6wUVtlm5vrN8ZTUak"/>
+<div class="order-1 md:order-2">
+<div class="inline-block bg-tertiary-container text-tertiary px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase mb-6">Live</div>
+<h3 class="text-5xl font-extrabold mb-6 tracking-tighter">A knowledge engine, not a chatbot.</h3>
+<p class="text-xl text-on-surface-variant leading-relaxed">Search across 80+ official regulatory bodies. Get answers with pinpoint citations to the source page.</p>
+</div>
+</div>
+<!-- Section 3 -->
+<div class="max-w-[1280px] mx-auto px-8 grid md:grid-cols-2 gap-20 items-center">
+<div>
+<div class="inline-block bg-tertiary-container text-tertiary px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase mb-6">Live</div>
+<h3 class="text-5xl font-extrabold mb-6 tracking-tighter">Sustainability careers, curated.</h3>
+<p class="text-xl text-on-surface-variant leading-relaxed">Move beyond standard job boards. Match with high-impact roles based on your verified technical skill graph.</p>
+</div>
+<img class="rounded-xl shadow-2xl border border-white/10 grayscale hover:grayscale-0 transition-all duration-700" data-alt="Architecture-style visualization of professional growth mapping and career path milestones in a modern UI" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCL0mqrs_Vx9jNYvgbxVurSrQ5lteogZt_C279lpG5FZomlu9auJydpyY5dlmcTZoZujtwhkGKEU70Z9wH9kdEWtklmhSIwn7s_KU7yHLL12Ovw2RLHWNs-v29a_aAtPG4xZnV5yz8TdR-JZs9XjYVjLSEFWSoxeVAfaDSMjvnTyLWBLVm_x8-PGrjsO_-Sq-xtawL4W66SD5rN-tyGVEnIB1bPLG-z44UEGHcauKf7XvpzqwbCVS6yEBKrEktp6vZdZSfiJRaPXdk"/>
+</div>
+<!-- Coming Soon Strip -->
+<div class="max-w-[1280px] mx-auto px-8">
+<div class="flex flex-wrap gap-8 py-10 border-t border-outline-variant/30">
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-amber-500"></div>
+<span class="text-sm font-['JetBrains_Mono'] uppercase tracking-widest">Tools (Coming Soon)</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-amber-500"></div>
+<span class="text-sm font-['JetBrains_Mono'] uppercase tracking-widest">Intelligence (Coming Soon)</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-2 h-2 rounded-full bg-amber-500"></div>
+<span class="text-sm font-['JetBrains_Mono'] uppercase tracking-widest">Community (Coming Soon)</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Pricing Section -->
+<section class="py-32 bg-[#f8faf9] text-surface">
+<div class="max-w-[1280px] mx-auto px-8">
+<h2 class="text-4xl font-extrabold mb-16 tracking-tighter text-center">Professional tools at individual prices.</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="bg-white p-10 rounded-xl shadow-sm border border-neutral-200">
+<h4 class="text-sm font-bold uppercase tracking-widest text-neutral-500 mb-6">Learn</h4>
+<div class="flex items-baseline gap-1 mb-8">
+<span class="text-4xl font-extrabold">$8</span>
+<span class="text-neutral-400">/mo</span>
+</div>
+<ul class="space-y-4 mb-10 text-sm">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container scale-75" data-icon="check">check</span> Access to all 22+ courses</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container scale-75" data-icon="check">check</span> Course completion certs</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container scale-75" data-icon="check">check</span> Community access</li>
+</ul>
+<button class="w-full py-3 rounded-lg border-2 border-neutral-200 font-bold hover:bg-neutral-50 transition-all">Select Plan</button>
+</div>
+<!-- Card 2 (Elevated) -->
+<div class="bg-white p-10 rounded-xl shadow-2xl border-2 border-primary-container relative transform scale-105">
+<span class="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary-container text-white px-4 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest">Popular</span>
+<h4 class="text-sm font-bold uppercase tracking-widest text-primary-container mb-6">Career</h4>
+<div class="flex items-baseline gap-1 mb-8">
+<span class="text-4xl font-extrabold">$14</span>
+<span class="text-neutral-400">/mo</span>
+</div>
+<ul class="space-y-4 mb-10 text-sm">
+<li class="flex items-center gap-2 font-semibold"><span class="material-symbols-outlined text-primary-container scale-75" data-icon="check">check</span> Everything in Learn</li>
+<li class="flex items-center gap-2 font-semibold"><span class="material-symbols-outlined text-primary-container scale-75" data-icon="check">check</span> Skill graph analytics</li>
+<li class="flex items-center gap-2 font-semibold"><span class="material-symbols-outlined text-primary-container scale-75" data-icon="check">check</span> Priority job matching</li>
+<li class="flex items-center gap-2 font-semibold"><span class="material-symbols-outlined text-primary-container scale-75" data-icon="check">check</span> Exclusive recruiter feed</li>
+</ul>
+<button class="w-full py-3 rounded-lg bg-primary-container text-white font-bold hover:brightness-110 transition-all">Get Started</button>
+</div>
+<!-- Card 3 -->
+<div class="bg-white p-10 rounded-xl shadow-sm border border-neutral-200">
+<h4 class="text-sm font-bold uppercase tracking-widest text-neutral-500 mb-6">Pro</h4>
+<div class="flex items-baseline gap-1 mb-8">
+<span class="text-4xl font-extrabold">$25</span>
+<span class="text-neutral-400">/mo</span>
+</div>
+<ul class="space-y-4 mb-10 text-sm">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container scale-75" data-icon="check">check</span> Everything in Career</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container scale-75" data-icon="check">check</span> Knowledge Engine access</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container scale-75" data-icon="check">check</span> API for 80+ docs</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-container scale-75" data-icon="check">check</span> Exportable frameworks</li>
+</ul>
+<button class="w-full py-3 rounded-lg border-2 border-neutral-200 font-bold hover:bg-neutral-50 transition-all">Select Plan</button>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Banner -->
+<section class="py-24 bg-primary-container">
+<div class="max-w-[1280px] mx-auto px-8 text-center">
+<h2 class="text-5xl font-extrabold text-white mb-6 tracking-tighter">Ready to work smarter?</h2>
+<p class="text-xl text-white/80 mb-10">Join thousands of sustainability professionals.</p>
+<button class="bg-white text-primary-container px-10 py-5 rounded-xl font-extrabold text-xl hover:scale-105 transition-transform active:scale-95 shadow-xl">Get Started Free</button>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#061616] w-full py-20 px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-[1280px] mx-auto">
+<div class="col-span-1 md:col-span-1">
+<span class="text-lg font-bold text-white mb-6 block">Greentryst</span>
+<p class="text-[#889391] text-xs leading-relaxed max-w-xs">
+                    The authoritative platform for professional sustainability mastery. Engineered for the biosphere’s future.
+                </p>
+</div>
+<div>
+<h5 class="font-['JetBrains_Mono'] text-[0.6875rem] uppercase tracking-widest text-[#005C55] mb-6">Platform</h5>
+<ul class="space-y-4">
+<li><a class="text-gray-500 hover:text-[#005C55] font-['JetBrains_Mono'] text-[0.6875rem] uppercase tracking-widest transition-transform hover:translate-x-1 block" href="#">Learn</a></li>
+<li><a class="text-gray-500 hover:text-[#005C55] font-['JetBrains_Mono'] text-[0.6875rem] uppercase tracking-widest transition-transform hover:translate-x-1 block" href="#">SustainIQ</a></li>
+<li><a class="text-gray-500 hover:text-[#005C55] font-['JetBrains_Mono'] text-[0.6875rem] uppercase tracking-widest transition-transform hover:translate-x-1 block" href="#">Execute</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-['JetBrains_Mono'] text-[0.6875rem] uppercase tracking-widest text-[#005C55] mb-6">Resources</h5>
+<ul class="space-y-4">
+<li><a class="text-gray-500 hover:text-[#005C55] font-['JetBrains_Mono'] text-[0.6875rem] uppercase tracking-widest transition-transform hover:translate-x-1 block" href="#">Documentation</a></li>
+<li><a class="text-gray-500 hover:text-[#005C55] font-['JetBrains_Mono'] text-[0.6875rem] uppercase tracking-widest transition-transform hover:translate-x-1 block" href="#">Help Center</a></li>
+<li><a class="text-gray-500 hover:text-[#005C55] font-['JetBrains_Mono'] text-[0.6875rem] uppercase tracking-widest transition-transform hover:translate-x-1 block" href="#">System Status</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-['JetBrains_Mono'] text-[0.6875rem] uppercase tracking-widest text-[#005C55] mb-6">Company</h5>
+<ul class="space-y-4">
+<li><a class="text-gray-500 hover:text-[#005C55] font-['JetBrains_Mono'] text-[0.6875rem] uppercase tracking-widest transition-transform hover:translate-x-1 block" href="#">About</a></li>
+<li><a class="text-gray-500 hover:text-[#005C55] font-['JetBrains_Mono'] text-[0.6875rem] uppercase tracking-widest transition-transform hover:translate-x-1 block" href="#">Privacy</a></li>
+<li><a class="text-gray-500 hover:text-[#005C55] font-['JetBrains_Mono'] text-[0.6875rem] uppercase tracking-widest transition-transform hover:translate-x-1 block" href="#">Terms</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-[1280px] mx-auto px-8 mt-20 pt-8 border-t border-outline-variant/10 text-center">
+<span class="font-['JetBrains_Mono'] text-[0.6875rem] uppercase tracking-widest text-gray-500">© 2024 Greentryst. The Sovereign Archive.</span>
+</div>
+</footer>
+</body></html>

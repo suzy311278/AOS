@@ -1,0 +1,26 @@
+- question: "Why is water vapour considered a feedback rather than a forcing in the climate system?"
+  options:
+    - "Because water vapour is not actually a greenhouse gas"
+    - "Because water vapour concentration is controlled by temperature and rises in response to warming caused by other gases, rather than independently driving warming"
+    - "Because water vapour only exists in the lower atmosphere and has no effect on global climate"
+    - "Because water vapour cools the climate through cloud formation and is therefore a negative feedback"
+  answer: 1
+  explanation: "Water vapour is a feedback because its atmospheric concentration is determined by temperature — warmer air holds more moisture. It does not independently accumulate; instead, it amplifies warming caused by other forcing agents like CO₂. CO₂ sets the thermostat; water vapour acts as the amplifier."
+
+- question: "By approximately what percentage has atmospheric methane (CH₄) increased since pre-industrial times, according to IPCC AR6?"
+  options:
+    - "About 47%"
+    - "About 75%"
+    - "About 100%"
+    - "About 156%"
+  answer: 3
+  explanation: "Methane has increased by approximately 156% since 1750 — from 722 ppb to 1,866 ppb in 2019. This is the highest concentration in at least 800,000 years. By comparison, CO₂ has increased by 47% and N₂O by 23%."
+
+- question: "What effect do aerosols from fossil fuel combustion have on climate, and why does this create a concern for rapid emissions reductions?"
+  options:
+    - "Aerosols warm the climate by trapping heat; rapid emissions cuts would therefore accelerate warming reduction"
+    - "Aerosols have no significant effect on global temperature"
+    - "Aerosols cool the climate by reflecting sunlight; rapidly cutting fossil fuels would also cut this cooling effect, potentially causing short-term additional warming"
+    - "Aerosols only affect regional climate and have no influence on global average temperatures"
+  answer: 2
+  explanation: "Aerosols from burning fossil fuels reflect incoming sunlight and make clouds more reflective, producing a cooling effect estimated at 0.0–0.8°C offset. If fossil fuel emissions are cut rapidly, this aerosol cooling diminishes quickly while CO₂ (which persists for centuries) takes much longer to decline, potentially unmasking additional warming in the short term."

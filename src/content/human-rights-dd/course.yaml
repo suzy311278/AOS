@@ -1,0 +1,151 @@
+id: human-rights-dd
+title: "Human Rights Due Diligence"
+subtitle: "Identifying, preventing, and addressing human rights impacts in business"
+description: "A comprehensive course on human rights due diligence (HRDD) covering the UN Guiding Principles, OECD Guidelines, EU CSDDD, modern slavery, living wages, just transition, and practical implementation for corporate supply chains."
+icon: "⚖️"
+color: rose
+status: published
+category: esg
+estimatedHours: 10
+modules:
+  - id: 0
+    title: "Foundations of Business & Human Rights"
+    subtitle: "Why Human Rights Matter for Companies"
+    icon: "🌍"
+    color: rose
+    lessons:
+    - id: "0.1"
+      title: "What Are Human Rights? A Business Perspective"
+      duration: "40 min"
+      vmRef: "UDHR, ICCPR, ICESCR, ILO Core Conventions"
+    - id: "0.2"
+      title: "The UN Guiding Principles on Business & Human Rights"
+      duration: "50 min"
+      vmRef: "UN Guiding Principles (2011), Pillars I-III"
+    - id: "0.3"
+      title: "OECD Guidelines for Multinational Enterprises"
+      duration: "45 min"
+      vmRef: "OECD Due Diligence Guidance (2018)"
+    - id: "0.4"
+      title: "The Business Case for Human Rights"
+      duration: "40 min"
+      vmRef: "UN Guiding Principles (2011), OECD Due Diligence Guidance (2018)"
+
+  - id: 1
+    title: "The HRDD Process"
+    subtitle: "Six Steps of Due Diligence"
+    icon: "🔍"
+    color: red
+    lessons:
+    - id: "1.1"
+      title: "What Is Human Rights Due Diligence?"
+      duration: "45 min"
+      vmRef: "UN Guiding Principles (2011), Principles 17-21"
+    - id: "1.2"
+      title: "Step 1 & 2: Policy Commitment & Impact Assessment"
+      duration: "55 min"
+      vmRef: "UN Guiding Principles (2011), Principles 15-16, 18; OECD Due Diligence Guidance (2018), Steps 1-2"
+    - id: "1.3"
+      title: "Step 3 & 4: Integration & Tracking"
+      duration: "50 min"
+      vmRef: "OECD Due Diligence Guidance (2018), Steps 3-4"
+    - id: "1.4"
+      title: "Step 5 & 6: Communication & Remediation"
+      duration: "50 min"
+      vmRef: "UN Guiding Principles (2011), Principles 20-22, 31; OECD Due Diligence Guidance (2018), Steps 5-6"
+
+  - id: 2
+    title: "Key Human Rights Issues"
+    subtitle: "Deep Dives on Critical Topics"
+    icon: "🔗"
+    color: orange
+    lessons:
+    - id: "2.1"
+      title: "Forced Labour & Modern Slavery"
+      duration: "50 min"
+      vmRef: "ILO Indicators of Forced Labour (2012), UK MSA (2015), US UFLPA (2021)"
+    - id: "2.2"
+      title: "Child Labour"
+      duration: "45 min"
+      vmRef: "ILO Convention 182, ILO Convention 138"
+    - id: "2.3"
+      title: "Living Wages & Working Conditions"
+      duration: "50 min"
+      vmRef: "ILO MNE Declaration (2022), Anker Methodology"
+    - id: "2.4"
+      title: "Indigenous Peoples & FPIC"
+      duration: "45 min"
+      vmRef: "UNDRIP (2007), IFC Performance Standard 7"
+    - id: "2.5"
+      title: "Gender, Diversity & Non-Discrimination"
+      duration: "40 min"
+      vmRef: "UN Women's Empowerment Principles, CEDAW"
+
+  - id: 3
+    title: "Supply Chain Implementation"
+    subtitle: "Operationalising HRDD Across the Value Chain"
+    icon: "🏭"
+    color: violet
+    lessons:
+    - id: "3.1"
+      title: "Supply Chain Mapping & Risk Assessment"
+      duration: "50 min"
+      vmRef: "OECD Due Diligence Guidance (2018), Annex on Supply Chains"
+    - id: "3.2"
+      title: "Supplier Codes of Conduct & Auditing"
+      duration: "50 min"
+      vmRef: "OECD Due Diligence Guidance (2018), SA8000, SMETA"
+    - id: "3.3"
+      title: "Grievance Mechanisms & Worker Voice"
+      duration: "45 min"
+      vmRef: "UN Guiding Principles (2011), Principles 29-31"
+    - id: "3.4"
+      title: "Leverage, Collaboration & Industry Initiatives"
+      duration: "45 min"
+      vmRef: "UN Guiding Principles (2011), Principle 19; OECD Due Diligence Guidance (2018)"
+
+  - id: 4
+    title: "Regulatory Landscape"
+    subtitle: "Mandatory HRDD Laws Worldwide"
+    icon: "📜"
+    color: indigo
+    lessons:
+    - id: "4.1"
+      title: "EU Corporate Sustainability Due Diligence Directive (CSDDD)"
+      duration: "55 min"
+      vmRef: "EU CSDDD (2024)"
+    - id: "4.2"
+      title: "French Duty of Vigilance & German Supply Chain Act"
+      duration: "45 min"
+      vmRef: "French Loi de Vigilance (2017), German LkSG (2023)"
+    - id: "4.3"
+      title: "Trade-Based Measures: US UFLPA, EU Forced Labour Regulation"
+      duration: "45 min"
+      vmRef: "US UFLPA (2021), EU Forced Labour Regulation (2024)"
+    - id: "4.4"
+      title: "Transparency Laws: UK MSA, Australian MSA, Norway TAA"
+      duration: "40 min"
+      vmRef: "UK Modern Slavery Act (2015), Australian MSA (2018), Norway Transparency Act (2022)"
+
+  - id: 5
+    title: "Just Transition & Emerging Issues"
+    subtitle: "The Social Dimension of Climate Action"
+    icon: "🤝"
+    color: teal
+    lessons:
+    - id: "5.1"
+      title: "What Is a Just Transition?"
+      duration: "45 min"
+      vmRef: "ILO Guidelines for a Just Transition (2015), Paris Agreement Preamble"
+    - id: "5.2"
+      title: "Human Rights in the Green Economy"
+      duration: "50 min"
+      vmRef: "ILO MNE Declaration (2022), OECD Due Diligence Guidance (2018)"
+    - id: "5.3"
+      title: "Digital Rights & Emerging Technologies"
+      duration: "40 min"
+      vmRef: "UN Guiding Principles (2011), B-Tech Project"
+    - id: "5.4"
+      title: "Investor Expectations & ESG Integration"
+      duration: "45 min"
+      vmRef: "CHRB Methodology (2023), KnowTheChain, WBA"

@@ -1,0 +1,26 @@
+- question: "What is the distinction between 'validation' and 'verification' performed by a VVB?"
+  options:
+    - "Validation is performed by Verra staff; verification is performed by third-party auditors"
+    - "Validation reviews the project design before activities begin; verification reviews actual monitoring data after a period of project activity"
+    - "Validation confirms additionality only; verification confirms permanence only"
+    - "Validation is required for REDD+ projects only; verification is required for all project types"
+  answer: 1
+  explanation: "Validation assesses the project design document (PDD) before project activities begin, confirming the methodology is correctly applied and the additionality case is credible. Verification occurs after a monitoring period, reviewing actual performance data to confirm that emission reductions or removals occurred as claimed."
+
+- question: "Why is VVB rotation (limiting the same VVB to no more than six consecutive years of verification for one project) considered an important governance safeguard?"
+  options:
+    - "It reduces the cost of verification by increasing competition among VVBs"
+    - "It prevents an overly comfortable relationship from developing between auditor and project developer, reducing the risk of leniency or conflict of interest"
+    - "It ensures that each VVB gains experience across multiple project types before specialising"
+    - "It is required by CORSIA regulations and applies only to aviation-related projects"
+  answer: 1
+  explanation: "VVBs are paid by project developers, creating a structural conflict of interest. If the same VVB audits a project indefinitely, there is a risk that the relationship becomes too comfortable and the auditor is reluctant to identify problems. Rotation requirements mitigate this by bringing fresh eyes to each project periodically."
+
+- question: "Which carbon credit rating agency is particularly known for using satellite data to assess whether deforestation baselines in REDD+ projects are accurate?"
+  options:
+    - "BeZero Carbon"
+    - "Calyx Global"
+    - "Sylvera"
+    - "S&P Global Ratings"
+  answer: 2
+  explanation: "Sylvera focuses particularly on REDD+ projects, applying satellite-based remote sensing to independently assess actual deforestation trends and compare them to the baselines claimed in project documentation. This provides an independent check on whether REDD+ baselines are overstated, which has been a significant integrity concern."

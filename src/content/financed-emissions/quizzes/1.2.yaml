@@ -1,0 +1,44 @@
+- question: "EVIC stands for Enterprise Value Including Cash. Which of the following components is NOT included in EVIC under the PCAF Standard?"
+  options:
+    - "Market capitalisation of ordinary shares at fiscal year-end"
+    - "Book value of total debt (current and long-term)"
+    - "Cash and cash equivalents held on the company's balance sheet"
+    - "Minorities' interests"
+  answer: 2
+  explanation: "PCAF explicitly states that no deductions of cash or cash equivalents are made when calculating EVIC. This is intentional: deducting cash could create negative enterprise values for cash-rich companies, which would distort the attribution factor. The four components of EVIC are: (1) market cap of ordinary shares, (2) market cap of preferred shares, (3) book value of total debt, and (4) minorities' interests."
+
+- question: "An asset manager holds a €40 million equity position in a listed company with an EVIC of €2 billion. The company reported annual emissions of 5,000,000 tCO2e. What are the asset manager's financed emissions from this position?"
+  options:
+    - "100,000 tCO2e"
+    - "50,000 tCO2e"
+    - "200,000 tCO2e"
+    - "5,000,000 tCO2e"
+  answer: 0
+  explanation: "Attribution factor = €40M / €2,000M = 2.0%. Financed emissions = 2.0% × 5,000,000 tCO2e = 100,000 tCO2e. The attribution factor always represents the financial institution's proportional share of the borrower's/investee's capital structure."
+
+- question: "For an unlisted private company, what denominator does PCAF prescribe for the attribution factor?"
+  options:
+    - "EVIC, estimated using comparable listed company multiples"
+    - "Total company equity plus total company debt from the balance sheet"
+    - "Revenue of the company for the most recent fiscal year"
+    - "Total assets of the company from the balance sheet"
+  answer: 1
+  explanation: "For private companies (business loans and unlisted equity), PCAF prescribes total equity plus total debt from the company's balance sheet as the denominator. This approximates EVIC without requiring a market-observable share price. If total equity is negative, it must be set to zero, meaning all emissions are attributed to debt providers only."
+
+- question: "A bank provides a $30 million loan to a company. At the end of Year 3, the outstanding balance is $22 million. The company's total equity is $80 million and total debt is $120 million. What is the attribution factor?"
+  options:
+    - "$22M / $200M = 11.0%"
+    - "$30M / $200M = 15.0%"
+    - "$22M / $120M = 18.3%"
+    - "$30M / $120M = 25.0%"
+  answer: 0
+  explanation: "The outstanding amount is the current balance of $22 million (not the original loan amount of $30 million). The denominator is total equity + total debt = $80M + $120M = $200M. Attribution factor = $22M / $200M = 11.0%. The attribution factor declines as the loan is repaid, because the outstanding amount in the numerator falls over time."
+
+- question: "Which of the following statements about the outstanding amount for unlisted equity positions is correct?"
+  options:
+    - "It is always the original cost of the equity investment at acquisition date"
+    - "It is (shares held by FI / total shares of investee) × total equity of the investee, valued at book value"
+    - "It is the market value of the equity interest, estimated using sector price-to-book multiples"
+    - "It equals the share of the company's EVIC attributable to the financial institution"
+  answer: 1
+  explanation: "For unlisted equity, PCAF prescribes a specific formula: (shares held by FI / total shares of investee) × total equity of the investee. This captures the financial institution's proportional book-value stake. It is not based on market value (since there is no observable market price for unlisted shares) and not based on the historical acquisition cost."

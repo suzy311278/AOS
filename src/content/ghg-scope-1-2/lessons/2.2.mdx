@@ -1,0 +1,183 @@
+{/* source: GHG Protocol Scope 2 Guidance, Chapter 6 (pp. 42-57); EPA GHG Inventory Guidance: Indirect Emissions from Purchased Electricity */}
+
+You have electricity bills from 5 offices, a factory floor that buys steam from a district system, and a warehouse with rooftop solar. Here is exactly what to do to turn all of that into Scope 2 numbers.
+
+The calculation itself is multiplication. The hard part is getting the inputs right - making sure your activity data is complete and your emission factors match the right method. This lesson walks through the practical workflow from raw data to reported totals.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-1-2/2_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## The Core Formula
+
+Every Scope 2 calculation comes down to one equation:
+
+<EquationBreakdown
+  title="Scope 2 Emissions Calculation"
+  result="E<sub>Scope 2</sub> | Scope 2 Emissions | Total indirect emissions from purchased energy, in metric tonnes CO2e | blue"
+  inputs="AD | Activity Data | Quantity of electricity, heat, steam, or cooling purchased and consumed (MWh) | green ;; EF | Emission Factor | CO2e emitted per unit of energy consumed (tCO2e/MWh) | amber"
+/>
+
+You run this equation twice - once with the location-based emission factor and once with the market-based emission factor - for every facility. Then you roll up the facility-level results to get corporate totals.
+
+## Step 1: Gather Your Activity Data
+
+Activity data is the quantity of energy purchased and consumed during the reporting period. For electricity, this is measured in kWh or MWh. For steam and heat, it may be in GJ, MMBtu, or mass units (tonnes of steam).
+
+**Where to get it:**
+
+The best source is utility bills or purchase records at the meter point. Pull 12 months of bills for each facility, sum up the total kWh consumed, and convert to MWh (divide by 1,000).
+
+If bills are missing for some months, estimate using the average of available months - but document this and keep the estimated share below 10 percent of total consumption.
+
+<HighlightBox>
+**What your electricity bill actually tells you**
+
+A commercial electricity bill typically shows: billing period dates, meter number, consumption in kWh (sometimes broken into peak/off-peak), demand charges in kW, and the total amount billed. For Scope 2, you need the **total kWh consumed** - not the cost, not the demand, not the rate category.
+
+Watch out for net metering: if your building has rooftop solar, the bill may show net consumption (grid purchases minus solar exports). You need **gross purchases** - the total drawn from the grid, before netting out any exports. Ask your utility for gross consumption data if the bill only shows net.
+</HighlightBox>
+
+**Critical rule: use gross, not net.** Net metering data from utility bills reflects a billing convention, not your physical gross consumption. If your facility has on-site generation that exports to the grid, net metering will underestimate your Scope 2 activity data.
+
+<HighlightBox>
+**Practitioner Tip: Shared Spaces and Electricity Allocation**
+
+When a company shares a building with its holding company or other entities, you need a consistent method to allocate electricity consumption. Two common approaches are used in practice:
+
+1. **Floor sharing method** - if there are 7 floors and you occupy 2, your share is 2/7 of total building consumption
+2. **Carpet area method** - proportional to the carpet area you occupy versus the total carpet area
+
+Whichever method you choose, apply it consistently to both grid electricity and any on-site solar generation on the building. You cannot claim the full building's rooftop solar benefit if you only occupy part of it. The best solution is to install a separate sub-meter for your tenancy - this eliminates allocation assumptions entirely and gives clean, auditable data that assurers prefer.
+</HighlightBox>
+
+For steam, if your data is in mass units (e.g., tonnes of steam), you need to convert to energy units using standard steam tables based on the steam's pressure and temperature. Your steam supplier should be able to provide the energy content per unit of steam delivered.
+
+## Step 2: Determine Which Methods Apply
+
+Ask one question: Does any market where your company operates provide contractual instruments (RECs, GOs, I-RECs, supplier-specific emission rates)?
+
+- **Yes** - you must calculate both location-based and market-based totals for the entire corporate inventory
+- **No** - you only need the location-based total
+
+For most companies operating in the US, EU, India, Australia, Japan, or Latin America, the answer is yes.
+
+## Step 3: Choose Your Emission Factors
+
+This is where the two methods diverge.
+
+### Location-Based Emission Factor Hierarchy
+
+Pick the most geographically precise factor available:
+
+1. **Direct line emission factor** - if electricity comes through a direct wire from a known generator (e.g., an industrial park supplier)
+2. **Regional or subnational factor** - for grid-purchased electricity. In the US, use EPA eGRID subregion total output emission rates. In the UK, use Defra's annual grid factor
+3. **National factor** - when regional data is unavailable. The IEA publishes country-level factors
+
+Always use the most recent factor available at the time you calculate.
+
+### Market-Based Emission Factor Hierarchy
+
+Move down this list until you find data that applies:
+
+1. **Energy attribute certificates** (RECs, GOs, I-RECs) that meet Scope 2 Quality Criteria - emission factor is typically 0 for renewables
+2. **Contracts** (PPAs) for electricity from specified sources, in markets without certificates
+3. **Supplier-specific emission rates** - the GHG intensity your utility reports for its delivered product
+4. **Residual mix factor** - what remains after all certificate claims are removed from the grid mix
+5. **Grid average factor** - last resort, same as location-based
+
+<HighlightBox>
+**Residual mix** is the emission factor for "unclaimed" electricity - what is left after all certificates, contracts, and supplier claims have been subtracted from the grid total. It prevents double counting. Where no residual mix is published, use the grid average and disclose that you did so.
+</HighlightBox>
+
+## Step 4: Match Factors to Consumption
+
+Each facility's electricity consumption must be matched with the appropriate emission factor. If certificates cover only part of a facility's consumption, the remainder uses the next available factor in the hierarchy.
+
+For example, if your Mumbai office consumed 500 MWh and your company retired 200 I-RECs (each representing 1 MWh of renewable energy), then:
+
+- 200 MWh is covered by I-RECs (market-based EF = 0)
+- 300 MWh uses the residual mix or grid average factor for the remaining consumption
+
+## Step 5: Calculate and Roll Up
+
+Multiply each facility's consumption by its emission factor for each method. Then sum all facility results to get corporate totals.
+
+<ExampleBox>
+**Example: Three-office company**
+
+| Office | Consumption | Location-Based EF | Market-Based EF | Location Result | Market Result |
+|--------|------------|-------------------|-----------------|----------------|---------------|
+| Delhi | 800 MWh | 0.713 tCO2/MWh | 0.713 (no instruments) | 570.4 tCO2 | 570.4 tCO2 |
+| Mumbai | 500 MWh | 0.713 tCO2/MWh | 0 (I-RECs for full amount) | 356.5 tCO2 | 0 tCO2 |
+| London | 200 MWh | 0.207 tCO2/MWh | 0 (GO-backed green tariff) | 41.4 tCO2 | 0 tCO2 |
+
+**Corporate location-based Scope 2: 968.3 tCO2**
+
+**Corporate market-based Scope 2: 570.4 tCO2**
+
+The Delhi office has no instruments, so its market-based result equals location-based. Mumbai and London both hold certificates, so their market-based result drops to zero.
+</ExampleBox>
+
+<CalculationExercise
+  question="A facility consumes 2,000,000 kWh of electricity in a reporting year. The location-based grid emission factor is 0.45 kg CO2e per kWh. What are the location-based Scope 2 emissions in metric tonnes CO2e?"
+  answer={900}
+  unit="tCO2e"
+  hints={[
+    "Convert the emission factor to metric tonnes: 0.45 kg CO2e/kWh = 0.00045 tCO2e/kWh.",
+    "Multiply consumption by the emission factor: 2,000,000 kWh x 0.00045 tCO2e/kWh.",
+    "Alternatively: 2,000,000 kWh x 0.45 kg CO2e/kWh = 900,000 kg CO2e = 900 tCO2e."
+  ]}
+  solution="2,000,000 kWh x 0.45 kg CO2e/kWh = 900,000 kg CO2e = 900 metric tonnes CO2e. This is the location-based Scope 2 result."
+/>
+
+## Indian Calculation: Location-Based
+
+<CalculationExercise
+  question="Your client has 4 offices across India consuming a total of 1,500 MWh. Using the CEA grid emission factor of 0.713 tCO2/MWh, calculate location-based Scope 2 emissions."
+  answer={1069.5}
+  tolerance={1}
+  unit="tCO2"
+  hints={[
+    "This is a straightforward multiplication: total consumption x grid emission factor.",
+    "1,500 MWh x 0.713 tCO2/MWh = ?"
+  ]}
+  solution="1,500 MWh x 0.713 tCO2/MWh = 1,069.5 tCO2. Since all offices are in India and we are using the national CEA factor, we apply the same factor to the total consumption."
+/>
+
+## Indian Calculation: Market-Based with I-RECs
+
+<CalculationExercise
+  question="Same client (1,500 MWh total) buys 500 I-RECs (1 I-REC = 1 MWh of renewable energy, emission factor = 0). What is their market-based Scope 2? The remaining 1,000 MWh uses the grid factor of 0.713 tCO2/MWh."
+  answer={713}
+  unit="tCO2"
+  hints={[
+    "Split the consumption: 500 MWh is covered by I-RECs (EF = 0), and 1,000 MWh uses the grid factor.",
+    "Market-based = (500 x 0) + (1,000 x 0.713) = ?"
+  ]}
+  solution="500 MWh x 0 tCO2/MWh (I-REC covered) + 1,000 MWh x 0.713 tCO2/MWh (grid) = 0 + 713 = 713 tCO2. The I-RECs eliminated emissions for one-third of consumption. Compared to the location-based total of 1,069.5 tCO2, the market-based method shows a 33% reduction from renewable procurement."
+/>
+
+## Handling Steam, Heat, and Cooling
+
+The same formula and hierarchies apply. The practical differences:
+
+**Steam and heat:** If your supplier provides an emission factor per GJ of steam delivered, use it. If not, estimate it as: emission factor of the fuel used for generation divided by the thermal efficiency of the boiler. For steam where condensate is returned to the supplier, use the net energy delivered (check steam tables for the enthalpy difference).
+
+**Cooling:** If purchased cooling comes from an electric chiller, the emission factor equals the electricity emission factor divided by the chiller's coefficient of performance (COP). A COP of 3.0 means the chiller produces 3 units of cooling per 1 unit of electricity consumed.
+
+<DeepDive title="Combined Heat and Power (CHP) allocation">
+When your company purchases electricity or steam from a CHP plant, the supplier must allocate its total combustion emissions between the two energy outputs. This allocation affects the emission factor you receive.
+
+Common allocation methods include the efficiency method (allocating based on the efficiency of producing each output separately) and the energy content method (allocating based on the energy content of each output). The GHG Protocol publishes specific CHP allocation guidance. As the purchaser, your job is to confirm with the CHP supplier that they follow best practices for allocation - you do not need to do the allocation yourself.
+</DeepDive>
+
+## Biofuel in the Grid Mix
+
+One sentence you need to know: for grid electricity generated from biomass combustion, CH4 and N2O emissions are included in Scope 2, but biogenic CO2 is reported separately from the scopes. Most published grid emission factors (like EPA eGRID) already handle this correctly - they include biomass CH4 and N2O but exclude biomass CO2.
+
+## Rolling Up to Corporate Level
+
+Once you have facility-level results for both methods, aggregate them into two corporate totals: one location-based, one market-based. Use the same emission factor vintage across comparable operations. Document any estimation methods used and the percentage of total consumption that was estimated.
+
+Report final Scope 2 in metric tonnes CO2e. Where possible, also report the individual GHG components (CO2, CH4, N2O) separately. And always report total electricity consumption in MWh alongside the emission totals - this gives stakeholders context for interpreting the numbers.
+
+<KeyTakeaways items="The Scope 2 calculation is simple multiplication (consumption x emission factor) - the hard part is getting the inputs right for each method ;; For activity data, always use total kWh consumed from utility bills, not cost figures - and request gross purchases if the facility has on-site generation ;; Location-based emission factors follow a geographic hierarchy: direct line factor, then regional/subnational, then national ;; Market-based emission factors follow a contractual hierarchy: certificates first, then contracts/PPAs, then supplier rates, then residual mix, then grid average ;; When certificates cover only part of a facility's consumption, the remainder uses the next available factor in the hierarchy ;; For steam and cooling, convert to energy units and apply supplier-specific emission factors where available - or estimate from fuel type and boiler/chiller efficiency" />

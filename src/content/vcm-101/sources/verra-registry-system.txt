@@ -1,0 +1,166 @@
+Source: https://verra.org/project/vcs-program/registry-system/
+
+  * [Registry](https://verra.org/registry/overview/)
+    * [ ![utility navigation icon](https://verra.org/wp-content/uploads/2025/12/icon-login.svg) Log In ](https://registry.verra.org/)
+    * [ ![utility navigation icon](https://verra.org/wp-content/uploads/2025/12/icon-overview.svg) Overview ](https://verra.org/registry/overview/)
+    * [ ![utility navigation icon](https://verra.org/wp-content/uploads/2025/12/icon-overview.svg) Registry Transition ](https://verra.org/verra-registry-transition/)
+  * [Project Hub](https://verra.org/registry/overview/)
+    * [ ![utility navigation icon](https://verra.org/wp-content/uploads/2025/12/icon-login.svg) Log In ](https://projecthub.verra.org/?_gl=1*lpy6ln*_gcl_aw*R0NMLjE3NTg3MjcwOTcuQ2owS0NRandyYzdHQmhDZkFSSXNBSEdjVzVVS3gtMXQ0OGN6b05PVU9uWWp4dkxqOUZjLVZFdkZTSDUxeVpWNzB0M2R1Uk9TMXRSektoRWFBdjBTRUFMd193Y0I.*_gcl_au*MTY5MjA0NDcxMC4xNzYxMjM0ODQy*_ga*NjQ5NTgxNTc2LjE3Mzk1NjcxODA.*_ga_2VGK901B6P*czE3NjIzODUyMzMkbzExNCRnMSR0MTc2MjM4NTU0MiRqNTkkbDAkaDA.)
+    * [ Overview ](https://verra.org/verra-project-hub/)
+  * [Contact](https://verra.org/contact)
+  * Search
+
+
+[ ](https://verra.org/)
+  * [Programs](https://verra.org/registry/overview/)
+    * [![Verified Carbon Standard](https://verra.org/wp-content/uploads/2025/12/icon-1.svg)Verified Carbon StandardThe world's leading greenhouse gas crediting program.](https://verra.org/programs/verified-carbon-standard/)
+The world's leading greenhouse gas crediting program.
+      * [Overview](https://verra.org/programs/verified-carbon-standard/)
+      * [Program Details](https://verra.org/programs/verified-carbon-standard/vcs-program-details/)
+      * [Methodologies](https://verra.org/program-methodology/vcs-program-standard/overview/)
+      * [Validation and Verification](https://verra.org/validation-verification/#for-the-vcs-program)
+    * [![Jurisdictional & Nested Redd+ Framework](https://verra.org/wp-content/uploads/2025/12/icon-2.svg)Jurisdictional & Nested Redd+ FrameworkThe world’s first framework for high-impact forest conservation. ](https://verra.org/programs/jurisdictional-nested-redd-framework/)
+The world’s first framework for high-impact forest conservation. 
+      * [Overview](https://verra.org/programs/jurisdictional-nested-redd-framework/)
+      * [Program Details](https://verra.org/programs/jurisdictional-nested-redd-framework/jnr-framework-details/)
+    * [![Scope 3 Standard](https://verra.org/wp-content/uploads/2025/12/SCOPE3.svg)Scope 3 StandardCertifying Scope 3 interventions to catalyze science-based climate action](https://verra.org/programs/scope-3-standard-program/)
+Certifying Scope 3 interventions to catalyze science-based climate action
+      * [Overview](https://verra.org/programs/scope-3-standard-program/)
+    * [![Climate, Community & Biodiversity Standards](https://verra.org/wp-content/uploads/2025/12/CCBS.svg)Climate, Community & Biodiversity StandardsPromoting excellence and innovation in land use projects](https://verra.org/registry/overview/)
+Promoting excellence and innovation in land use projects
+      * [Overview](https://verra.org/programs/ccbs/)
+      * [Program Details](https://verra.org/programs/ccbs/ccbs-program-details/)
+      * [Validation and Verification](https://verra.org/validation-verification/#for-the-ccbs-program)
+    * [![Sustainable Development Verified Impact Standard](https://verra.org/wp-content/uploads/2025/12/SDVISTA.svg)Sustainable Development Verified Impact StandardThe world’s premier standard for certifying sustainable development impacts.](https://verra.org/registry/overview/)
+The world’s premier standard for certifying sustainable development impacts.
+      * [Overview](https://verra.org/programs/sd-verified-impact-standard/)
+      * [Program Details](https://verra.org/programs/sd-verified-impact-standard/sd-program-details/)
+      * [Methodologies](https://verra.org/program-methodology/sd-vista/overview/)
+      * [Validation and Verification](https://verra.org/validation-verification/#for-the-sd-vista-program)
+    * [![Plastic Waste Reduction Standard](https://verra.org/wp-content/uploads/2025/12/PLASTIC.svg)Plastic Waste Reduction StandardScaling Up Plastic Waste Collection and Recycling](https://verra.org/registry/overview/)
+Scaling Up Plastic Waste Collection and Recycling
+      * [Overview](https://verra.org/programs/plastic-waste-reduction-standard/)
+      * [Program Details](https://verra.org/programs/plastic-waste-reduction-standard/plastic-program-details/)
+      * [Methodologies](https://verra.org/program-methodology/plastic-waste-reduction-standard/overview/)
+      * [Validation and Verification](https://verra.org/validation-verification/#for-the-plastic-program)
+  * [VCS Methodologies](https://verra.org/methodologies-main/)
+  * [Validation and Verification](https://verra.org/validation-verification/)
+  * [Work With Us](https://verra.org/registry/overview/)
+    * [New Project DevelopersVerra provides the framework for your projects to achieve – and demonstrate – the highest standard of climate action.](https://verra.org/define-the-future-of-the-voluntary-carbon-market/)
+    * [Financial InstitutionsFinance the real-world work that drives global climate progress and long term value](https://verra.org/empowering-financial-institutions-for-global-impact/)
+    * [CorporationsLead your industry by reducing emissions and investing in high impact climate solutions](https://verra.org/how-to-be-a-corporate-leader-in-a-climate-crisis-reduce-and-invest/)
+    * [GovernmentsPartner with Verra to strengthen climate action and unlock national potential](https://verra.org/working-with-governments)
+  * [Impact](https://verra.org/case-studies/)
+  * [Latest](https://verra.org/registry/overview/)
+    * [News](https://verra.org/news/)
+    * [Verra Views](https://verra.org/verra-views/)
+    * [Program Notices](https://verra.org/program-notices/)
+    * [Events](https://verra.org/events/)
+    * [Webinar Recordings](https://verra.org/webinar-recordings/)
+    * [Consultations](https://verra.org/consultations/)
+  * [About](https://verra.org/about/overview/)
+    * [About Us](https://verra.org/about/overview/)
+    * [Senior Leadership](https://verra.org/about/staff/)
+    * [Board](https://verra.org/about/board-of-directors/)
+    * [FAQs](https://verra.org/faq/)
+    * [Careers](https://verra.org/life-at-verra/)
+    * [Support Us](https://verra.org/support-us/)
+
+
+  * [Registry](https://verra.org/registry/overview/)
+    * [ ![utility navigation icon](https://verra.org/wp-content/uploads/2025/12/icon-login.svg) Log In ](https://registry.verra.org/)
+    * [ ![utility navigation icon](https://verra.org/wp-content/uploads/2025/12/icon-overview.svg) Overview ](https://verra.org/registry/overview/)
+    * [ ![utility navigation icon](https://verra.org/wp-content/uploads/2025/12/icon-overview.svg) Registry Transition ](https://verra.org/verra-registry-transition/)
+  * [Project Hub](https://verra.org/registry/overview/)
+    * [ ![utility navigation icon](https://verra.org/wp-content/uploads/2025/12/icon-login.svg) Log In ](https://projecthub.verra.org/?_gl=1*lpy6ln*_gcl_aw*R0NMLjE3NTg3MjcwOTcuQ2owS0NRandyYzdHQmhDZkFSSXNBSEdjVzVVS3gtMXQ0OGN6b05PVU9uWWp4dkxqOUZjLVZFdkZTSDUxeVpWNzB0M2R1Uk9TMXRSektoRWFBdjBTRUFMd193Y0I.*_gcl_au*MTY5MjA0NDcxMC4xNzYxMjM0ODQy*_ga*NjQ5NTgxNTc2LjE3Mzk1NjcxODA.*_ga_2VGK901B6P*czE3NjIzODUyMzMkbzExNCRnMSR0MTc2MjM4NTU0MiRqNTkkbDAkaDA.)
+    * [ Overview ](https://verra.org/verra-project-hub/)
+  * [Contact](https://verra.org/contact)
+
+
+[ Donate Donate ](https://4agc.com/donate/verra)
+[ Donate Donate ](https://4agc.com/donate/verra)
+×
+# Verra Registry Overview
+Carolina Pino, The Valdivian Coastal Reserve, Chile
+##### On This Page
+##### On This Page 
+  * [About](https://verra.org/registry/overview/#about)
+  * [World Bank FCPF and ISFL Units on the Verra Registry](https://verra.org/registry/overview/#world-bank-fcpf-and-isfl-units-on-the-verra-registry)
+  * [Key Documents](https://verra.org/registry/overview/#key-documents)
+  * [Multi Factor Authentication (MFA)](https://verra.org/registry/overview/#multi-factor-authentication-\(mfa\))
+  * [Hours of operation](https://verra.org/registry/overview/#hours-of-operation)
+
+
+## About
+The [Verra Registry](https://registry.verra.org/) is the cornerstone for the implementation of Verra’s standards programs. It is the central repository for all information and documentation relating to Verra projects and units. The Verra Registry also ensures the uniqueness of projects and credits in the system.
+Any entity wishing to register projects or issue, retire, or transfer credits must have an active Verra Registry account. Account applications may be submitted by clicking on “Open An Account” at the top right corner of the Verra Registry site. Note that all registry account applicants will be subject to strict “Know-Your-Customer” background checks. 
+The [Terms of Use](https://verra.org/documents/verra-registry-tou_october-2024/) (PDF) sets out the terms on which Verra offers to make the Verra Registry available to the user. 
+[Verra registry![Button Icon](https://verra.org/wp-content/themes/verra/dist/images/ex_link.svg)](https://registry.verra.org/)
+[Verra Registry – Terms of Use![Button Icon](https://verra.org/wp-content/themes/verra/dist/images/attachment.svg)](https://verra.org/wp-content/uploads/2024/10/verra-registry-tou-oct-2024.pdf)
+## World Bank FCPF and ISFL Units on the Verra Registry
+The World Bank’s carbon credits are underpinned by robust methodologies and standards to quantify, monitor, report, and verify greenhouse gas emission reductions from the AFOLU (Agriculture, Forestry, and Other Land Use) sector at the jurisdictional scale. World Bank carbon credits are issued in its own transaction registry (Carbon Assets Tracking System [CATS]), and REDD+ countries may cancel these in CATS with the purpose of re-issuing them in the Verra Registry for further transaction.
+###  Forest Carbon Partnership Facility (FCPF) 
+The FCPF Standard is a carbon crediting standard of the World Bank’s Forest Carbon Partnership Facility (FCPF) for the quantification, monitoring, reporting, and verification of greenhouse gas emission reductions from REDD+ activities at the jurisdictional scale.
+The FCPF has a two-decade track record of supporting countries to develop their national REDD+ frameworks and develop robust and inclusive jurisdictional-scale Emission Reduction Programs, which could generate high-quality and high-integrity carbon credits. The FCPF Standard is designed to achieve climate action at scale by helping countries and the private sector to achieve mitigation goals under the Paris Agreement.
+The FCPF standard is consistent with UNFCCC decisions including the Paris Agreement, the Warsaw Framework, and the Cancun Safeguards.
+Find further information on the [Forest Carbon Partnership Facility site](https://www.forestcarbonpartnership.org/) (external).
+###  Initiative for Sustainable Forest Landscapes (ISFL) 
+The BioCarbon Fund Initiative for Sustainable Forest Landscapes (ISFL) is a multilateral facility that promotes and rewards reduced greenhouse gas emissions and increased sequestration through better land management, including REDD+, climate smart agriculture, and smarter land use planning and policies. The ISFL aims to catalyze the development of a low-carbon rural economy in each of its program areas that will simultaneously result in livelihood opportunities for communities and an overall reduction in greenhouse gas emissions from the land.
+The ISFL has a decade-long track record of supporting countries in developing robust and inclusive jurisdictional-scale Emission Reductions Programs that can generate high-quality and high-integrity carbon credits. Carbon credits from these programs are assessed against the ISFL Emission Reductions Program Requirements, which is a carbon crediting standard for emission reductions generated from AFOLU activities at the jurisdictional level.
+The ISFL Standard is consistent with the UNFCCC decisions, including the Warsaw Framework and Cancun Safeguards, and is designed to support climate action at scale by helping countries and the private sector to achieve mitigation goals under the Paris Agreement.
+Find further information on the [BioCarbon Fund Initiative for Sustainable Forest Landscapes (ISFL) site](https://www.biocarbonfund-isfl.org/) (external).
+## Key Documents
+##### [Verra Registry Terms of Use October 2024 – FINAL As of October 2024, this version applies to all new accounts and to existing accounts for which account holders have provided Verra with written acceptance of its provisions. ![Link Icon](https://verra.org/wp-content/themes/verra/dist/images/ex_link.svg) ](https://verra.org/documents/verra-registry-tou_october-2024/)
+##### [Verra Registry Terms of Use October 2024 – TRACK CHANGES This document highlights the changes made between the previous version of the Terms of Use (April 2024) and the latest version (October 2024). ![Link Icon](https://verra.org/wp-content/themes/verra/dist/images/ex_link.svg) ](https://verra.org/documents/verra-registry-tou_october-2024_track-changes/)
+##### [Verra Registry User Guide This document explains the main functions of the Verra Registry and how to navigate them. ![Link Icon](https://verra.org/wp-content/themes/verra/dist/images/ex_link.svg) ](https://verra.org/documents/verra-registry-user-guide/)
+##### [Introducing the Verra Registry Webinar (vimeo) Recording of Introducing the Verra Registry webinar – 31 March 2020 ![Link Icon](https://verra.org/wp-content/themes/verra/dist/images/ex_link.svg) ](https://vimeo.com/403302334)
+##### [Presentando el Registro de Verra ![Link Icon](https://verra.org/wp-content/themes/verra/dist/images/attachment.svg) ](https://verra.org/wp-content/uploads/Presentacion-del-registro-de-Verra.pdf)
+##### [Verra Registry Communications Agreement – Single PP, v2.1 ![Link Icon](https://verra.org/wp-content/themes/verra/dist/images/attachment.svg) ](https://verra.org/wp-content/uploads/2025/09/Verra-Registry-Communications-Agreement-single-PP-v2.1.docx)
+##### [Verra Registry Communications Agreement – Multiple PPs, v2.1 ![Link Icon](https://verra.org/wp-content/themes/verra/dist/images/attachment.svg) ](https://verra.org/wp-content/uploads/2025/09/Verra-Registry-Communications-Agreement-multiple-PPs-v2.1.docx)
+##### [Verra Registry Release Notes – February 2024 ![Link Icon](https://verra.org/wp-content/themes/verra/dist/images/attachment.svg) ](https://verra.org/wp-content/uploads/2024/03/February-2024-Release-Notes.docx)
+##### [Verra Registry Release Notes – August 2023 ![Link Icon](https://verra.org/wp-content/themes/verra/dist/images/attachment.svg) ](https://verra.org/wp-content/uploads/2023/08/August-2023-Registry-Release-Notes.pdf)
+##### [Verra Registry V4 Release Notes – November 2021 ![Link Icon](https://verra.org/wp-content/themes/verra/dist/images/attachment.svg) ](https://verra.org/wp-content/uploads/V4.3-Release-Notes_Clean_Final.pdf)
+##### [Verra Registry V2 Release Notes – October 2020 ![Link Icon](https://verra.org/wp-content/themes/verra/dist/images/attachment.svg) ](https://verra.org/wp-content/uploads/Release-Notes-Verra-Registry-V2.pdf)
+## Multi Factor Authentication (MFA)
+Verra offers a Multi-Factor Authentication (MFA) option for Verra Registry users providing them with a more secure method to access their Verra Registry accounts.
+### What does this mean for me?
+By default, all **new** Verra Registry users registering an account in the Verra Registry on or after 21 September 2022 will be opted into the MFA requirement. All **existing** Verra Registry users who registered an account in the Verra Registry before 21 September 2022 will be opted out of the MFA requirement. Both new and existing Verra Registry users may change their MFA settings at any time.
+### User Guides
+  * [Account Holder Multi-Factor Authentication (MFA) User Guide](https://verra.org/documents/account-holder-multi-factor-authentication-mfa-user-guide/) (PDF)
+  * [MFA Authentication App Guide](https://verra.org/documents/mfa-authentication-app-guide/) (PDF)
+
+
+**If you have any questions related to the Verra Registry, please contactregistry@verra.org.**
+## Hours of operation
+The hours of operation for registry administration are Monday through Friday, 6:00 am – 6:00 pm Eastern Time (US).
+**The Verra Registry is closed on the following days:**
+  * 4 July
+  * Thanksgiving Day
+  * Christmas Eve, 24 December (closed starting 12:00 pm ET)
+  * Christmas Day, 25 December
+  * New Year’s Eve, 31 December (closed starting 12:00 pm ET)
+  * New Year’s Day, 1 January
+
+
+Contact the Registry Administration Team![Button Icon](https://verra.org/wp-content/themes/verra/dist/images/mailto.svg)
+[Newsletter![Subscribe icon](https://verra.org/wp-content/uploads/2022/09/white_arrow.svg)](https://verra.us2.list-manage.com/subscribe?u=65515b9ef00ff498311fbe3aa&id=dbb30860b5)
+[Donate Now![Subscribe icon](https://verra.org/wp-content/uploads/2022/09/white_arrow.svg)](https://4agc.com/donate/verra)
+  * [Contact](https://verra.org/contact)
+  * [Careers](https://verra.org/life-at-verra/)
+  * [Verra’s Trademarks](https://verra.org/trademarks)
+  * [Organizational Ethos](https://verra.org/home/organizational-ethos/)
+
+
+  * [Terms and Conditions](https://verra.org/verra-website-terms-and-conditions-of-use/)
+  * [Accessibility Statement](https://verra.org/accessibility-statement/)
+  * [Privacy Policy](https://verra.org/privacy-policy/)
+  * [Trust and Security](https://verra.org/trust-and-security/)
+
+
+  * [Bluesky](https://bsky.app/profile/verrastandards.bsky.social)
+  * [LinkedIn](https://www.linkedin.com/company/verrastandards/)
+  * [YouTube](https://www.youtube.com/@verrastandards/)
+
+
+Verra is a nonprofit organization that operates standards in environmental and social markets, including the world’s leading carbon crediting program, the Verified Carbon Standard (VCS) Program.
+© 2026 Verra All rights reserved

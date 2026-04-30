@@ -1,0 +1,35 @@
+- question: "What makes Sweden's carbon tax rate notable?"
+  options:
+    - "It is the lowest in the world"
+    - "It is one of the highest in the world, over $100 per ton"
+    - "Sweden has no carbon tax"
+    - "It changes daily"
+  answer: 1
+  explanation: "Sweden has maintained one of the world's highest carbon tax rates, exceeding $100 per ton, while also maintaining economic competitiveness, demonstrating feasibility of high carbon prices."
+
+- question: "What is British Columbia's revenue use approach?"
+  options:
+    - "All revenue funds green energy"
+    - "Revenue-neutral approach returning all revenue through tax cuts"
+    - "Revenue kept in general budget"
+    - "No revenue collection"
+  answer: 1
+  explanation: "British Columbia's carbon tax is revenue-neutral by law, with all revenue returned through personal and corporate income tax reductions, demonstrating that carbon pricing need not increase overall tax burden."
+
+- question: "What challenge did France's carbon tax face?"
+  options:
+    - "It raised no revenue"
+    - "Yellow vest protests forced suspension of planned fuel tax increases due to distributional concerns"
+    - "It was ruled unconstitutional"
+    - "No challenges"
+  answer: 1
+  explanation: "France's planned fuel tax increases faced massive yellow vest protests in 2018-2019, highlighting the critical importance of addressing distributional impacts and ensuring revenue use is perceived as fair."
+
+- question: "What is Finland's distinction in carbon pricing history?"
+  options:
+    - "First country to implement carbon pricing after 2020"
+    - "One of the first countries to implement a carbon tax in 1990"
+    - "No carbon pricing"
+    - "Only country with carbon pricing"
+  answer: 1
+  explanation: "Finland implemented one of the world's first carbon taxes in 1990, pioneering the carbon tax approach and providing decades of implementation experience."

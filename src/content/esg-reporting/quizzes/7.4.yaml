@@ -1,0 +1,26 @@
+- question: "What is the recommended workflow for getting content from a client who is not providing narratives despite repeated requests?"
+  options:
+    - "Escalate to the client's management and formally request the information"
+    - "Write the sections yourself using publicly available sources (past reports, annual reports, policies, website), then share the draft for the client to correct and refine"
+    - "Wait until the client provides the information, even if it delays the project"
+    - "Use AI to generate generic content and submit it without client review"
+  answer: 1
+  explanation: "Clients engage with a document that exists far more readily than they respond to open-ended requests for input. Writing the first draft yourself from available sources and sharing it for corrections is how experienced consultants actually work - it also gives you control over quality, tone, and flow from the beginning."
+
+- question: "What is 'AI slop' in the context of ESG reporting, and why is it a credibility risk?"
+  options:
+    - "AI-generated data that contains calculation errors"
+    - "AI-generated text that is grammatically correct but completely generic - it could apply to any company and contains no specific insight or substance"
+    - "AI-generated charts that use incorrect color schemes"
+    - "AI-generated translations of the report into other languages"
+  answer: 1
+  explanation: "AI slop is text that sounds polished but says nothing specific to the company. Sentences like 'The company remains committed to advancing its sustainability journey through a comprehensive approach' are filler masquerading as content. The rule is: AI writes the first draft, you edit it to be specific and human. If a sentence could appear in any company's report without modification, it does not belong."
+
+- question: "According to the lesson, what ultimately makes or breaks an ESG reporting engagement?"
+  options:
+    - "The choice of reporting framework (GRI vs. SASB vs. CSRD)"
+    - "The quality of the data collection software"
+    - "People management - getting data from reluctant departments, handling conflicting feedback, navigating stakeholder politics, and pushing back on unrealistic timelines"
+    - "The design quality of the final report"
+  answer: 2
+  explanation: "The technical work in ESG reporting is learnable. What makes or breaks engagements is people management - extracting data from uncooperative departments, managing clients who change direction mid-project, handling conflicting feedback from multiple stakeholders, and pushing back on timelines without damaging relationships. The data template is just the tool."

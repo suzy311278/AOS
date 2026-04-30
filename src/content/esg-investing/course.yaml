@@ -1,0 +1,177 @@
+id: esg-investing
+title: "ESG Investing"
+subtitle: "Integrating sustainability into investment decisions"
+description: "A comprehensive course on ESG investing — covering the E, S, and G pillars, engagement and stewardship, ESG analysis and valuation techniques, portfolio construction, and client mandate design."
+icon: "📈"
+color: indigo
+status: published
+category: green-finance
+estimatedHours: 6
+modules:
+  - id: 0
+    title: "What is ESG Investing?"
+    subtitle: "Foundations, history, and the market landscape"
+    icon: "🌍"
+    color: indigo
+    lessons:
+    - id: "0.1"
+      title: "The Spectrum of Responsible Investment"
+      duration: "45 min"
+      vmRef: "2021-Chapter1.pdf, Sections 1–2"
+    - id: "0.2"
+      title: "History & Evolution of ESG"
+      duration: "40 min"
+      vmRef: "2021-Chapter2.pdf, Section 1"
+    - id: "0.3"
+      title: "The ESG Market in Numbers"
+      duration: "40 min"
+      vmRef: "2021-Chapter2.pdf, Section 2"
+    - id: "0.4"
+      title: "Market Drivers, Stakeholders & Challenges"
+      duration: "50 min"
+      vmRef: "2021-Chapter1.pdf, Sections 3–5; 2021-Chapter2.pdf, Section 3"
+
+  - id: 1
+    title: "Environmental Factors"
+    subtitle: "Climate, resources, and green finance"
+    icon: "🌿"
+    color: green
+    lessons:
+    - id: "1.1"
+      title: "Climate Change & Planetary Boundaries"
+      duration: "50 min"
+      vmRef: "2021-Chapter3.pdf, Section 1A"
+    - id: "1.2"
+      title: "Natural Resources, Biodiversity & Pollution"
+      duration: "45 min"
+      vmRef: "2021-Chapter3.pdf, Sections 1B–1C"
+    - id: "1.3"
+      title: "Materiality & Risk Management for Environmental Issues"
+      duration: "50 min"
+      vmRef: "2021-Chapter3.pdf, Sections 2–5"
+    - id: "1.4"
+      title: "Climate Opportunities & Green Finance"
+      duration: "45 min"
+      vmRef: "2021-Chapter3.pdf, Sections 6–7"
+
+  - id: 2
+    title: "Social Factors"
+    subtitle: "Megatrends, labour, and social impact"
+    icon: "👥"
+    color: rose
+    lessons:
+    - id: "2.1"
+      title: "Social Megatrends & Their Investment Impact"
+      duration: "45 min"
+      vmRef: "2021-Chapter4.pdf, Section 1"
+    - id: "2.2"
+      title: "Key Social Issues in Business"
+      duration: "40 min"
+      vmRef: "2021-Chapter4.pdf, Section 2"
+    - id: "2.3"
+      title: "Identifying & Applying Material Social Factors"
+      duration: "45 min"
+      vmRef: "2021-Chapter4.pdf, Sections 3–4"
+
+  - id: 3
+    title: "Governance Factors"
+    subtitle: "Boards, accountability, and corporate oversight"
+    icon: "🏛️"
+    color: purple
+    lessons:
+    - id: "3.1"
+      title: "Corporate Governance Fundamentals"
+      duration: "45 min"
+      vmRef: "2021-Chapter5.pdf, Sections 1–2"
+    - id: "3.2"
+      title: "Board Structure, Executive Pay & Audit"
+      duration: "50 min"
+      vmRef: "2021-Chapter5.pdf, Sections 3–5"
+    - id: "3.3"
+      title: "Governance Across Markets & Its Investment Impact"
+      duration: "45 min"
+      vmRef: "2021-Chapter5.pdf, Sections 6–8"
+
+  - id: 4
+    title: "Engagement & Stewardship"
+    subtitle: "Active ownership and investor influence"
+    icon: "🤝"
+    color: emerald
+    lessons:
+    - id: "4.1"
+      title: "Stewardship, Engagement & Fiduciary Duty"
+      duration: "40 min"
+      vmRef: "2021-Chapter6.pdf, Sections 1–3"
+    - id: "4.2"
+      title: "Engagement Styles & Effective Practice"
+      duration: "45 min"
+      vmRef: "2021-Chapter6.pdf, Sections 4–5"
+    - id: "4.3"
+      title: "Stewardship Across Asset Classes"
+      duration: "40 min"
+      vmRef: "2021-Chapter6.pdf, Section 6"
+
+  - id: 5
+    title: "ESG Analysis & Valuation"
+    subtitle: "Data, ratings, and integration techniques"
+    icon: "🔍"
+    color: cyan
+    lessons:
+    - id: "5.1"
+      title: "Why & How Investors Integrate ESG"
+      duration: "45 min"
+      vmRef: "2021-Chapter7.pdf, Sections 1–2"
+    - id: "5.2"
+      title: "The ESG Assessment Process"
+      duration: "50 min"
+      vmRef: "2021-Chapter7.pdf, Section 3"
+    - id: "5.3"
+      title: "ESG Data, Ratings & Research Providers"
+      duration: "45 min"
+      vmRef: "2021-Chapter7.pdf, Sections 4–6"
+    - id: "5.4"
+      title: "Fixed Income, Credit & ESG Scoring"
+      duration: "45 min"
+      vmRef: "2021-Chapter7.pdf, Section 7"
+
+  - id: 6
+    title: "ESG Portfolio Construction"
+    subtitle: "From asset allocation to passive strategies"
+    icon: "📊"
+    color: blue
+    lessons:
+    - id: "6.1"
+      title: "ESG in Strategic Asset Allocation"
+      duration: "50 min"
+      vmRef: "2021-Chapter8.pdf, Section 1"
+    - id: "6.2"
+      title: "Screening Strategies & Asset Class Application"
+      duration: "50 min"
+      vmRef: "2021-Chapter8.pdf, Sections 2–4"
+    - id: "6.3"
+      title: "ESG Indices, Benchmarks & Passive Investing"
+      duration: "45 min"
+      vmRef: "2021-Chapter8.pdf, Sections 3, 6"
+    - id: "6.4"
+      title: "Risk-Return Dynamics of ESG Portfolios"
+      duration: "50 min"
+      vmRef: "2021-Chapter8.pdf, Section 5"
+
+  - id: 7
+    title: "Client Mandates & Reporting"
+    subtitle: "Aligning investment with client ESG beliefs"
+    icon: "📋"
+    color: orange
+    lessons:
+    - id: "7.1"
+      title: "Defining ESG Investment Strategy with Clients"
+      duration: "45 min"
+      vmRef: "2021-Chapter9.pdf, Sections 1–3"
+    - id: "7.2"
+      title: "Designing ESG-Aware Mandates"
+      duration: "50 min"
+      vmRef: "2021-Chapter9.pdf, Sections 4–5"
+    - id: "7.3"
+      title: "Monitoring, Measurement & Reporting"
+      duration: "45 min"
+      vmRef: "2021-Chapter9.pdf, Sections 6–7"

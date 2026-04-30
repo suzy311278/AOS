@@ -1,0 +1,44 @@
+- question: "Which of the following best describes the difference between issue-based (top-down) and company-focused (bottom-up) engagement?"
+  options:
+    - "Issue-based engagement is more appropriate for active managers; company-focused engagement suits passive managers"
+    - "Issue-based engagement starts with a thematic concern applied broadly across a portfolio; company-focused engagement starts with the individual company and its specific business issues"
+    - "Issue-based engagement is always collaborative; company-focused engagement is always individual"
+    - "Issue-based engagement avoids governance topics; company-focused engagement avoids environmental topics"
+  answer: 1
+  explanation: "Issue-based engagement begins with a theme — such as climate risk or board diversity — and applies it across all relevant companies in a portfolio or sector. It aligns naturally with passive investors holding diversified portfolios. Company-focused engagement starts with the individual investee, developing a tailored agenda across its specific issues — more typical of active managers with concentrated portfolios where each holding is subject to deep analysis."
+
+- question: "What is the primary advantage of collaborative engagement over individual engagement?"
+  options:
+    - "Collaborative engagement avoids the need to set specific objectives, making it easier to organise"
+    - "Collaborative engagement is exempt from market abuse regulations, making it legally simpler"
+    - "Collaborative engagement pools resources and amplifies investor influence, making it particularly effective for smaller investors or broadly shared concerns"
+    - "Collaborative engagement is faster to initiate because it does not require pre-existing relationships with the target company"
+  answer: 2
+  explanation: "Collaborative engagement pools the resources and combined shareholding weight of multiple investors, giving each participant more influence than they would have individually. This is especially valuable for smaller investors whose individual stakes may be too small to attract serious management attention, and for market-wide issues where consistent messaging from multiple investors is more powerful than individual voices."
+
+- question: "In the escalation ladder for engagement, which of the following represents the most formal and forceful step?"
+  options:
+    - "Holding additional private meetings with senior management to express concerns"
+    - "Expressing concerns through the company's advisers"
+    - "Formally requesting a general meeting and proposing changes to board membership"
+    - "Sharing concerns informally with other investors without forming a coordinated position"
+  answer: 2
+  explanation: "Formally requesting a general meeting and proposing changes to board membership is among the most forceful steps available to equity investors — it directly challenges the board's composition and is a very public signal of serious investor dissatisfaction. Earlier steps, such as additional management meetings or communication through advisers, are less confrontational and are typically tried first."
+
+- question: "Which two proxy advisory firms together dominate the proxy voting advisory market?"
+  options:
+    - "Sustainalytics and MSCI"
+    - "ISS and Glass Lewis"
+    - "Hermes EOS and Robeco"
+    - "Bloomberg and FactSet"
+  answer: 1
+  explanation: "ISS (Institutional Shareholder Services) holds approximately 80% of the proxy advisory market, with Glass Lewis accounting for most of the remaining 20%. These two firms analyse shareholder meeting agendas across thousands of companies and provide voting recommendations that institutional investors use — alongside their own judgment — when deciding how to cast votes."
+
+- question: "According to the Investor Forum's framework, which of the following is identified as a key success factor for effective engagement?"
+  options:
+    - "Engaging as many companies as possible simultaneously to demonstrate broad portfolio coverage"
+    - "Keeping engagement objectives deliberately vague to allow flexibility as dialogue evolves"
+    - "Setting specific and targeted objectives that enable clarity around what successful delivery looks like"
+    - "Initiating engagement publicly to maximise pressure on company management from the outset"
+  answer: 2
+  explanation: "The Investor Forum identifies clear, specific, and targeted objectives (SF1) as a foundational success factor for effective engagement. Vague objectives make it impossible to assess whether engagement has succeeded, reduce accountability, and make it harder to identify the right counterpart within the company to engage. Clarity of objective is what separates genuine engagement from monitoring."

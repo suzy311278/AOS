@@ -1,0 +1,44 @@
+- question: "Under Criterion C13 of the SBTi Near-Term Criteria, what is the earliest permissible base year for a near-term target?"
+  options:
+    - "2010"
+    - "2015"
+    - "2018"
+    - "2020"
+  answer: 1
+  explanation: "C13 specifies that the base year must be no earlier than 2015. This requirement ensures that base years reflect relatively modern emissions data and that reduction commitments are anchored to a period when corporate GHG accounting practice was well-established. Base years before 2015 are not permissible under current SBTi criteria."
+
+- question: "Which of the following best describes why a company should avoid using an outlier year (e.g., a year with abnormally low production) as its SBTi base year?"
+  options:
+    - "The SBTi explicitly prohibits using any year with below-average emissions as a base year"
+    - "Using a low-emissions outlier year makes the target appear less ambitious than a representative year would, since the starting point is already lower"
+    - "Using an outlier year inflates the base year emissions, making the required reduction appear smaller than it actually is"
+    - "The SBTi requires base year emissions to be externally assured, which is only possible for non-outlier years"
+  answer: 1
+  explanation: "An anomalously low base year -- for example, a year when operations were curtailed by an unexpected shutdown -- creates a deceptively modest starting point. Future progress measured against that artificially low baseline will appear more impressive than it actually is, since the company only needs to improve relative to an unrepresentative low. The SBTi advises companies to select representative years to ensure targets reflect genuine ambition."
+
+- question: "A company switches from the operational control consolidation approach to the equity share approach after its SBTi targets have been validated. Under Criterion C27, what is required?"
+  options:
+    - "Nothing is required; consolidation approach changes are exempt from recalculation requirements"
+    - "The company must notify the SBTi within 30 days but does not need to recalculate"
+    - "A base year recalculation is required if the change affects more than 5% of base year emissions"
+    - "The company must withdraw its current targets and resubmit new ones from scratch"
+  answer: 2
+  explanation: "C27 identifies a change in consolidation approach as one of the six triggers for base year recalculation. The recalculation is mandatory if the impact of the change exceeds 5% of base year emissions. Switching from operational control to equity share can significantly change which entities' emissions are included and at what fraction, so recalculation ensures the base year remains a fair reference point for measuring progress."
+
+- question: "The GHG Protocol requires companies to report Scope 2 emissions under two distinct methods. Which statement correctly describes the difference between them?"
+  options:
+    - "The location-based method uses the emission factor of the specific contracts or certificates the company holds; the market-based method uses the average grid emission factor for the region"
+    - "The location-based method uses the average emission factor of the regional or national grid; the market-based method reflects the emission factors of the company's specific electricity contracts or certificates"
+    - "The location-based method applies only to electricity; the market-based method applies to all purchased energy including steam and heat"
+    - "Both methods are required only for companies with Scope 2 emissions above 10,000 tCO2e per year"
+  answer: 1
+  explanation: "Location-based Scope 2 uses the average emission factor of the grid where the energy is consumed, reflecting the actual physical generation mix in that region. Market-based Scope 2 uses the emission factors associated with specific contractual instruments -- such as renewable energy certificates (RECs), Guarantees of Origin (GOs), or power purchase agreements (PPAs). A company with 100% renewable electricity contracts may report near-zero market-based Scope 2, even if its grid is fossil-fuel intensive."
+
+- question: "For SBTi submissions made in 2025, what is the latest year by which a company's most recent GHG inventory must have been conducted?"
+  options:
+    - "2020"
+    - "2021"
+    - "2023"
+    - "The base year must always be the most recent year of inventory"
+  answer: 2
+  explanation: "The SBTi requires that the most recent inventory included in a target submission be no older than two years prior to the submission year. For submissions in 2025, the inventory must therefore cover 2023 at the latest (i.e., not earlier than 2023). This ensures companies engage with their current emissions profile rather than relying solely on older historical data."

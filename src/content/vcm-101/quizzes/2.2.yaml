@@ -1,0 +1,26 @@
+- question: "What does REDD+ stand for, and what type of credits does it primarily generate?"
+  options:
+  - "Renewable Energy Development and Deployment; removal credits"
+  - "Reducing Emissions from Deforestation and Forest Degradation; avoidance credits"
+  - "Reducing Emissions from Deforestation and Forest Degradation; removal credits"
+  - "Reforestation, Energy Efficiency, and Development Dividends; avoidance credits"
+  answer: 1
+  explanation: "REDD+ stands for Reducing Emissions from Deforestation and Forest Degradation (the plus refers to conservation, sustainable management of forests, and enhancement of forest carbon stocks). It generates avoidance credits because it prevents emissions from deforestation that would otherwise occur - the carbon stays in the forest rather than being released. Afforestation and reforestation (ARR) projects generate removal credits by creating new forest carbon stocks."
+
+- question: "A REDD+ project establishes a baseline projecting 5,000 hectares of annual deforestation, but actual monitored deforestation is only 3,000 hectares per year. The methodology requires a 20% leakage deduction. How many net credits are issued per year?"
+  options:
+  - "5,000 hectare-credits minus 3,000 = 2,000 gross, then minus 20% leakage = 1,600 net credits"
+  - "2,000 gross credits, then minus 20% leakage = 1,600 net credits"
+  - "2,000 gross credits with no leakage deduction = 2,000 net credits"
+  - "3,000 credits (actual deforestation prevented) minus 20% = 2,400 net credits"
+  answer: 1
+  explanation: "Net emission reductions equal the difference between the baseline scenario and actual deforestation (2,000 hectares avoided), minus leakage. A 20% leakage deduction applied to the 2,000 gross credits yields 2,000 x (1 - 0.20) = 1,600 net credits. Leakage is deducted because some avoided deforestation may have simply shifted outside the project boundary."
+
+- question: "What is the primary purpose of the VCS AFOLU Pooled Buffer Account?"
+  options:
+  - "To collect registry fees from AFOLU project developers"
+  - "To fund monitoring costs for forest inventory surveys"
+  - "To hold reserve credits that can be cancelled to compensate for verified carbon reversals"
+  - "To store credits from multiple projects until buyers request them"
+  answer: 2
+  explanation: "The AFOLU Pooled Buffer Account is Verra's insurance mechanism for permanence risk in nature-based projects. Projects contribute a percentage of their issued credits to this pool (determined by their assessed reversal risk). When a verified reversal occurs - such as when wildfire destroys enrolled forest - credits from the buffer are cancelled to compensate for the loss, maintaining the integrity of previously issued and sold credits."

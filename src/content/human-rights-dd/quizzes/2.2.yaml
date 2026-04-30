@@ -1,0 +1,26 @@
+- question: "ILO Convention No. 182 on the Worst Forms of Child Labour achieved which milestone in 2020?"
+  options:
+  - "It was adopted by the ILO General Conference for the first time"
+  - "It achieved universal ratification by all ILO member states"
+  - "It was incorporated into the UN Guiding Principles on Business and Human Rights"
+  - "It was extended to cover workers up to age 21"
+  answer: 1
+  explanation: "Convention 182 became the most rapidly ratified convention in ILO history, achieving universal ratification in 2020 - meaning every ILO member state had ratified it, committing to the immediate elimination of the worst forms of child labour."
+
+- question: "Under ILO Convention No. 138, what is the absolute minimum age for hazardous work, with no exceptions for any country?"
+  options:
+  - "14 years"
+  - "15 years"
+  - "16 years"
+  - "18 years"
+  answer: 3
+  explanation: "The minimum age for hazardous work is 18 years under Convention 138, with no exceptions - not for developing countries, not for family businesses, and not for cultural practices. This applies universally regardless of any national exception clauses that apply to other categories of work."
+
+- question: "When a company discovers child labour at a supplier facility in a poor rural community, what approach does best practice recommend?"
+  options:
+  - "Immediately terminate the supplier contract to avoid reputational risk"
+  - "Report the supplier to national child labour authorities for enforcement action"
+  - "Work toward remediation including supporting school enrolment and compensating families, rather than immediately withdrawing"
+  - "Accept the situation as a cultural norm and focus due diligence on higher-risk suppliers"
+  answer: 2
+  explanation: "Best practice, per the ILO and UNGP framework, is to work toward remediation rather than immediate disengagement. Abrupt termination removes family income without replacement and can drive children into more dangerous, less visible forms of work. Remediation includes supporting school enrolment, compensating families, and monitoring outcomes."

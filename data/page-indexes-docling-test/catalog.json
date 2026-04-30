@@ -1,0 +1,1381 @@
+{
+  "documents": [
+    {
+      "id": "ifrs-s2/Illustrative Disclosure",
+      "file": "ifrs-s2/Illustrative Disclosure.json",
+      "title": "Illustrative Disclosure",
+      "description": "Indexed from Illustrative Disclosure.pdf",
+      "course": "ifrs-s2",
+      "total_pages": 101,
+      "topics": []
+    },
+    {
+      "id": "vm0042/VMD0053v2.1_BIOGEOCHEMICAL_MODEL_CALIBRATION_VALIDATION_AND_UNCERTAINTY_GUIDANCE_FOR_ALM_clean",
+      "file": "vm0042/VMD0053v2.1_BIOGEOCHEMICAL_MODEL_CALIBRATION_VALIDATION_AND_UNCERTAINTY_GUIDANCE_FOR_ALM_clean.json",
+      "title": "VMD0053v2.1 BIOGEOCHEMICAL MODEL CALIBRATION VALIDATION AND UNCERTAINTY GUIDANCE FOR ALM clean",
+      "description": "Indexed from VMD0053v2.1_BIOGEOCHEMICAL_MODEL_CALIBRATION_VALIDATION_AND_UNCERTAINTY_GUIDANCE_FOR_ALM_clean.pdf",
+      "course": "vm0042",
+      "total_pages": 41,
+      "topics": []
+    },
+    {
+      "id": "vm0042/AFOLU-Non-Permanence-Risk-Tool-v4.2-last-updated-May-3-2024",
+      "file": "vm0042/AFOLU-Non-Permanence-Risk-Tool-v4.2-last-updated-May-3-2024.json",
+      "title": "AFOLU Non Permanence Risk Tool v4.2 last updated May 3 2024",
+      "description": "Indexed from AFOLU-Non-Permanence-Risk-Tool-v4.2-last-updated-May-3-2024.pdf",
+      "course": "vm0042",
+      "total_pages": 32,
+      "topics": []
+    },
+    {
+      "id": "vm0042/Registration-and-Issuance-Process-v5.0",
+      "file": "vm0042/Registration-and-Issuance-Process-v5.0.json",
+      "title": "Registration and Issuance Process v5.0",
+      "description": "Indexed from Registration-and-Issuance-Process-v5.0.pdf",
+      "course": "vm0042",
+      "total_pages": 46,
+      "topics": []
+    },
+    {
+      "id": "vm0042/VCS-Program-Guide-v5.0",
+      "file": "vm0042/VCS-Program-Guide-v5.0.json",
+      "title": "VCS Program Guide v5.0",
+      "description": "Indexed from VCS-Program-Guide-v5.0.pdf",
+      "course": "vm0042",
+      "total_pages": 27,
+      "topics": []
+    },
+    {
+      "id": "vm0042/VT0008-Additionality-Assessment-v1.0",
+      "file": "vm0042/VT0008-Additionality-Assessment-v1.0.json",
+      "title": "VT0008 Additionality Assessment v1.0",
+      "description": "Indexed from VT0008-Additionality-Assessment-v1.0.pdf",
+      "course": "vm0042",
+      "total_pages": 36,
+      "topics": []
+    },
+    {
+      "id": "vm0044/VM44",
+      "file": "vm0044/VM44.json",
+      "title": "VM44",
+      "description": "Indexed from VM44.pdf",
+      "course": "vm0044",
+      "total_pages": 52,
+      "topics": []
+    },
+    {
+      "id": "eu-sfdr/CELEX%3A32023R0363%3AEN%3ATXT",
+      "file": "eu-sfdr/CELEX%3A32023R0363%3AEN%3ATXT.json",
+      "title": "CELEX%3A32023R0363%3AEN%3ATXT",
+      "description": "Indexed from CELEX%3A32023R0363%3AEN%3ATXT.pdf",
+      "course": "eu-sfdr",
+      "total_pages": 25,
+      "topics": []
+    },
+    {
+      "id": "eu-sfdr/ESMA_Consolidated_SFDR_QAs",
+      "file": "eu-sfdr/ESMA_Consolidated_SFDR_QAs.json",
+      "title": "ESMA Consolidated SFDR QAs",
+      "description": "Indexed from ESMA_Consolidated_SFDR_QAs.pdf",
+      "course": "eu-sfdr",
+      "total_pages": 77,
+      "topics": []
+    },
+    {
+      "id": "eu-sfdr/EC_COM_2025_841_SFDR2_Proposal",
+      "file": "eu-sfdr/EC_COM_2025_841_SFDR2_Proposal.json",
+      "title": "EC COM 2025 841 SFDR2 Proposal",
+      "description": "Indexed from EC_COM_2025_841_SFDR2_Proposal.pdf",
+      "course": "eu-sfdr",
+      "total_pages": 62,
+      "topics": []
+    },
+    {
+      "id": "eu-sfdr/ESAs_PAI_Disclosures_Report_JC_2025_26",
+      "file": "eu-sfdr/ESAs_PAI_Disclosures_Report_JC_2025_26.json",
+      "title": "ESAs PAI Disclosures Report JC 2025 26",
+      "description": "Indexed from ESAs_PAI_Disclosures_Report_JC_2025_26.pdf",
+      "course": "eu-sfdr",
+      "total_pages": 43,
+      "topics": []
+    },
+    {
+      "id": "eu-sfdr/CELEX%3A32022R1288R%2801%29%3AEN%3ATXT",
+      "file": "eu-sfdr/CELEX%3A32022R1288R%2801%29%3AEN%3ATXT.json",
+      "title": "CELEX%3A32022R1288R%2801%29%3AEN%3ATXT",
+      "description": "Indexed from CELEX%3A32022R1288R%2801%29%3AEN%3ATXT.pdf",
+      "course": "eu-sfdr",
+      "total_pages": 74,
+      "topics": []
+    },
+    {
+      "id": "eu-sfdr/EC_2023_SFDR_Consultation_Summary_Report",
+      "file": "eu-sfdr/EC_2023_SFDR_Consultation_Summary_Report.json",
+      "title": "EC 2023 SFDR Consultation Summary Report",
+      "description": "Indexed from EC_2023_SFDR_Consultation_Summary_Report.pdf",
+      "course": "eu-sfdr",
+      "total_pages": 14,
+      "topics": []
+    },
+    {
+      "id": "esg-investing/2021-Chapter5",
+      "file": "esg-investing/2021-Chapter5.json",
+      "title": "2021 Chapter5",
+      "description": "Indexed from 2021-Chapter5.pdf",
+      "course": "esg-investing",
+      "total_pages": 46,
+      "topics": []
+    },
+    {
+      "id": "esg-investing/2021-Chapter4",
+      "file": "esg-investing/2021-Chapter4.json",
+      "title": "2021 Chapter4",
+      "description": "Indexed from 2021-Chapter4.pdf",
+      "course": "esg-investing",
+      "total_pages": 36,
+      "topics": []
+    },
+    {
+      "id": "esg-investing/2021-Chapter6",
+      "file": "esg-investing/2021-Chapter6.json",
+      "title": "2021 Chapter6",
+      "description": "Indexed from 2021-Chapter6.pdf",
+      "course": "esg-investing",
+      "total_pages": 42,
+      "topics": []
+    },
+    {
+      "id": "esg-investing/2021-Chapter7",
+      "file": "esg-investing/2021-Chapter7.json",
+      "title": "2021 Chapter7",
+      "description": "Indexed from 2021-Chapter7.pdf",
+      "course": "esg-investing",
+      "total_pages": 80,
+      "topics": []
+    },
+    {
+      "id": "esg-investing/2021-Chapter3",
+      "file": "esg-investing/2021-Chapter3.json",
+      "title": "2021 Chapter3",
+      "description": "Indexed from 2021-Chapter3.pdf",
+      "course": "esg-investing",
+      "total_pages": 96,
+      "topics": []
+    },
+    {
+      "id": "esg-investing/2021-Chapter2",
+      "file": "esg-investing/2021-Chapter2.json",
+      "title": "2021 Chapter2",
+      "description": "Indexed from 2021-Chapter2.pdf",
+      "course": "esg-investing",
+      "total_pages": 40,
+      "topics": []
+    },
+    {
+      "id": "esg-investing/2021-Chapter1",
+      "file": "esg-investing/2021-Chapter1.json",
+      "title": "2021 Chapter1",
+      "description": "Indexed from 2021-Chapter1.pdf",
+      "course": "esg-investing",
+      "total_pages": 52,
+      "topics": []
+    },
+    {
+      "id": "esg-investing/2021-Chapter9",
+      "file": "esg-investing/2021-Chapter9.json",
+      "title": "2021 Chapter9",
+      "description": "Indexed from 2021-Chapter9.pdf",
+      "course": "esg-investing",
+      "total_pages": 44,
+      "topics": []
+    },
+    {
+      "id": "esg-investing/2021-Chapter8",
+      "file": "esg-investing/2021-Chapter8.json",
+      "title": "2021 Chapter8",
+      "description": "Indexed from 2021-Chapter8.pdf",
+      "course": "esg-investing",
+      "total_pages": 96,
+      "topics": []
+    },
+    {
+      "id": "climate-science-101/IPCC_AR5_SYR_SPM",
+      "file": "climate-science-101/IPCC_AR5_SYR_SPM.json",
+      "title": "IPCC AR5 SYR SPM",
+      "description": "Indexed from IPCC_AR5_SYR_SPM.pdf",
+      "course": "climate-science-101",
+      "total_pages": 32,
+      "topics": []
+    },
+    {
+      "id": "climate-science-101/IPCC_AR6_WGII_SPM",
+      "file": "climate-science-101/IPCC_AR6_WGII_SPM.json",
+      "title": "IPCC AR6 WGII SPM",
+      "description": "Indexed from IPCC_AR6_WGII_SPM.pdf",
+      "course": "climate-science-101",
+      "total_pages": 34,
+      "topics": []
+    },
+    {
+      "id": "climate-science-101/Paris_Agreement_UNFCCC",
+      "file": "climate-science-101/Paris_Agreement_UNFCCC.json",
+      "title": "Paris Agreement UNFCCC",
+      "description": "Indexed from Paris_Agreement_UNFCCC.pdf",
+      "course": "climate-science-101",
+      "total_pages": 174,
+      "topics": []
+    },
+    {
+      "id": "climate-science-101/IPCC_AR6_SYR_SPM",
+      "file": "climate-science-101/IPCC_AR6_SYR_SPM.json",
+      "title": "IPCC AR6 SYR SPM",
+      "description": "Indexed from IPCC_AR6_SYR_SPM.pdf",
+      "course": "climate-science-101",
+      "total_pages": 42,
+      "topics": []
+    },
+    {
+      "id": "climate-science-101/IPCC_AR6_WGI_SPM",
+      "file": "climate-science-101/IPCC_AR6_WGI_SPM.json",
+      "title": "IPCC AR6 WGI SPM",
+      "description": "Indexed from IPCC_AR6_WGI_SPM.pdf",
+      "course": "climate-science-101",
+      "total_pages": 32,
+      "topics": []
+    },
+    {
+      "id": "climate-science-101/IPCC_AR6_WGIII_SPM",
+      "file": "climate-science-101/IPCC_AR6_WGIII_SPM.json",
+      "title": "IPCC AR6 WGIII SPM",
+      "description": "Indexed from IPCC_AR6_WGIII_SPM.pdf",
+      "course": "climate-science-101",
+      "total_pages": 53,
+      "topics": []
+    },
+    {
+      "id": "climate-science-101/IPCC_SR15_SPM",
+      "file": "climate-science-101/IPCC_SR15_SPM.json",
+      "title": "IPCC SR15 SPM",
+      "description": "Indexed from IPCC_SR15_SPM.pdf",
+      "course": "climate-science-101",
+      "total_pages": 24,
+      "topics": []
+    },
+    {
+      "id": "double-materiality/GRI-1-Foundation-2021",
+      "file": "double-materiality/GRI-1-Foundation-2021.json",
+      "title": "GRI 1 Foundation 2021",
+      "description": "Indexed from GRI-1-Foundation-2021.pdf",
+      "course": "double-materiality",
+      "total_pages": 38,
+      "topics": []
+    },
+    {
+      "id": "double-materiality/ESRS-1-General-Requirements",
+      "file": "double-materiality/ESRS-1-General-Requirements.json",
+      "title": "ESRS 1 General Requirements",
+      "description": "Indexed from ESRS-1-General-Requirements.pdf",
+      "course": "double-materiality",
+      "total_pages": 284,
+      "topics": []
+    },
+    {
+      "id": "double-materiality/BCG-Double-Materiality-Assessment-Toolbox",
+      "file": "double-materiality/BCG-Double-Materiality-Assessment-Toolbox.json",
+      "title": "BCG Double Materiality Assessment Toolbox",
+      "description": "Indexed from BCG-Double-Materiality-Assessment-Toolbox.pdf",
+      "course": "double-materiality",
+      "total_pages": 13,
+      "topics": []
+    },
+    {
+      "id": "ifc-performance-standards/2012-ifc-performance-standards-guidance-note-en",
+      "file": "ifc-performance-standards/2012-ifc-performance-standards-guidance-note-en.json",
+      "title": "2012 ifc performance standards guidance note en",
+      "description": "Indexed from 2012-ifc-performance-standards-guidance-note-en.pdf",
+      "course": "ifc-performance-standards",
+      "total_pages": 250,
+      "topics": []
+    },
+    {
+      "id": "ifc-performance-standards/2012-ifc-performance-standards-en",
+      "file": "ifc-performance-standards/2012-ifc-performance-standards-en.json",
+      "title": "2012 ifc performance standards en",
+      "description": "Indexed from 2012-ifc-performance-standards-en.pdf",
+      "course": "ifc-performance-standards",
+      "total_pages": 50,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/ICVCM-CCP-Part1-Introduction",
+      "file": "vcm-101/ICVCM-CCP-Part1-Introduction.json",
+      "title": "ICVCM CCP Part1 Introduction",
+      "description": "Indexed from ICVCM-CCP-Part1-Introduction.pdf",
+      "course": "vcm-101",
+      "total_pages": 5,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/VCMI-Claims-Code-v1-June-2023",
+      "file": "vcm-101/VCMI-Claims-Code-v1-June-2023.json",
+      "title": "VCMI Claims Code v1 June 2023",
+      "description": "Indexed from VCMI-Claims-Code-v1-June-2023.pdf",
+      "course": "vcm-101",
+      "total_pages": 44,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/ICVCM-CCP-Part6-Assessment-Procedure",
+      "file": "vcm-101/ICVCM-CCP-Part6-Assessment-Procedure.json",
+      "title": "ICVCM CCP Part6 Assessment Procedure",
+      "description": "Indexed from ICVCM-CCP-Part6-Assessment-Procedure.pdf",
+      "course": "vcm-101",
+      "total_pages": 25,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/Oxford-Practitioners-Handbook-2025",
+      "file": "vcm-101/Oxford-Practitioners-Handbook-2025.json",
+      "title": "Oxford Practitioners Handbook 2025",
+      "description": "Indexed from Oxford-Practitioners-Handbook-2025.pdf",
+      "course": "vcm-101",
+      "total_pages": 17,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/Oxford-Principles-Net-Zero-2024",
+      "file": "vcm-101/Oxford-Principles-Net-Zero-2024.json",
+      "title": "Oxford Principles Net Zero 2024",
+      "description": "Indexed from Oxford-Principles-Net-Zero-2024.pdf",
+      "course": "vcm-101",
+      "total_pages": 28,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/VCMI-MRA-Framework-v1.3-2025",
+      "file": "vcm-101/VCMI-MRA-Framework-v1.3-2025.json",
+      "title": "VCMI MRA Framework v1.3 2025",
+      "description": "Indexed from VCMI-MRA-Framework-v1.3-2025.pdf",
+      "course": "vcm-101",
+      "total_pages": 113,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/VCMI-Claims-Code-Background-Nov-2023",
+      "file": "vcm-101/VCMI-Claims-Code-Background-Nov-2023.json",
+      "title": "VCMI Claims Code Background Nov 2023",
+      "description": "Indexed from VCMI-Claims-Code-Background-Nov-2023.pdf",
+      "course": "vcm-101",
+      "total_pages": 28,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/ICVCM-CCP-Complete-v1.1-2024",
+      "file": "vcm-101/ICVCM-CCP-Complete-v1.1-2024.json",
+      "title": "ICVCM CCP Complete v1.1 2024",
+      "description": "Indexed from ICVCM-CCP-Complete-v1.1-2024.pdf",
+      "course": "vcm-101",
+      "total_pages": 134,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/VCMI-Claims-Code-v2.1-Aug-2024",
+      "file": "vcm-101/VCMI-Claims-Code-v2.1-Aug-2024.json",
+      "title": "VCMI Claims Code v2.1 Aug 2024",
+      "description": "Indexed from VCMI-Claims-Code-v2.1-Aug-2024.pdf",
+      "course": "vcm-101",
+      "total_pages": 44,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/Oxford-Principles-Net-Zero-2024-Revised",
+      "file": "vcm-101/Oxford-Principles-Net-Zero-2024-Revised.json",
+      "title": "Oxford Principles Net Zero 2024 Revised",
+      "description": "Indexed from Oxford-Principles-Net-Zero-2024-Revised.pdf",
+      "course": "vcm-101",
+      "total_pages": 28,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/GoldStandard-Principles-Requirements-v2.1",
+      "file": "vcm-101/GoldStandard-Principles-Requirements-v2.1.json",
+      "title": "GoldStandard Principles Requirements v2.1",
+      "description": "Indexed from GoldStandard-Principles-Requirements-v2.1.pdf",
+      "course": "vcm-101",
+      "total_pages": 36,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/GoldStandard-Safeguarding-Principles-v2.1",
+      "file": "vcm-101/GoldStandard-Safeguarding-Principles-v2.1.json",
+      "title": "GoldStandard Safeguarding Principles v2.1",
+      "description": "Indexed from GoldStandard-Safeguarding-Principles-v2.1.pdf",
+      "course": "vcm-101",
+      "total_pages": 62,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/ICVCM-CCP-Foreword-v1.1",
+      "file": "vcm-101/ICVCM-CCP-Foreword-v1.1.json",
+      "title": "ICVCM CCP Foreword v1.1",
+      "description": "Indexed from ICVCM-CCP-Foreword-v1.1.pdf",
+      "course": "vcm-101",
+      "total_pages": 8,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/GoldStandard-Validation-Verification-v2.0",
+      "file": "vcm-101/GoldStandard-Validation-Verification-v2.0.json",
+      "title": "GoldStandard Validation Verification v2.0",
+      "description": "Indexed from GoldStandard-Validation-Verification-v2.0.pdf",
+      "course": "vcm-101",
+      "total_pages": 80,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/ICVCM-CCP-Part2-Core-Carbon-Principles",
+      "file": "vcm-101/ICVCM-CCP-Part2-Core-Carbon-Principles.json",
+      "title": "ICVCM CCP Part2 Core Carbon Principles",
+      "description": "Indexed from ICVCM-CCP-Part2-Core-Carbon-Principles.pdf",
+      "course": "vcm-101",
+      "total_pages": 6,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/SBTi-Corporate-Net-Zero-Standard",
+      "file": "vcm-101/SBTi-Corporate-Net-Zero-Standard.json",
+      "title": "SBTi Corporate Net Zero Standard",
+      "description": "Indexed from SBTi-Corporate-Net-Zero-Standard.pdf",
+      "course": "vcm-101",
+      "total_pages": 86,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/ICVCM-CCP-Part4-Assessment-Framework",
+      "file": "vcm-101/ICVCM-CCP-Part4-Assessment-Framework.json",
+      "title": "ICVCM CCP Part4 Assessment Framework",
+      "description": "Indexed from ICVCM-CCP-Part4-Assessment-Framework.pdf",
+      "course": "vcm-101",
+      "total_pages": 53,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/Verra-VCS-Methodology-Requirements-v4.4",
+      "file": "vcm-101/Verra-VCS-Methodology-Requirements-v4.4.json",
+      "title": "Verra VCS Methodology Requirements v4.4",
+      "description": "Indexed from Verra-VCS-Methodology-Requirements-v4.4.pdf",
+      "course": "vcm-101",
+      "total_pages": 88,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/SBTi-Corporate-Net-Zero-Criteria-v1.2",
+      "file": "vcm-101/SBTi-Corporate-Net-Zero-Criteria-v1.2.json",
+      "title": "SBTi Corporate Net Zero Criteria v1.2",
+      "description": "Indexed from SBTi-Corporate-Net-Zero-Criteria-v1.2.pdf",
+      "course": "vcm-101",
+      "total_pages": 25,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/VCMI-Claims-Code-v3.0-Apr-2025",
+      "file": "vcm-101/VCMI-Claims-Code-v3.0-Apr-2025.json",
+      "title": "VCMI Claims Code v3.0 Apr 2025",
+      "description": "Indexed from VCMI-Claims-Code-v3.0-Apr-2025.pdf",
+      "course": "vcm-101",
+      "total_pages": 47,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/ICVCM-CCP-Part5-Definitions",
+      "file": "vcm-101/ICVCM-CCP-Part5-Definitions.json",
+      "title": "ICVCM CCP Part5 Definitions",
+      "description": "Indexed from ICVCM-CCP-Part5-Definitions.pdf",
+      "course": "vcm-101",
+      "total_pages": 7,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/ICVCM-CCP-Part3-Summary-DecisionMakers",
+      "file": "vcm-101/ICVCM-CCP-Part3-Summary-DecisionMakers.json",
+      "title": "ICVCM CCP Part3 Summary DecisionMakers",
+      "description": "Indexed from ICVCM-CCP-Part3-Summary-DecisionMakers.pdf",
+      "course": "vcm-101",
+      "total_pages": 30,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/Verra-VCS-Program-Guide-v4.4",
+      "file": "vcm-101/Verra-VCS-Program-Guide-v4.4.json",
+      "title": "Verra VCS Program Guide v4.4",
+      "description": "Indexed from Verra-VCS-Program-Guide-v4.4.pdf",
+      "course": "vcm-101",
+      "total_pages": 28,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/VCMI-Claims-Code-v2-Nov-2023",
+      "file": "vcm-101/VCMI-Claims-Code-v2-Nov-2023.json",
+      "title": "VCMI Claims Code v2 Nov 2023",
+      "description": "Indexed from VCMI-Claims-Code-v2-Nov-2023.pdf",
+      "course": "vcm-101",
+      "total_pages": 43,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/TSVCM-Phase2-Report-IIF",
+      "file": "vcm-101/TSVCM-Phase2-Report-IIF.json",
+      "title": "TSVCM Phase2 Report IIF",
+      "description": "Indexed from TSVCM-Phase2-Report-IIF.pdf",
+      "course": "vcm-101",
+      "total_pages": 156,
+      "topics": []
+    },
+    {
+      "id": "ghg-scope-3/Corporate-Value-Chain-Accounting-Reporing-Standard_041613_2",
+      "file": "ghg-scope-3/Corporate-Value-Chain-Accounting-Reporing-Standard_041613_2.json",
+      "title": "Corporate Value Chain Accounting Reporing Standard 041613 2",
+      "description": "Indexed from Corporate-Value-Chain-Accounting-Reporing-Standard_041613_2.pdf",
+      "course": "ghg-scope-3",
+      "total_pages": 152,
+      "topics": []
+    },
+    {
+      "id": "circular-economy/EU_Ecodesign_Directive_2009_125",
+      "file": "circular-economy/EU_Ecodesign_Directive_2009_125.json",
+      "title": "EU Ecodesign Directive 2009 125",
+      "description": "Indexed from EU_Ecodesign_Directive_2009_125.pdf",
+      "course": "circular-economy",
+      "total_pages": 26,
+      "topics": []
+    },
+    {
+      "id": "circular-economy/EU_Single_Use_Plastics_Directive_2019",
+      "file": "circular-economy/EU_Single_Use_Plastics_Directive_2019.json",
+      "title": "EU Single Use Plastics Directive 2019",
+      "description": "Indexed from EU_Single_Use_Plastics_Directive_2019.pdf",
+      "course": "circular-economy",
+      "total_pages": 19,
+      "topics": []
+    },
+    {
+      "id": "circular-economy/EU_CEAP_2020_europarl",
+      "file": "circular-economy/EU_CEAP_2020_europarl.json",
+      "title": "EU CEAP 2020 europarl",
+      "description": "Indexed from EU_CEAP_2020_europarl.pdf",
+      "course": "circular-economy",
+      "total_pages": 20,
+      "topics": []
+    },
+    {
+      "id": "circular-economy/EU_WFD_2018_Amendment",
+      "file": "circular-economy/EU_WFD_2018_Amendment.json",
+      "title": "EU WFD 2018 Amendment",
+      "description": "Indexed from EU_WFD_2018_Amendment.pdf",
+      "course": "circular-economy",
+      "total_pages": 32,
+      "topics": []
+    },
+    {
+      "id": "circular-economy/EU_Packaging_Directive_94_62",
+      "file": "circular-economy/EU_Packaging_Directive_94_62.json",
+      "title": "EU Packaging Directive 94 62",
+      "description": "Indexed from EU_Packaging_Directive_94_62.pdf",
+      "course": "circular-economy",
+      "total_pages": 14,
+      "topics": []
+    },
+    {
+      "id": "circular-economy/ESPR_2024_1781",
+      "file": "circular-economy/ESPR_2024_1781.json",
+      "title": "ESPR 2024 1781",
+      "description": "Indexed from ESPR_2024_1781.pdf",
+      "course": "circular-economy",
+      "total_pages": 89,
+      "topics": []
+    },
+    {
+      "id": "circular-economy/EU_Critical_Raw_Materials_Act",
+      "file": "circular-economy/EU_Critical_Raw_Materials_Act.json",
+      "title": "EU Critical Raw Materials Act",
+      "description": "Indexed from EU_Critical_Raw_Materials_Act.pdf",
+      "course": "circular-economy",
+      "total_pages": 67,
+      "topics": []
+    },
+    {
+      "id": "circular-economy/EU_CEAP_2020_cellar",
+      "file": "circular-economy/EU_CEAP_2020_cellar.json",
+      "title": "EU CEAP 2020 cellar",
+      "description": "Indexed from EU_CEAP_2020_cellar.pdf",
+      "course": "circular-economy",
+      "total_pages": 21,
+      "topics": []
+    },
+    {
+      "id": "carbon-pricing/WorldBank_State_Trends_2024",
+      "file": "carbon-pricing/WorldBank_State_Trends_2024.json",
+      "title": "WorldBank State Trends 2024",
+      "description": "Indexed from WorldBank_State_Trends_2024.pdf",
+      "course": "carbon-pricing",
+      "total_pages": 76,
+      "topics": []
+    },
+    {
+      "id": "carbon-pricing/ICAP_ETS_Handbook_2021",
+      "file": "carbon-pricing/ICAP_ETS_Handbook_2021.json",
+      "title": "ICAP ETS Handbook 2021",
+      "description": "Indexed from ICAP_ETS_Handbook_2021.pdf",
+      "course": "carbon-pricing",
+      "total_pages": 264,
+      "topics": []
+    },
+    {
+      "id": "carbon-pricing/OECD_Pricing_GHG_Emissions_2024",
+      "file": "carbon-pricing/OECD_Pricing_GHG_Emissions_2024.json",
+      "title": "OECD Pricing GHG Emissions 2024",
+      "description": "Indexed from OECD_Pricing_GHG_Emissions_2024.pdf",
+      "course": "carbon-pricing",
+      "total_pages": 95,
+      "topics": []
+    },
+    {
+      "id": "carbon-pricing/WorldBank_PMR_Assessment_Guide_2021",
+      "file": "carbon-pricing/WorldBank_PMR_Assessment_Guide_2021.json",
+      "title": "WorldBank PMR Assessment Guide 2021",
+      "description": "Indexed from WorldBank_PMR_Assessment_Guide_2021.pdf",
+      "course": "carbon-pricing",
+      "total_pages": 106,
+      "topics": []
+    },
+    {
+      "id": "carbon-pricing/WorldBank_Carbon_Tax_Guide_2017",
+      "file": "carbon-pricing/WorldBank_Carbon_Tax_Guide_2017.json",
+      "title": "WorldBank Carbon Tax Guide 2017",
+      "description": "Indexed from WorldBank_Carbon_Tax_Guide_2017.pdf",
+      "course": "carbon-pricing",
+      "total_pages": 172,
+      "topics": []
+    },
+    {
+      "id": "carbon-pricing/WorldBank_Communicating_Carbon_Pricing",
+      "file": "carbon-pricing/WorldBank_Communicating_Carbon_Pricing.json",
+      "title": "WorldBank Communicating Carbon Pricing",
+      "description": "Indexed from WorldBank_Communicating_Carbon_Pricing.pdf",
+      "course": "carbon-pricing",
+      "total_pages": 104,
+      "topics": []
+    },
+    {
+      "id": "human-rights-dd/WBA-CHRB-Insights-Report-2023",
+      "file": "human-rights-dd/WBA-CHRB-Insights-Report-2023.json",
+      "title": "WBA CHRB Insights Report 2023",
+      "description": "Indexed from WBA-CHRB-Insights-Report-2023.pdf",
+      "course": "human-rights-dd",
+      "total_pages": 38,
+      "topics": []
+    },
+    {
+      "id": "human-rights-dd/OHCHR-UNGP-Intro-Guide",
+      "file": "human-rights-dd/OHCHR-UNGP-Intro-Guide.json",
+      "title": "OHCHR UNGP Intro Guide",
+      "description": "Indexed from OHCHR-UNGP-Intro-Guide.pdf",
+      "course": "human-rights-dd",
+      "total_pages": 4,
+      "topics": []
+    },
+    {
+      "id": "human-rights-dd/WBA-CHRB-Methodology-2026",
+      "file": "human-rights-dd/WBA-CHRB-Methodology-2026.json",
+      "title": "WBA CHRB Methodology 2026",
+      "description": "Indexed from WBA-CHRB-Methodology-2026.pdf",
+      "course": "human-rights-dd",
+      "total_pages": 101,
+      "topics": []
+    },
+    {
+      "id": "human-rights-dd/OHCHR-UNGP-FAQ",
+      "file": "human-rights-dd/OHCHR-UNGP-FAQ.json",
+      "title": "OHCHR UNGP FAQ",
+      "description": "Indexed from OHCHR-UNGP-FAQ.pdf",
+      "course": "human-rights-dd",
+      "total_pages": 60,
+      "topics": []
+    },
+    {
+      "id": "human-rights-dd/OHCHR-Interpretive-Guide-Corporate-Responsibility-2012",
+      "file": "human-rights-dd/OHCHR-Interpretive-Guide-Corporate-Responsibility-2012.json",
+      "title": "OHCHR Interpretive Guide Corporate Responsibility 2012",
+      "description": "Indexed from OHCHR-Interpretive-Guide-Corporate-Responsibility-2012.pdf",
+      "course": "human-rights-dd",
+      "total_pages": 98,
+      "topics": []
+    },
+    {
+      "id": "human-rights-dd/EU-CSDDD-2024-1760",
+      "file": "human-rights-dd/EU-CSDDD-2024-1760.json",
+      "title": "EU CSDDD 2024 1760",
+      "description": "Indexed from EU-CSDDD-2024-1760.pdf",
+      "course": "human-rights-dd",
+      "total_pages": 58,
+      "topics": []
+    },
+    {
+      "id": "human-rights-dd/ILO-Forced-Labour-Indicators-2012",
+      "file": "human-rights-dd/ILO-Forced-Labour-Indicators-2012.json",
+      "title": "ILO Forced Labour Indicators 2012",
+      "description": "Indexed from ILO-Forced-Labour-Indicators-2012.pdf",
+      "course": "human-rights-dd",
+      "total_pages": 26,
+      "topics": []
+    },
+    {
+      "id": "human-rights-dd/UN-Guiding-Principles-2011",
+      "file": "human-rights-dd/UN-Guiding-Principles-2011.json",
+      "title": "UN Guiding Principles 2011",
+      "description": "Indexed from UN-Guiding-Principles-2011.pdf",
+      "course": "human-rights-dd",
+      "total_pages": 42,
+      "topics": []
+    },
+    {
+      "id": "ghg-scope-1-2/stationaryemissions",
+      "file": "ghg-scope-1-2/stationaryemissions.json",
+      "title": "stationaryemissions",
+      "description": "Indexed from stationaryemissions.pdf",
+      "course": "ghg-scope-1-2",
+      "total_pages": 19,
+      "topics": []
+    },
+    {
+      "id": "ghg-scope-1-2/ghg-protocol-revised",
+      "file": "ghg-scope-1-2/ghg-protocol-revised.json",
+      "title": "ghg protocol revised",
+      "description": "Indexed from ghg-protocol-revised.pdf",
+      "course": "ghg-scope-1-2",
+      "total_pages": 116,
+      "topics": []
+    },
+    {
+      "id": "ghg-scope-1-2/fugitiveemissions",
+      "file": "ghg-scope-1-2/fugitiveemissions.json",
+      "title": "fugitiveemissions",
+      "description": "Indexed from fugitiveemissions.pdf",
+      "course": "ghg-scope-1-2",
+      "total_pages": 20,
+      "topics": []
+    },
+    {
+      "id": "ghg-scope-1-2/Scope 2 Guidance",
+      "file": "ghg-scope-1-2/Scope 2 Guidance.json",
+      "title": "Scope 2 Guidance",
+      "description": "Indexed from Scope 2 Guidance.pdf",
+      "course": "ghg-scope-1-2",
+      "total_pages": 120,
+      "topics": []
+    },
+    {
+      "id": "ghg-scope-1-2/mobileemissions",
+      "file": "ghg-scope-1-2/mobileemissions.json",
+      "title": "mobileemissions",
+      "description": "Indexed from mobileemissions.pdf",
+      "course": "ghg-scope-1-2",
+      "total_pages": 16,
+      "topics": []
+    },
+    {
+      "id": "eudr/FAO_State_of_Worlds_Forests_2022",
+      "file": "eudr/FAO_State_of_Worlds_Forests_2022.json",
+      "title": "FAO State of Worlds Forests 2022",
+      "description": "Indexed from FAO_State_of_Worlds_Forests_2022.pdf",
+      "course": "eudr",
+      "total_pages": 166,
+      "topics": []
+    },
+    {
+      "id": "eudr/EUDR_Regulation_2023_1115_Official",
+      "file": "eudr/EUDR_Regulation_2023_1115_Official.json",
+      "title": "EUDR Regulation 2023 1115 Official",
+      "description": "Indexed from EUDR_Regulation_2023_1115_Official.pdf",
+      "course": "eudr",
+      "total_pages": 42,
+      "topics": []
+    },
+    {
+      "id": "eudr/FAO_Global_Forest_Resources_Assessment_2022",
+      "file": "eudr/FAO_Global_Forest_Resources_Assessment_2022.json",
+      "title": "FAO Global Forest Resources Assessment 2022",
+      "description": "Indexed from FAO_Global_Forest_Resources_Assessment_2022.pdf",
+      "course": "eudr",
+      "total_pages": 88,
+      "topics": []
+    },
+    {
+      "id": "eu-cbam/CBAM-Regulation-2023-956",
+      "file": "eu-cbam/CBAM-Regulation-2023-956.json",
+      "title": "CBAM Regulation 2023 956",
+      "description": "Indexed from CBAM-Regulation-2023-956.pdf",
+      "course": "eu-cbam",
+      "total_pages": 53,
+      "topics": []
+    },
+    {
+      "id": "eu-cbam/WB-State-Trends-Carbon-Pricing-2024",
+      "file": "eu-cbam/WB-State-Trends-Carbon-Pricing-2024.json",
+      "title": "WB State Trends Carbon Pricing 2024",
+      "description": "Indexed from WB-State-Trends-Carbon-Pricing-2024.pdf",
+      "course": "eu-cbam",
+      "total_pages": 76,
+      "topics": []
+    },
+    {
+      "id": "eu-cbam/CBAM-Implementing-Regulation-2025-2620-Free-Allocation",
+      "file": "eu-cbam/CBAM-Implementing-Regulation-2025-2620-Free-Allocation.json",
+      "title": "CBAM Implementing Regulation 2025 2620 Free Allocation",
+      "description": "Indexed from CBAM-Implementing-Regulation-2025-2620-Free-Allocation.pdf",
+      "course": "eu-cbam",
+      "total_pages": 65,
+      "topics": []
+    },
+    {
+      "id": "eu-cbam/EC-CBAM-TAXUD-Guidance-Main",
+      "file": "eu-cbam/EC-CBAM-TAXUD-Guidance-Main.json",
+      "title": "EC CBAM TAXUD Guidance Main",
+      "description": "Indexed from EC-CBAM-TAXUD-Guidance-Main.pdf",
+      "course": "eu-cbam",
+      "total_pages": 98,
+      "topics": []
+    },
+    {
+      "id": "financed-emissions/PCAF-PartB-ExecSum",
+      "file": "financed-emissions/PCAF-PartB-ExecSum.json",
+      "title": "PCAF PartB ExecSum",
+      "description": "Indexed from PCAF-PartB-ExecSum.pdf",
+      "course": "financed-emissions",
+      "total_pages": 5,
+      "topics": []
+    },
+    {
+      "id": "financed-emissions/PCAF-PartB-Facilitated-Emissions-Standard-Dec2023",
+      "file": "financed-emissions/PCAF-PartB-Facilitated-Emissions-Standard-Dec2023.json",
+      "title": "PCAF PartB Facilitated Emissions Standard Dec2023",
+      "description": "Indexed from PCAF-PartB-Facilitated-Emissions-Standard-Dec2023.pdf",
+      "course": "financed-emissions",
+      "total_pages": 56,
+      "topics": []
+    },
+    {
+      "id": "financed-emissions/PCAF-PartC-2025-V2-15012026",
+      "file": "financed-emissions/PCAF-PartC-2025-V2-15012026.json",
+      "title": "PCAF PartC 2025 V2 15012026",
+      "description": "Indexed from PCAF-PartC-2025-V2-15012026.pdf",
+      "course": "financed-emissions",
+      "total_pages": 134,
+      "topics": []
+    },
+    {
+      "id": "financed-emissions/PCAF-Disclosure-Checklist-Part-A-Financed-Emissions-May-2025",
+      "file": "financed-emissions/PCAF-Disclosure-Checklist-Part-A-Financed-Emissions-May-2025.json",
+      "title": "PCAF Disclosure Checklist Part A Financed Emissions May 2025",
+      "description": "Indexed from PCAF-Disclosure-Checklist-Part-A-Financed-Emissions-May-2025.pdf",
+      "course": "financed-emissions",
+      "total_pages": 8,
+      "topics": []
+    },
+    {
+      "id": "esg-benchmarking/MSCI-ESG-Ratings-Methodology",
+      "file": "esg-benchmarking/MSCI-ESG-Ratings-Methodology.json",
+      "title": "MSCI ESG Ratings Methodology",
+      "description": "Indexed from MSCI-ESG-Ratings-Methodology.pdf",
+      "course": "esg-benchmarking",
+      "total_pages": 50,
+      "topics": []
+    },
+    {
+      "id": "esg-benchmarking/GRI-1-Foundation-2021",
+      "file": "esg-benchmarking/GRI-1-Foundation-2021.json",
+      "title": "GRI 1 Foundation 2021",
+      "description": "Indexed from GRI-1-Foundation-2021.pdf",
+      "course": "esg-benchmarking",
+      "total_pages": 38,
+      "topics": []
+    },
+    {
+      "id": "esg-benchmarking/Sustainalytics-ESG-Risk-Ratings-Methodology",
+      "file": "esg-benchmarking/Sustainalytics-ESG-Risk-Ratings-Methodology.json",
+      "title": "Sustainalytics ESG Risk Ratings Methodology",
+      "description": "Indexed from Sustainalytics-ESG-Risk-Ratings-Methodology.pdf",
+      "course": "esg-benchmarking",
+      "total_pages": 27,
+      "topics": []
+    },
+    {
+      "id": "esg-benchmarking/CDP-Scoring-Methodology-2024",
+      "file": "esg-benchmarking/CDP-Scoring-Methodology-2024.json",
+      "title": "CDP Scoring Methodology 2024",
+      "description": "Indexed from CDP-Scoring-Methodology-2024.pdf",
+      "course": "esg-benchmarking",
+      "total_pages": 657,
+      "topics": []
+    },
+    {
+      "id": "esg-benchmarking/GRI-2-General-Disclosures-2021",
+      "file": "esg-benchmarking/GRI-2-General-Disclosures-2021.json",
+      "title": "GRI 2 General Disclosures 2021",
+      "description": "Indexed from GRI-2-General-Disclosures-2021.pdf",
+      "course": "esg-benchmarking",
+      "total_pages": 58,
+      "topics": []
+    },
+    {
+      "id": "sbti/SBTi-Glossary",
+      "file": "sbti/SBTi-Glossary.json",
+      "title": "SBTi Glossary",
+      "description": "Indexed from SBTi-Glossary.pdf",
+      "course": "sbti",
+      "total_pages": 131,
+      "topics": []
+    },
+    {
+      "id": "sbti/Net-Zero-Standard-Criteria",
+      "file": "sbti/Net-Zero-Standard-Criteria.json",
+      "title": "Net Zero Standard Criteria",
+      "description": "Indexed from Net-Zero-Standard-Criteria.pdf",
+      "course": "sbti",
+      "total_pages": 25,
+      "topics": []
+    },
+    {
+      "id": "sbti/Supplier-Engagement-Guidance",
+      "file": "sbti/Supplier-Engagement-Guidance.json",
+      "title": "Supplier Engagement Guidance",
+      "description": "Indexed from Supplier-Engagement-Guidance.pdf",
+      "course": "sbti",
+      "total_pages": 47,
+      "topics": []
+    },
+    {
+      "id": "sbti/Net-Zero-Standard-v1.3",
+      "file": "sbti/Net-Zero-Standard-v1.3.json",
+      "title": "Net Zero Standard v1.3",
+      "description": "Indexed from Net-Zero-Standard-v1.3.pdf",
+      "course": "sbti",
+      "total_pages": 86,
+      "topics": []
+    },
+    {
+      "id": "sbti/Getting-Started-Guide-v1.2",
+      "file": "sbti/Getting-Started-Guide-v1.2.json",
+      "title": "Getting Started Guide v1.2",
+      "description": "Indexed from Getting-Started-Guide-v1.2.pdf",
+      "course": "sbti",
+      "total_pages": 16,
+      "topics": []
+    },
+    {
+      "id": "sbti/SBTi-criteria-v5.3",
+      "file": "sbti/SBTi-criteria-v5.3.json",
+      "title": "SBTi criteria v5.3",
+      "description": "Indexed from SBTi-criteria-v5.3.pdf",
+      "course": "sbti",
+      "total_pages": 24,
+      "topics": []
+    },
+    {
+      "id": "tnfd-biodiversity/TNFD-SBTN-Guidance-For-Corporates",
+      "file": "tnfd-biodiversity/TNFD-SBTN-Guidance-For-Corporates.json",
+      "title": "TNFD SBTN Guidance For Corporates",
+      "description": "Indexed from TNFD-SBTN-Guidance-For-Corporates.pdf",
+      "course": "tnfd-biodiversity",
+      "total_pages": 18,
+      "topics": []
+    },
+    {
+      "id": "tnfd-biodiversity/TNFD-Final-Recommendations-2023",
+      "file": "tnfd-biodiversity/TNFD-Final-Recommendations-2023.json",
+      "title": "TNFD Final Recommendations 2023",
+      "description": "Indexed from TNFD-Final-Recommendations-2023.pdf",
+      "course": "tnfd-biodiversity",
+      "total_pages": 154,
+      "topics": []
+    },
+    {
+      "id": "tnfd-biodiversity/TNFD-LEAP-Approach-Guidance-v1.1",
+      "file": "tnfd-biodiversity/TNFD-LEAP-Approach-Guidance-v1.1.json",
+      "title": "TNFD LEAP Approach Guidance v1.1",
+      "description": "Indexed from TNFD-LEAP-Approach-Guidance-v1.1.pdf",
+      "course": "tnfd-biodiversity",
+      "total_pages": 277,
+      "topics": []
+    },
+    {
+      "id": "tnfd-biodiversity/SBTN-Introduction-Science-Based-Targets-Nature",
+      "file": "tnfd-biodiversity/SBTN-Introduction-Science-Based-Targets-Nature.json",
+      "title": "SBTN Introduction Science Based Targets Nature",
+      "description": "Indexed from SBTN-Introduction-Science-Based-Targets-Nature.pdf",
+      "course": "tnfd-biodiversity",
+      "total_pages": 39,
+      "topics": []
+    },
+    {
+      "id": "tnfd-biodiversity/IPBES-Global-Assessment-SPM-2019",
+      "file": "tnfd-biodiversity/IPBES-Global-Assessment-SPM-2019.json",
+      "title": "IPBES Global Assessment SPM 2019",
+      "description": "Indexed from IPBES-Global-Assessment-SPM-2019.pdf",
+      "course": "tnfd-biodiversity",
+      "total_pages": 60,
+      "topics": []
+    },
+    {
+      "id": "tnfd-biodiversity/SBTN-Technical-Guidance-Step1-Assess",
+      "file": "tnfd-biodiversity/SBTN-Technical-Guidance-Step1-Assess.json",
+      "title": "SBTN Technical Guidance Step1 Assess",
+      "description": "Indexed from SBTN-Technical-Guidance-Step1-Assess.pdf",
+      "course": "tnfd-biodiversity",
+      "total_pages": 53,
+      "topics": []
+    },
+    {
+      "id": "tnfd-biodiversity/SBTN-Biodiversity-Overview",
+      "file": "tnfd-biodiversity/SBTN-Biodiversity-Overview.json",
+      "title": "SBTN Biodiversity Overview",
+      "description": "Indexed from SBTN-Biodiversity-Overview.pdf",
+      "course": "tnfd-biodiversity",
+      "total_pages": 11,
+      "topics": []
+    },
+    {
+      "id": "tnfd-biodiversity/ENCORE-Methodology-Guide-2018",
+      "file": "tnfd-biodiversity/ENCORE-Methodology-Guide-2018.json",
+      "title": "ENCORE Methodology Guide 2018",
+      "description": "Indexed from ENCORE-Methodology-Guide-2018.pdf",
+      "course": "tnfd-biodiversity",
+      "total_pages": 27,
+      "topics": []
+    },
+    {
+      "id": "ifrs-s2/issb-2023-b-ifrs-s2-climate-related-disclosures-illustrative-guidance-part-b",
+      "file": "ifrs-s2/issb-2023-b-ifrs-s2-climate-related-disclosures-illustrative-guidance-part-b.json",
+      "title": "issb 2023 b ifrs s2 climate related disclosures illustrative guidance part b",
+      "description": "Indexed from issb-2023-b-ifrs-s2-climate-related-disclosures-illustrative-guidance-part-b.pdf",
+      "course": "ifrs-s2",
+      "total_pages": 23,
+      "topics": []
+    },
+    {
+      "id": "ifrs-s2/issb-2025-a-ifrs-s2-climate-related-disclosures-2",
+      "file": "ifrs-s2/issb-2025-a-ifrs-s2-climate-related-disclosures-2.json",
+      "title": "issb 2025 a ifrs s2 climate related disclosures 2",
+      "description": "Indexed from issb-2025-a-ifrs-s2-climate-related-disclosures-2.pdf",
+      "course": "ifrs-s2",
+      "total_pages": 48,
+      "topics": []
+    },
+    {
+      "id": "ifrs-s2/issb-2025-1-amendments-ifrs-s2",
+      "file": "ifrs-s2/issb-2025-1-amendments-ifrs-s2.json",
+      "title": "issb 2025 1 amendments ifrs s2",
+      "description": "Indexed from issb-2025-1-amendments-ifrs-s2.pdf",
+      "course": "ifrs-s2",
+      "total_pages": 33,
+      "topics": []
+    },
+    {
+      "id": "ifrs-s2/issb-2025-c-basis-for-conclusions-on-ifrs-s2-climate-related-disclosures-part-c",
+      "file": "ifrs-s2/issb-2025-c-basis-for-conclusions-on-ifrs-s2-climate-related-disclosures-part-c.json",
+      "title": "issb 2025 c basis for conclusions on ifrs s2 climate related disclosures part c",
+      "description": "Indexed from issb-2025-c-basis-for-conclusions-on-ifrs-s2-climate-related-disclosures-part-c.pdf",
+      "course": "ifrs-s2",
+      "total_pages": 66,
+      "topics": []
+    },
+    {
+      "id": "vm0042/Clarification-Verra-Program-Fee-Schedule-April-2025",
+      "file": "vm0042/Clarification-Verra-Program-Fee-Schedule-April-2025.json",
+      "title": "Clarification Verra Program Fee Schedule April 2025",
+      "description": "Indexed from Clarification-Verra-Program-Fee-Schedule-April-2025.pdf",
+      "course": "vm0042",
+      "total_pages": 2,
+      "topics": []
+    },
+    {
+      "id": "vm0042/VM0042v2.2",
+      "file": "vm0042/VM0042v2.2.json",
+      "title": "VM0042v2.2",
+      "description": "Indexed from VM0042v2.2.pdf",
+      "course": "vm0042",
+      "total_pages": 167,
+      "topics": []
+    },
+    {
+      "id": "eu-sfdr/European_Commission_SFDR_FAQ_April_2023",
+      "file": "eu-sfdr/European_Commission_SFDR_FAQ_April_2023.json",
+      "title": "European Commission SFDR FAQ April 2023",
+      "description": "Indexed from European_Commission_SFDR_FAQ_April_2023.pdf",
+      "course": "eu-sfdr",
+      "total_pages": 2,
+      "topics": []
+    },
+    {
+      "id": "eu-sfdr/ESAs_Joint_Opinion_JC_2024_06",
+      "file": "eu-sfdr/ESAs_Joint_Opinion_JC_2024_06.json",
+      "title": "ESAs Joint Opinion JC 2024 06",
+      "description": "Indexed from ESAs_Joint_Opinion_JC_2024_06.pdf",
+      "course": "eu-sfdr",
+      "total_pages": 25,
+      "topics": []
+    },
+    {
+      "id": "eu-sfdr/EC_2023_SFDR_Targeted_Consultation",
+      "file": "eu-sfdr/EC_2023_SFDR_Targeted_Consultation.json",
+      "title": "EC 2023 SFDR Targeted Consultation",
+      "description": "Indexed from EC_2023_SFDR_Targeted_Consultation.pdf",
+      "course": "eu-sfdr",
+      "total_pages": 44,
+      "topics": []
+    },
+    {
+      "id": "esg-investing/2021-Contents",
+      "file": "esg-investing/2021-Contents.json",
+      "title": "2021 Contents",
+      "description": "Indexed from 2021-Contents.pdf",
+      "course": "esg-investing",
+      "total_pages": 4,
+      "topics": []
+    },
+    {
+      "id": "double-materiality/EFRAG-IG1-Materiality-Assessment",
+      "file": "double-materiality/EFRAG-IG1-Materiality-Assessment.json",
+      "title": "EFRAG IG1 Materiality Assessment",
+      "description": "Indexed from EFRAG-IG1-Materiality-Assessment.pdf",
+      "course": "double-materiality",
+      "total_pages": 55,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/GoldStandard-Stakeholder-Consultation-v2.1",
+      "file": "vcm-101/GoldStandard-Stakeholder-Consultation-v2.1.json",
+      "title": "GoldStandard Stakeholder Consultation v2.1",
+      "description": "Indexed from GoldStandard-Stakeholder-Consultation-v2.1.pdf",
+      "course": "vcm-101",
+      "total_pages": 16,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/VCMI-Claims-Code-Explanatory-Notes-Nov-2023",
+      "file": "vcm-101/VCMI-Claims-Code-Explanatory-Notes-Nov-2023.json",
+      "title": "VCMI Claims Code Explanatory Notes Nov 2023",
+      "description": "Indexed from VCMI-Claims-Code-Explanatory-Notes-Nov-2023.pdf",
+      "course": "vcm-101",
+      "total_pages": 8,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/Verra-VCS-Program-Definitions-v4.5",
+      "file": "vcm-101/Verra-VCS-Program-Definitions-v4.5.json",
+      "title": "Verra VCS Program Definitions v4.5",
+      "description": "Indexed from Verra-VCS-Program-Definitions-v4.5.pdf",
+      "course": "vcm-101",
+      "total_pages": 33,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/Verra-VCS-Standard-v4.7",
+      "file": "vcm-101/Verra-VCS-Standard-v4.7.json",
+      "title": "Verra VCS Standard v4.7",
+      "description": "Indexed from Verra-VCS-Standard-v4.7.pdf",
+      "course": "vcm-101",
+      "total_pages": 92,
+      "topics": []
+    },
+    {
+      "id": "vcm-101/GoldStandard-Claims-Guidelines-v2.0",
+      "file": "vcm-101/GoldStandard-Claims-Guidelines-v2.0.json",
+      "title": "GoldStandard Claims Guidelines v2.0",
+      "description": "Indexed from GoldStandard-Claims-Guidelines-v2.0.pdf",
+      "course": "vcm-101",
+      "total_pages": 19,
+      "topics": []
+    },
+    {
+      "id": "ghg-scope-3/Scope3_Calculation_Guidance_0[1]",
+      "file": "ghg-scope-3/Scope3_Calculation_Guidance_0[1].json",
+      "title": "Scope3 Calculation Guidance 0[1]",
+      "description": "Indexed from Scope3_Calculation_Guidance_0[1].pdf",
+      "course": "ghg-scope-3",
+      "total_pages": 182,
+      "topics": []
+    },
+    {
+      "id": "circular-economy/EU_Waste_Framework_Directive_2008_98_EC",
+      "file": "circular-economy/EU_Waste_Framework_Directive_2008_98_EC.json",
+      "title": "EU Waste Framework Directive 2008 98 EC",
+      "description": "Indexed from EU_Waste_Framework_Directive_2008_98_EC.pdf",
+      "course": "circular-economy",
+      "total_pages": 28,
+      "topics": []
+    },
+    {
+      "id": "circular-economy/EU_WFD_Consolidated_2018",
+      "file": "circular-economy/EU_WFD_Consolidated_2018.json",
+      "title": "EU WFD Consolidated 2018",
+      "description": "Indexed from EU_WFD_Consolidated_2018.pdf",
+      "course": "circular-economy",
+      "total_pages": 59,
+      "topics": []
+    },
+    {
+      "id": "human-rights-dd/ILO-Just-Transition-Guidelines-2015",
+      "file": "human-rights-dd/ILO-Just-Transition-Guidelines-2015.json",
+      "title": "ILO Just Transition Guidelines 2015",
+      "description": "Indexed from ILO-Just-Transition-Guidelines-2015.pdf",
+      "course": "human-rights-dd",
+      "total_pages": 23,
+      "topics": []
+    },
+    {
+      "id": "human-rights-dd/ILO-MNE-Tripartite-Declaration-2022",
+      "file": "human-rights-dd/ILO-MNE-Tripartite-Declaration-2022.json",
+      "title": "ILO MNE Tripartite Declaration 2022",
+      "description": "Indexed from ILO-MNE-Tripartite-Declaration-2022.pdf",
+      "course": "human-rights-dd",
+      "total_pages": 29,
+      "topics": []
+    },
+    {
+      "id": "human-rights-dd/OECD-Due-Diligence-Guidance-2018",
+      "file": "human-rights-dd/OECD-Due-Diligence-Guidance-2018.json",
+      "title": "OECD Due Diligence Guidance 2018",
+      "description": "Indexed from OECD-Due-Diligence-Guidance-2018.pdf",
+      "course": "human-rights-dd",
+      "total_pages": 100,
+      "topics": []
+    },
+    {
+      "id": "ghg-scope-1-2/electricityemissions",
+      "file": "ghg-scope-1-2/electricityemissions.json",
+      "title": "electricityemissions",
+      "description": "Indexed from electricityemissions.pdf",
+      "course": "ghg-scope-1-2",
+      "total_pages": 19,
+      "topics": []
+    },
+    {
+      "id": "eu-cbam/EC-CBAM-Default-Values-Transitional",
+      "file": "eu-cbam/EC-CBAM-Default-Values-Transitional.json",
+      "title": "EC CBAM Default Values Transitional",
+      "description": "Indexed from EC-CBAM-Default-Values-Transitional.pdf",
+      "course": "eu-cbam",
+      "total_pages": 25,
+      "topics": []
+    },
+    {
+      "id": "eu-cbam/EC-CBAM-NCA-List",
+      "file": "eu-cbam/EC-CBAM-NCA-List.json",
+      "title": "EC CBAM NCA List",
+      "description": "Indexed from EC-CBAM-NCA-List.pdf",
+      "course": "eu-cbam",
+      "total_pages": 8,
+      "topics": []
+    },
+    {
+      "id": "eu-cbam/EC-CBAM-Guidelines-Operational-Procedures-2026",
+      "file": "eu-cbam/EC-CBAM-Guidelines-Operational-Procedures-2026.json",
+      "title": "EC CBAM Guidelines Operational Procedures 2026",
+      "description": "Indexed from EC-CBAM-Guidelines-Operational-Procedures-2026.pdf",
+      "course": "eu-cbam",
+      "total_pages": 2,
+      "topics": []
+    },
+    {
+      "id": "eu-cbam/EC-CBAM-Developing-Countries",
+      "file": "eu-cbam/EC-CBAM-Developing-Countries.json",
+      "title": "EC CBAM Developing Countries",
+      "description": "Indexed from EC-CBAM-Developing-Countries.pdf",
+      "course": "eu-cbam",
+      "total_pages": 2,
+      "topics": []
+    },
+    {
+      "id": "eu-cbam/CBAM-Implementing-Regulation-2023-1773",
+      "file": "eu-cbam/CBAM-Implementing-Regulation-2023-1773.json",
+      "title": "CBAM Implementing Regulation 2023 1773",
+      "description": "Indexed from CBAM-Implementing-Regulation-2023-1773.pdf",
+      "course": "eu-cbam",
+      "total_pages": 102,
+      "topics": []
+    },
+    {
+      "id": "eu-taxonomy/EU_Taxonomy_Regulation_2020_852",
+      "file": "eu-taxonomy/EU_Taxonomy_Regulation_2020_852.json",
+      "title": "EU Taxonomy Regulation 2020 852",
+      "description": "Indexed from EU_Taxonomy_Regulation_2020_852.pdf",
+      "course": "eu-taxonomy",
+      "total_pages": 31,
+      "topics": []
+    },
+    {
+      "id": "financed-emissions/PCAF-PartA-2025-V3-15012026",
+      "file": "financed-emissions/PCAF-PartA-2025-V3-15012026.json",
+      "title": "PCAF PartA 2025 V3 15012026",
+      "description": "Indexed from PCAF-PartA-2025-V3-15012026.pdf",
+      "course": "financed-emissions",
+      "total_pages": 209,
+      "topics": []
+    },
+    {
+      "id": "financed-emissions/PCAF-DCL-Part-A-FAQs-May2025",
+      "file": "financed-emissions/PCAF-DCL-Part-A-FAQs-May2025.json",
+      "title": "PCAF DCL Part A FAQs May2025",
+      "description": "Indexed from PCAF-DCL-Part-A-FAQs-May2025.pdf",
+      "course": "financed-emissions",
+      "total_pages": 4,
+      "topics": []
+    },
+    {
+      "id": "financed-emissions/20231211-PCAF-personal-motor-industry-attribution-factor-approach",
+      "file": "financed-emissions/20231211-PCAF-personal-motor-industry-attribution-factor-approach.json",
+      "title": "20231211 PCAF personal motor industry attribution factor approach",
+      "description": "Indexed from 20231211-PCAF-personal-motor-industry-attribution-factor-approach.pdf",
+      "course": "financed-emissions",
+      "total_pages": 16,
+      "topics": []
+    },
+    {
+      "id": "financed-emissions/20221212_faq-insurance-associated-emissions",
+      "file": "financed-emissions/20221212_faq-insurance-associated-emissions.json",
+      "title": "20221212 faq insurance associated emissions",
+      "description": "Indexed from 20221212_faq-insurance-associated-emissions.pdf",
+      "course": "financed-emissions",
+      "total_pages": 6,
+      "topics": []
+    },
+    {
+      "id": "sbti/SBTi-Corporate-Manual-v2.1",
+      "file": "sbti/SBTi-Corporate-Manual-v2.1.json",
+      "title": "SBTi Corporate Manual v2.1",
+      "description": "Indexed from SBTi-Corporate-Manual-v2.1.pdf",
+      "course": "sbti",
+      "total_pages": 75,
+      "topics": []
+    },
+    {
+      "id": "tnfd-biodiversity/ENCORE-Biodiversity-Module-Guide",
+      "file": "tnfd-biodiversity/ENCORE-Biodiversity-Module-Guide.json",
+      "title": "ENCORE Biodiversity Module Guide",
+      "description": "Indexed from ENCORE-Biodiversity-Module-Guide.pdf",
+      "course": "tnfd-biodiversity",
+      "total_pages": 30,
+      "topics": []
+    },
+    {
+      "id": "tnfd-biodiversity/Kunming-Montreal-GBF-2022",
+      "file": "tnfd-biodiversity/Kunming-Montreal-GBF-2022.json",
+      "title": "Kunming Montreal GBF 2022",
+      "description": "Indexed from Kunming-Montreal-GBF-2022.pdf",
+      "course": "tnfd-biodiversity",
+      "total_pages": 15,
+      "topics": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+- question: "BeZero Carbon's rating scale measures what specific risk for carbon credits?"
+  options:
+  - "The risk that the credit's price will decline relative to market benchmarks"
+  - "The risk of non-delivery - the probability that one credit does not represent one tonne of actual CO2e in emission reductions or removals"
+  - "The risk that the registry hosting the credit will become insolvent"
+  - "The regulatory risk that the credit will become invalid if government carbon policy changes"
+  answer: 1
+  explanation: "BeZero's rating measures the risk of non-delivery: given all available evidence about the project's methodology, additionality, permanence, governance, and political context, what is the probability that a credit from this project does not actually represent a genuine tonne of CO2e in climate benefit? A AAA rating indicates very low risk of non-delivery (high confidence in credit quality), while a D rating indicates very high risk. This framing is deliberately analogous to default probability in financial credit ratings."
+
+- question: "When BeZero and Sylvera assign different ratings to the same carbon credit project, what does this divergence typically indicate?"
+  options:
+  - "One of the agencies has made a factual error and should be reported to the registry"
+  - "The project has been fraudulently presented to one agency and should be suspended"
+  - "The agencies apply different analytical frameworks and weigh risk factors differently; divergence signals genuine uncertainty in credit quality that warrants deeper investigation"
+  - "The project is in the process of being upgraded and one rating is outdated"
+  answer: 2
+  explanation: "Rating divergence between agencies is common and expected because each applies its own analytical framework, weights risk factors differently, and may have access to different project-level data. Rather than indicating an error, divergence is actually informative: it signals that there is genuine analytical uncertainty about the project's quality. For a buyer considering a large purchase from a project with divergent ratings, this divergence is a clear signal to conduct deeper due diligence before committing."
+
+- question: "Which element of a buyer's carbon credit due diligence process specifically helps identify credits that may have been issued under methodologies now known to produce systemic overcrediting?"
+  options:
+  - "Registry verification of the credit's unique serial number and retirement status"
+  - "Confirming the credit was purchased through an accredited broker"
+  - "Reviewing the credit vintage and the specific methodology version used to issue it"
+  - "Checking that the project country has ratified the Paris Agreement"
+  answer: 2
+  explanation: "Vintage (the year a credit was issued) combined with methodology version are critical due diligence factors. Older credits issued under earlier, less conservative methodology versions may have used more aggressive baseline assumptions or weaker additionality tests than current standards require. For example, REDD+ credits from pre-2018 vintages under older VM0007 versions face more baseline scrutiny than credits from projects that revised to newer dynamic baseline approaches. Reviewing both the vintage and the specific methodology version helps buyers identify whether their credits pre-date important methodological improvements."

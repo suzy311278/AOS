@@ -1,0 +1,183 @@
+{/* Sustainability / ESG Reporting in Practice */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/esg-reporting/3_5.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Version Control & Avoiding the Data Disaster
+
+Picture this. It is week eight of a twelve-week engagement. The report draft is coming together. You are writing the environmental section and you need the final emissions numbers. You open your project folder and find:
+
+- `Emissions_data.xlsx`
+- `Emissions_data_v2.xlsx`
+- `Emissions_data_FINAL.xlsx`
+- `Emissions_data_FINAL_updated.xlsx`
+- `Emissions_data_FINAL_updated_corrected.xlsx`
+- `Emissions from Ops team (2).xlsx`
+- `RE_ FW_ Emissions data - see attached.xlsx`
+- `Copy of emissions_data_v2_Rahul edits.xlsx`
+- `emissions data 14 March.xlsx`
+- `FINAL FINAL emissions.xlsx`
+
+Which one do you use?
+
+This is not an exaggeration. This is what actually happens in ESG reporting engagements. Data comes in ten different times from five different people, in slightly different formats, with slightly different numbers each time. If you do not have a system to track versions, you will, at some critical moment, use the wrong file. And you will not realize it until someone points out that the numbers in the published report do not match what the company approved.
+
+<HighlightBox>
+The worst data quality disaster is not wrong data: it is losing track of which version is the right version. Data arriving ten different times and forgetting which version is which is one of the most common and most preventable failures in ESG reporting. Never let yourself get into this situation.
+</HighlightBox>
+
+### Why This Happens
+
+Data versioning chaos is not a sign of incompetence. It is a natural consequence of how ESG reporting engagements work:
+
+**The iterative nature of data.** Environmental data arrives first as estimates, then gets refined, then gets corrected after you point out inconsistencies, then gets updated when a new site submits late data, then gets revised again after the assurance provider raises questions. Each iteration is a new version.
+
+**Multiple contributors.** The sustainability team sends you HR data they got from the HR manager who got it from the payroll system administrator. Operations sends energy data compiled by three different plant managers. Each person in the chain may modify the data slightly (correcting an error, adding a note, changing a unit).
+
+**Email-based sharing.** Most data still arrives via email attachments. Each email creates a new file. People do not think to label versions. They just attach the file with whatever name it has on their desktop.
+
+**Parallel workstreams.** While you are waiting for updated emissions data, you receive revised water data, new training data, and corrected headcount numbers. Multiple data categories are being updated simultaneously, each on its own timeline.
+
+**The silence-then-flood pattern.** Nothing comes for two weeks. Then everything arrives on the same day: four emails with six attachments in total, some replacing data you already had and some filling gaps you did not know were still open.
+
+### The Nightmare Scenario
+
+Here is how it goes wrong. You receive emissions data in February. You use it to write the environmental section. In March, the assurance provider questions some numbers. Operations revises the data and sends a new file to the sustainability team, who forwards it to you. You are on a call when it arrives and do not process it immediately. Two days later, you get another email from operations with "one small correction" to the same data. You update the report with the second file but not the first, missing a change to Scope 2 numbers that was in the earlier revision.
+
+Meanwhile, the design team has already started laying out the environmental section using your earlier draft. They have the old numbers in designed pages. You send updated text but forget to flag which specific numbers changed. The designer updates some pages but misses the data table on page 47.
+
+The report goes to the CEO for final approval. The CEO's office compares the emissions numbers against the BRSR filing and finds a discrepancy. Panic. You trace it back through the chain and realize you used a hybrid: some numbers from version 3, some from version 5, and one table that was never updated from version 1.
+
+This is not a hypothetical. Variations of this story play out in engagements all the time.
+
+### The System That Prevents This
+
+You do not need sophisticated software to manage data versions. You need a simple, disciplined system that you follow without exception.
+
+**Rule 1: One master file, clearly named.**
+
+Maintain a single master data workbook for the entire engagement. All data from all departments flows into this one file. When new data arrives, you update the master file. You do not create a new one.
+
+Name it clearly: `[Company]_ESG_Data_Master_[ReportingYear].xlsx`
+
+This file is your single source of truth. Every number in the report is pulled from here, and only from here.
+
+**Rule 2: Date-stamp every incoming file.**
+
+When data arrives via email, immediately rename the attachment before saving it:
+
+`[Source]_[DataCategory]_[YYYY-MM-DD].xlsx`
+
+For example: `Operations_Emissions_2025-03-14.xlsx`
+
+This tells you who sent it, what it contains, and when you received it. Store all incoming files in a dedicated `_Raw Data` folder, separate from your master file. Never delete incoming files. They are your audit trail.
+
+**Rule 3: Log every update.**
+
+Create a simple change log (either a tab in the master file or a separate document) that records:
+
+| Date | Data Category | What Changed | Source | Master File Updated? |
+|------|--------------|-------------|--------|---------------------|
+| 14 Mar | Scope 1 emissions | Revised diesel consumption for Site B | Operations team email | Yes |
+| 15 Mar | Employee headcount | Added contract workers, +340 | HR (Priya) | Yes |
+| 18 Mar | Water data | Corrected unit from ML to KL | Operations team call | Yes |
+
+This log takes 30 seconds per entry. It saves hours of forensic investigation later.
+
+<ExampleBox>
+**Example: A clean project folder structure**
+
+```
+ESG Report 2025/
+├── 01_Raw Data/
+│   ├── Finance_EconomicPerformance_2025-02-10.xlsx
+│   ├── HR_SocialData_2025-02-18.xlsx
+│   ├── HR_SocialData_2025-03-05.xlsx  (revised)
+│   ├── Ops_Energy_2025-02-22.xlsx
+│   ├── Ops_Emissions_2025-03-01.xlsx
+│   ├── Ops_Emissions_2025-03-14.xlsx  (post-assurance)
+│   └── CSR_CommunityData_2025-03-10.xlsx
+├── 02_Master Data/
+│   ├── CompanyX_ESG_Data_Master_FY2025.xlsx
+│   └── Data_Change_Log.xlsx
+├── 03_Report Drafts/
+│   ├── Draft_v1_2025-03-15.docx
+│   ├── Draft_v2_2025-04-01.docx
+│   └── Draft_v3_FINAL_2025-04-20.docx
+└── 04_Design/
+    └── ...
+```
+
+Every incoming file is preserved. The master file is the single source. The change log tracks what was updated and when.
+</ExampleBox>
+
+**Rule 4: Freeze data before final writing.**
+
+At some point, you need to stop accepting data updates and lock the numbers for the final report. Communicate this clearly to the client: "After [date], any data changes will require a formal revision cycle." This prevents the endless trickle of "just one more small update" that introduces version chaos in the final stretch.
+
+<AnalogyBox>
+Think of the data freeze like a manuscript going to the printer. In publishing, there is a hard deadline after which no more edits are accepted: the text is "locked." In ESG reporting, you need the same discipline. Without a data freeze date, you will be updating numbers until the day the report is published, and something will slip through the cracks.
+</AnalogyBox>
+
+### The Assurance Timing Problem
+
+Here is a specific version control challenge that catches many consultants: the relationship between data assurance and report writing.
+
+If the company is getting its sustainability data assured (verified by a third-party auditor), the assurance process will almost certainly result in data changes. The auditor will question methodologies, find calculation errors, request restatements of prior year data, or recommend different emission factors.
+
+If you have already written the report using pre-assurance data, every assurance finding means a revision to the report. This creates exactly the version chaos described above: the report has one set of numbers, the assurance letter references different numbers, and nobody is sure which is current.
+
+**The golden rule: whenever possible, get the final data only after assurance is complete.**
+
+This is not always feasible: assurance timelines are often compressed, and clients want to see drafts early. But if you can sequence it so that data is assured before it enters the master file, you eliminate an entire category of version control problems.
+
+If assurance happens in parallel with report writing (which is common), at minimum:
+
+- Flag every data point in the report that is "subject to assurance findings"
+- Plan for a dedicated revision cycle after assurance is complete
+- Do not send the report to design until post-assurance data is locked
+
+<HighlightBox>
+The practical sequence that minimizes rework:
+1. Collect data and run your own sanity checks
+2. Submit data for assurance
+3. Receive assured data and update the master file
+4. Write or finalize the report using assured data
+5. Send to design
+
+Shortcuts in this sequence create version control problems downstream.
+</HighlightBox>
+
+### Version Control for the Report Itself
+
+Data versioning is only half the problem. The report document itself goes through multiple versions: drafts, client reviews, internal revisions, design iterations.
+
+Apply the same discipline:
+
+- **Number your drafts clearly.** `Draft_v1`, `Draft_v2`, `Draft_v3`. Not "final," not "updated," not "new version."
+- **Use track changes for client reviews.** If the client makes edits, you need to see exactly what changed.
+- **Keep a version history note** at the top of the document (remove it before final publication) listing what changed in each version.
+- **Never overwrite a previous draft.** Save each version separately. You will need to refer back when someone says "I preferred what we had in the earlier version."
+
+<DeepDive title="What about collaborative editing tools?">
+Cloud-based tools like Google Docs or SharePoint with real-time collaboration can help. Version history is automatic, and you avoid the "which file is the latest" problem. But they introduce their own challenges:
+
+- **Access control.** Who can edit vs. who can only comment? If the client's HR manager accidentally edits the environmental section, you have a different kind of version problem.
+- **Offline copies.** Someone downloads the file, edits it offline, and uploads it later: overwriting changes made in the meantime.
+- **Data security.** ESG data can include sensitive information (compensation data, incident reports, compliance issues). Make sure the platform's security meets the client's requirements.
+
+For data specifically, a shared Excel workbook in the cloud with controlled access can work well. For the report document, most engagements still use tracked Word documents because clients are comfortable with that workflow. Use whatever the client can actually adopt consistently. A perfect system nobody uses is worse than a basic system everyone follows.
+</DeepDive>
+
+### The Non-Negotiable Habits
+
+Version control is not about tools or software. It is about habits. Three habits will save you from the data disaster:
+
+1. **Process incoming data immediately.** When a file arrives, rename it, save it to the raw data folder, update the master file, and log the change. Do not leave it sitting in your inbox for "later." Later is when things get lost.
+
+2. **Never use a raw incoming file directly in the report.** Always go through the master file. This ensures every number in the report comes from the same vetted source.
+
+3. **Communicate version status to the team.** When you update the master data file, tell the team. When you freeze data for the final draft, tell the team. When post-assurance revisions come in, tell the team. Over-communication on data versions is not possible: it is always better than the alternative.
+
+Data management is not the exciting part of ESG reporting. Nobody becomes a sustainability consultant because they love naming conventions for Excel files. But this unglamorous discipline is the difference between a report you can stand behind and one that unravels under scrutiny. Build the system at the start of every engagement. Follow it without exception. Your future self (the one who is not panicking at 11 PM trying to figure out which emissions file is correct) will thank you.
+
+<KeyTakeaways items="Maintain one master data file as the single source of truth - every number in the report should be pulled from this file and only this file. ;; Rename and date-stamp every incoming data file immediately using the format [Source]_[Category]_[YYYY-MM-DD], and store originals in a dedicated raw data folder. ;; Log every data update in a simple change log that records the date, what changed, who sent it, and whether the master file was updated. ;; Set a firm data freeze date before final writing begins - communicate it clearly to the client to prevent last-minute version chaos. ;; Whenever possible, finalize data only after assurance is complete to avoid rewriting the report when auditor findings change the numbers." />

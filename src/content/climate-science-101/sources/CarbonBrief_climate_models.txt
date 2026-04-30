@@ -1,0 +1,101 @@
+Carbon Brief: How Do Climate Models Work?
+Source: https://www.carbonbrief.org/qa-how-do-climate-models-work/
+Crawled: March 2026
+
+WHAT IS A CLIMATE MODEL?
+
+Climate models are sophisticated computer simulations that represent Earth's climate system. A global climate model contains approximately 18,000 pages of code equivalent, developed over many years by hundreds of scientists. These models require massive supercomputers to execute - the Met Office's systems perform 14,000 trillion calculations per second.
+
+At their foundation, climate models encode fundamental physical principles including thermodynamic laws and fluid dynamics equations. The code, typically written in Fortran programming language, translates these principles into computational instructions that scientists can execute.
+
+HOW MODELS WORK: GRID CELLS AND RESOLUTION
+
+Models divide Earth into three-dimensional boxes called "grid cells." A typical global model uses cells approximately 100km across at mid-latitudes. The model calculates climate variables - temperature, pressure, humidity, wind speed - within each cell. For processes occurring at smaller scales than grid cells, scientists use "parameterisations," which are mathematical approximations that simplify complex phenomena.
+
+"Spatial resolution" refers to grid cell size. Higher-resolution models provide more detailed regional information but require substantially more computing power - doubling resolution demands roughly 10 times the processing capacity.
+
+TIME STEPS IN MODELING
+
+Models advance through time using discrete intervals rather than continuous time. The "leapfrogging method" extrapolates forward by using information from previous and present time steps. For atmospheric components, approximately 30-minute intervals provide reasonable balance between accuracy and computational burden.
+
+TYPES OF CLIMATE MODELS
+
+Energy Balance Models (EBMs): The simplest type, calculating only surface temperature by balancing incoming solar energy against outgoing heat.
+
+Radiative Convective Models: These simulate energy transfer through atmospheric layers, accounting for convection and radiation effects.
+
+General Circulation Models (GCMs): Also called Global Climate Models, these simulate actual climate physics including atmospheric and oceanic circulation. Modern versions couple multiple Earth system components.
+
+Earth System Models (ESMs): Advanced GCMs incorporating biogeochemical cycles - carbon cycles, atmospheric chemistry, ocean ecosystems, and vegetation dynamics.
+
+Regional Climate Models (RCMs): High-resolution models covering limited geographic areas, capable of finer detail than global models.
+
+Integrated Assessment Models (IAMs): These combine climate physics with socioeconomic data, projecting future emissions and policy impacts.
+
+MODEL INPUTS
+
+Models require external "forcings" - factors altering energy balance:
+- Solar output variations
+- Greenhouse gas concentrations (CO2, CH4, N2O)
+- Aerosols from volcanic eruptions and human activities
+- Land-use changes
+
+Scientists run models using either historical forcings (from 1850 onward) or future emission scenarios like Representative Concentration Pathways (RCPs), which describe plausible futures based on socioeconomic development patterns.
+
+MODEL OUTPUTS
+
+Climate models generate thousands of variables across multiple timescales:
+- Atmospheric temperatures and humidity at various heights
+- Ocean temperatures, salinity, and acidity
+- Precipitation, snow cover, ice extent
+- Wind patterns and ocean currents
+- Cloud properties and radiation fluxes
+- Climate sensitivity estimates (how much warming from greenhouse gas increases)
+
+Results often reach petabyte scales, stored in accessible formats like netCDF files at research institutions.
+
+EXPERIMENTS SCIENTISTS CONDUCT
+
+Historical Runs: Models simulate 1850 to present using best estimates of past forcings. Comparing model predictions against observations validates model skill.
+
+Attribution Studies: Running models with only natural forcings versus both human and natural forcings reveals human activity's contribution to observed warming.
+
+Future Scenarios: Models project climate changes through 2100+ using various RCP pathways, from business-as-usual to aggressive mitigation scenarios.
+
+Control Runs: Models run centuries without changing external factors, revealing natural variability and detecting spurious long-term "model drift."
+
+AMIP Runs: Atmosphere-only experiments using observed ocean temperatures, helping match model variability to observations.
+
+Diagnostic Tests: Abrupt CO2 quadrupling or gradual 1% annual increases isolate CO2 effects.
+
+Paleoclimate Runs: Models simulate past climates (ice ages, warm periods) using estimated historical conditions, improving understanding of climate sensitivity.
+
+GLOBAL MODELING CENTERS
+
+Over two dozen institutions worldwide develop climate models. Major centers include:
+- Met Office Hadley Centre (UK) - develops HadGEM3 family
+- NOAA Geophysical Fluid Dynamics Laboratory (USA)
+- National Center for Atmospheric Research (USA) - CESM
+- Max Planck Institute for Meteorology (Germany) - ECHAM6
+- Institut Pierre Simon Laplace (France)
+
+CMIP: COORDINATED MODEL COMPARISON
+
+The Coupled Model Intercomparison Project (CMIP), established in 1995, standardizes how different modeling centers run experiments. This ensures that differences in results reflect actual model differences rather than experimental setup variations.
+
+CMIP has evolved through multiple generations (approximately 5-6 year cycles), progressively incorporating more sophisticated emission scenarios and specialized experiments. CMIP5 fed into the IPCC's fifth assessment report, while CMIP6 supports the sixth assessment.
+
+MODEL VALIDATION AND ACCURACY
+
+Scientists compare model projections against historical observations to validate skill. Successful hindcasting of past climate variables increases confidence in future projections. However, model ensemble approaches - running multiple models and comparing results - better capture uncertainties than any single model.
+
+KEY LIMITATIONS
+
+- Computing power limits spatial resolution and temporal detail
+- Some processes (like cloud formation) remain poorly understood
+- Model parameterizations involve approximations and tuning
+- Natural climate variability can obscure human signals in short-term projections
+
+EMERGING PROPERTIES
+
+Despite scientists prescribing fundamental physics equations, models generate "emergent properties" - features not explicitly coded but arising from process interactions. Storms, droughts, and seasonal cycles emerge naturally from model physics.

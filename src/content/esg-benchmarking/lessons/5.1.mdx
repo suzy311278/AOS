@@ -1,0 +1,78 @@
+{/* source: MSCI ESG Ratings Methodology Appendix 4 (ESG Rating Industries), Section 3.1.1 (Company-Specific Key Issues); Sustainalytics ESG Risk Ratings Methodology pp. 4-12; GRI 2: General Disclosures 2021 pp. 5-20 */}
+
+Before you can benchmark a client against its peers, you must definitively answer two operational questions: who exactly are the peers, and where does the data come from? 
+
+A peer group that is too broad mixes companies facing fundamentally different existential risks. A peer group that is too narrow is statistically useless. Furthermore, poor data quality will annihilate the comparison regardless of how perfectly the peer group is constructed.
+
+This lesson explains how the major rating frameworks legally define peer groups, how they handle massive conglomerates, and how to execute the data collection process in reality.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/esg-benchmarking/5_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## The Architecture of Peer Groups
+
+### MSCI: The GICS Sub-Industry Lens
+
+MSCI operates on a strict relative grading curve. A company is not graded against every company on earth; it is only graded against its **ESG Rating Industry**.
+
+MSCI builds these industries using the Global Industry Classification Standard (GICS) sub-industries as the foundation. 
+
+*Why does this matter?* Because MSCI assigns Key Issues and weighting based entirely on the GICS code. A steel company faces massive carbon and water Key Issues. A software company does not. If you directly compared a steel company's absolute ESG score to a software company's score, the steel company would look like a catastrophic failure simply because it burns coal. 
+
+In the MSCI model, an ESG rating of "BBB" means one thing: the company is slightly above average *compared only to other companies in the exact same GICS code*.
+
+<HighlightBox>
+**The First Move:** When launching a benchmarking engagement, immediately demand the client's official GICS sub-industry code. If you are comparing your client to a company with a different GICS code, your entire benchmarking model is mathematically invalid in the eyes of MSCI.
+</HighlightBox>
+
+### Sustainalytics: The Subindustry Baseline
+
+Sustainalytics utilizes the exact same logic. They lock a company into a specific **Subindustry**. 
+
+The subindustry assignment dictates exactly which Material ESG Issues (MEIs) are activated, what the baseline Exposure scores are, and what the Manageable Risk Factors (MRFs) are. Comparing two companies within the same Sustainalytics subindustry ensures they are fighting the exact same structural baseline of risk.
+
+## The Conglomerate Problem
+
+### MSCI: Company-Specific Key Issues
+
+What happens when a client spans multiple industries? (e.g., Disney makes movies, but also operates massive theme parks and manufactures toys).
+
+MSCI solves this by deploying **Company-Specific Key Issues**. If a company has a bizarre, high-risk operational footprint that its peers do not share, MSCI will aggressively staple new Key Issues onto that specific company.
+
+MSCI triggers this when:
+1. **The 20% Revenue Threshold:** A company derives >20% of its revenue from a secondary, high-risk business line.
+2. **Massive Footprint:** The company is a massive player in a secondary market (Disney receiving Supply Chain Labor key issues because it is a massive toy manufacturer).
+3. **Severe Controversies:** If a company triggers a Category 5 controversy on an issue it normally isn't graded on, MSCI will instantly permanently attach that Key Issue to the company.
+
+<HighlightBox>
+**The Weight Shift:** When MSCI slaps a Company-Specific Key Issue onto a client, it forces a mathematical recalculation. The new Key Issue is assigned a weight, and the weights of all the standard industry Key Issues are proportionally crushed to make room for it.
+</HighlightBox>
+
+### Sustainalytics: Idiosyncratic Issues
+
+Sustainalytics handles bizarre operations through the **Idiosyncratic Issue** building block. If a company triggers a massive disaster completely unrelated to its normal subindustry (a software firm caught using child labor to mine server components), Sustainalytics drops an Idiosyncratic Issue onto them, artificially spiking their Exposure score to punish the management failure.
+
+## The Data Collection Protocol
+
+In a benchmarking engagement, data collection must be executed systematically. Do not rely on marketing brochures.
+
+**Step 1: Lock the Peer Group:** Verify the exact GICS sub-industry and Sustainalytics subindustry mapping. Confirm the list with the client.
+
+**Step 2: Extract the Rating Agency X-Rays:** Pull the official MSCI ESG Rating report and the Sustainalytics ESG Risk Rating report for the client and every single peer. Do not use public summaries. Use the raw data feeds that show the granular Key Issue and MEI scores.
+
+**Step 3: Audit the GRI Reports:** Pull the sustainability reports for the peer group. Prioritize reports audited under the **GRI 2: General Disclosures 2021** standard. GRI 2 forces companies to disclose hard data on governance, employee splits, and executive pay.
+
+**Step 4: Pull the CDP Responses:** For carbon and water KPIs, extract the raw CDP (Carbon Disclosure Project) responses. Do not trust the glossy sustainability report numbers. CDP forces companies to disclose Scope 1, 2, and 3 emissions in a highly rigid, standardized format.
+
+**Step 5: Pull Proxy Statements:** For executive compensation and board independence metrics, use SEC proxy statements (or regional equivalents), not sustainability reports.
+
+### The Non-Disclosure Trap
+
+What happens when a peer company simply refuses to publish data?
+
+Both rating agencies are utterly ruthless regarding missing data:
+- **MSCI** will actively use industry averages or extrapolate data to plug the holes, ensuring the company cannot hide. If the company fails to disclose a governance policy (like a whistleblower hotline), MSCI mathematically assumes the policy does not exist and applies a massive deduction.
+- **Sustainalytics** assigns a punitive, below-average score to any management indicator the company attempts to hide.
+
+**Consultant Strategy:** In your benchmarking report, never record a blank space as a "zero." If a peer does not disclose carbon emissions, flag it as a critical disclosure failure, not a green victory. Use industry medians to estimate the gap and explicitly inform the client that the rating agencies are likely actively punishing the peer for the omission.
+
+<KeyTakeaways items="Accurate peer group definition is the foundation of valid benchmarking - verify the exact GICS sub-industry code (MSCI) and Sustainalytics subindustry mapping before starting ;; Conglomerates trigger Company-Specific Key Issues (MSCI) or Idiosyncratic Issues (Sustainalytics) that add extra scoring dimensions and redistribute Key Issue weights ;; Follow a five-step data collection protocol: lock the peer group, extract raw rating agency reports, audit GRI disclosures, pull CDP responses, and review proxy statements ;; Never record missing peer data as zero - flag it as a disclosure failure and use industry medians to estimate the gap, since rating agencies actively punish non-disclosure ;; MSCI uses industry averages to fill data holes and defaults missing governance policies to non-existent; Sustainalytics assigns punitive below-average scores for hidden management indicators" />

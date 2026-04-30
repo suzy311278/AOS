@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sustainability Impact Grid | Greentryst Academy</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style type="text/tailwindcss">
+        :root {
+            --deep-green: #064e3b;
+            --sky-blue: #0ea5e9;
+            --impact-gold: #f59e0b;
+            --urgent-rose: #f43f5e;
+            --nature-bg: #f0fdfa;
+        }
+        .impact-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-auto-rows: minmax(150px, auto);
+            gap: 1.5rem;
+        }
+        .card-tall { grid-row: span 3; grid-column: span 4; }
+        .card-wide { grid-column: span 8; grid-row: span 2; }
+        .card-standard { grid-column: span 4; grid-row: span 2; }
+        .card-small { grid-column: span 3; grid-row: span 1; }
+        .card-md { grid-column: span 6; grid-row: span 2; }
+        @media (max-width: 1024px) {
+            .impact-grid { grid-template-columns: repeat(6, 1fr); }
+            .card-tall, .card-wide, .card-standard, .card-small, .card-md { grid-column: span 6; grid-row: auto; }
+        }
+        .glass-overlay {
+            background: linear-gradient(to top, rgba(6, 78, 59, 0.9) 0%, rgba(6, 78, 59, 0.4) 60%, rgba(6, 78, 59, 0) 100%);
+        }
+        .metric-pill {
+            @apply px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider backdrop-blur-md;
+        }
+    </style>
+</head>
+<body class="bg-[var(--nature-bg)] text-slate-900 font-body selection:bg-[var(--sky-blue)] selection:text-white">
+<header class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl border-b border-emerald-100">
+<div class="max-w-[1400px] mx-auto flex justify-between items-center px-8 py-4">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 bg-[var(--deep-green)] rounded-xl flex items-center justify-center text-white">
+<span class="material-symbols-outlined">eco</span>
+</div>
+<span class="text-2xl font-extrabold tracking-tighter text-[var(--deep-green)]">GREENTRYST <span class="text-[var(--sky-blue)]">IMPACT</span></span>
+</div>
+<nav class="hidden lg:flex items-center space-x-10 font-semibold text-sm uppercase tracking-widest text-emerald-900">
+<a class="hover:text-[var(--sky-blue)] transition-colors" href="#">Directory</a>
+<a class="hover:text-[var(--sky-blue)] transition-colors" href="#">Ecosystems</a>
+<a class="hover:text-[var(--sky-blue)] transition-colors" href="#">Analytics</a>
+<button class="bg-[var(--deep-green)] text-white px-6 py-2 rounded-full hover:bg-emerald-700 transition-all">Post a Role</button>
+</nav>
+</div>
+</header>
+<main class="max-w-[1400px] mx-auto px-8 pt-32 pb-20">
+<div class="mb-12 space-y-4">
+<h1 class="font-headline text-6xl font-black text-[var(--deep-green)] leading-none">Sustainability <br/><span class="text-[var(--sky-blue)] italic">Impact Grid</span></h1>
+<p class="text-xl text-emerald-800/70 max-w-2xl font-medium">Connecting world-class talent to projects restoring our biosphere. Explore roles by real-world carbon and biodiversity outcomes.</p>
+</div>
+<div class="impact-grid">
+<div class="card-wide group relative overflow-hidden rounded-[2.5rem] bg-slate-200">
+<img alt="Solar Farm" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlF-aeb8Nd4Jpf_SbnrYA_8S5WZsy_B-QMzPK5FB9n0qdVgA0dp1UAieD266S-O3M_qWxikrwD7vnx3pD1o2Za4izlL9UVcZggRYVoFrkEpqIfEPduQmjWS2hjIClyvRgQnGQIcoUvL76SQl92xxg1f-GjuQucbUritQUjLP-xJJLC-dXKebnaEwbGnWzkSJ7HtFccEOmJpsVlWtX4ullidKComn60bMKsPAdtQi0yEDPymJNXIp556W7hEK20928zfN4DAJ_xJzgH"/>
+<div class="absolute inset-0 glass-overlay flex flex-col justify-end p-10 text-white">
+<div class="flex gap-2 mb-4">
+<span class="metric-pill bg-[var(--urgent-rose)]">Urgent Hiring</span>
+<span class="metric-pill bg-white/20">Solar Infrastructure</span>
+</div>
+<h2 class="text-4xl font-extrabold mb-2">Lead Systems Engineer</h2>
+<div class="flex items-center gap-6 mt-4">
+<div class="flex flex-col">
+<span class="text-xs uppercase opacity-70">Project Impact</span>
+<span class="text-2xl font-bold">1.2M tCO2e / yr</span>
+</div>
+<div class="w-[1px] h-10 bg-white/20"></div>
+<div class="flex flex-col">
+<span class="text-xs uppercase opacity-70">Grid Stability</span>
+<span class="text-2xl font-bold">99.98%</span>
+</div>
+<div class="ml-auto">
+<button class="bg-white text-[var(--deep-green)] px-8 py-3 rounded-2xl font-bold hover:bg-[var(--sky-blue)] hover:text-white transition-all">Apply Now</button>
+</div>
+</div>
+</div>
+</div>
+<div class="card-tall group relative overflow-hidden rounded-[2.5rem] bg-emerald-900">
+<img alt="Reforestation" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBp35FIqRe1MyGUohhicSbxhw4OY-7WvecCVRG0eDvCxXo2VUrY5zmZW6LuibsWtyIeCtxeOiqTBpVj_wVhPmdoj8Qk4XA514Y9H9tVXjAZ8PliREn-Lv5eEvm2Egn4mzmkXPSLrUThB1xYRuiX2osg8kunXpGsV_UXpnvEV_AxszTfQg3DPeLs6gD_kjrKamcLI1wWLSnQwxUDmE4p5wdXzPoJNojWnN2wmiTaUQuURdZgeZtMma9KgiB3H-QMAEw88oMPzzRdMLI1"/>
+<div class="absolute inset-0 p-8 flex flex-col text-white">
+<span class="metric-pill bg-[var(--sky-blue)] self-start mb-6">Regenerative</span>
+<div class="mt-auto">
+<h2 class="text-3xl font-extrabold leading-tight mb-4">Biodiversity Analyst</h2>
+<p class="text-emerald-100 text-sm mb-6 leading-relaxed">Synthesizing satellite data to measure flora recovery in the Amazon Basin restoration corridor.</p>
+<div class="p-4 bg-white/10 backdrop-blur-md rounded-2xl border border-white/10">
+<div class="flex justify-between items-center mb-2">
+<span class="text-[10px] uppercase font-bold tracking-widest text-emerald-300">Target Impact</span>
+</div>
+<div class="text-2xl font-mono font-bold text-[var(--impact-gold)]">450+ Species</div>
+<div class="text-[10px] text-emerald-200 mt-1">Reintroduced per Hectare</div>
+</div>
+</div>
+</div>
+</div>
+<div class="card-md group relative overflow-hidden rounded-[2.5rem] bg-sky-900">
+<img alt="Wind Turbines" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:rotate-1 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmoZhtUcwjItDbL7a6GYovUtP6J1PwH8VDj9bkEul7tGJtmIpMWeq1JBKz6pmRwT6QjoRdCsNUV4Um3yOWFtL96uIbkK3x3tr94JtvyPnKMAnq-XmR44Vunth0gzRQWmBxpqNatqmVArZ8Ed8D562SVyMuIMQLn4IDsJXWnT6lZaYtIFPeZhLMH47dqIhIwc8P39MtNTSE_M1q3c86C49NR8DOpcvI25DM42BFOcO5AoixZIg6I4ZL_hledNazl5MRcnJ6CjBoy5p-"/>
+<div class="absolute inset-0 glass-overlay flex flex-col justify-end p-8 text-white">
+<span class="metric-pill bg-emerald-500 mb-4 self-start">New Entry</span>
+<h3 class="text-2xl font-bold mb-4">Offshore Wind Specialist</h3>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-black/20 p-3 rounded-xl border border-white/5">
+<span class="block text-[10px] opacity-60 uppercase font-bold">Production</span>
+<span class="text-xl font-bold">1.2 GW</span>
+</div>
+<div class="bg-black/20 p-3 rounded-xl border border-white/5">
+<span class="block text-[10px] opacity-60 uppercase font-bold">Households</span>
+<span class="text-xl font-bold">850k</span>
+</div>
+</div>
+</div>
+</div>
+<div class="card-standard bg-white border-2 border-emerald-100 p-8 rounded-[2.5rem] flex flex-col justify-center">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-14 h-14 bg-emerald-50 rounded-2xl flex items-center justify-center text-[var(--deep-green)]">
+<span class="material-symbols-outlined text-3xl">analytics</span>
+</div>
+<div>
+<h4 class="font-bold text-lg text-[var(--deep-green)]">Market Insights</h4>
+<p class="text-xs text-emerald-600 font-medium">Global Sustainability Demand</p>
+</div>
+</div>
+<div class="space-y-4">
+<div class="h-2 w-full bg-emerald-50 rounded-full overflow-hidden">
+<div class="h-full bg-[var(--sky-blue)] w-3/4"></div>
+</div>
+<div class="flex justify-between text-xs font-bold text-emerald-900">
+<span>Renewables Roles</span>
+<span class="text-[var(--sky-blue)]">+24% YoY</span>
+</div>
+<div class="h-2 w-full bg-emerald-50 rounded-full overflow-hidden">
+<div class="h-full bg-emerald-500 w-1/2"></div>
+</div>
+<div class="flex justify-between text-xs font-bold text-emerald-900">
+<span>Policy &amp; Carbon</span>
+<span class="text-emerald-500">+12% YoY</span>
+</div>
+</div>
+</div>
+<div class="card-small bg-[var(--urgent-rose)] p-6 rounded-[2rem] text-white flex flex-col justify-between">
+<span class="material-symbols-outlined text-3xl">priority_high</span>
+<div>
+<p class="text-[10px] uppercase font-black tracking-widest mb-1 opacity-80">Urgent Alert</p>
+<p class="font-bold leading-tight">14 New Hydrogen roles just added in Berlin area.</p>
+</div>
+</div>
+<div class="card-small bg-[var(--impact-gold)] p-6 rounded-[2rem] text-emerald-950 flex flex-col justify-between">
+<span class="material-symbols-outlined text-3xl">water_drop</span>
+<div>
+<p class="text-[10px] uppercase font-black tracking-widest mb-1 opacity-70">Hydro</p>
+<p class="font-bold leading-tight">Explore Wave Energy Innovation Jobs</p>
+</div>
+</div>
+<div class="card-standard group relative overflow-hidden rounded-[2.5rem] bg-slate-800">
+<img alt="Lab" class="absolute inset-0 w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyJ5VmmIBE1EuXAq3_vGLyW4ATwoRML9CnEid_8YhhmkUioaCUAlp4sCW-wVVkGGs4WXcc14Fxrm4wsnULu_r9dqyDpfRzFciPxRMnUxBBpPIGqJyLrzMJxBcNW2nRQnWOX9CJwUK9vjcT_DZ6RSKur2oStgnbNHgqR8JB2KOroIX3BXCkPifkp4tMDuWs_KGpLfRcmdsmAFdMNa113FS4RPDqDWYa7333D89sS5hLzXOfqx1oGiZCIgUP8GUFgC0ZT6VUmDOFw0cL"/>
+<div class="absolute inset-0 flex flex-col p-8 text-white">
+<h3 class="text-2xl font-extrabold mb-auto leading-tight">Circular Materials Scientist</h3>
+<div class="mt-4">
+<span class="text-xs opacity-70">Company</span>
+<p class="font-bold text-lg">BioLoop Systems</p>
+<div class="mt-4 flex gap-2">
+<span class="px-2 py-1 rounded-md bg-white/10 text-[10px] border border-white/20">Remote</span>
+<span class="px-2 py-1 rounded-md bg-white/10 text-[10px] border border-white/20">Series B</span>
+</div>
+</div>
+</div>
+</div>
+<div class="card-md bg-[var(--deep-green)] p-12 rounded-[3rem] flex items-center justify-between text-white overflow-hidden relative">
+<div class="relative z-10 w-2/3">
+<h2 class="text-4xl font-black mb-4 leading-tight">Never miss a <span class="text-[var(--sky-blue)]">climate-positive</span> opportunity.</h2>
+<div class="flex gap-2">
+<input class="bg-white/10 border-white/20 rounded-2xl px-6 py-3 w-full focus:ring-2 focus:ring-[var(--sky-blue)] placeholder:text-white/40" placeholder="email@impact.com" type="email"/>
+<button class="bg-[var(--sky-blue)] px-8 py-3 rounded-2xl font-bold whitespace-nowrap">Join Grid</button>
+</div>
+</div>
+<span class="material-symbols-outlined text-[12rem] absolute -right-8 top-1/2 -translate-y-1/2 opacity-10 rotate-12">rocket_launch</span>
+</div>
+</div>
+</main>
+<footer class="bg-white border-t border-emerald-50 py-16">
+<div class="max-w-[1400px] mx-auto px-8 flex flex-col md:flex-row justify-between items-start gap-12">
+<div class="space-y-6">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 bg-[var(--deep-green)] rounded-lg flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-sm">eco</span>
+</div>
+<span class="text-xl font-black tracking-tighter text-[var(--deep-green)] uppercase">Greentryst</span>
+</div>
+<p class="text-emerald-800/60 max-w-xs text-sm font-medium">The world's most radical job board for high-impact sustainability projects. Measured by metrics, powered by mission.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-12 text-sm font-bold uppercase tracking-widest text-emerald-900">
+<div class="space-y-4">
+<p class="text-[10px] text-emerald-400">Platform</p>
+<p><a class="hover:text-[var(--sky-blue)]" href="#">Post Jobs</a></p>
+<p><a class="hover:text-[var(--sky-blue)]" href="#">Search Grid</a></p>
+<p><a class="hover:text-[var(--sky-blue)]" href="#">Verification</a></p>
+</div>
+<div class="space-y-4">
+<p class="text-[10px] text-emerald-400">Impact</p>
+<p><a class="hover:text-[var(--sky-blue)]" href="#">Carbon Data</a></p>
+<p><a class="hover:text-[var(--sky-blue)]" href="#">Biodiversity</a></p>
+<p><a class="hover:text-[var(--sky-blue)]" href="#">Case Studies</a></p>
+</div>
+</div>
+<div class="md:text-right space-y-2">
+<p class="text-xs text-emerald-400">© 2024 GREENTRYST ACADEMY</p>
+<div class="flex md:justify-end gap-4 text-emerald-900 font-bold">
+<a href="#">TW</a>
+<a href="#">LI</a>
+<a href="#">IG</a>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>

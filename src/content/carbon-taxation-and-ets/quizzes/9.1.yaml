@@ -1,0 +1,35 @@
+- question: "What is a hybrid carbon pricing approach?"
+  options:
+    - "Using both nuclear and renewable energy"
+    - "Combining elements of carbon taxes and emissions trading, or using both instruments in different sectors"
+    - "Mixing carbon pricing with no climate policy"
+    - "Only theoretical, never implemented"
+  answer: 1
+  explanation: "Hybrid approaches combine features of carbon taxes and ETS (like ETS with price collars) or use different instruments for different sectors (tax for small emitters, ETS for large ones)."
+
+- question: "What is a price collar in an ETS?"
+  options:
+    - "A decoration for the ETS"
+    - "Combining a price floor and a price ceiling to bound prices within a range"
+    - "A type of allowance"
+    - "An enforcement mechanism"
+  answer: 1
+  explanation: "A price collar sets both a floor (minimum price) and ceiling (maximum price), creating a bounded range within which the ETS price can fluctuate, combining quantity and price control."
+
+- question: "How does British Columbia combine ETS and tax elements?"
+  options:
+    - "It has no carbon pricing"
+    - "Applies a carbon tax economy-wide, with some large emitters covered by output-based pricing"
+    - "Pure carbon tax only"
+    - "Pure ETS only"
+  answer: 1
+  explanation: "BC uses a carbon tax broadly but allows large emitters in trade-exposed sectors to use output-based pricing (similar to an intensity-based ETS), combining tax simplicity with competitiveness protection."
+
+- question: "What is one advantage of using different instruments for different sectors?"
+  options:
+    - "Maximum complexity"
+    - "Matching instrument characteristics to sectoral characteristics (e.g., tax for diffuse sources, ETS for concentrated ones)"
+    - "Confusing stakeholders"
+    - "No advantages"
+  answer: 1
+  explanation: "Different sectors have different characteristics. Taxes work well for diffuse sources (buildings, transport), while ETS works better for concentrated, measurable sources (power, large industry)."

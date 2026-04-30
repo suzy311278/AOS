@@ -1,0 +1,44 @@
+- question: "What is the fundamental difference between financed emissions (Part A) and facilitated emissions (Part B) under the PCAF Standard?"
+  options:
+    - "Financed emissions cover all GHG gases; facilitated emissions only cover CO2"
+    - "Financed emissions arise from on-balance-sheet lending and investment; facilitated emissions arise from off-balance-sheet capital market activities where the bank acts as an underwriter or arranger"
+    - "Facilitated emissions are always larger than financed emissions for the same client exposure"
+    - "Part B is only applicable to insurance companies, not banks"
+  answer: 1
+  explanation: "Financed emissions (Part A) arise from on-balance-sheet loans and investments held by the financial institution. Facilitated emissions (Part B) arise from capital market transactions where the bank acts as a bookrunner or underwriter — facilitating other investors' capital flows without holding the assets on its own balance sheet. The bank earns a fee for this service but bears no lasting financial risk. This fundamental difference in the nature of the relationship drives a different attribution approach and the 33% weighting factor."
+
+- question: "What does 'league table credit' mean in the PCAF Part B attribution framework?"
+  options:
+    - "The credit rating assigned to the bonds being underwritten"
+    - "The industry convention for assigning economic credit among bookrunners in a capital market deal, with active bookrunners receiving 100% and passive bookrunners receiving 50%"
+    - "The amount of capital the bank provides as underwriting commitment"
+    - "The percentage of the deal's fees earned by each participating bank"
+  answer: 1
+  explanation: "League table credit is the standard capital markets convention for allocating 'credit' for deal participation, used to compile league tables of investment banking rankings. PCAF adopts this convention for facilitated emissions attribution: active bookrunners (who lead deal execution) receive 100% credit, passive bookrunners receive 50%. The league table shares are then normalised to sum to 100%, and each bank's share of the total issuance size is its facilitated volume."
+
+- question: "Why does PCAF apply a 33% weighting factor to facilitated emissions?"
+  options:
+    - "Facilitated emissions are 33% of total portfolio emissions on average"
+    - "33% is the statutory capital requirement for underwriting commitments under Basel III"
+    - "The weighting reflects that the facilitation role is temporary and off-balance-sheet, making it proportionally less impactful than an ongoing on-balance-sheet position"
+    - "33% aligns facilitated emissions with the EU Taxonomy's definition of 'transitional' activities"
+  answer: 2
+  explanation: "The 33% weighting factor was established through PCAF's public consultation process (October 2022). It reflects the view that a bookrunner's temporary, fee-based role in facilitating a capital market transaction represents roughly one-third of the 'climate responsibility' of an investor who holds that same instrument on their balance sheet for the long term. The factor acknowledges the facilitation role as meaningful but proportionately less impactful than ongoing capital commitment."
+
+- question: "A bank is the sole active bookrunner on a $3 billion corporate bond issuance. The issuing company reports annual Scope 1 and 2 emissions of 10,000,000 tCO2e with EVIC of $30 billion. What are the facilitated emissions?"
+  options:
+    - "1,000,000 tCO2e (attributing full $3B/EVIC)"
+    - "330,000 tCO2e (33% weighting applied to full deal credit)"
+    - "33,000 tCO2e (33% of the $3B/EVIC attribution)"
+    - "333,333 tCO2e"
+  answer: 1
+  explanation: "As sole active bookrunner, the bank receives 100% league table credit = $3B / $3B = 100% of the issuance. Attribution to the issuer's emissions = $3B / $30B EVIC × 10,000,000 = 1,000,000 tCO2e. Then apply the 33% weighting factor: 1,000,000 × 33% = 330,000 tCO2e. This reflects that the bank's facilitation role is temporary and off-balance-sheet, meriting one-third of the attribution that would apply to an investor holding those bonds."
+
+- question: "How must facilitated emissions be reported in a financial institution's GHG inventory?"
+  options:
+    - "Added to and combined with financed emissions for a single total Scope 3 figure"
+    - "Reported under Scope 1 since underwriting involves direct operational risk"
+    - "Disclosed as a separate, supplementary accounting note within Scope 3 Category 15, never combined with financed emissions"
+    - "Disclosed only in the management discussion section, not the GHG inventory"
+  answer: 2
+  explanation: "PCAF requires facilitated emissions to be disclosed as a separate, supplementary accounting note within Scope 3 Category 15. They must not be combined with financed emissions or used to offset them. This separation ensures that the two figures remain independently comparable across institutions, and that readers can understand the respective scale of an institution's lending/investing footprint versus its capital market facilitation footprint."

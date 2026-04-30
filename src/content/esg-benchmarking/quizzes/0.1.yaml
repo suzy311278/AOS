@@ -1,0 +1,26 @@
+- question: "Why does MSCI describe its ESG Ratings as industry-relative measures?"
+  options:
+    - "Because ESG risks are identical across all industries, so a common scale applies"
+    - "Because the rating reflects how well a company manages its ESG risks compared to other companies in its industry, not against a universal standard"
+    - "Because MSCI only covers companies within a single industry at a time"
+    - "Because regulatory requirements mandate that ratings be calculated on a peer-group basis"
+  answer: 1
+  explanation: "MSCI explicitly states that its ratings are industry-relative measures. They assess a company's performance relative to its industry peers, not against an absolute standard, because different industries face structurally different ESG risks."
+
+- question: "What does the Sustainalytics ESG Risk Rating measure?"
+  options:
+    - "How a company's ESG performance ranks within its GICS sub-industry on a letter scale"
+    - "The total volume of greenhouse gas emissions produced by a company"
+    - "The degree to which a company's economic value is at risk due to unmanaged ESG factors"
+    - "The number of ESG controversies a company has experienced in the past year"
+  answer: 2
+  explanation: "Sustainalytics measures the magnitude of a company's unmanaged ESG risks, expressed as the degree to which the company's enterprise value is at risk driven by ESG factors. It is an absolute, not relative, measure."
+
+- question: "From a consultant's perspective, what is the correct starting point for an ESG benchmarking project?"
+  options:
+    - "Immediately pulling the client's MSCI ESG Rating and comparing it to the industry average"
+    - "Understanding which rating agency's data the client's key investors and lenders actually use, then identifying the relevant peer group and disclosure gaps"
+    - "Requesting the client improve their governance score before assessing Environmental and Social issues"
+    - "Calculating the client's carbon footprint as a baseline for all other ESG comparisons"
+  answer: 1
+  explanation: "The sources are clear that the starting point is understanding which agency's ratings matter to which stakeholders. From there, you need to identify the relevant industry peer group and where the client's disclosures fall short."

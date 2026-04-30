@@ -1,0 +1,26 @@
+- question: "A project in the Philippines implements 'Alternate Wetting and Drying' (AWD) in rice paddies. Which category does this fall under, and what is the primary GHG benefit?"
+  options:
+  - "Category (a) Fertilizer — reduces N₂O"
+  - "Category (b) Water Management — reduces CH₄"
+  - "Category (c) Tillage — increases SOC"
+  - "Category (d) Crop Planting — increases carbon removal"
+  answer: 1
+  explanation: "AWD is a water management practice (Category b). By draining rice paddies mid-season instead of continuous flooding, it reduces anaerobic conditions and CH₄ emissions by 30–50%."
+
+- question: "What makes 'conservation agriculture' a 'stacked' VM0042 project?"
+  options:
+  - "It uses multiple quantification approaches simultaneously"
+  - "It combines multiple ALM practice categories (no-till + cover crops + residue retention)"
+  - "It stacks multiple carbon pools (SOC + woody biomass)"
+  - "It covers multiple geographic strata"
+  answer: 1
+  explanation: "Conservation agriculture typically combines: (c) no-till, (d) cover crops, and (c) residue retention — three practice categories working together for larger combined GHG benefits."
+
+- question: "A project wants to reduce stocking density on degraded grassland. What is the main SOC mechanism at work?"
+  options:
+  - "Reduced grazing allows grass recovery and deeper root growth, increasing belowground carbon inputs"
+  - "Fewer animals means less manure, which reduces carbon input"
+  - "Less trampling reduces soil compaction, which increases SOC decomposition"
+  - "Reduced stocking directly increases nitrogen in the soil"
+  answer: 0
+  explanation: "When overgrazing stops, grasses can grow deeper root systems. Roots are a major carbon input to soil. Deeper, more extensive root systems deposit significantly more carbon belowground."

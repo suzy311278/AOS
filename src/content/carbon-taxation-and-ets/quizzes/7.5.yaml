@@ -1,0 +1,35 @@
+- question: "What enforcement mechanisms are typically needed for carbon pricing?"
+  options:
+    - "None, compliance is voluntary"
+    - "Penalties for non-compliance, auditing capacity, and legal authority to impose sanctions"
+    - "Only friendly reminders"
+    - "International courts only"
+  answer: 1
+  explanation: "Effective enforcement requires clear penalties for non-compliance, capacity to audit and detect violations, and legal authority to impose fines or other sanctions."
+
+- question: "Why should penalties for non-compliance exceed the carbon price?"
+  options:
+    - "To maximize government revenue"
+    - "To ensure compliance is always cheaper than paying penalties"
+    - "Because high penalties are traditional"
+    - "Penalties do not need to exceed the price"
+  answer: 1
+  explanation: "If penalties are lower than the carbon price, rational emitters would choose non-compliance. Penalties must exceed the price (often significantly) to maintain incentive for compliance."
+
+- question: "What is the role of public disclosure in enforcement?"
+  options:
+    - "Public disclosure is prohibited"
+    - "Publishing compliance data creates reputational incentives and transparency"
+    - "It eliminates the need for penalties"
+    - "It only serves media"
+  answer: 1
+  explanation: "Public disclosure of compliance data, violations, and penalties creates reputational pressure on entities to comply and demonstrates that the system is being enforced seriously."
+
+- question: "What capacity is needed for effective enforcement?"
+  options:
+    - "Only lawyers"
+    - "Technical staff who understand emissions, auditors, legal authority, and IT systems to track compliance"
+    - "No special capacity"
+    - "Just political will"
+  answer: 1
+  explanation: "Enforcement requires technical expertise to verify emissions data, auditing capacity to detect violations, legal authority to impose sanctions, and IT systems to track compliance across all covered entities."

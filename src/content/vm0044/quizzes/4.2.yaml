@@ -1,0 +1,35 @@
+- question: "For how long must a VM0044 project proponent store all monitoring documents and records after the end of the project crediting period?"
+  options:
+    - "Six months"
+    - "One year"
+    - "At least two years"
+    - "At least ten years"
+  answer: 2
+  explanation: "VM0044 requires that all documents and records be stored in a secure and retrievable manner for at least two years after the end of the project crediting period. They must also be available to the third-party verifier at any time during and after the crediting period."
+
+- question: "Which of the following is NOT listed as a required minimum element of the VM0044 monitoring plan?"
+  options:
+    - "A description of each monitoring task and its technical requirements"
+    - "The type of technology used to produce biochar"
+    - "A cost-benefit analysis of each monitoring activity"
+    - "The roles, responsibilities, and capacity of the monitoring team and management"
+  answer: 2
+  explanation: "VM0044 requires four minimum elements in the monitoring plan: a description of each monitoring task, the type of biochar production technology, written logs of operation and maintenance, and the roles and responsibilities of the monitoring team. A cost-benefit analysis of monitoring activities is not required."
+
+- question: "How many geodetic coordinates (latitude/longitude) must be provided per application instance for soil-applied biochar under VM0044?"
+  options:
+    - "None; a written description of the field is sufficient"
+    - "At least one per field or plot instance where biochar is applied"
+    - "At least three per field to form a polygon boundary"
+    - "At least ten per hectare of application area"
+  answer: 1
+  explanation: "VM0044 requires at least one geodetic coordinate per instance (field or plot) where biochar is applied to soil. This geographic documentation prevents double counting with other carbon programs and allows the verifier to physically inspect the application site."
+
+- question: "What is the main objective of monitoring under VM0044?"
+  options:
+    - "To track the financial performance of the biochar project over time"
+    - "To prove the carbon sink from the final application of biochar and quantify project emissions during the crediting period, prior to each verification"
+    - "To demonstrate that the feedstock is sustainably sourced and meets EBC certification standards"
+    - "To calculate the production temperature and permanence adjustment factor for each batch"
+  answer: 1
+  explanation: "The main objective of monitoring under VM0044 is to prove the carbon sink from the final application of biochar and to quantify the emissions resulting from the project scenario during the crediting period, prior to each verification. This requires complete monitoring across all three stages: sourcing, production, and application."

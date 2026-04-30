@@ -1,0 +1,186 @@
+{
+  "outputComponents": [
+    {
+      "design": {
+        "screens": [
+          {
+            "designSystem": {
+              "designSystem": {
+                "displayName": "Greentryst Obsidian",
+                "theme": {
+                  "bodyFont": "INTER",
+                  "colorMode": "LIGHT",
+                  "colorVariant": "FIDELITY",
+                  "customColor": "#2D6A4F",
+                  "designMd": "# Design System Specification: High-End Sustainability OS\n\n## 1. Overview & Creative North Star\n**Creative North Star: \"The Living Ledger\"**\n\nThis design system is built to mirror the gravity and precision of the climate sector. It moves away from the \"playful green\" aesthetic common in consumer sustainability apps, instead adopting the authoritative, data-dense language of institutional tools like Bloomberg or GitHub. \n\nWe achieve a premium feel through **Organic Structuralism**: a marriage of high-precision monospaced data and lush, layered surfaces. By breaking the traditional grid with intentional asymmetry—such as offset metadata and overlapping \"frosted\" panels—the UI feels like a bespoke editorial piece rather than a generic dashboard. It is quietly confident, favoring tonal depth over loud borders and high-contrast noise.\n\n---\n\n## 2. Colors & Surface Philosophy\nThe palette is rooted in the \"Deep Forest\" spectrum. We use color not just for branding, but as a structural tool to define hierarchy without relying on lines.\n\n### The \"No-Line\" Rule\nSectioning must be achieved through background shifts. To separate a sidebar from a main content area, use a transition from `surface` (#E7FFF3) to `surface-container-low` (#E2F9ED). **Solid 1px borders for layout division are strictly prohibited.**\n\n### Surface Hierarchy & Nesting\nTreat the UI as a series of stacked architectural layers.\n- **Base Level:** `background` (#E7FFF3)\n- **Nested Containers:** `surface-container` (#DCF3E7) through `surface-container-highest` (#D1E8DC). \n- **The Floating Layer:** `surface-container-lowest` (#FFFFFF) is reserved for interactive cards.\n\n### Signature Textures & Glassmorphism\n- **Glassmorphism:** For floating overlays (modals, dropdowns), use `surface` with 80% opacity and a `24px` backdrop-blur. This creates an \"Ice-on-Moss\" effect that maintains environmental context.\n- **The Lustre Gradient:** Main CTAs should utilize a subtle linear gradient from `primary` (#0F5238) to `primary-container` (#2D6A4F) at a 135° angle to provide a \"machined\" professional finish.\n\n---\n\n## 3. Typography\nThe typographic system creates a tension between the humanistic Inter and the technical JetBrains Mono.\n\n| Category | Token | Font | Weight | Tracking | Usage |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Display** | `display-lg` | Inter | 800 | -0.02em | Hero impact metrics |\n| **Headline** | `headline-md` | Inter | 700 | -0.01em | Section titles |\n| **Title** | `title-sm` | Inter | 600 | 0 | Card headings |\n| **Body** | `body-md` | Inter | 400 | 0 | Standard reading |\n| **Data** | `label-md` | JetBrains Mono | 500 | 0.05em | Numbers, timestamps, status |\n| **Eyebrow** | `label-sm` | JetBrains Mono | 700 | 0.1em | All-caps category labels |\n\n**Editorial Note:** Always pair a `headline-lg` with a `label-sm` JetBrains Mono \"eyebrow\" above it to establish an authoritative, metadata-rich context.\n\n---\n\n## 4. Elevation & Depth\nIn this system, depth is felt, not seen. We avoid the \"heavy shadow\" look of the early 2010s in favor of **Tonal Layering**.\n\n- **Ambient Shadows:** For interactive cards, use a multi-layered shadow: `0 4px 20px 0 rgba(11, 31, 24, 0.04), 0 1px 2px 0 rgba(11, 31, 24, 0.02)`. The shadow color must always be a tint of `on-surface` (#0B1F18).\n- **The \"Ghost Border\":** If a boundary is required for accessibility, use the `outline-variant` (#BFC9C1) at **15% opacity**.\n- **The 16px Radius Rule:** All cards and primary containers use `xl` (1.5rem / 24px) for a soft, premium feel. Secondary elements like buttons use `md` (0.75rem / 12px) to maintain a sense of functional rigidity.\n\n---\n\n## 5. Components\n\n### Buttons: High-Functionality Actions\n- **Primary:** Background: `primary-container` (#2D6A4F). Shape: 8px (rounded-md). Content: Label (Inter 600) + Lucide Arrow Icon. \n- **Pill (Utility):** Background: `secondary-fixed`. Shape: 9999px. Use only for minor filtering or inline tags.\n- **States:** Hover should trigger a subtle shift to `primary` (#0F5238) with a 2px vertical lift.\n\n### Input Fields: Institutional Precision\n- **Style:** Background: `surface-container-low`. Border: None. Bottom-edge: 2px solid `outline-variant` at 20% opacity.\n- **Focus State:** Bottom-edge transitions to 2px solid `primary`. Label shifts to `label-sm` JetBrains Mono.\n\n### Cards & Data Lists\n- **Rule:** No divider lines. Use `16px` to `24px` of vertical white space to separate list items.\n- **The \"Data Strip\":** Use a 4px vertical accent of `leaf` (#52B788) on the left edge of a card to indicate \"Live\" or \"Active\" sustainability data.\n\n### Progress Indicators: The \"Eco-Pulse\"\nInstead of standard loaders, use a subtle shimmering gradient (Skeleton) moving from `surface-container` to `surface-container-high`.\n\n---\n\n## 6. Do's and Don'ts\n\n### Do\n- **Do** use JetBrains Mono for all numerical data. It signals \"Calculated Precision.\"\n- **Do** use asymmetrical layouts (e.g., a wide 8-column main area with a narrow 4-column metadata sidebar).\n- **Do** use `leaf` (#52B788) sparingly as a \"Live\" indicator only.\n\n### Don't\n- **Don't** use 100% black text. Always use `on-surface` (#0B1F18) to maintain the \"Deep Forest\" tonal integrity.\n- **Don't** use pill-shaped buttons for primary actions. Rounded-rect (8px) feels more professional and \"OS-like.\"\n- **Don't** use standard Lucide icons at their default 1px stroke. Always use **stroke 2** to ensure they feel grounded and authoritative.",
+                  "font": "INTER",
+                  "headlineFont": "INTER",
+                  "labelFont": "SPACE_GROTESK",
+                  "namedColors": {
+                    "background": "#e7fff3",
+                    "error": "#ba1a1a",
+                    "error_container": "#ffdad6",
+                    "inverse_on_surface": "#dff6ea",
+                    "inverse_primary": "#95d4b3",
+                    "inverse_surface": "#21342c",
+                    "on_background": "#0b1f18",
+                    "on_error": "#ffffff",
+                    "on_error_container": "#93000a",
+                    "on_primary": "#ffffff",
+                    "on_primary_container": "#a8e7c5",
+                    "on_primary_fixed": "#002114",
+                    "on_primary_fixed_variant": "#0e5138",
+                    "on_secondary": "#ffffff",
+                    "on_secondary_container": "#436b58",
+                    "on_secondary_fixed": "#002114",
+                    "on_secondary_fixed_variant": "#274e3d",
+                    "on_surface": "#0b1f18",
+                    "on_surface_variant": "#404943",
+                    "on_tertiary": "#ffffff",
+                    "on_tertiary_container": "#89edba",
+                    "on_tertiary_fixed": "#002113",
+                    "on_tertiary_fixed_variant": "#005235",
+                    "outline": "#707973",
+                    "outline_variant": "#bfc9c1",
+                    "primary": "#0f5238",
+                    "primary_container": "#2d6a4f",
+                    "primary_fixed": "#b1f0ce",
+                    "primary_fixed_dim": "#95d4b3",
+                    "secondary": "#3f6653",
+                    "secondary_container": "#beead1",
+                    "secondary_fixed": "#c1ecd4",
+                    "secondary_fixed_dim": "#a5d0b9",
+                    "surface": "#e7fff3",
+                    "surface_bright": "#e7fff3",
+                    "surface_container": "#dcf3e7",
+                    "surface_container_high": "#d6eee2",
+                    "surface_container_highest": "#d1e8dc",
+                    "surface_container_low": "#e2f9ed",
+                    "surface_container_lowest": "#ffffff",
+                    "surface_dim": "#c8dfd4",
+                    "surface_tint": "#2c694e",
+                    "surface_variant": "#d1e8dc",
+                    "tertiary": "#005236",
+                    "tertiary_container": "#006d48",
+                    "tertiary_fixed": "#92f7c3",
+                    "tertiary_fixed_dim": "#75daa8"
+                  },
+                  "overrideNeutralColor": "#081C15",
+                  "overridePrimaryColor": "#2D6A4F",
+                  "overrideSecondaryColor": "#1B4332",
+                  "overrideTertiaryColor": "#52B788",
+                  "roundness": "ROUND_EIGHT",
+                  "spacingScale": 2
+                }
+              },
+              "name": "assets/7e411730bcce4449b4f56e36c70f4b49",
+              "version": "1"
+            },
+            "deviceType": "DESKTOP",
+            "generatedBy": "figaro_agent",
+            "height": "2558",
+            "htmlCode": {
+              "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzljNDU1OWU3MTEyNjQ4Y2NiZWZjZmFkYjQyNDM1ZWYxEgsSBxD4gf-qtRAYAZIBJAoKcHJvamVjdF9pZBIWQhQxNzY0Mjg2MTgzMDM2ODE2NDM5Mw&filename=&opi=96797242",
+              "mimeType": "text/html",
+              "name": "projects/17642861830368164393/files/503291ae2b0e4a61aa8221294903c1b1"
+            },
+            "id": "f74dcb5475f046f783a41c0b1bd2e430",
+            "name": "projects/17642861830368164393/screens/f74dcb5475f046f783a41c0b1bd2e430",
+            "prompt": "Desktop Greentryst sustainability JOBS DIRECTORY. \n\nLAYOUT: \n- Left sidebar (280px, white bg, border-right): Top has a dark forest (#0B3D2E) icon tile with a Briefcase icon in leaf green (#52B788), next to 'CAREER DIRECTORY' mono uppercase. A 'New search' brand-green button below. Search input below that. 'PROFILES' mono label followed by a vertical list: All Roles (1,240), Climate Risk (42, active), Sustainable Finance (185), Carbon Markets (92), EU Taxonomy (56), Clean Energy (312). Active item has a green left border. 'FILTERS' mono label below with dropdowns for Country and Remote. Stats footer at bottom in mono.\n- Main workspace (pale background #FAFAFA): Header with 'Climate Risk Roles' and '42 positions' in mono. \n- Job list: 6 white rounded-2xl cards with p-6, hairline border, no shadow. \n  - Jobs: 'Climate Risk Analyst - Banking' (HSBC), 'Physical Risk Modeler' (Munich Re), 'Transition Risk & Strategy Lead' (BP), 'Climate Scenario Analyst' (Standard Chartered), 'TCFD Disclosure Manager' (Deloitte), 'Climate Data Scientist' (MSCI).\n  - Each card: Job title (18px bold), company + building icon, location + map pin, mono meta line (e.g., 'Full-time · Senior · 2h ago'). \n  - Right side: 'Apply' pill button in brand-green (#2D6A4F).\n- Footer card: Green-tinted, 'Build skills for Climate Risk roles' with links to 'Climate Science 101' and 'IFRS S2'.\n\nSTYLING: Use Greentryst Obsidian Design System. Inter font for UI, JetBrains Mono for data/mono labels. No large hero, no gradients on cards. Professional workspace look.",
+            "screenMetadata": {
+              "agentType": "PRO_AGENT",
+              "status": "COMPLETE"
+            },
+            "screenType": "DESIGN",
+            "screenshot": {
+              "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0ujT-SaKMiyPUkLihqlPPklNC1aTsGPDuV1keS-AA7EChE45O6VUw3l9dxCQ8_oqjWXGqj-PjHhHT_VE4eA331pcpSPtaLbCO-8DG9adPbFr3jSUmfV897NRC7sPdvjU48qGjrDz1uXN3vCkIbSFUBc4Y6FkFpa9r42AZAgRWWFk31MugLdpoPnQJnK5E7UxsoYSq8yRvmhol9ufUZyr265HGikY0-HrPGTA9nn_uhTgg6-_3UeN0txI4uLi",
+              "name": "projects/17642861830368164393/files/9d5417fd5198435ea1eaeec1f3fff70a"
+            },
+            "theme": {
+              "bodyFont": "INTER",
+              "colorMode": "LIGHT",
+              "colorVariant": "FIDELITY",
+              "customColor": "#2D6A4F",
+              "designMd": "# Design System Specification: High-End Sustainability OS\n\n## 1. Overview & Creative North Star\n**Creative North Star: \"The Living Ledger\"**\n\nThis design system is built to mirror the gravity and precision of the climate sector. It moves away from the \"playful green\" aesthetic common in consumer sustainability apps, instead adopting the authoritative, data-dense language of institutional tools like Bloomberg or GitHub. \n\nWe achieve a premium feel through **Organic Structuralism**: a marriage of high-precision monospaced data and lush, layered surfaces. By breaking the traditional grid with intentional asymmetry—such as offset metadata and overlapping \"frosted\" panels—the UI feels like a bespoke editorial piece rather than a generic dashboard. It is quietly confident, favoring tonal depth over loud borders and high-contrast noise.\n\n---\n\n## 2. Colors & Surface Philosophy\nThe palette is rooted in the \"Deep Forest\" spectrum. We use color not just for branding, but as a structural tool to define hierarchy without relying on lines.\n\n### The \"No-Line\" Rule\nSectioning must be achieved through background shifts. To separate a sidebar from a main content area, use a transition from `surface` (#E7FFF3) to `surface-container-low` (#E2F9ED). **Solid 1px borders for layout division are strictly prohibited.**\n\n### Surface Hierarchy & Nesting\nTreat the UI as a series of stacked architectural layers.\n- **Base Level:** `background` (#E7FFF3)\n- **Nested Containers:** `surface-container` (#DCF3E7) through `surface-container-highest` (#D1E8DC). \n- **The Floating Layer:** `surface-container-lowest` (#FFFFFF) is reserved for interactive cards.\n\n### Signature Textures & Glassmorphism\n- **Glassmorphism:** For floating overlays (modals, dropdowns), use `surface` with 80% opacity and a `24px` backdrop-blur. This creates an \"Ice-on-Moss\" effect that maintains environmental context.\n- **The Lustre Gradient:** Main CTAs should utilize a subtle linear gradient from `primary` (#0F5238) to `primary-container` (#2D6A4F) at a 135° angle to provide a \"machined\" professional finish.\n\n---\n\n## 3. Typography\nThe typographic system creates a tension between the humanistic Inter and the technical JetBrains Mono.\n\n| Category | Token | Font | Weight | Tracking | Usage |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **Display** | `display-lg` | Inter | 800 | -0.02em | Hero impact metrics |\n| **Headline** | `headline-md` | Inter | 700 | -0.01em | Section titles |\n| **Title** | `title-sm` | Inter | 600 | 0 | Card headings |\n| **Body** | `body-md` | Inter | 400 | 0 | Standard reading |\n| **Data** | `label-md` | JetBrains Mono | 500 | 0.05em | Numbers, timestamps, status |\n| **Eyebrow** | `label-sm` | JetBrains Mono | 700 | 0.1em | All-caps category labels |\n\n**Editorial Note:** Always pair a `headline-lg` with a `label-sm` JetBrains Mono \"eyebrow\" above it to establish an authoritative, metadata-rich context.\n\n---\n\n## 4. Elevation & Depth\nIn this system, depth is felt, not seen. We avoid the \"heavy shadow\" look of the early 2010s in favor of **Tonal Layering**.\n\n- **Ambient Shadows:** For interactive cards, use a multi-layered shadow: `0 4px 20px 0 rgba(11, 31, 24, 0.04), 0 1px 2px 0 rgba(11, 31, 24, 0.02)`. The shadow color must always be a tint of `on-surface` (#0B1F18).\n- **The \"Ghost Border\":** If a boundary is required for accessibility, use the `outline-variant` (#BFC9C1) at **15% opacity**.\n- **The 16px Radius Rule:** All cards and primary containers use `xl` (1.5rem / 24px) for a soft, premium feel. Secondary elements like buttons use `md` (0.75rem / 12px) to maintain a sense of functional rigidity.\n\n---\n\n## 5. Components\n\n### Buttons: High-Functionality Actions\n- **Primary:** Background: `primary-container` (#2D6A4F). Shape: 8px (rounded-md). Content: Label (Inter 600) + Lucide Arrow Icon. \n- **Pill (Utility):** Background: `secondary-fixed`. Shape: 9999px. Use only for minor filtering or inline tags.\n- **States:** Hover should trigger a subtle shift to `primary` (#0F5238) with a 2px vertical lift.\n\n### Input Fields: Institutional Precision\n- **Style:** Background: `surface-container-low`. Border: None. Bottom-edge: 2px solid `outline-variant` at 20% opacity.\n- **Focus State:** Bottom-edge transitions to 2px solid `primary`. Label shifts to `label-sm` JetBrains Mono.\n\n### Cards & Data Lists\n- **Rule:** No divider lines. Use `16px` to `24px` of vertical white space to separate list items.\n- **The \"Data Strip\":** Use a 4px vertical accent of `leaf` (#52B788) on the left edge of a card to indicate \"Live\" or \"Active\" sustainability data.\n\n### Progress Indicators: The \"Eco-Pulse\"\nInstead of standard loaders, use a subtle shimmering gradient (Skeleton) moving from `surface-container` to `surface-container-high`.\n\n---\n\n## 6. Do's and Don'ts\n\n### Do\n- **Do** use JetBrains Mono for all numerical data. It signals \"Calculated Precision.\"\n- **Do** use asymmetrical layouts (e.g., a wide 8-column main area with a narrow 4-column metadata sidebar).\n- **Do** use `leaf` (#52B788) sparingly as a \"Live\" indicator only.\n\n### Don't\n- **Don't** use 100% black text. Always use `on-surface` (#0B1F18) to maintain the \"Deep Forest\" tonal integrity.\n- **Don't** use pill-shaped buttons for primary actions. Rounded-rect (8px) feels more professional and \"OS-like.\"\n- **Don't** use standard Lucide icons at their default 1px stroke. Always use **stroke 2** to ensure they feel grounded and authoritative.",
+              "font": "INTER",
+              "headlineFont": "INTER",
+              "labelFont": "SPACE_GROTESK",
+              "namedColors": {
+                "background": "#e7fff3",
+                "error": "#ba1a1a",
+                "error_container": "#ffdad6",
+                "inverse_on_surface": "#dff6ea",
+                "inverse_primary": "#95d4b3",
+                "inverse_surface": "#21342c",
+                "on_background": "#0b1f18",
+                "on_error": "#ffffff",
+                "on_error_container": "#93000a",
+                "on_primary": "#ffffff",
+                "on_primary_container": "#a8e7c5",
+                "on_primary_fixed": "#002114",
+                "on_primary_fixed_variant": "#0e5138",
+                "on_secondary": "#ffffff",
+                "on_secondary_container": "#436b58",
+                "on_secondary_fixed": "#002114",
+                "on_secondary_fixed_variant": "#274e3d",
+                "on_surface": "#0b1f18",
+                "on_surface_variant": "#404943",
+                "on_tertiary": "#ffffff",
+                "on_tertiary_container": "#89edba",
+                "on_tertiary_fixed": "#002113",
+                "on_tertiary_fixed_variant": "#005235",
+                "outline": "#707973",
+                "outline_variant": "#bfc9c1",
+                "primary": "#0f5238",
+                "primary_container": "#2d6a4f",
+                "primary_fixed": "#b1f0ce",
+                "primary_fixed_dim": "#95d4b3",
+                "secondary": "#3f6653",
+                "secondary_container": "#beead1",
+                "secondary_fixed": "#c1ecd4",
+                "secondary_fixed_dim": "#a5d0b9",
+                "surface": "#e7fff3",
+                "surface_bright": "#e7fff3",
+                "surface_container": "#dcf3e7",
+                "surface_container_high": "#d6eee2",
+                "surface_container_highest": "#d1e8dc",
+                "surface_container_low": "#e2f9ed",
+                "surface_container_lowest": "#ffffff",
+                "surface_dim": "#c8dfd4",
+                "surface_tint": "#2c694e",
+                "surface_variant": "#d1e8dc",
+                "tertiary": "#005236",
+                "tertiary_container": "#006d48",
+                "tertiary_fixed": "#92f7c3",
+                "tertiary_fixed_dim": "#75daa8"
+              },
+              "overrideNeutralColor": "#081C15",
+              "overridePrimaryColor": "#2D6A4F",
+              "overrideSecondaryColor": "#1B4332",
+              "overrideTertiaryColor": "#52B788",
+              "roundness": "ROUND_EIGHT",
+              "spacingScale": 2
+            },
+            "title": "Career Directory",
+            "width": "2560"
+          }
+        ],
+        "theme": {}
+      }
+    },
+    {
+      "text": "I've designed the Greentryst Career Directory for you. \n\nThe layout follows the professional \"Living Ledger\" aesthetic, featuring:\n- **Left Sidebar Navigation:** Includes the Career Directory branding, a \"New search\" action, profile categories with job counts, and quick filters for Country and Remote.\n- **Main Workspace:** A clean, workspace-oriented view with a sticky header indicating the active profile (\"Climate Risk Roles\").\n- **Job List:** High-fidelity job cards for roles like Climate Risk Analyst and Physical Risk Modeler, complete with metadata (location, type, level, timing) and an \"Apply\" action.\n- **Learning Integration:** A footer section suggests relevant Greentryst courses to help candidates build skills for the current profile.\n\nThe design uses **Inter** for primary UI elements and **JetBrains Mono** for all data-driven labels and metadata, ensuring a precise, authoritative feel consistent with the Greentryst brand."
+    },
+    {
+      "suggestion": "Add a job details view"
+    },
+    {
+      "suggestion": "Design the 'New Search' overlay"
+    },
+    {
+      "suggestion": "Create a 'My Applications' dashboard"
+    }
+  ],
+  "projectId": "17642861830368164393",
+  "sessionId": "7176967145802548412"
+}

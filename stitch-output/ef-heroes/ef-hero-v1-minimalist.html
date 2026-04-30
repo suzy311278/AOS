@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-container": "#ffb295",
+                        "primary-container": "#005c55",
+                        "outline": "#6f7977",
+                        "on-primary-fixed": "#00201d",
+                        "on-error-container": "#93000a",
+                        "surface-container-low": "#f2f4f3",
+                        "secondary-container": "#d1e3e3",
+                        "surface-container": "#eceeed",
+                        "on-surface-variant": "#3f4947",
+                        "on-tertiary": "#ffffff",
+                        "on-tertiary-fixed": "#370e00",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-fixed": "#0e1e1e",
+                        "secondary-fixed": "#d4e6e5",
+                        "surface-tint": "#1a6962",
+                        "on-secondary-fixed-variant": "#3a4a4a",
+                        "inverse-surface": "#2e3131",
+                        "error": "#ba1a1a",
+                        "on-background": "#191c1c",
+                        "primary": "#00433d",
+                        "surface-dim": "#d8dada",
+                        "surface-bright": "#f8faf9",
+                        "on-primary": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed": "#ffdbce",
+                        "on-primary-container": "#8ad2c8",
+                        "surface-container-high": "#e6e9e8",
+                        "surface-variant": "#e1e3e2",
+                        "surface": "#f8faf9",
+                        "secondary": "#516161",
+                        "tertiary-container": "#7b422b",
+                        "primary-fixed": "#a7f0e6",
+                        "on-primary-fixed-variant": "#00504a",
+                        "outline-variant": "#bec9c6",
+                        "on-secondary-container": "#556665",
+                        "primary-fixed-dim": "#8cd4ca",
+                        "inverse-primary": "#8cd4ca",
+                        "tertiary": "#5f2c17",
+                        "on-error": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "on-tertiary-fixed-variant": "#6e3822",
+                        "surface-container-highest": "#e1e3e2",
+                        "on-surface": "#191c1c",
+                        "secondary-fixed-dim": "#b8cac9",
+                        "background": "#f8faf9",
+                        "inverse-on-surface": "#eff1f0",
+                        "tertiary-fixed-dim": "#ffb599"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "1rem",
+                        "xl": "1.25rem",
+                        "2xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "label": ["JetBrains Mono", "monospace"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .dot-grid {
+            background-image: radial-gradient(circle, #00504a 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface antialiased">
+<!-- Header / TopNavBar -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-12 py-6 max-w-screen-2xl mx-auto bg-[#0e1e1e] backdrop-blur-md opacity-90 shadow-[0_40px_40px_0_rgba(25,28,28,0.04)]">
+<div class="flex items-center gap-12">
+<span class="text-2xl font-bold tracking-[0.5px] text-white">Greentryst</span>
+<div class="hidden md:flex items-center gap-8 font-['Inter'] text-[14px] leading-relaxed">
+<a class="text-white/70 hover:text-white transition-colors duration-200" href="#">Tools</a>
+<a class="text-white/70 hover:text-white transition-colors duration-200" href="#">Guides</a>
+<a class="text-white/70 hover:text-white transition-colors duration-200" href="#">Learn</a>
+<a class="text-white/70 hover:text-white transition-colors duration-200" href="#">Community</a>
+<a class="text-white/70 hover:text-white transition-colors duration-200" href="#">About</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<button class="text-white/70 hover:text-white transition-colors duration-200 font-medium px-4 py-2">Ask AI</button>
+<button class="bg-primary-container text-white px-6 py-2.5 rounded-full font-medium hover:scale-105 active:scale-95 transition-all duration-150">Sign In</button>
+</div>
+</nav>
+<!-- Main Hero Section -->
+<section class="relative min-h-[921px] bg-on-secondary-fixed flex flex-col justify-center items-center overflow-hidden pt-32 pb-24">
+<!-- Background Elements -->
+<div class="absolute inset-0 dot-grid opacity-20 pointer-events-none"></div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary-container/15 blur-[120px] rounded-full pointer-events-none"></div>
+<div class="relative z-10 w-full max-w-[900px] px-6 text-center">
+<!-- Eyebrow -->
+<span class="font-label text-[11px] tracking-[0.2em] text-white/50 uppercase block mb-6">EMISSION FACTOR LIBRARY</span>
+<!-- Headline -->
+<h1 class="font-headline font-bold text-white text-[72px] leading-[1.05] tracking-tighter mb-8">
+                Every emission factor. <br/> Sourced. Dated. Free.
+            </h1>
+<!-- Subtext -->
+<p class="font-body text-white/70 text-[18px] leading-relaxed max-w-[720px] mx-auto mb-12">
+                A reference library of greenhouse-gas emission factors with full provenance, citation formats, and vintage tracking. Built for sustainability professionals who need auditable numbers.
+            </p>
+<!-- Search Card -->
+<div class="w-full bg-white rounded-2xl p-2 flex items-center shadow-2xl mb-8 group transition-all focus-within:ring-4 focus-within:ring-primary-container/20">
+<div class="pl-6 pr-4 flex items-center text-on-surface-variant">
+<span class="material-symbols-outlined text-[24px]" data-icon="search">search</span>
+</div>
+<input class="flex-1 bg-transparent border-none focus:ring-0 text-on-surface text-[16px] placeholder:text-on-surface-variant/50 py-4" placeholder="Search 211,651 factors - try UK grid electricity, natural gas, diesel transport" type="text"/>
+<button class="bg-primary-container text-white px-8 py-4 rounded-xl font-semibold hover:bg-primary transition-colors flex items-center gap-2">
+                    Search
+                </button>
+</div>
+<!-- Chips -->
+<div class="flex flex-wrap justify-center gap-3">
+<button class="flex items-center gap-2 px-5 py-2.5 bg-[#1a2a2a] text-white/80 rounded-full border border-white/5 hover:bg-white/10 transition-colors text-sm backdrop-blur-sm">
+<span class="material-symbols-outlined text-[18px]" data-icon="bolt">bolt</span>
+                    Electricity
+                </button>
+<button class="flex items-center gap-2 px-5 py-2.5 bg-[#1a2a2a] text-white/80 rounded-full border border-white/5 hover:bg-white/10 transition-colors text-sm backdrop-blur-sm">
+<span class="material-symbols-outlined text-[18px]" data-icon="oil_barrel">oil_barrel</span>
+                    Fuels
+                </button>
+<button class="flex items-center gap-2 px-5 py-2.5 bg-[#1a2a2a] text-white/80 rounded-full border border-white/5 hover:bg-white/10 transition-colors text-sm backdrop-blur-sm">
+<span class="material-symbols-outlined text-[18px]" data-icon="local_shipping">local_shipping</span>
+                    Transport
+                </button>
+<button class="flex items-center gap-2 px-5 py-2.5 bg-[#1a2a2a] text-white/80 rounded-full border border-white/5 hover:bg-white/10 transition-colors text-sm backdrop-blur-sm">
+<span class="material-symbols-outlined text-[18px]" data-icon="ac_unit">ac_unit</span>
+                    Refrigerants
+                </button>
+<button class="flex items-center gap-2 px-5 py-2.5 bg-[#1a2a2a] text-white/80 rounded-full border border-white/5 hover:bg-white/10 transition-colors text-sm backdrop-blur-sm">
+<span class="material-symbols-outlined text-[18px]" data-icon="delete_sweep">delete_sweep</span>
+                    Waste
+                </button>
+<button class="flex items-center gap-2 px-5 py-2.5 bg-[#1a2a2a] text-white/80 rounded-full border border-white/5 hover:bg-white/10 transition-colors text-sm backdrop-blur-sm">
+<span class="material-symbols-outlined text-[18px]" data-icon="shopping_bag">shopping_bag</span>
+                    Scope 3 spend
+                </button>
+</div>
+</div>
+</section>
+<!-- Stat Strip -->
+<div class="w-full bg-[#0e1e1e] border-t border-white/5 py-16">
+<div class="max-w-screen-2xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 px-12">
+<div class="flex flex-col gap-2 items-center text-center">
+<span class="font-label text-[40px] text-primary-fixed-dim tracking-tight">211,651</span>
+<span class="font-body text-white/50 text-[14px] uppercase tracking-wider">factors</span>
+</div>
+<div class="flex flex-col gap-2 items-center text-center">
+<span class="font-label text-[40px] text-primary-fixed-dim tracking-tight">41</span>
+<span class="font-body text-white/50 text-[14px] uppercase tracking-wider">primary sources</span>
+</div>
+<div class="flex flex-col gap-2 items-center text-center">
+<span class="font-label text-[40px] text-primary-fixed-dim tracking-tight">4</span>
+<span class="font-body text-white/50 text-[14px] uppercase tracking-wider">reporting frameworks</span>
+</div>
+<div class="flex flex-col gap-2 items-center text-center">
+<span class="font-label text-[40px] text-primary-fixed-dim tracking-tight">0</span>
+<span class="font-body text-white/50 text-[14px] uppercase tracking-wider">hallucinations</span>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="w-full flex flex-col md:flex-row justify-between items-center gap-8 border-t border-slate-100 dark:border-slate-800 bg-[#f8faf9] dark:bg-[#0e1e1e] p-12">
+<div class="flex flex-col items-center md:items-start gap-4">
+<span class="font-bold text-[#0e1e1e] dark:text-white">Greentryst</span>
+<span class="font-['Inter'] text-[12px] uppercase tracking-wider text-slate-500">© 2024 Greentryst. The Sovereign Analyst.</span>
+</div>
+<div class="flex items-center gap-8">
+<a class="font-['Inter'] text-[12px] uppercase tracking-wider text-slate-500 hover:text-[#00433d] transition-colors" href="#">Privacy Policy</a>
+<a class="font-['Inter'] text-[12px] uppercase tracking-wider text-slate-500 hover:text-[#00433d] transition-colors" href="#">Terms of Service</a>
+<a class="font-['Inter'] text-[12px] uppercase tracking-wider text-slate-500 hover:text-[#00433d] transition-colors" href="#">Contact</a>
+</div>
+</footer>
+</body></html>

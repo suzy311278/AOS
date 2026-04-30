@@ -1,0 +1,35 @@
+- question: "Category 6 (Business Travel) covers which of the following?"
+  options:
+    - "An employee driving to work in their personal car"
+    - "A sales representative flying to a client meeting"
+    - "A company van delivering goods to a customer"
+    - "An executive commuting by train between home and office"
+  answer: 1
+  explanation: "Category 6 covers employee travel for business purposes in vehicles not owned by the company — including flights to client meetings. Daily commuting is Category 7, company vehicle operations are Scope 1, and goods delivery is Category 9."
+
+- question: "Why do business class flights have a higher per-passenger emission factor than economy class?"
+  options:
+    - "Business class passengers fly more frequently"
+    - "Business class passengers occupy more physical floor space per seat on the aircraft"
+    - "Business class involves longer routes"
+    - "Business class tickets include more fuel-intensive in-flight services"
+  answer: 1
+  explanation: "Business class seats occupy more floor space per passenger than economy seats. Since aircraft fuel consumption is allocated by seat area (or equivalent), business class passengers are attributed a larger share of the flight's total emissions."
+
+- question: "An employee flies 3,000 km in economy class with an emission factor of 0.151 kgCO₂e/passenger-km. What are the Category 6 emissions for this trip?"
+  options:
+    - "0.45 tCO₂e"
+    - "4.53 tCO₂e"
+    - "45.3 tCO₂e"
+    - "0.045 tCO₂e"
+  answer: 0
+  explanation: "3,000 km × 0.151 kgCO₂e/passenger-km = 453 kgCO₂e = 0.453 tCO₂e ≈ 0.45 tCO₂e."
+
+- question: "Radiative forcing (RF) uplift factors for air travel account for which additional climate effects beyond CO₂?"
+  options:
+    - "Noise pollution from aircraft engines"
+    - "Contrail formation, cirrus clouds, and NOx chemistry"
+    - "Fuel spills during refuelling"
+    - "Carbon offsets purchased by airlines"
+  answer: 1
+  explanation: "Aviation radiative forcing includes non-CO₂ warming effects such as contrail formation, cirrus cloud enhancement, and nitrogen oxide (NOx) chemistry at altitude. These effects can increase the effective warming impact of flying by a factor of 2–4× compared to CO₂ alone."

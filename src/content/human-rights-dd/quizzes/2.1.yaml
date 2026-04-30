@@ -1,0 +1,26 @@
+- question: "According to the ILO's 2021 global estimates, approximately how many people are in situations of forced labour worldwide?"
+  options:
+  - "10 million"
+  - "28 million"
+  - "50 million"
+  - "160 million"
+  answer: 2
+  explanation: "The ILO's 2022 global estimates (covering 2021 data) found approximately 50 million people in forced labour situations - 28 million in forced labour in the private economy and 22 million in forced marriages."
+
+- question: "The US Uyghur Forced Labor Prevention Act (UFLPA) of 2021 creates what type of legal mechanism regarding goods from Xinjiang?"
+  options:
+  - "A voluntary reporting requirement for companies importing goods"
+  - "A rebuttable presumption that goods produced in Xinjiang are made with forced labour"
+  - "A ban on all trade with China until conditions improve"
+  - "A requirement to conduct third-party audits of all Xinjiang suppliers"
+  answer: 1
+  explanation: "The UFLPA creates a rebuttable presumption - meaning goods from Xinjiang are presumed to be made with forced labour unless companies can provide clear and convincing evidence to the contrary. This shifts the burden of proof to the importer."
+
+- question: "When a company discovers forced labour in its supply chain, what does best practice under the UNGPs and OECD Guidance recommend as the immediate priority?"
+  options:
+  - "Immediately terminate the supplier relationship to avoid liability"
+  - "File a report with the relevant national government authority"
+  - "Prioritize worker safety and remediation, using leverage to drive improvement before disengaging"
+  - "Conduct a legal review to determine whether the company is legally responsible"
+  answer: 2
+  explanation: "The UNGPs and OECD Guidance both emphasize that remediation - including paying unpaid wages, returning confiscated documents, and ensuring worker safety - should take priority over commercial decisions. Cutting ties immediately, without remediation, can leave workers in a worse situation."

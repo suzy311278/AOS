@@ -1,0 +1,26 @@
+- question: "A company's sustainability report says energy consumption was 45,000 GJ, but their BRSR filing reports 42,500 GJ for the same period and boundary. What is the consequence of this?"
+  options:
+    - "It is acceptable because different frameworks use different methodologies"
+    - "The company's credibility is questioned when analysts or rating agencies spot the discrepancy"
+    - "Only the BRSR number matters since it is a regulatory filing"
+    - "The higher number should be used in both documents to be conservative"
+  answer: 1
+  explanation: "When the boundary is the same, data must match across all publications - sustainability report, BRSR, annual report. Discrepancies undermine credibility. A reconciliation step between teams working on different documents should be built in before publication."
+
+- question: "When should the 'About the Report' section be drafted relative to other sections?"
+  options:
+    - "Last, after all other sections are finalized"
+    - "Early in the engagement, even before all data is collected"
+    - "After the Environmental section is complete"
+    - "Only after the Chairman's Message is approved"
+  answer: 1
+  explanation: "The reporting period, standards referenced, and boundary are typically known early. This section rarely changes much during revisions. Drafting it early establishes the foundational rules - especially the boundary - that govern every other section."
+
+- question: "A Chairman's Message highlights a 30% water reduction target, but the Environmental section contains no data or discussion about this target. What is the problem?"
+  options:
+    - "The target should only appear in the Environmental section, not the Chairman's Message"
+    - "The Chairman's Message is too specific and should stick to high-level vision"
+    - "The report body must deliver on what the leadership message promises - inconsistency undermines credibility"
+    - "Water targets are not appropriate for a Chairman's Message"
+  answer: 2
+  explanation: "Readers notice when the leadership message promises things the report does not deliver. If the Chairman's Message highlights a specific target, the relevant pillar section must contain the supporting data, progress tracking, and context. Inconsistency between the opening message and the report body erodes trust."

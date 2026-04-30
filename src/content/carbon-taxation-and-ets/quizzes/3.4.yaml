@@ -1,0 +1,44 @@
+- question: "What is banking in an ETS?"
+  options:
+    - "Storing allowances in a physical bank"
+    - "Saving allowances from one compliance period to use in a future period"
+    - "Borrowing money to buy allowances"
+    - "Investing revenue in banks"
+  answer: 1
+  explanation: "Banking allows entities to save surplus allowances from one year to use for compliance in future years, providing flexibility and smoothing price volatility."
+
+- question: "What is borrowing in an ETS context?"
+  options:
+    - "Taking a loan to buy allowances"
+    - "Using future-period allowances for current-period compliance"
+    - "Borrowing emissions from other countries"
+    - "Government borrowing to fund the ETS"
+  answer: 1
+  explanation: "Borrowing allows entities to use allowances from a future compliance period to cover current emissions, though this is often restricted or prohibited due to environmental concerns."
+
+- question: "Why is unlimited banking generally beneficial for market efficiency?"
+  options:
+    - "It increases government revenue"
+    - "It allows intertemporal optimization and price smoothing"
+    - "It eliminates the need for compliance"
+    - "It guarantees emissions will fall"
+  answer: 1
+  explanation: "Banking allows entities to choose when to reduce emissions based on cost, smooths prices across time, and enables responses to technological change and economic cycles."
+
+- question: "Why do some jurisdictions limit or prohibit borrowing?"
+  options:
+    - "Borrowing is too complex administratively"
+    - "Borrowing allows delaying emission reductions and can undermine environmental goals"
+    - "Borrowing is illegal under international law"
+    - "It increases costs"
+  answer: 1
+  explanation: "Unlimited borrowing allows entities to delay reductions indefinitely, potentially undermining near-term environmental goals and pushing obligations to future periods."
+
+- question: "What happens to banked allowances if the cap tightens significantly?"
+  options:
+    - "They become worthless"
+    - "They become more valuable as scarcity increases"
+    - "Government confiscates them"
+    - "They must be returned"
+  answer: 1
+  explanation: "When caps tighten, allowances become scarcer and more valuable. Banked allowances can be used in this tighter future market, increasing their value."

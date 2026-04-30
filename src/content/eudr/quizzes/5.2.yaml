@@ -1,0 +1,26 @@
+- question: "What is the EUDR's deforestation cut-off date?"
+  options:
+    - "1 January 2020"
+    - "31 December 2020"
+    - "29 June 2023 (the date the regulation entered into force)"
+    - "30 December 2026 (the application date for large operators)"
+  answer: 1
+  explanation: "The cut-off date is 31 December 2020. Land that was deforested or forest-degraded after this date cannot supply EUDR-compliant products to the EU market, regardless of when the product is harvested or sold. This date is fixed and cannot be changed by the application date extensions."
+
+- question: "Why was the EUDR application date for large operators extended from 30 December 2024 to 30 December 2026?"
+  options:
+    - "The European Parliament overturned the original regulation and required it to be rewritten"
+    - "Producer countries successfully challenged the regulation at the WTO, requiring a renegotiation"
+    - "The EUDR Information System only launched in December 2024, leaving insufficient time for operators to integrate; country classifications were also not yet published"
+    - "The European Commission determined that seven commodities were insufficient and needed to add more before the application date"
+  answer: 2
+  explanation: "The extension was driven by several factors: the EUDR Information System only launched in December 2024 (leaving no time for testing before the original deadline), formal country benchmarking classifications had not been published, and smallholder data infrastructure in many producer countries was not ready. Environmental NGOs criticized the delay as undermining regulatory urgency."
+
+- question: "Which type of operator has until 30 June 2027 to comply with the EUDR?"
+  options:
+    - "Large non-SME operators importing from high-risk countries"
+    - "Non-SME traders"
+    - "Small and micro enterprises (SME operators)"
+    - "All operators exporting relevant products from the EU"
+  answer: 2
+  explanation: "Small and micro enterprises (SME operators, defined as having fewer than 50 employees and turnover/balance sheet below EUR 10 million for small, or fewer than 10 employees and EUR 2 million for micro) have until 30 June 2027. Large and medium non-SME operators must comply from 30 December 2026."

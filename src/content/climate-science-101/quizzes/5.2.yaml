@@ -1,0 +1,26 @@
+- question: "What is the primary function of the IPCC in the global climate governance system?"
+  options:
+    - "To conduct original climate research and publish findings in peer-reviewed journals"
+    - "To set national emissions reduction targets for UNFCCC member countries"
+    - "To systematically review and synthesize existing peer-reviewed climate science to inform policymakers"
+    - "To negotiate the terms of international climate agreements on behalf of governments"
+  answer: 2
+  explanation: "The IPCC does not conduct original research. Its mandate is to assess the state of scientific knowledge by systematically reviewing and synthesizing thousands of peer-reviewed studies. The IPCC's reports represent the most comprehensive, rigorously reviewed statements of what the scientific community collectively understands about climate change, synthesizing work from hundreds of authors and thousands of reviewers."
+
+- question: "In IPCC calibrated language, when a finding is described as 'very likely,' what probability range does this represent?"
+  options:
+    - "50-66% probability"
+    - "66-90% probability"
+    - "90-100% probability"
+    - "99-100% probability"
+  answer: 2
+  explanation: "In IPCC calibrated language, 'very likely' corresponds to a 90-100% probability. 'Virtually certain' represents 99-100%; 'likely' represents 66-100%; 'about as likely as not' represents 33-66%. These terms are typeset in italics in IPCC reports specifically to distinguish them from ordinary usage, since words like 'likely' in everyday language carry no precise probability meaning."
+
+- question: "Which of the following statements accurately describes how government representatives influence the IPCC Summary for Policymakers (SPM)?"
+  options:
+    - "Governments can rewrite sections of the SPM to reflect their policy positions, overriding scientific findings"
+    - "Governments have no role in SPM approval; only scientists approve the final text"
+    - "Governments approve the SPM line-by-line but cannot change underlying scientific findings in chapter reports"
+    - "Governments can only block publication of SPMs they disagree with; they cannot change wording"
+  answer: 2
+  explanation: "The SPM undergoes line-by-line approval by representatives of all 195 member governments at a plenary session. However, governments can only accept, reject, or request clarification of statements in the SPM; they cannot change the underlying scientific findings in the full report chapters. The SPM must accurately reflect the full report, and any weakening of language requires scientific justification. The process is transparent and recorded."

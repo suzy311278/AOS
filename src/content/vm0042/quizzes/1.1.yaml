@@ -1,0 +1,26 @@
+- question: "VM0042 is geographically limited to which regions?"
+  options:
+  - "North America and Europe only"
+  - "Tropical countries only"
+  - "Sub-Saharan Africa only"
+  - "No geographic limit — globally applicable"
+  answer: 3
+  explanation: "VM0042 is globally applicable. It can be used anywhere in the world where agricultural practices are being improved on cropland or grassland."
+
+- question: "A farmer switches from flood irrigation to drip irrigation in a rice paddy. Which ALM category does this fall under?"
+  options:
+  - "(a) Fertilizer Management"
+  - "(b) Water Management/Irrigation"
+  - "(c) Tillage/Residue Management"
+  - "(e) Grazing Practices"
+  answer: 1
+  explanation: "Irrigation changes fall under category (b) Water Management/Irrigation. This practice can significantly reduce CH₄ emissions from flooded rice paddies."
+
+- question: "What are the two types of climate benefit VM0042 quantifies?"
+  options:
+  - "Carbon capture and storage"
+  - "GHG emission reductions AND carbon dioxide removals"
+  - "Methane reduction and N₂O reduction only"
+  - "SOC increase and biodiversity improvement"
+  answer: 1
+  explanation: "VM0042 covers both reductions (avoiding GHG emissions, e.g., less N₂O from fertilizer) and removals (sequestering CO₂ into soil organic carbon)."

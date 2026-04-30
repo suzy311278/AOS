@@ -1,0 +1,187 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Greentryst Academy
+      - navigation [ref=e5]:
+        - link "Library" [ref=e6] [cursor=pointer]:
+          - /url: "#"
+        - link "My Progress" [ref=e7] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e8] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e9]:
+        - button "notifications" [ref=e10] [cursor=pointer]
+        - button "settings" [ref=e11] [cursor=pointer]
+        - img "User Profile" [ref=e13]
+  - generic [ref=e16]:
+    - complementary [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]: description
+          - generic [ref=e21]:
+            - heading "Article 6 of the Paris Agreement" [level=2] [ref=e22]
+            - paragraph [ref=e23]: Course Module
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - 'heading "Module 1: Foundations of Article 6" [level=3] [ref=e26]'
+            - generic [ref=e27]:
+              - link "check_circle 1. Introduction to Article 6 5 min" [ref=e28] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e29]: check_circle
+                - generic [ref=e30]:
+                  - paragraph [ref=e31]: 1. Introduction to Article 6
+                  - text: 5 min
+              - link "check_circle 2. The Paris Agreement Framework 12 min" [ref=e32] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e33]: check_circle
+                - generic [ref=e34]:
+                  - paragraph [ref=e35]: 2. The Paris Agreement Framework
+                  - text: 12 min
+              - link "play_circle 3. The Glasgow Rulebook 8 min · Current" [ref=e36] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e37]: play_circle
+                - generic [ref=e38]:
+                  - paragraph [ref=e39]: 3. The Glasgow Rulebook
+                  - text: 8 min · Current
+              - link "circle 4. ITMOs and Reporting 10 min" [ref=e40] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e41]: circle
+                - generic [ref=e42]:
+                  - paragraph [ref=e43]: 4. ITMOs and Reporting
+                  - text: 10 min
+          - generic [ref=e44]:
+            - 'heading "Module 2: Carbon Markets" [level=3] [ref=e45]'
+            - link "lock 1. Compliance vs Voluntary" [ref=e47] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e48]: lock
+              - paragraph [ref=e50]: 1. Compliance vs Voluntary
+      - generic [ref=e52]:
+        - generic [ref=e53]: Your Progress
+        - generic [ref=e54]: 45%
+    - main [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - img "International climate negotiations" [ref=e60]
+          - generic [ref=e62]:
+            - navigation [ref=e63]:
+              - link "Home" [ref=e64] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e65]: chevron_right
+              - link "Article 6" [ref=e66] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e67]: chevron_right
+              - link "Module 1" [ref=e68] [cursor=pointer]:
+                - /url: "#"
+              - generic [ref=e69]: chevron_right
+              - generic [ref=e70]: The Glasgow Rulebook
+            - generic [ref=e71]:
+              - generic [ref=e72]: "Module 1: Foundations"
+              - generic [ref=e74]: Lesson 3 of 5
+              - generic [ref=e76]:
+                - generic [ref=e77]: schedule
+                - text: 8 min read
+              - generic [ref=e78]: Completed
+            - heading "The Glasgow Rulebook" [level=1] [ref=e79]
+        - generic [ref=e80]:
+          - generic [ref=e82]:
+            - button "play_arrow" [ref=e83] [cursor=pointer]:
+              - generic [ref=e84]: play_arrow
+            - generic [ref=e111]:
+              - generic [ref=e112]: 12:45 / 24:00
+              - button "1x Speed" [ref=e113] [cursor=pointer]
+          - article [ref=e114]:
+            - heading "The Final Piece of the Puzzle" [level=2] [ref=e115]
+            - paragraph [ref=e116]: For six years following the Paris Agreement in 2015, the operational details of Article 6 remained the most contentious part of the international climate negotiation process. It wasn't until COP26 in Glasgow that countries finally reached a consensus, establishing what is now known as the **Glasgow Rulebook**.
+            - generic [ref=e117]:
+              - generic [ref=e118]:
+                - generic [ref=e119]: lightbulb
+                - generic [ref=e120]: Key Takeaway
+              - paragraph [ref=e121]: The Glasgow Rulebook ensures that carbon credits cannot be counted twice—once by the country selling them and once by the country buying them—a mechanism known as "Corresponding Adjustments".
+            - paragraph [ref=e122]: This agreement provides the necessary accounting frameworks for international cooperation. Before Glasgow, there was a significant risk of double-counting, which would have undermined the atmospheric integrity of the entire Paris Agreement.
+            - heading "The Three Pillars of Implementation" [level=2] [ref=e123]
+            - list [ref=e124]:
+              - listitem [ref=e125]:
+                - generic [ref=e126]: check_circle
+                - generic [ref=e127]:
+                  - strong [ref=e128]: Article 6.2 (Bilateral Cooperation)
+                  - text: Allows for the direct transfer of carbon credits between countries.
+              - listitem [ref=e129]:
+                - generic [ref=e130]: check_circle
+                - generic [ref=e131]:
+                  - strong [ref=e132]: Article 6.4 (The Mechanism)
+                  - text: Creates a global carbon market overseen by a UN body.
+              - listitem [ref=e133]:
+                - generic [ref=e134]: check_circle
+                - generic [ref=e135]:
+                  - strong [ref=e136]: Article 6.8 (Non-market approaches)
+                  - text: Facilitates cooperation through finance, technology transfer, and capacity building.
+            - generic [ref=e137]:
+              - generic [ref=e139]: compare_arrows
+              - generic [ref=e140]:
+                - generic [ref=e141]: Analogy
+                - paragraph [ref=e142]: Think of the Glasgow Rulebook as the international banking software for carbon. Without it, every country was using their own handwritten ledgers that didn't talk to each other, making fraud and errors almost inevitable.
+            - paragraph [ref=e143]: Furthermore, the Rulebook established a "Share of Proceeds" for adaptation. For every credit sold under the 6.4 mechanism, 5% of the credits are automatically transferred to a fund for developing nations to deal with climate impacts.
+            - generic [ref=e144]:
+              - generic [ref=e146]: info
+              - generic [ref=e147]:
+                - generic [ref=e148]: Example
+                - paragraph [ref=e149]: If Switzerland pays for an electric bus fleet in Ghana, the carbon reductions achieved can be credited to Switzerland's national target, provided Ghana makes a corresponding adjustment to their own accounts.
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - generic [ref=e152]:
+                - generic [ref=e153]: quiz
+                - generic [ref=e154]:
+                  - heading "Knowledge Check" [level=3] [ref=e155]
+                  - paragraph [ref=e156]: Verify your understanding of the Glasgow Rulebook
+              - generic [ref=e157]: 1 of 5 Answered
+            - generic [ref=e158]:
+              - paragraph [ref=e159]: 1. At which COP were the Article 6 rules finally agreed and the Rulebook established?
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - generic [ref=e162]: A. COP21 (Paris)
+                  - generic [ref=e163]: circle
+                - generic [ref=e164]:
+                  - generic [ref=e165]: B. COP25 (Madrid)
+                  - generic [ref=e166]: circle
+                - generic [ref=e167]:
+                  - generic [ref=e168]: C. COP26 (Glasgow)
+                  - generic [ref=e169]: check_circle
+                - generic [ref=e170]:
+                  - generic [ref=e171]: D. COP27 (Sharm el-Sheikh)
+                  - generic [ref=e172]: circle
+              - generic [ref=e173]:
+                - generic [ref=e174]: info
+                - paragraph [ref=e175]: Correct! COP26 in Glasgow (2021) was the landmark session that finalized the rules for international carbon trading after years of deadlock.
+            - generic [ref=e176]:
+              - paragraph [ref=e177]: 2. What three-tier reporting system did the Glasgow Rulebook establish for Article 6.2?
+              - generic [ref=e178]:
+                - button "Initial report, annual information, and regular information circle" [ref=e179] [cursor=pointer]:
+                  - generic [ref=e180]: Initial report, annual information, and regular information
+                  - generic [ref=e181]: circle
+                - button "Bi-annual updates, financial statements, and NDC reviews circle" [ref=e182] [cursor=pointer]:
+                  - generic [ref=e183]: Bi-annual updates, financial statements, and NDC reviews
+                  - generic [ref=e184]: circle
+                - button "Voluntary disclosure, mandatory registry, and audit trials circle" [ref=e185] [cursor=pointer]:
+                  - generic [ref=e186]: Voluntary disclosure, mandatory registry, and audit trials
+                  - generic [ref=e187]: circle
+                - button "Direct notification, stakeholder approval, and UN verification circle" [ref=e188] [cursor=pointer]:
+                  - generic [ref=e189]: Direct notification, stakeholder approval, and UN verification
+                  - generic [ref=e190]: circle
+              - button "Submit Answer" [ref=e192] [cursor=pointer]
+          - generic [ref=e193]:
+            - button "Mark Complete & Continue arrow_forward" [ref=e194] [cursor=pointer]:
+              - text: Mark Complete & Continue
+              - generic [ref=e195]: arrow_forward
+            - generic [ref=e196]:
+              - link "Previous Lesson arrow_back The Paris Agreement Framework" [ref=e197] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e198]: Previous Lesson
+                - generic [ref=e199]:
+                  - generic [ref=e200]: arrow_back
+                  - generic [ref=e201]: The Paris Agreement Framework
+              - link "Next Lesson ITMOs and Reporting arrow_forward" [ref=e202] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e203]: Next Lesson
+                - generic [ref=e204]:
+                  - generic [ref=e205]: ITMOs and Reporting
+                  - generic [ref=e206]: arrow_forward

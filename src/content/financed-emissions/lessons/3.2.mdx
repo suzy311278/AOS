@@ -1,0 +1,125 @@
+{/* source: PCAF Standard Part A (3rd Edition), Chapter 5.7 */}
+
+**Use of Proceeds (UoP) structures** are financial instruments where the funds raised are explicitly designated for a specific purpose. Unlike general corporate loans where the money enters a company's treasury for any operational use, UoP instruments are legally linked to defined activities. This makes emissions attribution both more specific and, in some respects, more complex.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/financed-emissions/3_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Asset Class Definition
+
+Use of Proceeds structures include financial instruments where:
+- The proceeds are **contractually designated** for specific activities or projects
+- The financial institution can verify the actual deployment of funds
+
+Key examples include:
+- **Green bonds** and other use-of-proceeds bonds (sustainability bonds, social bonds)
+- **Sustainability-linked bonds** where the proceeds are tied to environmental projects
+- **Green loans** and sustainable finance facilities with specified project allocations
+- **Climate bonds** for climate-specific projects
+
+<HighlightBox>
+General-purpose corporate bonds (without specified use of proceeds) and general business loans fall under the Listed Equity & Corporate Bonds (Chapter 5.1) and Business Loans & Unlisted Equity (Chapter 5.2) asset classes respectively. The UoP designation only applies when there is a contractual link between the loan or bond and a specified activity.
+</HighlightBox>
+
+## The Look-Through Methodology
+
+The key methodological principle for UoP structures is **look-through attribution**: rather than attributing emissions at the level of the issuing company, the financial institution looks through to the **underlying activities or assets** financed by the proceeds.
+
+For example, if a corporation issues a green bond to finance a wind farm and a portfolio of energy efficiency upgrades to its factories:
+
+1. The bank identifies the wind farm and factory upgrades as the underlying activities
+2. It calculates the emissions of those activities (operational emissions of the wind farm, energy consumption of the factories)
+3. It applies the appropriate attribution formula for the underlying activity type
+
+This means that GHG emissions are reported at the **level of the financed asset or activity**, not at the corporate level.
+
+## Attribution of Emissions
+
+The attribution methodology for UoP structures follows the methodology applicable to the **type of underlying asset**. Common mappings include:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Underlying Asset Type</th>
+      <th>Apply Methodology From</th>
+      <th>Denominator</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Commercial buildings (from green bonds)</td>
+      <td>Chapter 5.4 (Commercial Real Estate)</td>
+      <td>Property value at origination</td>
+    </tr>
+    <tr>
+      <td>Residential properties (from green covered bonds)</td>
+      <td>Chapter 5.5 (Mortgages)</td>
+      <td>Property value at origination</td>
+    </tr>
+    <tr>
+      <td>Renewable energy projects (wind, solar)</td>
+      <td>Chapter 5.3 (Project Finance)</td>
+      <td>Total project equity + debt</td>
+    </tr>
+    <tr>
+      <td>Vehicles (EV fleet bonds)</td>
+      <td>Chapter 5.6 (Motor Vehicle Loans)</td>
+      <td>Vehicle value at origination</td>
+    </tr>
+    <tr>
+      <td>Corporate energy efficiency investments</td>
+      <td>Chapter 5.2 (Business Loans) or 5.3 (Project Finance)</td>
+      <td>Depends on structure</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+## Attribution Factor for UoP Instruments
+
+The specific attribution factor depends on the relationship between the financial institution's holding and the total capital structure:
+
+**For bonds** (institutional investor holding a bond):
+
+<EquationBreakdown
+  title="UoP Bond Attribution Factor"
+  result="AF | Attribution Factor | The financial institution's share of the issuer's emissions from the bond holding | blue"
+  inputs="Outstanding Amount | Outstanding Amount | The FI's holding in the use-of-proceeds bond | green ;; EVIC | EVIC of Issuer | Enterprise Value Including Cash of the bond issuer | amber"
+  operator="÷"
+/>
+
+However, if the proceeds are fully identifiable and traceable to specific assets, the financial institution uses the appropriate chapter's denominator for the underlying asset.
+
+<ExampleBox>
+**Green bond example**
+
+A bank holds a $50 million green bond issued by a real estate company. The bond was issued specifically to retrofit 10 commercial office buildings to achieve net-zero energy performance. The total project cost for all 10 buildings is $200 million.
+
+The underlying methodology is CRE (Chapter 5.4). The attribution factor is:
+
+$50M / $200M = **25%**
+
+The bank calculates the emissions of the 10 retrofitted buildings based on their actual energy consumption data and applies the 25% attribution factor.
+
+This approach is more precise than attributing based on the company's EVIC (which would dilute the attribution across all of the company's assets, not just the green bond-funded buildings).
+</ExampleBox>
+
+## Data Challenges and Reporting Period Mismatches
+
+A common challenge in UoP accounting is that proceeds may be **allocated over multiple years** as projects are built or funded. During the period between bond issuance and full allocation of proceeds, some funds may be held in temporary liquid instruments (treasury bonds, cash). PCAF guidance recommends:
+
+- Reporting emissions only for **assets that have been funded** at the reporting date
+- Treating unallocated cash as a separate category with minimal or zero emissions
+- Disclosing the percentage of proceeds allocated and the percentage still awaiting deployment
+
+## Relationship to Green Taxonomies
+
+For financial institutions operating in regulated markets (particularly the EU), UoP structures are closely linked to green finance taxonomies. The **EU Taxonomy Regulation** defines which economic activities qualify as "environmentally sustainable," and many green bonds are structured to fund taxonomy-aligned activities.
+
+PCAF's UoP methodology is compatible with taxonomy-aligned reporting: the same look-through approach that calculates financed emissions for UoP bonds also provides the activity-level data needed to assess taxonomy alignment. Financial institutions should ensure their systems can track both the emissions profile and the taxonomy alignment of UoP-funded activities.
+
+<AnalogyBox>
+General corporate loans are like buying shares in a diversified fund: your money supports everything the company does, and you inherit all of its emissions proportionally. A green bond is like buying a stake in a specific project within that company: your money only supports the defined activity, and you only inherit the emissions of that activity. The look-through methodology enforces this specificity.
+</AnalogyBox>
+
+<KeyTakeaways items="Use of Proceeds structures require a look-through approach: attribute emissions at the level of the underlying financed activity, not the issuing company ;; The applicable methodology depends on the underlying asset type - apply the relevant PCAF chapter (CRE, Project Finance, Mortgages, etc.) for each activity ;; Only report emissions for assets that have actually been funded at the reporting date - treat unallocated cash separately with minimal emissions ;; Green bonds, sustainability-linked bonds, and green loans all qualify as UoP structures when proceeds are contractually tied to defined activities ;; UoP methodology is compatible with EU Taxonomy alignment reporting - the same look-through data serves both emissions and taxonomy disclosure" />

@@ -1,0 +1,8 @@
+- question: "Which three regulations form the EU sustainable finance data supply chain?"
+  options:
+    - "CSRD, Taxonomy, and MiFID II"
+    - "CSRD, Taxonomy, and SFDR"
+    - "SFDR, ESRS, and Solvency II"
+    - "Taxonomy, EU Green Bond Standard, and CSRD"
+  answer: 1
+  explanation: "CSRD creates the reporting obligation, the Taxonomy defines what counts as green, and SFDR requires financial products to disclose their sustainability. Each needs the others."

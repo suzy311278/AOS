@@ -1,0 +1,48 @@
+NASA Climate Change - Evidence and Vital Signs
+Source: https://science.nasa.gov/climate-change/evidence
+Source: https://science.nasa.gov/climate-change/
+Crawled: March 2026
+
+MAIN STATEMENT:
+"There is unequivocal evidence that Earth is warming at an unprecedented rate. Human activity is the principal cause."
+
+CORE TAKEAWAYS:
+- Current warming occurs "at a rate not seen in the past 10,000 years"
+- Human influence on climate warming has evolved "from theory to established fact" per IPCC
+- Scientific evidence combines natural sources (ice cores, tree rings) with modern satellite data
+- Planet exhibits widespread warming signals across multiple systems
+
+HISTORICAL CONTEXT:
+Earth's climate has cycled through eight ice ages over 800,000 years. The current warming trend differs fundamentally because it results from human activities since the mid-1800s and proceeds at unprecedented velocity. Carbon dioxide from human sources increases "about 250 times faster" than natural post-ice-age rates.
+
+KEY EVIDENCE POINTS:
+
+Temperature: Average surface temperature rose approximately 2°F (1°C) since late 1800s. Seven of the warmest years occurred recently, with 2016 and 2020 tied as warmest on record.
+
+Ocean Warming: Top 100 meters shows 0.67°F (0.33°C) warming since 1969. Oceans store "90% of the extra energy."
+
+Ice Loss: Greenland lost 279 billion tons annually (1993-2019); Antarctica lost 148 billion tons yearly.
+
+Glacial Retreat: Glaciers worldwide retreat, including Alpine, Himalayan, and Andean regions.
+
+Sea Level Rise: Ocean levels increased 8 inches (20 cm) last century; recent rates nearly double historical pace.
+
+Arctic Decline: Both extent and thickness of Arctic sea ice declined rapidly in recent decades.
+
+Extreme Events: Record high temperature events increase; record low events decrease since 1950.
+
+Ocean Acidification: Surface acidity increased approximately 30% since industrialization began.
+
+NASA ORGANIZATIONAL CONTEXT:
+NASA positions itself as "a global leader in studying Earth's changing climate." The Earth Science Division operates over 20 satellites, sponsors hundreds of research initiatives, and focuses on observing oceans, land cover, ice, atmosphere, and life systems.
+
+CLIMATE CHANGE FACTS:
+
+Evidence of Warming:
+"Earth is warming at an unprecedented rate" with "unequivocal evidence" documented through satellite technology and long-term data collection revealing "signs and patterns of a changing climate."
+
+Primary Cause:
+"Human activities are driving the global warming trend observed since the mid-20th century." The expansion of greenhouse effects - where atmospheric layers trap heat - results primarily from fossil fuel combustion increasing atmospheric carbon dioxide concentrations.
+
+Observable Effects:
+Current impacts include "loss of sea ice, melting glaciers and ice sheets, sea level rise, and more intense heat waves." These effects "are happening now, are irreversible for people alive today, and will worsen."

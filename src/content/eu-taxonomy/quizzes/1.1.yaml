@@ -1,0 +1,26 @@
+- question: "What does 'taxonomy-eligible' mean?"
+  options:
+    - "The activity meets all four alignment conditions"
+    - "The activity is described in the delegated acts"
+    - "The activity has zero carbon emissions"
+    - "The activity has been verified by an external auditor"
+  answer: 1
+  explanation: "Taxonomy-eligible simply means the activity appears in the delegated acts. It says nothing about whether the activity meets the criteria - that is taxonomy-aligned."
+
+- question: "How many conditions must be met for an activity to be taxonomy-aligned?"
+  options:
+    - "Two"
+    - "Three"
+    - "Four"
+    - "Six"
+  answer: 2
+  explanation: "All four: substantial contribution to at least one objective, DNSH to all others, minimum safeguards compliance, and meeting the technical screening criteria."
+
+- question: "A cement plant is taxonomy-eligible but emits above the threshold. What is its status?"
+  options:
+    - "Taxonomy-aligned because it is eligible"
+    - "Taxonomy-eligible but not taxonomy-aligned"
+    - "Not taxonomy-eligible"
+    - "Automatically excluded from reporting"
+  answer: 1
+  explanation: "The plant is eligible (cement is listed in the delegated acts) but not aligned because it fails the substantial contribution threshold."

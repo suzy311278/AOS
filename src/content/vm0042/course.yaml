@@ -1,0 +1,226 @@
+id: vm0042
+title: "VM0042 Improved Agricultural Land Management"
+subtitle: "Master soil carbon quantification for ALM projects"
+description: "A comprehensive course covering Verra's VM0042 methodology for Improved Agricultural Land Management, including quantification, monitoring, verification, additionality, and project registration."
+icon: "🌾"
+color: green
+status: published
+category: markets
+estimatedHours: 3
+modules:
+  - id: 0
+    title: "Foundations"
+    subtitle: "Carbon, Climate & Agriculture"
+    icon: "🌱"
+    color: green
+    lessons:
+    - id: "0.1"
+      title: "The Greenhouse Effect & Three Gases"
+      duration: "45 min"
+      vmRef: "Background context"
+    - id: "0.2"
+      title: "Soil as a Carbon Bank"
+      duration: "45 min"
+      vmRef: "Background context"
+    - id: "0.3"
+      title: "Carbon Credits & VCS"
+      duration: "45 min"
+      vmRef: "Background context"
+      seoTitle: "Carbon Credits & Verra VCS for VM0042 Projects"
+      seoDescription: "How carbon credits work under Verra's VCS: what one VCU represents, registration, issuance, buffer pools, and how VM0042 ALM projects generate credits."
+    - id: "0.4"
+      title: "The Big Picture: Workflow, Business Model & Who Benefits"
+      duration: "50 min"
+      vmRef: "Background context"
+
+  - id: 1
+    title: "Introduction to VM0042"
+    subtitle: "Scope, Definitions & Eligibility"
+    icon: "📋"
+    color: emerald
+    lessons:
+    - id: "1.1"
+      title: "What VM0042 v2.2 Covers"
+      duration: "60 min"
+      vmRef: "Sections 1–2"
+    - id: "1.2"
+      title: "Key Definitions"
+      duration: "75 min"
+      vmRef: "Section 3"
+    - id: "1.3"
+      title: "Applicability Conditions"
+      duration: "75 min"
+      vmRef: "Section 4"
+    - id: "1.4"
+      title: "Five ALM Practice Categories"
+      duration: "75 min"
+      vmRef: "Appendix 1"
+
+  - id: 2
+    title: "Project Boundary & Baseline"
+    subtitle: "Boundary, Baseline & Additionality"
+    icon: "🗺️"
+    color: teal
+    lessons:
+    - id: "2.1"
+      title: "Drawing the Lines: Project Boundary"
+      duration: "75 min"
+      vmRef: "Section 5"
+    - id: "2.2"
+      title: "The Baseline Scenario"
+      duration: "90 min"
+      vmRef: "Section 6"
+    - id: "2.3"
+      title: "Additionality: Proving the Difference"
+      duration: "75 min"
+      vmRef: "Section 7"
+    - id: "2.4"
+      title: "Integration Case Study"
+      duration: "60 min"
+      vmRef: "Sections 4–7"
+
+  - id: 3
+    title: "Quantification"
+    subtitle: "Measuring & Calculating Carbon"
+    icon: "🔬"
+    color: blue
+    lessons:
+    - id: "3.1"
+      title: "Three Quantification Approaches"
+      duration: "90 min"
+      vmRef: "Section 8.1"
+    - id: "3.2"
+      title: "Measuring SOC in the Field"
+      duration: "90 min"
+      vmRef: "Section 8.2"
+    - id: "3.3"
+      title: "Calculating Baseline & Project Emissions"
+      duration: "90 min"
+      vmRef: "Sections 8.2–8.3"
+    - id: "3.4"
+      title: "Leakage: The Carbon That Escapes"
+      duration: "75 min"
+      vmRef: "Section 8.4"
+    - id: "3.5"
+      title: "Net Reductions & Removals"
+      duration: "75 min"
+      vmRef: "Section 8.5"
+
+  - id: 4
+    title: "Uncertainty & VCUs"
+    subtitle: "Error, Deductions & Credit Calculation"
+    icon: "📊"
+    color: violet
+    lessons:
+    - id: "4.1"
+      title: "Why Uncertainty Matters"
+      duration: "60 min"
+      vmRef: "Section 8.6"
+    - id: "4.2"
+      title: "Error Propagation & Monte Carlo"
+      duration: "75 min"
+      vmRef: "Section 8.6, App 6"
+    - id: "4.3"
+      title: "From Net Reductions to VCUs"
+      duration: "75 min"
+      vmRef: "Section 8.7"
+    - id: "4.4"
+      title: "Economics & Decision-Making"
+      duration: "60 min"
+      vmRef: "Practical context"
+      seoTitle: "VM0042 Project Economics & Decision-Making"
+      seoDescription: "VM0042 ALM project economics: revenue modelling, cost drivers, sampling intensity trade-offs, discount rates, and go/no-go decision criteria."
+
+  - id: 5
+    title: "Monitoring & Verification"
+    subtitle: "Ongoing Measurement & Audit"
+    icon: "📡"
+    color: orange
+    lessons:
+    - id: "5.1"
+      title: "Designing a Monitoring Plan"
+      duration: "90 min"
+      vmRef: "Section 9"
+    - id: "5.2"
+      title: "The Verification Process"
+      duration: "60 min"
+      vmRef: "Practical context"
+    - id: "5.3"
+      title: "Emerging Technologies"
+      duration: "60 min"
+      vmRef: "Appendix 4"
+    - id: "5.4"
+      title: "Navigating the Appendices"
+      duration: "60 min"
+      vmRef: "Appendices 1-6"
+
+  - id: 6
+    title: "VCS Registration"
+    subtitle: "From Pipeline to VCU Lifecycle"
+    icon: "🏛️"
+    color: indigo
+    lessons:
+    - id: "6.1"
+      title: "The Registration Journey: Pipeline to First VCUs"
+      duration: "75 min"
+      vmRef: "VCS Registration & Issuance Process v5.0"
+    - id: "6.2"
+      title: "VCU Lifecycle: Retirement, Buffer & Ongoing Obligations"
+      duration: "60 min"
+      vmRef: "VCS Registration & Issuance Process v5.0, Sections 4.5–5.3; VCS Program Guide v5.0, Section 3"
+
+  - id: 7
+    title: "Additionality in Depth"
+    subtitle: "VT0008 — Barrier, Investment & Common Practice"
+    icon: "✅"
+    color: purple
+    lessons:
+    - id: "7.1"
+      title: "VT0008: The Four-Step Additionality Framework"
+      duration: "70 min"
+      vmRef: "VT0008 Additionality Assessment v1.0 (Oct 2024)"
+    - id: "7.2"
+      title: "Investment Analysis & Common Practice (Steps 3–4)"
+      duration: "65 min"
+      vmRef: "VT0008 Additionality Assessment v1.0, Sections 5.4–5.5 and Appendix 2"
+
+  - id: 8
+    title: "Model Calibration & Validation"
+    subtitle: "VMD0053 — Biogeochemical Models for ALM"
+    icon: "🧪"
+    color: cyan
+    lessons:
+    - id: "8.1"
+      title: "Model Eligibility, Calibration & the Project Domain"
+      duration: "75 min"
+      vmRef: "VMD0053 v2.1 — Biogeochemical Model Calibration, Validation and Uncertainty Guidance for ALM"
+    - id: "8.2"
+      title: "Bias Tests, Prediction Error & the MVR"
+      duration: "80 min"
+      vmRef: "VMD0053 v2.1, Sections 5.2.4–5.2.6 and Appendix 1"
+
+  - id: 9
+    title: "Non-Permanence Risk"
+    subtitle: "AFOLU Buffer Tool v4.2 — Scoring & Buffer Determination"
+    icon: "🛡️"
+    color: rose
+    lessons:
+    - id: "9.1"
+      title: "Internal & External Risk Scoring"
+      duration: "75 min"
+      vmRef: "AFOLU Non-Permanence Risk Tool v4.2 (May 2024), Sections 2.2 and 2.3"
+    - id: "9.2"
+      title: "Natural Risks, Climate Change & Final Buffer"
+      duration: "70 min"
+      vmRef: "AFOLU Non-Permanence Risk Tool v4.2, Sections 2.4 and 2.5"
+
+  - id: 10
+    title: "Capstone Project"
+    subtitle: "India Cooperative Case Study"
+    icon: "🏆"
+    color: red
+    lessons:
+    - id: "CAP"
+      title: "Design a Full VM0042 Project"
+      duration: "3 hrs"
+      vmRef: "All sections"

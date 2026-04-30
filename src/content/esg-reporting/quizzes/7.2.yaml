@@ -1,0 +1,26 @@
+- question: "Why should you always produce a separate digital-optimized PDF rather than just using the print-ready version for online distribution?"
+  options:
+    - "Digital PDFs have higher resolution images"
+    - "Print-ready PDFs use CMYK colors, are large (50-100 MB), slow to load, and lack hyperlinks - a separate digital version with RGB colors, bookmarks, and smaller file size is needed"
+    - "Print-ready PDFs cannot be opened on modern computers"
+    - "Digital PDFs are required by GRI for online reporting"
+  answer: 1
+  explanation: "Print-ready PDFs are optimized for physical printing with CMYK colors, crop marks, and bleed areas, making them large and unsuitable for screen viewing. A digital PDF uses RGB colors, includes hyperlinked navigation, and has a smaller file size - providing a much better experience for the majority of readers who view the report on screen."
+
+- question: "What is the primary advantage of a microsite over a PDF that should get the sustainability team's attention?"
+  options:
+    - "Microsites are cheaper to produce than PDFs"
+    - "Microsites can track which sections get the most traffic, reading time per page, and where readers drop off - providing data to improve next year's report"
+    - "Microsites eliminate the need for a PDF version entirely"
+    - "Microsites are required by most ESG rating agencies"
+  answer: 1
+  explanation: "Analytics is the killer feature. A microsite can track which sections get traffic, how long people spend on each page, and where they drop off. This data is invaluable for planning next year's report - if nobody reads the governance section but everyone clicks on environmental data, that tells you what your audience actually cares about."
+
+- question: "A company's investor relations team needs materials for a roadshow. What deliverable format would be most practical for this use case?"
+  options:
+    - "The full 100-page sustainability report in print format"
+    - "A standalone 4-8 page executive summary with headline KPIs, strategy overview, and a visual data dashboard"
+    - "A microsite URL printed on a business card"
+    - "The raw data tables extracted from the report"
+  answer: 1
+  explanation: "The executive summary is specifically designed for audiences who will not read the full report - like investors in a meeting room. A polished 4-8 page summary with headline KPIs, strategy highlights, and a strong infographic often gets more mileage than the full report itself. The detailed report exists online for anyone who wants to dig deeper."

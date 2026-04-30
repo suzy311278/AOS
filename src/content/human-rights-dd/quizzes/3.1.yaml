@@ -1,0 +1,26 @@
+- question: "Where do the most severe human rights risks typically concentrate in a global supply chain?"
+  options:
+  - "At Tier 1 suppliers, because they have direct contractual relationships with buyers and therefore receive the most audit attention"
+  - "In upstream tiers such as raw material extraction, artisanal processing, and agricultural smallholders, where oversight is weakest"
+  - "At logistics and distribution providers, because of the long hours and migrant workforce"
+  - "Equally across all tiers, since human rights risks are randomly distributed"
+  answer: 1
+  explanation: "The most severe human rights risks - forced labour, child labour, hazardous conditions - often concentrate in upstream tiers (raw material extraction, agriculture, artisanal mining) where oversight is weakest, competition for margin is most intense, and workers are most vulnerable. Tier 1 formal manufacturing facilities rarely employ children directly, for example, but child labour may be present in home-based outwork or raw material sourcing."
+
+- question: "In a Human Rights Impact Assessment, which three criteria does the UNGP framework use to evaluate the 'severity' of a potential human rights impact?"
+  options:
+  - "Frequency, duration, and geographic scope"
+  - "Scale (how many people affected), scope (gravity of the harm), and remediability (reversibility)"
+  - "Legal liability, financial cost, and reputational risk"
+  - "Proximity to the company, urgency of response required, and stakeholder visibility"
+  answer: 1
+  explanation: "The UNGP framework evaluates severity of human rights impacts using three criteria: scale (how many people are affected), scope (how grave or serious the harm is), and remediability (how reversible or irreversible the impact is - with irreversible harms such as death or loss of land receiving higher severity ratings)."
+
+- question: "What does the OECD Due Diligence Guidance mean when it emphasizes that HRDD should be 'proportionate'?"
+  options:
+  - "The resources spent on due diligence should be proportionate to the company's annual revenue"
+  - "The depth of due diligence should be proportionate to the severity of the risk and the company's ability to influence outcomes, focusing resources where they can have the greatest impact"
+  - "Companies should treat all suppliers proportionately equally regardless of their risk profile"
+  - "The number of audits conducted should be proportionate to the number of suppliers"
+  answer: 1
+  explanation: "Proportionality in HRDD means that due diligence depth and resource allocation should reflect the severity of identified risks and the company's leverage to address them - not simply the size of the supplier relationship or the number of suppliers. A company is not expected to conduct a full HRIA of every supplier, but must focus resources on the highest-severity risks where its engagement can make the most difference."

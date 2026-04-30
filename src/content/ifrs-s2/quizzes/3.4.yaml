@@ -1,0 +1,26 @@
+- question: "Which of the following is an example of an 'authoritative source' for climate scenarios that IFRS S2 recommends using?"
+  options:
+    - "An entity's own bespoke internal model"
+    - "IEA Net Zero Emissions by 2050 or NGFS scenarios"
+    - "A competitor's disclosed scenario analysis"
+    - "Historical weather data from the past 20 years"
+  answer: 1
+  explanation: "Application Guidance B11-B13 recommends using publicly available scenarios from authoritative sources. The IEA (International Energy Agency) and NGFS (Network for Greening the Financial System) are two of the most commonly referenced sources. IPCC Shared Socioeconomic Pathways (SSPs) are also authoritative sources for physical risk scenarios."
+
+- question: "IFRS S2 Para 22(b)(i)(4) requires disclosure of whether an entity used a scenario aligned with the latest international agreement on climate change. What is the 'latest international agreement' currently referred to?"
+  options:
+    - "The Kyoto Protocol"
+    - "The Copenhagen Accord"
+    - "The Paris Agreement"
+    - "The ISSB Climate Disclosure Charter"
+  answer: 2
+  explanation: "The 'latest international agreement on climate change' referenced in IFRS S2 is the Paris Agreement, which aims to limit global warming to well below 2°C, preferably to 1.5°C, compared to pre-industrial levels. Entities must disclose whether a scenario aligned with this target (e.g., 1.5°C pathway) was included in their analysis."
+
+- question: "If an entity conducted comprehensive scenario analysis in 2023 and uses a 3-year strategic planning cycle, what does IFRS S2 require in its 2025 annual report regarding scenario analysis?"
+  options:
+    - "A full new scenario analysis must be conducted every year"
+    - "The entity must update the resilience assessment conclusions, confirm whether prior analysis still applies, and note when the next analysis will be conducted"
+    - "The entity may simply refer to its 2023 analysis without any update"
+    - "The entity must disclose it will conduct new scenario analysis the following year"
+  answer: 1
+  explanation: "Application Guidance B18 confirms that scenario analysis may align with the strategic planning cycle (e.g., every 3 years). But the resilience assessment (Para 22(a)) must be updated annually. In 2025, the entity should update the resilience assessment, note material changes since the 2023 analysis, confirm whether prior conclusions remain valid, and indicate when the next comprehensive analysis will be conducted."

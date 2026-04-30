@@ -1,0 +1,27 @@
+{
+  "rules": [
+    {
+      "allowed": {
+        "origins": [
+          "http://localhost:5001",
+          "http://127.0.0.1:5001",
+          "https://greentryst.com",
+          "https://www.greentryst.com"
+        ],
+        "methods": ["GET", "HEAD"],
+        "headers": ["Range", "Content-Type", "If-None-Match", "If-Modified-Since"]
+      },
+      "exposeHeaders": ["Content-Length", "Content-Range", "Accept-Ranges", "ETag"],
+      "maxAgeSeconds": 3600
+    },
+    {
+      "allowed": {
+        "origins": ["https://*.vercel.app"],
+        "methods": ["GET", "HEAD"],
+        "headers": ["Range", "Content-Type", "If-None-Match", "If-Modified-Since"]
+      },
+      "exposeHeaders": ["Content-Length", "Content-Range", "Accept-Ranges", "ETag"],
+      "maxAgeSeconds": 3600
+    }
+  ]
+}

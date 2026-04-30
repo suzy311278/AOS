@@ -1,0 +1,26 @@
+- question: "A verifier conducting a CBAM verification site visit discovers that a Turkish cement plant's fuel meters were uncalibrated for three months of the year and that production records for those months are missing. What opinion should the verifier issue?"
+  options:
+  - "An unqualified (positive) opinion, provided the missing period represents less than 25% of the year"
+  - "A qualified opinion — the data is acceptable overall, with a note that the three-month period has elevated uncertainty"
+  - "An adverse opinion or disclaimer of opinion — the data contains material misstatements or the verifier cannot obtain sufficient evidence, meaning the embedded emissions data cannot be used and the importer must apply default values"
+  - "A conditional unqualified opinion — the verifier issues a positive opinion conditional on the plant retroactively providing estimated data for the three-month gap"
+  answer: 2
+  explanation: "Missing monitoring data for three months and uncalibrated meters represent material monitoring failures that undermine the reliability of the annual embedded emissions figure. The verifier would likely issue an adverse opinion (if the data is materially misstated) or a disclaimer of opinion (if they cannot obtain sufficient evidence to form a view). Either outcome means the embedded emissions data cannot be accepted for the CBAM declaration, and the importer must use applicable default values — potentially at a much higher cost."
+
+- question: "What is the key characteristic that distinguishes an accredited CBAM verifier from a general ISO 14064 GHG verifier?"
+  options:
+  - "CBAM verifiers must be based in the EU; ISO 14064 verifiers can be based anywhere in the world"
+  - "CBAM verifiers must be accredited specifically for CBAM purposes under a national accreditation body recognised for CBAM, with sectoral competence for the specific CBAM sector being verified"
+  - "CBAM verifiers must be government officials or public servants; private sector verifiers are not permitted"
+  - "CBAM verifiers use measurement-based emissions data only; ISO 14064 verifiers can use calculation-based data"
+  answer: 1
+  explanation: "CBAM verification requires accreditation specifically for CBAM purposes under a national accreditation body recognised for this function (following the principles of Regulation (EC) No 765/2008). The verifier must also have sectoral technical competence relevant to the CBAM sector being verified — a verifier specialised in cement production may not be qualified to verify aluminium smelter emissions data. General ISO 14064 GHG verification accreditation may not alone be sufficient for CBAM compliance."
+
+- question: "During the 2023-2025 CBAM transitional period, was independent third-party verification of embedded emissions required for quarterly CBAM reports?"
+  options:
+  - "Yes — independent verification was required from the very first quarterly report in January 2024"
+  - "No — the transitional period allowed self-reporting of embedded emissions without third-party verification; the full verification requirement applies only from 2026"
+  - "Only for large importers (above 10,000 tonnes per year); small importers were always permitted to self-report"
+  - "Only for the cement and aluminium sectors; iron and steel was exempt from verification during the transitional period"
+  answer: 1
+  explanation: "During the 2023-2025 transitional phase, importers were allowed to self-report embedded emissions without independent third-party verification. This was a pragmatic concession allowing time for monitoring systems to be established in third-country installations and for global CBAM verification capacity to be built. From 1 January 2026, the full verification requirement applies: actual embedded emissions data submitted with CBAM declarations must be accompanied by a verification report from an accredited CBAM verifier."

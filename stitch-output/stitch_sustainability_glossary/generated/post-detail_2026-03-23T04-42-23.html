@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Post Detail | The Editorial Analyst</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-container-highest": "#e0e3e5",
+                        "surface-variant": "#e0e3e5",
+                        "outline-variant": "#c1c6d4",
+                        "on-error": "#ffffff",
+                        "on-primary-container": "#dbe6ff",
+                        "secondary": "#466270",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary": "#ffffff",
+                        "secondary-container": "#c6e4f4",
+                        "on-secondary-container": "#4a6774",
+                        "tertiary-fixed": "#ffdbca",
+                        "error": "#ba1a1a",
+                        "on-primary-fixed": "#001b3d",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-fixed-variant": "#2e4b57",
+                        "surface": "#f7fafc",
+                        "on-tertiary-fixed": "#331200",
+                        "on-primary": "#ffffff",
+                        "on-primary-fixed-variant": "#00468a",
+                        "secondary-fixed": "#c9e7f7",
+                        "inverse-surface": "#2d3133",
+                        "surface-tint": "#005eb5",
+                        "on-background": "#181c1e",
+                        "inverse-primary": "#a8c8ff",
+                        "tertiary-fixed-dim": "#ffb68e",
+                        "inverse-on-surface": "#eef1f3",
+                        "primary": "#004e99",
+                        "tertiary": "#833900",
+                        "surface-container-high": "#e5e9eb",
+                        "surface-container": "#ebeef0",
+                        "outline": "#727783",
+                        "tertiary-container": "#a94b00",
+                        "on-tertiary-fixed-variant": "#773300",
+                        "primary-fixed-dim": "#a8c8ff",
+                        "primary-container": "#0a66c2",
+                        "surface-dim": "#d7dadc",
+                        "surface-bright": "#f7fafc",
+                        "on-tertiary-container": "#ffe0d1",
+                        "primary-fixed": "#d6e3ff",
+                        "error-container": "#ffdad6",
+                        "surface-container-low": "#f1f4f6",
+                        "on-secondary-fixed": "#001f2a",
+                        "on-error-container": "#93000a",
+                        "background": "#f7fafc",
+                        "on-surface-variant": "#414752",
+                        "secondary-fixed-dim": "#adcbda",
+                        "on-surface": "#181c1e"
+                    },
+                    fontFamily: {
+                        "headline": ["Manrope", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "label": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7fafc;
+        }
+        .editorial-shadow {
+            box-shadow: 0 32px 64px -12px rgba(24, 28, 30, 0.04);
+        }
+        .glass-nav {
+            background-color: rgba(247, 250, 252, 0.8);
+            backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="text-on-surface antialiased">
+<!-- Top Navigation Anchor -->
+<header class="sticky top-0 w-full z-50 glass-nav border-b border-surface-container-high">
+<div class="flex items-center justify-between px-6 h-16 w-full max-w-7xl mx-auto">
+<div class="flex items-center gap-4">
+<span class="text-xl font-bold font-headline tracking-tight text-on-surface">The Editorial Analyst</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-secondary font-medium font-body hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-secondary font-medium font-body hover:text-primary transition-colors" href="#">Analytics</a>
+<a class="text-primary font-semibold font-body" href="#">Post Detail</a>
+<a class="text-secondary font-medium font-body hover:text-primary transition-colors" href="#">Settings</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="p-2 rounded-xl hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-secondary">share</span>
+</button>
+<button class="p-2 rounded-xl hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-secondary">more_vert</span>
+</button>
+</div>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-6 py-12">
+<!-- Header Actions -->
+<div class="flex justify-between items-center mb-10">
+<a class="flex items-center gap-2 text-on-surface-variant font-medium hover:text-primary transition-colors group" href="#">
+<span class="material-symbols-outlined text-lg">arrow_back</span>
+<span>Back to Dashboard</span>
+</a>
+<span class="text-on-surface-variant font-label text-sm uppercase tracking-widest font-semibold">March 19, 2026</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Main Content Area (55%) -->
+<article class="lg:col-span-7 space-y-8">
+<div class="space-y-4">
+<span class="inline-block px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider font-label">Deep Dive Analysis</span>
+<h1 class="text-4xl md:text-5xl font-extrabold font-headline leading-tight text-on-surface tracking-tight">
+                        ESG Ratings Divergence: Why Two Agencies Can Look at the Same Company Differently
+                    </h1>
+</div>
+<div class="prose prose-slate max-w-none text-on-surface-variant font-body leading-relaxed space-y-6">
+<p class="text-lg">
+                        I’ve been diving deep into the technical nuances of ESG reporting lately, and one thing keeps coming up: the sheer lack of correlation between major rating providers. Unlike credit ratings, where S&amp;P and Moody's align about 99% of the time, ESG ratings for the same company can look like they’re describing two different planets.
+                    </p>
+<p class="text-lg">
+                        The "divergence" isn't just a rounding error; it’s fundamental. One agency might weight carbon emissions as 40% of their "E" pillar, while another focuses heavily on resource efficiency. I spent the morning mapping these methodology gaps, and the results are frankly startling for anyone relying on these scores for capital allocation decisions.
+                    </p>
+<p class="text-lg">
+                        My take is that we’re moving toward a world where raw data ownership matters more than the proprietary score itself. If you can't see the underlying metrics, you're essentially outsourcing your investment thesis to an opaque algorithm. We need transparency, not just a letter grade.
+                    </p>
+</div>
+<!-- Visual Accent -->
+<div class="rounded-xl overflow-hidden editorial-shadow bg-surface-container-low h-80 flex items-center justify-center border border-white/40">
+<div class="text-center space-y-2">
+<span class="material-symbols-outlined text-primary text-5xl opacity-40">query_stats</span>
+<p class="text-sm font-label text-on-surface-variant uppercase tracking-tighter">Correlation Coefficient Mapping (In-Post Asset)</p>
+</div>
+</div>
+</article>
+<!-- Right Panel (45%) -->
+<aside class="lg:col-span-5 space-y-8">
+<!-- Metrics Grid -->
+<section class="bg-surface-container-lowest rounded-xl p-8 editorial-shadow border border-surface-container-high">
+<h3 class="font-label text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm">bar_chart</span>
+                        Performance Overview
+                    </h3>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-y-8 gap-x-4">
+<div class="space-y-1">
+<p class="text-3xl font-extrabold font-headline text-on-surface">15,734</p>
+<p class="text-xs font-medium text-on-surface-variant uppercase tracking-wide">Impressions</p>
+</div>
+<div class="space-y-1">
+<p class="text-3xl font-extrabold font-headline text-on-surface">10,039</p>
+<p class="text-xs font-medium text-on-surface-variant uppercase tracking-wide">Members Reached</p>
+</div>
+<div class="space-y-1">
+<p class="text-3xl font-extrabold font-headline text-primary">131</p>
+<p class="text-xs font-medium text-on-surface-variant uppercase tracking-wide">Reactions</p>
+</div>
+<div class="space-y-1">
+<p class="text-3xl font-extrabold font-headline text-on-surface">49</p>
+<p class="text-xs font-medium text-on-surface-variant uppercase tracking-wide">Comments</p>
+</div>
+<div class="space-y-1">
+<p class="text-3xl font-extrabold font-headline text-on-surface">8</p>
+<p class="text-xs font-medium text-on-surface-variant uppercase tracking-wide">Reposts</p>
+</div>
+<div class="space-y-1">
+<p class="text-3xl font-extrabold font-headline text-on-surface">34</p>
+<p class="text-xs font-medium text-on-surface-variant uppercase tracking-wide">Saves</p>
+</div>
+</div>
+</section>
+<!-- Engagement Highlights -->
+<section class="bg-surface-container-lowest rounded-xl p-8 editorial-shadow border border-surface-container-high">
+<h3 class="font-label text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-6">High-Impact Engagement</h3>
+<div class="space-y-6">
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">thumb_up</span>
+</div>
+<div>
+<p class="text-xs font-bold text-primary uppercase tracking-tighter mb-1">Reactions Highlight</p>
+<p class="text-sm font-semibold text-on-surface">Sustainability Manager</p>
+<p class="text-xs text-on-surface-variant">Mumbai • Business Consulting</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">chat_bubble</span>
+</div>
+<div>
+<p class="text-xs font-bold text-secondary uppercase tracking-tighter mb-1">Comments Highlight</p>
+<p class="text-sm font-semibold text-on-surface">Co-Founder</p>
+<p class="text-xs text-on-surface-variant">London • Financial Services</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-tertiary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-tertiary" style="font-variation-settings: 'FILL' 1;">retweet</span>
+</div>
+<div>
+<p class="text-xs font-bold text-tertiary uppercase tracking-tighter mb-1">Reposts Highlight</p>
+<p class="text-sm font-semibold text-on-surface">President</p>
+<p class="text-xs text-on-surface-variant">Cleveland • PR and Communications</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Audience Demographics -->
+<section class="bg-surface-container-lowest rounded-xl p-8 editorial-shadow border border-surface-container-high space-y-8">
+<div>
+<h3 class="font-label text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-4">Top Industries</h3>
+<div class="space-y-4">
+<div class="space-y-1">
+<div class="flex justify-between text-xs font-medium mb-1">
+<span>Financial Services</span>
+<span>17.7%</span>
+</div>
+<div class="h-1.5 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 17.7%"></div>
+</div>
+</div>
+<div class="space-y-1">
+<div class="flex justify-between text-xs font-medium mb-1">
+<span>Business Consulting</span>
+<span>15.9%</span>
+</div>
+<div class="h-1.5 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-primary/70 rounded-full" style="width: 15.9%"></div>
+</div>
+</div>
+<div class="space-y-1">
+<div class="flex justify-between text-xs font-medium mb-1">
+<span>Environmental Services</span>
+<span>12.4%</span>
+</div>
+<div class="h-1.5 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-primary/40 rounded-full" style="width: 12.4%"></div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<h3 class="font-label text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-4">Seniority Levels</h3>
+<div class="space-y-4">
+<div class="space-y-1">
+<div class="flex justify-between text-xs font-medium mb-1">
+<span>Senior</span>
+<span>42.8%</span>
+</div>
+<div class="h-1.5 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-secondary rounded-full" style="width: 42.8%"></div>
+</div>
+</div>
+<div class="space-y-1">
+<div class="flex justify-between text-xs font-medium mb-1">
+<span>Entry</span>
+<span>15.7%</span>
+</div>
+<div class="h-1.5 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-secondary/70 rounded-full" style="width: 15.7%"></div>
+</div>
+</div>
+<div class="space-y-1">
+<div class="flex justify-between text-xs font-medium mb-1">
+<span>Director</span>
+<span>12.2%</span>
+</div>
+<div class="h-1.5 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-secondary/40 rounded-full" style="width: 12.2%"></div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<h3 class="font-label text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-4">Top Companies</h3>
+<div class="space-y-3">
+<div class="flex items-center justify-between">
+<span class="text-sm text-on-surface font-medium">EY</span>
+<span class="text-xs text-on-surface-variant font-bold">2.7%</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-sm text-on-surface font-medium">Deloitte</span>
+<span class="text-xs text-on-surface-variant font-bold">1.9%</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="text-sm text-on-surface font-medium">S&amp;P Global</span>
+<span class="text-xs text-on-surface-variant font-bold">1.2%</span>
+</div>
+</div>
+</div>
+</section>
+</aside>
+</div>
+</main>
+<!-- Bottom Navigation Mobile -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center px-4 py-3 pb-safe bg-white border-t border-slate-100 z-50">
+<a class="flex flex-col items-center justify-center text-secondary p-2" href="#">
+<span class="material-symbols-outlined">grid_view</span>
+<span class="font-label text-[10px] uppercase font-medium mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-secondary p-2" href="#">
+<span class="material-symbols-outlined">insights</span>
+<span class="font-label text-[10px] uppercase font-medium mt-1">Analytics</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-blue-50 text-primary rounded-xl p-2 px-4" href="#">
+<span class="material-symbols-outlined">description</span>
+<span class="font-label text-[10px] uppercase font-medium mt-1">Post Detail</span>
+</a>
+<a class="flex flex-col items-center justify-center text-secondary p-2" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span class="font-label text-[10px] uppercase font-medium mt-1">Settings</span>
+</a>
+</nav>
+</body></html>

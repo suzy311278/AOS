@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Greentryst | How Everything Connects</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          headline: ["Inter", "sans-serif"],
+          body: ["Inter", "sans-serif"],
+          mono: ["JetBrains Mono", "monospace"],
+        }
+      },
+    },
+  }
+</script>
+<style>
+  body { font-family: 'Inter', sans-serif; }
+  .mono { font-family: 'JetBrains Mono', monospace; }
+  .dot-grid {
+    background-image: radial-gradient(#1a2e2e 0.5px, transparent 0.5px);
+    background-size: 24px 24px;
+  }
+  .glass-dark {
+    background: rgba(14, 30, 30, 0.92);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(0, 92, 85, 0.12);
+  }
+  .card-glow:hover {
+    box-shadow: 0 0 40px rgba(0, 92, 85, 0.15);
+  }
+  .connector-line {
+    position: relative;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .connector-line::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(0,92,85,0.1), rgba(0,92,85,0.5), rgba(0,92,85,0.1));
+  }
+  .connector-line::after {
+    content: '→';
+    position: relative;
+    z-index: 1;
+    color: #005c55;
+    font-size: 14px;
+    background: #0a1a1a;
+    padding: 0 4px;
+  }
+  .connector-vert {
+    position: relative;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .connector-vert::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: linear-gradient(180deg, rgba(0,92,85,0.1), rgba(0,92,85,0.5), rgba(0,92,85,0.1));
+  }
+  .connector-vert::after {
+    content: '↓';
+    position: relative;
+    z-index: 1;
+    color: #005c55;
+    font-size: 14px;
+    background: #0a1a1a;
+    padding: 4px 0;
+  }
+  .row-label {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    letter-spacing: 0.25em;
+  }
+</style>
+</head>
+<body class="bg-[#0a1a1a] text-[#e0ebe8] min-h-screen selection:bg-[#005c55] selection:text-white">
+
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 z-50 w-full bg-[#0a1a1a]/80 backdrop-blur-md">
+  <div class="flex justify-between items-center px-8 py-4 max-w-[1280px] mx-auto">
+    <div class="text-xl font-extrabold tracking-tighter text-white">Greentryst</div>
+    <div class="hidden md:flex items-center space-x-8">
+      <a class="text-[#8cd4ca] font-semibold text-sm border-b-2 border-[#005c55] pb-1" href="#">Learn</a>
+      <a class="text-[#e0ebe8]/60 hover:text-white transition-colors text-sm font-medium" href="#">SustainIQ</a>
+      <a class="text-[#e0ebe8]/60 hover:text-white transition-colors text-sm font-medium" href="#">Career</a>
+      <a class="text-[#e0ebe8]/60 hover:text-white transition-colors text-sm font-medium" href="#">Tools</a>
+      <a class="text-[#e0ebe8]/60 hover:text-white transition-colors text-sm font-medium" href="#">Pricing</a>
+    </div>
+    <div class="flex items-center space-x-6">
+      <button class="text-[#e0ebe8]/60 hover:text-white transition-colors text-sm font-medium">Sign In</button>
+      <button class="bg-[#005c55] text-white px-5 py-2 rounded-lg text-sm font-semibold hover:bg-[#00897b] transition-colors">Get Started</button>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content Section -->
+<main class="relative pt-32 pb-32 overflow-hidden">
+  <!-- Background Texture -->
+  <div class="absolute inset-0 dot-grid opacity-30 pointer-events-none"></div>
+
+  <section class="max-w-[1280px] mx-auto px-8 relative z-10">
+
+    <!-- Header -->
+    <div class="mb-24">
+      <span class="text-[10px] tracking-[0.25em] font-bold text-[#005c55] uppercase block mb-5">THE CONNECTED PLATFORM</span>
+      <h1 class="text-5xl md:text-[56px] font-extrabold tracking-[-0.03em] text-white max-w-3xl mb-6 leading-[1.1]">
+        Everything you do builds one professional identity.
+      </h1>
+      <p class="text-lg text-[#889391] max-w-2xl leading-relaxed">
+        Courses, tools, questions, and career moves, all feeding a single profile that grows with you.
+      </p>
+    </div>
+
+    <!-- ROW 1: The Growth Path — Learn → Profile → Career -->
+    <div class="mb-6">
+      <div class="flex items-center gap-3 mb-8">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#4ae183]"></span>
+        <span class="text-[11px] tracking-[0.2em] font-bold text-[#4a6a6a] uppercase">Growth path</span>
+      </div>
+      <div class="flex flex-col lg:flex-row items-stretch gap-0">
+
+        <!-- Card 1: LEARN -->
+        <div class="flex-1">
+          <div class="glass-dark rounded-2xl p-7 h-full card-glow transition-all duration-500 flex flex-col">
+            <div class="flex justify-between items-start mb-5">
+              <span class="px-2.5 py-1 rounded-md bg-[#005c55]/15 text-[#8cd4ca] text-[11px] font-bold tracking-wider uppercase">Learn</span>
+              <div class="relative w-11 h-11 flex items-center justify-center">
+                <svg class="w-full h-full -rotate-90" viewBox="0 0 44 44">
+                  <circle cx="22" cy="22" fill="transparent" r="18" stroke="#1a2e2e" stroke-width="2.5"></circle>
+                  <circle cx="22" cy="22" fill="transparent" r="18" stroke="#005c55" stroke-dasharray="113" stroke-dashoffset="0" stroke-linecap="round" stroke-width="2.5"></circle>
+                </svg>
+                <span class="absolute mono text-[9px] font-bold text-[#8cd4ca]">100%</span>
+              </div>
+            </div>
+            <div class="mb-auto">
+              <div class="flex items-center gap-2 mb-1">
+                <h3 class="text-[15px] font-bold text-white">PCAF: Financed Emissions</h3>
+                <span class="text-[#4ae183] text-sm">&#10003;</span>
+              </div>
+              <p class="text-[13px] text-[#889391]">Module 2: Attribution Factors</p>
+            </div>
+            <div class="pt-5 border-t border-white/5 mt-6">
+              <p class="mono text-[11px] text-[#4a6a6a]">Completed at 9:14 AM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="connector-line hidden lg:flex"></div>
+
+        <!-- Card 2: PROFILE -->
+        <div class="flex-1">
+          <div class="glass-dark rounded-2xl p-7 h-full card-glow transition-all duration-500 flex flex-col">
+            <div class="mb-5">
+              <span class="px-2.5 py-1 rounded-md bg-[#005c55]/15 text-[#8cd4ca] text-[11px] font-bold tracking-wider uppercase">Profile</span>
+            </div>
+            <div class="flex flex-wrap gap-2 mb-auto">
+              <span class="px-3 py-1.5 rounded-lg border border-[#005c55]/30 text-[12px] text-[#e0ebe8] font-medium bg-[#005c55]/5">+ PCAF Methodology</span>
+              <span class="px-3 py-1.5 rounded-lg border border-[#005c55]/30 text-[12px] text-[#e0ebe8] font-medium bg-[#005c55]/5">+ Attribution Factors</span>
+              <span class="px-3 py-1.5 rounded-lg border border-[#005c55]/30 text-[12px] text-[#e0ebe8] font-medium bg-[#005c55]/5">+ Data Quality Scoring</span>
+            </div>
+            <div class="pt-5 border-t border-white/5 mt-6">
+              <p class="mono text-[11px] text-[#4a6a6a]">3 skills added to profile</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="connector-line hidden lg:flex"></div>
+
+        <!-- Card 3: CAREER -->
+        <div class="flex-1">
+          <div class="glass-dark rounded-2xl p-7 h-full card-glow transition-all duration-500 flex flex-col border-[#005c55]/20" style="border-width: 1px; box-shadow: 0 0 30px rgba(0,92,85,0.08);">
+            <div class="mb-5">
+              <span class="px-2.5 py-1 rounded-md bg-[#005c55]/15 text-[#8cd4ca] text-[11px] font-bold tracking-wider uppercase">Career</span>
+            </div>
+            <div class="mb-auto">
+              <h3 class="text-[15px] font-bold text-white mb-2">Climate Risk Analyst</h3>
+              <p class="text-[13px] text-[#889391] mb-4">HSBC, London</p>
+              <div class="flex items-baseline gap-4 mb-2">
+                <span class="mono text-xl text-[#4a6a6a] line-through">74%</span>
+                <span class="mono text-4xl font-bold text-[#8cd4ca] tracking-tight">87%</span>
+              </div>
+              <p class="text-[12px] font-semibold text-[#4ae183]">+13% from PCAF certification</p>
+            </div>
+            <div class="pt-5 border-t border-white/5 mt-6">
+              <p class="mono text-[11px] text-[#4a6a6a]">3 new matches above 80%</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Vertical connector between rows -->
+    <div class="hidden lg:flex justify-center">
+      <div class="connector-vert"></div>
+    </div>
+
+    <!-- ROW 2: The Execution Path — SustainIQ → Tools -->
+    <div class="mt-6">
+      <div class="flex items-center gap-3 mb-8">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#8cd4ca]"></span>
+        <span class="text-[11px] tracking-[0.2em] font-bold text-[#4a6a6a] uppercase">Execution path</span>
+      </div>
+      <div class="flex flex-col lg:flex-row items-stretch gap-0">
+
+        <!-- Card 4: SUSTAINIQ -->
+        <div class="flex-1">
+          <div class="glass-dark rounded-2xl p-7 h-full card-glow transition-all duration-500 flex flex-col">
+            <div class="mb-5">
+              <span class="px-2.5 py-1 rounded-md bg-[#005c55]/15 text-[#8cd4ca] text-[11px] font-bold tracking-wider uppercase">SustainIQ</span>
+            </div>
+            <div class="mb-auto">
+              <div class="bg-[#0a1a1a] border border-white/5 p-3 rounded-lg mb-5">
+                <p class="text-[12px] italic text-[#889391]">"Calculate financed emissions for commercial bank"</p>
+              </div>
+              <ul class="space-y-3">
+                <li class="text-[13px] flex items-start gap-2.5 text-[#e0ebe8] hover:text-[#8cd4ca] cursor-pointer transition-colors">
+                  <span class="text-[#005c55] font-bold">&#8594;</span> PCAF Calculator Tool
+                </li>
+                <li class="text-[13px] flex items-start gap-2.5 text-[#e0ebe8] hover:text-[#8cd4ca] cursor-pointer transition-colors">
+                  <span class="text-[#005c55] font-bold">&#8594;</span> Lesson 2.3: Asset Class Attribution
+                </li>
+                <li class="text-[13px] flex items-start gap-2.5 text-[#e0ebe8] hover:text-[#8cd4ca] cursor-pointer transition-colors">
+                  <span class="text-[#005c55] font-bold">&#8594;</span> EF: Commercial Real Estate (PCAF v3)
+                </li>
+              </ul>
+            </div>
+            <div class="pt-5 border-t border-white/5 mt-6">
+              <p class="mono text-[11px] text-[#4a6a6a]">Routed based on your profile</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="connector-line hidden lg:flex"></div>
+
+        <!-- Card 5: TOOLS -->
+        <div class="flex-1">
+          <div class="glass-dark rounded-2xl p-7 h-full card-glow transition-all duration-500 flex flex-col">
+            <div class="flex justify-between items-start mb-5">
+              <span class="px-2.5 py-1 rounded-md bg-[#005c55]/15 text-[#8cd4ca] text-[11px] font-bold tracking-wider uppercase">Tools</span>
+              <span class="px-2 py-0.5 rounded bg-[#f59e0b]/15 text-[#f59e0b] text-[9px] font-bold tracking-wider uppercase">Coming Soon</span>
+            </div>
+            <div class="mb-auto">
+              <h3 class="text-[15px] font-bold text-white mb-4">PCAF Calculator</h3>
+              <div class="space-y-3 text-[13px]">
+                <div class="flex justify-between items-center">
+                  <span class="text-[#889391]">Asset class</span>
+                  <span class="text-white font-medium">Commercial Real Estate</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-[#889391]">Outstanding amount</span>
+                  <span class="mono text-white font-medium">$24.5M</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-[#889391]">Attribution factor</span>
+                  <span class="mono text-white font-medium">0.312</span>
+                </div>
+                <div class="flex justify-between items-center pt-3 border-t border-white/5">
+                  <span class="text-[#8cd4ca] font-semibold">Financed emissions</span>
+                  <span class="mono text-[#8cd4ca] font-bold text-lg">1,842 tCO2e</span>
+                </div>
+              </div>
+            </div>
+            <div class="pt-5 border-t border-white/5 mt-6">
+              <p class="mono text-[11px] text-[#4a6a6a]">Source: PCAF Standard v3, Table 4.2</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="connector-line hidden lg:flex"></div>
+
+        <!-- Card 6: OUTPUT -->
+        <div class="flex-1">
+          <div class="glass-dark rounded-2xl p-7 h-full card-glow transition-all duration-500 flex flex-col">
+            <div class="flex justify-between items-start mb-5">
+              <span class="px-2.5 py-1 rounded-md bg-[#005c55]/15 text-[#8cd4ca] text-[11px] font-bold tracking-wider uppercase">Output</span>
+            </div>
+            <div class="mb-auto">
+              <h3 class="text-[15px] font-bold text-white mb-4">Audit-Ready Report</h3>
+              <div class="space-y-3">
+                <div class="flex items-center gap-2.5">
+                  <span class="text-[#4ae183] text-sm">&#10003;</span>
+                  <span class="text-[13px] text-[#e0ebe8]">Full calculation audit trail</span>
+                </div>
+                <div class="flex items-center gap-2.5">
+                  <span class="text-[#4ae183] text-sm">&#10003;</span>
+                  <span class="text-[13px] text-[#e0ebe8]">Emission factor provenance</span>
+                </div>
+                <div class="flex items-center gap-2.5">
+                  <span class="text-[#4ae183] text-sm">&#10003;</span>
+                  <span class="text-[13px] text-[#e0ebe8]">Methodology citations</span>
+                </div>
+                <div class="flex items-center gap-2.5">
+                  <span class="text-[#4ae183] text-sm">&#10003;</span>
+                  <span class="text-[13px] text-[#e0ebe8]">Export to PDF / Excel</span>
+                </div>
+              </div>
+            </div>
+            <div class="pt-5 border-t border-white/5 mt-6">
+              <p class="mono text-[11px] text-[#4a6a6a]">Ready for third-party assurance</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Narrative Line -->
+    <div class="mt-20 text-center">
+      <div class="inline-block bg-[#0e1e1e] border border-white/5 rounded-2xl px-10 py-6">
+        <p class="text-lg text-[#889391] font-light leading-relaxed">
+          Priya completed 3 PCAF lessons at 9 AM. By 10, she ran the financed emissions calculator. By noon, her match score for Climate Risk Analyst went from
+          <span class="text-white font-semibold">74%</span> to
+          <span class="text-[#8cd4ca] font-bold">87%</span>.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Ambient glow -->
+  <div class="absolute -bottom-32 left-1/4 w-[500px] h-[500px] bg-[#005c55]/5 rounded-full blur-[120px] pointer-events-none"></div>
+</main>
+
+<!-- Footer -->
+<footer class="py-10 border-t border-white/5 max-w-[1280px] mx-auto px-8 flex justify-between items-center">
+  <div class="text-lg font-extrabold tracking-tighter text-white">Greentryst</div>
+  <p class="text-[#4a6a6a] text-xs mono">2026 Greentryst. Built for sustainability professionals.</p>
+</footer>
+
+</body></html>

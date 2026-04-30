@@ -1,0 +1,125 @@
+{/* source: Scope3_Calculation_Guidance_0[1].pdf, Category 7 (pp. 87-93) */}
+
+**Category 7 — Employee Commuting** covers GHG emissions from the transportation of employees between their homes and their regular workplaces, in vehicles **not owned or operated by the reporting company**. This includes private cars, motorcycles, public transit (bus, metro, train), cycling (for some frameworks), and carpooling.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-3/2_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## What Is Included
+
+- Car commuting (petrol, diesel, hybrid, and electric vehicles)
+- Motorcycle and moped commuting
+- Public transport (bus, coach, tram, metro, commuter rail)
+- Ride-hailing and taxi commuting
+- Cycling and walking are typically excluded (zero-emission modes)
+
+<HighlightBox>
+Employee commuting is one of the categories most directly shaped by company decisions on work location. A company that moves its headquarters to a transit-accessible urban centre, or implements a remote-work policy, materially reduces Category 7 emissions - even without changing its own operations at all.
+</HighlightBox>
+
+## What Is Not Included
+
+- Travel in company-owned vehicles (Scope 1)
+- Business travel (Category 6)
+- Commuting by employees of franchisees or contractors (unless the company consolidates them under its organisational boundary)
+
+## Calculation Methods
+
+### Method 1: Survey-Based Method (Most Accurate)
+Collects data directly from employees via an annual travel survey capturing:
+- Commute distance (one-way)
+- Number of days worked per year
+- Transport mode(s) used and percentage of trips by each mode
+
+This provides actual commute patterns rather than estimates.
+
+<EquationBreakdown
+  title="Category 7 - Employee Commuting Emissions (Survey-Based)"
+  result="E<sub>Cat7</sub> | Category 7 Emissions | Total annual emissions from employee commuting, in tCO₂e | blue"
+  inputs="N | Employees | Number of employees commuting by this transport mode | green ;; D<sub>days</sub> | Commute Days | Number of working days commuted per year | amber ;; d | One-Way Distance | One-way commute distance in km, multiplied by 2 for the return trip | violet ;; MS | Mode Share | Fraction of trips using this transport mode (0-1) | rose ;; EF | Emission Factor | tCO₂e per passenger-km for the commute mode | cyan"
+/>
+
+### Method 2: Distance-Based Method Without Survey
+Uses average commute distances from national or regional statistics, applied to headcount.
+
+### Method 3: Spend-Based Method
+Uses EIO emission factors per unit of spend on commuter transport allowances. Least accurate.
+
+## Emission Factors by Commute Mode
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Mode</th>
+      <th>Emission Factor (kgCO₂e/passenger-km)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Petrol car (driver only)</td>
+      <td>0.168</td>
+    </tr>
+    <tr>
+      <td>Diesel car (driver only)</td>
+      <td>0.164</td>
+    </tr>
+    <tr>
+      <td>Battery electric vehicle (UK grid)</td>
+      <td>0.053</td>
+    </tr>
+    <tr>
+      <td>Motorcycle (petrol)</td>
+      <td>0.114</td>
+    </tr>
+    <tr>
+      <td>National rail (UK average)</td>
+      <td>0.035</td>
+    </tr>
+    <tr>
+      <td>London Underground</td>
+      <td>0.028</td>
+    </tr>
+    <tr>
+      <td>Local bus</td>
+      <td>0.102</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+<CalculationExercise
+  question="A company has 200 employees who commute by car. The average one-way commute is 15 km. Employees commute 220 days per year. The emission factor for petrol cars is 0.168 kgCO₂e/passenger-km. What are the annual Category 7 car-commuting emissions in tCO₂e?"
+  answer={221.76}
+  tolerance={0.5}
+  unit="tCO₂e"
+  hints={["Total annual distance per employee = 15 km × 2 (return) × 220 days = 6,600 km.", "Total distance for all employees = 200 × 6,600 = 1,320,000 km.", "Emissions = 1,320,000 km × 0.168 kgCO₂e/km ÷ 1,000 = ?", "1,320,000 × 0.168 = 221,760 kgCO₂e = 221.76 tCO₂e."]}
+  solution="200 employees × 15 km × 2 × 220 days × 0.168 kgCO₂e/km = 221,760 kgCO₂e = 221.76 tCO₂e per year."
+/>
+
+## Accounting for Remote Work
+
+The COVID-19 pandemic increased working from home substantially. For Category 7, days worked remotely reduce commuting emissions (fewer commute trips). However, remote work also shifts energy consumption to employees' homes, which may be partially captured in other frameworks (though typically not in Scope 3).
+
+When calculating Category 7 in a hybrid-work environment:
+- Survey employees on both their commute details AND their number of in-office days
+- Apply commuting emissions only to office days, not remote days
+- Track changes in remote-work rates year over year as part of intensity analysis
+
+## Reduction Strategies
+
+- **Remote and hybrid working policies**: Each remote day eliminates one return commute
+- **Office location**: Urban, transit-accessible offices reduce average car commute distances
+- **Subsidised public transit**: Passes and subsidies shift mode share from private car to lower-emission alternatives
+- **Cycling incentives**: Secure parking, showers, and cycle-to-work schemes
+- **Electric vehicle charging**: On-site EV charging and salary sacrifice car schemes accelerate the shift to zero-emission commuting
+- **Shuttle buses**: Company-operated or contracted shuttle buses consolidate multiple commuters into a single vehicle (though driver-only emissions are Scope 1)
+
+<AnalogyBox>
+Category 7 is the one Scope 3 category where the company can directly influence employee behaviour rather than supplier behaviour. A well-designed commuting policy - remote work + transit subsidies + EV charging - can reduce Category 7 emissions by 40-70% without changing a single business process.
+</AnalogyBox>
+
+<DeepDive title="Teleworking emissions - beyond Category 7">
+When employees work from home, they consume electricity and heating in their home offices rather than commuting to an office. Some sustainability practitioners argue that these "home office" emissions should be included in the company's Scope 3 inventory, even though they are not captured in any of the 15 standard categories. The GHG Protocol does not currently require or formally accommodate home office emissions reporting, but some companies disclose it voluntarily as a supplementary metric alongside Category 7.
+</DeepDive>
+
+<KeyTakeaways items="Category 7 covers employee home-to-work commuting in vehicles not owned by the company - the one Scope 3 category most directly shaped by company location and work-from-home policies ;; The survey-based method (collecting actual commute data from employees) produces the most accurate results ;; In hybrid work environments, apply commuting emissions only to in-office days and track remote work rates year over year ;; A well-designed commuting policy combining remote work, transit subsidies, and EV charging can reduce Category 7 by 40-70% ;; Petrol cars emit roughly 0.17 kgCO2e/passenger-km while rail emits about 0.035 - shifting mode share to public transit delivers large reductions" />

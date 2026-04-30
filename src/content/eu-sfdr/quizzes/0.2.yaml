@@ -1,0 +1,44 @@
+- question: "Which of the following entities is a 'financial market participant' under SFDR Article 2(1)?"
+  options:
+    - "A corporate treasury department managing its own cash"
+    - "A UCITS management company"
+    - "A listed company with a sustainability team"
+    - "A credit rating agency assessing ESG risks"
+  answer: 1
+  explanation: "A UCITS management company is explicitly listed as a financial market participant in SFDR Article 2(1). Corporate treasury, listed companies, and credit rating agencies are not financial market participants under SFDR."
+
+- question: "What is the employee threshold that triggers mandatory entity-level PAI consideration under SFDR Article 4?"
+  options:
+    - "250 employees"
+    - "500 employees"
+    - "1,000 employees"
+    - "50 employees"
+  answer: 1
+  explanation: "Financial market participants with on average more than 500 employees during the financial year must mandatorily consider and publish a PAI statement. Below 500 employees, the comply-or-explain option applies."
+
+- question: "Under SFDR Article 2(17), which THREE conditions must be met for an investment to qualify as a 'sustainable investment'?"
+  options:
+    - "It must be Taxonomy-aligned, have an SBT target, and follow ESG best practices"
+    - "It must contribute to an E or S objective, not significantly harm any E or S objective (DNSH), and the investee must follow good governance practices"
+    - "It must be classified as Article 9, report PAI annually, and be independently verified"
+    - "It must exclude fossil fuels, promote gender diversity, and be listed on an EU exchange"
+  answer: 1
+  explanation: "Article 2(17) SFDR defines sustainable investment through three cumulative conditions: (1) contribution to an environmental or social objective, (2) 'do no significant harm' to any environmental or social objective, and (3) the investee companies follow good governance practices (sound management, employee relations, remuneration, tax compliance)."
+
+- question: "According to ESMA Q&As, does SFDR apply to registered (sub-threshold) AIFMs under Article 3(2) AIFMD?"
+  options:
+    - "No — sub-threshold AIFMs are exempt from all SFDR obligations"
+    - "Yes, but only entity-level obligations apply; product-level obligations are waived"
+    - "Yes — SFDR applies fully, including both entity and product-level obligations; they apply provisions by analogy where specific AIFMD documents are not required"
+    - "Only if they market products cross-border within the EU"
+  answer: 2
+  explanation: "ESMA Q&A I.1 confirms that registered (sub-threshold) AIFMs are financial market participants under SFDR. SFDR does not provide an exemption for them. Where they lack the specific AIFMD documents (e.g., Article 23 investor disclosures), they apply SFDR requirements by analogy in their pre-contractual and periodic documentation."
+
+- question: "What is the difference between 'sustainability risks' and 'sustainability factors' in SFDR Article 2?"
+  options:
+    - "Sustainability risks are environmental only; sustainability factors include social and governance topics"
+    - "Sustainability risks are ESG events that can cause negative financial impacts on investments; sustainability factors are the ESG topics (environment, social, governance) that investments may affect"
+    - "Sustainability factors are mandatory to disclose; sustainability risks are optional"
+    - "There is no meaningful difference — the terms are used interchangeably in SFDR"
+  answer: 1
+  explanation: "Sustainability risks (Article 2(22)) are ESG events that could cause material negative impacts on investment value — they run from ESG to the portfolio. Sustainability factors (Article 2(24)) are environmental, social, employee, human rights, and anti-corruption matters — they describe what the portfolio affects. These two directions together constitute 'double materiality.'"

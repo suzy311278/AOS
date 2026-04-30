@@ -1,0 +1,26 @@
+- question: "What does the UFLPA's 'rebuttable presumption' mean in practice for a US importer sourcing goods with any Xinjiang exposure?"
+  options:
+  - "The importer is criminally prosecuted unless it can prove innocence beyond reasonable doubt"
+  - "Goods are presumed to have been made with forced labour and are banned unless the importer proves otherwise with clear and convincing evidence"
+  - "The importer must pay a tariff surcharge equal to 25% of the shipment's value"
+  - "Goods are held for up to 90 days pending a government investigation, then released automatically"
+  answer: 1
+  explanation: "Under the UFLPA, goods mined, produced, or manufactured wholly or in part in Xinjiang are presumed to have been made with forced labour and are therefore prohibited from entry into the US. The importer can rebut this presumption only by providing clear and convincing evidence to CBP that the goods were not produced with forced labour, that it fully complied with FLETF guidance, and that it provided all requested documentation."
+
+- question: "How does the EU Forced Labour Regulation differ structurally from the US UFLPA?"
+  options:
+  - "The EU regulation applies only to imports, while the UFLPA covers both imports and exports"
+  - "The EU uses an investigation-led model where authorities investigate suspected forced labour before issuing a ban, rather than a blanket regional presumption"
+  - "The EU regulation relies on criminal prosecution, while the UFLPA uses civil penalties"
+  - "The EU regulation only covers manufactured goods, while the UFLPA also covers raw commodities"
+  answer: 1
+  explanation: "While the UFLPA establishes a rebuttable regional presumption for all Xinjiang goods, the EU Forced Labour Regulation is investigation-led: authorities must open a formal investigation before issuing a prohibition decision. However, a high-risk country/sector list shifts the burden to operators in those categories, creating enhanced scrutiny analogous to the UFLPA's regional presumption."
+
+- question: "Which of the following is NOT a Withhold and Release Order (WRO), and how does a WRO differ from UFLPA coverage?"
+  options:
+  - "WROs target specific entities or product categories where CBP has reasonable evidence of forced labour; the UFLPA creates a broader regional presumption for all Xinjiang goods"
+  - "WROs are international treaties between the US and exporting countries; UFLPA is domestic legislation"
+  - "WROs require criminal convictions of individual factory managers before goods can be detained"
+  - "WROs apply only to goods worth more than USD 1 million per shipment; UFLPA has no value threshold"
+  answer: 0
+  explanation: "WROs are issued by CBP where it has reasonable but not conclusive evidence of forced labour at specific entities or in specific product categories from any country. They predate the UFLPA and operate alongside it: the UFLPA creates a comprehensive regional presumption for Xinjiang, while WROs address specific forced labour risks in other geographies such as Malaysia, parts of China outside Xinjiang, and Brazil."

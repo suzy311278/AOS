@@ -1,0 +1,44 @@
+- question: "A pension fund wants to avoid investment in companies that violate the ILO Declaration on Fundamental Principles and Rights at Work. Which screening approach does this best describe?"
+  options:
+    - "Faith-based exclusion"
+    - "Idiosyncratic exclusion"
+    - "Norms-based screening"
+    - "Positive alignment screening"
+  answer: 2
+  explanation: "Norms-based screening applies internationally recognised frameworks and standards — including ILO conventions, the UN Global Compact, and the OECD Guidelines for Multinational Enterprises — to exclude issuers that violate minimum acceptable standards of business practice. This is distinct from sector-based exclusions and from faith-based approaches."
+
+- question: "Which of the following is a key advantage of best-in-class (positive) screening compared to negative (exclusionary) screening?"
+  options:
+    - "It produces lower tracking error relative to the benchmark"
+    - "It maintains sector diversification by including ESG leaders even within carbon-intensive industries"
+    - "It is simpler to implement and requires less ESG data"
+    - "It avoids any dependence on third-party ESG ratings providers"
+  answer: 1
+  explanation: "Best-in-class screening invests in the top ESG performers within each sector, meaning that even high-carbon industries like energy and utilities retain representation in the portfolio — just limited to their better-managed companies. Negative screening removes entire sectors, which reduces sector diversification and typically increases tracking error."
+
+- question: "Why is ESG integration in private equity considered structurally different from ESG integration in listed equities?"
+  options:
+    - "Private equity companies are exempt from all ESG regulation"
+    - "Private equity investors typically hold majority or significant minority stakes, giving them direct influence over management ESG decisions, but face limited data availability"
+    - "ESG ratings for private companies are more accurate than for public companies"
+    - "Private equity has shorter investment horizons, making ESG irrelevant"
+  answer: 1
+  explanation: "Private equity investors often hold controlling or significant minority stakes, which gives them far more direct influence over a company's ESG strategy and reporting than minority public equity shareholders typically enjoy. However, the lack of mandatory public disclosure and standardised reporting standards means ESG data for private companies is much thinner and less comparable."
+
+- question: "An investor in real estate wants to assess climate-related physical risk to their property portfolio. Which of the following tools or metrics would be most directly relevant?"
+  options:
+    - "Weighted-average carbon intensity calculated from Scope 1 and 2 emissions"
+    - "GRESB benchmark scores covering management, policy and disclosure"
+    - "Climate risk profiling by elevation and proximity to coastlines, combined with natural hazard exposure scores by city"
+    - "Norms-based screening against the UN Global Compact principles"
+  answer: 2
+  explanation: "Physical climate risk to real estate is most directly assessed through geographic and physical exposure metrics — elevation profiles, coastline proximity, and scoring across specific natural hazard types (flooding, wildfire, storm surge, etc.). GRESB covers management quality and disclosure, while carbon intensity measures transition risk rather than physical risk."
+
+- question: "Which of the following describes the key portfolio management risk of applying extensive negative exclusions to a portfolio tracking a broad equity benchmark?"
+  options:
+    - "Reduced exposure to companies with low ESG scores"
+    - "Higher tracking error, higher active share, and potential unintended factor tilts"
+    - "Improved diversification because fewer correlated securities remain"
+    - "Lower regulatory scrutiny because the portfolio is more values-aligned"
+  answer: 1
+  explanation: "Excluding large, benchmark-heavyweight sectors (such as energy and defence) creates systematic deviation from the benchmark — reflected in higher tracking error and active share. Additionally, excluded sectors often have distinct factor characteristics (e.g., tobacco companies are high-yield/income; fossil fuel companies are value-oriented), meaning exclusions introduce unintended factor tilts rather than pure ESG improvement."

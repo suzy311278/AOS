@@ -1,0 +1,26 @@
+- question: "A company purchases I-RECs generated from a solar project in Vietnam to offset electricity consumed at its factory in India. Does this meet the Scope 2 Quality Criteria?"
+  options:
+    - "Yes, because I-RECs are internationally standardized and recognized everywhere"
+    - "No, because the certificate must come from the same market boundary where the electricity is consumed"
+    - "Yes, as long as the vintage matches the reporting period"
+    - "No, because solar I-RECs do not carry a GHG emission rate"
+  answer: 1
+  explanation: "Quality Criterion #5 requires that the certificate come from the same market where the consuming facility operates. Cross-border I-RECs from Vietnam cannot be used for consumption in India. The company would need to purchase I-RECs from Indian renewable energy projects."
+
+- question: "Your client purchased carbon offsets equivalent to 100% of their Scope 2 emissions. How should this appear in their GHG report?"
+  options:
+    - "Report Scope 2 as zero, with a footnote explaining the offsets"
+    - "Subtract the offsets from the Scope 2 total and report the net figure"
+    - "Report the full Scope 2 total unchanged and disclose the offsets separately"
+    - "Replace the market-based Scope 2 figure with zero and keep the location-based figure"
+  answer: 2
+  explanation: "Carbon offsets and energy attribute certificates are completely different instruments. Offsets represent avoided emissions elsewhere - they cannot reduce your Scope 2 total. The GHG Protocol requires reporting gross Scope 2 emissions with offsets disclosed separately, outside the scopes."
+
+- question: "A company operates in India, the UK, and the US. It has purchased I-RECs for its Indian offices and a GO-backed green tariff for the UK, but has no instruments for its US offices. How many Scope 2 totals must it report?"
+  options:
+    - "One total using the location-based method only"
+    - "Two totals - one location-based and one market-based for the entire company"
+    - "Three separate totals - one per country, each using the locally appropriate method"
+    - "Two totals, but only for the Indian and UK operations since the US has no instruments"
+  answer: 1
+  explanation: "If a company operates in any market where contractual instruments exist, it must report both location-based and market-based totals for the entire corporate inventory - not selectively by country. Since India (I-RECs), the UK (GOs), and the US (RECs) all have certificate markets, dual reporting is mandatory. The US offices with no instruments would use the grid average as a fallback in the market-based calculation."

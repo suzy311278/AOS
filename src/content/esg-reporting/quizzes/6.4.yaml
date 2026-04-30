@@ -1,0 +1,26 @@
+- question: "What is the key difference between limited assurance and reasonable assurance?"
+  options:
+    - "Limited assurance is free while reasonable assurance is paid"
+    - "Limited assurance provides a negative confirmation ('nothing came to our attention'), while reasonable assurance provides a positive confirmation that data is 'fairly stated'"
+    - "Limited assurance covers only environmental data, while reasonable assurance covers all ESG data"
+    - "Limited assurance is done by internal auditors, while reasonable assurance requires external auditors"
+  answer: 1
+  explanation: "Limited assurance is a negative confirmation - the provider states that nothing has come to their attention suggesting material misstatement. Reasonable assurance is a higher bar with a positive confirmation that data is fairly stated, similar to financial audits. Limited assurance is more common for ESG reports currently."
+
+- question: "What is the single most important timing advice for coordinating report writing with the assurance process?"
+  options:
+    - "Start writing the report before the assurance provider is even selected"
+    - "Complete the full report first, then have it assured as a finished document"
+    - "Try to get final report data only after assurance is complete, to avoid cascading rework when assured numbers differ from preliminary data"
+    - "Run assurance and report writing simultaneously to save time"
+  answer: 2
+  explanation: "When you draft with preliminary data and assurance later corrects it, you face cascading rework - updating narratives, tables, charts, infographics, and the GRI Content Index, followed by design revisions and re-running QA. Getting assured data before finalizing the report eliminates this costly rework cycle."
+
+- question: "When assurance is not being conducted, how does the report writer's role change?"
+  options:
+    - "The report writer must obtain an assurance certification independently"
+    - "The report writer's data sanity checks become even more important as the last line of defense against data errors"
+    - "The report writer can skip data verification since no one will be checking"
+    - "The report writer should delay publication until assurance can be arranged"
+  answer: 1
+  explanation: "Without an external assurance provider checking the numbers, the report writer's QA process becomes the last line of defense against data errors. This does not mean performing formal assurance, but the sanity checks and data verification process should be thorough enough to catch obvious inconsistencies."

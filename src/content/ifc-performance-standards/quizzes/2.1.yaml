@@ -1,0 +1,35 @@
+- question: "Which categories of workers does PS 2 cover?"
+  options:
+    - "Only direct employees of the client company"
+    - "Direct workers, contracted workers, supply chain workers, and community workers"
+    - "Only workers with formal employment contracts"
+    - "Only workers in the construction phase"
+  answer: 1
+  explanation: "PS 2 covers four categories: direct workers (employed by the client), contracted workers (through third parties), community workers (from local communities), and supply chain workers (in the client's supply chain). The requirements vary by category, with the most comprehensive protections for direct workers."
+
+- question: "What does PS 2 say about forced labor?"
+  options:
+    - "It is permitted if workers are compensated above minimum wage"
+    - "It is only prohibited for direct employees"
+    - "It is prohibited in all circumstances, with no exceptions"
+    - "It is permitted during emergency construction phases"
+  answer: 2
+  explanation: "PS 2 categorically prohibits forced labor in all its forms - including bonded labor, indentured labor, and trafficked labor. This applies across all worker categories with no exceptions."
+
+- question: "What is the minimum age for employment under PS 2?"
+  options:
+    - "14 years for all work"
+    - "15 years for non-hazardous work, 18 years for hazardous work"
+    - "16 years for all work"
+    - "18 years for all work"
+  answer: 1
+  explanation: "PS 2 prohibits child labor. The minimum employment age is generally 15 years (or 14 in certain countries consistent with ILO conventions) for non-hazardous work. Workers under 18 must not perform hazardous work - work that by its nature or circumstances is likely to harm health, safety, or morals."
+
+- question: "What are the client's obligations regarding supply chain workers?"
+  options:
+    - "No obligations - supply chain management is outside the client's control"
+    - "Full application of all PS 2 requirements, identical to direct workers"
+    - "Identify and address child labor and forced labor risks in primary supply chains"
+    - "Only monitor supply chains when IFC specifically requests it"
+  answer: 2
+  explanation: "For supply chain workers, PS 2 focuses on the most serious risks: the client must identify child labor and forced labor in its primary supply chains and take steps to address them. The full range of PS 2 requirements applies to direct and contracted workers, but supply chain obligations are more targeted."

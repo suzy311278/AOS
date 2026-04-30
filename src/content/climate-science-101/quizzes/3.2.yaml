@@ -1,0 +1,26 @@
+- question: "What does climate attribution science seek to determine?"
+  options:
+    - "The exact year a weather event will occur in a specific location"
+    - "How much more likely or intense a specific weather event has become due to human-caused climate change"
+    - "Which country is most responsible for a specific extreme weather event"
+    - "The total economic cost of all extreme weather events in a given year"
+  answer: 1
+  explanation: "Climate attribution science compares thousands of climate model simulations of the actual world (with human emissions) against a hypothetical world without them, to quantify how climate change altered the probability or intensity of a specific weather event. It cannot say climate change 'caused' any single event, but can say by how much it changed the odds."
+
+- question: "According to IPCC AR6 WGI, by approximately how much do extreme daily precipitation events intensify for each additional degree Celsius of global warming?"
+  options:
+    - "About 1% per degree Celsius"
+    - "About 3% per degree Celsius"
+    - "About 7% per degree Celsius"
+    - "About 15% per degree Celsius"
+  answer: 2
+  explanation: "IPCC AR6 WGI states that at the global scale, extreme daily precipitation events are projected to intensify by about 7% for each 1°C of global warming. This follows the Clausius-Clapeyron relation: warmer air holds approximately 7% more water vapour per degree Celsius."
+
+- question: "What does IPCC AR6 WGI state about the relationship between climate change and tropical cyclone intensity versus total frequency?"
+  options:
+    - "Both total frequency and intensity of tropical cyclones are increasing rapidly with high confidence"
+    - "Total frequency is declining but intensity is unchanged, as climate change disrupts cyclone formation"
+    - "The proportion of major (Category 3-5) storms has likely increased, and associated rainfall is intensifying, even if total storm frequency may not increase"
+    - "Climate change has no detectable effect on tropical cyclones due to high natural variability"
+  answer: 2
+  explanation: "IPCC AR6 WGI states with medium confidence that the global proportion of major (Category 3-5) tropical cyclones has likely increased over the last four decades. With high confidence, human-induced climate change increases heavy precipitation associated with tropical cyclones. The total number of storms may not increase significantly, but the most intense storms and their rainfall are becoming worse."

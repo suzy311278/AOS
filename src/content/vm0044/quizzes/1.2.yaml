@@ -1,0 +1,26 @@
+- question: "Under VM0044 Condition 9, within how long after production must biochar be utilized in an eligible application?"
+  options:
+    - "3 months"
+    - "6 months"
+    - "1 year"
+    - "5 years"
+  answer: 2
+  explanation: "Biochar must be utilized within one year of production. The carbon permanence calculation is based on a 100-year accounting period. For the decay factor established for that 100-year period to apply accurately, the biochar must enter its eligible final application within the first year after it was produced."
+
+- question: "What is the maximum allowable hydrogen to organic carbon molar ratio (H:Corg) for biochar used in any soil application under VM0044?"
+  options:
+    - "0.4"
+    - "0.7"
+    - "1.0"
+    - "1.5"
+  answer: 1
+  explanation: "The H:Corg molar ratio must be 0.7 or below for any soil application. This threshold confirms that the biochar is truly stable and highly carbonized. A ratio above 0.7 indicates the material still contains hydrogen-rich structures that break down more readily, meaning the carbon is less permanently stored."
+
+- question: "Which technology level of production facility can supply biochar for non-soil applications such as concrete and asphalt under VM0044?"
+  options:
+    - "Low technology facilities only, because they produce more biochar per tonne of feedstock"
+    - "Both low and high technology facilities, provided the biochar meets H:Corg requirements"
+    - "High technology facilities only"
+    - "Any certified facility, regardless of technology level"
+  answer: 2
+  explanation: "Only biochar from high technology production facilities is eligible for non-soil applications. High technology facilities have more robust process controls, emissions measurement systems, and quality assurance procedures, providing greater certainty about carbon permanence. Low technology biochar is limited to soil applications."

@@ -1,0 +1,26 @@
+- question: "Why should the mechanical QA checks (index matching, data matching, spell check) be done before the holistic reviews (full read-through, fresh-eyes review)?"
+  options:
+    - "Mechanical checks take longer, so they should start first"
+    - "Holistic reviews require a clean document to be meaningful - there is no point reading for flow when data is still inconsistent"
+    - "The holistic reviews are optional, so they go last"
+    - "Mechanical checks are more important than holistic reviews"
+  answer: 1
+  explanation: "The QA checklist is sequenced deliberately. Mechanical checks (steps 1-6) catch objective errors quickly, producing a clean document. Only then do holistic reviews (steps 7-9) become meaningful - reading for flow and coherence is pointless if page numbers are wrong and data is inconsistent."
+
+- question: "A metric appears as '1,245,000 GJ' in a data table and '1,240,000 GJ' in an infographic on the next page. What is the problem?"
+  options:
+    - "There is no problem - the difference is due to acceptable rounding"
+    - "Two different precise numbers for the same metric create a credibility issue, even if the difference is small"
+    - "The infographic should always use rounded numbers"
+    - "The data table is likely wrong because infographics are more carefully reviewed"
+  answer: 1
+  explanation: "While rounding is acceptable (e.g., saying 'approximately 1.2 million GJ'), two different precise numbers for the same metric is a credibility issue. Internal data matching requires that every instance of a key metric be consistent throughout the report."
+
+- question: "Why is the 'fresh-eyes' review considered non-negotiable in the QA process?"
+  options:
+    - "It is required by GRI standards for report publication"
+    - "Fresh reviewers can check the data against source documents more accurately"
+    - "After weeks of working on the report, the team's brains auto-correct errors and fill in missing context - a new reader sees the report as it actually is"
+    - "It is the cheapest step in the QA process"
+  answer: 2
+  explanation: "After months of working on the report, the team becomes blind to its flaws - their brains auto-correct errors, fill in missing context, and smooth over rough transitions. A fresh reader encounters the report without those assumptions and can catch issues in 30 minutes that the team has been missing for a month."

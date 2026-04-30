@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    /* Always reserve space for the scrollbar so fixed-position elements
+       (like the nav) align with in-flow content centered via mx-auto. */
+    scrollbar-gutter: stable;
+  }
+
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    @apply bg-gray-50 text-gray-900;
+  }
+
+  code {
+    @apply bg-gray-100 px-1.5 py-0.5 rounded font-mono text-sm;
+  }
+
+  /* Lesson content tables */
+  .lesson-content table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .lesson-content th {
+    @apply bg-green-800 text-white px-3 py-2 text-left text-sm font-semibold;
+  }
+
+  .lesson-content td {
+    @apply px-3 py-2 border-b border-gray-200 text-sm;
+  }
+
+  .lesson-content tr:nth-child(even) td {
+    @apply bg-gray-50;
+  }
+
+  /* Box styles for raw HTML lesson content */
+  .lesson-content .highlight-box {
+    @apply border-l-4 border-green-600 bg-green-50 p-4 rounded my-4;
+  }
+
+  .lesson-content .analogy-box {
+    @apply border-l-4 border-blue-600 bg-blue-50 p-4 rounded my-4;
+  }
+
+  .lesson-content .example-box {
+    @apply border-l-4 border-amber-600 bg-amber-50 p-4 rounded my-4;
+  }
+
+  .lesson-content .formula-box {
+    @apply bg-slate-800 text-slate-100 rounded-lg p-4 my-4 font-mono text-sm overflow-x-auto;
+  }
+
+  /* Responsive tables in raw HTML content */
+  .lesson-content table {
+    @apply overflow-x-auto block;
+  }
+
+  /* Guide-specific styles */
+  .guide-content h2 {
+    @apply mt-12 mb-4 pt-6 border-t border-gray-100 text-2xl font-bold text-gray-900;
+  }
+
+  .guide-content h2:first-of-type {
+    @apply mt-0 pt-0 border-t-0;
+  }
+
+  .guide-content h3 {
+    @apply mt-8 mb-3 text-lg font-semibold text-gray-800;
+  }
+
+  /* FAQ section styling */
+  .guide-content h2:last-of-type ~ h3 {
+    @apply mt-6 mb-2 pl-4 border-l-2 border-emerald-300 text-base font-semibold text-gray-900;
+  }
+
+  .guide-content h2:last-of-type ~ h3 + p {
+    @apply pl-4 text-gray-600;
+  }
+}
+
+@layer utilities {
+  .pb-safe { padding-bottom: env(safe-area-inset-bottom); }
+  .pt-safe { padding-top: env(safe-area-inset-top); }
+}
+
+/* ============================================================
+   ArmorInnovate OS — Cyber-Industrial base
+   Scoped under .ai-root so it never bleeds into legacy
+   Greentryst pages. Apply .ai-root on the page wrapper.
+   ============================================================ */
+@layer base {
+  .ai-root {
+    font-family: var(--font-inter), Inter, system-ui, sans-serif;
+    color: #0B1220;
+    background: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  .ai-root code,
+  .ai-root pre,
+  .ai-root .ai-mono {
+    font-family: var(--font-jetbrains-mono), 'JetBrains Mono', ui-monospace, monospace;
+    font-feature-settings: 'ss01', 'ss02', 'cv01', 'cv02';
+  }
+}
+
+@layer components {
+  /* HMI alarm chip — high-contrast LED-style indicator. */
+  .ai-led {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 9999px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.05) inset;
+  }
+  .ai-led--ok      { background: #16A34A; box-shadow: 0 0 8px rgba(22, 163, 74, 0.7); }
+  .ai-led--warn    { background: #D97706; box-shadow: 0 0 8px rgba(217, 119, 6, 0.7); }
+  .ai-led--crit    { background: #DC2626; box-shadow: 0 0 10px rgba(220, 38, 38, 0.85); animation: ai-blink 1s steps(2, end) infinite; }
+  .ai-led--offline { background: #6B7280; box-shadow: none; }
+
+  /* Terminal scanline overlay — used inside .ai-terminal containers. */
+  .ai-scanlines::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.025) 0 1px,
+      transparent 1px 3px
+    );
+    mix-blend-mode: overlay;
+    border-radius: inherit;
+  }
+
+  /* CRT vignette for the terminal hero. */
+  .ai-crt {
+    position: relative;
+  }
+  .ai-crt::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: radial-gradient(
+      ellipse at center,
+      transparent 55%,
+      rgba(0, 0, 0, 0.35) 100%
+    );
+    border-radius: inherit;
+  }
+
+  /* Caret (use after the last character of an autotyped string). */
+  .ai-caret {
+    display: inline-block;
+    width: 0.55ch;
+    height: 1em;
+    margin-left: 1px;
+    background: currentColor;
+    vertical-align: -0.1em;
+    animation: ai-blink 1s steps(2, end) infinite;
+  }
+
+  /* Schematic dotted route — connecting lines on diagrams. */
+  .ai-route {
+    background-image: linear-gradient(
+      to right,
+      currentColor 50%,
+      transparent 50%
+    );
+    background-size: 8px 1px;
+    background-repeat: repeat-x;
+    background-position: left center;
+    height: 1px;
+  }
+}
+
+@layer utilities {
+  /* Reusable terminal grid background for hero panels. */
+  .ai-bg-grid {
+    background-image:
+      linear-gradient(rgba(148, 163, 184, 0.07) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(148, 163, 184, 0.07) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  /* Subtle inset border for HMI tiles. */
+  .ai-tile-inset {
+    box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.06);
+  }
+}
+
+/* Honor reduced motion (already covered globally above, but be
+   explicit for terminal animations). */
+@media (prefers-reduced-motion: reduce) {
+  .ai-caret,
+  .ai-led--crit {
+    animation: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

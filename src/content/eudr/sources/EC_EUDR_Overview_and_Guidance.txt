@@ -1,0 +1,350 @@
+EU DEFORESTATION REGULATION (EUDR) - EUROPEAN COMMISSION OVERVIEW AND GUIDANCE
+Source: European Commission, DG Environment
+Pages: environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en
+       environment.ec.europa.eu/topics/forests/deforestation_en
+Accessed: March 2026
+
+================================================================
+REGULATION OVERVIEW
+================================================================
+
+The European Union adopted Regulation (EU) 2023/1115 on deforestation-free products, commonly
+referred to as the EU Deforestation Regulation (EUDR). This landmark legislation aims to ensure
+that specific commodities and products sold in the EU have not contributed to deforestation or
+forest degradation anywhere in the world.
+
+CORE PURPOSE:
+"Guarantee that the products EU citizens consume do not contribute to deforestation or forest
+degradation globally."
+
+The regulation repeals and replaces the earlier EU Timber Regulation (EUTR), significantly
+expanding its scope from wood products alone to seven major commodity groups.
+
+================================================================
+WHY THE EUDR WAS NEEDED: THE PROBLEM CONTEXT
+================================================================
+
+GLOBAL DEFORESTATION CRISIS:
+- Approximately 10% of the world's forests (an area exceeding the total land area of the EU)
+  have been lost through deforestation over the past 30 years
+- About 10% of global forests are severely fragmented with minimal connectivity
+- Agricultural expansion is the primary driver, accounting for roughly 80% of deforestation
+
+EU CONSUMPTION FOOTPRINT:
+- The EU is one of the world's largest importers of commodities linked to deforestation
+- EU consumption is estimated to drive approximately 10% of global deforestation
+- The EU imports significant quantities of soy, palm oil, cocoa, coffee, cattle products, and timber
+
+PREVIOUS REGULATORY GAPS:
+The EU Timber Regulation (EUTR), in force since 2013, covered only timber products and proved
+insufficient. The EUDR addresses these gaps by:
+- Expanding to six additional commodity groups beyond wood
+- Requiring geolocation data to trace products to their exact production plots
+- Establishing a binding due diligence system with mandatory third-country risk classification
+- Harmonizing enforcement across all EU Member States
+
+================================================================
+KEY OBJECTIVES
+================================================================
+
+1. ENVIRONMENTAL PROTECTION:
+   - Reduce EU-driven deforestation and forest degradation globally
+   - Protect biodiversity and ecosystem services
+   - Preserve primary forests and carbon sinks
+
+2. CLIMATE ACTION:
+   - Reduce greenhouse gas emissions from deforestation by at least 32 million tonnes CO2e/year
+   - Support the EU's climate neutrality goals under the European Green Deal
+   - Align with Paris Agreement commitments
+
+3. SUPPLY CHAIN ACCOUNTABILITY:
+   - Ensure supply chain transparency from forest to consumer
+   - Hold operators responsible for due diligence
+   - Create market-based incentives for sustainable production
+
+4. HUMAN RIGHTS:
+   - Protect indigenous peoples' rights including free, prior and informed consent (FPIC)
+   - Support local communities dependent on forests
+   - Ensure fair treatment of smallholder farmers
+
+================================================================
+COVERED COMMODITIES AND PRODUCTS
+================================================================
+
+The seven relevant commodities and their key derived products:
+
+CATTLE:
+- Live cattle
+- Fresh, chilled, or frozen bovine meat
+- Leather and tanned leather products
+- Leather footwear
+- Collagen and gelatine from bovine hides
+
+COCOA:
+- Cocoa beans and husks
+- Cocoa paste, butter, powder
+- Chocolate and chocolate products
+
+COFFEE:
+- Raw (green) coffee beans
+- Roasted coffee
+- Coffee extracts and essences
+
+OIL PALM:
+- Palm oil and palm kernel oil
+- Palm fatty acids and crude glycerol
+- Margarine and similar products
+
+RUBBER:
+- Natural rubber and latex
+- Rubber tyres and inner tubes
+- Vulcanised rubber products
+
+SOYA:
+- Soya beans
+- Soya bean oil and meal
+- Animal feed containing soya
+
+WOOD:
+- Sawn timber, veneer, plywood
+- Pulp and paper products
+- Furniture containing wood
+- Charcoal (excluded from some provisions; to be reviewed)
+- Printed books and newspapers
+
+================================================================
+WHO IS AFFECTED BY THE EUDR
+================================================================
+
+OPERATORS:
+Any natural or legal person who places relevant products on the EU market or exports them.
+Includes: manufacturers, producers, importers, processors.
+
+LARGE AND MEDIUM OPERATORS (non-SMEs):
+- Full due diligence obligations
+- Must submit due diligence statements before each placement/export
+- Must publish annual reports on due diligence systems
+- Application date: 30 December 2026
+
+SMALL AND MICRO OPERATORS (SMEs):
+- Simplified obligations for SME traders (not SME operators)
+- SME operators still carry full due diligence obligations
+- Application date: 30 June 2027
+
+NON-SME TRADERS:
+- Exercise due diligence equivalent to operators
+- Publish annual due diligence reports
+
+SME TRADERS:
+- Collect and keep reference numbers from supplier due diligence statements
+- Maintain 5-year records of supply chain information
+
+================================================================
+DUE DILIGENCE: STEP-BY-STEP PROCESS
+================================================================
+
+STEP 1: INFORMATION COLLECTION
+Operators must collect and document for each relevant product:
+- Product description (trade name, type, HS codes)
+- Quantity (volume and weight)
+- Country of production
+- Geolocation of all plots of land where produced (polygon or point coordinates)
+- Date or time range of production
+- Supplier and customer names and contact details
+- Evidence that commodities are deforestation-free (satellite imagery, certification)
+
+STEP 2: RISK ASSESSMENT
+Evaluate the risk of non-compliance by considering:
+- Country risk classification (low/standard/high)
+- Prevalence of deforestation in the country/region
+- Presence and quality of forests
+- Governance indicators (corruption, rule of law)
+- Indigenous peoples' rights situation
+- Complexity of the supply chain (number of intermediaries)
+- Third-party information and complaints
+- Certification and third-party audits already in place
+
+STEP 3: RISK MITIGATION (if risk is non-negligible)
+- Request additional documentation from suppliers
+- Commission independent audits
+- Require certified products
+- Reject non-compliant suppliers
+
+STEP 4: DUE DILIGENCE STATEMENT SUBMISSION
+Before placing products on the market, submit a due diligence statement via the EUDR Information
+System. The statement must declare:
+- Due diligence has been exercised
+- No or negligible risk of non-compliance was found
+- Reference to supporting information
+
+STEP 5: RECORD KEEPING
+Maintain all due diligence documentation for at least 5 years.
+
+================================================================
+COUNTRY BENCHMARKING AND RISK CLASSIFICATION
+================================================================
+
+The Commission assigns each country (or regions within countries) to one of three risk tiers:
+
+LOW RISK:
+Countries with strong forest governance, low deforestation rates, robust monitoring systems.
+Operators may apply simplified due diligence; no detailed risk assessment required if information
+collection confirms low-risk origin.
+
+STANDARD RISK (DEFAULT):
+Countries with moderate or unknown deforestation risk. Full due diligence required.
+
+HIGH RISK:
+Countries with high deforestation rates, weak governance, or known compliance issues.
+- Enhanced checks by competent authorities
+- Operators may need additional verification
+- Increased scrutiny at customs
+
+The benchmarking methodology considers:
+- Deforestation rates and trends
+- Forest governance quality
+- Proportion of forests protected or managed sustainably
+- Compliance with international environmental agreements
+- Ongoing reform processes
+
+================================================================
+ENFORCEMENT STRUCTURE
+================================================================
+
+COMPETENT AUTHORITIES (appointed by each Member State):
+- Conduct physical checks on operators and their supply chains
+- Review due diligence statements and supporting documentation
+- Apply proportionate enforcement including fines
+- Coordinate with customs authorities at borders
+
+CHECK RATES (minimum):
+- High-risk countries: 9% of operators and relevant products
+- Standard-risk countries: 3% of operators and relevant products
+- Low-risk countries: 1% of operators and relevant products
+
+CUSTOMS INTEGRATION:
+- Electronic interface links EU customs systems with the EUDR information system
+- Customs authorities can verify due diligence statements at point of entry
+- Coordinated checks between customs and competent authorities
+
+================================================================
+EUDR INFORMATION SYSTEM
+================================================================
+
+Launched: 4 December 2024
+
+Functions:
+- Online portal for submitting due diligence statements
+- Unique reference numbers issued for each valid statement
+- Database accessible to competent authorities across all Member States
+- Integration with EU customs IT systems
+- Public transparency layer for verified statements
+
+================================================================
+SUPPORTING MECHANISMS AND RESOURCES
+================================================================
+
+EU OBSERVATORY ON DEFORESTATION AND FOREST DEGRADATION:
+Website: forest-observatory.ec.europa.eu
+- Provides global forest monitoring data
+- Country-level deforestation and land-use data
+- Supply chain information and traceability tools
+- Supports operators in assessing production area risk
+
+MULTI-STAKEHOLDER PLATFORM:
+- Forum for dialogue between businesses, NGOs, governments, and producers
+- Coordinates implementation support
+- Shares best practices
+
+GUIDANCE DOCUMENTS (published on EC website):
+- General guidance for operators
+- Sector-specific guidance (cocoa, cattle, timber, etc.)
+- SME-specific factsheets
+- Smallholder guidance
+- Country partnership information
+
+INTERNATIONAL PARTNERSHIPS:
+- EU engages with major producer countries including Brazil, Indonesia, Cameroon, and others
+- Bilateral dialogues to explain requirements and support compliance
+- Development finance supports producer country capacity building
+
+================================================================
+RECENT AMENDMENTS AND SIMPLIFICATION
+================================================================
+
+Following stakeholder consultations in late 2024, amendments were introduced to:
+- Reduce administrative burden for operators in low-risk countries
+- Clarify requirements for smallholder supply chains
+- Simplify the due diligence statement submission process
+- Introduce a partnership approach for countries demonstrating strong governance
+
+The December 2024 amendment extended the application date for large operators from
+30 June 2025 to 30 December 2026, providing additional preparation time.
+
+================================================================
+KEY POLICY CONTEXT: EU FOREST STRATEGY AND GREEN DEAL
+================================================================
+
+The EUDR is a flagship measure under the European Green Deal, specifically:
+- EU Biodiversity Strategy 2030: target to protect 30% of land and sea
+- EU Forest Strategy 2030: support sustainable forest management globally
+- Farm to Fork Strategy: promote sustainable food systems
+- 2030 Climate Target Plan: reduce net GHG emissions by at least 55%
+
+EU COMMITMENTS AT GLASGOW (COP26, 2021):
+The EU signed the Glasgow Leaders' Declaration on Forests and Land Use, committing to:
+- Halt and reverse forest loss and land degradation by 2030
+- Deliver sustainable land use, forestry, and agriculture
+- Mobilize finance for forest protection
+
+The EUDR is the EU's main legislative instrument to translate these commitments into binding action.
+
+================================================================
+FREQUENTLY ASKED QUESTIONS (SELECTED)
+================================================================
+
+Q: Does the EUDR apply to products consumed within the EU or only to imports?
+A: The regulation applies to both products placed on the EU market (including domestically produced
+goods) and products exported from the EU. Any operator, regardless of whether they produce
+domestically or import, must comply.
+
+Q: What is the cut-off date and why was December 31, 2020 chosen?
+A: The cut-off date is 31 December 2020. Products produced on land that was deforested or
+forest-degraded after this date cannot be sold in the EU. This date was chosen as it aligns with
+the Glasgow Declaration and the EU's biodiversity strategy timeline.
+
+Q: Does the EUDR cover recycled materials?
+A: No. Commodities and products that have completed their lifecycle and would otherwise be disposed
+of as waste are excluded. Requiring due diligence on recycled materials would impose disproportionate
+burdens without environmental benefit, since the original production has already occurred.
+
+Q: What counts as a "forest" under the regulation?
+A: The regulation uses the FAO definition: land spanning more than 0.5 hectares with trees higher
+than 5 metres and a canopy cover of more than 10%, or trees able to reach these thresholds in
+situ, excluding land that is predominantly under agricultural or urban land use.
+
+Q: Are certification schemes (e.g., FSC, RSPO) sufficient for compliance?
+A: No certification scheme alone provides automatic compliance. However, certified products and
+supply chains may support due diligence as one element of evidence. Operators must still collect
+geolocation data and conduct risk assessments. Certification can reduce risk assessment workload
+but does not replace due diligence obligations.
+
+Q: How does geolocation work for smallholder supply chains?
+A: For smallholders, geolocation data can be collected as GPS polygon coordinates of plots.
+Special guidance exists for aggregated smallholder supply chains where individual plot coordinates
+may be pooled. The Commission has worked with producer countries on digital tools to support
+smallholder data collection.
+
+Q: What penalties apply for non-compliance?
+A: Penalties are determined by Member States but the regulation sets minimum standards:
+- Maximum fine of at least 4% of annual turnover in the relevant Member State
+- Confiscation of products and revenues
+- Temporary exclusion from public procurement
+- Temporary bans from placing products on the market
+
+Q: Do NGOs or the public have a role in enforcement?
+A: Yes. Third parties, including NGOs, can submit substantiated concerns to competent authorities.
+Competent authorities must investigate substantiated concerns within 30 days and inform the
+reporter of the outcome.
+
+Source: EC Environment website, accessed March 2026

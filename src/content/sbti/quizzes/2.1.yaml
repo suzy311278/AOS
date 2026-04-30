@@ -1,0 +1,44 @@
+- question: "According to C1, at what organizational level must a company submit its science-based targets to the SBTi?"
+  options:
+    - "At the subsidiary level, so each business unit can set its own target"
+    - "At the parent or group level, including all subsidiaries in the consolidation boundary"
+    - "At the regional level, covering the company's largest geographic market"
+    - "At the business division level, covering only the highest-emitting division"
+  answer: 1
+  explanation: "C1 requires targets to be submitted only at the parent or group level. Parent companies must include all subsidiaries within their chosen consolidation approach. Brands, licensees, and individual business divisions are not accepted as separate targets unless they fall outside the parent's consolidation boundary."
+
+- question: "Under C4, scope 3 emissions must be included in a company's near-term science-based targets when they represent what share of total scope 1, 2, and 3 combined emissions?"
+  options:
+    - "20% or more"
+    - "30% or more"
+    - "40% or more"
+    - "50% or more"
+  answer: 2
+  explanation: "C4 sets the threshold at 40%. If a company's relevant scope 3 emissions are 40% or more of total scope 1, 2, and 3 emissions, scope 3 must be included in the near-term target. Additionally, companies involved in the sale or distribution of natural gas or other fossil fuels must always set a separate scope 3 category 11 target, irrespective of this percentage."
+
+- question: "C5 places a maximum exclusion limit on scope 1 and 2 emissions. Which statement correctly describes this limit?"
+  options:
+    - "Up to 10% of scope 1 and 2 emissions may be excluded from the target boundary"
+    - "Up to 5% of scope 1 and 2 emissions may be excluded from either the GHG inventory boundary or the target boundary"
+    - "Up to 5% of scope 1 emissions and up to 10% of scope 2 emissions may be separately excluded"
+    - "No exclusions are permitted from scope 1 and 2 emissions under any circumstances"
+  answer: 1
+  explanation: "C5 limits exclusions to no more than 5% of total combined scope 1 and 2 emissions from either the GHG inventory boundary or the target boundary. The total targeted scope 1 and 2 emissions must be at least 95% of total reported and excluded scope 1 and 2. A company cannot exclude 5% from the inventory and then exclude a further 5% from the target -- the 5% cap applies to the combined effect."
+
+- question: "C6 requires that a company's scope 3 targets collectively cover at least what percentage of total reported and excluded scope 3 emissions?"
+  options:
+    - "50%"
+    - "60%"
+    - "67%"
+    - "80%"
+  answer: 2
+  explanation: "C6 sets the minimum coverage threshold at 67% of total reported and excluded scope 3 emissions, considering the minimum boundary of each scope 3 category per the GHG Protocol Scope 3 Standard. This 67% can be achieved through a combination of emission reduction targets and supplier or customer engagement targets under C19."
+
+- question: "R2 addresses targets covering optional scope 3 emissions. Which statement best describes the SBTi's position on these targets?"
+  options:
+    - "Optional scope 3 targets are prohibited as they create confusion in reporting"
+    - "Optional scope 3 targets are encouraged when emissions are significant, but cannot count toward the C6 67% coverage threshold"
+    - "Optional scope 3 targets count toward the C6 threshold provided they are well-below 2C aligned"
+    - "Optional scope 3 targets are only permitted for companies in the financial sector"
+  answer: 1
+  explanation: "R2 states that targets on scope 3 emissions falling outside the minimum boundary of scope 3 categories are not required but are encouraged when those emissions are significant. However, such optional targets cannot count toward the thresholds defined in C6. They are additional to, not substitutes for, the required scope 3 targets."

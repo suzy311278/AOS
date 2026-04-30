@@ -1,0 +1,35 @@
+- question: "What is the difference between a declining cap and a flat cap?"
+  options:
+    - "Declining caps get smaller each year; flat caps stay constant"
+    - "Flat caps cost less to administer"
+    - "Declining caps only apply to large emitters"
+    - "There is no difference"
+  answer: 0
+  explanation: "A declining cap trajectory reduces the number of allowances over time, driving progressively deeper emissions reductions. A flat cap maintains the same emissions level."
+
+- question: "What is a 'linear reduction factor' in ETS cap-setting?"
+  options:
+    - "The interest rate on carbon allowances"
+    - "The annual percentage or absolute reduction in the cap"
+    - "The ratio of imports to exports"
+    - "The compliance penalty rate"
+  answer: 1
+  explanation: "The linear reduction factor (e.g., 2.2% per year in EU ETS) determines how much the cap declines annually, setting the trajectory toward long-term targets."
+
+- question: "Why do most ETS systems start with a relatively loose cap?"
+  options:
+    - "To maximize environmental impact immediately"
+    - "To build experience, gain data, and minimize disruption while establishing the system"
+    - "Loose caps generate more revenue"
+    - "International law requires it"
+  answer: 1
+  explanation: "Starting with a manageable cap allows the system to build MRV capacity, gather data on emissions and costs, and gain stakeholder acceptance before tightening to drive deeper reductions."
+
+- question: "How should a cap trajectory align with climate targets?"
+  options:
+    - "The cap should decline at whatever rate is politically easiest"
+    - "The cap trajectory should be designed to contribute appropriately to long-term emissions reduction targets"
+    - "Caps should never align with climate goals"
+    - "Random cap setting is most efficient"
+  answer: 1
+  explanation: "The cap trajectory should be set to ensure the ETS contributes its fair share to meeting national or international climate commitments, with regular reviews to adjust as needed."

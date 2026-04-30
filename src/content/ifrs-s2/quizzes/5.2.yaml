@@ -1,0 +1,35 @@
+- question: "Which Scope 3 category covers emissions from the use of products sold by the entity?"
+  options:
+    - "Category 1 — Purchased goods and services"
+    - "Category 9 — Downstream transportation and distribution"
+    - "Category 11 — Use of sold products"
+    - "Category 15 — Investments"
+  answer: 2
+  explanation: "Category 11 (use of sold products) covers emissions that occur when customers use the entity's sold products — for example, the tailpipe CO₂ emissions from a car manufacturer's vehicles or the electricity consumption of an appliance manufacturer's products. This is often the largest category for manufacturers."
+
+- question: "Why was Scope 3 the most debated area during the development of IFRS S2?"
+  options:
+    - "Investors did not want Scope 3 information because it is too difficult to interpret"
+    - "Users strongly supported it for its transition risk insight, while preparers raised data availability and quality challenges"
+    - "The GHG Protocol had no methodology for Scope 3 at the time"
+    - "Scope 3 disclosures create legal liability for entities"
+  answer: 1
+  explanation: "The Basis for Conclusions (BC110-BC121) records that Scope 3 was the most debated area. Users (investors) strongly supported mandatory Scope 3 because it reveals the full scope of transition risk across the value chain. Preparers raised concerns about data availability, methodological complexity, and comparability. The ISSB addressed these with transition relief and the Scope 3 measurement framework."
+
+- question: "An automobile manufacturer includes Category 11 in its Scope 3 disclosure. What does this category cover for an automaker?"
+  options:
+    - "Emissions from steel and aluminium purchased from suppliers"
+    - "Emissions from employee commuting to manufacturing plants"
+    - "Emissions from fuel combusted in customers' vehicles during the vehicle's lifetime"
+    - "Emissions from transporting finished vehicles to dealerships"
+  answer: 2
+  explanation: "Category 11 (use of sold products) for an automobile manufacturer covers the tailpipe emissions from the fuel combustion in customers' vehicles over the vehicle's operational life. This is typically the largest Scope 3 category for automakers — often many times larger than their manufacturing emissions."
+
+- question: "The GHG Protocol Scope 3 Standard identifies 15 categories. What determines which categories an entity must include in its IFRS S2 disclosure?"
+  options:
+    - "All 15 categories must always be included with zero values for inapplicable ones"
+    - "Only categories 1-8 (upstream) need to be included"
+    - "Materiality — entities include all material categories and disclose which are included and why"
+    - "Entities choose any 5 of the 15 categories based on data availability"
+  answer: 2
+  explanation: "Materiality applies to Scope 3 category selection. Entities must consider all 15 categories, include all material ones, and disclose which categories are included. If a category is excluded, this should be apparent from the disclosure and explained — typically because it is immaterial for the entity's specific business model."

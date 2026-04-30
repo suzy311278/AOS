@@ -1,0 +1,289 @@
+{/* source: ETS Handbook Step 6 */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/carbon-pricing/5_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Trading Infrastructure and Registries
+
+An emissions trading system is, at its core, a market. For that market to function, you need infrastructure: a registry to track ownership, platforms to facilitate trading, rules to prevent manipulation, and oversight to maintain integrity. This lesson explores the plumbing that makes carbon markets work.
+
+### The Two Pillars: Registry and Trading Platform
+
+**The Registry**
+
+A database that records who owns how many allowances. Like a land registry for property or a stock registry for shares.
+
+**Trading Platforms**
+
+Venues where buyers and sellers come together. Can be formal exchanges or over-the-counter markets.
+
+<HighlightBox>
+The registry is the source of truth for allowance ownership. Trading platforms facilitate transactions, but the registry is where ownership actually changes. If it is not in the registry, you do not own it.
+</HighlightBox>
+
+### How Registries Work
+
+A carbon registry is an electronic database that:
+
+**Tracks allowance issuance**
+
+When the government creates allowances (whether for free allocation or auction), they are recorded in the registry.
+
+**Records ownership**
+
+Each allowance has an owner. The registry maintains accounts for all participants and records which allowances they hold.
+
+**Processes transfers**
+
+When allowances are traded, the registry moves them from seller's account to buyer's account.
+
+**Handles compliance**
+
+At surrender deadlines, the registry enables entities to transfer allowances to compliance accounts.
+
+<AnalogyBox>
+A carbon registry works like a bank ledger. Your bank does not hold physical cash for you; it maintains a record of your balance. When you pay someone, the bank adjusts both ledgers. A carbon registry does the same for allowances.
+</AnalogyBox>
+
+### Registry Account Types
+
+Registries typically include several account types:
+
+**Operator holding accounts**
+
+Accounts for compliance entities. Used to hold allowances for compliance and trading.
+
+**Trading accounts**
+
+Accounts for market participants who are not compliance entities (brokers, investors).
+
+**Government accounts**
+
+Accounts for the regulator. Used to issue allowances, receive surrendered allowances, and manage reserves.
+
+**Compliance accounts**
+
+Special accounts where allowances are surrendered for compliance. Allowances go in but cannot come out.
+
+**Reserve accounts**
+
+For new entrant reserves, market stability reserves, and other set-asides.
+
+<ExampleBox>
+**Registry transaction example:**
+
+1. Government issues 1,000,000 allowances to auction account
+2. Auction held: 1,000,000 allowances distributed to winning bidders' holding accounts
+3. Company A buys 10,000 from Company B: registry moves 10,000 from B's account to A's
+4. Compliance deadline: Company A surrenders 50,000 to compliance account
+5. Surrendered allowances are retired (cancelled)
+</ExampleBox>
+
+### Registry Security
+
+Registries must be highly secure because allowances have real monetary value:
+
+**Access controls**
+
+Multi-factor authentication, authorized user lists, and audit trails.
+
+**Transaction delays**
+
+Some systems impose delays on large transactions to allow for fraud detection.
+
+**Encryption**
+
+All data stored and transmitted with encryption.
+
+**Backup and recovery**
+
+Robust backup systems to prevent data loss.
+
+**Fraud detection**
+
+Monitoring for unusual patterns that might indicate theft or manipulation.
+
+<DeepDive title="EU registry security after the 2011 thefts">
+In January 2011, hackers stole about €30 million worth of EU allowances through phishing attacks on registry accounts.
+
+**What happened:**
+- Hackers gained login credentials through phishing
+- Transferred allowances to accounts they controlled
+- Sold allowances before theft was detected
+- Allowances dispersed across multiple jurisdictions
+
+**Response:**
+The EU implemented major security upgrades:
+- Mandatory two-factor authentication
+- 26-hour delay on all transfers to new accounts
+- Trusted account lists (instant transfers only to pre-approved accounts)
+- Enhanced monitoring for suspicious activity
+- Improved coordination across national registries
+
+**Lesson:**
+Carbon registries are valuable targets. Security must be treated as seriously as for financial institutions.
+</DeepDive>
+
+### Trading Platforms
+
+While the registry tracks ownership, trading platforms facilitate price discovery and transactions:
+
+**Formal exchanges**
+
+Organized marketplaces like ICE (Intercontinental Exchange) or EEX (European Energy Exchange).
+
+Features:
+- Standardized contracts
+- Transparent pricing
+- Central clearing (reduces counterparty risk)
+- Regulatory oversight
+
+**Over-the-counter (OTC) markets**
+
+Direct transactions between parties, often facilitated by brokers.
+
+Features:
+- More flexible contract terms
+- Less transparency
+- Higher counterparty risk
+- Lower regulatory burden
+
+<ResponsiveTable>
+| Feature | Exchange | OTC |
+|---------|----------|-----|
+| Transparency | High | Low |
+| Standardization | High | Flexible |
+| Counterparty risk | Low (cleared) | Higher |
+| Costs | Exchange fees | Broker fees |
+| Regulatory oversight | High | Lower |
+| Liquidity | Usually higher | Variable |
+</ResponsiveTable>
+
+### Price Discovery
+
+Trading platforms enable price discovery, one of the key benefits of market-based instruments:
+
+**Real-time pricing**
+
+Exchange prices reflect current supply and demand. Prices adjust continuously as conditions change.
+
+**Forward pricing**
+
+Futures contracts allow trading of future vintage allowances, providing signals about expected future prices.
+
+**Information aggregation**
+
+Market prices incorporate diverse information from many participants about economic conditions, policy expectations, and abatement costs.
+
+<HighlightBox>
+A well-functioning carbon market produces price signals that guide investment decisions. When prices are high, the market is saying "more abatement is needed." When prices are low, "supply exceeds demand." These signals help allocate resources efficiently.
+</HighlightBox>
+
+### Market Participants
+
+A healthy carbon market needs diverse participants:
+
+**Compliance buyers**
+
+Companies that need allowances for compliance. The core demand side.
+
+**Compliance sellers**
+
+Companies with surplus allowances. Natural sellers.
+
+**Intermediaries**
+
+Banks, traders, and brokers who provide liquidity and connect buyers and sellers.
+
+**Speculators**
+
+Investors who trade based on price expectations. Add liquidity but can increase volatility.
+
+**Hedgers**
+
+Entities using carbon markets to manage future cost risks.
+
+### Market Oversight
+
+Carbon markets need regulation to maintain integrity:
+
+**Market surveillance**
+
+Monitoring for manipulation, insider trading, and other abuses.
+
+**Position limits**
+
+Caps on how much any single entity can hold or trade.
+
+**Reporting requirements**
+
+Obligations to report large positions and transactions.
+
+**Enforcement**
+
+Penalties for market abuse and manipulation.
+
+<ExampleBox>
+**EU market oversight evolution:**
+
+Initially, EU ETS carbon trading had limited oversight. After various incidents:
+
+**2011:** Theft and fraud highlighted security gaps
+
+**2013:** Allowances classified as financial instruments in some countries
+
+**2018:** MiFID II (Markets in Financial Instruments Directive) brought full financial regulation to carbon trading
+
+**Now:** EU carbon markets are regulated like other commodity derivatives, with:
+- Position reporting
+- Surveillance
+- Conduct rules
+- Authorization requirements for trading firms
+</ExampleBox>
+
+### Building Market Infrastructure
+
+For countries developing new ETS systems, market infrastructure takes time:
+
+**Phase 1: Basic registry (1-2 years)**
+- Develop registry software
+- Establish account management procedures
+- Test with pilot participants
+
+**Phase 2: Trading framework (1-2 years)**
+- Decide exchange vs OTC approach
+- Develop trading rules
+- Accredit/authorize trading platforms
+
+**Phase 3: Full operations (ongoing)**
+- Launch trading
+- Build market oversight capacity
+- Refine rules based on experience
+
+<AnalogyBox>
+Building carbon market infrastructure is like opening a new stock exchange. You need the central database (registry), trading venues (exchanges), rules (market regulations), and referees (oversight). Each piece must work together for the market to function.
+</AnalogyBox>
+
+### Linking Registries
+
+When ETS systems link (allowing allowances from one system to be used in another), registries must communicate:
+
+**Technical challenges:**
+- Different database structures
+- Time zone coordination
+- Security protocols
+
+**Policy challenges:**
+- Ensuring allowance equivalence
+- Preventing fraud across borders
+- Coordinating oversight
+
+**Example: EU-Switzerland link:**
+
+When the EU and Swiss ETS linked in 2020:
+- Registries were connected electronically
+- Allowances can be transferred between systems
+- Both sets of allowances valid in either system for compliance
+
+### Looking Ahead
+
+With trading infrastructure in place, the next crucial design choice is whether to allow banking and borrowing of allowances. These flexibility mechanisms affect price stability and environmental integrity.

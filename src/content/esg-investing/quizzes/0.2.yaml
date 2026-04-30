@@ -1,0 +1,44 @@
+- question: "The Brundtland Report, published in 1987, is most significant for ESG investing because it:"
+  options:
+    - "Introduced the Principles for Responsible Investment and launched the PRI at the New York Stock Exchange"
+    - "Introduced the concept of sustainable development and laid the groundwork for the Rio Earth Summit"
+    - "Coined the term 'ESG' and made the business case for integrating ESG into capital markets"
+    - "Established the first mandatory ESG disclosure requirements for publicly listed companies"
+  answer: 1
+  explanation: "The Brundtland Report introduced the concept of sustainable development — meeting the needs of the present without compromising future generations — and laid the intellectual foundation for the 1992 Rio Earth Summit. The PRI was launched in 2006; the term 'ESG' was coined by the 'Who Cares Wins' report in 2004."
+
+- question: "The Pioneer Fund, launched in 1928, is historically notable because it:"
+  options:
+    - "Was the first fund to adopt ESG integration as its primary investment methodology"
+    - "Was the first fund to apply the Sullivan Principles to its portfolio"
+    - "Was one of the first ethical mutual funds to apply investment screens based on religious traditions"
+    - "Was the founding signatory of the Principles for Responsible Investment"
+  answer: 2
+  explanation: "The Pioneer Fund is historically notable as one of the first ethical mutual funds to apply investment exclusions based on religious traditions — specifically excluding tobacco and alcohol. ESG integration as a methodology came much later; the Sullivan Principles related to apartheid divestment; and the PRI was created in 2006."
+
+- question: "The report titled 'Who Cares Wins' is significant in the history of ESG investing primarily because it:"
+  options:
+    - "Established mandatory carbon reporting requirements for all listed companies globally"
+    - "Effectively coined the term 'ESG' and made the case that embedding ESG factors in capital markets makes good business sense"
+    - "Proved for the first time that ESG portfolios outperform conventional portfolios on a risk-adjusted basis"
+    - "Launched the UN Sustainable Development Goals framework"
+  answer: 1
+  explanation: "'Who Cares Wins' (2004), produced under the UN Global Compact and supported by the IFC, effectively coined the term 'ESG' and made the business case for ESG integration in capital markets. The SDGs were launched in 2015; the report did not establish mandatory reporting or prove outperformance — it made a qualitative business case."
+
+- question: "The global financial crisis of 2008 accelerated ESG adoption among institutional investors primarily because it:"
+  options:
+    - "Led directly to the creation of the EU Taxonomy Regulation and SFDR"
+    - "Demonstrated that markets with higher ESG scores were immune to financial contagion"
+    - "Reinforced that systemic risks — including governance failures — could destabilise the entire financial system, strengthening the case for extra-financial analysis"
+    - "Required all pension funds to adopt the Principles for Responsible Investment as a condition of bailout funding"
+  answer: 2
+  explanation: "The 2008 financial crisis — driven significantly by governance failures in banking — underscored that market pressures alone do not always produce stable outcomes, and that systemic risks with ESG dimensions could threaten the entire financial system. It reignited interest in extra-financial analysis. The EU Taxonomy was created much later (2020)."
+
+- question: "The Freshfields Report (2004) was produced by the UN Environment Programme Finance Initiative. Its primary significance for ESG investing was:"
+  options:
+    - "It established the six Principles for Responsible Investment adopted at the PRI's launch"
+    - "It concluded that integrating ESG issues into investment analysis is consistent with fiduciary duty, given that ESG issues are relevant for financial valuation"
+    - "It introduced mandatory ESG disclosure requirements across EU financial markets"
+    - "It demonstrated that negative screening produces superior risk-adjusted returns compared to ESG integration"
+  answer: 1
+  explanation: "The Freshfields Report concluded that ESG issues are relevant for financial valuation and therefore consistent with — and arguably required by — fiduciary duty. This legal clarity was pivotal. The six Principles for Responsible Investment came from the PRI itself (2006), not the Freshfields Report; mandatory EU disclosure came later."

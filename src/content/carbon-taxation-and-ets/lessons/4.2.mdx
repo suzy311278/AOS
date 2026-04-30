@@ -1,0 +1,260 @@
+{/* source: ETS Handbook Step 5; Table 5-1 */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/carbon-pricing/4_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Free Allocation Methods: Grandfathering and Benchmarking
+
+When allowances are distributed for free, the method matters. How you decide who gets what can create perverse incentives, reward past behavior, or encourage efficiency. This lesson compares the two main approaches: grandfathering and benchmarking.
+
+### Grandfathering: Allocation Based on Historical Emissions
+
+Grandfathering allocates allowances based on what an entity emitted in a past reference period.
+
+**How it works:**
+
+1. Choose a baseline period (e.g., average emissions from 2018-2020)
+2. Calculate each entity's baseline emissions
+3. Allocate allowances as a percentage of baseline emissions
+4. Apply the same percentage across all entities
+
+<ExampleBox>
+**Grandfathering example:**
+
+Three cement plants with baseline emissions:
+- Plant A: 500,000 tons
+- Plant B: 300,000 tons
+- Plant C: 200,000 tons
+- Total: 1,000,000 tons
+
+If 900,000 allowances are available (cap is 90% of baseline):
+- Plant A receives: 450,000 (90% × 500,000)
+- Plant B receives: 270,000 (90% × 300,000)
+- Plant C receives: 180,000 (90% × 200,000)
+
+Each plant must reduce 10% or buy allowances.
+</ExampleBox>
+
+### Problems with Grandfathering
+
+While simple, grandfathering has significant drawbacks:
+
+**Rewards past polluters**
+
+The more you emitted historically, the more free allowances you receive. Efficient facilities that already reduced emissions are disadvantaged.
+
+**Locks in inefficiency**
+
+If Plant A emitted more because it was less efficient, it gets rewarded with more allowances. Plant C, which invested in efficiency, is penalized.
+
+**Creates windfall profits**
+
+Facilities receive valuable allowances for free based on past behavior, not future actions.
+
+**Early action problem**
+
+Companies that reduced emissions before the baseline period receive fewer allowances, punishing early movers.
+
+<AnalogyBox>
+Grandfathering is like dividing an inheritance based on how much debt each heir had. The one who spent the most recklessly gets the biggest share. This hardly seems fair to the prudent sibling who saved.
+</AnalogyBox>
+
+### Benchmarking: Allocation Based on Production and Efficiency
+
+Benchmarking allocates based on production levels and an efficiency standard, not historical emissions.
+
+**How it works:**
+
+1. Define a benchmark: emissions per unit of output for efficient facilities
+2. Measure each entity's production (tons of steel, MWh of electricity)
+3. Allocate: Allowances = Production × Benchmark
+
+**Setting the benchmark:**
+
+The benchmark is typically the average of the most efficient 10% of facilities in that sector. This means efficient facilities receive enough allowances to cover their emissions (or nearly so), while inefficient facilities face a shortfall.
+
+<ExampleBox>
+**Benchmarking example:**
+
+Three cement plants producing the same amount but with different efficiency:
+
+| Plant | Production | Emissions | Emissions per ton |
+|-------|------------|-----------|------------------|
+| A | 1,000,000 tons | 900,000 tCO2 | 0.90 tCO2/ton |
+| B | 1,000,000 tons | 850,000 tCO2 | 0.85 tCO2/ton |
+| C | 1,000,000 tons | 800,000 tCO2 | 0.80 tCO2/ton |
+
+If the benchmark is 0.82 tCO2 per ton of cement (efficient level):
+
+| Plant | Production | Benchmark allocation | Actual emissions | Gap |
+|-------|------------|---------------------|------------------|-----|
+| A | 1,000,000 | 820,000 | 900,000 | -80,000 |
+| B | 1,000,000 | 820,000 | 850,000 | -30,000 |
+| C | 1,000,000 | 820,000 | 800,000 | +20,000 |
+
+Plant C is rewarded for efficiency. Plant A faces the largest gap for its inefficiency.
+</ExampleBox>
+
+### Advantages of Benchmarking
+
+**Rewards efficiency**
+
+Efficient facilities receive enough (or more) allowances. Inefficient facilities must improve or buy allowances.
+
+**Does not reward past pollution**
+
+Allocation depends on current production and efficient practice, not historical emissions.
+
+**Incentivizes improvement**
+
+Facilities have an incentive to reach benchmark levels, creating continuous improvement pressure.
+
+**Fair to early movers**
+
+Companies that already achieved efficiency are not penalized for their investments.
+
+<HighlightBox>
+Benchmarking sends a clearer signal: "produce as efficiently as the best performers, or pay for the difference." This is more aligned with the goal of driving efficiency improvements across the sector.
+</HighlightBox>
+
+### Challenges with Benchmarking
+
+**Complex to implement**
+
+You need production data, not just emissions. Product categories must be defined. Benchmarks must be calculated for many products.
+
+**Defining products**
+
+Is all cement the same? Different cement types have different emissions profiles. Benchmark systems can become extremely complex.
+
+**Data requirements**
+
+Accurate production data is needed, which may not exist in all jurisdictions.
+
+**Updating benchmarks**
+
+As technology improves, benchmarks should tighten. But this creates uncertainty for facilities.
+
+<DeepDive title="EU ETS benchmark complexity">
+The EU ETS uses 54 product benchmarks for industry sectors. Examples:
+
+| Product | Benchmark (tCO2/ton) | Top 10% of EU facilities |
+|---------|---------------------|-------------------------|
+| Cement clinker | 0.766 | 0.657 |
+| Grey cement | 0.847 | 0.733 |
+| Hot metal (steel) | 1.328 | 1.052 |
+| Float glass | 0.453 | 0.411 |
+| Newsprint | 0.298 | 0.239 |
+
+**The process:**
+1. Collect data from all facilities
+2. Calculate efficiency levels across the sector
+3. Set benchmark based on top 10% performers
+4. Update periodically (every ~5 years)
+
+**Complexity:**
+- Different product categories require different benchmarks
+- Facilities producing multiple products need multiple benchmarks
+- Heat and electricity adjustments add layers
+- Cross-sectoral correction factors apply when benchmarks exceed what the cap can accommodate
+
+This complexity is the price of a system that rewards efficiency rather than rewarding past emissions.
+</DeepDive>
+
+### Comparing the Methods
+
+<ResponsiveTable>
+| Feature | Grandfathering | Benchmarking |
+|---------|---------------|--------------|
+| Basis | Historical emissions | Production × efficiency standard |
+| Rewards | Past polluters | Efficient producers |
+| Incentive | Maintain status quo | Improve efficiency |
+| Early movers | Penalized | Rewarded |
+| Complexity | Low | High |
+| Data needs | Historical emissions | Production data + benchmark calculations |
+| Windfall risk | High | Lower |
+| Sectoral comparability | Limited | Better (benchmarks can compare) |
+</ResponsiveTable>
+
+### Output-Based Allocation
+
+A refinement of benchmarking is output-based allocation, where allowances depend on current or recent production, not fixed baseline production.
+
+**How it works:**
+
+Allocation = Recent Production × Benchmark
+
+**Advantages:**
+- Adjusts automatically if production increases or decreases
+- Prevents windfall profits from production declines
+- Better protects against leakage (output stays, emissions stay)
+
+**Disadvantages:**
+- Less predictable for facilities
+- Administrative burden of annual recalculation
+- May over-allocate if production increases
+
+<ExampleBox>
+**Output-based example:**
+
+A steel plant's production varies year to year:
+- 2020: 800,000 tons
+- 2021: 900,000 tons
+- 2022: 700,000 tons
+
+With output-based allocation at 1.2 tCO2/ton benchmark:
+- 2020 allocation: 960,000 allowances
+- 2021 allocation: 1,080,000 allowances
+- 2022 allocation: 840,000 allowances
+
+If the plant maintains efficient operations, its allocation tracks its actual needs.
+</ExampleBox>
+
+### Which Approach to Choose?
+
+The choice depends on:
+
+**Administrative capacity**
+
+Grandfathering is simpler. Benchmarking requires substantial data and expertise.
+
+**Policy goals**
+
+If the goal is to reward efficiency, benchmarking is superior. If simplicity is paramount, grandfathering may suffice initially.
+
+**Sector characteristics**
+
+Some sectors have clear products and benchmarks (cement, steel). Others are harder to benchmark (complex chemicals).
+
+**Political constraints**
+
+Benchmarking can be controversial because it creates winners and losers within a sector. Grandfathering spreads the burden more evenly (though less fairly).
+
+**Transition path**
+
+Many systems start with grandfathering and transition to benchmarking as capacity develops.
+
+### The EU's Hybrid Approach
+
+The EU ETS uses a sophisticated combination:
+
+**Benchmarking for product-specific allocation**
+
+Allowances based on production × product benchmark.
+
+**Leakage exposure factor**
+
+Sectors at high leakage risk get 100% of benchmark allocation. Sectors at low risk get reduced percentages (declining from 30% toward 0%).
+
+**Activity level adjustments**
+
+Allocations adjust based on production changes.
+
+**Carbon leakage list**
+
+Updated list of sectors qualifying for enhanced free allocation.
+
+This system attempts to balance efficiency incentives, leakage protection, and transition to full auctioning.
+
+### Looking Ahead
+
+Once allocations are determined, they need to be updated over time. Production changes, facilities open and close, and policy evolves. The next lesson explores how allocation systems adapt over time.

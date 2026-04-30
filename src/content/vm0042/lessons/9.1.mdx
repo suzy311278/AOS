@@ -1,0 +1,225 @@
+{/* 9.1: Internal & External Risk Scoring */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/vm0042/9_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## AFOLU Non-Permanence Risk Tool: Internal & External Risk Scoring
+
+<HighlightBox>
+  <p class="font-semibold text-green-800">Why AFOLU projects must hold a buffer</p>
+  <p class="text-green-900 mt-1">Carbon stored in agricultural soil is not permanent, a drought, flood, farmer bankruptcy, or political change could reverse the carbon gains of years of improved land management. The <strong>AFOLU Non-Permanence Risk Tool v4.2</strong> assigns every VCS AFOLU project a risk rating (as a percentage), which becomes its required <strong>buffer contribution</strong>, the fraction of earned VCUs deposited into a shared insurance account rather than sold.</p>
+</HighlightBox>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">Analogy: Deposit Insurance</p>
+  <p class="mt-2 text-blue-900">Think of the AFOLU Pooled Buffer Account as an insurance fund for the carbon market. Every AFOLU project pays a premium (the buffer contribution) based on how risky its carbon storage is. If a project has a reversal event (a wildfire burns the carbon, or a farmer sells the land and plows it up), Verra cancels credits from the buffer pool, the insurance pays out. Higher risk = higher premium.</p>
+</AnalogyBox>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">What a High Buffer Rate Costs in Practice</p>
+  <p class="mt-2 text-sm">A VM0042 project in a politically unstable region of sub-Saharan Africa scored:</p>
+  <ul class="list-disc ml-6 text-sm mt-1 space-y-1">
+    <li>Internal risk: 22 (high opportunity cost, nearby land is being converted to soy plantations)</li>
+    <li>External risk: 14 (land tenure disputes in 8% of project area, +10; and weak government stability, +4)</li>
+    <li>Natural risk: 12 (fire and drought risk)</li>
+    <li><strong>Total: 48% buffer rate</strong></li>
+  </ul>
+  <p class="mt-2 text-sm">On a verification period producing 100,000 tCO₂e, the developer retained only 52,000 marketable VCUs. At $18/VCU, revenue was $936,000, not the $1.8 million the raw credit number implied. Managing risk factors to bring the buffer below 20% would have nearly doubled effective revenue.</p>
+</ExampleBox>
+
+### The Risk Framework: Three Categories
+<p class="mb-3 text-sm">The total non-permanence risk rating is the sum of three categories of risk:</p>
+<ResponsiveTable>
+<table class="mb-6 text-sm">
+  <tr><th>Category</th><th>Sub-categories</th><th>What it captures</th></tr>
+  <tr><td><strong>Internal Risks</strong></td><td>Project Management (PM), Financial Viability (FV), Opportunity Cost (OC), Project Longevity (PL)</td><td>Risks arising from within the project</td></tr>
+  <tr><td><strong>External Risks</strong></td><td>Land Tenure (LT), Stakeholder Engagement (SE), Political Risk (PC)</td><td>Risks arising from outside the project</td></tr>
+  <tr><td><strong>Natural Risks</strong></td><td>Fire, Pest/Disease, Extreme Weather, Geological, SLR, Climate Change</td><td>Risks from natural events over 100 years</td></tr>
+</table>
+</ResponsiveTable>
+
+<div class="bg-red-50 border border-red-200 rounded p-3 mb-6 text-sm">
+  <p class="font-semibold text-red-800">Critical Rules and Thresholds</p>
+  <ul class="mt-1 space-y-1 text-red-900">
+    <li>- Any individual risk factor rated "FAIL" disqualifies the project from crediting until addressed</li>
+    <li>- Natural risk &gt; 35 - project FAILS (Section 2.4.6)</li>
+    <li>- Internal risk &gt; 35 - project FAILS (Section 2.5.3)</li>
+    <li>- External risk &gt; 20 - project FAILS (Section 2.5.3)</li>
+    <li>- Overall risk &gt; 60 - project FAILS entirely (Section 2.5.3)</li>
+    <li>- <strong>Minimum buffer floor = 12%</strong>, even if calculated score is lower, 12% is the floor (Section 2.5.2)</li>
+    <li>- No individual sub-category score can fall below zero (minimum = 0)</li>
+    <li>- Buffer contribution rate = overall risk rating (at minimum 12%), rounded UP to the nearest whole percent</li>
+  </ul>
+</div>
+
+### Internal Risk 1: Project Management (PM)
+<p class="mb-3 text-sm">Assesses whether the management team is capable, present, and has plans to address risks.</p>
+<ResponsiveTable>
+<table class="mb-4 text-sm">
+  <tr><th>Factor</th><th>Score</th></tr>
+  <tr><td colspan="2" class="bg-red-100 font-semibold text-red-800">GATEWAY: No adaptive management plan with monitoring plan - <strong>FAIL</strong></td></tr>
+  <tr><td>Species planted (where applicable) associated with >25% of stocks are non-native and unproven in similar agro-ecologies</td><td>+2</td></tr>
+  <tr><td>Ongoing enforcement needed to prevent encroachment on >50% of stocks</td><td>+2</td></tr>
+  <tr><td>Management team lacks individuals with ≥5 years experience in required skills</td><td>+2</td></tr>
+  <tr><td>Management team does not maintain a presence or is >1 day travel from project site</td><td>+2</td></tr>
+  <tr><td>Management team previously failed to submit a loss report within 2 years of a loss event</td><td>+2</td></tr>
+  <tr><td class="text-blue-800 font-semibold">ALM-specific: Some/all farmers have NOT received training on improved ALM practices</td><td>+2</td></tr>
+  <tr><td class="text-blue-800 font-semibold">ALM-specific: Some/all farmers unaware of potential yield decrease during transition</td><td>+2</td></tr>
+  <tr><td>Mitigation: Management team has >5 years experience in AFOLU project design, carbon accounting, and VCS reporting</td><td>-2</td></tr>
+  <tr><td class="text-blue-800 font-semibold">Mitigation (ALM): Comprehensive training plan covering practices, monitoring, and transition costs in place</td><td>-2</td></tr>
+</table>
+</ResponsiveTable>
+
+<div class="bg-blue-50 border border-blue-200 rounded p-3 mb-6 text-sm">
+  <p class="font-semibold text-blue-800">Note on ALM-Specific PM Factors</p>
+  <p class="mt-1 text-blue-900">VM0042 ALM projects face two unique PM risks: farmers may not know the improved practices they are supposed to implement, and they may be unprepared for the temporary yield dip that sometimes occurs when transitioning from conventional to regenerative management. Both add risk; having a comprehensive training plan mitigates both.</p>
+</div>
+
+### Internal Risk 2: Financial Viability (FV)
+<p class="mb-3 text-sm">A financially stressed project is more likely to be abandoned before carbon stocks are secured. Financial viability is assessed on: (1) how long until the project breaks even, and (2) how much funding has been secured.</p>
+<ResponsiveTable>
+<table class="mb-4 text-sm">
+  <tr><th>Q1: Payback Period</th><th>Score</th></tr>
+  <tr><td class="bg-red-100 text-red-800">Payback period >20 years from current risk assessment</td><td><strong>FAIL</strong></td></tr>
+  <tr><td>>10 years and ≤20 years</td><td>+3</td></tr>
+  <tr><td>>7 years and ≤10 years</td><td>+2</td></tr>
+  <tr><td>>4 years and ≤7 years</td><td>+1</td></tr>
+  <tr><td>≤4 years</td><td>0</td></tr>
+  <tr><th>Q2: Funding Secured for Pre-Breakeven Cash Outflows</th><th>Score</th></tr>
+  <tr><td>Secured &lt;15% of needed funding</td><td>+3</td></tr>
+  <tr><td>Secured 15% to &lt;40%</td><td>+2</td></tr>
+  <tr><td>Secured 40% to &lt;80%</td><td>+1</td></tr>
+  <tr><td>Secured ≥80%</td><td>0</td></tr>
+  <tr><th>Mitigation</th><th>Score</th></tr>
+  <tr><td>Available (callable and secured) financial resources cover ≥80% of total pre-breakeven cash outflows</td><td>-2</td></tr>
+</table>
+</ResponsiveTable>
+
+### Internal Risk 3: Opportunity Cost (OC)
+<p class="mb-3 text-sm">If the land could be much more profitably used for something else (e.g., converted to a soybean plantation for 2x the NPV), landowners face constant pressure to abandon the carbon project. This is the <em>opportunity cost risk</em>.</p>
+<ResponsiveTable>
+<table class="mb-4 text-sm">
+  <tr><th>NPV Comparison (project vs. most profitable alternative)</th><th>Score</th></tr>
+  <tr><td>Alternative NPV ≥100% more than project NPV</td><td>+8</td></tr>
+  <tr><td>Alternative NPV >50% to ≤100% more than project</td><td>+6</td></tr>
+  <tr><td>Alternative NPV >20% to ≤50% more than project</td><td>+4</td></tr>
+  <tr><td>Alternative NPV ≤20% more than project</td><td>0</td></tr>
+  <tr><td>Project NPV >20% to ≤50% more profitable than best alternative</td><td>-2</td></tr>
+  <tr><td>Project NPV >50% more profitable than best alternative</td><td>-4</td></tr>
+  <tr><th>For subsistence-driven baselines</th><th></th></tr>
+  <tr><td>NPV analysis not required; instead: net positive community impacts NOT demonstrated</td><td>+8</td></tr>
+  <tr><td>Net positive community impacts ARE demonstrated</td><td>0</td></tr>
+  <tr><th>Mitigations</th><th></th></tr>
+  <tr><td>Legally binding agreement to continue management for the full crediting period</td><td>-2</td></tr>
+  <tr><td>Legally binding agreement to continue management for at least 100 years</td><td>-4</td></tr>
+  <tr><td>Non-profit OR has grants/ecosystem service payments AND potential revenue loss vs. best alternative</td><td>-2</td></tr>
+</table>
+</ResponsiveTable>
+
+### Internal Risk 4: Project Longevity (PL)
+<p class="mb-3 text-sm">How long will the improved land management continue? Projects with short planned lifespans have higher risk that carbon stocks will be reversed once the project ends.</p>
+<div class="bg-red-50 border border-red-200 rounded p-3 mb-3 text-sm">
+  <p class="font-semibold text-red-800">Gateway conditions (Fail if not met):</p>
+  <ul class="mt-1 space-y-1 text-red-900">
+    <li>- Projects registered on or after 1 January 2024: longevity must be ≥40 years (also required for CCP label)</li>
+    <li>- Projects registered before 1 January 2024: longevity must be ≥30 years</li>
+    <li>- Must have a management, financial, and monitoring plan for the entire longevity period</li>
+  </ul>
+</div>
+
+<EquationBreakdown
+  title="PL Score - Without Legal Agreement"
+  result="PL | PL Score | The project longevity risk score - lower scores mean less risk of carbon reversal after the project ends (minimum 0) | blue"
+  inputs="25 | Base Score | Starting risk score representing maximum longevity risk | green ;; longevity / 5 | Longevity Credit | Each 5 years of planned project life reduces the score by 1 point | amber"
+  operator="-"
+/>
+
+<EquationBreakdown
+  title="PL Score - With Legal Agreement"
+  result="PL | PL Score | The project longevity risk score when a legally binding management agreement is in place (minimum 0) | blue"
+  inputs="25 | Base Score | Starting risk score representing maximum longevity risk | green ;; longevity / 4 | Longevity Credit | Each 4 years of planned project life reduces the score by 1 point - faster reduction due to legal backing | amber"
+  operator="-"
+/>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">PL Score Examples</p>
+  <ResponsiveTable>
+<table class="text-sm mt-2">
+    <tr><th>Project Longevity</th><th>Legal Agreement?</th><th>PL Score</th></tr>
+    <tr><td>40 years</td><td>No</td><td>25 - (40/5) = 25 - 8 = <strong>17</strong></td></tr>
+    <tr><td>40 years</td><td>Yes</td><td>25 - (40/4) = 25 - 10 = <strong>15</strong></td></tr>
+    <tr><td>60 years</td><td>No</td><td>25 - (60/5) = 25 - 12 = <strong>13</strong></td></tr>
+    <tr><td>100 years</td><td>Yes</td><td>25 - (100/4) = 25 - 25 = <strong>0</strong></td></tr>
+    <tr><td>100 years</td><td>No</td><td>25 - (100/5) = 25 - 20 = <strong>5</strong></td></tr>
+  </table>
+</ResponsiveTable>
+  <p class="text-sm mt-2 text-amber-800">A 100-year project with a binding legal agreement scores <strong>zero</strong> on longevity risk, as close to permanent as the tool recognizes.</p>
+</ExampleBox>
+
+### External Risk 1: Land & Resource Tenure (LT)
+<p class="mb-3 text-sm">This is often the highest-scoring external risk for AFOLU projects. Disputed land ownership or government expropriation history can add up to 37 points.</p>
+<ResponsiveTable>
+<table class="mb-4 text-sm">
+  <tr><th>Factor</th><th>Score</th></tr>
+  <tr><td class="bg-red-100 text-red-800">No due process to discover ownership/access disputes - <strong>FAIL</strong></td><td>FAIL</td></tr>
+  <tr><td class="bg-red-100 text-red-800">No binding legal agreement securing control over ALL entities with ownership/use rights - <strong>FAIL</strong></td><td>FAIL</td></tr>
+  <tr><td>Different entities hold land ownership vs. resource use rights</td><td>+2</td></tr>
+  <tr><td>Government expropriated ≥10% of project area in past 20 years</td><td>+10</td></tr>
+  <tr><td>Government changed land rights in past 20 years (cancellations, overlapping titles)</td><td>+5</td></tr>
+  <tr><td>No government intervention in past 20 years (or resolved against government in court)</td><td>0</td></tr>
+  <tr><td>Disputes over land tenure in >5% of project area</td><td>+10</td></tr>
+  <tr><td>Disputes over land tenure in up to 5% of project area</td><td>+5</td></tr>
+  <tr><td>No disputes over land tenure</td><td>0</td></tr>
+  <tr><td>Disputes over access/use rights in >5% of project area</td><td>+10</td></tr>
+  <tr><td>Disputes over access/use rights in up to 5% of project area</td><td>+5</td></tr>
+  <tr><td>No disputes over access/use rights</td><td>0</td></tr>
+  <tr><td>Mitigation: Protected by legally binding agreement for duration of crediting period</td><td>-2</td></tr>
+  <tr><td>Mitigation: Documented evidence of action to resolve existing disputes</td><td>-2</td></tr>
+</table>
+</ResponsiveTable>
+
+### External Risk 2: Stakeholder Engagement (SE)
+<p class="mb-3 text-sm">Applies where local populations within the project area OR within 20 km of the boundary rely on the project area for food, fuel, medicines, or building materials.</p>
+<ResponsiveTable>
+<table class="mb-4 text-sm">
+  <tr><th>Factor</th><th>Score</th></tr>
+  <tr><td>NOT more than 50% of stakeholders living <em>within</em> the project area and reliant on it have been consulted</td><td>+10</td></tr>
+  <tr><td>More than 50% of stakeholders living within the project area and reliant on it have been consulted</td><td>0</td></tr>
+  <tr><td>NOT more than 20% of stakeholders living outside but within 20 km and reliant have been consulted</td><td>+5</td></tr>
+  <tr><td>More than 20% of stakeholders living outside but within 20 km and reliant have been consulted</td><td>0</td></tr>
+</table>
+</ResponsiveTable>
+
+### External Risk 3: Political Risk (PC)
+<p class="mb-3 text-sm">Based on the World Bank Institute's Worldwide Governance Indicators (WGI), the mean of 6 governance dimensions over the most recent 5 years.</p>
+<ResponsiveTable>
+<table class="mb-4 text-sm">
+  <tr><th>WGI Governance Score</th><th>Risk Score</th></tr>
+  <tr><td>Less than -0.79</td><td>+6</td></tr>
+  <tr><td>-0.79 to &lt;-0.32</td><td>+4</td></tr>
+  <tr><td>-0.32 to &lt;0.19</td><td>+2</td></tr>
+  <tr><td>0.19 to &lt;0.82</td><td>+1</td></tr>
+  <tr><td>0.82 or more</td><td>0</td></tr>
+  <tr><td>Mitigation: Country is Paris Agreement party, submitted NDC in last 5 years with AFOLU commitments, and has active climate plan including this project activity</td><td>-2</td></tr>
+</table>
+</ResponsiveTable>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Internal + External Risk: Kenya Regenerative Project</p>
+  <p class="mt-2 text-sm">A 3,000 ha VM0042 project in Kenya's Rift Valley implementing improved grazing and cover cropping:</p>
+  <ResponsiveTable>
+<table class="text-sm mt-2">
+    <tr><th>Sub-category</th><th>Score Derivation</th><th>Score</th></tr>
+    <tr><td>PM</td><td>Training plan in place (-2), experienced team on-site (no +2), ALM farmer training plan in place (-2). Two risk factors apply (+2+2). Net = 4-4 = 0</td><td>0</td></tr>
+    <tr><td>FV</td><td>Payback 8 years (+2), 55% funding secured (+1), no callable resources</td><td>3</td></tr>
+    <tr><td>OC</td><td>Alternative NPV 60% higher than project NPV (+6), legally binding 60-year agreement (-4)</td><td>2</td></tr>
+    <tr><td>PL</td><td>50-year project, with legal agreement: 25 - (50/4) = 25 - 12.5 = 12.5</td><td>12.5</td></tr>
+    <tr><td><strong>Total Internal</strong></td><td></td><td><strong>17</strong></td></tr>
+    <tr><td>LT</td><td>Same entity holds all rights (0), no government intervention in 20 years (0), no tenure disputes (0), no access disputes (0). Binding agreement mitigation (-2). Net = -2 - 0 minimum</td><td>0</td></tr>
+    <tr><td>SE</td><td>65% of within-project stakeholders consulted (0), 25% of adjacent stakeholders consulted (0)</td><td>0</td></tr>
+    <tr><td>PC</td><td>Kenya WGI = -0.50 (-0.79 to &lt;-0.32) - +4; Kenya Paris NDC + AFOLU commitments (-2)</td><td>2</td></tr>
+    <tr><td><strong>Total External</strong></td><td></td><td><strong>2</strong></td></tr>
+  </table>
+</ResponsiveTable>
+  <p class="mt-2 text-sm font-bold text-amber-800">Internal + External Risk = 17 + 2 = 19 (before adding natural risks)</p>
+</ExampleBox>
+<KeyTakeaways items="The AFOLU non-permanence risk rating (as a percentage) directly becomes the project's buffer contribution rate, with a 12% minimum floor ;; Three gateway conditions cause automatic FAIL: no adaptive management plan (PM), payback period over 20 years (FV), or no binding legal agreement for land control (LT) ;; Project longevity (PL) is typically the largest internal risk contributor - only a 100-year project with a legally binding agreement scores zero ;; Opportunity cost risk can add up to 8 points if the most profitable alternative land use has an NPV more than 100% above the project's NPV ;; Category-level failure thresholds apply independently: internal risk over 35, external risk over 20, or overall risk over 60 all disqualify the project ;; ALM-specific PM risks (farmer training gaps and unawareness of transition yield dips) can be mitigated with a comprehensive training plan covering practices, monitoring, and transition costs" />

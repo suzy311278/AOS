@@ -1,0 +1,44 @@
+- question: "What does Article 9(3) of SFDR cover, and what special benefit does it confer?"
+  options:
+    - "Article 9(3) covers products with a social investment objective; it allows a 50% sustainable investment minimum"
+    - "Article 9(3) covers products tracking EU Paris-aligned Benchmarks (PABs) or EU Climate Transition Benchmarks (CTBs); these are DEEMED to make sustainable investments without individual assessment of each holding"
+    - "Article 9(3) covers products without a reference benchmark; they must explain how the objective is met without a benchmark"
+    - "Article 9(3) covers products marketed only to professional investors; it simplifies disclosure requirements"
+  answer: 1
+  explanation: "Article 9(3) specifically covers products with carbon emission reduction as their objective that track EU PABs or EU CTBs. Products tracking these benchmarks are 'deemed to make sustainable investments' — they benefit from a presumption that index constituent investments qualify as sustainable, based on the stringent construction criteria for PABs and CTBs under the EU Benchmarks Regulation."
+
+- question: "What does 'DNSH' stand for, and why is it critical for Article 9 products?"
+  options:
+    - "'Disclosure Not Shown Here' — a placeholder in RTS templates"
+    - "'Do No Significant Harm' — the requirement that Article 9 sustainable investments must not significantly harm any environmental or social objective while contributing to another"
+    - "'Directional Net Sustainability Holdings' — the method for calculating sustainable investment percentages"
+    - "'Delegated Norms for Sustainable Holdings' — the EU Taxonomy classification for green bonds"
+  answer: 1
+  explanation: "DNSH stands for 'Do No Significant Harm.' Under Article 2(17) SFDR, a sustainable investment must not significantly harm any of the six environmental or social objectives while contributing to one. For Article 9 products, DNSH must be applied rigorously to all holdings — it is typically assessed using PAI indicators as measurement tools. The EC FAQ confirms that a future transition plan is insufficient to establish DNSH compliance."
+
+- question: "What minimum proportion of sustainable investments is generally expected for Article 9 products under supervisory guidance?"
+  options:
+    - "At least 10%"
+    - "At least 51% (simple majority)"
+    - "Near 100%, with limited exceptions for liquidity management, hedging, and sector-specific regulatory requirements"
+    - "Exactly 100% with no exceptions"
+  answer: 2
+  explanation: "While SFDR does not prescribe an exact percentage, supervisory guidance and the Commission's position have converged on the expectation that Article 9 products target near-100% sustainable investments. RTS Recital 15 acknowledges limited exceptions for liquidity, hedging, and sector-specific rules. The wave of Article 9 → Article 8 downgrades in 2022–2023 was partly driven by managers finding they could not consistently sustain near-100% sustainable investment qualification."
+
+- question: "Which RTS Annex applies to an Article 9 product that does NOT use any designated reference benchmark?"
+  options:
+    - "Annex II"
+    - "Annex III"
+    - "Annex IV"
+    - "Annex V"
+  answer: 3
+  explanation: "Annex V applies to Article 9 products without a designated reference benchmark. These products must explain in their pre-contractual documents why no benchmark was designated and provide specific sustainability indicators by which investors can assess whether the sustainable investment objective is being met. Annex IV applies to Article 9 products with a benchmark."
+
+- question: "Can an Article 9 product hold any non-sustainable investments at all?"
+  options:
+    - "No — Article 9 requires 100% sustainable investments with absolutely no exceptions"
+    - "Yes — limited exceptions exist for cash and liquidity management, hedging instruments, and investments required under sector-specific rules, which must be disclosed with their amount and purpose"
+    - "Yes — up to 49% of the portfolio may be non-sustainable as long as the majority is sustainable"
+    - "Only if the product has been approved by ESMA for a special exception"
+  answer: 1
+  explanation: "RTS Recital 15 acknowledges that Article 9 products may need to make some non-sustainable investments under sector-specific rules. In practice, the main permitted exceptions are cash/liquidity instruments, derivative hedging instruments, and regulatory capital requirements. These must be disclosed with their amount and purpose, and must not prevent the fund from attaining its sustainable investment objective."

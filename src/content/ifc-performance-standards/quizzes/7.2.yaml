@@ -1,0 +1,26 @@
+- question: "What is a chance find procedure under PS 8?"
+  options:
+    - "A method for finding new project sites during construction"
+    - "A protocol for handling cultural heritage items unexpectedly discovered during construction or operations"
+    - "A process for selecting archaeological consultants"
+    - "A procedure for acquiring heritage sites from government agencies"
+  answer: 1
+  explanation: "A chance find procedure is a protocol that defines what happens when previously unknown cultural heritage - such as archaeological artifacts, fossils, or burial sites - is discovered during construction or operations. It typically requires work stoppage, notification of authorities, assessment by qualified experts, and decisions on how to proceed before work resumes."
+
+- question: "What does PS 8 say about non-replicable cultural heritage?"
+  options:
+    - "It may be removed if the client pays fair market value"
+    - "It may not be removed, altered, or damaged unless no technically or financially feasible alternatives exist and the overall project benefits outweigh the loss"
+    - "It receives the same protection as any other cultural heritage"
+    - "Protection is only required if the heritage is on a UNESCO World Heritage list"
+  answer: 1
+  explanation: "Non-replicable cultural heritage receives the highest level of protection. PS 8 requires that it not be removed, altered, or damaged unless there are no technically or financially feasible alternatives, the overall benefits of the project outweigh the anticipated loss, and any removal or alteration follows best available practice with a good faith negotiation process."
+
+- question: "What is the scope of 'cultural heritage' under PS 8?"
+  options:
+    - "Only UNESCO World Heritage Sites"
+    - "Only nationally designated archaeological monuments"
+    - "Tangible and intangible heritage, including archaeological sites, historic structures, sacred sites, and unique natural features with cultural significance"
+    - "Only movable artifacts such as pottery and tools"
+  answer: 2
+  explanation: "PS 8 defines cultural heritage broadly to include tangible forms (archaeological sites, historic structures, sacred sites, burial areas, unique natural features with cultural significance) and intangible forms (cultural practices, knowledge, and traditions associated with tangible heritage). It extends well beyond formally designated heritage sites."

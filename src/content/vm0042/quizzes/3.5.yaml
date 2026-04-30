@@ -1,0 +1,26 @@
+- question: "Why are 'emission reductions' and 'carbon dioxide removals' tracked separately in VM0042?"
+  options:
+  - "They use different units (tCO₂ vs tCH₄)"
+  - "Removals (SOC gains) are reversible and require a buffer pool deduction; reductions (avoided emissions) are permanent and do not"
+  - "They are reported to different registries"
+  - "Reductions apply only to cropland; removals apply only to grassland"
+  answer: 1
+  explanation: "SOC gains (removals) can be reversed — if a farmer goes back to conventional tillage, stored carbon can be released. Therefore, removals require a buffer pool contribution as insurance. Emission reductions (e.g., less N₂O, less fossil fuel) are permanent and don't need a buffer."
+
+- question: "In the worked example, the project SOC cumulative gain was 33,000 tCO₂ and the baseline SOC change was +1,500 tCO₂. What is the net carbon removal?"
+  options:
+  - "33,000 tCO₂"
+  - "31,500 tCO₂"
+  - "34,500 tCO₂"
+  - "1,500 tCO₂"
+  answer: 1
+  explanation: "Net removal = Project SOC gain − Baseline SOC change = 33,000 − 1,500 = 31,500 tCO₂. You always subtract the baseline change to get the additional benefit attributable to the project."
+
+- question: "If a project's leakage is determined to be less than 5% of the total GHG benefit, what happens?"
+  options:
+  - "Leakage is applied at a 5% flat deduction anyway"
+  - "Leakage can be deemed de minimis and excluded from the calculation"
+  - "The project is automatically disqualified"
+  - "Leakage must still be quantified and deducted in full"
+  answer: 1
+  explanation: "The de minimis rule allows leakage sources below 5% of total project benefit to be excluded from the net calculation, provided this is demonstrated using the CDM significance testing tool."

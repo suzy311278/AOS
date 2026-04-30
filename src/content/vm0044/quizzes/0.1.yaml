@@ -1,0 +1,26 @@
+- question: "What are the two thermochemical processes recognized in VM0044 for producing biochar?"
+  options:
+    - "Combustion and fermentation"
+    - "Pyrolysis and gasification"
+    - "Anaerobic digestion and composting"
+    - "Hydrothermal carbonization and torrefaction"
+  answer: 1
+  explanation: "VM0044 recognizes pyrolysis (thermochemical decomposition in inert, oxygen-deficient conditions) and gasification (conversion at temperatures greater than 700 degrees C with very low oxidants). Both are treated the same way for carbon accounting purposes."
+
+- question: "Under VM0044, when does the project start date begin?"
+  options:
+    - "When the feedstock sourcing agreement is signed"
+    - "When the project design document is approved by Verra"
+    - "On the first instance of biochar production at the facility"
+    - "When the first batch of biochar is applied to soil"
+  answer: 2
+  explanation: "The project start date is defined as the first instance of biochar production at the greenfield facility. This is when the crediting period begins, not when sourcing starts or when biochar reaches the application site."
+
+- question: "Which of the following correctly describes the three-part project activity in VM0044?"
+  options:
+    - "Planting biomass, harvesting it, and burning it to generate energy"
+    - "Sourcing waste biomass, producing biochar, and utilizing it in an eligible application"
+    - "Measuring soil carbon, applying compost, and monitoring crop yields"
+    - "Certifying the facility, registering the project, and selling carbon credits"
+  answer: 1
+  explanation: "VM0044 projects involve three stages: (1) sourcing waste biomass as feedstock, (2) producing biochar at a greenfield thermochemical facility, and (3) utilizing the biochar in an eligible soil or non-soil application. GHG benefits are credited only for biochar that reaches an eligible final application."

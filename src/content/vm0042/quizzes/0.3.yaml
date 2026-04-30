@@ -1,0 +1,26 @@
+- question: "What does VCU stand for, and what does one VCU represent?"
+  options:
+  - "Verified Carbon Upfront — 1 hectare of farmland"
+  - "Verified Carbon Unit — 1 metric tonne CO₂e"
+  - "Verra Certified Unit — 1 year of monitoring"
+  - "Voluntary Carbon Unit — 1 farming practice change"
+  answer: 1
+  explanation: "VCU = Verified Carbon Unit. Each VCU represents exactly 1 metric tonne of CO₂-equivalent that has been reduced or removed, verified by an independent third party."
+
+- question: "Which Sectoral Scope does VM0042 fall under?"
+  options:
+  - "Scope 1: Energy"
+  - "Scope 7: Transport"
+  - "Scope 14: Agriculture, Forestry & Other Land Use"
+  - "Scope 3: Chemical Industry"
+  answer: 2
+  explanation: "VM0042 is under Sectoral Scope 14 (AFOLU), which covers land-use related projects including forestry, agriculture, and wetlands."
+
+- question: "What role does the VVB (Validation/Verification Body) play?"
+  options:
+  - "They develop the methodology"
+  - "They buy the carbon credits"
+  - "They independently audit the project design and results"
+  - "They register farmers in the project"
+  answer: 2
+  explanation: "VVBs are independent third-party auditors who validate that the project is designed correctly (before start) and verify that actual results match the claims (after monitoring periods)."

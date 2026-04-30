@@ -1,0 +1,26 @@
+- question: "What is the primary purpose of the Locate phase in the TNFD LEAP approach?"
+  options:
+  - "To quantify the financial cost of biodiversity loss for the organisation"
+  - "To identify where the organisation's activities interface with nature across direct operations and value chains"
+  - "To set science-based targets for biodiversity improvement"
+  - "To prepare the formal TNFD disclosure document"
+  answer: 1
+  explanation: "The Locate phase maps the geographical footprint of a business to identify where it interacts with natural systems, covering both direct operations and upstream and downstream value chains. This spatial baseline is the starting point for all subsequent LEAP phases."
+
+- question: "Which of the following best describes a 'priority location' in the TNFD LEAP framework?"
+  options:
+  - "Any location where the organisation has more than 500 employees"
+  - "A site identified by the TNFD Secretariat as globally significant for biodiversity"
+  - "A site warranting closer scrutiny due to elevated ecological sensitivity or scale of business activity"
+  - "Any location that has been assessed by an independent third-party auditor"
+  answer: 2
+  explanation: "Priority locations are defined by the TNFD as sites that warrant closer scrutiny, typically identified by overlaying business asset locations with spatial biodiversity data indicating ecological importance, such as proximity to protected areas or Key Biodiversity Areas (KBAs)."
+
+- question: "The TNFD recommends IBAT as the primary tool for the Locate phase. What does IBAT combine?"
+  options:
+  - "ENCORE sector data, GLOBIO impact models, and IUCN Red List species range maps"
+  - "World Database on Protected Areas, World Database of Key Biodiversity Areas, and IUCN Red List of Threatened Species"
+  - "Aqueduct water risk scores, Global Forest Watch deforestation data, and MapBiomas land cover maps"
+  - "MSA impact coefficients, National species richness databases, and Satellite imagery archives"
+  answer: 1
+  explanation: "IBAT (Integrated Biodiversity Assessment Tool) is maintained by IUCN, BirdLife International, and UNEP-WCMC and combines the World Database on Protected Areas (WDPA), the World Database of Key Biodiversity Areas (WDKBA), and the IUCN Red List of Threatened Species in a single screening platform."

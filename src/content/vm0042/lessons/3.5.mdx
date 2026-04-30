@@ -1,0 +1,80 @@
+{/* 3.5: Net Reductions & Removals */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/vm0042/3_5.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Net Reductions & Removals: The Master Equation
+<HighlightBox>
+  <p class="font-semibold text-green-800">Everything comes together here</p>
+  <p class="text-green-900 mt-1">This lesson assembles all the individual calculations from the previous lessons into a single net figure: <strong>Estimated Net Reductions and Removals (ERR<sub>NET</sub>)</strong>. This is the number that determines how many carbon credits the project earns.</p>
+</HighlightBox>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">🏦 Analogy: Your Net Salary</p>
+  <p class="mt-2 text-blue-900">ERR_NET is like your take-home pay. Your gross earnings are the total carbon removed and emissions reduced. Leakage is like tax withheld. Uncertainty is like an employer holding back a portion until you prove the work was done correctly. The buffer pool is the mandatory pension contribution. What ends up in your bank account (VCUs issued) is what's left after all deductions.</p>
+</AnalogyBox>
+
+### The Overall Structure
+<EquationBreakdown
+  title="Master Equation - Net Reductions & Removals"
+  result="ERR<sub>NET,t</sub> | Net Reductions & Removals | The final number that determines how many carbon credits the project earns in period t. This is what gets issued as VCUs | blue"
+  inputs="ER<sub>NET,t</sub> | Net Emission Reductions | Avoided GHG emissions (fossil fuel, N₂O, CH₄) minus any leakage allocated to reductions. These are permanent and don't need a buffer | green ;; CR<sub>NET,t</sub> | Net Carbon Removals | SOC gains above baseline minus leakage allocated to removals. These are reversible, so a buffer pool deduction applies later | amber"
+  operator="+"
+/>
+
+### Emission Reductions (ER), Equation 37
+<p class="text-sm mb-3">Emission reductions occur when GHG emissions are lower in the project than in the baseline. This includes all non-SOC GHG sources plus cases where SOC stocks are declining in the baseline:</p>
+<EquationBreakdown
+  title="Equation 37 - Emission Reductions"
+  result="ER<sub>t</sub> | Total Emission Reductions | Sum of all GHG reductions (baseline minus project) across every source in the project boundary | blue"
+  inputs="ΔGHG<sub>ff</sub> | Fossil Fuel Reduction | Baseline fuel CO₂ minus project fuel CO₂ (e.g. less tractor diesel from no-till) | green ;; ΔGHG<sub>lime</sub> | Liming Reduction | Baseline liming CO₂ minus project liming CO₂ | amber ;; ΔCH₄<sub>ent</sub> | Enteric CH₄ Reduction | Reduced methane from livestock digestion (if stocking rate decreased) | violet ;; ΔN₂O<sub>soil</sub> | Soil N₂O Reduction | Reduced nitrous oxide from lower nitrogen application, adjusted by uncertainty factor (1 - UNC) | rose"
+  operator="+"
+/>
+
+### Carbon Removals (CR), Equation 40
+<p class="text-sm mb-3">Removals occur when the cumulative carbon stock in the project scenario increases <em>above the starting level</em>:</p>
+<EquationBreakdown
+  title="Equation 40 - Carbon Removals"
+  result="CR<sub>t</sub> | Carbon Removals | Net CO₂ removed from the atmosphere via soil carbon sequestration above the baseline level | blue"
+  inputs="ΔCO₂<sub>wp,t</sub> | Project SOC Change | Cumulative SOC stock change in the project scenario. Only counted when positive (soil is gaining carbon) | green ;; ΔCO₂<sub>bsl,t</sub> | Baseline SOC Change | Cumulative SOC stock change that would have happened anyway without the project. Subtracted to isolate the project's true impact | amber"
+  operator="-"
+/>
+<p class="text-sm mb-4 text-gray-600">In simple terms: removals = (project SOC gain above baseline) × uncertainty factor, when cumulative project SOC is increasing.</p>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📐 Full Worked Example: 5,000 ha US Corn Belt No-Till Project (5 years)</p>
+
+  <p class="font-medium mt-3 text-sm">Input Data:</p>
+  <ResponsiveTable>
+<table class="text-sm mt-2">
+    <thead><tr><th>Source</th><th>Baseline (total, 5yr)</th><th>Project (total, 5yr)</th><th>Reduction</th></tr></thead>
+    <tbody>
+    <tr><td>SOC change (CO₂)</td><td>+1,500 tCO₂ (slow SOC loss)</td><td>+33,000 tCO₂ (SOC gain)</td><td>See below*</td></tr>
+    <tr><td>Fossil fuel</td><td>3,000 tCO₂</td><td>1,000 tCO₂</td><td class="text-green-700">2,000 tCO₂</td></tr>
+    <tr><td>N₂O (N fertilizer)</td><td>3,750 tCO₂e</td><td>2,500 tCO₂e</td><td class="text-green-700">1,250 tCO₂e</td></tr>
+    <tr><td>Leakage (all types)</td><td>-</td><td>-</td><td class="text-red-600">-0 (de minimis)</td></tr>
+    </tbody>
+  </table>
+</ResponsiveTable>
+
+  <p class="text-sm mt-3">*SOC component:</p>
+  <ul class="text-sm mt-1 space-y-1">
+    <li>Project SOC cumulative change = +33,000 tCO₂ (soil is sequestering carbon)</li>
+    <li>Baseline SOC cumulative change = +1,500 tCO₂ (small natural gain in baseline)</li>
+    <li><strong>Net CO₂ removal = 33,000 − 1,500 = 31,500 tCO₂ removals</strong></li>
+  </ul>
+
+  <p class="font-medium mt-4 text-sm">Totals (before uncertainty deduction):</p>
+  <ResponsiveTable>
+<table class="text-sm mt-2">
+    <tbody>
+    <tr><td><strong>Non-SOC emission reductions</strong></td><td class="text-green-700 font-bold">3,250 tCO₂e</td></tr>
+    <tr><td><strong>SOC carbon removals</strong></td><td class="text-green-700 font-bold">31,500 tCO₂e</td></tr>
+    <tr><td><strong>Total ERR (gross)</strong></td><td class="text-green-800 font-bold text-base">34,750 tCO₂e</td></tr>
+    <tr><td>Uncertainty deduction (assume 15% on SOC)</td><td class="text-red-600">-4,725 tCO₂e</td></tr>
+    <tr><td><strong>Total ERR (net, before buffer)</strong></td><td class="text-green-800 font-bold text-base">30,025 tCO₂e</td></tr>
+    </tbody>
+  </table>
+</ResponsiveTable>
+  <p class="text-xs text-amber-700 mt-2">Uncertainty and buffer discussed in Module 4.</p>
+</ExampleBox>
+<KeyTakeaways items="ERR_NET = Net Emission Reductions + Net Carbon Removals, which together determine the total VCU count before uncertainty and buffer deductions ;; Emission reductions (avoided GHG from fossil fuel, N2O, CH4) are permanent and do not require a buffer pool contribution ;; Carbon removals (SOC gains above baseline) are reversible and require a buffer pool deduction to insure against reversal ;; SOC removals typically constitute the largest share of credits in most VM0042 projects (often 80-90% of total ERR) ;; Uncertainty deductions and the buffer pool reduce the gross ERR to the final VCU issuance count - these are covered in Module 4" />

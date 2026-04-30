@@ -1,0 +1,17 @@
+- question: "What is the substantial contribution threshold for building renovation under the Climate Delegated Act?"
+  options:
+    - "At least 10% reduction in primary energy demand"
+    - "At least 20% reduction in primary energy demand"
+    - "At least 30% reduction in primary energy demand"
+    - "At least 50% reduction in primary energy demand"
+  answer: 2
+  explanation: "Building renovation must achieve at least a 30% reduction in primary energy demand to substantially contribute to climate mitigation."
+
+- question: "What is the EU Taxonomy Compass?"
+  options:
+    - "A regulation that amends the taxonomy"
+    - "A searchable tool for looking up activities and their criteria"
+    - "A financial product classification system"
+    - "A carbon emissions calculator"
+  answer: 1
+  explanation: "The EU Taxonomy Compass is a free, searchable visual tool from the Commission that lets you look up any activity and see its criteria without reading the full delegated act text."

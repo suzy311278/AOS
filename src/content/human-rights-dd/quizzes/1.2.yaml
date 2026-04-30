@@ -1,0 +1,26 @@
+- question: "According to UNGP Principle 16, at what level of a business enterprise must the human rights policy commitment be approved?"
+  options:
+  - "At the operational management level"
+  - "At the most senior level of the business enterprise (board or equivalent)"
+  - "At the sustainability team level"
+  - "Approval level is not specified; it depends on company structure"
+  answer: 1
+  explanation: "UNGP Principle 16 explicitly requires that the human rights policy commitment be approved at the most senior level of the business enterprise, typically the board or equivalent governance body. This ensures that human rights commitments are integrated into the company's overall strategy and governance rather than being treated as a compliance function only."
+
+- question: "In a Human Rights Impact Assessment (HRIA), which factor takes precedence when prioritising identified risks?"
+  options:
+  - "Likelihood of occurrence"
+  - "Cost of remediation"
+  - "Severity of potential impact"
+  - "Whether the risk has been publicly reported"
+  answer: 2
+  explanation: "Severity takes precedence over likelihood in prioritisation, as established by both the UNGPs and the OECD DDG. A low-probability but catastrophic and irreversible impact (such as loss of life or destruction of indigenous land) should rank higher than a high-probability but mild and easily remedied impact. This prevents companies from focusing only on frequent low-level issues while ignoring rare but devastating risks."
+
+- question: "The 2026 CHRB found that 87% of companies embed human rights expectations in supplier contracts, but only 39% commit to responsible purchasing practices. What does this gap reveal?"
+  options:
+  - "That companies are not genuinely committed to human rights in their supply chains"
+  - "That supplier contract requirements and companies' own purchasing behaviour (short lead times, price squeezes) can directly contradict each other, undermining suppliers' ability to meet human rights standards"
+  - "That supplier contracts are the primary and sufficient tool for HRDD"
+  - "That 87% of companies have fully completed Step 1 of their HRDD process"
+  answer: 1
+  explanation: "The CHRB gap between setting requirements for suppliers (87%) and committing to responsible purchasing practices (39%) reveals a fundamental contradiction: companies set human rights standards for suppliers while their own purchasing behaviours (pricing pressure, short lead times, last-minute changes) undermine the capacity of those suppliers to meet such standards. A thorough HRIA involving worker and supplier stakeholder engagement would identify this systemic contradiction."

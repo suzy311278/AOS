@@ -1,0 +1,26 @@
+- question: "Above what annual threshold must a project quantify and report GHG emissions under PS 3?"
+  options:
+    - "10,000 tonnes CO2e per year"
+    - "25,000 tonnes CO2e per year"
+    - "50,000 tonnes CO2e per year"
+    - "100,000 tonnes CO2e per year"
+  answer: 1
+  explanation: "PS 3 requires projects with emissions above 25,000 tonnes CO2e per year (Scope 1 and Scope 2 combined) to quantify and report their GHG emissions annually. Below this threshold, quantification is encouraged but not required."
+
+- question: "What is the correct order of the waste management hierarchy under PS 3?"
+  options:
+    - "Recycle, reduce, reuse, dispose"
+    - "Avoid/minimize generation, reuse, recycle, recover, then treat and dispose"
+    - "Dispose in licensed facilities, then consider recycling"
+    - "Incinerate, landfill, recycle"
+  answer: 1
+  explanation: "The waste hierarchy under PS 3 follows: avoid and minimize waste generation first, then reuse, recycle, recover (e.g., energy recovery), and only as a last resort, treat and dispose. This mirrors the overall mitigation hierarchy applied to waste management."
+
+- question: "Which classes of pesticides are banned under PS 3?"
+  options:
+    - "All synthetic pesticides without exception"
+    - "WHO Class Ia (extremely hazardous) and Class Ib (highly hazardous) pesticides"
+    - "Only pesticides banned in the country of operation"
+    - "Pesticides are not addressed in the Performance Standards"
+  answer: 1
+  explanation: "PS 3 prohibits the use of WHO Class Ia (extremely hazardous) and Class Ib (highly hazardous) pesticides. It also prohibits pesticides listed under the Stockholm Convention and Rotterdam Convention. Any pesticide use must follow integrated pest management approaches."

@@ -1,0 +1,26 @@
+- question: "What is the preferred approach to emission allocation in the GHG Protocol Scope 3 Standard?"
+  options:
+    - "Economic allocation based on market price"
+    - "Equal allocation among all products"
+    - "Subdivision to directly attribute emissions without allocation"
+    - "System expansion to include avoided emissions"
+  answer: 2
+  explanation: "Subdivision is the preferred approach — physically separating activities to directly attribute emissions to the causing activity, eliminating the need for allocation. When subdivision is not feasible, physical allocation is the next preferred approach, followed by economic allocation."
+
+- question: "A factory produces 300 tonnes of Product A and 700 tonnes of Product B from the same process. Total process emissions are 200 tCO₂e. Using mass-based allocation, what are Product A's allocated emissions?"
+  options:
+    - "60 tCO₂e"
+    - "100 tCO₂e"
+    - "140 tCO₂e"
+    - "200 tCO₂e"
+  answer: 0
+  explanation: "Product A share = 300/(300+700) = 30%. Allocated emissions = 30% × 200 = 60 tCO₂e."
+
+- question: "When is economic allocation preferred over physical (mass-based) allocation?"
+  options:
+    - "Always — economic allocation is universally superior"
+    - "When products have very different economic values per unit mass, making mass-based allocation physically meaningless"
+    - "When the physical quantities of products are too large to measure"
+    - "When the company prefers to reduce its reported emissions"
+  answer: 1
+  explanation: "Economic allocation is used when physical allocation is not meaningful — for example, when two co-produced chemicals have very different market values per kg, allocating equally by mass would not reflect the economic purpose of the production process. The standard still prefers physical allocation when it makes sense."

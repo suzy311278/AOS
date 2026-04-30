@@ -1,0 +1,44 @@
+- question: "What were the two major Article 6.4 standards adopted at COP29 in Baku (November 2024)?"
+  options:
+    - "The Article 6.2 accounting rulebook and the ITMO transfer standard"
+    - "The carbon dioxide removal (CDR) methodology standard and the activity cycle standard"
+    - "The Share of Proceeds levy framework and the OMGE cancellation standard"
+    - "The Supervisory Body election rules and the registry interoperability protocol"
+  answer: 1
+  explanation: "The two major breakthroughs at COP29 for Article 6.4 were the adoption of the carbon dioxide removal (CDR) methodology standard -- which governs how removal activities are defined, measured, and credited -- and the activity cycle standard -- which provides the step-by-step procedural requirements for the entire project lifecycle from Activity Design Document submission through credit issuance. Both had been rejected at COP28 in Dubai and revised over the following year."
+
+- question: "Why were the two Article 6.4 standards rejected at COP28 in Dubai and sent back for revision?"
+  options:
+    - "They were too expensive to implement and would have made the mechanism financially unviable"
+    - "Parties raised concerns about inadequate permanence treatment for carbon removals, procedural overreach by the Supervisory Body, and questions about additionality standards rigour"
+    - "The Supervisory Body had not consulted any developing country governments in developing the standards"
+    - "ICAO required changes to ensure compatibility with CORSIA eligibility criteria"
+  answer: 1
+  explanation: "At COP28, Parties rejected both standards for several reasons: inadequate treatment of permanence risk for carbon removal activities (how to handle reversal of removals stored in biological systems), concerns that the Supervisory Body had exceeded its mandate by making decisions that required CMA-level political approval, and civil society concerns about the rigour of additionality requirements. The standards were revised over 2024 and adopted at COP29 after extensive consultation."
+
+- question: "What principle regarding credit authorisation was confirmed at COP29 for both Article 6.2 and 6.4?"
+  options:
+    - "Authorisation can be withdrawn at any time if the host country changes its NDC"
+    - "First-transfer triggers the corresponding adjustment, and authorisation is irrevocable once a credit has been transferred"
+    - "Authorisation applies only when credits are used for NDC achievement, not for CORSIA"
+    - "First-transfer rules apply only to A6.4ERs, not to Article 6.2 ITMOs"
+  answer: 1
+  explanation: "COP29 confirmed two key principles across both Article 6.2 and 6.4: (1) the corresponding adjustment applies at the point of first international transfer -- not at issuance or at final use; and (2) once a credit has been authorised and transferred, the authorisation is irrevocable. This irrevocability is critical for buyer confidence: buyers cannot face the risk that a host country retroactively revokes authorisation for credits already transferred, which would strip them of their NDC-use value."
+
+- question: "As of early 2026, approximately how many companies had SBTi-validated climate targets, and why does this matter for Article 6 credit demand?"
+  options:
+    - "Fewer than 1,000 companies; their demand is too small to influence Article 6 markets"
+    - "Around 5,000 companies; most are using VCM credits and have no plans to switch to Article 6"
+    - "More than 10,000 companies; many of these will need high-quality credits for residual emissions, creating structural demand for Article 6 credits"
+    - "Around 50,000 companies; their demand exceeds the entire capacity of the A6.4 mechanism"
+  answer: 2
+  explanation: "More than 10,000 companies have SBTi-validated targets as of early 2026. These companies are committed to science-aligned emission reductions, and their net-zero pathways will require high-quality carbon credits for residual emissions that cannot be eliminated with current technology. The growing preference in corporate net-zero frameworks for credits with corresponding adjustments creates structural demand for Article 6 credits -- supplementing sovereign demand from countries seeking cost-effective NDC achievement."
+
+- question: "What is the scheduled significance of 2028 for the Article 6.4 mechanism?"
+  options:
+    - "The first A6.4ERs must be retired by this date or they expire"
+    - "The Supervisory Body's initial twelve members must all be replaced by new elections"
+    - "A dedicated review of avoidance-only activities (such as avoided deforestation) is mandated to determine whether they can be eligible under A6.4"
+    - "The Share of Proceeds rate is automatically doubled to increase Adaptation Fund financing"
+  answer: 2
+  explanation: "The CMA mandated a dedicated review of avoidance-only activities by 2028. Avoidance-only projects -- particularly avoided deforestation (REDD+) -- cannot currently be registered under A6.4 because the Supervisory Body determined that adequate methodology and permanence standards for these activities require a separate development process. The 2028 review will assess whether those standards can be agreed, potentially significantly expanding the scope of eligible A6.4 activities."

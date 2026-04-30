@@ -1,0 +1,26 @@
+- question: "When should the GRI Content Index be created relative to the rest of the report?"
+  options:
+    - "At the beginning of the engagement, to guide the writing process"
+    - "In parallel with writing the report chapters"
+    - "After all content is finalized, data is locked, and page layout is complete"
+    - "Immediately after the first draft is written"
+  answer: 2
+  explanation: "The GRI Content Index is a reference map that tells readers where each disclosure is located. Building it before the report is finalized means updating it repeatedly as content shifts and pages move. Wait until page layout is locked, and you build it once."
+
+- question: "A GRI disclosure was selected during the planning phase but the company does not currently collect the required data. How should this be handled in the Content Index?"
+  options:
+    - "Leave the row blank with no explanation"
+    - "Remove the disclosure from the Content Index entirely"
+    - "List the disclosure with an omission explanation stating the information is unavailable, ideally noting when collection will begin"
+    - "Fill in estimated data to avoid gaps in the index"
+  answer: 2
+  explanation: "GRI requires that omissions be explained. 'Information unavailable' is an acceptable reason, especially for first-time reporters. Stating when the company plans to start collecting the data demonstrates commitment to improvement. You cannot simply leave a disclosure out or leave it blank without explanation."
+
+- question: "The GRI Content Index says disclosure 302-1 is on page 44, but after design changes the actual energy data moved to page 46. What type of error is this, and how could it have been prevented?"
+  options:
+    - "A factual error that requires re-collecting the data from the client"
+    - "A cross-referencing error that is prevented by doing a final cross-check between the Content Index and the designed report"
+    - "A design error that is the designer's sole responsibility to fix"
+    - "An acceptable minor discrepancy that readers will overlook"
+  answer: 1
+  explanation: "This is one of the most common Content Index mistakes. Design layouts shift content, moving page numbers. The prevention is straightforward: always do a final cross-check between the Content Index page references and the actual designed report after layout is complete."

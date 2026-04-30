@@ -1,0 +1,44 @@
+- question: "What distinguishes Article 6.8 from Articles 6.2 and 6.4 in the Paris Agreement framework?"
+  options:
+    - "Article 6.8 requires corresponding adjustments but not credit generation"
+    - "Article 6.8 covers non-market cooperative approaches that do not involve the generation or transfer of tradable carbon credits"
+    - "Article 6.8 operates only between developed countries and is restricted to technology licensing"
+    - "Article 6.8 is identical to Article 6.2 but applies specifically to SIDS"
+  answer: 1
+  explanation: "Article 6.8 covers non-market cooperative approaches -- forms of climate cooperation that do not generate tradable carbon credits and do not require corresponding adjustments. Examples include technology transfer, capacity building, policy support, and finance provided without an expectation of carbon credits in return. This distinguishes it fundamentally from 6.2 (bilateral ITMO transfers) and 6.4 (UN-supervised credit market)."
+
+- question: "Which decision at COP26 Glasgow established the work programme for Article 6.8?"
+  options:
+    - "Decision 2/CMA.3 -- the Article 6.2 rulebook"
+    - "Decision 3/CMA.3 -- the Article 6.4 governance framework"
+    - "Decision 4/CMA.3 -- the Article 6.8 work programme"
+    - "Decision 1/CMA.3 -- the Glasgow Climate Pact"
+  answer: 2
+  explanation: "Decision 4/CMA.3, adopted at COP26 in Glasgow, established the work programme for Article 6.8. This is separate from the Article 6.2 rulebook (Decision 2/CMA.3) and the Article 6.4 governance framework (Decision 3/CMA.3). The work programme is coordinated by the UNFCCC Secretariat and is designed to identify and promote best practices in non-market cooperation."
+
+- question: "What is the Katowice Platform's role within the Article 6.8 framework?"
+  options:
+    - "It is the registry for all mitigation contribution A6.4ERs"
+    - "It is the UNFCCC digital platform that matches countries with non-market cooperation needs to potential providers of support"
+    - "It is the accounting system for corresponding adjustments under Article 6.2"
+    - "It is a compliance verification database for CDM projects transitioning to A6.4"
+  answer: 1
+  explanation: "The digital platform (informally called the Katowice Platform) is a UNFCCC-maintained matchmaking system for Article 6.8 cooperation. Countries with climate action needs -- for example, capacity building in MRV, technology transfer for renewable energy, or adaptation planning support -- post their requirements. Potential providers (developed country governments, development banks, international organisations) browse needs and identify cooperation opportunities. No credits are generated through the platform."
+
+- question: "Which of the following is an example of a non-market cooperative approach under Article 6.8?"
+  options:
+    - "A bilateral agreement between Japan and Papua New Guinea to transfer ITMOs with corresponding adjustments"
+    - "A project developer registering a cookstove project under the A6.4 mechanism to generate mitigation contribution credits"
+    - "A European development agency providing technical assistance to train West African officials in GHG inventory methodology, without generating or receiving carbon credits"
+    - "A company purchasing authorised A6.4ERs to offset its scope 1 emissions"
+  answer: 2
+  explanation: "Article 6.8 covers cooperation that does not involve credit generation. Technical assistance -- such as training officials in GHG inventory methodology, where no credits are generated and no corresponding adjustments are applied -- is a classic Article 6.8 activity. ITMO transfers under bilateral agreements are Article 6.2. A6.4 credit projects are Article 6.4. Corporate credit purchases operate outside Article 6.8."
+
+- question: "Why is Article 6.8 particularly important for Least Developed Countries and Small Island Developing States?"
+  options:
+    - "Because LDCs and SIDS generate the majority of the world's carbon credits and need a separate accounting framework"
+    - "Because LDCs and SIDS are excluded from participating in Articles 6.2 and 6.4 by treaty"
+    - "Because many LDCs and SIDS lack the MRV systems, regulatory frameworks, and institutional capacity needed for carbon market participation, making non-market cooperation the most accessible form of climate support"
+    - "Because Article 6.8 provides LDCs and SIDS with free carbon credits funded by developed countries"
+  answer: 2
+  explanation: "LDCs and SIDS typically lack the technical infrastructure -- GHG inventory systems, national registries, trained verifiers, regulatory frameworks -- that participation in Articles 6.2 and 6.4 requires. Article 6.8 allows them to receive climate support (capacity building, technology transfer, policy assistance, finance) without first building all that infrastructure. It is the on-ramp to the broader Article 6 framework for the world's most capacity-constrained countries."

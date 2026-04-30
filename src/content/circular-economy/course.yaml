@@ -1,0 +1,153 @@
+id: circular-economy
+title: "Circular Economy"
+subtitle: "From linear take-make-waste to regenerative systems"
+description: "A comprehensive course on circular economy principles, business models, material flow analysis, waste hierarchy, extended producer responsibility, and the EU Circular Economy Action Plan. Covers design strategies, sector applications, and metrics for circularity."
+icon: "♻️"
+color: cyan
+status: published
+category: fundamentals
+estimatedHours: 8
+modules:
+  - id: 0
+    title: "Foundations of the Circular Economy"
+    subtitle: "Why Linear Is Broken"
+    icon: "🌍"
+    color: cyan
+    lessons:
+      - id: "0.1"
+        title: "The Linear Economy Problem"
+        duration: "35 min"
+        vmRef: "UNEP/Circle Economy, Circularity Gap Report (2024), Chapter 1"
+      - id: "0.2"
+        title: "What Is a Circular Economy?"
+        duration: "40 min"
+        vmRef: "Ellen MacArthur Foundation, Towards a Circular Economy (2013), Chapter 1"
+        seoTitle: "What Is a Circular Economy? Definition & Framework"
+        seoDescription: "Circular economy definition: a regenerative system that designs out waste, keeps products in use, and regenerates natural systems. Ellen MacArthur framework."
+      - id: "0.3"
+        title: "History and Intellectual Roots"
+        duration: "30 min"
+        vmRef: "Ellen MacArthur Foundation, Completing the Picture (2019), Introduction"
+      - id: "0.4"
+        title: "The Business Case for Circularity"
+        duration: "35 min"
+        vmRef: "Ellen MacArthur Foundation, Completing the Picture (2019), Chapter 2"
+
+  - id: 1
+    title: "Core Principles and Strategies"
+    subtitle: "Designing Out Waste"
+    icon: "🔧"
+    color: teal
+    lessons:
+      - id: "1.1"
+        title: "The Three Principles: Eliminate, Circulate, Regenerate"
+        duration: "40 min"
+        vmRef: "Ellen MacArthur Foundation, Towards a Circular Economy (2013), Chapter 2"
+        seoTitle: "Circular Economy: Eliminate, Circulate, Regenerate"
+        seoDescription: "The three principles of circular economy per Ellen MacArthur Foundation: eliminate waste, circulate products and materials at highest value, and regenerate nature."
+      - id: "1.2"
+        title: "The Waste Hierarchy and R-Strategies"
+        duration: "45 min"
+        vmRef: "EU Waste Framework Directive (2008/98/EC), Articles 4-6"
+      - id: "1.3"
+        title: "Design for Circularity"
+        duration: "40 min"
+        vmRef: "ESPR Regulation (2024), Recitals and Articles 5-7"
+      - id: "1.4"
+        title: "Material Flow Analysis (MFA)"
+        duration: "45 min"
+        vmRef: "UNEP/Circle Economy, Circularity Gap Report (2024), Methodology Annex"
+
+  - id: 2
+    title: "Circular Business Models"
+    subtitle: "Value Creation Without Waste"
+    icon: "💡"
+    color: blue
+    lessons:
+      - id: "2.1"
+        title: "Product-as-a-Service and Access Models"
+        duration: "40 min"
+        vmRef: "Ellen MacArthur Foundation, Completing the Picture (2019), Chapter 3"
+        seoTitle: "Product-as-a-Service (PaaS) & Circular Access Models"
+        seoDescription: "Product-as-a-Service and access-over-ownership models: subscription, leasing, pay-per-use, and how these business models create circular value."
+      - id: "2.2"
+        title: "Product Life Extension"
+        duration: "35 min"
+        vmRef: "Ellen MacArthur Foundation, Completing the Picture (2019), Chapter 3"
+      - id: "2.3"
+        title: "Resource Recovery and Industrial Symbiosis"
+        duration: "40 min"
+        vmRef: "Ellen MacArthur Foundation, Towards a Circular Economy (2013), Chapter 3"
+      - id: "2.4"
+        title: "Digital Enablers of Circularity"
+        duration: "35 min"
+        vmRef: "ESPR Regulation (2024), Article 9 - Digital Product Passport"
+
+  - id: 3
+    title: "Sector Applications"
+    subtitle: "Circularity Across Industries"
+    icon: "🏭"
+    color: orange
+    lessons:
+      - id: "3.1"
+        title: "Plastics and Packaging"
+        duration: "45 min"
+        vmRef: "EU Circular Economy Action Plan (2020), Section 3.2 - Plastics"
+      - id: "3.2"
+        title: "Textiles and Fashion"
+        duration: "40 min"
+        vmRef: "EU Circular Economy Action Plan (2020), Section 3.4 - Textiles"
+      - id: "3.3"
+        title: "Construction and Buildings"
+        duration: "40 min"
+        vmRef: "EU Circular Economy Action Plan (2020), Section 3.5 - Construction"
+      - id: "3.4"
+        title: "Electronics and Critical Raw Materials"
+        duration: "40 min"
+        vmRef: "EU Circular Economy Action Plan (2020), Section 3.3 - Electronics"
+
+  - id: 4
+    title: "Policy and Regulation"
+    subtitle: "The Regulatory Push for Circularity"
+    icon: "📜"
+    color: violet
+    lessons:
+      - id: "4.1"
+        title: "EU Circular Economy Action Plan"
+        duration: "45 min"
+        vmRef: "EU Circular Economy Action Plan (2020), Full Text"
+      - id: "4.2"
+        title: "Extended Producer Responsibility (EPR)"
+        duration: "40 min"
+        vmRef: "EU Waste Framework Directive (2008/98/EC), Articles 8-8a"
+      - id: "4.3"
+        title: "Ecodesign for Sustainable Products Regulation (ESPR)"
+        duration: "40 min"
+        vmRef: "ESPR Regulation (2024), Full Text"
+      - id: "4.4"
+        title: "Global Circular Economy Policies"
+        duration: "35 min"
+        vmRef: "UNEP/Circle Economy, Circularity Gap Report (2024), Policy Chapter"
+
+  - id: 5
+    title: "Measuring Circularity"
+    subtitle: "Metrics, Reporting, and Finance"
+    icon: "📊"
+    color: emerald
+    lessons:
+      - id: "5.1"
+        title: "Circularity Metrics and Indicators"
+        duration: "40 min"
+        vmRef: "Ellen MacArthur Foundation, Completing the Picture (2019), Appendix - MCI"
+      - id: "5.2"
+        title: "Life Cycle Assessment for Circularity"
+        duration: "45 min"
+        vmRef: "UNEP/Circle Economy, Circularity Gap Report (2024), Methodology Annex"
+      - id: "5.3"
+        title: "Circular Economy and ESG Reporting"
+        duration: "35 min"
+        vmRef: "EU Circular Economy Action Plan (2020), Section 5 - Monitoring"
+      - id: "5.4"
+        title: "Financing the Circular Transition"
+        duration: "35 min"
+        vmRef: "Ellen MacArthur Foundation, Completing the Picture (2019), Chapter 4"

@@ -1,0 +1,35 @@
+- question: "IFRS S2 was effective for annual reporting periods beginning on or after what date?"
+  options:
+    - "1 January 2023"
+    - "1 January 2024"
+    - "1 July 2024"
+    - "1 January 2025"
+  answer: 1
+  explanation: "IFRS S2 is effective for annual reporting periods beginning on or after 1 January 2024 (paragraph C1). Earlier application is permitted but only if IFRS S1 is also applied simultaneously."
+
+- question: "An entity is applying IFRS S2 for the first time in its 2024 annual report. Which of the following is permitted under the first-year transition reliefs?"
+  options:
+    - "Omitting all GHG emissions disclosures"
+    - "Providing only current-year data without comparative prior-year information"
+    - "Omitting all financial effects disclosures for the first year"
+    - "Applying IFRS S2 without also applying IFRS S1"
+  answer: 1
+  explanation: "Paragraph C3 provides that in the first year of applying IFRS S2, entities are not required to provide comparative information for the preceding period. Only current-year data is required in year 1. The comparative becomes required from year 2 onwards."
+
+- question: "A company that previously reported using a national GHG methodology wants to apply IFRS S2 for the first time. What does the transition relief in C4(a) allow?"
+  options:
+    - "Permanent exemption from the GHG Protocol requirement"
+    - "In the first year only, the entity may continue using its existing non-GHG Protocol method"
+    - "The entity may never switch — national methods are always permitted"
+    - "The entity must retrospectively restate all historical emissions using the GHG Protocol"
+  answer: 1
+  explanation: "Paragraph C4(a) provides a first-year-only relief: entities that were previously using a measurement method other than the GHG Protocol Corporate Standard may continue using that method in the first year of applying IFRS S2. From year 2 onwards, the GHG Protocol is required (unless a jurisdictional relief applies)."
+
+- question: "The December 2025 amendments specify a transition requirement in C6. What must entities do when presenting comparative information for the first year they apply the amendments?"
+  options:
+    - "Restate all prior periods going back to the original IFRS S2 effective date"
+    - "Adjust comparative information for the preceding period to reflect the amendments, unless impracticable"
+    - "Provide a reconciliation between the old and new Category 15 calculations"
+    - "No comparative adjustments are permitted — only prospective application"
+  answer: 1
+  explanation: "Paragraph C6 requires that in the first period applying the 2025 amendments, entities should adjust comparative prior-period information to reflect the amended requirements (changes to GHG measurement, Category 15 presentation, and industry classification) unless doing so is impracticable — in which case the entity must disclose that impracticability."

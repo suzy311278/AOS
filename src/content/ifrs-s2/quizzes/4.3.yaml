@@ -1,0 +1,26 @@
+- question: "Which of the following best describes how scenario analysis connects the Strategy and Risk Management pillars of IFRS S2?"
+  options:
+    - "Scenario analysis is only used in Risk Management; Strategy draws conclusions from separate modelling"
+    - "Scenario analysis is used in both risk identification (Para 25(a)(ii)) and strategy resilience (Para 22), ensuring both pillars draw from the same analytical foundation"
+    - "Scenario analysis belongs entirely to the Strategy pillar; Risk Management uses historical data"
+    - "The two pillars use scenario analysis independently and need not be consistent"
+  answer: 1
+  explanation: "IFRS S2 explicitly requires disclosure of whether scenario analysis is used in risk identification (Para 25(a)(ii)), specifically to ensure that the risk management process and the strategic resilience assessment draw from the same analytical foundation. The ISSB added this requirement precisely to prevent disconnected parallel processes."
+
+- question: "An investor notices that a company's risk management section describes 15 climate risks in its enterprise risk register, but the strategy section mentions only 3 climate risks. What might this suggest?"
+  options:
+    - "The strategy section is more complete because it uses materiality filtering"
+    - "The risk management section is more detailed, which is expected"
+    - "There is a coherence gap — the pillars are telling different stories and the strategy may be incomplete"
+    - "This is normal because risk management identifies more risks than strategy can address"
+  answer: 2
+  explanation: "IFRS S2 expects coherence across pillars. If risk management identifies 15 climate risks but strategy only addresses 3, there is either a disclosure quality issue (some material risks are not being addressed strategically) or a coherence gap (the risk management and strategy sections were prepared independently without cross-checking). Investors will scrutinise such inconsistencies."
+
+- question: "The ISSB designed IFRS S2's Risk Management requirements to be closely aligned with IFRS S1. What is the primary benefit of this alignment?"
+  options:
+    - "It reduces the word count of risk management disclosures"
+    - "It ensures climate risk disclosures are consistent with the entity's overall sustainability risk disclosures and avoids contradictory requirements"
+    - "It allows entities to skip IFRS S1 if they apply IFRS S2"
+    - "It standardises the number of risks that must be disclosed"
+  answer: 1
+  explanation: "Close alignment between IFRS S2's risk management requirements and IFRS S1 ensures consistency — entities applying both standards use the same risk framework, risk language, and governance structure. This prevents contradictory requirements and reduces duplication, while ensuring climate risks are assessed on the same basis as other sustainability risks."

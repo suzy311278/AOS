@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# ArmorInnovate IA (Phase 1)
+Allow: /knowledge
+Allow: /labs
+Allow: /certification
+Allow: /intel
+
+# Internal endpoints — no crawl value
+Disallow: /api/armor/
+Disallow: /admin/
+
+# Legacy Greentryst routes (kept while transition is in progress)
+Disallow: /jobs
+
+Sitemap: https://www.greentryst.com/sitemap.xml
+Sitemap: https://www.greentryst.com/sitemap-emission-factors.xml

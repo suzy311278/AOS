@@ -1,0 +1,26 @@
+- question: "UNGP Principle 31 establishes eight effectiveness criteria for non-judicial grievance mechanisms. Which of the following is one of those criteria?"
+  options:
+  - "Cost-neutral: mechanisms must not impose financial costs on affected workers"
+  - "Confidential: all grievance information must be kept permanently secret"
+  - "Continuous learning: regular analysis of grievance patterns must be used to improve the mechanism and prevent recurrence"
+  - "Compulsory: workers must be required to use the mechanism before accessing any other remedy"
+  answer: 2
+  explanation: "Continuous learning is one of the eight Principle 31 criteria. It requires that regular analysis of the frequency, patterns, and causes of grievances must be used to improve the mechanism and prevent recurrence. The other seven criteria are: legitimate, accessible, predictable, equitable, transparent, rights-compatible, and dialogue-based."
+
+- question: "What is the most critical precondition for an operational-level grievance mechanism to be effective?"
+  options:
+  - "The mechanism must be operated by an internationally accredited third-party provider"
+  - "Workers must be guaranteed no negative consequences (non-retaliation) for using the mechanism"
+  - "The mechanism must process all complaints within 48 hours"
+  - "All complaints must be reported publicly to demonstrate transparency"
+  answer: 1
+  explanation: "Non-retaliation is the most critical precondition. Workers who fear consequences for raising concerns - dismissal, demotion, harassment, or other reprisals - will not use any grievance channel regardless of its design. Effective non-retaliation requires formal policy, genuine anonymity where requested, management accountability, and demonstrated responsive handling of retaliation complaints."
+
+- question: "The Fair Food Program (FFP) is widely cited as a model grievance mechanism. What key feature distinguishes it from most company-operated systems?"
+  options:
+  - "It uses artificial intelligence to process and categorize worker complaints automatically"
+  - "It operates through a tripartite structure with genuine worker representation, independent complaint resolution, and real buyer accountability through purchasing commitments"
+  - "It is funded entirely by national governments rather than by companies or workers"
+  - "It requires all participating farms to achieve SA8000 certification before joining"
+  answer: 1
+  explanation: "The Fair Food Program is governed by a tripartite structure involving growers, major fast food brands, and workers represented by the Coalition of Immokalee Workers (CIW). It has a dedicated independent complaint resolution system trusted by workers, a penny-per-pound premium paid directly to workers, and buyers commit to purchasing only from participating growers - creating real commercial consequences for non-compliance. As of 2023, it documented zero retaliation against workers using the mechanism."

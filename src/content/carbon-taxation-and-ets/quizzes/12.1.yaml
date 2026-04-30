@@ -1,0 +1,44 @@
+- question: "What is the purpose of impact assessment for carbon pricing?"
+  options:
+    - "To delay implementation"
+    - "To understand likely effects on emissions, economy, sectors, and households before implementation"
+    - "Pure formality"
+    - "To eliminate carbon pricing"
+  answer: 1
+  explanation: "Impact assessment evaluates likely emissions reductions, economic costs, sectoral impacts, and distributional effects, informing design choices and building evidence-based support."
+
+- question: "What types of impacts should comprehensive carbon pricing assessment examine?"
+  options:
+    - "Only emissions impacts"
+    - "Emissions, economic, sectoral, distributional, competitiveness, and revenue impacts"
+    - "Only revenue"
+    - "No assessment needed"
+  answer: 1
+  explanation: "Comprehensive assessment covers emissions trajectories, economic costs/benefits, sectoral impacts, distributional fairness, competitiveness effects, revenue generation, and co-benefits."
+
+- question: "What is a Computable General Equilibrium (CGE) model?"
+  options:
+    - "A simple spreadsheet"
+    - "An economic model representing the entire economy as interacting markets"
+    - "A climate model"
+    - "A database"
+  answer: 1
+  explanation: "CGE models represent the economy as interconnected markets for goods, services, labor, and capital, showing how carbon pricing ripples through supply chains and affects prices, production, and consumption."
+
+- question: "Why is sensitivity analysis important in carbon pricing assessment?"
+  options:
+    - "It is not important"
+    - "To show how results change with different assumptions about key parameters"
+    - "To delay decisions"
+    - "To confuse decision-makers"
+  answer: 1
+  explanation: "Sensitivity analysis varies key assumptions (elasticities, technology costs, baselines) to show the range of potential outcomes, helping decision-makers understand uncertainty rather than relying on single-point estimates."
+
+- question: "What is a common pitfall in impact assessment?"
+  options:
+    - "Too much analysis"
+    - "Presenting false precision and omitting uncertainty ranges"
+    - "Showing too many scenarios"
+    - "Being too transparent"
+  answer: 1
+  explanation: "Common pitfalls include presenting overly precise results, omitting uncertainty ranges, ignoring policy interactions, using static analysis that misses dynamic responses, and overconfidence in model predictions."

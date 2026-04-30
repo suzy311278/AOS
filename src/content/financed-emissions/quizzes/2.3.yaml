@@ -1,0 +1,44 @@
+- question: "For project finance, what is the denominator in the attribution factor?"
+  options:
+    - "EVIC of the parent company sponsoring the project"
+    - "Total project equity plus total project debt"
+    - "The revenue of the Special Purpose Vehicle (SPV) for the most recent year"
+    - "The original construction cost of the project at inception only"
+  answer: 1
+  explanation: "For project finance, PCAF prescribes total project equity plus total project debt as the denominator, analogous to the business loans approach but applied at the project level (usually via an SPV's balance sheet). For the first year, this is the total equity and debt committed to realise the project. In subsequent years, the project's reported balance sheet figures are used."
+
+- question: "As project debt is repaid over time, what happens to the lender's attribution factor for that project?"
+  options:
+    - "It stays constant because the lender's loan balance and the total project value both decline proportionally"
+    - "It decreases as the outstanding loan amount falls"
+    - "It increases because the total debt (denominator) falls faster than the outstanding loan amount"
+    - "It resets to zero once the debt is fully repaid regardless of equity position"
+  answer: 2
+  explanation: "As debt is repaid, the total project equity + debt (denominator) falls, and the outstanding loan amount (numerator) also falls. However, debt typically amortises faster than the total project value changes, so the ratio (attribution factor) generally increases over the life of the debt. PCAF Figure 5.3-1 illustrates how a project transitions from debt-heavy to equity-heavy attribution as loans are repaid, with the lender's attribution factor rising while the outstanding balance falls."
+
+- question: "Which significant change did the PCAF Third Edition (December 2025) make regarding renewable energy project finance?"
+  options:
+    - "Renewable energy projects are now excluded entirely from the standard"
+    - "Avoided emissions from renewable energy projects are no longer covered in the Financed Emissions Standard; FIs should refer to separate PCAF guidance on avoided emissions"
+    - "Renewable energy projects must now use a different attribution formula based on electricity generated"
+    - "Solar projects are classified under commercal real estate, not project finance"
+  answer: 1
+  explanation: "The PCAF Third Edition removed avoided emissions (previously covered in Chapter 2.3.2 of the Second Edition for renewable energy) from the Financed Emissions Standard. Financial institutions seeking to account for and report on avoided emissions from renewable energy and other projects are directed to PCAF's separate Financed Avoided Emissions and Forward-looking Metrics guidance document."
+
+- question: "A bank finances an energy efficiency upgrade (new boiler installation) in a factory without a separate SPV or balance sheet. How does PCAF allow this to be handled?"
+  options:
+    - "The project must be excluded from financed emissions until a separate SPV is created"
+    - "The factory's entire corporate balance sheet is used as the denominator"
+    - "The outstanding loan amount divided by the total project value at origination can be used as the attribution factor, if the project's emissions can be separately identified"
+    - "The bank applies the motor vehicle loan methodology as the closest equivalent"
+  answer: 2
+  explanation: "PCAF provides an alternative for projects without a separate balance sheet (common for energy efficiency, equipment upgrades, and similar projects embedded within a larger company). If the project's emissions can be independently defined and measured, the financial institution may use total project value at origination as the denominator, held constant over the loan life. This is only applicable when the project's emissions can be isolated from the company's overall operations."
+
+- question: "Which emission scopes are mandatory to report for project finance under the PCAF Third Edition?"
+  options:
+    - "Scope 1 only"
+    - "Scope 1 and Scope 2; Scope 3 is required if material"
+    - "Scope 1, Scope 2, and Scope 3 equally"
+    - "Scope 3 only, since projects are usually part of another company's Scope 3"
+  answer: 1
+  explanation: "PCAF requires financial institutions to report absolute Scope 1 and Scope 2 emissions of the project. Scope 3 should be covered if relevant — for example, for nuclear plants, hydroelectric dams, airports, and oil and gas infrastructure where the Scope 3 emissions (from use of the asset or upstream supply chains) are material. This is different from the corporate asset classes, which now require Scope 3 across all sectors."

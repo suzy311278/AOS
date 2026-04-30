@@ -1,0 +1,35 @@
+- question: "What is the purpose of an allowance registry in an ETS?"
+  options:
+    - "To register new businesses"
+    - "To track ownership and transfers of allowances with full transparency and prevent double-counting"
+    - "To store physical allowance certificates"
+    - "To collect auction revenue"
+  answer: 1
+  explanation: "The registry is a centralized electronic system that tracks who owns each allowance, records all transfers and surrenders, and ensures allowances cannot be used twice."
+
+- question: "What is the role of an ETS market administrator?"
+  options:
+    - "To set allowance prices"
+    - "To oversee market operations, prevent manipulation, and ensure fair trading"
+    - "To buy and sell allowances"
+    - "To reduce emissions directly"
+  answer: 1
+  explanation: "The market administrator ensures fair and transparent trading, monitors for manipulation, enforces trading rules, and maintains market integrity."
+
+- question: "What information should be publicly available from an ETS registry?"
+  options:
+    - "Individual facility emissions only"
+    - "Aggregate data on issuance, transfers, surrenders, and compliance without revealing competitively sensitive information"
+    - "All business secrets"
+    - "No information should be public"
+  answer: 1
+  explanation: "Transparency requires public reporting of aggregate market data, compliance rates, and auction results, while protecting competitively sensitive facility-level information where appropriate."
+
+- question: "Why is preventing market manipulation important in ETS design?"
+  options:
+    - "To maximize revenue"
+    - "To maintain confidence in price signals and market integrity"
+    - "To eliminate all trading"
+    - "Manipulation is not actually a concern"
+  answer: 1
+  explanation: "Market manipulation undermines price discovery, reduces confidence in the market, and can lead to prices that do not reflect supply and demand, harming the system's effectiveness."

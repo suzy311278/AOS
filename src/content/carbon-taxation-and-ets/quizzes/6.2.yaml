@@ -1,0 +1,44 @@
+- question: "What is a carbon border adjustment mechanism (CBAM)?"
+  options:
+    - "An adjustment to domestic carbon prices"
+    - "A charge on imports from countries without equivalent carbon pricing"
+    - "A subsidy for exporters"
+    - "A tariff on all imports"
+  answer: 1
+  explanation: "A CBAM imposes carbon costs on imports from jurisdictions without equivalent carbon pricing, leveling the playing field for domestic producers and reducing carbon leakage incentives."
+
+- question: "What is the primary purpose of a border adjustment?"
+  options:
+    - "To raise government revenue"
+    - "To prevent carbon leakage and maintain competitiveness of domestic industry"
+    - "To ban all imports"
+    - "To subsidize domestic production"
+  answer: 1
+  explanation: "Border adjustments aim to prevent production from shifting to unregulated jurisdictions (leakage) while protecting domestic producers from unfair competition with imports that do not bear carbon costs."
+
+- question: "What is the EU's approach with its CBAM?"
+  options:
+    - "Ban all imports from unregulated countries"
+    - "Require importers to purchase certificates representing the carbon price for embedded emissions"
+    - "Give free allowances to all importers"
+    - "Exempt all imports"
+  answer: 1
+  explanation: "The EU CBAM requires importers of certain goods (steel, cement, aluminum, etc.) to purchase certificates corresponding to the embedded carbon at the EU ETS price, effectively extending carbon pricing to imports."
+
+- question: "Why are border adjustments controversial in international trade?"
+  options:
+    - "They are simple and everyone agrees"
+    - "Concerns about WTO rules, measurement complexity, and impacts on developing countries"
+    - "They generate no revenue"
+    - "All countries have them"
+  answer: 1
+  explanation: "Border adjustments raise questions about compatibility with WTO non-discrimination rules, technical complexity of measuring embedded carbon in imports, and fairness concerns from developing country exporters."
+
+- question: "How might border adjustments incentivize other countries?"
+  options:
+    - "They create no incentives"
+    - "Other countries may implement carbon pricing to keep revenue at home rather than paying at the border"
+    - "They encourage countries to increase emissions"
+    - "They ban international trade"
+  answer: 1
+  explanation: "If exports will face border charges anyway, countries have incentive to implement domestic carbon pricing so that the revenue stays home rather than being collected by the importing country."

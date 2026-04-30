@@ -1,0 +1,44 @@
+- question: "What is the foundation of any carbon pricing system's integrity?"
+  options:
+    - "High prices"
+    - "Accurate monitoring, reporting, and verification (MRV) of emissions"
+    - "Political popularity"
+    - "International approval"
+  answer: 1
+  explanation: "Without accurate measurement of emissions, carbon pricing cannot work. MRV ensures that emissions are correctly measured, reported, and verified, making compliance meaningful."
+
+- question: "What are the three components of MRV?"
+  options:
+    - "Monitor, Report, Verify"
+    - "Measure, Reduce, Verify"
+    - "Monitor, Regulate, Validate"
+    - "Measure, Report, Reduce"
+  answer: 0
+  explanation: "MRV stands for Monitor (track emissions), Report (entities submit data to authorities), and Verify (independent third-party validation of reported data)."
+
+- question: "What is continuous emissions monitoring (CEMS)?"
+  options:
+    - "Monthly emissions reports"
+    - "Real-time measurement equipment installed at emission points like smokestacks"
+    - "Annual audits"
+    - "Voluntary reporting"
+  answer: 1
+  explanation: "CEMS uses instruments installed directly on smokestacks or other emission points to continuously measure emissions in real-time, providing highly accurate data for large point sources."
+
+- question: "Why is third-party verification important?"
+  options:
+    - "It is cheaper than government verification"
+    - "It provides independent assurance that reported emissions are accurate and complete"
+    - "It is required by all international treaties"
+    - "It eliminates the need for monitoring"
+  answer: 1
+  explanation: "Independent verifiers check that reported emissions are accurate and complete, reducing incentives for under-reporting and building confidence in system integrity."
+
+- question: "What is the typical MRV approach for small emitters?"
+  options:
+    - "Same detailed monitoring as large emitters"
+    - "Often use calculation methods based on fuel use rather than continuous monitoring"
+    - "No monitoring required"
+    - "Self-certification only"
+  answer: 1
+  explanation: "Small emitters typically use simpler calculation-based methods (fuel consumed × emission factor) rather than expensive continuous monitoring, balancing accuracy with administrative burden."

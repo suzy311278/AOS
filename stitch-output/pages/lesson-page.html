@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Greentryst | Operational Boundaries</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-surface-variant": "#3f4947",
+                        "secondary-container": "#d4e6e5",
+                        "on-tertiary-container": "#ffb295",
+                        "on-primary-fixed": "#00201d",
+                        "primary-fixed": "#a7f0e6",
+                        "primary": "#00433d",
+                        "tertiary-fixed-dim": "#ffb599",
+                        "on-secondary-container": "#576767",
+                        "on-surface": "#0a1f1f",
+                        "tertiary": "#5f2c17",
+                        "on-secondary-fixed-variant": "#3a4a4a",
+                        "tertiary-fixed": "#ffdbce",
+                        "error": "#ba1a1a",
+                        "surface-container-low": "#e1f8f7",
+                        "on-secondary": "#ffffff",
+                        "surface-tint": "#1a6962",
+                        "on-primary-container": "#8ad2c8",
+                        "surface-variant": "#d0e7e6",
+                        "surface": "#e7fefd",
+                        "background": "#e7fefd",
+                        "on-tertiary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#6e3822",
+                        "primary-fixed-dim": "#8cd4ca",
+                        "surface-container-lowest": "#ffffff",
+                        "outline": "#6f7977",
+                        "primary-container": "#005c55",
+                        "secondary": "#516161",
+                        "inverse-primary": "#8cd4ca",
+                        "inverse-surface": "#203434",
+                        "on-background": "#0a1f1f",
+                        "surface-container-high": "#d6edec",
+                        "on-error-container": "#93000a",
+                        "surface-dim": "#c8dede",
+                        "error-container": "#ffdad6",
+                        "on-primary-fixed-variant": "#00504a",
+                        "surface-bright": "#e7fefd",
+                        "on-error": "#ffffff",
+                        "secondary-fixed": "#d4e6e5",
+                        "outline-variant": "#bec9c6",
+                        "on-tertiary-fixed": "#370e00",
+                        "surface-container": "#dcf2f2",
+                        "inverse-on-surface": "#dff5f5",
+                        "surface-container-highest": "#d0e7e6",
+                        "secondary-fixed-dim": "#b8cac9",
+                        "on-secondary-fixed": "#0e1e1e",
+                        "on-primary": "#ffffff",
+                        "tertiary-container": "#7b422b"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter"],
+                        "body": ["Inter"],
+                        "label": ["Inter"],
+                        "mono": ["JetBrains Mono"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 1;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        .mono-stat { font-family: 'JetBrains Mono', monospace; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #00433d33; border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary selection:text-white">
+<!-- SideNavBar (Authority: JSON & Contextual Logic) -->
+<aside class="fixed left-0 top-0 h-screen w-64 bg-[#0a1f1f] flex flex-col p-6 space-y-8 z-50">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 bg-primary flex items-center justify-center rounded-lg">
+<span class="material-symbols-outlined text-white" data-icon="factory">factory</span>
+</div>
+<div>
+<h2 class="text-white font-bold text-sm leading-tight">GHG Protocol &amp; Scope 3</h2>
+<p class="text-teal-200/40 text-[10px] uppercase tracking-widest font-bold">12/28 lessons completed</p>
+</div>
+</div>
+<nav class="flex-1 space-y-2">
+<div class="space-y-1">
+<button class="flex items-center w-full text-teal-200/60 py-2 px-4 hover:text-white transition-all text-sm group">
+<span class="material-symbols-outlined mr-3 text-lg" data-icon="info">info</span>
+<span>Introduction</span>
+</button>
+<div class="mt-4">
+<p class="text-[10px] font-bold text-teal-200/30 uppercase tracking-[0.2em] px-4 mb-2">Module 1</p>
+<button class="flex items-center w-full text-teal-200/60 py-2 px-4 hover:text-white transition-all text-sm group">
+<span class="material-symbols-outlined mr-3 text-lg" data-icon="factory">factory</span>
+<span>Direct Emissions</span>
+</button>
+<!-- ACTIVE TAB: Operational Boundaries -->
+<button class="flex items-center w-full bg-[#00433d] text-white font-bold rounded-lg py-2 px-4 translate-x-1 duration-200 text-sm">
+<span class="material-symbols-outlined mr-3 text-lg" data-icon="account_tree">account_tree</span>
+<span>Operational Boundaries</span>
+</button>
+</div>
+<button class="flex items-center w-full text-teal-200/60 py-2 px-4 hover:text-white transition-all text-sm group mt-2">
+<span class="material-symbols-outlined mr-3 text-lg" data-icon="bolt">bolt</span>
+<span>Energy Indirect</span>
+</button>
+<button class="flex items-center w-full text-teal-200/60 py-2 px-4 hover:text-white transition-all text-sm group">
+<span class="material-symbols-outlined mr-3 text-lg" data-icon="analytics">analytics</span>
+<span>Reporting</span>
+</button>
+</div>
+</nav>
+<div class="pt-6 border-t border-white/10 space-y-2">
+<button class="flex items-center w-full text-teal-200/60 py-2 px-4 hover:text-white transition-all text-sm">
+<span class="material-symbols-outlined mr-3 text-lg" data-icon="settings">settings</span>
+<span>Settings</span>
+</button>
+<button class="flex items-center w-full text-teal-200/60 py-2 px-4 hover:text-white transition-all text-sm">
+<span class="material-symbols-outlined mr-3 text-lg" data-icon="help">help</span>
+<span>Support</span>
+</button>
+</div>
+</aside>
+<!-- TopNavBar (Authority: JSON) -->
+<header class="fixed top-0 left-0 w-full flex justify-between items-center px-6 py-3 z-40 bg-teal-50/80 backdrop-blur-md pl-72">
+<div class="flex items-center gap-6">
+<span class="text-xl font-extrabold text-[#00433d] tracking-tighter">Greentryst</span>
+<nav class="hidden md:flex space-x-6 text-sm">
+<a class="text-[#00433d] font-bold border-b-2 border-[#00433d] pb-1" href="#">GHG Protocol &amp; Scope 3</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-slate-600 hover:text-[#00433d] transition-colors"><span class="material-symbols-outlined" data-icon="account_circle">account_circle</span></button>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="ml-64 pt-16 min-h-screen flex">
+<!-- Content Column -->
+<article class="flex-1 bg-surface-container-lowest px-12 py-16 max-w-4xl shadow-[20px_0_40px_-20px_rgba(0,67,61,0.05)]">
+<!-- Breadcrumbs -->
+<nav class="flex items-center gap-2 mb-8 text-[10px] font-bold uppercase tracking-widest text-secondary">
+<span class="hover:text-primary cursor-pointer">Module 1</span>
+<span class="material-symbols-outlined text-xs" data-icon="chevron_right">chevron_right</span>
+<span class="text-primary">Lesson 1.4</span>
+</nav>
+<!-- Audio Podcast Overview -->
+<section class="bg-surface-container-low rounded-xl p-6 mb-12 flex items-center gap-6">
+<button class="w-14 h-14 bg-tertiary-container rounded-full flex items-center justify-center text-white hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-3xl" data-icon="play_arrow" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</button>
+<div class="flex-1">
+<p class="text-xs font-bold uppercase tracking-widest text-primary mb-1">Audio Overview</p>
+<h3 class="font-bold text-primary">Listen to this lesson (12 min podcast overview)</h3>
+<!-- Simplified Waveform Visual -->
+<div class="flex items-end gap-[2px] h-8 mt-3">
+<div class="bg-on-tertiary-container w-1 h-[40%] rounded-full"></div>
+<div class="bg-on-tertiary-container w-1 h-[60%] rounded-full"></div>
+<div class="bg-on-tertiary-container w-1 h-[90%] rounded-full"></div>
+<div class="bg-on-tertiary-container w-1 h-[75%] rounded-full"></div>
+<div class="bg-on-tertiary-container w-1 h-[50%] rounded-full"></div>
+<div class="bg-on-tertiary-container w-1 h-[85%] rounded-full"></div>
+<div class="bg-on-tertiary-container w-1 h-[45%] rounded-full"></div>
+<div class="bg-on-tertiary-container w-1 h-[100%] rounded-full"></div>
+<div class="bg-on-tertiary-container w-1 h-[65%] rounded-full"></div>
+<div class="bg-on-tertiary-container w-1 h-[80%] rounded-full"></div>
+<div class="bg-on-tertiary-container w-1 h-[40%] rounded-full opacity-50"></div>
+<div class="bg-on-tertiary-container w-1 h-[30%] rounded-full opacity-50"></div>
+</div>
+</div>
+</section>
+<header class="mb-12">
+<h1 class="text-[3.5rem] font-extrabold tracking-tighter text-on-surface leading-[1.1] mb-4">Operational Boundaries</h1>
+<div class="flex items-center gap-6 text-secondary text-sm">
+<span class="mono-stat font-medium bg-surface-container-high px-2 py-1 rounded">20 min read</span>
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-lg" data-icon="menu_book">menu_book</span>
+                        Source: GHG Protocol Corporate Standard, Chapter 4
+                    </span>
+</div>
+</header>
+<div class="space-y-8 text-on-surface text-lg leading-[1.6]">
+<p>After a company has determined its organizational boundaries in terms of the operations that it owns or controls, it then sets its <strong>operational boundaries</strong>. This involves identifying emissions associated with its operations, categorizing them as direct and indirect emissions, and choosing the scope of accounting and reporting for indirect emissions.</p>
+<!-- Tonal Layered Table -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden mt-12">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-primary text-white text-[10px] uppercase tracking-[0.2em]">
+<th class="p-6">Scope</th>
+<th class="p-6">Definition</th>
+<th class="p-6">Typical Examples</th>
+</tr>
+</thead>
+<tbody class="text-sm">
+<tr class="border-b border-surface-variant/30">
+<td class="p-6 font-bold text-primary">Scope 1</td>
+<td class="p-6">Direct GHG emissions that occur from sources that are owned or controlled by the company.</td>
+<td class="p-6 mono-stat text-xs">Boilers, furnaces, company-owned vehicles.</td>
+</tr>
+<tr class="border-b border-surface-variant/30">
+<td class="p-6 font-bold text-primary">Scope 2</td>
+<td class="p-6">GHG emissions from the generation of purchased electricity, heat, or steam consumed by the company.</td>
+<td class="p-6 mono-stat text-xs">Purchased electricity grid, heating.</td>
+</tr>
+<tr>
+<td class="p-6 font-bold text-primary">Scope 3</td>
+<td class="p-6">Optional reporting category that allows for the treatment of all other indirect emissions.</td>
+<td class="p-6 mono-stat text-xs">Supply chain, business travel, waste.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- HighlightBox -->
+<div class="bg-surface-container-high border-l-4 border-primary rounded-lg p-8 my-10">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="lightbulb" style="font-variation-settings: 'FILL' 1;">lightbulb</span>
+<div>
+<p class="font-bold text-primary mb-2">Key Takeaway: Scope Determination</p>
+<p class="text-base italic">Operational boundaries are not static. As your control over assets shifts (e.g., transitioning from owned vehicle fleets to leased logistics), your scope categorization will shift from Scope 1 to Scope 3.</p>
+</div>
+</div>
+</div>
+<!-- AnalogyBox -->
+<div class="bg-blue-50/50 border-l-4 border-blue-600 rounded-lg p-8 my-10">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-blue-600 text-3xl" data-icon="swap_horiz">swap_horiz</span>
+<div>
+<p class="font-bold text-blue-900 mb-2">The Audit Analogy</p>
+<p class="text-base text-blue-800">Think of scopes like a financial audit. Scope 1 is your direct wallet, Scope 2 is your monthly utility bill, and Scope 3 is the carbon footprint of every person you did business with during the year.</p>
+</div>
+</div>
+</div>
+<p>Establishing these boundaries is critical for preventing "double counting" of emissions across different organizations' reports, ensuring that the same emission isn't claimed twice in the same scope by different entities.</p>
+<!-- FormulaBox -->
+<div class="bg-[#0a1f1f] text-teal-100 p-8 rounded-xl my-12 text-center">
+<p class="text-[10px] uppercase tracking-[0.3em] font-bold text-teal-400 mb-6">Aggregate Calculation Formula</p>
+<code class="mono-stat text-2xl font-medium tracking-tight">
+                        Total GHG = <span class="text-white">ΣS1</span> + <span class="text-white">ΣS2</span> + <span class="text-white">ΣS3</span>
+</code>
+</div>
+<!-- ExampleBox -->
+<div class="bg-orange-50 border-l-4 border-orange-400 rounded-lg p-8 my-10">
+<p class="text-xs font-bold text-orange-800 uppercase tracking-widest mb-3">Case Study: Manufacturing</p>
+<p class="text-base text-orange-900 leading-relaxed">
+                        A smartphone manufacturer accounts for the diesel burned in their factory backup generators as <strong>Scope 1</strong>. The electricity they buy to power the assembly line is <strong>Scope 2</strong>. The emissions from mining the rare earth minerals in the phones, managed by suppliers, is <strong>Scope 3</strong>.
+                    </p>
+</div>
+<!-- Quiz Section -->
+<section class="mt-20 pt-12 border-t-2 border-surface-container">
+<h3 class="text-2xl font-bold mb-8">Checkpoint Quiz</h3>
+<div class="bg-white p-8 rounded-xl shadow-sm border border-surface-container-high">
+<p class="font-bold text-lg mb-6">Which scope covers emissions from purchased electricity?</p>
+<div class="space-y-3">
+<label class="flex items-center p-4 rounded-lg border border-surface-variant cursor-pointer hover:bg-surface transition-colors">
+<input class="form-radio text-primary focus:ring-primary h-5 w-5" name="quiz" type="radio"/>
+<span class="ml-4 font-medium">Scope 1</span>
+</label>
+<label class="flex items-center p-4 rounded-lg border-2 border-primary bg-primary/5 cursor-pointer">
+<input checked="" class="form-radio text-primary focus:ring-primary h-5 w-5" name="quiz" type="radio"/>
+<span class="ml-4 font-bold text-primary">Scope 2</span>
+<span class="material-symbols-outlined ml-auto text-primary" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</label>
+<label class="flex items-center p-4 rounded-lg border border-surface-variant cursor-pointer hover:bg-surface transition-colors">
+<input class="form-radio text-primary focus:ring-primary h-5 w-5" name="quiz" type="radio"/>
+<span class="ml-4 font-medium">Scope 3</span>
+</label>
+</div>
+<div class="mt-6 p-4 bg-primary-container/10 rounded-lg text-sm text-primary">
+<p><strong>Correct!</strong> Scope 2 accounts for indirect GHG emissions from the generation of purchased electricity, heat, or steam consumed by the reporting company.</p>
+</div>
+</div>
+</section>
+<!-- Footer Navigation -->
+<nav class="flex justify-between items-center mt-20 pt-8 border-t border-surface-container">
+<button class="flex items-center gap-3 text-secondary font-bold hover:text-primary transition-all">
+<span class="material-symbols-outlined" data-icon="arrow_back">arrow_back</span>
+                        PREVIOUS: Organizational Boundaries
+                    </button>
+<button class="flex items-center gap-3 bg-primary text-white py-3 px-8 rounded-lg font-bold hover:bg-primary-container transition-all">
+                        NEXT: Scope 2 Indirect
+                        <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</nav>
+</div>
+</article>
+<!-- Right Margin Column (Sticky Anchors) -->
+<aside class="w-72 relative">
+<div class="sticky top-24 px-8 space-y-12">
+<!-- Progress Indicator -->
+<div>
+<p class="text-[10px] font-bold uppercase tracking-[0.2em] text-secondary mb-4">Reading Progress</p>
+<div class="w-1 h-32 bg-surface-container-high rounded-full overflow-hidden relative">
+<div class="absolute top-0 left-0 w-full bg-primary h-[45%]"></div>
+</div>
+<p class="mono-stat text-xs mt-3 text-primary">45% Complete</p>
+</div>
+<!-- On this page anchors -->
+<nav>
+<p class="text-[10px] font-bold uppercase tracking-[0.2em] text-secondary mb-4">On this page</p>
+<ul class="space-y-4 text-sm font-medium text-secondary">
+<li class="flex items-center gap-2 text-primary">
+<div class="w-1.5 h-1.5 rounded-full bg-primary"></div>
+<a href="#">Definition</a>
+</li>
+<li class="flex items-center gap-2 hover:text-primary transition-colors">
+<div class="w-1.5 h-1.5 rounded-full bg-transparent"></div>
+<a href="#">Scope 1, 2, 3 Table</a>
+</li>
+<li class="flex items-center gap-2 hover:text-primary transition-colors">
+<div class="w-1.5 h-1.5 rounded-full bg-transparent"></div>
+<a href="#">Calculation Formula</a>
+</li>
+<li class="flex items-center gap-2 hover:text-primary transition-colors">
+<div class="w-1.5 h-1.5 rounded-full bg-transparent"></div>
+<a href="#">Check Your Understanding</a>
+</li>
+</ul>
+</nav>
+<!-- Actions -->
+<div class="pt-8 border-t border-surface-container">
+<button class="w-full border-2 border-primary text-primary py-3 rounded-lg font-bold hover:bg-primary hover:text-white transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-sm" data-icon="quiz">quiz</span>
+                        Lesson Quiz
+                    </button>
+<p class="text-[10px] text-center text-slate-400 mt-4 italic">Earn "Boundary Expert" Badge</p>
+</div>
+</div>
+</aside>
+</main>
+</body></html>

@@ -1,0 +1,26 @@
+- question: "Under Section 54 of the UK Modern Slavery Act 2015, what is the consequence for a large company that publishes a modern slavery statement stating it has taken no steps to address modern slavery risks?"
+  options:
+  - "A fine of up to GBP 10 million from the Home Office"
+  - "The company has technically complied with the law, as Section 54 requires disclosure of actions taken or not taken, without mandating any substantive steps"
+  - "Criminal prosecution of the company's directors"
+  - "Exclusion from UK public procurement contracts for five years"
+  answer: 1
+  explanation: "This is a critical weakness of the UK MSA Section 54 framework: companies can legally comply by disclosing that they have done nothing. The law mandates transparency about actions taken, not a minimum standard of action. No financial penalty applies to this disclosure - the only sanction for failing to publish any statement at all is a civil injunction, which has rarely been used."
+
+- question: "Which feature of Norway's Transparency Act (Apenhetsloven) most clearly distinguishes it from the UK and Australian modern slavery acts?"
+  options:
+  - "Norway applies its law to all companies regardless of size or revenue"
+  - "Norway's Act combines substantive OECD-aligned due diligence obligations with a public right of information allowing any person to request details of a company's HRDD"
+  - "Norway imposes criminal liability on directors of non-compliant companies"
+  - "Norway's Act covers only companies in extractive industries, not general commerce"
+  answer: 1
+  explanation: "Norway's Transparency Act goes beyond transparency-only disclosure by imposing substantive OECD-aligned due diligence obligations. It also uniquely grants any natural or legal person the right to submit a written information request to a company and receive a response within three weeks about how the company addresses human rights and decent work impacts. This creates an accountability mechanism independent of government enforcement."
+
+- question: "Australia's Modern Slavery Act 2018 requires reporting against seven mandatory criteria. Which of the following is one of those criteria?"
+  options:
+  - "The company must publish the names and addresses of all its Tier 1 suppliers"
+  - "The company must demonstrate that all suppliers meet a minimum living wage standard"
+  - "The company must describe the risks of modern slavery in its operations and supply chains and the actions taken to assess and address those risks"
+  - "The company must submit to an independent audit of its supply chain practices every three years"
+  answer: 2
+  explanation: "One of the seven mandatory criteria in Australia's Modern Slavery Act is that entities must describe the risks of modern slavery practices in their operations and supply chains (including in the supply chains of entities they own or control) and the actions taken to assess and address those risks, including due diligence and remediation processes. Supplier name disclosure and independent auditing are not mandatory requirements under the current Act."

@@ -1,0 +1,44 @@
+- question: "Why does PCAF use PPP-adjusted GDP (rather than nominal GDP) as the denominator for sovereign debt attribution?"
+  options:
+    - "PPP-adjusted GDP is a legal requirement of the UN Framework Convention on Climate Change"
+    - "PPP adjustment prevents countries with lower price levels from having artificially higher attribution factors, ensuring fair cross-country comparability"
+    - "PPP-adjusted GDP grows faster than nominal GDP, producing more conservative attribution factors"
+    - "Nominal GDP is not reported by most emerging-market governments, so PPP proxies are required"
+  answer: 1
+  explanation: "PPP (Purchasing Power Parity) adjustment corrects for differences in price levels across countries. A country with a lower price level would have a smaller GDP in unadjusted exchange-rate terms, inflating the attribution factor for investors holding its sovereign bonds — even if the country's real economic output (and associated emissions) is comparable. PPP-adjusted GDP removes this distortion, making attribution factors more comparable across sovereigns."
+
+- question: "A pension fund holds $800 million of Brazilian government bonds. Brazil's PPP-adjusted GDP is $3,800 billion and its annual national GHG emissions are 2,800 MtCO2e. What are the financed emissions from this position?"
+  options:
+    - "588,000 tCO2e"
+    - "589,000 tCO2e"
+    - "210,000 tCO2e"
+    - "2,800,000 tCO2e"
+  answer: 1
+  explanation: "Attribution factor = $800M / $3,800,000M = 0.02105%. Financed emissions = 0.02105% × 2,800,000,000 tCO2e = 589,473 tCO2e, approximately 589,000 tCO2e. The calculation uses the same follow-the-money structure as corporate lending, but with PPP-adjusted GDP as the denominator instead of EVIC or equity+debt."
+
+- question: "PCAF requires the use of production-based national emission accounting for sovereign debt. What does 'production-based' mean in this context?"
+  options:
+    - "Only emissions from manufacturing and industrial production are included"
+    - "Emissions are attributed to the country where goods are produced and economic activity occurs, regardless of where final goods are consumed"
+    - "National emissions are measured at the point of energy production (power plants) only"
+    - "Emissions from agricultural production are excluded from national inventories"
+  answer: 1
+  explanation: "Production-based accounting (also called territorial accounting) attributes GHG emissions to the country where the economic activity physically takes place — e.g., a steel mill in Germany's emissions are attributed to Germany even if the steel is exported to France. PCAF requires production-based emissions as the primary approach, consistent with the UNFCCC national inventory reporting methodology. Consumption-based accounting (which attributes emissions to the country consuming the goods) may be optionally reported as supplementary information."
+
+- question: "For sub-sovereign bonds issued by a regional government, what denominator does PCAF recommend when regional GDP data is unavailable?"
+  options:
+    - "National PPP-adjusted GDP of the entire country"
+    - "A scaled-down national GDP (e.g., proportional by population or another suitable proxy)"
+    - "Total tax revenue of the regional authority"
+    - "The bond's par value or outstanding notional amount"
+  answer: 1
+  explanation: "PCAF acknowledges that regional GDP data is frequently unavailable. When this is the case, financial institutions may scale down national GDP proportionally using a relevant proxy such as the region's share of national population, or other economic indicators. The chosen proxy must be disclosed transparently. This produces a lower data quality score than using verified regional GDP, but provides a reasonable approximation."
+
+- question: "A development finance institution makes a direct loan to a municipal water utility in a developing country to fund sewage treatment infrastructure. Which PCAF methodology should apply?"
+  options:
+    - "Sovereign Debt (Chapter 5.9), since the borrower operates under a government mandate"
+    - "Sub-sovereign Debt (Chapter 5.10) applying public utility methodology, or Project Finance (Chapter 5.3) if the loan is for a specific infrastructure project"
+    - "Commercial Real Estate (Chapter 5.4), since water treatment facilities are infrastructure"
+    - "Business Loans (Chapter 5.2), specifically for public sector entities"
+  answer: 1
+  explanation: "A loan to a public utility (municipal water authority) falls under Sub-sovereign Debt (Chapter 5.10) using public utility methodology — treating the utility like a corporate entity with identifiable operational emissions (Scope 1 and 2). However, if the loan is specifically for a defined infrastructure project (a new sewage plant), it may instead fall under Project Finance (Chapter 5.3). The key distinction is whether the lending is general-purpose (sub-sovereign) or tied to a specific, ring-fenced project (project finance)."

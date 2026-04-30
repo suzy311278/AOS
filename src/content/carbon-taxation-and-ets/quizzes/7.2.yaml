@@ -1,0 +1,35 @@
+- question: "What is the purpose of a stakeholder engagement process?"
+  options:
+    - "To delay implementation indefinitely"
+    - "To understand concerns, build support, and improve policy design through input from affected parties"
+    - "To rubber-stamp decisions already made"
+    - "To eliminate all opposition"
+  answer: 1
+  explanation: "Stakeholder engagement gathers input from affected industries, communities, and groups to identify concerns, build understanding and support, and often improve policy design with practical insights."
+
+- question: "Which stakeholders typically participate in carbon pricing consultations?"
+  options:
+    - "Only environmental groups"
+    - "Industry, environmental groups, labor unions, consumer advocates, local governments, and affected communities"
+    - "Only government officials"
+    - "Only economists"
+  answer: 1
+  explanation: "Effective engagement includes diverse stakeholders: affected industries, environmental advocates, workers and unions, consumers, regional governments, and communities whose input provides varied perspectives."
+
+- question: "When should stakeholder engagement begin?"
+  options:
+    - "After the policy is fully designed"
+    - "Early in the policy development process, before key decisions are locked in"
+    - "After implementation"
+    - "Engagement is not necessary"
+  answer: 1
+  explanation: "Early engagement allows stakeholder input to actually shape design decisions. Consulting after decisions are made reduces engagement to mere public relations."
+
+- question: "What is the difference between consultation and co-design?"
+  options:
+    - "There is no difference"
+    - "Consultation seeks input on government proposals; co-design involves stakeholders in developing solutions"
+    - "Co-design is illegal"
+    - "Consultation is stronger than co-design"
+  answer: 1
+  explanation: "Consultation presents government proposals for feedback. Co-design brings stakeholders into the design process itself, creating joint ownership and often better solutions."

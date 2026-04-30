@@ -1,0 +1,26 @@
+- question: "IFRS S2 does not require entities to have a climate-related transition plan. What does it require instead?"
+  options:
+    - "All entities must begin developing a transition plan within two years of applying IFRS S2"
+    - "If an entity has a transition plan, it must disclose it fully including targets, actions, resources, assumptions, and dependencies"
+    - "Entities without transition plans are exempt from the strategy pillar"
+    - "Entities must at minimum disclose whether they intend to develop a transition plan"
+  answer: 1
+  explanation: "IFRS S2 Para 14(a)(iv) requires that if an entity has a transition plan, it must be disclosed fully — including targets, actions, resources, key assumptions, and dependencies. The standard does not require entities to have one, but disclosure creates market pressure because the absence of a plan must also be apparent from the disclosure."
+
+- question: "An energy company has a 'net-zero by 2050' target that relies heavily on buying carbon credits. Under IFRS S2, what additional disclosure is required?"
+  options:
+    - "The company must also disclose its gross GHG emissions trajectory to 2050"
+    - "Net targets are not permitted under IFRS S2"
+    - "The company must prove its carbon credits are nature-based"
+    - "Net targets are only allowed if validated by SBTi"
+  answer: 0
+  explanation: "IFRS S2 (Basis for Conclusions BC50) requires that a net GHG target must be accompanied by disclosure of the gross GHG target. A net-zero commitment that relies on carbon credits cannot obscure the entity's actual emission trajectory before offsets. Both the net and gross pathways must be visible to investors."
+
+- question: "What does IFRS S2 require to be disclosed about the assumptions underlying a transition plan?"
+  options:
+    - "Assumptions are confidential and need not be disclosed"
+    - "Key assumptions including policy environment, technology availability, and external partnerships required"
+    - "Only financial assumptions related to capital expenditure"
+    - "Assumptions are only required for targets, not for transition plans"
+  answer: 1
+  explanation: "Para 14(a)(iv) requires disclosure of key assumptions and dependencies in the transition plan. These include policy environment assumptions (e.g., carbon price levels), technology availability (e.g., green hydrogen cost trajectory), and external partnerships or supply chain dependencies the plan relies on."

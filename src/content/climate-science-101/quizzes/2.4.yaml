@@ -1,0 +1,26 @@
+- question: "According to IPCC AR6 WGI, what is the approximate remaining carbon budget from 2020 for a 50% probability of limiting warming to 1.5°C?"
+  options:
+    - "100 GtCO2"
+    - "500 GtCO2"
+    - "1,150 GtCO2"
+    - "2,400 GtCO2"
+  answer: 1
+  explanation: "IPCC AR6 WGI assessed the remaining carbon budget from 2020 onwards for a 50% probability of limiting warming to 1.5°C at approximately 500 GtCO2. At 2019 fossil fuel emission rates of roughly 40 GtCO2/year, this budget would be exhausted in about 12 years."
+
+- question: "What physical principle underlies the carbon budget concept?"
+  options:
+    - "The rate of CO2 emissions in a given year determines that year's temperature"
+    - "Total warming is approximately proportional to cumulative CO2 emissions over time"
+    - "CO2 only causes warming when combined with methane and nitrous oxide"
+    - "Once CO2 concentration exceeds 400 ppm, warming accelerates exponentially"
+  answer: 1
+  explanation: "The carbon budget rests on the Transient Climate Response to Cumulative Carbon Emissions (TCRE): total warming is approximately proportional to cumulative CO2 emissions. This means the total amount emitted over time, not the current rate, is the key quantity for determining long-term warming."
+
+- question: "Approximately what fraction of the total carbon budget for a 50% probability of staying below 1.5°C had already been consumed by historical emissions from 1850 to 2019?"
+  options:
+    - "About one quarter (25%)"
+    - "About half (50%)"
+    - "About two thirds (67%)"
+    - "About four fifths (80%)"
+  answer: 3
+  explanation: "IPCC AR6 WGIII states that historical cumulative CO2 emissions from 1850 to 2019 amount to approximately four-fifths (80%) of the total carbon budget for a 50% probability of limiting warming to 1.5°C. This leaves only about one fifth of the total safe emissions space remaining."

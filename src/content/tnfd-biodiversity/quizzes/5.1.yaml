@@ -1,0 +1,26 @@
+- question: "How many recommended disclosures does TNFD comprise in total, and how are they organised?"
+  options:
+  - "12 disclosures across three pillars: Environment, Social, Governance"
+  - "14 disclosures across four pillars: Governance, Strategy, Risk and Impact Management, Metrics and Targets"
+  - "10 disclosures across two pillars: Risk and Opportunity"
+  - "20 disclosures across five pillars matching the GRI Universal Standards"
+  answer: 1
+  explanation: "TNFD comprises 14 recommended disclosures organised across four pillars: Governance (G1-G2), Strategy (S1-S4), Risk and Impact Management (R1-R3), and Metrics and Targets (M1-M5). This structure mirrors TCFD's four-pillar architecture."
+
+- question: "Which TNFD disclosure requires companies to report the locations of assets and activities in or near biodiversity-sensitive areas?"
+  options:
+  - "G1 - Board oversight of nature-related risks"
+  - "R2 - Value chain risk management processes"
+  - "S4 - Locations of assets in or near biodiversity-sensitive areas"
+  - "M3 - Targets related to nature"
+  answer: 2
+  explanation: "Disclosure S4 (under the Strategy pillar) requires organisations to disclose the locations of assets and activities in or near biodiversity-sensitive areas. This spatial disclosure requirement reflects TNFD's fundamentally location-specific nature, distinguishing it from the more location-agnostic TCFD framework."
+
+- question: "Where does TNFD recommend that nature-related disclosures should be made?"
+  options:
+  - "In a standalone biodiversity report published separately from financial reporting"
+  - "Only in CDP questionnaire responses"
+  - "In mainstream financial reports (annual reports and accounts) alongside other material financial risks"
+  - "In the notes to financial statements only, not in the main report body"
+  answer: 2
+  explanation: "TNFD recommends that disclosures be made in mainstream financial reports (annual reports and accounts), reflecting the view that nature-related risks are financially material and should be reported to investors and financial stakeholders alongside other material risks. This aligns with ISSB and CSRD approaches."

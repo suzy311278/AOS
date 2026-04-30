@@ -1,0 +1,44 @@
+- question: "What is the purpose of a corresponding adjustment in Article 6.2 accounting?"
+  options:
+    - "To increase the price of ITMOs by adding a premium to reflect environmental co-benefits"
+    - "To prevent double counting by ensuring a transferred emission reduction is subtracted from the host country's accounts and added to the acquiring country's accounts"
+    - "To allow both the host country and acquiring country to each count 50% of a transferred emission reduction"
+    - "To certify that an ITMO was generated using a UNFCCC-approved methodology"
+  answer: 1
+  explanation: "A corresponding adjustment (CA) is a two-sided accounting entry that prevents double counting. When a host country transfers ITMOs, it adds those units back to its own reported emissions (as if the reduction had not occurred domestically). The acquiring country subtracts the same units from its reported emissions (as if it had achieved the reduction itself). The net global effect is zero -- the same tonne is counted only once, by whichever country holds the ITMO."
+
+- question: "Country A has actual domestic emissions of 400 MtCO2e and transfers 10 MtCO2e of ITMOs to Country B. What does Country A report after applying the corresponding adjustment?"
+  options:
+    - "390 MtCO2e (subtracts the transferred units)"
+    - "400 MtCO2e (no change -- the CA applies only to the acquiring country)"
+    - "410 MtCO2e (adds the transferred units back)"
+    - "It depends on whether Country A's NDC covers the sector from which the ITMOs originated"
+  answer: 2
+  explanation: "The host country (Country A) applies a 'CA out' -- it adds the transferred ITMOs back to its reported emissions, as if the reductions had not occurred domestically. So Country A's reported emissions are 400 + 10 = 410 MtCO2e. This is the accounting discipline at the heart of Article 6.2: by selling the emission reduction credit, Country A gives up the right to count that reduction in its own NDC accounting."
+
+- question: "Under what condition are corresponding adjustments NOT required for an ITMO transaction?"
+  options:
+    - "When the ITMO is used for NDC achievement by the acquiring country"
+    - "When the ITMO is used for CORSIA aviation offsetting"
+    - "When the ITMO has not been formally authorised by the host country's Designated National Authority"
+    - "When the transaction occurs between two developed countries"
+  answer: 2
+  explanation: "Corresponding adjustments are only required when the ITMO has been formally authorised by the host country's DNA. Non-authorised ITMOs -- those transferred without a formal government authorisation letter -- do not trigger CA requirements. They can be used in the voluntary carbon market, but the buyer cannot claim the reduction toward any nationally-reported target (including NDC achievement). When ITMOs are authorised for NDC achievement or CORSIA, CAs are always mandatory."
+
+- question: "What did the COP29 decisions in Baku (2024) clarify about corresponding adjustments?"
+  options:
+    - "COP29 abolished corresponding adjustments for transactions involving least-developed countries"
+    - "COP29 confirmed that CAs must be applied no later than the time of first transfer, and that ITMOs become irrevocable once first transfer occurs"
+    - "COP29 allowed countries to apply CAs retroactively for Kyoto-era CDM credits"
+    - "COP29 extended the deadline for applying CAs to five years after the ITMO transaction"
+  answer: 1
+  explanation: "The Baku (COP29) decisions resolved longstanding ambiguity about the timing of corresponding adjustments. They confirmed that the CA must be applied no later than the moment of first transfer -- defined as when the ITMO moves from the host country's account to any other party's account. Crucially, COP29 also established that once the CA is applied and first transfer occurs, the ITMO is irrevocable: the host country cannot revoke the authorisation and reclaim the accounting benefit, even if domestic policy changes."
+
+- question: "How does the Article 6.2 corresponding adjustment framework differ from the Kyoto Protocol's Clean Development Mechanism?"
+  options:
+    - "The CDM required corresponding adjustments but Article 6.2 does not"
+    - "Both the CDM and Article 6.2 require corresponding adjustments -- the main difference is the price of credits"
+    - "The CDM had no corresponding adjustment requirement, so both the host country and the buyer could count the same emission reduction, creating a structural double-counting risk"
+    - "The CDM used corresponding adjustments only for LULUCF projects, while Article 6.2 applies them to all sectors"
+  answer: 2
+  explanation: "The Kyoto Protocol's Clean Development Mechanism (CDM) had no equivalent of the corresponding adjustment. Developing countries (non-Annex I parties) were not subject to binding emission caps, so they did not need to subtract anything from their own accounts when issuing Certified Emission Reductions (CERs) to developed countries. This meant that the same tonne was effectively counted by both the buying country (against its Kyoto cap) and the host country (implicitly in its baseline). Article 6.2's mandatory CA requirement for authorised ITMOs was specifically designed to close this loophole."

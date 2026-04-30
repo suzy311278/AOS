@@ -1,0 +1,26 @@
+- question: "Which of the following is included in Scope 3 Category 3 but NOT in Scope 1 or Scope 2?"
+  options:
+    - "Combustion of natural gas in a company-owned boiler"
+    - "Electricity purchased from the grid"
+    - "Transmission and distribution losses for purchased electricity"
+    - "Refrigerant leakage from a company-owned air conditioner"
+  answer: 2
+  explanation: "T&D losses are captured in Category 3 — they represent electricity generated to supply the grid but lost before reaching the company's meter. Boiler combustion is Scope 1, grid electricity is Scope 2, and refrigerant leakage is Scope 1."
+
+- question: "A company purchases 5,000 MWh of electricity. The T&D loss rate is 10% and the grid emission factor is 0.4 tCO₂e/MWh. What are Category 3 T&D loss emissions?"
+  options:
+    - "200 tCO₂e"
+    - "2,000 tCO₂e"
+    - "500 tCO₂e"
+    - "50 tCO₂e"
+  answer: 0
+  explanation: "T&D loss electricity = 5,000 × 10% = 500 MWh. Emissions = 500 × 0.4 = 200 tCO₂e."
+
+- question: "Why is Category 3 particularly important for companies that have achieved zero Scope 2 market-based emissions through RECs?"
+  options:
+    - "Category 3 replaces Scope 2 entirely when RECs are used"
+    - "T&D losses must still be reported even when RECs reduce Scope 2 to zero"
+    - "Category 3 only applies to companies without RECs"
+    - "RECs eliminate Category 3 obligations automatically"
+  answer: 1
+  explanation: "Even when a company's Scope 2 market-based emissions are zero (100% matched with RECs), physical T&D losses in the grid still occur. These losses must be reported in Category 3 using the residual mix emission factor — RECs do not eliminate Category 3 T&D obligations."

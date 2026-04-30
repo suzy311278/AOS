@@ -1,0 +1,26 @@
+- question: "Which farming practice INCREASES SOC stock?"
+  options:
+  - "Deep tillage 3× per year"
+  - "Burning crop residues"
+  - "Planting winter cover crops"
+  - "Leaving fields bare during fallow"
+  answer: 2
+  explanation: "Cover crops add carbon inputs through root biomass and surface residues. The other options all cause SOC losses through oxidation or lack of carbon input."
+
+- question: "A field has 30 tC/ha of SOC. What is this in tCO₂e/ha? (Use factor 44/12 ≈ 3.67)"
+  options:
+  - "8.2 tCO₂e/ha"
+  - "30 tCO₂e/ha"
+  - "110 tCO₂e/ha"
+  - "3.67 tCO₂e/ha"
+  answer: 2
+  explanation: "30 tC/ha × 3.67 = 110.1 tCO₂e/ha. The factor 44/12 converts carbon mass to CO₂ mass based on molecular weights."
+
+- question: "Why does tillage decrease SOC?"
+  options:
+  - "It removes crop residues from the field"
+  - "It breaks up soil aggregates, exposing organic matter to rapid microbial decomposition"
+  - "It increases nitrogen loss through leaching"
+  - "It prevents water from reaching deeper soil layers"
+  answer: 1
+  explanation: "Tillage physically disrupts soil structure, exposing previously protected organic matter to air and microbial activity, which decomposes it into CO₂."

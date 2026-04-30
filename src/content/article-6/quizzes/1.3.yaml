@@ -1,0 +1,44 @@
+- question: "At which COP were the comprehensive rules for Article 6.2 -- the Glasgow Rulebook -- finally agreed?"
+  options:
+    - "COP24 in Katowice, 2018"
+    - "COP25 in Madrid, 2019"
+    - "COP26 in Glasgow, 2021"
+    - "COP27 in Sharm el-Sheikh, 2022"
+  answer: 2
+  explanation: "The Glasgow Rulebook (Decision 2/CMA.3) was adopted at COP26 in Glasgow in November 2021. This was the first time countries agreed on a comprehensive operational framework for Article 6.2, after six years of failed attempts since the Paris Agreement was adopted in 2015. Previous COPs in Katowice (2018) and Madrid (2019) both failed to reach agreement, largely due to disputes over whether surplus Kyoto-era credits could be carried over into the new system."
+
+- question: "What three-tier reporting system did the Glasgow Rulebook establish for Article 6.2 participating countries?"
+  options:
+    - "Project reports, sector reports, and national inventory reports"
+    - "Initial reports, annual information, and biennial transparency reports"
+    - "Authorisation declarations, transfer confirmations, and retirement notices"
+    - "Pre-feasibility studies, validation reports, and verification reports"
+  answer: 1
+  explanation: "The Glasgow Rulebook established a three-tier transparency system. An initial report must be submitted before a country begins participating in Article 6.2, establishing the baseline accounting framework. Annual information must then be submitted each year covering all ITMO transactions and corresponding adjustments during the year. Every two years, a Biennial Transparency Report (BTR) provides a comprehensive accounting table for all Article 6.2 activities, showing cumulative ITMO flows and their relationship to NDC achievement. The first BTRs were due in December 2024."
+
+- question: "What was the central dispute that prevented agreement on Article 6 rules at COP25 in Madrid (2019)?"
+  options:
+    - "Disagreement over whether corresponding adjustments should be mandatory or voluntary"
+    - "A dispute over whether developing countries should be allowed to participate in Article 6.2 at all"
+    - "Disagreement over whether surplus Kyoto-era credits could be carried over and used in the new Article 6 system"
+    - "A disagreement about whether the UNFCCC Secretariat or individual countries should operate carbon registries"
+  answer: 2
+  explanation: "The central blockage at COP25 was the 'carry-over' question: could countries that had accumulated surplus credits under the Kyoto Protocol's flexibility mechanisms bring those old credits into the new Article 6 system? Brazil and several other countries argued yes. The EU, small island states, and others argued that allowing cheap legacy credits to flood the new market would undermine ambition and environmental integrity. This dispute was eventually resolved at Glasgow (COP26) by prohibiting the use of most Kyoto-era CDM credits in the Article 6.2 system."
+
+- question: "Which country became the first to formally authorise ITMO exports under the Glasgow Rulebook framework?"
+  options:
+    - "Switzerland, as the first acquiring country to sign a bilateral agreement"
+    - "Thailand, as the host of the first operational clean cooking project"
+    - "Ghana, at COP27 in Sharm el-Sheikh"
+    - "Japan, through its long-running Joint Crediting Mechanism"
+  answer: 2
+  explanation: "Ghana became the first country to formally authorise ITMO exports under the new Glasgow Rulebook framework, doing so at COP27 in Sharm el-Sheikh in November 2022. Ghana had invested early in establishing its Designated National Authority, building a national carbon registry, and developing a pipeline of eligible projects. Its first-mover status made it a model for other African and developing countries considering Article 6.2 participation."
+
+- question: "What does the Glasgow Rulebook require regarding registries for Article 6.2 transactions?"
+  options:
+    - "All countries must use a single centralised UNFCCC registry for all ITMO transactions"
+    - "Countries must use private sector registries such as Verra or Gold Standard exclusively"
+    - "Countries may use their own national registry, a third-party registry, or the UNFCCC International Registry, provided it meets specified connectivity and anti-duplication requirements"
+    - "Registries are optional -- countries may report ITMO transactions through their national GHG inventory without a dedicated registry"
+  answer: 2
+  explanation: "The Glasgow Rulebook deliberately avoided mandating a single centralised registry, giving countries flexibility to use national registries, third-party registries (such as those operated by standards bodies adapted for Article 6.2), or the UNFCCC International Registry for countries without their own infrastructure. Whatever system is used, it must be capable of issuing, holding, transferring, and retiring ITMOs; recording authorisation status; connecting to UNFCCC reporting infrastructure; and preventing the same unit from appearing in multiple accounts simultaneously. The UNFCCC International Registry plays a coordination role across all national and third-party systems."

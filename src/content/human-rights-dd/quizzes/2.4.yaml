@@ -1,0 +1,26 @@
+- question: "Which of the following best describes what 'Prior' means in the FPIC standard?"
+  options:
+  - "Consent must be obtained from the prior generation of community leaders before engaging current leadership"
+  - "Consent must be obtained before the activity is approved and before any development activities begin, including preliminary surveys"
+  - "Companies should provide prior notice of at least 30 days before beginning consultation"
+  - "Indigenous peoples must have prior experience with similar projects before being asked to consent"
+  answer: 1
+  explanation: "'Prior' means consent must be obtained before the activity is approved and before any development activities begin - including preliminary field surveys. Indigenous peoples must have sufficient time to understand the proposals and consult internally according to their own decision-making processes before any commitment or activity occurs."
+
+- question: "UNDRIP was adopted by the UN General Assembly in 2007 with 143 votes in favour. What is its legal status?"
+  options:
+  - "It is a binding international treaty that all member states must implement into national law"
+  - "It is a non-binding declaration but reflects customary international law in many respects and has been incorporated into binding frameworks"
+  - "It is binding only on the 143 states that voted in favour of adoption"
+  - "It is an aspirational document with no legal weight under any international law framework"
+  answer: 1
+  explanation: "UNDRIP is not a legally binding treaty (it is a declaration), but it reflects customary international law in many respects and has been widely incorporated into binding legal frameworks at national and regional levels. Its provisions on FPIC and land rights are increasingly recognized as part of the binding international human rights framework."
+
+- question: "IFC Performance Standard 7 on Indigenous Peoples requires FPIC for which of the following project types?"
+  options:
+  - "Any project that takes place in a country with an indigenous population"
+  - "Projects involving significant commercial impacts on indigenous communities, with enhanced FPIC for those involving land acquisition or cultural heritage"
+  - "All infrastructure and mining projects globally, regardless of whether indigenous peoples are present"
+  - "Only projects financed directly by the IFC itself"
+  answer: 1
+  explanation: "IFC PS7 applies when a project affects indigenous peoples' lands, territories, resources, or livelihoods. It requires free, prior, and informed consultation to obtain broad community support, with enhanced FPIC requirements specifically for projects involving land acquisition, involuntary resettlement, significant impacts on cultural heritage, or use of cultural resources for commercial purposes."

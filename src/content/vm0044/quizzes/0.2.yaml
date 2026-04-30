@@ -1,0 +1,26 @@
+- question: "What are the three stages of the biochar value chain that must all be inside the VM0044 project boundary?"
+  options:
+    - "Registration, monitoring, and verification"
+    - "Sourcing, production, and application"
+    - "Cultivation, harvesting, and transportation"
+    - "Pyrolysis, gasification, and combustion"
+  answer: 1
+  explanation: "The three stages are: (1) sourcing, where waste biomass is collected and pre-treated; (2) production, where biomass is converted to biochar at a greenfield facility; and (3) application, where biochar is placed into eligible soil or non-soil uses. All three must be within the project boundary for complete GHG accounting."
+
+- question: "Why does VM0044 set baseline emissions at the sourcing stage to zero?"
+  options:
+    - "Because waste biomass produces no greenhouse gases when it decays"
+    - "Because sourcing emissions are always included in the project scenario instead"
+    - "Because diverse feedstock decay rates vary by region and are difficult to measure, making zero the most conservative approach"
+    - "Because the methodology assumes all feedstock was previously used for energy production"
+  answer: 2
+  explanation: "Decay rates for diverse feedstock types vary significantly by material type, moisture, region, and climate. Rather than risk over-issuing credits by using uncertain emission factors, VM0044 conservatively sets baseline sourcing emissions to zero. This ensures credits are not inflated due to measurement uncertainty."
+
+- question: "At what distance threshold does VM0044 require transportation emissions from feedstock or biochar transport to be included in the GHG accounting?"
+  options:
+    - "50 km"
+    - "100 km"
+    - "200 km"
+    - "500 km"
+  answer: 2
+  explanation: "Transportation emissions are only included when the distance exceeds 200 km. For distances up to 200 km, they are considered de minimis and excluded. Beyond 200 km, only road transport is permitted and emissions must be calculated using CDM TOOL12."

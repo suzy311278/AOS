@@ -1,0 +1,26 @@
+- question: "Which of the following is an example of a proportionality mechanism built into IFRS S2?"
+  options:
+    - "Small companies are exempt from all Scope 3 disclosures permanently"
+    - "Entities may use qualitative scenario analysis if commensurate with their circumstances"
+    - "Companies in low-emission sectors need not apply IFRS S2 at all"
+    - "Governance disclosures are optional for private companies"
+  answer: 1
+  explanation: "Scenario analysis under IFRS S2 must be 'commensurate with the entity's circumstances' (paragraph 22). Lower-exposure entities with limited capabilities can provide qualitative narratives rather than sophisticated quantitative modelling — this is a proportionality mechanism."
+
+- question: "An entity claiming to 'comply with IFRS S2 except for Scope 3 disclosures' — is this permitted?"
+  options:
+    - "Yes, if the entity provides a clear explanation of why Scope 3 is omitted"
+    - "Yes, but only for entities with revenues under €500 million"
+    - "No — qualified compliance statements are prohibited under IFRS S2"
+    - "Yes, if the omission covers the first three years of application"
+  answer: 2
+  explanation: "Qualified compliance statements are prohibited under IFRS S2. An entity cannot claim IFRS S2 compliance while selectively omitting required disclosures. The first-year transition relief (which allows Scope 3 deferral) must be specifically invoked under Appendix C — it is not the same as a continuing qualified compliance statement."
+
+- question: "IFRS S2 is described as a 'global baseline.' What does this mean?"
+  options:
+    - "It is the most stringent climate disclosure standard in the world"
+    - "It is the minimum floor — jurisdictions can add supplementary requirements above it"
+    - "It replaces all existing regional and national climate disclosure standards"
+    - "Only entities meeting the baseline need disclose climate information"
+  answer: 1
+  explanation: "IFRS S2 is designed as a comprehensive global baseline (floor), not a ceiling. Jurisdictions can and do add supplementary requirements on top of IFRS S2. An entity meeting those higher jurisdictional requirements automatically meets IFRS S2."

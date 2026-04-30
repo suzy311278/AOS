@@ -1,0 +1,26 @@
+- question: "A sustainability report shows 15,000 tonnes of waste while the BRSR shows 14,200 tonnes for the same reporting boundary. What is the likely root cause?"
+  options:
+    - "The two reports use different measurement units"
+    - "Different teams collected data at different times, and one version was updated (e.g., after assurance) without the correction being communicated to the other team"
+    - "The BRSR always uses lower numbers for regulatory reasons"
+    - "Waste data is inherently imprecise and small differences are expected"
+  answer: 1
+  explanation: "The most common cause of data mismatches is organizational - different teams working on different timelines, with data corrections (often after assurance) being applied to one document but not communicated to the other. This is preventable by using a single finalized data set and cross-checking before publication."
+
+- question: "What is the most effective way to prevent data inconsistencies between the BRSR and sustainability report?"
+  options:
+    - "Have the same person write both documents"
+    - "Publish both documents on the same date"
+    - "Use a single finalized data set for both reports, time the data freeze after assurance, and do a line-by-line cross-check before publication"
+    - "Only report qualitative information to avoid numerical discrepancies"
+  answer: 2
+  explanation: "Prevention requires three things: a single source of truth for data (shared across both teams), timing the data freeze after assurance is complete so corrections are captured, and a mandatory cross-check comparing every quantitative disclosure between the two documents before either is published."
+
+- question: "If the BRSR and sustainability report intentionally use different reporting boundaries, what must both documents do?"
+  options:
+    - "Use the same numbers regardless of different boundaries"
+    - "Clearly state their respective boundaries so readers understand why the numbers differ"
+    - "Include a disclaimer that numbers should not be compared"
+    - "Only one of the documents should include quantitative data"
+  answer: 1
+  explanation: "Different boundaries are acceptable - the BRSR might cover only the listed entity while the sustainability report covers the group. But both documents must clearly state their boundary. The worst outcome is ambiguity where neither document explains its boundary and readers are left to guess why the numbers do not match."

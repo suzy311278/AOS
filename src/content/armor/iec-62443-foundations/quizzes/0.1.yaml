@@ -1,0 +1,26 @@
+- question: "In an OT environment, which property of the CIA triad is typically prioritised first, and why?"
+  options:
+    - "Confidentiality, because PLC firmware is proprietary intellectual property."
+    - "Integrity, because corrupted setpoints could damage equipment."
+    - "Availability, because loss of view or control of a physical process can cascade into safety incidents."
+    - "All three are weighted equally; OT and IT use the same priority order."
+  answer: 2
+  explanation: "IEC 62443-1-1 explicitly inverts the IT CIA triad to AIC for control systems. Availability is paramount because the operator cannot safely shut down what they cannot see or control, and a stalled control loop can drive the physical process toward an unsafe state."
+
+- question: "Why are PLCs and other Level 1 devices typically NOT patched on the same cadence as IT endpoints?"
+  options:
+    - "Vendors do not publish firmware updates for PLCs."
+    - "Patches can introduce latency or behavioural changes that destabilise tightly tuned control loops, so any patch is a process-safety change."
+    - "PLCs run on read-only memory and cannot be patched."
+    - "The IEC 62443 standard explicitly forbids patching."
+  answer: 1
+  explanation: "PLC code is deterministic and tuned to the physical process. A patch that adds even a few milliseconds of jitter can destabilise feedback control. IEC 62443-2-3 treats patching as a managed change, with risk assessment and rollback as first-class concerns."
+
+- question: "Which of the following best characterises the typical lifecycle of an industrial control component compared to an enterprise IT component?"
+  options:
+    - "Roughly the same: 3-5 years for both."
+    - "OT components are replaced more often because they are simpler."
+    - "OT components frequently remain in service for 15-25 years, while IT components turn over every 3-5 years."
+    - "OT components are never replaced because they have no software."
+  answer: 2
+  explanation: "Brownfield ICS commonly contains controllers, drives, and HMIs commissioned a decade or more ago. Long lifecycles drive the entire 62443 lifecycle approach — supplier requirements (4-1, 4-2), service-provider requirements (2-4), and patch management (2-3) all assume the device on the floor will outlive several generations of operating systems."

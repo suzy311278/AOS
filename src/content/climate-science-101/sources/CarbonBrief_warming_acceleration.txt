@@ -1,0 +1,86 @@
+Carbon Brief: Pace of Global Warming Has Nearly Doubled Since 2015
+Source: https://www.carbonbrief.org/pace-of-global-warming-has-nearly-doubled-since-2015-study-says/
+Study published in: Geophysical Research Letters
+Crawled: March 2026
+
+MAIN DISCOVERY:
+Global warming has accelerated significantly since 2015, nearly doubling its previous rate.
+
+CORE FINDINGS:
+
+Warming Rates:
+- 1970-2015: approximately 0.2°C per decade
+- Since 2015: 0.34-0.42°C per decade across five datasets
+- Current pace represents the fastest warming rate on record
+
+Paris Agreement Threshold:
+If current warming rates persist, the 1.5°C limit could be breached between 2026-2029, depending on the dataset analyzed.
+
+METHODOLOGY:
+
+Researchers removed natural variability factors - El Nino, volcanic activity, and solar variation - from global temperature records. This approach made acceleration statistically significant (greater than 98% confidence) across all five major temperature datasets: NASA, NOAA, HadCRUT5, Berkeley Earth, and Copernicus ERA5.
+
+KEY QUOTE:
+"The essential result isn't how fast we're warming, but warming is happening faster than before and the difference isn't negligible," according to study author Dr. Grant Foster.
+
+SCIENTIFIC DEBATE:
+
+Experts expressed varying perspectives:
+- Piers Forster notes "accelerating" is "emotive, but difficult mathematically"
+- Michael Mann argues warming has remained constant since the 1970s due to aerosol reductions and El Nino effects
+- Zeke Hausfather characterizes removing El Nino effects as "more art than science"
+
+SUPPORTING EVIDENCE:
+
+Ocean heat content and Earth's energy imbalance measurements corroborate acceleration patterns in recent years.
+
+=============================================================================
+
+Carbon Brief: Heatwaves Driving Recent Surge in Compound Drought and Heat Extremes
+Source: https://www.carbonbrief.org/heatwaves-driving-recent-surge-in-compound-drought-and-heat-extremes/
+Research Study: Kim et al. (2026), published in Science Advances
+Published: March 6, 2026
+
+KEY FINDINGS:
+
+Compound drought and heatwave events (CDHEs) - where drought and extreme heat occur simultaneously or in quick succession - have "surged" globally since the early 2000s. Heatwave-led compound events have more than doubled in spatial extent between 1980-2001 and 2002-23.
+
+MAIN DRIVERS:
+
+The surge in heatwaves triggering compound events cannot be explained by global warming alone. Earth's average temperature crossed 14.3°C around 2000, after which land-atmosphere feedback mechanisms intensified dramatically.
+
+CRITICAL STATISTICS:
+- Heatwave-led CDHEs increased 110% between study periods
+- Drought-led events increased 59% over the same timeframe
+- In 1980-2001, heatwave-led events rose 1.6% per degree Celsius of global warming
+- This rate jumped to 13.1% per degree for 2002-23
+
+GEOGRAPHIC DISTRIBUTION:
+CDHEs occur most frequently in northern South America, the southern United States, eastern Europe, central Africa, and south Asia.
+
+REAL-WORLD IMPACTS:
+- The 2010 Russian drought-heatwave event and associated wildfires caused nearly 55,000 deaths
+- Australia's 2019-20 "Black Summer" fires burned 24 million hectares and killed 33 people
+- Canada's 2021 Pacific Northwest heat dome triggered severe wheat and crop yield declines
+
+=============================================================================
+
+Carbon Brief: Limiting Warming to 2C Is Crucial to Protect Antarctic Peninsula
+Source: https://www.carbonbrief.org/limiting-warming-to-2c-is-crucial-to-protect-pristine-antarctic-peninsula/
+Published: February 20, 2026
+Study published in: Frontiers in Environmental Science
+
+KEY FINDINGS:
+
+Keeping global warming below 2°C is "crucial" for protecting the Antarctic Peninsula's unique ecosystems.
+
+Under a low-emissions scenario (SSP1-2.6), the Antarctic Peninsula will experience 2.28°C of warming by century's end. Higher-emissions pathways would push temperatures 5.22°C to 6.10°C above pre-industrial levels.
+
+THE ANTARCTIC PENINSULA:
+The region comprises the main peninsula (232,000 km2) and islands covering 80,000 km2. It represents Antarctica's most biodiverse area, hosting numerous penguin species, whales, seals, orcas, leopard seals, and over 100 million nesting birds annually.
+
+PHYSICAL CHANGES PROJECTED:
+The study analyzed 19 climate models examining temperature changes for 2090-2099. Sea ice concentration declines vary seasonally - western peninsula shores show greatest winter losses (June-August), while eastern sides experience larger summer decreases.
+
+ECOSYSTEM IMPACTS:
+Under the 2°C scenario, ecosystem changes remain "uncertain" but likely resemble current conditions, with some terrestrial species potentially benefiting from expanded habitat. Higher-emissions futures threaten species adapted to cooler temperatures. Already-observed shifts include Adelie penguin population declines and gentoo penguin range expansion.

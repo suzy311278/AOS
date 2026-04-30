@@ -1,0 +1,26 @@
+- question: "Under the EUDR, who bears the formal legal due diligence obligations?"
+  options:
+    - "Smallholder farmers who produce the relevant commodities"
+    - "National governments of producer countries"
+    - "Operators and traders who place products on the EU market"
+    - "EU-based retailers and supermarkets exclusively"
+  answer: 2
+  explanation: "The EUDR places obligations on operators (those placing relevant products on the EU market or exporting them) and traders, not on farmers. Smallholder farmers are not directly regulated; they are asked to provide data to the operators who purchase their produce."
+
+- question: "What is the approximate share of global cocoa produced by smallholder farmers?"
+  options:
+    - "Approximately 30%"
+    - "Approximately 50%"
+    - "Approximately 70%"
+    - "Approximately 90%"
+  answer: 3
+  explanation: "Approximately 90% of global cocoa is produced by smallholders, predominantly in West Africa. Cote d'Ivoire and Ghana together produce around 60% of world supply through over 2 million smallholder farming families, making smallholder inclusion an existential challenge for EUDR compliance in the cocoa sector."
+
+- question: "Which approach uses satellite imagery and AI to delineate individual farm plot boundaries without requiring physical GPS collection at every farm?"
+  options:
+    - "Manual survey methodology"
+    - "Mass balance tracking"
+    - "Remote sensing-based plot delineation"
+    - "Blockchain-enabled provenance tracking"
+  answer: 2
+  explanation: "Remote sensing-based plot delineation uses high-resolution satellite imagery and AI algorithms to identify and map individual farm plot boundaries from space. This approach can significantly reduce the cost and logistical challenge of collecting GPS data from millions of individual smallholder farms."

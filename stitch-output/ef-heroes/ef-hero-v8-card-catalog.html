@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Greentryst | Emission Factor Card Catalog</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&amp;family=JetBrains+Mono:wght@400;500&amp;family=Libre+Baskerville:ital@1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-dim": "#dedad0",
+                        "on-tertiary": "#ffffff",
+                        "outline": "#6f7977",
+                        "on-secondary-fixed": "#0a1f1f",
+                        "surface-tint": "#1a6962",
+                        "inverse-primary": "#8cd4ca",
+                        "on-secondary-container": "#546868",
+                        "on-tertiary-fixed-variant": "#653e00",
+                        "on-error-container": "#93000a",
+                        "secondary-container": "#d0e7e6",
+                        "surface-container-high": "#ede8de",
+                        "surface-container-lowest": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "on-surface": "#1d1c16",
+                        "tertiary": "#553300",
+                        "secondary": "#4e6262",
+                        "on-secondary-fixed-variant": "#364a4a",
+                        "surface-container-low": "#f8f3e9",
+                        "on-primary-container": "#8ad2c8",
+                        "primary-fixed": "#a7f0e6",
+                        "on-error": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface": "#fef9ef",
+                        "secondary-fixed": "#d0e7e6",
+                        "surface-container": "#f2ede3",
+                        "on-surface-variant": "#3f4947",
+                        "tertiary-container": "#744800",
+                        "primary": "#00433d",
+                        "outline-variant": "#bec9c6",
+                        "on-tertiary-fixed": "#2a1700",
+                        "surface-variant": "#e7e2d8",
+                        "on-tertiary-container": "#ffb759",
+                        "tertiary-fixed-dim": "#ffb95f",
+                        "on-background": "#1d1c16",
+                        "primary-container": "#005c55",
+                        "inverse-surface": "#32302a",
+                        "surface-container-highest": "#e7e2d8",
+                        "on-primary-fixed-variant": "#00504a",
+                        "on-primary": "#ffffff",
+                        "tertiary-fixed": "#ffddb8",
+                        "secondary-fixed-dim": "#b5cbca",
+                        "on-primary-fixed": "#00201d",
+                        "inverse-on-surface": "#f5f0e6",
+                        "primary-fixed-dim": "#8cd4ca",
+                        "on-secondary": "#ffffff",
+                        "surface-bright": "#fef9ef",
+                        "background": "#fef9ef"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Inter", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "mono": ["JetBrains Mono", "monospace"],
+                        "serif": ["Libre Baskerville", "serif"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { background-color: #f6f1e7; }
+        .paper-grain {
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3Unique%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            opacity: 0.04;
+            pointer-events: none;
+        }
+        .brass-plate {
+            background: linear-gradient(145deg, #d4bc8d, #bfa77a);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.1);
+        }
+        .drawer-pull {
+            background: radial-gradient(circle at 30% 30%, #364a4a, #00433d);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .typewriter-card {
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transform: rotate(-1deg) translateY(-20px);
+        }
+    </style>
+</head>
+<body class="font-body text-on-surface selection:bg-tertiary-fixed-dim">
+<div class="fixed inset-0 paper-grain"></div>
+<!-- Top Navigation (Authority: JSON/Design System) -->
+<nav class="relative z-10 flex justify-between items-center px-8 py-6 w-full max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<span class="text-2xl font-extrabold tracking-tighter text-primary">Greentryst</span>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-headline font-bold tracking-tight uppercase text-sm text-gray-500 hover:text-tertiary transition-colors" href="#">Archive</a>
+<a class="font-headline font-bold tracking-tight uppercase text-sm text-gray-500 hover:text-tertiary transition-colors" href="#">Catalogs</a>
+<a class="font-headline font-bold tracking-tight uppercase text-sm text-gray-500 hover:text-tertiary transition-colors" href="#">Reports</a>
+<a class="font-headline font-bold tracking-tight uppercase text-sm text-gray-500 hover:text-tertiary transition-colors" href="#">Compliance</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex gap-4 text-xs font-headline font-bold tracking-widest uppercase text-gray-400">
+<a class="hover:text-primary transition-colors" href="#">Tools</a>
+<span>·</span>
+<a class="hover:text-primary transition-colors" href="#">Guides</a>
+<span>·</span>
+<a class="hover:text-primary transition-colors" href="#">Learn</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-full font-headline font-bold uppercase text-xs tracking-widest hover:bg-primary-container transition-transform active:scale-95">
+                Sign In
+            </button>
+</div>
+</nav>
+<!-- Hero Section -->
+<main class="relative z-10 max-w-screen-2xl mx-auto px-12 pt-12 pb-24 flex gap-12">
+<!-- Main Catalog Grid (Asymmetric Layout) -->
+<div class="flex-1">
+<header class="mb-8">
+<div class="font-headline font-bold tracking-[0.2em] uppercase text-[11px] text-gray-500">
+                    THE GREENTRYST CARD CATALOG · EST. 2026
+                </div>
+</header>
+<div class="grid grid-cols-4 gap-4 max-w-4xl">
+<!-- Open Drawer (Special Case) -->
+<div class="relative group h-44">
+<div class="absolute inset-0 bg-[#e7dfcd] border-b-4 border-black/10 rounded-sm"></div>
+<!-- Open state representation -->
+<div class="absolute -top-12 left-4 z-20 typewriter-card bg-white w-[380px] p-6 border border-gray-100 flex flex-col gap-3">
+<div class="flex justify-between items-start">
+<span class="font-mono text-[10px] text-gray-400">GT-EF-2026.1</span>
+<div class="border-2 border-primary/20 text-primary/40 px-2 py-0.5 rounded rotate-12 text-[10px] font-bold tracking-tighter">VERIFIED</div>
+</div>
+<h2 class="font-headline font-extrabold text-xl text-primary leading-tight uppercase tracking-tight">UK grid electricity</h2>
+<div class="grid grid-cols-2 gap-x-4 gap-y-2 mt-2">
+<div class="flex flex-col border-b border-gray-100 pb-1">
+<span class="font-mono text-[9px] text-gray-400 uppercase tracking-tighter">Value (kgCO2e/kWh)</span>
+<span class="font-mono text-sm font-bold text-tertiary">0.2071</span>
+</div>
+<div class="flex flex-col border-b border-gray-100 pb-1">
+<span class="font-mono text-[9px] text-gray-400 uppercase tracking-tighter">Source Identity</span>
+<span class="font-mono text-sm font-bold text-primary">DEFRA</span>
+</div>
+<div class="flex flex-col border-b border-gray-100 pb-1">
+<span class="font-mono text-[9px] text-gray-400 uppercase tracking-tighter">Scope Tier</span>
+<span class="font-mono text-sm font-bold">2.0</span>
+</div>
+<div class="flex flex-col border-b border-gray-100 pb-1">
+<span class="font-mono text-[9px] text-gray-400 uppercase tracking-tighter">Access Tier</span>
+<span class="font-mono text-sm font-bold">PUBLIC</span>
+</div>
+</div>
+</div>
+<!-- Drawer Front UI -->
+<div class="relative h-full flex flex-col items-center justify-center p-4">
+<div class="brass-plate px-4 py-2 flex flex-col items-center min-w-[140px] rounded-sm mb-4">
+<span class="font-headline font-bold text-[10px] text-on-tertiary-fixed-variant leading-none">ELECTRICITY · UK</span>
+<span class="font-mono text-[9px] text-on-tertiary-fixed-variant/60 mt-1 uppercase">1,244 Records</span>
+</div>
+<div class="drawer-pull w-3 h-3 rounded-full"></div>
+</div>
+</div>
+<!-- Generated Drawer Grids -->
+<!-- Row 1, Col 2-4 -->
+<div class="bg-[#e7dfcd] border-b-4 border-black/10 h-44 flex flex-col items-center justify-center p-4">
+<div class="brass-plate px-4 py-2 flex flex-col items-center min-w-[140px] rounded-sm mb-4">
+<span class="font-headline font-bold text-[10px] text-on-tertiary-fixed-variant leading-none">FUELS · NATURAL GAS</span>
+<span class="font-mono text-[9px] text-on-tertiary-fixed-variant/60 mt-1 uppercase">852 Records</span>
+</div>
+<div class="drawer-pull w-3 h-3 rounded-full"></div>
+</div>
+<div class="bg-[#e7dfcd] border-b-4 border-black/10 h-44 flex flex-col items-center justify-center p-4">
+<div class="brass-plate px-4 py-2 flex flex-col items-center min-w-[140px] rounded-sm mb-4">
+<span class="font-headline font-bold text-[10px] text-on-tertiary-fixed-variant leading-none">FREIGHT · SEA</span>
+<span class="font-mono text-[9px] text-on-tertiary-fixed-variant/60 mt-1 uppercase">4,119 Records</span>
+</div>
+<div class="drawer-pull w-3 h-3 rounded-full"></div>
+</div>
+<div class="bg-[#e7dfcd] border-b-4 border-black/10 h-44 flex flex-col items-center justify-center p-4">
+<div class="brass-plate px-4 py-2 flex flex-col items-center min-w-[140px] rounded-sm mb-4">
+<span class="font-headline font-bold text-[10px] text-on-tertiary-fixed-variant leading-none">FREIGHT · ROAD</span>
+<span class="font-mono text-[9px] text-on-tertiary-fixed-variant/60 mt-1 uppercase">12,408 Records</span>
+</div>
+<div class="drawer-pull w-3 h-3 rounded-full"></div>
+</div>
+<!-- Row 2 -->
+<div class="bg-[#e7dfcd] border-b-4 border-black/10 h-44 flex flex-col items-center justify-center p-4">
+<div class="brass-plate px-4 py-2 flex flex-col items-center min-w-[140px] rounded-sm mb-4">
+<span class="font-headline font-bold text-[10px] text-on-tertiary-fixed-variant leading-none">ELECTRICITY · EU</span>
+<span class="font-mono text-[9px] text-on-tertiary-fixed-variant/60 mt-1 uppercase">9,203 Records</span>
+</div>
+<div class="drawer-pull w-3 h-3 rounded-full"></div>
+</div>
+<div class="bg-[#e7dfcd] border-b-4 border-black/10 h-44 flex flex-col items-center justify-center p-4">
+<div class="brass-plate px-4 py-2 flex flex-col items-center min-w-[140px] rounded-sm mb-4">
+<span class="font-headline font-bold text-[10px] text-on-tertiary-fixed-variant leading-none">MATERIALS · METAL</span>
+<span class="font-mono text-[9px] text-on-tertiary-fixed-variant/60 mt-1 uppercase">1,004 Records</span>
+</div>
+<div class="drawer-pull w-3 h-3 rounded-full"></div>
+</div>
+<div class="bg-[#e7dfcd] border-b-4 border-black/10 h-44 flex flex-col items-center justify-center p-4">
+<div class="brass-plate px-4 py-2 flex flex-col items-center min-w-[140px] rounded-sm mb-4">
+<span class="font-headline font-bold text-[10px] text-on-tertiary-fixed-variant leading-none">MATERIALS · GLASS</span>
+<span class="font-mono text-[9px] text-on-tertiary-fixed-variant/60 mt-1 uppercase">442 Records</span>
+</div>
+<div class="drawer-pull w-3 h-3 rounded-full"></div>
+</div>
+<div class="bg-[#e7dfcd] border-b-4 border-black/10 h-44 flex flex-col items-center justify-center p-4">
+<div class="brass-plate px-4 py-2 flex flex-col items-center min-w-[140px] rounded-sm mb-4">
+<span class="font-headline font-bold text-[10px] text-on-tertiary-fixed-variant leading-none">WASTE · TREATMENT</span>
+<span class="font-mono text-[9px] text-on-tertiary-fixed-variant/60 mt-1 uppercase">3,892 Records</span>
+</div>
+<div class="drawer-pull w-3 h-3 rounded-full"></div>
+</div>
+<!-- Row 3 -->
+<div class="bg-[#e7dfcd] border-b-4 border-black/10 h-44 flex flex-col items-center justify-center p-4">
+<div class="brass-plate px-4 py-2 flex flex-col items-center min-w-[140px] rounded-sm mb-4">
+<span class="font-headline font-bold text-[10px] text-on-tertiary-fixed-variant leading-none">AGRICULTURE</span>
+<span class="font-mono text-[9px] text-on-tertiary-fixed-variant/60 mt-1 uppercase">6,110 Records</span>
+</div>
+<div class="drawer-pull w-3 h-3 rounded-full"></div>
+</div>
+<div class="bg-[#e7dfcd] border-b-4 border-black/10 h-44 flex flex-col items-center justify-center p-4">
+<div class="brass-plate px-4 py-2 flex flex-col items-center min-w-[140px] rounded-sm mb-4">
+<span class="font-headline font-bold text-[10px] text-on-tertiary-fixed-variant leading-none">REFRIGERANTS</span>
+<span class="font-mono text-[9px] text-on-tertiary-fixed-variant/60 mt-1 uppercase">192 Records</span>
+</div>
+<div class="drawer-pull w-3 h-3 rounded-full"></div>
+</div>
+<div class="bg-[#e7dfcd] border-b-4 border-black/10 h-44 flex flex-col items-center justify-center p-4">
+<div class="brass-plate px-4 py-2 flex flex-col items-center min-w-[140px] rounded-sm mb-4">
+<span class="font-headline font-bold text-[10px] text-on-tertiary-fixed-variant leading-none">HEATING · STEAM</span>
+<span class="font-mono text-[9px] text-on-tertiary-fixed-variant/60 mt-1 uppercase">1,032 Records</span>
+</div>
+<div class="drawer-pull w-3 h-3 rounded-full"></div>
+</div>
+<div class="bg-[#e7dfcd] border-b-4 border-black/10 h-44 flex flex-col items-center justify-center p-4">
+<div class="brass-plate px-4 py-2 flex flex-col items-center min-w-[140px] rounded-sm mb-4">
+<span class="font-headline font-bold text-[10px] text-on-tertiary-fixed-variant leading-none">MISCELLANEOUS</span>
+<span class="font-mono text-[9px] text-on-tertiary-fixed-variant/60 mt-1 uppercase">14,992 Records</span>
+</div>
+<div class="drawer-pull w-3 h-3 rounded-full"></div>
+</div>
+</div>
+<div class="mt-16 flex flex-col gap-4">
+<p class="font-serif italic text-3xl text-primary opacity-90 tracking-tight">Every emission factor. Sourced. Dated. Free.</p>
+<div class="flex gap-12 mt-2">
+<div class="flex flex-col">
+<span class="font-mono text-[10px] uppercase text-gray-400">Total Catalog entries</span>
+<span class="font-mono font-medium text-lg">211,651</span>
+</div>
+<div class="flex flex-col">
+<span class="font-mono text-[10px] uppercase text-gray-400">Active Contributors</span>
+<span class="font-mono font-medium text-lg">41</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Rail -->
+<aside class="w-[280px] mt-12 flex flex-col gap-10">
+<div class="flex flex-col gap-6">
+<header class="flex flex-col border-b-4 border-tertiary pb-2">
+<span class="font-headline font-extrabold text-sm uppercase tracking-[0.2em] text-tertiary">CATALOG SEARCH</span>
+</header>
+<div class="relative">
+<input class="w-full bg-transparent border-t-0 border-x-0 border-b border-primary/30 py-3 text-sm font-mono placeholder:text-gray-400 focus:ring-0 focus:border-primary px-0" placeholder="Enter keycode or material..." type="text"/>
+<span class="material-symbols-outlined absolute right-0 top-3 text-primary text-xl" style="font-variation-settings: 'FILL' 0;">search</span>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-headline font-bold text-[10px] tracking-widest uppercase text-gray-400">Status Legend</span>
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-3">
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+<span class="font-mono text-[11px] uppercase tracking-tighter">Available / Current</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-2 h-2 rounded-full bg-tertiary-fixed-dim"></div>
+<span class="font-mono text-[11px] uppercase tracking-tighter">Superseded / Archived</span>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-2 h-2 rounded-full bg-error"></div>
+<span class="font-mono text-[11px] uppercase tracking-tighter">Redacted / Error</span>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-8 border-t border-gray-200">
+<span class="font-headline font-bold text-[10px] tracking-widest uppercase text-gray-400 block mb-4">Reading Room Hours</span>
+<div class="font-mono text-[11px] text-gray-600 space-y-1">
+<div class="flex justify-between"><span>MON-FRI</span><span>08:00 - 20:00</span></div>
+<div class="flex justify-between"><span>SAT-SUN</span><span>10:00 - 16:00</span></div>
+<div class="mt-4 text-primary font-bold">DIGITAL ACCESS: 24/7/365</div>
+</div>
+</div>
+</aside>
+</main>
+<!-- Stat Strip -->
+<section class="relative z-10 bg-[#f6f1e7] border-t border-gray-200 py-4">
+<div class="max-w-screen-2xl mx-auto px-12 flex justify-center items-center gap-24 font-mono text-xs font-bold tracking-[0.3em] text-gray-500">
+<div class="flex items-center gap-4">
+<span>RECORDS</span>
+<span class="text-primary">211,651</span>
+</div>
+<div class="flex items-center gap-4">
+<span>SOURCES</span>
+<span class="text-primary">41</span>
+</div>
+<div class="flex items-center gap-4">
+<span>REGIONS</span>
+<span class="text-primary">4</span>
+</div>
+<div class="flex items-center gap-4">
+<span>ERRORS</span>
+<span class="text-tertiary">0</span>
+</div>
+</div>
+</section>
+<!-- Footer (Authority: JSON/Design System) -->
+<footer class="relative z-10 w-full border-t border-primary/10 bg-surface-container py-12 mt-12">
+<div class="max-w-screen-2xl mx-auto px-12 flex flex-col md:flex-row justify-between items-center">
+<p class="font-mono text-[10px] tracking-widest uppercase text-gray-500">© 2024 Greentryst Institutional Archive. All Rights Reserved. Data Precision Guaranteed.</p>
+<div class="flex gap-8 mt-6 md:mt-0">
+<a class="font-mono text-[10px] tracking-widest uppercase text-gray-400 hover:text-tertiary transition-colors" href="#">Terms of Access</a>
+<a class="font-mono text-[10px] tracking-widest uppercase text-gray-400 hover:text-tertiary transition-colors" href="#">Privacy Protocol</a>
+<a class="font-mono text-[10px] tracking-widest uppercase text-gray-400 hover:text-tertiary transition-colors" href="#">API Docs</a>
+</div>
+</div>
+</footer>
+</body></html>

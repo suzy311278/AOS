@@ -1,0 +1,35 @@
+- question: "What is the purpose of exempting certain sectors from a carbon tax?"
+  options:
+    - "To make the policy completely ineffective"
+    - "To address competitiveness, affordability, or administrative concerns"
+    - "To favor politically powerful industries"
+    - "Exemptions are never used in carbon taxes"
+  answer: 1
+  explanation: "Exemptions are used to address legitimate concerns about international competitiveness (for trade-exposed industries), affordability (for essential services), or administrative complexity (for very small emitters)."
+
+- question: "Why might agriculture receive special treatment in carbon pricing?"
+  options:
+    - "Farmers have strong political influence in all countries"
+    - "Agriculture produces no emissions"
+    - "Measurement challenges and food security concerns"
+    - "International law prohibits taxing agriculture"
+  answer: 2
+  explanation: "Agricultural emissions are difficult to measure (especially methane and N2O from diverse sources), and food security is a political priority, leading many systems to defer agricultural coverage."
+
+- question: "What is a common approach for small emitters in carbon pricing systems?"
+  options:
+    - "They always pay double the rate"
+    - "They are often exempted due to administrative burden"
+    - "They receive government subsidies"
+    - "They must report emissions more frequently"
+  answer: 1
+  explanation: "Small emitters (below a certain threshold) are often exempted because the administrative cost of including them exceeds the environmental benefit. Focus on large emitters provides more bang for the administrative buck."
+
+- question: "What trade-off does sectoral exemption create?"
+  options:
+    - "Lower administrative burden but reduced environmental coverage and economic efficiency"
+    - "Higher revenue but lower emissions reductions"
+    - "Better political support but higher costs"
+    - "More complexity but simpler administration"
+  answer: 0
+  explanation: "Exemptions reduce administrative work and political resistance but also reduce coverage (missing emissions), undermine economic efficiency (price signal is incomplete), and may create fairness concerns."

@@ -1,0 +1,2530 @@
+[INIT].... → Crawl4AI 0.8.0 
+[FETCH]... ↓ https://www.the-esg-institute.org/                                 
+| ✓ | ⏱: 2.48s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/                                 
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.the-esg-institute.org/                                 
+| ✓ | ⏱: 2.79s 
+[FETCH]... ↓ https://www.the-esg-institute.org                                  
+| ✓ | ⏱: 1.76s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org                                  
+| ✓ | ⏱: 7.49s 
+[COMPLETE] ● https://www.the-esg-institute.org                                  
+| ✓ | ⏱: 9.59s 
+[ERROR]... × https://www.the-esg-ins...-questionnaire-business  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://www.the-esg-institute.org/accreditation-questionnaire-business", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://www.the-esg-ins...een-workforce-challenge  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://www.the-esg-institute.org/blog/addressing-the-green-workforce-challenge
+", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://www.the-esg-ins...estionnaire-per-program  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://www.the-esg-institute.org/accreditation-questionnaire-per-program", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://www.the-esg-ins...stionnaire-professional  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://www.the-esg-institute.org/accreditation-questionnaire-professional", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://www.the-esg-ins...e.org/affiliate-program  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.the-esg-institute.org/affiliate-program", waiting
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://www.the-esg-ins...om-promises-to-progress  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://www.the-esg-institute.org/blog/cop29-can-we-move-from-promises-to-progr
+ess", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://www.the-esg-institute.org/awards           | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.the-esg-institute.org/awards", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://www.the-esg-institute.org/blog             | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.the-esg-institute.org/blog", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://www.the-esg-ins...ox-outbreak-dca6j-792gt  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://www.the-esg-institute.org/blog/esg-and-the-mpox-outbreak-dca6j-792gt", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://www.the-esg-ins...on-net-zero-made-simple  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://www.the-esg-institute.org/blog/carbon-net-zero-made-simple", waiting 
+until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://www.the-esg-institute.org/about            | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.the-esg-institute.org/about", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://www.the-esg-ins...the-mpox-outbreak-dca6j  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://www.the-esg-institute.org/blog/esg-and-the-mpox-outbreak-dca6j", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[DEBUG]... ⋯ Body visibility info: True 
+[FETCH]... ↓ https://courses.the-esg-institute.org/p/diploma-in-esg-strategy    
+| ✓ | ⏱: 93.81s 
+[SCRAPE].. ◆ https://courses.the-esg-institute.org/p/diploma-in-esg-strategy    
+| ✓ | ⏱: 2.60s 
+[COMPLETE] ● https://courses.the-esg-institute.org/p/diploma-in-esg-strategy    
+| ✓ | ⏱: 96.89s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/climate-c...-urgent-but-plastic-pollution
+-might-end-us-first  | ✓ | ⏱: 87.96s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/climate-c...-urgent-but-plastic-pollution
+-might-end-us-first  | ✓ | ⏱: 1.26s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/climate-c...-urgent-but-plastic-pollution
+-might-end-us-first  | ✓ | ⏱: 90.09s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/esg-and-the-mpox-outbreak   
+| ✓ | ⏱: 90.68s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/esg-and-the-mpox-outbreak   
+| ✓ | ⏱: 2.28s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/esg-and-the-mpox-outbreak   
+| ✓ | ⏱: 93.37s 
+[FETCH]... ↓ https://www.the-esg-institute.org/advisory                         
+| ✓ | ⏱: 93.93s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/advisory                         
+| ✓ | ⏱: 3.33s 
+[COMPLETE] ● https://www.the-esg-institute.org/advisory                         
+| ✓ | ⏱: 97.83s 
+[FETCH]... ↓ https://www.the-esg-institute.org/accreditation-questionnaire-ngo  
+| ✓ | ⏱: 99.71s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/accreditation-questionnaire-ngo  
+| ✓ | ⏱: 3.05s 
+[COMPLETE] ● https://www.the-esg-institute.org/accreditation-questionnaire-ngo  
+| ✓ | ⏱: 103.24s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/esg-insti...re-collaborate-to-empower-dig
+ital-sustainability  | ✓ | ⏱: 105.29s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/esg-insti...re-collaborate-to-empower-dig
+ital-sustainability  | ✓ | ⏱: 0.33s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/esg-insti...re-collaborate-to-empower-dig
+ital-sustainability  | ✓ | ⏱: 105.67s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/chinas-co...ap-for-foreign-companies-doin
+g-business-in-china  | ✓ | ⏱: 114.34s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/chinas-co...ap-for-foreign-companies-doin
+g-business-in-china  | ✓ | ⏱: 5.74s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/chinas-co...ap-for-foreign-companies-doin
+g-business-in-china  | ✓ | ⏱: 122.45s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/european-commission-releases-eu-taxonomy-
+faqs                 | ✓ | ⏱: 131.60s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/european-commission-releases-eu-taxonomy-
+faqs                 | ✓ | ⏱: 1.68s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/european-commission-releases-eu-taxonomy-
+faqs                 | ✓ | ⏱: 134.35s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/from-decree-to-emergency-plan-spain-bets-
+big-on-esg-zncjh     | ✓ | ⏱: 76.61s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/from-decree-to-emergency-plan-spain-bets-
+big-on-esg-zncjh     | ✓ | ⏱: 0.52s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/from-decree-to-emergency-plan-spain-bets-
+big-on-esg-zncjh     | ✓ | ⏱: 77.33s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/from-ai-t...-key-esg-trends-defining-the-
+second-half-of-2024  | ✓ | ⏱: 82.07s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/from-ai-t...-key-esg-trends-defining-the-
+second-half-of-2024  | ✓ | ⏱: 0.82s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/from-ai-t...-key-esg-trends-defining-the-
+second-half-of-2024  | ✓ | ⏱: 84.54s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/from-decree-to-emergency-plan-spain-bets-
+big-on-esg           | ✓ | ⏱: 82.10s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/from-decree-to-emergency-plan-spain-bets-
+big-on-esg           | ✓ | ⏱: 0.27s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/from-decree-to-emergency-plan-spain-bets-
+big-on-esg           | ✓ | ⏱: 82.49s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/the-esg-i...ite-to-bring-ai-driven-esg-sc
+oring-to-businesses  | ✓ | ⏱: 82.80s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/the-esg-i...ite-to-bring-ai-driven-esg-sc
+oring-to-businesses  | ✓ | ⏱: 0.14s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/the-esg-i...ite-to-bring-ai-driven-esg-sc
+oring-to-businesses  | ✓ | ⏱: 83.01s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/preparing...row-insights-from-the-future-
+of-jobs-report-2025  | ✓ | ⏱: 83.08s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/preparing...row-insights-from-the-future-
+of-jobs-report-2025  | ✓ | ⏱: 0.43s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/preparing...row-insights-from-the-future-
+of-jobs-report-2025  | ✓ | ⏱: 83.56s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/spains-ne...025-mandatory-carbon-footprin
+t-reporting-is-here  | ✓ | ⏱: 83.69s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/spains-ne...025-mandatory-carbon-footprin
+t-reporting-is-here  | ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/spains-ne...025-mandatory-carbon-footprin
+t-reporting-is-here  | ✓ | ⏱: 83.82s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/the-esg-i...-office-and-appoints-eric-app
+iah-as-country-head  | ✓ | ⏱: 85.54s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/the-esg-i...-office-and-appoints-eric-app
+iah-as-country-head  | ✓ | ⏱: 3.48s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/the-esg-i...-office-and-appoints-eric-app
+iah-as-country-head  | ✓ | ⏱: 96.20s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/the-esg-institute-launches-operations-in-
+malaysia             | ✓ | ⏱: 100.14s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/the-esg-institute-launches-operations-in-
+malaysia             | ✓ | ⏱: 6.99s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/the-esg-institute-launches-operations-in-
+malaysia             | ✓ | ⏱: 107.74s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/the-susta...boom-88-percent-of-investors-
+say-they-are-all-in  | ✓ | ⏱: 108.57s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/the-susta...boom-88-percent-of-investors-
+say-they-are-all-in  | ✓ | ⏱: 0.30s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/the-susta...boom-88-percent-of-investors-
+say-they-are-all-in  | ✓ | ⏱: 108.99s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/plasticbu...tackle-plastic-pollution-and-
+promote-circularity  | ✓ | ⏱: 108.75s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/plasticbu...tackle-plastic-pollution-and-
+promote-circularity  | ✓ | ⏱: 0.16s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/plasticbu...tackle-plastic-pollution-and-
+promote-circularity  | ✓ | ⏱: 108.93s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/the-uae-climate-law-is-here-is-your-busin
+ess-ready            | ✓ | ⏱: 109.12s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/the-uae-climate-law-is-here-is-your-busin
+ess-ready            | ✓ | ⏱: 0.08s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/the-uae-climate-law-is-here-is-your-busin
+ess-ready            | ✓ | ⏱: 109.24s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/india-esg...l-sustainability-and-sustaina
+bility-linked-bonds  | ✓ | ⏱: 109.42s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/india-esg...l-sustainability-and-sustaina
+bility-linked-bonds  | ✓ | ⏱: 0.40s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/india-esg...l-sustainability-and-sustaina
+bility-linked-bonds  | ✓ | ⏱: 109.88s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/understan...posal-what-companies-need-to-
+know-and-how-to-act  | ✓ | ⏱: 77.84s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/understan...posal-what-companies-need-to-
+know-and-how-to-act  | ✓ | ⏱: 2.10s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/understan...posal-what-companies-need-to-
+know-and-how-to-act  | ✓ | ⏱: 81.34s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/uk-govern...-how-the-eu-taxonomy-framewor
+k-affects-companies  | ✓ | ⏱: 85.08s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/uk-govern...-how-the-eu-taxonomy-framewor
+k-affects-companies  | ✓ | ⏱: 0.64s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/uk-govern...-how-the-eu-taxonomy-framewor
+k-affects-companies  | ✓ | ⏱: 86.27s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/valencia-...the-rain-wont-stop-and-prepar
+edness-falls-short-  | ✓ | ⏱: 80.64s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/valencia-...the-rain-wont-stop-and-prepar
+edness-falls-short-  | ✓ | ⏱: 0.60s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/valencia-...the-rain-wont-stop-and-prepar
+edness-falls-short-  | ✓ | ⏱: 81.76s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/trading-w...er-cbam-implications-for-impo
+rters-and-exporters  | ✓ | ⏱: 98.07s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/trading-w...er-cbam-implications-for-impo
+rters-and-exporters  | ✓ | ⏱: 0.13s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/trading-w...er-cbam-implications-for-impo
+rters-and-exporters  | ✓ | ⏱: 98.26s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/vietnams-...-market-takes-shape-what-busi
+nesses-need-to-know  | ✓ | ⏱: 68.33s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/vietnams-...-market-takes-shape-what-busi
+nesses-need-to-know  | ✓ | ⏱: 0.26s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/vietnams-...-market-takes-shape-what-busi
+nesses-need-to-know  | ✓ | ⏱: 68.65s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/unlocking...he-eus-sme-sustainable-financ
+e-standard-proposal  | ✓ | ⏱: 80.52s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/unlocking...he-eus-sme-sustainable-financ
+e-standard-proposal  | ✓ | ⏱: 3.49s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/unlocking...he-eus-sme-sustainable-financ
+e-standard-proposal  | ✓ | ⏱: 84.87s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/what-issa-uk-5000-means-for-companies-and
+-investors           | ✓ | ⏱: 73.95s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/what-issa-uk-5000-means-for-companies-and
+-investors           | ✓ | ⏱: 1.48s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/what-issa-uk-5000-means-for-companies-and
+-investors           | ✓ | ⏱: 75.63s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog?author=6495d387bc6f46275ebd3a5d          
+| ✓ | ⏱: 68.63s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog?author=6495d387bc6f46275ebd3a5d          
+| ✓ | ⏱: 3.11s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog?author=6495d387bc6f46275ebd3a5d          
+| ✓ | ⏱: 72.75s 
+[FETCH]... ↓ https://www.the-esg-institute.org/cart                             
+| ✓ | ⏱: 62.41s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/cart                             
+| ✓ | ⏱: 0.69s 
+[COMPLETE] ● https://www.the-esg-institute.org/cart                             
+| ✓ | ⏱: 63.52s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog?author=6495d39d82ae3248fe49c1ca          
+| ✓ | ⏱: 65.58s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog?author=6495d39d82ae3248fe49c1ca          
+| ✓ | ⏱: 0.20s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog?author=6495d39d82ae3248fe49c1ca          
+| ✓ | ⏱: 65.86s 
+[FETCH]... ↓ https://www.the-esg-institute.org/contact                          
+| ✓ | ⏱: 66.13s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/contact                          
+| ✓ | ⏱: 0.17s 
+[COMPLETE] ● https://www.the-esg-institute.org/contact                          
+| ✓ | ⏱: 66.41s 
+[FETCH]... ↓ https://www.the-esg-institute.org/esgtraordinary                   
+| ✓ | ⏱: 52.66s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/esgtraordinary                   
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://www.the-esg-institute.org/esgtraordinary                   
+| ✓ | ⏱: 52.74s 
+[FETCH]... ↓ https://www.the-esg-institute.org/training                         
+| ✓ | ⏱: 28.84s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/training                         
+| ✓ | ⏱: 0.76s 
+[COMPLETE] ● https://www.the-esg-institute.org/training                         
+| ✓ | ⏱: 29.63s 
+[FETCH]... ↓ https://www.the-esg-institute.org/join-the-network                 
+| ✓ | ⏱: 41.76s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/join-the-network                 
+| ✓ | ⏱: 1.24s 
+[COMPLETE] ● https://www.the-esg-institute.org/join-the-network                 
+| ✓ | ⏱: 43.03s 
+[FETCH]... ↓ https://www.the-esg-institute.org/educational-accreditation        
+| ✓ | ⏱: 55.46s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/educational-accreditation        
+| ✓ | ⏱: 0.36s 
+[COMPLETE] ● https://www.the-esg-institute.org/educational-accreditation        
+| ✓ | ⏱: 55.84s 
+[FETCH]... ↓ https://www.the-esg-institute.org/join-the-team                    
+| ✓ | ⏱: 41.70s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/join-the-team                    
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● https://www.the-esg-institute.org/join-the-team                    
+| ✓ | ⏱: 41.79s 
+[FETCH]... ↓ https://www.the-esg-institute.org/join-us                          
+| ✓ | ⏱: 41.87s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/join-us                          
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● https://www.the-esg-institute.org/join-us                          
+| ✓ | ⏱: 41.96s 
+[FETCH]... ↓ https://www.the-esg-institute.org/search                           
+| ✓ | ⏱: 36.13s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/search                           
+| ✓ | ⏱: 0.59s 
+[COMPLETE] ● https://www.the-esg-institute.org/search                           
+| ✓ | ⏱: 36.73s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/website-carbon-emissions-calculator           
+| ✓ | ⏱: 26.03s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/website-carbon-emissions-calculator           
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/website-carbon-emissions-calculator           
+| ✓ | ⏱: 26.37s 
+[FETCH]... ↓ https://www.the-esg-institute.org/services                         
+| ✓ | ⏱: 36.01s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/services                         
+| ✓ | ⏱: 0.53s 
+[COMPLETE] ● https://www.the-esg-institute.org/services                         
+| ✓ | ⏱: 36.56s 
+[FETCH]... ↓ https://www.the-esg-institute.org/other                            
+| ✓ | ⏱: 41.08s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/other                            
+| ✓ | ⏱: 0.49s 
+[COMPLETE] ● https://www.the-esg-institute.org/other                            
+| ✓ | ⏱: 41.60s 
+[FETCH]... ↓ https://www.the-esg-institute.org/membership                       
+| ✓ | ⏱: 45.77s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/membership                       
+| ✓ | ⏱: 0.47s 
+[COMPLETE] ● https://www.the-esg-institute.org/membership                       
+| ✓ | ⏱: 46.25s 
+[FETCH]... ↓ https://www.the-esg-institute.org/international-esg-day            
+| ✓ | ⏱: 57.59s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/international-esg-day            
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.the-esg-institute.org/international-esg-day            
+| ✓ | ⏱: 57.92s 
+[FETCH]... ↓ https://www.the-esg-institute.org/corporate-membership             
+| ✓ | ⏱: 60.19s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/corporate-membership             
+| ✓ | ⏱: 0.17s 
+[COMPLETE] ● https://www.the-esg-institute.org/corporate-membership             
+| ✓ | ⏱: 60.42s 
+[FETCH]... ↓ https://www.the-esg-institute.org/sustainably-talking              
+| ✓ | ⏱: 32.06s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/sustainably-talking              
+| ✓ | ⏱: 0.61s 
+[COMPLETE] ● https://www.the-esg-institute.org/sustainably-talking              
+| ✓ | ⏱: 32.83s 
+[FETCH]... ↓ https://www.the-esg-institute.org/solutions                        
+| ✓ | ⏱: 32.79s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/solutions                        
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://www.the-esg-institute.org/solutions                        
+| ✓ | ⏱: 33.08s 
+[ERROR]... × http://www.courses.the-...g/p/sustainable-finance  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: net::ERR_NAME_NOT_RESOLVED at 
+http://www.courses.the-esg-institute.org/p/sustainable-finance
+Call log:
+  - navigating to 
+"http://www.courses.the-esg-institute.org/p/sustainable-finance", waiting until 
+"domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188109              | ✓ | ⏱: 62.72s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188109              | ✓ | ⏱: 1.92s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188109              | ✓ | ⏱: 65.34s 
+[FETCH]... ↓ http://www.the-esg-institute.org                                   
+| ✓ | ⏱: 65.47s 
+[SCRAPE].. ◆ http://www.the-esg-institute.org                                   
+| ✓ | ⏱: 1.01s 
+[COMPLETE] ● http://www.the-esg-institute.org                                   
+| ✓ | ⏱: 66.60s 
+[ERROR]... × https://courses.the-esg...ategy/lectures/54188120  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/
+54188120", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × http://www.the-esg-inst...g/p/sustainable-finance  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "http://www.the-esg-institute.org/p/sustainable-finance", 
+waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://courses.the-esg...ategy/lectures/54188115  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/
+54188115", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://courses.the-esg...ategy/lectures/54188111  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/
+54188111", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://courses.the-esg...ategy/lectures/54188117  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/
+54188117", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://courses.the-esg...ategy/lectures/54188112  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/
+54188112", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://courses.the-esg...ategy/lectures/54188124  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/
+54188124", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://courses.the-esg...ategy/lectures/54188119  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/
+54188119", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://courses.the-esg...ategy/lectures/54188122  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/
+54188122", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://courses.the-esg...ategy/lectures/54188118  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/
+54188118", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://courses.the-esg...ategy/lectures/54188110  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/
+54188110", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[ERROR]... × https://courses.the-esg...ategy/lectures/54188113  | Error: 
+Unexpected error in _crawl_web at line 718 in _crawl_web 
+(../.pyenv/versions/3.10.13/lib/python3.10/site-packages/crawl4ai/async_crawler_
+strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to 
+"https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/
+54188113", waiting until "domcontentloaded"
+
+
+Code context:
+ 713                                   tag="GOTO",
+ 714                                   params={"url": url},
+ 715                               )
+ 716                               response = None
+ 717                           else:
+ 718 →                             raise RuntimeError(f"Failed on navigating 
+ACS-GOTO:\n{str(e)}")
+ 719   
+ 720                       # 
+──────────────────────────────────────────────────────────────
+ 721                       # Walk the redirect chain.  Playwright returns only 
+the last
+ 722                       # hop, so we trace the `request.redirected_from` 
+links until the
+ 723                       # first response that differs from the final one and 
+surface its 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188121              | ✓ | ⏱: 67.01s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188121              | ✓ | ⏱: 0.09s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188121              | ✓ | ⏱: 67.14s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188114              | ✓ | ⏱: 67.15s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188114              | ✓ | ⏱: 0.15s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188114              | ✓ | ⏱: 67.38s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188116              | ✓ | ⏱: 67.37s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188116              | ✓ | ⏱: 1.20s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188116              | ✓ | ⏱: 68.63s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188125              | ✓ | ⏱: 68.89s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188125              | ✓ | ⏱: 5.51s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188125              | ✓ | ⏱: 74.74s 
+[FETCH]... ↓ http://www.the-esg-institute.org/training                          
+| ✓ | ⏱: 74.01s 
+[SCRAPE].. ◆ http://www.the-esg-institute.org/training                          
+| ✓ | ⏱: 0.27s 
+[COMPLETE] ● http://www.the-esg-institute.org/training                          
+| ✓ | ⏱: 74.30s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188123              | ✓ | ⏱: 75.39s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188123              | ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188123              | ✓ | ⏱: 75.58s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188126              | ✓ | ⏱: 39.75s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188126              | ✓ | ⏱: 1.48s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4188126              | ✓ | ⏱: 41.93s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189379              | ✓ | ⏱: 61.50s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189379              | ✓ | ⏱: 2.03s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189379              | ✓ | ⏱: 63.91s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189371              | ✓ | ⏱: 64.33s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189371              | ✓ | ⏱: 0.47s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189371              | ✓ | ⏱: 65.09s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189327              | ✓ | ⏱: 65.32s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189327              | ✓ | ⏱: 0.55s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189327              | ✓ | ⏱: 65.99s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189048              | ✓ | ⏱: 66.02s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189048              | ✓ | ⏱: 0.29s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189048              | ✓ | ⏱: 66.35s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189326              | ✓ | ⏱: 66.52s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189326              | ✓ | ⏱: 0.22s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189326              | ✓ | ⏱: 66.80s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189221              | ✓ | ⏱: 66.68s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189221              | ✓ | ⏱: 0.14s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189221              | ✓ | ⏱: 66.89s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189378              | ✓ | ⏱: 67.06s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189378              | ✓ | ⏱: 6.05s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189378              | ✓ | ⏱: 74.24s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189353              | ✓ | ⏱: 74.90s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189353              | ✓ | ⏱: 0.55s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189353              | ✓ | ⏱: 76.37s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189369              | ✓ | ⏱: 78.65s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189369              | ✓ | ⏱: 1.09s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189369              | ✓ | ⏱: 80.53s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189320              | ✓ | ⏱: 80.86s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189320              | ✓ | ⏱: 0.51s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189320              | ✓ | ⏱: 81.63s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189328              | ✓ | ⏱: 83.38s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189328              | ✓ | ⏱: 3.08s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189328              | ✓ | ⏱: 86.76s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189322              | ✓ | ⏱: 87.53s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189322              | ✓ | ⏱: 0.61s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189322              | ✓ | ⏱: 88.22s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189368              | ✓ | ⏱: 88.28s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189368              | ✓ | ⏱: 0.42s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189368              | ✓ | ⏱: 88.75s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189382              | ✓ | ⏱: 81.33s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189382              | ✓ | ⏱: 0.16s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189382              | ✓ | ⏱: 81.53s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189384              | ✓ | ⏱: 77.87s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189384              | ✓ | ⏱: 2.78s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189384              | ✓ | ⏱: 84.42s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189439              | ✓ | ⏱: 89.56s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189439              | ✓ | ⏱: 2.53s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189439              | ✓ | ⏱: 92.63s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189432              | ✓ | ⏱: 91.80s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189432              | ✓ | ⏱: 1.11s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189432              | ✓ | ⏱: 93.65s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189440              | ✓ | ⏱: 58.98s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189440              | ✓ | ⏱: 2.99s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189440              | ✓ | ⏱: 62.92s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189431              | ✓ | ⏱: 115.28s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189431              | ✓ | ⏱: 11.16s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189431              | ✓ | ⏱: 128.85s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189383              | ✓ | ⏱: 128.93s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189383              | ✓ | ⏱: 0.20s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189383              | ✓ | ⏱: 129.22s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189456              | ✓ | ⏱: 74.58s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189456              | ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189456              | ✓ | ⏱: 74.86s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189467              | ✓ | ⏱: 72.62s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189467              | ✓ | ⏱: 0.26s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189467              | ✓ | ⏱: 72.97s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189474              | ✓ | ⏱: 68.98s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189474              | ✓ | ⏱: 0.43s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189474              | ✓ | ⏱: 69.52s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189470              | ✓ | ⏱: 73.48s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189470              | ✓ | ⏱: 0.14s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189470              | ✓ | ⏱: 73.73s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189457              | ✓ | ⏱: 73.75s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189457              | ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189457              | ✓ | ⏱: 73.95s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189447              | ✓ | ⏱: 82.50s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189447              | ✓ | ⏱: 0.14s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189447              | ✓ | ⏱: 82.70s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189462              | ✓ | ⏱: 74.19s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189462              | ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189462              | ✓ | ⏱: 74.37s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189454              | ✓ | ⏱: 80.37s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189454              | ✓ | ⏱: 0.16s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189454              | ✓ | ⏱: 80.58s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189494              | ✓ | ⏱: 67.83s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189494              | ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189494              | ✓ | ⏱: 67.97s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189497              | ✓ | ⏱: 67.97s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189497              | ✓ | ⏱: 0.09s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189497              | ✓ | ⏱: 68.13s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189477              | ✓ | ⏱: 68.35s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189477              | ✓ | ⏱: 1.44s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189477              | ✓ | ⏱: 69.96s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189491              | ✓ | ⏱: 70.17s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189491              | ✓ | ⏱: 1.76s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189491              | ✓ | ⏱: 74.31s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4204003              | ✓ | ⏱: 77.13s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4204003              | ✓ | ⏱: 1.99s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4204003              | ✓ | ⏱: 80.14s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189498              | ✓ | ⏱: 80.80s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189498              | ✓ | ⏱: 0.30s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4189498              | ✓ | ⏱: 81.21s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/p/carbon-markets-climate-finance          
+| ✓ | ⏱: 62.46s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/p/carbon-markets-climate-finance          
+| ✓ | ⏱: 0.35s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/p/carbon-markets-climate-finance          
+| ✓ | ⏱: 63.13s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4204016              | ✓ | ⏱: 72.81s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4204016              | ✓ | ⏱: 0.42s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4204016              | ✓ | ⏱: 73.31s 
+[FETCH]... ↓ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4204018              | ✓ | ⏱: 68.22s 
+[SCRAPE].. ◆ 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4204018              | ✓ | ⏱: 0.30s 
+[COMPLETE] ● 
+https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/5
+4204018              | ✓ | ⏱: 68.56s 
+[FETCH]... ↓ https://courses.the-esg-institute.org/p/diploma-in-cbam-regulation 
+| ✓ | ⏱: 61.80s 
+[SCRAPE].. ◆ https://courses.the-esg-institute.org/p/diploma-in-cbam-regulation 
+| ✓ | ⏱: 1.27s 
+[COMPLETE] ● https://courses.the-esg-institute.org/p/diploma-in-cbam-regulation 
+| ✓ | ⏱: 64.40s 
+[FETCH]... ↓ https://courses.the-esg-institute.org/p/uae-climate-law            
+| ✓ | ⏱: 46.53s 
+[SCRAPE].. ◆ https://courses.the-esg-institute.org/p/uae-climate-law            
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://courses.the-esg-institute.org/p/uae-climate-law            
+| ✓ | ⏱: 46.86s 
+[FETCH]... ↓ https://www.the-esg-institute.org/accredited-party-code-of-conduct 
+| ✓ | ⏱: 19.12s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/accredited-party-code-of-conduct 
+| ✓ | ⏱: 0.23s 
+[COMPLETE] ● https://www.the-esg-institute.org/accredited-party-code-of-conduct 
+| ✓ | ⏱: 19.38s 
+[FETCH]... ↓ https://courses.the-esg-institute.org/sign_in                      
+| ✓ | ⏱: 46.26s 
+[SCRAPE].. ◆ https://courses.the-esg-institute.org/sign_in                      
+| ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://courses.the-esg-institute.org/sign_in                      
+| ✓ | ⏱: 46.73s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/CBAM                    
+| ✓ | ⏱: 18.96s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/CBAM                    
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/CBAM                    
+| ✓ | ⏱: 19.02s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/a-bluepri...-comprehensive-carbon-credit-
+system-and-register  | ✓ | ⏱: 18.99s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/a-bluepri...-comprehensive-carbon-credit-
+system-and-register  | ✓ | ⏱: 0.07s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/a-bluepri...-comprehensive-carbon-credit-
+system-and-register  | ✓ | ⏱: 19.07s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/esg-summit-embracing-sustainability-for-b
+usiness-growth       | ✓ | ⏱: 19.07s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/esg-summit-embracing-sustainability-for-b
+usiness-growth       | ✓ | ⏱: 0.04s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/esg-summit-embracing-sustainability-for-b
+usiness-growth       | ✓ | ⏱: 19.12s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/decoding-...reen-jargon-esg-csr-and-susta
+inability-uncovered  | ✓ | ⏱: 19.14s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/decoding-...reen-jargon-esg-csr-and-susta
+inability-uncovered  | ✓ | ⏱: 0.07s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/decoding-...reen-jargon-esg-csr-and-susta
+inability-uncovered  | ✓ | ⏱: 19.22s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/CSRD                    
+| ✓ | ⏱: 19.19s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/CSRD                    
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/CSRD                    
+| ✓ | ⏱: 19.24s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/AI                      
+| ✓ | ⏱: 19.27s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/AI                      
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/AI                      
+| ✓ | ⏱: 19.31s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Assurance               
+| ✓ | ⏱: 19.34s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Assurance               
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Assurance               
+| ✓ | ⏱: 19.41s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/raising-the-esg-standard-with-the-apple-w
+atch-lineup          | ✓ | ⏱: 19.37s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/raising-the-esg-standard-with-the-apple-w
+atch-lineup          | ✓ | ⏱: 0.05s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/raising-the-esg-standard-with-the-apple-w
+atch-lineup          | ✓ | ⏱: 19.43s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/CSDS                    
+| ✓ | ⏱: 19.42s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/CSDS                    
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/CSDS                    
+| ✓ | ⏱: 19.49s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Bioscore                
+| ✓ | ⏱: 19.64s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Bioscore                
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Bioscore                
+| ✓ | ⏱: 19.70s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/10-effective-strategies-for-smes-to-boost
+-their-esg-metrics   | ✓ | ⏱: 19.56s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/10-effective-strategies-for-smes-to-boost
+-their-esg-metrics   | ✓ | ⏱: 0.09s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/10-effective-strategies-for-smes-to-boost
+-their-esg-metrics   | ✓ | ⏱: 19.66s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/international-esg-day       
+| ✓ | ⏱: 19.66s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/international-esg-day       
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/international-esg-day       
+| ✓ | ⏱: 19.71s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Banking                 
+| ✓ | ⏱: 19.75s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Banking                 
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Banking                 
+| ✓ | ⏱: 19.82s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Carbon                  
+| ✓ | ⏱: 8.12s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Carbon                  
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Carbon                  
+| ✓ | ⏱: 8.19s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/tag/Carbon+Border+Adjustment+Mechanism+(C
+BAM)                 | ✓ | ⏱: 5.54s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/tag/Carbon+Border+Adjustment+Mechanism+(C
+BAM)                 | ✓ | ⏱: 0.21s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/tag/Carbon+Border+Adjustment+Mechanism+(C
+BAM)                 | ✓ | ⏱: 5.77s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Carbon+Credits          
+| ✓ | ⏱: 6.15s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Carbon+Credits          
+| ✓ | ⏱: 2.14s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Carbon+Credits          
+| ✓ | ⏱: 8.49s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Carbon+Emissions        
+| ✓ | ⏱: 8.64s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Carbon+Emissions        
+| ✓ | ⏱: 0.67s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Carbon+Emissions        
+| ✓ | ⏱: 9.41s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Climate+Action          
+| ✓ | ⏱: 4.81s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Climate+Action          
+| ✓ | ⏱: 0.58s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Climate+Action          
+| ✓ | ⏱: 5.63s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Compliance              
+| ✓ | ⏱: 10.02s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Compliance              
+| ✓ | ⏱: 0.31s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Compliance              
+| ✓ | ⏱: 10.46s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Carbon+Footprint        
+| ✓ | ⏱: 12.07s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Carbon+Footprint        
+| ✓ | ⏱: 0.15s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Carbon+Footprint        
+| ✓ | ⏱: 12.23s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/EU                      
+| ✓ | ⏱: 10.98s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/EU                      
+| ✓ | ⏱: 0.98s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/EU                      
+| ✓ | ⏱: 12.03s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Climate+Change          
+| ✓ | ⏱: 12.13s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Climate+Change          
+| ✓ | ⏱: 0.85s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Climate+Change          
+| ✓ | ⏱: 13.06s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/ESG+Reporting           
+| ✓ | ⏱: 23.19s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/ESG+Reporting           
+| ✓ | ⏱: 1.33s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/ESG+Reporting           
+| ✓ | ⏱: 24.87s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/China                   
+| ✓ | ⏱: 23.12s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/China                   
+| ✓ | ⏱: 2.13s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/China                   
+| ✓ | ⏱: 25.69s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/ESG+Scoring             
+| ✓ | ⏱: 29.46s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/ESG+Scoring             
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/ESG+Scoring             
+| ✓ | ⏱: 29.79s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Eric+Appiah             
+| ✓ | ⏱: 29.86s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Eric+Appiah             
+| ✓ | ⏱: 0.62s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Eric+Appiah             
+| ✓ | ⏱: 30.70s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/EU+Parliament           
+| ✓ | ⏱: 31.01s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/EU+Parliament           
+| ✓ | ⏱: 0.30s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/EU+Parliament           
+| ✓ | ⏱: 31.34s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Circular+Economy        
+| ✓ | ⏱: 31.35s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Circular+Economy        
+| ✓ | ⏱: 0.59s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Circular+Economy        
+| ✓ | ⏱: 32.00s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Circularity             
+| ✓ | ⏱: 32.34s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Circularity             
+| ✓ | ⏱: 0.40s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Circularity             
+| ✓ | ⏱: 32.84s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/ESG                     
+| ✓ | ⏱: 32.91s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/ESG                     
+| ✓ | ⏱: 0.69s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/ESG                     
+| ✓ | ⏱: 33.65s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/tag/Chinese+Sustainability+Disclosure+Sta
+ndards+(CSDS)        | ✓ | ⏱: 33.68s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/tag/Chinese+Sustainability+Disclosure+Sta
+ndards+(CSDS)        | ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/tag/Chinese+Sustainability+Disclosure+Sta
+ndards+(CSDS)        | ✓ | ⏱: 33.84s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/EU+Taxonomy             
+| ✓ | ⏱: 33.87s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/EU+Taxonomy             
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/EU+Taxonomy             
+| ✓ | ⏱: 34.21s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Corporate+Sustainability
+| ✓ | ⏱: 34.24s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Corporate+Sustainability
+| ✓ | ⏱: 1.75s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Corporate+Sustainability
+| ✓ | ⏱: 36.34s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Carbon+Markets          
+| ✓ | ⏱: 33.81s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Carbon+Markets          
+| ✓ | ⏱: 0.81s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Carbon+Markets          
+| ✓ | ⏱: 34.99s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Eric+Woo                
+| ✓ | ⏱: 30.29s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Eric+Woo                
+| ✓ | ⏱: 0.91s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Eric+Woo                
+| ✓ | ⏱: 31.74s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/España                  
+| ✓ | ⏱: 33.09s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/España                  
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/España                  
+| ✓ | ⏱: 33.37s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/European+Commission     
+| ✓ | ⏱: 35.14s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/European+Commission     
+| ✓ | ⏱: 0.19s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/European+Commission     
+| ✓ | ⏱: 35.40s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/European+Union          
+| ✓ | ⏱: 33.03s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/European+Union          
+| ✓ | ⏱: 0.95s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/European+Union          
+| ✓ | ⏱: 34.34s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Green+Economy           
+| ✓ | ⏱: 21.42s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Green+Economy           
+| ✓ | ⏱: 0.79s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Green+Economy           
+| ✓ | ⏱: 22.88s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Gases+Efecto+Invernadero
+| ✓ | ⏱: 40.84s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Gases+Efecto+Invernadero
+| ✓ | ⏱: 0.12s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Gases+Efecto+Invernadero
+| ✓ | ⏱: 41.03s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Green+Finance           
+| ✓ | ⏱: 19.96s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Green+Finance           
+| ✓ | ⏱: 0.20s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Green+Finance           
+| ✓ | ⏱: 20.24s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Finance                 
+| ✓ | ⏱: 45.72s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Finance                 
+| ✓ | ⏱: 1.40s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Finance                 
+| ✓ | ⏱: 47.22s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/GHG                     
+| ✓ | ⏱: 49.70s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/GHG                     
+| ✓ | ⏱: 0.42s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/GHG                     
+| ✓ | ⏱: 50.28s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Omnibus                 
+| ✓ | ⏱: 23.58s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Omnibus                 
+| ✓ | ⏱: 0.15s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Omnibus                 
+| ✓ | ⏱: 23.75s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Ghana                   
+| ✓ | ⏱: 48.60s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Ghana                   
+| ✓ | ⏱: 0.25s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Ghana                   
+| ✓ | ⏱: 48.86s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Job+Opportunities       
+| ✓ | ⏱: 27.70s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Job+Opportunities       
+| ✓ | ⏱: 0.31s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Job+Opportunities       
+| ✓ | ⏱: 28.02s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Global+Health+Emergency 
+| ✓ | ⏱: 35.45s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Global+Health+Emergency 
+| ✓ | ⏱: 0.15s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Global+Health+Emergency 
+| ✓ | ⏱: 35.63s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Green+Jobs              
+| ✓ | ⏱: 28.16s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Green+Jobs              
+| ✓ | ⏱: 0.11s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Green+Jobs              
+| ✓ | ⏱: 28.27s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Mpox                    
+| ✓ | ⏱: 27.23s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Mpox                    
+| ✓ | ⏱: 0.07s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Mpox                    
+| ✓ | ⏱: 27.38s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Microplastics           
+| ✓ | ⏱: 27.38s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Microplastics           
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Microplastics           
+| ✓ | ⏱: 27.44s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Malaysia                
+| ✓ | ⏱: 28.58s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Malaysia                
+| ✓ | ⏱: 0.07s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Malaysia                
+| ✓ | ⏱: 28.67s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Health                  
+| ✓ | ⏱: 28.69s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Health                  
+| ✓ | ⏱: 0.21s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Health                  
+| ✓ | ⏱: 28.92s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/India                   
+| ✓ | ⏱: 29.50s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/India                   
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/India                   
+| ✓ | ⏱: 29.84s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/ISSA+(UK)+5000          
+| ✓ | ⏱: 29.24s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/ISSA+(UK)+5000          
+| ✓ | ⏱: 0.15s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/ISSA+(UK)+5000          
+| ✓ | ⏱: 29.42s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Investment              
+| ✓ | ⏱: 29.54s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Investment              
+| ✓ | ⏱: 0.36s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Investment              
+| ✓ | ⏱: 29.92s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Green+Skills            
+| ✓ | ⏱: 29.98s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Green+Skills            
+| ✓ | ⏱: 0.19s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Green+Skills            
+| ✓ | ⏱: 30.21s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/No+Planet+B             
+| ✓ | ⏱: 29.12s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/No+Planet+B             
+| ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/No+Planet+B             
+| ✓ | ⏱: 29.23s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Nanoplastics            
+| ✓ | ⏱: 29.29s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Nanoplastics            
+| ✓ | ⏱: 0.37s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Nanoplastics            
+| ✓ | ⏱: 29.68s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Pandemic                
+| ✓ | ⏱: 13.14s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Pandemic                
+| ✓ | ⏱: 0.16s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Pandemic                
+| ✓ | ⏱: 13.32s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Plastic+Pollution       
+| ✓ | ⏱: 10.69s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Plastic+Pollution       
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Plastic+Pollution       
+| ✓ | ⏱: 10.78s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/PlasticBusters          
+| ✓ | ⏱: 7.60s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/PlasticBusters          
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/PlasticBusters          
+| ✓ | ⏱: 7.66s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Reporting               
+| ✓ | ⏱: 7.97s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Reporting               
+| ✓ | ⏱: 0.07s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Reporting               
+| ✓ | ⏱: 8.05s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Social+Bond             
+| ✓ | ⏱: 2.90s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Social+Bond             
+| ✓ | ⏱: 1.28s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Social+Bond             
+| ✓ | ⏱: 4.79s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Vietnam                 
+| ✓ | ⏱: 9.18s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Vietnam                 
+| ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Vietnam                 
+| ✓ | ⏱: 9.29s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Spain                   
+| ✓ | ⏱: 9.54s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Spain                   
+| ✓ | ⏱: 0.14s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Spain                   
+| ✓ | ⏱: 9.70s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Upskilling              
+| ✓ | ⏱: 9.74s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Upskilling              
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Upskilling              
+| ✓ | ⏱: 10.03s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Sustainable+Investing   
+| ✓ | ⏱: 10.02s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Sustainable+Investing   
+| ✓ | ⏱: 0.12s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Sustainable+Investing   
+| ✓ | ⏱: 10.16s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/The+ESG+Institute       
+| ✓ | ⏱: 10.23s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/The+ESG+Institute       
+| ✓ | ⏱: 0.33s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/The+ESG+Institute       
+| ✓ | ⏱: 10.59s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Sustainability          
+| ✓ | ⏱: 10.64s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Sustainability          
+| ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Sustainability          
+| ✓ | ⏱: 10.74s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/UK                      
+| ✓ | ⏱: 10.79s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/UK                      
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/UK                      
+| ✓ | ⏱: 10.88s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/UAE                     
+| ✓ | ⏱: 10.92s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/UAE                     
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/UAE                     
+| ✓ | ⏱: 10.98s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/tag/World+Health+Organization            
+| ✓ | ⏱: 10.30s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/tag/World+Health+Organization            
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/tag/World+Health+Organization            
+| ✓ | ⏱: 10.36s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/tag/Sustainability-Linked+Bond           
+| ✓ | ⏱: 11.06s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/tag/Sustainability-Linked+Bond           
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/tag/Sustainability-Linked+Bond           
+| ✓ | ⏱: 11.12s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Supply+Chain            
+| ✓ | ⏱: 11.12s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Supply+Chain            
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Supply+Chain            
+| ✓ | ⏱: 11.19s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Sustainability+Bond     
+| ✓ | ⏱: 11.25s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Sustainability+Bond     
+| ✓ | ⏱: 0.15s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Sustainability+Bond     
+| ✓ | ⏱: 11.41s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/UK+Government           
+| ✓ | ⏱: 11.52s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/UK+Government           
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/UK+Government           
+| ✓ | ⏱: 11.58s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Viet+Nam                
+| ✓ | ⏱: 11.61s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Viet+Nam                
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Viet+Nam                
+| ✓ | ⏱: 11.67s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Valencia+Floods         
+| ✓ | ⏱: 11.68s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Valencia+Floods         
+| ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Valencia+Floods         
+| ✓ | ⏱: 11.81s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/Sustainable+Finance     
+| ✓ | ⏱: 11.81s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/Sustainable+Finance     
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/Sustainable+Finance     
+| ✓ | ⏱: 12.11s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/West+Africa             
+| ✓ | ⏱: 11.39s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/West+Africa             
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/West+Africa             
+| ✓ | ⏱: 11.45s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/World+Economic+Forum    
+| ✓ | ⏱: 11.45s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/World+Economic+Forum    
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/World+Economic+Forum    
+| ✓ | ⏱: 11.50s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/United+Arab+Emirates    
+| ✓ | ⏱: 12.25s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/United+Arab+Emirates    
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/United+Arab+Emirates    
+| ✓ | ⏱: 12.29s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/carbon+calculator       
+| ✓ | ⏱: 5.27s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/carbon+calculator       
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/carbon+calculator       
+| ✓ | ⏱: 5.31s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/carbon+monitor          
+| ✓ | ⏱: 30.80s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/carbon+monitor          
+| ✓ | ⏱: 0.95s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/carbon+monitor          
+| ✓ | ⏱: 32.37s 
+[FETCH]... ↓ https://www.the-esg-institute.org/esg-s                            
+| ✓ | ⏱: 35.05s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/esg-s                            
+| ✓ | ⏱: 0.21s 
+[COMPLETE] ● https://www.the-esg-institute.org/esg-s                            
+| ✓ | ⏱: 35.35s 
+[FETCH]... ↓ https://www.the-esg-institute.org/esgtraordinary-people            
+| ✓ | ⏱: 35.84s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/esgtraordinary-people            
+| ✓ | ⏱: 0.17s 
+[COMPLETE] ● https://www.the-esg-institute.org/esgtraordinary-people            
+| ✓ | ⏱: 36.08s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/world-internet-day-exploring-the-digital-
+impact-on-esg        | ✓ | ⏱: 36.21s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/world-internet-day-exploring-the-digital-
+impact-on-esg        | ✓ | ⏱: 1.11s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/world-internet-day-exploring-the-digital-
+impact-on-esg        | ✓ | ⏱: 37.33s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog?author=6495d387bc6f46275ebd3a5d&offset=17
+33143345877          | ✓ | ⏱: 37.35s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog?author=6495d387bc6f46275ebd3a5d&offset=17
+33143345877          | ✓ | ⏱: 0.10s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog?author=6495d387bc6f46275ebd3a5d&offset=17
+33143345877          | ✓ | ⏱: 37.47s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/the-silent-pillar-of-esg-understanding-so
+cial-equity          | ✓ | ⏱: 37.46s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/the-silent-pillar-of-esg-understanding-so
+cial-equity          | ✓ | ⏱: 0.10s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/the-silent-pillar-of-esg-understanding-so
+cial-equity          | ✓ | ⏱: 37.58s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/the-esg-institute-certificate-in-esg-stra
+tegy                 | ✓ | ⏱: 37.58s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/the-esg-institute-certificate-in-esg-stra
+tegy                 | ✓ | ⏱: 0.06s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/the-esg-institute-certificate-in-esg-stra
+tegy                 | ✓ | ⏱: 37.65s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/the-world...tions-path-to-a-sustainable-a
+nd-equitable-future  | ✓ | ⏱: 37.66s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/the-world...tions-path-to-a-sustainable-a
+nd-equitable-future  | ✓ | ⏱: 0.08s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/the-world...tions-path-to-a-sustainable-a
+nd-equitable-future  | ✓ | ⏱: 37.75s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/blog/trailblaz...iatives-redefining-social-eng
+agement-in-business  | ✓ | ⏱: 37.76s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/blog/trailblaz...iatives-redefining-social-eng
+agement-in-business  | ✓ | ⏱: 0.08s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/blog/trailblaz...iatives-redefining-social-eng
+agement-in-business  | ✓ | ⏱: 37.85s 
+[FETCH]... ↓ https://www.the-esg-institute.org/esgtraordinary-solutions         
+| ✓ | ⏱: 37.86s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/esgtraordinary-solutions         
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://www.the-esg-institute.org/esgtraordinary-solutions         
+| ✓ | ⏱: 37.92s 
+[FETCH]... ↓ https://www.the-esg-institute.org/information-request              
+| ✓ | ⏱: 37.94s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/information-request              
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://www.the-esg-institute.org/information-request              
+| ✓ | ⏱: 38.00s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/membership-questionnaire-associate            
+| ✓ | ⏱: 38.34s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/membership-questionnaire-associate            
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/membership-questionnaire-associate            
+| ✓ | ⏱: 38.41s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/international-esg-day-global-partner          
+| ✓ | ⏱: 38.41s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/international-esg-day-global-partner          
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/international-esg-day-global-partner          
+| ✓ | ⏱: 38.48s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/international-esg-day-activity-register       
+| ✓ | ⏱: 38.19s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/international-esg-day-activity-register       
+| ✓ | ⏱: 0.07s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/international-esg-day-activity-register       
+| ✓ | ⏱: 38.28s 
+[FETCH]... ↓ https://www.the-esg-institute.org/esg-advisor                      
+| ✓ | ⏱: 38.28s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/esg-advisor                      
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://www.the-esg-institute.org/esg-advisor                      
+| ✓ | ⏱: 38.33s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/the+esg+institute       
+| ✓ | ⏱: 37.25s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/the+esg+institute       
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/the+esg+institute       
+| ✓ | ⏱: 37.33s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/sustainability          
+| ✓ | ⏱: 37.34s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/sustainability          
+| ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/sustainability          
+| ✓ | ⏱: 37.39s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/green+website           
+| ✓ | ⏱: 37.39s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/green+website           
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/green+website           
+| ✓ | ⏱: 37.42s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/carbon+reduction        
+| ✓ | ⏱: 37.34s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/carbon+reduction        
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/carbon+reduction        
+| ✓ | ⏱: 37.38s 
+[FETCH]... ↓ https://www.the-esg-institute.org/blog/tag/digital+footprint       
+| ✓ | ⏱: 37.46s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/blog/tag/digital+footprint       
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://www.the-esg-institute.org/blog/tag/digital+footprint       
+| ✓ | ⏱: 37.49s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/membership-questionnaire-professional-fellow  
+| ✓ | ⏱: 7.85s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/membership-questionnaire-professional-fellow  
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/membership-questionnaire-professional-fellow  
+| ✓ | ⏱: 7.90s 
+[FETCH]... ↓ https://www.the-esg-institute.org/privacy-policy                   
+| ✓ | ⏱: 4.13s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/privacy-policy                   
+| ✓ | ⏱: 0.24s 
+[COMPLETE] ● https://www.the-esg-institute.org/privacy-policy                   
+| ✓ | ⏱: 4.39s 
+[FETCH]... ↓ https://www.the-esg-institute.org/training-waiting-list            
+| ✓ | ⏱: 2.77s 
+[SCRAPE].. ◆ https://www.the-esg-institute.org/training-waiting-list            
+| ✓ | ⏱: 0.15s 
+[COMPLETE] ● https://www.the-esg-institute.org/training-waiting-list            
+| ✓ | ⏱: 2.95s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/s/Diploma-in-Sustainable-Finance-Brochure-The-
+ESG-Institute.pdf    | ✓ | ⏱: 2.99s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/s/Diploma-in-Sustainable-Finance-Brochure-The-
+ESG-Institute.pdf    | ✓ | ⏱: 0.05s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/s/Diploma-in-Sustainable-Finance-Brochure-The-
+ESG-Institute.pdf    | ✓ | ⏱: 3.05s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/s/CSRD-Professional-Certificate-Brochure-The-E
+SG-Institute.pdf     | ✓ | ⏱: 4.46s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/s/CSRD-Professional-Certificate-Brochure-The-E
+SG-Institute.pdf     | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/s/CSRD-Professional-Certificate-Brochure-The-E
+SG-Institute.pdf     | ✓ | ⏱: 4.47s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/s/Diploma-in-C...s-Climate-Finance-Brochure-Th
+e-ESG-Institute.pdf  | ✓ | ⏱: 2.34s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/s/Diploma-in-C...s-Climate-Finance-Brochure-Th
+e-ESG-Institute.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/s/Diploma-in-C...s-Climate-Finance-Brochure-Th
+e-ESG-Institute.pdf  | ✓ | ⏱: 2.34s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/s/Diploma-in-UAE-Climate-Law-Brochure-The-ESG-
+Institute.pdf        | ✓ | ⏱: 3.18s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/s/Diploma-in-UAE-Climate-Law-Brochure-The-ESG-
+Institute.pdf        | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/s/Diploma-in-UAE-Climate-Law-Brochure-The-ESG-
+Institute.pdf        | ✓ | ⏱: 3.19s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/s/Foundation-Certificate-in-Sustainable-Techno
+logy-Brochure.pdf    | ✓ | ⏱: 3.26s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/s/Foundation-Certificate-in-Sustainable-Techno
+logy-Brochure.pdf    | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/s/Foundation-Certificate-in-Sustainable-Techno
+logy-Brochure.pdf    | ✓ | ⏱: 3.27s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/s/Diploma-in-CBAM-Regulation-Brochure-The-ESG-
+Institute-bxky.pdf   | ✓ | ⏱: 3.04s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/s/Diploma-in-CBAM-Regulation-Brochure-The-ESG-
+Institute-bxky.pdf   | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/s/Diploma-in-CBAM-Regulation-Brochure-The-ESG-
+Institute-bxky.pdf   | ✓ | ⏱: 3.05s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/s/Diploma-in-ESG-Strategy-Brochure-The-ESG-Ins
+titute-3h2k.pdf      | ✓ | ⏱: 3.05s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/s/Diploma-in-ESG-Strategy-Brochure-The-ESG-Ins
+titute-3h2k.pdf      | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/s/Diploma-in-ESG-Strategy-Brochure-The-ESG-Ins
+titute-3h2k.pdf      | ✓ | ⏱: 3.06s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/s/Diploma-in-S...te-Sustainability-Brochure-Th
+e-ESG-institute.pdf  | ✓ | ⏱: 3.41s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/s/Diploma-in-S...te-Sustainability-Brochure-Th
+e-ESG-institute.pdf  | ✓ | ⏱: 0.00s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/s/Diploma-in-S...te-Sustainability-Brochure-Th
+e-ESG-institute.pdf  | ✓ | ⏱: 3.41s 
+[FETCH]... ↓ 
+https://www.the-esg-institute.org/s/Certificate-in-ESG-Reporting-Brochure-The-ES
+G-institute-sfh5.pdf | ✓ | ⏱: 3.90s 
+[SCRAPE].. ◆ 
+https://www.the-esg-institute.org/s/Certificate-in-ESG-Reporting-Brochure-The-ES
+G-institute-sfh5.pdf | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.the-esg-institute.org/s/Certificate-in-ESG-Reporting-Brochure-The-ES
+G-institute-sfh5.pdf | ✓ | ⏱: 3.91s 
+  Saved: 000_www.the-esg-institute.org.md (1826 words)
+  Saved: 001_www.the-esg-institute.org.md (1826 words)
+  SKIP (failed): https://www.the-esg-institute.org/accreditation-questionnaire-business
+  SKIP (failed): https://www.the-esg-institute.org/accreditation-questionnaire-per-program
+  SKIP (failed): https://www.the-esg-institute.org/blog/addressing-the-green-workforce-challenge
+  SKIP (failed): https://www.the-esg-institute.org/blog/cop29-can-we-move-from-promises-to-progress
+  SKIP (failed): https://www.the-esg-institute.org/blog/esg-and-the-mpox-outbreak-dca6j-792gt
+  SKIP (failed): https://www.the-esg-institute.org/blog/esg-and-the-mpox-outbreak-dca6j
+  SKIP (failed): https://www.the-esg-institute.org/affiliate-program
+  SKIP (failed): https://www.the-esg-institute.org/accreditation-questionnaire-professional
+  SKIP (failed): https://www.the-esg-institute.org/awards
+  SKIP (failed): https://www.the-esg-institute.org/blog/carbon-net-zero-made-simple
+  SKIP (failed): https://www.the-esg-institute.org/blog
+  SKIP (failed): https://www.the-esg-institute.org/about
+  Saved: 014_courses.the-esg-institute.org_p_diploma-in-esg-strategy.md (962 words)
+  Saved: 015_www.the-esg-institute.org_blog_esg-and-the-mpox-outbreak.md (2527 words)
+  Saved: 016_www.the-esg-institute.org_blog_climate-change-is-urgent-but-plastic-pollution-might-end-us-first.md (7858 words)
+  Saved: 017_www.the-esg-institute.org_accreditation-questionnaire-ngo.md (436 words)
+  Saved: 018_www.the-esg-institute.org_advisory.md (828 words)
+  Saved: 019_www.the-esg-institute.org_blog_esg-institute-and-bioscore-collaborate-to-empower-digital-sustainability.md (1219 words)
+  Saved: 020_www.the-esg-institute.org_blog_chinas-corporate-sustainability-disclosure-standards-a-roadmap-for-foreign-companies-doin.md (1453 words)
+  Saved: 021_www.the-esg-institute.org_blog_european-commission-releases-eu-taxonomy-faqs.md (2228 words)
+  Saved: 022_www.the-esg-institute.org_blog_from-decree-to-emergency-plan-spain-bets-big-on-esg-zncjh.md (1894 words)
+  Saved: 023_www.the-esg-institute.org_blog_from-ai-to-biodiversity-key-esg-trends-defining-the-second-half-of-2024.md (1249 words)
+  Saved: 024_www.the-esg-institute.org_blog_from-decree-to-emergency-plan-spain-bets-big-on-esg.md (4095 words)
+  Saved: 025_www.the-esg-institute.org_blog_the-esg-institute-tradesun-unite-to-bring-ai-driven-esg-scoring-to-businesses.md (996 words)
+  Saved: 026_www.the-esg-institute.org_blog_preparing-for-tomorrow-insights-from-the-future-of-jobs-report-2025.md (2612 words)
+  Saved: 027_www.the-esg-institute.org_blog_spains-new-royal-decree-214-2025-mandatory-carbon-footprint-reporting-is-here.md (2138 words)
+  Saved: 028_www.the-esg-institute.org_blog_the-esg-institute-expands-to-west-africa-opens-ghana-office-and-appoints-eric-appiah-as-c.md (835 words)
+  Saved: 029_www.the-esg-institute.org_blog_the-esg-institute-launches-operations-in-malaysia.md (1065 words)
+  Saved: 030_www.the-esg-institute.org_blog_plasticbusters-and-the-esg-institute-join-forces-to-tackle-plastic-pollution-and-promote-.md (1042 words)
+  Saved: 031_www.the-esg-institute.org_blog_the-sustainable-finance-boom-88-percent-of-investors-say-they-are-all-in.md (1868 words)
+  Saved: 032_www.the-esg-institute.org_blog_the-uae-climate-law-is-here-is-your-business-ready.md (1989 words)
+  Saved: 033_www.the-esg-institute.org_blog_india-esg-bond-revolution-inside-sebis-new-framework-for-social-sustainability-and-sustai.md (3731 words)
+  Saved: 034_www.the-esg-institute.org_blog_understanding-the-eu-csrd-omnibus-proposal-what-companies-need-to-know-and-how-to-act.md (1334 words)
+  Saved: 035_www.the-esg-institute.org_blog_uk-government-report-how-the-eu-taxonomy-framework-affects-companies.md (1759 words)
+  Saved: 036_www.the-esg-institute.org_blog_trading-with-the-eu-under-cbam-implications-for-importers-and-exporters.md (2142 words)
+  Saved: 037_www.the-esg-institute.org_blog_valencia-floods-when-the-rain-wont-stop-and-preparedness-falls-short-.md (1002 words)
+  Saved: 038_www.the-esg-institute.org_blog_vietnams-carbon-market-takes-shape-what-businesses-need-to-know.md (5450 words)
+  Saved: 039_www.the-esg-institute.org_blog_unlocking-green-finance-for-small-businesses-inside-the-eus-sme-sustainable-finance-stand.md (7802 words)
+  Saved: 040_www.the-esg-institute.org_blog_what-issa-uk-5000-means-for-companies-and-investors.md (2297 words)
+  Saved: 041_www.the-esg-institute.org_blog?author=6495d387bc6f46275ebd3a5d.md (2219 words)
+  Saved: 042_www.the-esg-institute.org_cart.md (338 words)
+  Saved: 043_www.the-esg-institute.org_blog?author=6495d39d82ae3248fe49c1ca.md (1166 words)
+  Saved: 044_www.the-esg-institute.org_contact.md (402 words)
+  Saved: 045_www.the-esg-institute.org_esgtraordinary.md (377 words)
+  Saved: 046_www.the-esg-institute.org_training.md (718 words)
+  Saved: 047_www.the-esg-institute.org_join-the-network.md (999 words)
+  Saved: 048_www.the-esg-institute.org_educational-accreditation.md (752 words)
+  Saved: 049_www.the-esg-institute.org_join-the-team.md (352 words)
+  Saved: 050_www.the-esg-institute.org_join-us.md (427 words)
+  Saved: 051_www.the-esg-institute.org_search.md (328 words)
+  Saved: 052_www.the-esg-institute.org_website-carbon-emissions-calculator.md (326 words)
+  Saved: 053_www.the-esg-institute.org_services.md (718 words)
+  Saved: 054_www.the-esg-institute.org_other.md (659 words)
+  Saved: 055_www.the-esg-institute.org_membership.md (427 words)
+  Saved: 056_www.the-esg-institute.org_international-esg-day.md (659 words)
+  Saved: 057_www.the-esg-institute.org_corporate-membership.md (446 words)
+  Saved: 058_www.the-esg-institute.org_sustainably-talking.md (452 words)
+  Saved: 059_www.the-esg-institute.org_solutions.md (732 words)
+  SKIP (failed): http://www.courses.the-esg-institute.org/p/sustainable-finance
+  Saved: 061_www.the-esg-institute.org.md (1824 words)
+  Saved: 062_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54188109.md (483 words)
+  SKIP (failed): https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/54188119
+  SKIP (failed): https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/54188124
+  SKIP (failed): https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/54188112
+  SKIP (failed): https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/54188117
+  SKIP (failed): https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/54188122
+  SKIP (failed): http://www.the-esg-institute.org/p/sustainable-finance
+  SKIP (failed): https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/54188115
+  SKIP (failed): https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/54188110
+  SKIP (failed): https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/54188120
+  SKIP (failed): https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/54188113
+  SKIP (failed): https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/54188118
+  SKIP (failed): https://courses.the-esg-institute.org/courses/diploma-in-esg-strategy/lectures/54188111
+  Saved: 075_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54188114.md (483 words)
+  Saved: 076_www.the-esg-institute.org_training.md (718 words)
+  Saved: 077_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54188125.md (483 words)
+  Saved: 078_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54188116.md (483 words)
+  Saved: 079_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54188121.md (483 words)
+  Saved: 080_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54188123.md (483 words)
+  Saved: 081_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54188126.md (483 words)
+  Saved: 082_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189379.md (483 words)
+  Saved: 083_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189371.md (483 words)
+  Saved: 084_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189327.md (483 words)
+  Saved: 085_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189048.md (483 words)
+  Saved: 086_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189378.md (483 words)
+  Saved: 087_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189221.md (483 words)
+  Saved: 088_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189326.md (483 words)
+  Saved: 089_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189369.md (483 words)
+  Saved: 090_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189353.md (483 words)
+  Saved: 091_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189322.md (483 words)
+  Saved: 092_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189328.md (483 words)
+  Saved: 093_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189320.md (483 words)
+  Saved: 094_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189382.md (483 words)
+  Saved: 095_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189368.md (483 words)
+  Saved: 096_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189384.md (483 words)
+  Saved: 097_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189439.md (483 words)
+  Saved: 098_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189432.md (483 words)
+  Saved: 099_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189440.md (483 words)
+  Saved: 100_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189431.md (483 words)
+  Saved: 101_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189383.md (483 words)
+  Saved: 102_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189462.md (483 words)
+  Saved: 103_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189467.md (483 words)
+  Saved: 104_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189494.md (483 words)
+  Saved: 105_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189447.md (483 words)
+  Saved: 106_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189456.md (483 words)
+  Saved: 107_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189474.md (483 words)
+  Saved: 108_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189457.md (483 words)
+  Saved: 109_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189491.md (483 words)
+  Saved: 110_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189477.md (483 words)
+  Saved: 111_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189497.md (483 words)
+  Saved: 112_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189454.md (483 words)
+  Saved: 113_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189470.md (483 words)
+  Saved: 114_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54204003.md (483 words)
+  Saved: 115_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54189498.md (483 words)
+  Saved: 116_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54204016.md (483 words)
+  Saved: 117_courses.the-esg-institute.org_p_carbon-markets-climate-finance.md (1059 words)
+  Saved: 118_courses.the-esg-institute.org_courses_diploma-in-esg-strategy_lectures_54204018.md (483 words)
+  Saved: 119_courses.the-esg-institute.org_p_diploma-in-cbam-regulation.md (1130 words)
+  Saved: 120_courses.the-esg-institute.org_p_uae-climate-law.md (874 words)
+  Saved: 121_www.the-esg-institute.org_accredited-party-code-of-conduct.md (3294 words)
+  Saved: 122_courses.the-esg-institute.org_sign_in.md (49 words)
+  Saved: 123_www.the-esg-institute.org_blog_international-esg-day.md (906 words)
+  Saved: 124_www.the-esg-institute.org_blog_tag_CBAM.md (461 words)
+  Saved: 125_www.the-esg-institute.org_blog_10-effective-strategies-for-smes-to-boost-their-esg-metrics.md (2409 words)
+  Saved: 126_www.the-esg-institute.org_blog_tag_CSRD.md (649 words)
+  Saved: 127_www.the-esg-institute.org_blog_tag_Assurance.md (464 words)
+  Saved: 128_www.the-esg-institute.org_blog_esg-summit-embracing-sustainability-for-business-growth.md (744 words)
+  Saved: 129_www.the-esg-institute.org_blog_tag_Banking.md (725 words)
+  Saved: 130_www.the-esg-institute.org_blog_tag_CSDS.md (467 words)
+  Saved: 131_www.the-esg-institute.org_blog_a-blueprint-to-establish-a-comprehensive-carbon-credit-system-and-register.md (4416 words)
+  Saved: 132_www.the-esg-institute.org_blog_tag_AI.md (462 words)
+  Saved: 133_www.the-esg-institute.org_blog_tag_Bioscore.md (458 words)
+  Saved: 134_www.the-esg-institute.org_blog_decoding-the-green-jargon-esg-csr-and-sustainability-uncovered.md (2879 words)
+  Saved: 135_www.the-esg-institute.org_blog_raising-the-esg-standard-with-the-apple-watch-lineup.md (1039 words)
+  Saved: 136_www.the-esg-institute.org_blog_tag_Carbon.md (461 words)
+  Saved: 137_www.the-esg-institute.org_blog_tag_Carbon+Border+Adjustment+Mechanism+%28CBAM%29.md (461 words)
+  Saved: 138_www.the-esg-institute.org_blog_tag_Carbon+Emissions.md (547 words)
+  Saved: 139_www.the-esg-institute.org_blog_tag_Carbon+Credits.md (555 words)
+  Saved: 140_www.the-esg-institute.org_blog_tag_Climate+Action.md (405 words)
+  Saved: 141_www.the-esg-institute.org_blog_tag_EU.md (811 words)
+  Saved: 142_www.the-esg-institute.org_blog_tag_Compliance.md (504 words)
+  Saved: 143_www.the-esg-institute.org_blog_tag_Carbon+Footprint.md (587 words)
+  Saved: 144_www.the-esg-institute.org_blog_tag_Climate+Change.md (485 words)
+  Saved: 145_www.the-esg-institute.org_blog_tag_ESG+Reporting.md (801 words)
+  Saved: 146_www.the-esg-institute.org_blog_tag_China.md (467 words)
+  Saved: 147_www.the-esg-institute.org_blog_tag_ESG+Scoring.md (466 words)
+  Saved: 148_www.the-esg-institute.org_blog_tag_Circularity.md (557 words)
+  Saved: 149_www.the-esg-institute.org_blog_tag_ESG.md (2218 words)
+  Saved: 150_www.the-esg-institute.org_blog_tag_EU+Taxonomy.md (719 words)
+  Saved: 151_www.the-esg-institute.org_blog_tag_Circular+Economy.md (557 words)
+  Saved: 152_www.the-esg-institute.org_blog_tag_Chinese+Sustainability+Disclosure+Standards+%28CSDS%29.md (467 words)
+  Saved: 153_www.the-esg-institute.org_blog_tag_Eric+Appiah.md (440 words)
+  Saved: 154_www.the-esg-institute.org_blog_tag_Corporate+Sustainability.md (720 words)
+  Saved: 155_www.the-esg-institute.org_blog_tag_EU+Parliament.md (465 words)
+  Saved: 156_www.the-esg-institute.org_blog_tag_Eric+Woo.md (474 words)
+  Saved: 157_www.the-esg-institute.org_blog_tag_Carbon+Markets.md (460 words)
+  Saved: 158_www.the-esg-institute.org_blog_tag_Espa%C3%B1a.md (483 words)
+  Saved: 159_www.the-esg-institute.org_blog_tag_European+Commission.md (719 words)
+  Saved: 160_www.the-esg-institute.org_blog_tag_European+Union.md (549 words)
+  Saved: 161_www.the-esg-institute.org_blog_tag_Green+Economy.md (571 words)
+  Saved: 162_www.the-esg-institute.org_blog_tag_Green+Finance.md (935 words)
+  Saved: 163_www.the-esg-institute.org_blog_tag_Gases+Efecto+Invernadero.md (504 words)
+  Saved: 164_www.the-esg-institute.org_blog_tag_Finance.md (725 words)
+  Saved: 165_www.the-esg-institute.org_blog_tag_GHG.md (504 words)
+  Saved: 166_www.the-esg-institute.org_blog_tag_Microplastics.md (464 words)
+  Saved: 167_www.the-esg-institute.org_blog_tag_Omnibus.md (553 words)
+  Saved: 168_www.the-esg-institute.org_blog_tag_ISSA+%28UK%29+5000.md (464 words)
+  Saved: 169_www.the-esg-institute.org_blog_tag_Job+Opportunities.md (571 words)
+  Saved: 170_www.the-esg-institute.org_blog_tag_Mpox.md (447 words)
+  Saved: 171_www.the-esg-institute.org_blog_tag_Green+Skills.md (571 words)
+  Saved: 172_www.the-esg-institute.org_blog_tag_No+Planet+B.md (405 words)
+  Saved: 173_www.the-esg-institute.org_blog_tag_Health.md (537 words)
+  Saved: 174_www.the-esg-institute.org_blog_tag_Ghana.md (440 words)
+  Saved: 175_www.the-esg-institute.org_blog_tag_Nanoplastics.md (464 words)
+  Saved: 176_www.the-esg-institute.org_blog_tag_Malaysia.md (474 words)
+  Saved: 177_www.the-esg-institute.org_blog_tag_India.md (464 words)
+  Saved: 178_www.the-esg-institute.org_blog_tag_Investment.md (746 words)
+  Saved: 179_www.the-esg-institute.org_blog_tag_Global+Health+Emergency.md (447 words)
+  Saved: 180_www.the-esg-institute.org_blog_tag_Green+Jobs.md (571 words)
+  Saved: 181_www.the-esg-institute.org_blog_tag_Pandemic.md (447 words)
+  Saved: 182_www.the-esg-institute.org_blog_tag_Plastic+Pollution.md (557 words)
+  Saved: 183_www.the-esg-institute.org_blog_tag_Reporting.md (552 words)
+  Saved: 184_www.the-esg-institute.org_blog_tag_PlasticBusters.md (557 words)
+  Saved: 185_www.the-esg-institute.org_blog_tag_Social+Bond.md (466 words)
+  Saved: 186_www.the-esg-institute.org_blog_tag_Vietnam.md (460 words)
+  Saved: 187_www.the-esg-institute.org_blog_tag_Spain.md (483 words)
+  Saved: 188_www.the-esg-institute.org_blog_tag_Sustainable+Investing.md (637 words)
+  Saved: 189_www.the-esg-institute.org_blog_tag_The+ESG+Institute.md (2218 words)
+  Saved: 190_www.the-esg-institute.org_blog_tag_Upskilling.md (571 words)
+  Saved: 191_www.the-esg-institute.org_blog_tag_Sustainability.md (2218 words)
+  Saved: 192_www.the-esg-institute.org_blog_tag_World+Health+Organization.md (447 words)
+  Saved: 193_www.the-esg-institute.org_blog_tag_UAE.md (556 words)
+  Saved: 194_www.the-esg-institute.org_blog_tag_Sustainability-Linked+Bond.md (464 words)
+  Saved: 195_www.the-esg-institute.org_blog_tag_Supply+Chain.md (462 words)
+  Saved: 196_www.the-esg-institute.org_blog_tag_UK.md (550 words)
+  Saved: 197_www.the-esg-institute.org_blog_tag_Sustainability+Bond.md (464 words)
+  Saved: 198_www.the-esg-institute.org_blog_tag_UK+Government.md (460 words)
+  Saved: 199_www.the-esg-institute.org_blog_tag_West+Africa.md (440 words)
+  Saved: 200_www.the-esg-institute.org_blog_tag_Valencia+Floods.md (405 words)
+  Saved: 201_www.the-esg-institute.org_blog_tag_World+Economic+Forum.md (480 words)
+  Saved: 202_www.the-esg-institute.org_blog_tag_Viet+Nam.md (460 words)
+  Saved: 203_www.the-esg-institute.org_blog_tag_Sustainable+Finance.md (1228 words)
+  Saved: 204_www.the-esg-institute.org_blog_tag_United+Arab+Emirates.md (458 words)
+  Saved: 205_www.the-esg-institute.org_blog_tag_carbon+calculator.md (554 words)
+  Saved: 206_www.the-esg-institute.org_blog_tag_carbon+monitor.md (631 words)
+  Saved: 207_www.the-esg-institute.org_esg-s.md (562 words)
+  Saved: 208_www.the-esg-institute.org_esgtraordinary-people.md (370 words)
+  Saved: 209_www.the-esg-institute.org_blog_the-esg-institute-certificate-in-esg-strategy.md (1436 words)
+  Saved: 210_www.the-esg-institute.org_blog_world-internet-day-exploring-the-digital-impact-on-esg.md (846 words)
+  Saved: 211_www.the-esg-institute.org_blog?author=6495d387bc6f46275ebd3a5d&offset=1733143345877.md (2024 words)
+  Saved: 212_www.the-esg-institute.org_blog_the-silent-pillar-of-esg-understanding-social-equity.md (3767 words)
+  Saved: 213_www.the-esg-institute.org_blog_the-world-trade-report-2023-re-globalizations-path-to-a-sustainable-and-equitable-future.md (1251 words)
+  Saved: 214_www.the-esg-institute.org_esgtraordinary-solutions.md (368 words)
+  Saved: 215_www.the-esg-institute.org_information-request.md (516 words)
+  Saved: 216_www.the-esg-institute.org_blog_trailblazing-initiatives-redefining-social-engagement-in-business.md (3403 words)
+  Saved: 217_www.the-esg-institute.org_international-esg-day-global-partner.md (421 words)
+  Saved: 218_www.the-esg-institute.org_membership-questionnaire-associate.md (814 words)
+  Saved: 219_www.the-esg-institute.org_international-esg-day-activity-register.md (911 words)
+  Saved: 220_www.the-esg-institute.org_esg-advisor.md (904 words)
+  Saved: 221_www.the-esg-institute.org_blog_tag_the+esg+institute.md (1402 words)
+  Saved: 222_www.the-esg-institute.org_blog_tag_sustainability.md (1644 words)
+  Saved: 223_www.the-esg-institute.org_blog_tag_green+website.md (535 words)
+  Saved: 224_www.the-esg-institute.org_blog_tag_carbon+reduction.md (631 words)
+  Saved: 225_www.the-esg-institute.org_blog_tag_digital+footprint.md (535 words)
+  Saved: 226_www.the-esg-institute.org_membership-questionnaire-professional-fellow.md (893 words)
+  Saved: 227_www.the-esg-institute.org_privacy-policy.md (1452 words)
+  Saved: 228_www.the-esg-institute.org_training-waiting-list.md (540 words)
+
+Done: 204 pages saved to /Users/knowprajjwal/LearningPlatform/Competitor Analysis/scripts/../content/esg-institute

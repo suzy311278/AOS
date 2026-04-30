@@ -1,0 +1,26 @@
+- question: "What fundamental market failure does the VM0042 carbon credit system address?"
+  options:
+  - "Farmers being paid too much for their crops"
+  - "The fact that releasing carbon into the atmosphere has no cost, while sequestering it has no reward"
+  - "Corporations not knowing how to measure their emissions"
+  - "The absence of government regulation on agricultural practices"
+  answer: 1
+  explanation: "The core market failure is that atmospheric carbon release is 'free' for the emitter while the harm is shared by everyone, and carbon sequestration benefits everyone but rewards no one financially. Carbon markets — and VM0042 — exist to correct this by pricing emissions and paying for removals."
+
+- question: "In a typical VM0042 project revenue split, what happens to the VCU sale proceeds?"
+  options:
+  - "100% goes to Verra as the standard-setting body"
+  - "100% goes to the farmer who changed their practices"
+  - "Revenue is split between the project developer (costs + margin) and the farmers/aggregator"
+  - "All proceeds are held in the AFOLU buffer pool"
+  answer: 2
+  explanation: "VCU sale revenue is split between the project developer (who covers methodology, monitoring, and verification costs and takes a margin) and the farmers or aggregator. Typical splits range from 40/60 to 70/30 depending on who bears upfront project development costs."
+
+- question: "Which step in the VM0042 workflow involves an independent third party confirming that the claimed emission reductions are real and correctly calculated?"
+  options:
+  - "Baseline establishment"
+  - "Practice change & monitoring"
+  - "Verification (VVB Audit)"
+  - "VCU retirement by the buyer"
+  answer: 2
+  explanation: "Verification is performed by an accredited VVB (Validation/Verification Body) — an independent auditor who reviews the monitoring data and quantification calculations to confirm that claimed ERRs are real, measured, and conservatively estimated before Verra issues any VCUs."

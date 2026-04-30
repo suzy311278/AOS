@@ -1,0 +1,186 @@
+SOURCE URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020DC0098
+DOCUMENT: A new Circular Economy Action Plan - For a cleaner and more competitive Europe
+REFERENCE: COM(2020) 98 final
+DATE: Brussels, 11.3.2020
+
+# EU Circular Economy Action Plan COM(2020) 98 - Full Text
+
+## SECTION 1: INTRODUCTION
+
+Global consumption patterns are unsustainable. By 2050, the world will consume "as if there were three" planets. Material consumption is projected to double within forty years, while waste generation could increase by 70% by 2050.
+
+The European Green Deal frames circularity as essential for achieving climate neutrality by 2050. The Commission estimates that circular economy principles could increase EU GDP by 0.5% by 2030, creating approximately 700,000 new jobs.
+
+Manufacturing firms in the EU spend roughly 40% of costs on materials, making closed-loop business models economically attractive while reducing vulnerability to resource price volatility.
+
+## SECTION 2: A SUSTAINABLE PRODUCT POLICY FRAMEWORK
+
+### 2.1 Designing Sustainable Products
+
+Up to 80% of a product's environmental impacts are determined during design phase. The linear "take-make-use-dispose" model fails to incentivize circular design.
+
+Key Legislative Initiative: The Commission will propose a Sustainable Product Policy legislative initiative that:
+- Expands the Ecodesign Directive beyond energy-related products to cover the broadest range of items
+- Addresses product durability, repairability, and upgradability
+- Restricts single-use products and premature obsolescence
+- Bans destruction of unsold durable goods
+- Increases recycled content while maintaining performance standards
+- Implements digital product passports for transparency
+
+Priority product groups include:
+- Electronics and ICT
+- Textiles
+- Furniture
+- High-impact intermediaries (steel, cement, chemicals)
+
+### 2.2 Empowering Consumers and Public Buyers
+
+The Commission will propose a revision of EU consumer law ensuring "consumers receive trustworthy and relevant information on products at the point of sale, including on their lifespan."
+
+Key consumer protections:
+- Right to repair products
+- Access to spare parts and repair manuals
+- Protection against greenwashing
+- Strengthened consumer protections against premature obsolescence
+
+Public procurement leverage: Public authorities control 14% of EU GDP purchasing power. The Commission will:
+- Establish mandatory green public procurement (GPP) criteria
+- Phase in compulsory reporting on GPP implementation
+- Support capacity building for public buyers
+
+### 2.3 Circularity in Production Processes
+
+- Industrial Emissions Directive review integrating circular practices
+- Industrial symbiosis programs with reporting and certification systems
+- Digital resource tracking technologies
+
+## SECTION 3: KEY PRODUCT VALUE CHAINS
+
+### 3.1 Electronics and ICT
+
+Less than 40% of electronic waste is recycled in the EU; annual e-waste growth rates reach 2%.
+
+Circular Electronics Initiative includes:
+- Regulatory measures for durability, repairability, upgradability
+- Right to repair, including software updates
+- Common charger standards for mobile devices
+- EU-wide take-back schemes for old devices
+
+### 3.2 Batteries and Vehicles
+
+Battery regulatory framework will address:
+- Recycled content requirements
+- Collection and recycling rate improvements
+- Carbon footprint of manufacturing
+- Ethical sourcing of raw materials
+- Reuse and repurposing opportunities
+
+### 3.3 Packaging
+
+Packaging waste reached 173 kg per inhabitant in 2017 - the highest level recorded.
+
+Directive 94/62/EC review will focus on:
+- Ensuring all packaging is reusable or recyclable by 2030
+- Reducing excessive packaging through waste prevention targets
+- Designing for reuse and recyclability
+- Establishing EU-wide labeling for waste separation
+
+### 3.4 Plastics
+
+Additional measures:
+- Mandatory recycled content requirements for key products
+- Restrictions on intentionally added microplastics
+- Standardized measurement methods for unintentional microplastic releases
+- Policy framework for bio-based and biodegradable plastics
+
+### 3.5 Textiles
+
+Textiles rank fourth in primary material consumption and water use; less than 1% of textiles globally are recycled into new textiles.
+
+EU Strategy for Textiles will:
+- Apply sustainable product framework to textile design
+- Support product-as-service business models
+- Establish separate collection targets (2025 deadline)
+- Boost sorting, reuse, and recycling through extended producer responsibility
+
+### 3.6 Construction and Buildings
+
+The sector accounts for 50% of extracted materials and 35% of EU waste generation. GHG emissions from construction range from 5-12% of national totals; greater efficiency could reduce emissions by 80%.
+
+### 3.7 Food, Water, and Nutrients
+
+An estimated 20% of food produced in the EU is lost or wasted.
+
+## SECTION 4: LESS WASTE, MORE VALUE
+
+### 4.1 Enhanced Waste Policy
+
+Annual EU waste generation totals 2.5 billion tonnes (5 tonnes per capita); each citizen produces roughly half a tonne of municipal waste annually.
+
+Key objectives:
+- Significantly reduce total waste generation
+- Halve residual municipal waste by 2030
+- Implement waste reduction targets for specific streams
+
+### 4.2 Enhancing Circularity in a Toxic-Free Environment
+
+EU policy encourages shift to "safe-by-design chemicals" through hazardous substance substitution.
+
+### 4.3 Creating an EU Market for Secondary Raw Materials
+
+Commission will:
+- Assess scope for EU-wide end-of-waste criteria development
+- Enhance standardization
+- Restrict use of substances of very high concern
+
+### 4.4 Addressing Waste Exports
+
+The Commission will review EU waste shipment rules and restrict exports of problematic waste streams.
+
+## SECTION 5: MAKING CIRCULARITY WORK FOR PEOPLE, REGIONS, AND CITIES
+
+Between 2012-2018, circular economy jobs grew 5% annually, reaching approximately 4 million positions.
+
+## SECTION 6: CROSSCUTTING ACTIONS
+
+### 6.1 Circularity as a Prerequisite for Climate Neutrality
+
+The Commission will systematically measure circularity's climate mitigation and adaptation impacts.
+
+### 6.2 Getting the Economics Right
+
+Current initiatives:
+- EU Taxonomy Regulation integration of circular economy objectives
+- Circular Economy Finance Support Platform
+- Own resource for EU budget based on non-recycled plastic waste
+
+### 6.3 Research, Innovation, and Digitalization
+
+Funding through Horizon Europe and European Regional Development Fund for:
+- Novel materials and products
+- Hazardous substance substitution
+- Circular business models
+- Digital tools for circular objectives
+
+## SECTION 7: LEADING EFFORTS AT GLOBAL LEVEL
+
+Commission actions:
+- Lead international plastics agreement negotiations
+- Propose Global Circular Economy Alliance
+- Build stronger Africa partnerships
+
+## ANNEX: KEY ACTIONS TIMELINE
+
+| Action | Target Date |
+|---|---|
+| Sustainable product policy initiative | 2021 |
+| Consumer empowerment legislation | 2020 |
+| Right to repair measures | 2021 |
+| Circular Electronics Initiative | 2020/2021 |
+| New battery regulatory framework | 2020 |
+| Packaging essential requirements | 2021 |
+| EU Textiles Strategy | 2021 |
+| Built Environment Strategy | 2021 |
+| Waste reduction targets | 2022 |
+| Waste shipment rules revision | 2021 |
+| Global agreement on plastics | 2020+ |

@@ -1,0 +1,26 @@
+- question: "What makes the Kalundborg Symbiosis in Denmark historically significant?"
+  options:
+    - "It was the first government-mandated industrial waste exchange programme in the EU"
+    - "It is the world's first and best-documented voluntary industrial symbiosis, where companies exchange waste streams for mutual economic benefit"
+    - "It demonstrated that industrial symbiosis requires a central government agency to coordinate material flows"
+    - "It was the first industrial zone to achieve 100% renewable energy"
+  answer: 1
+  explanation: "Kalundborg is significant as the world's first and best-documented voluntary industrial symbiosis network. All 30 exchange streams emerged from bilateral economic negotiations between companies seeking cost savings, not from central planning. It avoids 635,000 tonnes of CO2 and saves over 30 million euros annually."
+
+- question: "Which of the following is NOT one of the four conditions identified as supporting the development of industrial symbiosis networks?"
+  options:
+    - "Information sharing platforms that match waste streams with potential users"
+    - "Geographic clustering of complementary industries"
+    - "Government ownership of participating companies"
+    - "Long-term contracts that justify investment in connecting infrastructure"
+  answer: 2
+  explanation: "Government ownership is not a condition for industrial symbiosis. The four key enablers are: information sharing, regulatory certainty on by-product status, geographic clustering enabling short-distance exchange, and long-term contracts providing investment security."
+
+- question: "What is 'cascade use' in the context of biological materials?"
+  options:
+    - "A method of rapid recycling that processes biological waste into new biomass"
+    - "Cycling biological materials through multiple applications of declining intensity before finally returning them to the biosphere"
+    - "The recovery of energy from biological waste as a first-priority strategy"
+    - "A composting technique that accelerates biological decomposition"
+  answer: 1
+  explanation: "Cascade use cycles biological materials through multiple uses before final return to the biosphere: timber, for example, moves from structural use in buildings to furniture to lower-grade board products to biomass energy, with combustion ash finally returning to soil."

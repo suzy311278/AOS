@@ -1,0 +1,199 @@
+{/* source: EPA Center for Corporate Climate Leadership, Direct Emissions from Stationary Combustion Sources (December 2023), Sections 1-4; GHG Protocol Corporate Standard, Chapter 6 */}
+
+You have been handed a stack of fuel invoices from three facilities. One burns natural gas in boilers, another runs diesel backup generators, and the third has a furnace on pet coke. Your job is to turn those invoices into an emissions number. This lesson shows you exactly how.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-1-2/1_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## What Burns, What Gets Reported
+
+Stationary combustion is any fixed equipment that burns fuel on-site: boilers, furnaces, kilns, ovens, generators, flares, dryers, process heaters. If it stays in one place and burns something, it is a stationary combustion source - and almost certainly your client's biggest chunk of Scope 1 emissions.
+
+Burning any carbon-based fuel produces three greenhouse gases:
+
+- **CO2** - the dominant one, typically 99%+ of the CO2e total from combustion
+- **CH4** - small amounts from incomplete combustion
+- **N2O** - small amounts, varies by equipment type and age
+
+You calculate all three, but CO2 is where the tonnage lives. CH4 and N2O together rarely move the needle by more than 1% for standard commercial fuels, though they must still be reported.
+
+<HighlightBox>
+Combustion produces CO2, CH4, and N2O only. The high-GWP gases like HFCs, PFCs, and SF6 come from refrigerant leaks and industrial gas use - those are fugitive emissions, covered in Lesson 1.2.
+</HighlightBox>
+
+<HighlightBox>
+**Practitioner Tip: Total Fuel vs. Granular Fuel Data**
+
+In practice, most companies buy fuel centrally - one bulk diesel purchase for the entire site - and distribute it to various departments and equipment without tracking who used how much. This is perfectly fine for calculating total emissions. But it is useless for identifying emission hotspots and planning reductions. If you don't know whether the diesel went to generators, forklifts, or boilers, you can't tell the client where to cut. Push companies to maintain department-wise or equipment-wise fuel logs from day one, even if it's just an Excel sheet that gets consolidated monthly. The inventory exercise is the right moment to build this habit.
+</HighlightBox>
+
+## The Biomass Split
+
+When a facility co-fires biomass (wood chips, agricultural waste, biogas) alongside fossil fuel, you must split the CO2 into two buckets:
+
+- **Fossil CO2** - goes into your Scope 1 total
+- **Biomass CO2** - reported separately, excluded from the CO2e total
+
+CH4 and N2O from biomass combustion, however, are included in the main inventory regardless of fuel origin. In practice, this means you need the fuel breakdown before you can finish the calculation. Ask the facility for it early.
+
+## Which Equation Should I Use?
+
+There are three equations for calculating CO2 from fuel combustion. The right choice depends on what data you actually have.
+
+**Equation 1 - you have fuel volume or mass and a per-unit emission factor.** This is the most common starting point. You know litres of diesel or cubic metres of natural gas, and you look up an emission factor in kg CO2 per litre or per cubic metre.
+
+<EquationBreakdown
+  title="Equation 1 - From Fuel Volume/Mass (most common starting point)"
+  result="E | GHG Emissions | Total emissions from combustion, in kg or tonnes | blue"
+  inputs="Fuel | Fuel Consumed | Quantity burned in mass or volume units (e.g., litres, kg, scm) | green ;; EF | Emission Factor | Emissions per unit of fuel (e.g., kg CO2/litre) | amber"
+/>
+
+**Equation 2 - you have fuel quantity plus its heat content.** This is more accurate because it accounts for energy density variations. You convert fuel quantity to energy (MMBtu or GJ) using the Higher Heating Value, then apply an energy-based emission factor.
+
+<EquationBreakdown
+  title="Equation 2 - From Fuel Energy Content (more accurate)"
+  result="E | GHG Emissions | Total emissions from combustion, in kg or tonnes | blue"
+  inputs="Fuel | Fuel Consumed | Quantity burned in mass or volume units | green ;; HHV | Higher Heating Value | Energy per unit of fuel (e.g., GJ/kg, MMBtu/litre) | amber ;; EF | Emission Factor | Emissions per energy unit (e.g., kg CO2/MMBtu) | violet"
+/>
+
+**Equation 3 - you have the actual carbon content of the fuel.** This is the gold standard for CO2 because it directly measures what gets oxidised. Only works for CO2 - you still need Equation 1 or 2 for CH4 and N2O.
+
+<EquationBreakdown
+  title="Equation 3 - From Carbon Content (most accurate, CO2 only)"
+  result="E<sub>CO2</sub> | CO2 Emissions | Total CO2 from combustion, in kg or tonnes | blue"
+  inputs="Fuel | Fuel Consumed | Quantity burned in mass or volume units | green ;; CC | Carbon Content | Mass of carbon per unit of fuel | amber ;; 44/12 | Molecular Ratio | Converts carbon mass to CO2 mass | violet"
+/>
+
+<AnalogyBox>
+Think of these three equations as zoom levels on a map. Equation 1 is the city view - quick and serviceable. Equation 2 zooms into the neighbourhood - you account for the energy density of your specific fuel. Equation 3 is street-level - you know exactly how much carbon is in the fuel. Use the most zoomed-in view your data supports.
+</AnalogyBox>
+
+## Common Fuel Types and Emission Factors
+
+In practice, you will encounter a handful of fuels repeatedly. Here are the ones that cover 90%+ of stationary combustion inventories across India and globally:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Fuel</th>
+      <th>Unit</th>
+      <th>CO2 Emission Factor</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Natural Gas</td>
+      <td>scm (standard cubic metre)</td>
+      <td>1.96 kg CO2/scm</td>
+      <td>IPCC 2006</td>
+    </tr>
+    <tr>
+      <td>Natural Gas</td>
+      <td>MMBtu</td>
+      <td>53.06 kg CO2/MMBtu</td>
+      <td>EPA Hub</td>
+    </tr>
+    <tr>
+      <td>Diesel / Gas Oil</td>
+      <td>litre</td>
+      <td>2.68 kg CO2/litre</td>
+      <td>EPA / IPCC</td>
+    </tr>
+    <tr>
+      <td>Furnace Oil (FO / HFO)</td>
+      <td>litre</td>
+      <td>3.15 kg CO2/litre</td>
+      <td>IPCC 2006</td>
+    </tr>
+    <tr>
+      <td>Pet Coke</td>
+      <td>tonne</td>
+      <td>3,340 kg CO2/tonne</td>
+      <td>IPCC 2006</td>
+    </tr>
+    <tr>
+      <td>Coal (bituminous)</td>
+      <td>tonne</td>
+      <td>2,420 kg CO2/tonne</td>
+      <td>IPCC 2006</td>
+    </tr>
+    <tr>
+      <td>LPG</td>
+      <td>litre</td>
+      <td>1.61 kg CO2/litre</td>
+      <td>IPCC 2006</td>
+    </tr>
+    <tr>
+      <td>LPG</td>
+      <td>kg</td>
+      <td>2.98 kg CO2/kg</td>
+      <td>IPCC 2006</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+These are default factors. If your client has a fuel analysis certificate from the supplier showing actual carbon content or calorific value, use that instead - it is always more accurate than a table average.
+
+## Worked Example: Natural Gas Boiler
+
+Let's walk through a real calculation.
+
+<ExampleBox>
+**Example: Natural gas boiler using Equation 2**
+
+An office complex burns natural gas in an on-site boiler. Utility bills show 61,500 therms consumed in the reporting year. Converting to energy: 61,500 therms x 0.1 MMBtu/therm = 6,150 MMBtu.
+
+Applying EPA default emission factors:
+- CO2: 6,150 MMBtu x 53.06 kg CO2/MMBtu x 10^-3 = **326.3 metric tonnes CO2**
+- CH4: 6,150 x 1.0 g CH4/MMBtu x 10^-6 = 0.00615 t CH4 x 28 GWP = 0.2 t CO2e
+- N2O: 6,150 x 0.10 g N2O/MMBtu x 10^-6 = 0.000615 t N2O x 265 GWP = 0.2 t CO2e
+
+**Total: 326.3 + 0.2 + 0.2 = 326.7 metric tonnes CO2e**
+
+Notice how CH4 and N2O together add less than 0.5 tonnes to a 326-tonne number. For natural gas, CO2 is essentially the whole story.
+</ExampleBox>
+
+## Practice: Natural Gas Calculation
+
+<CalculationExercise
+  question="A company burns 10,000 MMBtu of natural gas at its on-site boiler. Using the EPA default CO2 emission factor of 53.06 kg CO2/MMBtu, what are the total CO2 emissions in metric tonnes?"
+  answer={530.6}
+  unit="tCO2"
+  hints={[
+    "Multiply fuel consumption (MMBtu) by the emission factor (kg CO2/MMBtu) to get total kg of CO2.",
+    "Convert kg to metric tonnes by dividing by 1,000. So: 10,000 x 53.06 / 1,000 = ?"
+  ]}
+  solution="10,000 MMBtu x 53.06 kg CO2/MMBtu = 530,600 kg CO2. Dividing by 1,000 converts to 530.6 metric tonnes CO2."
+/>
+
+## Practice: Diesel Generator Calculation
+
+<CalculationExercise
+  question="A factory consumed 25,000 litres of diesel in its backup generators during the reporting year. The CO2 emission factor for diesel is 2.68 kg CO2/litre. Calculate total CO2 emissions in metric tonnes."
+  answer={67}
+  unit="tCO2"
+  hints={[
+    "Multiply total litres by the emission factor: 25,000 x 2.68 = total kg CO2.",
+    "Convert to metric tonnes by dividing by 1,000. So: 67,000 / 1,000 = ?"
+  ]}
+  solution="25,000 litres x 2.68 kg CO2/litre = 67,000 kg CO2 = 67 metric tonnes CO2. Backup generators are easy to forget because they run infrequently, but the fuel adds up."
+/>
+
+## Common Mistakes
+
+<HighlightBox>
+**Mistakes that will get flagged in review:**
+
+1. **Forgetting biomass separation.** If a facility co-fires wood waste or biogas with fossil fuel, you must report biomass CO2 separately. Lumping it all together overstates Scope 1 emissions.
+2. **Using the wrong units.** Emission factors come in kg CO2 per litre, per gallon, per scm, per MMBtu, per GJ. Mixing up litres and gallons, or therms and MMBtu, will give you an answer that is off by a factor of 4-10x.
+3. **Missing small sources.** Backup diesel generators, rooftop gas heaters, pilot lights on flare stacks - these get overlooked because they are not on the main utility bill. Walk the facility or check the air permit source list.
+4. **Confusing HHV and LHV.** EPA emission factors are based on Higher Heating Value. If your fuel data uses Lower Heating Value (common outside the U.S.), you must convert before applying the factor.
+</HighlightBox>
+
+<DeepDive title="When should you use CEMS instead of fuel analysis?">
+Continuous Emissions Monitoring Systems (CEMS) directly measure CO2 concentrations in exhaust gases. They are required for large emitters under certain U.S. regulatory programs. If a facility has CEMS data that meets regulatory quality standards, use those figures directly in the inventory - do not recalculate from fuel data. However, CEMS cannot measure CH4 or N2O, so fuel analysis still supplements it for those gases.
+</DeepDive>
+
+<KeyTakeaways items="Stationary combustion produces CO2, CH4, and N2O - with CO2 typically accounting for 99%+ of the CO2e total from standard commercial fuels ;; Three equations exist for calculating CO2 from combustion - choose based on data availability, from fuel volume (simplest) to actual carbon content (most accurate) ;; Biomass CO2 must be reported separately and excluded from your Scope 1 total, but CH4 and N2O from biomass combustion are included regardless ;; Always use site-specific fuel analysis data (supplier certificates) over default emission factors when available - defaults can be off by 10-20% for variable fuels ;; Watch for common unit traps: therms vs MMBtu (10x error), HHV vs LHV (5-10% error), and litres vs gallons (3.8x error)" />

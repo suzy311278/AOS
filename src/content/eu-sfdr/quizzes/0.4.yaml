@@ -1,0 +1,35 @@
+- question: "Which three European Supervisory Authorities jointly produce the SFDR Consolidated Q&As?"
+  options:
+    - "European Central Bank (ECB), European Commission, and ESMA"
+    - "ESMA, EBA, and EIOPA through the Joint Committee of the European Supervisory Authorities"
+    - "ESMA, EFRAG, and the European Parliament"
+    - "National Competent Authorities from France, Germany, and Luxembourg"
+  answer: 1
+  explanation: "The Consolidated SFDR Q&As (reference JC 2023 18) are produced jointly by ESMA (European Securities and Markets Authority), EBA (European Banking Authority), and EIOPA (European Insurance and Occupational Pensions Authority) through their Joint Committee. Each ESA leads on its sector (ESMA on investment funds, EBA on banking, EIOPA on insurance and pensions)."
+
+- question: "What is the legal status of the EC SFDR FAQ (April 2023)?"
+  options:
+    - "It is legally binding primary legislation that amends SFDR"
+    - "It provides authoritative interpretive guidance that clarifies existing provisions but is not itself legally binding; only the CJEU can authoritatively interpret EU law"
+    - "It is a soft law standard that applies only to UCITS funds"
+    - "It replaced the RTS as the technical standard for SFDR disclosures"
+  answer: 1
+  explanation: "The EC FAQ clarifies the Commission's interpretation of SFDR provisions already in the legislation. As stated in the disclaimer in the ESMA Q&As, these answers do not introduce new obligations and are not legally binding. Only the Court of Justice of the EU has authority to authoritatively interpret EU law."
+
+- question: "Which of the following best describes why ESG data providers are critical participants in the SFDR ecosystem?"
+  options:
+    - "ESG data providers are required to validate all SFDR disclosures before publication"
+    - "Most financial market participants cannot independently collect the granular company-level data needed for PAI indicators and rely on third-party providers to source and aggregate this data"
+    - "ESG data providers set the definition of sustainable investment used in SFDR Article 2(17)"
+    - "ESG data providers are responsible for publishing the entity-level PAI statement on behalf of FMPs"
+  answer: 1
+  explanation: "The PAI indicator framework requires granular data on greenhouse gas emissions, carbon footprint, gender pay gaps, controversies, and more at the individual investee company level. Most investment managers do not collect this data independently and rely on ESG data providers such as MSCI, Sustainalytics, and Bloomberg ESG. Data quality and coverage from these providers directly affects the reliability of SFDR disclosures."
+
+- question: "Which national competent authority supervises SFDR compliance for funds domiciled in Luxembourg — the largest EU fund domicile?"
+  options:
+    - "AMF (Autorité des marchés financiers)"
+    - "BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht)"
+    - "CSSF (Commission de Surveillance du Secteur Financier)"
+    - "CBI (Central Bank of Ireland)"
+  answer: 2
+  explanation: "The CSSF (Commission de Surveillance du Secteur Financier) is Luxembourg's financial supervisor and the NCA responsible for SFDR compliance of funds domiciled in Luxembourg, which is the largest EU fund domicile. The CBI supervises Ireland (the second-largest fund domicile)."

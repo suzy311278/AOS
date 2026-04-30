@@ -1,0 +1,26 @@
+- question: "Category 7 (Employee Commuting) covers which of the following scenarios?"
+  options:
+    - "An employee taking a train to a client's office for a business meeting"
+    - "An employee driving their personal car to the office each day"
+    - "A company bus transporting employees to a remote facility"
+    - "An employee using a company car to travel between company sites"
+  answer: 1
+  explanation: "Category 7 covers the daily commute from home to the regular workplace in vehicles not owned by the company — including an employee's personal car. Business travel is Category 6. Company bus operations are Scope 1 (company-controlled vehicle). Company car operations are Scope 1."
+
+- question: "Which data collection method is most accurate for Category 7?"
+  options:
+    - "Spend-based method using EIO factors"
+    - "National average commute distance applied to headcount"
+    - "Employee travel survey capturing commute modes and distances"
+    - "Proximity analysis using office postcode data"
+  answer: 2
+  explanation: "The survey-based method — collecting actual commute distance, mode, and days from employees directly — is the most accurate because it reflects the specific commuting patterns of the actual workforce rather than national averages."
+
+- question: "A company implements a 3-days-per-week remote working policy (down from 5 days). By roughly what percentage would Category 7 emissions from those employees decrease?"
+  options:
+    - "20%"
+    - "40%"
+    - "60%"
+    - "100%"
+  answer: 1
+  explanation: "Reducing office days from 5 to 3 per week eliminates 2 out of every 5 commute days — a 40% reduction in Category 7 commuting emissions for those employees, assuming commute distance and mode remain unchanged."

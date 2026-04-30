@@ -1,0 +1,26 @@
+- question: "According to ESRS 1, which two groups make up the company's stakeholders?"
+  options:
+    - "Shareholders and employees"
+    - "Affected stakeholders and users of sustainability statements"
+    - "Investors and regulators"
+    - "Internal stakeholders and external stakeholders"
+  answer: 1
+  explanation: "ESRS 1 paragraph 22 defines two main groups of stakeholders: affected stakeholders (individuals or groups whose interests are affected or could be affected by the company's activities and business relationships across its value chain) and users of sustainability statements (primary users of general-purpose financial reporting and other users including NGOs, trade unions, governments, and academics)."
+
+- question: "Why is engagement with affected stakeholders described as central to the materiality assessment process?"
+  options:
+    - "Because ESRS requires a minimum number of stakeholder interviews to be documented"
+    - "Because engagement with affected stakeholders informs the identification and assessment of material impacts, including the assessment of severity, likelihood, and time horizons, and helps ensure completeness"
+    - "Because affected stakeholders must formally approve the materiality assessment before it is published"
+    - "Because affected stakeholders provide the financial data needed for the financial materiality assessment"
+  answer: 1
+  explanation: "Engagement with affected stakeholders is central to the on-going due diligence process and to the sustainability materiality assessment. It informs the identification and assessment of material impacts and helps assess severity, likelihood, and time horizons, and also ensures completeness. (ESRS 1, paragraph 24; EFRAG IG1, paragraph 199)"
+
+- question: "What type of information do users of sustainability statements primarily need, according to ESRS 1?"
+  options:
+    - "Information to understand how the company's activities affect local communities near its operations"
+    - "Information that is material for primary users of general-purpose financial reports in making decisions relating to providing resources to the entity, as well as information about the company's impacts on people and the environment"
+    - "Operational data about the company's manufacturing processes"
+    - "Details of the company's tax arrangements and transfer pricing policies"
+  answer: 1
+  explanation: "Users of sustainability statements include primary users of general-purpose financial reporting who need information for decisions about providing resources to the company, as well as other users whose principal interest is in information about the company's impacts. The financial materiality assessment corresponds to identifying information that is material for primary users making resource-provision decisions. (ESRS 1, paragraphs 22, 48)"

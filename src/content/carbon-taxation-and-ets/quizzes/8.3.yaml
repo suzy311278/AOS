@@ -1,0 +1,35 @@
+- question: "What are quality standards for offsets?"
+  options:
+    - "Standards for product quality"
+    - "Criteria ensuring that offset credits represent real, additional, permanent, verified reductions"
+    - "Price standards"
+    - "Only aesthetic standards"
+  answer: 1
+  explanation: "Quality standards establish criteria for offset projects covering additionality, baseline methodology, monitoring protocols, verification requirements, and permanence assurance."
+
+- question: "What is a standardized baseline in offset crediting?"
+  options:
+    - "The same baseline for all projects globally"
+    - "A pre-determined baseline for a project type in a region, avoiding project-by-project assessment"
+    - "No baseline"
+    - "A random baseline"
+  answer: 1
+  explanation: "Standardized baselines set pre-determined emission levels for project types (e.g., 'efficient cookstoves in rural Kenya'), simplifying assessment and reducing gaming compared to project-specific baselines."
+
+- question: "Why is third-party verification essential for offsets?"
+  options:
+    - "It is cheaper than government verification"
+    - "Independent verification provides assurance that reductions are real and correctly measured"
+    - "It is required by all laws"
+    - "It eliminates monitoring needs"
+  answer: 1
+  explanation: "Independent verifiers assess whether project implementation matches the plan, emissions are correctly measured, and reductions are calculated accurately, providing credibility to offset credits."
+
+- question: "What is a registry in the context of offsets?"
+  options:
+    - "A list of project developers"
+    - "A system tracking offset credit issuance, ownership, transfers, and retirement to prevent double-counting"
+    - "A government office"
+    - "A database of emissions"
+  answer: 1
+  explanation: "Offset registries track each credit from issuance through retirement, recording ownership and transfers to ensure credits are not double-counted or used multiple times."

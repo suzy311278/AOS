@@ -1,0 +1,114 @@
+id: sbti
+title: "Science-Based Targets (SBTi)"
+subtitle: "Setting corporate climate targets aligned with 1.5C science"
+description: "A comprehensive course on the Science Based Targets initiative -- from understanding the framework and near-term criteria to the Corporate Net-Zero Standard, target-setting methods, and the validation process."
+icon: "🎯"
+color: teal
+status: published
+category: fundamentals
+estimatedHours: 1
+modules:
+  - id: 0
+    title: "Introduction to Science-Based Targets"
+    subtitle: "Why science-based targets matter and how the SBTi works"
+    icon: "🌍"
+    color: teal
+    lessons:
+      - id: "0.1"
+        title: "What Are Science-Based Targets?"
+        duration: "35 min"
+        vmRef: "Net-Zero Standard V1.3, Section 1"
+        seoTitle: "What Are Science-Based Targets (SBTi)?"
+        seoDescription: "Science-Based Targets explained: corporate emission reduction goals aligned with 1.5°C pathways, SBTi framework, near-term and net-zero targets."
+      - id: "0.2"
+        title: "The SBTi Framework and Key Documents"
+        duration: "30 min"
+        vmRef: "Net-Zero Standard V1.3, Sections 1.4-1.5"
+      - id: "0.3"
+        title: "The Target-Setting Process"
+        duration: "35 min"
+        vmRef: "Getting Started Guide V1.2; Net-Zero Standard V1.3, Section 4"
+        seoTitle: "SBTi Target-Setting Process: Commit to Validation"
+        seoDescription: "SBTi target-setting process: commit, develop targets, submit for validation, announce, and disclose. Timeline, the target-setting tool, and required docs."
+
+  - id: 1
+    title: "The Net-Zero Standard Framework"
+    subtitle: "Understanding the four pillars of corporate net-zero"
+    icon: "📐"
+    color: blue
+    lessons:
+      - id: "1.1"
+        title: "Defining Corporate Net-Zero"
+        duration: "40 min"
+        vmRef: "Net-Zero Standard V1.3, Section 2"
+      - id: "1.2"
+        title: "Mitigation Pathways and Climate Science"
+        duration: "45 min"
+        vmRef: "Net-Zero Standard V1.3, Section 3"
+      - id: "1.3"
+        title: "Neutralization and Beyond Value Chain Mitigation"
+        duration: "35 min"
+        vmRef: "Net-Zero Standard V1.3, Sections 2.3-2.4"
+
+  - id: 2
+    title: "Near-Term Targets"
+    subtitle: "Criteria and requirements for 5-10 year emission reduction targets"
+    icon: "📋"
+    color: green
+    lessons:
+      - id: "2.1"
+        title: "Target Boundary and Scope Coverage"
+        duration: "40 min"
+        vmRef: "Near-Term Criteria V5.3, C1-C6"
+      - id: "2.2"
+        title: "Emissions Accounting and Method Validity"
+        duration: "40 min"
+        vmRef: "Near-Term Criteria V5.3, C7-C12"
+      - id: "2.3"
+        title: "Timeframe and Ambition"
+        duration: "45 min"
+        vmRef: "Near-Term Criteria V5.3, C13-C21"
+        seoTitle: "SBTi Near-Term Target Timeframe & Ambition Criteria"
+        seoDescription: "SBTi near-term target criteria: 5-10 year horizon, 1.5°C alignment (4.2% linear annual reduction), minimum ambition, base year rules, and Scope 3 thresholds."
+      - id: "2.4"
+        title: "Scope 3 and Supplier Engagement Targets"
+        duration: "40 min"
+        vmRef: "Near-Term Criteria V5.3, C18-C19; Supplier Engagement Guidance"
+
+  - id: 3
+    title: "Setting Your Targets"
+    subtitle: "Practical steps from base year to validated target"
+    icon: "🔧"
+    color: emerald
+    lessons:
+      - id: "3.1"
+        title: "Selecting a Base Year and Calculating Emissions"
+        duration: "45 min"
+        vmRef: "Net-Zero Standard V1.3, Sections 4.1-4.2"
+      - id: "3.2"
+        title: "Target-Setting Methods"
+        duration: "50 min"
+        vmRef: "Net-Zero Standard V1.3, Sections 4.5-4.6; Annex B"
+      - id: "3.3"
+        title: "Target Wording, Communication, and Validation"
+        duration: "40 min"
+        vmRef: "Net-Zero Standard V1.3, Section 4.7; Near-Term Criteria V5.3, C25-C28"
+
+  - id: 4
+    title: "Advanced Topics"
+    subtitle: "Sector guidance, reporting, and keeping targets current"
+    icon: "🔬"
+    color: violet
+    lessons:
+      - id: "4.1"
+        title: "Sector-Specific Guidance"
+        duration: "40 min"
+        vmRef: "Near-Term Criteria V5.3, C22-C24; Net-Zero Standard V1.3, Section 6"
+      - id: "4.2"
+        title: "Reporting, Recalculation, and Five-Year Reviews"
+        duration: "40 min"
+        vmRef: "Near-Term Criteria V5.3, C25-C28; Mandatory Five-Year Review Guidance"
+      - id: "4.3"
+        title: "FLAG Targets and Special Cases"
+        duration: "35 min"
+        vmRef: "Net-Zero Standard V1.3, Annex E; FLAG Guidance V1.1"

@@ -1,0 +1,84 @@
+Carbon Brief: Nine Climate Tipping Points
+Source: https://www.carbonbrief.org/explainer-nine-tipping-points-that-could-be-triggered-by-climate-change/
+Crawled: March 2026
+
+INTRODUCTION TO TIPPING POINTS
+
+Tipping points are thresholds where small changes could push Earth systems into completely new states. Rather than gradual climate impacts like rising sea levels, some systems could shift abruptly and irreversibly.
+
+Prof Tim Lenton defines this concept: "A climate tipping point...is where a small change makes a big difference" causing dramatic shifts rather than incremental adjustments.
+
+THE JENGA ANALOGY:
+Earth's systems work like a game of Jenga. As global temperature gradually increases, blocks are removed and stacked, making the tower increasingly unstable. Eventually, one block removal causes the entire structure to collapse suddenly and irreversibly.
+
+DEFINING TIPPING POINTS:
+The IPCC's sixth assessment report defines tipping points as "a critical threshold beyond which a system reorganises, often abruptly and/or irreversibly."
+
+Two definition categories exist:
+- Systems showing threshold behavior where small changes cause large qualitative shifts
+- Systems with positive feedback mechanisms that reinforce changes and create irreversibility
+
+HYSTERESIS AND IRREVERSIBILITY:
+Once systems cross tipping points, they may not revert to original states even if forcing reverses. The Greenland ice sheet example demonstrates this - removing it would require another ice age to restore.
+
+NINE TIPPING ELEMENTS:
+
+1. ATLANTIC MERIDIONAL OVERTURNING CIRCULATION (AMOC)
+
+The AMOC transports warm tropical water northward via the Gulf Stream and North Atlantic Current, then returns cooler water at depth.
+
+The circulation is self-reinforcing: it brings salty water into high-latitude Atlantic, and the saltiness is maintained by this very circulation.
+
+Current research shows AMOC has weakened approximately 15% since mid-20th century. Potential shutdown could occur at 3-4°C warming, though the IPCC notes "no evidence" of shutdown at 1.5-2°C thresholds.
+
+Impacts: A shutdown would cause widespread Northern Hemisphere cooling, potentially 5°C in some regions, disrupting European agriculture and Atlantic ecosystems.
+
+2. WEST ANTARCTIC ICE SHEET (WAIS)
+
+The WAIS holds ice equivalent to 3.3 meters of global sea level rise. Its vulnerability stems from being marine-based - sitting on bedrock below sea level and exposed to ocean heat.
+
+Ice loss has accelerated significantly. Rates tripled from 53 billion tonnes annually (1992-97) to 159 billion tonnes (2012-2017).
+
+Marine Ice Sheet Instability (MISI): As ice shelves thin, the grounding line retreats into deeper sections with retrograde bedrock slopes, creating self-sustaining collapse.
+
+The Thwaites and Pine Island glaciers show concerning thinning rates of 49 and 45 centimeters yearly respectively.
+
+Prof Frank Pattyn notes potential collapse thresholds lie "between 1.5 and 2°C mean annual air temperature above present" in Antarctic regions.
+
+3. AMAZON RAINFOREST DIEBACK
+
+The Amazon generates approximately half its own rainfall through evapotranspiration.
+
+Three mechanisms could trigger dieback:
+- Reduced rainfall from changing tropical sea surface temperatures
+- Decreased transpiration under elevated CO2
+- Direct deforestation reducing water cycling
+
+Prof Richard Betts suggests 3°C warming represents the lowest threshold.
+
+Prof Carlos Nobre indicates that without global warming, 40% total deforestation could trigger savannah conversion, with 60-70% of Amazon forest transitioning to drier savannah, particularly in southern and northern regions.
+
+4. WEST AFRICAN MONSOON SHIFT
+Abrupt changes in monsoon patterns could dramatically alter rainfall across sub-Saharan Africa, affecting food security and water resources for hundreds of millions of people.
+
+5. PERMAFROST AND METHANE HYDRATES
+Arctic permafrost contains large stores of organic carbon. Warming could trigger decomposition releasing CO2 and methane, creating a self-reinforcing warming feedback loop. Methane hydrates on the ocean floor represent another potential release source.
+
+6. CORAL REEF DIE-OFF
+Coral reefs are highly sensitive to warming and acidification. The IPCC projects 70-90% of coral reefs would be lost at 1.5°C, and more than 99% at 2°C. Coral bleaching events have already become more frequent and severe.
+
+7. INDIAN MONSOON SHIFT
+Disruption of the Indian monsoon system would affect water availability and agriculture across South Asia, potentially affecting billions of people.
+
+8. GREENLAND ICE SHEET DISINTEGRATION
+The Greenland ice sheet contains enough ice to raise global sea levels by approximately 7 meters. Once significantly destabilized, complete melting could become inevitable on centennial timescales.
+
+9. BOREAL FOREST SHIFT
+Northern boreal forests could transition to shrublands or grasslands under warming, releasing stored carbon and altering regional albedo (reflectivity), potentially amplifying warming.
+
+KEY SCIENTIFIC CONTEXT:
+Tipping points were once considered "too alarmist for proper scientific circles" but have "entered the climate change mainstream" since the early 2000s.
+
+Palaeoclimate evidence suggests the WAIS "largely disappeared...in response to warming similar to or less than that projected under business-as-usual scenarios" in past eras.
+
+The IPCC's special reports increasingly use tipping-point language, though significant uncertainties remain about exact thresholds and irreversibility timescales.

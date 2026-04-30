@@ -1,0 +1,26 @@
+- question: "Under the EU CSDDD (Directive 2024/1760), which threshold determines whether a large EU limited liability company is in scope?"
+  options:
+  - "More than 500 employees and more than EUR 150 million global turnover"
+  - "More than 1,000 employees and more than EUR 450 million global turnover"
+  - "More than 250 employees and more than EUR 50 million EU turnover"
+  - "More than 5,000 employees in any single member state"
+  answer: 1
+  explanation: "The CSDDD applies to EU companies with more than 1,000 employees AND more than EUR 450 million net worldwide turnover. Non-EU companies are in scope if they generate more than EUR 450 million net turnover in the EU, regardless of employee count."
+
+- question: "What is the maximum administrative fine that can be imposed on a company for the most serious breaches of the CSDDD?"
+  options:
+  - "EUR 10 million fixed penalty"
+  - "1% of global annual net turnover"
+  - "At least 5% of the company's net worldwide turnover"
+  - "EUR 50 million fixed penalty per violation"
+  answer: 2
+  explanation: "The CSDDD mandates that member states' national supervisory authorities must be able to impose fines capable of reaching at least 5% of the company's net worldwide turnover for the most serious breaches, making the financial stakes proportionate to company size."
+
+- question: "How does the CSDDD's civil liability regime differ from a simple regulatory fine?"
+  options:
+  - "Civil liability is paid to the government, whereas fines go to affected persons"
+  - "Civil liability allows affected persons to sue for damages caused by the company's failure to fulfil its due diligence duty, with the burden of proof on the company"
+  - "Civil liability applies only to non-EU companies, while fines apply to EU companies"
+  - "Civil liability requires criminal intent, while administrative fines require only negligence"
+  answer: 1
+  explanation: "The CSDDD's civil liability regime enables affected persons, supported by trade unions and civil society organisations, to claim damages in national courts where a company's failure to exercise due diligence caused harm. Crucially, the burden of proof rests on the company to demonstrate that it took all due care, reversing the normal requirement for claimants to prove negligence."

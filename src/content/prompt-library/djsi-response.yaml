@@ -1,0 +1,114 @@
+id: djsi-response
+slug: djsi-response
+title: "DJSI / S&P CSA response drafter"
+framework: "S&P Corporate Sustainability Assessment (DJSI)"
+category: "disclosure"
+short_description: "Answer a DJSI Corporate Sustainability Assessment question in the structured format S&P analysts score against."
+description: |
+  S&P Global's CSA (the assessment behind DJSI rankings) scores on both
+  breadth of coverage and specificity of evidence. Boilerplate loses
+  points. This prompt drafts answers in the "policy + process + metric +
+  evidence" structure CSA analysts look for, in a credible corporate voice.
+variables:
+  - key: company_name
+    label: "Company name"
+    placeholder: "Acme Industries Ltd"
+    required: true
+  - key: assessment_year
+    label: "Assessment year"
+    placeholder: "2024"
+    required: true
+  - key: question_id
+    label: "CSA question ID / criterion"
+    placeholder: "e.g. 1.1.1 Materiality, 2.3.5 Human Capital Development, 3.2.1 Climate Strategy"
+    required: true
+  - key: question_text
+    label: "Full question and guidance text"
+    placeholder: "Paste the full CSA question, sub-questions, and any clarification text S&P provides."
+    type: textarea
+    required: true
+  - key: facts
+    label: "Your evidence, policies, and metrics"
+    placeholder: "Internal policy names, board resolutions, KPIs, training hours, audit results, cross-references to annual report page numbers."
+    type: textarea
+    required: true
+prompt: |
+  You are a senior ESG disclosure lead who has led DJSI / S&P CSA
+  submissions for mid-cap and large-cap companies for a decade. You know
+  the scoring rubric: depth of policy, operational coverage, quantified
+  metric, third-party validation, public accessibility.
+
+  COMPANY: {company_name}
+  ASSESSMENT YEAR: {assessment_year}
+  QUESTION: {question_id}
+  QUESTION TEXT:
+  {question_text}
+
+  EVIDENCE THE COMPANY CAN DRAW ON (use only these; do not invent):
+  {facts}
+
+  ---
+
+  DRAFT THE RESPONSE. Follow every rule.
+
+  STRUCTURE (the four blocks CSA analysts look for)
+  1. POLICY. What formal policy, standard, or board-approved commitment
+     addresses this question. Name the document exactly. If it is public,
+     say so and note the section or page.
+  2. PROCESS. How the policy is operationalised day to day. Who owns it,
+     what governance body reviews it, what frequency.
+  3. METRIC. The quantitative indicator the company tracks against the
+     topic, stated with unit, boundary, and reporting period. If third-
+     party assured, name the assurer and the standard (ISAE 3000,
+     ISAE 3410, SSAE 3000).
+  4. EVIDENCE. One specific, dated example that demonstrates the policy
+     and process in action, with a number. This is where most responses
+     lose marks; do not skip it.
+
+  Write each block as 2 to 4 tight sentences. Do not label the blocks in
+  the output. The reader should recognise the structure by pattern, not
+  by heading.
+
+  VOICE
+  5. Third person, corporate, matter-of-fact. The company "operates",
+     "maintains", "reviews", "discloses". Avoid "strives", "endeavours",
+     "is committed to", "aims to" unless followed by a concrete year.
+  6. Past tense for FY{assessment_year} actions, present for ongoing
+     controls, future only with a specific target year.
+  7. Name every framework, standard, and regulation exactly: GRI 2-22,
+     ISO 14001:2015, SBTi 1.5C pathway, TCFD recommendation 2a.
+
+  FORBIDDEN VOCABULARY AND PATTERNS
+  8. Do not use: leverage, robust, journey, world-class, best in class,
+     cutting-edge, holistic, synergies, game-changer, ecosystem,
+     stakeholder-centric, harness, unlock, tapestry, delve.
+  9. No em dashes. No three-item parallel structures. No opening with
+     "As a [industry] company, we recognise the importance of...".
+  10. Do not add a claim unsupported by the facts above. If the company
+     has no policy, the honest answer is "No formal policy exists as of
+     {assessment_year}; the following processes partially cover this
+     topic: ..." — CSA graders reward honesty with partial credit but
+     penalise unsubstantiated claims heavily.
+
+  ACCURACY
+  11. Numbers carry their unit and boundary always (e.g. "17.4 ML
+     freshwater withdrawn across Indian operations, FY{assessment_year}").
+  12. Cite page or section references to the public annual or
+     sustainability report where relevant (e.g. "see Sustainability
+     Report {assessment_year}, p. 42").
+
+  LENGTH
+  13. 220 to 500 words. CSA allows more room than CDP; use it for
+     evidence, not for adjectives.
+
+  OUTPUT
+  14. Plain prose. No headings, no bullets, no preamble, no "Here is the
+     response:" framing.
+
+  Begin.
+---
+notes: |
+  CSA questions vary in depth requirement. Governance and policy
+  questions (1.x series) need heavier POLICY + PROCESS coverage.
+  Environmental metric questions (3.x series) lean on METRIC + EVIDENCE.
+  Tune the facts you paste accordingly.

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sustainability Glossary | Greentryst Academy</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary-fixed-dim": "#8cd4ca",
+                        "on-tertiary-container": "#ffb295",
+                        "secondary-container": "#c9e6e0",
+                        "surface-container-high": "#e6e9e7",
+                        "primary": "#00433d",
+                        "on-surface-variant": "#3f4947",
+                        "on-secondary-fixed": "#05201d",
+                        "surface-container": "#eceeed",
+                        "on-primary": "#ffffff",
+                        "on-primary-container": "#8ad2c8",
+                        "surface-variant": "#e0e3e1",
+                        "surface-container-low": "#f2f4f2",
+                        "secondary-fixed-dim": "#b0ccc7",
+                        "tertiary-fixed-dim": "#ffb599",
+                        "on-tertiary-fixed-variant": "#6e3822",
+                        "on-error-container": "#93000a",
+                        "on-tertiary": "#ffffff",
+                        "outline": "#6f7977",
+                        "on-background": "#191c1c",
+                        "error": "#ba1a1a",
+                        "tertiary": "#5f2c17",
+                        "on-primary-fixed": "#00201d",
+                        "surface-dim": "#d8dbd9",
+                        "on-error": "#ffffff",
+                        "primary-container": "#005c55",
+                        "tertiary-container": "#7b422b",
+                        "surface-tint": "#1a6962",
+                        "error-container": "#ffdad6",
+                        "secondary-fixed": "#cce8e3",
+                        "on-secondary-fixed-variant": "#324b48",
+                        "background": "#f7faf8",
+                        "surface-container-lowest": "#ffffff",
+                        "on-tertiary-fixed": "#370e00",
+                        "on-surface": "#191c1c",
+                        "inverse-primary": "#8cd4ca",
+                        "primary-fixed": "#a7f0e6",
+                        "on-secondary-container": "#4e6864",
+                        "on-secondary": "#ffffff",
+                        "inverse-on-surface": "#eff1f0",
+                        "surface-container-highest": "#e0e3e1",
+                        "secondary": "#496360",
+                        "tertiary-fixed": "#ffdbce",
+                        "surface": "#f7faf8",
+                        "outline-variant": "#bec9c6",
+                        "on-primary-fixed-variant": "#00504a",
+                        "inverse-surface": "#2d3130",
+                        "surface-bright": "#f7faf8"
+                    },
+                    fontFamily: {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7faf8;
+            color: #191c1c;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #00433d 0%, #005c55 100%);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-xl shadow-[0px_20px_40px_rgba(25,28,28,0.06)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto w-full">
+<div class="font-manrope font-extrabold text-primary tracking-tighter text-xl">
+                Greentryst Academy
+            </div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-manrope tracking-tight font-bold text-lg text-primary border-b-2 border-primary pb-1" href="#">Glossary</a>
+<a class="font-manrope tracking-tight font-bold text-lg text-primary/60 hover:text-primary transition-colors" href="#">Courses</a>
+<a class="font-manrope tracking-tight font-bold text-lg text-primary/60 hover:text-primary transition-colors" href="#">Archive</a>
+<a class="font-manrope tracking-tight font-bold text-lg text-primary/60 hover:text-primary transition-colors" href="#">Research</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="font-label font-semibold text-sm text-primary hover:underline underline-offset-4 px-4 py-2 transition-all active:scale-95">Sign In</button>
+<button class="bg-primary text-white font-label font-bold text-sm px-6 py-2.5 rounded-full hover:opacity-90 transition-all active:scale-95">Join Academy</button>
+</div>
+</div>
+</nav>
+<main class="pt-32 pb-24">
+<!-- Hero Header -->
+<header class="max-w-7xl mx-auto px-8 mb-16 text-center">
+<h1 class="font-headline font-extrabold text-5xl md:text-6xl text-primary tracking-tight mb-4">
+                Sustainability Glossary
+            </h1>
+<p class="font-body text-on-surface-variant text-lg max-w-2xl mx-auto">
+                190+ terms across climate science, carbon markets, ESG, and green finance. An authoritative resource for the living archive of modern ecology.
+            </p>
+</header>
+<!-- Search Section -->
+<section class="max-w-3xl mx-auto px-8 mb-12">
+<div class="relative group">
+<div class="absolute inset-y-0 left-6 flex items-center pointer-events-none text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="search">search</span>
+</div>
+<input class="w-full bg-surface-container-low border-none rounded-full py-5 pl-16 pr-8 text-on-surface font-body text-lg focus:ring-2 focus:ring-surface-tint focus:bg-surface-container-lowest shadow-sm transition-all duration-300" placeholder="Search terms..." type="text"/>
+</div>
+</section>
+<!-- Category Filter -->
+<section class="max-w-7xl mx-auto px-8 mb-20 overflow-x-auto scrollbar-hide">
+<div class="flex items-center justify-center gap-3 min-w-max pb-4">
+<button class="px-6 py-2.5 rounded-full bg-primary text-on-primary font-label font-semibold text-sm transition-all hover:shadow-md active:scale-95">
+                    All
+                </button>
+<button class="px-6 py-2.5 rounded-full bg-surface-container-low text-on-surface-variant font-label font-semibold text-sm flex items-center gap-2 hover:bg-surface-container-high transition-all active:scale-95">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                    Climate Science
+                </button>
+<button class="px-6 py-2.5 rounded-full bg-surface-container-low text-on-surface-variant font-label font-semibold text-sm flex items-center gap-2 hover:bg-surface-container-high transition-all active:scale-95">
+<span class="w-2 h-2 rounded-full bg-blue-500"></span>
+                    Carbon Markets
+                </button>
+<button class="px-6 py-2.5 rounded-full bg-surface-container-low text-on-surface-variant font-label font-semibold text-sm flex items-center gap-2 hover:bg-surface-container-high transition-all active:scale-95">
+<span class="w-2 h-2 rounded-full bg-violet-500"></span>
+                    ESG
+                </button>
+<button class="px-6 py-2.5 rounded-full bg-surface-container-low text-on-surface-variant font-label font-semibold text-sm flex items-center gap-2 hover:bg-surface-container-high transition-all active:scale-95">
+<span class="w-2 h-2 rounded-full bg-amber-500"></span>
+                    Green Finance
+                </button>
+<button class="px-6 py-2.5 rounded-full bg-surface-container-low text-on-surface-variant font-label font-semibold text-sm flex items-center gap-2 hover:bg-surface-container-high transition-all active:scale-95">
+<span class="w-2 h-2 rounded-full bg-teal-500"></span>
+                    GHG Protocol
+                </button>
+</div>
+</section>
+<!-- Glossary Grid -->
+<div class="max-w-6xl mx-auto px-8 space-y-20">
+<!-- Alphabetical Section A -->
+<section>
+<div class="flex items-center gap-6 mb-10">
+<h2 class="font-headline font-bold text-4xl text-primary">A</h2>
+<div class="h-[1px] flex-grow bg-surface-container-high"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Additionality -->
+<div class="group bg-surface-container-lowest p-8 rounded-2xl transition-all duration-300 hover:bg-surface-container-low hover:-translate-y-1 hover:shadow-[0px_20px_40px_rgba(25,28,28,0.06)]">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline font-bold text-2xl text-primary-container">Additionality</h3>
+<span class="px-3 py-1 bg-blue-50 text-blue-700 text-[10px] font-bold uppercase tracking-wider rounded-full">Carbon Markets</span>
+</div>
+<p class="font-body text-on-surface-variant leading-relaxed mb-6">
+                            A criterion in carbon finance which requires that a project's greenhouse gas emissions reductions would not have occurred without the incentive provided by carbon credit revenues.
+                        </p>
+<div class="flex flex-wrap gap-4 text-sm font-label">
+<span class="text-on-surface-variant/60">Related:</span>
+<a class="text-primary font-semibold hover:underline decoration-primary-fixed underline-offset-4" href="#">Carbon Credit</a>
+<a class="text-primary font-semibold hover:underline decoration-primary-fixed underline-offset-4" href="#">VCM</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Alphabetical Section C -->
+<section>
+<div class="flex items-center gap-6 mb-10">
+<h2 class="font-headline font-bold text-4xl text-primary">C</h2>
+<div class="h-[1px] flex-grow bg-surface-container-high"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Carbon Credit -->
+<div class="group bg-surface-container-lowest p-8 rounded-2xl transition-all duration-300 hover:bg-surface-container-low hover:-translate-y-1 hover:shadow-[0px_20px_40px_rgba(25,28,28,0.06)]">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline font-bold text-2xl text-primary-container">Carbon Credit</h3>
+<span class="px-3 py-1 bg-blue-50 text-blue-700 text-[10px] font-bold uppercase tracking-wider rounded-full">Carbon Markets</span>
+</div>
+<p class="font-body text-on-surface-variant leading-relaxed mb-6">
+                            A tradeable permit or certificate that provides the holder of the credit the right to emit one ton of carbon dioxide or an equivalent amount of another greenhouse gas.
+                        </p>
+<div class="flex flex-wrap gap-4 text-sm font-label">
+<span class="text-on-surface-variant/60">Related:</span>
+<a class="text-primary font-semibold hover:underline decoration-primary-fixed underline-offset-4" href="#">Emissions Trading</a>
+<a class="text-primary font-semibold hover:underline decoration-primary-fixed underline-offset-4" href="#">Offsetting</a>
+</div>
+</div>
+<!-- Corresponding Adjustment -->
+<div class="group bg-surface-container-lowest p-8 rounded-2xl transition-all duration-300 hover:bg-surface-container-low hover:-translate-y-1 hover:shadow-[0px_20px_40px_rgba(25,28,28,0.06)]">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline font-bold text-2xl text-primary-container">Corresponding Adjustment</h3>
+<span class="px-3 py-1 bg-teal-50 text-teal-700 text-[10px] font-bold uppercase tracking-wider rounded-full">GHG Protocol</span>
+</div>
+<p class="font-body text-on-surface-variant leading-relaxed mb-6">
+                            An accounting mechanism under Article 6 of the Paris Agreement that prevents double counting of emission reductions by adjusting the national GHG inventories.
+                        </p>
+<div class="flex flex-wrap gap-4 text-sm font-label">
+<span class="text-on-surface-variant/60">Related:</span>
+<a class="text-primary font-semibold hover:underline decoration-primary-fixed underline-offset-4" href="#">Article 6</a>
+<a class="text-primary font-semibold hover:underline decoration-primary-fixed underline-offset-4" href="#">ITMO</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Alphabetical Section I -->
+<section>
+<div class="flex items-center gap-6 mb-10">
+<h2 class="font-headline font-bold text-4xl text-primary">I</h2>
+<div class="h-[1px] flex-grow bg-surface-container-high"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- ITMO -->
+<div class="group bg-surface-container-lowest p-8 rounded-2xl transition-all duration-300 hover:bg-surface-container-low hover:-translate-y-1 hover:shadow-[0px_20px_40px_rgba(25,28,28,0.06)]">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline font-bold text-2xl text-primary-container">ITMO</h3>
+<span class="px-3 py-1 bg-emerald-50 text-emerald-700 text-[10px] font-bold uppercase tracking-wider rounded-full">Climate Science</span>
+</div>
+<p class="font-body text-on-surface-variant leading-relaxed mb-6">
+                            Internationally Transferred Mitigation Outcomes. These units represent carbon credits that are traded internationally under the Paris Agreement framework.
+                        </p>
+<div class="flex flex-wrap gap-4 text-sm font-label">
+<span class="text-on-surface-variant/60">Related:</span>
+<a class="text-primary font-semibold hover:underline decoration-primary-fixed underline-offset-4" href="#">Paris Agreement</a>
+<a class="text-primary font-semibold hover:underline decoration-primary-fixed underline-offset-4" href="#">NDCs</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Alphabetical Section N -->
+<section>
+<div class="flex items-center gap-6 mb-10">
+<h2 class="font-headline font-bold text-4xl text-primary">N</h2>
+<div class="h-[1px] flex-grow bg-surface-container-high"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- NDC -->
+<div class="group bg-surface-container-lowest p-8 rounded-2xl transition-all duration-300 hover:bg-surface-container-low hover:-translate-y-1 hover:shadow-[0px_20px_40px_rgba(25,28,28,0.06)]">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline font-bold text-2xl text-primary-container">NDC</h3>
+<span class="px-3 py-1 bg-emerald-50 text-emerald-700 text-[10px] font-bold uppercase tracking-wider rounded-full">Climate Science</span>
+</div>
+<p class="font-body text-on-surface-variant leading-relaxed mb-6">
+                            Nationally Determined Contributions. These are climate action plans to cut emissions and adapt to climate impacts, updated every five years by each party to the Paris Agreement.
+                        </p>
+<div class="flex flex-wrap gap-4 text-sm font-label">
+<span class="text-on-surface-variant/60">Related:</span>
+<a class="text-primary font-semibold hover:underline decoration-primary-fixed underline-offset-4" href="#">Kyoto Protocol</a>
+<a class="text-primary font-semibold hover:underline decoration-primary-fixed underline-offset-4" href="#">Mitigation</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Alphabetical Section S -->
+<section>
+<div class="flex items-center gap-6 mb-10">
+<h2 class="font-headline font-bold text-4xl text-primary">S</h2>
+<div class="h-[1px] flex-grow bg-surface-container-high"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Scope 1 Emissions -->
+<div class="group bg-surface-container-lowest p-8 rounded-2xl transition-all duration-300 hover:bg-surface-container-low hover:-translate-y-1 hover:shadow-[0px_20px_40px_rgba(25,28,28,0.06)]">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline font-bold text-2xl text-primary-container">Scope 1 Emissions</h3>
+<span class="px-3 py-1 bg-teal-50 text-teal-700 text-[10px] font-bold uppercase tracking-wider rounded-full">GHG Protocol</span>
+</div>
+<p class="font-body text-on-surface-variant leading-relaxed mb-6">
+                            Direct greenhouse gas emissions that occur from sources that are owned or controlled by an organization, such as emissions from combustion in owned boilers or vehicles.
+                        </p>
+<div class="flex flex-wrap gap-4 text-sm font-label">
+<span class="text-on-surface-variant/60">Related:</span>
+<a class="text-primary font-semibold hover:underline decoration-primary-fixed underline-offset-4" href="#">Scope 2</a>
+<a class="text-primary font-semibold hover:underline decoration-primary-fixed underline-offset-4" href="#">Scope 3</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Call to Action Section -->
+<section class="max-w-7xl mx-auto px-8 mb-24">
+<div class="hero-gradient rounded-3xl p-12 md:p-20 text-center text-on-primary shadow-2xl overflow-hidden relative">
+<div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
+<h2 class="font-headline font-extrabold text-4xl mb-6 relative z-10">Can't find a specific term?</h2>
+<p class="font-body text-primary-fixed text-lg max-w-xl mx-auto mb-10 relative z-10 opacity-90">
+                Our academic methodology involves continuous updates. Suggest a new term to be researched and added to the Archive.
+            </p>
+<button class="bg-surface-container-lowest text-primary font-label font-bold py-4 px-10 rounded-full hover:bg-primary-fixed transition-all active:scale-95 relative z-10">
+                Submit Research Request
+            </button>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-emerald-50 dark:bg-emerald-950 w-full pt-20 pb-10">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-1">
+<div class="font-manrope font-bold text-xl text-emerald-900 dark:text-emerald-100 mb-6">
+                    Greentryst Academy
+                </div>
+<p class="font-inter text-sm leading-relaxed text-emerald-700/70 dark:text-emerald-300/70">
+                    Advancing global sustainability literacy through rigorous academic research and accessible knowledge frameworks.
+                </p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-manrope font-bold text-emerald-800 dark:text-emerald-200 uppercase tracking-widest text-xs">Resources</h4>
+<a class="font-inter text-sm text-emerald-700/70 dark:text-emerald-300/70 hover:text-emerald-900 underline decoration-emerald-700/30 underline-offset-4 transition-all" href="#">Academic Integrity</a>
+<a class="font-inter text-sm text-emerald-700/70 dark:text-emerald-300/70 hover:text-emerald-900 underline decoration-emerald-700/30 underline-offset-4 transition-all" href="#">Research Methodology</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-manrope font-bold text-emerald-800 dark:text-emerald-200 uppercase tracking-widest text-xs">Academy</h4>
+<a class="font-inter text-sm text-emerald-700/70 dark:text-emerald-300/70 hover:text-emerald-900 underline decoration-emerald-700/30 underline-offset-4 transition-all" href="#">Sustainability Charter</a>
+<a class="font-inter text-sm text-emerald-700/70 dark:text-emerald-300/70 hover:text-emerald-900 underline decoration-emerald-700/30 underline-offset-4 transition-all" href="#">Privacy Policy</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-manrope font-bold text-emerald-800 dark:text-emerald-200 uppercase tracking-widest text-xs">Support</h4>
+<a class="font-inter text-sm text-emerald-700/70 dark:text-emerald-300/70 hover:text-emerald-900 underline decoration-emerald-700/30 underline-offset-4 transition-all" href="#">Contact Dean</a>
+<a class="font-inter text-sm text-emerald-700/70 dark:text-emerald-300/70 hover:text-emerald-900 underline decoration-emerald-700/30 underline-offset-4 transition-all" href="#">Archive Access</a>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 mt-16 pt-8 border-t border-emerald-900/10 text-center">
+<p class="font-inter text-xs text-emerald-700/60 dark:text-emerald-300/60">
+                © 2024 Greentryst Sustainability Academy. Part of The Living Archive project. All rights reserved.
+            </p>
+</div>
+</footer>
+</body></html>

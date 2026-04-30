@@ -1,0 +1,151 @@
+{/* source: GHG Protocol Scope 2 Guidance, Chapters 1-2 (pp. 4-19), Chapter 4 (pp. 24-31), Chapter 5 (pp. 32-41) */}
+
+Scope 2 is the electricity your company buys. For most service-sector companies - tech firms, banks, retailers, consulting firms - this is the biggest emissions category in their inventory. Unlike Scope 1, where you need to track every boiler and vehicle, Scope 2 starts with something simple: your electricity bills.
+
+But "simple" does not mean "straightforward." The GHG Protocol requires up to two different numbers for the same electricity consumption, and getting the boundary wrong is one of the most common mistakes in corporate inventories. This lesson covers what counts, what does not, and the dual reporting rule that trips up most first-time reporters.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-1-2/2_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## What Counts as Scope 2
+
+Scope 2 covers the indirect GHG emissions from generating purchased or acquired energy that your company consumes. Four types of energy qualify:
+
+- **Electricity** - the big one. Lighting, data centers, HVAC, production lines, EV charging
+- **Steam** - purchased from a district energy system or industrial supplier
+- **Heat** - purchased hot water or thermal energy for space heating or industrial processes
+- **Cooling** - purchased chilled water or cooling from a district cooling network
+
+The key word is "purchased." The energy must come from a source outside your organizational boundary and be consumed within it.
+
+<HighlightBox>
+Scope 2 covers purchased and consumed electricity, steam, heat, and cooling. The emissions happen at the generation source - the power plant, the boiler house, the chiller - not at your office. If your company generates electricity on-site in equipment it owns or controls, that is Scope 1, not Scope 2.
+</HighlightBox>
+
+## What Does NOT Count as Scope 2
+
+Three exclusions catch people out regularly:
+
+**On-site generation consumed on-site.** Your rooftop solar panels powering your own building? Scope 1 (with zero CO2 emissions, since it is solar). Not Scope 2. Including it in both scopes would be double counting within a single inventory.
+
+**Captive power plants** are a common source of confusion. If your company owns a captive generator that produces electricity for your own facilities, the generation emissions are Scope 1 - you own the source. But for thermal power companies in the business of producing electricity, they also consume some of their own output. The production emissions go into Scope 1; their own consumption of that electricity goes into Scope 2 because it flows out to the grid and comes back through net billing.
+
+**Electricity purchased for resale.** If you buy power and sell it to a third party, that is not "consumed by the reporting company." It belongs in your customer's Scope 2, not yours. Including resold energy inflates your number.
+
+**Electricity sold back to the grid.** If you have on-site generation and export surplus to the grid, use gross purchases from the grid for your Scope 2 calculation - not the net figure after exports. Net metering on your utility bill is a billing convention, not your actual consumption.
+
+<AnalogyBox>
+Think of Scope 2 like a restaurant's water bill. You report what the municipal supply delivered to your kitchen - not what your private well pumped (that is your own resource, like Scope 1), and not what you bottled and sold to customers (that is their consumption, not yours).
+</AnalogyBox>
+
+## Location-Based vs Market-Based: Two Numbers, One Reality
+
+Here is where Scope 2 gets interesting. The GHG Protocol requires two different methods for calculating the same electricity consumption, and they can give wildly different results.
+
+**Location-based method** uses the average emission factor of the grid where your facility operates. It answers: "How carbon-intensive is the grid serving our offices?"
+
+It does not care what you bought contractually. It reflects the physical reality of what power plants are running in your region. If you sit on a coal-heavy grid, your location-based number will be high - even if you bought wind RECs.
+
+**Market-based method** uses the emission factor from what you contractually purchased. It answers: "What did our procurement decisions actually do to our reported emissions?"
+
+This reflects your choices: Did you buy renewable energy certificates? Sign a power purchase agreement with a solar farm? Choose a green tariff from your utility? Those decisions show up here.
+
+<ResponsiveTable>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Location-Based</th>
+<th>Market-Based</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>What it measures</td>
+<td>GHG intensity of the grid where you operate</td>
+<td>Impact of your procurement choices</td>
+</tr>
+<tr>
+<td>Emission factor source</td>
+<td>Grid average (regional or national)</td>
+<td>Certificates, contracts, supplier rates, or residual mix</td>
+</tr>
+<tr>
+<td>Most useful for</td>
+<td>Comparing facility locations, assessing physical grid risk</td>
+<td>Demonstrating renewable energy procurement, tracking PPA impact</td>
+</tr>
+<tr>
+<td>What it ignores</td>
+<td>Your renewable energy purchases</td>
+<td>The actual grid intensity where you sit</td>
+</tr>
+<tr>
+<td>Applies to</td>
+<td>All grids globally</td>
+<td>Markets with contractual instruments (RECs, GOs, I-RECs, PPAs)</td>
+</tr>
+</tbody>
+</table>
+</ResponsiveTable>
+
+## The Dual Reporting Rule
+
+This is not optional. If contractual instruments - RECs, Guarantees of Origin, I-RECs, supplier-specific emission factors - exist in ANY market where your company operates, you must report both a location-based and a market-based Scope 2 total for your entire inventory.
+
+Even if only one of your fifty offices is in a market with certificates, the rule applies to the whole company. For operations in markets without contractual instruments, you use the location-based figure for both columns.
+
+The two totals must never be added together or netted. Each represents a separate way of allocating emissions, and combining them produces a meaningless hybrid.
+
+<ExampleBox>
+**Example: Wind PPA - same facility, two results**
+
+A manufacturer operates a facility in a coal-heavy grid region with a grid average emission factor of 0.75 tCO2e/MWh. The facility consumes 10,000 MWh per year.
+
+**Location-based Scope 2:** 10,000 MWh x 0.75 = **7,500 tCO2e**
+
+The manufacturer signs a PPA with a wind farm and retains the energy attribute certificates. The certificates carry an emission factor of 0 tCO2e/MWh.
+
+**Market-based Scope 2:** 10,000 MWh x 0 = **0 tCO2e**
+
+Both numbers go in the report. The location-based result shows the facility still sits on a dirty grid. The market-based result shows the procurement decision eliminated the company's contractual emissions.
+</ExampleBox>
+
+## The REC Sales Trap
+
+This catches companies with rooftop solar every single time. Here is the rule:
+
+If you install solar panels on your roof but sell the RECs (or I-RECs) from that generation to someone else, you cannot claim that solar electricity as zero-emission for your own Scope 2. You have transferred the environmental attributes to the buyer. For your own inventory, you must treat that on-site solar consumption as if it came from the grid - using the grid average emission factor (location-based) or the residual mix (market-based).
+
+You cannot have it both ways. Either you keep the certificates and claim the clean energy, or you sell the certificates and lose the claim.
+
+## Indian Context: CEA Grid Emission Factors
+
+If you are working with Indian companies - and increasingly, consultants are - here is what you need to know.
+
+The Central Electricity Authority (CEA) publishes India's grid emission factor annually in its "CO2 Baseline Database" report. For 2023-24, the weighted average emission factor for the Indian grid is approximately **0.713 tCO2/MWh** (combined margin). This is the number you use for location-based Scope 2 calculations for any facility connected to the Indian grid.
+
+Where to find it: search for "CEA CO2 Baseline Database" on the CEA website (cea.nic.in). The report provides both operating margin and build margin factors, but for Scope 2 inventory purposes, you typically use the weighted average (combined margin) grid emission factor.
+
+**Do Indian companies need market-based reporting?** India has an active I-REC market, and many large companies now buy I-RECs or sign solar/wind PPAs with open-access power producers. If your client has done either, they must report both methods. If they have not purchased any contractual instruments, they can report location-based only - but should be aware that as India's I-REC market matures, dual reporting will become standard practice.
+
+<HighlightBox>
+**Practitioner Tip: Dual Reporting Is Required but Rarely Done**
+
+I-RECs are now common in India - companies actively purchase and retire them for market-based claims. However, most companies do not present both location-based and market-based figures side by side in their reports, even though the GHG Protocol requires it. This is an awareness gap rather than a deliberate choice, and it matters: without both numbers, stakeholders cannot distinguish between actual grid decarbonisation and certificate-based claims. The location-based figure shows what physically happened on the grid; the market-based figure shows what was contractually claimed. Expect this gap to close as BRSR and other frameworks push for more rigorous Scope 2 disclosure.
+</HighlightBox>
+
+<HighlightBox>
+**Common mistakes that will get flagged in verification:**
+
+1. **Using net metering instead of gross purchases.** Your electricity bill may show net consumption after solar exports. For Scope 2, you need gross purchases from the grid.
+
+2. **Confusing captive power with Scope 2.** A diesel genset or captive coal plant on your premises is Scope 1, not Scope 2 - even if a third party operates it under your control.
+
+3. **Not reporting both methods.** If your company operates anywhere with RECs, GOs, or I-RECs, you owe two numbers. Reporting only location-based is non-conformant.
+
+4. **Selling RECs and claiming zero emissions.** If you sold the certificates from your rooftop solar, you sold the claim. Your on-site solar consumption gets grid-average treatment.
+
+5. **Using the wrong grid factor.** In India, use CEA's published factor, not an outdated IEA number. In the US, use EPA eGRID subregional factors, not a national average.
+</HighlightBox>
+
+<KeyTakeaways items="Scope 2 covers indirect emissions from purchased electricity, steam, heat, and cooling - for most service-sector companies, this is their largest emissions category ;; The GHG Protocol requires dual reporting (location-based and market-based) if contractual instruments exist in any market where the company operates ;; Location-based uses grid average emission factors reflecting physical reality; market-based reflects your procurement decisions (RECs, PPAs, green tariffs) ;; If you sell RECs from your rooftop solar, you cannot claim that generation as zero-emission - the environmental attributes transfer to the buyer ;; In India, use the CEA CO2 Baseline Database grid emission factor (approximately 0.713 tCO2/MWh) for location-based Scope 2 calculations ;; Use gross electricity purchases from the grid for Scope 2 calculations, not net metering figures - net metering is a billing convention, not actual consumption" />

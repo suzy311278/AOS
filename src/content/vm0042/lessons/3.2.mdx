@@ -1,0 +1,156 @@
+{/* 3.2: Measuring SOC in the Field */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/vm0042/3_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Measuring SOC in the Field
+<HighlightBox>
+  <p class="font-semibold text-green-800">The physical heart of VM0042</p>
+  <p class="text-green-900 mt-1">Whether you use Approach 1 or 2, measuring SOC stocks accurately is fundamental to your project's credibility and credit count. This lesson explains how it's done, from sampling design to the lab to the final calculation.</p>
+</HighlightBox>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">What Field Sampling Looks Like in Practice</p>
+  <p class="mt-2 text-sm">On a 5,000 ha conservation agriculture project in Zambia, field teams drive to GPS-marked sampling points in each stratum. Each team pushes a 5 cm diameter steel corer 30 cm into the ground, collects the soil core, removes any stones or roots, and places the soil into a labelled bag. Five cores per plot are typically composited into one sample. The sample is weighed wet, dried for 24 hours at 105°C, then weighed again (to get dry mass and bulk density). The dried sample is then shipped to an ISO 17025 accredited laboratory in Lusaka for organic carbon analysis by dry combustion. This physical process underlies every SOC stock number that appears in the final credit calculation.</p>
+</ExampleBox>
+
+### SOC Stock Formula
+
+<EquationBreakdown
+  title="SOC Stock Formula"
+  result="SOC stock | SOC Stock | Total soil organic carbon per hectare, measured in tC/ha | blue"
+  inputs="OC | OC Concentration | Organic carbon concentration in the dry soil, measured in g/kg (from lab analysis via dry combustion) | green ;; BD | Bulk Density | Mass of dry soil per unit volume, measured in g/cm³ (from field core samples, oven-dried in lab) | amber ;; D | Depth | Thickness of the soil layer being measured, in cm (minimum 30 cm, 50 cm recommended) | violet ;; 0.1 | Unit Conversion | Converts g/kg x g/cm³ x cm into tonnes per hectare | rose"
+/>
+
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th>Variable</th><th>What It Is</th><th>How Measured</th></tr>
+  <tr><td><strong>Organic Carbon (OC) concentration</strong></td><td>% carbon in the dry soil</td><td>Lab analysis (dry combustion / Dumas method preferred)</td></tr>
+  <tr><td><strong>Bulk density (BD)</strong></td><td>Mass of dry soil per unit volume (g/cm³)</td><td>Core, excavation, or clod method in field; oven-dry in lab</td></tr>
+  <tr><td><strong>Depth</strong></td><td>Soil layer being measured</td><td>Minimum 30 cm; 50 cm recommended</td></tr>
+</table>
+</ResponsiveTable>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Worked Example: Calculating SOC Stock</p>
+  <p class="mt-2 text-sm">A soil core from a 0-30 cm layer:</p>
+  <ul class="mt-2 text-sm space-y-1">
+    <li>OC concentration = 1.8% = 18 g/kg</li>
+    <li>Bulk density = 1.35 g/cm³</li>
+    <li>Depth = 30 cm</li>
+  </ul>
+  <FormulaBox>
+    SOC stock = 18 g/kg x 1.35 g/cm³ x 30 cm x 0.1 = <strong>72.9 tC/ha</strong>
+  </FormulaBox>
+  <p class="mt-2 text-sm">Converting to CO₂e: 72.9 x (44/12) = <strong>267 tCO₂e/ha</strong></p>
+</ExampleBox>
+
+### Sampling Design: Stratified Random Sampling
+<p class="mb-3 text-sm">VM0042 requires <strong>stratified random sampling</strong>. Each quantification unit must be divided into strata based on factors that influence SOC distribution (soil texture, slope, historical land use, management history).</p>
+<ul class="list-disc ml-6 text-sm space-y-2 mb-4">
+  <li>Randomly allocate sampling points within each stratum</li>
+  <li>At least 3-5 composite samples per stratum</li>
+  <li>Record GPS coordinates of all sampling points</li>
+  <li>Re-sample the same locations (or same strata) at each verification event</li>
+  <li>Conduct sampling during the same season year-over-year</li>
+</ul>
+
+<DeepDive title="Why stratified random sampling? A plain-language walkthrough">
+  <p class="text-sm mb-3">Imagine you need to measure the average carbon content across a 2,000 hectare farm. You <em>could</em> randomly scatter 30 sampling points across the entire farm -but that would be like surveying voter preferences by randomly calling people across a whole country. You'd probably miss important subgroups.</p>
+
+  <p class="font-semibold text-sm mt-4 mb-2">The core idea: divide, then randomly sample within each division</p>
+  <p class="text-sm mb-3"><strong>Stratification</strong> means splitting your project area into zones (strata) where you expect soil carbon to behave similarly. VM0042 tells you to stratify by factors that actually drive SOC differences:</p>
+  <ul class="list-disc ml-6 text-sm space-y-1 mb-4">
+    <li><strong>Soil texture</strong> -clay soils hold more carbon than sandy soils</li>
+    <li><strong>Slope &amp; topography</strong> -hilltops erode carbon, valleys accumulate it</li>
+    <li><strong>Historical land use</strong> -a field cropped for 50 years has very different SOC than one that was pasture</li>
+    <li><strong>Current management</strong> -irrigated vs. rainfed, tilled vs. no-till</li>
+  </ul>
+
+  <p class="font-semibold text-sm mt-4 mb-2">Step-by-step: how a real project does it</p>
+  <ol class="list-decimal ml-6 text-sm space-y-2 mb-4">
+    <li><strong>Map your strata.</strong> Use soil maps, satellite imagery, and farmer records to draw boundaries. Example: Stratum A = sandy loam, rainfed, previously tilled. Stratum B = clay loam, irrigated, previously pasture.</li>
+    <li><strong>Randomly place sampling points within each stratum.</strong> This is the "random" part -you don't pick convenient locations. Use a random number generator to assign GPS coordinates inside each stratum boundary.</li>
+    <li><strong>Collect enough samples per stratum.</strong> VM0042 requires enough samples to achieve a desired confidence level (typically 90% confidence that the mean is within ±10-20% of the true value). In practice this means 3-5 composite samples per stratum for most projects, more for highly variable soils.</li>
+    <li><strong>Weight the results by stratum area.</strong> If Stratum A covers 1,200 ha and Stratum B covers 800 ha, the farm-level average SOC is: (Mean SOC_A x 1200 + Mean SOC_B x 800) / 2000.</li>
+  </ol>
+
+  <p class="font-semibold text-sm mt-4 mb-2">Why not just pure random sampling?</p>
+  <p class="text-sm mb-3">Pure random sampling treats the whole farm as one uniform block. If your farm has both sandy hilltops (low SOC) and clay bottomlands (high SOC), random points might cluster in one zone by chance, giving a biased estimate. Stratification <strong>guarantees</strong> that each soil type is represented proportionally, which:</p>
+  <ul class="list-disc ml-6 text-sm space-y-1 mb-3">
+    <li><strong>Reduces variance</strong> -tighter confidence intervals with the same number of samples</li>
+    <li><strong>Lowers cost</strong> -you need fewer total samples to reach the same precision</li>
+    <li><strong>Makes auditors happy</strong> -the methodology explicitly requires it, so skipping stratification is a non-conformance finding</li>
+  </ul>
+
+  <p class="font-semibold text-sm mt-4 mb-2">Common pitfall: confusing strata with quantification units</p>
+  <p class="text-sm">A <strong>quantification unit (QU)</strong> is a group of fields using the same practices and the same quantification approach. <strong>Strata</strong> are subdivisions <em>within</em> a QU based on soil/landscape properties. One QU can contain multiple strata. Think of it as: QU = "what practice is being applied," strata = "what the land looks like underneath."</p>
+</DeepDive>
+
+### Equivalent Soil Mass (ESM), Critical Concept
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">Analogy: Comparing Cakes</p>
+  <p class="mt-1 text-sm text-blue-900">Imagine comparing the sugar content of two cakes: a fluffy cake (low density) and a dense cake. If you take a 3-cm slice from each, the dense cake has more sugar simply because there's more cake in that slice, not because it's sweeter. <strong>ESM</strong> is like saying "compare equal weights of cake" instead of "equal thicknesses." In soil terms, compare the same mass of soil, not the same depth, to avoid bias from bulk density changes over time.</p>
+</AnalogyBox>
+<p class="text-sm mb-3">When no-till is adopted, surface soil bulk density often increases slightly. If you compare SOC to 30 cm depth in both baseline and project, you're comparing different soil masses, unfair comparison. ESM corrects for this.</p>
+<p class="text-sm mb-4 font-medium">VM0042 requires SOC stock changes to be reported on an Equivalent Soil Mass (ESM) basis.</p>
+
+### ESM Calculation, Step by Step
+<p class="text-sm mb-3">The ESM method works by choosing a <strong>reference soil mass</strong> (usually the baseline soil mass to a standard depth) and then computing how thick a layer you'd need to sample in the project scenario to capture that exact same mass of soil.</p>
+
+<EquationBreakdown
+  title="ESM Step 1 - Reference Soil Mass (Baseline)"
+  result="M<sub>ref</sub> | Reference Mass | The total mass of soil per unit area at the baseline, used as the fixed reference for fair comparison, in g/m² | blue"
+  inputs="BD<sub>baseline</sub> | Baseline Bulk Density | Bulk density of the soil at baseline (before practice change), in g/cm³ | green ;; D<sub>std</sub> | Standard Depth | The standard sampling depth used at baseline (e.g. 30 cm) | amber ;; 10,000 | Unit Conversion | Converts g/cm³ x cm into g/m² | rose"
+/>
+
+<EquationBreakdown
+  title="ESM Step 2 - Equivalent Depth in Project Scenario"
+  result="D<sub>ESM</sub> | Equivalent Depth | The depth you would need to sample in the project scenario to capture the same soil mass as the baseline, in cm | blue"
+  inputs="M<sub>ref</sub> | Reference Mass | The fixed baseline soil mass per unit area from Step 1, in g/m² | green ;; BD<sub>project</sub> x 10,000 | Project Mass per cm | Project bulk density converted to g/m² per cm of depth | amber"
+  operator="÷"
+/>
+
+<EquationBreakdown
+  title="ESM Step 3 - ESM-Corrected SOC Stock (Project)"
+  result="SOC<sub>ESM</sub> | ESM-Corrected SOC | The fair-comparison SOC stock in the project scenario, adjusted for bulk density changes, in tC/ha | blue"
+  inputs="OC<sub>project</sub>% | Project OC Concentration | Organic carbon percentage measured in the project soil | green ;; BD<sub>project</sub> | Project Bulk Density | Bulk density after practice change, in g/cm³ | amber ;; D<sub>ESM</sub> | Equivalent Depth | The adjusted sampling depth from Step 2, in cm | violet ;; 10,000 | Unit Conversion | Converts to tC/ha units | rose"
+/>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">ESM Worked Example</p>
+  <ResponsiveTable>
+<table class="mt-2 text-sm">
+    <tr><th>Parameter</th><th>Baseline (Year 0)</th><th>Project (Year 5)</th></tr>
+    <tr><td>OC concentration</td><td>1.8%</td><td>2.1%</td></tr>
+    <tr><td>Bulk density (BD)</td><td>1.30 g/cm³</td><td>1.25 g/cm³</td></tr>
+    <tr><td>Sample depth (standard)</td><td>30 cm</td><td>30 cm</td></tr>
+  </table>
+</ResponsiveTable>
+  <div class="mt-3 text-sm space-y-1">
+    <p><strong>Step 1:</strong> Calculate reference mass: M<sub>ref</sub> = 1.30 x 30 x 10,000 = <strong>390,000 g/m² = 3,900 t/ha</strong></p>
+    <p><strong>Step 2:</strong> Calculate ESM-equivalent depth in project: D<sub>ESM</sub> = 390,000 / (1.25 x 10,000) = <strong>31.2 cm</strong></p>
+    <p><strong>Step 3:</strong> SOC stock at 30 cm (naive): 2.1% x 1.25 x 30 x 10,000 / 100 = <strong>78.75 tC/ha</strong></p>
+    <p><strong>Step 4:</strong> SOC stock on ESM basis: 2.1% x 1.25 x 31.2 x 10,000 / 100 = <strong>81.9 tC/ha</strong></p>
+    <p><strong>Baseline SOC:</strong> 1.8% x 1.30 x 30 x 10,000 / 100 = <strong>70.2 tC/ha</strong></p>
+    <p class="text-green-700 font-semibold mt-1">SOC gain (ESM-corrected): 81.9 - 70.2 = <strong>+11.7 tC/ha</strong> = <strong>42.9 tCO₂e/ha</strong></p>
+    <p class="text-gray-600 mt-1 text-xs">Without ESM correction, naive gain = 78.75 - 70.2 = 8.55 tC/ha, <em>underestimates</em> the gain because the lower bulk density means a 30 cm sample contains less soil mass than the baseline. ESM gives the fair comparison.</p>
+  </div>
+</ExampleBox>
+<div class="bg-amber-50 border border-amber-200 rounded p-3 mb-4 text-sm">
+  <p class="font-semibold text-amber-800">Coarse Fragment Correction</p>
+  <p class="mt-1 text-amber-900">Particles >2 mm (gravel, stones) have essentially zero organic carbon. If your soil has significant coarse fragments, you must correct:</p>
+  <p class="font-mono text-xs bg-amber-100 p-2 rounded mt-2">SOC<sub>corrected</sub> = SOC<sub>fine</sub> x (1 - CF<sub>vol</sub>)</p>
+  <p class="mt-1 text-amber-800">Where CF<sub>vol</sub> = volumetric proportion of coarse fragments (e.g., 0.15 for a rocky soil with 15% gravel). This prevents overestimating soil mass available for carbon storage.</p>
+</div>
+
+### Soil Sample Collection, Key Rules
+<ul class="list-disc ml-6 text-sm space-y-2 mb-4">
+  <li>Use standard corers with known diameter (record diameter for area calculation)</li>
+  <li>Remove all surface organic material (living plants, fresh residues) before sampling</li>
+  <li>Exclude particles >2 mm (gravel, stones), these don't contribute to SOC</li>
+  <li>Ship samples within 5 days; store refrigerated (not frozen) before analysis</li>
+  <li>Lab should be ISO/IEC 17025 accredited where possible</li>
+  <li>Use dry combustion (Dumas method) as the primary SOC analysis method</li>
+  <li>Infrared spectroscopy (NIR/MIR) and LIBS can supplement but not replace combustion</li>
+</ul>
+<KeyTakeaways items="SOC stock = OC concentration x Bulk density x Depth x 0.1, yielding tonnes of carbon per hectare (tC/ha) ;; Stratified random sampling is required - divide the project area into strata by soil texture, slope, and land use history, then randomly sample within each ;; Equivalent Soil Mass (ESM) correction is mandatory to ensure fair comparison when bulk density changes between baseline and project ;; Dry combustion (Dumas method) is the gold standard lab analysis method - spectroscopy can supplement but not replace it for direct crediting ;; Minimum sampling depth is 30 cm but 50 cm is recommended - sample the same locations and the same season at each verification event" />

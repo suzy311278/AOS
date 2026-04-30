@@ -1,0 +1,44 @@
+- question: "According to GSIA data, what was the total value of sustainable investing assets across the five major markets at the start of 2018?"
+  options:
+    - "US$13.3 trillion"
+    - "US$22.9 trillion"
+    - "US$30.7 trillion"
+    - "US$45.2 trillion"
+  answer: 2
+  explanation: "GSIA data shows that sustainable investing assets in the five major markets (Europe, USA, Japan, Canada, and Australia/New Zealand) stood at US$30.7 trillion at the start of 2018, a 34% increase from US$22.9 trillion in 2016."
+
+- question: "In the GSIA 2018 data, which two regions account for the largest shares of global sustainable investment assets?"
+  options:
+    - "USA (55%) and Japan (25%)"
+    - "Europe (46%) and USA (39%)"
+    - "Europe (60%) and Canada (20%)"
+    - "USA (50%) and Australia/New Zealand (30%)"
+  answer: 1
+  explanation: "Europe (46%) and the USA (39%) together account for approximately 85% of global ESG assets in the GSIA's five-market survey. Japan grew rapidly but from a very small base."
+
+- question: "Which of the following correctly describes the trend in ESG assets as a proportion of total professionally managed assets in Europe between 2014 and 2018?"
+  options:
+    - "It increased steadily as European ESG standards became more inclusive"
+    - "It declined, partly because Europe shifted to stricter definitions of sustainable investing"
+    - "It remained flat, reflecting saturation of the European ESG market"
+    - "It declined because European pension funds shifted from ESG to conventional investing"
+  answer: 1
+  explanation: "Although the absolute amount of ESG assets in Europe grew, the *proportion* of sustainable investing assets relative to total managed assets declined in Europe after 2014. This is largely because Europe moved to stricter standards and definitions, reclassifying some previously-counted assets as no longer qualifying."
+
+- question: "As of 2018, what was the largest ESG investment strategy globally by assets under management?"
+  options:
+    - "ESG integration"
+    - "Impact and community investing"
+    - "Negative (exclusionary) screening"
+    - "Sustainability-themed investing"
+  answer: 2
+  explanation: "Negative (exclusionary) screening remained the largest strategy globally as of 2018 with approximately US$19.8 trillion in AUM — particularly dominant in Europe. ESG integration was the second-largest strategy and the fastest-growing, having grown 69% in two years to reach US$17.5 trillion."
+
+- question: "In 2018, what was the approximate allocation of global ESG assets to public equities and fixed income respectively?"
+  options:
+    - "Public equities 33%, fixed income 64%"
+    - "Public equities 51%, fixed income 36%"
+    - "Public equities 70%, fixed income 20%"
+    - "Public equities 45%, fixed income 45%"
+  answer: 1
+  explanation: "As of 2018, public equities accounted for 51% of global ESG assets and fixed income for 36%. This was a reversal from 2016 data (based on Europe and Canada only), which showed fixed income at 64% and equities at 33%, illustrating how ESG integration spread from bonds into equities as new regions were included."

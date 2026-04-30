@@ -1,0 +1,35 @@
+- question: "Which is NOT one of the three design pillars of carbon pricing?"
+  options:
+    - "Coverage (what is priced)"
+    - "Level (how much is the price)"
+    - "Revenue (how money is used)"
+    - "Duration (how long the system lasts)"
+  answer: 3
+  explanation: "The three design pillars are Coverage (scope), Level (price or cap), and Revenue (use of funds). While duration matters, it is not considered one of the core design pillars."
+
+- question: "What does 'point of regulation' refer to?"
+  options:
+    - "The government office that administers the carbon price"
+    - "Where in the supply chain the obligation falls"
+    - "The geographic location of emissions"
+    - "The date when carbon pricing begins"
+  answer: 1
+  explanation: "Point of regulation determines where the obligation to pay or surrender allowances falls in the supply chain - upstream (fuel suppliers), midstream (large emitters), or downstream (end users)."
+
+- question: "What is the trade-off between simplicity and precision in carbon pricing design?"
+  options:
+    - "Simple systems are always more effective"
+    - "Complex systems guarantee better outcomes"
+    - "Simple systems are easier to administer but may miss nuances; complex systems are more precise but harder to manage"
+    - "There is no trade-off; systems can be both simple and precise"
+  answer: 2
+  explanation: "Simpler designs are easier to implement and administer but may not address all fairness or efficiency concerns. More complex designs can be more precise but require greater administrative capacity."
+
+- question: "Why do carbon pricing systems typically start with a subset of emissions rather than economy-wide coverage?"
+  options:
+    - "To minimize political opposition and administrative burden"
+    - "Because other emissions do not matter"
+    - "International law prohibits full coverage"
+    - "It is impossible to price all emissions"
+  answer: 0
+  explanation: "Most systems start with large emitters or specific sectors to build experience, minimize complexity, and reduce political resistance, then expand coverage over time."

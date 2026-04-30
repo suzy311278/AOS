@@ -1,0 +1,44 @@
+- question: "The EC FAQ (April 2023) clarifies that SFDR does not prescribe a specific methodology for assessing sustainable investment. What does this mean for financial market participants?"
+  options:
+    - "FMPs can use any methodology they like with no disclosure requirements"
+    - "FMPs must develop and disclose their own assessment methodology, including how they determine contribution, apply DNSH, and assess good governance — and they bear responsibility for its rigour"
+    - "All FMPs must use the EU Taxonomy technical screening criteria as their sustainable investment methodology"
+    - "The lack of prescribed methodology means sustainable investment classification is purely qualitative"
+  answer: 1
+  explanation: "The EC FAQ's confirmation that no specific methodology is prescribed places significant responsibility on FMPs. They must develop their own approach, disclose it fully, and be prepared to defend it under supervisory scrutiny. This flexibility enables diverse investment strategies to qualify investments as sustainable, but also means that weak or poorly-documented methodologies are exposed to challenge."
+
+- question: "According to the EC FAQ, can a company's future transition plan (e.g., a net-zero commitment for 2035) be sufficient to establish DNSH compliance for a current investment?"
+  options:
+    - "Yes — a credible transition plan is sufficient to establish current DNSH compliance"
+    - "Yes, but only if the transition plan is validated by the Science Based Targets initiative"
+    - "No — DNSH must be assessed based on current performance; a future commitment does not resolve a current DNSH failure"
+    - "Only for small and medium-sized companies that lack the capacity for current DNSH reporting"
+  answer: 2
+  explanation: "The EC FAQ explicitly states that a transition plan aiming to achieve DNSH compliance in the future is insufficient. The DNSH principle must be satisfied currently — at the time the investment is classified as sustainable. Future commitments to improve may be relevant context but cannot substitute for a current DNSH assessment."
+
+- question: "What did the EC FAQ clarify about the employee headcount for the Article 17 small firm exemption (fewer than three employees)?"
+  options:
+    - "Only full-time permanent employees count toward the threshold"
+    - "The headcount applies regardless of employment type — part-time, full-time, self-employed, owner-managers all count"
+    - "Only employees who work in investment roles count"
+    - "The headcount applies at the EU group level, not at the individual entity level"
+  answer: 1
+  explanation: "The EC FAQ (published 17 May 2022) confirmed that the Article 17 exemption headcount (fewer than three employees) applies regardless of the employment relationship's features — it counts all natural persons regardless of whether they are full-time, part-time, self-employed, or owner-managers. This prevents artificial manipulation of the threshold by using non-standard employment contracts."
+
+- question: "The EC FAQ confirms that 'good governance practices' in Article 2(17) and 'minimum social safeguards' in the EU Taxonomy are distinct. What is the practical implication?"
+  options:
+    - "Only Article 9 products need to comply with both standards"
+    - "An investment can meet the SFDR Article 2(17) good governance requirement without necessarily meeting the EU Taxonomy minimum social safeguards, and vice versa — FMPs must assess compliance with each standard separately"
+    - "The two standards are equivalent and applying one automatically satisfies the other"
+    - "SFDR good governance applies only to listed companies; Taxonomy safeguards apply to all economic activities"
+  answer: 1
+  explanation: "The EC FAQ clarifies that SFDR's 'good governance practices' (Article 2(17)) and the EU Taxonomy's 'minimum social safeguards' (Article 18 of the Taxonomy Regulation) are separate requirements under different legal acts. FMPs must assess compliance with each standard independently. In practice, the substantive content is similar (both reference ILO standards, UNGC, and OECD Guidelines), but they must be assessed separately."
+
+- question: "What is the main practical implication of the EC FAQ's clarification that non-EU AIFMs marketing under National Private Placement Regimes must comply with SFDR?"
+  options:
+    - "Non-EU AIFMs can ignore SFDR as long as they comply with their home jurisdiction's ESG rules"
+    - "Non-EU AIFMs marketing EU-domiciled AIFs must include SFDR disclosures in their offering documents and website, covering Articles 6, 10, and 11 obligations"
+    - "SFDR only applies to non-EU AIFMs if they manage more than €500 million in EU investor assets"
+    - "Non-EU AIFMs must establish a separate EU subsidiary to comply with SFDR"
+  answer: 1
+  explanation: "The EC FAQ confirms SFDR's extraterritorial reach: non-EU AIFMs marketing AIFs to EU investors under National Private Placement Regimes must comply with SFDR's product-level disclosure requirements (Article 6 pre-contractual disclosures, Article 10 website disclosures, and Article 11 periodic reporting). This applies regardless of where the AIFM or fund is established."

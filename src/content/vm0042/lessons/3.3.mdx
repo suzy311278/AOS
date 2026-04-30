@@ -1,0 +1,150 @@
+{/* 3.3: Calculating Baseline & Project Emissions */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/vm0042/3_3.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Calculating Baseline & Project Emissions
+<HighlightBox>
+  <p class="font-semibold text-green-800">Beyond SOC: accounting for all GHG sources</p>
+  <p class="text-green-900 mt-1">VM0042 tracks multiple emission sources beyond soil carbon. For each source, you calculate <em>both</em> the baseline emission and the project emission. The difference is the reduction. This lesson walks through the main calculations with real numbers.</p>
+</HighlightBox>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">🧾 Analogy: A Full Business Profit & Loss Statement</p>
+  <p class="mt-2 text-blue-900">Calculating baseline and project emissions is like preparing a profit &amp; loss statement for a business, but for greenhouse gases. You list every revenue line (GHG reduction) and every expense line (new GHG source) in both the baseline and project scenarios. The net carbon benefit is what's left after subtracting all project-scenario GHGs from all baseline-scenario GHGs. Miss an expense line and your "profit" is overstated, which an auditor will catch.</p>
+</AnalogyBox>
+
+### Fossil Fuel CO₂, Equations 6 & 7
+<EquationBreakdown
+  title="Equation 6 - Fossil Fuel CO₂ Emissions"
+  result="EFF<sub>j</sub> | Fossil Fuel Emissions | Total CO₂ released from burning fuel for source j (e.g. tractor diesel), measured in tCO₂/ha/yr | blue"
+  inputs="FFC<sub>j</sub> | Fuel Consumption | How many litres of fuel are burned per hectare per year for source j (e.g. 45 L/ha/yr for conventional tillage) | green ;; EF<sub>CO₂,j</sub> | Emission Factor | How much CO₂ each litre of fuel produces when burned (e.g. 0.00268 tCO₂/litre for diesel) | amber"
+/>
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📐 Worked Example: Fossil Fuel Reduction from No-Till</p>
+  <ResponsiveTable>
+<table class="mt-2 text-sm">
+    <thead><tr><th>Scenario</th><th>Tractor Passes/yr</th><th>Fuel Use (L/ha/yr)</th><th>CO₂ (tCO₂/ha/yr)</th></tr></thead>
+    <tbody>
+    <tr><td>Baseline (conventional tillage)</td><td>3</td><td>45</td><td>45 × 0.00268 = <strong>0.121</strong></td></tr>
+    <tr><td>Project (no-till)</td><td>1</td><td>15</td><td>15 × 0.00268 = <strong>0.040</strong></td></tr>
+    <tr><td><strong>Reduction</strong></td><td>-</td><td>-</td><td class="text-green-700 font-bold">0.081 tCO₂/ha/yr</td></tr>
+    </tbody>
+  </table>
+</ResponsiveTable>
+  <p class="mt-2 text-sm text-amber-700">Diesel EF = 0.00268 tCO₂/litre. For 5,000 ha: 0.081 × 5,000 = <strong>405 tCO₂/yr</strong> fossil fuel reduction.</p>
+</ExampleBox>
+
+### Liming CO₂, Equations 8 & 9
+<EquationBreakdown
+  title="Equations 8 & 9 - Liming CO₂ Emissions"
+  result="EL | Liming Emissions | Total CO₂ released when lime dissolves in soil, measured in tCO₂ | blue"
+  inputs="M<sub>Limestone</sub> | Limestone Mass | Tonnes of calcitic limestone (CaCO₃) applied per hectare. Releases CO₂ at 12% carbon fraction | green ;; M<sub>Dolomite</sub> | Dolomite Mass | Tonnes of dolomitic lime (CaMg(CO₃)₂) applied. Releases CO₂ at 13% carbon fraction | amber ;; 44/12 | C to CO₂ Conversion | Molecular weight ratio that converts carbon mass to CO₂ mass (every 12g of C becomes 44g of CO₂) | violet"
+  operator="×"
+/>
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📐 Example: Liming Emissions</p>
+  <p class="text-sm mt-1">Baseline: 1 t/ha calcitic limestone (CaCO₃) applied annually.<br />
+  CO₂ = 1 × 0.12 × (44/12) = <strong>0.44 tCO₂/ha/yr</strong><br />
+  Project: No liming (practice eliminated).<br />
+  Reduction = <strong>0.44 tCO₂/ha/yr</strong></p>
+</ExampleBox>
+
+### N₂O from Nitrogen Fertilizers (Approach 3), Equations 16–23
+<p class="text-sm mb-3">N₂O emissions come from synthetic fertilizers, organic N (manure, compost), crop residue N, and N-fixing species. The IPCC approach:</p>
+<EquationBreakdown
+  title="Equations 16-23 - Direct N₂O from Nitrogen Fertilizers"
+  result="Direct N₂O | Direct N₂O Emissions | Total nitrous oxide emissions from applied nitrogen, converted to tCO₂e/ha/yr | blue"
+  inputs="N<sub>input</sub> | Nitrogen Applied | Total kg of nitrogen applied per hectare per year from all sources (synthetic fertilizer, manure, compost) | green ;; EF₁ | Emission Factor | Fraction of applied N that converts to N₂O-N. IPCC Tier 1 default is 0.01 (1% of all N applied) | amber ;; 44/28 | N₂O-N to N₂O | Molecular weight conversion from N₂O-nitrogen to actual N₂O gas | violet ;; GWP<sub>N₂O</sub> | Global Warming Potential | How many times more warming N₂O causes vs CO₂ over 100 years. Value is 265 | rose"
+  operator="×"
+/>
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📐 N₂O Worked Example</p>
+  <ResponsiveTable>
+<table class="mt-2 text-sm">
+    <thead><tr><th>Scenario</th><th>N Applied (kg N/ha)</th><th>N₂O Emissions (tCO₂e/ha/yr)</th></tr></thead>
+    <tbody>
+    <tr><td>Baseline</td><td>150</td><td>150 × 0.01 × (44/28) × 265 ÷ 1000 = <strong>0.627</strong></td></tr>
+    <tr><td>Project (30% N reduction)</td><td>105</td><td>105 × 0.01 × (44/28) × 265 ÷ 1000 = <strong>0.439</strong></td></tr>
+    <tr><td><strong>Reduction</strong></td><td>-</td><td class="text-green-700 font-bold">0.188 tCO₂e/ha/yr</td></tr>
+    </tbody>
+  </table>
+</ResponsiveTable>
+  <p class="mt-2 text-sm text-amber-700">Note: Always check if project adds new N sources (e.g., N-fixing cover crops add N to soil, creates new N₂O that must be counted as a project emission).</p>
+</ExampleBox>
+
+### Soil Methanogenesis CH₄ (Rice Projects), Equations 12–14
+<p class="text-sm mb-3">Flooded rice paddies are anaerobic environments, perfect conditions for methanogenic archaea to produce CH₄ from decomposing organic matter. This is <strong>one of the largest single emission sources in agriculture</strong>, making rice water management projects among the most impactful.</p>
+<EquationBreakdown
+  title="Equations 12-14 - Rice Paddy Methane Emissions"
+  result="ECH4<sub>rice</sub> | Rice CH₄ Emissions | Total methane from flooded rice paddies, converted to tCO₂e/ha/season | blue"
+  inputs="EF<sub>base</sub> | Baseline Emission Factor | Default CH₄ emission rate for continuously flooded rice with no organic amendments: 1.30 kg CH₄/ha/day (IPCC) | green ;; SF<sub>w</sub> | Water Regime Factor | Scaling factor based on how the field is flooded. Continuous flood = 1.0, single drainage (AWD) = 0.52 | amber ;; SF<sub>p</sub> | Organic Amendment Factor | Adjusts for straw or manure incorporation. No amendments = 1.0, straw added increases it | violet ;; t | Cultivation Days | Number of days the rice crop is growing in the field per season (typically 90-120 days) | rose ;; GWP<sub>CH₄</sub> | Methane GWP | Global warming potential of methane over 100 years. Value is 28 | cyan"
+  operator="×"
+/>
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📐 Rice AWD Example, Vietnam Delta</p>
+  <ResponsiveTable>
+<table class="mt-2 text-sm">
+    <thead><tr><th>Scenario</th><th>Water Regime</th><th>SF<sub>w</sub></th><th>Cultivation days</th><th>CH₄ (tCO₂e/ha/season)</th></tr></thead>
+    <tbody>
+    <tr><td>Baseline (continuous flood)</td><td>Flooded</td><td>1.0</td><td>120</td><td>1.30 × 1.0 × 1.0 × 1.0 × 120 × 0.001 × 28 = <strong>4.37</strong></td></tr>
+    <tr><td>Project (AWD)</td><td>Single drainage</td><td>0.52</td><td>120</td><td>1.30 × 0.52 × 1.0 × 1.0 × 120 × 0.001 × 28 = <strong>2.27</strong></td></tr>
+    <tr><td><strong>Reduction</strong></td><td>-</td><td>-</td><td>-</td><td class="text-green-700 font-bold">2.10 tCO₂e/ha/season</td></tr>
+    </tbody>
+  </table>
+</ResponsiveTable>
+  <p class="mt-2 text-sm text-amber-700">At 2 seasons/year and 10,000 ha: <strong>42,000 tCO₂e/yr</strong> just from CH₄ reduction, before any SOC benefit. This shows why rice AWD can generate 2–5 tCO₂e/ha/yr.</p>
+  <p class="mt-1 text-sm text-gray-600">⚠️ AWD also slightly increases N₂O (aerobic conditions favour nitrification/denitrification). This must be calculated using the IPCC approach and subtracted from the CH₄ reduction to get the net benefit. Typically N₂O increase = 10–20% of the CH₄ gain, so AWD is still strongly beneficial.</p>
+</ExampleBox>
+
+### Manure Deposition CH₄ & N₂O (Grazing Projects), Equations 13 & 21
+<p class="text-sm mb-3">Livestock manure deposited on pastures generates both CH₄ (anaerobic decomposition in dung pats) and N₂O (nitrification of urine-N). Both must be included when livestock are present in the project.</p>
+<EquationBreakdown
+  title="Equation 13 - Manure CH₄ Emissions"
+  result="ECH4<sub>manure</sub> | Manure Methane | Total CH₄ from livestock manure deposited on pasture, in tCO₂e/yr | blue"
+  inputs="Pop | Livestock Population | Number of animals (head) in the project area | green ;; MS<sub>pasture</sub> | Manure Share on Pasture | Fraction of total manure deposited on pasture (e.g. 0.9 means 90% deposited on grazing land) | amber ;; EF<sub>CH₄</sub> | CH₄ Emission Factor | kg of CH₄ emitted per head per year from manure decomposition (IPCC tables by animal type) | violet ;; GWP<sub>CH₄</sub> | Methane GWP | Converts CH₄ to CO₂-equivalent. Value is 28 | cyan"
+  operator="×"
+/>
+
+<EquationBreakdown
+  title="Equation 21 - Manure N₂O Emissions"
+  result="EN2O<sub>manure</sub> | Manure Nitrous Oxide | Total N₂O from nitrogen in livestock urine and dung, in tCO₂e/yr | blue"
+  inputs="Pop × Nex | N Excreted | Livestock population times nitrogen excretion per head (kg N/head/yr). Gives total kg N deposited | green ;; MS<sub>pasture</sub> | Manure Share on Pasture | Fraction deposited on pasture (same as CH₄ equation above) | amber ;; EF₃ | Manure N₂O Factor | Fraction of deposited N that converts to N₂O-N. Default is 0.02 (2%) for pasture systems | violet ;; GWP<sub>N₂O</sub> | N₂O GWP | Converts N₂O to CO₂-equivalent. Value is 265 | rose"
+  operator="×"
+/>
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📐 Manure Emissions, Argentina Grazing Project</p>
+  <p class="text-sm mt-1"><strong>Setup:</strong> 500 beef cattle, Nex = 40 kg N/head/yr, 90% of manure deposited on pasture (MS = 0.9), 1,000 ha.</p>
+  <ResponsiveTable>
+<table class="mt-2 text-sm">
+    <thead><tr><th>Emission</th><th>Baseline (500 cattle)</th><th>Project (350 cattle, 30% fewer)</th></tr></thead>
+    <tbody>
+    <tr><td>CH₄ from manure</td><td>500 × 0.9 × 1.0 × 28/1000 = <strong>12.6 tCO₂e/yr</strong></td><td>350 × 0.9 × 1.0 × 28/1000 = <strong>8.8</strong></td></tr>
+    <tr><td>N₂O from manure urine</td><td>500 × 40 × 0.9 × 0.02 × 44/28 × 265/1000 = <strong>11.1</strong></td><td>350 × ... = <strong>7.8</strong></td></tr>
+    <tr><td class="font-bold">Combined manure reduction</td><td>-</td><td class="text-green-700 font-bold">7.1 tCO₂e/yr</td></tr>
+    </tbody>
+  </table>
+</ResponsiveTable>
+  <p class="mt-2 text-sm text-amber-700">Together with enteric fermentation reduction (~20.3 tCO₂e/yr), the total livestock GHG reduction is ~27.4 tCO₂e/yr for 1,000 ha = 0.027 tCO₂e/ha/yr, a smaller component than SOC for grazing, but still required.</p>
+</ExampleBox>
+
+### Enteric Fermentation CH₄ (Grazing Projects), Equation 11
+<EquationBreakdown
+  title="Equation 11 - Enteric Fermentation CH₄"
+  result="CH4<sub>ent</sub> | Enteric CH₄ Emissions | Methane from livestock digestion (belching), in tCO₂e/ha/yr | blue"
+  inputs="Pop<sub>livestock</sub> | Livestock Population | Number of animals in the project area | green ;; EF<sub>ent</sub> | Enteric Emission Factor | kg CH₄ per head per year from digestion. Varies by animal type (e.g. 58 for beef cattle, IPCC Tier 1) | amber ;; GWP<sub>CH₄</sub> | Methane GWP | Converts CH₄ to CO₂-equivalent. Value is 28 | violet ;; 1/Area | Per-Hectare Normalization | Divides total emissions by project area (ha) to get tCO₂e per hectare | rose"
+  operator="×"
+/>
+<ExampleBox>
+  <p class="font-semibold text-amber-800">📐 Grazing Example</p>
+  <p class="text-sm mt-1">Baseline: 500 cattle on 1,000 ha. EF = 58 kg CH₄/head/yr (Beef cattle, Tier 1).<br />
+  CH₄ = (28 × 500 × 58) / 1000 / 1,000 ha = <strong>0.812 tCO₂e/ha/yr</strong></p>
+  <p class="text-sm mt-1">Project: 400 cattle (20% stocking rate reduction).<br />
+  CH₄ = (28 × 400 × 58) / 1000 / 1,000 = <strong>0.650 tCO₂e/ha/yr</strong><br />
+  Reduction = <strong>0.162 tCO₂e/ha/yr</strong></p>
+</ExampleBox>
+
+<div class="bg-amber-50 border border-amber-200 rounded p-4 mb-4">
+  <p class="font-semibold text-amber-800">⚠️ Important: Emissions go BOTH ways</p>
+  <p class="text-sm mt-1">The project scenario may have HIGHER emissions for some sources (e.g., more fuel for irrigation pumping, more N₂O from N-fixing cover crops). Always calculate emissions for both scenarios, don't assume the project reduces everything.</p>
+</div>
+<KeyTakeaways items="Every GHG source in the project boundary must be calculated for both baseline and project scenarios - reductions equal the difference ;; Fossil fuel CO2 is calculated from fuel consumption (L/ha/yr) times an emission factor (e.g., 0.00268 tCO2/litre for diesel) ;; N2O from nitrogen fertilizer uses IPCC defaults: 1% of applied N converts to N2O-N, then multiply by 44/28 and GWP of 265 ;; Rice paddy CH4 can be one of the largest single emission sources - AWD can reduce it by 30-50%, generating 2-5 tCO2e/ha/yr ;; Some project emissions may increase (e.g., N2O from N-fixing cover crops, more fuel for irrigation) - these must be counted and reduce the net credit claim" />

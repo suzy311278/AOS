@@ -1,0 +1,126 @@
+{/* source: Corporate-Value-Chain-Accounting-Reporing-Standard_041613_2.pdf, Chapter 7 (pp. 64-85) */}
+
+Data collection is typically the most time-consuming part of building a Scope 3 inventory. The standard provides a **data quality hierarchy** that guides companies on what types of data to seek, in order of preference. The hierarchy reflects a fundamental principle: more specific data produces more accurate emissions estimates.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/ghg-scope-3/5_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## The Data Quality Hierarchy
+
+The standard ranks five types of data from highest to lowest quality:
+
+### 1. Primary Data (Highest Quality)
+Data obtained directly from specific activities in the value chain — either the company's own activities or those of specific supply chain partners.
+
+**Examples:**
+- Energy consumption records from a specific supplier's factory (for Category 1)
+- Fuel receipts from a third-party logistics provider for shipments to the company (for Category 4)
+- Employee travel data from a corporate travel booking system (for Category 6)
+- Energy bills for leased facilities (for Category 8 or 13)
+
+Primary data is the most accurate because it reflects the actual conditions at the specific facility, at the specific time, with the specific technology and energy mix in use.
+
+### 2. Secondary Data: Industry-Average Data
+Data based on averages across a sector or industry group. Published by:
+- Life cycle assessment (LCA) databases (ecoinvent, GaBi, SimaPro)
+- Government statistical agencies
+- Industry associations (World Steel Association, Cement Sustainability Initiative)
+- Academic peer-reviewed lifecycle studies
+
+Industry-average data is less accurate than primary data but more accurate than economic input-output data, because it reflects physical production processes rather than economic relationships.
+
+### 3. Secondary Data: Proxy Data
+Data from similar but not identical activities, adjusted to approximate the specific case. For example, using the emission factor for a nearby geography when the specific geography's factor is unavailable, or using a similar product's LCA when the exact product LCA is absent.
+
+### 4. Secondary Data: Economic Input-Output (EIO) Data (Lowest Quality)
+Data derived from national economic input-output models, expressing emissions per unit of economic output for broad industry sectors. The foundation of the **spend-based method** — multiply spend by an EIO emission factor.
+
+EIO data is the least accurate because:
+- It aggregates across very different companies within a sector
+- It uses monetary flows rather than physical quantities
+- It does not distinguish between emission intensities of individual suppliers
+
+<HighlightBox>
+The hierarchy is not a rigid requirement — companies should use the best data available for each category and activity, moving toward higher-quality data over time for the most significant categories. Using EIO data for a minor purchased service category is entirely acceptable. Using EIO data for a major raw material category that represents 40% of Scope 3 emissions is not a long-term solution.
+</HighlightBox>
+
+## Collecting Data in Practice
+
+### Supplier Data Collection
+
+For Category 1, collecting primary data requires engaging suppliers. The standard recommends:
+
+1. **Identify top suppliers**: Rank by annual spend; the top 10–20 suppliers often represent 50–80% of total purchasing spend.
+2. **Assess data availability**: Check if key suppliers already participate in CDP or publish sustainability reports with Scope 1/2 data.
+3. **Request data**: Use structured questionnaires or integrated supply chain platforms (e.g., EcoVadis, Sedex, Supplier.io) to request emissions data.
+4. **Validate responses**: Check for internal consistency; compare reported emission intensities against industry benchmarks.
+5. **Use for calculation**: Convert supplier-provided Scope 1/2 data to per-unit emission factors, then multiply by quantities purchased.
+
+### Activity Data Sources by Category
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Typical Activity Data Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1 — Purchased Goods</td>
+      <td>Procurement records, supplier invoices, purchase orders</td>
+    </tr>
+    <tr>
+      <td>4 — Upstream Transport</td>
+      <td>Logistics bills of lading, shipping manifests, freight invoices</td>
+    </tr>
+    <tr>
+      <td>5 — Waste</td>
+      <td>Waste contractor manifests, waste audits, facility waste records</td>
+    </tr>
+    <tr>
+      <td>6 — Business Travel</td>
+      <td>Travel management company (TMC) reports, expense claims</td>
+    </tr>
+    <tr>
+      <td>7 — Employee Commuting</td>
+      <td>Employee travel surveys, HR headcount data</td>
+    </tr>
+    <tr>
+      <td>11 — Use of Sold Products</td>
+      <td>Product specifications, energy ratings, sales volume data</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+## Data Quality Assessment
+
+The standard recommends assessing data quality across five dimensions (adapted from the ecoinvent data quality framework):
+
+1. **Technological representativeness**: Does the data reflect the technology actually used?
+2. **Temporal representativeness**: Is the data from the same time period as the reporting year?
+3. **Geographical representativeness**: Does the data reflect the specific geography of the activities?
+4. **Completeness**: Does the data cover all relevant flows and processes?
+5. **Reliability**: Is the data from a credible, verifiable source?
+
+<AnalogyBox>
+Data quality assessment is like checking a recipe against what you actually cooked. A recipe (industry-average data) gives you a reasonable idea of the dish's nutritional content. But if you actually weigh every ingredient as you cook (primary data), you know exactly what's in your specific meal. The standard says: use the recipe estimate when cooking occasionally, but invest in scales when cooking is your main business.
+</AnalogyBox>
+
+## Estimating and Addressing Data Gaps
+
+Not all activity data will be available. The standard allows companies to use estimation techniques for data gaps:
+
+- **Extrapolation**: Use known data from a subset of operations to estimate the whole (e.g., survey 20% of employees and extrapolate to the full workforce)
+- **Interpolation**: Fill gaps between known data points using logical assumptions
+- **Engineering estimates**: Use process knowledge to estimate emissions from physical principles
+- **Proxy data**: Substitute a similar activity's data when the specific data is unavailable
+
+All estimations and gaps should be documented, with the basis for the estimate recorded, to support assurance and year-on-year consistency.
+
+<DeepDive title="The role of AI and digital supply chain platforms in Scope 3 data collection">
+Traditional Scope 3 data collection is manual and labour-intensive. Increasingly, companies are using digital supply chain platforms that integrate with ERP systems to automatically extract procurement volumes, freight data, and waste records. AI-powered tools can match purchase categories to emission factors, flag anomalies, and automate supplier outreach workflows. The EU's CSRD-mandated sustainability data requirements are accelerating investment in these platforms, as companies need auditable Scope 3 data at scale. However, as of 2024, primary supplier data collection remains challenging, and spend-based estimates still dominate Category 1 for most companies outside the Fortune 500.
+</DeepDive>
+
+<KeyTakeaways items="The data quality hierarchy ranks sources from highest to lowest: primary supplier data, industry-average data, proxy data, and economic input-output (EIO) data ;; Focus primary data collection on top suppliers - the top 10-20 by spend often represent 50-80% of total procurement ;; Assess data quality across five dimensions: technological, temporal, and geographical representativeness, completeness, and reliability ;; Data gaps can be addressed through extrapolation, interpolation, engineering estimates, or proxy data - but all estimation methods must be documented ;; Use EIO (spend-based) data for minor categories but invest in higher-quality methods for categories representing the largest share of Scope 3 emissions" />

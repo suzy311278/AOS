@@ -1,0 +1,26 @@
+- question: "How many recommended disclosures are contained in the TNFD Recommendations v1.0, and how are they distributed across the four pillars?"
+  options:
+  - "10 disclosures: Governance (2), Strategy (3), Risk Management (3), Metrics and Targets (2)"
+  - "14 disclosures: Governance (3), Strategy (4), Risk and Impact Management (3), Metrics and Targets (4)"
+  - "12 disclosures: Governance (3), Strategy (3), Risk Management (3), Metrics and Targets (3)"
+  - "16 disclosures: Governance (4), Strategy (4), Risk Management (4), Metrics and Targets (4)"
+  answer: 1
+  explanation: "The TNFD Recommendations v1.0 contain 14 recommended disclosures distributed as: Governance (3: G1, G2, G3), Strategy (4: S1, S2, S3, S4), Risk and Impact Management (3: R1, R2, R3), and Metrics and Targets (4: MT1, MT2, MT3, MT4 for financial institutions). This 14-disclosure architecture provides comprehensive coverage while maintaining comparability across organisations."
+
+- question: "What is the significance of TNFD's 'G3' disclosure, which has no direct equivalent in the TCFD framework?"
+  options:
+  - "G3 requires disclosure of the number of board members with nature qualifications"
+  - "G3 requires organisations to describe their human rights policies and engagement with Indigenous Peoples, Local Communities, and affected stakeholders in their nature assessments"
+  - "G3 requires disclosure of executive compensation linked to nature targets"
+  - "G3 covers the governance of third-party nature-related ratings and assessments"
+  answer: 1
+  explanation: "TNFD's G3 disclosure is unique: it requires organisations to describe their human rights policies and engagement activities with Indigenous Peoples, Local Communities (IPLCs), and affected stakeholders in the context of nature assessment. This reflects TNFD's recognition that nature governance is inseparable from social equity, land rights, and the rights of communities whose livelihoods depend directly on ecosystems."
+
+- question: "In TNFD's conceptual framework, what is the distinction between 'dependencies' and 'impacts'?"
+  options:
+  - "Dependencies refer to financial debts owed to nature, while impacts are physical damage to ecosystems"
+  - "Dependencies are what nature provides to business (ecosystem services flowing in), while impacts are what business does to nature (disturbances flowing out)"
+  - "Dependencies are short-term risks while impacts are long-term strategic concerns"
+  - "Dependencies affect upstream suppliers while impacts affect downstream customers"
+  answer: 1
+  explanation: "TNFD's dependency concept captures what flows from nature to the organisation (clean water, pollination, soil fertility, stable climate), while the impact concept captures what flows from the organisation to nature (pollution, land clearance, water extraction, species disturbance). A complete TNFD disclosure maps both directions. This two-way framing is a fundamental advance beyond TCFD, which primarily addressed risks to the organisation rather than the organisation's effects on the external environment."

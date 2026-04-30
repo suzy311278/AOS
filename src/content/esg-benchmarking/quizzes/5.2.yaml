@@ -1,0 +1,26 @@
+- question: "In MSCI's percentile ranking system for ESG Ratings, which percentile range indicates a 'best-in-class' company?"
+  options:
+    - "0 to 5"
+    - "76 to 95"
+    - "96 to 100"
+    - "26 to 75"
+  answer: 2
+  explanation: "In MSCI's convention, lower percentile ranks are better (the company with the highest points value is assigned a percentile rank of 0, and the company with the lowest points value is assigned 100). Best-in-class corresponds to the 96 to 100 percentile band, meaning the company is at the very top of its ESG Rating Industry. Above average is 76 to 95; average is 26 to 75; below average is 6 to 25; and worst-in-class is 0 to 5."
+
+- question: "What does quartile analysis in ESG benchmarking show that a single overall score does not?"
+  options:
+    - "The absolute level of ESG risk a company faces, independent of its peers"
+    - "Where a company sits in the distribution of its peer group and which specific peers are in the top quarter of performers"
+    - "The exact financial impact of ESG risks on future earnings"
+    - "The regulatory requirements that apply to each company in the peer group"
+  answer: 1
+  explanation: "Quartile analysis divides the peer group into four equal parts by ESG performance and shows the client's relative position within that distribution. It allows a consultant to identify which specific peer companies are in the top quartile on each KPI or pillar, making it possible to target learning from the best performers on each dimension."
+
+- question: "When structuring a benchmarking report for a client, what is the correct order of the main sections?"
+  options:
+    - "Key gaps and recommendations, E/S/G breakdown, overall position, executive summary"
+    - "Executive summary, overall position, E/S/G breakdown, key gaps and recommendations"
+    - "E/S/G breakdown, executive summary, overall position, key gaps and recommendations"
+    - "Overall position, key gaps and recommendations, executive summary, E/S/G breakdown"
+  answer: 1
+  explanation: "A benchmarking report should move from summary to detail and end with concrete actions: (1) Executive summary giving overall position and top findings, (2) Overall position showing the client against the peer distribution, (3) E/S/G breakdown by pillar, (4) Key gaps and recommendations. This structure ensures that clients who read only the first section still understand the core message, while those who need detail can find it in subsequent sections."

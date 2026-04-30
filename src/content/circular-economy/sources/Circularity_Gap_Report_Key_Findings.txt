@@ -1,0 +1,87 @@
+SOURCE URL: https://circularity-gap.world/
+DOCUMENT: Circularity Gap Reports - Key Findings (2023 and 2024 editions)
+
+# Circularity Gap Report Key Findings
+
+## Global Circularity Statistics
+
+Current State (2023 Report):
+- Global circularity rate: 7.2% in 2023 (down from 9.1% in 2018 and 8.6% in 2020)
+- A 21% decrease over five years in global circularity
+- Humanity consumed 500 gigatonnes of materials between 2018-2023, representing 28% of all materials consumed since 1900
+- Five of nine key planetary boundaries have been exceeded
+
+## The Circularity Gap
+
+Only 7.2% of materials are cycled back after use. The remaining 92.8% are:
+- Dissipated as waste or emissions
+- Stored in long-lived products and infrastructure
+- Lost from the economic system permanently
+
+## Four Circular Systems
+
+### 1. Agrifood System
+- Shift calories from meat/dairy toward cereals, fruits, vegetables, nuts
+- Eliminate avoidable food waste through improved logistics
+- Promote local, seasonal, organic production
+- Mainstream regenerative agriculture practices
+
+### 2. Built Environment
+- Maximize energy efficiency with clean energy solutions
+- Reuse and renovate existing structures using secondary materials
+- Prioritize organic materials (wood, timber, CLT) over steel/concrete
+- The built environment accounts for 40% of global emissions
+
+### 3. Manufactured Goods and Consumables
+- Replace fast fashion with sustainable, durable textiles
+- Implement circular business models (sharing, pay-per-use)
+- Extend product lifespans through repair and remanufacturing
+- Develop industrial symbiosis
+
+### 4. Mobility and Transport
+- Promote car-free lifestyles and cycling infrastructure
+- Invest in high-quality public transit
+- Minimize air travel, especially long-haul
+- Electrify remaining vehicles
+
+## Three-Country Framework (2024 Report)
+
+### Shift Countries (High-Income)
+Focus: Reduce material extraction and consumption
+- Policy: Strengthen Right to Repair laws; mandate circular building standards
+- Finance: Tax material extraction; incentivize sustainable products
+- Skills: Integrate circular economy into vocational training
+
+### Grow Countries (Middle-Income)
+Focus: Sustainable industrial expansion protecting workers
+- Policy: Ban pollution; align incentives with circular manufacturing
+- Finance: Direct capital toward green technology
+
+### Build Countries (Low-Income)
+Focus: Material use for improved living standards
+- Policy: Enable agricultural investment; simplify building codes
+- Finance: Secure capital access; support smallholder farmers
+
+## Environmental Impact
+
+Agriculture occupies roughly half of habitable surface and drives:
+- One-third of global GHG emissions
+- 70% of freshwater withdrawals
+
+A circular economy could:
+- Reduce global material extraction by approximately one-third
+- Bring human activity within planetary boundaries
+- Cut global CO2 emissions significantly
+
+## Key Recommendations
+
+1. Policy: Incentivize circular practices; penalize harmful ones
+2. Economics: Adjust fiscal systems to reflect true environmental costs
+3. Expertise: Empower workers; distribute circular opportunities equitably
+4. Finance: Redirect investment from linear to circular infrastructure
+
+## Report Context
+
+The Circularity Gap Report is produced by Circle Economy and Deloitte.
+It tracks the global circularity metric annually to assess progress toward circular economy goals.
+The report was first published in 2018, establishing the baseline global circularity rate of 9.1%.

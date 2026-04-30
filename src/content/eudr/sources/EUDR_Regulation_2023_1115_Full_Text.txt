@@ -1,0 +1,293 @@
+REGULATION (EU) 2023/1115 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL
+on the making available on the Union market and the export from the Union of certain commodities
+and products associated with deforestation and forest degradation and repealing Regulation (EU) No 995/2010
+
+Source: EUR-Lex (eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1115)
+Official Journal of the European Union, L 150, 9 June 2023
+CELEX Number: 32023R1115
+Adopted: 31 May 2023
+Entry into force: 29 June 2023
+
+================================================================
+OVERVIEW AND SCOPE
+================================================================
+
+Regulation (EU) 2023/1115 establishes Union rules on placing and making available on the Union
+market, and on the export from the Union, of certain commodities and products associated with
+deforestation and forest degradation. It repeals Regulation (EU) No 995/2010 (the EU Timber
+Regulation).
+
+COVERED COMMODITIES (RELEVANT COMMODITIES):
+- Cattle
+- Cocoa
+- Coffee
+- Oil palm
+- Rubber
+- Soya
+- Wood
+
+COVERED PRODUCTS (RELEVANT PRODUCTS, per Annex I):
+Products that contain, have been fed with, or have been made using the relevant commodities,
+including but not limited to:
+- Leather goods (from cattle)
+- Chocolate and cocoa products
+- Furniture (from wood)
+- Paper and paperboard (from wood)
+- Palm oil and derived products
+- Soy-based products and animal feed
+- Rubber and tyres
+- Coffee and related products
+
+================================================================
+KEY DEFINITIONS
+================================================================
+
+DEFORESTATION: The conversion of forest to agricultural use, whether human-induced or not.
+
+FOREST DEGRADATION: Structural changes to forest cover taking the form of the conversion of:
+(a) primary forests or naturally regenerating forests into plantation forests or other wooded land; or
+(b) primary forests into planted forests.
+
+DEFORESTATION-FREE (for relevant commodities other than wood):
+The relevant commodities were produced on land that has not been subject to deforestation after
+31 December 2020.
+
+DEFORESTATION-FREE (for wood):
+Wood harvested from the forest without inducing forest degradation after 31 December 2020.
+
+PRODUCED IN ACCORDANCE WITH RELEVANT LEGISLATION:
+Relevant commodities and products were produced in compliance with the relevant legislation of
+the country of production, including:
+(a) land use rights;
+(b) environmental protection;
+(c) forest-related rules, including forest management and biodiversity conservation;
+(d) third parties' legal rights;
+(e) labour rights;
+(f) human rights protected under international law;
+(g) the principle of free, prior and informed consent;
+(h) tax, anti-corruption, trade and customs regulations.
+
+CUT-OFF DATE: 31 December 2020. Products produced on land subject to deforestation or
+forest degradation after this date cannot be placed on the Union market or exported.
+
+OPERATOR: Any natural or legal person who, in the course of a commercial activity, places relevant
+products on the market or exports them.
+
+TRADER: Any person in the supply chain other than the operator who makes relevant products
+available on the market.
+
+SME (Small and Medium-sized Enterprise): As defined in Commission Recommendation 2003/361/EC:
+- Micro-enterprise: fewer than 10 employees, annual turnover or balance sheet not exceeding EUR 2 million
+- Small enterprise: fewer than 50 employees, annual turnover or balance sheet not exceeding EUR 10 million
+- Medium-sized enterprise: fewer than 250 employees, annual turnover not exceeding EUR 50 million
+
+DUE DILIGENCE: The process of collecting information, assessing risk, and taking risk-mitigation
+measures to ensure compliance with the regulation.
+
+DUE DILIGENCE STATEMENT: An electronic declaration submitted before placing products on the
+market or exporting, confirming that due diligence has been exercised and the products are
+deforestation-free.
+
+================================================================
+CORE OBLIGATIONS
+================================================================
+
+ARTICLE 3 - PROHIBITION:
+Relevant commodities and relevant products shall not be:
+(a) placed or made available on the Union market; or
+(b) exported from the Union;
+unless ALL of the following conditions are satisfied:
+(i) they are deforestation-free;
+(ii) they have been produced in accordance with the relevant legislation of the country of production;
+(iii) they are covered by a due diligence statement.
+
+OBLIGATIONS FOR OPERATORS:
+
+1. DUE DILIGENCE SYSTEM: Operators must establish and maintain a due diligence system comprising:
+
+   (a) Information requirements - operators must collect and keep the following for 5 years:
+       - Description, including trade name and type, of relevant commodities or products
+       - Quantity (volume or weight)
+       - Country of production
+       - Geolocation coordinates of all plots of land where the relevant commodities were produced
+       - Date or time range of production
+       - Name and contact details of any supplier and any customer
+       - Adequate and verifiable information that the commodities are deforestation-free
+
+   (b) Risk assessment - operators must assess the risk of non-compliance based on:
+       - Country or region classification (low, standard, or high risk)
+       - Presence, quality and quantity of forests in the country or region
+       - Prevalence of deforestation or forest degradation in the country
+       - Reliability and accuracy of country-of-production data
+       - Relevant legislation of the country of production
+       - Prevalence of corruption and weaknesses in enforcement
+       - Complexity of the supply chain
+       - Whether there is any concern or information from third parties
+       - Whether indigenous peoples' rights have been violated
+
+   (c) Risk mitigation - when risk assessment indicates non-negligible risk:
+       - Require additional information and documentation
+       - Carry out independent surveys or audits
+       - Take other proportionate measures
+
+2. DUE DILIGENCE STATEMENT: Before placing products on the market or exporting, operators must
+   submit a due diligence statement through the information system, confirming:
+   - That due diligence has been exercised
+   - That no or negligible risk was found (or, if risk found, that it has been mitigated)
+   - The reference number of the due diligence statement
+
+3. ANNUAL REPORTING (for non-SME operators): Operators that are not SMEs must publish annual
+   reports on their due diligence systems, including the measures taken to comply with the regulation.
+
+OBLIGATIONS FOR TRADERS:
+
+Non-SME traders must exercise due diligence equivalent to operators.
+
+SME traders must:
+- Collect and keep for 5 years the due diligence statement reference numbers of their suppliers
+- Collect and keep for 5 years information about the products they supply (customers, products sold)
+- Be able to demonstrate traceability to the original due diligence statement
+
+================================================================
+COUNTRY RISK BENCHMARKING SYSTEM
+================================================================
+
+The Commission classifies countries (or parts of countries) into three categories:
+
+LOW RISK:
+- Countries presenting a low risk of having relevant commodities or products that do not comply
+- Operators may apply simplified due diligence for products from low-risk countries
+- Operators still collect required information but risk assessment is simplified
+
+STANDARD RISK:
+- Default classification for countries not designated as high or low risk
+- Full due diligence obligations apply
+
+HIGH RISK:
+- Countries presenting a high risk based on deforestation and governance indicators
+- Enhanced scrutiny applies
+- Competent authorities increase control rates and checks
+
+The Commission may update risk classifications based on new information, including requests from
+third countries or situations where deforestation concerns emerge.
+
+================================================================
+ENFORCEMENT AND PENALTIES
+================================================================
+
+COMPETENT AUTHORITIES:
+Each Member State designates one or more competent authorities responsible for:
+- Checking compliance of operators and traders
+- Applying the risk-based approach to checks
+- Verifying due diligence statements
+- Taking interim and permanent measures against non-compliant operators
+
+COMPLIANCE CHECKS:
+Competent authorities must:
+- Check at least 9% of operators and products from high-risk countries
+- Check at least 3% of operators and products from standard-risk countries
+- Check at least 1% of operators and products from low-risk countries
+
+INTERIM MEASURES (if non-compliance suspected):
+- Suspension of placing on market (72 hours for perishables; 3 working days for others)
+- Confiscation of relevant products
+- Suspension of export
+
+PENALTIES:
+Member States must provide for effective, proportionate and dissuasive penalties, including:
+- Fines proportional to environmental damage and value of affected commodities
+- Maximum fine of at least 4% of the operator's annual turnover in the Member State
+- Temporary exclusion from public procurement processes
+- Temporary prohibition from placing products on the Union market
+
+================================================================
+INFORMATION SYSTEM AND TRANSPARENCY
+================================================================
+
+EU INFORMATION SYSTEM (EUDR IS):
+Launched December 4, 2024. The system:
+- Collects and stores due diligence statements
+- Issues unique reference numbers for each statement
+- Interfaces with EU customs systems
+- Enables competent authorities to access and verify statements
+- Supports data exchange between Member States
+
+EU OBSERVATORY ON DEFORESTATION AND FOREST DEGRADATION:
+- Monitors global deforestation and forest degradation
+- Provides country-level data including geospatial information
+- Supports risk classification decisions
+- Informs stakeholders about deforestation trends
+
+================================================================
+IMPLEMENTATION TIMELINE
+================================================================
+
+29 June 2023: Regulation enters into force
+
+31 December 2020: Cut-off date for deforestation assessment (products must be produced
+on land not deforested after this date)
+
+30 December 2024: Obligations initially scheduled to apply (subsequently delayed)
+
+30 December 2026: Application date for:
+- Large operators (non-SMEs)
+- Medium operators (non-SMEs)
+- Small operators already subject to EU Timber Regulation
+
+30 June 2027: Application date for:
+- Micro-enterprises
+- Small enterprises (SMEs)
+- Small operators not previously under EU Timber Regulation
+
+================================================================
+INTERNATIONAL DIMENSION AND PARTNERSHIPS
+================================================================
+
+The regulation emphasizes:
+- Partnerships with producer countries to support compliance without harming local economies
+- Support for smallholders and indigenous and local communities
+- Respect for the principle of free, prior and informed consent
+- Alignment with international agreements: Paris Agreement, Convention on Biological Diversity,
+  UN Sustainable Development Goals, UNDRIP
+- Bilateral dialogues with major producer countries (Brazil, Indonesia, etc.)
+
+PARTNER COUNTRIES AND COOPERATION:
+- The Commission engages with producer countries to explain requirements
+- Financial support available through EU development funds for capacity building
+- Multi-stakeholder platform coordinates between industry, NGOs, governments, and communities
+
+================================================================
+FUTURE SCOPE EXPANSION
+================================================================
+
+The Commission must evaluate and report on extending the regulation's scope to:
+- Other wooded land (within 1 year of entry into force = by June 2024)
+- Other natural ecosystems including grasslands, peatlands, wetlands, mangroves, savanna
+  (within 2 years of entry into force = by June 2025)
+- Additional commodities such as maize, sugarcane, charcoal, bio-energy, and others
+  (within 2 years)
+
+================================================================
+RELATIONSHIP TO OTHER EU LEGISLATION
+================================================================
+
+REPEALS:
+- Regulation (EU) No 995/2010 (EU Timber Regulation / EUTR)
+
+COMPLEMENTS:
+- EU Biodiversity Strategy 2030
+- European Green Deal
+- Farm to Fork Strategy
+- EU Forest Strategy 2030
+
+================================================================
+KEY STATISTICS ON EU IMPACT
+================================================================
+
+- The EU regulation is projected to reduce carbon emissions by at least 32 million tonnes
+  of CO2 equivalent per year
+- The EU is one of the world's largest importers of commodities linked to deforestation
+- Approximately 10% of global deforestation is driven by EU consumption
+
+Source: EUR-Lex CELEX:32023R1115, accessed March 2026
+EC Environment website (environment.ec.europa.eu), accessed March 2026

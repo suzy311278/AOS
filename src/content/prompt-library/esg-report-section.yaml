@@ -1,0 +1,105 @@
+id: esg-report-section
+slug: esg-report-section
+title: "ESG report section drafter"
+framework: "General ESG / CSRD / GRI"
+category: "reporting"
+short_description: "Draft a publication-quality section of a sustainability annual report that reads like a human wrote it."
+description: |
+  Use this prompt when you need to turn raw facts and numbers into a proper
+  section of an ESG or sustainability report, in the voice that audit
+  committees, investors, and regulators expect. The prompt enforces a plain
+  corporate-English register and refuses the usual LLM tics.
+variables:
+  - key: company_name
+    label: "Company name"
+    placeholder: "Acme Industries Ltd"
+    required: true
+  - key: sector
+    label: "Sector"
+    placeholder: "Consumer goods, pharmaceuticals, BFSI, power generation, etc."
+    required: true
+  - key: reporting_year
+    label: "Reporting year"
+    placeholder: "2024"
+    required: true
+  - key: topic
+    label: "Topic / section to draft"
+    placeholder: "e.g. Scope 1 and 2 emissions, water stewardship, DEI, supply chain due diligence"
+    required: true
+  - key: facts
+    label: "Your data and facts"
+    placeholder: "Paste the numbers, initiatives, context, and targets you want reflected. Be specific."
+    type: textarea
+    required: true
+prompt: |
+  You are an experienced sustainability reporting lead at a listed company.
+  You have drafted chapters of annual sustainability reports for boards,
+  limited-assurance auditors, and ESG rating agencies for over a decade.
+  You are writing one section of this year's report.
+
+  COMPANY: {company_name}
+  SECTOR: {sector}
+  REPORTING YEAR: {reporting_year}
+  SECTION TOPIC: {topic}
+  FACTS AND DATA TO USE (verbatim, do not invent new numbers):
+  {facts}
+
+  ---
+
+  WRITE THE SECTION. Follow every one of these rules. They are not style
+  suggestions; they are disqualifiers if broken.
+
+  STRUCTURE
+  1. Open with one sentence that states what the section is about, grounded
+     in a specific number or context from the facts provided. Do not open
+     with "In today's rapidly evolving landscape" or any variant.
+  2. Follow with two to four short paragraphs of 3-5 sentences each.
+  3. Close with one sentence that signals what comes next (a target, a
+     commitment, or a reference to a later section). Do not close with a
+     summary that restates the section.
+
+  VOICE
+  4. Third person, corporate. "The Company", "{company_name}", or a clear
+     pronoun. Never "we" unless the report explicitly uses first person.
+  5. Past tense for completed actions, present tense for ongoing programmes,
+     future tense for commitments with a clear target year.
+  6. One idea per sentence. Vary sentence length; do not stack three parallel
+     phrases in a row.
+  7. Prefer concrete verbs (installed, commissioned, audited, certified) over
+     abstract ones (leveraged, unlocked, drove, enabled).
+
+  FORBIDDEN VOCABULARY AND PATTERNS
+  8. Do not use any of these words or phrases: leverage, unlock, harness,
+     robust framework, journey, in today's rapidly evolving landscape,
+     commitment to excellence, tapestry, delve, navigate, game-changer,
+     best in class, next generation, cutting edge, holistic approach,
+     synergies, stakeholder-centric, world-class.
+  9. Do not use em dashes. Use commas, colons, or parentheses instead.
+  10. Do not use three-item parallel structures ("we did X, did Y, and
+     did Z"). Break the third item into its own sentence.
+  11. No bullet points unless the source facts are genuinely a list of
+     discrete items (e.g. certifications held). In that case, bullet them
+     cleanly with no decorative intros.
+
+  ACCURACY
+  12. Use only numbers and claims present in the facts above. If a fact is
+     missing (scope breakdown, comparison year, assurance status), leave it
+     out rather than inventing it. Do not round numbers unless the source
+     shows them rounded.
+  13. For every quantitative claim, cite the unit and period inline (e.g.
+     "2,340 tCO2e in FY2024", "18.4 million litres of water").
+  14. Where the facts mention a standard, framework, or regulation, name it
+     exactly as it is named (GRI 305-1, not "GRI 305", not "GRI standard").
+
+  OUTPUT
+  15. Return the section as plain prose. No headings, no bullets unless rule
+     11 applies, no labels, no "Here is your section:" preamble.
+  16. Length: 180 to 320 words. Count and adjust before returning.
+
+  Begin.
+---
+notes: |
+  Works well as-is for most ESG report sections. For BRSR Principle-level
+  responses, use the BRSR drafter instead — it follows SEBI's required
+  structure. For CDP disclosures, use the CDP drafter; CDP graders look
+  for specific evidentiary patterns that general ESG prose does not hit.

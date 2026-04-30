@@ -1,0 +1,58 @@
+IPCC AR6 Synthesis Report: Climate Change 2023
+Overview and Key Findings
+Source: https://www.ipcc.ch/report/sixth-assessment-report-cycle/
+Crawled: March 2026
+
+REPORT OVERVIEW:
+The IPCC finalized the Sixth Assessment Report's Synthesis Report during the Panel's 58th Session held in Interlaken, Switzerland (March 13-19, 2023).
+
+REPORT FOUNDATION:
+The Synthesis Report synthesizes three Working Group Assessment Reports and three Special Reports:
+
+Working Groups:
+- WGI: The Physical Science Basis (2021)
+- WGII: Impacts, Adaptation and Vulnerability (2022)
+- WGIII: Mitigation of Climate Change (2022)
+
+Special Reports:
+- Global Warming of 1.5°C (SR1.5, 2018)
+- Climate Change and Land (SRCCL, 2019)
+- The Ocean and Cryosphere in a Changing Climate (SROCC, 2019)
+
+REPORT STRUCTURE:
+The approved outline consists of three main timeframe-based sections:
+1. "Current Status and Trends" - historical and present conditions
+2. "Long-term Climate and Development Futures" - projections to 2100 and beyond
+3. "Near-term Responses in a Changing Climate" - policy timeframes through 2030-2040
+
+AR6 SYNTHESIS REPORT KEY HEADLINES (from WGI Press Release, August 2021):
+
+- Human activities are responsible for approximately 1.1°C of warming since 1850-1900
+- Many changes are "unprecedented in thousands, if not hundreds of thousands of years"
+- "Unless there are immediate, rapid and large-scale reductions in greenhouse gas emissions," limiting warming to 1.5°C or 2°C will become impossible
+- Over the next 20 years, global temperatures are expected to reach or exceed 1.5°C of warming
+- Sea level rise will continue through the 21st century; 100-year extreme events potentially occurring annually by century's end
+- Arctic warming exceeds global averages by more than double
+
+KEY CROSS-REPORT THEMES:
+
+From WGII (Impacts):
+- Global warming of 1.5°C will produce unavoidable climate hazards over the next two decades
+- Exceeding this threshold even temporarily creates irreversible impacts
+- Mass mortalities occurring in trees, corals, and other species from heat, drought, and flooding
+- Adaptation progress remains uneven, with largest gaps among lower-income populations
+- Conserving 30-50% of Earth's land, freshwater, and ocean habitats supports carbon storage
+
+From WGIII (Mitigation):
+- Global greenhouse gas emissions in 2010-2019 reached their highest levels ever
+- Since 2010, solar and wind energy costs, plus battery technology, have dropped up to 85%
+- For 1.5°C limit: emissions must peak before 2025, reduce by 43% by 2030, reach net-zero CO2 in early 2050s
+- For 2°C limit: emissions peak before 2025, reduce by 25% by 2030, net-zero CO2 in early 2070s
+- Financial flows are 3-6 times below needed 2030 levels
+
+PREPARATION TIMELINE:
+- Core Writing Team Meeting 1: January 2021 (virtual)
+- Core Writing Team Meeting 2: August 2021 (virtual)
+- Core Writing Team Meeting 3: April 2022 (Dublin)
+- Core Writing Team Meeting 4: March 2023 (Interlaken)
+- Final approval: March 19, 2023

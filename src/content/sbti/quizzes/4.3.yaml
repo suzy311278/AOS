@@ -1,0 +1,44 @@
+- question: "What does the SBTi acronym FLAG stand for in the context of target-setting guidance?"
+  options:
+    - "Finance, Land, Agriculture, and Governance"
+    - "Forest, Land and Agriculture"
+    - "Fossil, Land, and Agricultural Greenhouse gases"
+    - "Future Land Allocation Guidelines"
+  answer: 1
+  explanation: "FLAG stands for Forest, Land and Agriculture. The FLAG Guidance (currently version 1.1) addresses the specific challenges of measuring, reporting, and targeting emissions and removals that arise from land-use activities -- including deforestation, agricultural processes, soil carbon, and forestry management. These land-sector emissions require a separate pathway and distinct accounting approach from fossil fuel combustion emissions."
+
+- question: "A food and beverage company finds that 75% of its total GHG footprint comes from land-use change, livestock, and soil emissions in its supply chain. Which of the following best describes its target-setting obligations?"
+  options:
+    - "The company may treat all its emissions under the standard cross-sector absolute reduction method, since all emissions are Scope 3"
+    - "The company must set a dedicated FLAG target following the FLAG Guidance in addition to any non-FLAG targets, because its land-sector emissions are clearly material"
+    - "The company is exempt from FLAG targets because land-sector emissions are not yet covered by the SBTi criteria"
+    - "The company only needs to set FLAG targets if it directly owns agricultural land"
+  answer: 1
+  explanation: "The SBTi's FLAG Guidance requires companies with material land-sector emissions to set dedicated FLAG targets. At 75% of total footprint, the company's FLAG emissions are highly material. The materiality threshold is not based on whether the company owns the land directly -- it is based on the share of emissions attributable to FLAG activities throughout the value chain, including supplier-level land-use change. The company must follow the FLAG pathway, which is distinct from the fossil fuel decarbonisation pathway."
+
+- question: "Under the SBTi's approach to combined vs. separate FLAG and non-FLAG targets, why does the SBTi generally require separate targets for companies with material FLAG emissions?"
+  options:
+    - "Because the FLAG Guidance was published after the Net-Zero Standard, making integration technically impossible"
+    - "Because the FLAG and non-FLAG decarbonisation pathways have different timelines and abatement options; combining them could allow overperformance in one area to mask underperformance in the other"
+    - "Because the GHG Protocol's Scope 3 Standard does not cover land-sector emissions, making combined accounting methodologically invalid"
+    - "Because FLAG targets are set in physical units (hectares) rather than emissions units (tCO2e), so they cannot be combined with fossil fuel emission targets"
+  answer: 1
+  explanation: "The SBTi requires separate FLAG and non-FLAG targets because the underlying science-derived pathways differ significantly. The abatement options, timelines, and measurement approaches for land-sector emissions are distinct from those for fossil fuel combustion emissions. A combined target could allow a company to achieve rapid decarbonisation in its energy-related emissions and use that to offset slower progress on its agricultural emissions -- undermining the integrity of both pathways. Keeping them separate ensures each is independently tracked and accountable."
+
+- question: "Which of the following correctly describes the SBTi's SME streamlined route for target-setting?"
+  options:
+    - "SMEs must follow the full standard validation process but receive a fee waiver"
+    - "SMEs can select from predefined near-term target options for Scope 1 and 2 and bypass the formal 24-month commitment step"
+    - "SMEs are required to set net-zero targets in addition to near-term targets as a condition of using the streamlined route"
+    - "SMEs submit targets directly to a national government body rather than to the SBTi for validation"
+  answer: 1
+  explanation: "The SME streamlined route allows companies qualifying as SMEs (typically fewer than 500 employees or under $50 million revenue and not listed on a major exchange) to bypass the formal commitment step and select from a menu of pre-approved near-term target options for Scope 1 and Scope 2. The submission process is simplified compared to the standard route. Critically, setting a net-zero target is optional -- not mandatory -- under the SME route, recognising that smaller organisations may lack the resources for long-term net-zero planning at the same level of sophistication as large corporations."
+
+- question: "For financial institutions using the FINZ (Financial Institutions Net-Zero) standard, which emission category typically dominates their total footprint and drives the design of their targets?"
+  options:
+    - "Scope 1 emissions from owned and operated data centres"
+    - "Scope 2 emissions from electricity consumed in bank branches"
+    - "Scope 3 Category 15 -- emissions attributable to the companies and projects they finance"
+    - "Scope 3 Category 6 -- business travel emissions from employees flying to client meetings"
+  answer: 2
+  explanation: "For financial institutions, Scope 3 Category 15 (Investments, or 'financed emissions') represents the overwhelming majority of their total GHG footprint. A large commercial bank may have financed billions of dollars of assets -- including fossil fuel extraction, heavy industry, and real estate -- whose operational emissions dwarf the bank's own direct operational footprint by orders of magnitude. The FINZ standard is built around requiring financial institutions to set portfolio-level alignment targets addressing these financed emissions, using methodologies such as the PCAF Standard for measurement."

@@ -1,0 +1,44 @@
+- question: "What GHG emission scopes are included in PAI Indicator 1 (GHG Emissions)?"
+  options:
+    - "Scope 1 only (direct emissions)"
+    - "Scope 1 and Scope 2 only"
+    - "Scope 1, Scope 2, and Scope 3 (where data is available)"
+    - "Scope 3 only (supply chain emissions)"
+  answer: 2
+  explanation: "PAI Indicator 1 (GHG Emissions) includes Scope 1 (direct emissions from owned/controlled sources), Scope 2 (indirect emissions from purchased energy), and Scope 3 (all other indirect emissions in the value chain) where data is available. Indicator 2 (Carbon Footprint) also uses Scope 1 + 2 + 3 total GHG emissions but presents them as a single normalised figure per €1 million invested."
+
+- question: "Which PAI indicator measures emissions efficiency relative to revenue (tCO₂eq per million EUR revenue)?"
+  options:
+    - "Indicator 1 — GHG Emissions"
+    - "Indicator 2 — Carbon Footprint"
+    - "Indicator 3 — GHG Intensity of Investee Companies"
+    - "Indicator 6 — Energy Consumption Intensity Per High Climate Impact Sector"
+  answer: 2
+  explanation: "Indicator 3 (GHG Intensity of Investee Companies) is the revenue-normalised emissions metric: GHG emissions divided by revenue (tCO₂eq per million EUR revenue). This allows comparison across companies of different sizes. Indicator 6 uses a similar intensity structure but is limited to high climate impact sectors and measures energy rather than GHG emissions."
+
+- question: "In the Carbon Footprint (Indicator 2) formula, what is the denominator used to normalise the portfolio's GHG attribution?"
+  options:
+    - "Revenue of all investee companies"
+    - "GDP of the investee companies' home countries"
+    - "Total portfolio market value (per €1 million invested)"
+    - "Enterprise value of all investee companies combined"
+  answer: 2
+  explanation: "In the Carbon Footprint indicator, the GHG attribution is normalised by total portfolio market value, expressed per €1 million invested. This enables comparison of carbon footprints across portfolios of different sizes. The result is in tCO₂eq per €1 million invested."
+
+- question: "What does Indicator 4 (Fossil Fuel Sector Exposure) measure?"
+  options:
+    - "The GHG emissions from fossil fuel companies in the portfolio"
+    - "The percentage of the portfolio invested in companies active in fossil fuel extraction, processing, storage, transport, or manufacture of fossil-fuel products"
+    - "The percentage of portfolio revenue derived from fossil fuel activities"
+    - "Carbon credits held by investee companies to offset fossil fuel activities"
+  answer: 1
+  explanation: "Indicator 4 measures the share (as a percentage) of total investments in companies active in fossil fuel exploration, mining, extraction, production, processing, storage, refining, distribution, trading, or combustion. The definition is broad and includes companies manufacturing equipment primarily for fossil fuel activities."
+
+- question: "Why is Indicator 7 (Biodiversity-Sensitive Areas) among the most challenging to measure in practice?"
+  options:
+    - "The EU Taxonomy does not yet cover biodiversity objectives"
+    - "Very few companies publicly disclose their impact on specific biodiversity sites such as Natura 2000, UNESCO World Heritage sites, or Key Biodiversity Areas"
+    - "The indicator requires satellite imagery that most FMPs cannot access"
+    - "The indicator is binary and therefore cannot be averaged across measurement dates"
+  answer: 1
+  explanation: "Indicator 7 is challenging primarily because very few companies publicly disclose whether they operate in or near specific biodiversity-sensitive areas and what negative effects their activities have on those areas. FMPs typically rely on specialist biodiversity data providers or make conservative assumptions, and must disclose the proportion of estimated data in their PAI statement."

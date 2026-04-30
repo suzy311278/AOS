@@ -1,0 +1,35 @@
+- question: "Who does PS 4 protect?"
+  options:
+    - "Only workers employed by the project"
+    - "Affected communities - people who live or work in the project's area of influence"
+    - "Only indigenous peoples near the project site"
+    - "Government officials responsible for project oversight"
+  answer: 1
+  explanation: "PS 4 focuses on protecting affected communities - people who are subject to risks from the project's activities. This is distinct from PS 2, which covers workers. Communities may face risks from infrastructure, pollution, influx of workers, or other project-related impacts."
+
+- question: "What additional requirements apply to projects involving high-risk infrastructure such as dams or tailings facilities?"
+  options:
+    - "No additional requirements beyond standard PS 4 provisions"
+    - "Only a basic safety inspection is required"
+    - "Independent safety reviews, emergency preparedness planning, and ongoing monitoring"
+    - "The client may self-certify safety without independent review"
+  answer: 2
+  explanation: "For structural elements with potential catastrophic consequences (such as dams or tailings facilities), PS 4 requires more rigorous measures: independent expert review of design and safety, comprehensive emergency preparedness and response plans, and ongoing monitoring and reporting."
+
+- question: "What does PS 4 require regarding private security personnel?"
+  options:
+    - "Security personnel may use any force necessary to protect project assets"
+    - "Only government security forces may be used"
+    - "Security personnel must act in accordance with relevant law, be trained in use of force, and not use force except for preventive and defensive purposes"
+    - "Security personnel are not addressed in the Performance Standards"
+  answer: 2
+  explanation: "PS 4 requires that security personnel - whether private or government - be trained in the use of force, act within applicable law, and use force only for preventive and defensive purposes proportional to the threat. The client must investigate any credible allegations of unlawful acts by security personnel."
+
+- question: "What must the client do if government security forces are deployed at the project site?"
+  options:
+    - "The client has no responsibility for government forces' actions"
+    - "Assess and document risks of the government security arrangement and encourage compliance with PS 4 principles"
+    - "Replace government forces with private security immediately"
+    - "Only monitor government forces during construction phase"
+  answer: 1
+  explanation: "When government security forces are deployed, the client must assess risks associated with the arrangement, communicate its requirements regarding use of force and human rights to the government, and encourage the security forces to act consistently with PS 4. The client must also investigate any credible allegations of abuse."

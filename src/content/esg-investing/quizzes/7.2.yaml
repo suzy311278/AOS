@@ -1,0 +1,44 @@
+- question: "Which of the following is the MOST important reason for putting ESG expectations into a formal investment mandate rather than leaving them as informal agreements?"
+  options:
+    - "Informal agreements are not legally binding and therefore carry no weight with fund managers"
+    - "Regulatory rules in all jurisdictions require ESG mandates to be in writing"
+    - "Formal mandates create accountability by providing a clear, enforceable basis against which the manager's delivery can be assessed"
+    - "Only written mandates allow a fund manager to charge a management fee"
+  answer: 2
+  explanation: "The core purpose of documenting ESG expectations in the formal mandate is accountability. Without clear written commitments, it is very difficult to assess whether a manager is delivering what was agreed. Informal expectations may be ignored when short-term pressures arise, and there is no agreed standard to return to in monitoring discussions."
+
+- question: "In the RFP (Request for Proposals) process, what is the primary purpose of the face-to-face 'beauty parade' interviews with shortlisted fund managers?"
+  options:
+    - "To formally award the mandate to the manager who presents the most attractive brand materials"
+    - "To allow the client to probe the depth of the manager's ESG approach beyond the written answers, testing specific cases where ESG factors have influenced actual investment decisions"
+    - "To negotiate the fee structure and legal terms of the investment management agreement"
+    - "To verify that the manager is a PRI signatory and therefore eligible for the mandate"
+  answer: 1
+  explanation: "Written RFP responses can be polished and generic. Face-to-face interviews allow the client to get beneath the surface — probing specific investment decisions, testing how ESG analysis influenced particular holdings, and assessing whether the manager's ESG integration is genuine and robust or largely a marketing narrative."
+
+- question: "For a passive / index-tracking mandate, which of the following is the primary mechanism through which ESG considerations can be incorporated?"
+  options:
+    - "The portfolio manager actively excludes individual holdings based on their ESG scores"
+    - "ESG integration is not feasible in passive mandates because the manager must replicate the index exactly"
+    - "The design of the index benchmark itself — including the choice of index, ESG tilts, and any exclusion overlays — along with the stewardship and voting programme"
+    - "The passive manager engages with every company in the index individually each year"
+  answer: 2
+  explanation: "Passive managers cannot exercise discretion over individual stock selection in the way active managers can. However, ESG integration in passive mandates happens through: (1) the choice of benchmark index (standard vs. ESG-tilted vs. ESG-screened), (2) any exclusion overlays applied on top of the index, and (3) the manager's stewardship and voting approach, which can still exert significant influence on portfolio companies."
+
+- question: "Which client type is MOST likely to apply broad exclusion policies to ensure investments are consistent with the organisation's founding aims?"
+  options:
+    - "A defined benefit pension scheme"
+    - "A life insurance company"
+    - "A charitable foundation or endowment"
+    - "A sovereign wealth fund"
+  answer: 2
+  explanation: "Charitable foundations and endowments have a mission-alignment imperative that goes beyond pure financial risk management. An environmental charity holding fossil fuel shares, or a health charity holding tobacco investments, faces a fundamental inconsistency with its stated purpose. As a result, exclusions are often more prominent for these investors than for, say, pension funds, where the primary ESG driver is fiduciary duty rather than mission consistency."
+
+- question: "When conducting ESG due diligence on a fund manager through an RFP process, which factor is described as providing the GREATEST confidence that ESG delivery will be consistent over time?"
+  options:
+    - "The manager's most recent annual ESG report shows a high volume of engagement meetings"
+    - "The manager is a signatory to the PRI and submits annual transparency reports"
+    - "The manager has a genuine, deeply-held ESG investment philosophy embedded across the firm, not just a specialist ESG team"
+    - "The manager's portfolio has a lower carbon intensity than its benchmark in the most recent period"
+  answer: 2
+  explanation: "A genuine ESG philosophy — one that is deeply embedded in the firm's investment culture rather than residing in a separate ESG team — provides the strongest assurance that ESG activity will continue consistently when performance pressures intensify. Individual metrics (engagement counts, carbon intensity) can fluctuate or be managed. A firm-wide philosophical commitment to ESG is much harder to fake and much more likely to sustain quality delivery over the long term."

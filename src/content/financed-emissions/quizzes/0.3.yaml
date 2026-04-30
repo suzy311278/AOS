@@ -1,0 +1,44 @@
+- question: "Which of the four PCAF business goals directly addresses the role of financed emissions data in climate risk management?"
+  options:
+    - "Create transparency for internal and external stakeholders"
+    - "Manage climate-related transition risks in the loan and investment portfolio"
+    - "Develop climate-friendly financial products and services"
+    - "Align financial flows with the Paris Agreement"
+  answer: 1
+  explanation: "Business Goal 2 is to manage climate-related transition risks. Financed emissions data helps financial institutions screen portfolios for concentration in emission-intensive sectors, identify transition risk hotspots, stress-test under different climate scenarios, and price climate risk into lending decisions. The TCFD's Metrics and Targets pillar reinforces this connection."
+
+- question: "A major commercial bank's Scope 1 emissions from its offices and vehicles are 50,000 tCO2e, and its financed emissions are 80 million tCO2e. What does this illustrate?"
+  options:
+    - "The bank's own operations are the primary source of its climate impact"
+    - "Financed emissions are a relatively minor consideration compared to operational emissions"
+    - "Financed emissions typically dwarf a financial institution's own operational Scope 1 and 2 emissions by orders of magnitude"
+    - "The bank's Scope 2 emissions must be very high to account for the difference"
+  answer: 2
+  explanation: "This comparison illustrates that financed emissions typically exceed a bank's own operational Scope 1 and 2 emissions by a factor of several hundred — in this case, 1,600 times. Industry data suggests financed emissions can be 500 to 700 times larger than operational emissions for large commercial banks. This is why financed emissions, not operational efficiency, are the decisive climate lever for financial institutions."
+
+- question: "The Paris Agreement's Article 2.1(c) is directly relevant to the financial sector because it calls for:"
+  options:
+    - "A price on carbon of at least $50 per tonne by 2025"
+    - "All financial institutions to achieve net-zero by 2040"
+    - "Making finance flows consistent with a pathway towards low greenhouse gas emissions and climate-resilient development"
+    - "Mandatory green bond issuance equal to 10% of a bank's total assets"
+  answer: 2
+  explanation: "Article 2.1(c) of the Paris Agreement is the dedicated finance article. It calls for 'making finance flows consistent with a pathway towards low greenhouse gas emissions and climate-resilient development.' This language directly implicates financial institutions as capital allocators and is the foundational policy basis for frameworks like PCAF, NZBA, and SBTi for financial institutions."
+
+- question: "Which net-zero alliance is targeted specifically at banks and requires PCAF-aligned financed emissions measurement?"
+  options:
+    - "Net-Zero Asset Owner Alliance (NZAOA)"
+    - "Net-Zero Banking Alliance (NZBA)"
+    - "Race to Zero"
+    - "Science Based Targets initiative (SBTi)"
+  answer: 1
+  explanation: "The Net-Zero Banking Alliance (NZBA), launched in April 2021 under the UN Environment Programme Finance Initiative, is specifically for banks. Members commit to aligning their lending and investment portfolios with net-zero by 2050, setting interim sectoral targets within 18 months of joining, and reporting annually using PCAF-aligned financed emissions methodology. The NZAOA is the equivalent for asset owners."
+
+- question: "PCAF explicitly states that a first-year reporter with imperfect data should:"
+  options:
+    - "Wait until they have Score 1 data quality across the entire portfolio before reporting"
+    - "Report only the asset classes for which they have verified company emissions"
+    - "Start measuring with the best available data and improve data quality over time"
+    - "Engage an external auditor to verify all financed emissions before disclosure"
+  answer: 2
+  explanation: "PCAF's standard encourages financial institutions to start measuring and reporting with the best data currently available, even if significant portions of the portfolio rely on proxy estimates (Score 3-5). The standard explicitly acknowledges that data limitations exist for SMEs and emerging markets. The goal is progressive improvement, not perfection from day one."

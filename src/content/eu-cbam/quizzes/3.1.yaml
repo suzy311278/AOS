@@ -1,0 +1,26 @@
+- question: "When did the CBAM transitional period begin, and what was the first reporting deadline?"
+  options:
+    - "1 January 2023, with reports due by 30 April 2023"
+    - "1 October 2023, with the first report due by 31 January 2024"
+    - "1 January 2024, with the first report due by 31 March 2024"
+    - "1 October 2023, with the first report due by 31 December 2023"
+  answer: 1
+  explanation: "The CBAM transitional period began on 1 October 2023 and covered Q4 2023, with the first quarterly CBAM report due by 31 January 2024. Subsequent reports covered each calendar quarter and were due within one month of the quarter's end."
+
+- question: "Which of the three reporting pathways for embedded emissions was available only until 31 July 2024?"
+  options:
+    - "The EU Method using actual installation data"
+    - "The equivalent method based on third-country national MRV systems"
+    - "Reporting based on Commission-published default reference values"
+    - "Reporting using EU ETS benchmark values"
+  answer: 2
+  explanation: "Default reference values were only permitted until 31 July 2024. They were deliberately time-limited to incentivise importers to obtain actual emission data from their suppliers rather than relying indefinitely on conservative Commission-published defaults."
+
+- question: "During the transitional period, what financial obligation did importers NOT have to fulfil?"
+  options:
+    - "Submitting quarterly reports on embedded emissions"
+    - "Declaring the country of origin of imported goods"
+    - "Purchasing and surrendering CBAM certificates"
+    - "Reporting any carbon price paid in the country of production"
+  answer: 2
+  explanation: "The transitional period was a reporting-only phase. Importers had to submit quarterly reports covering quantities, embedded emissions, country of origin, and any third-country carbon prices, but they were not required to purchase or surrender CBAM certificates. That financial obligation began only in the definitive period from 1 January 2026."

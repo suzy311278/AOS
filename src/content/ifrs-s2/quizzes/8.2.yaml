@@ -1,0 +1,26 @@
+- question: "IFRS S2 is described as a 'global baseline.' Which of the following best describes what this means for jurisdictional requirements?"
+  options:
+    - "All jurisdictions must adopt IFRS S2 without any modifications"
+    - "Jurisdictions may add supplementary requirements above the IFRS S2 baseline, and entities meeting those higher requirements automatically meet IFRS S2"
+    - "IFRS S2 replaces all existing national climate standards"
+    - "The baseline is a maximum — jurisdictions may reduce requirements below IFRS S2"
+  answer: 1
+  explanation: "IFRS S2 functions as a floor — a comprehensive global minimum. Jurisdictions can layer additional requirements on top. An entity fully complying with a more demanding jurisdictional standard (e.g., ESRS in the EU) automatically meets the IFRS S2 baseline."
+
+- question: "Which of the following is the most accurate description of the relationship between IFRS S2 and the EU's ESRS E1 (Climate Change)?"
+  options:
+    - "They are completely separate standards with no compatibility"
+    - "ESRS E1 is a subset of IFRS S2 — meeting IFRS S2 ensures ESRS compliance"
+    - "They are designed for interoperability; EU entities can produce integrated disclosures meeting both, though ESRS E1 goes further in some areas"
+    - "IFRS S2 is mandatory in the EU and replaces ESRS E1"
+  answer: 2
+  explanation: "ESRS E1 and IFRS S2 were designed for interoperability. EU entities subject to both can produce integrated disclosures. However, ESRS E1 goes further in some areas (e.g., more prescriptive physical hazard assessment, more detailed transition plan requirements), so meeting ESRS E1 does not automatically mean meeting IFRS S2 — the entity must check both."
+
+- question: "An entity already reporting GRI 305 (Emissions) data. What is the key gap it needs to address to also comply with IFRS S2's GHG requirements?"
+  options:
+    - "GRI 305 uses different greenhouse gases — IFRS S2 requires the seven Kyoto gases"
+    - "The Scope 3 measurement framework (B38-B57) and data quality prioritisation requirements"
+    - "GRI 305 does not require Scope 1 disclosure — this must be added for IFRS S2"
+    - "GRI 305 is not compatible with the GHG Protocol"
+  answer: 1
+  explanation: "GRI 305 and IFRS S2 both use the GHG Protocol as the basis and cover Scope 1, 2, and 3 emissions. The key gap for GRI reporters moving to IFRS S2 is the structured Scope 3 measurement framework (Application Guidance B38-B57), which requires explicit documentation of data quality prioritisation. Additionally, the financial effects disclosures (Para 15-21) and the structured governance, strategy, and risk management disclosures are largely absent from GRI."

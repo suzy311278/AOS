@@ -1,0 +1,35 @@
+- question: "What must EVERY financial product's pre-contractual document include under Article 6 of SFDR?"
+  options:
+    - "A description of how sustainable investments are selected for the portfolio"
+    - "How sustainability risks are integrated into investment decisions and the likely impact of sustainability risks on returns"
+    - "The product's Article 8 or 9 classification and the binding ESG criteria applied"
+    - "The PAI indicators that are considered at product level"
+  answer: 1
+  explanation: "Article 6 requires ALL financial products (including Article 6 mainstream products) to disclose in pre-contractual documents: (1) how sustainability risks are integrated into investment decisions for that product, and (2) the likely impact of sustainability risks on the product's returns. This applies universally, regardless of whether the product has any ESG features."
+
+- question: "Under Article 6(1), when may a financial market participant state that sustainability risks are 'not relevant' in a product's pre-contractual document?"
+  options:
+    - "Always — it is a standard option for all Article 6 products"
+    - "Only when the product is a money market fund"
+    - "When the firm can provide a clear, documented explanation of why sustainability risks are not material to that specific product — though this position is increasingly difficult to justify"
+    - "When the product has fewer than 20 underlying holdings"
+  answer: 2
+  explanation: "Article 6(1) allows the 'not relevant' position with a clear explanation of why sustainability risks are not considered relevant. However, ESMA Q&A I.5 makes clear that this position cannot override substantive obligations under other EU law (e.g., AIFMD risk management rules). Regulators are increasingly sceptical of blanket 'not relevant' positions for all but the most constrained investment mandates."
+
+- question: "Is Article 6 a classification of 'non-sustainable' or 'irresponsible' products?"
+  options:
+    - "Yes — Article 6 products are designated as mainstream/non-ESG products"
+    - "No — Article 6 sets the minimum disclosure baseline for all products; it does not carry a negative sustainability designation"
+    - "Yes — Article 6 products may not invest in any company with ESG ratings"
+    - "No — but Article 6 products must include a disclaimer that they are not sustainable"
+  answer: 1
+  explanation: "Article 6 is not a negative category. It is the baseline that all products must meet. A product classified as Article 6 may still integrate ESG risks rigorously — it simply does not make specific claims about promoting E/S characteristics (Article 8) or having a sustainable investment objective (Article 9). The absence of a higher-level claim is not the same as a negative sustainability rating."
+
+- question: "How should an Article 6 sustainability risk disclosure differ from a copy of the entity-level Article 3 policy?"
+  options:
+    - "It should be longer and more detailed than the entity-level policy"
+    - "It should be product-specific, explaining how sustainability risks are integrated for this particular fund given its investment universe and strategy"
+    - "It can be an identical copy of the Article 3 policy since both cover sustainability risk integration"
+    - "It only needs to address environmental risks, not social or governance risks"
+  answer: 1
+  explanation: "The Article 6 product-level disclosure should be tailored to the specific product. While consistent with the entity-level Article 3 policy, it should explain which sustainability risks are most material for this particular product (e.g., a government bond fund faces different sustainability risks than an emerging market equity fund) and how those specific risks influence investment decisions for that product."

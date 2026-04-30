@@ -1,0 +1,44 @@
+- question: "The PCAF Disclosure Checklist is organised into six sections. Which section specifically assesses the weighted average data quality score, data sources, and improvement plans?"
+  options:
+    - "Section 1: General Disclosure Criteria"
+    - "Section 3: Absolute Emissions"
+    - "Section 5: Recalculation"
+    - "Section 6: Data Quality"
+  answer: 3
+  explanation: "Section 6 of the DCL covers data quality comprehensively: the weighted average data quality score by asset class, the data sources used for each option (1a, 1b, 2, 3a, etc.), improvement plans, and year-on-year progress. Section 3 (Absolute Emissions) addresses what was disclosed but not how reliable the data is. Questions about data quality infrastructure and improvement trajectory belong in Section 6."
+
+- question: "Under PCAF's four-step signatory process, what is required at Step 1 (Commit)?"
+  options:
+    - "Full publication of financed emissions across all material asset classes"
+    - "Sign the commitment letter, be publicly listed as a PCAF signatory, and commit to beginning measurement within 12 months"
+    - "Achieve a weighted average data quality score below 3.0 across the portfolio"
+    - "Complete the PCAF Disclosure Checklist review with the Secretariat"
+  answer: 1
+  explanation: "Step 1 (Commit) requires only that the institution signs the PCAF commitment letter and accepts public listing as a PCAF signatory. No financed emissions disclosure is required at this point. The commitment includes beginning the measurement process within 12 months. Steps 2 (Measure), 3 (Disclose), and 4 (Improve) progressively require calculation, publication, and year-on-year improvement."
+
+- question: "A financial institution wants to keep its financed emissions disclosure confidential and share it only with selected institutional investors. Is this permitted under PCAF?"
+  options:
+    - "Yes, provided PCAF receives a private copy"
+    - "Yes, for the first three years of PCAF membership"
+    - "No — PCAF requires that financed emissions disclosures are publicly available"
+    - "Yes, for insurers and asset managers but not for banks"
+  answer: 2
+  explanation: "PCAF requires that financed emissions disclosures be publicly available. The disclosure channel is flexible (sustainability report, TCFD report, dedicated website page, CDP submission) but not the accessibility: it must be publicly accessible. A confidential disclosure shared only with investors does not satisfy PCAF requirements. This public accessibility requirement is fundamental to PCAF's goal of creating market transparency."
+
+- question: "A bank switches from one data provider to another between Year 1 and Year 2. Year 2 reported financed emissions are 15% lower than Year 1 — but the bank suspects 8% of this difference is due to the provider switch. What must the bank do?"
+  options:
+    - "Nothing; provider switches are routine and no disclosure is needed"
+    - "Disclose the provider change, its rationale, and the estimated impact (8%) on the time series; assess whether base year recalculation is required"
+    - "Retroactively recalculate all prior years using the new provider before any disclosure"
+    - "Report only the current year's figures and omit the prior year comparison"
+  answer: 1
+  explanation: "When switching data providers, PCAF requires disclosure of the change, the reasons for it, and its estimated impact on the reported trend. In this case, the bank should clearly state that 8 percentage points of the 15% apparent reduction are methodological (provider switch) rather than real-world emissions reductions. The bank should also assess whether the 8% impact exceeds its significance threshold and, if so, recalculate the base year using the new provider's data."
+
+- question: "Which of the following correctly describes how disclosed emission removals should appear in the PCAF reporting table?"
+  options:
+    - "Removals reduce the absolute emissions total: Reported emissions = Gross emissions − Removals"
+    - "Removals are listed in a separate row below absolute emissions with a negative sign, alongside a note that they are not netted against gross emissions"
+    - "Removals are reported only in the TCFD section of the sustainability report, not in the PCAF table"
+    - "Removals are excluded from PCAF reporting if they relate to nature-based solutions"
+  answer: 1
+  explanation: "PCAF requires attributed emission removals to be disclosed separately and not netted against absolute emissions. In the PCAF reporting table, they typically appear as a separate row below the absolute financed emissions figure, clearly labelled to prevent misinterpretation. The absolute emissions figure must remain gross (before removals). Netting removals against absolute emissions would obscure the gross GHG footprint and undermine the comparability and credibility of the disclosure."

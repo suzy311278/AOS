@@ -1,0 +1,26 @@
+- question: "What is the EU Taxonomy?"
+  options:
+    - "A list of companies that are environmentally sustainable"
+    - "A classification system defining which economic activities qualify as environmentally sustainable"
+    - "A regulation that bans investment in non-green activities"
+    - "A carbon tax on EU companies"
+  answer: 1
+  explanation: "The EU Taxonomy classifies economic activities, not companies. It defines criteria for what counts as environmentally sustainable but does not prohibit non-green investment."
+
+- question: "What does the EU Taxonomy classify?"
+  options:
+    - "Entire companies as green or not green"
+    - "Countries by their climate ambition"
+    - "Economic activities"
+    - "Financial products"
+  answer: 2
+  explanation: "The taxonomy classifies economic activities, not companies. A single company can have some aligned and some non-aligned activities."
+
+- question: "When did the EU Taxonomy Regulation enter into force?"
+  options:
+    - "January 2018"
+    - "July 2020"
+    - "January 2022"
+    - "January 2024"
+  answer: 1
+  explanation: "Regulation (EU) 2020/852 entered into force on 12 July 2020. The technical criteria (delegated acts) came later."

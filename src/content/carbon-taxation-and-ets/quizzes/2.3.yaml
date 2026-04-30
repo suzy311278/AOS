@@ -1,0 +1,44 @@
+- question: "What is carbon leakage?"
+  options:
+    - "CO2 escaping from pipelines"
+    - "Production and emissions shifting to jurisdictions without carbon pricing"
+    - "Inaccurate emissions measurement"
+    - "Revenue loss from tax evasion"
+  answer: 1
+  explanation: "Carbon leakage occurs when production moves from jurisdictions with carbon pricing to those without it, potentially increasing global emissions if the relocated production is more carbon-intensive."
+
+- question: "Which industries face the highest leakage risk?"
+  options:
+    - "Local services like restaurants"
+    - "Energy-intensive, trade-exposed industries like steel, cement, and aluminum"
+    - "Software companies"
+    - "Retail stores"
+  answer: 1
+  explanation: "Industries that are both energy-intensive (high carbon costs) and trade-exposed (face international competition) have the highest risk of relocating production to avoid carbon costs."
+
+- question: "What is output-based allocation?"
+  options:
+    - "Measuring emissions based on facility output"
+    - "Providing free allowances or rebates based on production levels"
+    - "Taxing only exported goods"
+    - "Banning imports from unregulated countries"
+  answer: 1
+  explanation: "Output-based allocation gives facilities free allowances or rebates proportional to their production, reducing the competitiveness impact while maintaining incentives for efficiency improvements."
+
+- question: "What is a carbon border adjustment?"
+  options:
+    - "A tax on imported goods from jurisdictions without carbon pricing"
+    - "Adjusting the domestic carbon price at borders"
+    - "Exempting exports from carbon pricing"
+    - "Refunding all carbon costs to exporters"
+  answer: 0
+  explanation: "Border carbon adjustments impose charges on imports from countries without equivalent carbon pricing, leveling the playing field for domestic producers and reducing leakage incentives."
+
+- question: "Why are border adjustments controversial in international trade?"
+  options:
+    - "They are simple to implement"
+    - "Concerns about WTO compatibility, complexity, and fairness to developing countries"
+    - "They generate no revenue"
+    - "All countries support them"
+  answer: 1
+  explanation: "Border adjustments face legal questions about WTO rules, implementation complexity (how to measure embedded carbon), and developing country concerns about market access."

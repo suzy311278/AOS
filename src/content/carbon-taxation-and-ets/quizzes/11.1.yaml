@@ -1,0 +1,44 @@
+- question: "What is linking in the context of carbon markets?"
+  options:
+    - "Connecting computers"
+    - "Allowing allowances from one carbon pricing system to be used for compliance in another"
+    - "Linking climate policies to other regulations"
+    - "Website hyperlinks"
+  answer: 1
+  explanation: "Linking connects two or more carbon pricing systems so that allowances or credits from one can be used for compliance in the other, expanding the market and potentially reducing costs."
+
+- question: "What is the main benefit of linking carbon markets?"
+  options:
+    - "Political prestige"
+    - "Economic efficiency through larger market and access to lower-cost reductions"
+    - "Eliminating all administrative work"
+    - "Guaranteed emissions reductions"
+  answer: 1
+  explanation: "Linking expands the market, allowing reductions to occur wherever they cost least across linked jurisdictions, improving economic efficiency and reducing overall compliance costs."
+
+- question: "What is one-way linking?"
+  options:
+    - "Allowances from System A can be used in System B, but not vice versa"
+    - "Trading only on Mondays"
+    - "Only one country participates"
+    - "No actual linking"
+  answer: 0
+  explanation: "One-way linking creates an asymmetric relationship where one system accepts the other's allowances but not vice versa, often used when systems have different ambition levels or design features."
+
+- question: "What is a key prerequisite for successful linking?"
+  options:
+    - "Identical populations"
+    - "Similar MRV standards, comparable stringency, and mutual trust in enforcement"
+    - "Same language"
+    - "Geographic proximity"
+  answer: 1
+  explanation: "Successful linking requires compatible systems with similar monitoring standards, comparable cap stringency or price levels, aligned compliance rules, and mutual confidence in each other's enforcement."
+
+- question: "What is an example of successful market linking?"
+  options:
+    - "EU-US link"
+    - "California-Quebec link"
+    - "China-India link"
+    - "No successful links exist"
+  answer: 1
+  explanation: "California and Quebec linked their cap-and-trade systems in 2014, creating a successful cross-border carbon market with joint auctions and full mutual recognition of allowances."

@@ -1,0 +1,119 @@
+{/* source: PCAF Standard Part A (3rd Edition), Chapter 5.2 */}
+
+**Business loans and unlisted equity** cover the lending and investment activities of financial institutions with privately held companies. This is typically the largest and most data-challenging asset class for commercial banks, as private companies have no publicly observable market price and disclosure obligations that are far less stringent than those for listed entities.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/financed-emissions/2_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Asset Class Definition
+
+This asset class includes:
+- **Business loans**: On-balance-sheet lending to privately held companies and listed companies for general corporate purposes (no specified use of proceeds)
+- **Unlisted equity**: Equity stakes in private companies (private equity investments)
+
+<HighlightBox>
+Business loans for specific purposes with a known use of proceeds (e.g., a dedicated renewable energy facility) may be accounted for under the "Use of Proceeds Structures" asset class (Chapter 5.7), even if the financial institution internally uses the "business loans" terminology. The key distinction is whether the proceeds are tied to a specific, identifiable activity.
+</HighlightBox>
+
+## Emission Scopes Covered
+
+Financial institutions shall report absolute **Scope 1, Scope 2, and Scope 3 emissions** of borrowers and investees across all sectors. Scope 3 financed emissions shall be disclosed separately from Scope 1 and 2 financed emissions.
+
+## Attribution of Emissions
+
+### For Private Company Loans and Unlisted Equity
+
+The attribution factor uses the **total equity plus debt** from the company's balance sheet as the denominator:
+
+<EquationBreakdown
+  title="Business Loans - Attribution Factor (Private Companies)"
+  result="AF | Attribution Factor | The financial institution's proportional share of the borrower's emissions | blue"
+  inputs="Outstanding Amount | Outstanding Amount | Disbursed loan amount minus repayments, declining over time as the loan is repaid | green ;; E + D | Total Equity + Total Debt | Sum of total equity and total debt (current + long-term) from the company's balance sheet | amber"
+  operator="÷"
+/>
+
+Total debt includes both current and long-term debt on the balance sheet.
+
+**For loans**: The outstanding amount is the disbursed amount minus any repayments. It declines over time as the loan is repaid.
+
+**For unlisted equity**: The outstanding amount is calculated as:
+
+<EquationBreakdown
+  title="Outstanding Amount - Unlisted Equity"
+  result="OA | Outstanding Amount | The financial institution's equity stake value in the unlisted company | blue"
+  inputs="Share Ratio | Ownership Share | Shares held by the FI divided by total shares of the investee company | green ;; Total Equity | Total Equity of Investee | The investee company's total equity from its balance sheet | amber"
+/>
+
+### For Business Loans to Listed Companies
+
+When a bank provides a business loan to a listed company (general purpose, no specific use of proceeds), the denominator shifts to EVIC rather than balance sheet equity plus debt:
+
+<EquationBreakdown
+  title="Business Loans - Attribution Factor (Listed Borrower)"
+  result="AF | Attribution Factor | The financial institution's share when lending to a listed company | blue"
+  inputs="Outstanding Amount | Outstanding Amount | Disbursed loan amount minus repayments | green ;; EVIC | Enterprise Value Including Cash | Market cap + book value of total debt + minority interests of the listed borrower | amber"
+  operator="÷"
+/>
+
+### Handling Negative Equity
+
+If the total company equity value is negative (common for startups with significant accumulated losses), the financial institution shall **set total equity to zero**. This means all emissions are attributed to debt providers only, with no attribution to equity holders.
+
+<ExampleBox>
+**Portfolio example: Forestry, industrial, and energy companies**
+
+An FI holds positions in three companies. All numbers are in tCO2e for reporting year 2020.
+
+| Company | Scope 1 | Scope 2 | Scope 3 | Emission Removals | Carbon Credits Generated | Attribution Factor |
+|---------|---------|---------|---------|------------------|------------------------|-------------------|
+| Forestry | 1,000 | 100 | 5,000 | 20,000 | 5,000 | 10% |
+| Industrial | 20,000 | 5,000 | 30,000 | 0 | 0 | 25% |
+| Energy | 5,000 | 0 | 10,000 | 1,000 | 500 | 20% |
+
+**Portfolio totals:**
+- Scope 1: (1,000×10%) + (20,000×25%) + (5,000×20%) = 100 + 5,000 + 1,000 = **6,100 tCO2e**
+- Scope 2: (100×10%) + (5,000×25%) = 10 + 1,250 = **1,260 tCO2e**
+- Scope 3: (5,000×10%) + (30,000×25%) + (10,000×20%) = 500 + 7,500 + 2,000 = **10,000 tCO2e**
+- Emission Removals: (20,000×10%) + (1,000×20%) = 2,000 + 200 = **2,200 tCO2e**
+- Carbon Credits Generated: (5,000×10%) + (500×20%) = 500 + 100 = **600 tCO2e**
+</ExampleBox>
+
+## Data Quality Options
+
+The three options for estimating emissions apply here with specific sub-options:
+
+<DeepDive title="Detailed Data Quality Options for Business Loans & Unlisted Equity">
+**Option 1: Reported Emissions**
+- **Score 1a**: Outstanding amount and total equity + debt known; verified emissions available
+- **Score 1b**: Outstanding amount and total equity + debt known; unverified emissions reported by the company
+
+**Option 2: Physical Activity-Based Emissions**
+- **Score 2a**: Company-specific energy consumption data and energy-source-specific emission factors used (Scope 1 and 2 only)
+- **Score 2b**: Company-specific production data (e.g., tonnes of rice) and production-specific emission factors used
+
+**Option 3: Economic Activity-Based Emissions**
+- **Score 3a**: Company revenue and total equity + debt known; sector-level emission factors per unit of revenue applied
+- **Score 3b**: Only outstanding amount known; sector-level emission factors per unit of assets applied
+- **Score 3c**: Only outstanding amount known; sector-level asset turnover ratios and emission factors per unit of revenue applied
+</DeepDive>
+
+For **Options 3b and 3c**, the attribution factor cannot be calculated precisely because the denominator (total equity + debt) is unknown. PCAF allows rough estimations on attribution using region- and sector-specific average financial data combined with the actual outstanding amount.
+
+## Revolving Credit Facilities
+
+For revolving credit facilities and other financing with significant interannual fluctuations, PCAF acknowledges the difficulty of capturing emissions accurately using the year-end outstanding balance. Seasonal businesses, for instance, may draw heavily on revolving credit at certain times of year but repay rapidly at other times.
+
+Financial institutions should be **transparent about any major last-minute increases or decreases** in facility balances at fiscal year end, since these can significantly inflate or deflate reported financed emissions. PCAF guidance on this is under further development.
+
+## Key Limitations
+
+**Generality of Option 3**: Sector-average emission factors from EEIO databases may not accurately reflect the specific emissions profile of individual borrowers. For example, two manufacturing companies in the same sector may have very different emissions profiles depending on their energy sources, technology vintage, and operating efficiency.
+
+**Timing of emissions**: Year-end outstanding balances may miss significant intra-year activity for revolving credit facilities and seasonal businesses.
+
+**Data availability**: Private companies have limited disclosure obligations, making it difficult to obtain company-specific emissions data. This is particularly acute for SMEs in emerging markets.
+
+<AnalogyBox>
+Attributing emissions for business loans is like dividing the bill at a large dinner where each person ordered differently, paid at different times, and some people left early. You need a fair rule for dividing the tab. PCAF's rule is: your share of the tab equals your share of the total financing provided to the company. This will not perfectly capture every nuance, but it is consistent and replicable.
+</AnalogyBox>
+
+<KeyTakeaways items="Business loans and unlisted equity use total equity plus debt from the balance sheet as the denominator - for loans to listed companies, use EVIC instead ;; If a company has negative equity, set it to zero so all emissions are attributed to debt providers only ;; Loans with a known use of proceeds may be accounted for under the Use of Proceeds asset class (Chapter 5.7) even if internally labelled as business loans ;; Revolving credit facilities pose timing challenges - year-end balances may not represent typical exposure levels throughout the year ;; Private companies present the biggest data quality challenge due to limited disclosure obligations, especially SMEs in emerging markets" />

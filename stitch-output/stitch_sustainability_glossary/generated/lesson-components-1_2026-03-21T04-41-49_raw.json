@@ -1,0 +1,263 @@
+{
+  "outputComponents": [
+    {
+      "designSystem": {
+        "designSystem": {
+          "displayName": "The Scholarly Canopy",
+          "theme": {
+            "bodyFont": "INTER",
+            "colorMode": "LIGHT",
+            "colorVariant": "FIDELITY",
+            "customColor": "#005c55",
+            "designMd": "```markdown\n# Design System Strategy: The Scholarly Canopy\n\n## 1. Overview & Creative North Star\n**Creative North Star: \"The Living Archive\"**\n\nThis design system moves away from the sterile, rigid layouts of traditional Learning Management Systems (LMS). Instead, it adopts the persona of a high-end digital broadsheet—an interface that feels like a curated, scientific exhibition. The \"Scholarly Canopy\" concept bridges the gap between dense academic rigor and the airy, rhythmic breathing of a premium editorial piece.\n\nTo achieve this, we reject the \"boxed-in\" web standard. We utilize **intentional asymmetry**, where text columns are offset to create natural focal points, and **tonal layering**, where depth is communicated through shifts in botanical-inspired neutrals rather than harsh structural lines. This is a space where science feels beautiful and complexity feels navigable.\n\n---\n\n## 2. Colors & Surface Philosophy\nThe palette is rooted in `primary` (#00433d), a deep, intellectual forest teal, supported by a sophisticated range of \"Surface\" tokens that mimic the varying textures of archival paper and vellum.\n\n### The \"No-Line\" Rule\nTraditional 1px borders are strictly prohibited for sectioning. They create visual noise that distracts from the content. Instead, define boundaries through:\n*   **Background Shifts:** Place a `surface-container-low` component against a `surface` background.\n*   **Tonal Transitions:** Use the `outline-variant` token at 10-15% opacity only if a subtle edge is required for accessibility.\n\n### Surface Hierarchy & Nesting\nTreat the UI as a series of nested physical layers. \n*   **Base:** `surface` (#f9faf8)\n*   **Sectioning:** Use `surface-container` (#edeeec) for large content blocks.\n*   **Focus Elements:** Use `surface-container-lowest` (#ffffff) for active lesson cards to make them \"pop\" forward naturally.\n\n### The \"Glass & Gradient\" Rule\nTo prevent a \"flat\" feel, floating navigation or progress overlays should utilize **Glassmorphism**. Apply a 20px `backdrop-blur` to `surface` at 80% opacity. For primary CTAs, use a subtle linear gradient from `primary` (#00433d) to `primary_container` (#005c55) to provide a \"lit from within\" professional polish.\n\n---\n\n## 3. Typography: Editorial Authority\nThe interplay between **Manrope** and **Inter** creates a dialogue between the visionary (Heading) and the functional (Body).\n\n*   **Display & Headline (Manrope):** These are your \"Architectural\" elements. Use `display-lg` with tight letter-spacing (-0.02em) for lesson titles. The high x-height of Manrope conveys modern authority.\n*   **Body & Labels (Inter):** Inter is the \"Workhorse.\" Use `body-lg` for lesson content with an increased line-height (1.6) to ensure long-form academic text remains highly readable.\n*   **The Tonal Scale:** Use `on_surface_variant` (#3f4947) for secondary body text to reduce eye strain and create a sophisticated, muted contrast against the crisp `primary` headlines.\n\n---\n\n## 4. Elevation & Depth: Tonal Layering\nWe do not use shadows to simulate height; we use light and opacity.\n\n*   **The Layering Principle:** Depth is achieved by \"stacking.\" A `surface-container-highest` element placed on a `surface` background creates a perceived elevation of +2 without a single shadow.\n*   **Ambient Shadows:** If a floating element (like a modal) is necessary, use an ultra-diffused shadow: `box-shadow: 0 20px 40px rgba(25, 28, 27, 0.06)`. The shadow color must be derived from `on_surface`, never pure black.\n*   **Ghost Borders:** If a card requires a border on a white background, use `outline-variant` (#bec9c6) at 20% opacity. It should be felt, not seen.\n\n---\n\n## 5. Components\n\n### Buttons & CTAs\n*   **Primary:** Solid `primary` background with `on_primary` text. Use `spacing-6` (2rem) for horizontal padding.\n*   **Secondary:** `primary_container` background with `on_primary_container` text. This is for secondary actions like \"Save Progress.\"\n*   **Tertiary:** No background. Use `primary` text with a `spacing-1.5` underline that expands on hover.\n\n### Educational \"Insight\" Cards\n*   **Style:** Forbid dividers. Separate header from body using a `spacing-4` vertical gap.\n*   **Accents:** Use the accent tokens (`tertiary` for Amber, `secondary` for Green) as a 4pt vertical \"accent bar\" on the left side of the card to categorize content types (e.g., Violet for \"Exercise,\" Amber for \"Warning\").\n\n### Progress Indicators\n*   **Track:** `surface-container-highest`.\n*   **Indicator:** A gradient transition from `secondary` to `primary`.\n\n### Input Fields\n*   **Form:** `surface-container-low` background, no border.\n*   **Focus State:** A 2px \"Ghost Border\" using `primary` at 40% opacity and a subtle `surface-tint` glow.\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do:\n*   **Use Asymmetric Padding:** Align text-heavy content to a 65% width column, leaving the remaining 35% for \"The Canopy\"—secondary citations, images, or white space.\n*   **Embrace Large Radii:** Stick to the `DEFAULT` (8px) for cards, but use `full` (9999px) for chips and tags to contrast the rigid typography.\n*   **Prioritize Rhythmic Spacing:** Use `spacing-12` (4rem) between major lesson sections to allow the user's mind to \"reset.\"\n\n### Don’t:\n*   **Don’t use 100% Black:** Never use `#000000`. Use `on_background` (#191c1b) for all text to maintain the organic, academic feel.\n*   **Don’t use Dividers:** If you feel the need for a horizontal line, use a `spacing-8` (2.75rem) gap instead.\n*   **Don’t Crowd the Canopy:** Avoid filling every corner of the screen. High-end design is defined by what you leave out.```",
+            "font": "MANROPE",
+            "headlineFont": "MANROPE",
+            "labelFont": "INTER",
+            "namedColors": {
+              "background": "#f9faf8",
+              "error": "#ba1a1a",
+              "error_container": "#ffdad6",
+              "inverse_on_surface": "#f0f1ef",
+              "inverse_primary": "#8cd4ca",
+              "inverse_surface": "#2e3130",
+              "on_background": "#191c1b",
+              "on_error": "#ffffff",
+              "on_error_container": "#93000a",
+              "on_primary": "#ffffff",
+              "on_primary_container": "#8ad2c8",
+              "on_primary_fixed": "#00201d",
+              "on_primary_fixed_variant": "#00504a",
+              "on_secondary": "#ffffff",
+              "on_secondary_container": "#306d61",
+              "on_secondary_fixed": "#00201b",
+              "on_secondary_fixed_variant": "#0a5045",
+              "on_surface": "#191c1b",
+              "on_surface_variant": "#3f4947",
+              "on_tertiary": "#ffffff",
+              "on_tertiary_container": "#f9bb00",
+              "on_tertiary_fixed": "#261a00",
+              "on_tertiary_fixed_variant": "#5c4300",
+              "outline": "#6f7977",
+              "outline_variant": "#bec9c6",
+              "primary": "#00433d",
+              "primary_container": "#005c55",
+              "primary_fixed": "#a7f0e6",
+              "primary_fixed_dim": "#8cd4ca",
+              "secondary": "#2b685c",
+              "secondary_container": "#aeecdd",
+              "secondary_fixed": "#b1efdf",
+              "secondary_fixed_dim": "#95d2c4",
+              "surface": "#f9faf8",
+              "surface_bright": "#f9faf8",
+              "surface_container": "#edeeec",
+              "surface_container_high": "#e7e8e6",
+              "surface_container_highest": "#e1e3e1",
+              "surface_container_low": "#f3f4f2",
+              "surface_container_lowest": "#ffffff",
+              "surface_dim": "#d9dad8",
+              "surface_tint": "#1a6962",
+              "surface_variant": "#e1e3e1",
+              "tertiary": "#4c3700",
+              "tertiary_container": "#694d00",
+              "tertiary_fixed": "#ffdfa0",
+              "tertiary_fixed_dim": "#fbbc00"
+            },
+            "overrideNeutralColor": "#fbfcfa",
+            "overridePrimaryColor": "#005c55",
+            "overrideSecondaryColor": "#2e6b5f",
+            "overrideTertiaryColor": "#ffbf00",
+            "roundness": "ROUND_EIGHT",
+            "spacingScale": 3
+          }
+        },
+        "name": "assets/cff29097de954b34b741884c684220f8",
+        "version": "1"
+      }
+    },
+    {
+      "design": {
+        "screens": [
+          {
+            "designSystem": {
+              "designSystem": {
+                "displayName": "The Scholarly Canopy",
+                "theme": {
+                  "bodyFont": "INTER",
+                  "colorMode": "LIGHT",
+                  "colorVariant": "FIDELITY",
+                  "customColor": "#005c55",
+                  "designMd": "```markdown\n# Design System Strategy: The Scholarly Canopy\n\n## 1. Overview & Creative North Star\n**Creative North Star: \"The Living Archive\"**\n\nThis design system moves away from the sterile, rigid layouts of traditional Learning Management Systems (LMS). Instead, it adopts the persona of a high-end digital broadsheet—an interface that feels like a curated, scientific exhibition. The \"Scholarly Canopy\" concept bridges the gap between dense academic rigor and the airy, rhythmic breathing of a premium editorial piece.\n\nTo achieve this, we reject the \"boxed-in\" web standard. We utilize **intentional asymmetry**, where text columns are offset to create natural focal points, and **tonal layering**, where depth is communicated through shifts in botanical-inspired neutrals rather than harsh structural lines. This is a space where science feels beautiful and complexity feels navigable.\n\n---\n\n## 2. Colors & Surface Philosophy\nThe palette is rooted in `primary` (#00433d), a deep, intellectual forest teal, supported by a sophisticated range of \"Surface\" tokens that mimic the varying textures of archival paper and vellum.\n\n### The \"No-Line\" Rule\nTraditional 1px borders are strictly prohibited for sectioning. They create visual noise that distracts from the content. Instead, define boundaries through:\n*   **Background Shifts:** Place a `surface-container-low` component against a `surface` background.\n*   **Tonal Transitions:** Use the `outline-variant` token at 10-15% opacity only if a subtle edge is required for accessibility.\n\n### Surface Hierarchy & Nesting\nTreat the UI as a series of nested physical layers. \n*   **Base:** `surface` (#f9faf8)\n*   **Sectioning:** Use `surface-container` (#edeeec) for large content blocks.\n*   **Focus Elements:** Use `surface-container-lowest` (#ffffff) for active lesson cards to make them \"pop\" forward naturally.\n\n### The \"Glass & Gradient\" Rule\nTo prevent a \"flat\" feel, floating navigation or progress overlays should utilize **Glassmorphism**. Apply a 20px `backdrop-blur` to `surface` at 80% opacity. For primary CTAs, use a subtle linear gradient from `primary` (#00433d) to `primary_container` (#005c55) to provide a \"lit from within\" professional polish.\n\n---\n\n## 3. Typography: Editorial Authority\nThe interplay between **Manrope** and **Inter** creates a dialogue between the visionary (Heading) and the functional (Body).\n\n*   **Display & Headline (Manrope):** These are your \"Architectural\" elements. Use `display-lg` with tight letter-spacing (-0.02em) for lesson titles. The high x-height of Manrope conveys modern authority.\n*   **Body & Labels (Inter):** Inter is the \"Workhorse.\" Use `body-lg` for lesson content with an increased line-height (1.6) to ensure long-form academic text remains highly readable.\n*   **The Tonal Scale:** Use `on_surface_variant` (#3f4947) for secondary body text to reduce eye strain and create a sophisticated, muted contrast against the crisp `primary` headlines.\n\n---\n\n## 4. Elevation & Depth: Tonal Layering\nWe do not use shadows to simulate height; we use light and opacity.\n\n*   **The Layering Principle:** Depth is achieved by \"stacking.\" A `surface-container-highest` element placed on a `surface` background creates a perceived elevation of +2 without a single shadow.\n*   **Ambient Shadows:** If a floating element (like a modal) is necessary, use an ultra-diffused shadow: `box-shadow: 0 20px 40px rgba(25, 28, 27, 0.06)`. The shadow color must be derived from `on_surface`, never pure black.\n*   **Ghost Borders:** If a card requires a border on a white background, use `outline-variant` (#bec9c6) at 20% opacity. It should be felt, not seen.\n\n---\n\n## 5. Components\n\n### Buttons & CTAs\n*   **Primary:** Solid `primary` background with `on_primary` text. Use `spacing-6` (2rem) for horizontal padding.\n*   **Secondary:** `primary_container` background with `on_primary_container` text. This is for secondary actions like \"Save Progress.\"\n*   **Tertiary:** No background. Use `primary` text with a `spacing-1.5` underline that expands on hover.\n\n### Educational \"Insight\" Cards\n*   **Style:** Forbid dividers. Separate header from body using a `spacing-4` vertical gap.\n*   **Accents:** Use the accent tokens (`tertiary` for Amber, `secondary` for Green) as a 4pt vertical \"accent bar\" on the left side of the card to categorize content types (e.g., Violet for \"Exercise,\" Amber for \"Warning\").\n\n### Progress Indicators\n*   **Track:** `surface-container-highest`.\n*   **Indicator:** A gradient transition from `secondary` to `primary`.\n\n### Input Fields\n*   **Form:** `surface-container-low` background, no border.\n*   **Focus State:** A 2px \"Ghost Border\" using `primary` at 40% opacity and a subtle `surface-tint` glow.\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do:\n*   **Use Asymmetric Padding:** Align text-heavy content to a 65% width column, leaving the remaining 35% for \"The Canopy\"—secondary citations, images, or white space.\n*   **Embrace Large Radii:** Stick to the `DEFAULT` (8px) for cards, but use `full` (9999px) for chips and tags to contrast the rigid typography.\n*   **Prioritize Rhythmic Spacing:** Use `spacing-12` (4rem) between major lesson sections to allow the user's mind to \"reset.\"\n\n### Don’t:\n*   **Don’t use 100% Black:** Never use `#000000`. Use `on_background` (#191c1b) for all text to maintain the organic, academic feel.\n*   **Don’t use Dividers:** If you feel the need for a horizontal line, use a `spacing-8` (2.75rem) gap instead.\n*   **Don’t Crowd the Canopy:** Avoid filling every corner of the screen. High-end design is defined by what you leave out.```",
+                  "font": "MANROPE",
+                  "headlineFont": "MANROPE",
+                  "labelFont": "INTER",
+                  "namedColors": {
+                    "background": "#f9faf8",
+                    "error": "#ba1a1a",
+                    "error_container": "#ffdad6",
+                    "inverse_on_surface": "#f0f1ef",
+                    "inverse_primary": "#8cd4ca",
+                    "inverse_surface": "#2e3130",
+                    "on_background": "#191c1b",
+                    "on_error": "#ffffff",
+                    "on_error_container": "#93000a",
+                    "on_primary": "#ffffff",
+                    "on_primary_container": "#8ad2c8",
+                    "on_primary_fixed": "#00201d",
+                    "on_primary_fixed_variant": "#00504a",
+                    "on_secondary": "#ffffff",
+                    "on_secondary_container": "#306d61",
+                    "on_secondary_fixed": "#00201b",
+                    "on_secondary_fixed_variant": "#0a5045",
+                    "on_surface": "#191c1b",
+                    "on_surface_variant": "#3f4947",
+                    "on_tertiary": "#ffffff",
+                    "on_tertiary_container": "#f9bb00",
+                    "on_tertiary_fixed": "#261a00",
+                    "on_tertiary_fixed_variant": "#5c4300",
+                    "outline": "#6f7977",
+                    "outline_variant": "#bec9c6",
+                    "primary": "#00433d",
+                    "primary_container": "#005c55",
+                    "primary_fixed": "#a7f0e6",
+                    "primary_fixed_dim": "#8cd4ca",
+                    "secondary": "#2b685c",
+                    "secondary_container": "#aeecdd",
+                    "secondary_fixed": "#b1efdf",
+                    "secondary_fixed_dim": "#95d2c4",
+                    "surface": "#f9faf8",
+                    "surface_bright": "#f9faf8",
+                    "surface_container": "#edeeec",
+                    "surface_container_high": "#e7e8e6",
+                    "surface_container_highest": "#e1e3e1",
+                    "surface_container_low": "#f3f4f2",
+                    "surface_container_lowest": "#ffffff",
+                    "surface_dim": "#d9dad8",
+                    "surface_tint": "#1a6962",
+                    "surface_variant": "#e1e3e1",
+                    "tertiary": "#4c3700",
+                    "tertiary_container": "#694d00",
+                    "tertiary_fixed": "#ffdfa0",
+                    "tertiary_fixed_dim": "#fbbc00"
+                  },
+                  "overrideNeutralColor": "#fbfcfa",
+                  "overridePrimaryColor": "#005c55",
+                  "overrideSecondaryColor": "#2e6b5f",
+                  "overrideTertiaryColor": "#ffbf00",
+                  "roundness": "ROUND_EIGHT",
+                  "spacingScale": 3
+                }
+              },
+              "name": "assets/cff29097de954b34b741884c684220f8",
+              "version": "1"
+            },
+            "deviceType": "DESKTOP",
+            "generatedBy": "figaro_agent",
+            "height": "6702",
+            "htmlCode": {
+              "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzZjYjQzMzFkNTZhYzQyMDVhZmNmNDRlMTk1OTBmOTFkEgsSBxD4gf-qtRAYAZIBJAoKcHJvamVjdF9pZBIWQhQxMjE0MzIyNDExNjMwNjAzMjU5OQ&filename=&opi=96797242",
+              "mimeType": "text/html",
+              "name": "projects/12143224116306032599/files/ee738163256f492bae345d0ac4507754"
+            },
+            "id": "4c6e794b7fd14a35ada04fa519d2abac",
+            "name": "projects/12143224116306032599/screens/4c6e794b7fd14a35ada04fa519d2abac",
+            "prompt": "Desktop lesson content for Greentryst Sustainability Academy. White background, 750px max-width, center aligned. Manrope headings, Inter body, primary color #005c55. \n\nComponents stacked vertically with 64px gap:\n\n1. EQUATION: Title 'SOC Stock Formula'. Horizontal row: 'SOC Stock' (blue pill) = 'OC' (green pill) x 'BD' (amber pill) x 'D' (violet pill) x '0.1' (rose pill). Below it: 2x2 grid of explanation cards. Cards have matching colored left borders, symbols, labels, and text.\n\n2. FORMULA BOX: Rounded dark box (#1e293b) with monospace white text: 'SOC stock = 18 g/kg x 1.35 g/cm3 x 30 cm x 0.1 = 72.9 tC/ha'.\n\n3. TABLE: Alternating row colors, rounded corners. Columns: Variable, What It Is, How Measured. Header row light teal. \n\n4. KEY TAKEAWAY: Green border (4px), light green (#f0fdf4) background, green text.\n\n5. ANALOGY: Blue border (4px), light blue (#eff6ff) background, blue text. Title: 'Analogy: Roads to the same destination'.\n\n6. WORKED EXAMPLE: Amber border (4px), light amber (#fffbeb) background, amber text. Title: 'Worked Example:'. Includes bullet points and a nested formula calculation.\n\n7. DEEP DIVE: Collapsible section with chevron. Labeled: 'Want to go deeper? Why stratified random sampling?'. When expanded: indented text, bullets, numbered steps.\n\n8. EXERCISE: Violet card. Question: 'A project avoids 10 tonnes of CH4. What is the CO2e equivalent?'. Input field with 'tCO2e' label. Two hint buttons. Teal 'Check Answer' button.\n\n9. SKETCH CHART: Multi-line chart (multi-color: green, blue, yellow, orange, red), hand-drawn/wobbly aesthetic. Title: 'Projected Global Warming Under SSP Scenarios'. X: 2020-2100, Y: temp C. Starts at 1.1C in 2020.\n\n10. FLOWCHART: Mermaid-style diagram. 4 nodes: 'Collect Soil Samples' (blue) -> 'Lab Analysis' (green) -> 'Calculate SOC Stock' (amber) -> 'Apply Deductions' (violet). Rounded nodes with connector arrows.",
+            "screenMetadata": {
+              "agentType": "HATTER_AGENT",
+              "status": "COMPLETE"
+            },
+            "screenType": "DESIGN",
+            "screenshot": {
+              "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0ujVNqmE1Swm-PgwsvjL56EZmKM05P_HLL0Dy6yICqPOtGQsvo32TsC1pgLyhgipFh_URsiL2kbmo9179qWcFc1PkSKzSpjn3R0rsOfoPcDv6mEBGwBBoCMW1B-J_tytlGIAj1NWXjJc8WNrp1RXwgWbI3X94CmJUBfjBZ9jQ0GYv0X9nSDJns7S72vfgRDA8zY-r4HD1efhE4yjZ2RJ7rd4pro5pNytIqIFV4KxaQTv1eeDyaSbQgRZXRAw",
+              "name": "projects/12143224116306032599/files/a3bd2aa155f34285beb252765a13debe"
+            },
+            "theme": {
+              "bodyFont": "INTER",
+              "colorMode": "LIGHT",
+              "colorVariant": "FIDELITY",
+              "customColor": "#005c55",
+              "designMd": "```markdown\n# Design System Strategy: The Scholarly Canopy\n\n## 1. Overview & Creative North Star\n**Creative North Star: \"The Living Archive\"**\n\nThis design system moves away from the sterile, rigid layouts of traditional Learning Management Systems (LMS). Instead, it adopts the persona of a high-end digital broadsheet—an interface that feels like a curated, scientific exhibition. The \"Scholarly Canopy\" concept bridges the gap between dense academic rigor and the airy, rhythmic breathing of a premium editorial piece.\n\nTo achieve this, we reject the \"boxed-in\" web standard. We utilize **intentional asymmetry**, where text columns are offset to create natural focal points, and **tonal layering**, where depth is communicated through shifts in botanical-inspired neutrals rather than harsh structural lines. This is a space where science feels beautiful and complexity feels navigable.\n\n---\n\n## 2. Colors & Surface Philosophy\nThe palette is rooted in `primary` (#00433d), a deep, intellectual forest teal, supported by a sophisticated range of \"Surface\" tokens that mimic the varying textures of archival paper and vellum.\n\n### The \"No-Line\" Rule\nTraditional 1px borders are strictly prohibited for sectioning. They create visual noise that distracts from the content. Instead, define boundaries through:\n*   **Background Shifts:** Place a `surface-container-low` component against a `surface` background.\n*   **Tonal Transitions:** Use the `outline-variant` token at 10-15% opacity only if a subtle edge is required for accessibility.\n\n### Surface Hierarchy & Nesting\nTreat the UI as a series of nested physical layers. \n*   **Base:** `surface` (#f9faf8)\n*   **Sectioning:** Use `surface-container` (#edeeec) for large content blocks.\n*   **Focus Elements:** Use `surface-container-lowest` (#ffffff) for active lesson cards to make them \"pop\" forward naturally.\n\n### The \"Glass & Gradient\" Rule\nTo prevent a \"flat\" feel, floating navigation or progress overlays should utilize **Glassmorphism**. Apply a 20px `backdrop-blur` to `surface` at 80% opacity. For primary CTAs, use a subtle linear gradient from `primary` (#00433d) to `primary_container` (#005c55) to provide a \"lit from within\" professional polish.\n\n---\n\n## 3. Typography: Editorial Authority\nThe interplay between **Manrope** and **Inter** creates a dialogue between the visionary (Heading) and the functional (Body).\n\n*   **Display & Headline (Manrope):** These are your \"Architectural\" elements. Use `display-lg` with tight letter-spacing (-0.02em) for lesson titles. The high x-height of Manrope conveys modern authority.\n*   **Body & Labels (Inter):** Inter is the \"Workhorse.\" Use `body-lg` for lesson content with an increased line-height (1.6) to ensure long-form academic text remains highly readable.\n*   **The Tonal Scale:** Use `on_surface_variant` (#3f4947) for secondary body text to reduce eye strain and create a sophisticated, muted contrast against the crisp `primary` headlines.\n\n---\n\n## 4. Elevation & Depth: Tonal Layering\nWe do not use shadows to simulate height; we use light and opacity.\n\n*   **The Layering Principle:** Depth is achieved by \"stacking.\" A `surface-container-highest` element placed on a `surface` background creates a perceived elevation of +2 without a single shadow.\n*   **Ambient Shadows:** If a floating element (like a modal) is necessary, use an ultra-diffused shadow: `box-shadow: 0 20px 40px rgba(25, 28, 27, 0.06)`. The shadow color must be derived from `on_surface`, never pure black.\n*   **Ghost Borders:** If a card requires a border on a white background, use `outline-variant` (#bec9c6) at 20% opacity. It should be felt, not seen.\n\n---\n\n## 5. Components\n\n### Buttons & CTAs\n*   **Primary:** Solid `primary` background with `on_primary` text. Use `spacing-6` (2rem) for horizontal padding.\n*   **Secondary:** `primary_container` background with `on_primary_container` text. This is for secondary actions like \"Save Progress.\"\n*   **Tertiary:** No background. Use `primary` text with a `spacing-1.5` underline that expands on hover.\n\n### Educational \"Insight\" Cards\n*   **Style:** Forbid dividers. Separate header from body using a `spacing-4` vertical gap.\n*   **Accents:** Use the accent tokens (`tertiary` for Amber, `secondary` for Green) as a 4pt vertical \"accent bar\" on the left side of the card to categorize content types (e.g., Violet for \"Exercise,\" Amber for \"Warning\").\n\n### Progress Indicators\n*   **Track:** `surface-container-highest`.\n*   **Indicator:** A gradient transition from `secondary` to `primary`.\n\n### Input Fields\n*   **Form:** `surface-container-low` background, no border.\n*   **Focus State:** A 2px \"Ghost Border\" using `primary` at 40% opacity and a subtle `surface-tint` glow.\n\n---\n\n## 6. Do’s and Don’ts\n\n### Do:\n*   **Use Asymmetric Padding:** Align text-heavy content to a 65% width column, leaving the remaining 35% for \"The Canopy\"—secondary citations, images, or white space.\n*   **Embrace Large Radii:** Stick to the `DEFAULT` (8px) for cards, but use `full` (9999px) for chips and tags to contrast the rigid typography.\n*   **Prioritize Rhythmic Spacing:** Use `spacing-12` (4rem) between major lesson sections to allow the user's mind to \"reset.\"\n\n### Don’t:\n*   **Don’t use 100% Black:** Never use `#000000`. Use `on_background` (#191c1b) for all text to maintain the organic, academic feel.\n*   **Don’t use Dividers:** If you feel the need for a horizontal line, use a `spacing-8` (2.75rem) gap instead.\n*   **Don’t Crowd the Canopy:** Avoid filling every corner of the screen. High-end design is defined by what you leave out.```",
+              "font": "MANROPE",
+              "headlineFont": "MANROPE",
+              "labelFont": "INTER",
+              "namedColors": {
+                "background": "#f9faf8",
+                "error": "#ba1a1a",
+                "error_container": "#ffdad6",
+                "inverse_on_surface": "#f0f1ef",
+                "inverse_primary": "#8cd4ca",
+                "inverse_surface": "#2e3130",
+                "on_background": "#191c1b",
+                "on_error": "#ffffff",
+                "on_error_container": "#93000a",
+                "on_primary": "#ffffff",
+                "on_primary_container": "#8ad2c8",
+                "on_primary_fixed": "#00201d",
+                "on_primary_fixed_variant": "#00504a",
+                "on_secondary": "#ffffff",
+                "on_secondary_container": "#306d61",
+                "on_secondary_fixed": "#00201b",
+                "on_secondary_fixed_variant": "#0a5045",
+                "on_surface": "#191c1b",
+                "on_surface_variant": "#3f4947",
+                "on_tertiary": "#ffffff",
+                "on_tertiary_container": "#f9bb00",
+                "on_tertiary_fixed": "#261a00",
+                "on_tertiary_fixed_variant": "#5c4300",
+                "outline": "#6f7977",
+                "outline_variant": "#bec9c6",
+                "primary": "#00433d",
+                "primary_container": "#005c55",
+                "primary_fixed": "#a7f0e6",
+                "primary_fixed_dim": "#8cd4ca",
+                "secondary": "#2b685c",
+                "secondary_container": "#aeecdd",
+                "secondary_fixed": "#b1efdf",
+                "secondary_fixed_dim": "#95d2c4",
+                "surface": "#f9faf8",
+                "surface_bright": "#f9faf8",
+                "surface_container": "#edeeec",
+                "surface_container_high": "#e7e8e6",
+                "surface_container_highest": "#e1e3e1",
+                "surface_container_low": "#f3f4f2",
+                "surface_container_lowest": "#ffffff",
+                "surface_dim": "#d9dad8",
+                "surface_tint": "#1a6962",
+                "surface_variant": "#e1e3e1",
+                "tertiary": "#4c3700",
+                "tertiary_container": "#694d00",
+                "tertiary_fixed": "#ffdfa0",
+                "tertiary_fixed_dim": "#fbbc00"
+              },
+              "overrideNeutralColor": "#fbfcfa",
+              "overridePrimaryColor": "#005c55",
+              "overrideSecondaryColor": "#2e6b5f",
+              "overrideTertiaryColor": "#ffbf00",
+              "roundness": "ROUND_EIGHT",
+              "spacingScale": 3
+            },
+            "title": "Greentryst Lesson Content Components",
+            "width": "2560"
+          }
+        ],
+        "theme": {}
+      }
+    },
+    {
+      "text": "I've completed the Greentryst lesson content page, and it's now available on the canvas.\n\n### Design Highlights:\n*   **Educational Components:** I've included the SOC Stock equation breakdown with color-coded pills, the interactive \"Want to go deeper?\" accordion, and a dedicated calculation exercise.\n*   **Visual Aids:** To support the data, I added a hand-drawn style multi-line chart for SSP scenarios and a process flowchart for the soil sampling workflow.\n*   **Optimized Layout:** The content is centered in a 750px column for better readability, using Manrope for headings and Inter for body text, all anchored by your deep teal (#005c55) brand color.\n*   **Structured Hierarchy:** Clear visual cues like colored borders for the \"Key Takeaway,\" \"Analogy,\" and \"Worked Example\" boxes help learners quickly identify and process different types of information.\n\nTake a look at the design—would you like to adjust the order of these components or refine any of the specific calculations?"
+    },
+    {
+      "suggestion": "Add a quiz section at the bottom"
+    },
+    {
+      "suggestion": "Change the color of the formula box"
+    },
+    {
+      "suggestion": "Add a lesson progress bar at the top"
+    },
+    {
+      "suggestion": "Make the data table more compact"
+    }
+  ],
+  "projectId": "12143224116306032599",
+  "sessionId": "12936708367122716407"
+}

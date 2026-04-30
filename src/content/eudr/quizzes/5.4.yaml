@@ -1,0 +1,26 @@
+- question: "What does the 'Brussels Effect' describe in the context of the EUDR?"
+  options:
+    - "The requirement for all EUDR due diligence statements to be submitted through a Brussels-based portal"
+    - "The tendency for EU regulatory standards to become de facto global standards as companies apply them globally rather than maintaining different standards per market"
+    - "The concentration of EUDR enforcement capacity in Brussels-based EU agencies"
+    - "The diplomatic process through which producer countries negotiate with Brussels for favorable benchmarking classifications"
+  answer: 1
+  explanation: "The Brussels Effect describes the phenomenon where EU regulatory standards spread globally because large companies choose to apply their EU compliance systems universally rather than maintaining different standards for different markets. For the EUDR, this means that large commodity traders who build EUDR-compliant traceability systems for their EU business may apply those same systems globally, effectively spreading EUDR requirements to non-EU markets."
+
+- question: "How does the UK's Forest Risk Commodities framework (Schedule 17, Environment Act 2021) differ from the EUDR in its deforestation standard?"
+  options:
+    - "The UK uses the same 31 December 2020 cut-off date as the EUDR"
+    - "The UK focuses on legality (compliance with local laws) rather than a fixed deforestation cut-off date"
+    - "The UK prohibits all tropical commodity imports regardless of deforestation status"
+    - "The UK framework covers only timber and wood products, as the EUTR did"
+  answer: 1
+  explanation: "The UK's FRC framework focuses on legality: commodities must be produced in compliance with local laws in the country of production. This is similar to the EUTR's approach rather than the EUDR's stricter approach of a fixed deforestation cut-off date (31 December 2020) that applies regardless of local law."
+
+- question: "Which voluntary framework is creating indirect pressure on financial institutions to account for deforestation risks in their portfolios?"
+  options:
+    - "The Glasgow Leaders' Declaration on Forests (2021)"
+    - "The Taskforce on Nature-related Financial Disclosures (TNFD)"
+    - "The Forest Stewardship Council (FSC) certification standard"
+    - "The Accountability Framework initiative"
+  answer: 1
+  explanation: "The Taskforce on Nature-related Financial Disclosures (TNFD), launched in 2023, provides guidance for companies and financial institutions to assess and disclose their dependencies and impacts on nature, including deforestation. Financial institutions holding stakes in commodity companies face EUDR-related compliance risk that the TNFD framework encourages them to assess and disclose."

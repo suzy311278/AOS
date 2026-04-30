@@ -1,0 +1,44 @@
+- question: "Which of the following is NOT commonly cited as a reason why investment firms integrate ESG into their processes?"
+  options:
+    - "Meeting fiduciary duty and regulatory requirements"
+    - "Lowering reputational risk at the firm level"
+    - "Guaranteeing higher absolute investment returns"
+    - "Improving the quality of engagement and stewardship activities"
+  answer: 2
+  explanation: "ESG integration is motivated by risk reduction, regulatory compliance, client demand, better analytical tools, and reputation management — not by guaranteed return enhancement. Some firms seek higher returns through ESG, but this is a potential aim, not a guaranteed outcome."
+
+- question: "How has the debate around ESG and fiduciary duty evolved over the past decade?"
+  options:
+    - "Fiduciary duty is now widely seen as prohibiting ESG integration to protect financial returns"
+    - "The debate has shifted so that failing to integrate material ESG factors may itself constitute a breach of fiduciary duty"
+    - "Fiduciary duty has been redefined to exclude environmental and social considerations entirely"
+    - "Regulatory bodies have determined fiduciary duty is unrelated to ESG integration"
+  answer: 1
+  explanation: "The older debate questioned whether ESG-related exclusions were consistent with fiduciary duty. Today, the argument has largely reversed: ignoring financially material ESG factors may breach fiduciary obligations to clients and beneficiaries."
+
+- question: "Which investment approach uses predetermined rules to tilt portfolio weights toward companies with better ESG characteristics, typically using third-party ESG scores integrated into a quantitative model?"
+  options:
+    - "Qualitative overlay on fundamental analysis"
+    - "Exclusionary screening"
+    - "Quantitative systematic ESG integration"
+    - "Active ownership and engagement"
+  answer: 2
+  explanation: "Quantitative systematic ESG integration aggregates ESG scores into a factor model alongside other factors like value and momentum, using rules to adjust portfolio weights based on ESG performance. Exclusionary screening simply removes certain companies. Qualitative overlay relies on human judgment. Active ownership focuses on engagement rather than portfolio construction."
+
+- question: "In a fundamental active investment strategy, which of the following best describes how qualitative ESG analysis typically gets incorporated into a financial model?"
+  options:
+    - "ESG analysis replaces traditional financial analysis entirely"
+    - "ESG opinions are used to adjust model assumptions such as revenue growth, margins, or cost of capital"
+    - "ESG scores from third-party providers are inputted directly into the model without modification"
+    - "Qualitative ESG analysis is kept separate from financial models and used only for voting decisions"
+  answer: 1
+  explanation: "In fundamental integration, analysts form a qualitative ESG opinion and then seek to express it quantitatively through model adjustments — for example, raising or lowering revenue growth assumptions, adjusting margins, or changing the discount rate. ESG complements rather than replaces traditional financial analysis."
+
+- question: "Why do investment professionals distinguish between a company or business assessment and a security analysis when applying ESG factors?"
+  options:
+    - "Securities are always more important than the underlying business for ESG purposes"
+    - "A business assessment covers ESG, whereas a security assessment does not"
+    - "Securities have characteristics such as duration, volatility, and credit spread that a business does not, and the same ESG assessment may have different implications for equity vs. bond investors"
+    - "The distinction is purely academic and has no practical relevance for ESG integration"
+  answer: 2
+  explanation: "The same ESG assessment of a company's business quality leads to different conclusions for equity investors (who participate in upside) versus bond investors (who focus on downside and debt serviceability). Security-level properties like duration, volatility, and credit spread are not business properties and affect how ESG signals translate into investment decisions."

@@ -1,0 +1,17 @@
+- question: "What is the lifecycle emission threshold for electricity generation to substantially contribute to climate mitigation?"
+  options:
+    - "Below 50g CO2e/kWh"
+    - "Below 100g CO2e/kWh"
+    - "Below 200g CO2e/kWh"
+    - "No threshold - all generation qualifies"
+  answer: 1
+  explanation: "The general threshold for electricity generation is lifecycle emissions below 100g CO2e/kWh. Solar and wind qualify automatically without a threshold."
+
+- question: "What is a transitional activity under the taxonomy?"
+  options:
+    - "An activity that is moving from one sector to another"
+    - "An activity with no low-carbon alternative that performs at the sector's best level"
+    - "An activity that will be removed from the taxonomy in the future"
+    - "An activity that is only eligible, not aligned"
+  answer: 1
+  explanation: "Transitional activities have no technologically and economically feasible low-carbon alternative yet but must perform at the best level in their sector. Their criteria are reviewed every three years."

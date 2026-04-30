@@ -1,0 +1,77 @@
+{/* source: CBAM Regulation (EU) 2023/956, Art. 2, Annex I; CBAM Implementing Regulation (EU) 2023/1773, Art. 1-2 */}
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/eu-cbam/1_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## Scope: Which Products Are Covered
+
+<HighlightBox>
+  <p class="font-semibold text-green-800">What you will learn</p>
+  <p class="text-green-900 mt-1">CBAM applies to a specific list of goods, identified by their Combined Nomenclature (CN) codes, not to broad industry categories. Knowing exactly which CN codes are in scope is the first step in determining whether any given import transaction carries CBAM obligations.</p>
+</HighlightBox>
+
+### The Six Initial Sectors
+
+<p class="mb-3">Article 2 of the CBAM Regulation establishes that the mechanism applies to goods listed in Annex I  -  currently covering six sectors. These were selected because they combine high carbon intensity of production with high risk of carbon leakage as assessed under the EU ETS Directive framework. The sectors are: <strong>cement, iron and steel, aluminium, fertilisers, electricity, and hydrogen</strong>.</p>
+
+<p class="mb-4">The selection was not arbitrary. Each sector had already been on the EU ETS carbon leakage list, meaning it was known to face significant competitive exposure to imports from non-EU producers without equivalent carbon costs. The initial scope is deliberately limited to allow regulators, businesses, and verification bodies to build operational experience before any future scope expansion.</p>
+
+### The Combined Nomenclature Code System
+
+<p class="mb-3">Whether a specific good is in scope is determined by its <strong>Combined Nomenclature (CN) code</strong>  -  the EU's 8-digit product classification system based on the international Harmonized System (HS). The CN code of an imported good determines its customs tariff treatment, and for CBAM purposes, determines whether it triggers reporting and certificate obligations.</p>
+
+<p class="mb-4">Importers must know the CN codes of their goods before they can assess their CBAM obligations. Annex I of the CBAM Regulation provides the definitive list. A product that shares a general category with a CBAM-covered product is not necessarily itself covered  -  the determination must be made at the CN code level.</p>
+
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th>Sector</th><th>Key Products Covered</th><th>Example CN Codes</th><th>Indirect Emissions Included?</th></tr>
+  <tr><td>Cement</td><td>Cement clinker, Portland cement, aluminous cement</td><td>2523 10, 2523 21, 2523 29</td><td>Yes (from 2026)</td></tr>
+  <tr><td>Iron and Steel</td><td>Iron ore pellets, pig iron, flat-rolled products, tubes, pipes, wire</td><td>7201, 7202, 7206-7229, 7301-7326</td><td>No</td></tr>
+  <tr><td>Aluminium</td><td>Unwrought aluminium, aluminium alloys, bars, rods, profiles, foil, tubes</td><td>7601, 7603-7616</td><td>Yes (electricity emissions in smelting)</td></tr>
+  <tr><td>Fertilisers</td><td>Ammonia, nitric acid, mixed fertilisers, urea, ammonium nitrate</td><td>2814, 2808, 3102, 3105</td><td>Yes (from 2026)</td></tr>
+  <tr><td>Electricity</td><td>Electrical energy imported via interconnections</td><td>2716</td><td>Direct generation emissions only</td></tr>
+  <tr><td>Hydrogen</td><td>Hydrogen (pure)</td><td>2804 10</td><td>No</td></tr>
+</table>
+</ResponsiveTable>
+
+### What Is Not Covered: Important Exclusions
+
+<p class="mb-3">Several important exclusions and limitations apply to the scope of CBAM:</p>
+
+<ul class="list-disc ml-6 space-y-2 mb-4">
+  <li><strong>Goods originating from EEA countries and Switzerland:</strong> These are exempt because their producers already operate under carbon pricing systems equivalent to or linked with the EU ETS.</li>
+  <li><strong>Goods below the de minimis threshold:</strong> Imports below a single consignment mass of 50 kg (in the transitional period) or a cumulative annual mass of 50 tonnes (in the definitive period) may be exempt from reporting and certificate requirements  -  though specific threshold rules are set in the implementing regulations.</li>
+  <li><strong>Military goods:</strong> Imports for official use by military entities of EU Member States are excluded.</li>
+  <li><strong>Downstream products:</strong> A car made of CBAM-covered steel is not itself a CBAM good. CBAM applies to the listed goods  -  the steel  -  not to finished products incorporating those goods. This is a deliberate simplification that limits CBAM's scope to relatively basic materials.</li>
+</ul>
+
+<AnalogyBox>
+  <p class="font-semibold text-blue-800">The "Ingredients" Principle</p>
+  <p class="mt-2 text-blue-900">CBAM applies to ingredients, not to finished dishes. Importing steel rebar from Turkey triggers CBAM. Importing a Turkish-made refrigerator that contains steel does not  -  even though that steel embedded carbon emissions when it was produced. This simplification makes CBAM administratively tractable, but it also means CBAM covers only a portion of the carbon embedded in imports into the EU market. Future scope expansions may extend coverage further down supply chains.</p>
+</AnalogyBox>
+
+### The Concept of "Precursor" Goods
+
+<p class="mb-3">Annex I of the CBAM Regulation distinguishes between finished CBAM goods and <strong>precursor goods</strong>  -  materials that are themselves CBAM-covered and used as inputs in the production of other CBAM-covered goods. This distinction matters for embedded emissions calculations: when a CBAM good is produced using another CBAM-covered material as an input, the emissions embedded in that precursor material must be tracked and incorporated into the total embedded emissions figure.</p>
+
+<p class="mb-4">For example, if a steel producer uses iron ore pellets (a CBAM precursor) in the blast furnace, the emissions from producing those pellets are part of the embedded emissions of the final steel product. Similarly, ammonia (a CBAM good in its own right) is a key precursor for fertilisers  -  the emissions from ammonia production flow through into the fertiliser's embedded emissions calculation.</p>
+
+<ExampleBox>
+  <p class="font-semibold text-amber-800">Is This Import in Scope? A Practical Check</p>
+  <p class="mt-2">A company imports the following goods from India. Which trigger CBAM obligations in the definitive period?</p>
+  <ul class="mt-2 space-y-1 text-amber-900">
+    <li>Hot-rolled steel coils (CN 7208): <strong>Yes  -  iron and steel sector, Annex I</strong></li>
+    <li>Stainless steel cutlery (CN 8215): <strong>No  -  finished product, not in Annex I</strong></li>
+    <li>Portland cement (CN 2523 21): <strong>Yes  -  cement sector, Annex I</strong></li>
+    <li>Concrete blocks made with cement (CN 6810): <strong>No  -  downstream product, not in Annex I</strong></li>
+    <li>Urea (CN 3102 10): <strong>Yes  -  fertilisers sector, Annex I</strong></li>
+    <li>Aluminium foil (CN 7607): <strong>Yes  -  aluminium sector, Annex I</strong></li>
+  </ul>
+</ExampleBox>
+
+### Future Scope: Article 30 Review
+
+<p class="mb-3">CBAM is explicitly designed as an evolving instrument. Article 30 of the CBAM Regulation requires the European Commission to submit a review report by 31 December 2025, assessing whether the scope should be extended to additional sectors and goods. The review must consider the risk of carbon leakage for goods not yet covered, the administrative feasibility of expansion, and the interaction with the phase-out of free allocation in the EU ETS.</p>
+
+<p class="mb-3">Sectors widely discussed as candidates for future inclusion include: chemicals, polymers and plastics, glass, ceramics, paper and pulp, and downstream goods with high CBAM-material content (such as certain machinery or vehicles). The ultimate ambition of the regulation is that CBAM eventually captures the majority of carbon leakage risk across EU trade, though the pace of scope expansion will depend on implementation experience and political process.</p>
+
+<KeyTakeaways items="CBAM initially covers six sectors: cement, iron and steel, aluminium, fertilisers, electricity, and hydrogen, selected for their combination of high carbon intensity and high carbon leakage risk ;; Scope is determined at the Combined Nomenclature (CN) code level  -  importers must check their specific goods against Annex I of the CBAM Regulation, not just their general sector ;; EEA countries and Switzerland are exempt; downstream products incorporating CBAM materials (e.g., a car made with steel) are not themselves CBAM goods ;; Precursor goods are CBAM-covered materials used as inputs in producing other CBAM goods  -  their embedded emissions must be tracked and included in the final product's embedded emissions total ;; Article 30 requires a Commission review by end-2025 to assess scope expansion to additional sectors, with chemicals, polymers, and certain downstream goods as potential candidates" />

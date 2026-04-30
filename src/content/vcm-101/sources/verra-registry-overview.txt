@@ -1,0 +1,19 @@
+Source: https://registry.verra.org/
+
+[ ![Verra Logo](https://registry.verra.org/img/Verra-Logo-TaglineHorizontal-Color-sm.png) ](https://verra.org/)
+  * [News](https://registry.verra.org/mymodule/mypage.asp?p=news)
+  * [Public Report](https://registry.verra.org/)
+[ Verified Carbon Standard ](https://registry.verra.org/app/search/VCS) [ Jurisdictional Nested Redd+ ](https://registry.verra.org/app/search/JNR) [ Plastic Waste Reduction Program ](https://registry.verra.org/app/search/PWRP) [ Sustainable Development Verified Impact Standard ](https://registry.verra.org/app/search/SDVISTA) [ Climate, Community & Biodiversity Standards ](https://registry.verra.org/app/search/CCB) [ Inactive - California Offset Project Registry ](https://registry.verra.org/app/search/CA_OPR) [ Forest Carbon Partnership Facility Program ](https://registry.verra.org/app/search/FCPF) [ Initiative for Sustainable Forest Landscapes Program ](https://registry.verra.org/app/search/ISFL)
+  * [Open an Account](https://registry.verra.org/mymodule/reg/AHAgreement.asp)
+  * [Login](https://registry.verra.org/mymodule/mypage.asp?p=login)
+
+
+## Welcome to the Verra Registry
+The Verra Registry is a cornerstone for the implementation of Verra's standards and programs. It facilitates the transparent listing of information on certified projects, issued and retired units, and enables the trading of units. The Verra Registry also ensures the uniqueness of projects and credits in the system. Information on projects and credits can be accessed by scrolling down and clicking on one of the program-specific modules below.  
+  
+An active Verra Registry account is required for any entity wishing to register projects or issue, retire, or transfer units. Account applications may be submitted by clicking on the "Open New Account" button. Note that all registry account applicants will be subject to strict "Know-Your-Customer" background checks.  
+  
+For more information on Verra and its programs, please visit [www.verra.org](https://www.verra.org/). 
+Verra Registry 11.4.1
+[ ](https://registry.verra.org/#top) | [Privacy Policy](https://verra.org/wp-content/uploads/2018/03/Verra-Privacy-Policy.pdf)
+Verra Registry - Powered by APX Technology

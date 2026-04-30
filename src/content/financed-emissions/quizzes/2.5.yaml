@@ -1,0 +1,44 @@
+- question: "A bank provides a mortgage of £320,000 on a house appraised at £400,000 at origination. After 8 years, the outstanding balance is £250,000 and the house's market value is £550,000. What is the attribution factor?"
+  options:
+    - "£250,000 / £550,000 = 45.5%"
+    - "£320,000 / £400,000 = 80.0%"
+    - "£250,000 / £400,000 = 62.5%"
+    - "£320,000 / £550,000 = 58.2%"
+  answer: 2
+  explanation: "The denominator is always the property value at origination (£400,000), held constant over the life of the mortgage. The numerator is the current outstanding balance (£250,000). Therefore: £250,000 / £400,000 = 62.5%. Using the current market value (£550,000) would allow house price inflation to mechanically reduce reported financed emissions, which PCAF explicitly prevents by fixing the denominator at origination."
+
+- question: "Why are attribution factors for residential mortgages typically much higher than those for corporate loans?"
+  options:
+    - "Residential properties have much higher emissions than corporate borrowers"
+    - "Mortgages typically finance 70-95% of the property value, so the attribution factor is correspondingly high"
+    - "PCAF uses a multiplier for residential mortgages to reflect their longer loan terms"
+    - "Residential properties have no other capital providers (equity holders, bondholders) to share the attribution with"
+  answer: 1
+  explanation: "A typical mortgage covers 70-95% of the property purchase price (Loan-to-Value ratio at origination). Since the attribution factor = outstanding mortgage / property value at origination, a 90% LTV mortgage starts with an attribution factor of 90%. This contrasts sharply with corporate loans, where the bank might provide 5-15% of the company's total capital structure (EVIC), producing an attribution factor of 5-15%."
+
+- question: "How does PCAF suggest large retail banks with millions of mortgages handle the challenge of obtaining actual energy consumption data for every property?"
+  options:
+    - "Sample 100 properties per year and extrapolate to the full portfolio"
+    - "Exclude mortgages from financed emissions calculations until primary data is available"
+    - "Use portfolio-level proxies — match loans to EPC data using addresses, assign statistical distributions to unrated properties, and scale up"
+    - "Report a single national average emission per mortgage, regardless of property characteristics"
+  answer: 2
+  explanation: "For large mortgage portfolios, PCAF endorses a portfolio-level approach: use addresses to match mortgages to national EPC registers (where available), assign the national distribution of EPC ratings by building vintage and type to unrated properties, and calculate average emissions per EPC category. This produces a Score 3 or 4 calculation while being operationally feasible at scale. The goal over time is to increase the proportion using actual meter data."
+
+- question: "Which of the following financial product innovations is directly enabled by measuring the emission intensity of a mortgage portfolio?"
+  options:
+    - "Mortgage-backed securities with variable interest rates"
+    - "Green mortgages offering preferential interest rates for energy-efficient properties (EPC A or B)"
+    - "Buy-to-let mortgages with fixed-rate terms"
+    - "Reverse mortgages for older homeowners"
+  answer: 1
+  explanation: "Knowing the energy performance distribution of a mortgage portfolio creates a direct foundation for green mortgage product development. Green mortgages offer lower interest rates or better terms for energy-efficient properties (typically EPC A or B rated), incentivising borrowers to buy or retrofit energy-efficient homes. This simultaneously reduces the bank's portfolio-level financed emissions and creates a competitive product for climate-conscious borrowers."
+
+- question: "Under PCAF, which emission scopes are covered for the mortgages asset class?"
+  options:
+    - "Scope 3 of the homeowner's lifestyle (transport, food, etc.)"
+    - "Scope 1 (on-site fuel combustion) and Scope 2 (purchased electricity, district heating/cooling) of the dwelling"
+    - "Scope 1, Scope 2, and Scope 3 of the mortgage borrower's full household"
+    - "Only Scope 2 (electricity) since most homes use electric heating"
+  answer: 1
+  explanation: "PCAF's mortgages asset class focuses on Scope 1 (e.g., gas boiler, oil heating, wood burning in the dwelling) and Scope 2 (purchased electricity, district heating) of the property itself. Personal lifestyle emissions (homeowner's car, food, flights) are separate from the building energy footprint and are not attributable through mortgage lending. This 'building shell' approach mirrors the CRE methodology."

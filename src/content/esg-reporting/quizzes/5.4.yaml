@@ -1,0 +1,26 @@
+- question: "The Social section's two main pillars are HR/Human Capital and CSR. Why is structuring around these two pillars important?"
+  options:
+    - "Because GRI requires exactly two sub-sections in the Social chapter"
+    - "Because it gives the section clarity and prevents jumping between internal workforce data and external community projects without a logical thread"
+    - "Because CSR data is always more complete than HR data"
+    - "Because investors only care about the CSR pillar"
+  answer: 1
+  explanation: "Without this two-pillar structure, Social sections often feel like an amorphous mix of workforce statistics and community programs. Separating internal (HR/Human Capital) from external (CSR) engagement creates a logical flow and makes the section easier to write and read."
+
+- question: "A global company reports '35% female workforce' as its diversity metric. What is the limitation of this approach?"
+  options:
+    - "Gender is not a valid diversity metric"
+    - "35% is too low to report publicly"
+    - "A single global number obscures meaningful differences across geographies and management levels"
+    - "Diversity metrics should only be reported in percentages above 40%"
+  answer: 2
+  explanation: "Diversity definitions vary by geography - race/ethnicity in the US, gender and caste in India, nationalization ratios in the Middle East. A blanket global number tells one story; breaking it down by geography and management level reveals a much richer and more meaningful picture."
+
+- question: "When supply chain labor data is unavailable beyond tier-one suppliers, what is the appropriate approach for the Social section?"
+  options:
+    - "Report 'zero incidents' for the supply chain since no data contradicts this"
+    - "Omit the supply chain section entirely to avoid drawing attention to the gap"
+    - "Report what is available transparently and describe what steps the company is taking to improve visibility"
+    - "Use industry average data as a proxy for the company's supply chain"
+  answer: 2
+  explanation: "Transparency about data limitations is always better than silence or fabrication. Reporting what is known (e.g., tier-one supplier assessments) and describing plans to extend visibility (e.g., tier-two assessments planned for next year) shows progress and honesty."

@@ -1,0 +1,26 @@
+- question: "For the TNFD Locate phase, which tool is specifically recommended as the primary starting point for protected area and KBA screening?"
+  options:
+  - "ENCORE (Exploring Natural Capital Opportunities, Risks and Exposure)"
+  - "GBAT (Global Biodiversity Assessment Tool)"
+  - "IBAT (Integrated Biodiversity Assessment Tool)"
+  - "GBS (Global Biodiversity Score)"
+  answer: 2
+  explanation: "IBAT is the TNFD's recommended primary tool for the Locate phase because it combines the three most authoritative global biodiversity location datasets: the World Database on Protected Areas (WDPA), the World Database of Key Biodiversity Areas (WDKBA), and the IUCN Red List of Threatened Species. ENCORE is recommended for the Evaluate phase, not Locate."
+
+- question: "The Global Biodiversity Score (GBS) was specifically designed for which type of user?"
+  options:
+  - "National governments tracking progress against KM-GBF targets"
+  - "Agricultural companies calculating their on-farm biodiversity footprint"
+  - "Financial institutions assessing the biodiversity footprint of their portfolios"
+  - "Conservation organisations prioritising habitat restoration projects"
+  answer: 2
+  explanation: "GBS was developed by CDC Biodiversite specifically for financial institutions to assess the nature impact embedded in their portfolios. It translates investment exposure (revenues by sector and geography) into an MSA-based biodiversity footprint, expressed in MSA.km² per million euros invested, enabling portfolio-level comparison and trend tracking."
+
+- question: "What is the most significant limitation shared by most current biodiversity footprinting tools?"
+  options:
+  - "They can only be used by companies with annual revenues exceeding USD 1 billion"
+  - "They require field surveys at every supply chain site, making them impractical for large companies"
+  - "They involve significant modelling approximations and uncertainties, making results directional indicators rather than precise measurements"
+  - "They are only applicable to terrestrial biodiversity and cannot assess marine or freshwater impacts"
+  answer: 2
+  explanation: "All major biodiversity footprinting tools involve significant approximations, particularly in their underlying models (such as GLOBIO's MSA coefficients), which are calibrated at global scale from aggregated literature data and do not capture site-specific conditions well. Results should be interpreted as directional indicators, not precise measurements, and methodology transparency is essential for credible reporting."

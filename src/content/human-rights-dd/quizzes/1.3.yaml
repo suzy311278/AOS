@@ -1,0 +1,26 @@
+- question: "According to the UNGPs and OECD DDG, what action is required when a business enterprise is 'directly linked' to an adverse human rights impact through a business relationship but has not caused or contributed to it?"
+  options:
+  - "No action is required since the enterprise did not cause or contribute to the harm"
+  - "The enterprise must immediately cease the business relationship"
+  - "The enterprise must use its leverage over the responsible party to encourage improvement, potentially disengaging if leverage is exhausted"
+  - "The enterprise must provide full remediation to all affected parties"
+  answer: 2
+  explanation: "When an enterprise is directly linked to an adverse impact through a business relationship (but has not caused or contributed to it), the UNGPs expect the enterprise to use whatever leverage it has over the responsible party to encourage improvement. This may include contractual requirements, engagement programmes, or industry-wide initiatives. Disengagement is an option of last resort when leverage is exhausted and the harm is severe."
+
+- question: "Which type of indicator is most meaningful for assessing whether HRDD actions are actually improving conditions for people affected by a company's operations?"
+  options:
+  - "Process indicators (e.g. number of supplier audits completed)"
+  - "Output indicators (e.g. number of corrective action plans issued)"
+  - "Outcome indicators (e.g. reduction in reported excessive overtime; increase in worker satisfaction)"
+  - "Administrative indicators (e.g. number of HRDD policy updates published)"
+  answer: 2
+  explanation: "Outcome indicators are the most meaningful for determining whether HRDD actions are producing real improvements for people. Process indicators (audits, trainings) and output indicators (corrective action plans) measure activity, not results. Outcome indicators capture actual changes in conditions for affected individuals, though they are harder to measure and require longer timeframes to demonstrate change."
+
+- question: "Why did the Bangladesh Accord on Fire and Building Safety (2013) produce more credible tracking outcomes than typical supplier self-reporting programmes?"
+  options:
+  - "Because it was mandatory under Bangladeshi law and enforced by government inspectors"
+  - "Because it required brands to fund inspections, included trade union representation on its steering committee, used independent inspection bodies, and publicly disclosed all findings and remediation progress"
+  - "Because it relied entirely on third-party financial audits of supplier factories"
+  - "Because it limited its scope to only the largest garment factories"
+  answer: 1
+  explanation: "The Accord's credibility derived from its multi-stakeholder governance (including trade union representation), independent inspection bodies separate from brands and suppliers, public disclosure of inspection reports and remediation progress, and brand financial commitments to fund remediation. This combination of worker voice, independence, and transparency produced tracking data far more reliable than supplier self-reported compliance."

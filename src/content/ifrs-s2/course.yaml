@@ -1,0 +1,210 @@
+id: ifrs-s2
+title: "IFRS S2 Climate-related Disclosures"
+subtitle: "The global baseline standard for climate risk reporting"
+description: "A comprehensive guide to IFRS S2, the ISSB's global baseline for climate-related financial disclosures. Covers governance, strategy, risk management, metrics & targets, scenario analysis, GHG emissions, financed emissions, and industry-based guidance."
+icon: "🌡️"
+color: cyan
+status: published
+category: esg
+estimatedHours: 3
+modules:
+  - id: 0
+    title: "Foundations"
+    subtitle: "Why climate disclosure matters and how we got here"
+    icon: "🏛️"
+    color: cyan
+    lessons:
+      - id: "0.1"
+        title: "The Need for Climate Disclosure Standards"
+        duration: "35 min"
+        vmRef: "Basis for Conclusions BC1-BC3, BC9-BC13"
+      - id: "0.2"
+        title: "From TCFD to ISSB — The Road to IFRS S2"
+        duration: "40 min"
+        vmRef: "Basis for Conclusions BC4-BC6, BC16, BC30"
+        seoTitle: "From TCFD to ISSB: The Road to IFRS S2"
+        seoDescription: "The journey from TCFD recommendations to the ISSB and IFRS S2: climate-risk disclosures, jurisdictional adoption, and what changed from TCFD."
+      - id: "0.3"
+        title: "IFRS S2 at a Glance — Structure, Scope and Key Concepts"
+        duration: "40 min"
+        vmRef: "IFRS S2 Paragraphs 1-4, Appendix A"
+      - id: "0.4"
+        title: "Materiality, Proportionality and Interoperability"
+        duration: "35 min"
+        vmRef: "Basis for Conclusions BC7-BC8, BC14-BC16"
+
+  - id: 1
+    title: "Governance"
+    subtitle: "Oversight and management of climate-related risks"
+    icon: "⚖️"
+    color: blue
+    lessons:
+      - id: "1.1"
+        title: "Governance Body Oversight of Climate Risks"
+        duration: "40 min"
+        vmRef: "IFRS S2 Paragraphs 5-6(a)"
+        seoTitle: "IFRS S2 Governance: Board Oversight of Climate Risks"
+        seoDescription: "IFRS S2 governance disclosures (para 5-6): board/committee oversight of climate risks, competencies, reporting frequency, and integration into decisions."
+      - id: "1.2"
+        title: "Management's Role and Internal Controls"
+        duration: "35 min"
+        vmRef: "IFRS S2 Paragraphs 6(b)-7"
+      - id: "1.3"
+        title: "Integrating Climate Governance with Broader Sustainability"
+        duration: "35 min"
+        vmRef: "IFRS S2 Paragraph 7, Basis for Conclusions BC31-BC32"
+
+  - id: 2
+    title: "Strategy — Risks and Opportunities"
+    subtitle: "Identifying and disclosing climate-related risks and opportunities"
+    icon: "🔍"
+    color: emerald
+    lessons:
+      - id: "2.1"
+        title: "Identifying Climate-Related Risks and Opportunities"
+        duration: "45 min"
+        vmRef: "IFRS S2 Paragraphs 8-12"
+      - id: "2.2"
+        title: "Physical Risks vs Transition Risks"
+        duration: "45 min"
+        vmRef: "IFRS S2 Paragraph 3, Appendix A definitions"
+        seoTitle: "IFRS S2 Physical vs Transition Risks: Acute & Chronic"
+        seoDescription: "IFRS S2 climate-related disclosures: physical risks (acute, chronic) vs transition risks (policy, legal, technology, market, reputation). Definitions and examples."
+      - id: "2.3"
+        title: "Effects on Business Model and Value Chain"
+        duration: "40 min"
+        vmRef: "IFRS S2 Paragraphs 13-14"
+      - id: "2.4"
+        title: "Climate-Related Transition Plans"
+        duration: "45 min"
+        vmRef: "IFRS S2 Paragraph 14(a)(iv)-(v), Basis for Conclusions BC46-BC52"
+
+  - id: 3
+    title: "Financial Effects and Climate Resilience"
+    subtitle: "Quantifying impact and testing strategy against climate scenarios"
+    icon: "📊"
+    color: violet
+    lessons:
+      - id: "3.1"
+        title: "Current and Anticipated Financial Effects"
+        duration: "50 min"
+        vmRef: "IFRS S2 Paragraphs 15-21"
+      - id: "3.2"
+        title: "Disclosure Exemptions and Qualitative Alternatives"
+        duration: "40 min"
+        vmRef: "IFRS S2 Paragraphs 19-21, Basis for Conclusions BC53-BC56"
+      - id: "3.3"
+        title: "Climate Resilience and Scenario Analysis"
+        duration: "55 min"
+        vmRef: "IFRS S2 Paragraph 22, Application Guidance B1-B7"
+      - id: "3.4"
+        title: "Designing and Conducting Scenario Analysis"
+        duration: "55 min"
+        vmRef: "IFRS S2 Application Guidance B8-B18"
+
+  - id: 4
+    title: "Risk Management"
+    subtitle: "Processes for identifying, assessing and monitoring climate risks"
+    icon: "🛡️"
+    color: orange
+    lessons:
+      - id: "4.1"
+        title: "Identifying and Assessing Climate Risks"
+        duration: "40 min"
+        vmRef: "IFRS S2 Paragraphs 24-25(a)"
+      - id: "4.2"
+        title: "Monitoring, Prioritisation and Integration"
+        duration: "40 min"
+        vmRef: "IFRS S2 Paragraphs 25(b)-26"
+      - id: "4.3"
+        title: "Connecting Risk Management to Strategy and Governance"
+        duration: "35 min"
+        vmRef: "Basis for Conclusions BC70-BC72"
+
+  - id: 5
+    title: "GHG Emissions Metrics"
+    subtitle: "Measuring and disclosing Scope 1, 2 and 3 emissions"
+    icon: "💨"
+    color: green
+    lessons:
+      - id: "5.1"
+        title: "The GHG Protocol and Scope 1 and 2 Emissions"
+        duration: "50 min"
+        vmRef: "IFRS S2 Paragraph 29(a), Application Guidance B19-B31"
+      - id: "5.2"
+        title: "Scope 3 Emissions — Categories and Why They Matter"
+        duration: "55 min"
+        vmRef: "IFRS S2 Paragraph 29(a)(vi), Application Guidance B32-B37"
+      - id: "5.3"
+        title: "The Scope 3 Measurement Framework"
+        duration: "55 min"
+        vmRef: "Application Guidance B38-B57"
+      - id: "5.4"
+        title: "GHG Emissions Disaggregation and Reporting"
+        duration: "45 min"
+        vmRef: "Illustrative Guidance IE1-IE24"
+
+  - id: 6
+    title: "Financed Emissions"
+    subtitle: "Climate metrics for the financial sector"
+    icon: "🏦"
+    color: indigo
+    lessons:
+      - id: "6.1"
+        title: "Introduction to Financed Emissions"
+        duration: "45 min"
+        vmRef: "IFRS S2 Application Guidance B58-B60"
+      - id: "6.2"
+        title: "Asset Management, Banking and Insurance Disclosures"
+        duration: "55 min"
+        vmRef: "Application Guidance B61-B63A, Illustrative Guidance IE25-IE38"
+      - id: "6.3"
+        title: "The 2025 Amendments — Category 15 and Beyond"
+        duration: "45 min"
+        vmRef: "IFRS S2 Paragraphs 29A-29C, Amendments December 2025"
+
+  - id: 7
+    title: "Cross-Industry Metrics, Targets and Industry Guidance"
+    subtitle: "Beyond GHG — the full metrics and targets framework"
+    icon: "🎯"
+    color: rose
+    lessons:
+      - id: "7.1"
+        title: "Cross-Industry Metric Categories"
+        seoTitle: "IFRS S2 Cross-Industry Metrics: 29(b) to 29(g)"
+        seoDescription: "IFRS S2 paragraph 29 cross-industry metric categories: transition risk, physical risk, opportunities, capital deployment, internal carbon pricing, executive remuneration."
+        duration: "45 min"
+        vmRef: "IFRS S2 Paragraphs 29(b)-(g), Application Guidance B64-B65"
+      - id: "7.2"
+        title: "Climate-Related Targets and Carbon Credits"
+        duration: "50 min"
+        vmRef: "IFRS S2 Paragraphs 33-37, Application Guidance B66-B71"
+      - id: "7.3"
+        title: "Industry-Based Guidance on Implementing IFRS S2"
+        seoTitle: "IFRS S2 Industry-Based Guidance (SASB-Derived)"
+        seoDescription: "IFRS S2 industry-based disclosure requirements derived from SASB standards. Sector-specific metrics, activity classifications, and 68 industry categories."
+        duration: "45 min"
+        vmRef: "Illustrative Guidance IB1-IB16"
+      - id: "7.4"
+        title: "Internal Carbon Pricing and Executive Remuneration"
+        duration: "40 min"
+        vmRef: "IFRS S2 Paragraphs 29(f)-(g), Basis for Conclusions BC130-BC133"
+
+  - id: 8
+    title: "Transition, Implementation and Capstone"
+    subtitle: "Putting it all together — from theory to practice"
+    icon: "🚀"
+    color: teal
+    lessons:
+      - id: "8.1"
+        title: "Effective Dates, Transition Reliefs & First Reporting"
+        duration: "40 min"
+        vmRef: "IFRS S2 Appendix C, Basis for Conclusions BC157-BC177"
+      - id: "8.2"
+        title: "Interoperability — ESRS, GRI and Jurisdictional Standards"
+        duration: "45 min"
+        vmRef: "Basis for Conclusions BC16, BC134-BC138"
+      - id: "8.3"
+        title: "Capstone — Building a Complete IFRS S2 Disclosure"
+        duration: "90 min"
+        vmRef: "All IFRS S2 sections — integrated case study"

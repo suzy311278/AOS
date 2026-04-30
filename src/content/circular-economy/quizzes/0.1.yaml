@@ -1,0 +1,26 @@
+- question: "According to the Circularity Gap Report 2024, what share of secondary materials entered the global economy in 2023?"
+  options:
+    - "7.2%"
+    - "9.1%"
+    - "15.4%"
+    - "21.0%"
+  answer: 0
+  explanation: "The Circularity Gap Report 2024 found that only 7.2% of materials entering the global economy came from secondary (recycled or recovered) sources, down from 9.1% in 2018 - a 21% decline in five years."
+
+- question: "What percentage of global greenhouse gas emissions arise from how we make and use products and manage food systems, rather than from energy generation?"
+  options:
+    - "10%"
+    - "25%"
+    - "45%"
+    - "65%"
+  answer: 2
+  explanation: "Approximately 45% of global GHG emissions come from how we make and use products and food - not from energy generation. This 45% requires circular economy solutions, not just renewable energy."
+
+- question: "The Circularity Gap Report notes that material consumption since 2018 represents what share of all materials humanity has consumed since 1900?"
+  options:
+    - "5%"
+    - "14%"
+    - "28%"
+    - "40%"
+  answer: 2
+  explanation: "The report found that over 500 gigatonnes consumed between 2018 and 2023 represents 28% of all the materials humanity has consumed since 1900, illustrating the dramatic acceleration of consumption."

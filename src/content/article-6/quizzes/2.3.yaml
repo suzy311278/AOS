@@ -1,0 +1,44 @@
+- question: "What does OMGE stand for, and what is the mandatory cancellation rate applied to A6.4ERs at issuance?"
+  options:
+    - "Overall Mitigation of Global Emissions; 5% cancelled at issuance"
+    - "Overall Mitigation of Global Emissions; 2% cancelled at issuance"
+    - "Obligatory Market and Global Exchange; 3% cancelled at transfer"
+    - "Overall Mechanism for Global Equilibrium; 2% cancelled at transfer"
+  answer: 1
+  explanation: "OMGE stands for Overall Mitigation of Global Emissions. The mandatory cancellation rate is 2% of all A6.4ERs, applied at the point of issuance -- before any credits are transferred. This 2% is permanently retired and cannot be used by any party. It ensures that the mechanism produces a net atmospheric benefit, not just a redistribution of mitigation between countries."
+
+- question: "A project in Vietnam issues 1,000,000 A6.4ERs in a crediting period. After the OMGE deduction, how many credits are available for transfer?"
+  options:
+    - "980,000"
+    - "950,000"
+    - "970,000"
+    - "990,000"
+  answer: 0
+  explanation: "OMGE cancels 2% of issued credits at the point of issuance. 2% of 1,000,000 = 20,000 credits cancelled. Credits available for transfer = 1,000,000 - 20,000 = 980,000 A6.4ERs."
+
+- question: "The Share of Proceeds (SOP) for Article 6.4 directs funds to which institution, and what are its two components?"
+  options:
+    - "The Green Climate Fund; 3% volume levy plus 5% issuance fee"
+    - "The Adaptation Fund; 5% volume levy on transfers plus 3% of issuance fees"
+    - "The UNFCCC Trust Fund; 2% volume levy on all transactions"
+    - "The World Bank Climate Fund; 5% of verified reductions plus administrative costs"
+  answer: 1
+  explanation: "The SOP flows to the Adaptation Fund -- a multilateral fund that finances adaptation projects in developing countries. It has two components: a 5% volume levy on the A6.4ERs transferred in each transaction, and 3% of the issuance fees collected by the Supervisory Body at the point of credit issuance. These rates are higher than the CDM's SOP to reflect the Paris Agreement's stronger adaptation finance ambitions."
+
+- question: "Which countries are exempt from the Article 6.4 Share of Proceeds requirement?"
+  options:
+    - "All developing countries and Annex II countries"
+    - "Only countries with GDP below $5,000 per capita"
+    - "Least Developed Countries (LDCs) and Small Island Developing States (SIDS)"
+    - "All countries hosting projects with fewer than 100,000 A6.4ERs issued per year"
+  answer: 2
+  explanation: "LDCs and SIDS are exempt from the Share of Proceeds levy. The rationale is equity: these countries bear the least historical responsibility for climate change, face the greatest adaptation challenges, and have the most difficulty participating in carbon markets. The OMGE 2% cancellation still applies universally -- the SOP exemption is specific to the adaptation finance levy, not the atmospheric cancellation requirement."
+
+- question: "What is the primary policy rationale for combining both OMGE and the Share of Proceeds in the A6.4 mechanism's design?"
+  options:
+    - "To reduce the total volume of credits issued and limit market liquidity"
+    - "To ensure the mechanism raises global mitigation beyond NDC floors (OMGE) and channels finance to adaptation in vulnerable countries (SOP), transforming carbon markets from cost-reduction tools into instruments that serve broader climate goals"
+    - "To generate revenue for the UNFCCC Secretariat's administrative budget"
+    - "To discourage developing countries from hosting too many projects and flooding the market"
+  answer: 1
+  explanation: "OMGE and SOP serve complementary purposes that together transform the A6.4 mechanism's character. OMGE (2% cancellation) ensures the mechanism raises global mitigation above what NDC targets alone would deliver -- it is about atmospheric benefit. SOP (5% volume + 3% fees to Adaptation Fund) ensures carbon market activity channels finance to the most climate-vulnerable nations -- it is about equity and adaptation. Together, they make carbon markets serve climate ambition and development equity, not just cost minimisation."

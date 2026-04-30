@@ -1,0 +1,138 @@
+{/* source: Application Guidance B38-B57 */}
+
+<HighlightBox>
+Measuring Scope 3 emissions requires estimation. Perfect primary data from every supplier and customer simply does not exist. IFRS S2 provides a structured measurement framework that prioritises data quality while acknowledging the practical constraints of value chain data collection.
+</HighlightBox>
+
+## The Challenge of Scope 3 Measurement
+
+Unlike Scope 1 (direct emissions the entity controls) and Scope 2 (billed by energy suppliers), Scope 3 emissions occur at facilities and in activities that the entity does not own or control. An entity reporting its Scope 3 must rely on:
+
+- Data from hundreds or thousands of suppliers
+- Assumptions about how customers use its products
+- Estimates based on industry averages where specific data is unavailable
+
+The GHG Protocol Scope 3 Standard acknowledges this inherent uncertainty. IFRS S2 Application Guidance B38 to B57 builds on the GHG Protocol to provide a measurement framework that ensures Scope 3 estimates are as reliable as possible within practical constraints.
+
+## The Measurement Framework Overview (B38 to B42)
+
+- **B38:** Scope 3 measurement is likely to include **estimation**. This is explicitly acknowledged. The standard does not require perfect data.
+- **B39:** Entities should apply a **faithful measurement approach.** The goal is the most accurate representation achievable with available data, not precision for its own sake.
+- **B41 to B42:** The framework applies regardless of which specific measurement method is used. Judgement is required to navigate trade-offs between data quality characteristics.
+
+## Four Data Quality Characteristics to Prioritise (B40)
+
+Application Guidance B40 identifies four characteristics to prioritise when selecting measurement inputs (in no particular order; all four are valuable):
+
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th>Characteristic</th><th>Guidance Paragraphs</th><th>What It Means</th></tr>
+  <tr><td>Direct measurement data</td><td>B43 to B45</td><td>Actual measured emissions, not estimated</td></tr>
+  <tr><td>Specific value chain activity data</td><td>B46 to B49</td><td>Data from specific suppliers or customers rather than industry averages</td></tr>
+  <tr><td>Timely, representative data</td><td>B50 to B52</td><td>Data current, from the right jurisdiction and technology</td></tr>
+  <tr><td>Verified data</td><td>B53 to B54</td><td>Data that has been independently verified</td></tr>
+</table>
+</ResponsiveTable>
+
+## Direct Measurement Data (B43 to B45)
+
+Direct measurement is the most accurate approach but often not feasible across the full value chain.
+
+**Direct measurement** uses actual emissions monitoring equipment or direct fuel consumption records to measure GHG emissions at the source. This is most commonly available for:
+
+- Supplier facilities with environmental monitoring systems
+- Industrial processes with continuous emissions monitoring
+- Company-owned transport with fuel consumption tracking
+
+When direct measurement is not available, entities use **activity data multiplied by emission factors**:
+
+<EquationBreakdown
+  title="Scope 3 Emissions Estimation"
+  result="S3 | Scope 3 Emissions | Estimated GHG emissions for a Scope 3 category, in tCO₂e | blue"
+  inputs="AD | Activity Data | Quantity of the activity, e.g. tonnes purchased, km travelled, or tonnes of waste | green ;; EF | Emission Factor | Conversion factor from activity units to tCO₂e, e.g. tCO₂e per tonne of steel | amber"
+/>
+
+<ExampleBox>
+**Example - Category 1 (purchased materials):**
+10,000 tonnes of steel purchased x 1.85 tCO₂e per tonne steel = 18,500 tCO₂e
+</ExampleBox>
+
+Activity data might be the quantity of materials purchased, distance travelled, or weight of waste disposed. Emission factors convert that activity into CO2e.
+
+## Primary vs Secondary Activity Data (B46 to B49)
+
+When activity data is used, it can come from two sources:
+
+**Primary data** (collected directly from specific suppliers, customers, or operations in the entity's value chain):
+
+- A supplier-provided GHG inventory for their manufacturing operations
+- Customer-reported product usage data
+- GPS-tracked transport distance records
+
+**Secondary data** (industry averages, published databases, or other non-specific estimates):
+
+- Industry-average emission intensity for steel (tonnes CO2e per tonne steel)
+- Life cycle assessment (LCA) databases
+- Economic input-output models
+
+B46 to B49 establish that **primary data is preferred** over secondary data because it reflects the actual characteristics of the specific supplier or customer. However, secondary data is acceptable, and often the only feasible option, especially for indirect, multi-tier supply chain emissions.
+
+## Timely, Representative Data (B50 to B52)
+
+Even if primary data is available, it should reflect current conditions:
+
+- **Timely:** Data from the current or recent period, not outdated emission factors from years ago
+- **Jurisdiction-representative:** Emission factors specific to the country or region, not global averages (for example, the carbon intensity of the Chinese electricity grid is much higher than the French grid)
+- **Technology-representative:** Reflecting the actual technology used, not an industry average that may include older, higher-emission technologies
+
+## Verified Data (B53 to B54)
+
+Data that has been independently verified (whether through internal audit or external assurance) is of higher quality because verification reduces the risk of error or misstatement. Entities should prioritise verified data over unverified data when both are available.
+
+## Disclosure of the Measurement Approach (B55 to B56)
+
+B55 to B56 require entities to disclose:
+
+- The measurement approach used for each significant Scope 3 category
+- How they have prioritised data quality characteristics (which characteristics were prioritised and why, given the trade-offs in their specific situation)
+
+This transparency allows investors and other stakeholders to assess the reliability of the Scope 3 figures disclosed.
+
+## The Impracticability Backstop (B57)
+
+If estimating Scope 3 emissions for a particular category is **impracticable** (a high threshold equivalent to IAS 8's definition), the entity is not required to provide a number. However, it must disclose:
+
+- Why estimation is impracticable
+- How the entity is managing emissions in that category
+
+"Impracticable" means genuinely impossible with reasonable effort. It is not a convenience escape. Entities are expected to make good-faith efforts to estimate Scope 3 across all material categories.
+
+<ExampleBox>
+**Example: Scope 3 measurement approach for a food manufacturer**
+
+"We report Scope 3 emissions across 8 of the 15 categories. Categories 1, 4, 5, 6, 9, 11, 12 are included based on materiality assessment. Category 15 (investments) is not applicable.
+
+For Category 1 (purchased goods and services), which accounts for 71% of our total Scope 3, we use primary emission intensity data from our top 50 suppliers (covering 68% of spend) collected through our supplier sustainability programme. For the remaining 32%, we use region-specific secondary emission factors from the ecoinvent database.
+
+For Category 11 (use of sold products, refrigeration energy use), we use product technical specifications and average usage patterns from consumer research to estimate product lifetime energy consumption, converted to CO2e using location-based electricity grid emission factors by sales territory."
+</ExampleBox>
+
+## Per-Category Methodology Disclosures in Practice
+
+The most informative Scope 3 disclosures describe the calculation methodology for each material category. This helps users understand the data sources, methods, and assumptions behind each figure. In practice, companies describe these alongside or following the emissions table.
+
+<ResponsiveTable>
+<table class="mb-6">
+  <tr><th>Category</th><th>Method Used</th><th>Data Sources and Assumptions</th></tr>
+  <tr><td>1: Purchased goods and services</td><td>Hybrid data method</td><td>Combines procurement spend, volumes of material consumed, and supplier-specific activity data. Procurement data extracted from the ERP system. Where supplier-specific data was provided, it was prioritised.</td></tr>
+  <tr><td>2: Capital goods</td><td>Average spend-based method</td><td>Based on capex spend data extracted from the ERP system, applying emission factors. Assumptions include that selected emission factors accurately reflect the materials and transaction types associated with the equipment.</td></tr>
+  <tr><td>3: Fuel and energy-related activities</td><td>Average-data method</td><td>Based on metered electricity and heating consumption data, applying emission factors. Assumptions included standard grid loss percentages and fuel mix.</td></tr>
+  <tr><td>4: Upstream transport and distribution</td><td>Average spend-based method</td><td>Based on procurement transportation data from the ERP system, applying emission factors. Assumes spend data is a reasonable proxy for transport activity in the absence of detailed distance or weight data.</td></tr>
+  <tr><td>5: Waste generated in operations</td><td>Waste-type-specific method</td><td>Based on waste type, volumes and disposal method data from contractors, applying emission factors. Assumes recorded volumes and disposal routes accurately reflect actual waste treatment outcomes.</td></tr>
+  <tr><td>6: Business travel</td><td>Distance-based method</td><td>Based on data collected from the corporate booking system categorised by mode (air, rail, car), applying emission factors.</td></tr>
+</table>
+</ResponsiveTable>
+
+Disclosing this level of methodological detail satisfies Application Guidance B53 to B56 and helps users assess the reliability and comparability of the reported figures.
+
+<KeyTakeaways items="Scope 3 measurement will involve estimation - the standard explicitly acknowledges this and focuses on achieving the most faithful representation with available data ;; Four data quality characteristics to prioritise: direct measurement, specific value chain activity data (primary over secondary), timely and jurisdiction-representative data, and verified data ;; Primary data from specific suppliers is preferred, but secondary data (industry averages, LCA databases) is acceptable and often the only feasible option for multi-tier supply chains ;; Entities must disclose their measurement approach for each significant Scope 3 category and explain how they navigated data quality trade-offs ;; The impracticability backstop (B57) is a high threshold equivalent to IAS 8 - it requires genuine impossibility with reasonable effort, not mere inconvenience" />

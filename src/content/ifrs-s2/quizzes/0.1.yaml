@@ -1,0 +1,31 @@
+- question: "What is the primary purpose of IFRS S2?"
+  options:
+    - "To require companies to reduce their greenhouse gas emissions"
+    - "To enable investors and lenders to understand climate-related risks affecting an entity's prospects"
+    - "To mandate net-zero targets for all publicly listed companies"
+    - "To standardise carbon credit markets globally"
+  answer: 1
+  explanation: "IFRS S2 is a disclosure standard, not a conduct standard. Its objective (paragraph 1) is to provide information useful to primary users of general purpose financial reports — investors, lenders, and creditors — in making decisions about providing resources to the entity."
+
+- question: "Which of the following best describes the information gap that motivated the development of IFRS S2?"
+  options:
+    - "Companies were reporting too much climate information, creating information overload"
+    - "Climate disclosures were voluntary, inconsistent, and incomparable across companies"
+    - "Governments lacked access to corporate emissions data for policy purposes"
+    - "Accounting standards required companies to disclose climate information in financial statements"
+  answer: 1
+  explanation: "Before IFRS S2, climate disclosure was largely voluntary. This created three problems: inconsistency (different frameworks used), incompleteness (selective disclosure), and incomparability (different metrics and methodologies)."
+
+- question: "IFRS S2 requires entities to reduce their greenhouse gas emissions."
+  type: true-false
+  answer: false
+  explanation: "IFRS S2 is a disclosure standard, not a conduct standard. It requires entities to disclose information about climate-related risks and opportunities — it imposes no obligation to reduce emissions."
+
+- question: "Which type of investor is most likely to need financed emissions data from IFRS S2?"
+  options:
+    - "Individual retail investors buying single stocks"
+    - "Institutional investors managing large loan portfolios or investment funds"
+    - "Central banks setting monetary policy"
+    - "Government pension funds only"
+  answer: 1
+  explanation: "Institutional investors — asset managers, commercial lenders, and insurers — need climate information to assess portfolio-level exposure, price risk, and meet their own regulatory obligations (e.g., SFDR in Europe)."

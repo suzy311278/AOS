@@ -1,0 +1,26 @@
+- question: "The World Economic Forum estimated that how much of global GDP is moderately or highly dependent on nature and its services?"
+  options:
+  - "$4.4 trillion (roughly 5% of global GDP)"
+  - "$14 trillion (roughly 15% of global GDP)"
+  - "$44 trillion (more than half of global GDP)"
+  - "$440 trillion (several times global GDP)"
+  answer: 2
+  explanation: "The World Economic Forum's 'Nature Risk Rising' report (2020) estimated that more than $44 trillion of economic value, representing over half of global GDP, is moderately or highly dependent on nature and its services. This makes biodiversity loss not merely an environmental statistic but a financial stability concern of the first order."
+
+- question: "Which of the following best describes 'transition risks' in the context of TNFD nature-related financial risk?"
+  options:
+  - "The risk that a company's headquarters will physically need to move due to flooding"
+  - "Risks from policy, regulatory, technology, and market shifts in response to nature loss, such as new deforestation regulations affecting supply chains"
+  - "The risk of transitioning from voluntary to mandatory TCFD reporting"
+  - "Physical risks that occur during the transition between seasons, affecting agricultural yields"
+  answer: 1
+  explanation: "Transition risks arise from society's response to nature loss: new regulations (like the EU Deforestation Regulation), changing market expectations, evolving technology, and shifting stakeholder demands. They are distinct from physical risks (direct ecosystem degradation affecting operations) and systemic risks (cascading effects through financial systems)."
+
+- question: "As of 2024, financial institutions with combined AUM exceeding what figure had signed the Finance for Biodiversity Pledge?"
+  options:
+  - "$2.3 trillion"
+  - "$23 trillion"
+  - "$230 trillion"
+  - "$2.3 billion"
+  answer: 1
+  explanation: "By 2024, financial institutions with combined assets under management exceeding $23 trillion had signed the Finance for Biodiversity Pledge, committing to assess their biodiversity impact, set targets, and report on them by 2025. This signals the scale of investor attention to nature-related disclosure and the growing pressure on portfolio companies to provide TNFD-aligned information."

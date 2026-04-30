@@ -1,0 +1,35 @@
+- question: "What role do financial institutions play in ETS markets?"
+  options:
+    - "They are prohibited from participating"
+    - "They provide liquidity, hedging products, and price discovery"
+    - "They set the cap"
+    - "They verify emissions"
+  answer: 1
+  explanation: "Financial institutions provide market liquidity, offer hedging instruments (futures, options), and contribute to price discovery, though their participation must be regulated to prevent pure speculation from dominating."
+
+- question: "What is a compliance buyer in an ETS market?"
+  options:
+    - "An entity that buys allowances to cover its emissions obligations"
+    - "A government buyer"
+    - "Someone who buys to resell for profit"
+    - "An environmental group"
+  answer: 0
+  explanation: "Compliance buyers are covered entities that purchase allowances in the market to surrender for compliance with their emissions obligations."
+
+- question: "What are derivatives in the context of carbon markets?"
+  options:
+    - "Financial instruments like futures and options based on allowance prices"
+    - "Emissions from chemical processes"
+    - "Secondary pollutants"
+    - "Allowances for future years"
+  answer: 0
+  explanation: "Derivatives are financial instruments (futures, options, swaps) whose value is derived from underlying allowance prices, used for hedging and price risk management."
+
+- question: "Why might a jurisdiction limit speculative trading in its ETS?"
+  options:
+    - "To prevent all trading"
+    - "To prevent excessive speculation from causing price volatility unrelated to emissions fundamentals"
+    - "Because speculation is illegal"
+    - "To maximize government revenue"
+  answer: 1
+  explanation: "While some financial participation aids liquidity, excessive speculation unrelated to actual emissions can cause price swings driven by financial markets rather than carbon supply and demand, undermining the environmental signal."

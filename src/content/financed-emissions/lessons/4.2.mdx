@@ -1,0 +1,122 @@
+{/* source: PCAF Standard Part C; PCAF Insurance FAQ; PCAF Motor Vehicle TCO Data */}
+
+**Insurance-associated emissions (IAE)** are the greenhouse gas emissions linked to a re/insurer's underwriting portfolio. When an insurer underwrites a policy for (say) an oil refinery, the premiums collected are, in part, a consequence of the refinery's operations. By insuring that activity, the insurer is associating itself with the emissions those operations produce. Part C of the PCAF Standard, published in December 2023, provides the first globally standardised methodology for measuring and disclosing these emissions.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/financed-emissions/4_2.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## The "Follow the Risk" Principle
+
+While financed emissions (Part A) follow the money (capital flows determine attribution), insurance-associated emissions follow the **risk**. The insurer's exposure to a policyholder's operations is defined by the premium it charges, which reflects the risk it accepts. The attribution principle therefore links the insurer's share of the policyholder's total risk cost to its share of the policyholder's emissions.
+
+<AnalogyBox>
+If a factory's total annual risk cost (what it costs the factory to be insured and financed in full) is $10 million, and your insurance premium from that factory is $500,000, you are covering 5% of the factory's total risk exposure. PCAF's approach says you should therefore attribute 5% of the factory's emissions to your insurance book.
+</AnalogyBox>
+
+## Scope of Coverage
+
+Part C currently covers two lines of business:
+
+### Commercial Lines
+
+Commercial lines include all forms of business insurance: property insurance, business interruption, liability insurance, marine, aviation, and engineering. The attribution approach uses the **premium-to-revenue ratio**:
+
+<EquationBreakdown
+  title="Insurance Attribution - Commercial Lines"
+  result="AF | Attribution Factor | The insurer's proportional share of the insured company's emissions | blue"
+  inputs="GWP | Gross Written Premium | Premium collected from the policyholder before reinsurance | green ;; Rev<sub>co</sub> | Revenue of Insured Company | Total annual revenue of the insured company | amber"
+  operator="÷"
+/>
+
+This ratio represents the insurer's proportional claim on the insured company's total economic output (and thus its associated emissions).
+
+<ExampleBox>
+**Commercial lines calculation**
+
+An insurer collects a gross written premium of $2 million from a steel manufacturer with total annual revenue of $500 million. The steel manufacturer's annual Scope 1 and 2 emissions are 800,000 tCO2e.
+
+Attribution factor = $2M / $500M = **0.4%**
+Insurance-associated emissions = 0.4% × 800,000 = **3,200 tCO2e**
+</ExampleBox>
+
+### Personal Motor Lines
+
+Personal motor insurance is the most widely written line of personal insurance globally and produces the largest share of IAE for most insurers. PCAF uses a **total cost of ownership (TCO)** approach for personal motor:
+
+<EquationBreakdown
+  title="Insurance Attribution - Personal Motor"
+  result="AF | Attribution Factor | The insurer's share of a vehicle's emissions based on coverage cost relative to total ownership cost | blue"
+  inputs="P | Premium | Annual insurance premium collected from the policyholder | green ;; TCO | Total Cost of Ownership | All costs of owning and operating the vehicle over its life: purchase, fuel, maintenance, insurance, registration, and depreciation | amber"
+  operator="÷"
+/>
+
+## PCAF Motor Vehicle TCO Study
+
+Because TCO data is rarely directly observable, PCAF commissioned a dedicated study (published December 2023) to calculate **global and regional average premium-to-TCO ratios**. The study uses CPI (Consumer Price Index) methodologies, with key findings:
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Region</th>
+      <th>Average Premium-to-TCO Ratio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Advanced EMEA</td><td>6.46%</td></tr>
+    <tr><td>Central and Eastern Europe</td><td>9.24%</td></tr>
+    <tr><td>North America</td><td>8.67%</td></tr>
+    <tr><td>Latin America</td><td>3.73%</td></tr>
+    <tr><td>Asia-Pacific</td><td>6.79%</td></tr>
+    <tr><td>Middle East</td><td>3.44%</td></tr>
+    <tr><td><strong>Global weighted average</strong></td><td><strong>6.99%</strong></td></tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+Financial institutions that cannot determine country- or region-specific ratios may use the **global weighted average of 6.99%**.
+
+<ExampleBox>
+**Personal motor calculation using the global average**
+
+An insurer in Australia collects $100 million in personal motor premiums across its auto insurance book. The average vehicle emissions in Australia (estimated from fuel consumption statistics) are 2.5 tCO2e/vehicle/year.
+
+If the average TCO for a vehicle in Australia is $180,000 over its lifetime, the attribution factor for a $1,260 average annual premium is:
+
+$1,260 / $18,000 (annualised TCO at 10-year life) = **7.0%**
+
+If the insurer holds 100,000 policies, the portfolio's total financed vehicle emissions = 100,000 × 2.5 = 250,000 tCO2e. Applied attribution factor = 7.0%.
+
+IAE from personal motor = 7.0% × 250,000 = **17,500 tCO2e**
+
+Alternatively, using total premium / (policies × TCO):
+$100M / (100,000 × $18,000) = **5.6%** → IAE = 5.6% × 250,000 = **14,000 tCO2e**
+</ExampleBox>
+
+## Relationship to Financed Emissions
+
+Insurance-associated emissions and financed emissions are **separate but potentially overlapping** categories. A re/insurer that also manages a large investment portfolio (common for life insurers and some P&C groups) has both:
+
+- **Financed emissions** from its investment assets (Part A)
+- **Insurance-associated emissions** from its underwriting book (Part C)
+
+These shall be reported separately, with no netting between them. Double counting may occur if the same company is both insured and invested in by the same financial group. PCAF recommends disclosing such overlaps transparently.
+
+## Data Quality Scoring for IAE
+
+Part C uses the same 1-to-5 scoring framework. For commercial lines, the highest quality uses the insured company's reported emissions directly (Score 1). For personal motor, the best quality uses actual vehicle-level fuel consumption data (Score 1), while the lowest quality uses global average statistical data (Score 5).
+
+## Reporting Requirements
+
+IAE shall be reported as a **supplementary accounting note** within Scope 3 Category 15, separately from both financed emissions and facilitated emissions. Financial institutions shall report:
+
+- Absolute IAE in tCO2e
+- The premium base and attribution factors used
+- The lines of business covered and those excluded
+- The data quality score
+- Any significant methodological assumptions
+
+<HighlightBox>
+Insurance-associated emissions are a nascent but rapidly growing area. As climate change intensifies physical risks, re/insurers are increasingly scrutinised for the degree to which their underwriting portfolios support or hinder the low-carbon transition. Part C provides the foundation for this accountability, and future editions of the standard are expected to expand coverage to additional lines of business beyond commercial and personal motor.
+</HighlightBox>
+
+<KeyTakeaways items="Insurance-associated emissions follow the risk rather than the money - the premium-to-revenue (commercial) or premium-to-TCO (personal motor) ratio determines attribution ;; For commercial lines, the attribution factor is gross written premium divided by the insured company's revenue ;; The global weighted average premium-to-TCO ratio for personal motor insurance is 6.99%, meaning insurance represents about 7% of vehicle lifetime cost ;; IAE must be reported separately from both financed and facilitated emissions as a supplementary note within Scope 3 Category 15 ;; Re/insurers with investment portfolios have both financed emissions (Part A) and insurance-associated emissions (Part C) - these shall never be netted against each other" />

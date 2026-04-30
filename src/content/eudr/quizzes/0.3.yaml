@@ -1,0 +1,26 @@
+- question: "What was the main limitation of the EU Timber Regulation (EUTR) that the EUDR was designed to overcome?"
+  options:
+    - "The EUTR applied only to countries outside the EU"
+    - "The EUTR covered only wood products and legality, leaving agricultural deforestation and other commodities unaddressed"
+    - "The EUTR required geolocation data that was too difficult to collect"
+    - "The EUTR imposed fines that were too small to deter non-compliance"
+  answer: 1
+  explanation: "The EU Timber Regulation (EUTR) covered only timber and wood products, not agricultural commodities like soy, palm oil, or cocoa. It also focused on the legality of harvesting rather than whether forests were converted at all. The EUDR addresses both limitations by covering seven commodity groups and requiring proof that production land was not deforested after 31 December 2020."
+
+- question: "When did the EU Deforestation Regulation (EUDR) enter into force?"
+  options:
+    - "31 May 2023"
+    - "29 June 2023"
+    - "30 December 2024"
+    - "30 December 2026"
+  answer: 1
+  explanation: "The EUDR was formally adopted on 31 May 2023 and entered into force on 29 June 2023, following publication in the Official Journal of the European Union. It enters into force and starts applying to large operators only from 30 December 2026 following a delay."
+
+- question: "Why was the EUDR application date extended from 30 June 2025 to 30 December 2026 for large operators?"
+  options:
+    - "Because EU Member States failed to designate competent authorities"
+    - "Because the regulation was challenged before the Court of Justice of the EU"
+    - "Because the EUDR Information System, geolocation infrastructure, and producer country systems were not yet ready"
+    - "Because the Glasgow Declaration required a longer transition period"
+  answer: 2
+  explanation: "The application date was extended following stakeholder consultation that revealed legitimate readiness concerns: the EUDR Information System only launched in December 2024, many producer countries had not yet established systems to provide geolocation data at scale, and smallholder supply chains needed more time to develop data collection solutions."

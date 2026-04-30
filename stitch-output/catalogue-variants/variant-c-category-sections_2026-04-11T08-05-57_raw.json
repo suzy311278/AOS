@@ -1,0 +1,186 @@
+{
+  "outputComponents": [
+    {
+      "design": {
+        "screens": [
+          {
+            "designSystem": {
+              "designSystem": {
+                "displayName": "Evergreen Institutional",
+                "theme": {
+                  "bodyFont": "INTER",
+                  "colorMode": "LIGHT",
+                  "colorVariant": "FIDELITY",
+                  "customColor": "#2D6A4F",
+                  "designMd": "# Design System Specification: The Sovereign Ledger\n\n## 1. Overview & Creative North Star\n**Creative North Star: The Sovereign Ledger**\n\nThis design system is built to convey the weight and precision of a global financial terminal, repurposed for the critical data of sustainability. It rejects the \"playful green\" tropes of traditional environmental apps in favor of a high-density, authoritative editorial aesthetic. We move beyond standard layouts by embracing **The Sovereign Ledger**—a visual language defined by data-heavy precision, generous whitespace, and a rejection of structural borders in favor of tonal depth.\n\nThe interface should feel like a premium physical report: tactile, expensive, and indisputable. We achieve this through:\n*   **Intentional Asymmetry:** Breaking the grid to highlight key performance indicators.\n*   **Typography as Architecture:** Using tight-tracked Inter for high-impact statements and JetBrains Mono for technical data.\n*   **The \"No-Line\" Philosophy:** Defining space through surface hierarchy rather than 1px dividers.\n\n---\n\n## 2. Colors & Surface Philosophy\nThe palette is anchored in deep, \"Old Growth\" greens and high-contrast mints. It is designed to feel permanent and rooted.\n\n### Core Palette\n*   **Primary (Action):** `#0F5238` (Medium Green) — Used for critical CTAs.\n*   **Background:** `#E9FFEB` (Pale Green) — The foundational \"paper\" of the OS.\n*   **Surface (Cards):** `#FFFFFF` — High-contrast sheets for data entry and display.\n*   **Deep Accents:** `#0B3D2E` (Deep Forest) and `#1B4332` (Dark Green) for headers and dark-mode surfaces.\n\n### The \"No-Line\" Rule\nDesigners are prohibited from using 1px solid borders to section content in light mode. Boundaries must be defined solely through background color shifts.\n*   **Nesting Example:** A `surface-container-lowest` (`#FFFFFF`) card should sit on a `surface` (`#E9FFEB`) background.\n*   **Sectioning:** To separate sections, shift from `surface` to `surface-container-low` (`#DFFBE3`). This creates a \"molded\" look that feels premium rather than \"templated.\"\n\n### Signature Textures\nWhile the UI is largely flat, use **Subtle Radial Glows** in dark-themed components (e.g., `#0B3D2E` backgrounds) to mimic the luminescence of a high-end monitor. A radial gradient from `primary-container` (`#2D6A4F`) to `deep forest` (`#0B3D2E`) provides the \"visual soul\" required for a premium experience.\n\n---\n\n## 3. Typography\nTypography is the primary driver of authority in this system.\n\n### The Editorial Scale\n*   **Headings (Inter, 600-800 weight):** Tight tracking (-0.02em to -0.04em). This creates a \"compressed\" editorial look common in high-end financial journals.\n*   **Body (Inter, 400 weight):** Standard tracking for maximum legibility.\n*   **Technical Metadata (JetBrains Mono):** 10px-12px, Uppercase, 0.15em letter spacing. Use this for eyebrows, timestamps, and sustainability data points. It signals precision and \"raw\" data integrity.\n\n| Level | Size | Weight | Tracking | Case |\n| :--- | :--- | :--- | :--- | :--- |\n| **Display-LG** | 3.5rem | 800 | -0.04em | Sentence |\n| **Headline-SM** | 1.5rem | 700 | -0.02em | Sentence |\n| **Label-MD (Data)** | 0.75rem | 500 (Mono) | 0.15em | UPPERCASE |\n\n---\n\n## 4. Elevation & Depth: Tonal Layering\nWe do not use shadows to create hierarchy; we use **Stacking**.\n\n*   **The Layering Principle:** Treat the UI as a series of physical sheets.\n    1.  **Base:** `surface` (#E9FFEB)\n    2.  **Section:** `surface-container-low` (#DFFBE3)\n    3.  **Content Card:** `surface-container-lowest` (#FFFFFF)\n*   **Ambient Shadows:** Only for floating elements (modals, dropdowns). Use a 32px-48px blur with 4-6% opacity using the `on-surface` color. It should feel like a soft glow, not a drop shadow.\n*   **Glassmorphism:** For overlays, use semi-transparent `surface` colors with a 12px-20px backdrop blur. This ensures the \"Sovereign Green\" palette bleeds through the entire experience.\n\n---\n\n## 5. Components\n\n### Buttons\n*   **Style:** Solid `#2D6A4F`, 8px (md) rounded corners.\n*   **Requirement:** Must include a Lucide arrow icon (e.g., `ArrowRight`) on the right side of the text.\n*   **Constraint:** No pill shapes. No gradients.\n*   **Secondary:** Ghost style with `primary` text and a `0.15em` spaced JetBrains Mono label.\n\n### Cards\n*   **Radius:** 16px (lg).\n*   **Rule:** No dividers allowed within cards. Use 24px-32px of vertical whitespace to separate header, body, and footer content.\n*   **Background:** Always `#FFFFFF` in light mode.\n\n### Data Inputs\n*   **Background:** `surface-container-highest` (`#CEE9D3`).\n*   **Active State:** No color change on the border; instead, use a 2px interior stroke of `primary` (`#0F5238`).\n*   **Labels:** Always JetBrains Mono, 10px, uppercase, sitting 8px above the field.\n\n### Progress & Indicators\n*   **Track:** `outline-variant` (`#BFC9C1`).\n*   **Fill:** `primary` (`#0F5238`).\n*   **Data Points:** Lucide icons only (16px, stroke width 2). Use `#2D6A4F` for all icons on light surfaces.\n\n---\n\n## 6. Do's and Don'ts\n\n### Do:\n*   **Do** use extreme whitespace. If a section feels \"comfortable,\" add 16px more padding.\n*   **Do** use JetBrains Mono for any number or technical unit (e.g., \"420.50 kg CO2e\").\n*   **Do** rely on `surface-variant` color shifts to define secondary dashboard areas.\n\n### Don't:\n*   **Don't** use 1px borders. This is the hallmark of \"cheap\" UI.\n*   **Don't** use \"playful\" icons or illustrations. If an image is needed, use high-contrast architectural or nature photography with desaturated greens.\n*   **Don't** use pill-shaped buttons. We are building an operating system, not a consumer app.\n*   **Don't** use pure black (#000000). Use `on-background` (#092012) for all dark text to maintain the organic tonal range.",
+                  "font": "INTER",
+                  "headlineFont": "INTER",
+                  "labelFont": "INTER",
+                  "namedColors": {
+                    "background": "#e9ffeb",
+                    "error": "#ba1a1a",
+                    "error_container": "#ffdad6",
+                    "inverse_on_surface": "#ddf8e0",
+                    "inverse_primary": "#95d4b3",
+                    "inverse_surface": "#1f3526",
+                    "on_background": "#092012",
+                    "on_error": "#ffffff",
+                    "on_error_container": "#93000a",
+                    "on_primary": "#ffffff",
+                    "on_primary_container": "#a8e7c5",
+                    "on_primary_fixed": "#002114",
+                    "on_primary_fixed_variant": "#0e5138",
+                    "on_secondary": "#ffffff",
+                    "on_secondary_container": "#3e6b5a",
+                    "on_secondary_fixed": "#002116",
+                    "on_secondary_fixed_variant": "#214f3f",
+                    "on_surface": "#092012",
+                    "on_surface_variant": "#404943",
+                    "on_tertiary": "#ffffff",
+                    "on_tertiary_container": "#89edba",
+                    "on_tertiary_fixed": "#002113",
+                    "on_tertiary_fixed_variant": "#005235",
+                    "outline": "#707973",
+                    "outline_variant": "#bfc9c1",
+                    "primary": "#0f5238",
+                    "primary_container": "#2d6a4f",
+                    "primary_fixed": "#b1f0ce",
+                    "primary_fixed_dim": "#95d4b3",
+                    "secondary": "#396756",
+                    "secondary_container": "#b9ead4",
+                    "secondary_fixed": "#bcedd7",
+                    "secondary_fixed_dim": "#a0d1bc",
+                    "surface": "#e9ffeb",
+                    "surface_bright": "#e9ffeb",
+                    "surface_container": "#daf5de",
+                    "surface_container_high": "#d4efd8",
+                    "surface_container_highest": "#cee9d3",
+                    "surface_container_low": "#dffbe3",
+                    "surface_container_lowest": "#ffffff",
+                    "surface_dim": "#c6e1ca",
+                    "surface_tint": "#2c694e",
+                    "surface_variant": "#cee9d3",
+                    "tertiary": "#005236",
+                    "tertiary_container": "#006d48",
+                    "tertiary_fixed": "#92f7c3",
+                    "tertiary_fixed_dim": "#75daa8"
+                  },
+                  "overrideNeutralColor": "#D8F3DC",
+                  "overridePrimaryColor": "#2D6A4F",
+                  "overrideSecondaryColor": "#0B3D2E",
+                  "overrideTertiaryColor": "#52B788",
+                  "roundness": "ROUND_EIGHT",
+                  "spacingScale": 3
+                }
+              },
+              "name": "assets/a46d1d89e6284217af6c1a9f7e4aaedc",
+              "version": "1"
+            },
+            "deviceType": "DESKTOP",
+            "generatedBy": "figaro_agent",
+            "height": "6004",
+            "htmlCode": {
+              "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzZiYjk1ZWNiZTQ1NDQ0MDhhN2Q5Y2U2ZTU3Y2E3NWEyEgsSBxD4gf-qtRAYAZIBJAoKcHJvamVjdF9pZBIWQhQxNTIzMTQ4MTIwNjEyODQ4Mjc3Nw&filename=&opi=96797242",
+              "mimeType": "text/html",
+              "name": "projects/15231481206128482777/files/37d2289f385243e8a7d667fa24aec02a"
+            },
+            "id": "eb098554189847d0adbf7a1bf2fcaab1",
+            "name": "projects/15231481206128482777/screens/eb098554189847d0adbf7a1bf2fcaab1",
+            "prompt": "Desktop website for Greentryst Course Catalogue. Layout C: CATEGORY SECTIONS WITH FEATURED HERO CARD. \n\nTop Header: Dark forest-green header band (#081C15 base with radial #2D6A4F glow). Contains mono eyebrow 'COURSE CATALOGUE' (JetBrains Mono), 48px headline '22 courses. Every sustainability domain.' (Inter, tight tracking), supporting paragraph, and four large stats (e.g., '22 COURSES', '400+ LESSONS', '12 EXPERT INSTRUCTORS', 'YES PROFESSIONAL CERTIFICATION').\n\nFilter Bar: Sticky white filter bar with search input on left and category pill chips (FUNDAMENTALS, CARBON MARKETS, ESG, GREEN FINANCE, STANDARDS).\n\nMain Content: Pale-green #D8F3DC background. Organized into category sections.\nSection 1: 'FUNDAMENTALS (6)' with a one-line description. \n- Featured Hero Card (Full width): 'Climate Science 101 — The physical science of climate change and why it matters'. White background, 16px corners, Lucide 'Thermometer' icon in a pale-green wash square on left. 24px bold title, 2-line description, mono metadata '8 MODULES · 42 LESSONS · 12H'. Medium-green #2D6A4F button 'Explore course ->' on right.\n- Grid: 3-column grid of 5 smaller cards (white, 16px corners). Includes courses like 'Greenhouse Gas Protocol', 'Scope 3 Accounting', 'Biodiversity Basics', 'Water Stewardship', 'Circular Economy'. Each has Lucide icon top-left, title, subtitle, mono metadata.\n\nSection 2: 'CARBON MARKETS (5)'. \n- Featured Hero Card: 'Voluntary Carbon Markets 101'. Similar layout to the first hero card.\n- Grid: Start of a 3-column grid with cards like 'Verification Standards', 'EU ETS Mechanics', 'Carbon Pricing Theory'.\n\nVisual Language: Lucide icons in #2D6A4F. Inter for main text, JetBrains Mono for metadata and eyebrows. No per-course colors. Premium, technical, 'Sovereign Ledger' aesthetic. No 1px borders on light cards, use subtle shadows. 16px corners for cards. White background for cards on the pale-green section background.",
+            "screenMetadata": {
+              "agentType": "PRO_AGENT",
+              "status": "COMPLETE"
+            },
+            "screenType": "DESIGN",
+            "screenshot": {
+              "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0uhgVlPkT2cHDYj2MQ8SaVqFRqIncR0GiM8OYhtW9Uwd79j1OebNgkHAFzqCaiESRAkslyn3FMuePJVDwuOCJZbu33l0dPJnFDcQzZb5RACcZ44rE6L9APB3C5NDUoVvymtlkcMrtbw9v7TXqr_tKWFD3xTMeIoc0LEiLk4QsLs7wuvsgiNuKkw8BRxaz58GfYybVBaN3Pffnhs3s_DkAvZ6TvfUtEKfOIBFBdLr63oXDuL1ANw3o8rS8U5d",
+              "name": "projects/15231481206128482777/files/1ba193e885f74e6da329bef9dc31b21f"
+            },
+            "theme": {
+              "bodyFont": "INTER",
+              "colorMode": "LIGHT",
+              "colorVariant": "FIDELITY",
+              "customColor": "#2D6A4F",
+              "designMd": "# Design System Specification: The Sovereign Ledger\n\n## 1. Overview & Creative North Star\n**Creative North Star: The Sovereign Ledger**\n\nThis design system is built to convey the weight and precision of a global financial terminal, repurposed for the critical data of sustainability. It rejects the \"playful green\" tropes of traditional environmental apps in favor of a high-density, authoritative editorial aesthetic. We move beyond standard layouts by embracing **The Sovereign Ledger**—a visual language defined by data-heavy precision, generous whitespace, and a rejection of structural borders in favor of tonal depth.\n\nThe interface should feel like a premium physical report: tactile, expensive, and indisputable. We achieve this through:\n*   **Intentional Asymmetry:** Breaking the grid to highlight key performance indicators.\n*   **Typography as Architecture:** Using tight-tracked Inter for high-impact statements and JetBrains Mono for technical data.\n*   **The \"No-Line\" Philosophy:** Defining space through surface hierarchy rather than 1px dividers.\n\n---\n\n## 2. Colors & Surface Philosophy\nThe palette is anchored in deep, \"Old Growth\" greens and high-contrast mints. It is designed to feel permanent and rooted.\n\n### Core Palette\n*   **Primary (Action):** `#0F5238` (Medium Green) — Used for critical CTAs.\n*   **Background:** `#E9FFEB` (Pale Green) — The foundational \"paper\" of the OS.\n*   **Surface (Cards):** `#FFFFFF` — High-contrast sheets for data entry and display.\n*   **Deep Accents:** `#0B3D2E` (Deep Forest) and `#1B4332` (Dark Green) for headers and dark-mode surfaces.\n\n### The \"No-Line\" Rule\nDesigners are prohibited from using 1px solid borders to section content in light mode. Boundaries must be defined solely through background color shifts.\n*   **Nesting Example:** A `surface-container-lowest` (`#FFFFFF`) card should sit on a `surface` (`#E9FFEB`) background.\n*   **Sectioning:** To separate sections, shift from `surface` to `surface-container-low` (`#DFFBE3`). This creates a \"molded\" look that feels premium rather than \"templated.\"\n\n### Signature Textures\nWhile the UI is largely flat, use **Subtle Radial Glows** in dark-themed components (e.g., `#0B3D2E` backgrounds) to mimic the luminescence of a high-end monitor. A radial gradient from `primary-container` (`#2D6A4F`) to `deep forest` (`#0B3D2E`) provides the \"visual soul\" required for a premium experience.\n\n---\n\n## 3. Typography\nTypography is the primary driver of authority in this system.\n\n### The Editorial Scale\n*   **Headings (Inter, 600-800 weight):** Tight tracking (-0.02em to -0.04em). This creates a \"compressed\" editorial look common in high-end financial journals.\n*   **Body (Inter, 400 weight):** Standard tracking for maximum legibility.\n*   **Technical Metadata (JetBrains Mono):** 10px-12px, Uppercase, 0.15em letter spacing. Use this for eyebrows, timestamps, and sustainability data points. It signals precision and \"raw\" data integrity.\n\n| Level | Size | Weight | Tracking | Case |\n| :--- | :--- | :--- | :--- | :--- |\n| **Display-LG** | 3.5rem | 800 | -0.04em | Sentence |\n| **Headline-SM** | 1.5rem | 700 | -0.02em | Sentence |\n| **Label-MD (Data)** | 0.75rem | 500 (Mono) | 0.15em | UPPERCASE |\n\n---\n\n## 4. Elevation & Depth: Tonal Layering\nWe do not use shadows to create hierarchy; we use **Stacking**.\n\n*   **The Layering Principle:** Treat the UI as a series of physical sheets.\n    1.  **Base:** `surface` (#E9FFEB)\n    2.  **Section:** `surface-container-low` (#DFFBE3)\n    3.  **Content Card:** `surface-container-lowest` (#FFFFFF)\n*   **Ambient Shadows:** Only for floating elements (modals, dropdowns). Use a 32px-48px blur with 4-6% opacity using the `on-surface` color. It should feel like a soft glow, not a drop shadow.\n*   **Glassmorphism:** For overlays, use semi-transparent `surface` colors with a 12px-20px backdrop blur. This ensures the \"Sovereign Green\" palette bleeds through the entire experience.\n\n---\n\n## 5. Components\n\n### Buttons\n*   **Style:** Solid `#2D6A4F`, 8px (md) rounded corners.\n*   **Requirement:** Must include a Lucide arrow icon (e.g., `ArrowRight`) on the right side of the text.\n*   **Constraint:** No pill shapes. No gradients.\n*   **Secondary:** Ghost style with `primary` text and a `0.15em` spaced JetBrains Mono label.\n\n### Cards\n*   **Radius:** 16px (lg).\n*   **Rule:** No dividers allowed within cards. Use 24px-32px of vertical whitespace to separate header, body, and footer content.\n*   **Background:** Always `#FFFFFF` in light mode.\n\n### Data Inputs\n*   **Background:** `surface-container-highest` (`#CEE9D3`).\n*   **Active State:** No color change on the border; instead, use a 2px interior stroke of `primary` (`#0F5238`).\n*   **Labels:** Always JetBrains Mono, 10px, uppercase, sitting 8px above the field.\n\n### Progress & Indicators\n*   **Track:** `outline-variant` (`#BFC9C1`).\n*   **Fill:** `primary` (`#0F5238`).\n*   **Data Points:** Lucide icons only (16px, stroke width 2). Use `#2D6A4F` for all icons on light surfaces.\n\n---\n\n## 6. Do's and Don'ts\n\n### Do:\n*   **Do** use extreme whitespace. If a section feels \"comfortable,\" add 16px more padding.\n*   **Do** use JetBrains Mono for any number or technical unit (e.g., \"420.50 kg CO2e\").\n*   **Do** rely on `surface-variant` color shifts to define secondary dashboard areas.\n\n### Don't:\n*   **Don't** use 1px borders. This is the hallmark of \"cheap\" UI.\n*   **Don't** use \"playful\" icons or illustrations. If an image is needed, use high-contrast architectural or nature photography with desaturated greens.\n*   **Don't** use pill-shaped buttons. We are building an operating system, not a consumer app.\n*   **Don't** use pure black (#000000). Use `on-background` (#092012) for all dark text to maintain the organic tonal range.",
+              "font": "INTER",
+              "headlineFont": "INTER",
+              "labelFont": "INTER",
+              "namedColors": {
+                "background": "#e9ffeb",
+                "error": "#ba1a1a",
+                "error_container": "#ffdad6",
+                "inverse_on_surface": "#ddf8e0",
+                "inverse_primary": "#95d4b3",
+                "inverse_surface": "#1f3526",
+                "on_background": "#092012",
+                "on_error": "#ffffff",
+                "on_error_container": "#93000a",
+                "on_primary": "#ffffff",
+                "on_primary_container": "#a8e7c5",
+                "on_primary_fixed": "#002114",
+                "on_primary_fixed_variant": "#0e5138",
+                "on_secondary": "#ffffff",
+                "on_secondary_container": "#3e6b5a",
+                "on_secondary_fixed": "#002116",
+                "on_secondary_fixed_variant": "#214f3f",
+                "on_surface": "#092012",
+                "on_surface_variant": "#404943",
+                "on_tertiary": "#ffffff",
+                "on_tertiary_container": "#89edba",
+                "on_tertiary_fixed": "#002113",
+                "on_tertiary_fixed_variant": "#005235",
+                "outline": "#707973",
+                "outline_variant": "#bfc9c1",
+                "primary": "#0f5238",
+                "primary_container": "#2d6a4f",
+                "primary_fixed": "#b1f0ce",
+                "primary_fixed_dim": "#95d4b3",
+                "secondary": "#396756",
+                "secondary_container": "#b9ead4",
+                "secondary_fixed": "#bcedd7",
+                "secondary_fixed_dim": "#a0d1bc",
+                "surface": "#e9ffeb",
+                "surface_bright": "#e9ffeb",
+                "surface_container": "#daf5de",
+                "surface_container_high": "#d4efd8",
+                "surface_container_highest": "#cee9d3",
+                "surface_container_low": "#dffbe3",
+                "surface_container_lowest": "#ffffff",
+                "surface_dim": "#c6e1ca",
+                "surface_tint": "#2c694e",
+                "surface_variant": "#cee9d3",
+                "tertiary": "#005236",
+                "tertiary_container": "#006d48",
+                "tertiary_fixed": "#92f7c3",
+                "tertiary_fixed_dim": "#75daa8"
+              },
+              "overrideNeutralColor": "#D8F3DC",
+              "overridePrimaryColor": "#2D6A4F",
+              "overrideSecondaryColor": "#0B3D2E",
+              "overrideTertiaryColor": "#52B788",
+              "roundness": "ROUND_EIGHT",
+              "spacingScale": 3
+            },
+            "title": "Course Catalogue (Layout C) - Sovereign Ledger Edition",
+            "width": "2560"
+          }
+        ],
+        "theme": {}
+      }
+    },
+    {
+      "text": "I've generated the Course Catalogue (Layout C) using the Greentryst \"Sovereign Ledger\" design system. \n\nKey features of this layout:\n- **Curated Hierarchy**: Each category section (like \"Fundamentals\" and \"Carbon Markets\") starts with a prominent hero card for a flagship course, followed by a clean grid of secondary courses.\n- **Data-First Aesthetic**: I've used **JetBrains Mono** for all metadata, eyebrows, and technical data points to lean into the \"Bloomberg for sustainability\" brief.\n- **Cohesive Palette**: The UI is predominantly light (Pale Green #D8F3DC background) with white cards and a sophisticated dark forest header band featuring a subtle radial glow.\n- **Precision Typography**: Tight tracking on **Inter** headings and generous whitespace ensure the content feels authoritative and easy to navigate.\n\nThe design strictly avoids per-course color proliferation, keeping a neutral, professional palette throughout."
+    },
+    {
+      "suggestion": "Change the header to light mode"
+    },
+    {
+      "suggestion": "Add more course cards to Carbon Markets"
+    },
+    {
+      "suggestion": "Show the mobile version of this layout"
+    }
+  ],
+  "projectId": "15231481206128482777",
+  "sessionId": "1114162661727436225"
+}

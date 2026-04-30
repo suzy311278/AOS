@@ -1,0 +1,35 @@
+- question: "What makes rural households more vulnerable to carbon pricing impacts?"
+  options:
+    - "They emit more than urban households"
+    - "Longer driving distances, heating needs, and fewer public transit alternatives"
+    - "They are wealthier"
+    - "Carbon pricing does not affect rural areas"
+  answer: 1
+  explanation: "Rural households often drive more (for work, services, etc.), may have higher heating needs, and lack public transit alternatives, making them more exposed to fuel price increases from carbon pricing."
+
+- question: "What is energy poverty?"
+  options:
+    - "Countries without energy resources"
+    - "When households cannot afford adequate energy services"
+    - "Low energy prices"
+    - "Too much energy consumption"
+  answer: 1
+  explanation: "Energy poverty occurs when households struggle to afford adequate heating, cooling, lighting, and other essential energy services, making them particularly vulnerable to energy price increases."
+
+- question: "How can targeted low-income support differ from broad revenue recycling?"
+  options:
+    - "Targeted support focuses assistance on households most in need rather than providing equal per-capita payments to all"
+    - "It costs more"
+    - "It is illegal"
+    - "It eliminates the carbon price"
+  answer: 0
+  explanation: "While per-capita dividends help most households, targeted programs (low-income credits, weatherization assistance) focus additional support on households facing energy poverty or unusual hardship."
+
+- question: "What is one way to help low-income households reduce their carbon price exposure?"
+  options:
+    - "Exempt them from all energy use"
+    - "Provide energy efficiency upgrades and weatherization assistance"
+    - "Ban them from using energy"
+    - "Force them to move"
+  answer: 1
+  explanation: "Helping low-income households improve energy efficiency through weatherization, better appliances, and insulation reduces their energy use and carbon price exposure while also cutting their bills."

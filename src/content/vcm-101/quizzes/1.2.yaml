@@ -1,0 +1,26 @@
+- question: "What is Verra's primary role in the voluntary carbon market?"
+  options:
+    - "Developing and directly investing in carbon reduction projects globally"
+    - "Acting as a standard-setter, methodology approver, VVB accreditor, and registry operator"
+    - "Buying and selling carbon credits to maintain price stability"
+    - "Providing binding regulatory oversight of corporate net-zero commitments"
+  answer: 1
+  explanation: "Verra is a non-profit organisation that sets the rules (VCS Standard), approves the methodologies used to quantify emission reductions, accredits independent auditors (VVBs), and operates the registry. Verra explicitly does not develop projects, buy or sell credits, or provide investment advice."
+
+- question: "What happens when a VCU is 'retired' in the Verra Registry?"
+  options:
+    - "The VCU is transferred back to the project developer for future re-issuance"
+    - "The VCU is permanently cancelled with a unique serial number, preventing it from being used again"
+    - "The VCU is converted into an EU ETS allowance for use in compliance markets"
+    - "The VCU is archived for five years before being made available for re-sale"
+  answer: 1
+  explanation: "Retirement permanently cancels the VCU in the registry. The unique serial number is marked as retired, making it publicly visible and technically impossible to use again. This is the moment at which a buyer can legitimately claim the associated emission reduction toward their climate targets. Retired VCUs cannot be re-sold or transferred."
+
+- question: "Which supplementary Verra label certifies that an AFOLU project delivers biodiversity and community co-benefits beyond the carbon reduction?"
+  options:
+    - "SD VISta (Sustainable Development Verified Impact Standard)"
+    - "CORSIA Eligible label"
+    - "CCB Standards (Climate, Community and Biodiversity)"
+    - "CCP (Core Carbon Principles) label"
+  answer: 2
+  explanation: "The CCB Standards (Climate, Community and Biodiversity) certify that AFOLU projects, such as REDD+ and afforestation projects, deliver measurable benefits to biodiversity and local communities beyond the core carbon credit. CCB-labeled VCUs typically command a price premium because they signal higher overall sustainability impact."

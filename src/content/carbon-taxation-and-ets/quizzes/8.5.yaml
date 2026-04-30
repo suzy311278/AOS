@@ -1,0 +1,35 @@
+- question: "What is the main trade-off in allowing offsets in compliance systems?"
+  options:
+    - "No trade-offs exist"
+    - "Offsets can reduce costs but may undermine environmental integrity if quality is poor"
+    - "Offsets always increase costs"
+    - "Offsets eliminate emissions"
+  answer: 1
+  explanation: "Offsets expand reduction opportunities and can lower costs, but if offset quality is uncertain (non-additional, impermanent, or overestimated reductions), they may undermine environmental goals."
+
+- question: "Why might quantitative limits be placed on offset use?"
+  options:
+    - "To make compliance more expensive"
+    - "To ensure most reductions occur within regulated sectors and limit exposure to offset quality risks"
+    - "Limits are illegal"
+    - "To ban offsets entirely"
+  answer: 1
+  explanation: "Limits (e.g., 'offsets can cover maximum 10% of obligations') ensure the bulk of reductions happen in capped sectors, limit exposure to potential offset quality issues, and maintain the cap's integrity."
+
+- question: "What is the benefit of domestic offset programs?"
+  options:
+    - "They always cost less than international offsets"
+    - "They support domestic mitigation opportunities in uncovered sectors and keep climate investment local"
+    - "They are easier to verify than regulated facilities"
+    - "They require no standards"
+  answer: 1
+  explanation: "Domestic offset programs tap reduction opportunities in sectors excluded from direct regulation (like agriculture), support local climate action, and build domestic capacity."
+
+- question: "What is geographic restriction in offset programs?"
+  options:
+    - "Limiting where regulated facilities can be located"
+    - "Allowing only offsets from specific regions or countries to address quality concerns or policy goals"
+    - "Banning all international cooperation"
+    - "Random geographic selection"
+  answer: 1
+  explanation: "Some systems restrict offsets to domestic projects or specific countries with trusted standards, balancing cost-effectiveness with confidence in offset quality and supporting specific policy objectives."

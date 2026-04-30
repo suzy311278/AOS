@@ -1,0 +1,26 @@
+- question: "According to IPCC AR6 WGIII, which sector was the largest source of global GHG emissions in 2019 under direct emissions accounting?"
+  options:
+    - "Transport"
+    - "Agriculture, Forestry and Other Land Use (AFOLU)"
+    - "Energy Supply"
+    - "Industry"
+  answer: 2
+  explanation: "Energy supply accounted for approximately 34% (20 GtCO2-eq) of total net anthropogenic GHG emissions in 2019, making it the single largest emitting sector under direct emissions accounting."
+
+- question: "If emissions from electricity and heat production are reallocated to the sectors that use that energy, what happens to the buildings sector's share of global GHG emissions?"
+  options:
+    - "It decreases from 6% to 3%, as buildings become more energy-efficient"
+    - "It stays the same at 6%, since only production emissions change"
+    - "It rises from 6% to 16%, as indirect electricity emissions are included"
+    - "It rises from 6% to 34%, making buildings the largest emitting sector"
+  answer: 2
+  explanation: "Under consumption-based or indirect emissions accounting, the buildings sector's share rises from 6% to 16%, because much of the electricity consumed in buildings is generated elsewhere. This highlights the importance of building efficiency alongside grid decarbonisation."
+
+- question: "What were the approximate average global per capita GHG emissions in 2019, according to IPCC AR6 WGIII?"
+  options:
+    - "2.6 tCO2-eq per person"
+    - "7.8 tCO2-eq per person"
+    - "12 tCO2-eq per person"
+    - "19 tCO2-eq per person"
+  answer: 1
+  explanation: "Average global per capita net anthropogenic GHG emissions were approximately 7.8 tCO2-eq in 2019. However, this global average conceals enormous variation, ranging from 2.6 tCO2-eq in some regions to 19 tCO2-eq in others."

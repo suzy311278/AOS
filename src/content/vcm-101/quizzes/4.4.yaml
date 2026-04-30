@@ -1,0 +1,26 @@
+- question: "The TSVCM Phase II Report projected voluntary carbon market value could reach $50 billion by 2030 in an ambitious scenario. Which factor did the report identify as the primary binding constraint on achieving this scale?"
+  options:
+  - "Insufficient corporate demand for carbon credits"
+  - "Inadequate supply of credible, high-quality credits at the required scale"
+  - "Lack of exchange infrastructure for price discovery"
+  - "Absence of regulatory frameworks for carbon market oversight"
+  answer: 1
+  explanation: "The TSVCM identified high-integrity supply development as the binding constraint, not demand. Corporate net zero pledges had already created structural demand. The challenge was (and remains) developing sufficient volumes of credible credits, particularly nature-based solutions requiring complex land tenure and community engagement, and engineered removals requiring capital-intensive technology deployment, to satisfy that demand at the price points that make the $50 billion scenario plausible."
+
+- question: "What best explains the sharp contraction in VCM transaction values from approximately $2 billion in 2021 to an estimated $1.3-1.5 billion in 2022?"
+  options:
+  - "A global recession reduced corporate sustainability budgets"
+  - "New regulations prohibited carbon credit purchases in major markets"
+  - "Investigative journalism and academic research raised serious questions about REDD+ baseline validity, leading buyers to adopt more cautious procurement"
+  - "The ICVCM suspended all credit issuances pending a market review"
+  answer: 2
+  explanation: "The 2022-2023 market contraction was primarily driven by an integrity crisis rather than a demand collapse. Academic analyses and investigative reporting (particularly concerning Verra-certified REDD+ projects) alleged that some projects had claimed emission reductions based on baselines that significantly overstated the deforestation threat, resulting in over-crediting. This caused many buyers to pause or restrict purchases, particularly of lower-quality credits, while waiting for integrity frameworks like the ICVCM's CCP label to provide clearer quality signals."
+
+- question: "Under CORSIA (the Carbon Offsetting and Reduction Scheme for International Aviation), which type of carbon credits are airlines required to purchase to meet compliance obligations?"
+  options:
+  - "Credits exclusively from renewable energy projects"
+  - "Any Verra VCS-certified credit regardless of project type"
+  - "CORSIA-eligible credits meeting ICAO's specific eligibility criteria, tracked by the C-GEO benchmark"
+  - "Credits that have received ICVCM CCP-Approved status"
+  answer: 2
+  explanation: "CORSIA has its own eligibility criteria administered by the International Civil Aviation Organization (ICAO), which are distinct from general VCM quality standards. CORSIA-eligible credits must meet specific requirements around environmental integrity and governance that not all VCS or Gold Standard credits automatically satisfy. The C-GEO (CORSIA-Eligible Global Emissions Offset) benchmark tracks the subset of VCM credits that meet CORSIA's requirements, and airlines must purchase from this eligible pool to satisfy their compliance obligations."

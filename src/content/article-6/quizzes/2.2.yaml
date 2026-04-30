@@ -1,0 +1,44 @@
+- question: "At COP28 in Dubai (2023), what happened to the two Article 6.4 standards presented by the Supervisory Body?"
+  options:
+    - "Both standards were adopted without amendment"
+    - "The activity cycle standard was adopted but the CDR standard was rejected"
+    - "Both standards were sent back to the Supervisory Body for revision"
+    - "Both standards were permanently rejected and replaced with a new mandate"
+  answer: 2
+  explanation: "At COP28 in Dubai, the CMA rejected both the carbon dioxide removal (CDR) methodology standard and the activity cycle standard presented by the Supervisory Body. Parties raised concerns about inadequate permanence treatment, procedural issues, and additionality standards. The standards were sent back for revision and were ultimately adopted at COP29 in Baku twelve months later."
+
+- question: "What did the COP29 Baku (November 2024) breakthrough specifically achieve for Article 6.4?"
+  options:
+    - "The first A6.4ERs were issued and transferred to buyer countries"
+    - "The CDR methodology standard and activity cycle standard were adopted by the CMA"
+    - "The Supervisory Body was established and its twelve members elected"
+    - "Avoidance-only credits were approved for immediate inclusion in A6.4"
+  answer: 1
+  explanation: "COP29's major Article 6.4 achievement was the adoption by the CMA of both the carbon dioxide removal (CDR) methodology standard and the activity cycle standard -- the two standards that had been sent back at COP28. These gave the mechanism the operational procedures it needed to begin registering projects and issuing credits. The Supervisory Body was established at Glasgow (COP26)."
+
+- question: "Under the A6.4 mechanism's current scope (post-COP29), which category of project activity is subject to a scheduled review in 2028 before it can be registered?"
+  options:
+    - "Carbon dioxide removal projects using direct air capture"
+    - "Emission reduction projects involving renewable energy"
+    - "Avoidance-only projects, particularly avoided deforestation"
+    - "Agricultural soil carbon projects"
+  answer: 2
+  explanation: "Avoidance-only activities -- those that prevent emissions from occurring rather than reducing or removing them -- are subject to a mandatory review by 2028 before they can be registered under A6.4. The most significant category is avoided deforestation (REDD+). The Supervisory Body determined that the methodological and permanence challenges for avoidance-only activities require dedicated standards development before these activities can proceed."
+
+- question: "How does the process for approving a new A6.4 methodology differ from the CDM methodology approval process?"
+  options:
+    - "A6.4 methodology approval is entirely handled by host country governments; CDM approval was by the Executive Board"
+    - "A6.4 methodology proposals go through Supervisory Body expert panel review, a public comment period, and full SB adoption; standards must meet internationally agreed criteria"
+    - "A6.4 methodologies do not need approval -- any project developer can create their own methodology"
+    - "CDM methodologies required international approval; A6.4 methodologies only require national-level sign-off"
+  answer: 1
+  explanation: "A6.4 methodology approval involves a structured process: the Supervisory Body's expert panel reviews the proposal, a public comment period allows Parties and civil society to submit observations, and the full Supervisory Body adopts, conditionally adopts, or rejects the methodology. This process applies internationally agreed standards set by the CMA. CDM methodology approval was by the Executive Board but with less standardised requirements."
+
+- question: "Which of the following correctly describes the difference between A6.4ERs and Kyoto Protocol Certified Emission Reductions (CERs)?"
+  options:
+    - "CERs required corresponding adjustments; A6.4ERs do not"
+    - "A6.4ERs have a mandatory 2% OMGE cancellation at issuance; CERs had no equivalent"
+    - "CERs were governed by the Paris Agreement; A6.4ERs are governed by the Kyoto Protocol"
+    - "CERs were issued in two types (authorised and mitigation contribution); A6.4ERs are a single type"
+  answer: 1
+  explanation: "A key structural difference is the OMGE requirement: 2% of all A6.4ERs issued are automatically cancelled to ensure a net global benefit. The CDM had no equivalent mandatory cancellation. Additionally, A6.4ERs come in two types (authorised and mitigation contribution) while CERs were a single type. CERs did not require corresponding adjustments because developing countries had no binding Kyoto targets."

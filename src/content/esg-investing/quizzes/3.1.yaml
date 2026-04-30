@@ -1,0 +1,44 @@
+- question: "Corporate governance is often said to rest on two foundational principles. Which pair correctly identifies them?"
+  options:
+    - "Transparency and efficiency"
+    - "Accountability and alignment"
+    - "Disclosure and diversity"
+    - "Compliance and control"
+  answer: 1
+  explanation: "Governance codes and investor expectations worldwide are built on accountability — ensuring decision-makers are held responsible for outcomes — and alignment — ensuring the interests of managers and shareholders are brought into line, primarily through pay structures and incentive design."
+
+- question: "The 'agency problem' in corporate governance arises because:"
+  options:
+    - "Boards spend too little time on environmental and social risks"
+    - "Audit firms also provide non-audit consulting services"
+    - "The interests of professional managers may not always coincide with those of the company's owners"
+    - "Governance codes differ between jurisdictions, creating regulatory arbitrage"
+  answer: 2
+  explanation: "The agency problem — identified in Berle and Means' 1932 study — reflects the inherent tension when ownership and management are separated. Professional managers (the agents) may pursue objectives that serve their own careers or risk preferences rather than the long-term interests of shareholders (the principals)."
+
+- question: "The world's first formal corporate governance code — the Cadbury Code — was published in 1992 in response to which events?"
+  options:
+    - "The collapse of Enron and WorldCom"
+    - "The 2008 global financial crisis"
+    - "The Polly Peck and Maxwell/Mirror Group scandals"
+    - "The German Volkswagen emissions scandal"
+  answer: 2
+  explanation: "The Cadbury Committee was established by the Financial Reporting Council, the London Stock Exchange, and the accounting profession following concerns raised by the Polly Peck collapse (whose profits were largely fictitious) and the Maxwell/Mirror Group failure (which revealed fraudulent misuse of pension funds). Enron and the financial crisis came later and drove separate code developments."
+
+- question: "Under a 'comply or explain' governance framework, a company that chooses not to follow a code recommendation must:"
+  options:
+    - "Apply to the regulator for a formal exemption"
+    - "Disclose the departure and explain how the underlying governance principle is being achieved differently"
+    - "Obtain approval from a majority of shareholders at the AGM before departing from the recommendation"
+    - "Follow the recommendation without exception, since 'comply or explain' only applies to listed companies above a defined size threshold"
+  answer: 1
+  explanation: "'Comply or explain' — introduced by the Cadbury Code and adopted across most major markets — allows companies flexibility in how they meet the intent of governance principles, but requires them to publicly disclose any departures and explain their reasoning. The focus is on thoughtful engagement with the principle, not rigid rule-following."
+
+- question: "Pre-emption rights protect minority shareholders by:"
+  options:
+    - "Requiring the board to include a minority shareholder representative"
+    - "Limiting the total variable pay that executives can receive in any single year"
+    - "Giving existing shareholders the right to participate in new share issuances before external investors, preserving their proportional ownership"
+    - "Requiring a two-thirds majority shareholder vote before any major strategic acquisition can proceed"
+  answer: 2
+  explanation: "Pre-emption rights ensure that a company cannot dilute existing shareholders by issuing new shares to outside investors without first offering those shares to current holders on equivalent terms. This protects minority shareholders from having their ownership stake reduced without consent. Rights issues — the mechanism through which these rights are exercised — are a common feature of equity fundraising in many markets."

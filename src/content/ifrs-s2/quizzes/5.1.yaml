@@ -1,0 +1,37 @@
+- question: "What does IFRS S2 mean by 'absolute gross' GHG emissions?"
+  options:
+    - "Emissions normalised by revenue, before removing carbon credits"
+    - "The total quantity of emissions before any offsets, not adjusted by output or revenue"
+    - "Emissions calculated using the equity share approach only"
+    - "Combined Scope 1 and Scope 2, excluding Scope 3"
+  answer: 1
+  explanation: "'Absolute' means the total quantity of emissions, not normalised or intensity-adjusted. 'Gross' means before removing any carbon credits or offsets. Entities must report gross absolute figures even if they also use carbon credits to reach a net target."
+
+- question: "Under IFRS S2, an entity applying the GHG Protocol must choose between two consolidation approaches. Which are they?"
+  options:
+    - "Market-based and location-based"
+    - "Equity share and control approach"
+    - "Direct measurement and estimation"
+    - "Absolute and intensity"
+  answer: 1
+  explanation: "The GHG Protocol Corporate Standard requires entities to choose between the equity share approach (emissions proportional to equity ownership) or the control approach (100% of emissions from operations under financial or operational control). IFRS S2 Application Guidance B27 requires entities to disclose which approach they use and why."
+
+- question: "IFRS S2 requires Scope 2 emissions to be disclosed on a location-based basis. What does 'location-based' mean?"
+  options:
+    - "Using emission factors specific to the country where the entity is headquartered"
+    - "Using average emission factors for the electricity grid(s) in the regions where energy is consumed"
+    - "Using emission factors from the entity's specific electricity supplier"
+    - "Reporting emissions only from facilities in high-emission countries"
+  answer: 1
+  explanation: "Location-based Scope 2 uses average grid emission factors for the regions where electricity is purchased and consumed. This reflects the actual carbon intensity of the electricity grid being used, in contrast to market-based methods that account for renewable energy contracts or certificates."
+
+- question: "Match each GHG Protocol emission scope to its definition."
+  type: matching
+  pairs:
+    - left: "Scope 1"
+      right: "Direct emissions from owned or controlled sources"
+    - left: "Scope 2"
+      right: "Indirect emissions from purchased electricity, heat, or steam"
+    - left: "Scope 3"
+      right: "All other indirect value chain emissions"
+  explanation: "The GHG Protocol Corporate Standard organises emissions into three scopes based on source and ownership. IFRS S2 requires disclosure of all three scopes."

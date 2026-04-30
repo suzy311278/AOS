@@ -1,0 +1,44 @@
+- question: "Which of the following represents the strongest reason why Scope 3 emissions of borrowers and investees are difficult to obtain?"
+  options:
+    - "Scope 3 reporting is legally prohibited for companies in most jurisdictions"
+    - "Scope 3 encompasses the entire upstream and downstream value chain, requiring knowledge of hundreds of indirect emission sources that most companies do not systematically measure"
+    - "Scope 3 emissions are always immaterial and therefore excluded from corporate GHG inventories"
+    - "PCAF does not require Scope 3 reporting, so companies have no incentive to measure it"
+  answer: 1
+  explanation: "Scope 3 is the most challenging category because it requires mapping and quantifying emissions across the entire value chain — purchased goods and services, capital goods, upstream transportation, waste, employee commuting, investments, and downstream use of sold products, among others. The GHG Protocol defines 15 Scope 3 categories. Most companies report only a subset, and SMEs often report none. This is why PCAF requires Scope 3 to be disclosed separately from Scope 1 and 2: it signals the incompleteness of coverage."
+
+- question: "A bank wants to improve its financed emissions data quality for its top 50 corporate borrowers. Which strategy would most directly improve the data quality score for those borrowers?"
+  options:
+    - "Switch to a different EEIO database that covers more sectors"
+    - "Engage directly with those borrowers to request verified or at least company-reported GHG emissions data"
+    - "Change from calendar year-end to fiscal year-end reporting"
+    - "Report facilitated emissions instead of financed emissions for those borrowers"
+  answer: 1
+  explanation: "Direct borrower engagement to obtain company-reported emissions (even unverified) immediately moves the data quality from Option 3 (Score 3-5) to Option 1 (Score 1b or 1a with third-party verification). For large corporate borrowers with sustainability teams, this is the most impactful single improvement action. PCAF recommends embedding emissions data requests into annual loan review processes and ESG due diligence questionnaires."
+
+- question: "PCAF prescribes a base year recalculation when changes to financed emissions are 'significant.' How does PCAF typically define significance in this context?"
+  options:
+    - "Any change greater than 0.1% of total financed emissions"
+    - "Any change in data methodology regardless of its impact on the total"
+    - "A change that materially alters the trend of financed emissions or the achievement of targets — with financial institutions setting their own thresholds (typically around 5% of total financed emissions)"
+    - "A change mandated by a regulator or auditor"
+  answer: 2
+  explanation: "PCAF's base year recalculation protocol (derived from the GHG Protocol) requires recalculation when changes are 'significant.' PCAF recommends that financial institutions establish their own significance thresholds — typically around 5% of total financed emissions — and disclose these thresholds publicly. Changes that trigger recalculation include major methodology shifts (e.g., switching from Option 3 to Option 1 for a key sector), significant portfolio acquisitions or disposals, and corrections of errors."
+
+- question: "Which of the following Option 3 approaches uses the outstanding loan amount multiplied by a sector asset turnover ratio and then by a sector revenue-based emission factor?"
+  options:
+    - "Option 3a"
+    - "Option 3b"
+    - "Option 3c"
+    - "Option 2b"
+  answer: 2
+  explanation: "Option 3c bridges between the asset-based (3b) and revenue-based (3a) approaches. It estimates revenue from the outstanding amount by applying a sector-average asset turnover ratio (revenue / assets), then applies a revenue-based sector emission factor. This is used when the bank has no company-specific revenue data, but the sector's typical asset turnover ratio is known. Option 3a uses actual company revenue; Option 3b uses only assets/outstanding amount directly."
+
+- question: "A bank conducts a sampling test comparing Option 3a estimates to actual Option 2 data for 40 of its SME borrowers and finds that Option 3a systematically overestimates by 40%. What should the bank do?"
+  options:
+    - "Discard the sampling test results, since PCAF requires consistent methodology"
+    - "Apply a sector-specific correction factor and disclose the adjustment process and its rationale in the financed emissions report"
+    - "Switch the entire portfolio from Option 3a to Option 2 immediately"
+    - "Report both the adjusted and unadjusted estimates with no preference"
+  answer: 1
+  explanation: "Sampling tests are a PCAF-recommended tool for validating proxy estimates. If a systematic bias is found (e.g., Option 3a overestimates by 40% for a specific sector), the bank should apply a calibration adjustment to its remaining Option 3a estimates for similar borrowers, and disclose the adjustment methodology transparently in its financed emissions report. This improves accuracy without requiring full primary data collection for the entire portfolio."

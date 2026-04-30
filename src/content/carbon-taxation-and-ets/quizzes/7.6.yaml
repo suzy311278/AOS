@@ -1,0 +1,44 @@
+- question: "What is a complementary policy in the context of carbon pricing?"
+  options:
+    - "A replacement for carbon pricing"
+    - "Other policies that work alongside carbon pricing to address market failures or barriers it does not address"
+    - "A competing carbon pricing system"
+    - "Policies that contradict carbon pricing"
+  answer: 1
+  explanation: "Complementary policies address barriers and market failures that carbon pricing alone cannot overcome, such as information gaps, split incentives, or technology development needs."
+
+- question: "Why might energy efficiency standards complement carbon pricing?"
+  options:
+    - "To replace carbon pricing entirely"
+    - "To address information barriers and split incentives that carbon prices alone may not overcome"
+    - "Standards are cheaper than carbon pricing"
+    - "They are required by international law"
+  answer: 1
+  explanation: "Even with a carbon price, consumers may lack information about efficiency options or face split incentives (like landlord-tenant problems). Standards can address these specific market failures."
+
+- question: "What is the risk of poorly designed complementary policies?"
+  options:
+    - "They make carbon pricing more effective"
+    - "They can create redundancy, increase costs, or send conflicting signals"
+    - "There is no risk"
+    - "They eliminate the need for carbon pricing"
+  answer: 1
+  explanation: "Overlapping policies can create unnecessary regulatory burden and increase costs. For example, both a carbon price and a renewable mandate targeting the same emissions may be redundant."
+
+- question: "What role does R&D support play alongside carbon pricing?"
+  options:
+    - "It replaces carbon pricing"
+    - "It supports development of breakthrough technologies needed for deep decarbonization"
+    - "R&D has no role"
+    - "It only benefits large companies"
+  answer: 1
+  explanation: "Carbon pricing drives deployment of existing technologies but may not fully incentivize long-term R&D for breakthrough innovations. Public R&D support addresses this gap."
+
+- question: "When should carbon pricing be combined with other policies?"
+  options:
+    - "Never, carbon pricing should always work alone"
+    - "When specific market failures or barriers exist that carbon pricing alone cannot address"
+    - "Always combine maximum policies"
+    - "Only in developing countries"
+  answer: 1
+  explanation: "The economic case for complementary policies exists when there are identifiable market failures (information gaps, technology spillovers, coordination problems) that carbon pricing cannot fully address."

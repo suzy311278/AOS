@@ -1,0 +1,44 @@
+- question: "Research has found that the average correlation between ESG ratings from different major providers is approximately 0.54. What is the most important implication of this for investment professionals?"
+  options:
+    - "ESG ratings are unreliable and should not be used in investment analysis"
+    - "Investors should rely on whichever provider has the largest coverage universe"
+    - "ESG ratings from different providers may give materially different signals for the same company, so relying on a single rating provider introduces significant analytical risk"
+    - "Correlations below 1.0 indicate that all ESG rating providers are fraudulent"
+  answer: 2
+  explanation: "A correlation of approximately 0.54 (and as low as 0.20 for the governance pillar) means that two providers can give substantially different assessments of the same company. This does not make ratings useless — it means investors should use multiple providers, understand methodologies, and treat ratings as one input among several rather than a definitive verdict."
+
+- question: "Which of the following best describes the difference between primary and secondary ESG data?"
+  options:
+    - "Primary data comes from ESG rating agencies; secondary data comes from companies directly"
+    - "Primary data originates directly from the company or entity being assessed (reports, surveys, disclosures); secondary data has been processed or assessed by a third party"
+    - "Primary data is always audited; secondary data is always unaudited"
+    - "Primary data covers environmental factors only; secondary data covers social and governance factors"
+  answer: 1
+  explanation: "Primary ESG data comes directly from the source — company annual reports, sustainability reports, CDP survey responses, proxy filings, and management communications. Secondary data is derived from primary sources through transformation, analysis, or scoring by a third party. Secondary data is more accessible and comparable, but embeds the methodology and assumptions of the intermediary."
+
+- question: "Sustainalytics' ESG Risk Rating measures 'unmanaged risk'. Which of the following accurately describes how this score is derived?"
+  options:
+    - "Unmanaged risk = Total ESG exposure + Industry average management score"
+    - "Unmanaged risk = Exposure − Managed risk (reflecting how much of the material ESG risk the company has addressed)"
+    - "Unmanaged risk = ESG controversy count × Industry weight"
+    - "Unmanaged risk = Total ESG score divided by the number of material ESG issues"
+  answer: 1
+  explanation: "Sustainalytics' ESG Risk Rating calculates unmanaged risk as the portion of a company's ESG exposure that has not been adequately managed. Starting from the company's exposure to material ESG risks (at sub-industry level, refined for the specific company), the managed portion is subtracted to produce the final unmanaged risk score."
+
+- question: "MSCI ESG Ratings produce letter grades from AAA (best) to CCC (worst). Which of the following statements about MSCI's rating approach is correct?"
+  options:
+    - "MSCI ratings are absolute — a AAA-rated company is assessed to have no ESG risk"
+    - "MSCI ratings are industry-relative — a company's score is normalised against its sector peers, not assessed on an absolute scale"
+    - "MSCI rates only environmental factors; governance is assessed separately by ISS"
+    - "MSCI ratings are derived entirely from company self-reported data without any adjustments"
+  answer: 1
+  explanation: "MSCI ESG Ratings are explicitly industry-relative. A company's key issue scores are normalised against its industry peers to produce the final letter rating. This means a AAA rating indicates best-in-class performance within an industry, not that the company has zero ESG risk on an absolute basis."
+
+- question: "Which of the following is a known systematic bias in ESG ratings that is particularly relevant for investment professionals constructing global portfolios?"
+  options:
+    - "Small companies with fewer resources for ESG reporting tend to receive higher ratings than large companies"
+    - "Companies in emerging markets consistently receive higher ESG ratings than those in developed markets"
+    - "Company size bias means larger companies tend to receive higher ESG ratings partly due to their greater capacity for disclosure, not necessarily better ESG performance"
+    - "ESG ratings are free from bias because they are based on objective quantitative data"
+  answer: 2
+  explanation: "Company size bias is well-documented in ESG ratings: larger companies devote more resources to sustainability reporting and investor relations, which can inflate their ESG scores even when underlying performance is comparable to smaller peers. This bias is compounded by geographical bias (higher disclosure requirements in certain regions) and industry bias, making naive use of ESG ratings in global portfolios potentially misleading."

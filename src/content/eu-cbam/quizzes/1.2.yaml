@@ -1,0 +1,26 @@
+- question: "From 1 January 2026, who is legally permitted to import CBAM-covered goods into the EU?"
+  options:
+  - "Any EU-established company with a valid import licence"
+  - "Only authorised CBAM declarants — companies or indirect customs representatives that have obtained authorisation from their national competent authority"
+  - "Any importer worldwide, provided they register in the CBAM reporting portal"
+  - "Only companies with ISO 14001 environmental management certification"
+  answer: 1
+  explanation: "Article 4 of the CBAM Regulation establishes that from 1 January 2026, only authorised CBAM declarants may import CBAM-covered goods. Authorisation is obtained from the national competent authority in the EU member state where the applicant is established, following an assessment of financial capacity and compliance integrity."
+
+- question: "A non-EU exporter in India wants to handle CBAM compliance for their EU customers directly. Can they do this, and why or why not?"
+  options:
+  - "Yes — any entity worldwide can apply for authorised CBAM declarant status through the CBAM registry portal"
+  - "No — the CBAM Regulation requires the authorised declarant to be established in the EU; non-EU entities cannot hold declarant status"
+  - "Yes — but only if the exporter's country has a bilateral trade agreement with the EU"
+  - "No — but a non-EU exporter can appoint a direct customs representative to act as declarant on their behalf"
+  answer: 1
+  explanation: "The CBAM Regulation requires the authorised CBAM declarant to be established in the EU. Non-EU exporters cannot themselves hold declarant status. Their EU-based customers (importers) or EU-established indirect customs representatives must hold the declarant role and bear the compliance obligations. Direct customs representatives cannot act as declarants either — only the importer or an indirect customs representative can."
+
+- question: "What is the annual deadline by which an authorised CBAM declarant must submit their CBAM declaration and surrender the corresponding certificates?"
+  options:
+  - "31 January of the year following the reporting year"
+  - "31 March of the year following the reporting year"
+  - "31 May of the year following the reporting year"
+  - "31 December of the reporting year itself"
+  answer: 2
+  explanation: "Article 6 of the CBAM Regulation requires the annual CBAM declaration — covering the prior calendar year's imports — to be submitted by 31 May of the following year. The corresponding CBAM certificates must be surrendered simultaneously. For example, the declaration for 2026 imports must be submitted and certificates surrendered by 31 May 2027."

@@ -1,0 +1,26 @@
+- question: "Which of the following best describes 'additionality' as a carbon credit quality criterion?"
+  options:
+  - "The credit must represent at least one additional tonne beyond the project's original design target"
+  - "The emission reduction must not have occurred in the absence of the financial incentive provided by carbon credit revenue"
+  - "The project must be located in an additional country beyond where the buyer's operations are based"
+  - "The methodology must include an additional independent verification beyond the standard audit"
+  answer: 1
+  explanation: "Additionality is fundamentally a counterfactual test: would this emission reduction or removal have happened anyway, without the carbon credit financial incentive? If the project would have been built or implemented regardless of carbon revenue - because it is commercially viable without it, or because it is legally required - then its credits are non-additional and represent no incremental climate benefit. This is the most debated and hardest-to-prove of the five quality criteria."
+
+- question: "A REDD+ project in an active agricultural frontier deforestation area estimates 30% leakage. If the project avoids 1,000,000 tonnes of CO2 from deforestation (gross baseline minus actual), how many net credits can be issued?"
+  options:
+  - "1,000,000 tonnes (leakage is only estimated, not deducted)"
+  - "700,000 tonnes (1,000,000 minus 30% leakage)"
+  - "300,000 tonnes (only the leakage portion can be credited)"
+  - "1,300,000 tonnes (the leakage estimate is added to gross credits as a buffer)"
+  answer: 1
+  explanation: "Leakage is deducted from gross credits: 1,000,000 x (1 - 0.30) = 700,000 net credits. Leakage represents the portion of apparently avoided deforestation that simply shifted outside the project boundary - so those 300,000 tonnes were not actually avoided at the system level. Only the genuine, non-displaced emission reduction of 700,000 tonnes can be credited."
+
+- question: "Which form of double counting is most specifically addressed by Article 6 of the Paris Agreement through 'corresponding adjustments'?"
+  options:
+  - "Double issuance (the same reduction credited by two registries simultaneously)"
+  - "Double use (a retired credit being re-applied to a second claim)"
+  - "Double claiming (both a host country and a corporate buyer counting the same emission reduction toward their respective targets)"
+  - "Double monitoring (the same forest measured by two different inventory methods)"
+  answer: 2
+  explanation: "Corresponding adjustments are the Paris Agreement mechanism designed to prevent double claiming at the international level. When a company in Country A buys credits from a project in Country B, both the company and Country B might count the same emission reduction - Country B as part of meeting its nationally determined contribution (NDC), and the company as part of its net zero claim. A corresponding adjustment transfers the climate accounting benefit from the host country to the buyer country, preventing this specific form of double counting. Double issuance and double use are addressed through registry technical systems, not international accounting rules."

@@ -1,0 +1,26 @@
+- question: "Under the EUDR, which of the following constitutes 'deforestation'?"
+  options:
+    - "A forest temporarily cleared by fire that naturally regenerates within 5 years"
+    - "A forest cleared and converted to a new highway corridor"
+    - "A forest cleared by a farmer and converted to a coffee plantation after 31 December 2020"
+    - "A plantation forest harvested and then replanted with the same species"
+  answer: 2
+  explanation: "Deforestation under Article 2 means conversion of forest to agricultural use, whether human-induced or not. Coffee plantation is agricultural use. A highway is not agricultural use, so it is outside the EUDR's deforestation definition. Temporary fire clearing without agricultural conversion is not deforestation. Plantation harvest and replanting does not change the land use from forest."
+
+- question: "The EUDR concept of 'forest degradation' applies to which commodity group?"
+  options:
+    - "All seven commodity groups equally"
+    - "Cattle and soya only, because they require complete forest removal"
+    - "Wood products only"
+    - "Oil palm and rubber, because they are planted tree crops"
+  answer: 2
+  explanation: "Forest degradation (conversion of primary or naturally regenerating forests into plantation forests) is relevant only for wood products under the EUDR. For the other six commodities, only deforestation (conversion to agricultural use) applies. This asymmetry reflects that timber can be harvested from forests without full agricultural conversion, whereas other commodity production typically requires complete forest clearance."
+
+- question: "What is the EUDR's cut-off date, and what does it mean for a soy producer?"
+  options:
+    - "1 January 2019; soy must not be grown on land cleared before that date"
+    - "31 December 2020; soy must be produced on land that was not subject to deforestation after that date"
+    - "30 June 2023; soy must be produced in compliance with national law from the date the EUDR entered into force"
+    - "30 December 2026; soy must be certified deforestation-free from the date the regulation starts applying"
+  answer: 1
+  explanation: "The EUDR's cut-off date is 31 December 2020. For a soy producer, this means that the land on which the soy is grown must not have been converted from forest to agricultural use after that date. If land was cleared on 1 January 2021, any soy produced on it is ineligible for the EU market, regardless of whether the clearing was legal under the country's domestic law."

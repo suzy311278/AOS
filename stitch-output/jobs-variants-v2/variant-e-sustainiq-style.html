@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>EcoCareers OS | Career Ledger</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-container": "#006d48",
+                    "on-tertiary": "#ffffff",
+                    "primary": "#0f5238",
+                    "surface-container-high": "#d6eee2",
+                    "error-container": "#ffdad6",
+                    "on-background": "#0b1f18",
+                    "on-primary-container": "#a8e7c5",
+                    "on-error": "#ffffff",
+                    "inverse-surface": "#21342c",
+                    "on-secondary": "#ffffff",
+                    "on-secondary-container": "#436b58",
+                    "on-error-container": "#93000a",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container-highest": "#d1e8dc",
+                    "secondary-container": "#beead1",
+                    "on-primary-fixed-variant": "#0e5138",
+                    "tertiary-fixed": "#92f7c3",
+                    "primary-fixed": "#b1f0ce",
+                    "tertiary": "#005236",
+                    "on-primary-fixed": "#002114",
+                    "surface-tint": "#2c694e",
+                    "secondary-fixed": "#c1ecd4",
+                    "on-surface": "#0b1f18",
+                    "surface-container": "#dcf3e7",
+                    "background": "#e7fff3",
+                    "surface-bright": "#e7fff3",
+                    "inverse-primary": "#95d4b3",
+                    "primary-container": "#2d6a4f",
+                    "on-secondary-fixed-variant": "#274e3d",
+                    "on-tertiary-fixed-variant": "#005235",
+                    "surface-dim": "#c8dfd4",
+                    "outline": "#707973",
+                    "on-tertiary-container": "#89edba",
+                    "surface": "#e7fff3",
+                    "outline-variant": "#bfc9c1",
+                    "error": "#ba1a1a",
+                    "secondary-fixed-dim": "#a5d0b9",
+                    "on-tertiary-fixed": "#002113",
+                    "secondary": "#3f6653",
+                    "on-secondary-fixed": "#002114",
+                    "surface-container-low": "#e2f9ed",
+                    "on-primary": "#ffffff",
+                    "inverse-on-surface": "#dff6ea",
+                    "surface-variant": "#d1e8dc",
+                    "primary-fixed-dim": "#95d4b3",
+                    "tertiary-fixed-dim": "#75daa8",
+                    "on-surface-variant": "#404943"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "2xl": "1.5rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Inter"],
+                    "body": ["Inter"],
+                    "mono": ["JetBrains Mono"]
+            }
+          },
+        }
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .font-mono { font-family: 'JetBrains Mono', monospace; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex">
+<!-- SideNavBar Anchor -->
+<aside class="fixed left-0 top-0 h-full z-50 flex flex-col py-8 bg-[#DCF3E7] w-72 rounded-r-3xl shadow-none">
+<div class="px-6 mb-8 flex items-center gap-3">
+<div class="w-10 h-10 bg-[#0B3D2E] rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-[#52B788]" style="font-variation-settings: 'FILL' 1;">work</span>
+</div>
+<div>
+<h1 class="font-mono font-bold text-[#0F5238] text-sm tracking-tight">CAREER DIRECTORY</h1>
+<p class="text-[10px] font-mono text-[#2D6A4F] uppercase tracking-widest opacity-70">Institutional Data</p>
+</div>
+</div>
+<div class="px-6 mb-8">
+<button class="w-full bg-primary-container text-on-primary hover:bg-primary transition-all duration-200 py-3 rounded-md font-semibold flex items-center justify-center gap-2 text-sm shadow-sm active:scale-95">
+                New search
+                <span class="material-symbols-outlined text-sm">search</span>
+</button>
+</div>
+<div class="px-6 mb-6">
+<div class="relative">
+<input class="w-full bg-surface-container-low border-none border-b-2 border-outline-variant/20 focus:border-primary focus:ring-0 text-sm font-mono py-2 pl-2 pr-8 transition-all" placeholder="Search roles..." type="text"/>
+<span class="material-symbols-outlined absolute right-2 top-2 text-outline text-sm">filter_list</span>
+</div>
+</div>
+<nav class="flex-1 overflow-y-auto">
+<div class="px-6 mb-4">
+<span class="text-[10px] font-bold font-mono tracking-widest uppercase text-on-surface-variant">PROFILES</span>
+</div>
+<ul class="space-y-1">
+<li>
+<a class="flex justify-between items-center text-[#2D6A4F] hover:translate-x-1 py-3 px-6 transition-transform hover:bg-[#D1E8DC]" href="#">
+<span class="font-medium text-sm">All Roles</span>
+<span class="font-mono text-[10px] opacity-60">1,240</span>
+</a>
+</li>
+<li>
+<a class="flex justify-between items-center bg-[#FFFFFF] text-[#0F5238] rounded-l-none rounded-r-full shadow-sm ml-0 pr-4 py-3 pl-6 border-l-4 border-[#52B788]" href="#">
+<span class="font-medium text-sm">Climate Risk</span>
+<span class="font-mono text-[10px] font-bold">42</span>
+</a>
+</li>
+<li>
+<a class="flex justify-between items-center text-[#2D6A4F] hover:translate-x-1 py-3 px-6 transition-transform hover:bg-[#D1E8DC]" href="#">
+<span class="font-medium text-sm">Sustainable Finance</span>
+<span class="font-mono text-[10px] opacity-60">185</span>
+</a>
+</li>
+<li>
+<a class="flex justify-between items-center text-[#2D6A4F] hover:translate-x-1 py-3 px-6 transition-transform hover:bg-[#D1E8DC]" href="#">
+<span class="font-medium text-sm">Carbon Markets</span>
+<span class="font-mono text-[10px] opacity-60">92</span>
+</a>
+</li>
+<li>
+<a class="flex justify-between items-center text-[#2D6A4F] hover:translate-x-1 py-3 px-6 transition-transform hover:bg-[#D1E8DC]" href="#">
+<span class="font-medium text-sm">EU Taxonomy</span>
+<span class="font-mono text-[10px] opacity-60">56</span>
+</a>
+</li>
+<li>
+<a class="flex justify-between items-center text-[#2D6A4F] hover:translate-x-1 py-3 px-6 transition-transform hover:bg-[#D1E8DC]" href="#">
+<span class="font-medium text-sm">Clean Energy</span>
+<span class="font-mono text-[10px] opacity-60">312</span>
+</a>
+</li>
+</ul>
+<div class="px-6 mt-8 mb-4">
+<span class="text-[10px] font-bold font-mono tracking-widest uppercase text-on-surface-variant">FILTERS</span>
+</div>
+<div class="px-6 space-y-3">
+<div class="group cursor-pointer flex justify-between items-center border-b border-outline-variant/20 py-2">
+<span class="text-xs font-mono text-on-surface-variant">Country</span>
+<span class="material-symbols-outlined text-sm">expand_more</span>
+</div>
+<div class="group cursor-pointer flex justify-between items-center border-b border-outline-variant/20 py-2">
+<span class="text-xs font-mono text-on-surface-variant">Remote</span>
+<span class="material-symbols-outlined text-sm">expand_more</span>
+</div>
+</div>
+</nav>
+<div class="px-6 mt-auto pt-8">
+<div class="p-4 bg-surface-container-high rounded-xl">
+<div class="flex items-center gap-2 mb-2">
+<span class="w-2 h-2 rounded-full bg-[#52B788] animate-pulse"></span>
+<span class="font-mono text-[10px] font-bold text-[#0F5238]">LIVE LEDGER</span>
+</div>
+<p class="font-mono text-[10px] text-[#2D6A4F]">Active Nodes: 1,942<br/>Daily Updates: +14</p>
+</div>
+</div>
+</aside>
+<!-- Main Workspace -->
+<main class="ml-72 flex-1 min-h-screen bg-[#FAFAFA] pb-12">
+<!-- TopAppBar Anchor -->
+<header class="sticky top-0 z-40 bg-[#E7FFF3] bg-opacity-80 backdrop-blur-2xl px-8 h-16 w-full flex justify-between items-center transition-colors duration-300">
+<div class="flex items-center gap-4">
+<h2 class="text-lg font-bold text-[#0F5238]">Climate Risk Roles</h2>
+<div class="h-4 w-[1px] bg-outline-variant"></div>
+<span class="font-mono text-sm text-[#2D6A4F]">42 positions found</span>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex gap-2">
+<span class="material-symbols-outlined text-[#0F5238] p-2 rounded-full hover:bg-[#DCF3E7] cursor-pointer transition-all">notifications</span>
+<span class="material-symbols-outlined text-[#0F5238] p-2 rounded-full hover:bg-[#DCF3E7] cursor-pointer transition-all">settings</span>
+</div>
+<div class="w-8 h-8 rounded-full overflow-hidden border-2 border-primary-container/20">
+<img alt="User profile" data-alt="close-up portrait of professional user with clean lighting and neutral studio background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7GGR194U1LQWopbTSa9Ipkk3qSPfcGZyaWfEJtQRnMc1LL7_H-Iau8TAKnSOfqYiRMyRbiUsZe4IRE8N4L0fEG33iiZ1sku6Elt71qLS8XgOOEOPuKfaAIx6qWL1ljVi9ZdN8R89N-UOuU9ttZq1m2mjIyFM-9nOoOo0Fj9wWNq6-sc-ykGZriANjf0ZWsZO-Tv5rsDfOpAO26GC53Y8B1bnFxXVxv0_TBQWrP_kYp4D3Pmxn92pwnzBBJnGAJRNhpU2kyPngOTkR"/>
+</div>
+</div>
+</header>
+<section class="max-w-5xl mx-auto px-8 py-8">
+<!-- Job Grid -->
+<div class="space-y-4 mb-12">
+<!-- Card 1 -->
+<div class="bg-white p-6 rounded-2xl border border-outline-variant/30 flex items-center justify-between group hover:border-[#52B788]/40 transition-all">
+<div class="flex gap-6 items-start">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary border border-outline-variant/10">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">account_balance</span>
+</div>
+<div>
+<h3 class="text-[18px] font-bold text-on-surface mb-1">Climate Risk Analyst - Banking</h3>
+<div class="flex items-center gap-4 text-sm text-on-surface-variant mb-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs">corporate_fare</span> HSBC</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs">location_on</span> London, UK</span>
+</div>
+<p class="font-mono text-[11px] text-on-secondary-container bg-secondary-container/30 px-2 py-0.5 rounded inline-block uppercase tracking-wider">Full-time · Senior · 2h ago</p>
+</div>
+</div>
+<button class="bg-primary-container text-on-primary px-6 py-2 rounded-md text-sm font-semibold hover:bg-primary transition-all active:scale-95">Apply</button>
+</div>
+<!-- Card 2 -->
+<div class="bg-white p-6 rounded-2xl border border-outline-variant/30 flex items-center justify-between group hover:border-[#52B788]/40 transition-all">
+<div class="flex gap-6 items-start">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary border border-outline-variant/10">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">analytics</span>
+</div>
+<div>
+<h3 class="text-[18px] font-bold text-on-surface mb-1">Physical Risk Modeler</h3>
+<div class="flex items-center gap-4 text-sm text-on-surface-variant mb-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs">corporate_fare</span> Munich Re</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs">location_on</span> Munich, DE</span>
+</div>
+<p class="font-mono text-[11px] text-on-secondary-container bg-secondary-container/30 px-2 py-0.5 rounded inline-block uppercase tracking-wider">Hybrid · Lead · 4h ago</p>
+</div>
+</div>
+<button class="bg-primary-container text-on-primary px-6 py-2 rounded-md text-sm font-semibold hover:bg-primary transition-all active:scale-95">Apply</button>
+</div>
+<!-- Card 3 -->
+<div class="bg-white p-6 rounded-2xl border border-outline-variant/30 flex items-center justify-between group hover:border-[#52B788]/40 transition-all">
+<div class="flex gap-6 items-start">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary border border-outline-variant/10">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">strategy</span>
+</div>
+<div>
+<h3 class="text-[18px] font-bold text-on-surface mb-1">Transition Risk &amp; Strategy Lead</h3>
+<div class="flex items-center gap-4 text-sm text-on-surface-variant mb-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs">corporate_fare</span> BP</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs">location_on</span> Houston, TX</span>
+</div>
+<p class="font-mono text-[11px] text-on-secondary-container bg-secondary-container/30 px-2 py-0.5 rounded inline-block uppercase tracking-wider">Remote · Director · 6h ago</p>
+</div>
+</div>
+<button class="bg-primary-container text-on-primary px-6 py-2 rounded-md text-sm font-semibold hover:bg-primary transition-all active:scale-95">Apply</button>
+</div>
+<!-- Card 4 -->
+<div class="bg-white p-6 rounded-2xl border border-outline-variant/30 flex items-center justify-between group hover:border-[#52B788]/40 transition-all">
+<div class="flex gap-6 items-start">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary border border-outline-variant/10">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">query_stats</span>
+</div>
+<div>
+<h3 class="text-[18px] font-bold text-on-surface mb-1">Climate Scenario Analyst</h3>
+<div class="flex items-center gap-4 text-sm text-on-surface-variant mb-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs">corporate_fare</span> Standard Chartered</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs">location_on</span> Singapore</span>
+</div>
+<p class="font-mono text-[11px] text-on-secondary-container bg-secondary-container/30 px-2 py-0.5 rounded inline-block uppercase tracking-wider">Full-time · Mid-level · 8h ago</p>
+</div>
+</div>
+<button class="bg-primary-container text-on-primary px-6 py-2 rounded-md text-sm font-semibold hover:bg-primary transition-all active:scale-95">Apply</button>
+</div>
+<!-- Card 5 -->
+<div class="bg-white p-6 rounded-2xl border border-outline-variant/30 flex items-center justify-between group hover:border-[#52B788]/40 transition-all">
+<div class="flex gap-6 items-start">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary border border-outline-variant/10">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">assignment</span>
+</div>
+<div>
+<h3 class="text-[18px] font-bold text-on-surface mb-1">TCFD Disclosure Manager</h3>
+<div class="flex items-center gap-4 text-sm text-on-surface-variant mb-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs">corporate_fare</span> Deloitte</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs">location_on</span> Paris, FR</span>
+</div>
+<p class="font-mono text-[11px] text-on-secondary-container bg-secondary-container/30 px-2 py-0.5 rounded inline-block uppercase tracking-wider">Hybrid · Manager · 12h ago</p>
+</div>
+</div>
+<button class="bg-primary-container text-on-primary px-6 py-2 rounded-md text-sm font-semibold hover:bg-primary transition-all active:scale-95">Apply</button>
+</div>
+<!-- Card 6 -->
+<div class="bg-white p-6 rounded-2xl border border-outline-variant/30 flex items-center justify-between group hover:border-[#52B788]/40 transition-all">
+<div class="flex gap-6 items-start">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary border border-outline-variant/10">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">science</span>
+</div>
+<div>
+<h3 class="text-[18px] font-bold text-on-surface mb-1">Climate Data Scientist</h3>
+<div class="flex items-center gap-4 text-sm text-on-surface-variant mb-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs">corporate_fare</span> MSCI</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs">location_on</span> New York, US</span>
+</div>
+<p class="font-mono text-[11px] text-on-secondary-container bg-secondary-container/30 px-2 py-0.5 rounded inline-block uppercase tracking-wider">Full-time · Senior · 1d ago</p>
+</div>
+</div>
+<button class="bg-primary-container text-on-primary px-6 py-2 rounded-md text-sm font-semibold hover:bg-primary transition-all active:scale-95">Apply</button>
+</div>
+</div>
+<!-- Footer Card -->
+<div class="bg-[#E2F9ED] p-8 rounded-2xl border border-[#BFC9C1]/30 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="space-y-2">
+<span class="text-[10px] font-bold font-mono tracking-widest uppercase text-primary">LEARNING PATHS</span>
+<h4 class="text-xl font-bold text-on-surface">Build skills for Climate Risk roles</h4>
+<p class="text-on-surface-variant text-sm max-w-md">Access verified institutional curriculum for ESG disclosures and physical climate modeling.</p>
+</div>
+<div class="flex gap-4">
+<a class="bg-white px-4 py-2.5 rounded-lg text-sm font-bold text-primary-container border border-outline-variant/20 hover:bg-surface-container transition-all flex items-center gap-2 shadow-sm" href="#">
+                        Climate Science 101
+                        <span class="material-symbols-outlined text-xs">arrow_outward</span>
+</a>
+<a class="bg-white px-4 py-2.5 rounded-lg text-sm font-bold text-primary-container border border-outline-variant/20 hover:bg-surface-container transition-all flex items-center gap-2 shadow-sm" href="#">
+                        IFRS S2
+                        <span class="material-symbols-outlined text-xs">arrow_outward</span>
+</a>
+</div>
+</div>
+</section>
+</main>
+<!-- Contextual Map Hint (Hidden by default but semantic for location) -->
+<div class="hidden" data-location="London" style=""></div>
+</body></html>

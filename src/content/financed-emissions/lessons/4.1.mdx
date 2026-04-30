@@ -1,0 +1,141 @@
+{/* source: PCAF Standard Part B: Facilitated Emissions, Chapters 1-5 */}
+
+**Facilitated emissions** are greenhouse gas emissions associated with financial institutions' capital market activities. Unlike financed emissions (which arise from on-balance-sheet lending and investment), facilitated emissions arise when a financial institution helps companies or governments **raise capital** in the primary markets by acting as an underwriter, bookrunner, or arranger. The financial institution does not provide the capital itself; it facilitates access to capital markets on behalf of the issuer.
+
+<AudioPlayer src="https://pub-033ee478bfa542229216e3781c99cb96.r2.dev/financed-emissions/4_1.mp3" title="Listen to this lesson (podcast-style overview)" />
+
+## How Facilitated Emissions Differ from Financed Emissions
+
+Facilitated emissions differ from financed emissions in two fundamental ways:
+
+- **Off-balance-sheet**: Capital market transactions are not held on the financial institution's balance sheet. The institution earns a fee from the facilitation service, but the capital flows from investors to the issuer, never sitting on the bank's own books.
+- **Temporary association**: The facilitation role lasts days or weeks (the deal period). Once the transaction closes, the financial institution's direct association with the instrument ends. By contrast, a loan remains on the bank's balance sheet for years.
+
+<ResponsiveTable>
+<table>
+  <thead>
+    <tr>
+      <th>Characteristic</th>
+      <th>Financed Emissions (Part A)</th>
+      <th>Facilitated Emissions (Part B)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Balance sheet treatment</td>
+      <td>On-balance-sheet</td>
+      <td>Off-balance-sheet (fee income)</td>
+    </tr>
+    <tr>
+      <td>Duration of association</td>
+      <td>Months to years</td>
+      <td>Days to weeks (deal period)</td>
+    </tr>
+    <tr>
+      <td>Financial risk</td>
+      <td>Credit risk (loan default, equity loss)</td>
+      <td>Typically no financial risk to the institution</td>
+    </tr>
+    <tr>
+      <td>Accounting principle</td>
+      <td>"Follow the money"</td>
+      <td>"Follow the facilitation role"</td>
+    </tr>
+    <tr>
+      <td>Attribution factor</td>
+      <td>Outstanding amount / company value</td>
+      <td>League table credit × weighting factor</td>
+    </tr>
+  </tbody>
+</table>
+</ResponsiveTable>
+
+## Which Activities Are Covered
+
+The Facilitated Emissions Standard (Part B, First Version, December 2023) covers primary capital market issuances:
+
+- **Public debt**: All types of bonds issued for general purposes (including sustainability-linked bonds, corporate bonds, and medium-term notes)
+- **Public equity**: Common stock (IPOs and follow-on issuances) and preferred shares
+- **Facilitated equity investments in private companies** (private placements)
+- **Facilitated debt investments in private companies** (private credit)
+- **Syndicated loans**: Loans made available by two or more lenders under a common agreement
+
+**Not covered**: Sovereign bonds, securitized products (ABS, MBS), covered bonds, derivative instruments, mergers and acquisitions advisory, and green bonds with known use of proceeds (under development by PCAF).
+
+## The Attribution Framework
+
+The attribution formula for facilitated emissions has two key components:
+
+<EquationBreakdown
+  title="Facilitated Emissions - Core Formula"
+  result="FacE | Facilitated Emissions | GHG emissions attributed to the FI's capital market facilitation role, in tCO₂e | blue"
+  inputs="AF | Attribution Factor | The FI's league table credit share of the deal | green ;; WF | Weighting Factor | Fixed at 33%, reflecting the temporary and off-balance-sheet nature of facilitation | amber ;; E<sub>issuer</sub> | Annual Emissions of Issuer | Total annual GHG emissions of the issuing company, in tCO₂e | violet"
+/>
+
+### Attribution Factor: League Table Credit
+
+The attribution factor is based on **league table credit**, the standard industry convention for assigning economic credit among banks participating in a deal. PCAF uses this because it reflects the actual role and economic contribution of each financial institution.
+
+- **Active bookrunner**: Receives 100% credit (lead institution responsible for most deal execution)
+- **Passive bookrunner**: Receives 50% credit (part of the bookrunner group but with less active responsibility)
+- **Co-manager / lead manager**: Not captured under Part B (their role is too passive)
+
+Where multiple institutions share bookrunner roles, the credit is divided equally among them.
+
+<ExampleBox>
+**League table credit in a bond deal**
+
+A corporation issues a $1 billion bond. The deal has three bookrunners: Bank A is the active bookrunner (receives 100% credit), and Banks B and C are passive bookrunners (each receives 50% credit). Total credits = 100 + 50 + 50 = 200.
+
+Bank A's league table share = 100 / 200 = **50%**
+Bank B's league table share = 50 / 200 = **25%**
+Bank C's league table share = 50 / 200 = **25%**
+
+Bank A's facilitated volume = 50% × $1 billion = **$500 million**
+Bank B and C: $250 million each
+</ExampleBox>
+
+### Weighting Factor: The 33% Rule
+
+Because the financial institution's association with facilitated transactions is temporary and off-balance-sheet, PCAF applies a **weighting factor of 33%** to facilitated emissions. This factor reflects that the facilitation role is meaningfully less impactful than the ongoing capital relationship represented by on-balance-sheet lending.
+
+<HighlightBox>
+The 33% weighting factor was determined through PCAF's public consultation process (October 2022). It reflects the view that facilitators who arrange capital market deals have one-third of the "emissions responsibility" compared to investors who hold those instruments on their balance sheets long-term. While debated, it provides a standardised, comparable basis for reporting.
+</HighlightBox>
+
+The full facilitated emissions formula is:
+
+<EquationBreakdown
+  title="Facilitated Emissions - Full Formula with League Table Credit"
+  result="FacE<sub>i</sub> | Facilitated Emissions | Emissions attributed to financial institution i from the facilitation, in tCO₂e | blue"
+  inputs="LTC<sub>i</sub> / ΣC | League Table Share | Institution i's credit (100% for active, 50% for passive bookrunner) divided by total credits across all bookrunners | green ;; 33% | Weighting Factor | Fixed weighting reflecting the indirect, temporary facilitation role | amber ;; E<sub>issuer</sub> | Annual Emissions of Issuer | Total annual GHG emissions of the issuing company, in tCO₂e | violet"
+/>
+
+Where i = the financial institution's position in the deal.
+
+## Emission Scopes Covered
+
+Facilitated emissions cover the same GHG gases as financed emissions (all seven Kyoto Protocol gases expressed as CO2e). The scopes included mirror those reported under Part A for the equivalent issuer profile: Scope 1 and Scope 2 are required; Scope 3 should be included where available.
+
+## Reporting and Data Quality
+
+Facilitated emissions data quality scoring follows the same Option 1 to 3 hierarchy as Part A. The emissions of the issuer are obtained either from company reports, data providers (for listed issuers), or estimated using sector-level proxies (for unlisted issuers).
+
+Financial institutions report facilitated emissions as a **separate, supplementary accounting note** within Scope 3 Category 15. They must not be combined with financed emissions or used to offset them.
+
+## Business Goal Alignment
+
+PCAF Part B identifies four business goals served by measuring facilitated emissions, which mirror the goals from Part A:
+
+1. **Create transparency** for internal and external stakeholders
+2. **Manage climate-related transition risks** in capital market activities
+3. **Develop climate-friendly financial products** (sustainable finance advisory, green underwriting)
+4. **Align financial flows** with the Paris Agreement's goals
+
+As banks face regulatory and market pressure to understand their full climate impact, facilitated emissions close an important accountability gap that financed emissions alone cannot address.
+
+<AnalogyBox>
+If financed emissions are like owning shares in a company's operations, facilitated emissions are like being the real estate agent who helped someone buy a house. You did not buy the house yourself, you did not live in it, and your association ended when the sale closed. But you played a key role in making that transaction happen. PCAF's 33% weighting acknowledges this role as real but proportionately less impactful than ownership.
+</AnalogyBox>
+
+<KeyTakeaways items="Facilitated emissions arise from off-balance-sheet capital market activities (underwriting, syndication) where the bank enables rather than provides capital ;; Attribution uses league table credit: active bookrunners receive 100% credit, passive bookrunners receive 50%, divided equally among co-bookrunners ;; A 33% weighting factor is applied to all facilitated emissions, reflecting the temporary and indirect nature of the facilitation role ;; Facilitated emissions must be reported as a separate supplementary note within Scope 3 Category 15 - never combined with or used to offset financed emissions ;; Covered activities include public debt and equity issuances, private placements, and syndicated loans - sovereign bonds, ABS/MBS, and derivatives are excluded" />

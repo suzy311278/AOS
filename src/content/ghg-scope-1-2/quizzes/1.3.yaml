@@ -1,0 +1,26 @@
+- question: "A client says they do not have fuel consumption records, only a total annual diesel cost of $200,000. What should you do?"
+  options:
+    - "Convert cost to litres using the average diesel price and proceed"
+    - "Push back and contact the fuel supplier for delivery records in litres or tonnes"
+    - "Use the cost figure directly with a cost-based emission factor"
+    - "Estimate consumption from equipment run hours and rated fuel consumption"
+  answer: 1
+  explanation: "Cost-based estimates are the lowest tier of activity data quality because fuel price volatility contaminates what should be a physical measurement. Before accepting cost data, push back and contact the fuel supplier - they will have delivery records in litres or tonnes. If delivery records are truly unavailable, operating estimates (run hours x rated consumption) are still preferable to cost-based estimates."
+
+- question: "A company's natural gas consumption data is provided in GJ on a Lower Heating Value (LHV) basis. They plan to use the EPA emission factor of 53.06 kg CO2/MMBtu. What adjustment is needed?"
+  options:
+    - "No adjustment - GJ and MMBtu are directly convertible"
+    - "Convert GJ to MMBtu, then divide by approximately 0.9 to convert from LHV to HHV before applying the EPA factor"
+    - "Convert GJ to MMBtu directly and apply the factor as-is"
+    - "Use IPCC factors instead since the data is in metric energy units"
+  answer: 1
+  explanation: "EPA emission factors are calibrated to Higher Heating Value (HHV). If your activity data uses Lower Heating Value (LHV) - common in India and the EU - you must convert to HHV before applying EPA factors. For natural gas, divide LHV energy by approximately 0.9 to get HHV-equivalent. Simply converting GJ to MMBtu without the HHV/LHV correction will understate emissions by 5-10%."
+
+- question: "A company used IPCC default emission factors for natural gas last year but discovers that EPA provides national-level factors for their country of operation. According to the emission factor hierarchy, what should they do?"
+  options:
+    - "Keep using IPCC factors for consistency with the prior year"
+    - "Switch to EPA national defaults and restate the base year using the new factor"
+    - "Use both and average them for better accuracy"
+    - "Only switch if the difference exceeds 5%"
+  answer: 1
+  explanation: "The emission factor hierarchy ranks national defaults (like EPA) above international defaults (IPCC) because they are better characterised for the specific country's fuel composition. When upgrading to a more accurate factor, you should switch and restate the base year using the new factor to maintain consistency in trend analysis. Averaging factors from different tiers is not recommended - use the best available single source."

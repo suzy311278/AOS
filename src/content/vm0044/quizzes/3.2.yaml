@@ -1,0 +1,35 @@
+- question: "According to Table 4, what is the default organic carbon content fraction (F_Cp) for wood feedstock under pyrolysis?"
+  options:
+    - "0.52"
+    - "0.65"
+    - "0.74"
+    - "0.77"
+  answer: 3
+  explanation: "Table 4 (from IPCC 2019) gives F_Cp = 0.77 for wood pyrolysis. This is the highest pyrolysis value in the table, reflecting wood's high lignin content. Lignin converts efficiently into stable aromatic carbon structures during pyrolysis. The value of 0.52 in the table is for wood gasification, not pyrolysis."
+
+- question: "A low technology facility produces biochar but does not measure or record the production temperature. What permanence factor (PR_de,k) must be used for soil application?"
+  options:
+    - "0.89, the most conservative default from Table 3"
+    - "0.65, the low temperature value from Table 3"
+    - "0.56, the default for unknown temperature in low technology settings"
+    - "1.00, because permanence is assumed to be permanent without evidence of decay"
+  answer: 2
+  explanation: "If production temperature is not measured or recorded at a low technology facility, the methodology requires using the default PR_de,k of 0.56. This is a conservative value that represents conditions below 350 degrees C with high uncertainty. It is lower than any of the three Table 3 values, reflecting the additional risk associated with unverified production conditions."
+
+- question: "For a low technology facility with an unknown kiln type, what is the default methane emission factor (F_e) to be used in Equation 9?"
+  options:
+    - "0.009 tCH4 per tonne of biochar"
+    - "0.028 tCH4 per tonne of biochar"
+    - "0.049 tCH4 per tonne of biochar"
+    - "0.077 tCH4 per tonne of biochar"
+  answer: 2
+  explanation: "When the kiln type is unknown, VM0044 requires using the default F_e of 0.049 tCH4 per tonne of biochar produced. This value comes from Cornelissen et al. (2016) and is based on traditional kilns, which are among the higher-emitting kiln types. The value of 0.028 is the GWP of methane, not the emission factor."
+
+- question: "What GWP value must be used for methane (CH4) in the pyrolysis emissions calculation for low technology facilities?"
+  options:
+    - "21, from the IPCC Second Assessment Report (SAR)"
+    - "25, from the IPCC Fourth Assessment Report (AR4)"
+    - "28, from the IPCC Fifth Assessment Report (AR5)"
+    - "84, the 20-year GWP from AR5"
+  answer: 2
+  explanation: "VM0044 requires using the GWP value from the latest applicable VCS Standard. The current required value is 28, from the IPCC Fifth Assessment Report (AR5). This is the 100-year GWP for methane. The 20-year GWP (84) is not used in VM0044 accounting. Earlier assessment report values (21 from SAR, 25 from AR4) are outdated for current VCS projects."

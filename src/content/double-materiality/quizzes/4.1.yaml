@@ -1,0 +1,26 @@
+- question: "Why does ESRS 1 not specify fixed numerical thresholds for materiality?"
+  options:
+    - "Fixed thresholds are reserved for sector-specific standards only"
+    - "The standards take a principles-based approach because no single threshold could work fairly across all companies, sectors, and sizes"
+    - "Fixed thresholds are set by national regulators, not the ESRS"
+    - "Thresholds are only required for financial materiality, not impact materiality"
+  answer: 1
+  explanation: "ESRS 1 paragraph 42 and EFRAG IG1 paragraph 27 explain that ESRS sets criteria for materiality rather than fixed thresholds because no single threshold suits all types of economic activity, sector, or circumstance. Companies must set their own thresholds using those criteria."
+
+- question: "Which three factors determine the severity of a negative impact for the purposes of impact materiality thresholds?"
+  options:
+    - "Likelihood, financial magnitude, and time horizon"
+    - "Scale, scope, and irremediable character"
+    - "Probability, reversibility, and breadth"
+    - "Scale, financial cost, and stakeholder concern"
+  answer: 1
+  explanation: "ESRS 1 paragraph 45 and EFRAG IG1 paragraph 115 define severity of a negative impact by three characteristics: scale (how grave the impact is), scope (how widespread it is), and irremediable character (the extent to which the impact cannot be remediated or reversed)."
+
+- question: "What two factors are combined to assess the materiality of risks and opportunities under the financial materiality threshold framework?"
+  options:
+    - "Severity and scope of the impact"
+    - "Likelihood of occurrence and the potential magnitude of financial effects"
+    - "Scale of the impact and the cost of remediation"
+    - "Time horizon and the number of stakeholders affected"
+  answer: 1
+  explanation: "ESRS 1 paragraph AR 15 and EFRAG IG1 paragraph 131 state that the materiality of risks and opportunities is based on a combination of the likelihood of occurrence and the potential magnitude of the financial effects, determined on the basis of appropriate thresholds."

@@ -1,0 +1,171 @@
+id: eudr
+title: EU Deforestation Regulation (EUDR)
+subtitle: Deforestation-free supply chains and due diligence obligations
+description: A comprehensive course on the EU Deforestation Regulation (2023/1115), covering its scope, commodity coverage,
+  due diligence system, geolocation requirements, benchmarking system, and implications for global supply chains. Learn how
+  to implement compliant traceability systems for forest-risk commodities.
+icon: 🌳
+color: green
+status: published
+category: sustainability-standards
+estimatedHours: 7
+modules:
+- id: 0
+  title: Deforestation and Global Supply Chains
+  subtitle: Why the EUDR Was Created
+  icon: 🌍
+  color: green
+  lessons:
+  - id: '0.1'
+    title: The Scale of Global Deforestation
+    duration: 35 min
+    vmRef: FAO Global Forest Resources Assessment 2020; EUDR Regulation (EU) 2023/1115, Recitals 1-10
+    seoTitle: 'Global Deforestation: Scale, Drivers & EUDR Context'
+    seoDescription: 'Global deforestation: 420M ha lost since 1990, 6.7M ha primary rainforest in 2024, agricultural drivers,
+      and EUDR context.'
+  - id: '0.2'
+    title: The EU's Deforestation Footprint
+    duration: 30 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Recitals 11-18; EC EUDR Impact Assessment SWD(2021) 315
+  - id: '0.3'
+    title: From Voluntary Pledges to Mandatory Law
+    duration: 35 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Recitals 19-28; EC EUDR FAQ
+    seoTitle: 'EUDR Origin: From Voluntary Pledges to Mandatory Law'
+    seoDescription: From New York Declaration on Forests and consumer goods commitments to EUTR and the mandatory EU Deforestation
+      Regulation. Why voluntary action fell short.
+  - id: '0.4'
+    title: EUDR Overview and Objectives
+    duration: 30 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 1-3; EU Timber Regulation (EU) 995/2010
+- id: 1
+  title: Scope and Definitions
+  subtitle: What the Regulation Covers
+  icon: 📋
+  color: emerald
+  lessons:
+  - id: '1.1'
+    title: 'Seven Commodities: Cattle, Cocoa, Coffee, Oil Palm & More'
+    duration: 45 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 1, Annex I; EC EUDR Guidance Documents
+  - id: '1.2'
+    title: 'Deforestation, Forest Degradation & the Cut-Off Date'
+    duration: 40 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 2; FAO Global Forest Resources Assessment 2020
+  - id: '1.3'
+    title: 'Who Must Comply: Operators and Traders'
+    duration: 35 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 2, 4-6; EC EUDR FAQ
+  - id: '1.4'
+    title: Legality Requirement
+    duration: 30 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 2(40), Art. 3; EC EUDR Guidance Documents
+    seoTitle: 'EUDR Legality Requirement: Producing-Country Laws'
+    seoDescription: 'The EUDR legality requirement: relevant laws in producing countries (land use, forest, labour, tax, anti-corruption),
+      evidence, and how to prove compliance.'
+- id: 2
+  title: The Due Diligence System
+  subtitle: How to Comply with EUDR
+  icon: 🔍
+  color: teal
+  lessons:
+  - id: '2.1'
+    title: 'Three Steps: Information, Risk Assessment, Risk Mitigation'
+    duration: 45 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 8-11; EC EUDR Guidance Documents
+    seoTitle: 'EUDR Due Diligence: 3 Steps (Info, Risk, Mitigation)'
+    seoDescription: 'The EUDR three-step due diligence system: gathering information, risk assessment against 12 criteria,
+      and risk-mitigation measures. Article 8–11 explained.'
+  - id: '2.2'
+    title: Geolocation Requirements
+    duration: 40 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 9(1)(d); EC Implementing Regulation on geolocation
+    seoTitle: 'EUDR Geolocation: Plot-Level Data Collection Methods'
+    seoDescription: How to collect plot-level geolocation data for EUDR compliance. Point vs polygon coordinates, WGS84, GPS/satellite
+      capture, smallholder aggregation, formatting.
+  - id: '2.3'
+    title: Due Diligence Statements and the Information System
+    duration: 35 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 4, 7, 33; EC EUDR FAQ
+    seoTitle: EUDR Due Diligence Statement & TRACES NT System
+    seoDescription: 'EUDR due diligence statement (DDS): what to include, the TRACES NT information system, DDS reference
+      numbers, and how customs verifies compliance.'
+  - id: '2.4'
+    title: Simplified Due Diligence for Low-Risk Countries
+    duration: 30 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 10, 29; EC Implementing Regulations on benchmarking
+- id: 3
+  title: The Benchmarking System
+  subtitle: Country and Sub-National Risk Classification
+  icon: 🗺️
+  color: blue
+  lessons:
+  - id: '3.1'
+    title: How Countries Are Benchmarked
+    duration: 40 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 29; EC Implementing Regulations on benchmarking
+  - id: '3.2'
+    title: Standard, Low, and High Risk Categories
+    duration: 35 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 29; EC EUDR FAQ; EC Implementing Regulations on benchmarking
+  - id: '3.3'
+    title: Sub-National Benchmarking
+    duration: 30 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 29(3); EC Implementing Regulations on benchmarking
+  - id: '3.4'
+    title: Implications for Producing Countries
+    duration: 35 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 30-32; EC EUDR Guidance Documents
+- id: 4
+  title: Implementation Challenges
+  subtitle: Traceability, Data, and Supply Chain Transformation
+  icon: ⚙️
+  color: orange
+  lessons:
+  - id: '4.1'
+    title: Building Traceability Systems
+    duration: 45 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 9-10; EC EUDR Guidance Documents
+    seoTitle: 'EUDR Traceability: Building Supply Chain Tracking'
+    seoDescription: 'How to build an EUDR-compliant traceability system: national traceability platforms, chain of custody
+      models, digital tools, and smallholder onboarding.'
+  - id: '4.2'
+    title: Satellite Monitoring and Remote Sensing
+    duration: 35 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 21; Global Forest Watch data; EC EUDR Guidance Documents
+  - id: '4.3'
+    title: Smallholder Inclusion and Equity Concerns
+    duration: 40 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Recitals 53-58; EC EUDR FAQ; EC EUDR Guidance Documents
+  - id: '4.4'
+    title: Sector-Specific Challenges
+    duration: 40 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Annex I; EC EUDR Guidance Documents; EC EUDR FAQ
+- id: 5
+  title: Enforcement, Compliance, and Future Outlook
+  subtitle: Penalties, Checks, and Evolution
+  icon: ⚖️
+  color: violet
+  lessons:
+  - id: '5.1'
+    title: Enforcement and Penalties
+    duration: 35 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 14-23, 24-26; EC EUDR FAQ
+    seoTitle: 'EUDR Penalties: 4% EU Turnover Fine & Enforcement'
+    seoDescription: 'EU Deforestation Regulation penalties: fines up to 4% of annual EU turnover, confiscation of goods and
+      revenues, exclusion from public procurement, and enforcement flow.'
+  - id: '5.2'
+    title: Timeline and Transition
+    duration: 30 min
+    vmRef: EUDR Regulation (EU) 2023/1115, Art. 36-38; EC EUDR FAQ
+    seoTitle: EUDR Timeline, Deadlines & Cut-Off Date
+    seoDescription: 'EUDR timeline and deadlines: application from 30 December 2025 for large operators, 30 June 2026 for
+      SMEs. Deforestation cut-off date: 31 December 2020.'
+  - id: '5.3'
+    title: EUDR and Other Frameworks
+    duration: 35 min
+    vmRef: EUDR Regulation (EU) 2023/1115; CSDDD Directive (EU) 2024/1760; CSRD Directive (EU) 2022/2464
+  - id: '5.4'
+    title: Global Impact and Other Deforestation Laws
+    duration: 30 min
+    vmRef: EUDR Regulation (EU) 2023/1115; EC EUDR Guidance Documents; UK Environment Act 2021, Schedule 17
