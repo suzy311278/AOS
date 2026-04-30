@@ -71,7 +71,7 @@ export async function GET(req: Request) {
       .orderBy(desc(sustainiqQueries.createdAt))
       .limit(limit);
 
-    const entries: HistoryEntry[] = rows.map((r) => ({
+    const entries: HistoryEntry[] = rows.map((r: any) => ({
       id: r.id,
       query: r.query,
       answer: r.answer,

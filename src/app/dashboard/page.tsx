@@ -130,7 +130,7 @@ export default async function DashboardRedesignPage() {
 
   const courseMap = Object.fromEntries(allCourses.map((c) => [c.id, c]));
 
-  const enrolledCourses = enrolled.map((e) => {
+  const enrolledCourses = enrolled.map((e: any) => {
     const course = courseMap[e.courseId];
     const totalLessons =
       course?.modules.reduce((sum, m) => sum + m.lessons.length, 0) ?? 0;
@@ -159,8 +159,8 @@ export default async function DashboardRedesignPage() {
     };
   }
 
-  const totalLessonsDone = enrolled.reduce((sum, e) => sum + e.completedCount, 0);
-  const totalQuizzesDone = activity.reduce((sum, a) => sum + a.quizzesDone, 0);
+  const totalLessonsDone = enrolled.reduce((sum: number, e: any) => sum + e.completedCount, 0);
+  const totalQuizzesDone = activity.reduce((sum: number, a: any) => sum + a.quizzesDone, 0);
 
   // Calculate XP: 10 per lesson, 5 per quiz
   const xp = totalLessonsDone * 10 + totalQuizzesDone * 5;

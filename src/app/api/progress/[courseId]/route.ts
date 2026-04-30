@@ -18,7 +18,7 @@ export async function GET(
       .select()
       .from(enrollments)
       .where(and(eq(enrollments.userId, userId), eq(enrollments.courseId, courseId)))
-      .then((r) => r[0] ?? null),
+      .then((r: any) => r[0] ?? null),
     db
       .select()
       .from(lessonCompletions)
