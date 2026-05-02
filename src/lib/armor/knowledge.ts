@@ -47,7 +47,7 @@ export interface KnowledgeView {
   labHours: number;
   /** IEC parts without the "IEC " prefix, e.g. "62443-3-3". */
   parts: string[];
-  modules: { id: string; title: string; lessons: number }[];
+  modules: { id: string; title: string; lessons: number; firstLessonId?: string }[];
   outcomes: string[];
   /** Whether the underlying source is a real loaded YAML or the seed stub. */
   source: 'live' | 'seed';
@@ -99,6 +99,7 @@ function viewFromArmor(course: ArmorCourse): KnowledgeView {
       id: m.id,
       title: m.title,
       lessons: m.lessons.length,
+      firstLessonId: m.lessons[0]?.id,
     })),
     outcomes: course.outcomes,
     source: 'live',

@@ -97,13 +97,23 @@ export default async function KnowledgeCoursePage({ params }: PageProps) {
           </dl>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
-            <button
-              disabled={course.status === 'coming-soon'}
-              className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-ai-tile bg-ai-primary text-white font-bold font-ai-mono text-[12.5px] uppercase tracking-ai-mono hover:bg-ai-primary-hover transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-            >
-              {course.status === 'coming-soon' ? 'Notify me' : 'Start course'}
-              <ArrowRight className="h-4 w-4" />
-            </button>
+            {course.status === 'coming-soon' ? (
+              <button
+                disabled
+                className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-ai-tile bg-ai-primary text-white font-bold font-ai-mono text-[12.5px] uppercase tracking-ai-mono disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                Notify me
+                <ArrowRight className="h-4 w-4" />
+              </button>
+            ) : (
+              <Link
+                href={`/knowledge/${course.slug}/${course.modules[0]?.id ?? '0'}.1`}
+                className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-ai-tile bg-ai-primary text-white font-bold font-ai-mono text-[12.5px] uppercase tracking-ai-mono hover:bg-ai-primary-hover transition-colors"
+              >
+                Start course
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            )}
             {specialist && (
               <Link
                 href="/certification"
@@ -194,25 +204,36 @@ export default async function KnowledgeCoursePage({ params }: PageProps) {
             ends with a knowledge check; the final module is the hands-on lab.
           </p>
           <ol className="mt-8 space-y-3">
-            {course.modules.map((m) => (
-              <li
-                key={m.id}
-                className="rounded-ai-card border border-ai-line bg-ai-bg p-4 flex items-center gap-4"
-              >
-                <span className="inline-flex items-center justify-center h-9 w-9 rounded-ai-tile bg-ai-primary/10 text-ai-primary ring-1 ring-ai-primary/20 font-ai-mono text-[12px] font-bold">
-                  {m.id}
-                </span>
-                <div className="flex-1">
-                  <p className="text-[15px] font-bold text-ai-ink">{m.title}</p>
-                  <p className="mt-0.5 font-ai-mono text-[11px] tracking-ai-mono text-ai-ink-dim">
-                    {m.lessons} lesson{m.lessons === 1 ? '' : 's'}
-                  </p>
-                </div>
-                <span className="font-ai-mono text-[10.5px] uppercase tracking-ai-eyebrow text-ai-ink-dim">
-                  {course.status === 'coming-soon' ? 'TBD' : 'Open'}
-                </span>
-              </li>
-            ))}
+            {course.modules.map((m) => {
+              const firstLesson = m.firstLessonId ?? `${m.id}.1`;
+              const isOpen = course.status !== 'coming-soon';
+              const Wrapper = isOpen ? Link : 'div' as any;
+              return (
+                <li key={m.id}>
+                  <Wrapper
+                    {...(isOpen ? { href: `/knowledge/${course.slug}/${firstLesson}` } : {})}
+                    className={`rounded-ai-card border border-ai-line bg-ai-bg p-4 flex items-center gap-4 ${
+                      isOpen ? 'hover:border-ai-primary/30 hover:shadow-ai-tile transition-all cursor-pointer' : ''
+                    }`}
+                  >
+                    <span className="inline-flex items-center justify-center h-9 w-9 rounded-ai-tile bg-ai-primary/10 text-ai-primary ring-1 ring-ai-primary/20 font-ai-mono text-[12px] font-bold">
+                      {m.id}
+                    </span>
+                    <div className="flex-1">
+                      <p className="text-[15px] font-bold text-ai-ink">{m.title}</p>
+                      <p className="mt-0.5 font-ai-mono text-[11px] tracking-ai-mono text-ai-ink-dim">
+                        {m.lessons} lesson{m.lessons === 1 ? '' : 's'}
+                      </p>
+                    </div>
+                    <span className="font-ai-mono text-[10.5px] uppercase tracking-ai-eyebrow text-ai-ink-dim flex items-center gap-1.5">
+                      {isOpen ? (
+                        <>Open <ArrowRight className="h-3 w-3" /></>
+                      ) : 'TBD'}
+                    </span>
+                  </Wrapper>
+                </li>
+              );
+            })}
           </ol>
         </div>
       </section>
