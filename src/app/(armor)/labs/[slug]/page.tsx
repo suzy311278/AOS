@@ -10,9 +10,12 @@
 
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, ArrowRight, Activity, ShieldCheck, Clock, Layers } from 'lucide-react';
 import { LABS, getLab, ADVISORIES } from '@/lib/armor/seed';
+
+const LabTerminal = dynamic(() => import('@/components/armor/lab/Terminal'), { ssr: false });
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -106,37 +109,10 @@ export default async function LabDetailPage({ params }: PageProps) {
             </div>
           </div>
 
-          {/* Right — terminal placeholder */}
+          {/* Right — live terminal */}
           <aside className="lg:col-span-5">
             <div className="rounded-ai-card border border-ai-line-deep bg-ai-deep-2 shadow-ai-card-deep overflow-hidden">
-              <div className="flex items-center gap-2 px-4 py-2.5 border-b border-ai-line-deep bg-black/30">
-                <span className="ai-led ai-led--warn" aria-hidden />
-                <p className="font-ai-mono text-[11px] tracking-ai-mono text-ai-ink-on-deep-dim flex-1">
-                  armor@lab:~/{lab.slug}
-                </p>
-                <span className={`px-2 py-0.5 text-[10px] font-bold uppercase tracking-ai-eyebrow font-ai-mono rounded-full ring-1 ${status.tone}`}>
-                  {status.label}
-                </span>
-              </div>
-              <pre className="p-5 font-ai-mono text-[12.5px] leading-[1.55] text-ai-ink-on-deep-soft whitespace-pre-wrap">
-{`> armor lab init ${lab.slug}
-[i] Provisioning runtime: ${lab.runtime}
-[i] Exposing ${lab.protocol} on ${lab.port}/${lab.unit}
-[i] Difficulty: ${lab.difficulty}
-[i] Pre-flight checks ............. ok
-[i] Capturing baseline pcap ........ ok
-[i] Awaiting candidate. Type 'help'.
-
-> _`}
-              </pre>
-              <div className="px-5 py-3 border-t border-ai-line-deep bg-black/30 flex items-center justify-between">
-                <p className="font-ai-mono text-[10.5px] uppercase tracking-ai-eyebrow text-ai-cyber-glow">
-                  Phase 3 → live xterm.js
-                </p>
-                <p className="font-ai-mono text-[10.5px] text-ai-ink-on-deep-dim">
-                  ws://lab/{lab.slug}
-                </p>
-              </div>
+              <LabTerminal labSlug={lab.slug} className="" />
             </div>
           </aside>
         </div>
