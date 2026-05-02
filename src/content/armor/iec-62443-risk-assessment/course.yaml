@@ -1,0 +1,167 @@
+id: iec-62443-risk-assessment
+code: AI-CSP-RA
+title: "IEC 62443 Risk Assessment"
+shortTitle: "Risk Assessment"
+subtitle: "Zone & conduit modelling, threat analysis, and security-level allocation per IEC 62443-3-2."
+tagline: "Turn a network diagram into a defensible risk register."
+summary: >
+  Master the IEC 62443-3-2 risk-assessment methodology end-to-end. You will
+  partition a reference plant into security zones, model conduits, identify
+  threat actors, and assign target security levels. The course closes with
+  a risk-register workshop that mirrors a real site assessment.
+description: >
+  Risk Assessment Specialist track for the ArmorInnovate IEC 62443 program.
+  Covers zone and conduit partitioning, detailed risk analysis using the
+  62443-3-2 methodology, threat-actor capability mapping, tolerable risk
+  thresholds, and the derivation of target SL-T values. Includes a capstone
+  risk-register exercise against a reference water-treatment plant.
+track: risk-assessment
+difficulty: intermediate
+status: available
+iecParts:
+  - "IEC 62443-3-2"
+isaLevels:
+  - SL1
+  - SL2
+  - SL3
+hours: 35
+labHours: 8
+passingScore: 75
+tags:
+  - "iec-62443"
+  - "risk-assessment"
+  - "zone-conduit"
+  - "threat-modelling"
+outcomes:
+  - "Partition a brownfield plant network into IEC 62443 security zones."
+  - "Model conduits between zones and assign data-flow constraints."
+  - "Perform a detailed risk analysis per IEC 62443-3-2 clause 5."
+  - "Map threat-actor capabilities to target security levels."
+  - "Derive SL-T values and document them in a risk register."
+  - "Defend a risk-register recommendation in front of a review panel."
+prereqs:
+  - iec-62443-foundations
+sources:
+  - label: "IEC 62443-3-2 (security risk assessment)"
+    url: "https://webstore.iec.ch/publication/7032"
+  - label: "NIST SP 800-82r3 (OT security guide)"
+    url: "https://csrc.nist.gov/publications/detail/sp/800-82/rev-3/final"
+  - label: "CISA ICS Recommended Practices"
+    url: "https://www.cisa.gov/ics/recommended-practices"
+seoTitle: "IEC 62443 Risk Assessment — Specialist Track"
+seoDescription: >-
+  Risk Assessment Specialist track: zone & conduit modelling, detailed risk
+  analysis, and security-level allocation per IEC 62443-3-2.
+modules:
+  - id: "0"
+    title: "Zones, conduits, and the partitioning mindset"
+    subtitle: "Why flat networks fail and how to draw the boundaries."
+    shortLabel: "Zones"
+    lessons:
+      - id: "0.1"
+        title: "What is a security zone and why it matters"
+        durationMin: 30
+        vmRef: "IEC 62443-3-2 §4"
+      - id: "0.2"
+        title: "Conduit types: unidirectional, bidirectional, restricted"
+        durationMin: 35
+        vmRef: "IEC 62443-3-2 §4.3"
+      - id: "0.3"
+        title: "Partitioning a reference water-treatment plant"
+        durationMin: 40
+        vmRef: "Practical exercise"
+
+  - id: "1"
+    title: "Threat identification and risk analysis"
+    subtitle: "From generic threat tables to site-specific risk scores."
+    shortLabel: "Threats"
+    lessons:
+      - id: "1.1"
+        title: "Threat sources: insiders, nation-states, ransomware crews"
+        durationMin: 35
+        vmRef: "IEC 62443-3-2 §5.2"
+      - id: "1.2"
+        title: "Vulnerability identification for OT assets"
+        durationMin: 40
+        vmRef: "IEC 62443-3-2 §5.3"
+      - id: "1.3"
+        title: "Consequence and likelihood scoring"
+        durationMin: 35
+        vmRef: "IEC 62443-3-2 §5.4"
+      - id: "1.4"
+        title: "Tolerable risk and the ALARP principle"
+        durationMin: 30
+        vmRef: "IEC 62443-3-2 §5.5"
+
+  - id: "2"
+    title: "Security-level allocation"
+    subtitle: "Translating risk into SL-T and SL-C targets."
+    shortLabel: "SL-T"
+    lessons:
+      - id: "2.1"
+        title: "Foundational requirements and the SL vector"
+        durationMin: 35
+        vmRef: "IEC 62443-3-3"
+      - id: "2.2"
+        title: "Deriving SL-T from risk analysis results"
+        durationMin: 40
+        vmRef: "IEC 62443-3-2 §6"
+      - id: "2.3"
+        title: "Gap analysis: SL-C vs SL-T"
+        durationMin: 40
+        vmRef: "IEC 62443-3-2 §7"
+
+  - id: "3"
+    title: "Risk register workshop"
+    subtitle: "Build a complete risk register for the reference plant."
+    shortLabel: "Workshop"
+    lessons:
+      - id: "3.1"
+        title: "Assembling the risk register"
+        durationMin: 45
+        vmRef: "Practical exercise"
+      - id: "3.2"
+        title: "Presenting and defending your assessment"
+        durationMin: 40
+        vmRef: "Practical exercise"
+        lab: "risk-register-workshop"
+
+lab:
+  slug: "risk-register-workshop"
+  tag: "LAB-02"
+  title: "Risk register workshop: water-treatment reference plant"
+  shortLabel: "Risk register"
+  runtime: "snap7-simulator"
+  protocol: "S7comm"
+  port: "102"
+  unit: "tcp"
+  difficulty: "intermediate"
+  status: "queue"
+  durationMin: 120
+  track: "ics-pentest"
+  isaLevels: [SL1, SL2, SL3]
+  objectives:
+    - "Partition the reference plant into zones and conduits."
+    - "Score risk per zone and derive SL-T values."
+    - "Document findings in a formal risk register."
+  toolkit:
+    - "draw.io"
+    - "risk-register-template.xlsx"
+    - "nmap"
+    - "wireshark"
+  scenario: >
+    You are a cybersecurity assessor contracted to perform a zone & conduit
+    risk assessment on a water-treatment facility. The plant uses S7-1200
+    PLCs, a WinCC HMI, and a flat VLAN between operations and corporate IT.
+    Partition the network, identify threats, and produce a risk register.
+  successCriteria:
+    - "Zone & conduit diagram with at least 4 zones."
+    - "Risk register with SL-T for each zone."
+    - "200-word executive summary defending the highest-risk zone."
+  relatedAdvisories:
+    - "ICSA-24-046-09"
+
+generated:
+  by: human
+  at: "2026-05-01T10:00:00Z"
+  pipelineVersion: "0.1.0"

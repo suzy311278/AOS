@@ -1,0 +1,183 @@
+id: iec-62443-expert-capstone
+code: AI-CSE-EXP
+title: "IEC 62443 Cybersecurity Expert Capstone"
+shortTitle: "Expert Capstone"
+subtitle: "Multi-stage practical assessment spanning all four specialist domains and a live pentest lab."
+tagline: "Prove you can defend — and break — a complete industrial control system."
+summary: >
+  The capstone integrates everything from the four specialist tracks into
+  a single multi-day practical examination. You will assess a reference
+  plant end-to-end: risk analysis, architecture review, penetration test,
+  incident-response drill, and executive debrief. Passing earns the
+  IEC 62443 Cybersecurity Expert credential.
+description: >
+  Cybersecurity Expert capstone for the ArmorInnovate IEC 62443 program.
+  Requires completion of all four specialist tracks (Foundations, Risk
+  Assessment, Design, Maintenance). The capstone is a multi-stage practical
+  assessment: Phase A is a risk assessment and architecture review of a
+  power-substation reference plant; Phase B is a full ICS penetration test
+  with live protocol exploitation; Phase C is an incident-response drill;
+  Phase D is an executive debrief and remediation roadmap.
+track: capstone
+difficulty: advanced
+status: available
+iecParts:
+  - "IEC 62443-1-1"
+  - "IEC 62443-3-2"
+  - "IEC 62443-3-3"
+  - "IEC 62443-4-2"
+isaLevels:
+  - SL2
+  - SL3
+  - SL4
+hours: 60
+labHours: 40
+passingScore: 80
+tags:
+  - "iec-62443"
+  - "capstone"
+  - "pentest"
+  - "expert"
+  - "practical-exam"
+outcomes:
+  - "Perform a full-scope ICS security assessment on a reference plant."
+  - "Execute a multi-protocol penetration test against live OT simulators."
+  - "Lead an incident-response drill with realistic safety-critical scenarios."
+  - "Produce an executive-level remediation roadmap with prioritised controls."
+  - "Defend assessment findings in a practical oral examination."
+prereqs:
+  - iec-62443-foundations
+  - iec-62443-risk-assessment
+  - iec-62443-design
+  - iec-62443-maintenance
+sources:
+  - label: "IEC 62443-1-1 (concepts and models)"
+    url: "https://webstore.iec.ch/publication/7029"
+  - label: "IEC 62443-3-2 (security risk assessment)"
+    url: "https://webstore.iec.ch/publication/7032"
+  - label: "IEC 62443-3-3 (system security requirements)"
+    url: "https://webstore.iec.ch/publication/7033"
+  - label: "IEC 62443-4-2 (component security requirements)"
+    url: "https://webstore.iec.ch/publication/7035"
+  - label: "NIST SP 800-82r3 (OT security guide)"
+    url: "https://csrc.nist.gov/publications/detail/sp/800-82/rev-3/final"
+seoTitle: "IEC 62443 Cybersecurity Expert Capstone"
+seoDescription: >-
+  Multi-stage practical capstone: risk assessment, architecture review,
+  ICS penetration test, incident-response drill, and executive debrief.
+modules:
+  - id: "0"
+    title: "Phase A: Risk assessment & architecture review"
+    subtitle: "Assess the substation before you touch a packet."
+    shortLabel: "Phase A"
+    lessons:
+      - id: "0.1"
+        title: "Reference plant briefing and asset inventory"
+        durationMin: 60
+        vmRef: "Capstone scenario pack"
+      - id: "0.2"
+        title: "Zone & conduit partitioning and SL-T derivation"
+        durationMin: 90
+        vmRef: "IEC 62443-3-2"
+      - id: "0.3"
+        title: "Architecture review against IEC 62443-3-3 SRs"
+        durationMin: 60
+        vmRef: "IEC 62443-3-3"
+
+  - id: "1"
+    title: "Phase B: ICS penetration test"
+    subtitle: "Modbus, S7comm, EtherNet/IP, IEC 104 — all in scope."
+    shortLabel: "Phase B"
+    lessons:
+      - id: "1.1"
+        title: "Reconnaissance and protocol enumeration"
+        durationMin: 90
+        vmRef: "Capstone lab"
+      - id: "1.2"
+        title: "Exploitation: forced writes, unauthorised mode changes"
+        durationMin: 120
+        vmRef: "Capstone lab"
+      - id: "1.3"
+        title: "Post-exploitation: persistence and lateral movement"
+        durationMin: 90
+        vmRef: "Capstone lab"
+
+  - id: "2"
+    title: "Phase C: Incident-response drill"
+    subtitle: "The plant is under attack — what do you do first?"
+    shortLabel: "Phase C"
+    lessons:
+      - id: "2.1"
+        title: "Detection and triage under time pressure"
+        durationMin: 60
+        vmRef: "Capstone scenario"
+      - id: "2.2"
+        title: "Containment and evidence preservation"
+        durationMin: 60
+        vmRef: "Capstone scenario"
+      - id: "2.3"
+        title: "Recovery and lessons-learned debrief"
+        durationMin: 45
+        vmRef: "Capstone scenario"
+
+  - id: "3"
+    title: "Phase D: Executive debrief & remediation roadmap"
+    subtitle: "Translate findings into business-ready recommendations."
+    shortLabel: "Phase D"
+    lessons:
+      - id: "3.1"
+        title: "Remediation roadmap and control prioritisation"
+        durationMin: 60
+        vmRef: "Capstone deliverable"
+      - id: "3.2"
+        title: "Executive presentation and oral defence"
+        durationMin: 45
+        vmRef: "Capstone deliverable"
+        lab: "capstone-pentest-multistage"
+
+lab:
+  slug: "capstone-pentest-multistage"
+  tag: "LAB-05"
+  title: "Multi-stage ICS penetration test: power substation"
+  shortLabel: "Capstone pentest"
+  runtime: "pymodbus-simulator"
+  protocol: "Modbus/TCP"
+  port: "502"
+  unit: "tcp"
+  difficulty: "advanced"
+  status: "queue"
+  durationMin: 480
+  track: "capstone"
+  isaLevels: [SL2, SL3, SL4]
+  objectives:
+    - "Enumerate all protocols on a multi-vendor substation network."
+    - "Exploit at least two distinct protocol vulnerabilities."
+    - "Demonstrate lateral movement from Level 3 to Level 1."
+    - "Produce a professional penetration test report."
+  toolkit:
+    - "nmap"
+    - "mbtget"
+    - "pymodbus-cli"
+    - "snap7-client"
+    - "wireshark"
+    - "metasploit"
+    - "custom-scripts"
+  scenario: >
+    You are the lead assessor on a 3-day ICS penetration test of a power
+    substation. The environment includes Modbus/TCP PLCs, a Siemens S7-1500,
+    an EtherNet/IP I/O rack, and an IEC 104 RTU. Corporate IT is on a
+    separate VLAN bridged through a misconfigured firewall. Your objective
+    is to demonstrate impact across all four protocol stacks and produce a
+    report that the utility's board can act on.
+  successCriteria:
+    - "Protocol enumeration report covering all four stacks."
+    - "Proof-of-concept exploit for at least two protocols."
+    - "Lateral movement evidence from Level 3 to Level 1."
+    - "Professional pentest report with risk ratings and remediation."
+  relatedAdvisories:
+    - "ICSA-24-046-09"
+
+generated:
+  by: human
+  at: "2026-05-01T10:00:00Z"
+  pipelineVersion: "0.1.0"
