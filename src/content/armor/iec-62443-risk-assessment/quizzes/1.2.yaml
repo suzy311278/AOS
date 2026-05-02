@@ -1,0 +1,26 @@
+- question: "In OT, what types of weaknesses count as vulnerabilities beyond software CVEs?"
+  options:
+    - "Only software bugs with assigned CVE numbers."
+    - "Protocol-level weaknesses (e.g. Modbus has no auth), default credentials, architectural flaws (flat VLANs), and process-knowledge gaps."
+    - "Only hardware failures covered by the warranty."
+    - "Only vulnerabilities that have been publicly exploited."
+  answer: 1
+  explanation: "OT vulnerabilities include protocol-level design weaknesses, default credentials, architectural flaws like flat VLANs and bridge devices, and human-layer gaps. Most major ICS incidents exploited architectural and protocol-level weaknesses, not software CVEs."
+
+- question: "Why must active vulnerability scanning on OT networks be done with extreme caution?"
+  options:
+    - "Because active scanning is always illegal."
+    - "Because a scan's traffic patterns can crash legacy PLCs, causing watchdog faults and process trips."
+    - "Because active scanning reveals the plant's IP addresses to the internet."
+    - "Because active scanning deletes PLC programs."
+  answer: 1
+  explanation: "Legacy PLCs have limited network stacks. A SYN scan, service enumeration, or TCP RST flood can trigger a watchdog timeout, causing the PLC to fault and stop executing its control programme. Active testing requires written authorisation, OT-aware tools, and a rollback plan."
+
+- question: "What is the primary source for tracking vendor-specific ICS vulnerabilities?"
+  options:
+    - "Social media and hacker forums."
+    - "CISA ICS Advisories, vendor PSIRTs (Siemens ProductCERT, Schneider PSIRT), and NVD."
+    - "The PLC's built-in diagnostic screen."
+    - "Annual penetration test reports."
+  answer: 1
+  explanation: "CISA publishes weekly ICS advisories, major vendors (Siemens, Schneider, Rockwell) publish monthly PSIRT bulletins, and NVD provides continuous CVE tracking. Monitoring these sources is a core activity of any OT security programme."

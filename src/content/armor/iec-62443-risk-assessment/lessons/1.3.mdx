@@ -1,0 +1,131 @@
+---
+title: "Consequence and likelihood scoring"
+duration: "35 min"
+---
+
+## From scenarios to numbers
+
+You now have a set of threat × vulnerability pairs for each zone. This lesson teaches you how to assign **consequence** and **likelihood** scores — the two dimensions of risk.
+
+<FormulaBox title="Risk equation">
+  Risk = Consequence × Likelihood
+</FormulaBox>
+
+## Consequence scoring
+
+Consequence measures the **impact** if the threat scenario is fully realised. IEC 62443-3-2 recommends scoring across four impact categories:
+
+<ResponsiveTable>
+
+| Category | What it measures | Example (water treatment) |
+|---|---|---|
+| **Safety** | Harm to human life or health | Toxic chlorine release — potential fatalities |
+| **Environmental** | Harm to the natural environment | Untreated sewage discharge into a river |
+| **Financial** | Direct and indirect monetary loss | Equipment damage, regulatory fines, lost production |
+| **Operational** | Loss of essential function or reputation | Loss of water supply for 50,000 people |
+
+</ResponsiveTable>
+
+### The consequence scale
+
+Use a 5-level scale. The highest category determines the overall consequence score:
+
+<ResponsiveTable>
+
+| Level | Label | Safety | Financial | Operational |
+|---|---|---|---|---|
+| **5** | Catastrophic | Multiple fatalities | > $10M | Loss of critical infrastructure for > 7 days |
+| **4** | Major | Single fatality or permanent injury | $1M–$10M | Loss of essential service for 1–7 days |
+| **3** | Serious | Hospitalisation | $100K–$1M | Significant disruption for hours |
+| **2** | Minor | First-aid injury | $10K–$100K | Minor disruption, quickly recoverable |
+| **1** | Negligible | No injury | < $10K | Cosmetic or administrative impact |
+
+</ResponsiveTable>
+
+<HighlightBox>
+  <p class="font-semibold">Use the worst case</p>
+  <p>If a scenario scores 2 on financial but 4 on safety, the overall consequence is <strong>4</strong>. Safety always dominates.</p>
+</HighlightBox>
+
+### Example: reference plant Zone 1
+
+> **Scenario:** Attacker modifies chemical dosing PLC setpoints via unauthenticated S7comm.
+> - **Safety:** Overdose of chlorine could cause respiratory harm — **Level 3** (Serious).
+> - **Environmental:** Excess chlorine discharged to waterway — **Level 3**.
+> - **Financial:** Regulatory fine, remediation — **Level 2**.
+> - **Operational:** Boil-water advisory, plant shutdown — **Level 3**.
+> - **Overall consequence: 3**.
+
+## Likelihood scoring
+
+Likelihood measures how **probable** it is that the scenario occurs within the assessment period (typically one year).
+
+### Factors that influence likelihood
+
+<ResponsiveTable>
+
+| Factor | Increases likelihood | Decreases likelihood |
+|---|---|---|
+| **Threat-source motivation** | Water/energy sector (strategic targets) | Low-profile, non-critical facility |
+| **Threat-source capability** | Nation-state APT, ransomware-as-a-service | Script kiddie, low-capability hacktivist |
+| **Vulnerability exposure** | Internet-facing, default credentials | Air-gapped, MFA, protocol-aware FW |
+| **Existing controls** | None or weak | Defence in depth, monitoring, patching |
+| **Attack complexity** | Simple (one step, off-the-shelf tools) | Complex (multi-stage, custom tooling) |
+
+</ResponsiveTable>
+
+### The likelihood scale
+
+<ResponsiveTable>
+
+| Level | Label | Description |
+|---|---|---|
+| **5** | Almost certain | Expected to occur multiple times per year |
+| **4** | Likely | Expected to occur at least once per year |
+| **3** | Possible | Could occur within the assessment period |
+| **2** | Unlikely | Could occur but not expected |
+| **1** | Rare | Requires extraordinary circumstances |
+
+</ResponsiveTable>
+
+### Example: reference plant Zone 1
+
+> **Scenario:** Cybercriminal reaches Zone 1 via compromised engineering conduit.
+> - Threat-source capability: moderate (ransomware crew with initial-access broker).
+> - Vulnerability exposure: S7comm unauthenticated, engineering conduit time-gated but bidirectional.
+> - Existing controls: firewall (not protocol-aware), no ICS monitoring.
+> - **Likelihood: 3** (Possible).
+
+## The risk matrix
+
+Combine consequence and likelihood in a 5×5 matrix:
+
+<ResponsiveTable>
+
+| | Negligible (1) | Minor (2) | Serious (3) | Major (4) | Catastrophic (5) |
+|---|---|---|---|---|---|
+| **Almost certain (5)** | Medium | High | Critical | Critical | Critical |
+| **Likely (4)** | Low | Medium | High | Critical | Critical |
+| **Possible (3)** | Low | Medium | **High** | High | Critical |
+| **Unlikely (2)** | Low | Low | Medium | Medium | High |
+| **Rare (1)** | Low | Low | Low | Medium | Medium |
+
+</ResponsiveTable>
+
+### Example: Zone 1 risk score
+
+Consequence 3 × Likelihood 3 = **High risk**.
+
+This zone requires SL-T ≥ 2 and targeted remediation of the unauthenticated S7comm conduit.
+
+<AnalogyBox>
+  The risk matrix is a triage tool, not a precision instrument. Its job is to separate the critical from the negligible so you allocate resources to the right zones first. Do not over-engineer the scores — if two assessors disagree by ±1, the matrix still produces the same priority band.
+</AnalogyBox>
+
+<KeyTakeaways>
+  - Consequence is scored across four categories (safety, environmental, financial, operational); the highest category wins.
+  - Likelihood is scored based on threat-source capability, vulnerability exposure, existing controls, and attack complexity.
+  - Risk = Consequence × Likelihood, visualised in a 5×5 matrix.
+  - The risk score determines the priority band (Low / Medium / High / Critical) and drives SL-T assignment.
+  - The matrix is a triage tool — do not over-engineer the precision of individual scores.
+</KeyTakeaways>

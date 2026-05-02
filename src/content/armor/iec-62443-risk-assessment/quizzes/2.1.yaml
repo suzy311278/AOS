@@ -1,0 +1,26 @@
+- question: "What is the 'weakest-link rule' for Security Level vectors?"
+  options:
+    - "The overall SL of a zone is the average of all seven FR elements."
+    - "The overall SL of a zone is the maximum across all seven FR elements."
+    - "The overall SL of a zone is the minimum across all seven FR elements."
+    - "The overall SL is always SL 2 for industrial environments."
+  answer: 2
+  explanation: "The overall SL of a zone is the minimum across all seven FR elements. If six FRs are at SL 3 but one FR is at SL 1, the overall zone SL is SL 1. The chain is only as strong as its weakest link."
+
+- question: "What does SL 3 defend against?"
+  options:
+    - "Casual or accidental threats."
+    - "Motivated individuals and hacktivists."
+    - "Sophisticated groups with ICS expertise (e.g. ransomware crews with OT playbooks)."
+    - "Nation-states with unlimited resources."
+  answer: 2
+  explanation: "SL 3 defends against sophisticated groups with ICS-specific expertise — for example, ransomware crews that use initial-access brokers and have OT-specific attack playbooks. SL 4 is reserved for nation-state actors with extensive resources and custom tooling."
+
+- question: "If a zone's SL-T vector is (3, 3, 3, 2, 3, 3, 3), what is its overall SL-T?"
+  options:
+    - "SL 3"
+    - "SL 2"
+    - "SL 2.86 (average)"
+    - "SL 4"
+  answer: 1
+  explanation: "The overall SL is the minimum across all seven elements. FR 4 (Data Confidentiality) is at SL 2, pulling the overall zone SL down to SL 2 despite the other six FRs being at SL 3."

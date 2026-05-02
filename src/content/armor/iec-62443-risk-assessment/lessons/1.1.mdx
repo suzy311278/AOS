@@ -1,0 +1,80 @@
+---
+title: "Threat sources: insiders, nation-states, ransomware crews"
+duration: "35 min"
+---
+
+## Threat sources in context
+
+IEC 62443-3-2 §5.2 requires that you identify threat sources **relevant to each zone** in your system. A threat source is any entity — human, software, or natural — capable of exploiting a vulnerability.
+
+The Foundations track introduced the major threat actors. This lesson teaches you how to systematically catalogue them for a risk assessment.
+
+## The IEC 62443 threat-source taxonomy
+
+<ResponsiveTable>
+
+| Category | Motivation | Capability | Examples |
+|---|---|---|---|
+| **Unintentional insider** | None (accidental) | Varies — can be very high if they have admin access | Operator plugs infected USB into HMI; engineer misconfigures firewall rule |
+| **Intentional insider** | Revenge, financial gain, ideology | High — has legitimate credentials and physical access | Disgruntled contractor (Maroochy Shire), sabotage-for-hire |
+| **Hacktivist** | Ideological disruption, publicity | Low to moderate — script-kiddie to moderate tooling | Cyber Av3ngers (Aliquippa water plant) |
+| **Cybercriminal** | Financial extortion | Moderate to high — ransomware-as-a-service, initial-access brokers | LockBit, BlackCat/ALPHV, Clop |
+| **Nation-state APT** | Strategic pre-positioning, espionage, sabotage | Very high — custom malware, zero-days, multi-year operations | Sandworm, Volt Typhoon, APT33 |
+| **Competitor** | Industrial espionage, market advantage | Moderate — typically via supply chain or insider recruitment | Rare in public reporting but significant in pharmaceuticals and energy |
+| **Natural / environmental** | N/A | N/A — non-adversarial | Flood, earthquake, lightning strike affecting equipment availability |
+
+</ResponsiveTable>
+
+## Mapping threats to zones
+
+Not every threat source applies to every zone. A nation-state APT is a credible threat to the SIS zone of a power plant; it is not a credible threat to the billing workstation of a small bakery.
+
+### The relevance test
+
+For each zone × threat-source pair, ask:
+
+1. **Does this threat source have a motive** to target assets in this zone?
+2. **Does this threat source have the capability** to reach this zone?
+3. **Has this threat source historically targeted** assets of this type?
+
+If the answer to all three is "no," you may exclude the pairing — but document the exclusion with justification.
+
+<HighlightBox>
+  <p class="font-semibold">Do not under-scope</p>
+  <p>The Aliquippa water plant did not consider nation-state hacktivists a relevant threat. They were wrong. When in doubt, include the threat source and let the risk score determine priority.</p>
+</HighlightBox>
+
+### Example: reference water-treatment plant
+
+<ResponsiveTable>
+
+| Threat source | Zone 1 (Control) | Zone 2 (SIS) | Zone 3 (Supervisory) | Zone 4 (Site Ops) | Zone 5 (Enterprise) |
+|---|---|---|---|---|---|
+| Unintentional insider | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Intentional insider | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Hacktivist | ✓ | ✗ | ✓ | ✗ | ✓ |
+| Cybercriminal | ✓ | ✗ | ✓ | ✓ | ✓ |
+| Nation-state APT | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Natural/environmental | ✓ | ✓ | ✓ | ✓ | ✓ |
+
+</ResponsiveTable>
+
+<ExampleBox>
+  Hacktivists are excluded from Zone 2 (SIS) because their typical capability — exploiting default credentials on internet-exposed devices — does not extend to specialised safety controllers behind multiple zone boundaries. However, if the SIS were ever exposed via a misconfigured conduit, this exclusion would need to be revisited.
+</ExampleBox>
+
+## Threat scenarios
+
+For each included zone × threat-source pair, write a **threat scenario** — a one-paragraph narrative describing how the attack would unfold:
+
+> **Zone 1 × Cybercriminal:** A ransomware operator purchases initial access from an access broker who compromised the plant's VPN. The attacker moves laterally from the corporate network through a misconfigured IDMZ to the supervisory zone, then pivots to the PLC zone via the engineering conduit. The attacker encrypts the engineering workstation and threatens to modify PLC setpoints unless a ransom is paid.
+
+These scenarios are the input to vulnerability identification and consequence scoring in the next two lessons.
+
+<KeyTakeaways>
+  - IEC 62443-3-2 requires systematic identification of threat sources per zone.
+  - Seven categories cover the full spectrum: accidental insiders through nation-state APTs.
+  - Map each threat source to each zone using the relevance test (motive, capability, history).
+  - Document exclusions with justification — under-scoping is the most common assessment error.
+  - Write threat scenarios for each included pairing as input to the detailed risk analysis.
+</KeyTakeaways>

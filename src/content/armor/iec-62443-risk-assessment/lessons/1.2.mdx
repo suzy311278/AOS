@@ -1,0 +1,114 @@
+---
+title: "Vulnerability identification for OT assets"
+duration: "40 min"
+---
+
+## What counts as a vulnerability in OT?
+
+In IT, a vulnerability is typically a software bug with a CVE number. In OT, the definition is broader: **any weakness that a threat source can exploit to compromise the security of a zone**.
+
+This includes software bugs, but also:
+
+- **Protocol-level weaknesses** — Modbus has no authentication. This is not a bug; it is a design decision from 1979. It is still a vulnerability.
+- **Default credentials** — the Unitronics PLC at Aliquippa had a default password. The vendor documented it in the manual.
+- **Architectural weaknesses** — a flat VLAN spanning multiple Purdue levels is a vulnerability, not a misconfiguration.
+- **Process-knowledge gaps** — an operator who does not recognise a suspicious setpoint change is a vulnerability in the human layer.
+
+<HighlightBox>
+  <p class="font-semibold">OT vulnerability = any exploitable weakness</p>
+  <p>Do not limit your assessment to CVEs. Most ICS incidents exploited architectural and protocol-level weaknesses, not software bugs.</p>
+</HighlightBox>
+
+## Vulnerability identification methods
+
+### 1. Architecture review
+
+Walk through the zone & conduit diagram and look for:
+
+- **Missing conduit enforcement** — any path with no firewall or ACL.
+- **Bridge devices** — hosts with interfaces in multiple zones.
+- **Level-skipping conduits** — direct connections that bypass the IDMZ.
+- **Shared credentials** — service accounts used across zones.
+
+### 2. Configuration review
+
+For each device in the zone:
+
+- **Default credentials** — are factory passwords still active?
+- **Unnecessary services** — are HTTP, Telnet, FTP, SNMP enabled but unused?
+- **Open ports** — are any ports open that are not required by the process function?
+- **Firmware version** — is the firmware current? Are there known advisories?
+
+### 3. Passive network analysis
+
+Capture traffic on a SPAN port and analyse:
+
+- **Protocol inventory** — which protocols are actually in use? Are any unexpected?
+- **Communication patterns** — which devices talk to which? Do any cross zone boundaries unexpectedly?
+- **Broadcast traffic** — excessive broadcasts can indicate misconfigured VLANs or legacy protocols.
+
+### 4. Vendor advisory review
+
+For each device vendor and model, check:
+
+- **ICS-CERT / CISA advisories** — search by vendor name at [cisa.gov/ics-advisories](https://www.cisa.gov/ics-advisories).
+- **Vendor PSIRT bulletins** — Siemens ProductCERT, Schneider PSIRT, Rockwell PSIRT.
+- **CVE databases** — NVD, Vulners, VulnDB.
+
+<ResponsiveTable>
+
+| Source | URL | Update frequency |
+|---|---|---|
+| CISA ICS Advisories | cisa.gov/ics-advisories | Weekly |
+| Siemens ProductCERT | siemens.com/cert | Monthly |
+| Schneider PSIRT | se.com/ww/en/work/support/cybersecurity | Monthly |
+| NVD | nvd.nist.gov | Continuous |
+
+</ResponsiveTable>
+
+### 5. Active testing (with extreme caution)
+
+Active vulnerability scanning and penetration testing are **high-risk activities** in OT. Before any active test:
+
+- Obtain **written authorisation** from the plant operator and the safety team.
+- Schedule during a **planned outage** or with the process in a safe state.
+- Use **OT-aware scanning tools** (Tenable.ot, Claroty, Dragos) that understand ICS protocols and rate-limit their probes.
+- Have a **rollback plan** in case a device faults.
+
+<ExampleBox>
+  A penetration tester ran a Nessus scan against a Modbus/TCP endpoint. The scan's TCP RST flood triggered a watchdog timeout on the PLC, which faulted and stopped executing its control programme. The process ran open-loop for 12 seconds before a safety interlock tripped the plant. The tester's report included the finding — but also a P1 incident report.
+</ExampleBox>
+
+## Documenting vulnerabilities
+
+For each vulnerability, record:
+
+<ResponsiveTable>
+
+| Field | Description | Example |
+|---|---|---|
+| **ID** | Unique identifier | V-01 |
+| **Zone** | Which zone is affected | Zone 1 (Process Control) |
+| **Asset** | Which specific asset | S7-1200 PLC #1 |
+| **Description** | What the weakness is | S7comm protocol has no authentication; any device on the VLAN can read/write PLC memory |
+| **Source** | How it was identified | Architecture review + CISA advisory ICSA-21-194-02 |
+| **CVE (if applicable)** | CVE identifier | N/A (protocol-level weakness) |
+| **Exploitability** | How easily can it be exploited | High — no special tools required; mbtget suffices |
+
+</ResponsiveTable>
+
+## Linking vulnerabilities to threat scenarios
+
+Each vulnerability is paired with the threat scenarios from lesson 1.1 to form a **threat × vulnerability pair**. These pairs are the input to consequence and likelihood scoring in the next lesson.
+
+> **Threat scenario:** Cybercriminal reaches Zone 1 via compromised engineering conduit.
+> **Vulnerability:** S7comm has no authentication.
+> **Combined scenario:** Attacker can read and write PLC registers to modify chemical dosing setpoints.
+
+<KeyTakeaways>
+  - OT vulnerabilities include protocol-level weaknesses, default credentials, and architectural flaws — not just CVEs.
+  - Use five methods: architecture review, configuration review, passive network analysis, vendor advisory review, and (carefully) active testing.
+  - Active scanning on OT networks requires written authorisation, OT-aware tools, and a rollback plan.
+  - Document each vulnerability with zone, asset, description, source, and exploitability.
+  - Pair each vulnerability with relevant threat scenarios to form the input for risk scoring.
+</KeyTakeaways>

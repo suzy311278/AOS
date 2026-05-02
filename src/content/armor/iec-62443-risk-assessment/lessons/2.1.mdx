@@ -1,0 +1,94 @@
+---
+title: "Foundational requirements and the SL vector"
+duration: "35 min"
+---
+
+## From risk scores to security requirements
+
+The risk matrix tells you **how much** security each zone needs. The Foundational Requirements and Security Levels tell you **what kind** of security to implement. This lesson bridges the two.
+
+## The seven Foundational Requirements — detailed
+
+You memorised these in the Foundations track. Now let's go deeper into what each one demands at each Security Level.
+
+<ResponsiveTable>
+
+| FR | Name | What it protects | Key SRs |
+|---|---|---|---|
+| **FR 1** | Identification & Authentication Control | Who/what is on the network | SR 1.1 (human IAC), SR 1.2 (software IAC), SR 1.5 (authenticator management) |
+| **FR 2** | Use Control | What they are allowed to do | SR 2.1 (authorisation), SR 2.4 (mobile code), SR 2.8 (auditable events) |
+| **FR 3** | System Integrity | Has the system been tampered with | SR 3.2 (malicious code protection), SR 3.4 (software integrity) |
+| **FR 4** | Data Confidentiality | Is the data protected from disclosure | SR 4.1 (information confidentiality), SR 4.3 (cryptographic integrity) |
+| **FR 5** | Restricted Data Flow | Is communication controlled | SR 5.1 (network segmentation), SR 5.2 (zone boundary protection) |
+| **FR 6** | Timely Response to Events | Can we detect and respond | SR 6.1 (audit log accessibility), SR 6.2 (continuous monitoring) |
+| **FR 7** | Resource Availability | Does the system stay up under attack | SR 7.1 (DoS protection), SR 7.2 (resource management) |
+
+</ResponsiveTable>
+
+## The SL vector in practice
+
+Recall from Foundations that an SL is a vector of seven values:
+
+<FormulaBox title="SL vector">
+  SL = (SL-IAC, SL-UC, SL-SI, SL-DC, SL-RDF, SL-TRE, SL-RA)
+</FormulaBox>
+
+Each element ranges from 0 to 4. The **overall SL** of a zone is the **minimum** across all seven elements.
+
+### What each SL level means in practice
+
+<ResponsiveTable>
+
+| SL | Threat actor it defends against | Authentication example | Monitoring example |
+|---|---|---|---|
+| **1** | Casual / accidental | Shared username/password | Event logs exist but are not reviewed |
+| **2** | Motivated individual | Unique accounts per user | Logs reviewed on incident |
+| **3** | Sophisticated group (ICS expertise) | MFA for all privileged access | Continuous monitoring with alerting |
+| **4** | Nation-state with extensive resources | Hardware-backed credentials | Real-time correlation with automated response |
+
+</ResponsiveTable>
+
+### Example: Zone 2 (SIS) SL-T vector
+
+For the SIS zone of our reference water-treatment plant:
+
+<ResponsiveTable>
+
+| FR | SL-T | Rationale |
+|---|---|---|
+| FR 1 (IAC) | 3 | MFA required for any access to the safety controller |
+| FR 2 (UC) | 3 | Role-based access; engineering access time-gated |
+| FR 3 (SI) | 3 | Firmware integrity verification; change detection |
+| FR 4 (DC) | 2 | TriStation traffic confidentiality (encrypted where possible) |
+| FR 5 (RDF) | 3 | Unidirectional conduit via data diode |
+| FR 6 (TRE) | 3 | Continuous monitoring of all SIS network traffic |
+| FR 7 (RA) | 3 | DoS protection; redundant communication paths |
+
+</ResponsiveTable>
+
+**Overall SL-T for Zone 2: min(3,3,3,2,3,3,3) = SL 2.**
+
+<HighlightBox>
+  <p class="font-semibold">The weakest-link rule</p>
+  <p>Even though six of seven FRs are at SL 3, the overall zone SL is pulled down to SL 2 by FR 4 (Data Confidentiality). If the asset owner wants the zone at SL 3, they must raise FR 4 to SL 3 — which may require encrypting TriStation traffic.</p>
+</HighlightBox>
+
+## How SL-T drives design decisions
+
+Once you have the SL-T vector for each zone, you look up the corresponding System Requirements in IEC 62443-3-3:
+
+1. For each FR at the zone's SL-T, list the required SRs and Requirement Enhancements.
+2. For each SR, determine whether the existing system meets it.
+3. Any unmet SR is a **gap** — the subject of the gap analysis in lesson 2.3.
+
+<AnalogyBox>
+  The SL-T vector is a shopping list. Each FR tells you which aisle to visit. Each SL level tells you which product tier to buy. You cannot leave the store until every item on the list is in the cart.
+</AnalogyBox>
+
+<KeyTakeaways>
+  - The SL-T vector has seven elements, one per Foundational Requirement.
+  - The overall SL of a zone is the minimum across all seven elements (weakest-link rule).
+  - Each SL level corresponds to a class of threat actor — from casual (SL 1) to nation-state (SL 4).
+  - The SL-T vector drives the selection of specific System Requirements from IEC 62443-3-3.
+  - Raising the overall SL requires raising every individual FR element to at least that level.
+</KeyTakeaways>

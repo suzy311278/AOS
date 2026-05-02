@@ -1,0 +1,26 @@
+- question: "When partitioning a plant network into zones, what is the primary grouping criterion?"
+  options:
+    - "Vendor or manufacturer of the equipment."
+    - "Physical location within the plant building."
+    - "Function and security requirement — assets that share the same risk profile."
+    - "IP subnet or VLAN assignment."
+  answer: 2
+  explanation: "Zone partitioning is based on function and security requirement, not vendor, location, or existing network topology. Assets that face the same threats, serve the same process function, and require the same SL-T belong in the same zone."
+
+- question: "Why should engineering access to the PLC zone be time-gated?"
+  options:
+    - "To reduce electricity costs during off-hours."
+    - "Because the engineering workstation has PLC programming capability — limiting access to maintenance windows reduces the attack surface."
+    - "Because engineers are only available during business hours."
+    - "To improve network performance during production hours."
+  answer: 1
+  explanation: "The engineering workstation is the highest-privilege device on the OT network. Time-gating the engineering conduit — disabling the firewall rule outside scheduled maintenance — eliminates the attack path for the majority of the year."
+
+- question: "You discover the plant historian has interfaces in both the PLC VLAN and the corporate LAN. What type of violation is this?"
+  options:
+    - "A protocol violation."
+    - "A bridge device — it creates a path bypassing all firewalls between the two zones."
+    - "A data diode misconfiguration."
+    - "A Level 0 access violation."
+  answer: 1
+  explanation: "A bridge device has interfaces in two non-adjacent zones, allowing an attacker to traverse Purdue levels without crossing any firewall. The fix is to remove the corporate NIC from the historian and relay data through the IDMZ instead."

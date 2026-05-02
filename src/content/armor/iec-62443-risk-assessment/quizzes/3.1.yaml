@@ -1,0 +1,26 @@
+- question: "What is the risk register in an IEC 62443-3-2 assessment?"
+  options:
+    - "A list of all network devices on the plant."
+    - "The master document capturing every zone, threat scenario, risk score, gap, remediation plan, and residual risk."
+    - "A vendor catalog of available security products."
+    - "A log of all security incidents at the plant."
+  answer: 1
+  explanation: "The risk register is the single source of truth for the assessment. It captures every zone, threat × vulnerability pair, risk score, SL-T/SL-C vectors, gaps, remediations with owners and target dates, and estimated residual risk."
+
+- question: "How often should the risk register be updated?"
+  options:
+    - "Only when a security incident occurs."
+    - "Once per year during the annual audit."
+    - "Whenever a threat changes, a vulnerability is discovered, a control is implemented, or the plant configuration changes."
+    - "Only when a new version of IEC 62443 is published."
+  answer: 2
+  explanation: "The risk register is a living document. It must be updated whenever the threat landscape changes, a new vulnerability is discovered, a control is implemented or removed, or the plant configuration changes (new device, new conduit, process modification)."
+
+- question: "What are the five quality checks for a completed risk register?"
+  options:
+    - "Cost, schedule, scope, quality, risk."
+    - "Completeness, consistency, traceability, actionability, and management sign-off."
+    - "Availability, integrity, confidentiality, authentication, authorisation."
+    - "Design, build, test, deploy, monitor."
+  answer: 1
+  explanation: "Before submission, verify: (1) Completeness — every zone has entries. (2) Consistency — scores align with defined scales. (3) Traceability — every risk links to a threat and vulnerability. (4) Actionability — every gap has an owner and date. (5) Management sign-off on thresholds and acceptances."

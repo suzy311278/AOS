@@ -1,0 +1,26 @@
+- question: "What is the primary design principle of a unidirectional conduit?"
+  options:
+    - "Traffic is encrypted in both directions."
+    - "Traffic flows in one direction only — physically impossible to send data in the reverse direction."
+    - "Traffic is limited to a single protocol."
+    - "Only one device is allowed to initiate a connection."
+  answer: 1
+  explanation: "A unidirectional conduit allows data to flow in one direction only. When enforced by a hardware data diode, it is physically impossible for any data — including exploit traffic — to flow in the reverse direction. This is the strongest conduit type."
+
+- question: "What is an unrestricted conduit?"
+  options:
+    - "A conduit that allows all protocols but only in one direction."
+    - "A conduit with no filtering — it negates the zone boundary and is an anti-pattern."
+    - "A conduit reserved for emergency communications."
+    - "A conduit that uses deep-packet inspection."
+  answer: 1
+  explanation: "An unrestricted conduit allows traffic to flow freely with no filtering. This effectively merges the two connected zones into one, negating the zone boundary. It is an anti-pattern — either merge the zones or add enforcement."
+
+- question: "What advantage does a protocol-aware firewall have over a standard stateful firewall for OT conduits?"
+  options:
+    - "It is cheaper to deploy."
+    - "It can inspect application-layer content — for example, blocking Modbus write commands while allowing read commands."
+    - "It provides hardware-level unidirectional enforcement."
+    - "It does not require any configuration."
+  answer: 1
+  explanation: "A standard firewall sees 'TCP port 502, allow.' A protocol-aware firewall performs deep-packet inspection and can distinguish between Modbus function codes — allowing reads (FC 3) while blocking writes (FC 5/6). This provides granular control at the application layer."

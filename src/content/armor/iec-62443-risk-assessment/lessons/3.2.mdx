@@ -1,0 +1,120 @@
+---
+title: "Presenting and defending your assessment"
+duration: "40 min"
+---
+
+## The assessment is only as good as the audience's trust in it
+
+A technically perfect risk register is worthless if the review panel — plant management, the safety team, the CISO, regulators — does not understand or trust it. This lesson teaches you how to present your IEC 62443-3-2 assessment and defend your decisions under questioning.
+
+## The presentation structure
+
+### 1. Executive summary (5 min)
+
+Start with the answer, not the methodology:
+
+- **Number of zones** assessed.
+- **Number of risks** identified: how many Critical, High, Medium, Low.
+- **Top 3 risks** by priority — one sentence each.
+- **Total remediation cost** estimate and timeline.
+- **Residual risk posture** after remediation.
+
+<HighlightBox>
+  <p class="font-semibold">Lead with the "so what"</p>
+  <p>Management does not want to hear about Foundational Requirements. They want to know: "Are we at risk? How much will it cost to fix? What happens if we don't?"</p>
+</HighlightBox>
+
+### 2. Zone & conduit overview (5 min)
+
+Show the zone & conduit diagram. Walk through:
+
+- How many zones, how they map to the plant's physical layout.
+- Where the IDMZ is (or isn't).
+- The SIS zone and why it has the highest SL-T.
+
+### 3. Key findings (10 min)
+
+Present the top 5 findings from the gap analysis. For each:
+
+- **What the gap is** — in plain language, not FR/SR codes.
+- **What could happen** — the threat scenario in one sentence.
+- **What it costs to fix** — ballpark estimate.
+- **What happens if we don't fix it** — the residual risk.
+
+<ExampleBox>
+  <strong>Finding 1:</strong> The PLCs accept commands from any device on the network — there is no authentication. An attacker who reaches the control network can change chemical dosing setpoints. A protocol-aware firewall ($15K) would restrict access to the engineering workstation only. Without it, the risk of a water-safety incident remains High.
+</ExampleBox>
+
+### 4. Remediation roadmap (5 min)
+
+Present the prioritised remediation plan:
+
+<ResponsiveTable>
+
+| Phase | Timeline | Actions | Cost |
+|---|---|---|---|
+| **Phase 1** | 0–30 days | Deploy protocol-aware FW, install data diode on SIS conduit | $65K |
+| **Phase 2** | 30–90 days | Deploy ICS network monitor, upgrade SIS firmware | $120K |
+| **Phase 3** | 90–180 days | AppLocker on HMIs, unique accounts, OS upgrades | $45K |
+| **Phase 4** | Next outage | Full SL-T validation and reassessment | $30K |
+
+</ResponsiveTable>
+
+### 5. Risk acceptances (5 min)
+
+If any risks are being accepted rather than remediated, present them explicitly:
+
+- **What risk** is being accepted.
+- **Why** — the cost-benefit justification.
+- **What compensating controls** are in place.
+- **When** the acceptance will be reviewed (must have an expiry date).
+
+## Defending your decisions
+
+### Common challenges and responses
+
+**"Why can't we just put everything at SL 4?"**
+
+> SL 4 requires hardware-backed credentials and formal verification — very few commercial ICS products support it. Over-specifying SL-T inflates costs without proportionate risk reduction. Our SL-T assignments are calibrated to the actual threat landscape for a municipal water utility.
+
+**"The safety team already handles risk. Why do we need a cyber risk register?"**
+
+> The safety team assesses random failure. Cyber risk assessment addresses intentional adversaries — a different probability model. The TRITON incident showed that a SIL 3-rated safety controller can be compromised if the cyber risk is not assessed independently. The two registers complement each other.
+
+**"This will cost $260K. Can we do it for less?"**
+
+> Phase 1 ($65K) addresses the two highest risks and reduces the overall posture from Critical to High. If budget is constrained, implement Phase 1 immediately and defer Phases 2–4. But the residual risk for Phases 2–4 must be formally accepted by management.
+
+**"How do we know the assessment is correct?"**
+
+> The methodology follows IEC 62443-3-2 clause by clause. The threat scenarios are based on real incidents (Stuxnet, TRITON, Oldsmar). The SL-T assignments are validated against the ALARP principle. We recommend an independent third-party review of the register within 12 months.
+
+## The 200-word executive summary template
+
+Use this structure for the written summary:
+
+> **Scope:** [Number] zones assessed across [plant name], covering [number] assets from Level 0 to Level 4.
+>
+> **Key findings:** [Number] risks identified — [X] Critical, [Y] High, [Z] Medium. The top risk is [one-sentence description]. The most common gap is [FR name] — [plain-language description].
+>
+> **Remediation:** A four-phase plan totalling $[amount] over [timeline]. Phase 1 ($[amount], [timeline]) addresses the [X] Critical/High risks and reduces the overall posture to [target].
+>
+> **Risk acceptances:** [Number] risks are recommended for acceptance with compensating controls, pending management approval. The highest accepted risk is [description] with a review date of [date].
+>
+> **Recommendation:** Approve Phase 1 immediately. Schedule Phase 2 within [timeline]. Conduct a reassessment after Phase 4 to validate the achieved SL-A against SL-T.
+
+<KeyTakeaways>
+  - Lead with the "so what" — risks, costs, consequences — not methodology.
+  - Present the zone diagram, top 5 findings, remediation roadmap, and risk acceptances.
+  - Prepare for challenges: over-specification, cost, relationship to safety, and assessment validity.
+  - Any risk acceptance must have a cost-benefit justification, compensating controls, and a review date.
+  - Use the 200-word executive summary template for the written report.
+</KeyTakeaways>
+
+## Lab exercise
+
+Using the reference water-treatment plant from Module 0, write a 200-word executive summary covering:
+1. Number of zones and assets assessed.
+2. Top risk finding.
+3. Remediation cost estimate for Phase 1.
+4. One risk acceptance with justification.

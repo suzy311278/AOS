@@ -1,0 +1,26 @@
+- question: "What does a gap analysis compare?"
+  options:
+    - "The cost of two different firewall vendors."
+    - "SL-T (what you need) against SL-C (what the current system can deliver), per FR per zone."
+    - "The number of devices in each zone."
+    - "The severity of different CVEs."
+  answer: 1
+  explanation: "A gap analysis compares the target Security Level (SL-T) against the current capability (SL-C) for each Foundational Requirement in each zone. Any FR where SL-C < SL-T is a gap requiring remediation."
+
+- question: "Which two Foundational Requirements most commonly have the largest gaps in OT environments?"
+  options:
+    - "FR 4 (Data Confidentiality) and FR 7 (Resource Availability)."
+    - "FR 1 (Identification & Authentication) and FR 5 (Restricted Data Flow / Network Segmentation)."
+    - "FR 3 (System Integrity) and FR 6 (Timely Response)."
+    - "FR 2 (Use Control) and FR 4 (Data Confidentiality)."
+  answer: 1
+  explanation: "FR 1 and FR 5 are the most common gaps because most ICS protocols have no authentication (FR 1 gap) and many brownfield plants have flat networks without zone segmentation (FR 5 gap). These two FRs typically account for 80% of the risk."
+
+- question: "When a native security control is not feasible (e.g. Modbus cannot support authentication), what should you implement?"
+  options:
+    - "Nothing — accept the vulnerability as inherent."
+    - "A compensating control that provides equivalent risk reduction, such as a protocol-aware firewall with source-IP ACL."
+    - "A complete replacement of all affected devices."
+    - "An insurance policy to cover the potential loss."
+  answer: 1
+  explanation: "When native controls are infeasible, IEC 62443 requires compensating controls that provide equivalent risk reduction. For Modbus authentication gaps, a protocol-aware firewall restricting access to specific source IPs and blocking write function codes is a standard compensating control."

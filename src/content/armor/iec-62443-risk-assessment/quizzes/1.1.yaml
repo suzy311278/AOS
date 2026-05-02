@@ -1,0 +1,26 @@
+- question: "When mapping threat sources to zones, what is the 'relevance test'?"
+  options:
+    - "Testing whether the threat actor has previously attacked the same vendor's equipment."
+    - "Asking three questions: does the threat source have motive, capability, and historical precedent for targeting assets in this zone?"
+    - "Running a penetration test against the zone."
+    - "Checking whether the threat source is listed in CISA advisories."
+  answer: 1
+  explanation: "The relevance test asks: (1) Does this threat source have a motive to target this zone? (2) Does it have the capability to reach it? (3) Has it historically targeted assets of this type? If all three are 'no,' the pairing may be excluded — but the exclusion must be documented."
+
+- question: "Why should you avoid under-scoping threat sources in an IEC 62443-3-2 assessment?"
+  options:
+    - "Because every threat source must be included to satisfy ISO 27001."
+    - "Because facilities that did not consider certain threat sources (e.g. Aliquippa vs hacktivists) were successfully attacked by those exact actors."
+    - "Because under-scoping voids the warranty on industrial equipment."
+    - "Because regulators require exactly seven threat sources per zone."
+  answer: 1
+  explanation: "The Aliquippa water plant did not consider nation-state-linked hacktivists a relevant threat. They were wrong — Cyber Av3ngers exploited a default password on an internet-exposed PLC. When in doubt, include the threat source and let the risk score determine priority."
+
+- question: "What is a threat scenario in the context of IEC 62443-3-2?"
+  options:
+    - "A penetration test report."
+    - "A one-paragraph narrative describing how a specific threat source would exploit a specific vulnerability in a specific zone."
+    - "A list of CVEs applicable to a device."
+    - "A diagram of the attack path through the network."
+  answer: 1
+  explanation: "A threat scenario combines a threat source with a vulnerability in a zone to describe a realistic attack narrative. These scenarios are the input to consequence and likelihood scoring in the detailed risk analysis."

@@ -1,0 +1,120 @@
+---
+title: "Gap analysis: SL-C vs SL-T"
+duration: "40 min"
+---
+
+## What is a gap analysis?
+
+You now have **SL-T** (target) for each zone — what you need. The gap analysis compares SL-T against **SL-C** (capability) — what the current system can actually deliver.
+
+<FormulaBox title="Gap">
+  Gap = SL-T − SL-C (per FR)
+</FormulaBox>
+
+Any FR where SL-C < SL-T is a **gap** that requires remediation.
+
+## How to measure SL-C
+
+SL-C is measured by testing each System Requirement (SR) from IEC 62443-3-3 against the current system configuration:
+
+1. **List all SRs** required at the zone's SL-T for each FR.
+2. **Test each SR** — does the current system meet it? Pass/fail.
+3. **The SL-C for each FR** is the highest SL at which all required SRs pass.
+
+<ExampleBox>
+  <strong>Zone 1, FR 1 (IAC), SL-T = 2:</strong><br/>
+  Required SRs: SR 1.1 (base), SR 1.1 RE 1 (unique identification).<br/>
+  Test: PLCs accept connections from any source without authentication. SR 1.1 (base) = <strong>FAIL</strong>.<br/>
+  SL-C for FR 1 = <strong>SL 0</strong>.<br/>
+  <strong>Gap: SL-T 2 − SL-C 0 = 2 levels.</strong>
+</ExampleBox>
+
+## The gap analysis table
+
+<ResponsiveTable>
+
+| Zone | FR | SL-T | SL-C | Gap | Root cause | Remediation |
+|---|---|---|---|---|---|---|
+| Zone 1 | FR 1 (IAC) | 2 | 0 | **2** | Modbus/S7comm have no auth | Protocol-aware FW with source ACL |
+| Zone 1 | FR 5 (RDF) | 3 | 1 | **2** | Flat VLAN, no DPI | Deploy protocol-aware firewall |
+| Zone 1 | FR 6 (TRE) | 2 | 0 | **2** | No monitoring | Deploy ICS network monitor |
+| Zone 2 | FR 1 (IAC) | 3 | 1 | **2** | TriStation has basic auth only | Upgrade firmware for MFA |
+| Zone 2 | FR 5 (RDF) | 3 | 2 | **1** | Firewall exists but not unidirectional | Install data diode |
+| Zone 3 | FR 3 (SI) | 2 | 1 | **1** | AV installed but no whitelisting | Deploy AppLocker |
+| Zone 4 | FR 2 (UC) | 2 | 1 | **1** | Shared service accounts | Implement unique accounts + RBAC |
+
+</ResponsiveTable>
+
+## Prioritising gaps
+
+Not all gaps are equal. Prioritise by:
+
+### 1. Risk impact
+
+Gaps in zones with higher consequence scores get priority. A gap in the SIS zone (Zone 2) is more urgent than the same gap in the enterprise zone (Zone 5).
+
+### 2. Gap magnitude
+
+A gap of 2 or more levels indicates a fundamental control is missing. A gap of 1 level usually means an existing control needs enhancement.
+
+### 3. Cost-effectiveness
+
+Some gaps are cheap to close. Deploying AppLocker on existing Windows HMIs costs almost nothing. Installing a data diode costs $50K–$150K. Prioritise quick wins.
+
+<HighlightBox>
+  <p class="font-semibold">The 80/20 rule</p>
+  <p>In most assessments, 20% of the gaps account for 80% of the risk. Identify these — they are almost always related to FR 1 (authentication) and FR 5 (network segmentation).</p>
+</HighlightBox>
+
+### Prioritisation matrix
+
+<ResponsiveTable>
+
+| Priority | Criteria | Action timeline |
+|---|---|---|
+| **P1 — Critical** | Gap ≥ 2 in a zone with Critical/High risk | Remediate within 30 days |
+| **P2 — High** | Gap ≥ 2 in a Medium-risk zone, or gap = 1 in a High-risk zone | Remediate within 90 days |
+| **P3 — Medium** | Gap = 1 in a Medium-risk zone | Remediate within 180 days |
+| **P4 — Low** | Gap = 1 in a Low-risk zone | Remediate at next planned outage |
+
+</ResponsiveTable>
+
+## Remediation options
+
+For each gap, you have three options:
+
+1. **Implement the missing control** — the preferred option. Close the gap directly.
+2. **Implement a compensating control** — when the native control is not feasible (e.g. the protocol doesn't support authentication). The compensating control must provide equivalent risk reduction.
+3. **Accept the residual risk** — when remediation is grossly disproportionate. Requires formal management approval and documentation in the risk register.
+
+### Compensating controls for common OT gaps
+
+<ResponsiveTable>
+
+| Gap | Native control (not feasible) | Compensating control |
+|---|---|---|
+| FR 1: Modbus has no auth | Add authentication to Modbus | Protocol-aware FW allowing only specific source IPs |
+| FR 3: PLC has no AV | Install AV on PLC | Application whitelisting on the engineering WS + PLC change detection |
+| FR 4: S7comm is cleartext | Encrypt S7comm | Dedicated VLAN with no other traffic; physical access control |
+| FR 7: Legacy PLC has no DoS protection | Firmware upgrade for rate limiting | QoS policy on upstream switch; dedicated VLAN |
+
+</ResponsiveTable>
+
+## Feeding results into the risk register
+
+Each gap becomes a row in the risk register with:
+
+- **Gap ID** — linked to the zone and FR.
+- **Priority** — P1 through P4.
+- **Remediation plan** — what will be done.
+- **Owner** — who is responsible.
+- **Target date** — when it will be closed.
+- **Verification method** — how you will confirm the gap is closed.
+
+<KeyTakeaways>
+  - Gap analysis compares SL-T (what you need) against SL-C (what you have) per FR per zone.
+  - Any FR where SL-C < SL-T is a gap requiring remediation.
+  - Prioritise by risk impact, gap magnitude, and cost-effectiveness.
+  - The most common gaps are in FR 1 (authentication) and FR 5 (network segmentation).
+  - When native controls are infeasible, implement compensating controls with equivalent risk reduction.
+</KeyTakeaways>

@@ -1,0 +1,26 @@
+- question: "What does ALARP stand for and what does it mean?"
+  options:
+    - "As Low As Reasonably Practicable — risk must be reduced unless the cost is grossly disproportionate to the benefit."
+    - "Always Lower All Possible Risks — every identified risk must be fully eliminated."
+    - "Assess Likelihood And Risk Profile — a scoring methodology."
+    - "Automated Logging And Response Protocol — a monitoring standard."
+  answer: 0
+  explanation: "ALARP (As Low As Reasonably Practicable) divides risk into three regions: unacceptable (must reduce), ALARP (reduce unless grossly disproportionate), and broadly acceptable (no action needed). The key test is whether the cost of further reduction is grossly disproportionate to the risk reduction achieved."
+
+- question: "Who sets the tolerable risk threshold in an IEC 62443-3-2 assessment?"
+  options:
+    - "The cybersecurity assessor."
+    - "The equipment vendor."
+    - "The asset owner's management — it is a business and safety decision."
+    - "The system integrator."
+  answer: 2
+  explanation: "The tolerable risk threshold is set by the asset owner's management, not the cybersecurity team alone. It reflects the organisation's safety policy, regulatory requirements, insurance conditions, and board-level risk appetite."
+
+- question: "What must be done with residual risk that remains above the tolerable threshold after controls are implemented?"
+  options:
+    - "Ignore it until the next annual assessment."
+    - "Either implement additional controls or formally accept the risk with management approval and documented justification."
+    - "Transfer it to the equipment vendor."
+    - "Report it to CISA immediately."
+  answer: 1
+  explanation: "Residual risk above the tolerable threshold must either be further reduced by additional controls or formally accepted by management with documented justification, compensating controls, and a review date. It cannot simply be ignored."

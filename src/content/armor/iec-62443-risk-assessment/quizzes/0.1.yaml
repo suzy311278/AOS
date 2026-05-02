@@ -1,0 +1,26 @@
+- question: "According to IEC 62443-1-1, what is a security zone?"
+  options:
+    - "A physical room where servers are located."
+    - "A grouping of logical or physical assets that share common security requirements."
+    - "A firewall rule set."
+    - "A VLAN on a network switch."
+  answer: 1
+  explanation: "A security zone is a grouping of assets that share common security requirements. All assets within a zone are protected to the same Security Level (SL-T). Zones are policy decisions; firewalls and VLANs are enforcement mechanisms."
+
+- question: "Why should safety-critical assets (SIS, ESD) be in their own security zone?"
+  options:
+    - "To make them easier to find on the network diagram."
+    - "Because their compromise could allow a catastrophe, so they need the highest SL-T and a dedicated conduit."
+    - "Because safety controllers are always on a different VLAN."
+    - "To reduce the cost of network switches."
+  answer: 1
+  explanation: "Safety-critical assets like the SIS have the highest consequence of compromise — a disabled safety system could allow an uncontrolled process upset. They must be in their own zone with the highest SL-T and a unidirectional conduit to minimise their attack surface."
+
+- question: "How many zones should a typical medium-sized industrial plant have?"
+  options:
+    - "1–2 zones"
+    - "5–12 zones"
+    - "50–100 zones"
+    - "One zone per device"
+  answer: 1
+  explanation: "A typical medium-sized plant should have 5–12 zones. Too few zones means assets with different risk profiles are grouped together. Too many zones (50+) creates unmanageable complexity with hundreds of conduits."

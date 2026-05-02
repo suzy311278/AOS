@@ -1,0 +1,26 @@
+- question: "When scoring consequence, if a scenario scores 2 on financial impact but 4 on safety impact, what is the overall consequence score?"
+  options:
+    - "2 — use the lowest score."
+    - "3 — use the average."
+    - "4 — use the highest score; safety dominates."
+    - "6 — add the scores together."
+  answer: 2
+  explanation: "The overall consequence score is the highest across all four impact categories (safety, environmental, financial, operational). Safety always dominates because the IEC 62443 framework prioritises availability and human safety."
+
+- question: "What does the risk matrix combine to produce a risk rating?"
+  options:
+    - "Threat source capability and vulnerability count."
+    - "Consequence score (1–5) and likelihood score (1–5)."
+    - "SL-T and SL-C vectors."
+    - "Number of zones and number of conduits."
+  answer: 1
+  explanation: "Risk = Consequence × Likelihood. The 5×5 risk matrix maps the intersection of a consequence score (1–5) and a likelihood score (1–5) to a risk band: Low, Medium, High, or Critical."
+
+- question: "What is the purpose of the risk matrix?"
+  options:
+    - "To calculate the exact dollar cost of each risk."
+    - "To serve as a triage tool that separates critical risks from negligible ones so resources are allocated correctly."
+    - "To determine the number of firewalls needed."
+    - "To assign CVE severity scores."
+  answer: 1
+  explanation: "The risk matrix is a triage tool, not a precision instrument. Its job is to separate risks into priority bands (Low/Medium/High/Critical) so the organisation allocates remediation resources to the right zones first."

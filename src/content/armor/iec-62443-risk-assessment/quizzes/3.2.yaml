@@ -1,0 +1,26 @@
+- question: "When presenting a risk assessment to management, what should you lead with?"
+  options:
+    - "A detailed explanation of the IEC 62443 Foundational Requirements."
+    - "The executive summary: number of risks, top 3 priorities, remediation cost, and residual risk posture."
+    - "The technical details of every CVE found."
+    - "A comparison of firewall vendors."
+  answer: 1
+  explanation: "Management wants the 'so what' — how many risks, what they cost to fix, and what happens if they do not fix them. Lead with the executive summary: risk counts by severity, top findings in plain language, total remediation cost, and projected residual risk."
+
+- question: "If a plant manager challenges the assessment with 'This will cost $260K — can we do it for less?', what is the appropriate response?"
+  options:
+    - "Reduce all SL-T values to SL 1 to lower costs."
+    - "Explain that Phase 1 addresses the highest risks first, and defer later phases — but require management to formally accept the residual risk for deferred items."
+    - "Remove the most expensive items from the risk register."
+    - "Ask the equipment vendors to absorb the costs."
+  answer: 1
+  explanation: "Phased remediation allows the highest-priority risks to be addressed first within budget. If later phases are deferred, the residual risk for those items must be formally accepted by management with documented justification and a review date."
+
+- question: "What must every formal risk acceptance include?"
+  options:
+    - "A vendor warranty certificate."
+    - "A cost-benefit justification, compensating controls, management approval, and a review/expiry date."
+    - "A penetration test report."
+    - "An insurance policy number."
+  answer: 1
+  explanation: "Risk acceptances are formal decisions. Each must include: what risk is being accepted, why (cost-benefit justification), what compensating controls are in place, management sign-off, and a review date so the acceptance does not become permanent without reassessment."

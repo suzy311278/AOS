@@ -1,0 +1,26 @@
+- question: "What is the first step when deriving SL-T from risk analysis results?"
+  options:
+    - "Choose the most expensive control available."
+    - "Map the risk score to the credible threat-actor capability to determine the minimum overall SL-T."
+    - "Assign SL 4 to every zone as a precaution."
+    - "Count the number of CVEs per device."
+  answer: 1
+  explanation: "The derivation starts by mapping the zone's risk score to the threat-actor capability class. Higher risk (Critical) means defending against more capable actors (nation-state, SL 3–4). Lower risk (Low) means basic controls suffice (SL 1)."
+
+- question: "Why is it important to specify the SL-T as a per-FR vector rather than a single number?"
+  options:
+    - "Because regulators require exactly seven data points."
+    - "Because different FRs may require different SL levels depending on the specific threats to the zone — the vector drives precise control selection."
+    - "Because a single number is not supported by the IEC 62443 standard."
+    - "Because each FR corresponds to a different budget category."
+  answer: 1
+  explanation: "Different threats affect different FRs. A zone may need SL 3 for FR 5 (network segmentation) because lateral movement is the primary threat, but only SL 1 for FR 4 (data confidentiality) because the data is not sensitive. The per-FR vector tells you exactly which controls to implement."
+
+- question: "When should you avoid assigning SL 4 to a zone?"
+  options:
+    - "When the zone contains safety-critical assets."
+    - "When the threat model does not include nation-state APTs with unlimited resources, since very few commercial products are certified to SL 4."
+    - "When the zone is connected to the internet."
+    - "When the zone contains more than 10 devices."
+  answer: 1
+  explanation: "SL 4 requires hardware-backed credentials, formal verification, and continuous automated response — capabilities that very few commercial ICS products support. Assigning SL 4 without a genuine nation-state threat model inflates costs without proportionate risk reduction."
