@@ -1,0 +1,84 @@
+---
+title: "The CIA triad inverted: Availability, Integrity, Confidentiality"
+duration: "30 min"
+---
+
+## The IT world's default order
+
+In enterprise IT the **CIA triad** is taught in one order: **Confidentiality** first, **Integrity** second, **Availability** third. A data breach that exposes customer PII is the nightmare scenario; if the webshop goes down for twenty minutes during a patch window, nobody writes an incident report.
+
+That ordering makes sense when the asset is **data**. But in an industrial control system the asset is a **physical process** — and a process that stops without warning can maim, poison, or kill.
+
+## AIC: the OT inversion
+
+IEC 62443-1-1 explicitly reorders the triad for control systems:
+
+<HighlightBox>
+  <p class="font-semibold">The OT priority order</p>
+  <p><strong>Availability</strong> → <strong>Integrity</strong> → <strong>Confidentiality</strong></p>
+  <p class="mt-2">If an operator cannot see or control the process, the plant enters an unsafe state. Preventing that is job one.</p>
+</HighlightBox>
+
+### Why availability comes first
+
+A loss of view — the HMI freezes, the historian stops logging — means the operator is flying blind. A loss of control — the PLC stops executing its logic — means the process runs open-loop. In both cases:
+
+- **Safety interlocks may still function**, but only if they are independent of the control network.
+- **Manual fallback** requires physical presence, tools, and knowledge that may take minutes or hours to assemble.
+- **Cascading effects** begin immediately: pressure rises, temperatures drift, chemical ratios shift.
+
+> In IT, availability is a business metric. In OT, availability is a safety metric.
+
+### Why integrity is second
+
+Corrupted data in a corporate database is expensive. Corrupted setpoints in a PLC are dangerous. If an attacker can change a temperature threshold from 450 °C to 900 °C without detection, the physical outcome is a furnace rupture — not a compliance fine.
+
+Integrity in OT means:
+
+- **Setpoint integrity** — the values the controller acts on are the values the engineer approved.
+- **Logic integrity** — the PLC program itself has not been modified.
+- **Measurement integrity** — the sensor readings reaching the HMI are genuine.
+
+### Why confidentiality is last
+
+Control-system network traffic is rarely secret. Modbus, S7comm, and EtherNet/IP send commands in cleartext by design. The protocols were written in the 1970s–1990s for isolated serial buses, not shared Ethernet. Encrypting them adds latency, and in a 20 ms scan cycle every microsecond counts.
+
+That does not mean confidentiality is irrelevant — intellectual-property theft from a DCS recipe database is a real risk — but it is **subordinate** to keeping the process safe and the data honest.
+
+## Mapping the inversion to IEC 62443
+
+<ResponsiveTable>
+
+| Foundational Requirement | Primary triad property |
+|---|---|
+| FR 1 – Identification & Authentication | Integrity |
+| FR 2 – Use Control | Availability + Integrity |
+| FR 3 – System Integrity | Integrity |
+| FR 4 – Data Confidentiality | Confidentiality |
+| FR 5 – Restricted Data Flow | Availability + Confidentiality |
+| FR 6 – Timely Response to Events | Availability |
+| FR 7 – Resource Availability | Availability |
+
+</ResponsiveTable>
+
+Notice that **five of seven** FRs map primarily to Availability or Integrity. Only FR 4 is squarely in the Confidentiality column.
+
+## What this means for your security decisions
+
+Every time you evaluate a countermeasure, ask in this order:
+
+1. **Does it preserve availability?** If a firewall rule blocks legitimate traffic to the PLC, the cure is worse than the disease.
+2. **Does it preserve integrity?** If a patch changes controller timing, the setpoints may drift.
+3. **Does it improve confidentiality without harming 1 or 2?** Then deploy it.
+
+<KeyTakeaways>
+  - OT inverts the CIA triad to AIC: Availability → Integrity → Confidentiality.
+  - Loss of availability in OT is a safety event, not just a business event.
+  - Integrity means setpoints, logic, and measurements are trustworthy.
+  - Confidentiality matters but is subordinate — most ICS protocols are cleartext by design.
+  - Five of the seven IEC 62443 Foundational Requirements map to Availability or Integrity.
+</KeyTakeaways>
+
+## Quick check
+
+> Your plant manager says, "We need to encrypt all PLC traffic to pass the audit." Using the AIC model, draft a two-sentence response explaining why that may not be the right first step.

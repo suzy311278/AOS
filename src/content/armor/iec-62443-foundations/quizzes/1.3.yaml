@@ -1,0 +1,26 @@
+- question: "Why is Level 2 the most attacked layer in ICS environments?"
+  options:
+    - "Level 2 devices are the most expensive to replace."
+    - "Level 2 devices run general-purpose OSes, have network connectivity to both Level 1 and Level 3, and often have remote-access tools installed."
+    - "Level 2 devices store all financial data."
+    - "Attackers prefer to target HMIs because they are the most visible devices."
+  answer: 1
+  explanation: "Level 2 devices (HMIs, SCADA servers, historians) run Windows or Linux with known vulnerabilities, bridge the gap between controllers (Level 1) and operations (Level 3), and frequently have remote-access tools installed for vendor support — making them the most accessible attack surface."
+
+- question: "What is the most effective endpoint protection control for HMI workstations that run a fixed set of applications?"
+  options:
+    - "Traditional signature-based antivirus."
+    - "Application whitelisting — only approved executables are allowed to run."
+    - "Full-disk encryption."
+    - "Daily automated OS updates."
+  answer: 1
+  explanation: "Application whitelisting is highly effective for HMI workstations because they run a known, fixed set of applications. Only approved executables are allowed; everything else is blocked. This is more effective than signature-based AV, which can miss novel malware."
+
+- question: "Why are many HMI workstations still running end-of-life operating systems like Windows XP?"
+  options:
+    - "Windows XP is more secure than modern operating systems."
+    - "Upgrading requires re-validating the entire HMI project against the plant's process-safety requirements."
+    - "HMI vendors only support Windows XP."
+    - "Modern operating systems cannot run SCADA software."
+  answer: 1
+  explanation: "Upgrading the OS on an HMI workstation is not a simple IT task — it requires re-validating the entire HMI project, testing every screen, alarm, and script against the plant's process-safety requirements. This validation can take months and must be scheduled during a planned outage."

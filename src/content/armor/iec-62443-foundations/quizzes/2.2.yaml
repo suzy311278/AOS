@@ -1,0 +1,26 @@
+- question: "What made Industroyer fundamentally different from the 2015 Ukraine grid attack?"
+  options:
+    - "Industroyer targeted a different country."
+    - "Industroyer was fully automated and protocol-native, while the 2015 attack was manually operated through the HMI."
+    - "Industroyer only affected natural gas infrastructure."
+    - "The 2015 attack caused longer outages."
+  answer: 1
+  explanation: "The 2015 attack required a human operator to manually click through the HMI interface. Industroyer was the evolutionary leap — fully automated, with modular DLLs that natively spoke IEC 104, IEC 61850, and OPC-DA to open circuit breakers without human interaction during execution."
+
+- question: "Why did Industroyer deploy a wiper component after opening the circuit breakers?"
+  options:
+    - "To hide forensic evidence."
+    - "To destroy the digital control system so operators could not re-close breakers remotely, maximising recovery time."
+    - "To encrypt files for ransom."
+    - "To prevent antivirus from running."
+  answer: 1
+  explanation: "The wiper destroyed Windows system files on HMI and SCADA workstations, preventing operators from using the digital control system to re-close the breakers. This forced manual recovery — operators had to drive to each substation and physically close breakers, extending the outage."
+
+- question: "Why does IEC 104 have no authentication?"
+  options:
+    - "The standard was written before cyber threats existed, for trusted isolated serial links, not shared Ethernet."
+    - "Authentication was removed to improve performance."
+    - "The standard requires authentication but vendors do not implement it."
+    - "IEC 104 uses implicit authentication through IP address verification."
+  answer: 0
+  explanation: "IEC 60870-5-104 was designed for trusted, isolated serial point-to-point links where the only connected device was the authorised master station. Authentication was not needed in that context. The protocol was later adapted for TCP/IP but retained its trust model, leaving it vulnerable on shared networks."

@@ -1,0 +1,26 @@
+- question: "What was the single most recurring root cause across the Maroochy Shire, Davis-Besse, German steel mill, and Oldsmar incidents?"
+  options:
+    - "Use of outdated encryption algorithms."
+    - "No network segmentation — flat networks allowed lateral movement."
+    - "Insufficient antivirus coverage on endpoints."
+    - "Lack of physical security at the plant perimeter."
+  answer: 1
+  explanation: "All four incidents involved flat networks with no zone separation. Network segmentation (zones and conduits) would have reduced the blast radius in every case and is the single highest-leverage control in ICS cybersecurity."
+
+- question: "In the Oldsmar water treatment attack, how was the attacker's setpoint change detected?"
+  options:
+    - "An automated alarm fired when the NaOH level exceeded safe thresholds."
+    - "The intrusion detection system flagged the anomalous command."
+    - "An operator who happened to be watching the HMI screen noticed the mouse moving."
+    - "The SIS safety trip shut down the dosing system."
+  answer: 2
+  explanation: "The Oldsmar attack was detected purely by luck — an operator happened to be watching the HMI at the exact moment the attacker moved the mouse and changed the setpoint. No automated alert fired, highlighting the critical gap in FR 6 (Timely Response to Events)."
+
+- question: "Which IEC 62443 Foundational Requirement addresses the revocation of former employees' access, as exploited in the Maroochy Shire attack?"
+  options:
+    - "FR 3 — System Integrity"
+    - "FR 5 — Restricted Data Flow"
+    - "FR 2 — Use Control"
+    - "FR 7 — Resource Availability"
+  answer: 2
+  explanation: "FR 2 (Use Control) covers authorisation enforcement, including the management and revocation of access rights. The Maroochy Shire attacker exploited insider knowledge and credentials that were never revoked after his employment ended."

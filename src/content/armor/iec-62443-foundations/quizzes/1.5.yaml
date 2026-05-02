@@ -1,0 +1,26 @@
+- question: "What is the first step when mapping a brownfield network onto the Purdue model?"
+  options:
+    - "Run an Nmap scan of the entire network."
+    - "Build a passive asset inventory using switch MAC tables, ARP cache, DHCP leases, and network captures."
+    - "Install a SIEM on the OT network."
+    - "Contact the equipment vendor for documentation."
+  answer: 1
+  explanation: "The first step is always a passive asset inventory — using switch MAC tables, ARP cache, DHCP leases, and passive network captures. Active scanning (Nmap) can crash legacy PLCs and must never be used without explicit written approval from the plant operator."
+
+- question: "What is a 'bridge device' in the context of Purdue level mapping?"
+  options:
+    - "A network switch that connects two VLANs."
+    - "A device with interfaces on two non-adjacent Purdue levels, allowing an attacker to traverse levels without crossing a firewall."
+    - "A data diode that connects Level 3 to the IDMZ."
+    - "Any device that translates between two industrial protocols."
+  answer: 1
+  explanation: "A bridge device is a host with network interfaces on two non-adjacent Purdue levels — for example, a historian with one NIC on the PLC VLAN and another on the corporate LAN. This creates a path that bypasses all firewalls between those levels."
+
+- question: "You discover that a Level 4 corporate laptop can directly ping a Level 1 PLC. What does this indicate?"
+  options:
+    - "The IDMZ is functioning correctly."
+    - "The PLC has been properly hardened."
+    - "There is a level-skipping conduit and the IDMZ is broken or absent."
+    - "This is normal behaviour in modern OT architectures."
+  answer: 2
+  explanation: "If a Level 4 device can directly reach a Level 1 PLC, there is no effective IDMZ or zone separation in place. This is a level-skipping conduit — a critical violation of the Purdue model that would be a high-priority finding in any IEC 62443-3-2 risk assessment."

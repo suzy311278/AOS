@@ -1,0 +1,26 @@
+- question: "What is the purpose of IEC 62443-4-1?"
+  options:
+    - "It defines system-level security requirements for deployed IACS."
+    - "It defines the Secure Development Lifecycle (SDL) that component vendors must follow when building industrial products."
+    - "It provides a risk-assessment methodology for asset owners."
+    - "It specifies network segmentation rules for industrial networks."
+  answer: 1
+  explanation: "IEC 62443-4-1 defines the eight practices of the Secure Development Lifecycle for component manufacturers — from security management and threat modelling through secure implementation, testing, PSIRT operation, and hardening-guide documentation."
+
+- question: "IEC 62443-4-2 defines Component Requirements (CRs) for four types of IACS components. Which is NOT one of them?"
+  options:
+    - "Software Application"
+    - "Embedded Device"
+    - "Cloud Service"
+    - "Network Device"
+  answer: 2
+  explanation: "The four component types in 4-2 are: Software Application (SA), Embedded Device (ED), Host Device (HD), and Network Device (ND). Cloud services are not yet covered as a distinct component type in the published edition."
+
+- question: "How does the IEC 62443 supply chain work from specification to deployment?"
+  options:
+    - "The asset owner builds all components in-house."
+    - "The asset owner specifies SL-T per zone → the integrator selects 4-2-certified components → the vendor develops per the 4-1 SDL."
+    - "The vendor decides the SL for each component independently."
+    - "The system integrator is responsible for all security decisions."
+  answer: 1
+  explanation: "The standard enforces security through the supply chain: the asset owner specifies SL-T based on risk assessment (3-2), the system integrator selects components certified to that SL per 4-2, and those components are built by vendors certified per the 4-1 SDL."

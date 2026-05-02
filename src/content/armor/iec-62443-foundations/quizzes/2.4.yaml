@@ -1,0 +1,26 @@
+- question: "What distinguishes Volt Typhoon's operational approach from Sandworm's?"
+  options:
+    - "Volt Typhoon targets only manufacturing while Sandworm targets only energy."
+    - "Volt Typhoon uses living-off-the-land techniques (built-in OS tools) instead of custom malware, making signature-based detection ineffective."
+    - "Volt Typhoon conducts destructive attacks while Sandworm focuses on espionage."
+    - "Volt Typhoon only targets systems outside the United States."
+  answer: 1
+  explanation: "Volt Typhoon uses built-in Windows tools (PowerShell, WMI, netsh) instead of custom malware. No malware means no signature for antivirus to detect. This living-off-the-land approach requires behavioural monitoring (FR 6) rather than traditional signature-based detection."
+
+- question: "In the Colonial Pipeline incident, why did the company shut down its OT pipeline?"
+  options:
+    - "The OT systems were directly infected by ransomware."
+    - "The PLCs were physically damaged by the attack."
+    - "The IT billing and metering systems were encrypted, and the company could not operate the pipeline without them."
+    - "A government agency ordered the shutdown."
+  answer: 2
+  explanation: "The OT pipeline itself was never infected. Colonial shut it down because the IT billing system was encrypted and they could not meter or bill fuel deliveries. This demonstrates that IT and OT are operationally coupled even when network-separated — risk assessments must account for IT dependencies."
+
+- question: "Which IEC 62443 Security Level maps to the capability of a well-resourced nation-state actor like Sandworm?"
+  options:
+    - "SL 1 — casual or accidental"
+    - "SL 2 — motivated individual"
+    - "SL 3 — sophisticated group"
+    - "SL 4 — state-sponsored with extensive resources"
+  answer: 3
+  explanation: "SL 4 represents the highest threat-actor capability: state-sponsored groups with extensive resources, ICS expertise, and the ability to develop custom tools and zero-day exploits. Sandworm (GRU Unit 74455) exemplifies this category."

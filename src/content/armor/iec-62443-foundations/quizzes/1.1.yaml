@@ -1,0 +1,26 @@
+- question: "How many levels does the Purdue Enterprise Reference Architecture define, including the IDMZ?"
+  options:
+    - "Three levels (IT, DMZ, OT)"
+    - "Five levels (0–4)"
+    - "Five levels (0–4) plus the IDMZ"
+    - "Seven levels (0–6)"
+  answer: 2
+  explanation: "The Purdue model defines five levels (0 through 4) plus the Industrial Demilitarised Zone (IDMZ) between Level 3 and Level 4, for a total of six distinct segments."
+
+- question: "What is the primary design principle of the IDMZ?"
+  options:
+    - "All traffic between IT and OT must be encrypted."
+    - "No direct IP session may traverse the IDMZ — every data flow must be brokered, relayed, or copied."
+    - "Only HTTP/HTTPS traffic is permitted through the IDMZ."
+    - "The IDMZ must contain at least one Active Directory domain controller."
+  answer: 1
+  explanation: "The IDMZ's core rule is that no direct IP session spans the boundary. Every data flow must be brokered by a service inside the IDMZ (historian relay, jump host, data diode, etc.)."
+
+- question: "Which of the following should NOT be placed in the IDMZ?"
+  options:
+    - "A historian relay that copies data to a corporate read replica."
+    - "A remote-access jump host for engineers."
+    - "An Active Directory domain controller shared between IT and OT."
+    - "A patch staging server that scans updates before forwarding to Level 3."
+  answer: 2
+  explanation: "Active Directory domain controllers should not be in the IDMZ. Shared DCs allow a single compromised admin account to control both IT and OT authentication. OT should have its own domain controller at Level 3, with no forest trust or a one-way trust from OT to IT."

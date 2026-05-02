@@ -1,0 +1,103 @@
+---
+title: "Level 0 / Level 1: sensors, actuators, controllers"
+duration: "40 min"
+---
+
+## The bottom of the stack
+
+Levels 0 and 1 are where the physical world meets the digital world. Everything above — HMIs, historians, enterprise dashboards — exists to **observe and command** what happens here. If you lose Level 0/1, you lose the process.
+
+## Level 0: field devices
+
+Level 0 devices are the **hands and eyes** of the control system. They measure physical quantities and act on the process directly.
+
+<ResponsiveTable>
+
+| Device class | Examples | What it does |
+|---|---|---|
+| **Sensors** | RTDs, thermocouples, pressure transmitters, flow meters, level switches | Converts a physical measurement into an electrical signal |
+| **Actuators** | Motor starters, control valves, solenoid valves, variable-frequency drives (VFDs) | Converts an electrical signal into a physical action |
+| **Relays** | Protective relays, safety relays | Switches circuits based on a condition |
+
+</ResponsiveTable>
+
+### Communication at Level 0
+
+Most Level 0 devices communicate with Level 1 controllers using **analogue signals** (4–20 mA current loops) or **low-level digital protocols**:
+
+- **HART** — digital signal superimposed on a 4–20 mA loop.
+- **IO-Link** — point-to-point serial for smart sensors.
+- **Foundation Fieldbus / PROFIBUS PA** — digital fieldbus for process instruments.
+
+<HighlightBox>
+  <p class="font-semibold">Security implication</p>
+  <p>Level 0 devices typically have no authentication, no encryption, and no firmware-update mechanism. Security must be enforced <strong>at the network boundary</strong> — you protect Level 0 by protecting the conduit from Level 1.</p>
+</HighlightBox>
+
+## Level 1: controllers
+
+Level 1 is where the **logic lives**. Controllers read sensor inputs, execute a control programme, and drive actuator outputs on a deterministic scan cycle.
+
+### Controller types
+
+- **PLC** (Programmable Logic Controller) — the workhorse. Rockwell ControlLogix, Siemens S7-1500, Schneider M340.
+- **RTU** (Remote Terminal Unit) — hardened for field deployment. Common in water/wastewater, oil & gas pipelines.
+- **DCS controller** — embedded in a Distributed Control System. Honeywell Experion, ABB 800xA, Yokogawa CENTUM.
+- **Safety controller** — SIL-rated for safety functions. Triconex, HIMA, Pilz.
+
+### The scan cycle
+
+A PLC executes a three-step loop thousands of times per second:
+
+1. **Read inputs** — sample every connected sensor.
+2. **Execute logic** — run the programme (ladder, structured text, function blocks).
+3. **Write outputs** — send commands to actuators.
+
+The entire cycle must complete within a **deterministic time window** — typically 5–50 ms. If the scan overruns, the controller faults and the process may trip.
+
+<AnalogyBox>
+  A PLC is a metronome. It does the same thing at exactly the same tempo, forever. Anything that disrupts the tempo — a network scan, an antivirus agent, a firmware update — is a threat to the process.
+</AnalogyBox>
+
+### Communication at Level 1
+
+Controllers talk to each other and to Level 2 devices using **industrial Ethernet protocols**:
+
+<ResponsiveTable>
+
+| Protocol | Vendor ecosystem | Transport |
+|---|---|---|
+| **EtherNet/IP + CIP** | Rockwell / Allen-Bradley | TCP/UDP port 44818 |
+| **PROFINET** | Siemens | Ethernet Layer 2 + TCP |
+| **S7comm / S7comm+** | Siemens (legacy / TIA) | TCP port 102 |
+| **Modbus/TCP** | Open standard | TCP port 502 |
+| **OPC-UA** | Vendor-neutral | TCP port 4840 |
+
+</ResponsiveTable>
+
+<ExampleBox>
+  Modbus/TCP is the most widely deployed industrial protocol and has <strong>zero authentication</strong>. Any device that can reach TCP port 502 can read or write any register on the controller. This is why zone separation at the network level is the primary security control for Level 1.
+</ExampleBox>
+
+## Security considerations for Level 0/1
+
+### What you CAN do
+
+- **Network segmentation** — place Level 0/1 devices in a dedicated zone with a restrictive conduit to Level 2.
+- **Access control lists** — allow only the engineering workstation and HMI to reach the PLC.
+- **Port security** — disable unused switch ports; enable 802.1X where supported.
+- **Change detection** — monitor PLC programme checksums and alert on any modification.
+
+### What you usually CANNOT do
+
+- Install endpoint protection (no OS, no filesystem).
+- Apply patches on a regular cadence (vendor qualification required).
+- Enable encryption (protocol doesn't support it, or latency is unacceptable).
+
+<KeyTakeaways>
+  - Level 0 is sensors and actuators; Level 1 is controllers (PLCs, RTUs, DCS).
+  - Level 0 devices have no inherent security; protection is enforced at the network boundary.
+  - PLC scan cycles are deterministic — any disruption is a process-safety risk.
+  - Modbus/TCP has zero authentication; zone separation is the primary defence.
+  - You protect Level 0/1 by controlling who and what can reach it, not by hardening the devices themselves.
+</KeyTakeaways>

@@ -1,0 +1,26 @@
+- question: "Why is active network scanning (e.g. Nmap) dangerous on an OT network?"
+  options:
+    - "It consumes too much bandwidth for the corporate IT team."
+    - "A SYN scan on a legacy PLC can cause a watchdog fault and trip the process."
+    - "Active scanning is illegal in all jurisdictions."
+    - "PLCs automatically block all scanned ports permanently."
+  answer: 1
+  explanation: "Legacy PLCs have limited network stacks that can crash or fault when receiving unexpected traffic patterns. A SYN scan or service-enumeration scan can trigger a watchdog fault, causing the controller to stop executing its control programme and potentially tripping the process."
+
+- question: "Which protocol is the most widely deployed industrial protocol and has zero authentication?"
+  options:
+    - "OPC-UA"
+    - "PROFINET"
+    - "Modbus/TCP"
+    - "EtherNet/IP with CIP Security"
+  answer: 2
+  explanation: "Modbus/TCP is the most widely deployed industrial protocol and has zero authentication. Any device that can reach TCP port 502 can read or write any register on the controller. Zone separation at the network level is the primary security control."
+
+- question: "What is the primary way to protect Level 0 field devices that have no inherent security features?"
+  options:
+    - "Install antivirus on each sensor."
+    - "Apply firmware patches monthly."
+    - "Protect them at the network boundary by controlling the conduit from Level 1."
+    - "Replace all Level 0 devices with IT-grade endpoints."
+  answer: 2
+  explanation: "Level 0 devices (sensors, actuators) typically have no authentication, no encryption, and no firmware-update mechanism. Security must be enforced at the network boundary — you protect Level 0 by protecting the conduit from Level 1 using segmentation and access control lists."

@@ -1,0 +1,26 @@
+- question: "What is the most important output artefact of an IEC 62443-3-2 risk assessment?"
+  options:
+    - "A vulnerability scan report."
+    - "A zone and conduit diagram showing every zone with its SL-T and every conduit with permitted protocols."
+    - "A list of all devices on the network."
+    - "A penetration test report."
+  answer: 1
+  explanation: "The zone and conduit diagram is the single most important artefact of a 3-2 assessment. It shows every zone labelled with its SL-T, every conduit between zones with permitted protocols, direction, and enforcement mechanism, and the Purdue level of each zone."
+
+- question: "In IEC 62443-3-3, how does a system meet SL 3 for a given Foundational Requirement?"
+  options:
+    - "By implementing any three System Requirements from that FR."
+    - "By implementing all SRs required at SL 1 and SL 2, plus the SL 3 requirement enhancements."
+    - "By passing a penetration test conducted by a certified assessor."
+    - "By deploying a firewall at every zone boundary."
+  answer: 1
+  explanation: "Each SL is a strict superset of the one below. To meet SL 3 for an FR, the system must implement all base SRs (SL 1), plus SL 2 enhancements, plus SL 3 enhancements. Missing any single requirement at a lower level drops the achieved SL for that FR."
+
+- question: "What does the gap between SL-T and SL-A represent?"
+  options:
+    - "The budget shortfall for security controls."
+    - "The time needed to achieve compliance."
+    - "Residual risk — the difference between what security level you need and what you have actually achieved."
+    - "The number of additional devices needed."
+  answer: 2
+  explanation: "The gap between SL-T (target, from risk assessment) and SL-A (achieved, from measurement) is residual risk. This gap must be documented, and for each gap the organisation must either remediate (implement missing controls) or formally accept the risk with compensating measures."

@@ -1,0 +1,26 @@
+- question: "Why is OT patching fundamentally different from IT patching?"
+  options:
+    - "OT vendors never release patches."
+    - "OT patches may change PLC cycle-time behaviour, requiring process-engineer validation; reboots may require a plant shutdown."
+    - "OT systems are always air-gapped and do not need patches."
+    - "IT patches are tested more rigorously than OT patches."
+  answer: 1
+  explanation: "OT patches can change controller timing behaviour, potentially destabilising tuned control loops. A reboot may require a full plant shutdown. IEC 62443-2-3 requires each patch to go through risk assessment, lab testing, scheduled deployment windows, and rollback planning."
+
+- question: "According to IEC 62443-2-4, what must service providers use for remote access to the IACS?"
+  options:
+    - "Any remote-access tool the service provider prefers."
+    - "The asset owner's approved remote-access solution — not the service provider's own tools."
+    - "Only physical on-site access is permitted."
+    - "A VPN connection to the service provider's own data centre."
+  answer: 1
+  explanation: "IEC 62443-2-4 requires service providers to use the asset owner's approved remote-access solution, not their own tools (no TeamViewer, no AnyDesk). This ensures the asset owner maintains control over who accesses the IACS and through which channel."
+
+- question: "When a patch cannot be applied to a legacy OT device, what does IEC 62443-2-3 require?"
+  options:
+    - "Immediate decommissioning of the device."
+    - "Ignoring the vulnerability since patching is impossible."
+    - "Implementing compensating controls: network segmentation, host-based IPS, enhanced monitoring, and physical access restrictions."
+    - "Requesting a regulatory exemption."
+  answer: 2
+  explanation: "When patching is not feasible (legacy device, no vendor support, unacceptable process risk), IEC 62443-2-3 requires compensating controls: network segmentation to reduce the attack surface, host-based firewall/IPS rules targeting the specific vulnerability, enhanced monitoring, and physical access restrictions."

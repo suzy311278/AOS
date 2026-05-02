@@ -1,0 +1,139 @@
+---
+title: "Modern operators: Sandworm, Volt Typhoon, ransomware crews"
+duration: "40 min"
+---
+
+## The threat landscape today
+
+Stuxnet, Industroyer, and TRITON were the opening chapters. The current threat landscape is defined by three categories of adversary, each with different motivations, capabilities, and operational tempos.
+
+<ResponsiveTable>
+
+| Category | Primary motivation | Dwell time | Example groups |
+|---|---|---|---|
+| **Nation-state APTs** | Pre-positioning for future conflict; espionage; strategic disruption | Months to years | Sandworm, Volt Typhoon, APT33/Elfin |
+| **Ransomware crews** | Financial extortion | Days to weeks | LockBit, BlackCat/ALPHV, Clop, Conti |
+| **Hacktivists / insiders** | Ideological disruption; revenge | Hours to days | Cyber Av3ngers, disgruntled employees |
+
+</ResponsiveTable>
+
+## Sandworm (Russia / GRU Unit 74455)
+
+Sandworm is the most capable and persistent ICS-targeted threat group publicly tracked. Attributed to Russia's GRU military intelligence, Sandworm is responsible for:
+
+- **2015 Ukraine grid attack** — BlackEnergy + KillDisk; first known cyber-caused power outage.
+- **2016 Industroyer** — automated, protocol-native grid attack (covered in lesson 2.2).
+- **2017 NotPetya** — supply-chain attack via Ukrainian tax software M.E.Doc; $10B+ in global collateral damage.
+- **2022 Industroyer2** — updated variant deployed against Ukrainian grid infrastructure during the Russia-Ukraine war.
+
+<HighlightBox>
+  <p class="font-semibold">Sandworm's evolution</p>
+  <p>Between 2015 and 2022, Sandworm progressed from manual HMI manipulation to fully automated, protocol-native attacks deployable against any IEC 104 grid. Each iteration was faster, more modular, and harder to detect.</p>
+</HighlightBox>
+
+### Industroyer2 (2022)
+
+Deployed in April 2022, Industroyer2 was a streamlined version of the 2016 original:
+
+- Single executable (no modular DLLs).
+- IEC 104 payload only (dropped IEC 61850 and OPC-DA).
+- Hard-coded target IPs and IOA addresses for specific Ukrainian substations.
+- Paired with **CaddyWiper** to destroy Windows hosts post-execution.
+
+Ukrainian defenders, assisted by ESET and CERT-UA, detected and neutralised the attack before breakers were opened.
+
+## Volt Typhoon (China / PRC)
+
+In May 2023, Microsoft and the Five Eyes intelligence alliance disclosed **Volt Typhoon** — a PRC-sponsored group that had been **pre-positioning inside U.S. critical infrastructure** for at least two years.
+
+### What makes Volt Typhoon different
+
+Unlike Sandworm, Volt Typhoon has not (publicly) executed a destructive attack. Instead, it focuses on **persistence and access maintenance**:
+
+- **Living-off-the-land** — uses built-in Windows tools (PowerShell, WMI, netsh) instead of custom malware. No malware means no signature for antivirus to detect.
+- **SOHO router compromise** — hijacks small-office/home-office routers to proxy traffic, making attribution harder.
+- **Targets** — water treatment, power, communications, transportation, maritime ports.
+
+<ExampleBox>
+  CISA advisory AA24-038A (February 2024) confirmed that Volt Typhoon had maintained access to multiple U.S. critical-infrastructure networks for <strong>at least five years</strong> in some cases. The group's objective is assessed as <strong>pre-positioning for disruption in the event of a geopolitical crisis</strong> — specifically, a Taiwan Strait scenario.
+</ExampleBox>
+
+### IEC 62443 relevance
+
+Volt Typhoon's living-off-the-land techniques bypass traditional signature-based detection. The relevant IEC 62443 controls are:
+
+- **FR 6 – Timely Response to Events** — behavioural monitoring, not just signature matching.
+- **FR 1 – Identification & Authentication** — MFA on all remote and privileged access.
+- **FR 2 – Use Control** — principle of least privilege; audit PowerShell and WMI usage.
+
+## Ransomware targeting OT
+
+Ransomware crews have historically targeted IT systems, but the blast radius increasingly reaches OT:
+
+### Colonial Pipeline (May 2021)
+
+DarkSide ransomware encrypted Colonial Pipeline's **billing and IT systems**. The company shut down the OT pipeline as a precaution — not because the OT was compromised, but because they could no longer meter and bill fuel deliveries. The result: fuel shortages across the U.S. East Coast, a $4.4M ransom paid, and a national emergency declaration.
+
+### JBS Foods (May 2021)
+
+REvil ransomware forced JBS — the world's largest meat processor — to shut down plants in the U.S., Canada, and Australia. $11M ransom paid.
+
+### Norsk Hydro (March 2019)
+
+LockerGoga ransomware forced the aluminium giant to switch to **manual operations** across 170 plants in 40 countries. Estimated cost: $71M.
+
+<HighlightBox>
+  <p class="font-semibold">The IT/OT convergence risk</p>
+  <p>In Colonial Pipeline, the OT was never infected — but the business could not operate without the IT billing system. This demonstrates that <strong>IT and OT are operationally coupled</strong> even when they are network-separated. Your risk assessment must account for IT dependencies.</p>
+</HighlightBox>
+
+### Ransomware trends in OT (2024–2025)
+
+<RoughChart
+  type="bar"
+  title="ICS-impacting ransomware incidents by sector (2024)"
+  data='[{"name":"Manufacturing","value":47},{"name":"Energy","value":28},{"name":"Water/Wastewater","value":19},{"name":"Transportation","value":14},{"name":"Food & Ag","value":11}]'
+/>
+
+- **Manufacturing** is the most-targeted sector because downtime cost is immediate and the willingness to pay is high.
+- **Water/wastewater** is increasingly targeted because municipal utilities have minimal security budgets.
+- **Double extortion** (encrypt + exfiltrate) is now the default model.
+
+## Hacktivists and insiders
+
+### Cyber Av3ngers (Iran-linked)
+
+In November 2023, the Iran-affiliated group **Cyber Av3ngers** compromised a Unitronics PLC at the Municipal Water Authority of Aliquippa, Pennsylvania. The attack defaced the HMI with an anti-Israel message and temporarily disrupted a booster pump station. The PLC had a **default password** and was **directly exposed to the internet**.
+
+### Insider threats
+
+The Maroochy Shire case (lesson 0.4) remains the canonical insider-threat case for ICS. Modern insider risks include:
+
+- Contractors with persistent VPN access.
+- Disgruntled employees with engineering-workstation credentials.
+- Social engineering targeting OT operators who are not trained in cybersecurity.
+
+## Mapping threats to IEC 62443 security levels
+
+<ResponsiveTable>
+
+| SL-T | Threat actor capability | Example |
+|---|---|---|
+| **SL 1** | Casual or accidental | Malware via USB, untrained insider |
+| **SL 2** | Motivated individual or hacktivist | Cyber Av3ngers, disgruntled contractor |
+| **SL 3** | Sophisticated group with ICS expertise | Ransomware crews with OT playbooks |
+| **SL 4** | State-sponsored with extensive resources | Sandworm, Volt Typhoon, Stuxnet developers |
+
+</ResponsiveTable>
+
+<KeyTakeaways>
+  - Sandworm (GRU) is the most capable ICS-targeted group; Industroyer2 (2022) shows continued evolution.
+  - Volt Typhoon (PRC) pre-positions inside U.S. critical infrastructure using living-off-the-land techniques — no custom malware.
+  - Ransomware increasingly impacts OT, even when only IT is encrypted (Colonial Pipeline effect).
+  - Hacktivists and insiders exploit default credentials and internet-exposed PLCs.
+  - IEC 62443 Security Levels (SL 1–4) map directly to threat-actor capability classes.
+</KeyTakeaways>
+
+## Quick check
+
+> A water utility asks you: "Should we be worried about nation-state attacks? We're just a small town." Draft a three-sentence response using the Aliquippa incident and the Volt Typhoon advisory.

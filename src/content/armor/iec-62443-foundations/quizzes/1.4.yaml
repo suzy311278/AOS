@@ -1,0 +1,26 @@
+- question: "Which device at Level 3 is considered the single most dangerous device on the OT network?"
+  options:
+    - "The process historian server."
+    - "The patch management server."
+    - "The engineering workstation — it has credentials and software to reprogram every PLC."
+    - "The OT domain controller."
+  answer: 2
+  explanation: "The engineering workstation has the credentials and software (Step 7, RSLogix, Unity Pro) to reprogram every PLC on the floor. A compromised engineering workstation gives the attacker the same capability as the most trusted engineer."
+
+- question: "What is the most common cause of IDMZ failure in practice?"
+  options:
+    - "Hardware failure of the firewall appliance."
+    - "A 'temporary' firewall rule that is never removed, allowing direct traffic between IT and OT."
+    - "Insufficient bandwidth in the IDMZ segment."
+    - "Using data diodes instead of firewalls."
+  answer: 1
+  explanation: "The most common IDMZ failure is not a design flaw but a maintenance shortcut — someone opens a 'temporary' firewall rule for a specific task (e.g., letting the ERP pull data directly from the historian), and the rule is never removed, turning the IDMZ into a fiction."
+
+- question: "In a dual-firewall IDMZ architecture, why should each firewall be managed by a different team?"
+  options:
+    - "To distribute the workload evenly between IT and OT teams."
+    - "So that a single compromised admin account cannot open both gates simultaneously."
+    - "Because IT firewalls and OT firewalls use different hardware."
+    - "To satisfy compliance audit requirements."
+  answer: 1
+  explanation: "If a single admin account can manage both firewalls, one credential compromise opens the entire path from Level 4 to Level 3. Separating management (IT manages FW-1, OT manages FW-2) ensures that compromising one team's credentials does not breach both boundaries."

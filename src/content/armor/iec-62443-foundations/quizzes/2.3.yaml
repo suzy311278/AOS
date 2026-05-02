@@ -1,0 +1,26 @@
+- question: "What was the TRITON attacker's ultimate goal?"
+  options:
+    - "To steal intellectual property from the petrochemical facility."
+    - "To disable the Safety Instrumented System so that a simultaneous BPCS attack could proceed without the safety system intervening."
+    - "To cause a ransomware-driven shutdown."
+    - "To demonstrate a proof-of-concept at a security conference."
+  answer: 1
+  explanation: "FireEye/Mandiant's analysis concluded the attacker intended a two-stage attack: Stage 1 — disable or reprogram the Triconex SIS; Stage 2 — cause a process upset via the BPCS that, with the SIS disabled, could result in an uncontrolled release, fire, or explosion."
+
+- question: "How was the TRITON attack ultimately detected?"
+  options:
+    - "A network intrusion detection system flagged the TriStation traffic."
+    - "The Triconex TMR (triple-modular-redundant) integrity check detected a processor mismatch and triggered a safe trip."
+    - "An operator noticed unusual activity on the engineering workstation."
+    - "The corporate SOC detected lateral movement."
+  answer: 1
+  explanation: "The Triconex TMR system detected that the three independent processors were producing different outputs after the code injection, triggering a diagnostic failure and a safe trip. The plant shut down safely because the safety system's own integrity checks worked as designed."
+
+- question: "What was the root cause that allowed the attacker to pivot from the DCS to the SIS?"
+  options:
+    - "A zero-day vulnerability in the Triconex firmware."
+    - "The SIS engineering workstation was on the same network segment as the DCS engineering workstation — no zone separation."
+    - "The attacker used a supply-chain compromise of the Triconex vendor."
+    - "The SIS was connected directly to the internet."
+  answer: 1
+  explanation: "The SIS engineering workstation and the DCS engineering workstation were on the same network segment with no firewall, ACL, or zone separation. IEC 62443-3-2 requires the SIS to be in its own security zone with a dedicated conduit."

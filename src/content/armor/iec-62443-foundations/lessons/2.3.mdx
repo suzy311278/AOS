@@ -1,0 +1,122 @@
+---
+title: "TRITON / TRISIS: when the safety system is the target"
+duration: "45 min"
+---
+
+## The line that was crossed
+
+Every previous ICS attack — Stuxnet, Industroyer, BlackEnergy — targeted the **Basic Process Control System (BPCS)**. TRITON crossed a different line: it targeted the **Safety Instrumented System (SIS)**.
+
+The SIS is the last automated barrier between a process upset and a catastrophe. It exists to shut the plant down safely when all other controls have failed. Attacking the SIS is the cyber equivalent of disabling the emergency brakes on a train that is already speeding.
+
+<HighlightBox>
+  <p class="font-semibold">Why TRITON matters more than its impact suggests</p>
+  <p>TRITON did not cause an explosion. It caused a <strong>safety trip</strong> — the SIS detected the anomaly and shut the plant down. But the attacker's intent was to <strong>disable</strong> the SIS so that a simultaneous BPCS attack could proceed without the safety system intervening. Had they succeeded, the physical consequences could have been catastrophic.</p>
+</HighlightBox>
+
+## The target: Schneider Electric Triconex
+
+The Triconex is one of the most widely deployed safety controllers in the world. It is used in oil refineries, chemical plants, nuclear facilities, and power stations. It is a **triple-modular-redundant (TMR)** system: three independent processors vote on every output, and a 2-of-3 majority is required to take action.
+
+Triconex controllers are certified to **SIL 3** under IEC 61508/61511 — the highest functional-safety rating commonly deployed in the process industry.
+
+## Attack timeline
+
+<ResponsiveTable>
+
+| Phase | Activity |
+|---|---|
+| **Initial access** | Attacker compromises the corporate IT network (method undisclosed; likely spear-phishing) |
+| **Lateral movement** | Moves from IT to OT via a path between the corporate network and the DCS segment |
+| **Pivot to SIS** | From the DCS engineering workstation, the attacker discovers the SIS engineering workstation on a shared network segment |
+| **Payload delivery** | Uploads TRITON framework to the SIS engineering workstation |
+| **Exploitation** | TRITON communicates with the Triconex controller via the proprietary TriStation protocol on UDP port 1502 |
+| **Code injection** | Injects malicious code into the Triconex firmware using an undocumented diagnostic command |
+| **Detection** | The injected code triggers a diagnostic failure; the Triconex TMR detects a processor mismatch and trips the plant to a safe state |
+| **Discovery** | Plant operators investigate the unexpected trip; incident responders find TRITON on the engineering workstation |
+
+</ResponsiveTable>
+
+## Technical architecture
+
+```mermaid
+graph LR
+    A["Corporate IT"] --> B["DCS Network"]
+    B --> C["DCS Engineering WS"]
+    C --> D["SIS Engineering WS"]
+    D -->|"TriStation UDP 1502"| E["Triconex SIS Controller"]
+    E --> F["Final control elements (valves, trips)"]
+```
+
+### The TriStation protocol
+
+TriStation is Schneider's proprietary protocol for programming and monitoring Triconex controllers. It is:
+
+- **Undocumented** — no public specification exists.
+- **Unauthenticated** — any device that can reach UDP 1502 can send commands.
+- **Unencrypted** — all traffic is cleartext.
+
+The TRITON developers reverse-engineered the protocol to the point where they could:
+
+1. Read and write controller memory.
+2. Upload new programmes to the safety controller.
+3. Change the controller's operating mode (run, programme, halt).
+
+<ExampleBox>
+  The level of reverse-engineering effort required to build TRITON — targeting an undocumented, safety-critical protocol on a TMR controller — indicates a <strong>well-resourced, patient adversary</strong>. This is consistent with a nation-state or a state-sponsored group.
+</ExampleBox>
+
+## What the attacker was trying to do
+
+FireEye/Mandiant's analysis concluded that the attacker's ultimate goal was a **two-stage attack**:
+
+1. **Stage 1:** Disable or reprogram the Triconex SIS so that it would not respond to a process upset.
+2. **Stage 2:** Cause a process upset via the BPCS — an action that, with the SIS disabled, could result in an uncontrolled release, fire, or explosion.
+
+The attacker was in Stage 1 when the TMR system detected a processor mismatch and tripped. The plant shut down safely — **but only because the safety system's own integrity checks worked as designed**.
+
+## Why the SIS was reachable
+
+The fundamental question is: **how did the attacker get from the DCS to the SIS?**
+
+The answer is disturbingly simple: the SIS engineering workstation was on the **same network segment** as the DCS engineering workstation. There was no firewall, no ACL, and no zone separation between the two.
+
+IEC 62443-3-2 requires the SIS to be in its own **security zone** with a dedicated conduit. The target plant did not implement this requirement.
+
+### The dual-homed workstation problem
+
+Many plants connect the SIS engineering workstation to both the SIS controller network and the DCS network — so engineers can access both systems from one seat. This makes the engineering workstation a **bridge device** that an attacker can traverse.
+
+<AnalogyBox>
+  Imagine a hospital where the pharmacy (SIS) and the operating theatre (BPCS) share the same corridor with no locked doors. An intruder who enters the operating theatre can walk straight into the pharmacy and swap the medications.
+</AnalogyBox>
+
+## IEC 62443 controls that would have helped
+
+<ResponsiveTable>
+
+| TRITON technique | Mitigating control |
+|---|---|
+| Lateral movement from IT to OT | Zone separation with IDMZ (IEC 62443-3-2) |
+| DCS to SIS pivot | Dedicated SIS zone with restrictive conduit |
+| TriStation unauthenticated access | FR 1 – Identification & Authentication (SR 1.1) |
+| Firmware modification | FR 3 – System Integrity: change detection on safety controllers |
+| No monitoring on SIS network | FR 6 – Timely Response: continuous monitoring of safety-critical zones |
+| Engineering WS as bridge device | FR 5 – Restricted Data Flow: eliminate dual-homed hosts |
+
+</ResponsiveTable>
+
+## Post-TRITON industry response
+
+- **Schneider Electric** released firmware updates adding authentication and key-position enforcement for Triconex controllers.
+- **CISA** published advisory ICSA-18-107-02 and updated ICS Recommended Practices.
+- **IEC 62443-4-2** (component requirements) added explicit requirements for safety-controller cybersecurity.
+- The incident accelerated adoption of **SIS-specific network monitoring** tools (e.g. Claroty, Nozomi, Dragos).
+
+<KeyTakeaways>
+  - TRITON was the first malware to target a Safety Instrumented System (SIS).
+  - The attacker's goal was to disable the safety system so that a process upset could proceed unchecked.
+  - The attack was detected because the Triconex TMR integrity checks triggered a safe trip.
+  - The root cause was a shared network between DCS and SIS with no zone separation.
+  - The SIS must always be in its own security zone with the highest SL-T.
+</KeyTakeaways>

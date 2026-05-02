@@ -1,0 +1,26 @@
+- question: "How many zero-day exploits did Stuxnet use for its Windows propagation chain?"
+  options:
+    - "One"
+    - "Two"
+    - "Four"
+    - "Seven"
+  answer: 2
+  explanation: "Stuxnet used four zero-day exploits simultaneously — an unprecedented investment. These targeted the LNK file handler (CVE-2010-2568), the print spooler (CVE-2010-2729), the Windows Server Service (CVE-2008-4250), and the Task Scheduler (CVE-2010-3338)."
+
+- question: "What was Stuxnet's most dangerous capability from an OT security perspective?"
+  options:
+    - "Propagation via USB drives."
+    - "The ability to create a man-in-the-middle on the Profibus bus, showing normal readings on the HMI while the physical process was being damaged."
+    - "Exploiting four zero-day vulnerabilities simultaneously."
+    - "Infecting Windows-based engineering workstations."
+  answer: 1
+  explanation: "Stuxnet's most dangerous capability was its man-in-the-middle on the process — it lied to the operators. The HMI showed normal frequency readings while the physical motors were cycling between destructive extremes. This ability to create a false reality on the operator's screen is the most dangerous capability an ICS attacker can have."
+
+- question: "Which IEC 62443 control would have been most effective at preventing Stuxnet's initial delivery?"
+  options:
+    - "FR 3 — System Integrity: application whitelisting."
+    - "FR 2 — Use Control: removable media policy (SR 2.3)."
+    - "FR 6 — Timely Response: continuous monitoring."
+    - "FR 4 — Data Confidentiality: encrypted communications."
+  answer: 1
+  explanation: "Stuxnet was delivered via infected USB drives introduced by contractors and supply-chain partners. A strict removable media policy under FR 2 (SR 2.3) — including USB mass-storage disable and mandatory scanning — would have blocked the initial delivery vector."

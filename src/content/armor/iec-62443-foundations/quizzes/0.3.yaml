@@ -1,0 +1,26 @@
+- question: "What is the key difference between how process safety and cybersecurity model threats?"
+  options:
+    - "Process safety uses qualitative methods while cybersecurity uses quantitative methods."
+    - "Process safety assumes random failure; cybersecurity assumes intentional adversaries who adapt."
+    - "Process safety is concerned with equipment while cybersecurity is concerned with data."
+    - "There is no meaningful difference — both use the same risk models."
+  answer: 1
+  explanation: "Process safety models random, stochastic failures (gasket degradation, sensor drift). Cybersecurity models intentional adversaries who learn, adapt, and try again — you cannot model a nation-state APT with a Weibull distribution."
+
+- question: "What did the TRITON attack demonstrate about the relationship between SIL and SL ratings?"
+  options:
+    - "A device rated SIL 3 is automatically cyber-secure."
+    - "SIL ratings replace the need for SL ratings in safety-critical zones."
+    - "A SIL 3 safety controller can still be at SL 1 if it sits on an unprotected network — the two ratings are independent."
+    - "SL ratings are always higher than SIL ratings for the same device."
+  answer: 2
+  explanation: "SIL (Safety Integrity Level) and SL (Security Level) are independently assessed. The TRITON-targeted Triconex controller was SIL 3 rated but reachable from the DCS network without authentication — effectively SL 1 from a cyber perspective."
+
+- question: "According to IEC 62443, which zone should the SIS (Safety Instrumented System) be placed in?"
+  options:
+    - "The same zone as the BPCS for simplified management."
+    - "The enterprise zone for visibility by senior management."
+    - "Its own dedicated security zone with a restrictive conduit and the highest SL-T."
+    - "The IDMZ, since it bridges safety and operations."
+  answer: 2
+  explanation: "IEC 62443-3-2 requires the SIS to be in its own security zone with a dedicated conduit whose data-flow policy permits only the minimum traffic the safety function requires. This zone should have the highest SL-T — typically SL 3 or SL 4."

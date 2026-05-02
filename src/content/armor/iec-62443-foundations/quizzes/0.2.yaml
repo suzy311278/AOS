@@ -1,0 +1,26 @@
+- question: "What is the correct priority order of the CIA triad in an OT environment according to IEC 62443-1-1?"
+  options:
+    - "Confidentiality, Integrity, Availability"
+    - "Integrity, Availability, Confidentiality"
+    - "Availability, Integrity, Confidentiality"
+    - "All three are weighted equally"
+  answer: 2
+  explanation: "IEC 62443-1-1 explicitly inverts the IT CIA triad to AIC for control systems. Availability is prioritised because loss of view or control of a physical process can cascade into safety incidents."
+
+- question: "Why is confidentiality ranked last in OT environments?"
+  options:
+    - "OT systems never handle sensitive data."
+    - "Most ICS protocols (Modbus, S7comm, EtherNet/IP) transmit in cleartext by design, and adding encryption can introduce unacceptable latency in deterministic control loops."
+    - "Regulatory frameworks prohibit encryption on control networks."
+    - "Confidentiality only applies to cloud-connected devices."
+  answer: 1
+  explanation: "ICS protocols were designed for isolated serial buses in the 1970s–1990s and send commands in cleartext. Encrypting them adds latency that can disrupt deterministic scan cycles. Confidentiality is still relevant but subordinate to availability and integrity."
+
+- question: "How many of the seven IEC 62443 Foundational Requirements map primarily to Availability or Integrity?"
+  options:
+    - "Two"
+    - "Three"
+    - "Five"
+    - "All seven"
+  answer: 2
+  explanation: "Five of seven FRs (FR 1, FR 2, FR 3, FR 6, FR 7) map primarily to Availability or Integrity. Only FR 4 (Data Confidentiality) maps squarely to Confidentiality, and FR 5 spans Availability and Confidentiality."

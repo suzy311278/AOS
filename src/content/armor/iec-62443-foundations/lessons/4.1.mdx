@@ -1,0 +1,169 @@
+---
+title: "Lab session: enumerate, capture, report"
+duration: "90 min"
+---
+
+## Lab overview
+
+This is the hands-on capstone of the Foundations track. You will boot a live Modbus/TCP simulator, enumerate its registers and coils, demonstrate a forced write, capture the traffic, and map your findings to IEC 62443 controls.
+
+<HighlightBox>
+  <p class="font-semibold">Prerequisites</p>
+  <p>You must have completed Modules 0–3 before starting this lab. The report section requires you to reference specific Foundational Requirements and System Requirements by number.</p>
+</HighlightBox>
+
+## Scenario
+
+You are a cybersecurity assessor contracted to audit a small water-treatment skid. The integrator left Modbus/TCP exposed on the engineering VLAN. Your job:
+
+1. **Map the device** — discover holding registers and coils.
+2. **Demonstrate impact** — force-write a coil to prove the risk without crashing the simulator.
+3. **Capture evidence** — save a pcap of the session.
+4. **Write the brief** — map findings to IEC 62443-3-3 requirements.
+
+## Toolkit
+
+<ResponsiveTable>
+
+| Tool | Purpose | Command hint |
+|---|---|---|
+| **nmap** (NSE modbus-discover) | Enumerate Modbus unit IDs and function codes | `nmap --script modbus-discover -p 502 <target>` |
+| **mbtget** | Read/write individual registers and coils | `mbtget -a <unit> -r5 -n10 <target>` |
+| **pymodbus-cli** | Interactive Modbus client (Python) | `pymodbus.console tcp --host <target> --port 502` |
+| **wireshark / tshark** | Capture and analyse Modbus/TCP traffic | `tshark -i eth0 -f "tcp port 502" -w capture.pcap` |
+
+</ResponsiveTable>
+
+## Phase 1: Enumeration (30 min)
+
+### Step 1 — Discover the target
+
+Start with a basic port scan to confirm Modbus/TCP is listening:
+
+```bash
+nmap -sS -p 502 <target-ip>
+```
+
+### Step 2 — Enumerate unit IDs
+
+The Modbus specification supports up to 247 unit IDs on a single TCP endpoint. Use the NSE script to discover which are active:
+
+```bash
+nmap --script modbus-discover -p 502 <target-ip>
+```
+
+### Step 3 — Read holding registers
+
+Use `mbtget` to read the first 20 holding registers (function code 3):
+
+```bash
+mbtget -a 1 -r3 -n20 <target-ip>
+```
+
+Record the register addresses and values. These are the process setpoints (temperature thresholds, flow targets, timer values).
+
+### Step 4 — Read coils
+
+Read the first 20 coils (function code 1):
+
+```bash
+mbtget -a 1 -r1 -n20 <target-ip>
+```
+
+Coils represent discrete outputs — pump on/off, valve open/close, alarm status.
+
+<ExampleBox>
+  In a real engagement, you would correlate the register and coil addresses with the PLC programme documentation (if available) to understand what each value controls. In this lab, the simulator provides a mapping table on the lab briefing page.
+</ExampleBox>
+
+## Phase 2: Demonstrate impact (20 min)
+
+### Step 5 — Force-write a coil
+
+<HighlightBox>
+  <p class="font-semibold">Safety note</p>
+  <p>In a real plant, you would <strong>never</strong> write to a coil without explicit written authorisation from the plant operator and a safety observer present. In this lab, the simulator is designed to accept writes safely.</p>
+</HighlightBox>
+
+Use `mbtget` to write coil 42 (function code 5):
+
+```bash
+mbtget -a 1 -r5 -o 42 1 <target-ip>
+```
+
+Observe the HMI simulation panel — the corresponding output should change state.
+
+### Step 6 — Verify the write
+
+Read coil 42 back to confirm the write persisted:
+
+```bash
+mbtget -a 1 -r1 -o 42 -n1 <target-ip>
+```
+
+## Phase 3: Capture evidence (15 min)
+
+### Step 7 — Capture a pcap
+
+Start a packet capture before repeating the enumeration and write steps:
+
+```bash
+tshark -i eth0 -f "tcp port 502" -w modbus-audit.pcap
+```
+
+Reproduce:
+1. A register read (function code 3).
+2. A coil write (function code 5).
+3. A coil read-back (function code 1).
+
+Stop the capture. Open the pcap in Wireshark and verify you can see:
+
+- The Modbus function codes in the packet dissection.
+- The register/coil addresses.
+- The written value.
+
+## Phase 4: Write the brief (25 min)
+
+Create a 200-word report with the following structure:
+
+### 1. Finding summary
+
+Describe what you found: Modbus/TCP exposed, no authentication, read/write access to all registers and coils from any device on the VLAN.
+
+### 2. Risk assessment
+
+- **Threat source:** Any device on the engineering VLAN (insider, compromised contractor laptop, lateral-moving attacker).
+- **Vulnerability:** Modbus/TCP has no authentication (CVE: protocol-level — inherent design limitation).
+- **Consequence:** Unauthorised modification of process setpoints → potential physical harm.
+- **Likelihood:** High (zero barriers to exploitation).
+
+### 3. IEC 62443 mapping
+
+Map your findings to specific System Requirements:
+
+<ResponsiveTable>
+
+| Finding | IEC 62443-3-3 SR | Recommended control |
+|---|---|---|
+| No authentication on Modbus | SR 1.1 (Human user IAC) | Deploy protocol-aware firewall with per-source ACL |
+| All registers writable from any host | SR 2.1 (Authorisation enforcement) | Restrict write access to engineering workstation only |
+| No traffic monitoring | SR 6.1 (Audit log accessibility) | Deploy ICS network monitoring (Dragos, Claroty, Nozomi) |
+| Flat VLAN — no segmentation | SR 5.1 (Network segmentation) | Move PLC to dedicated zone with conduit ACL |
+
+</ResponsiveTable>
+
+## Success criteria
+
+Your lab submission must include:
+
+1. A pcap file showing register-read enumeration and the coil-42 write.
+2. The `mbtget` command that flipped coil 42.
+3. A 200-word report mapping findings to IEC 62443-3-3 SR 1.1 and SR 2.1.
+
+<KeyTakeaways>
+  - Modbus/TCP has zero authentication — any reachable device can read and write any register.
+  - Enumeration is trivial with standard tools (nmap, mbtget, pymodbus).
+  - A single forced coil write demonstrates the full impact of the vulnerability.
+  - Network segmentation and protocol-aware firewalling are the primary mitigations.
+  - Every finding maps to a specific IEC 62443-3-3 System Requirement.
+</KeyTakeaways>

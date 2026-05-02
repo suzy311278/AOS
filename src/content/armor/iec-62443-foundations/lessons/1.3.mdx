@@ -1,0 +1,107 @@
+---
+title: "Level 2: HMIs, SCADA, and historians"
+duration: "35 min"
+---
+
+## The operator's window into the process
+
+Level 2 is where humans interact with the control system. Every screen, every alarm, every trend graph that an operator uses to understand and command the process lives here.
+
+If Level 0/1 is the body, Level 2 is the **nervous system's dashboard**. Compromise Level 2 and the operator is flying blind — or worse, seeing false information.
+
+## The three pillars of Level 2
+
+### 1. Human-Machine Interface (HMI)
+
+The HMI is the graphical terminal that operators use to:
+
+- **Monitor** process values (temperatures, pressures, flow rates).
+- **Acknowledge** alarms.
+- **Send commands** (start/stop pumps, open/close valves, change setpoints).
+
+<HighlightBox>
+  <p class="font-semibold">HMI security reality</p>
+  <p>Most HMIs run on Windows. Many are decades-old installations running Windows XP or Windows 7 Embedded — long past end of life — because upgrading requires re-validating the entire HMI project against the plant's process-safety requirements.</p>
+</HighlightBox>
+
+Common HMI software:
+
+- Siemens WinCC
+- Rockwell FactoryTalk View SE
+- Schneider Citect SCADA
+- Wonderware (AVEVA) InTouch
+- Ignition (Inductive Automation)
+
+### 2. SCADA server
+
+In distributed plants (water networks, pipeline systems, electrical grids), a central **SCADA server** aggregates data from remote RTUs and PLCs. It provides:
+
+- Centralised monitoring of geographically dispersed assets.
+- Command-and-control relay — operator actions on the HMI translate to protocol commands sent to remote sites.
+- Data logging for short-term operational decisions.
+
+<AnalogyBox>
+  If HMIs are the individual cockpit instruments, the SCADA server is the air-traffic control tower — one view of the entire operation.
+</AnalogyBox>
+
+### 3. Historian
+
+The historian is a time-series database optimised for high-throughput, high-frequency writes. It records every process value at sub-second intervals so engineers can:
+
+- Analyse trends over days, weeks, or months.
+- Investigate incidents with precise timeline data.
+- Feed analytics and reporting dashboards.
+
+Common historians: OSIsoft PI (now AVEVA), Wonderware Historian, GE Proficy, InfluxDB (open source).
+
+<ExampleBox>
+  A single historian instance at a large refinery may ingest <strong>500,000 data points per second</strong>. That data stream is a goldmine for both the operations team and any attacker who gains access.
+</ExampleBox>
+
+## Level 2 attack surface
+
+Level 2 devices are the **most attacked** layer in ICS environments because:
+
+1. **They run general-purpose operating systems** — Windows, Linux — with known vulnerabilities.
+2. **They have network connectivity** to both Level 1 (controllers) and Level 3 (site operations).
+3. **They often have remote-access tools** installed for vendor support (TeamViewer, VNC, RDP).
+4. **They store credentials** for connecting to PLCs and databases.
+
+<ResponsiveTable>
+
+| Attack vector | Example incident | Impact |
+|---|---|---|
+| Remote desktop with weak credentials | Oldsmar water plant (2021) | Attacker changed chemical dosage via HMI |
+| Unpatched Windows on HMI | Industroyer (2016) | Malware sent IEC 104 commands through compromised HMI |
+| Historian SQL injection | Multiple ICS-CERT advisories | Data exfiltration, potential command injection |
+| Shared service accounts | Common in brownfield plants | Impossible to attribute actions to individuals |
+
+</ResponsiveTable>
+
+## Hardening Level 2
+
+### Application whitelisting
+
+Because HMI and historian workstations run a fixed set of applications, **application whitelisting** is one of the most effective controls. Only approved executables are allowed to run; everything else is blocked.
+
+Tools: Windows AppLocker, CyberArk EPM, Carbon Black App Control.
+
+### USB and removable media control
+
+Many ICS malware campaigns (including Stuxnet) used USB drives as the initial delivery vector. Disable USB mass storage on all Level 2 workstations.
+
+### Network segmentation within Level 2
+
+Not all Level 2 devices need to talk to each other. Segment the HMI network from the historian network. Use VLANs and firewall rules to restrict communication to only the required paths.
+
+### Backup and recovery
+
+Level 2 is the most recoverable layer — HMI projects, historian configurations, and SCADA server settings can all be backed up and restored. Test recovery procedures at least annually.
+
+<KeyTakeaways>
+  - Level 2 contains HMIs, SCADA servers, and historians — the operator's window into the process.
+  - These devices run general-purpose OSes, making them the most attacked ICS layer.
+  - Remote-access tools on HMIs are a recurring entry point for attackers.
+  - Application whitelisting, USB control, and internal segmentation are the highest-value hardening steps.
+  - Historian data is high-volume and high-value — protect it with the same rigour as controller access.
+</KeyTakeaways>
