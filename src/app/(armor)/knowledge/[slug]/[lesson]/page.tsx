@@ -10,6 +10,10 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, ArrowRight, Clock, BookOpen, CheckCircle2 } from 'lucide-react';
+import { MDXRemote } from 'next-mdx-remote/rsc';
+import remarkGfm from 'remark-gfm';
+import rehypeSlug from 'rehype-slug';
+import { getRedesignMDXComponents } from '@/components/redesign/lesson/mdx-components-redesign';
 import {
   getArmorCourse,
   getAllArmorCourses,
@@ -131,12 +135,16 @@ export default async function LessonPage({ params }: PageProps) {
                 prose-a:text-ai-accent prose-a:no-underline hover:prose-a:underline
                 text-[15.5px] leading-relaxed text-ai-ink-soft"
               >
-                {/* Phase 2: MDX content rendered as plain text for now.
-                    Full MDX compilation (next-mdx-remote) will be added when
-                    lesson content is fleshed out. */}
-                <div className="whitespace-pre-wrap font-sans">
-                  {mdxContent}
-                </div>
+                <MDXRemote
+                  source={mdxContent}
+                  components={getRedesignMDXComponents()}
+                  options={{
+                    mdxOptions: {
+                      remarkPlugins: [remarkGfm],
+                      rehypePlugins: [rehypeSlug],
+                    },
+                  }}
+                />
               </div>
             ) : (
               <div className="rounded-ai-card border border-ai-line bg-ai-bg-soft p-8 text-center">
