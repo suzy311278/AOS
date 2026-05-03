@@ -22,7 +22,7 @@
  * traditional "this is a practice problem" register.
  */
 
-import type { ReactNode } from 'react';
+import React, { type ReactNode } from 'react';
 import {
   Lightbulb,
   Compass,
@@ -173,11 +173,26 @@ export function ExampleBoxRedesign({
    numbered list parsed from a semicolon-delimited string prop.
    ============================================================ */
 
-export function KeyTakeawaysRedesign({ items }: { items: string }) {
-  const parsed = items
-    .split(';;')
-    .map((s) => s.trim())
-    .filter(Boolean);
+function extractText(node: ReactNode): string {
+  if (node == null || typeof node === 'boolean') return '';
+  if (typeof node === 'string') return node;
+  if (typeof node === 'number') return String(node);
+  if (Array.isArray(node)) return node.map(extractText).join('');
+  if (typeof node === 'object' && 'props' in node)
+    return extractText((node as React.ReactElement).props.children);
+  return '';
+}
+
+export function KeyTakeawaysRedesign({ items, children }: { items?: string; children?: ReactNode }) {
+  let parsed: string[];
+  if (items) {
+    parsed = items.split(';;').map((s: string) => s.trim()).filter(Boolean);
+  } else if (children) {
+    const text = extractText(children);
+    parsed = text.split('\n').map((s: string) => s.replace(/^[-•]\s*/, '').trim()).filter(Boolean);
+  } else {
+    parsed = [];
+  }
 
   return (
     <div
