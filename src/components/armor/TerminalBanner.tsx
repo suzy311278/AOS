@@ -284,7 +284,7 @@ export function TerminalBanner({ className, noAutoType }: TerminalBannerProps) {
         aria-label="ArmorInnovate terminal output"
       >
         {lines.map((ln) => (
-          <div key={ln.id} className={cn('whitespace-pre-wrap', LINE_CLASS[ln.kind])}>
+          <div key={ln.id} className={cn('whitespace-pre-wrap break-words', LINE_CLASS[ln.kind])}>
             {ln.kind === 'prompt' ? (
               <>
                 <span className="text-ai-cyber-glow">armor@ot</span>
@@ -301,7 +301,7 @@ export function TerminalBanner({ className, noAutoType }: TerminalBannerProps) {
 
         {/* Currently being typed */}
         {!done && typingCmd && (
-          <div className="whitespace-pre-wrap text-ai-ink-on-deep">
+          <div className="whitespace-pre-wrap break-words text-ai-ink-on-deep">
             <span className="text-ai-cyber-glow">armor@ot</span>
             <span className="text-ai-ink-on-deep-dim">:</span>
             <span className="text-ai-accent">~</span>

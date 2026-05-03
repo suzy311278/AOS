@@ -151,8 +151,8 @@ export default function HomePage() {
           className="absolute inset-0 pointer-events-none ai-bg-grid opacity-60"
         />
         <div className="relative max-w-[1280px] mx-auto px-6 sm:px-8 pt-14 pb-20 lg:pt-20 lg:pb-24">
-          <div className="grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
-            <div className="lg:col-span-5 animate-ai-fade-up">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+            <div className="min-w-0 lg:col-span-5 animate-ai-fade-up">
               <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10.5px] font-bold uppercase tracking-ai-eyebrow font-ai-mono bg-ai-accent-soft text-ai-primary ring-1 ring-ai-primary/15">
                 <span className="ai-led ai-led--ok" aria-hidden />
                 ArmorInnovate.OS · v0.1
@@ -205,7 +205,7 @@ export default function HomePage() {
               </dl>
             </div>
 
-            <div className="lg:col-span-7 animate-ai-fade-up [animation-delay:120ms]">
+            <div className="min-w-0 lg:col-span-7 animate-ai-fade-up [animation-delay:120ms]">
               <TerminalBanner />
             </div>
           </div>
