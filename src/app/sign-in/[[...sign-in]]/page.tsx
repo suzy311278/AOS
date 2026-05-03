@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 export default function SignInPage() {
   return (
-    <div className="min-h-screen bg-ai-deep flex flex-col lg:flex-row">
+    <div className="min-h-screen bg-ai-bg flex flex-col lg:flex-row">
       {/* Left side — Terminal-themed branding (desktop) */}
       <div className="hidden lg:flex lg:w-[55%] xl:w-1/2 relative overflow-hidden bg-ai-deep-2">
         {/* Scan-line overlay */}
@@ -117,25 +117,25 @@ export default function SignInPage() {
         </div>
       </div>
 
-      {/* Right side — Sign In Form */}
-      <div className="flex-1 flex flex-col items-center justify-center px-5 sm:px-8 py-10 sm:py-12 bg-ai-deep">
+      {/* Right side — Sign In Form (light) */}
+      <div className="flex-1 flex flex-col items-center justify-center px-5 sm:px-8 py-10 sm:py-12 bg-ai-bg">
         {/* Mobile brand header (visible only under lg) */}
         <div className="lg:hidden w-full max-w-md mb-8">
           <Link href="/" className="inline-flex items-center gap-2.5 mb-6">
-            <div className="w-9 h-9 rounded-ai-tile bg-ai-cyber/10 border border-ai-cyber/30 flex items-center justify-center">
-              <Shield className="w-[18px] h-[18px] text-ai-cyber" />
+            <div className="w-9 h-9 rounded-ai-tile bg-ai-primary/10 border border-ai-primary/20 flex items-center justify-center">
+              <Shield className="w-[18px] h-[18px] text-ai-primary" />
             </div>
             <span className="text-[20px] font-bold tracking-tight">
-              <span className="text-white">Armor</span>
-              <span className="text-ai-cyber">Innovate</span>
+              <span className="text-ai-ink">Armor</span>
+              <span className="text-ai-primary">Innovate</span>
             </span>
           </Link>
-          <p className="text-[11px] font-mono uppercase tracking-[0.2em] text-ai-cyber mb-2">
+          <p className="text-[11px] font-mono uppercase tracking-[0.2em] text-ai-primary mb-2">
             IEC 62443 · ICS Security
           </p>
-          <h1 className="text-[26px] font-bold leading-tight tracking-tight text-white">
+          <h1 className="text-[26px] font-bold leading-tight tracking-tight text-ai-ink">
             The operating system for{' '}
-            <span className="text-ai-cyber">OT defenders</span>.
+            <span className="text-ai-primary">OT defenders</span>.
           </h1>
         </div>
 
@@ -144,51 +144,52 @@ export default function SignInPage() {
           <SignIn
             appearance={{
               variables: {
-                colorPrimary: '#06B6D4',
-                colorBackground: '#0F172A',
-                colorText: '#E2E8F0',
-                colorInputBackground: '#080d18',
-                colorInputText: '#FFFFFF',
-                colorTextSecondary: '#94A3B8',
-                colorTextOnPrimaryBackground: '#0B1F3A',
+                colorPrimary: '#0B1F3A',
+                colorText: '#0F172A',
+                colorTextSecondary: '#475569',
+                colorBackground: '#FFFFFF',
+                colorInputBackground: '#FFFFFF',
+                colorInputText: '#0F172A',
+                colorTextOnPrimaryBackground: '#FFFFFF',
                 borderRadius: '0.5rem',
                 fontFamily: 'inherit',
               },
               elements: {
                 rootBox: 'w-full',
-                card: 'bg-ai-deep-2 border border-ai-line-deep rounded-ai-card shadow-2xl px-6 py-8 sm:px-8',
-                headerTitle: 'text-white text-[22px] font-bold',
-                headerSubtitle: 'text-ai-ink-on-deep-dim text-[13px]',
-                formFieldLabel: 'text-ai-ink-on-deep-soft text-[12.5px] font-medium',
+                card: 'bg-white border border-ai-line rounded-ai-card shadow-xl px-6 py-8 sm:px-8',
+                headerTitle: 'text-ai-ink text-[22px] font-bold',
+                headerSubtitle: 'text-ai-ink-soft text-[13px]',
+                formFieldLabel: 'text-ai-ink text-[12.5px] font-medium',
                 formFieldInput:
-                  'bg-[#080d18] border border-ai-line-deep text-white placeholder:text-ai-ink-on-deep-dim focus:border-ai-cyber focus:ring-2 focus:ring-ai-cyber/20 rounded-md transition-all',
+                  'bg-white border border-ai-line text-ai-ink placeholder:text-ai-ink-dim focus:border-ai-primary focus:ring-2 focus:ring-ai-primary/15 rounded-md transition-all',
                 formButtonPrimary:
-                  'bg-ai-cyber hover:bg-ai-cyber-glow text-ai-deep font-bold rounded-md transition-all normal-case text-[14px] py-2.5 shadow-lg shadow-ai-cyber/20',
-                footerActionLink: 'text-ai-cyber hover:text-ai-cyber-glow font-semibold',
+                  'bg-ai-primary hover:bg-ai-primary-hover text-white font-bold rounded-md transition-all normal-case text-[14px] py-2.5 shadow-sm',
+                footerActionLink: 'text-ai-primary hover:text-ai-primary-hover font-semibold',
                 socialButtonsBlockButton:
-                  'bg-[#080d18] border border-ai-line-deep text-ai-ink-on-deep-soft hover:bg-ai-grid hover:border-ai-cyber/40 rounded-md transition-all normal-case',
-                socialButtonsBlockButtonText: 'text-ai-ink-on-deep-soft font-medium',
-                dividerLine: 'bg-ai-line-deep',
-                dividerText: 'text-ai-ink-on-deep-dim text-[11px] uppercase tracking-wider',
-                formFieldInputShowPasswordButton: 'text-ai-ink-on-deep-dim hover:text-ai-cyber',
-                identityPreviewEditButton: 'text-ai-cyber hover:text-ai-cyber-glow',
-                formResendCodeLink: 'text-ai-cyber hover:text-ai-cyber-glow',
-                otpCodeFieldInput: 'bg-[#080d18] border-ai-line-deep text-white',
+                  'bg-white border border-ai-line text-ai-ink hover:bg-ai-bg-soft hover:border-ai-line-strong rounded-md transition-all normal-case',
+                socialButtonsBlockButtonText: 'text-ai-ink font-medium',
+                socialButtonsProviderIcon: 'opacity-100',
+                dividerLine: 'bg-ai-line',
+                dividerText: 'text-ai-ink-dim text-[11px] uppercase tracking-wider',
+                formFieldInputShowPasswordButton: 'text-ai-ink-dim hover:text-ai-primary',
+                identityPreviewEditButton: 'text-ai-primary hover:text-ai-primary-hover',
+                formResendCodeLink: 'text-ai-primary hover:text-ai-primary-hover',
+                otpCodeFieldInput: 'bg-white border-ai-line text-ai-ink',
                 footer: 'bg-transparent',
                 footerAction: 'bg-transparent',
-                footerActionText: 'text-ai-ink-on-deep-dim text-[12.5px]',
-                formFieldAction: 'text-ai-cyber hover:text-ai-cyber-glow',
+                footerActionText: 'text-ai-ink-soft text-[12.5px]',
+                formFieldAction: 'text-ai-primary hover:text-ai-primary-hover',
               },
             }}
           />
 
-          <p className="mt-6 text-center text-[12px] text-ai-ink-on-deep-dim">
+          <p className="mt-6 text-center text-[12px] text-ai-ink-soft">
             By signing in you agree to our{' '}
-            <Link href="/terms" className="text-ai-ink-on-deep-soft hover:text-ai-cyber transition-colors underline underline-offset-2 decoration-ai-line-deep">
+            <Link href="/terms" className="text-ai-ink hover:text-ai-primary transition-colors underline underline-offset-2 decoration-ai-line">
               Terms
             </Link>{' '}
             and{' '}
-            <Link href="/privacy" className="text-ai-ink-on-deep-soft hover:text-ai-cyber transition-colors underline underline-offset-2 decoration-ai-line-deep">
+            <Link href="/privacy" className="text-ai-ink hover:text-ai-primary transition-colors underline underline-offset-2 decoration-ai-line">
               Privacy Policy
             </Link>
             .
