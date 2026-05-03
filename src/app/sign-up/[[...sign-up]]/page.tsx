@@ -1,112 +1,151 @@
 /**
  * /sign-up - Sign Up Page
  *
- * Clerk SignUp component with Greentryst branding.
+ * ArmorInnovate terminal-themed Clerk SignUp page.
  */
 
 import { SignUp } from '@clerk/nextjs';
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { Shield, Terminal, Lock, Wifi } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Sign Up',
-  description: 'Create your Greentryst account and start learning.',
+  description: 'Create your ArmorInnovate account — IEC 62443 cybersecurity training platform.',
   alternates: { canonical: '/sign-up' },
   robots: { index: false, follow: true },
 };
 
 export default function SignUpPage() {
   return (
-    <div className="min-h-screen bg-[#fafbfa] flex">
-      {/* Left side - Branding */}
-      <div className="hidden lg:flex lg:w-1/2 bg-gt-text-dark relative overflow-hidden">
+    <div className="min-h-screen bg-ai-deep flex">
+      {/* Left side - Terminal-themed branding */}
+      <div className="hidden lg:flex lg:w-1/2 relative overflow-hidden bg-ai-deep-2">
+        {/* Scan-line overlay */}
         <div
-          className="gt-ambient-glow-dark absolute -top-20 left-1/4 w-[600px] h-[600px] rounded-full"
+          className="pointer-events-none absolute inset-0 z-20"
+          aria-hidden
+          style={{
+            backgroundImage:
+              'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(6,182,212,0.03) 2px, rgba(6,182,212,0.03) 4px)',
+          }}
+        />
+        {/* Grid pattern */}
+        <div
+          className="absolute inset-0 opacity-[0.04]"
+          aria-hidden
+          style={{
+            backgroundImage:
+              'linear-gradient(rgba(6,182,212,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(6,182,212,0.5) 1px, transparent 1px)',
+            backgroundSize: '40px 40px',
+          }}
+        />
+        {/* Glow */}
+        <div
+          className="absolute -top-32 -left-32 w-[500px] h-[500px] rounded-full bg-ai-cyber/[0.06] blur-3xl"
           aria-hidden
         />
         <div
-          className="gt-ambient-glow-dark absolute -bottom-40 right-0 w-[500px] h-[500px] rounded-full opacity-70"
-          aria-hidden
-        />
-        <div
-          className="gt-dot-grid absolute inset-0 opacity-40 pointer-events-none"
+          className="absolute -bottom-40 right-0 w-[400px] h-[400px] rounded-full bg-ai-primary/[0.08] blur-3xl"
           aria-hidden
         />
 
-        <div className="relative z-10 flex flex-col justify-center px-16">
-          {/* Brand Logo - Dark background variant */}
-          <Link href="/" className="mb-8">
-            <span className="text-[28px] font-extrabold tracking-tight">
-              <span className="text-white">Green</span><span className="text-gt-leaf">tryst</span>
+        <div className="relative z-10 flex flex-col justify-center px-14 py-16">
+          {/* Brand */}
+          <Link href="/" className="mb-10 inline-flex items-center gap-3">
+            <div className="w-10 h-10 rounded-ai-tile bg-ai-cyber/10 border border-ai-cyber/20 flex items-center justify-center">
+              <Shield className="w-5 h-5 text-ai-cyber" />
+            </div>
+            <span className="text-[24px] font-extrabold tracking-tight">
+              <span className="text-white">Armor</span>
+              <span className="text-ai-cyber">Innovate</span>
             </span>
           </Link>
 
-          {/* Rotating Taglines */}
-          <div
-            className="relative h-[32px] mb-6 overflow-hidden"
-            aria-label="Rotating taglines"
-          >
-            <span className="absolute inset-0 text-[18px] font-semibold text-gt-leaf gt-headline-rotate gt-headline-1">
-              Learn any framework.
-            </span>
-            <span className="absolute inset-0 text-[18px] font-semibold text-gt-leaf gt-headline-rotate gt-headline-2">
-              Find any answer.
-            </span>
-            <span className="absolute inset-0 text-[18px] font-semibold text-gt-leaf gt-headline-rotate gt-headline-3">
-              Run any calculation.
-            </span>
-            <span className="absolute inset-0 text-[18px] font-semibold text-gt-leaf gt-headline-rotate gt-headline-4">
-              Land your next role.
-            </span>
+          {/* Terminal window */}
+          <div className="rounded-ai-card border border-ai-line-deep bg-[#0a0f1a] overflow-hidden mb-8 shadow-2xl">
+            <div className="flex items-center gap-2 px-4 py-2.5 border-b border-ai-line-deep bg-[#0d1321]">
+              <span className="w-3 h-3 rounded-full bg-[#ff5f57]" />
+              <span className="w-3 h-3 rounded-full bg-[#febc2e]" />
+              <span className="w-3 h-3 rounded-full bg-[#28c840]" />
+              <span className="ml-3 text-[11px] text-ai-ink-on-deep-dim font-mono">
+                armor@ics-lab:~
+              </span>
+            </div>
+            <div className="p-5 font-mono text-[13px] leading-[1.8] text-ai-ink-on-deep-soft">
+              <p>
+                <span className="text-ai-cyber">$</span>{' '}
+                <span className="text-ai-ink-on-deep">armor --enroll</span>
+              </p>
+              <p className="text-ai-ok">Initializing operator profile...</p>
+
+              <p className="mt-2">
+                <span className="text-ai-cyber">$</span>{' '}
+                <span className="text-ai-ink-on-deep">cat /etc/armor/tracks</span>
+              </p>
+              <p>
+                <span className="text-ai-ink-on-deep-dim">[01]</span>{' '}
+                IEC 62443 Foundations
+              </p>
+              <p>
+                <span className="text-ai-ink-on-deep-dim">[02]</span>{' '}
+                Risk Assessment Specialist
+              </p>
+              <p>
+                <span className="text-ai-ink-on-deep-dim">[03]</span>{' '}
+                Design Specialist
+              </p>
+              <p>
+                <span className="text-ai-ink-on-deep-dim">[04]</span>{' '}
+                Maintenance Specialist
+              </p>
+              <p>
+                <span className="text-ai-ink-on-deep-dim">[05]</span>{' '}
+                <span className="text-ai-warn">Expert Capstone</span>
+              </p>
+
+              <p className="mt-2">
+                <span className="text-ai-cyber">$</span>{' '}
+                <span className="text-ai-ink-on-deep">armor --create-account</span>
+              </p>
+              <p className="text-ai-cyber animate-pulse">▊</p>
+            </div>
           </div>
 
-          <h1 className="text-[36px] font-extrabold text-white leading-tight mb-6">
-            Start your journey
-            <br />
-            in sustainability.
-          </h1>
-
-          <p className="text-[16px] text-white/60 leading-relaxed max-w-md mb-10">
-            Join thousands of professionals building expertise in climate, ESG, carbon markets, and sustainable finance.
-          </p>
-
-          <div className="space-y-4">
+          {/* Feature list */}
+          <div className="space-y-3">
             <div className="flex items-center gap-3">
-              <div className="w-6 h-6 rounded-full bg-gt-leaf/20 flex items-center justify-center">
-                <svg className="w-3.5 h-3.5 text-gt-leaf" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                </svg>
-              </div>
-              <p className="text-[14px] text-white/80">Free access to foundational courses</p>
+              <Terminal className="w-4 h-4 text-ai-cyber" />
+              <span className="text-[13px] text-ai-ink-on-deep-soft">
+                Hands-on labs — Modbus, S7comm, EtherNet/IP
+              </span>
             </div>
             <div className="flex items-center gap-3">
-              <div className="w-6 h-6 rounded-full bg-gt-leaf/20 flex items-center justify-center">
-                <svg className="w-3.5 h-3.5 text-gt-leaf" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                </svg>
-              </div>
-              <p className="text-[14px] text-white/80">5 SustainIQ queries per day</p>
+              <Lock className="w-4 h-4 text-ai-cyber" />
+              <span className="text-[13px] text-ai-ink-on-deep-soft">
+                5 specialist tracks + expert capstone
+              </span>
             </div>
             <div className="flex items-center gap-3">
-              <div className="w-6 h-6 rounded-full bg-gt-leaf/20 flex items-center justify-center">
-                <svg className="w-3.5 h-3.5 text-gt-leaf" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                </svg>
-              </div>
-              <p className="text-[14px] text-white/80">Career directory access</p>
+              <Wifi className="w-4 h-4 text-ai-cyber" />
+              <span className="text-[13px] text-ai-ink-on-deep-soft">
+                Live CISA ICS advisory intelligence
+              </span>
             </div>
           </div>
         </div>
       </div>
 
       {/* Right side - Sign Up Form */}
-      <div className="flex-1 flex flex-col items-center justify-center px-8 py-12">
+      <div className="flex-1 flex flex-col items-center justify-center px-8 py-12 bg-ai-deep">
         <div className="w-full max-w-md">
-          {/* Brand Logo - Light background variant (mobile) */}
+          {/* Mobile brand */}
           <div className="lg:hidden mb-8 text-center">
-            <Link href="/">
-              <span className="text-[24px] font-extrabold tracking-tight">
-                <span className="text-gt-text">Green</span><span className="text-gt-medium">tryst</span>
+            <Link href="/" className="inline-flex items-center gap-2.5">
+              <Shield className="w-6 h-6 text-ai-cyber" />
+              <span className="text-[22px] font-extrabold tracking-tight">
+                <span className="text-white">Armor</span>
+                <span className="text-ai-cyber">Innovate</span>
               </span>
             </Link>
           </div>
@@ -115,18 +154,34 @@ export default function SignUpPage() {
             appearance={{
               elements: {
                 rootBox: 'w-full',
-                card: 'shadow-none border border-[#e5e7e5] rounded-xl',
-                headerTitle: 'text-gt-text font-bold',
-                headerSubtitle: 'text-gt-text-muted',
-                formButtonPrimary: 'bg-gt-medium hover:bg-gt-dark',
-                footerActionLink: 'text-gt-medium hover:text-gt-dark',
+                card: 'bg-ai-deep-2 border border-ai-line-deep rounded-ai-card shadow-2xl',
+                headerTitle: 'text-white font-bold',
+                headerSubtitle: 'text-ai-ink-on-deep-dim',
+                formFieldLabel: 'text-ai-ink-on-deep-soft text-[13px]',
+                formFieldInput:
+                  'bg-[#0a0f1a] border-ai-line-deep text-white placeholder:text-ai-ink-on-deep-dim focus:border-ai-cyber focus:ring-ai-cyber/30 rounded-ai-tile',
+                formButtonPrimary:
+                  'bg-ai-cyber hover:bg-ai-cyber-glow hover:text-ai-deep text-ai-deep font-bold rounded-ai-tile transition-all',
+                footerActionLink: 'text-ai-cyber hover:text-ai-cyber-glow',
+                socialButtonsBlockButton:
+                  'bg-[#0a0f1a] border-ai-line-deep text-ai-ink-on-deep-soft hover:bg-ai-grid hover:border-ai-cyber/30 rounded-ai-tile',
+                socialButtonsBlockButtonText: 'text-ai-ink-on-deep-soft',
+                dividerLine: 'bg-ai-line-deep',
+                dividerText: 'text-ai-ink-on-deep-dim',
+                formFieldInputShowPasswordButton: 'text-ai-ink-on-deep-dim hover:text-ai-cyber',
+                identityPreviewEditButton: 'text-ai-cyber hover:text-ai-cyber-glow',
+                formResendCodeLink: 'text-ai-cyber hover:text-ai-cyber-glow',
+                otpCodeFieldInput: 'bg-[#0a0f1a] border-ai-line-deep text-white',
+                footer: 'bg-transparent',
+                footerAction: 'bg-transparent',
+                footerActionText: 'text-ai-ink-on-deep-dim',
               },
             }}
           />
 
-          <p className="mt-8 text-center text-[12px] text-gt-text-muted">
+          <p className="mt-8 text-center text-[12px] text-ai-ink-on-deep-dim font-mono">
             Already have an account?{' '}
-            <Link href="/sign-in" className="font-semibold text-gt-medium hover:text-gt-dark">
+            <Link href="/sign-in" className="font-bold text-ai-cyber hover:text-ai-cyber-glow transition-colors">
               Sign in
             </Link>
           </p>
