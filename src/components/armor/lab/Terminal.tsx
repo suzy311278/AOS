@@ -22,7 +22,7 @@
  * `scan`, `exit`, and echoes unknown commands.
  */
 
-import { useRef, useEffect, useCallback, useState } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import type { Terminal as XTerminal } from '@xterm/xterm';
 import './xterm-styles';
 
@@ -45,80 +45,81 @@ export default function LabTerminal({ labSlug, onReady, onClose, className }: Te
   const wsRef = useRef<WebSocket | null>(null);
   const [state, setState] = useState<ConnectionState>('connecting');
 
-  // Local fallback shell state
-  const lineBufferRef = useRef('');
-
-  const writeFallbackPrompt = useCallback(() => {
-    termRef.current?.write('\r\n\x1b[36marmor@lab\x1b[0m:\x1b[33m~/' + labSlug + '\x1b[0m$ ');
-  }, [labSlug]);
-
-  const handleFallbackInput = useCallback((data: string) => {
-    const term = termRef.current;
-    if (!term) return;
-
-    for (const ch of data) {
-      if (ch === '\r' || ch === '\n') {
-        const cmd = lineBufferRef.current.trim();
-        lineBufferRef.current = '';
-        term.write('\r\n');
-
-        if (!cmd) {
-          writeFallbackPrompt();
-          continue;
-        }
-
-        switch (cmd) {
-          case 'help':
-            term.writeln('\x1b[1mAvailable commands:\x1b[0m');
-            term.writeln('  help       Show this message');
-            term.writeln('  scan       Run a simulated Modbus scan');
-            term.writeln('  status     Show lab runtime status');
-            term.writeln('  clear      Clear the screen');
-            term.writeln('  exit       Close the terminal');
-            break;
-          case 'scan':
-            term.writeln('\x1b[36m[i]\x1b[0m Scanning Modbus/TCP on 127.0.0.1:502…');
-            term.writeln('  Slave ID 1 … \x1b[32mONLINE\x1b[0m  (holding registers: 40001–40100)');
-            term.writeln('  Slave ID 2 … \x1b[32mONLINE\x1b[0m  (coils: 00001–00064)');
-            term.writeln('  Slave ID 3 … \x1b[31mOFFLINE\x1b[0m');
-            term.writeln('\x1b[36m[i]\x1b[0m Scan complete. 2/3 slaves responding.');
-            break;
-          case 'status':
-            term.writeln('\x1b[36m[i]\x1b[0m Lab: ' + labSlug);
-            term.writeln('  Runtime:    \x1b[33mlocal-fallback\x1b[0m (no WS connection)');
-            term.writeln('  Protocol:   Modbus/TCP');
-            term.writeln('  Port:       502');
-            term.writeln('  Status:     \x1b[33mSimulated\x1b[0m');
-            break;
-          case 'clear':
-            term.clear();
-            break;
-          case 'exit':
-            term.writeln('\x1b[90mSession closed.\x1b[0m');
-            onClose?.('user-exit');
-            return;
-          default:
-            term.writeln(`\x1b[31mCommand not found:\x1b[0m ${cmd}`);
-            term.writeln('Type \x1b[1mhelp\x1b[0m for available commands.');
-        }
-        writeFallbackPrompt();
-      } else if (ch === '\x7f') {
-        // Backspace
-        if (lineBufferRef.current.length > 0) {
-          lineBufferRef.current = lineBufferRef.current.slice(0, -1);
-          term.write('\b \b');
-        }
-      } else if (ch >= ' ') {
-        lineBufferRef.current += ch;
-        term.write(ch);
-      }
-    }
-  }, [labSlug, writeFallbackPrompt, onClose]);
+  // Stable refs for callbacks so the mount effect runs only once per labSlug
+  const onReadyRef = useRef(onReady);
+  const onCloseRef = useRef(onClose);
+  useEffect(() => { onReadyRef.current = onReady; }, [onReady]);
+  useEffect(() => { onCloseRef.current = onClose; }, [onClose]);
 
   useEffect(() => {
     if (!containerRef.current) return;
 
     let disposed = false;
+    const lineBuffer = { value: '' };
+    const dataDisposables: Array<{ dispose: () => void }> = [];
+
+    const writeFallbackPrompt = (t: XTerminal) => {
+      t.write('\r\n\x1b[36marmor@lab\x1b[0m:\x1b[33m~/' + labSlug + '\x1b[0m$ ');
+    };
+
+    const handleFallbackInput = (t: XTerminal, data: string) => {
+      for (const ch of data) {
+        if (ch === '\r' || ch === '\n') {
+          const cmd = lineBuffer.value.trim();
+          lineBuffer.value = '';
+          t.write('\r\n');
+
+          if (!cmd) {
+            writeFallbackPrompt(t);
+            continue;
+          }
+
+          switch (cmd) {
+            case 'help':
+              t.writeln('\x1b[1mAvailable commands:\x1b[0m');
+              t.writeln('  help       Show this message');
+              t.writeln('  scan       Run a simulated Modbus scan');
+              t.writeln('  status     Show lab runtime status');
+              t.writeln('  clear      Clear the screen');
+              t.writeln('  exit       Close the terminal');
+              break;
+            case 'scan':
+              t.writeln('\x1b[36m[i]\x1b[0m Scanning Modbus/TCP on 127.0.0.1:502…');
+              t.writeln('  Slave ID 1 … \x1b[32mONLINE\x1b[0m  (holding registers: 40001–40100)');
+              t.writeln('  Slave ID 2 … \x1b[32mONLINE\x1b[0m  (coils: 00001–00064)');
+              t.writeln('  Slave ID 3 … \x1b[31mOFFLINE\x1b[0m');
+              t.writeln('\x1b[36m[i]\x1b[0m Scan complete. 2/3 slaves responding.');
+              break;
+            case 'status':
+              t.writeln('\x1b[36m[i]\x1b[0m Lab: ' + labSlug);
+              t.writeln('  Runtime:    \x1b[33mlocal-fallback\x1b[0m (no WS connection)');
+              t.writeln('  Protocol:   Modbus/TCP');
+              t.writeln('  Port:       502');
+              t.writeln('  Status:     \x1b[33mSimulated\x1b[0m');
+              break;
+            case 'clear':
+              t.clear();
+              break;
+            case 'exit':
+              t.writeln('\x1b[90mSession closed.\x1b[0m');
+              onCloseRef.current?.('user-exit');
+              return;
+            default:
+              t.writeln(`\x1b[31mCommand not found:\x1b[0m ${cmd}`);
+              t.writeln('Type \x1b[1mhelp\x1b[0m for available commands.');
+          }
+          writeFallbackPrompt(t);
+        } else if (ch === '\x7f') {
+          if (lineBuffer.value.length > 0) {
+            lineBuffer.value = lineBuffer.value.slice(0, -1);
+            t.write('\b \b');
+          }
+        } else if (ch >= ' ') {
+          lineBuffer.value += ch;
+          t.write(ch);
+        }
+      }
+    };
 
     async function init() {
       const { Terminal } = await import('@xterm/xterm');
@@ -203,14 +204,16 @@ export default function LabTerminal({ labSlug, onReady, onClose, className }: Te
           setState('connected');
           term.writeln('\x1b[32m[✓]\x1b[0m Connected to lab runtime.');
           term.writeln('');
-          onReady?.();
+          onReadyRef.current?.();
 
-          // Pipe terminal input → WS
-          term.onData((data) => {
-            if (ws.readyState === WebSocket.OPEN) {
-              ws.send(data);
-            }
-          });
+          // Pipe terminal input → WS (single handler, tracked for disposal)
+          dataDisposables.push(
+            term.onData((data) => {
+              if (ws.readyState === WebSocket.OPEN) {
+                ws.send(data);
+              }
+            })
+          );
         };
 
         ws.onmessage = (evt) => {
@@ -224,7 +227,7 @@ export default function LabTerminal({ labSlug, onReady, onClose, className }: Te
           if (evt.code === 1000) {
             setState('closed');
             term.writeln('\r\n\x1b[90m[i] Connection closed.\x1b[0m');
-            onClose?.('server-close');
+            onCloseRef.current?.('server-close');
           } else {
             startFallback(term);
           }
@@ -240,17 +243,22 @@ export default function LabTerminal({ labSlug, onReady, onClose, className }: Te
 
       function startFallback(t: XTerminal) {
         if (disposed) return;
+        // Dispose any prior data handlers (e.g. WS handler) so each
+        // keystroke is processed exactly once — fixes the "hheellpp"
+        // doubling that occurred when both handlers were active.
+        while (dataDisposables.length) dataDisposables.pop()?.dispose();
         setState('fallback');
         t.writeln('\x1b[33m[!]\x1b[0m Lab runtime not available — entering local simulation.');
         t.writeln('    Type \x1b[1mhelp\x1b[0m for commands.');
-        writeFallbackPrompt();
-        t.onData(handleFallbackInput);
-        onReady?.();
+        writeFallbackPrompt(t);
+        dataDisposables.push(t.onData((data) => handleFallbackInput(t, data)));
+        onReadyRef.current?.();
       }
 
       return () => {
         disposed = true;
         ro.disconnect();
+        while (dataDisposables.length) dataDisposables.pop()?.dispose();
         wsRef.current?.close();
         term.dispose();
         termRef.current = null;
@@ -260,7 +268,7 @@ export default function LabTerminal({ labSlug, onReady, onClose, className }: Te
 
     const cleanup = init();
     return () => { disposed = true; cleanup.then((fn) => fn?.()); };
-  }, [labSlug, onReady, onClose, writeFallbackPrompt, handleFallbackInput]);
+  }, [labSlug]);
 
   return (
     <div className={className}>
@@ -284,8 +292,8 @@ export default function LabTerminal({ labSlug, onReady, onClose, className }: Te
            'connecting…'}
         </span>
       </div>
-      {/* Terminal container */}
-      <div ref={containerRef} className="h-[400px] bg-[#0F172A]" />
+      {/* Terminal container — responsive height for mobile */}
+      <div ref={containerRef} className="h-[280px] sm:h-[360px] lg:h-[400px] bg-[#0F172A]" />
     </div>
   );
 }

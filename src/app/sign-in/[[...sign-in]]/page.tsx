@@ -7,7 +7,7 @@
 import { SignIn } from '@clerk/nextjs';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { Shield, Terminal, Lock, Wifi } from 'lucide-react';
+import { Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Sign In',
@@ -18,9 +18,9 @@ export const metadata: Metadata = {
 
 export default function SignInPage() {
   return (
-    <div className="min-h-screen bg-ai-deep flex">
-      {/* Left side - Terminal-themed branding */}
-      <div className="hidden lg:flex lg:w-1/2 relative overflow-hidden bg-ai-deep-2">
+    <div className="min-h-screen bg-ai-deep flex flex-col lg:flex-row">
+      {/* Left side — Terminal-themed branding (desktop) */}
+      <div className="hidden lg:flex lg:w-[55%] xl:w-1/2 relative overflow-hidden bg-ai-deep-2">
         {/* Scan-line overlay */}
         <div
           className="pointer-events-none absolute inset-0 z-20"
@@ -50,140 +50,148 @@ export default function SignInPage() {
           aria-hidden
         />
 
-        <div className="relative z-10 flex flex-col justify-center px-14 py-16">
-          {/* Brand */}
-          <Link href="/" className="mb-10 inline-flex items-center gap-3">
-            <div className="w-10 h-10 rounded-ai-tile bg-ai-cyber/10 border border-ai-cyber/20 flex items-center justify-center">
-              <Shield className="w-5 h-5 text-ai-cyber" />
+        <div className="relative z-10 flex flex-col justify-between px-12 xl:px-16 py-16 w-full max-w-[600px] mx-auto">
+          {/* Top: Brand */}
+          <Link href="/" className="inline-flex items-center gap-3 self-start group">
+            <div className="w-9 h-9 rounded-ai-tile bg-ai-cyber/10 border border-ai-cyber/30 flex items-center justify-center group-hover:border-ai-cyber transition-colors">
+              <Shield className="w-[18px] h-[18px] text-ai-cyber" />
             </div>
-            <span className="text-[24px] font-extrabold tracking-tight">
+            <span className="text-[20px] font-bold tracking-tight">
               <span className="text-white">Armor</span>
               <span className="text-ai-cyber">Innovate</span>
             </span>
           </Link>
 
-          {/* Terminal window */}
-          <div className="rounded-ai-card border border-ai-line-deep bg-[#0a0f1a] overflow-hidden mb-8 shadow-2xl">
-            {/* Title bar */}
-            <div className="flex items-center gap-2 px-4 py-2.5 border-b border-ai-line-deep bg-[#0d1321]">
-              <span className="w-3 h-3 rounded-full bg-[#ff5f57]" />
-              <span className="w-3 h-3 rounded-full bg-[#febc2e]" />
-              <span className="w-3 h-3 rounded-full bg-[#28c840]" />
-              <span className="ml-3 text-[11px] text-ai-ink-on-deep-dim font-mono">
-                armor@ics-lab:~
-              </span>
-            </div>
-            {/* Terminal content */}
-            <div className="p-5 font-mono text-[13px] leading-[1.8] text-ai-ink-on-deep-soft">
-              <p>
-                <span className="text-ai-cyber">$</span>{' '}
-                <span className="text-ai-ink-on-deep">whoami</span>
-              </p>
-              <p className="text-ai-ok">iec62443-operator</p>
-
-              <p className="mt-2">
-                <span className="text-ai-cyber">$</span>{' '}
-                <span className="text-ai-ink-on-deep">cat /etc/armor/status</span>
-              </p>
-              <p>
-                <span className="text-ai-ink-on-deep-dim">[</span>
-                <span className="text-ai-ok">ONLINE</span>
-                <span className="text-ai-ink-on-deep-dim">]</span>{' '}
-                Training platform active
-              </p>
-              <p>
-                <span className="text-ai-ink-on-deep-dim">[</span>
-                <span className="text-ai-ok">ONLINE</span>
-                <span className="text-ai-ink-on-deep-dim">]</span>{' '}
-                Lab simulators ready
-              </p>
-              <p>
-                <span className="text-ai-ink-on-deep-dim">[</span>
-                <span className="text-ai-warn">ALERT</span>
-                <span className="text-ai-ink-on-deep-dim">]</span>{' '}
-                3 new CISA ICS advisories
-              </p>
-
-              <p className="mt-2">
-                <span className="text-ai-cyber">$</span>{' '}
-                <span className="text-ai-ink-on-deep">armor --authenticate</span>
-              </p>
-              <p className="text-ai-cyber animate-pulse">▊</p>
-            </div>
+          {/* Middle: Headline + value prop */}
+          <div className="my-12">
+            <p className="text-[11px] font-mono uppercase tracking-[0.2em] text-ai-cyber mb-5">
+              IEC 62443 · ICS Security Training
+            </p>
+            <h1 className="text-[36px] xl:text-[42px] font-bold leading-[1.1] tracking-tight text-white mb-5">
+              The operating system for{' '}
+              <span className="text-ai-cyber">OT defenders</span>.
+            </h1>
+            <p className="text-[15px] text-ai-ink-on-deep-soft leading-relaxed max-w-[440px]">
+              Hands-on labs, structured certification tracks, and live vulnerability intelligence — built for the engineers keeping plants running.
+            </p>
           </div>
 
-          {/* Feature badges */}
-          <div className="space-y-3">
-            <div className="flex items-center gap-3">
-              <Terminal className="w-4 h-4 text-ai-cyber" />
-              <span className="text-[13px] text-ai-ink-on-deep-soft">
-                Hands-on labs — Modbus, S7comm, EtherNet/IP
+          {/* Bottom: Compact terminal accent */}
+          <div className="rounded-ai-card border border-ai-line-deep bg-[#080d18] overflow-hidden shadow-2xl">
+            <div className="flex items-center gap-2 px-4 py-2.5 border-b border-ai-line-deep bg-black/50">
+              <span className="w-2.5 h-2.5 rounded-full bg-[#ff5f57]" />
+              <span className="w-2.5 h-2.5 rounded-full bg-[#febc2e]" />
+              <span className="w-2.5 h-2.5 rounded-full bg-[#28c840]" />
+              <span className="ml-2 text-[10.5px] text-ai-ink-on-deep-dim font-mono uppercase tracking-wider">
+                armor@ics-lab — secure session
               </span>
             </div>
-            <div className="flex items-center gap-3">
-              <Lock className="w-4 h-4 text-ai-cyber" />
-              <span className="text-[13px] text-ai-ink-on-deep-soft">
-                IEC 62443 certification — Foundations to Expert
-              </span>
-            </div>
-            <div className="flex items-center gap-3">
-              <Wifi className="w-4 h-4 text-ai-cyber" />
-              <span className="text-[13px] text-ai-ink-on-deep-soft">
-                Live vulnerability intelligence feed
-              </span>
+            <div className="p-5 font-mono text-[12.5px] leading-[1.85] text-ai-ink-on-deep-soft">
+              <p>
+                <span className="text-ai-cyber">$</span>{' '}
+                <span className="text-ai-ink-on-deep">armor status</span>
+              </p>
+              <p>
+                <span className="text-ai-ok">●</span>{' '}
+                <span className="text-ai-ink-on-deep-soft">platform</span>{' '}
+                <span className="text-ai-ok">online</span>
+              </p>
+              <p>
+                <span className="text-ai-ok">●</span>{' '}
+                <span className="text-ai-ink-on-deep-soft">lab simulators</span>{' '}
+                <span className="text-ai-ok">ready</span>{' '}
+                <span className="text-ai-ink-on-deep-dim">(6 active)</span>
+              </p>
+              <p>
+                <span className="text-ai-warn">●</span>{' '}
+                <span className="text-ai-ink-on-deep-soft">advisories</span>{' '}
+                <span className="text-ai-warn">3 new</span>
+              </p>
+              <p className="mt-2.5">
+                <span className="text-ai-cyber">$</span>{' '}
+                <span className="text-ai-ink-on-deep">authenticate</span>
+                <span className="text-ai-cyber animate-pulse ml-1">▁</span>
+              </p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Right side - Sign In Form */}
-      <div className="flex-1 flex flex-col items-center justify-center px-8 py-12 bg-ai-deep">
+      {/* Right side — Sign In Form */}
+      <div className="flex-1 flex flex-col items-center justify-center px-5 sm:px-8 py-10 sm:py-12 bg-ai-deep">
+        {/* Mobile brand header (visible only under lg) */}
+        <div className="lg:hidden w-full max-w-md mb-8">
+          <Link href="/" className="inline-flex items-center gap-2.5 mb-6">
+            <div className="w-9 h-9 rounded-ai-tile bg-ai-cyber/10 border border-ai-cyber/30 flex items-center justify-center">
+              <Shield className="w-[18px] h-[18px] text-ai-cyber" />
+            </div>
+            <span className="text-[20px] font-bold tracking-tight">
+              <span className="text-white">Armor</span>
+              <span className="text-ai-cyber">Innovate</span>
+            </span>
+          </Link>
+          <p className="text-[11px] font-mono uppercase tracking-[0.2em] text-ai-cyber mb-2">
+            IEC 62443 · ICS Security
+          </p>
+          <h1 className="text-[26px] font-bold leading-tight tracking-tight text-white">
+            The operating system for{' '}
+            <span className="text-ai-cyber">OT defenders</span>.
+          </h1>
+        </div>
+
         <div className="w-full max-w-md">
-          {/* Mobile brand */}
-          <div className="lg:hidden mb-8 text-center">
-            <Link href="/" className="inline-flex items-center gap-2.5">
-              <Shield className="w-6 h-6 text-ai-cyber" />
-              <span className="text-[22px] font-extrabold tracking-tight">
-                <span className="text-white">Armor</span>
-                <span className="text-ai-cyber">Innovate</span>
-              </span>
-            </Link>
-          </div>
 
           <SignIn
             appearance={{
+              variables: {
+                colorPrimary: '#06B6D4',
+                colorBackground: '#0F172A',
+                colorText: '#E2E8F0',
+                colorInputBackground: '#080d18',
+                colorInputText: '#FFFFFF',
+                colorTextSecondary: '#94A3B8',
+                colorTextOnPrimaryBackground: '#0B1F3A',
+                borderRadius: '0.5rem',
+                fontFamily: 'inherit',
+              },
               elements: {
                 rootBox: 'w-full',
-                card: 'bg-ai-deep-2 border border-ai-line-deep rounded-ai-card shadow-2xl',
-                headerTitle: 'text-white font-bold',
-                headerSubtitle: 'text-ai-ink-on-deep-dim',
-                formFieldLabel: 'text-ai-ink-on-deep-soft text-[13px]',
+                card: 'bg-ai-deep-2 border border-ai-line-deep rounded-ai-card shadow-2xl px-6 py-8 sm:px-8',
+                headerTitle: 'text-white text-[22px] font-bold',
+                headerSubtitle: 'text-ai-ink-on-deep-dim text-[13px]',
+                formFieldLabel: 'text-ai-ink-on-deep-soft text-[12.5px] font-medium',
                 formFieldInput:
-                  'bg-[#0a0f1a] border-ai-line-deep text-white placeholder:text-ai-ink-on-deep-dim focus:border-ai-cyber focus:ring-ai-cyber/30 rounded-ai-tile',
+                  'bg-[#080d18] border border-ai-line-deep text-white placeholder:text-ai-ink-on-deep-dim focus:border-ai-cyber focus:ring-2 focus:ring-ai-cyber/20 rounded-md transition-all',
                 formButtonPrimary:
-                  'bg-ai-cyber hover:bg-ai-cyber-glow hover:text-ai-deep text-ai-deep font-bold rounded-ai-tile transition-all',
-                footerActionLink: 'text-ai-cyber hover:text-ai-cyber-glow',
+                  'bg-ai-cyber hover:bg-ai-cyber-glow text-ai-deep font-bold rounded-md transition-all normal-case text-[14px] py-2.5 shadow-lg shadow-ai-cyber/20',
+                footerActionLink: 'text-ai-cyber hover:text-ai-cyber-glow font-semibold',
                 socialButtonsBlockButton:
-                  'bg-[#0a0f1a] border-ai-line-deep text-ai-ink-on-deep-soft hover:bg-ai-grid hover:border-ai-cyber/30 rounded-ai-tile',
-                socialButtonsBlockButtonText: 'text-ai-ink-on-deep-soft',
+                  'bg-[#080d18] border border-ai-line-deep text-ai-ink-on-deep-soft hover:bg-ai-grid hover:border-ai-cyber/40 rounded-md transition-all normal-case',
+                socialButtonsBlockButtonText: 'text-ai-ink-on-deep-soft font-medium',
                 dividerLine: 'bg-ai-line-deep',
-                dividerText: 'text-ai-ink-on-deep-dim',
+                dividerText: 'text-ai-ink-on-deep-dim text-[11px] uppercase tracking-wider',
                 formFieldInputShowPasswordButton: 'text-ai-ink-on-deep-dim hover:text-ai-cyber',
                 identityPreviewEditButton: 'text-ai-cyber hover:text-ai-cyber-glow',
                 formResendCodeLink: 'text-ai-cyber hover:text-ai-cyber-glow',
-                otpCodeFieldInput: 'bg-[#0a0f1a] border-ai-line-deep text-white',
+                otpCodeFieldInput: 'bg-[#080d18] border-ai-line-deep text-white',
                 footer: 'bg-transparent',
                 footerAction: 'bg-transparent',
-                footerActionText: 'text-ai-ink-on-deep-dim',
+                footerActionText: 'text-ai-ink-on-deep-dim text-[12.5px]',
+                formFieldAction: 'text-ai-cyber hover:text-ai-cyber-glow',
               },
             }}
           />
 
-          <p className="mt-8 text-center text-[12px] text-ai-ink-on-deep-dim font-mono">
-            Don&apos;t have an account?{' '}
-            <Link href="/sign-up" className="font-bold text-ai-cyber hover:text-ai-cyber-glow transition-colors">
-              Sign up
+          <p className="mt-6 text-center text-[12px] text-ai-ink-on-deep-dim">
+            By signing in you agree to our{' '}
+            <Link href="/terms" className="text-ai-ink-on-deep-soft hover:text-ai-cyber transition-colors underline underline-offset-2 decoration-ai-line-deep">
+              Terms
+            </Link>{' '}
+            and{' '}
+            <Link href="/privacy" className="text-ai-ink-on-deep-soft hover:text-ai-cyber transition-colors underline underline-offset-2 decoration-ai-line-deep">
+              Privacy Policy
             </Link>
+            .
           </p>
         </div>
       </div>

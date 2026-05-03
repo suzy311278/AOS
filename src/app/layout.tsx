@@ -88,7 +88,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           `}
         </Script>
       </head>
-      <body className="gt-redesign-root min-h-screen flex flex-col bg-gray-50">
+      <body className="gt-redesign-root min-h-screen flex flex-col bg-gray-50 overflow-x-hidden">
         <ClerkProvider>
           <MigrationBanner />
           {children}
