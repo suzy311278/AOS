@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 
 const EF_CATALOG = dataCatalogSchema({
   url: `${SITE_ORIGIN}/emission-factors`,
-  name: 'Greentryst Emission Factor Database',
+  name: 'ArmorInnovate Emission Factor Database',
   description:
     'Reference library of greenhouse-gas emission factors with full provenance, citation formats, and vintage tracking. Sourced from DEFRA, US EPA, India CEA, IPCC, and other primary bodies. Every factor links to its source document.',
 });

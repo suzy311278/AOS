@@ -3,7 +3,7 @@
  *
  * Dedicated services enquiry form. Separate from /redesign/feedback
  * because a services enquiry is a sales lead, not a bug report.
- * Captures the fields a Greentryst analyst needs to respond with a
+ * Captures the fields a ArmorInnovate analyst needs to respond with a
  * concrete proposal: company, role, engagement, timeline, budget.
  */
 
@@ -351,7 +351,7 @@ function EnquireForm() {
 
           <div className="flex items-center justify-between gap-4 flex-wrap">
             <p className="text-[11.5px] text-gt-text-muted leading-snug max-w-md">
-              By submitting you agree to Greentryst contacting you about this enquiry. No marketing, no list.
+              By submitting you agree to ArmorInnovate contacting you about this enquiry. No marketing, no list.
             </p>
             <button
               type="submit"

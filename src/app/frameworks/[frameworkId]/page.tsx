@@ -1,5 +1,5 @@
 /**
- * /frameworks/[frameworkId] — Greentryst's landing page for a single
+ * /frameworks/[frameworkId] — ArmorInnovate's landing page for a single
  * disclosure framework. Brutalist editorial treatment: heavy typography,
  * rules as hierarchy, restrained color, semantic HTML throughout.
  *
@@ -44,7 +44,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const fw = getFramework(params.frameworkId);
   if (!fw) return { title: 'Framework not found' };
-  const title = fw.seo_title ?? `${fw.name}: Practitioner Guide | Greentryst`;
+  const title = fw.seo_title ?? `${fw.name}: Practitioner Guide | ArmorInnovate`;
   const description =
     fw.seo_description ??
     fw.summary.replace(/\s+/g, ' ').trim().slice(0, 160);
@@ -59,7 +59,7 @@ export async function generateMetadata({
       description,
       url,
       type: 'article',
-      siteName: 'Greentryst',
+      siteName: 'ArmorInnovate',
     },
     twitter: {
       card: 'summary_large_image',
@@ -212,7 +212,7 @@ export default function FrameworkOverviewPage({
     '@type': 'CreativeWork',
     '@id': `${pageUrl}#framework`,
     url: pageUrl,
-    name: `Greentryst Practitioner Guide to ${fw.short_name}`,
+    name: `ArmorInnovate Practitioner Guide to ${fw.short_name}`,
     headline: fw.name,
     alternateName: fw.short_name,
     description: [fw.summary, fw.long_summary]
@@ -308,7 +308,7 @@ export default function FrameworkOverviewPage({
           <div className="flex items-center justify-between pb-4 border-b border-black/80">
             <p className={`${MONO} text-black/85`}>
               <Link href="/" className="hover:text-gt-medium transition-colors">
-                Greentryst
+                ArmorInnovate
               </Link>{' '}
               /{' '}
               <Link
@@ -320,7 +320,7 @@ export default function FrameworkOverviewPage({
               / <span className="text-black">{fw.short_name}</span>
             </p>
             <p className={`${MONO} text-black/60`}>
-              Updated April 2026 · Greentryst Climate Disclosure Desk
+              Updated April 2026 · ArmorInnovate Climate Disclosure Desk
             </p>
           </div>
 
@@ -339,7 +339,7 @@ export default function FrameworkOverviewPage({
                   'Practitioner Guide'}
               </p>
               <p className="text-[16px] text-black/70 leading-[1.7] max-w-[620px]">
-                Greentryst's step-by-step implementation guide to{' '}
+                ArmorInnovate's step-by-step implementation guide to{' '}
                 {fw.short_name}, written for reporting teams, auditors, and
                 boards. Every paragraph of
                 the standard, from{' '}
@@ -471,7 +471,7 @@ export default function FrameworkOverviewPage({
                   {fw.short_name} Paragraph {demoClause.ref}
                 </h2>
                 <p className="mt-4 text-[16px] text-white/60 italic">
-                  Every clause on Greentryst is read three ways. Here is
+                  Every clause on ArmorInnovate is read three ways. Here is
                   the pattern, applied to {fw.short_name} paragraph{' '}
                   {demoClause.ref}.
                 </p>
@@ -498,7 +498,7 @@ export default function FrameworkOverviewPage({
                   label="What it means · Plain language"
                   family="sans"
                   body={demoClause.plain_english}
-                  footer="Climate Disclosure Desk · Greentryst"
+                  footer="Climate Disclosure Desk · ArmorInnovate"
                 />
                 <div className="h-[1px] bg-white/30" aria-hidden />
               </>
@@ -694,7 +694,7 @@ export default function FrameworkOverviewPage({
                   className="group block bg-white border border-black/10 p-8 hover:bg-black hover:text-white transition-colors"
                 >
                   <p className={`${MONO} text-gt-medium group-hover:text-gt-leaf mb-4`}>
-                    Greentryst Course
+                    ArmorInnovate Course
                   </p>
                   <h3 className="text-[26px] font-extrabold leading-[1.1] tracking-tight mb-3">
                     {course.title}
@@ -722,7 +722,7 @@ export default function FrameworkOverviewPage({
         <div className="max-w-[1280px] mx-auto px-10 py-10">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
             <p className={`${MONO} text-white/70`}>
-              Greentryst Practitioner Guide · {fw.short_name} · 2026
+              ArmorInnovate Practitioner Guide · {fw.short_name} · 2026
             </p>
             <p className={`${MONO} text-white/50`}>
               Climate Disclosure Desk · Reviewed by Editorial Board · Updated

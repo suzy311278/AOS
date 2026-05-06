@@ -1,7 +1,7 @@
 // Citation formatters for emission factors.
 // Four deterministic formats driven from factor + source metadata.
 //
-// Attribution suffix uses " - via Greentryst" (space hyphen space) per the
+// Attribution suffix uses " - via ArmorInnovate" (space hyphen space) per the
 // global no-em-dash rule.
 
 import type { Factor, Source } from './types';
@@ -9,7 +9,7 @@ import { formatUnit } from './unit-display';
 
 export type CitationFormat = 'inline' | 'apa' | 'harvard' | 'copy_value';
 
-const VIA = ' - via Greentryst';
+const VIA = ' - via ArmorInnovate';
 
 export function sourceShortCitation(source: Source): string {
   return `${source.publisher_short} ${source.vintage_year}`;

@@ -35,18 +35,19 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_ORIGIN),
   // default is the homepage title. Leaf pages override via generateMetadata
   // or export const metadata = { title: '...' }, and title.template wraps
-  // their bare title with ' | Greentryst'. Do NOT append the suffix
-  // manually in leaf pages — that produces ' | Greentryst | Greentryst'.
+  // their bare title with ' | ArmorInnovate'. Do NOT append the suffix
+  // manually in leaf pages — that produces ' | ArmorInnovate | ArmorInnovate'.
   title: {
-    default: 'Sustainability Software for CSRD, GHG Protocol & ESG',
-    template: '%s | Greentryst',
+    default: 'ArmorInnovate OS — IEC 62443 & ICS Pentesting Operating System',
+    template: '%s | ArmorInnovate',
   },
   description:
-    'Sustainability professionals learn frameworks (GRI, SASB, TCFD, IFRS S2, SBTi), get AI answers sourced to regulations, and track 120+ rules across 14+ geographies.',
+    'The professional operating system for ICS / SCADA security: IEC 62443 certification, hands-on OT pentesting labs, and live vulnerability intelligence — in one disciplined platform.',
   keywords: [
-    'sustainability', 'ESG', 'carbon markets', 'climate science', 'GHG accounting',
-    'Scope 1', 'Scope 2', 'Scope 3', 'carbon credits', 'TCFD', 'IFRS S2', 'SBTi',
-    'net zero', 'green finance', 'SFDR', 'EU Taxonomy', 'CSRD', 'PCAF',
+    'IEC 62443', 'ICS security', 'OT security', 'SCADA', 'PLC pentesting',
+    'industrial cybersecurity', 'Modbus', 'S7comm', 'EtherNet/IP', 'CISA ICS-CERT',
+    'NIST SP 800-82', 'OT vulnerability intelligence', 'industrial control systems',
+    'cybersecurity training', 'pentesting labs',
   ],
   // openGraph.siteName and locale are fine to set at root because they're
   // the same for every page. url, title, and description must be owned
@@ -54,7 +55,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    siteName: 'Greentryst',
+    siteName: 'ArmorInnovate',
   },
   twitter: {
     card: 'summary_large_image',

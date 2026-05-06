@@ -43,7 +43,7 @@ export default function ToolsHubPage() {
               Tools for sustainability practitioners
             </SectionHeading>
             <p className="mt-4 text-lg text-gt-text-muted">
-              Greentryst tools share one backbone: every number carries a
+              ArmorInnovate tools share one backbone: every number carries a
               source, a vintage, and a one-click citation. Pick the group
               that matches the job in front of you.
             </p>

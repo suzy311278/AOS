@@ -89,7 +89,7 @@
 /* ============================================================
    ArmorInnovate OS — Cyber-Industrial base
    Scoped under .ai-root so it never bleeds into legacy
-   Greentryst pages. Apply .ai-root on the page wrapper.
+   ArmorInnovate pages. Apply .ai-root on the page wrapper.
    ============================================================ */
 @layer base {
   .ai-root {

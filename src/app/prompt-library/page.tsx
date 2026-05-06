@@ -91,10 +91,10 @@ export default function PromptLibraryIndex() {
             New prompts land every few weeks. If there is a sustainability
             writing task you want a prompt for, write to us at{' '}
             <a
-              href="mailto:hello@greentryst.com"
+              href="mailto:hello@armorinnovate.com"
               className="text-[#005c55] font-semibold"
             >
-              hello@greentryst.com
+              hello@armorinnovate.com
             </a>
             . A real person reads every message.
           </p>

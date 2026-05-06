@@ -64,7 +64,7 @@ const TIERS: Tier[] = [
     id: 'free',
     audience: 'individuals',
     name: 'Free',
-    tagline: 'Try Greentryst without commitment.',
+    tagline: 'Try ArmorInnovate without commitment.',
     monthly: 0,
     annual: null,
     cta: 'Start free',

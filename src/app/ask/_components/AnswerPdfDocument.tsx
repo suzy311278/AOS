@@ -2,7 +2,7 @@
  * PDF Document for the "Download PDF" feature on /redesign/ask.
  *
  * Rendered client-side via @react-pdf/renderer `pdf(...).toBlob()`.
- * Uses the Greentryst design tokens: Inter font family, teal accents
+ * Uses the ArmorInnovate design tokens: Inter font family, teal accents
  * on light cream background, rounded-friendly layout, subtle watermark.
  */
 
@@ -559,7 +559,7 @@ export function AnswerPdfDocument({ data, logoUrl }: AnswerPdfDocumentProps) {
   const Footer = (
     <View style={styles.footer} fixed>
       <Text>Generated {data.generatedAt}</Text>
-      <Text>greentryst.com</Text>
+      <Text>armorinnovate.com</Text>
     </View>
   );
 
@@ -567,9 +567,9 @@ export function AnswerPdfDocument({ data, logoUrl }: AnswerPdfDocumentProps) {
 
   return (
     <Document
-      title={`Greentryst SustainIQ — ${data.query.slice(0, 80)}`}
-      author="Greentryst"
-      creator="Greentryst SustainIQ"
+      title={`ArmorInnovate SustainIQ — ${data.query.slice(0, 80)}`}
+      author="ArmorInnovate"
+      creator="ArmorInnovate SustainIQ"
     >
       <Page size="A4" style={styles.page}>
         {Header}
@@ -625,7 +625,7 @@ export function AnswerPdfDocument({ data, logoUrl }: AnswerPdfDocumentProps) {
         {Watermark}
         <View style={styles.footer} fixed>
           <Text>Generated {data.generatedAt}</Text>
-          <Text>greentryst.com</Text>
+          <Text>armorinnovate.com</Text>
         </View>
 
         {logoUrl ? (
@@ -642,9 +642,9 @@ export function AnswerPdfDocument({ data, logoUrl }: AnswerPdfDocumentProps) {
             GREENTRYST
           </Text>
         )}
-        <Text style={styles.aboutTitle}>About Greentryst</Text>
+        <Text style={styles.aboutTitle}>About ArmorInnovate</Text>
         <Text style={styles.aboutBody}>
-          Greentryst is a professional platform for sustainability practitioners. It covers climate science, carbon markets, ESG and corporate reporting, clean energy, biodiversity, and the circular economy, drawing on primary sources rather than secondary commentary. SustainIQ, the intelligence layer used to generate this document, grounds every answer in verified references such as VM0042, the EU CBAM regulation, the CSRD and ESRS standards, IPCC AR6, and the GHG Protocol. Each citation resolves to a specific page, so any claim in this document can be traced back to the source. More at greentryst.com.
+          ArmorInnovate is a professional platform for sustainability practitioners. It covers climate science, carbon markets, ESG and corporate reporting, clean energy, biodiversity, and the circular economy, drawing on primary sources rather than secondary commentary. SustainIQ, the intelligence layer used to generate this document, grounds every answer in verified references such as VM0042, the EU CBAM regulation, the CSRD and ESRS standards, IPCC AR6, and the GHG Protocol. Each citation resolves to a specific page, so any claim in this document can be traced back to the source. More at armorinnovate.com.
         </Text>
         <Text style={styles.aboutCaption}>
           This document was generated from a SustainIQ session on

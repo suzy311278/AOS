@@ -458,7 +458,7 @@ const SERVICES: Service[] = [
       'Framework readiness scan (GHG, CSRD, BRSR, IFRS S1/S2, TCFD, CDP)',
       'Gap snapshot across data, process, and disclosures',
       'Three prioritised next steps with effort estimates',
-      'Recommended Greentryst tier and tool shortlist',
+      'Recommended ArmorInnovate tier and tool shortlist',
     ],
     outcome:
       'You leave the call with a written gap snapshot and a recommended 6-week plan.',
@@ -495,7 +495,7 @@ const SERVICES: Service[] = [
     includes: [
       'Free downloadable gap checklists for CSRD, BRSR, IFRS S2, TCFD, GRI, SBTi',
       'Self-assessment with guided prompts and worked examples',
-      'Optional 3-hour live walk-through with a Greentryst analyst',
+      'Optional 3-hour live walk-through with a ArmorInnovate analyst',
       'Gap prioritisation with severity and effort scoring',
       'Remediation roadmap with owner and timeline',
       'Export-ready documentation for internal review and audit',
@@ -514,7 +514,7 @@ const SERVICES: Service[] = [
     includes: [
       'Coverage of CDP, MSCI, Sustainalytics, S&P Global CSA, ISS ESG, EcoVadis, Moody\u2019s',
       'Response drafting with source citations and evidence links',
-      'Evidence library built inside your Greentryst workspace',
+      'Evidence library built inside your ArmorInnovate workspace',
       'Year-on-year score-improvement plan with prioritised actions',
       'Rating-agency dialogue and clarification management',
       'Post-submission score analysis and next-cycle roadmap',
@@ -536,7 +536,7 @@ const SERVICES: Service[] = [
       'Data collection templates for Finance, Procurement, and Ops',
       'Hybrid method calculations with factor-level citations',
       'Recalculation policy and base-year documentation',
-      'Verification-ready workbook with Greentryst audit trail',
+      'Verification-ready workbook with ArmorInnovate audit trail',
     ],
     outcome:
       'A complete Scope 3 inventory you can disclose and defend, with every line sourced.',
@@ -546,7 +546,7 @@ const SERVICES: Service[] = [
     category: 'Draft',
     title: 'Disclosure Drafting Engagement',
     blurb:
-      'Our team drafts BRSR, CSRD, or TCFD disclosures using your data and Greentryst Report Drafter. You review and approve; we handle the writing and citation work.',
+      'Our team drafts BRSR, CSRD, or TCFD disclosures using your data and ArmorInnovate Report Drafter. You review and approve; we handle the writing and citation work.',
     duration: '3 to 5 weeks',
     price: 'From $2,800',
     includes: [
@@ -583,18 +583,18 @@ const SERVICES: Service[] = [
     category: 'Enablement',
     title: 'Team Onboarding & Custom Training',
     blurb:
-      'Role-based training for your sustainability, finance, and operations teams. Covers Greentryst workflows plus the frameworks that matter to your disclosure program.',
+      'Role-based training for your sustainability, finance, and operations teams. Covers ArmorInnovate workflows plus the frameworks that matter to your disclosure program.',
     duration: '1 to 2 weeks',
     price: 'From $1,200',
     includes: [
       'Role mapping across your sustainability, finance, and ops teams',
       'Three live sessions tailored to each role and use case',
       'Recorded video library for new joiners',
-      'Greentryst admin setup: seats, SSO, team workspace',
+      'ArmorInnovate admin setup: seats, SSO, team workspace',
       'Thirty-day post-launch office hours',
     ],
     outcome:
-      'Every member of the team is productive on Greentryst within the first week.',
+      'Every member of the team is productive on ArmorInnovate within the first week.',
     Icon: Users,
   },
   {
@@ -619,18 +619,18 @@ const SERVICES: Service[] = [
     category: 'Tooling',
     title: 'Custom Tool or Template Build',
     blurb:
-      'We configure a Greentryst tool or build a custom report template to your internal methodology, so your teams use one workflow instead of five spreadsheets.',
+      'We configure a ArmorInnovate tool or build a custom report template to your internal methodology, so your teams use one workflow instead of five spreadsheets.',
     duration: '3 to 6 weeks',
     price: 'From $2,400',
     includes: [
       'Discovery workshops with your methodology owners',
-      'Tool or template configuration inside Greentryst',
+      'Tool or template configuration inside ArmorInnovate',
       'Hand-off documentation for admins',
       'Two rounds of revisions',
       'Thirty-day bug-fix warranty',
     ],
     outcome:
-      'Your methodology lives inside Greentryst, not in a spreadsheet someone has to maintain.',
+      'Your methodology lives inside ArmorInnovate, not in a spreadsheet someone has to maintain.',
     Icon: Layers,
   },
   {
@@ -709,7 +709,7 @@ const FAQ = [
   },
   {
     q: 'Where is my data stored, and who has access to it?',
-    a: 'Data is stored in EU or US regions depending on your organisation preference. Access is role-scoped inside your workspace; Greentryst engineers only access customer data with written authorisation for support cases. Enterprise plans can pin residency and require private enclaves.',
+    a: 'Data is stored in EU or US regions depending on your organisation preference. Access is role-scoped inside your workspace; ArmorInnovate engineers only access customer data with written authorisation for support cases. Enterprise plans can pin residency and require private enclaves.',
   },
   {
     q: 'Do you offer discounts for students or nonprofits?',
@@ -729,7 +729,7 @@ const FAQ = [
   },
   {
     q: 'Can I bring my own methodology or template?',
-    a: 'Yes on Team and Enterprise. We can configure Greentryst tools and report templates to your methodology under the Custom Tool or Template Build engagement. Your methodology runs inside the platform, with full audit trails.',
+    a: 'Yes on Team and Enterprise. We can configure ArmorInnovate tools and report templates to your methodology under the Custom Tool or Template Build engagement. Your methodology runs inside the platform, with full audit trails.',
   },
 ];
 

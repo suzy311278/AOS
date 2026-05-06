@@ -2,7 +2,7 @@
  * CalloutBoxes
  *
  * Redesigned versions of the four callout components used across
- * nearly every lesson on Greentryst:
+ * nearly every lesson on ArmorInnovate:
  *
  *   - HighlightBoxRedesign  (key takeaways, leaf green accent)
  *   - AnalogyBoxRedesign    (analogies, mint accent)

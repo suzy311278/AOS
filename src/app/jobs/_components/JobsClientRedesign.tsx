@@ -93,7 +93,7 @@ const COURSE_SUGGESTIONS: Record<string, { label: string; href: string }[]> = {
 /* ============================================================
    Match preview (resume-driven, client-side demo)
 
-   The product model: users upload a resume, Greentryst builds
+   The product model: users upload a resume, ArmorInnovate builds
    a profile from it, and we match continuously against every
    job in the board using that profile plus the user's course
    completions and dashboard preferences (region, experience
@@ -1826,7 +1826,7 @@ function LockedDetailPrompt({ jobTitle }: { jobTitle: string }) {
           style={{ fontFamily: 'var(--font-inter), Inter, sans-serif' }}
         >
           Role summary, required skills, and domain context open up with a free
-          Greentryst account. No credit card required.
+          ArmorInnovate account. No credit card required.
         </p>
         <div className="mt-3 flex flex-wrap gap-2">
           <Link

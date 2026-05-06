@@ -4,7 +4,7 @@
  * to guarantee:
  *   - self-referential canonical under metadataBase
  *   - Open Graph `url` that matches canonical
- *   - titles that do NOT include ` | Greentryst` or ` - Greentryst`
+ *   - titles that do NOT include ` | ArmorInnovate` or ` - ArmorInnovate`
  *     suffixes (the root layout's title.template appends them)
  *
  * Usage:
@@ -26,7 +26,7 @@ import type { Metadata } from 'next';
 interface BuildPageMetadataInput {
   /** Path starting with a slash, e.g. '/tools' or '/courses/ghg-scope-3'. */
   path: string;
-  /** Bare title. Do not append ' | Greentryst' — the root title.template handles it. */
+  /** Bare title. Do not append ' | ArmorInnovate' — the root title.template handles it. */
   title: string;
   /** Meta description. Should be 120-160 chars for best SERP rendering. */
   description: string;
@@ -53,10 +53,10 @@ export function buildPageMetadata({
     throw new Error(`buildPageMetadata: path must start with "/" (got: ${path})`);
   }
   // Strip trailing suffix defensively if a caller accidentally includes it.
-  // The root layout's title.template appends ' | Greentryst' — adding it
+  // The root layout's title.template appends ' | ArmorInnovate' — adding it
   // here again is the exact bug we are fixing.
   const cleanTitle = title
-    .replace(/\s*[|\-–]\s*Greentryst\s*(\|\s*Greentryst)?\s*$/i, '')
+    .replace(/\s*[|\-–]\s*ArmorInnovate\s*(\|\s*ArmorInnovate)?\s*$/i, '')
     .trim();
 
   const meta: Metadata = {
@@ -68,7 +68,7 @@ export function buildPageMetadata({
       url: path,
       title: cleanTitle,
       description,
-      siteName: 'Greentryst',
+      siteName: 'ArmorInnovate',
       ...(ogImage ? { images: [{ url: ogImage }] } : {}),
     },
     twitter: {

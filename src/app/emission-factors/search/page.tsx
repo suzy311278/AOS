@@ -19,7 +19,7 @@ import { EFResultsTableClient } from './_results-client';
 export const metadata: Metadata = {
   title: 'Search emission factors',
   description:
-    'Search the Greentryst emission factor library by activity, region, source, scope, and vintage.',
+    'Search the ArmorInnovate emission factor library by activity, region, source, scope, and vintage.',
   alternates: { canonical: '/emission-factors/search' },
   openGraph: {
     type: 'website',

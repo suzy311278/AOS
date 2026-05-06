@@ -150,7 +150,7 @@ export default function PillarPage({
               {disclosures.length} disclosure
               {disclosures.length === 1 ? '' : 's'}
             </span>
-            <span>Authored by Greentryst Climate Disclosure Desk</span>
+            <span>Authored by ArmorInnovate Climate Disclosure Desk</span>
           </div>
         </div>
       </section>
@@ -333,7 +333,7 @@ function DisclosureBlock({
           <p
             className={`${monoLabel} text-gt-medium/70 mt-4 pt-3 border-t border-gt-medium/10`}
           >
-            Plain English · Greentryst
+            Plain English · ArmorInnovate
           </p>
         </div>
 
@@ -398,7 +398,7 @@ function DisclosureBlock({
             </p>
             <p className="text-[11px] text-white/65">
               Readiness check against {framework.short_name} {refLabel} ·
-              Greentryst Assessor, coming soon
+              ArmorInnovate Assessor, coming soon
             </p>
           </div>
         </div>

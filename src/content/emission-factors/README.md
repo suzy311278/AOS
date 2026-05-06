@@ -1,6 +1,6 @@
 # Emission Factors Content
 
-This directory holds every emission factor in the Greentryst Emission Factors product. Factors live here as YAML, never in Turso. The build pipeline reads this directory to generate static factor pages, source pages, and the client-side search index.
+This directory holds every emission factor in the ArmorInnovate Emission Factors product. Factors live here as YAML, never in Turso. The build pipeline reads this directory to generate static factor pages, source pages, and the client-side search index.
 
 See `brainstorming/EMISSION_FACTORS_PRODUCT_SPEC.md` for product intent and `brainstorming/EMISSION_FACTORS_ARCHITECTURE.md` for engineering details.
 

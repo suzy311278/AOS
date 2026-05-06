@@ -114,7 +114,7 @@ export function EFHeroPreviewCardFlip({ examples }: EFHeroPreviewCardFlipProps) 
               </div>
 
               <div className="absolute inset-x-4 bottom-3 text-[9px] uppercase tracking-[0.14em] text-gt-text-dim">
-                Greentryst emission factors
+                ArmorInnovate emission factors
               </div>
             </div>
 

@@ -1,7 +1,7 @@
 /**
  * DarkUICard
  *
- * The signature visual element of the Greentryst design language. A dark
+ * The signature visual element of the ArmorInnovate design language. A dark
  * card (deep green) used to show real product UI previews with label
  * badge, content area, and optional source citation footer.
  *

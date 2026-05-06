@@ -1,7 +1,7 @@
 /**
  * ArmorInnovate course schemas — Zod source of truth.
  *
- * The legacy Greentryst loader (`src/lib/schemas.ts` + `src/lib/courses.ts`)
+ * The legacy ArmorInnovate loader (`src/lib/schemas.ts` + `src/lib/courses.ts`)
  * keeps serving every course under `src/content/<slug>/`. ArmorInnovate
  * runs in parallel under `src/content/armor/<slug>/` so we can ship the
  * new IA without disturbing production traffic.
@@ -63,7 +63,7 @@ export const ArmorLessonSchema = z.object({
   quiz: z.string().regex(/^[\w.\-]+\.yaml$/).optional(),
   /** Optional lab slug to link from the lesson footer. */
   lab: z.string().regex(SLUG_RE).optional(),
-  /** Override SEO title; root layout appends " | Greentryst". Bare title ≤ 59. */
+  /** Override SEO title; root layout appends " | ArmorInnovate". Bare title ≤ 59. */
   seoTitle: z.string().max(59).optional(),
   seoDescription: z.string().max(170).optional(),
 });
@@ -154,7 +154,7 @@ export const ArmorCourseSchema = z.object({
     label: z.string().min(2),
     url: z.string().url(),
   })).default([]),
-  /** Bare title ≤ 59 so root layout's "%s | Greentryst" stays ≤ 70. */
+  /** Bare title ≤ 59 so root layout's "%s | ArmorInnovate" stays ≤ 70. */
   seoTitle: z.string().max(59).optional(),
   seoDescription: z.string().max(170).optional(),
   /** Module → lessons tree. */

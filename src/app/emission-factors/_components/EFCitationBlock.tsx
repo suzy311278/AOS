@@ -5,7 +5,7 @@
  *
  * Tabbed block (Inline / APA / Harvard / Copy-as-value) showing deterministic
  * citation strings. Each tab has a Copy button. Copy-as-value includes a toggle
- * to drop the " - via Greentryst" attribution suffix.
+ * to drop the " - via ArmorInnovate" attribution suffix.
  */
 
 import { useState } from 'react';

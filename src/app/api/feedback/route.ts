@@ -25,7 +25,7 @@ import { SITE_ORIGIN } from '@/lib/site';
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
-const FROM = 'Greentryst Feedback <feedback@greentryst.com>';
+const FROM = 'ArmorInnovate Feedback <feedback@armorinnovate.com>';
 const NOTIFICATION_TO = 'prajjwalkaushik08@gmail.com';
 
 const BodySchema = z.object({
@@ -104,7 +104,7 @@ export async function POST(request: Request) {
         from: FROM,
         to: NOTIFICATION_TO,
         replyTo: email,
-        subject: `[Greentryst ${labelForType(type)}] ${truncate(message, 60)}`,
+        subject: `[ArmorInnovate ${labelForType(type)}] ${truncate(message, 60)}`,
         text: [
           `New ${labelForType(type)} submission #${submissionId ?? '?'}`,
           '',
@@ -172,7 +172,7 @@ function receiptBody({ type, message }: { type: string; message: string }) {
     '',
     `If you remembered one more thing the second after you hit send (always happens), just reply to this email and it lands in the same thread.`,
     '',
-    `The Greentryst team`,
+    `The ArmorInnovate team`,
     SITE_ORIGIN,
   ].join('\n');
 }

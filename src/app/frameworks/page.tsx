@@ -1,10 +1,10 @@
 /**
  * /frameworks — directory of practitioner guides published by the
- * Greentryst Climate Disclosure Desk.
+ * ArmorInnovate Climate Disclosure Desk.
  *
  * The page is not a list of frameworks. It is a list of the GUIDES we
  * have written for each framework. Every card answers one question:
- * what is inside Greentryst's guide for this framework? Applicability
+ * what is inside ArmorInnovate's guide for this framework? Applicability
  * and jurisdiction live elsewhere.
  */
 
@@ -29,7 +29,7 @@ import { getFramework, listFrameworks } from '@/lib/frameworks';
 export const metadata: Metadata = {
   title: 'Sustainability Reporting Frameworks and Standards',
   description:
-    'A working library of practitioner guides for IFRS S2, IFRS S1, GRI, SASB, ESRS, CSRD, BRSR, TCFD, TNFD, and CDP. Verbatim requirements, plain-English commentary, and illustrative disclosures. Reviewed by the Greentryst Editorial Board.',
+    'A working library of practitioner guides for IFRS S2, IFRS S1, GRI, SASB, ESRS, CSRD, BRSR, TCFD, TNFD, and CDP. Verbatim requirements, plain-English commentary, and illustrative disclosures. Reviewed by the ArmorInnovate Editorial Board.',
   alternates: { canonical: '/frameworks' },
 };
 
@@ -40,7 +40,7 @@ const CATALOGUE_LD = {
   url: `${SITE_URL}/frameworks`,
   name: 'Sustainability Reporting Frameworks and Standards',
   description:
-    "Practitioner's library of sustainability reporting frameworks, standards, and directives covered by the Greentryst Climate Disclosure Desk.",
+    "Practitioner's library of sustainability reporting frameworks, standards, and directives covered by the ArmorInnovate Climate Disclosure Desk.",
   publisher: { '@id': ORG_ID },
 };
 
@@ -87,7 +87,7 @@ export default function FrameworksHubPage() {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
     '@id': `${SITE_URL}/frameworks#guides`,
-    name: 'Greentryst Disclosure Guides',
+    name: 'ArmorInnovate Disclosure Guides',
     numberOfItems: frameworks.length,
     itemListElement: frameworks.map((f, idx) => ({
       '@type': 'ListItem',
@@ -102,7 +102,7 @@ export default function FrameworksHubPage() {
         '@context': 'https://schema.org',
         '@type': 'CreativeWork',
         '@id': `${SITE_URL}/frameworks#ifrs-s2-guide`,
-        name: 'Greentryst Practitioner Guide to IFRS S2',
+        name: 'ArmorInnovate Practitioner Guide to IFRS S2',
         headline: 'IFRS S2: Climate-related Disclosures',
         description: [ifrsS2.summary, ifrsS2.long_summary]
           .filter(Boolean)
@@ -150,7 +150,7 @@ export default function FrameworksHubPage() {
           <div className="grid grid-cols-1 lg:grid-cols-[1.05fr_1fr] gap-12 lg:gap-16 items-center">
             <div>
               <p className={`${MONO_LABEL} text-gt-leaf mb-5`}>
-                Greentryst · Sustainability Disclosure Guides
+                ArmorInnovate · Sustainability Disclosure Guides
               </p>
               <h1 className="text-[40px] md:text-[56px] font-extrabold text-white leading-[1.03] tracking-tight mb-6">
                 Simplified Guides to Every Sustainability Disclosure.
@@ -444,7 +444,7 @@ export default function FrameworksHubPage() {
             {/* Mono spine top-right */}
             <div className="hidden md:flex absolute top-10 right-10 flex-col items-end gap-2 text-right">
               <p className={`${MONO_LABEL} text-gt-leaf/85`}>
-                Greentryst · 2026
+                ArmorInnovate · 2026
               </p>
               <p className={`${MONO_LABEL} text-white/45`}>
                 Updated April 2026
@@ -511,7 +511,7 @@ export default function FrameworksHubPage() {
                 </li>
               </ul>
               <p className="text-[15.5px] text-gt-text-muted leading-[1.75]">
-                The guides are written by the Greentryst Climate
+                The guides are written by the ArmorInnovate Climate
                 Disclosure Desk and reviewed by an independent Editorial
                 Board before they go live.
               </p>

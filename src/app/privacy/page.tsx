@@ -9,14 +9,14 @@ import { RedesignFooter } from '@/components/redesign';
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description:
-    'How Greentryst collects, uses, and protects your personal data.',
+    'How ArmorInnovate collects, uses, and protects your personal data.',
   alternates: { canonical: '/privacy' },
   openGraph: {
     type: 'website',
     url: '/privacy',
     title: 'Privacy Policy',
     description:
-      'How Greentryst collects, uses, and protects your personal data.',
+      'How ArmorInnovate collects, uses, and protects your personal data.',
   },
 };
 
@@ -58,7 +58,7 @@ export default function PrivacyPage() {
                 2. How we use your data
               </h2>
               <p className="text-[14px] text-gt-text-muted leading-relaxed mb-4">
-                We use your data to provide and improve Greentryst services, to
+                We use your data to provide and improve ArmorInnovate services, to
                 process payments, to communicate with you about your account,
                 and to send relevant product updates. We do not sell your
                 personal data to third parties.
@@ -114,10 +114,10 @@ export default function PrivacyPage() {
                 correct, delete, or export your personal data. To exercise these
                 rights, contact us at{' '}
                 <a
-                  href="mailto:privacy@greentryst.com"
+                  href="mailto:privacy@armorinnovate.com"
                   className="text-gt-medium hover:text-gt-dark"
                 >
-                  privacy@greentryst.com
+                  privacy@armorinnovate.com
                 </a>
                 . We will respond within 30 days.
               </p>
@@ -143,10 +143,10 @@ export default function PrivacyPage() {
                 If you have questions about this Privacy Policy, please contact
                 us at{' '}
                 <a
-                  href="mailto:privacy@greentryst.com"
+                  href="mailto:privacy@armorinnovate.com"
                   className="text-gt-medium hover:text-gt-dark"
                 >
-                  privacy@greentryst.com
+                  privacy@armorinnovate.com
                 </a>
                 .
               </p>

@@ -179,7 +179,7 @@ const MOCK_JOB_ALERTS = {
 /* ============================================================
    Matching preferences
 
-   These fields feed the Greentryst job matching scorer. They share
+   These fields feed the ArmorInnovate job matching scorer. They share
    storage with /redesign/jobs so editing here updates the Matched
    for you tab and vice versa.
    ============================================================ */
@@ -1220,7 +1220,7 @@ function ProfileTab({
                 Tell us what you want to be matched against.
               </h2>
               <p className="mt-1.5 text-[12.5px] text-white/60 leading-relaxed">
-                These feed the Greentryst job matching scorer. Changes
+                These feed the ArmorInnovate job matching scorer. Changes
                 here apply to every live role on the board and update
                 your Matched for you list instantly.
               </p>
@@ -1632,7 +1632,7 @@ function ProfileTab({
           {completed.length > 0 || externalCerts.length > 0 ? (
             <div className="space-y-4">
               {completed.length > 0 && (
-                <p className="text-[12px] text-gt-text-muted">Certificates earned on Greentryst</p>
+                <p className="text-[12px] text-gt-text-muted">Certificates earned on ArmorInnovate</p>
               )}
               {completed.map((course) => (
                 <div
@@ -1644,7 +1644,7 @@ function ProfileTab({
                   </div>
                   <div className="flex-1">
                     <p className="text-[13px] font-semibold text-gt-text">{course.title}</p>
-                    <p className="text-[11px] text-gt-text-muted">Greentryst</p>
+                    <p className="text-[11px] text-gt-text-muted">ArmorInnovate</p>
                   </div>
                   <div className="flex items-center gap-2">
                     <button className="text-[11px] font-semibold text-gt-medium hover:text-gt-dark">
@@ -2614,7 +2614,7 @@ function SettingsTab({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <a
-              href="https://docs.greentryst.com"
+              href="https://docs.armorinnovate.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 p-4 bg-[#f8faf8] rounded-lg hover:bg-gt-leaf/5 transition-colors group"
@@ -2630,7 +2630,7 @@ function SettingsTab({
             </a>
 
             <a
-              href="mailto:support@greentryst.com"
+              href="mailto:support@armorinnovate.com"
               className="flex items-center gap-4 p-4 bg-[#f8faf8] rounded-lg hover:bg-gt-leaf/5 transition-colors group"
             >
               <div className="w-10 h-10 rounded-lg bg-gt-medium/10 flex items-center justify-center">
@@ -2660,7 +2660,7 @@ function SettingsTab({
             </a>
 
             <a
-              href="https://status.greentryst.com"
+              href="https://status.armorinnovate.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 p-4 bg-[#f8faf8] rounded-lg hover:bg-gt-leaf/5 transition-colors group"

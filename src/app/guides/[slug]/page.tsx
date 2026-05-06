@@ -1,7 +1,7 @@
 /**
  * /guides/[slug] - Individual Guide Page
  *
- * Renders MDX guide content with Greentryst design system.
+ * Renders MDX guide content with ArmorInnovate design system.
  * Features animated hero, floating icons, and reading aid sidebar.
  */
 

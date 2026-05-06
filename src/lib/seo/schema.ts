@@ -1,5 +1,5 @@
 /**
- * Central JSON-LD schema builders for Greentryst.
+ * Central JSON-LD schema builders for ArmorInnovate.
  *
  * All builders return plain objects. Serialize with `safeJsonLd()` from
  * `@/lib/json-ld` before injecting via dangerouslySetInnerHTML.
@@ -25,7 +25,7 @@ export const EDITORIAL_ID = `${SITE_URL}/#editorial-board`;
 export const DESKS = {
   carbonMarkets: {
     id: `${SITE_URL}/#carbon-markets-desk`,
-    name: 'Greentryst Carbon Markets Desk',
+    name: 'ArmorInnovate Carbon Markets Desk',
     knowsAbout: [
       'CBAM (Carbon Border Adjustment Mechanism)',
       'EU Emissions Trading System',
@@ -40,12 +40,12 @@ export const DESKS = {
   },
   climateDisclosure: {
     id: `${SITE_URL}/#climate-disclosure-desk`,
-    name: 'Greentryst Climate Disclosure Desk',
+    name: 'ArmorInnovate Climate Disclosure Desk',
     knowsAbout: ['IFRS S1 and S2', 'TCFD', 'CDP', 'SFDR', 'CSRD', 'ESRS', 'Double Materiality'],
   },
   ghgAccounting: {
     id: `${SITE_URL}/#ghg-accounting-desk`,
-    name: 'Greentryst GHG Accounting Desk',
+    name: 'ArmorInnovate GHG Accounting Desk',
     knowsAbout: [
       'GHG Protocol Corporate Standard',
       'Scope 1, 2, and 3 Emissions',
@@ -57,12 +57,12 @@ export const DESKS = {
   },
   natureSupplyChain: {
     id: `${SITE_URL}/#nature-supply-chain-desk`,
-    name: 'Greentryst Nature & Supply Chain Desk',
+    name: 'ArmorInnovate Nature & Supply Chain Desk',
     knowsAbout: ['EUDR', 'TNFD', 'Biodiversity', 'Human Rights Due Diligence', 'IFC Performance Standards'],
   },
   sustainableFinance: {
     id: `${SITE_URL}/#sustainable-finance-desk`,
-    name: 'Greentryst Sustainable Finance Desk',
+    name: 'ArmorInnovate Sustainable Finance Desk',
     knowsAbout: ['EU Taxonomy', 'Green Bonds', 'ESG Investing', 'Principles for Responsible Investment'],
   },
 } as const;
@@ -107,7 +107,7 @@ export function siteGraph() {
       {
         '@type': 'Organization',
         '@id': ORG_ID,
-        name: 'Greentryst',
+        name: 'ArmorInnovate',
         alternateName: 'The Sustainability OS',
         url: SITE_URL,
         logo: {
@@ -118,18 +118,18 @@ export function siteGraph() {
         },
         description:
           'Professional operating system for sustainability practitioners. Learning, AI-sourced answers, and tools covering 120+ regulations across 14+ geographies. Built by consultants from top consulting firms with 10+ years of experience across Finance, Environmental Science, Energy Efficiency, and Renewable Energy.',
-        email: 'hello@greentryst.com',
+        email: 'hello@armorinnovate.com',
         contactPoint: [
           {
             '@type': 'ContactPoint',
             contactType: 'customer support',
-            email: 'hello@greentryst.com',
+            email: 'hello@armorinnovate.com',
             availableLanguage: ['en'],
           },
           {
             '@type': 'ContactPoint',
             contactType: 'sales',
-            email: 'business@greentryst.com',
+            email: 'business@armorinnovate.com',
             availableLanguage: ['en'],
           },
         ],
@@ -139,7 +139,7 @@ export function siteGraph() {
             '@type': 'EducationalOccupationalCredential',
             credentialCategory: 'professional experience',
             description:
-              'Team members bring 10+ years of experience from top management consulting firms across Finance, Environmental Science, Energy Efficiency, and Renewable Energy. All content is produced by topical desks (Carbon Markets, Climate Disclosure, GHG Accounting, Nature & Supply Chain, Sustainable Finance) and reviewed by the Greentryst Editorial Board before publication.',
+              'Team members bring 10+ years of experience from top management consulting firms across Finance, Environmental Science, Energy Efficiency, and Renewable Energy. All content is produced by topical desks (Carbon Markets, Climate Disclosure, GHG Accounting, Nature & Supply Chain, Sustainable Finance) and reviewed by the ArmorInnovate Editorial Board before publication.',
           },
         ],
         subOrganization: Object.values(DESKS).map((d) => ({ '@id': d.id })),
@@ -168,7 +168,7 @@ export function siteGraph() {
         '@type': 'WebSite',
         '@id': WEBSITE_ID,
         url: SITE_URL,
-        name: 'Greentryst',
+        name: 'ArmorInnovate',
         publisher: { '@id': ORG_ID },
         inLanguage: 'en',
         potentialAction: {
@@ -183,7 +183,7 @@ export function siteGraph() {
       {
         '@type': 'SoftwareApplication',
         '@id': SAAS_ID,
-        name: 'Greentryst',
+        name: 'ArmorInnovate',
         applicationCategory: 'BusinessApplication',
         applicationSubCategory: 'Sustainability & ESG Platform',
         operatingSystem: 'Web',
@@ -216,7 +216,7 @@ export function siteGraph() {
       {
         '@type': 'Organization',
         '@id': EDITORIAL_ID,
-        name: 'Greentryst Editorial Board',
+        name: 'ArmorInnovate Editorial Board',
         parentOrganization: { '@id': ORG_ID },
         description:
           'Reviews every published guide, course, and reference entry against the primary source document before publication. Verifies regulatory citations, dates, thresholds, and worked examples.',
@@ -415,7 +415,7 @@ export function definedTermSetSchema(
     '@context': 'https://schema.org',
     '@type': 'DefinedTermSet',
     '@id': `${url}#set`,
-    name: 'Greentryst Sustainability Glossary',
+    name: 'ArmorInnovate Sustainability Glossary',
     description: `${terms.length} definitions across carbon markets, GHG accounting, ESG frameworks, climate science, climate finance, EU Taxonomy, reporting standards, biodiversity, and social safeguards.`,
     url,
     inLanguage: 'en',

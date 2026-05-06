@@ -24,7 +24,7 @@ import { SITE_ORIGIN } from '@/lib/site';
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
-const FROM = 'Greentryst Services <services@greentryst.com>';
+const FROM = 'ArmorInnovate Services <services@armorinnovate.com>';
 const LEAD_TO = 'prajjwalkaushik08@gmail.com';
 
 const ENGAGEMENTS: Record<string, string> = {
@@ -152,7 +152,7 @@ export async function POST(request: Request) {
         from: FROM,
         to: LEAD_TO,
         replyTo: email,
-        subject: `[Greentryst Lead] ${engagementLabel} — ${company}`,
+        subject: `[ArmorInnovate Lead] ${engagementLabel} — ${company}`,
         text: [
           `New services enquiry #${enquiryId ?? '?'}`,
           '',
@@ -183,7 +183,7 @@ export async function POST(request: Request) {
       await resend.emails.send({
         from: FROM,
         to: email,
-        subject: `Your Greentryst enquiry — ${engagementLabel}`,
+        subject: `Your ArmorInnovate enquiry — ${engagementLabel}`,
         text: receiptBody({ name, engagementLabel, timelineLabel, budgetLabel, message }),
       });
     } catch (err) {
@@ -211,7 +211,7 @@ function receiptBody({
   return [
     `Hi ${firstName},`,
     '',
-    `Thanks for reaching out to Greentryst about ${engagementLabel}. We have your enquiry, and a member of our team will respond inside two business days with next steps, availability, and a working-session proposal.`,
+    `Thanks for reaching out to ArmorInnovate about ${engagementLabel}. We have your enquiry, and a member of our team will respond inside two business days with next steps, availability, and a working-session proposal.`,
     '',
     `For reference, here is what we received:`,
     '',
@@ -226,7 +226,7 @@ function receiptBody({
     `If anything is urgent in the meantime, reply to this email and it lands in the same thread.`,
     '',
     `Warm regards,`,
-    `The Greentryst team`,
+    `The ArmorInnovate team`,
     SITE_ORIGIN,
   ]
     .filter((line) => line !== null)

@@ -42,7 +42,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const prompt = getPromptBySlug(params.slug);
   if (!prompt) return { title: 'Prompt not found' };
-  // Bare title. Root template appends ' | Greentryst'. Do NOT append it here.
+  // Bare title. Root template appends ' | ArmorInnovate'. Do NOT append it here.
   const title = `${prompt.title} — Prompt Library`;
   const description = truncate(
     prompt.short_description || prompt.description,

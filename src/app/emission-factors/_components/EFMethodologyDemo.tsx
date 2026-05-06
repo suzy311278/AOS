@@ -1,7 +1,7 @@
 /**
  * EFMethodologyDemo
  *
- * A confident two-column demo of how Greentryst explains methodology in
+ * A confident two-column demo of how ArmorInnovate explains methodology in
  * plain English. Pairs editorial copy (left) with a real explainer card
  * (right), reusing EFMethodologyExplainer for the card content.
  */

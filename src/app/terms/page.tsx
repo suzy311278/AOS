@@ -9,14 +9,14 @@ import { RedesignFooter } from '@/components/redesign';
 export const metadata: Metadata = {
   title: 'Terms of Service',
   description:
-    'The rules and obligations for using Greentryst.',
+    'The rules and obligations for using ArmorInnovate.',
   alternates: { canonical: '/terms' },
   openGraph: {
     type: 'website',
     url: '/terms',
     title: 'Terms of Service',
     description:
-      'The rules and obligations for using Greentryst.',
+      'The rules and obligations for using ArmorInnovate.',
   },
 };
 
@@ -40,7 +40,7 @@ export default function TermsPage() {
                 1. Acceptance of terms
               </h2>
               <p className="text-[14px] text-gt-text-muted leading-relaxed">
-                By accessing or using Greentryst, you agree to be bound by these
+                By accessing or using ArmorInnovate, you agree to be bound by these
                 Terms of Service. If you do not agree, do not use the platform.
                 We may update these terms from time to time. Continued use after
                 changes constitutes acceptance.
@@ -83,7 +83,7 @@ export default function TermsPage() {
                 4. Acceptable use
               </h2>
               <p className="text-[14px] text-gt-text-muted leading-relaxed mb-4">
-                You agree not to use Greentryst for any unlawful purpose, not to
+                You agree not to use ArmorInnovate for any unlawful purpose, not to
                 attempt to gain unauthorised access to any part of the platform,
                 and not to use automated means to scrape or extract data beyond
                 what is permitted by our APIs.
@@ -99,7 +99,7 @@ export default function TermsPage() {
                 5. Intellectual property
               </h2>
               <p className="text-[14px] text-gt-text-muted leading-relaxed mb-4">
-                Greentryst owns all rights to the platform, branding, and
+                ArmorInnovate owns all rights to the platform, branding, and
                 original content. You retain ownership of any data you input.
               </p>
               <p className="text-[14px] text-gt-text-muted leading-relaxed">
@@ -115,7 +115,7 @@ export default function TermsPage() {
                 6. Disclaimers
               </h2>
               <p className="text-[14px] text-gt-text-muted leading-relaxed">
-                Greentryst is provided "as is" without warranties of any kind.
+                ArmorInnovate is provided "as is" without warranties of any kind.
                 AI-generated responses, including those from SustainIQ, should
                 be independently verified before use in regulatory compliance,
                 reporting, or business decisions. See our{' '}
@@ -131,7 +131,7 @@ export default function TermsPage() {
                 7. Limitation of liability
               </h2>
               <p className="text-[14px] text-gt-text-muted leading-relaxed">
-                To the maximum extent permitted by law, Greentryst shall not be
+                To the maximum extent permitted by law, ArmorInnovate shall not be
                 liable for any indirect, incidental, special, or consequential
                 damages arising from your use of the platform.
               </p>
@@ -159,10 +159,10 @@ export default function TermsPage() {
               <p className="text-[14px] text-gt-text-muted leading-relaxed">
                 For questions about these Terms, contact us at{' '}
                 <a
-                  href="mailto:legal@greentryst.com"
+                  href="mailto:legal@armorinnovate.com"
                   className="text-gt-medium hover:text-gt-dark"
                 >
-                  legal@greentryst.com
+                  legal@armorinnovate.com
                 </a>
                 .
               </p>

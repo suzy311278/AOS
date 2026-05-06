@@ -10,13 +10,13 @@ import { RedesignFooter } from '@/components/redesign';
 
 export const metadata: Metadata = {
   title: 'Disclaimer',
-  description: 'Legal disclaimer and terms of use for Greentryst.',
+  description: 'Legal disclaimer and terms of use for ArmorInnovate.',
   alternates: { canonical: '/disclaimer' },
   openGraph: {
     type: 'website',
     url: '/disclaimer',
     title: 'Disclaimer',
-    description: 'Legal disclaimer and terms of use for Greentryst.',
+    description: 'Legal disclaimer and terms of use for ArmorInnovate.',
   },
 };
 
@@ -38,7 +38,7 @@ export default function DisclaimerPage() {
             <section className="mb-10">
               <h2 className="text-[20px] font-bold text-gt-text mb-4">Educational Purpose</h2>
               <p className="text-[14px] text-gt-text-muted leading-relaxed mb-4">
-                The content provided on Greentryst, including courses, lessons, articles, and responses from SustainIQ, is for educational and informational purposes only. This content does not constitute professional advice, including but not limited to legal, financial, accounting, environmental consulting, or regulatory compliance advice.
+                The content provided on ArmorInnovate, including courses, lessons, articles, and responses from SustainIQ, is for educational and informational purposes only. This content does not constitute professional advice, including but not limited to legal, financial, accounting, environmental consulting, or regulatory compliance advice.
               </p>
               <p className="text-[14px] text-gt-text-muted leading-relaxed">
                 While we strive to provide accurate and up-to-date information sourced from authoritative documents and standards, sustainability regulations and methodologies evolve rapidly. Users should verify all information against current official sources and consult qualified professionals for specific guidance.
@@ -48,7 +48,7 @@ export default function DisclaimerPage() {
             <section className="mb-10">
               <h2 className="text-[20px] font-bold text-gt-text mb-4">No Professional Relationship</h2>
               <p className="text-[14px] text-gt-text-muted leading-relaxed">
-                Use of Greentryst does not create a professional relationship between you and Greentryst or any of our team members. The platform is a learning and productivity tool, not a substitute for professional consulting services.
+                Use of ArmorInnovate does not create a professional relationship between you and ArmorInnovate or any of our team members. The platform is a learning and productivity tool, not a substitute for professional consulting services.
               </p>
             </section>
 
@@ -65,21 +65,21 @@ export default function DisclaimerPage() {
             <section className="mb-10">
               <h2 className="text-[20px] font-bold text-gt-text mb-4">Third-Party Content and Links</h2>
               <p className="text-[14px] text-gt-text-muted leading-relaxed">
-                Greentryst may contain links to third-party websites, documents, or resources. We do not control these external resources and are not responsible for their content, accuracy, or availability. Inclusion of a link does not imply endorsement.
+                ArmorInnovate may contain links to third-party websites, documents, or resources. We do not control these external resources and are not responsible for their content, accuracy, or availability. Inclusion of a link does not imply endorsement.
               </p>
             </section>
 
             <section className="mb-10">
               <h2 className="text-[20px] font-bold text-gt-text mb-4">Career Directory</h2>
               <p className="text-[14px] text-gt-text-muted leading-relaxed">
-                Job listings in our Career Directory are aggregated from various sources and employer postings. Greentryst does not guarantee the accuracy of job listings, the legitimacy of employers, or the outcome of any job application. Users should conduct their own due diligence before applying to any position.
+                Job listings in our Career Directory are aggregated from various sources and employer postings. ArmorInnovate does not guarantee the accuracy of job listings, the legitimacy of employers, or the outcome of any job application. Users should conduct their own due diligence before applying to any position.
               </p>
             </section>
 
             <section className="mb-10">
               <h2 className="text-[20px] font-bold text-gt-text mb-4">Limitation of Liability</h2>
               <p className="text-[14px] text-gt-text-muted leading-relaxed">
-                To the maximum extent permitted by law, Greentryst shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of the platform, reliance on any content provided, or any decisions made based on such content.
+                To the maximum extent permitted by law, ArmorInnovate shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of the platform, reliance on any content provided, or any decisions made based on such content.
               </p>
             </section>
 
@@ -94,8 +94,8 @@ export default function DisclaimerPage() {
               <h2 className="text-[20px] font-bold text-gt-text mb-4">Contact</h2>
               <p className="text-[14px] text-gt-text-muted leading-relaxed">
                 If you have questions about this disclaimer, please contact us at{' '}
-                <a href="mailto:legal@greentryst.com" className="text-gt-medium hover:text-gt-dark">
-                  legal@greentryst.com
+                <a href="mailto:legal@armorinnovate.com" className="text-gt-medium hover:text-gt-dark">
+                  legal@armorinnovate.com
                 </a>
               </p>
             </section>

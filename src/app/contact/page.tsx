@@ -14,14 +14,14 @@ import { Mail, MessageSquare, ArrowRight, HelpCircle, Briefcase } from 'lucide-r
 export const metadata: Metadata = {
   title: 'Contact',
   description:
-    'Get in touch with the Greentryst team. Support, sales, and general enquiries.',
+    'Get in touch with the ArmorInnovate team. Support, sales, and general enquiries.',
   alternates: { canonical: '/contact' },
   openGraph: {
     type: 'website',
     url: '/contact',
     title: 'Contact',
     description:
-      'Get in touch with the Greentryst team. Support, sales, and general enquiries.',
+      'Get in touch with the ArmorInnovate team. Support, sales, and general enquiries.',
   },
 };
 
@@ -47,8 +47,8 @@ const CONTACT_OPTIONS = [
     title: 'Email us directly',
     description:
       'For anything else, reach out by email and we will respond within one business day.',
-    cta: 'hello@greentryst.com',
-    href: 'mailto:hello@greentryst.com',
+    cta: 'hello@armorinnovate.com',
+    href: 'mailto:hello@armorinnovate.com',
     isExternal: true,
   },
 ];
@@ -106,10 +106,10 @@ export default function ContactPage() {
             <p className="text-[13px] text-gt-text-muted">
               Prefer email? Reach us at{' '}
               <a
-                href="mailto:hello@greentryst.com"
+                href="mailto:hello@armorinnovate.com"
                 className="text-gt-medium hover:text-gt-dark font-semibold"
               >
-                hello@greentryst.com
+                hello@armorinnovate.com
               </a>
             </p>
           </div>

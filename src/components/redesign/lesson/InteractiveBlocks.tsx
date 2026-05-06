@@ -9,7 +9,7 @@
  *   - FlowchartRedesign            (mermaid flowchart with brand theme)
  *
  * The Chart and Flowchart components are reimplemented with the
- * Greentryst brand palette so the data viz reads as part of the
+ * ArmorInnovate brand palette so the data viz reads as part of the
  * product, not as a third-party widget.
  *
  * RoughChart wraps the existing canvas implementation untouched

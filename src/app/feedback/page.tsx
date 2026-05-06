@@ -81,7 +81,7 @@ function FeedbackForm() {
               Thank you for your feedback!
             </h1>
             <p className="text-[14px] text-gt-text-muted mb-8">
-              We appreciate you taking the time to help us improve Greentryst. We'll review your feedback and get back to you if needed.
+              We appreciate you taking the time to help us improve ArmorInnovate. We'll review your feedback and get back to you if needed.
             </p>
             <Link
               href="/"
@@ -111,7 +111,7 @@ function FeedbackForm() {
               Send us feedback
             </h1>
             <p className="text-[15px] text-gt-text-muted">
-              Help us improve Greentryst. We read every piece of feedback.
+              Help us improve ArmorInnovate. We read every piece of feedback.
             </p>
           </div>
 

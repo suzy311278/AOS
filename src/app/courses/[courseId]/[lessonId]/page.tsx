@@ -70,12 +70,12 @@ export function generateMetadata({ params }: PageParams): Metadata {
       .flatMap((m) => m.lessons)
       .find((l) => l.id === lessonId);
 
-    // Bare title. Root layout's title.template appends ' | Greentryst'.
-    // Do NOT manually append it here — that produces ' | Greentryst | Greentryst'.
+    // Bare title. Root layout's title.template appends ' | ArmorInnovate'.
+    // Do NOT manually append it here — that produces ' | ArmorInnovate | ArmorInnovate'.
     const title = lesson?.seoTitle ?? lesson?.title ?? lessonId;
     const description =
       lesson?.seoDescription ??
-      `${lesson?.title ?? 'Lesson'} — a lesson from the Greentryst course "${course.title}".`;
+      `${lesson?.title ?? 'Lesson'} — a lesson from the ArmorInnovate course "${course.title}".`;
     const canonicalPath = `/courses/${params.courseId}/${params.lessonId}`;
 
     return {

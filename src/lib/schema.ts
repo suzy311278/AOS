@@ -363,7 +363,7 @@ export const userResumes = sqliteTable(
 );
 
 // ─── Assessor (Gap Assessment tools) ─────────────────────────────────────
-// Product: Greentryst Assessor. Per-clause structured self-check with a
+// Product: ArmorInnovate Assessor. Per-clause structured self-check with a
 // deterministic slot-filled draft disclosure. One org per account in v1.
 // Tool identity is carried as a slug (e.g. 'ifrs-s2-gap-assessment') that
 // matches the authored YAML file; no DB-level tool registry in v1.

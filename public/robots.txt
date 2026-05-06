@@ -11,8 +11,8 @@ Allow: /intel
 Disallow: /api/armor/
 Disallow: /admin/
 
-# Legacy Greentryst routes (kept while transition is in progress)
+# Legacy ArmorInnovate routes (kept while transition is in progress)
 Disallow: /jobs
 
-Sitemap: https://www.greentryst.com/sitemap.xml
-Sitemap: https://www.greentryst.com/sitemap-emission-factors.xml
+Sitemap: https://www.armorinnovate.com/sitemap.xml
+Sitemap: https://www.armorinnovate.com/sitemap-emission-factors.xml

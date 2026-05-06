@@ -14,14 +14,14 @@ import { RedesignFooter, LightSection, CategoryLabel, SectionHeading } from '@/c
 export const metadata: Metadata = {
   title: 'Fair Use',
   description:
-    'The numbers behind every Greentryst tier. Query caps, tool caps, seats, exports, and retention: up front, no fine print.',
+    'The numbers behind every ArmorInnovate tier. Query caps, tool caps, seats, exports, and retention: up front, no fine print.',
   alternates: { canonical: '/fair-use' },
   openGraph: {
     type: 'website',
     url: '/fair-use',
     title: 'Fair Use',
     description:
-      'Query caps, tool caps, seats, exports, and retention across every Greentryst tier.',
+      'Query caps, tool caps, seats, exports, and retention across every ArmorInnovate tier.',
   },
 };
 

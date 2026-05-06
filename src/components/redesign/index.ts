@@ -1,5 +1,5 @@
 /**
- * Greentryst Redesign Component Library
+ * ArmorInnovate Redesign Component Library
  *
  * Barrel export for all redesign components. Import from here:
  *   import {  DarkUICard, SectionHeading } from '@/components/redesign';

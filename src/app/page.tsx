@@ -3,7 +3,7 @@
  *
  * URL: /
  *
- * Phase 0 of the Greentryst → ArmorInnovate refactor (see
+ * Phase 0 of the ArmorInnovate → ArmorInnovate refactor (see
  * docs/armor-refactor-plan.md). This page stands alone — it does
  * not depend on `src/components/redesign/*` or `src/lib/courses`,
  * so it ships even before the IA migration completes.
@@ -19,7 +19,7 @@
  *   8. CTA band → ArmorFooter
  *   + Floating "Surprise Me" widget
  *
- * The previous Greentryst homepage is preserved in git history
+ * The previous ArmorInnovate homepage is preserved in git history
  * (commit prior to this PR). Restore via `git show HEAD~1:src/app/page.tsx`.
  */
 
@@ -44,7 +44,7 @@ import {
 
 // ──────────────────────────────────────────────────────────────────────
 // Page metadata — homepage overrides the root layout default explicitly.
-// During the transition the root template is still `%s | Greentryst`;
+// During the transition the root template is still `%s | ArmorInnovate`;
 // Phase 6 will retitle the layout template to ArmorInnovate. The
 // `default` slot here is what the browser tab renders verbatim.
 // ──────────────────────────────────────────────────────────────────────

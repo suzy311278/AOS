@@ -8,7 +8,7 @@ import { SITE_ORIGIN } from '@/lib/site';
 
 const RETIREMENTS_DATASET = datasetSchema({
   url: `${SITE_ORIGIN}/carbon/retirements`,
-  name: 'Greentryst Carbon Retirement Leaderboard',
+  name: 'ArmorInnovate Carbon Retirement Leaderboard',
   description:
     'Aggregated carbon credit retirement volumes by beneficiary across Verra, Gold Standard, ACR, CAR, ART TREES, and other major registries. Updated nightly. Use to verify corporate net-zero claims against the public record.',
   keywords: [

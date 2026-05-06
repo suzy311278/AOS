@@ -1,8 +1,8 @@
 /**
- * Logo - Greentryst brand logo with context-aware colors
+ * Logo - ArmorInnovate brand logo with context-aware colors
  *
  * Brand identity:
- * - Capital G always: "Greentryst"
+ * - Capital G always: "ArmorInnovate"
  * - Dark background: "Green" (white) + "tryst" (teal/leaf green)
  * - Light background: "Green" (charcoal) + "tryst" (teal/medium green)
  */

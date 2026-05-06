@@ -6,10 +6,10 @@
  * non-relative absolute URL emitted by the app must derive from
  * SITE_ORIGIN.
  *
- * Never hardcode `https://greentryst.com` or `https://www.greentryst.com`
+ * Never hardcode `https://armorinnovate.com` or `https://www.armorinnovate.com`
  * anywhere else. Import from here.
  *
  * www is the canonical host because production serves www and apex
  * permanently redirects to it. See SEO/baselines/ for the audit history.
  */
-export const SITE_ORIGIN = 'https://www.greentryst.com';
+export const SITE_ORIGIN = 'https://www.armorinnovate.com';

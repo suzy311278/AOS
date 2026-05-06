@@ -16,7 +16,7 @@
  *   - GoDeeper      - only used in guides, not lessons
  *
  * The HTML element overrides (h2, h3, p, table, etc.) follow the
- * Greentryst typography scale: Inter for body, JetBrains Mono for
+ * ArmorInnovate typography scale: Inter for body, JetBrains Mono for
  * inline code, generous line-height, brand-green strong text.
  */
 

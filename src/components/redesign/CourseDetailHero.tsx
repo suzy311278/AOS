@@ -9,7 +9,7 @@
  *      readable while letting the image breathe through on the right.
  *   3. The same radial green glows and subtle dot grid used by the
  *      catalogue header, so the surface still reads as part of the
- *      Greentryst design language.
+ *      ArmorInnovate design language.
  *   4. The content column sits in front of all layers.
  *
  * The image is rendered with a plain <img> tag because the asset is

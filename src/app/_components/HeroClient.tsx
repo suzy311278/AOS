@@ -146,7 +146,7 @@ export function HeroClient() {
 
         <p className="mt-10 text-[14px] md:text-[16px] text-white/70 max-w-lg leading-relaxed">
           Stop toggling between regulation and framework PDFs, Excel
-          calculation sheets, and unverified ChatGPT responses. Greentryst is
+          calculation sheets, and unverified ChatGPT responses. ArmorInnovate is
           the one tab you keep open.
         </p>
 

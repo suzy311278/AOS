@@ -1,7 +1,7 @@
 /**
  * /redesign/services — dedicated services page.
  *
- * Greentryst is product-first; this page is where premium custom
+ * ArmorInnovate is product-first; this page is where premium custom
  * engagements live, away from the Pricing page. The core is the twelve
  * engagement cards (Climate Risk as flagship, three charcoal-surface
  * picks, the rest on white). Around them we layer:
@@ -160,7 +160,7 @@ const SERVICES: Service[] = [
       'Framework readiness scan (GHG, CSRD, BRSR, IFRS S1/S2, TCFD, CDP)',
       'Gap snapshot across data, process, and disclosures',
       'Three prioritised next steps with effort estimates',
-      'Recommended Greentryst tier and tool shortlist',
+      'Recommended ArmorInnovate tier and tool shortlist',
     ],
     outcome:
       'You leave the call with a written gap snapshot and a recommended 6-week plan.',
@@ -263,7 +263,7 @@ const SERVICES: Service[] = [
     includes: [
       'Free downloadable gap checklists for CSRD, BRSR, IFRS S2, TCFD, GRI, SBTi',
       'Self-assessment with guided prompts and worked examples',
-      'Optional 3-hour live walk-through with a Greentryst analyst',
+      'Optional 3-hour live walk-through with a ArmorInnovate analyst',
       'Gap prioritisation with severity and effort scoring',
       'Remediation roadmap with owner and timeline',
       'Export-ready documentation for internal review and audit',
@@ -283,7 +283,7 @@ const SERVICES: Service[] = [
     includes: [
       'Coverage of CDP, MSCI, Sustainalytics, S&P Global CSA, ISS ESG, EcoVadis, Moody\u2019s',
       'Response drafting with source citations and evidence links',
-      'Evidence library built inside your Greentryst workspace',
+      'Evidence library built inside your ArmorInnovate workspace',
       'Year-on-year score-improvement plan with prioritised actions',
       'Rating-agency dialogue and clarification management',
       'Post-submission score analysis and next-cycle roadmap',
@@ -306,7 +306,7 @@ const SERVICES: Service[] = [
       'Data collection templates for Finance, Procurement, and Ops',
       'Hybrid method calculations with factor-level citations',
       'Recalculation policy and base-year documentation',
-      'Verification-ready workbook with Greentryst audit trail',
+      'Verification-ready workbook with ArmorInnovate audit trail',
     ],
     outcome:
       'A complete Scope 3 inventory you can disclose and defend, with every line sourced.',
@@ -358,7 +358,7 @@ const SERVICES: Service[] = [
     category: 'Draft',
     title: 'Disclosure Drafting Engagement',
     blurb:
-      'Our team drafts BRSR, CSRD, or TCFD disclosures using your data and Greentryst Report Drafter. You review and approve; we handle the writing and citation work.',
+      'Our team drafts BRSR, CSRD, or TCFD disclosures using your data and ArmorInnovate Report Drafter. You review and approve; we handle the writing and citation work.',
     duration: '3 to 5 weeks',
     price: 'From $2,800',
     includes: [
@@ -477,18 +477,18 @@ const SERVICES: Service[] = [
     category: 'Tooling',
     title: 'Custom Tool or Template Build',
     blurb:
-      'We configure a Greentryst tool or build a custom report template to your internal methodology, so your teams use one workflow instead of five spreadsheets.',
+      'We configure a ArmorInnovate tool or build a custom report template to your internal methodology, so your teams use one workflow instead of five spreadsheets.',
     duration: '3 to 6 weeks',
     price: 'From $2,400',
     includes: [
       'Discovery workshops with your methodology owners',
-      'Tool or template configuration inside Greentryst',
+      'Tool or template configuration inside ArmorInnovate',
       'Hand-off documentation for admins',
       'Two rounds of revisions',
       'Thirty-day bug-fix warranty',
     ],
     outcome:
-      'Your methodology lives inside Greentryst, not in a spreadsheet someone has to maintain.',
+      'Your methodology lives inside ArmorInnovate, not in a spreadsheet someone has to maintain.',
     Icon: Layers,
   },
   {
@@ -567,7 +567,7 @@ const PROCESS_STEPS = [
     step: '01',
     title: 'Scope call',
     blurb:
-      'Sixty-minute working session with a Greentryst analyst. We surface the real problem, agree the deliverable, and write the statement of work on the spot.',
+      'Sixty-minute working session with a ArmorInnovate analyst. We surface the real problem, agree the deliverable, and write the statement of work on the spot.',
     Icon: MessagesSquare,
   },
   {
@@ -579,9 +579,9 @@ const PROCESS_STEPS = [
   },
   {
     step: '03',
-    title: 'Execution inside Greentryst',
+    title: 'Execution inside ArmorInnovate',
     blurb:
-      'Work happens inside your Greentryst workspace. You see the draft, the sources, and the calculations in real time. Every number is traceable to its source.',
+      'Work happens inside your ArmorInnovate workspace. You see the draft, the sources, and the calculations in real time. Every number is traceable to its source.',
     Icon: Timer,
   },
   {
@@ -613,11 +613,11 @@ const OUTCOMES = [
 const SERVICES_FAQ = [
   {
     q: 'Who owns the deliverables?',
-    a: 'You do, the moment the final invoice is paid. The report, the workbook, the checklist, the dashboard: every deliverable is yours to keep, edit, publish, and reuse. Greentryst retains no rights over your data or your outputs.',
+    a: 'You do, the moment the final invoice is paid. The report, the workbook, the checklist, the dashboard: every deliverable is yours to keep, edit, publish, and reuse. ArmorInnovate retains no rights over your data or your outputs.',
   },
   {
     q: 'How do you handle data residency and confidentiality?',
-    a: 'Every engagement is backed by a mutual NDA. Client data is stored in the region you choose (EU or US) inside your Greentryst workspace, with role-scoped access. Enterprise engagements can require private-cloud enclaves or customer-managed keys.',
+    a: 'Every engagement is backed by a mutual NDA. Client data is stored in the region you choose (EU or US) inside your ArmorInnovate workspace, with role-scoped access. Enterprise engagements can require private-cloud enclaves or customer-managed keys.',
   },
   {
     q: 'Can you subcontract, or is this your own team?',
@@ -632,8 +632,8 @@ const SERVICES_FAQ = [
     a: 'Fixed-fee engagements are split three ways: 20 percent at kickoff, 30 percent at the half-way milestone, and the remaining 50 percent on delivery. Retainers are invoiced quarterly, payable net fifteen. Enterprise engagements follow your procurement schedule.',
   },
   {
-    q: 'Can we run an engagement without a Greentryst subscription?',
-    a: 'Technically yes, but you lose half the value. The deliverables are built inside Greentryst and live there with full audit trails, so your team can maintain the output after handoff. Any engagement above $5,000 includes a complimentary Team tier subscription for the full duration of the engagement, so there is no reason to run it without one. We strongly recommend the Team or Enterprise tier for any significant engagement.',
+    q: 'Can we run an engagement without a ArmorInnovate subscription?',
+    a: 'Technically yes, but you lose half the value. The deliverables are built inside ArmorInnovate and live there with full audit trails, so your team can maintain the output after handoff. Any engagement above $5,000 includes a complimentary Team tier subscription for the full duration of the engagement, so there is no reason to run it without one. We strongly recommend the Team or Enterprise tier for any significant engagement.',
   },
   {
     q: 'Do you run pilots for the Climate Risk Assessment?',

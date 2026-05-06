@@ -15,14 +15,14 @@ import { LightSection, CategoryLabel, SectionHeading } from '@/components/redesi
 export const metadata: Metadata = {
   title: 'Sources',
   description:
-    'Every publisher, standard, and reference document that feeds the Greentryst emission factor library.',
+    'Every publisher, standard, and reference document that feeds the ArmorInnovate emission factor library.',
   alternates: { canonical: '/emission-factors/sources' },
   openGraph: {
     type: 'website',
     url: '/emission-factors/sources',
     title: 'Emission factor sources',
     description:
-      'Every publisher, standard, and reference document that feeds the Greentryst emission factor library.',
+      'Every publisher, standard, and reference document that feeds the ArmorInnovate emission factor library.',
   },
 };
 

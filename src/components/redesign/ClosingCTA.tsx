@@ -2,7 +2,7 @@
  * ClosingCTA
  *
  * Minimal closing band for the homepage. Three parallel promises
- * from Greentryst to the practitioner, followed by one closing
+ * from ArmorInnovate to the practitioner, followed by one closing
  * line, a signature, and two CTAs. Nothing else.
  *
  * Three "we" statements invert the CTA posture — the brand is
@@ -17,7 +17,7 @@
  *   - Dark surface with ambient teal glow, bookending the hero
  *   - Narrow reading column, centered
  *   - Single-sentence headline with intentional line breaks
- *   - Mono "— Greentryst" signature anchors it as a stated promise
+ *   - Mono "— ArmorInnovate" signature anchors it as a stated promise
  *   - Two CTAs (primary: Start Free, secondary: See Pricing)
  */
 

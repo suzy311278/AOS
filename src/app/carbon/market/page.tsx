@@ -37,11 +37,11 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Dataset',
-  name: 'Greentryst Carbon Market Index',
+  name: 'ArmorInnovate Carbon Market Index',
   description:
     'Normalized catalogue of voluntary and compliance carbon market projects from Verra VCS, Verra CCB, Verra PWRP, Gold Standard, American Carbon Registry (ACR), Climate Action Reserve (CAR) including CAR Compliance (ARB / Ecology), and ART TREES.',
   url: `${SITE_ORIGIN}/carbon/market`,
-  creator: { '@type': 'Organization', name: 'Greentryst' },
+  creator: { '@type': 'Organization', name: 'ArmorInnovate' },
   distribution: [
     {
       '@type': 'DataDownload',

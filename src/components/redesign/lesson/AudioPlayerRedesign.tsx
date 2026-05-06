@@ -3,7 +3,7 @@
  *
  * Reskinned audio player for redesigned lesson pages. Functionally
  * identical to the production AudioPlayer (play/pause, skip 15s,
- * seek, playback speed, Spotify embed) but with the Greentryst
+ * seek, playback speed, Spotify embed) but with the ArmorInnovate
  * forest palette: dark forest tile for the play button, mint waveform
  * for played bars, leaf accent on the speed pill, and the same
  * structural recipe used by the lesson callouts.

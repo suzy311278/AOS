@@ -1,5 +1,5 @@
 /**
- * /redesign/courses — Greentryst course catalogue
+ * /redesign/courses — ArmorInnovate course catalogue
  *
  * Server component that loads the full course list from the content
  * directory and hands it to the client shell for filtering and search.
@@ -143,7 +143,7 @@ export default function CoursesPage() {
             <p className="mt-6 text-[15px] text-white/70 leading-relaxed max-w-2xl">
               Sustainability practitioners are expected to know the IPCC
               reports, IFRS standards, GHG Protocol, Verra methodologies,
-              and EU regulations. Most run to hundreds of pages. Greentryst
+              and EU regulations. Most run to hundreds of pages. ArmorInnovate
               reads them so you can learn the work in evenings instead of
               months, with sources cited so the teaching is traceable.
             </p>

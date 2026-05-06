@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: '/about',
-    title: 'About Greentryst',
+    title: 'About ArmorInnovate',
     description:
       'Built by consultants from top consulting firms with 10+ years across Finance, Environmental Science, Energy Efficiency, and Renewable Energy.',
   },
@@ -31,7 +31,7 @@ const ABOUT_PAGE_LD = {
   '@type': 'AboutPage',
   '@id': `${SITE_URL}/about#aboutpage`,
   url: `${SITE_URL}/about`,
-  name: 'About Greentryst',
+  name: 'About ArmorInnovate',
   mainEntity: { '@id': ORG_ID },
   mentions: [{ '@id': EDITORIAL_ID }, ...Object.values(DESKS).map((d) => ({ '@id': d.id }))],
 };
@@ -68,7 +68,7 @@ export default function AboutPage() {
             className="text-[11px] font-bold uppercase text-gt-leaf mb-4"
             style={{ letterSpacing: '0.25em' }}
           >
-            About Greentryst
+            About ArmorInnovate
           </p>
           <h1 className="text-[40px] md:text-[52px] font-extrabold text-white leading-[1.1] mb-6">
             Building the professional home
@@ -76,7 +76,7 @@ export default function AboutPage() {
             for sustainability.
           </h1>
           <p className="text-[17px] text-white/60 max-w-2xl mx-auto">
-            We believe sustainability expertise should be accessible to everyone working to build a better future. Greentryst is where practitioners learn, verify, execute, and advance.
+            We believe sustainability expertise should be accessible to everyone working to build a better future. ArmorInnovate is where practitioners learn, verify, execute, and advance.
           </p>
         </div>
       </section>
@@ -179,7 +179,7 @@ export default function AboutPage() {
               Topical desks, not anonymous copy.
             </h2>
             <p className="text-[15px] text-gt-text-muted leading-relaxed">
-              Every guide, course, and reference entry on Greentryst is produced by a named topical desk and reviewed by the Greentryst Editorial Board against the primary source document before publication. Our team brings more than a decade of experience from top management consulting firms across Finance, Environmental Science, Energy Efficiency, and Renewable Energy.
+              Every guide, course, and reference entry on ArmorInnovate is produced by a named topical desk and reviewed by the ArmorInnovate Editorial Board against the primary source document before publication. Our team brings more than a decade of experience from top management consulting firms across Finance, Environmental Science, Energy Efficiency, and Renewable Energy.
             </p>
           </div>
 
@@ -255,7 +255,7 @@ export default function AboutPage() {
             Ready to get started?
           </h2>
           <p className="text-[15px] text-gt-text-muted mb-8">
-            Join thousands of sustainability professionals building expertise on Greentryst.
+            Join thousands of sustainability professionals building expertise on ArmorInnovate.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
