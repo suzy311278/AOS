@@ -32,9 +32,9 @@ export default function PlatformNav({ lastLessonHref }: Props) {
             href="/"
             className="flex items-center gap-2.5 font-semibold text-gray-900 hover:text-gray-600 transition-colors"
           >
-            <span className="w-6 h-6 bg-gradient-to-br from-green-500 to-emerald-600 rounded-md shadow-sm" aria-hidden />
-            <span className="hidden sm:inline">Green Tryst - Sustainability Academy</span>
-            <span className="sm:hidden">GT</span>
+            <span className="w-6 h-6 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-md shadow-sm" aria-hidden />
+            <span className="hidden sm:inline">ArmorInnovate</span>
+            <span className="sm:hidden">AI</span>
           </Link>
 
           {/* Search + Gamification + Nav + Actions */}
@@ -56,7 +56,7 @@ export default function PlatformNav({ lastLessonHref }: Props) {
             {lastLessonHref && (
               <Link
                 href={lastLessonHref}
-                className="hidden sm:inline-flex items-center gap-1.5 text-sm bg-green-600 text-white px-3.5 py-1.5 rounded-lg hover:bg-green-700 font-medium transition-colors shadow-sm"
+                className="hidden sm:inline-flex items-center gap-1.5 text-sm bg-cyan-600 text-white px-3.5 py-1.5 rounded-lg hover:bg-cyan-700 font-medium transition-colors shadow-sm"
               >
                 <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 3l14 9-14 9V3z" />

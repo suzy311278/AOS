@@ -12,7 +12,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { UserButton, useUser } from '@clerk/nextjs';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Briefcase } from 'lucide-react';
 import { cn } from './lib/cn';
 import { IconShield, IconTerminal, IconNetwork, IconVuln } from './ScadaIcons';
 
@@ -26,6 +26,7 @@ const NAV_LINKS: {
   { label: 'Lab Environment',          href: '/labs',          matchPrefix: '/labs',          Icon: IconTerminal },
   { label: 'Certification Path',       href: '/certification', matchPrefix: '/certification', Icon: IconNetwork },
   { label: 'Vulnerability Intelligence', href: '/intel',       matchPrefix: '/intel',         Icon: IconVuln },
+  { label: 'Jobs',                        href: '/jobs',        matchPrefix: '/jobs',          Icon: Briefcase },
 ];
 
 export interface ArmorNavProps {

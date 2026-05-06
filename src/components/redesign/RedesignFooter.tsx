@@ -29,36 +29,30 @@ interface FooterColumn {
 const PLATFORM_COLUMN: FooterColumn = {
   title: 'Platform',
   links: [
-    { label: 'Learn', href: '/courses' },
-    { label: 'SustainIQ', href: '/ask' },
-    { label: 'Tools', href: '/tools' },
-    { label: 'Frameworks', href: '/frameworks' },
-    { label: 'Regulations', badge: 'Soon' },
-    { label: 'Pricing', href: '/pricing' },
-    { label: 'Services', href: '/services' },
+    { label: 'Knowledge Base', href: '/knowledge' },
+    { label: 'Hands-on Labs', href: '/labs' },
+    { label: 'Certification', href: '/certification' },
+    { label: 'Threat Intel', href: '/intel' },
+    { label: 'Jobs Board', href: '/jobs' },
   ],
 };
 
-const COURSES_COLUMN: FooterColumn = {
-  title: 'Courses',
+const TRAINING_COLUMN: FooterColumn = {
+  title: 'Training',
   links: [
-    { label: 'GHG Protocol, Scope 1 & 2', href: '/courses/ghg-scope-1-2' },
-    { label: 'GHG Protocol, Scope 3', href: '/courses/ghg-scope-3' },
-    { label: 'EU Taxonomy', href: '/courses/eu-taxonomy' },
-    { label: 'EU CBAM', href: '/courses/eu-cbam' },
-    { label: 'EU SFDR', href: '/courses/eu-sfdr' },
-    { label: 'IFRS S2', href: '/courses/ifrs-s2' },
+    { label: 'IEC 62443 Fundamentals', href: '/courses' },
+    { label: 'OT Pentesting', href: '/labs' },
+    { label: 'Modbus & S7comm', href: '/labs' },
+    { label: 'SCADA Defense', href: '/labs' },
+    { label: 'ICS-CERT Advisories', href: '/intel' },
   ],
 };
 
 const RESOURCES_COLUMN: FooterColumn = {
   title: 'Resources',
   links: [
-    { label: 'Guides', href: '/guides' },
-    { label: 'Glossary', href: '/glossary' },
-    { label: 'Audio lessons', href: '/courses' },
     { label: 'Dashboard', href: '/dashboard' },
-    { label: 'Fair Use', href: '/fair-use' },
+    { label: 'Documentation', href: '/docs', badge: 'Soon' },
     { label: 'Changelog', badge: 'Soon' },
   ],
 };
@@ -67,11 +61,9 @@ const COMPANY_COLUMN: FooterColumn = {
   title: 'Company',
   links: [
     { label: 'About', href: '/about' },
-    { label: 'Feedback', href: '/feedback' },
-    { label: 'Disclaimer', href: '/disclaimer' },
+    { label: 'Contact', href: '/contact' },
     { label: 'Privacy', href: '/privacy' },
     { label: 'Terms', href: '/terms' },
-    { label: 'Contact', href: '/contact' },
   ],
 };
 
@@ -93,7 +85,7 @@ export function RedesignFooter({ className }: RedesignFooterProps) {
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            'radial-gradient(600px 200px at 50% 0%, rgba(82, 183, 136, 0.06), transparent 70%)',
+            'radial-gradient(600px 200px at 50% 0%, rgba(34, 211, 238, 0.06), transparent 70%)',
         }}
       />
 
@@ -103,9 +95,8 @@ export function RedesignFooter({ className }: RedesignFooterProps) {
           <div className="col-span-2 md:col-span-3">
             <Logo variant="dark" size="lg" href="/" />
             <p className="mt-4 text-sm text-white/60 leading-relaxed max-w-xs">
-              The professional operating system for sustainability
-              practitioners. Learn the framework. Verify the answer.
-              Execute the work.
+              The professional operating system for ICS / OT security.
+              Learn the standard. Harden the plant. Defend the mission.
             </p>
           </div>
 
@@ -115,16 +106,16 @@ export function RedesignFooter({ className }: RedesignFooterProps) {
             className="col-span-1 md:col-span-2"
           />
 
-          {/* Courses (center spotlight) */}
+          {/* Training (center spotlight) */}
           <FooterColumnBlock
-            column={COURSES_COLUMN}
+            column={TRAINING_COLUMN}
             className="col-span-2 md:col-span-3"
             trailing={
               <Link
-                href="/courses"
-                className="mt-5 inline-flex items-center gap-1.5 text-[13px] font-bold text-gt-leaf hover:text-gt-leaf/80 transition-colors group"
+                href="/labs"
+                className="mt-5 inline-flex items-center gap-1.5 text-[13px] font-bold text-cyan-400 hover:text-cyan-300 transition-colors group"
               >
-                Browse all courses
+                Explore all labs
                 <ArrowUpRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </Link>
             }
@@ -149,15 +140,15 @@ export function RedesignFooter({ className }: RedesignFooterProps) {
             className="text-[11px] text-white/45 tracking-wider"
             style={{ fontFamily: 'var(--font-jetbrains-mono), JetBrains Mono, monospace' }}
           >
-            © 2026 GREENTRYST · BUILT FOR SUSTAINABILITY PROFESSIONALS
+            © 2025 ARMORINNOVATE · BUILT FOR OT DEFENDERS
           </p>
           <p
             className="text-[11px] text-white/45 tracking-wider flex items-center gap-3"
             style={{ fontFamily: 'var(--font-jetbrains-mono), JetBrains Mono, monospace' }}
           >
-            <span>EVERY CLAIM SOURCED</span>
-            <span className="w-1 h-1 rounded-full bg-gt-leaf/60" aria-hidden />
-            <span>EVERY ANSWER DEFENSIBLE</span>
+            <span>SECURE BY DEFAULT</span>
+            <span className="w-1 h-1 rounded-full bg-cyan-400/60" aria-hidden />
+            <span>DEFEND WHAT MATTERS</span>
           </p>
         </div>
       </div>
@@ -176,10 +167,10 @@ function FooterColumnBlock({
 }) {
   return (
     <div className={className}>
-      {/* Thin leaf-green mark above the header */}
-      <div className="h-px w-8 bg-gt-leaf/60 mb-4" aria-hidden />
+      {/* Thin cyan mark above the header */}
+      <div className="h-px w-8 bg-cyan-400/60 mb-4" aria-hidden />
       <h3
-        className="text-[11px] font-bold uppercase text-gt-leaf mb-5"
+        className="text-[11px] font-bold uppercase text-cyan-400 mb-5"
         style={{
           letterSpacing: '0.22em',
           fontFamily: 'var(--font-jetbrains-mono), JetBrains Mono, monospace',

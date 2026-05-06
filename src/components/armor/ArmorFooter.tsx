@@ -17,6 +17,7 @@ const COLS: { heading: string; links: { label: string; href: string }[] }[] = [
       { label: 'Lab Environment', href: '/labs' },
       { label: 'Certification',   href: '/certification' },
       { label: 'Vuln Intelligence', href: '/intel' },
+      { label: 'Jobs',              href: '/jobs' },
     ],
   },
   {

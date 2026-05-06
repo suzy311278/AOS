@@ -45,48 +45,39 @@ import { DarkUICard } from '@/components/redesign';
 
 const PROFILE_LABELS: Record<string, string> = {
   all: 'All',
-  climate_risk: 'Climate Risk',
-  sustainable_finance: 'Sustainable Finance',
-  eu_taxonomy_sfdr: 'EU Taxonomy / SFDR',
-  carbon_markets: 'Carbon Markets',
-  clean_energy_adjacent: 'Clean Energy',
+  ics_ot_security: 'ICS/OT Security',
+  scada_engineer: 'SCADA Engineering',
+  threat_intel: 'Threat Intelligence',
+  pentesting: 'Pentesting & Red Team',
+  compliance_grc: 'Compliance & GRC',
 };
 
 const COURSE_SUGGESTIONS: Record<string, { label: string; href: string }[]> = {
-  climate_risk: [
-    { label: 'Climate Science 101', href: '/courses/climate-science-101' },
-    { label: 'IFRS S2 Climate Disclosures', href: '/courses/ifrs-s2' },
-    { label: 'TNFD & Biodiversity', href: '/courses/tnfd-biodiversity' },
-    { label: 'SBTi Targets', href: '/courses/sbti' },
-    { label: 'Double Materiality', href: '/courses/double-materiality' },
+  ics_ot_security: [
+    { label: 'IEC 62443 Foundations', href: '/knowledge' },
+    { label: 'Modbus Protocol Lab', href: '/labs' },
+    { label: 'S7comm Attack Lab', href: '/labs' },
+    { label: 'Network Segmentation', href: '/knowledge' },
   ],
-  sustainable_finance: [
-    { label: 'ESG Reporting', href: '/courses/esg-reporting' },
-    { label: 'ESG Investing', href: '/courses/esg-investing' },
-    { label: 'ESG Benchmarking', href: '/courses/esg-benchmarking' },
-    { label: 'Financed Emissions', href: '/courses/financed-emissions' },
-    { label: 'IFC Performance Standards', href: '/courses/ifc-performance-standards' },
+  scada_engineer: [
+    { label: 'SCADA Defense Basics', href: '/knowledge' },
+    { label: 'HMI Hardening Lab', href: '/labs' },
+    { label: 'PLC Exploitation', href: '/labs' },
   ],
-  carbon_markets: [
-    { label: 'VCM 101', href: '/courses/vcm-101' },
-    { label: 'GHG Scope 3', href: '/courses/ghg-scope-3' },
-    { label: 'GHG Scope 1 & 2', href: '/courses/ghg-scope-1-2' },
-    { label: 'VM0042 Methodology', href: '/courses/vm0042' },
-    { label: 'Article 6 Markets', href: '/courses/article-6' },
+  threat_intel: [
+    { label: 'ICS-CERT Advisories', href: '/intel' },
+    { label: 'TRITON Analysis', href: '/knowledge' },
+    { label: 'Industroyer Deep Dive', href: '/knowledge' },
   ],
-  eu_taxonomy_sfdr: [
-    { label: 'EU Taxonomy', href: '/courses/eu-taxonomy' },
-    { label: 'EU SFDR', href: '/courses/eu-sfdr' },
-    { label: 'EU CBAM', href: '/courses/eu-cbam' },
-    { label: 'EUDR Deforestation', href: '/courses/eudr' },
-    { label: 'Double Materiality', href: '/courses/double-materiality' },
+  pentesting: [
+    { label: 'OT Pentesting Lab', href: '/labs' },
+    { label: 'EtherNet/IP Attacks', href: '/labs' },
+    { label: 'DNP3 Protocol Security', href: '/knowledge' },
   ],
-  clean_energy_adjacent: [
-    { label: 'Climate Science 101', href: '/courses/climate-science-101' },
-    { label: 'TNFD & Biodiversity', href: '/courses/tnfd-biodiversity' },
-    { label: 'Circular Economy', href: '/courses/circular-economy' },
-    { label: 'SBTi Targets', href: '/courses/sbti' },
-    { label: 'Human Rights Due Diligence', href: '/courses/human-rights-dd' },
+  compliance_grc: [
+    { label: 'IEC 62443 Certification', href: '/certification' },
+    { label: 'NIST 800-82 Overview', href: '/knowledge' },
+    { label: 'NERC CIP Mapping', href: '/knowledge' },
   ],
 };
 
@@ -338,14 +329,14 @@ export function JobsClientRedesign({
           first thing they understand. Right column is the upload
           card that adapts to resume state.
           ============================================================ */}
-      <section className="relative overflow-hidden bg-gt-text-dark">
+      <section className="relative overflow-hidden bg-ai-deep">
         {/* Single restrained ambient glow */}
         <div
           aria-hidden
           className="pointer-events-none absolute -top-40 right-1/3 w-[620px] h-[620px] rounded-full"
           style={{
             background:
-              'radial-gradient(circle, rgba(82,183,136,0.14) 0%, rgba(82,183,136,0.03) 55%, transparent 75%)',
+              'radial-gradient(circle, rgba(6,182,212,0.14) 0%, rgba(6,182,212,0.03) 55%, transparent 75%)',
             filter: 'blur(20px)',
           }}
         />
@@ -365,9 +356,9 @@ export function JobsClientRedesign({
             <div>
               {/* Thin-rule eyebrow, replaces the pill */}
               <div className="flex items-center gap-3 mb-8">
-                <span className="h-px w-8 bg-gt-leaf" aria-hidden />
+                <span className="h-px w-8 bg-ai-primary" aria-hidden />
                 <span
-                  className="text-[10px] font-bold uppercase tracking-[0.28em] text-gt-leaf"
+                  className="text-[10px] font-bold uppercase tracking-[0.28em] text-ai-cyber"
                   style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
                 >
                   Career Directory
@@ -384,7 +375,7 @@ export function JobsClientRedesign({
               <h1 className="text-[36px] md:text-[52px] font-extrabold text-white leading-[1.04] tracking-[-0.02em] max-w-2xl">
                 We do the job search.
                 <br />
-                <span className="text-gt-leaf">You do the interviews.</span>
+                <span className="text-ai-cyber">You do the interviews.</span>
               </h1>
               <p className="mt-6 text-[15px] md:text-[16px] text-white/65 leading-relaxed max-w-xl">
                 Every live role on the board is scored against your profile
@@ -398,7 +389,7 @@ export function JobsClientRedesign({
                 {MATCH_STEPS.map((s) => (
                   <li key={s.step} className="flex items-start gap-4">
                     <span
-                      className="flex-shrink-0 text-[11px] font-bold text-gt-leaf tracking-[0.15em] pt-0.5"
+                      className="flex-shrink-0 text-[11px] font-bold text-ai-cyber tracking-[0.15em] pt-0.5"
                       style={{
                         fontFamily:
                           'var(--font-jetbrains-mono), JetBrains Mono, monospace',
@@ -406,7 +397,7 @@ export function JobsClientRedesign({
                     >
                       {s.step}
                     </span>
-                    <div className="pt-0 border-l border-gt-leaf/25 pl-4">
+                    <div className="pt-0 border-l border-ai-primary/25 pl-4">
                       <p className="text-[13.5px] font-bold text-white leading-snug">
                         {s.title}
                       </p>
@@ -430,16 +421,16 @@ export function JobsClientRedesign({
                   boxShadow: '0 30px 60px -24px rgba(0, 0, 0, 0.6)',
                 }}
               >
-                {/* Persistent leaf-green top accent */}
+                {/* Persistent cyan/blue top accent */}
                 <span
-                  className="absolute top-0 left-0 right-0 h-[2px] bg-gt-leaf"
+                  className="absolute top-0 left-0 right-0 h-[2px] bg-ai-primary"
                   aria-hidden
                 />
 
                 <div className="p-8">
                   {/* Card eyebrow */}
                   <p
-                    className="text-[10px] font-bold uppercase tracking-[0.28em] text-gt-leaf mb-6"
+                    className="text-[10px] font-bold uppercase tracking-[0.28em] text-ai-cyber mb-6"
                     style={{
                       fontFamily:
                         'var(--font-jetbrains-mono), JetBrains Mono, monospace',
@@ -460,7 +451,7 @@ export function JobsClientRedesign({
                       <div className="mt-8 flex items-center gap-3 flex-wrap">
                         <Link
                           href="/pricing"
-                          className="inline-flex items-center gap-1.5 px-5 py-2.5 text-[12px] font-bold text-gt-text-dark bg-gt-leaf hover:bg-white transition-colors"
+                          className="inline-flex items-center gap-1.5 px-5 py-2.5 text-[12px] font-bold text-white bg-ai-primary hover:bg-white transition-colors"
                         >
                           Upgrade to Individual
                           <ArrowRight
@@ -491,7 +482,7 @@ export function JobsClientRedesign({
                       <button
                         type="button"
                         onClick={markResumeUploaded}
-                        className="mt-8 inline-flex items-center gap-2 px-5 py-2.5 text-[12px] font-bold text-gt-text-dark bg-gt-leaf hover:bg-white transition-colors"
+                        className="mt-8 inline-flex items-center gap-2 px-5 py-2.5 text-[12px] font-bold text-white bg-ai-primary hover:bg-white transition-colors"
                       >
                         Upload resume
                         <ArrowRight
@@ -537,7 +528,7 @@ export function JobsClientRedesign({
       {/* ============================================================
           Split view tabs: All Jobs | Matched for you
           ============================================================ */}
-      <div className="sticky top-16 z-40 bg-white border-b border-[#e5e7e5]">
+      <div className="sticky top-16 z-40 bg-white border-b border-[#D7DEE8]">
         <div className="max-w-[1280px] mx-auto px-8">
           <div className="flex items-center gap-6">
             {(
@@ -573,18 +564,18 @@ export function JobsClientRedesign({
                   }
                   className={cn(
                     'relative inline-flex items-center gap-2 py-4 text-[13px] font-bold transition-colors',
-                    isActive ? 'text-[#081C15]' : 'text-[#5a6a64] hover:text-[#081C15]',
-                    isMatchedLocked && 'opacity-50 cursor-not-allowed hover:text-[#5a6a64]'
+                    isActive ? 'text-[#0B1220]' : 'text-[#3D4A5F] hover:text-[#0B1220]',
+                    isMatchedLocked && 'opacity-50 cursor-not-allowed hover:text-[#3D4A5F]'
                   )}
                 >
                   {tab.key === 'matched' &&
                     (isMatchedLocked ? (
-                      <Lock className="w-3.5 h-3.5 text-[#8a9a94]" strokeWidth={2} />
+                      <Lock className="w-3.5 h-3.5 text-[#6B7A90]" strokeWidth={2} />
                     ) : (
                       <Sparkles
                         className={cn(
                           'w-3.5 h-3.5',
-                          isActive ? 'text-[#2D6A4F]' : 'text-[#8a9a94]'
+                          isActive ? 'text-[#1E3A8A]' : 'text-[#6B7A90]'
                         )}
                         strokeWidth={2}
                       />
@@ -594,7 +585,7 @@ export function JobsClientRedesign({
                     <span
                       className={cn(
                         'text-[10px] font-bold',
-                        isActive ? 'text-[#2D6A4F]' : 'text-[#8a9a94]'
+                        isActive ? 'text-[#1E3A8A]' : 'text-[#6B7A90]'
                       )}
                       style={{
                         fontFamily: 'var(--font-jetbrains-mono), monospace',
@@ -605,7 +596,7 @@ export function JobsClientRedesign({
                   )}
                   {isActive && (
                     <span
-                      className="absolute left-0 right-0 bottom-0 h-[2px] bg-[#2D6A4F]"
+                      className="absolute left-0 right-0 bottom-0 h-[2px] bg-[#1E3A8A]"
                       aria-hidden
                     />
                   )}
@@ -636,22 +627,22 @@ export function JobsClientRedesign({
             <div className="flex flex-wrap items-center gap-3">
               {resume.status === 'uploading' || resume.status === 'parsing' ? (
                 <>
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#2D6A4F] animate-pulse" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#1E3A8A] animate-pulse" />
                   <span
-                    className="w-1.5 h-1.5 rounded-full bg-[#40916C] animate-pulse"
+                    className="w-1.5 h-1.5 rounded-full bg-[#2563EB] animate-pulse"
                     style={{ animationDelay: '150ms' }}
                   />
                   <span
-                    className="w-1.5 h-1.5 rounded-full bg-[#52B788] animate-pulse"
+                    className="w-1.5 h-1.5 rounded-full bg-[#06B6D4] animate-pulse"
                     style={{ animationDelay: '300ms' }}
                   />
-                  <p className="text-[13px] text-[#081C15]">
+                  <p className="text-[13px] text-[#0B1220]">
                     <span className="font-semibold">
                       {resume.status === 'uploading'
                         ? 'Uploading your resume…'
                         : 'Analyzing your skills…'}
                     </span>{' '}
-                    <span className="text-[#5a6a64]">
+                    <span className="text-[#3D4A5F]">
                       Stay on this page — scores appear automatically.
                     </span>
                   </p>
@@ -659,13 +650,13 @@ export function JobsClientRedesign({
               ) : (
                 <>
                   <span className="text-[#b34c3a] text-[14px]">⚠</span>
-                  <p className="text-[13px] text-[#081C15]">
+                  <p className="text-[13px] text-[#0B1220]">
                     <span className="font-semibold">
                       {resume.capMessage
                         ? 'Upload limit reached.'
                         : 'Resume upload failed.'}
                     </span>{' '}
-                    <span className="text-[#5a6a64]">
+                    <span className="text-[#3D4A5F]">
                       {resume.capMessage ?? resume.error ?? 'Please try again.'}
                     </span>
                   </p>
@@ -681,19 +672,19 @@ export function JobsClientRedesign({
           The pre-upload CTA is now part of the page hero above.
           ============================================================ */}
       {viewMode === 'matched' && resumeFlagLoaded && resumeUploaded && (
-        <div className="bg-[#f5f7f5] border-b border-[#e5e7e5]">
+        <div className="bg-[#F4F6F8] border-b border-[#D7DEE8]">
           <div className="max-w-[1280px] mx-auto px-8 py-5">
             <div className="flex flex-wrap items-center gap-4">
               <div className="flex items-center gap-3 flex-1 min-w-[240px]">
-                <div className="w-9 h-9 rounded-full bg-[#2D6A4F]/10 text-[#2D6A4F] flex items-center justify-center">
+                <div className="w-9 h-9 rounded-full bg-[#1E3A8A]/10 text-[#1E3A8A] flex items-center justify-center">
                   <Sparkles className="w-4 h-4" strokeWidth={2} />
                 </div>
                 <div>
-                  <p className="text-[13px] font-bold text-[#081C15] leading-tight">
+                  <p className="text-[13px] font-bold text-[#0B1220] leading-tight">
                     {strongMatches} job{strongMatches === 1 ? '' : 's'} match your profile at 80%+
                   </p>
                   <p
-                    className="text-[11px] text-[#5a6a64] mt-0.5"
+                    className="text-[11px] text-[#3D4A5F] mt-0.5"
                     style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
                   >
                     Top {FREE_TIER_VISIBLE_MATCHES} matches visible on the free tier · Upgrade to Individual to see all
@@ -702,7 +693,7 @@ export function JobsClientRedesign({
               </div>
               <Link
                 href="/pricing"
-                className="inline-flex items-center gap-1.5 px-4 py-2 text-[12px] font-bold text-white bg-[#2D6A4F] hover:bg-[#1B4332] transition-colors"
+                className="inline-flex items-center gap-1.5 px-4 py-2 text-[12px] font-bold text-white bg-[#1E3A8A] hover:bg-[#1E40AF] transition-colors"
               >
                 Upgrade to Individual
                 <ArrowRight className="w-3.5 h-3.5" strokeWidth={2.5} />
@@ -715,14 +706,14 @@ export function JobsClientRedesign({
       {/* ============================================================
           Toolbar - Search + Profile tabs + filters
           ============================================================ */}
-      <div className="sticky top-[113px] z-30 bg-white border-b border-[#e5e7e5]">
+      <div className="sticky top-[113px] z-30 bg-white border-b border-[#D7DEE8]">
         <div className="max-w-[1280px] mx-auto px-8">
           {/* Top row: Search + inline filters + sort toggle switch */}
-          <div className="flex flex-wrap items-center gap-3 py-3 border-b border-[#e5e7e5]">
+          <div className="flex flex-wrap items-center gap-3 py-3 border-b border-[#D7DEE8]">
             {/* Search */}
             <div className="relative flex-1 min-w-[220px] max-w-md">
               <Search
-                className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#8a9a94] pointer-events-none"
+                className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#6B7A90] pointer-events-none"
                 strokeWidth={2}
               />
               <input
@@ -735,7 +726,7 @@ export function JobsClientRedesign({
                   }
                 }}
                 placeholder="Search jobs by title, company, or skill..."
-                className="w-full pl-10 pr-8 py-2.5 border border-[#e5e7e5] text-[13px] text-[#081C15] placeholder:text-[#8a9a94] focus:outline-none focus:border-[#2D6A4F] transition-colors"
+                className="w-full pl-10 pr-8 py-2.5 border border-[#D7DEE8] text-[13px] text-[#0B1220] placeholder:text-[#6B7A90] focus:outline-none focus:border-[#1E3A8A] transition-colors"
               />
               {searchInput && (
                 <button
@@ -744,7 +735,7 @@ export function JobsClientRedesign({
                     setSearchInput('');
                     updateFilter('search', undefined);
                   }}
-                  className="absolute right-2.5 top-1/2 -translate-y-1/2 p-1 text-[#8a9a94] hover:text-[#081C15]"
+                  className="absolute right-2.5 top-1/2 -translate-y-1/2 p-1 text-[#6B7A90] hover:text-[#0B1220]"
                 >
                   <X className="w-3.5 h-3.5" strokeWidth={2.5} />
                 </button>
@@ -779,7 +770,7 @@ export function JobsClientRedesign({
               <button
                 type="button"
                 onClick={() => router.push('/jobs')}
-                className="text-[12px] text-[#5a6a64] hover:text-[#2D6A4F] font-medium"
+                className="text-[12px] text-[#3D4A5F] hover:text-[#1E3A8A] font-medium"
               >
                 Clear all
               </button>
@@ -787,7 +778,7 @@ export function JobsClientRedesign({
 
             {/* Sort toggle switch */}
             <div
-              className="relative ml-auto inline-flex items-center p-1 rounded-full border border-[#e5e7e5] bg-[#f5f7f5]"
+              className="relative ml-auto inline-flex items-center p-1 rounded-full border border-[#D7DEE8] bg-[#F4F6F8]"
               role="group"
               aria-label="Sort order"
             >
@@ -799,7 +790,7 @@ export function JobsClientRedesign({
                     <span
                       aria-hidden
                       className={cn(
-                        'absolute top-1 bottom-1 w-[calc(50%-4px)] rounded-full bg-[#2D6A4F] transition-transform duration-300 ease-out',
+                        'absolute top-1 bottom-1 w-[calc(50%-4px)] rounded-full bg-[#1E3A8A] transition-transform duration-300 ease-out',
                         isLatest ? 'translate-x-[calc(100%+4px)]' : 'translate-x-0'
                       )}
                       style={{ left: '4px' }}
@@ -810,7 +801,7 @@ export function JobsClientRedesign({
                       aria-pressed={!isLatest}
                       className={cn(
                         'relative z-10 px-4 py-1.5 text-[11px] font-semibold rounded-full transition-colors',
-                        !isLatest ? 'text-white' : 'text-[#5a6a64] hover:text-[#081C15]'
+                        !isLatest ? 'text-white' : 'text-[#3D4A5F] hover:text-[#0B1220]'
                       )}
                     >
                       Relevance
@@ -821,7 +812,7 @@ export function JobsClientRedesign({
                       aria-pressed={isLatest}
                       className={cn(
                         'relative z-10 px-4 py-1.5 text-[11px] font-semibold rounded-full transition-colors',
-                        isLatest ? 'text-white' : 'text-[#5a6a64] hover:text-[#081C15]'
+                        isLatest ? 'text-white' : 'text-[#3D4A5F] hover:text-[#0B1220]'
                       )}
                     >
                       Latest
@@ -848,15 +839,15 @@ export function JobsClientRedesign({
                   className={cn(
                     'flex-shrink-0 px-3 py-2 text-[12px] font-medium transition-colors',
                     isActive
-                      ? 'text-white bg-[#2D6A4F]'
-                      : 'text-[#5a6a64] hover:text-[#081C15] hover:bg-[#f5f7f5]'
+                      ? 'text-white bg-[#1E3A8A]'
+                      : 'text-[#3D4A5F] hover:text-[#0B1220] hover:bg-[#F4F6F8]'
                   )}
                 >
                   {label}
                   <span
                     className={cn(
                       'ml-1.5 text-[10px]',
-                      isActive ? 'text-white/70' : 'text-[#8a9a94]'
+                      isActive ? 'text-white/70' : 'text-[#6B7A90]'
                     )}
                     style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
                   >
@@ -875,7 +866,7 @@ export function JobsClientRedesign({
           ============================================================ */}
       <div className="max-w-[1280px] mx-auto px-8 pt-4 pb-2">
         <p
-          className="text-[11px] text-[#5a6a64]"
+          className="text-[11px] text-[#3D4A5F]"
           style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
         >
           {total} results
@@ -889,11 +880,11 @@ export function JobsClientRedesign({
       <div className="max-w-[1280px] mx-auto px-8 pb-8">
         {jobs.length === 0 ? (
           <div className="py-16 text-center">
-            <p className="text-[15px] text-[#5a6a64]">No jobs match your filters.</p>
+            <p className="text-[15px] text-[#3D4A5F]">No jobs match your filters.</p>
             <button
               type="button"
               onClick={() => router.push('/jobs')}
-              className="mt-3 text-[13px] font-semibold text-[#2D6A4F] hover:text-[#1B4332]"
+              className="mt-3 text-[13px] font-semibold text-[#1E3A8A] hover:text-[#1E40AF]"
             >
               Clear filters
             </button>
@@ -904,7 +895,7 @@ export function JobsClientRedesign({
                 Matched tab and the user has uploaded a resume. */}
             <div
               className={cn(
-                'hidden lg:grid gap-4 px-4 py-2.5 text-[10px] font-bold uppercase text-[#5a6a64] border-b border-[#e5e7e5] bg-[#f8faf8]',
+                'hidden lg:grid gap-4 px-4 py-2.5 text-[10px] font-bold uppercase text-[#3D4A5F] border-b border-[#D7DEE8] bg-[#F4F6F8]',
                 viewMode === 'matched'
                   ? 'grid-cols-[minmax(200px,1.2fr)_minmax(140px,1fr)_minmax(120px,0.9fr)_100px_70px_90px_90px]'
                   : 'grid-cols-[minmax(200px,1.2fr)_minmax(140px,1fr)_minmax(120px,0.9fr)_100px_70px_90px]'
@@ -920,13 +911,13 @@ export function JobsClientRedesign({
               <span>Type</span>
               <span>Posted</span>
               {viewMode === 'matched' && (
-                <span className="text-[#2D6A4F]">Match</span>
+                <span className="text-[#1E3A8A]">Match</span>
               )}
               <span></span>
             </div>
 
             {/* Job rows */}
-            <div className="divide-y divide-[#e5e7e5] relative">
+            <div className="divide-y divide-[#D7DEE8] relative">
               {displayedJobs.map((job, i) => {
                 const isMatched = viewMode === 'matched' && resumeUploaded;
                 // Pre-upload Matched tab: blur full list from row 3 onward,
@@ -974,21 +965,21 @@ export function JobsClientRedesign({
                     {/* Free-tier upgrade overlay, pinned on the first gated row */}
                     {gatedByFreeTier && i === FREE_TIER_VISIBLE_MATCHES && (
                       <div className="absolute inset-x-0 top-0 flex justify-center pt-6 pointer-events-none">
-                        <div className="pointer-events-auto max-w-md w-[92%] bg-white border border-[#e5e7e5] rounded-2xl shadow-[0_18px_40px_-14px_rgba(0,60,41,0.22)] p-5 flex flex-col md:flex-row items-start md:items-center gap-4">
-                          <div className="w-10 h-10 rounded-full bg-[#2D6A4F]/10 text-[#2D6A4F] flex items-center justify-center flex-shrink-0">
+                        <div className="pointer-events-auto max-w-md w-[92%] bg-white border border-[#D7DEE8] rounded-2xl shadow-[0_18px_40px_-14px_rgba(0,60,41,0.22)] p-5 flex flex-col md:flex-row items-start md:items-center gap-4">
+                          <div className="w-10 h-10 rounded-full bg-[#1E3A8A]/10 text-[#1E3A8A] flex items-center justify-center flex-shrink-0">
                             <Lock className="w-4 h-4" strokeWidth={2} />
                           </div>
                           <div className="flex-1 min-w-0">
-                            <p className="text-[14px] font-bold text-[#081C15] leading-tight">
+                            <p className="text-[14px] font-bold text-[#0B1220] leading-tight">
                               Unlock the rest of your matches
                             </p>
-                            <p className="text-[12px] text-[#5a6a64] mt-1 leading-snug">
+                            <p className="text-[12px] text-[#3D4A5F] mt-1 leading-snug">
                               Free tier shows the top {FREE_TIER_VISIBLE_MATCHES} matches. Upgrade to Individual to see every job ranked against your profile, with continuous re-matching as you complete courses.
                             </p>
                           </div>
                           <Link
                             href="/pricing"
-                            className="inline-flex items-center gap-1.5 px-4 py-2 text-[12px] font-bold text-white bg-[#2D6A4F] hover:bg-[#1B4332] transition-colors whitespace-nowrap"
+                            className="inline-flex items-center gap-1.5 px-4 py-2 text-[12px] font-bold text-white bg-[#1E3A8A] hover:bg-[#1E40AF] transition-colors whitespace-nowrap"
                           >
                             Upgrade
                             <ArrowRight className="w-3.5 h-3.5" strokeWidth={2.5} />
@@ -1000,22 +991,22 @@ export function JobsClientRedesign({
                     {/* Pre-upload teaser overlay, pinned at row index 3 */}
                     {gatedByNoResume && i === 3 && (
                       <div className="absolute inset-x-0 top-0 flex justify-center pt-6 pointer-events-none">
-                        <div className="pointer-events-auto max-w-md w-[92%] bg-white border border-[#e5e7e5] rounded-2xl shadow-[0_18px_40px_-14px_rgba(0,60,41,0.22)] p-5 flex flex-col md:flex-row items-start md:items-center gap-4">
-                          <div className="w-10 h-10 rounded-full bg-[#2D6A4F]/10 text-[#2D6A4F] flex items-center justify-center flex-shrink-0">
+                        <div className="pointer-events-auto max-w-md w-[92%] bg-white border border-[#D7DEE8] rounded-2xl shadow-[0_18px_40px_-14px_rgba(0,60,41,0.22)] p-5 flex flex-col md:flex-row items-start md:items-center gap-4">
+                          <div className="w-10 h-10 rounded-full bg-[#1E3A8A]/10 text-[#1E3A8A] flex items-center justify-center flex-shrink-0">
                             <Sparkles className="w-4 h-4" strokeWidth={2} />
                           </div>
                           <div className="flex-1 min-w-0">
-                            <p className="text-[14px] font-bold text-[#081C15] leading-tight">
+                            <p className="text-[14px] font-bold text-[#0B1220] leading-tight">
                               This is where your matches will appear
                             </p>
-                            <p className="text-[12px] text-[#5a6a64] mt-1 leading-snug">
+                            <p className="text-[12px] text-[#3D4A5F] mt-1 leading-snug">
                               Upload your resume to rank every live job against your profile. Free tier shows the top {FREE_TIER_VISIBLE_MATCHES} matches with real scores.
                             </p>
                           </div>
                           <button
                             type="button"
                             onClick={markResumeUploaded}
-                            className="inline-flex items-center gap-1.5 px-4 py-2 text-[12px] font-bold text-white bg-[#2D6A4F] hover:bg-[#1B4332] transition-colors whitespace-nowrap"
+                            className="inline-flex items-center gap-1.5 px-4 py-2 text-[12px] font-bold text-white bg-[#1E3A8A] hover:bg-[#1E40AF] transition-colors whitespace-nowrap"
                           >
                             Upload resume
                             <ArrowRight className="w-3.5 h-3.5" strokeWidth={2.5} />
@@ -1036,8 +1027,8 @@ export function JobsClientRedesign({
             first thing they see.
             ============================================================ */}
         {!isAuthenticated && (
-          <div className="mt-6 rounded-2xl bg-gt-text-dark text-white p-8 md:p-10 flex flex-col md:flex-row items-start md:items-center gap-6 shadow-[0_24px_60px_-20px_rgba(0,0,0,0.25)]">
-            <div className="w-12 h-12 rounded-full bg-gt-leaf/15 text-gt-leaf flex items-center justify-center flex-shrink-0">
+          <div className="mt-6 rounded-2xl bg-ai-deep text-white p-8 md:p-10 flex flex-col md:flex-row items-start md:items-center gap-6 shadow-[0_24px_60px_-20px_rgba(0,0,0,0.25)]">
+            <div className="w-12 h-12 rounded-full bg-ai-primary/15 text-ai-cyber flex items-center justify-center flex-shrink-0">
               <Lock className="w-5 h-5" strokeWidth={2} />
             </div>
             <div className="flex-1 min-w-0">
@@ -1045,14 +1036,14 @@ export function JobsClientRedesign({
                 {Math.max(0, meta.totalJobCount - jobs.length)} more jobs behind a free account
               </p>
               <p className="text-[13px] text-white/70 mt-1 leading-relaxed">
-                Sign up to see every live sustainability role, filter by region and company
+                Sign up to see every live ICS/OT security role, filter by region and company
                 type, and upload your resume for personalized match scores.
               </p>
             </div>
             <div className="flex items-center gap-2">
               <Link
                 href="/sign-up"
-                className="inline-flex items-center gap-1.5 px-4 py-2.5 text-[13px] font-bold text-gt-text-dark bg-white hover:bg-white/90 transition-colors whitespace-nowrap rounded-md"
+                className="inline-flex items-center gap-1.5 px-4 py-2.5 text-[13px] font-bold text-ai-deep bg-white hover:bg-white/90 transition-colors whitespace-nowrap rounded-md"
               >
                 Create free account
                 <ArrowRight className="w-3.5 h-3.5" strokeWidth={2.5} />
@@ -1073,12 +1064,12 @@ export function JobsClientRedesign({
             {/* Per-page count */}
             <div className="flex items-center gap-2">
               <span
-                className="text-[11px] text-[#5a6a64]"
+                className="text-[11px] text-[#3D4A5F]"
                 style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
               >
                 Show
               </span>
-              <div className="flex items-center border border-[#e5e7e5] overflow-hidden">
+              <div className="flex items-center border border-[#D7DEE8] overflow-hidden">
                 {[15, 30, 50].map((count) => (
                   <button
                     key={count}
@@ -1087,8 +1078,8 @@ export function JobsClientRedesign({
                     className={cn(
                       'px-2.5 py-1.5 text-[11px] font-medium transition-colors',
                       perPage === count
-                        ? 'bg-[#2D6A4F] text-white'
-                        : 'bg-white text-[#5a6a64] hover:text-[#081C15]'
+                        ? 'bg-[#1E3A8A] text-white'
+                        : 'bg-white text-[#3D4A5F] hover:text-[#0B1220]'
                     )}
                     style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
                   >
@@ -1107,7 +1098,7 @@ export function JobsClientRedesign({
                 <ArrowLeft className="w-3.5 h-3.5" strokeWidth={2} />
               </PagButton>
               <span
-                className="px-4 py-2 text-[11px] text-[#5a6a64]"
+                className="px-4 py-2 text-[11px] text-[#3D4A5F]"
                 style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
               >
                 {page} / {totalPages}
@@ -1123,25 +1114,25 @@ export function JobsClientRedesign({
         )}
 
         {/* Bottom banners - Start Learning + In-Demand Skills */}
-        <section className="mt-12 pt-10 border-t border-[#e5e7e5] grid grid-cols-1 md:grid-cols-5 gap-5">
+        <section className="mt-12 pt-10 border-t border-[#D7DEE8] grid grid-cols-1 md:grid-cols-5 gap-5">
           {/* Start Learning Banner */}
           <DarkUICard
             label="Learn"
             className="md:col-span-3"
           >
             <div className="flex items-center gap-2.5 mb-4">
-              <BookOpen className="w-5 h-5 text-gt-leaf" strokeWidth={1.5} />
+              <BookOpen className="w-5 h-5 text-ai-cyber" strokeWidth={1.5} />
               <h3 className="text-[17px] font-bold text-white">Start Learning</h3>
             </div>
             <p className="text-[13px] text-white/60 leading-relaxed mb-5">
-              Build the skills employers are looking for. Our courses cover the frameworks, standards, and domain knowledge mentioned in these job listings.
+              Build the skills employers are looking for. Our labs and courses cover the ICS/OT security standards and techniques mentioned in these job listings.
             </p>
             <div className="flex flex-wrap gap-2">
-              {(COURSE_SUGGESTIONS[activeProfile] || COURSE_SUGGESTIONS.climate_risk).map((c) => (
+              {(COURSE_SUGGESTIONS[activeProfile] || COURSE_SUGGESTIONS.ics_ot_security).map((c) => (
                 <Link
                   key={c.href}
                   href={c.href}
-                  className="px-4 py-2.5 bg-gt-leaf text-gt-text-dark text-[12px] font-bold hover:bg-gt-mint transition-colors"
+                  className="px-4 py-2.5 bg-ai-primary text-white text-[12px] font-bold hover:bg-ai-accent transition-colors"
                 >
                   {c.label}
                 </Link>
@@ -1150,24 +1141,24 @@ export function JobsClientRedesign({
           </DarkUICard>
 
           {/* In-Demand Skills Banner */}
-          <div className="md:col-span-2 p-6 bg-gt-leaf/[0.06] border border-gt-leaf/15 rounded-2xl">
+          <div className="md:col-span-2 p-6 bg-ai-primary/[0.06] border border-ai-primary/15 rounded-2xl">
             <div className="flex items-center gap-2.5 mb-4">
-              <TrendingUp className="w-5 h-5 text-gt-medium" strokeWidth={1.5} />
-              <h3 className="text-[15px] font-bold text-gt-text">In-Demand Skills</h3>
+              <TrendingUp className="w-5 h-5 text-ai-primary" strokeWidth={1.5} />
+              <h3 className="text-[15px] font-bold text-ai-ink">In-Demand Skills</h3>
             </div>
             <div className="space-y-2.5 mb-5">
-              {['Climate Risk Assessment', 'ESG Reporting (GRI, SASB)', 'Carbon Accounting', 'EU Taxonomy Alignment'].map((skill) => (
+              {['IEC 62443 Compliance', 'OT Pentesting', 'SCADA Network Defense', 'Industrial Protocol Analysis'].map((skill) => (
                 <div key={skill} className="flex items-center gap-2.5">
-                  <div className="w-1.5 h-1.5 rounded-full bg-gt-medium" />
-                  <span className="text-[13px] text-gt-text-muted">{skill}</span>
+                  <div className="w-1.5 h-1.5 rounded-full bg-ai-primary" />
+                  <span className="text-[13px] text-ai-ink-soft">{skill}</span>
                 </div>
               ))}
             </div>
             <Link
-              href="/courses"
-              className="inline-flex items-center gap-1.5 text-[12px] font-bold text-gt-medium hover:text-gt-dark transition-colors"
+              href="/knowledge"
+              className="inline-flex items-center gap-1.5 text-[12px] font-bold text-ai-primary hover:text-ai-primary-hover transition-colors"
             >
-              Browse all courses
+              Browse knowledge base
               <ArrowRight className="w-3.5 h-3.5" strokeWidth={2} />
             </Link>
           </div>
@@ -1206,13 +1197,13 @@ function JobRow({
   const remoteLabel = job.remote ? 'Remote' : job.jobType?.toLowerCase().includes('hybrid') ? 'Hybrid' : 'On-site';
 
   return (
-    <div className={cn('transition-colors', isExpanded && 'bg-[#f5f7f5]')}>
+    <div className={cn('transition-colors', isExpanded && 'bg-[#F4F6F8]')}>
       {/* Main row - clickable */}
       <button
         type="button"
         onClick={onToggle}
         className={cn(
-          'w-full text-left px-4 py-3.5 lg:grid lg:gap-4 lg:items-center hover:bg-[#f5f7f5] transition-colors',
+          'w-full text-left px-4 py-3.5 lg:grid lg:gap-4 lg:items-center hover:bg-[#F4F6F8] transition-colors',
           showMatchColumn
             ? 'lg:grid-cols-[minmax(200px,1.2fr)_minmax(140px,1fr)_minmax(120px,0.9fr)_100px_70px_90px_90px]'
             : 'lg:grid-cols-[minmax(200px,1.2fr)_minmax(140px,1fr)_minmax(120px,0.9fr)_100px_70px_90px]'
@@ -1220,10 +1211,10 @@ function JobRow({
       >
         {/* Mobile: stacked layout */}
         <div className="lg:hidden space-y-1 mb-2">
-          <p className="text-[14px] font-semibold text-[#081C15] leading-tight pr-20">
+          <p className="text-[14px] font-semibold text-[#0B1220] leading-tight pr-20">
             {job.title}
           </p>
-          <p className="text-[12px] text-[#5a6a64]">
+          <p className="text-[12px] text-[#3D4A5F]">
             {job.company} · {formatLocation(job.location)}
           </p>
         </div>
@@ -1232,12 +1223,12 @@ function JobRow({
         {/* Role: title + category */}
         <div className="hidden lg:block min-w-0">
           <div className="flex items-center gap-2">
-            <p className="text-[13px] font-semibold text-[#081C15] leading-tight truncate">
+            <p className="text-[13px] font-semibold text-[#0B1220] leading-tight truncate">
               {job.title}
             </p>
             {job.profile && job.profile !== 'all' && (
               <span
-                className="flex-shrink-0 px-1.5 py-0.5 text-[9px] font-bold uppercase text-[#2D6A4F] bg-[#2D6A4F]/8"
+                className="flex-shrink-0 px-1.5 py-0.5 text-[9px] font-bold uppercase text-[#1E3A8A] bg-[#1E3A8A]/8"
                 style={{
                   letterSpacing: '0.05em',
                   fontFamily: 'var(--font-jetbrains-mono), monospace',
@@ -1251,7 +1242,7 @@ function JobRow({
 
         {/* Company */}
         <p
-          className="hidden lg:block text-[12px] text-[#3a4a44] truncate"
+          className="hidden lg:block text-[12px] text-[#3D4A5F] truncate"
           style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
         >
           {job.company}
@@ -1259,7 +1250,7 @@ function JobRow({
 
         {/* Location */}
         <p
-          className="hidden lg:block text-[12px] text-[#5a6a64] truncate"
+          className="hidden lg:block text-[12px] text-[#3D4A5F] truncate"
           style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
         >
           {formatLocation(job.location)}
@@ -1267,7 +1258,7 @@ function JobRow({
 
         {/* Type */}
         <p
-          className="hidden lg:block text-[11px] text-[#5a6a64]"
+          className="hidden lg:block text-[11px] text-[#3D4A5F]"
           style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
         >
           {remoteLabel}
@@ -1275,7 +1266,7 @@ function JobRow({
 
         {/* Posted */}
         <p
-          className="hidden lg:block text-[11px] text-[#8a9a94]"
+          className="hidden lg:block text-[11px] text-[#6B7A90]"
           style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
         >
           {formatDate(job.datePosted)}
@@ -1288,28 +1279,28 @@ function JobRow({
           <div className="hidden lg:block">
             {matchScore != null ? (
               <div
-                className="inline-flex items-center gap-1.5 text-[13px] font-bold text-[#2D6A4F]"
+                className="inline-flex items-center gap-1.5 text-[13px] font-bold text-[#1E3A8A]"
                 style={{
                   fontFamily: 'var(--font-jetbrains-mono), monospace',
                 }}
                 title={`${matchScore}% match with your profile`}
               >
                 <span
-                  className="inline-block w-1.5 h-1.5 rounded-full bg-[#2D6A4F]"
+                  className="inline-block w-1.5 h-1.5 rounded-full bg-[#1E3A8A]"
                   aria-hidden
                 />
                 {matchScore}%
               </div>
             ) : (
               <div
-                className="inline-flex items-center gap-1.5 text-[13px] font-bold text-[#8a9a94]"
+                className="inline-flex items-center gap-1.5 text-[13px] font-bold text-[#6B7A90]"
                 style={{
                   fontFamily: 'var(--font-jetbrains-mono), monospace',
                 }}
                 title="Upload your resume to reveal your match"
               >
                 <span
-                  className="inline-block w-1.5 h-1.5 rounded-full bg-[#c0c8c4]"
+                  className="inline-block w-1.5 h-1.5 rounded-full bg-[#94A3B8]"
                   aria-hidden
                 />
                 ––%
@@ -1325,13 +1316,13 @@ function JobRow({
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) => e.stopPropagation()}
-            className="px-3 py-1.5 text-[11px] font-bold text-white bg-[#2D6A4F] hover:bg-[#1B4332] transition-colors"
+            className="px-3 py-1.5 text-[11px] font-bold text-white bg-[#1E3A8A] hover:bg-[#1E40AF] transition-colors"
           >
             Apply
           </a>
           <ChevronDown
             className={cn(
-              'w-4 h-4 text-[#8a9a94] transition-transform',
+              'w-4 h-4 text-[#6B7A90] transition-transform',
               isExpanded && 'rotate-180'
             )}
             strokeWidth={2}
@@ -1342,7 +1333,7 @@ function JobRow({
         <div className="lg:hidden absolute right-4 top-1/2 -translate-y-1/2 flex items-center gap-2">
           <ChevronDown
             className={cn(
-              'w-4 h-4 text-[#8a9a94] transition-transform',
+              'w-4 h-4 text-[#6B7A90] transition-transform',
               isExpanded && 'rotate-180'
             )}
             strokeWidth={2}
@@ -1353,16 +1344,16 @@ function JobRow({
       {/* Expanded details */}
       {isExpanded && (
         <div className="px-4 pb-4 lg:pl-4 lg:pr-[180px]">
-          <div className="pt-3 border-t border-[#e5e7e5]">
+          <div className="pt-3 border-t border-[#D7DEE8]">
             {isLocked ? (
               <LockedDetailPrompt jobTitle={job.title ?? 'this role'} />
             ) : isLoadingDetail ? (
               <div className="flex items-center gap-2 py-4">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#2D6A4F] animate-pulse" />
-                <span className="w-1.5 h-1.5 rounded-full bg-[#40916C] animate-pulse" style={{ animationDelay: '150ms' }} />
-                <span className="w-1.5 h-1.5 rounded-full bg-[#52B788] animate-pulse" style={{ animationDelay: '300ms' }} />
+                <span className="w-1.5 h-1.5 rounded-full bg-[#1E3A8A] animate-pulse" />
+                <span className="w-1.5 h-1.5 rounded-full bg-[#2563EB] animate-pulse" style={{ animationDelay: '150ms' }} />
+                <span className="w-1.5 h-1.5 rounded-full bg-[#06B6D4] animate-pulse" style={{ animationDelay: '300ms' }} />
                 <span
-                  className="text-[11px] text-[#5a6a64] ml-1"
+                  className="text-[11px] text-[#3D4A5F] ml-1"
                   style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
                 >
                   Loading...
@@ -1372,7 +1363,7 @@ function JobRow({
               <div className="space-y-4">
                 {/* Meta strip */}
                 <div
-                  className="flex flex-wrap gap-4 text-[11px] text-[#5a6a64]"
+                  className="flex flex-wrap gap-4 text-[11px] text-[#3D4A5F]"
                   style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
                 >
                   {job.jobType && (
@@ -1412,14 +1403,14 @@ function JobRow({
                   href={job.jobUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="lg:hidden inline-flex items-center gap-2 px-4 py-2 text-[12px] font-bold text-white bg-[#2D6A4F] hover:bg-[#1B4332] transition-colors"
+                  className="lg:hidden inline-flex items-center gap-2 px-4 py-2 text-[12px] font-bold text-white bg-[#1E3A8A] hover:bg-[#1E40AF] transition-colors"
                 >
                   Apply on company site
                   <ExternalLink className="w-3 h-3" strokeWidth={2.5} />
                 </a>
               </div>
             ) : (
-              <p className="py-3 text-[12px] text-[#5a6a64]">
+              <p className="py-3 text-[12px] text-[#3D4A5F]">
                 Click Apply to see full details on the company website.
               </p>
             )}
@@ -1434,7 +1425,7 @@ function DetailBlock({ label, text }: { label: string; text: string }) {
   return (
     <div>
       <p
-        className="text-[10px] font-bold uppercase text-[#2D6A4F] mb-1"
+        className="text-[10px] font-bold uppercase text-[#1E3A8A] mb-1"
         style={{
           letterSpacing: '0.1em',
           fontFamily: 'var(--font-jetbrains-mono), monospace',
@@ -1443,7 +1434,7 @@ function DetailBlock({ label, text }: { label: string; text: string }) {
         {label}
       </p>
       <p
-        className="text-[12px] text-[#3a4a44] leading-relaxed whitespace-pre-wrap break-words"
+        className="text-[12px] text-[#3D4A5F] leading-relaxed whitespace-pre-wrap break-words"
       >
         {text}
       </p>
@@ -1459,7 +1450,7 @@ function UploadStat({ value, label }: { value: string; label: string }) {
   return (
     <div>
       <p
-        className="text-[16px] font-extrabold text-gt-leaf leading-none"
+        className="text-[16px] font-extrabold text-ai-cyber leading-none"
         style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
       >
         {value}
@@ -1497,7 +1488,7 @@ function StatBlock({ value, label }: { value: number; label: string }) {
   return (
     <div className="flex flex-col gap-1.5">
       <div
-        className="text-[28px] md:text-[32px] font-bold text-gt-leaf leading-none tracking-tight"
+        className="text-[28px] md:text-[32px] font-bold text-ai-cyber leading-none tracking-tight"
         style={{ fontFamily: 'var(--font-jetbrains-mono), JetBrains Mono, monospace' }}
       >
         {value}
@@ -1532,7 +1523,7 @@ function FilterSelect({
       <select
         value={value ?? ''}
         onChange={(e) => onChange(e.target.value || undefined)}
-        className="appearance-none pl-3 pr-7 py-2 border border-[#e5e7e5] bg-white text-[12px] text-[#081C15] cursor-pointer focus:outline-none focus:border-[#2D6A4F] transition-colors"
+        className="appearance-none pl-3 pr-7 py-2 border border-[#D7DEE8] bg-white text-[12px] text-[#0B1220] cursor-pointer focus:outline-none focus:border-[#1E3A8A] transition-colors"
         style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
       >
         <option value="">{placeholder}</option>
@@ -1543,7 +1534,7 @@ function FilterSelect({
         ))}
       </select>
       <ChevronDown
-        className="absolute right-2 top-1/2 -translate-y-1/2 w-3 h-3 text-[#8a9a94] pointer-events-none"
+        className="absolute right-2 top-1/2 -translate-y-1/2 w-3 h-3 text-[#6B7A90] pointer-events-none"
         strokeWidth={2}
       />
     </div>
@@ -1564,7 +1555,7 @@ function PagButton({
       type="button"
       disabled={disabled}
       onClick={onClick}
-      className="inline-flex items-center justify-center w-8 h-8 border border-[#e5e7e5] bg-white text-[#3a4a44] disabled:opacity-40 disabled:cursor-not-allowed hover:border-[#2D6A4F] hover:text-[#2D6A4F] transition-colors"
+      className="inline-flex items-center justify-center w-8 h-8 border border-[#D7DEE8] bg-white text-[#3D4A5F] disabled:opacity-40 disabled:cursor-not-allowed hover:border-[#1E3A8A] hover:text-[#1E3A8A] transition-colors"
     >
       {children}
     </button>
@@ -1618,7 +1609,7 @@ function MatchProcessBanner({ onUpload }: { onUpload: () => void }) {
       className="relative overflow-hidden rounded-2xl p-6 md:p-10"
       style={{
         background:
-          'linear-gradient(135deg, #0B1F18 0%, #081C15 50%, #0B2A22 100%)',
+          'linear-gradient(135deg, #0B1F3A 0%, #0B1220 50%, #0F172A 100%)',
       }}
     >
       {/* Ambient glow */}
@@ -1627,7 +1618,7 @@ function MatchProcessBanner({ onUpload }: { onUpload: () => void }) {
         className="pointer-events-none absolute -top-24 -right-24 w-[420px] h-[420px] rounded-full"
         style={{
           background:
-            'radial-gradient(circle, rgba(82,183,136,0.22) 0%, rgba(82,183,136,0.04) 55%, transparent 75%)',
+            'radial-gradient(circle, rgba(6,182,212,0.22) 0%, rgba(6,182,212,0.04) 55%, transparent 75%)',
           filter: 'blur(10px)',
         }}
       />
@@ -1636,7 +1627,7 @@ function MatchProcessBanner({ onUpload }: { onUpload: () => void }) {
         className="pointer-events-none absolute -bottom-32 -left-16 w-[380px] h-[380px] rounded-full"
         style={{
           background:
-            'radial-gradient(circle, rgba(64,145,108,0.18) 0%, transparent 70%)',
+            'radial-gradient(circle, rgba(37,99,235,0.18) 0%, transparent 70%)',
           filter: 'blur(14px)',
         }}
       />
@@ -1644,10 +1635,10 @@ function MatchProcessBanner({ onUpload }: { onUpload: () => void }) {
       <div className="relative grid grid-cols-1 lg:grid-cols-[1.2fr_0.9fr] gap-10 items-start">
         {/* ============== LEFT: narrative + step flow ============== */}
         <div>
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gt-leaf/30 bg-gt-leaf/10 mb-5">
-            <Sparkles className="w-3.5 h-3.5 text-gt-leaf" strokeWidth={2.2} />
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-ai-primary/30 bg-ai-primary/10 mb-5">
+            <Sparkles className="w-3.5 h-3.5 text-ai-cyber" strokeWidth={2.2} />
             <span
-              className="text-[10px] font-bold uppercase tracking-[0.2em] text-gt-leaf"
+              className="text-[10px] font-bold uppercase tracking-[0.2em] text-ai-cyber"
               style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
             >
               Managed job search
@@ -1656,7 +1647,7 @@ function MatchProcessBanner({ onUpload }: { onUpload: () => void }) {
 
           <h2 className="text-[28px] md:text-[36px] font-extrabold text-white leading-[1.1] tracking-tight">
             We do the job search.{' '}
-            <span className="text-gt-leaf">You do the interviews.</span>
+            <span className="text-ai-cyber">You do the interviews.</span>
           </h2>
           <p className="mt-4 text-[14px] md:text-[15px] text-white/70 leading-relaxed max-w-lg">
             Upload your resume once. We score every live role on the board
@@ -1671,12 +1662,12 @@ function MatchProcessBanner({ onUpload }: { onUpload: () => void }) {
                 {/* Vertical connector */}
                 {i < MATCH_STEPS.length - 1 && (
                   <span
-                    className="absolute left-[14px] top-8 bottom-[-18px] w-px bg-gt-leaf/25"
+                    className="absolute left-[14px] top-8 bottom-[-18px] w-px bg-ai-primary/25"
                     aria-hidden
                   />
                 )}
                 <span
-                  className="flex-shrink-0 w-7 h-7 rounded-full bg-gt-leaf/15 border border-gt-leaf/40 flex items-center justify-center text-[10px] font-bold text-gt-leaf z-10"
+                  className="flex-shrink-0 w-7 h-7 rounded-full bg-ai-primary/15 border border-ai-primary/40 flex items-center justify-center text-[10px] font-bold text-ai-cyber z-10"
                   style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
                 >
                   {s.step}
@@ -1700,17 +1691,17 @@ function MatchProcessBanner({ onUpload }: { onUpload: () => void }) {
             className="relative rounded-2xl p-7 text-center"
             style={{
               background:
-                'radial-gradient(ellipse at top, rgba(82,183,136,0.10), rgba(11,31,24,0.6))',
+                'radial-gradient(ellipse at top, rgba(6,182,212,0.10), rgba(11,31,24,0.6))',
               border: '1.5px dashed rgba(140,212,202,0.35)',
             }}
           >
             {/* Pulsing sparkle */}
             <div className="mx-auto relative mb-5 w-16 h-16">
               <span
-                className="absolute inset-0 rounded-full bg-gt-leaf/25 animate-ping"
+                className="absolute inset-0 rounded-full bg-ai-primary/25 animate-ping"
                 aria-hidden
               />
-              <span className="relative flex w-16 h-16 rounded-full bg-gt-leaf text-gt-text-dark items-center justify-center">
+              <span className="relative flex w-16 h-16 rounded-full bg-ai-primary text-white items-center justify-center">
                 <Sparkles className="w-7 h-7" strokeWidth={2.2} />
               </span>
             </div>
@@ -1728,7 +1719,7 @@ function MatchProcessBanner({ onUpload }: { onUpload: () => void }) {
             <button
               type="button"
               onClick={handleUploadClick}
-              className="mt-6 inline-flex items-center gap-2 px-6 py-3 text-[13px] font-bold text-gt-text-dark bg-gt-leaf hover:bg-white transition-colors rounded-full"
+              className="mt-6 inline-flex items-center gap-2 px-6 py-3 text-[13px] font-bold text-white bg-ai-primary hover:bg-white transition-colors rounded-full"
             >
               <Sparkles className="w-4 h-4" strokeWidth={2.5} />
               Upload resume
@@ -1737,7 +1728,7 @@ function MatchProcessBanner({ onUpload }: { onUpload: () => void }) {
             <div className="mt-6 pt-5 border-t border-white/10 grid grid-cols-3 gap-3 text-left">
               <div>
                 <p
-                  className="text-[16px] font-extrabold text-gt-leaf leading-none"
+                  className="text-[16px] font-extrabold text-ai-cyber leading-none"
                   style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
                 >
                   All
@@ -1751,7 +1742,7 @@ function MatchProcessBanner({ onUpload }: { onUpload: () => void }) {
               </div>
               <div>
                 <p
-                  className="text-[16px] font-extrabold text-gt-leaf leading-none"
+                  className="text-[16px] font-extrabold text-ai-cyber leading-none"
                   style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
                 >
                   &lt; 5s
@@ -1765,7 +1756,7 @@ function MatchProcessBanner({ onUpload }: { onUpload: () => void }) {
               </div>
               <div>
                 <p
-                  className="text-[16px] font-extrabold text-gt-leaf leading-none"
+                  className="text-[16px] font-extrabold text-ai-cyber leading-none"
                   style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}
                 >
                   Free
@@ -1801,8 +1792,8 @@ function MatchProcessBanner({ onUpload }: { onUpload: () => void }) {
 
 function LockedDetailPrompt({ jobTitle }: { jobTitle: string }) {
   return (
-    <div className="py-4 flex items-start gap-3 rounded-lg bg-gt-leaf/5 border border-gt-leaf/15 px-4">
-      <div className="shrink-0 mt-0.5 flex h-8 w-8 items-center justify-center rounded-full bg-gt-leaf/10 text-gt-leaf">
+    <div className="py-4 flex items-start gap-3 rounded-lg bg-ai-primary/5 border border-ai-primary/15 px-4">
+      <div className="shrink-0 mt-0.5 flex h-8 w-8 items-center justify-center rounded-full bg-ai-primary/10 text-ai-cyber">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -1818,11 +1809,11 @@ function LockedDetailPrompt({ jobTitle }: { jobTitle: string }) {
         </svg>
       </div>
       <div className="min-w-0 flex-1">
-        <p className="text-[13px] font-semibold text-gt-text-dark leading-snug">
+        <p className="text-[13px] font-semibold text-ai-ink leading-snug">
           Sign in to see the full brief for {jobTitle}
         </p>
         <p
-          className="mt-1 text-[12px] text-[#5a6a64] leading-snug"
+          className="mt-1 text-[12px] text-[#3D4A5F] leading-snug"
           style={{ fontFamily: 'var(--font-inter), Inter, sans-serif' }}
         >
           Role summary, required skills, and domain context open up with a free
@@ -1831,13 +1822,13 @@ function LockedDetailPrompt({ jobTitle }: { jobTitle: string }) {
         <div className="mt-3 flex flex-wrap gap-2">
           <Link
             href="/sign-up"
-            className="inline-flex items-center gap-1.5 rounded-md bg-gt-leaf px-3 py-1.5 text-[12px] font-semibold text-white hover:bg-gt-leaf-dark transition-colors"
+            className="inline-flex items-center gap-1.5 rounded-md bg-ai-primary px-3 py-1.5 text-[12px] font-semibold text-white hover:bg-ai-primary-hover transition-colors"
           >
             Create free account
           </Link>
           <Link
             href="/sign-in"
-            className="inline-flex items-center gap-1.5 rounded-md border border-[#e5e7e5] bg-white px-3 py-1.5 text-[12px] font-semibold text-gt-text-dark hover:bg-[#f5f7f6] transition-colors"
+            className="inline-flex items-center gap-1.5 rounded-md border border-[#D7DEE8] bg-white px-3 py-1.5 text-[12px] font-semibold text-ai-ink hover:bg-[#f5f7f6] transition-colors"
           >
             Sign in
           </Link>

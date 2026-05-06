@@ -7,8 +7,7 @@
 
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Nav } from '@/components/Nav';
-import { RedesignFooter } from '@/components/redesign';
+import { ArmorNav, ArmorFooter } from '@/components/armor';
 import { Mail, MessageSquare, ArrowRight, HelpCircle, Briefcase } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -36,11 +35,12 @@ const CONTACT_OPTIONS = [
   },
   {
     icon: Briefcase,
-    title: 'Services & Enterprise',
+    title: 'Enterprise & Training',
     description:
-      'Talk to our team about custom implementations, training, or enterprise pricing.',
-    cta: 'Enquire now',
-    href: '/services/enquire',
+      'Talk to our team about custom OT security training, lab environments, or enterprise licensing.',
+    cta: 'Get in touch',
+    href: 'mailto:enterprise@armorinnovate.com',
+    isExternal: true,
   },
   {
     icon: Mail,
@@ -56,7 +56,7 @@ const CONTACT_OPTIONS = [
 export default function ContactPage() {
   return (
     <>
-      <Nav />
+      <ArmorNav />
 
       <main className="pt-28 pb-16 bg-[#fafbfa] min-h-[80vh]">
         <div className="max-w-[800px] mx-auto px-8">
@@ -116,7 +116,7 @@ export default function ContactPage() {
         </div>
       </main>
 
-      <RedesignFooter />
+      <ArmorFooter />
     </>
   );
 }

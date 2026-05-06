@@ -29,12 +29,11 @@ type NavLink = {
 };
 
 const NAV_LINKS: NavLink[] = [
-  { label: 'Learn', href: '/courses', matchPrefix: '/courses' },
-  { label: 'Tools', href: '/tools', matchPrefix: '/tools' },
-  { label: 'SustainIQ', href: '/ask', matchPrefix: '/ask' },
+  { label: 'Knowledge', href: '/knowledge', matchPrefix: '/knowledge' },
+  { label: 'Labs', href: '/labs', matchPrefix: '/labs' },
+  { label: 'Certification', href: '/certification', matchPrefix: '/certification' },
+  { label: 'Intel', href: '/intel', matchPrefix: '/intel' },
   { label: 'Jobs', href: '/jobs', matchPrefix: '/jobs' },
-  { label: 'Services', href: '/services', matchPrefix: '/services' },
-  { label: 'Pricing', href: '/pricing', matchPrefix: '/pricing' },
 ];
 
 export interface NavProps {
@@ -115,17 +114,6 @@ export function Nav({
               const isActive = link.matchPrefix
                 ? pathname.startsWith(link.matchPrefix)
                 : pathname === link.href;
-              if (link.label === 'Tools') {
-                return (
-                  <ToolsMenu
-                    key={link.href}
-                    isActive={isActive}
-                    linkBase={linkBase}
-                    linkActive={linkActive}
-                    isDark={isDark}
-                  />
-                );
-              }
               return (
                 <Link
                   key={link.href}
@@ -183,7 +171,7 @@ export function Nav({
                   </Link>
                   <Link
                     href="/sign-up"
-                    className="bg-gt-medium text-gt-text-light px-5 py-2 rounded-lg text-sm font-semibold hover:bg-gt-dark transition-colors"
+                    className="bg-cyan-600 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:bg-cyan-700 transition-colors"
                   >
                     Get Started
                   </Link>
@@ -315,29 +303,20 @@ export function Nav({
               <ul className="flex flex-col gap-1">
                 <li>
                   <Link
-                    href="/frameworks"
+                    href="/about"
                     className="flex items-center py-3 px-3 rounded-lg text-sm font-semibold text-gt-text-muted hover:bg-gt-border-light/40 transition-colors"
                     onClick={() => setDrawerOpen(false)}
                   >
-                    Frameworks
+                    About
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/guides"
+                    href="/contact"
                     className="flex items-center py-3 px-3 rounded-lg text-sm font-semibold text-gt-text-muted hover:bg-gt-border-light/40 transition-colors"
                     onClick={() => setDrawerOpen(false)}
                   >
-                    Guides
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/glossary"
-                    className="flex items-center py-3 px-3 rounded-lg text-sm font-semibold text-gt-text-muted hover:bg-gt-border-light/40 transition-colors"
-                    onClick={() => setDrawerOpen(false)}
-                  >
-                    Glossary
+                    Contact
                   </Link>
                 </li>
                 {isSignedIn && (
@@ -360,7 +339,7 @@ export function Nav({
               <Link
                 href="/sign-up"
                 onClick={() => setDrawerOpen(false)}
-                className="flex items-center justify-center w-full bg-gt-medium text-gt-text-light px-5 py-3 rounded-lg text-sm font-semibold hover:bg-gt-dark transition-colors"
+                className="flex items-center justify-center w-full bg-cyan-600 text-white px-5 py-3 rounded-lg text-sm font-semibold hover:bg-cyan-700 transition-colors"
               >
                 Get Started
               </Link>

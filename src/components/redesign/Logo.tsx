@@ -2,9 +2,9 @@
  * Logo - ArmorInnovate brand logo with context-aware colors
  *
  * Brand identity:
- * - Capital G always: "ArmorInnovate"
- * - Dark background: "Green" (white) + "tryst" (teal/leaf green)
- * - Light background: "Green" (charcoal) + "tryst" (teal/medium green)
+ * - "Armor" + "Innovate" wordmark
+ * - Dark background: "Armor" (white) + "Innovate" (cyan)
+ * - Light background: "Armor" (charcoal) + "Innovate" (primary blue)
  */
 
 import Link from 'next/link';
@@ -30,11 +30,11 @@ export function Logo({
 }: LogoProps) {
   const logoContent = (
     <span className={`font-extrabold tracking-tight ${sizeClasses[size]} ${className}`}>
-      <span className={variant === 'dark' ? 'text-white' : 'text-gt-text'}>
-        Green
+      <span className={variant === 'dark' ? 'text-white' : 'text-gray-900'}>
+        Armor
       </span>
-      <span className={variant === 'dark' ? 'text-gt-leaf' : 'text-gt-medium'}>
-        tryst
+      <span className={variant === 'dark' ? 'text-cyan-400' : 'text-cyan-600'}>
+        Innovate
       </span>
     </span>
   );

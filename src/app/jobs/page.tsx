@@ -22,8 +22,7 @@ import {
   getJobsMeta,
   getJobsPreview,
 } from '@/lib/jobs';
-import { Nav } from '@/components/Nav';
-import { RedesignFooter } from '@/components/redesign';
+import { ArmorNav, ArmorFooter } from '@/components/armor';
 import { JobsClientRedesign } from './_components/JobsClientRedesign';
 
 /** Number of jobs anonymous visitors see before the auth wall. */
@@ -32,7 +31,7 @@ const ANON_PREVIEW_COUNT = 5;
 export const metadata: Metadata = {
   title: 'Career Directory',
   description:
-    'Curated sustainability jobs across climate risk, carbon markets, ESG reporting, and green finance. Every listing verified and categorized.',
+    'Curated ICS/OT security jobs across industrial cybersecurity, SCADA defense, and critical infrastructure protection. Listings sourced from LinkedIn.',
   // Career directory is for signed-in users only and carries aggregated
   // third-party data we don't want search engines or Archive.org
   // caching. Robots.txt already Disallows /jobs; this is defense in depth.
@@ -94,7 +93,7 @@ export default async function JobsRedesignPage({ searchParams }: Props) {
 
   return (
     <>
-      <Nav />
+      <ArmorNav />
       <JobsClientRedesign
         jobs={result.jobs}
         total={result.total}
@@ -105,7 +104,7 @@ export default async function JobsRedesignPage({ searchParams }: Props) {
         filters={filters}
         isAuthenticated={isAuthenticated}
       />
-      <RedesignFooter />
+      <ArmorFooter />
     </>
   );
 }
